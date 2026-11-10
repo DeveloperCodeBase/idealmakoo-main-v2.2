@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/research/iranian-teeth-ivoclar-wear/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "cd7336a4ecd62aef18677e7c88e5c23d8accdd018ed2ade97978e45ff6ac9b89",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "بررسی سایش برلیان و سوپر برلیان در مقایسه با ایوکلار | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "آزمون سایش آزمایشگاهی و مقایسه تغییر وزن دو مدل ایرانی با دندان ایوکلار."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/research/iranian-teeth-ivoclar-wear/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/iranian-teeth-ivoclar-wear/",
+    "en": "http://127.0.0.1:3100/en/research/iranian-teeth-ivoclar-wear/",
+    "tr": "http://127.0.0.1:3100/tr/research/iranian-teeth-ivoclar-wear/",
+    "ar": "http://127.0.0.1:3100/ar/research/iranian-teeth-ivoclar-wear/",
+    "ru": "http://127.0.0.1:3100/ru/research/iranian-teeth-ivoclar-wear/",
+    "x-default": "http://127.0.0.1:3100/fa/research/iranian-teeth-ivoclar-wear/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 59
+}

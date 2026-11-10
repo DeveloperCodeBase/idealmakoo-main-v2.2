@@ -1,0 +1,60 @@
+▶ 2.2 customer OTP, real authorization, moderation and service accounting
+  ✔ unconfigured SMS never claims a sent code and queue stores no plaintext phone or code (396.570808ms)
+  ✔ authorized account administrators find a phone-only customer without exposing the internal placeholder email (15.798093ms)
+  ✔ five wrong codes persist the attempt budget, expiry and replay fail closed (1801.416456ms)
+  ✔ a staff identity cannot use the public phone login path (8.71972ms)
+  ✔ phone-only customer submits a real inquiry without email; guests and unverified email accounts cannot omit it (115.080023ms)
+  ✔ visits deduplicate, a like is idempotent and comments stay invisible until another publisher approves (190.403502ms)
+  ✔ analytics totals include every authorized row beyond the display cap and respect module and locale grants (28.838053ms)
+  ✔ news broadcasts require publication review and separate consent, carry a photo/link, and freeze reviewed taxonomy (207.812137ms)
+  ✔ provider acceptance records actual IRR once and unknown AI cost remains null (32.668769ms)
+  ✔ photo delivery includes only public, clean images with current distribution rights (10.600392ms)
+  ✔ recipient unsubscribe disables the new content topic while preserving transactional request preferences (52.325279ms)
+  ✔ all eleven staff roles receive bounded optional assistance and revoked sessions cannot use it (224.308079ms)
+  ✔ new content subscriptions default off independently of existing research consent (0.608108ms)
+✔ 2.2 customer OTP, real authorization, moderation and service accounting (4874.525032ms)
+▶ User directory: real PostgreSQL pagination, current authority, HTTP routing and additive migration
+  ✔ The real migrator installs the exact source ledger and both ordered indexes; rerun changes nothing (200.670313ms)
+  ✔ Older staff and customers remain searchable and editable behind more than 1000 newer customers (228.964099ms)
+  ✔ Kind, exact role and status are applied before the page limit and HTTP forwards every query field (41.638797ms)
+  ✔ Traversal visits every existing account once and a newer insertion appears only after refresh (63.082096ms)
+  ✔ Six-digit timestamp boundaries and equal-time ID ties never skip or duplicate accounts (10.794079ms)
+  ✔ Percent, underscore, backslash and apostrophe search as literal text (8.007158ms)
+  ✔ Unknown, duplicate, contradictory and unbounded directory queries fail with validation errors (50.279836ms)
+  ✔ Cursors bind all filters, validate exact instants and reject malformed or noncanonical encodings (25.801485ms)
+  ✔ Directory DTOs exclude stored secrets and retain environment and role policy flags (11.506111ms)
+  ✔ Each page checks current account, role, MFA and HTTP session state; an old cursor grants no access (54.450065ms)
+  ✔ The independently selected older staff target still completes the existing authoritative offboarding flow (31.759152ms)
+✔ User directory: real PostgreSQL pagination, current authority, HTTP routing and additive migration (2688.501222ms)
+ℹ Actual migrator applied 43 source migrations, then reran with an unchanged ledger, index OIDs and fixture users.
+▶ Hybrid administrator user management: persistent panel edits, scoped privileges and current credentials
+  ✔ Production defaults to hybrid and invalid configuration fails explicitly (1.898844ms)
+  ✔ The directory and detail expose target-specific capabilities, safe profile fields and no stored secrets (68.068534ms)
+  ✔ Senior administrators create staff with MFA enrollment while ordinary administrators create customers only (541.484633ms)
+  ✔ The panel creates every staff role with an initial password without requiring an email provider (5477.852955ms)
+  ✔ Profile edits use separate revision and account timestamps, normalize text and reject stale or overposted input (22.676011ms)
+  ✔ Duplicate login addresses return a conflict and roll back accompanying profile changes (9.801271ms)
+  ✔ Email correction invalidates verification, all sessions and every outstanding authentication proof (553.540663ms)
+  ✔ A recovery request cannot issue a fresh password token to an email corrected after its first lookup (12.54944ms)
+  ✔ An ordinary administrator cannot change staff credentials or grants; self grants are forbidden (19.345092ms)
+  ✔ Role and access changes invalidate current sessions and challenges and enforce locale boundaries (17.133698ms)
+  ✔ Administrative password reset is scoped, current-MFA protected and separate from self-service password change (56.075705ms)
+  ✔ A stale conditional password reset returns an HTTP conflict without advancing the account or revoking proofs (19.915945ms)
+  ✔ A name edit during password hashing cannot be skipped by advancing a stale editor version (263.979198ms)
+  ✔ A email edit during password hashing cannot be skipped by advancing a stale editor version (277.549044ms)
+  ✔ A grants edit during password hashing cannot be skipped by advancing a stale editor version (254.354799ms)
+  ✔ Reset replaces the password, clears lockout, preserves enrolled MFA and never returns or audits credentials (1546.564815ms)
+  ✔ Session, administrator-role and target-role changes during password hashing reject stale reset authority (746.641797ms)
+  ✔ Environment-seeded identity remains bound to user ID after panel email, role, profile, password and status changes (759.007985ms)
+  ✔ Explicit env mode still locks staff credentials and grant management while customer corrections remain usable (10.853267ms)
+  ✔ An administrator changing their own login email must sign in again, while enrolled MFA remains intact (24.694396ms)
+  ✔ Last-super-admin and concurrent cross-deactivation guards preserve an active administrator (19.501167ms)
+✔ Hybrid administrator user management: persistent panel edits, scoped privileges and current credentials (13022.068919ms)
+ℹ tests 48
+ℹ suites 0
+ℹ pass 48
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 22315.539487

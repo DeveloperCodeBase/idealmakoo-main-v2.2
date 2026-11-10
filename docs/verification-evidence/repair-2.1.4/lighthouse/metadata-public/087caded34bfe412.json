@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/research/iranian-swiss-shear-bond/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "587e47396ba26398a4a4d4d27d39b38dbd738f078de6a8dc75264e0b6b9b534f",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Shear bonding of Iranian and Swiss composites | Ideal Makoo"
+  ],
+  "descriptions": [
+    "A laboratory report from Yazd University of Medical Sciences using 30 premolars."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/research/iranian-swiss-shear-bond/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/iranian-swiss-shear-bond/",
+    "en": "http://127.0.0.1:3100/en/research/iranian-swiss-shear-bond/",
+    "tr": "http://127.0.0.1:3100/tr/research/iranian-swiss-shear-bond/",
+    "ar": "http://127.0.0.1:3100/ar/research/iranian-swiss-shear-bond/",
+    "ru": "http://127.0.0.1:3100/ru/research/iranian-swiss-shear-bond/",
+    "x-default": "http://127.0.0.1:3100/fa/research/iranian-swiss-shear-bond/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 59
+}

@@ -1,0 +1,981 @@
+{
+  "startedAt": "2026-10-26T14:07:44.074036+00:00",
+  "completedAt": "2026-10-26T14:13:13.470833+00:00",
+  "execution": "Every tests/*.pg.mjs file, sequential separate Node test process, real PostgreSQL isolated schemas. No test-name filters. No live providers.",
+  "command": "node --env-file=<isolated-private-test-env> --import tsx --test --test-concurrency=1 --test-reporter=tap tests/<file>.pg.mjs",
+  "environment": {
+    "NODE_ENV": "test",
+    "STAFF_PROVISIONING_MODE": "panel",
+    "TSX_DISABLE_CACHE": "1",
+    "nativePostgresDumpRestore": "configured"
+  },
+  "sourceInputBefore": "c58364d5caccee5ace8136ff0456d7d47913ea9f76297208c4d136e0def88548",
+  "sourceInputAfter": "c58364d5caccee5ace8136ff0456d7d47913ea9f76297208c4d136e0def88548",
+  "sourceUnchanged": true,
+  "files": 53,
+  "counts": {
+    "tests": 598,
+    "pass": 598,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0
+  },
+  "passed": true,
+  "results": [
+    {
+      "file": "tests/server-ai-media.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 4.589,
+      "counts": {
+        "tests": 11,
+        "suites": 0,
+        "pass": 11,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "426f88053574be3d1290b78b7b1c74d60425bba19232c9f44311607e2a5136fe",
+      "testFileSha256": "f6e35c1181954ead6d782f8ced1aa59fde61eedb22c4e21b481678b8e344b5c7"
+    },
+    {
+      "file": "tests/server-ai-session.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 3.477,
+      "counts": {
+        "tests": 9,
+        "suites": 0,
+        "pass": 9,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "48ab46c26f19cc1c6c01135851579eb8e4f0364faa6272134e2c86762deea19b",
+      "testFileSha256": "8d4af9d9458fcfaf45570f8477a5422f0e6cb7563aa839688e8331229179fdb2"
+    },
+    {
+      "file": "tests/server-auth-credentials.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 21.344,
+      "counts": {
+        "tests": 20,
+        "suites": 0,
+        "pass": 20,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "548054d05271556aae81bbcbba767cc0c9e104159e3bcf49d1275b7ed05e7c27",
+      "testFileSha256": "7a070c94ae7f2a9ac6affa87cb2c8816fd33baf24df82e1994fac18f3a2e3f78"
+    },
+    {
+      "file": "tests/server-auth-expiry.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 3.873,
+      "counts": {
+        "tests": 6,
+        "suites": 0,
+        "pass": 6,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "0f5dc69e95044e949e39db52fdb6082f1d2638b8dc858f93537948586ae40a99",
+      "testFileSha256": "1c111a5ff065b3e150d989f56b44f5730afc3220800cb0dd469ad708ca5c4e11"
+    },
+    {
+      "file": "tests/server-auth-limits.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 4.056,
+      "counts": {
+        "tests": 4,
+        "suites": 0,
+        "pass": 4,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "9f9cb2a12c36139468728f002dc20754675ac356da04d128d2e601312efa4653",
+      "testFileSha256": "0aa8a31a3056722fc1471cbefb0e72f3390ddbeac5aad2ea141fa1a09446cbd9"
+    },
+    {
+      "file": "tests/server-automation.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 5.316,
+      "counts": {
+        "tests": 17,
+        "suites": 0,
+        "pass": 17,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "0fb7c68a85a18e2c142a08f7db9b776b9ad21b0fb1247bd036737887d508a4a3",
+      "testFileSha256": "0132b572126dbf628dd4f2d9a68e5e50bd8e32826843c9264bed0aa773bebbc6"
+    },
+    {
+      "file": "tests/server-campaigns.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 4.966,
+      "counts": {
+        "tests": 19,
+        "suites": 0,
+        "pass": 19,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "7641f62b5baaf9310f618ab40ac175df27177a2e7e6642f01592fa524ee9acad",
+      "testFileSha256": "df31e24c970f46c52e40ebf2c8096c51789e739cfd38dc50df3e0f6c02e9c6c5"
+    },
+    {
+      "file": "tests/server-communication-channels.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 5.637,
+      "counts": {
+        "tests": 25,
+        "suites": 0,
+        "pass": 25,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "c4bef6a7b4d35407c009f3339d5f066f145c8ae5723fecf72bbdf6681466a046",
+      "testFileSha256": "6e1897a031bf3ce5f4d1a125cbefb56a79dea8363623c33e44ae79c1db11bae2"
+    },
+    {
+      "file": "tests/server-company-certificates.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 3.715,
+      "counts": {
+        "tests": 11,
+        "suites": 0,
+        "pass": 11,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "b9552cc76c893d69411e135379bbe5fded197f42a6b08db94a9283ee7407638e",
+      "testFileSha256": "554265256b91919b3d9af7b266c7eb09e6d1dddae814ee9fcfdb4748cd2291ee"
+    },
+    {
+      "file": "tests/server-contact-campaigns.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 3.562,
+      "counts": {
+        "tests": 13,
+        "suites": 0,
+        "pass": 13,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "1e9aa575217715306d5d2a06ab7af85d285bbf6d4daabf0c2ef117709b0adba9",
+      "testFileSha256": "aa308c421319efd963261c03af4b7123409a8fdf716310adaa9c0cabf0d9fae1"
+    },
+    {
+      "file": "tests/server-content-ai.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 3.639,
+      "counts": {
+        "tests": 15,
+        "suites": 0,
+        "pass": 15,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "5d55af5a63dfa60be69c1461025883d3eb2929ba3439c19a0471f255dd895406",
+      "testFileSha256": "dc784312915225b74bdf1609903c34dd0b8666e7251ff5d2972a8b21414b970c"
+    },
+    {
+      "file": "tests/server-content-token-expiry.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 3.82,
+      "counts": {
+        "tests": 1,
+        "suites": 0,
+        "pass": 1,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "8cf8acecc7a4a4f15e9d8fd98d9ac8591e03ad42c3c91d7e0eb98287a864d9b4",
+      "testFileSha256": "0de9618293ebf187fb1b8e3532bdd31a6f724ea2a5035421771e115fee7671b0"
+    },
+    {
+      "file": "tests/server-crm-io.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 3.272,
+      "counts": {
+        "tests": 17,
+        "suites": 0,
+        "pass": 17,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "d92849b2e7d7be58fe523aabc0bafcc57d83238222ba3e757a0776aac5d0a7c9",
+      "testFileSha256": "d28bd1976bbd8b70f8003989dbc63f135451aac22026f6e8009458a8dbcd54fa"
+    },
+    {
+      "file": "tests/server-discovery.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 2.424,
+      "counts": {
+        "tests": 9,
+        "suites": 0,
+        "pass": 9,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "d789ec16d6afc5f0bcc25765aa39713ba4f8b78cefa4ad13fd12687ee1602f8a",
+      "testFileSha256": "4f81adfe8205e6dab4900b316aa91e47d16be6be1ccb2686153d6bfc33ccce66"
+    },
+    {
+      "file": "tests/server-editor-workflows.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 4.147,
+      "counts": {
+        "tests": 17,
+        "suites": 0,
+        "pass": 17,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "ce5ea23f084a0781e4c5622992899b95f4297e36d3e80dfbdc3e4b7bef0b0274",
+      "testFileSha256": "5b3f6118991390c43728bc5480a9a0a912a0d53d5b299f71780e9a1d601f3c81"
+    },
+    {
+      "file": "tests/server-expansion-220.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 5.534,
+      "counts": {
+        "tests": 14,
+        "suites": 0,
+        "pass": 14,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "e3694c0c0a62003973ff5373efb46dce07daa3bcb992837c0354008884247844",
+      "testFileSha256": "6665dd3bbea92cbc7256fc6a22f770c06f8b762869c17d708e1b96cf2377f33b"
+    },
+    {
+      "file": "tests/server-glossary.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 3.292,
+      "counts": {
+        "tests": 8,
+        "suites": 0,
+        "pass": 8,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "ff6e04df5e8d205184c3d272f58b1be7e42e004184bbdd128c6c332556df2e2f",
+      "testFileSha256": "d7023af04ae66b14be1f4e52b550a69f063e6938ae781c6d69cdca935a79e210"
+    },
+    {
+      "file": "tests/server-media-authorization.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 2.911,
+      "counts": {
+        "tests": 4,
+        "suites": 0,
+        "pass": 4,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "e6621570bebbaef166adcd27c2bf287a6f1610b8272dba1fb11347a3702353bb",
+      "testFileSha256": "6633d135529be4475daed85ada42574f95200e3d2a70d4296d72822bb87d9763"
+    },
+    {
+      "file": "tests/server-media-response.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 0.375,
+      "counts": {
+        "tests": 4,
+        "suites": 0,
+        "pass": 4,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "7238442b55937808955df7a42dc5378e26c1905e1d0ea2d1396f0f8f4c585c42",
+      "testFileSha256": "aa327535bcd0997b8f8a0ea803a7b6bce7bfe1e68dcc9d6cf4f6f6860ee032f8"
+    },
+    {
+      "file": "tests/server-mfa-recovery.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 5.382,
+      "counts": {
+        "tests": 6,
+        "suites": 0,
+        "pass": 6,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "08da651b4ccfe3729b3b6300fdac38d1a7928468e83d0f7ef811dada56811491",
+      "testFileSha256": "531120108b73997fc152e50bb62a1e57aa79d3fb51236b2159cef191627b4066"
+    },
+    {
+      "file": "tests/server-notification-policy.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 4.47,
+      "counts": {
+        "tests": 17,
+        "suites": 0,
+        "pass": 17,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "bd530208a041623bf9ed7eab1058ea871d7de598de290df9a1e9b814d41f888f",
+      "testFileSha256": "d61395310a2b6fe0a152093398d393558288e1d5051f68bab46e5636f2d3b266"
+    },
+    {
+      "file": "tests/server-notification-templates.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 3.974,
+      "counts": {
+        "tests": 16,
+        "suites": 0,
+        "pass": 16,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "e94f6e605299097a02dec0e25eef1a1bcf18a068249f8526ecbe53e8a7c89e9b",
+      "testFileSha256": "429449a73742a48fae05ed32ddb3cbbb187901fb0a873f0f0c5cf3c493757356"
+    },
+    {
+      "file": "tests/server-page-lifecycle.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 6.11,
+      "counts": {
+        "tests": 17,
+        "suites": 0,
+        "pass": 17,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "108dad29a0bc50cf54c47200dc21e66c00ca81f4c669da27e0431a4ad0043586",
+      "testFileSha256": "39140f42cc961e9b78eedad5e266344f5eb56248a6ca921fbfa7805350c204a6"
+    },
+    {
+      "file": "tests/server-page-translation.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 2.853,
+      "counts": {
+        "tests": 5,
+        "suites": 0,
+        "pass": 5,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "b53c8857d85043852502f1fdc0bb8044e182c956e577004380f6a230aac45135",
+      "testFileSha256": "4bd2e0ac7f245bbf046f19d9054bd29a50b5636587e3aadde556ec9497e34aaa"
+    },
+    {
+      "file": "tests/server-panel-staff-mfa-reset.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 41.143,
+      "counts": {
+        "tests": 13,
+        "suites": 0,
+        "pass": 13,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "b91b4229c0b6bca42c47f7634182820af74c1e5ff7479f72cc121906a29a2679",
+      "testFileSha256": "51f00218be2c087f694fc62d8724ca608638115f47ffe9334cc8bb2432e33fc3"
+    },
+    {
+      "file": "tests/server-portal-mapping.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 3.525,
+      "counts": {
+        "tests": 7,
+        "suites": 0,
+        "pass": 7,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "d554b87cdb8574fa6987fc2922569d81189927194afc24b7a8f411356f928505",
+      "testFileSha256": "75c286d623b84b4ff511857676cab588742bc9fadb986b842c6aebae17c25ca3"
+    },
+    {
+      "file": "tests/server-privacy.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 10.093,
+      "counts": {
+        "tests": 12,
+        "suites": 0,
+        "pass": 12,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "8d7ee7f69290b1b0bfe42608730ec9dc48bfa2bb8646d78f41421f1fc4f062d6",
+      "testFileSha256": "6a3f479c8790e396da4c8618a5cf6719670b5b6a40a997ae7f43d1de1ea3c27b"
+    },
+    {
+      "file": "tests/server-product-registry.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 3.53,
+      "counts": {
+        "tests": 9,
+        "suites": 0,
+        "pass": 9,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "8a4e810d25907a0ad75f87e98f11461ba2bbeca68c01b33859d3cf2d1e117e24",
+      "testFileSha256": "387dfcc5d1fb99bc2f5e17384618f3dac2c1480b63aa246fe36379e8de5b4cd1"
+    },
+    {
+      "file": "tests/server-public-surface.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 10.178,
+      "counts": {
+        "tests": 13,
+        "suites": 0,
+        "pass": 13,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "232439558d2c8060c7e084940289d4db7ccf8e0747f61a8dbf207df1576f8b34",
+      "testFileSha256": "d31eb561fcb325fba26d624acb94c65e3b12ad6fe67da2eeb8758b769c9b372e"
+    },
+    {
+      "file": "tests/server-resource-notifications.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 4.338,
+      "counts": {
+        "tests": 15,
+        "suites": 0,
+        "pass": 15,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "40f7f67334e86895149d6a812164499553a70cf5f9555f981eac4e20b870e719",
+      "testFileSha256": "e4e2cfa730c8a02e12774e930a3407d4b24ed4afbe5f5d869c2b0933169cce62"
+    },
+    {
+      "file": "tests/server-resource-pages.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 8.691,
+      "counts": {
+        "tests": 14,
+        "suites": 0,
+        "pass": 14,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "d270a4c0dda0e5c3e9908ee08a5558b54b0bcb707627a4d293f9d1d3853d2fd1",
+      "testFileSha256": "ef8c1ccad6e6e6b0e5dd2d1209b63e481271b843b56992e95f9504b83aebc5ab"
+    },
+    {
+      "file": "tests/server-resource-uploads.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 5.637,
+      "counts": {
+        "tests": 12,
+        "suites": 0,
+        "pass": 12,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "9e2b481490e7df39e8337554850d5111036e5b3dfd39d182f34dd0c3395b5f42",
+      "testFileSha256": "a7a3730751de2a23ae15716c0e461b0084470039c0107f3dde946f2f79f64428"
+    },
+    {
+      "file": "tests/server-restore-security.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 12.472,
+      "counts": {
+        "tests": 5,
+        "suites": 0,
+        "pass": 5,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "59412014c19368abace756670ba79c78dbfa28a602a297ecc9350da5ceadc612",
+      "testFileSha256": "a2a28c5064e5678f8da31c124046445be022a6189206457778211f5d58982ba9"
+    },
+    {
+      "file": "tests/server-session-revalidation.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 3.882,
+      "counts": {
+        "tests": 14,
+        "suites": 0,
+        "pass": 14,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "fc0c64a8dd0974382aa77d38e27d07a45b461b7e1ad55787bcea76d15f045c79",
+      "testFileSha256": "2548fe1e43b59488b49f4e412b41aa4f9544ace0eb1df270f841702a18738e0b"
+    },
+    {
+      "file": "tests/server-site-policy.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 3.332,
+      "counts": {
+        "tests": 5,
+        "suites": 0,
+        "pass": 5,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "e0ac93797580ab620bc8158bde780234547155806cb7f1f0fa60d32012af5ee3",
+      "testFileSha256": "429ff9f63430de5fa946c88fd13f90fb1f66c51ac2d810e88adcbbbe9658079a"
+    },
+    {
+      "file": "tests/server-source-pages.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 4.711,
+      "counts": {
+        "tests": 5,
+        "suites": 0,
+        "pass": 5,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "9264cc2b53390c1e75e8f23338fec6d5aaa875edbc8e1c88c7f356479f09200d",
+      "testFileSha256": "09d4a7f634f8fd0dd026bd833fc4a5536e1122500f5b0ae0931deec8441d150d"
+    },
+    {
+      "file": "tests/server-staff-lifecycle.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 5.473,
+      "counts": {
+        "tests": 9,
+        "suites": 0,
+        "pass": 9,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "ad089d0b16da5c4c93b4d8f765ab617dbf8b172f4783a42c5998d5f700478d17",
+      "testFileSha256": "827ea565f8d0577f25d55f5fc5135f1253ca283cd2d1c8fe7e74652757f071b3"
+    },
+    {
+      "file": "tests/server-staff-mfa-reset.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 7.197,
+      "counts": {
+        "tests": 6,
+        "suites": 0,
+        "pass": 6,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "2f5d08c409bb72f6267cb50dda70c62ae71ffe574de0d68b69f32c34bb24b236",
+      "testFileSha256": "a9e01159ba06bbe22f5abb1f194850e8f60136fcfcff9b2f3b32f5cb762caa77"
+    },
+    {
+      "file": "tests/server-staff-provisioning.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 15.786,
+      "counts": {
+        "tests": 12,
+        "suites": 0,
+        "pass": 12,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "be350d045e3694c5105390db85043f82c6215c3bf410274ae46ac6bcbbf34ff8",
+      "testFileSha256": "608b966d1394db9f1cb9c55e330fed316347c23a3bb5e874771258529149fbec"
+    },
+    {
+      "file": "tests/server-storage-policy.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 3.48,
+      "counts": {
+        "tests": 13,
+        "suites": 0,
+        "pass": 13,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "1c0a3ec96021e9fa9df1c9e4d85f76331e01a26796ad7a3dcafea9031855bdd3",
+      "testFileSha256": "45ccc5abda9d72e809ef7b306b324ff1fc92c2cf9c9a525081cbac383c1a3283"
+    },
+    {
+      "file": "tests/server-task-reminder-policy.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 3.435,
+      "counts": {
+        "tests": 10,
+        "suites": 0,
+        "pass": 10,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "a1b80daaf44c0ee68bdb3ca82b5ae159896c89c3d8531d222199cd33a88c274d",
+      "testFileSha256": "85cdae00778e40cd4009bf360db1095f0965a225bd15eb00e2b258f2bc004878"
+    },
+    {
+      "file": "tests/server-task-reminder-upgrade.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 2.273,
+      "counts": {
+        "tests": 1,
+        "suites": 0,
+        "pass": 1,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "74a1efbfbc765722adcaee110d05c0e3d7913a96cb5db87296e50240ab43aef4",
+      "testFileSha256": "e308629b716bc8dd91185de40fca562e0c68851e6e322c8c5ce4fe7f44748ad9"
+    },
+    {
+      "file": "tests/server-tender-envelopes.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 17.189,
+      "counts": {
+        "tests": 10,
+        "suites": 0,
+        "pass": 10,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "9ed91219912d90b16e6feb0b6bfa726ca3182d70c2adf86165a4b0299ba558b2",
+      "testFileSha256": "9f2e56b6ca5e013d7eb33da6db2bb30609da6f2e6845120fe3355354633db118"
+    },
+    {
+      "file": "tests/server-user-directory.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 4.119,
+      "counts": {
+        "tests": 12,
+        "suites": 0,
+        "pass": 12,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "a86b1050741a410b094e0fe3eea6a4a0a737221a0945a8eba984c1dff5d5eb33",
+      "testFileSha256": "488a4dd2fa5f3786e2aa147ae171718d05737abda3a1a0ab470fe93662e10410"
+    },
+    {
+      "file": "tests/server-user-management.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 13.535,
+      "counts": {
+        "tests": 22,
+        "suites": 0,
+        "pass": 22,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "38ec2099ab18d31183f733c53436eb71f80b75bd7ded9394e173bf8da82bb8bc",
+      "testFileSha256": "835efefc5098eddffcb2707d6295fa8eca7aff61fb430a36a3afe7612ddefa63"
+    },
+    {
+      "file": "tests/server-workspace-calendar.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 0.442,
+      "counts": {
+        "tests": 3,
+        "suites": 0,
+        "pass": 3,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "fa211353401319b6faaac659ae6c13fc962bddb542e86735077d058e47d1a48c",
+      "testFileSha256": "5076aced07bf6bcd14332f97bdb49c257acff33298d60ee52cecb8d90b16c6f0"
+    },
+    {
+      "file": "tests/server-workspace-commercial.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 6.423,
+      "counts": {
+        "tests": 11,
+        "suites": 0,
+        "pass": 11,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "09c797ba827506d004f9ff3572725ae8345c6776f8acbfc25d03e12bbef2359f",
+      "testFileSha256": "d76a20552d9e554e0bea223b5b40afe9b77420e938b45465cedabdf99ed96a5a"
+    },
+    {
+      "file": "tests/server-workspace-domains.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 6.634,
+      "counts": {
+        "tests": 17,
+        "suites": 0,
+        "pass": 17,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "dab0950757a74353a4505f0f5c9660f7ff6c22cc979ad166ddd1d00a18803a20",
+      "testFileSha256": "538740358ba226c16e4144745516951ecd5f2cc681e1cfb202c0f0b826747511"
+    },
+    {
+      "file": "tests/server-workspace-pipelines.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 5.256,
+      "counts": {
+        "tests": 12,
+        "suites": 0,
+        "pass": 12,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "051c0022ba1f4d78b1daee6cd9691acfb7601209e95bd71cdd602ac8025303ce",
+      "testFileSha256": "1af2e0735a06ded2a35c5143d7357e9f6f6386bc7543ef047557db28fd9ad343"
+    },
+    {
+      "file": "tests/server-workspace-policy.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 1.068,
+      "counts": {
+        "tests": 16,
+        "suites": 0,
+        "pass": 16,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "4f14fff397628bdc1b871111b64a21b8e4d8e8fe3b0ca64f1f035c0fec6f8cdd",
+      "testFileSha256": "35813b1d0ffebb002007ef3ad4c59148f45ce7634d105b5c8a20462c5f2e9340"
+    },
+    {
+      "file": "tests/server-workspace-routing.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 3.782,
+      "counts": {
+        "tests": 9,
+        "suites": 0,
+        "pass": 9,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "0870256d650275683c7936b87d539bab7f14256a13ebd017ccfec8842e48dd63",
+      "testFileSha256": "9f49be0213e457f4c8b60c1738b06f85766831d1f19e9fa9abc962ee14c9b69b"
+    },
+    {
+      "file": "tests/server-workspace-scopes.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 4.424,
+      "counts": {
+        "tests": 9,
+        "suites": 0,
+        "pass": 9,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "8b293e68563af87f3857b7cbfe75bdf594395abfd5879a1e2009d15b8fd958d5",
+      "testFileSha256": "1606bc8da4f2b8589a0f7b5f78997c7b40b18890dc1d44d9e68041b8ef7cd8d4"
+    },
+    {
+      "file": "tests/server-workspace.integration.pg.mjs",
+      "exitCode": 0,
+      "timeout": false,
+      "seconds": 4.46,
+      "counts": {
+        "tests": 17,
+        "suites": 0,
+        "pass": 17,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "passed": true,
+      "logSha256": "d73dd255b191364bb72da7939d8bbf0e373e054f620be0ebbae2215c1cb2f669",
+      "testFileSha256": "a2da1e427aee0c72fd0827526be6ddfea7b6842cf3ef3be69086341e9f2df15a"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "kind": "candidate02-original-update-preconditions",
+  "status": "passed",
+  "completedAt": "2026-10-25T08:06:16.154942+00:00",
+  "priorSourceZipSha256": "2deb94d17e0852d75102461fa566555c973f632320729a366a73b86ae9381574",
+  "sourceZipSha256": "05f9fada3a33e7df149012e0eeae0824e9fb3dda93b4387a70278626dd767578",
+  "releaseManifestSha256": "45e93bf57a3113881d10052dd61d9ac831a36af0328a7eb584bb43aa14a73e92",
+  "sourceFilesVerified": 3535,
+  "priorReleaseDirectory": "/var/www/idealmakoo-acceptance-recovery/releases/20261025T052814Z-0539a9c2",
+  "priorAppImageId": "sha256:9af4468d1f0c2180e232afc868338c452375d4edab4fabaffa41f469135892c5",
+  "environmentSha256": "6968a14b8dbdefa1c824407ae10866e2981353f21b5ad5b96b74020db656d3d1",
+  "backupsBeforeUpdate": {
+    "idealmakoo-20261025T060641Z-2cf8c280.tar.age": 178578184
+  },
+  "criticalOperationsAndMigrationFilesUnchanged": 75,
+  "preUpdateHealthExitCode": 0,
+  "healthOverridesUnchanged": {
+    "APP_HEALTH_TIMEOUT_SECONDS": "90",
+    "WORKER_HEALTH_TIMEOUT_SECONDS": "90",
+    "APP_HEALTH_START_PERIOD_SECONDS": "600",
+    "WORKER_HEALTH_START_PERIOD_SECONDS": "600"
+  },
+  "fullAntivirus": true,
+  "resourceGuardBypass": false,
+  "existingSourceAndReceiptsPreserved": true
+}

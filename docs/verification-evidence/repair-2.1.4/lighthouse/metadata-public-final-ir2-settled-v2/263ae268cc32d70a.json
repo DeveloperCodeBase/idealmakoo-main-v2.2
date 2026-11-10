@@ -1,0 +1,71 @@
+{
+  "url": "http://127.0.0.1:3100/en/products/apple/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "d76ed5f60528e4f69231ecd10db94f33e5316f7a1cd553262c1a38173a16dae4",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Apple denture teeth | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Four-layer Apple teeth combine composite material with a choice of moulds for removable prostheses."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/products/apple/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/apple/",
+    "en": "http://127.0.0.1:3100/en/products/apple/",
+    "tr": "http://127.0.0.1:3100/tr/products/apple/",
+    "ar": "http://127.0.0.1:3100/ar/products/apple/",
+    "ru": "http://127.0.0.1:3100/ru/products/apple/",
+    "x-default": "http://127.0.0.1:3100/fa/products/apple/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Apple denture teeth",
+      "description": "Four-layer Apple teeth combine composite material with a choice of moulds for removable prostheses.",
+      "image": "http://127.0.0.1:3100/media/official/1686377879.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "APPLE"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/en/products/apple/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 72
+}

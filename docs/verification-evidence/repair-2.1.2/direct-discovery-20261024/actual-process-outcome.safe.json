@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "kind": "operations-03-owned-suite-actual-wait",
+  "startedAt": "2026-10-24T11:45:30.217091+00:00",
+  "completedAt": "2026-10-24T11:46:54.327252+00:00",
+  "durationSeconds": 84.110172,
+  "pid": 58869,
+  "startTicks": 3206969,
+  "exitCode": 0,
+  "actualChildWaitConsumed": true,
+  "sourceBefore": {
+    "sha256": "de90dfabf8ddc57473a5943dfb03ba07b35b78f46e175a6e7ce9284fe2fb0558",
+    "files": 987
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/mission/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "84e2a2f7ef1fcc3e882c07ccd7a84ff2d86bd55b7fce60ec98376af241909674",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Misyon ve ilkeler | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Dürüstlük, kalite, müşteri memnuniyeti ve diş hekimliği topluluğuyla iş birliği."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/mission/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/mission/",
+    "en": "http://127.0.0.1:3100/en/mission/",
+    "tr": "http://127.0.0.1:3100/tr/mission/",
+    "ar": "http://127.0.0.1:3100/ar/mission/",
+    "ru": "http://127.0.0.1:3100/ru/mission/",
+    "x-default": "http://127.0.0.1:3100/fa/mission/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 53
+}

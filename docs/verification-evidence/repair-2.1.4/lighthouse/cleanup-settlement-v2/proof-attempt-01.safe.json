@@ -1,0 +1,350 @@
+{
+  "format": "editor-cleanup-controlled-proof-public-derivative-v1",
+  "sourceProofSha256": "9c07c488c46c27cd9c139a3a3a5b7cca46d33e963c3e7d579bf18f757aaab05b",
+  "sourceExecutionReceiptSha256": "d8d9fbb9068e88e0a7a3e4a8ddc832e9b930479b9c9a4c600cc285d0bc51c1c1",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "topologyScope": "Separate guarded disposable fixture and direct native Next; no Lighthouse scoring, production proxy equivalence or performance improvement claim.",
+  "originalHelperSha256": "dfd0442630d3c37e6e650059dc81f8284ce358fda90d20a9ee182010601ce076",
+  "candidateHelperSha256": "0cb0da0aae8032a720b6e88cc5bca942eeb7222eeec7710fc9846017aea258be",
+  "proofHelperSha256": "f6511a7438caa4de7272629c8a82205ebfe385bedf2e00c62562c22419826a8d",
+  "startedAt": "2026-10-25T21:04:35.598Z",
+  "finishedAt": "2026-10-25T21:04:58.813Z",
+  "status": "error",
+  "errorCode": "PROOF_CANDIDATE_APP_SENT_RELEASE",
+  "actualOuterCommandExit": 2,
+  "durationSeconds": 24.628,
+  "originalFinalTopologyBeforePassed": true,
+  "originalFinalTopologyAfterPassed": true,
+  "sameCleanupBudgetMs": 15000,
+  "cases": [
+    {
+      "name": "original-pending-acquisition",
+      "helper": "original",
+      "entry": "held-real-acquisition-response",
+      "startedAt": "2026-10-25T21:04:35.878Z",
+      "events": [
+        {
+          "kind": "normal-document-reload-completed",
+          "milliseconds": 2434.477
+        },
+        {
+          "kind": "nested-detail-response-held",
+          "milliseconds": 2974.17
+        },
+        {
+          "kind": "nested-detail-response-released",
+          "milliseconds": 2991.321
+        },
+        {
+          "kind": "actual-acquisition-response-held",
+          "milliseconds": 3058.271,
+          "httpStatus": 201
+        },
+        {
+          "kind": "cleanup-helper-entered",
+          "milliseconds": 3064.005
+        },
+        {
+          "kind": "robots-request",
+          "milliseconds": 3071.756
+        },
+        {
+          "kind": "held-response-delivery-cancelled",
+          "milliseconds": 4265.317
+        },
+        {
+          "kind": "cleanup-helper-settled",
+          "milliseconds": 18065.079
+        }
+      ],
+      "expectedOriginalCleanupFailure": true,
+      "status": "passed",
+      "networkObserverInstalledBeforeNavigation": true,
+      "realRoleMfaAndCsrfVerified": true,
+      "nestedMarkerAbsentObserved": true,
+      "cleanupResolved": false,
+      "cleanupErrorCode": "AUDIT_EDITOR_CLEANUP_TIMEOUT",
+      "cleanup": {
+        "policy": "authenticated-robots-committed-lease-release-v1",
+        "beforeCount": 1,
+        "trackedCount": 1,
+        "remainingCount": 1,
+        "releasedCount": 0,
+        "observedReleaseRequests": 0,
+        "observedReleaseResponses": 0,
+        "observedReleaseFailures": 0,
+        "observedRequestFailures": 0,
+        "durationMs": 15000,
+        "budgetMs": 15000,
+        "settledForMs": 14932,
+        "success": false,
+        "destinationVerified": true,
+        "navigationStatus": 200,
+        "releaseStatuses": []
+      },
+      "cleanupWallTimeMs": 15001,
+      "laterExplicitOwnedCleanup": {
+        "method": "normal authenticated CSRF-protected DELETE using the actual returned token retained only in memory",
+        "httpStatus": 200,
+        "activeOwnedLeases": 0,
+        "doesNotChangeOriginalCleanupFailure": true
+      },
+      "heldResponseDeliveryCancelledAfterNavigation": true,
+      "committedLeaseActionCounts": {
+        "content.lease.acquired": 2,
+        "content.lease.released": 2
+      },
+      "interceptionsSettled": true,
+      "networkObserverDisposed": true,
+      "fixtureShutdown": {
+        "actorInactive": true,
+        "allSessionsRevoked": true
+      },
+      "finalOwnedLeaseCounts": {
+        "rows": 0,
+        "active": 0
+      },
+      "finishedAt": "2026-10-25T21:04:54.030Z"
+    },
+    {
+      "name": "candidate-pending-acquisition",
+      "helper": "candidate",
+      "entry": "held-real-acquisition-response",
+      "startedAt": "2026-10-25T21:04:54.031Z",
+      "events": [
+        {
+          "kind": "normal-document-reload-completed",
+          "milliseconds": 2006.397
+        },
+        {
+          "kind": "nested-detail-response-held",
+          "milliseconds": 2197.729
+        },
+        {
+          "kind": "nested-detail-response-released",
+          "milliseconds": 2213.706
+        },
+        {
+          "kind": "actual-acquisition-response-held",
+          "milliseconds": 2286.71,
+          "httpStatus": 201
+        },
+        {
+          "kind": "cleanup-helper-entered",
+          "milliseconds": 2293.25
+        },
+        {
+          "kind": "actual-acquisition-response-released",
+          "milliseconds": 3494.501
+        },
+        {
+          "kind": "robots-request",
+          "milliseconds": 4044.607
+        },
+        {
+          "kind": "cleanup-helper-settled",
+          "milliseconds": 4691.617
+        }
+      ],
+      "expectedOriginalCleanupFailure": false,
+      "status": "incomplete",
+      "networkObserverInstalledBeforeNavigation": true,
+      "realRoleMfaAndCsrfVerified": true,
+      "nestedMarkerAbsentObserved": true,
+      "cleanup": {
+        "policy": "authenticated-robots-settled-committed-lease-release-v2",
+        "success": true,
+        "destinationVerified": true,
+        "beforeCount": 1,
+        "trackedCount": 1,
+        "remainingCount": 0,
+        "releasedCount": 1,
+        "observedReleaseRequests": 0,
+        "observedReleaseResponses": 0,
+        "observedReleaseFailures": 0,
+        "observedRequestFailures": 0,
+        "releaseStatuses": [],
+        "durationMs": 2397,
+        "budgetMs": 15000,
+        "settledForMs": 510,
+        "settlementSucceeded": true,
+        "settlementDurationMs": 1747,
+        "settlementQuietForMs": 517,
+        "pendingRequestsAtNavigation": 0,
+        "documentReady": true,
+        "contentReady": true,
+        "nestedEditorsReady": true,
+        "collaborationReady": true,
+        "formsPanelCount": 1,
+        "collaborationPanelCount": 1,
+        "navigationStatus": 200
+      },
+      "cleanupResolved": true,
+      "cleanupWallTimeMs": 2398,
+      "interceptionsSettled": true,
+      "networkObserverDisposed": true,
+      "fixtureShutdown": {
+        "actorInactive": true,
+        "allSessionsRevoked": true
+      },
+      "finalOwnedLeaseCounts": {
+        "rows": 0,
+        "active": 0
+      },
+      "finishedAt": "2026-10-25T21:04:58.747Z"
+    }
+  ],
+  "checks": [
+    {
+      "code": "PROOF_REAL_LOGIN",
+      "passed": true,
+      "httpStatus": 200
+    },
+    {
+      "code": "PROOF_REAL_MFA_ENROLL",
+      "passed": true,
+      "httpStatus": 200
+    },
+    {
+      "code": "PROOF_ENROLLMENT_RETURNED",
+      "passed": true
+    },
+    {
+      "code": "PROOF_REAL_MFA_CONFIRM",
+      "passed": true,
+      "httpStatus": 200
+    },
+    {
+      "code": "PROOF_AUTHENTICATED_SESSION",
+      "passed": true,
+      "httpStatus": 200
+    },
+    {
+      "code": "PROOF_AUTHENTICATED_OWNED_ROLE",
+      "passed": true
+    },
+    {
+      "code": "PROOF_STAFF_WORKSPACE_ACCESS",
+      "passed": true,
+      "httpStatus": 200
+    },
+    {
+      "code": "PROOF_INITIAL_EDITOR_HOLDS_ONE_LEASE",
+      "passed": true
+    },
+    {
+      "code": "PROOF_NESTED_EDITOR_MARKER_INITIALLY_ABSENT",
+      "passed": true
+    },
+    {
+      "code": "PROOF_ACQUISITION_PENDING_IN_DOCUMENT",
+      "passed": true
+    },
+    {
+      "code": "PROOF_PENDING_ACQUISITION_ACTUALLY_COMMITTED",
+      "passed": true
+    },
+    {
+      "code": "PROOF_ORIGINAL_RACE_REPRODUCED",
+      "passed": true
+    },
+    {
+      "code": "PROOF_OWNED_POST_FAILURE_CLEANUP_SCOPE",
+      "passed": true
+    },
+    {
+      "code": "PROOF_LATER_EXPLICIT_OWNED_RELEASE_HTTP",
+      "passed": true,
+      "httpStatus": 200
+    },
+    {
+      "code": "PROOF_LATER_EXPLICIT_RELEASE_ZERO_ACTIVE",
+      "passed": true
+    },
+    {
+      "code": "PROOF_INTERCEPTION_LIFECYCLE",
+      "passed": true
+    },
+    {
+      "code": "PROOF_REAL_LOGOUT",
+      "passed": true,
+      "httpStatus": 200
+    },
+    {
+      "code": "PROOF_CASE_CLOSED",
+      "passed": true
+    },
+    {
+      "code": "PROOF_REAL_LOGIN",
+      "passed": true,
+      "httpStatus": 200
+    },
+    {
+      "code": "PROOF_REAL_MFA_ENROLL",
+      "passed": true,
+      "httpStatus": 200
+    },
+    {
+      "code": "PROOF_ENROLLMENT_RETURNED",
+      "passed": true
+    },
+    {
+      "code": "PROOF_REAL_MFA_CONFIRM",
+      "passed": true,
+      "httpStatus": 200
+    },
+    {
+      "code": "PROOF_AUTHENTICATED_SESSION",
+      "passed": true,
+      "httpStatus": 200
+    },
+    {
+      "code": "PROOF_AUTHENTICATED_OWNED_ROLE",
+      "passed": true
+    },
+    {
+      "code": "PROOF_STAFF_WORKSPACE_ACCESS",
+      "passed": true,
+      "httpStatus": 200
+    },
+    {
+      "code": "PROOF_INITIAL_EDITOR_HOLDS_ONE_LEASE",
+      "passed": true
+    },
+    {
+      "code": "PROOF_NESTED_EDITOR_MARKER_INITIALLY_ABSENT",
+      "passed": true
+    },
+    {
+      "code": "PROOF_ACQUISITION_PENDING_IN_DOCUMENT",
+      "passed": true
+    },
+    {
+      "code": "PROOF_PENDING_ACQUISITION_ACTUALLY_COMMITTED",
+      "passed": true
+    },
+    {
+      "code": "PROOF_CANDIDATE_NORMAL_APP_RELEASE",
+      "passed": true
+    },
+    {
+      "code": "PROOF_CANDIDATE_EXACT_RELEASE_AND_ZERO_ACTIVE",
+      "passed": true
+    },
+    {
+      "code": "PROOF_CANDIDATE_APP_SENT_RELEASE",
+      "passed": false
+    }
+  ],
+  "businessContentChanged": null,
+  "businessWorkloadComparisonPerformed": false,
+  "browserClosed": true,
+  "receivedSignals": [],
+  "interrupted": false,
+  "omissions": [
+    "Private database identity and runtime paths",
+    "Raw command hashes, arguments, logs, process and fixture identifiers",
+    "Tokens, credentials, cookies, response bodies, DOM and browser images"
+  ],
+  "interpretation": "The caught original-helper timeout is an expected controlled reproduction, separate from the actual outer proof-process exit. Attempt01 actual exit2 is a retained overstrict proof-harness assertion failure; its zero observed DELETE events are unchanged. Attempt02 uses the existing exact committed-release proof and no injected candidate DELETE."
+}

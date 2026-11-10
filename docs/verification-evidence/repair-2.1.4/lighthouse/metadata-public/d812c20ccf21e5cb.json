@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/factory-visit/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "4f5c363bdfa8cbf282a80fd97c7c94f40f18682c9a9ca338124767005c042b5a",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Запрос посещения завода | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Подайте запрос на посещение завода. Опубликованные сеансы показывают доступное время и вместимость для бронирования."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/factory-visit/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/factory-visit/",
+    "en": "http://127.0.0.1:3100/en/factory-visit/",
+    "tr": "http://127.0.0.1:3100/tr/factory-visit/",
+    "ar": "http://127.0.0.1:3100/ar/factory-visit/",
+    "ru": "http://127.0.0.1:3100/ru/factory-visit/",
+    "x-default": "http://127.0.0.1:3100/fa/factory-visit/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 72
+}

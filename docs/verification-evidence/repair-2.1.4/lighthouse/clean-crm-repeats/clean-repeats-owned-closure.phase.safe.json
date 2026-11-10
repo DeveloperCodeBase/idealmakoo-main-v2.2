@@ -1,0 +1,22 @@
+{
+  "format": "topology-bound-phase-safe-derivative-v2",
+  "phase": "clean-repeats-owned-closure",
+  "kind": "metadata",
+  "startedAt": "2026-10-25T22:41:40.003149+00:00",
+  "finishedAt": "2026-10-25T22:41:41.202867+00:00",
+  "durationSeconds": 1.2,
+  "topologySha256": "d0c85e36be10862b020361b4179ad2add3a02848966239cb01fd7b6a92837bf4",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "commandLaunchAttempted": true,
+  "commandStarted": true,
+  "coreConfigurationHashAloneBindsProxy": false,
+  "actualCommandExitCode": 0,
+  "validationPassed": true,
+  "validationErrorCode": null,
+  "validationIsSeparateFromLighthouseOutcome": true,
+  "receivedOrForwardedSignals": [],
+  "wrapperForcedKillAfterSixtySeconds": false,
+  "originalPrivateReceiptSha256": "a1b47cdde0414fc52282312d6d468ed4eefd65879643a3dde2fb80859b142660",
+  "coreArtifacts": [],
+  "privateCommandsLogsProcessIdentifiersOmitted": true
+}

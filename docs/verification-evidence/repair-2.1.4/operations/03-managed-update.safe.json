@@ -1,0 +1,30 @@
+{
+  "scope": "Actual managed update on a populated disposable Ubuntu/Docker installation",
+  "operation": {
+    "name": "upgrade-retry-01",
+    "startedAt": "2026-10-25T13:11:17.889658+00:00",
+    "completed": true,
+    "completedAt": "2026-10-25T14:08:12.215412+00:00",
+    "elapsedSeconds": 3414.33,
+    "exitCode": 0
+  },
+  "commandPattern": "bash current/scripts/update.sh --source FROZEN_SOURCE_DIRECTORY",
+  "originalInstallerAndDockerBuildExecuted": true,
+  "nativePrebuiltOutputInjected": false,
+  "applicationInputsChangedForRetry": false,
+  "dependencyRegistryNetworkUsed": true,
+  "tlsVerificationEnabled": true,
+  "externalBusinessProviderActionsRequested": false,
+  "virtualMachine": {
+    "memoryMiB": 6144,
+    "vcpus": 4,
+    "acceleration": "TCG"
+  },
+  "preUpgradeSafetyArchiveRetainedBytes": 179274664,
+  "installerInitialCurrentArchiveRetainedBytes": 181671416,
+  "historicalArchivesRetainedCount": 3,
+  "originalPrivateLogDigest": {
+    "bytes": 28011,
+    "sha256": "275eebf2ea8b2616acc368f0a62e446194bb9bc8d23dd2d67966ab9e4cf78827"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/sustainability/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "472734eebcbdce6e792c143713ea0eaa21d67edef6f0cc694975596511829d2c",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Sustainability reporting | Ideal Makoo"
+  ],
+  "descriptions": [
+    "An official sustainability report, energy-use metrics or documented emissions dataset has not been published in this version. Contact the factory for corporate information."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/sustainability/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/sustainability/",
+    "en": "http://127.0.0.1:3100/en/sustainability/",
+    "tr": "http://127.0.0.1:3100/tr/sustainability/",
+    "ar": "http://127.0.0.1:3100/ar/sustainability/",
+    "ru": "http://127.0.0.1:3100/ru/sustainability/",
+    "x-default": "http://127.0.0.1:3100/fa/sustainability/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 47
+}

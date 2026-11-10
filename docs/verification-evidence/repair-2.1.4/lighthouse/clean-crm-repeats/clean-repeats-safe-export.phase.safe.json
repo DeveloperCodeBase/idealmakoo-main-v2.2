@@ -1,0 +1,116 @@
+{
+  "format": "topology-bound-phase-safe-derivative-v2",
+  "phase": "clean-repeats-safe-export",
+  "kind": "export",
+  "startedAt": "2026-10-25T22:41:59.435867+00:00",
+  "finishedAt": "2026-10-25T22:42:00.296673+00:00",
+  "durationSeconds": 0.861,
+  "topologySha256": "d0c85e36be10862b020361b4179ad2add3a02848966239cb01fd7b6a92837bf4",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "commandLaunchAttempted": true,
+  "commandStarted": true,
+  "coreConfigurationHashAloneBindsProxy": false,
+  "actualCommandExitCode": 1,
+  "validationPassed": true,
+  "validationErrorCode": null,
+  "validationIsSeparateFromLighthouseOutcome": true,
+  "receivedOrForwardedSignals": [],
+  "wrapperForcedKillAfterSixtySeconds": false,
+  "originalPrivateReceiptSha256": "cdec11bcd92c6192067dc0d86fff330fbd3147f8924e43869de47c418a638ab7",
+  "coreArtifacts": [
+    {
+      "directoryLabel": "idealmakoo-214-clean-repeat-ar-crm-deliveries",
+      "files": {
+        "manifest.json": {
+          "sha256": "0ca417c7d72a14fe3e5681d0d48430191558de3aa0c1c108c4b5eef8beefec3a",
+          "bytes": 1979
+        },
+        "inventory.json": {
+          "sha256": "8d1a31b16ae97cd67edb03434c1b923207ea08e4ef3d59c2b6a5df20ae5a64bb",
+          "bytes": 3025
+        },
+        "summary.json": {
+          "sha256": "641c66ab1f546a38a2eb57f1227baebf3bea4f3bb53217af022d36d840cc4965",
+          "bytes": 5726
+        }
+      },
+      "coreConfigurationHash": "54c8fed80546d0b6feddeebc06a0079af8cca395ddbe1f1403a4cbeb31cc72d2",
+      "counts": {
+        "expected": 1,
+        "attempted": 1,
+        "completed": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "pending": 0,
+        "coverageComplete": true
+      }
+    },
+    {
+      "directoryLabel": "idealmakoo-214-clean-repeat-ar-crm-handoffs",
+      "files": {
+        "manifest.json": {
+          "sha256": "aa8eb027a40c0e899ec9b33700c77f4399f48b4473e4fc65da9528ce6fc3a37c",
+          "bytes": 1977
+        },
+        "inventory.json": {
+          "sha256": "4f95d8fdccfa3a2c389149feee365e1f2a56282684b9851d1638803a052afde4",
+          "bytes": 3021
+        },
+        "summary.json": {
+          "sha256": "07651c61c5ef4783655f31b32d018a8cef4c7dfcdd51446cc825c5fe3153a8e1",
+          "bytes": 5723
+        }
+      },
+      "coreConfigurationHash": "cd5668a1c2af0cfb018a436bf304f2353f8e0fdcb1da5f44878cdaeaaeca4598",
+      "counts": {
+        "expected": 1,
+        "attempted": 1,
+        "completed": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "pending": 0,
+        "coverageComplete": true
+      }
+    },
+    {
+      "directoryLabel": "idealmakoo-214-clean-repeat-ar-crm-inbox",
+      "files": {
+        "manifest.json": {
+          "sha256": "19c81da9bbd05597c84c67f6016fd37da60a45d5bb2a8637d1b3ab7607dfb147",
+          "bytes": 1974
+        },
+        "inventory.json": {
+          "sha256": "db2fbac5a03087c73b219bf6f0953e9acf595925c55da9b74b0edd06180ca22b",
+          "bytes": 3015
+        },
+        "summary.json": {
+          "sha256": "748fdc555bf2ba7fcab37cc1b1a4e9c826c39190f9ce47cf60b8d5fab8ab8cb2",
+          "bytes": 5668
+        }
+      },
+      "coreConfigurationHash": "87f81a84681be505eeabc27fa4db771280c6a72f7b81e921100b1f3e3d469faf",
+      "counts": {
+        "expected": 1,
+        "attempted": 1,
+        "completed": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "pending": 0,
+        "coverageComplete": true
+      }
+    },
+    {
+      "directoryLabel": "deliveries",
+      "files": {}
+    },
+    {
+      "directoryLabel": "handoffs",
+      "files": {}
+    },
+    {
+      "directoryLabel": "inbox",
+      "files": {}
+    }
+  ],
+  "privateCommandsLogsProcessIdentifiersOmitted": true
+}

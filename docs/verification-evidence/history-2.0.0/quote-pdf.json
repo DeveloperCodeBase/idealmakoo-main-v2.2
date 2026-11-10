@@ -1,0 +1,248 @@
+{
+  "acceptanceDateUtc": "2026-10-19",
+  "renderer": "current scripts/verify-quote-pdf.ts",
+  "languages": [
+    "fa",
+    "en",
+    "tr",
+    "ar",
+    "ru"
+  ],
+  "modes": [
+    "single",
+    "stress: 40 line items"
+  ],
+  "files": [
+    {
+      "mode": "single",
+      "file": "quote-ar.pdf",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 756,
+          "footer": true
+        }
+      ],
+      "outOfPage": [],
+      "hasReplacementGlyph": false
+    },
+    {
+      "mode": "single",
+      "file": "quote-en.pdf",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 816,
+          "footer": true
+        }
+      ],
+      "outOfPage": [],
+      "hasReplacementGlyph": false
+    },
+    {
+      "mode": "single",
+      "file": "quote-fa.pdf",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 789,
+          "footer": true
+        }
+      ],
+      "outOfPage": [],
+      "hasReplacementGlyph": false
+    },
+    {
+      "mode": "single",
+      "file": "quote-ru.pdf",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 908,
+          "footer": true
+        }
+      ],
+      "outOfPage": [],
+      "hasReplacementGlyph": false
+    },
+    {
+      "mode": "single",
+      "file": "quote-tr.pdf",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 804,
+          "footer": true
+        }
+      ],
+      "outOfPage": [],
+      "hasReplacementGlyph": false
+    },
+    {
+      "mode": "stress",
+      "file": "quote-ar.pdf",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 1085,
+          "footer": true
+        },
+        {
+          "page": 2,
+          "characters": 1274,
+          "footer": true
+        },
+        {
+          "page": 3,
+          "characters": 1274,
+          "footer": true
+        },
+        {
+          "page": 4,
+          "characters": 502,
+          "footer": true
+        }
+      ],
+      "outOfPage": [],
+      "hasReplacementGlyph": false
+    },
+    {
+      "mode": "stress",
+      "file": "quote-en.pdf",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 1009,
+          "footer": true
+        },
+        {
+          "page": 2,
+          "characters": 1085,
+          "footer": true
+        },
+        {
+          "page": 3,
+          "characters": 1085,
+          "footer": true
+        },
+        {
+          "page": 4,
+          "characters": 1085,
+          "footer": true
+        },
+        {
+          "page": 5,
+          "characters": 478,
+          "footer": true
+        }
+      ],
+      "outOfPage": [],
+      "hasReplacementGlyph": false
+    },
+    {
+      "mode": "stress",
+      "file": "quote-fa.pdf",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 1012,
+          "footer": true
+        },
+        {
+          "page": 2,
+          "characters": 1083,
+          "footer": true
+        },
+        {
+          "page": 3,
+          "characters": 1083,
+          "footer": true
+        },
+        {
+          "page": 4,
+          "characters": 1083,
+          "footer": true
+        },
+        {
+          "page": 5,
+          "characters": 441,
+          "footer": true
+        }
+      ],
+      "outOfPage": [],
+      "hasReplacementGlyph": false
+    },
+    {
+      "mode": "stress",
+      "file": "quote-ru.pdf",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 1150,
+          "footer": true
+        },
+        {
+          "page": 2,
+          "characters": 1277,
+          "footer": true
+        },
+        {
+          "page": 3,
+          "characters": 1277,
+          "footer": true
+        },
+        {
+          "page": 4,
+          "characters": 1277,
+          "footer": true
+        },
+        {
+          "page": 5,
+          "characters": 536,
+          "footer": true
+        }
+      ],
+      "outOfPage": [],
+      "hasReplacementGlyph": false
+    },
+    {
+      "mode": "stress",
+      "file": "quote-tr.pdf",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 975,
+          "footer": true
+        },
+        {
+          "page": 2,
+          "characters": 1025,
+          "footer": true
+        },
+        {
+          "page": 3,
+          "characters": 1025,
+          "footer": true
+        },
+        {
+          "page": 4,
+          "characters": 1025,
+          "footer": true
+        },
+        {
+          "page": 5,
+          "characters": 465,
+          "footer": true
+        }
+      ],
+      "outOfPage": [],
+      "hasReplacementGlyph": false
+    }
+  ],
+  "visualReview": {
+    "allSinglePages": true,
+    "allStressFirstAndLastPages": true,
+    "rtlLtrAndFontsReviewed": true
+  },
+  "fixtureOnly": true
+}

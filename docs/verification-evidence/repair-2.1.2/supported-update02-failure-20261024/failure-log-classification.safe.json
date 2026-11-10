@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "kind": "supported-update-current-source02-failure-log-classification",
+  "status": "original-update-failed",
+  "classifiedAt": "2026-10-24T17:22:46.403118+00:00",
+  "actualOriginalOutcome": {
+    "schema": 1,
+    "kind": "owned-guest-acceptance-job-outcome",
+    "job": "supported-update-current-source-02",
+    "status": "failed",
+    "startedAt": "2026-10-24T16:23:21.166346+00:00",
+    "completedAt": "2026-10-24T17:18:33.986142+00:00",
+    "pid": 173425,
+    "startTicks": 3353993,
+    "exitCode": 124,
+    "actualWaitConsumed": true
+  },
+  "actualOriginalOutcomeSha256": "08867d12f49990696deea2b628da8b9dfd550c3a4b07e16d641910828969d164",
+  "collectionOuterSessionId": 4453,
+  "collectionOuterExitCode": 0,
+  "collectionOuterWaitConsumed": true,
+  "originalLaunchOuterWaitConsumed": true,
+  "runtimeReadbackOrFurtherPhaseExecuted": false,
+  "safeLifecycleFailures": [
+    {
+      "operation": "up",
+      "code": "COMMAND_TIMEOUT",
+      "exitCode": 124,
+      "cleanupAttempted": true,
+      "cleanupVerified": true,
+      "clientProcessTerminationVerified": true,
+      "failedCommand": {
+        "class": "container-inspect",
+        "services": [
+          "app",
+          "worker",
+          "proxy"
+        ],
+        "elapsedSeconds": 15.094317,
+        "suppliedMaximumSeconds": 15,
+        "effectiveMaximumSeconds": 15,
+        "overallRemainingSeconds": 346.09688
+      }
+    }
+  ],
+  "failurePhase": "application, worker, scanner and public endpoint readiness",
+  "oneOriginalSafetyArchivePublished": "/var/www/idealmakoo-212-primary/shared/backups/idealmakoo-20261024T163440Z-42f37e33.tar.age",
+  "secondMandatoryArchivePublished": false,
+  "newManagedReleaseFromBuildLog": "20261024T162829Z-ca744c7f",
+  "loggedAppImageExportIndex": "sha256:2a6726ae78237455c6d3c56cf8ad30b2ca20b1fe803e86e7361692ca0ba897d8",
+  "runtimeImageIdentityNotYetReadBack": true,
+  "migrateContainerActualExitZeroInOriginalOutput": true,
+  "originalLogFiles": {
+    "stdout.private": {
+      "bytes": 2045,
+      "sha256": "177c79295e246c426d73abfb81d1fab70cb4ec31f2c04ec50a07e54404826747",
+      "included": false
+    },
+    "stderr.private.log": {
+      "bytes": 17364,
+      "sha256": "16b37a0689a1d05f94150ac3a5d2d1a2b085fd33bed87d2e1a2a2dc307e4b89a",
+      "included": false
+    }
+  },
+  "nonzeroOriginalNotRelabeledByCollectorSuccess": true,
+  "cleanupBooleansNotIndependentCurrentStateProof": true,
+  "overallDeadlineExpiryClaimed": false,
+  "servingReadinessOrWholeUpdateAccepted": false,
+  "sourceZipSha256": "c0527dbd89296289e91bfee339d25d52facf003b709cc2c8559bd4b5a1ee6e54",
+  "applicationInputsSha256": "30d2d54eef773f72807ed4473e64627b54bd3da16509bc3de3f6cf8c609079d4",
+  "executionInputsSha256": "bbcff086722095bd3a20c1f679fbc8f5ff61730785476dc2d1d3e1f2531c3639"
+}

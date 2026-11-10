@@ -1,0 +1,28 @@
+{
+  "format": "closed-owned-public-audit-lock-v1",
+  "observedAt": "2026-10-26T01:13:49.034407+00:00",
+  "scoringActualExitCode": 0,
+  "scoringPhaseReceiptSha256": "330dbfafd7424963273bb87a32d9296876c5e0edf2031f3b85e0c6ac8ea29df9",
+  "lockPresent": true,
+  "scoringResultsChanged": false,
+  "coreBefore": {
+    "manifest.json": "44b8ce904a34bd22270c03eda236693119035dbc4222bcd18711d56ad59b047a",
+    "inventory.json": "f4283496032145c931bde3d4ee62fbe270e86678f9308599a4c3086ed2c8060e",
+    "summary.json": "7b753500f346f747acf97802036ebc4fa1b6dd8e11e93456493fdcc9dca02215"
+  },
+  "unlinkCauseInScoringRunner": "unobserved",
+  "lockBytes": 75,
+  "lockSha256": "6dd70c814dc2d7d306710fd5e401dbd6020afee5e253392b4e04eb575b7f18d3",
+  "sameOwnedPidAsScoringLaunch": true,
+  "sameHost": true,
+  "nativeOwnerAbsentBeforeAndImmediatelyBeforeUnlink": true,
+  "rawLockAndStatPreservedPrivately": true,
+  "onlyExactObservedDeadOwnedLockRemoved": true,
+  "lockAbsentAfter": true,
+  "coreAfter": {
+    "manifest.json": "44b8ce904a34bd22270c03eda236693119035dbc4222bcd18711d56ad59b047a",
+    "inventory.json": "f4283496032145c931bde3d4ee62fbe270e86678f9308599a4c3086ed2c8060e",
+    "summary.json": "7b753500f346f747acf97802036ebc4fa1b6dd8e11e93456493fdcc9dca02215"
+  },
+  "coreArtifactsUnchanged": true
+}

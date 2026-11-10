@@ -1,0 +1,963 @@
+{
+  "format": "idealmakoo.public-frontend-visual-worker-evidence",
+  "version": 1,
+  "derivedAt": "2026-10-22T05:24:53.177250+00:00",
+  "finalRelease": false,
+  "currentCode": {
+    "source": {
+      "files": 831,
+      "sha256": "79d34c8326f3adc5eb28834a588bac6a76e08bdd9f1c8f67de96c2480982dfa5"
+    },
+    "application": {
+      "files": 685,
+      "sha256": "048a901cbebf94e9e4b367bab87e5fd91f68860ca7c64f32539852e66061140e"
+    },
+    "publicBuildId": "8dbsk8DNW5JXfEcUEW6u_"
+  },
+  "baselineCode": {
+    "source": {
+      "files": 821,
+      "sha256": "458f175a29b8bce25c5b45592c10952b57202b894e3aac65e244b7863c726be1"
+    },
+    "application": {
+      "files": 678,
+      "sha256": "12da2b69abf2fa85cf0655bc0b4ec7df9244ea0b50a29cc8c3be1157851b6e1c"
+    },
+    "publicBuildId": "-Q7Ffy3JmwVExwxk-Ymk-"
+  },
+  "visualComparison": {
+    "expected": 6,
+    "compared": 6,
+    "allObservedLayoutAndStyleEqual": true,
+    "normalAnimation": true,
+    "pixelComparisonPerformed": false,
+    "viewport": {
+      "width": 1280,
+      "height": 900,
+      "deviceScaleFactor": 1
+    },
+    "observedScope": "Recorded scene/canvas rectangles, backing dimensions, accessible canvas attributes, hint typography/spacing, themes and horizontal overflow only. Screenshots require separate visual review.",
+    "history": [
+      {
+        "stage": "baseline-initial",
+        "expected": 6,
+        "completed": 4,
+        "captureErrors": 2,
+        "failedCases": [
+          {
+            "case": "auth-dark",
+            "status": "error",
+            "failureClassification": "The harness scroll locator detached during hydration before capture.",
+            "pageErrorCount": 0,
+            "acceptedAsComparisonBaseline": false
+          },
+          {
+            "case": "auth-light",
+            "status": "error",
+            "failureClassification": "The harness scroll locator detached during hydration before capture.",
+            "pageErrorCount": 0,
+            "acceptedAsComparisonBaseline": false
+          }
+        ]
+      },
+      {
+        "stage": "baseline-auth-followup",
+        "expected": 2,
+        "completed": 2,
+        "captureErrors": 0,
+        "change": "Bounded re-resolution of the detached scroll locator only; no page reload or scoring retry."
+      },
+      {
+        "stage": "current",
+        "expected": 6,
+        "completed": 6,
+        "captureErrors": 0,
+        "startedAt": "2026-10-22T05:00:39.620Z",
+        "finishedAt": "2026-10-22T05:01:22.667Z",
+        "buildUnchanged": true
+      }
+    ],
+    "cases": [
+      {
+        "case": "home-dark",
+        "route": "/fa/",
+        "variant": "rubik",
+        "theme": "dark",
+        "baselineStatus": "completed",
+        "currentStatus": "completed",
+        "currentHttpStatus": 200,
+        "currentChecks": {
+          "http200": true,
+          "ready": true,
+          "theme": true,
+          "canvasVisible": true,
+          "keyboardAccessible": true,
+          "noHorizontalOverflow": true,
+          "noPageErrors": true
+        },
+        "currentPageErrorCount": 0,
+        "baselineHydrationLocatorRecoveries": 0,
+        "currentHydrationLocatorRecoveries": 0,
+        "observedLayoutAndStyleEqual": true,
+        "differences": [],
+        "equalObservedValues": {
+          "state": "ready",
+          "theme": "dark",
+          "documentTheme": "dark",
+          "scene": {
+            "x": 54.75,
+            "y": 237.44,
+            "width": 661.34,
+            "height": 530
+          },
+          "canvas": {
+            "rectangle": {
+              "x": 54.75,
+              "y": 237.44,
+              "width": 661.34,
+              "height": 530
+            },
+            "backingWidth": 661,
+            "backingHeight": 530,
+            "tabIndex": 0,
+            "role": "img",
+            "ariaHidden": "false"
+          },
+          "hint": {
+            "rectangle": {
+              "x": 66.75,
+              "y": 736.44,
+              "width": 637.34,
+              "height": 19
+            },
+            "style": {
+              "fontFamily": "Estedad, Vazirmatn, Arial, sans-serif",
+              "fontSize": "10px",
+              "fontWeight": "400",
+              "lineHeight": "19px",
+              "letterSpacing": "0.2px",
+              "display": "flex",
+              "paddingTop": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "marginTop": "0px",
+              "marginBottom": "0px"
+            }
+          },
+          "scrollX": 0,
+          "horizontalOverflow": 0
+        },
+        "manualFindings": [
+          "Header/navigation, page text, controls, card/form placement and theme are visually consistent in these saved viewport images.",
+          "The cube, three-dimensional tooth, mount, viewing scale, halo, perspective and page placement are visually consistent.",
+          "The after early capture has dimmer cyan cube edges and somewhat lighter faces than the baseline. This visible difference is retained explicitly; these two PNGs alone do not establish material equivalence.",
+          "Later saved normal-worker interaction imagery shows bright cyan rims and dark faces again, supporting a finish transition/render-time explanation rather than a missing Neon setting.",
+          "The small FORM / MATERIAL / HARMONY text remains over the lower cube in both images; this retained composition is not assessed as a new regression or a comprehensive readability pass."
+        ],
+        "visibleDifference": "Visible early Neon intensity difference; later bright Neon observed, without exact settling-time or pixel-parity proof."
+      },
+      {
+        "case": "home-light",
+        "route": "/fa/",
+        "variant": "rubik",
+        "theme": "light",
+        "baselineStatus": "completed",
+        "currentStatus": "completed",
+        "currentHttpStatus": 200,
+        "currentChecks": {
+          "http200": true,
+          "ready": true,
+          "theme": true,
+          "canvasVisible": true,
+          "keyboardAccessible": true,
+          "noHorizontalOverflow": true,
+          "noPageErrors": true
+        },
+        "currentPageErrorCount": 0,
+        "baselineHydrationLocatorRecoveries": 0,
+        "currentHydrationLocatorRecoveries": 0,
+        "observedLayoutAndStyleEqual": true,
+        "differences": [],
+        "equalObservedValues": {
+          "state": "ready",
+          "theme": "light",
+          "documentTheme": "light",
+          "scene": {
+            "x": 54.75,
+            "y": 237.44,
+            "width": 661.34,
+            "height": 530
+          },
+          "canvas": {
+            "rectangle": {
+              "x": 54.75,
+              "y": 237.44,
+              "width": 661.34,
+              "height": 530
+            },
+            "backingWidth": 661,
+            "backingHeight": 530,
+            "tabIndex": 0,
+            "role": "img",
+            "ariaHidden": "false"
+          },
+          "hint": {
+            "rectangle": {
+              "x": 66.75,
+              "y": 736.44,
+              "width": 637.34,
+              "height": 19
+            },
+            "style": {
+              "fontFamily": "Estedad, Vazirmatn, Arial, sans-serif",
+              "fontSize": "10px",
+              "fontWeight": "400",
+              "lineHeight": "19px",
+              "letterSpacing": "0.2px",
+              "display": "flex",
+              "paddingTop": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "marginTop": "0px",
+              "marginBottom": "0px"
+            }
+          },
+          "scrollX": 0,
+          "horizontalOverflow": 0
+        },
+        "manualFindings": [
+          "Header/navigation, page text, controls, card/form placement and theme are visually consistent in these saved viewport images.",
+          "The cube, three-dimensional tooth, mount, viewing scale, halo, perspective and page placement are visually consistent.",
+          "Glass/light finish, tooth shading, ground shadow and theme composition look consistent in the sampled pair.",
+          "The small FORM / MATERIAL / HARMONY text remains over the lower cube in both images; this retained composition is not assessed as a new regression or a comprehensive readability pass."
+        ],
+        "visibleDifference": "No material or layout difference apparent at the reviewed image scale; no numerical equality assertion."
+      },
+      {
+        "case": "manufacturing-dark",
+        "route": "/fa/manufacturing/",
+        "variant": "rubik",
+        "theme": "dark",
+        "baselineStatus": "completed",
+        "currentStatus": "completed",
+        "currentHttpStatus": 200,
+        "currentChecks": {
+          "http200": true,
+          "ready": true,
+          "theme": true,
+          "canvasVisible": true,
+          "keyboardAccessible": true,
+          "noHorizontalOverflow": true,
+          "noPageErrors": true
+        },
+        "currentPageErrorCount": 0,
+        "baselineHydrationLocatorRecoveries": 0,
+        "currentHydrationLocatorRecoveries": 0,
+        "observedLayoutAndStyleEqual": true,
+        "differences": [],
+        "equalObservedValues": {
+          "state": "ready",
+          "theme": "dark",
+          "documentTheme": "dark",
+          "scene": {
+            "x": 54.77,
+            "y": 384.75,
+            "width": 576,
+            "height": 515
+          },
+          "canvas": {
+            "rectangle": {
+              "x": 54.77,
+              "y": 384.75,
+              "width": 576,
+              "height": 515
+            },
+            "backingWidth": 576,
+            "backingHeight": 515,
+            "tabIndex": 0,
+            "role": "img",
+            "ariaHidden": "false"
+          },
+          "hint": {
+            "rectangle": {
+              "x": 66.77,
+              "y": 868.75,
+              "width": 552,
+              "height": 19
+            },
+            "style": {
+              "fontFamily": "Estedad, Vazirmatn, Arial, sans-serif",
+              "fontSize": "10px",
+              "fontWeight": "400",
+              "lineHeight": "19px",
+              "letterSpacing": "0.2px",
+              "display": "flex",
+              "paddingTop": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "marginTop": "0px",
+              "marginBottom": "0px"
+            }
+          },
+          "scrollX": 0,
+          "horizontalOverflow": 0
+        },
+        "manualFindings": [
+          "Header/navigation, page text, controls, card/form placement and theme are visually consistent in these saved viewport images.",
+          "The cube, three-dimensional tooth, mount, viewing scale, halo, perspective and page placement are visually consistent.",
+          "The after early capture has dimmer cyan cube edges and somewhat lighter faces than the baseline. This visible difference is retained explicitly; these two PNGs alone do not establish material equivalence.",
+          "Later saved normal-worker interaction imagery shows bright cyan rims and dark faces again, supporting a finish transition/render-time explanation rather than a missing Neon setting."
+        ],
+        "visibleDifference": "Visible early Neon intensity difference; later bright Neon observed, without exact settling-time or pixel-parity proof."
+      },
+      {
+        "case": "manufacturing-light",
+        "route": "/fa/manufacturing/",
+        "variant": "rubik",
+        "theme": "light",
+        "baselineStatus": "completed",
+        "currentStatus": "completed",
+        "currentHttpStatus": 200,
+        "currentChecks": {
+          "http200": true,
+          "ready": true,
+          "theme": true,
+          "canvasVisible": true,
+          "keyboardAccessible": true,
+          "noHorizontalOverflow": true,
+          "noPageErrors": true
+        },
+        "currentPageErrorCount": 0,
+        "baselineHydrationLocatorRecoveries": 0,
+        "currentHydrationLocatorRecoveries": 0,
+        "observedLayoutAndStyleEqual": true,
+        "differences": [],
+        "equalObservedValues": {
+          "state": "ready",
+          "theme": "light",
+          "documentTheme": "light",
+          "scene": {
+            "x": 54.77,
+            "y": 384.75,
+            "width": 576,
+            "height": 515
+          },
+          "canvas": {
+            "rectangle": {
+              "x": 54.77,
+              "y": 384.75,
+              "width": 576,
+              "height": 515
+            },
+            "backingWidth": 576,
+            "backingHeight": 515,
+            "tabIndex": 0,
+            "role": "img",
+            "ariaHidden": "false"
+          },
+          "hint": {
+            "rectangle": {
+              "x": 66.77,
+              "y": 868.75,
+              "width": 552,
+              "height": 19
+            },
+            "style": {
+              "fontFamily": "Estedad, Vazirmatn, Arial, sans-serif",
+              "fontSize": "10px",
+              "fontWeight": "400",
+              "lineHeight": "19px",
+              "letterSpacing": "0.2px",
+              "display": "flex",
+              "paddingTop": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "marginTop": "0px",
+              "marginBottom": "0px"
+            }
+          },
+          "scrollX": 0,
+          "horizontalOverflow": 0
+        },
+        "manualFindings": [
+          "Header/navigation, page text, controls, card/form placement and theme are visually consistent in these saved viewport images.",
+          "The cube, three-dimensional tooth, mount, viewing scale, halo, perspective and page placement are visually consistent.",
+          "Glass/light finish, tooth shading, ground shadow and theme composition look consistent in the sampled pair."
+        ],
+        "visibleDifference": "No material or layout difference apparent at the reviewed image scale; no numerical equality assertion."
+      },
+      {
+        "case": "auth-dark",
+        "route": "/fa/auth/login/",
+        "variant": "auth",
+        "theme": "dark",
+        "baselineStatus": "completed",
+        "currentStatus": "completed",
+        "currentHttpStatus": 200,
+        "currentChecks": {
+          "http200": true,
+          "ready": true,
+          "theme": true,
+          "canvasVisible": true,
+          "keyboardAccessible": true,
+          "noHorizontalOverflow": true,
+          "noPageErrors": true
+        },
+        "currentPageErrorCount": 0,
+        "baselineHydrationLocatorRecoveries": 1,
+        "currentHydrationLocatorRecoveries": 1,
+        "observedLayoutAndStyleEqual": true,
+        "differences": [],
+        "equalObservedValues": {
+          "state": "ready",
+          "theme": "dark",
+          "documentTheme": "dark",
+          "scene": {
+            "x": 0,
+            "y": 241.59,
+            "width": 640,
+            "height": 392.75
+          },
+          "canvas": {
+            "rectangle": {
+              "x": 0,
+              "y": 241.59,
+              "width": 640,
+              "height": 392.75
+            },
+            "backingWidth": 640,
+            "backingHeight": 392,
+            "tabIndex": 0,
+            "role": "img",
+            "ariaHidden": "false"
+          },
+          "hint": {
+            "rectangle": {
+              "x": 641,
+              "y": 242.59,
+              "width": 0,
+              "height": 21
+            },
+            "style": {
+              "fontFamily": "Estedad, Vazirmatn, Arial, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25.2px",
+              "letterSpacing": "normal",
+              "display": "inline",
+              "paddingTop": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "marginTop": "0px",
+              "marginBottom": "0px"
+            }
+          },
+          "scrollX": 0,
+          "horizontalOverflow": 0
+        },
+        "manualFindings": [
+          "Header/navigation, page text, controls, card/form placement and theme are visually consistent in these saved viewport images.",
+          "The tooth character, eye/arm/root geometry, pedestal rings, colours and visible form design remain recognisable and consistent.",
+          "The after character sits slightly lower and has a slightly different pose/highlight placement; these ordinary-animation captures do not synchronize the scene clock."
+        ],
+        "visibleDifference": "Small animation-pose difference; no visible layout redesign found."
+      },
+      {
+        "case": "auth-light",
+        "route": "/fa/auth/login/",
+        "variant": "auth",
+        "theme": "light",
+        "baselineStatus": "completed",
+        "currentStatus": "completed",
+        "currentHttpStatus": 200,
+        "currentChecks": {
+          "http200": true,
+          "ready": true,
+          "theme": true,
+          "canvasVisible": true,
+          "keyboardAccessible": true,
+          "noHorizontalOverflow": true,
+          "noPageErrors": true
+        },
+        "currentPageErrorCount": 0,
+        "baselineHydrationLocatorRecoveries": 1,
+        "currentHydrationLocatorRecoveries": 1,
+        "observedLayoutAndStyleEqual": true,
+        "differences": [],
+        "equalObservedValues": {
+          "state": "ready",
+          "theme": "light",
+          "documentTheme": "light",
+          "scene": {
+            "x": 0,
+            "y": 241.59,
+            "width": 640,
+            "height": 392.75
+          },
+          "canvas": {
+            "rectangle": {
+              "x": 0,
+              "y": 241.59,
+              "width": 640,
+              "height": 392.75
+            },
+            "backingWidth": 640,
+            "backingHeight": 392,
+            "tabIndex": 0,
+            "role": "img",
+            "ariaHidden": "false"
+          },
+          "hint": {
+            "rectangle": {
+              "x": 641,
+              "y": 242.59,
+              "width": 0,
+              "height": 21
+            },
+            "style": {
+              "fontFamily": "Estedad, Vazirmatn, Arial, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25.2px",
+              "letterSpacing": "normal",
+              "display": "inline",
+              "paddingTop": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "marginTop": "0px",
+              "marginBottom": "0px"
+            }
+          },
+          "scrollX": 0,
+          "horizontalOverflow": 0
+        },
+        "manualFindings": [
+          "Header/navigation, page text, controls, card/form placement and theme are visually consistent in these saved viewport images.",
+          "The tooth character, eye/arm/root geometry, pedestal rings, colours and visible form design remain recognisable and consistent.",
+          "The after character sits slightly lower and has a slightly different pose/highlight placement; these ordinary-animation captures do not synchronize the scene clock."
+        ],
+        "visibleDifference": "Small animation-pose difference; no visible layout redesign found."
+      }
+    ],
+    "manualReview": {
+      "reviewedPairs": 6,
+      "existingPageImagesInspected": 12,
+      "supplementaryExistingWorkerImagesInspected": 3,
+      "supplementaryFindings": [
+        "Early dark Worker image retains weaker cyan edge intensity.",
+        "Later dark Worker image visibly shows bright cyan rims and dark tile faces. Focus outline is present after actual keyboard/pointer interaction.",
+        "Light theme and original cube/tooth are visible; the commanded cube layer is mid-turn, so this frame is not a fixed-pose material comparison."
+      ],
+      "conclusion": {
+        "visibleDesignRedesignFound": false,
+        "darkFinishDifferenceObserved": true,
+        "laterBrightNeonObserved": true,
+        "materialEquivalenceProven": false,
+        "pixelEquivalenceClaimed": false,
+        "newSourceChangeRecommendedFromTheseImages": false
+      },
+      "interpretation": "The early dark Rubik screenshots differ in finish-transition intensity. The later existing normal-worker interaction image visibly restores bright Neon; together with the unchanged setFinish target and time-based interpolation this supports a timing difference. The captures do not synchronize scene clocks, measure worker frame progression, or isolate host contention, so an exact timing cause or full material equivalence is not established.",
+      "limits": [
+        "Viewport appearance review covers six fa route/theme pairs, not every page, language, device or state.",
+        "Normal animation was enabled; pose, finish interpolation, focus and cube turn state can differ between captures.",
+        "No image editing, pixel-difference threshold, contrast verdict or accessibility pass is inferred.",
+        "Existing scene/canvas rectangle and hint-style equality is the separate root comparison receipt, not a new computed-style gate by this reviewer.",
+        "No missing-image/blank-scene issue is visible in the inspected saved images; interaction and fallback acceptance belong to the separately recorded Worker helper.",
+        "All original negative observations and earlier failed hydration captures remain preserved."
+      ]
+    }
+  },
+  "workerScenarios": {
+    "startedAt": "2026-10-22T05:01:50.884Z",
+    "finishedAt": "2026-10-22T05:03:07.871Z",
+    "expected": 6,
+    "attempted": 6,
+    "completed": 6,
+    "pending": 0,
+    "errors": 0,
+    "fatalErrorCount": 0,
+    "checks": 66,
+    "checksTrue": 66,
+    "browserVersion": "156.0.8078.4",
+    "browserClosed": true,
+    "normalAnimation": true,
+    "pixelEquivalenceClaimed": false,
+    "performanceMeasurement": false,
+    "fieldInpClaimed": false,
+    "syntheticInputsSubmitted": false,
+    "harnessConfiguration": {
+      "viewport": {
+        "width": 1280,
+        "height": 900,
+        "deviceScaleFactor": 1
+      },
+      "reducedMotion": "no-preference",
+      "serviceWorkerPolicy": "blocked for this isolated functional browser context; this is not a service-worker acceptance test"
+    },
+    "applicationBindingScope": {
+      "checkedSourceInputCount": 12,
+      "checkedInputsUnchanged": true,
+      "helpersUnchanged": true,
+      "entireApplicationRehashedByWorkerHarness": false,
+      "separateFullSourceBridge": "source-scope-bridge.json"
+    },
+    "cases": [
+      {
+        "case": "auth-worker",
+        "target": "auth",
+        "mode": "normal",
+        "route": "/fa/auth/login/",
+        "startedAt": "2026-10-22T05:01:51.050Z",
+        "finishedAt": "2026-10-22T05:02:04.891Z",
+        "status": "completed",
+        "httpStatus": 200,
+        "checks": {
+          "http200": true,
+          "accessibleCanvas": true,
+          "visibleCanvas": true,
+          "realWorkerReady": true,
+          "privacyTransitionsAcknowledged": true,
+          "keyboardAndReleaseAcknowledged": true,
+          "themeTransitionsAcknowledged": true,
+          "authModeAcknowledged": true,
+          "sameDocumentRouteCleanup": true,
+          "noFormTextInObservedWorkerPayloads": true,
+          "noAuthSubmission": true,
+          "noPageErrors": true,
+          "noCspViolations": true
+        },
+        "contextClosed": true,
+        "pageErrorCount": 0,
+        "authSubmissionCount": 0,
+        "observedWorkerLifecycle": {
+          "created": 2,
+          "ready": 2,
+          "terminationCalls": 2,
+          "outgoingMessageTypeCounts": {
+            "controls": 8,
+            "dispose": 2,
+            "init": 2,
+            "probe": 2,
+            "settings": 14
+          },
+          "incomingMessageTypeCounts": {
+            "capabilities": 2,
+            "controls-ack": 6,
+            "ready": 2,
+            "settings-ack": 14
+          }
+        },
+        "payloadInspection": {
+          "formTextMatches": 0,
+          "unrecognizedSceneStrings": 0,
+          "incompleteInspections": 0,
+          "contractErrorCount": 0,
+          "boundedObservationOverflow": false,
+          "cspViolationCount": 0
+        },
+        "deliberatelyInjectedInitFaultCount": 0,
+        "workerAssetHttp": [
+          {
+            "path": "/_next/static/chunks/idealmakoo-auth.b1d7bd0d4cf079a5.js",
+            "status": 200,
+            "mime": "application/javascript; charset=UTF-8",
+            "bytes": 24276,
+            "sha256": "6423f2d1c6790a949ec973b7d8ce0fd951c440190ca7569de51a6330fb4fbabf",
+            "matchesLocalCompiledBytes": true
+          }
+        ],
+        "applicability": "Native Worker readiness, input/setting acknowledgements and same-document cleanup were exercised; ACK is delivery evidence, not a latency or solved-state assertion."
+      },
+      {
+        "case": "rubik-worker",
+        "target": "rubik",
+        "mode": "normal",
+        "route": "/fa/manufacturing/",
+        "startedAt": "2026-10-22T05:02:04.894Z",
+        "finishedAt": "2026-10-22T05:02:21.581Z",
+        "status": "completed",
+        "httpStatus": 200,
+        "checks": {
+          "http200": true,
+          "accessibleCanvas": true,
+          "visibleCanvas": true,
+          "realWorkerReady": true,
+          "keyboardAndReleaseAcknowledged": true,
+          "themeTransitionsAcknowledged": true,
+          "sameDocumentRouteCleanup": true,
+          "noFormTextInObservedWorkerPayloads": true,
+          "noAuthSubmission": true,
+          "noPageErrors": true,
+          "noCspViolations": true
+        },
+        "contextClosed": true,
+        "pageErrorCount": 0,
+        "authSubmissionCount": 0,
+        "observedWorkerLifecycle": {
+          "created": 1,
+          "ready": 1,
+          "terminationCalls": 1,
+          "outgoingMessageTypeCounts": {
+            "dispose": 1,
+            "init": 1,
+            "input": 6,
+            "probe": 1,
+            "settings": 8
+          },
+          "incomingMessageTypeCounts": {
+            "capabilities": 1,
+            "input-ack": 6,
+            "ready": 1,
+            "settings-ack": 7
+          }
+        },
+        "payloadInspection": {
+          "formTextMatches": 0,
+          "unrecognizedSceneStrings": 0,
+          "incompleteInspections": 0,
+          "contractErrorCount": 0,
+          "boundedObservationOverflow": false,
+          "cspViolationCount": 0
+        },
+        "deliberatelyInjectedInitFaultCount": 0,
+        "workerAssetHttp": [
+          {
+            "path": "/_next/static/chunks/idealmakoo-rubik.b221981401ec9983.js",
+            "status": 200,
+            "mime": "application/javascript; charset=UTF-8",
+            "bytes": 22271,
+            "sha256": "a6930aa12cf7bdb340fbb644259251529fb18d7651b2a60c9d4634028272e9f2",
+            "matchesLocalCompiledBytes": true
+          }
+        ],
+        "applicability": "Native Worker readiness, input/setting acknowledgements and same-document cleanup were exercised; ACK is delivery evidence, not a latency or solved-state assertion."
+      },
+      {
+        "case": "auth-without-offscreen",
+        "target": "auth",
+        "mode": "without-offscreen",
+        "route": "/fa/auth/login/",
+        "startedAt": "2026-10-22T05:02:21.582Z",
+        "finishedAt": "2026-10-22T05:02:29.208Z",
+        "status": "completed",
+        "httpStatus": 200,
+        "checks": {
+          "http200": true,
+          "accessibleCanvas": true,
+          "visibleCanvas": true,
+          "mainThreadCapabilityFallback": true,
+          "recoveredSceneStillReady": true,
+          "noFormTextInObservedWorkerPayloads": true,
+          "noAuthSubmission": true,
+          "noPageErrors": true,
+          "noCspViolations": true
+        },
+        "contextClosed": true,
+        "pageErrorCount": 0,
+        "authSubmissionCount": 0,
+        "observedWorkerLifecycle": {
+          "created": 0,
+          "ready": 0,
+          "terminationCalls": 0,
+          "outgoingMessageTypeCounts": {},
+          "incomingMessageTypeCounts": {}
+        },
+        "payloadInspection": {
+          "formTextMatches": 0,
+          "unrecognizedSceneStrings": 0,
+          "incompleteInspections": 0,
+          "contractErrorCount": 0,
+          "boundedObservationOverflow": false,
+          "cspViolationCount": 0
+        },
+        "deliberatelyInjectedInitFaultCount": 0,
+        "workerAssetHttp": [],
+        "applicability": "Host transfer support was deliberately unavailable. Zero Worker messages is expected; the payload check is not a positive Worker-message coverage claim."
+      },
+      {
+        "case": "rubik-without-offscreen",
+        "target": "rubik",
+        "mode": "without-offscreen",
+        "route": "/fa/manufacturing/",
+        "startedAt": "2026-10-22T05:02:29.210Z",
+        "finishedAt": "2026-10-22T05:02:45.957Z",
+        "status": "completed",
+        "httpStatus": 200,
+        "checks": {
+          "http200": true,
+          "accessibleCanvas": true,
+          "visibleCanvas": true,
+          "mainThreadCapabilityFallback": true,
+          "recoveredSceneStillReady": true,
+          "noFormTextInObservedWorkerPayloads": true,
+          "noAuthSubmission": true,
+          "noPageErrors": true,
+          "noCspViolations": true
+        },
+        "contextClosed": true,
+        "pageErrorCount": 0,
+        "authSubmissionCount": 0,
+        "observedWorkerLifecycle": {
+          "created": 0,
+          "ready": 0,
+          "terminationCalls": 0,
+          "outgoingMessageTypeCounts": {},
+          "incomingMessageTypeCounts": {}
+        },
+        "payloadInspection": {
+          "formTextMatches": 0,
+          "unrecognizedSceneStrings": 0,
+          "incompleteInspections": 0,
+          "contractErrorCount": 0,
+          "boundedObservationOverflow": false,
+          "cspViolationCount": 0
+        },
+        "deliberatelyInjectedInitFaultCount": 0,
+        "workerAssetHttp": [],
+        "applicability": "Host transfer support was deliberately unavailable. Zero Worker messages is expected; the payload check is not a positive Worker-message coverage claim."
+      },
+      {
+        "case": "auth-init-error",
+        "target": "auth",
+        "mode": "init-error",
+        "route": "/fa/auth/login/",
+        "startedAt": "2026-10-22T05:02:45.960Z",
+        "finishedAt": "2026-10-22T05:02:51.964Z",
+        "status": "completed",
+        "httpStatus": 200,
+        "checks": {
+          "http200": true,
+          "accessibleCanvas": true,
+          "visibleCanvas": true,
+          "oneInjectedInitFailure": true,
+          "freshReactCanvas": true,
+          "failedWorkerTerminated": true,
+          "mainThreadRecovery": true,
+          "recoveredSceneStillReady": true,
+          "noFormTextInObservedWorkerPayloads": true,
+          "noAuthSubmission": true,
+          "noPageErrors": true,
+          "noCspViolations": true
+        },
+        "contextClosed": true,
+        "pageErrorCount": 0,
+        "authSubmissionCount": 0,
+        "observedWorkerLifecycle": {
+          "created": 1,
+          "ready": 0,
+          "terminationCalls": 1,
+          "outgoingMessageTypeCounts": {
+            "dispose": 1,
+            "init": 1,
+            "probe": 1
+          },
+          "incomingMessageTypeCounts": {
+            "capabilities": 1
+          }
+        },
+        "payloadInspection": {
+          "formTextMatches": 0,
+          "unrecognizedSceneStrings": 0,
+          "incompleteInspections": 0,
+          "contractErrorCount": 0,
+          "boundedObservationOverflow": false,
+          "cspViolationCount": 0
+        },
+        "deliberatelyInjectedInitFaultCount": 1,
+        "workerAssetHttp": [
+          {
+            "path": "/_next/static/chunks/idealmakoo-auth.b1d7bd0d4cf079a5.js",
+            "status": 200,
+            "mime": "application/javascript; charset=UTF-8",
+            "bytes": 24276,
+            "sha256": "6423f2d1c6790a949ec973b7d8ce0fd951c440190ca7569de51a6330fb4fbabf",
+            "matchesLocalCompiledBytes": true
+          }
+        ],
+        "applicability": "One initialization failure was deliberately injected after transfer. Fresh React-owned canvas recovery and failed-worker termination were checked; this is not a naturally occurring production failure."
+      },
+      {
+        "case": "rubik-init-error",
+        "target": "rubik",
+        "mode": "init-error",
+        "route": "/fa/manufacturing/",
+        "startedAt": "2026-10-22T05:02:51.965Z",
+        "finishedAt": "2026-10-22T05:03:07.773Z",
+        "status": "completed",
+        "httpStatus": 200,
+        "checks": {
+          "http200": true,
+          "accessibleCanvas": true,
+          "visibleCanvas": true,
+          "oneInjectedInitFailure": true,
+          "freshReactCanvas": true,
+          "failedWorkerTerminated": true,
+          "mainThreadRecovery": true,
+          "recoveredSceneStillReady": true,
+          "noFormTextInObservedWorkerPayloads": true,
+          "noAuthSubmission": true,
+          "noPageErrors": true,
+          "noCspViolations": true
+        },
+        "contextClosed": true,
+        "pageErrorCount": 0,
+        "authSubmissionCount": 0,
+        "observedWorkerLifecycle": {
+          "created": 1,
+          "ready": 0,
+          "terminationCalls": 1,
+          "outgoingMessageTypeCounts": {
+            "dispose": 1,
+            "init": 1,
+            "probe": 1
+          },
+          "incomingMessageTypeCounts": {
+            "capabilities": 1
+          }
+        },
+        "payloadInspection": {
+          "formTextMatches": 0,
+          "unrecognizedSceneStrings": 0,
+          "incompleteInspections": 0,
+          "contractErrorCount": 0,
+          "boundedObservationOverflow": false,
+          "cspViolationCount": 0
+        },
+        "deliberatelyInjectedInitFaultCount": 1,
+        "workerAssetHttp": [
+          {
+            "path": "/_next/static/chunks/idealmakoo-rubik.b221981401ec9983.js",
+            "status": 200,
+            "mime": "application/javascript; charset=UTF-8",
+            "bytes": 22271,
+            "sha256": "a6930aa12cf7bdb340fbb644259251529fb18d7651b2a60c9d4634028272e9f2",
+            "matchesLocalCompiledBytes": true
+          }
+        ],
+        "applicability": "One initialization failure was deliberately injected after transfer. Fresh React-owned canvas recovery and failed-worker termination were checked; this is not a naturally occurring production failure."
+      }
+    ],
+    "limits": [
+      "Six targeted lifecycle/capability scenarios, not a replacement for the existing full browser suite.",
+      "ACK confirms accepted input delivery; no solved-cube state, pointer latency or field INP threshold is inferred.",
+      "Compositor canvas screenshots require visual review; no bit-identical or comprehensive appearance pass is asserted.",
+      "The two capability/fault cases deliberately simulate unavailable host transfer and an initialization error; normal cases use unmodified native rendering.",
+      "Payload inspection covers observed structured text and subtype field names; no form is submitted and no canary values are saved.",
+      "Browser close completion is recorded; independent host process absence remains the supervising operator check."
+    ]
+  },
+  "reportingLimits": [
+    "This derivative summarizes existing recorded work; it performs no new browser, HTTP, test, image rendering, or performance measurement.",
+    "No screenshot bytes, image fingerprints, raw Worker payloads, form canaries, fixture identifiers, or machine paths are included.",
+    "Six visual route/theme pairs and six lifecycle scenarios do not establish all-page, all-language, full accessibility or performance acceptance.",
+    "The early dark Rubik finish-intensity difference remains an observed uncertainty. Later bright Neon supports a timing explanation but does not prove exact settling time or full material/pixel equivalence.",
+    "Same-origin Worker asset HTTP bytes matched the compiled files in the recorded helper. This is independent HTTP evidence, not a claim that every browser network response body was captured.",
+    "Browser close completion is recorded by the helper; system-wide absence of unrelated processes is not asserted here."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "format": "topology-bound-phase-safe-derivative-v2",
+  "phase": "owned-auth-ip-proof",
+  "kind": "fixtures",
+  "startedAt": "2026-10-25T21:25:00.816079+00:00",
+  "finishedAt": "2026-10-25T21:25:30.708570+00:00",
+  "durationSeconds": 29.892,
+  "topologySha256": "d0c85e36be10862b020361b4179ad2add3a02848966239cb01fd7b6a92837bf4",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "commandLaunchAttempted": true,
+  "commandStarted": true,
+  "coreConfigurationHashAloneBindsProxy": false,
+  "actualCommandExitCode": 0,
+  "validationPassed": true,
+  "validationErrorCode": null,
+  "validationIsSeparateFromLighthouseOutcome": true,
+  "receivedOrForwardedSignals": [],
+  "wrapperForcedKillAfterSixtySeconds": false,
+  "interruptedPageCleanup": "Not inferred by this wrapper; retain the original auditor's evidence.",
+  "originalPrivateReceiptSha256": "1ef1d271ae7312e1a346a3b9f5b9d0b3d3fa129c9f5b927f73e35c7df10a2a56",
+  "beforeVerificationPresent": true,
+  "afterVerificationPresent": true,
+  "coreArtifacts": [
+    {
+      "directoryLabel": "idealmakoo-214-final-ir2-settled-v2-private-mobile",
+      "files": {}
+    }
+  ],
+  "omissions": [
+    "Raw process IDs/arguments/environment/logs, full process observations and raw-command hashes."
+  ]
+}

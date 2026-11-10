@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/for/dealer/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "eecc171048c776ab03aac573b5359cbc5ad7c602f4dbed98182e76bd784af3e7",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "نمایندگان و توزیع‌کنندگان | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "منابع همکاری برای توزیع‌کنندگان و نمایندگان: آشنایی با محصولات، دریافت فایل‌های مرجع و ثبت درخواست ارتباط یا توزیع."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/for/dealer/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/for/dealer/",
+    "en": "http://127.0.0.1:3100/en/for/dealer/",
+    "tr": "http://127.0.0.1:3100/tr/for/dealer/",
+    "ar": "http://127.0.0.1:3100/ar/for/dealer/",
+    "ru": "http://127.0.0.1:3100/ru/for/dealer/",
+    "x-default": "http://127.0.0.1:3100/fa/for/dealer/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 56
+}

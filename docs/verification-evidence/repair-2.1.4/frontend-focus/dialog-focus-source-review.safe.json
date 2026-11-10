@@ -1,0 +1,35 @@
+{
+  "schema": "idealmakoo.dialog-focus-source-review.v1",
+  "oldBuildId": "IUO4lyoYpICGn_Igd7EsH",
+  "oldInputFingerprint": "f22b49bac26f5b59ede573dbaf6ed4cd52c738bfbe32b2d00ae9e47fe28c29ce",
+  "files": [
+    {
+      "path": "src/components/ui/dialog-runtime.ts",
+      "beforeSha256": "7928a11c28d31a10fac3ca6e811a40a7d5ed041e8f6b0937ab3992c6e2e7a1c1",
+      "afterSha256": "4384e4c932a8ba306d8557f287ce4fe779f87b1f685197cc131e75d181ca5f0c",
+      "afterBytes": 8642
+    },
+    {
+      "path": "tests/e2e/user-directory.spec.ts",
+      "beforeSha256": "b20c474bea4abd5d041e7080ee856deaf10fd4a51cd105c0e8e572c29c2476c7",
+      "afterSha256": "3f19bcf1942d95414bbbffe1427ef9c748005f5a2d6f6647207e1fa1cd0abe47",
+      "afterBytes": 9914
+    },
+    {
+      "path": "tests/e2e/dialog-focus.spec.ts",
+      "beforeSha256": null,
+      "afterSha256": "4e84de3c43f51d696d5f626fb9c1db38e5cfcfe63666e601a9498cbd70a6d073",
+      "afterBytes": 4485
+    },
+    {
+      "path": "tests/e2e/carousel-fullscreen.spec.ts",
+      "beforeSha256": "e7b7ce1d43804ccba357bea05ee825c4908283ff7c33b19e7212a8fcd78c7a16",
+      "afterSha256": "0872ae4bc1d8bb571127d0655f37810ef51a78eccc2ae2b63778bf04be9eefef",
+      "afterBytes": 4102
+    }
+  ],
+  "expectedBrowserCases": 69,
+  "expectedUnitCases": 858,
+  "runtimeScope": "Capture native initial focus; preserve requested initialFocus unless focus deliberately moved to another descendant. No CSS, permissions, keyboard trap or cleanup change.",
+  "refinement": "The initial any-descendant guard was rejected before build because a native first link can precede the explicitly requested Close control; its intermediate source/gate witness is retained."
+}

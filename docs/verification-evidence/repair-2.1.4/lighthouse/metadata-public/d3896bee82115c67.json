@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/resources/newclar-official-image/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "e616c16038a450ccb43f867e87e2ee33cae4906a4997062192e6e2a09acd5f2e",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Newclar denture teeth — official image | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Newclar denture teeth — official image — Original factory image documents"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/resources/newclar-official-image/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/newclar-official-image/",
+    "en": "http://127.0.0.1:3100/en/resources/newclar-official-image/",
+    "tr": "http://127.0.0.1:3100/tr/resources/newclar-official-image/",
+    "ar": "http://127.0.0.1:3100/ar/resources/newclar-official-image/",
+    "ru": "http://127.0.0.1:3100/ru/resources/newclar-official-image/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/newclar-official-image/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 49
+}

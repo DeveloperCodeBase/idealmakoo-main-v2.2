@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "kind": "independent-recovery-material-secured",
+  "status": "passed",
+  "completedAt": "2026-10-25T05:12:16.957525+00:00",
+  "archiveSha256": "16241e3721301550c7cc006f876dfc5df60773e47b94ab2b06a5b4681160a35c",
+  "sourceZipSha256": "2deb94d17e0852d75102461fa566555c973f632320729a366a73b86ae9381574",
+  "backupPrivacyAnchorSequence": 0,
+  "latestPrivacyLedgerHead": {
+    "format": 1,
+    "fingerprint": "ccd57c3aded2927085e5ee3d8a88aac07bc55733008f2749a1fe769e885fb6c3",
+    "sequence": 1,
+    "hash": "f26601fa50bd6e560e522dda46e1933ea8444a81826fe86acd76c8cc53d4e8c0"
+  },
+  "liveSessionBaselineBoundToOriginalSeedOutput": true,
+  "postBackupFixtureStatePassed": true,
+  "postBackupFixtureAndSessionTokensBoundToOriginalSeed": true,
+  "latestLedgerContainsExactPostBackupErasureRequest": true,
+  "latestLedgerContainsAuthenticatedBackupPrefixAndIdentity": true,
+  "currentArchiveAndRecoveryIdentityMatchAuthentication": true,
+  "latestLedgerFileHashesMatchVerifiedApplicationExport": true,
+  "sshExitCode": 0,
+  "sshActualWaitConsumed": true,
+  "files": {
+    "session-baseline.private.json": {
+      "bytes": 2682,
+      "sha256": "c96c095c4814d93c3b0438b2ffdbcf0d3e065fd386f5ae43f5d9472f5f312e6a"
+    },
+    "latest-ledger/identity.json": {
+      "bytes": 249,
+      "sha256": "7157a0812d13b35e7134d26f0e8021725294f35d99ee77ee84b904712b1dd556"
+    },
+    "latest-ledger/erasures.jsonl": {
+      "bytes": 576,
+      "sha256": "7d3db05f97b6c94d45ffa2e09c9534da51e940355ebd08221169b2dbecdbd160"
+    },
+    "ledger-receipt.safe.json": {
+      "bytes": 886,
+      "sha256": "7c7f7a379ee88401a002a8e8c9eaa76ed2d4f8f652f4b6e1d25f6c58687c5b2c"
+    },
+    "fixture-state.private.json": {
+      "bytes": 4418,
+      "sha256": "6c518c1b999fca2f87cb91de44c2e8fc26a67767454291b077997c7ec8619559"
+    }
+  },
+  "privateMaterialsPublished": false
+}

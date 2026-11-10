@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/careers/apply/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "30cc708b256bb6fab514d1ea6a128cc99b2eabda0fca6a27e943c03b09f5a75f",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Заявка и кадровый резерв | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Расскажите о навыках и заинтересованности в работе с заводом; отправьте контакты, резюме и сообщение в кадровый резерв."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/careers/apply/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/careers/apply/",
+    "en": "http://127.0.0.1:3100/en/careers/apply/",
+    "tr": "http://127.0.0.1:3100/tr/careers/apply/",
+    "ar": "http://127.0.0.1:3100/ar/careers/apply/",
+    "ru": "http://127.0.0.1:3100/ru/careers/apply/",
+    "x-default": "http://127.0.0.1:3100/fa/careers/apply/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 51
+}

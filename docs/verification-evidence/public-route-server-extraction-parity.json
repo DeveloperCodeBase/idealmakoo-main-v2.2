@@ -1,0 +1,15 @@
+{
+  "kind": "server-handler-source-extraction-parity-not-runtime-auth-test",
+  "at": "2026-10-20T15:20:04.764885+00:00",
+  "baselineArchiveSha256": "3c2cb413f1c1f355cc773ee2a5210e1b77a6de48fa9020ee39752c6cebef7c21",
+  "baselinePageSha256": "9e47ad416bf94ac767a04e887fba396f0a3d76c160720a9e97eda233198e912c",
+  "currentHandlerSha256": "c3ec970db42540f13ce911380fa0e51f12362a5d373575c71dee3a9d9eba8e27",
+  "checks": {
+    "pageGuardsAndSchemaBodyIdenticalExceptInjectedPublicElement": true,
+    "metadataBodyByteIdentical": true,
+    "cachedResourceAuthorizationBodyByteIdentical": true,
+    "rendererNotImportedIntoSharedHandler": true,
+    "serverOnlyMarker": true
+  },
+  "passed": true
+}

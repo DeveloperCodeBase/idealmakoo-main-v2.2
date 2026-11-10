@@ -1,0 +1,129 @@
+{
+  "format": "idealmakoo-native-postgres-closure-v1",
+  "status": "clean_shutdown_verified_after_readonly_followup",
+  "recordedAt": "2026-10-26T01:21:39.307106Z",
+  "scope": "Owned disposable native PostgreSQL acceptance cluster; no customer database or VM was changed.",
+  "operation": {
+    "shutdownMode": "fast",
+    "waitTimeoutSeconds": 45,
+    "stopCommandInvocations": 1,
+    "fallbackSignalsSent": 0,
+    "runtimeUid": 65534,
+    "databaseMajorVersion": 16,
+    "port": 55434,
+    "databaseQueriesPerformed": 0,
+    "environmentReadsPerformed": 0
+  },
+  "preStopIdentity": {
+    "pid": 198962,
+    "startTicks": 4877597,
+    "uid": 65534,
+    "nativeExecutionNamespace": "pid:[4026532200]",
+    "retainedArgumentsAndPostmasterMetadataMatched": true,
+    "dataDirectoryIdentityMatched": true,
+    "targetNamespaceAndExecutableLinksObserved": false
+  },
+  "commandOutcomes": {
+    "stop": {
+      "startedAt": "2026-10-26T01:20:11.710164Z",
+      "finishedAt": "2026-10-26T01:20:11.812831Z",
+      "durationSeconds": 0.102683,
+      "exitCode": 0,
+      "runAsUid": 65534,
+      "stdoutBytes": 56,
+      "stderrBytes": 0,
+      "stdoutSha256": "ca19178a35ab4153b75b494963b66ce8243e1b94c173107c87b44d09db23652d",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stoppedStatus": {
+      "startedAt": "2026-10-26T01:20:11.813331Z",
+      "finishedAt": "2026-10-26T01:20:11.815047Z",
+      "durationSeconds": 0.001723,
+      "exitCode": 3,
+      "runAsUid": 65534,
+      "stdoutBytes": 26,
+      "stderrBytes": 0,
+      "stdoutSha256": "e138ccb54fdb08283c6eb21159c53207bbbbf07077246e2804e18d22efe6e250",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "controlData": {
+      "startedAt": "2026-10-26T01:20:11.815277Z",
+      "finishedAt": "2026-10-26T01:20:11.817110Z",
+      "durationSeconds": 0.001842,
+      "exitCode": 0,
+      "runAsUid": 65534,
+      "stdoutBytes": 2282,
+      "stderrBytes": 0,
+      "stdoutSha256": "d54f0b7fd2eb11db025cd4fb95ae467945b182516b7380d7ad9125b12be9049a",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "originalSupervisorOutcome": {
+    "exitCode": 1,
+    "durationSeconds": 0.130227,
+    "reason": "Immediate post-stop PID-entry absence assertion failed. The stop command and all other shutdown/preservation checks had succeeded.",
+    "immediatePidEntryAbsent": false,
+    "immutableOriginalPreserved": true
+  },
+  "readonlyFollowup": {
+    "actualToolExitCode": 0,
+    "performedAfterStop": true,
+    "nativeNamespaceMatched": true,
+    "pidEntryAbsent": true,
+    "zombieStateObserved": false,
+    "observationWallClockTimestampUnavailable": true,
+    "noAdditionalSignalOrStopCommand": true
+  },
+  "finalState": {
+    "clusterControlState": "shut down",
+    "stoppedStatusExitCode": 3,
+    "postmasterPidFileAbsent": true,
+    "oldPidEntryAbsentObservedOnFollowup": true,
+    "dataDirectoryIdentityRetained": true,
+    "pgVersionRetained": true,
+    "checkpointMetadataUnchanged": true,
+    "checkpointContentRehashedThisOperation": false,
+    "dataOrArchivesRemoved": false,
+    "checkpointSizesBytes": {
+      "CURRENT": 162703838,
+      "HISTORICAL": 163234834
+    }
+  },
+  "readOnlyPreparation": [
+    {
+      "exitCode": 1,
+      "context": "escalated tool",
+      "reason": "target namespace symlink PermissionError"
+    },
+    {
+      "exitCode": 1,
+      "context": "sudo",
+      "reason": "target namespace symlink PermissionError"
+    },
+    {
+      "exitCode": 0,
+      "context": "sudo",
+      "scope": "native self-namespace and readable PID/data/argv metadata"
+    }
+  ],
+  "utilityIdentity": {
+    "pg_ctl": {
+      "sha256": "f311ff51f5a28ff104e43661c733b36d25cc9c5d7a66f0e463611378aafe4590",
+      "bytes": 68360
+    },
+    "postgres": {
+      "sha256": "201d8daff9a5bd9df70b820471b965c39f5a776d677f395232c477d051270722",
+      "bytes": 10511456
+    },
+    "pg_controldata": {
+      "sha256": "6a1e9ba10c7c484dafb57ccfdd7668acc130e4b862fa8cd3e730f097b519fd53",
+      "bytes": 51624
+    }
+  },
+  "privateEvidence": {
+    "originalResultSha256": "80c65ef6b9567d43b45d0bb4e2fe9fc81307b85b767815cad8c7856e344697f7",
+    "followupResultSha256": "bce08435c2c63231f87f2ef11108554b328b9f871329838e232715ccb9edc1b2",
+    "executedSupervisorSourceSha256": "5458a1973390c732e585d95c33f21e9c12841eb91a321b0b479e6553d784e001"
+  },
+  "qualification": "The initial receipt helper failure is retained, not converted to a successful first attempt. A later bounded read-only observation established actual PID absence. No zombie cause was observed or inferred."
+}

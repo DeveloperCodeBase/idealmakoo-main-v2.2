@@ -1,0 +1,51 @@
+{
+  "scope": "focused",
+  "stage": "probe",
+  "attempt": 1,
+  "startedAt": "2026-10-25T18:07:58.585Z",
+  "buildId": "IUO4lyoYpICGn_Igd7EsH",
+  "inputFingerprint": "f22b49bac26f5b59ede573dbaf6ed4cd52c738bfbe32b2d00ae9e47fe28c29ce",
+  "expectedCases": 4,
+  "CIUnset": true,
+  "workers": 1,
+  "retries": 0,
+  "structuredReportParsed": true,
+  "accepted": true,
+  "observedCommandExitCode": 0,
+  "observedSignal": null,
+  "durationSeconds": 12.631666335,
+  "reportedCaseCount": 4,
+  "everyCaseHasExactlyOneResult": true,
+  "everyCasePassed": true,
+  "reportedWorkers": 1,
+  "reportedRetries": [
+    0
+  ],
+  "runnerErrorCount": 0,
+  "finishedAt": "2026-10-25T18:08:11.225Z",
+  "stats": {
+    "startTime": "2026-10-25T18:07:59.030Z",
+    "durationMs": 12171.489,
+    "expected": 4,
+    "unexpected": 0,
+    "flaky": 0,
+    "skipped": 0
+  },
+  "structuredReport": {
+    "sha256": "f33cea5975bb55c8c1d12fff40f13888a647a4b2a17dc95ab73a89a90285707b",
+    "bytes": 8657
+  },
+  "terminalLog": {
+    "sha256": "28b27f7146c133383a6835e290102a415c2ad539d49bf61f61c24e368219f97f",
+    "bytes": 967
+  },
+  "terminalFooter": [
+    "4 passed (12.2s)"
+  ],
+  "artifactManifest": {
+    "sha256": "f8cbbbe9e659c8b9b4d4bd0efad2490b6953411af8f87e6fc8fef284f90ad85b",
+    "bytes": 482
+  },
+  "privateMaterialIncluded": false,
+  "rawReceiptSha256": "ba88942a2dc477a212e0e9b6dc2bac09fc0f1186dc4f905d7b1f76336dc93c84"
+}

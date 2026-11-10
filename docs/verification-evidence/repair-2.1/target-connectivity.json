@@ -1,0 +1,8 @@
+{
+  "observedAt": "2026-10-21T07:50:20.377238+00:00",
+  "target": "User-designated Ubuntu server (address omitted in public evidence)",
+  "port": 22,
+  "result": "connection_refused",
+  "authenticationAttempted": false,
+  "remoteStateChanged": false
+}

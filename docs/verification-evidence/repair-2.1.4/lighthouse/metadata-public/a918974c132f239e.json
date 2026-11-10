@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/sustainability/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "08175abe72ca1c706cb37445a8c37f061e3dfc0e6968e7c5d93d227a20110651",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "گزارش پایداری | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "گزارش رسمی پایداری، شاخص مصرف انرژی یا داده قابل استناد انتشار برای نمایش در این نسخه منتشر نشده است. برای دریافت اطلاعات سازمانی با کارخانه ارتباط بگیرید."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/sustainability/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/sustainability/",
+    "en": "http://127.0.0.1:3100/en/sustainability/",
+    "tr": "http://127.0.0.1:3100/tr/sustainability/",
+    "ar": "http://127.0.0.1:3100/ar/sustainability/",
+    "ru": "http://127.0.0.1:3100/ru/sustainability/",
+    "x-default": "http://127.0.0.1:3100/fa/sustainability/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 57
+}

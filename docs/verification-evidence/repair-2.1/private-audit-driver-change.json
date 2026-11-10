@@ -1,0 +1,52 @@
+{
+  "checkedAt": "2026-10-21T09:12:08.475Z",
+  "scope": "Private Lighthouse explicit graphics configuration, safe export and preparation only",
+  "productSourceChanged": false,
+  "chromeStarted": false,
+  "databaseConnected": false,
+  "targetedTests": {
+    "files": [
+      "tests/private-audit-policy.test.mjs",
+      "tests/private-lighthouse-export.test.mjs"
+    ],
+    "total": 24,
+    "pass": 24,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "exitCode": 0,
+    "log": "private-audit-driver-targeted.log"
+  },
+  "cliChecks": {
+    "checks": [
+      {
+        "name": "node-help",
+        "exitCode": 0,
+        "driverFlagDocumented": true,
+        "softwareOnlyDocumented": true,
+        "stderr": ""
+      },
+      {
+        "name": "supervisor-help",
+        "exitCode": 0,
+        "driverFlagDocumented": true,
+        "softwareOnlyDocumented": true,
+        "stderr": ""
+      }
+    ],
+    "pythonSyntaxValid": true,
+    "chromeStarted": false,
+    "databaseConnected": false
+  },
+  "graphicsMode": "swiftshader-driver",
+  "softwareCpuOnly": true,
+  "sourceHashes": {
+    "scripts/audit-private-lighthouse.mjs": "1a6f7530adbf47cd164c06571428e6a7864cf31759b6cb75518d5092b80666c4",
+    "scripts/lighthouse-private-supervisor.py": "fabb5fff32bbc605e36ef77bc70716b751d9f51448f2717923e4a751d41947ce",
+    "scripts/export-private-lighthouse-evidence.mjs": "b3a8becb75313d3b681af5dda818cf32b26965836d19c0c53271a37a3b157844",
+    "tests/private-lighthouse-export.test.mjs": "73b103b850b927fb7e52e3da22d5580685ce2921a87e8a1bfe344bbc43dadf79",
+    "docs/LIGHTHOUSE-PRIVATE.fa.md": "63574c93962347579d5288c18ccbea8630930cabbd144d03963209f68747bbaf",
+    "docs/LIGHTHOUSE-PRIVATE-EXPORT.fa.md": "987cfad705b681f7de0be083e6c2981f37056267c8385f2d55b204658428fe4e",
+    "scripts/lib/audit-browser-flags.mjs": "6509d084a69e9fc6d3bcfc67e7c63c7039b6b09897b8aa889cbb7c1c32a5de71"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "format": "private-lighthouse-evidence-v1",
+  "scope": "authenticated",
+  "jobs": [
+    {
+      "id": "c87b9ca33a4ccea1",
+      "route": "/ar/admin/crm/handoffs/",
+      "locale": "ar",
+      "role": "superAdmin",
+      "kind": "workspace",
+      "device": "mobile",
+      "expectedStatus": 200,
+      "indexed": false,
+      "queryAndFragmentOmitted": false
+    }
+  ],
+  "omissions": {
+    "rawLighthouseReports": true,
+    "screenshotsAndBinaryPayloads": true,
+    "rawUrlsAndQueryIdentifiers": true,
+    "cookiesHeadersCredentialsAndSessionIdentifiers": true,
+    "domTextLabelsSnippetsAndAttributes": true,
+    "arbitraryTitlesDescriptionsDisplayValuesAndErrorText": true,
+    "networkResourceIdentifiers": true,
+    "safeSelectorPolicy": "Standard element names, combinators and positional pseudo-classes only; IDs, classes and attributes removed.",
+    "auditOutcomes": "Every audit outcome is retained. Unknown audit IDs receive an opaque alias. Image audits retain outcome metadata only.",
+    "errors": "Known Lighthouse or runner error codes and presence/counts are retained. Free-form error and warning text is omitted explicitly.",
+    "details": "Only allowlisted numeric measurements, structural containers and simplified selectors are retained.",
+    "authentication": "Before/after proof retains only known roles, HTTP status codes, booleans and UTC observation/expiry times. Planned real renewal retains its fixed reason, times and success; identities and credentials are omitted.",
+    "detailMaximumArrayItems": 20,
+    "detailMaximumDepth": 8,
+    "detailMaximumNodesPerAudit": 2000,
+    "note": "A privacy-filtered derivative, not a raw Lighthouse report. Consult the separately protected raw report by its SHA-256 for omitted private details."
+  }
+}

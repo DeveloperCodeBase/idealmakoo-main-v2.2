@@ -1,0 +1,27 @@
+{
+  "format": "topology-bound-phase-safe-derivative-v2",
+  "phase": "clean-repeat-handoffs-prepare",
+  "kind": "fixtures",
+  "startedAt": "2026-10-25T22:38:51.094720+00:00",
+  "finishedAt": "2026-10-25T22:38:54.903014+00:00",
+  "durationSeconds": 3.808,
+  "topologySha256": "d0c85e36be10862b020361b4179ad2add3a02848966239cb01fd7b6a92837bf4",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "commandLaunchAttempted": true,
+  "commandStarted": true,
+  "coreConfigurationHashAloneBindsProxy": false,
+  "actualCommandExitCode": 0,
+  "validationPassed": true,
+  "validationErrorCode": null,
+  "validationIsSeparateFromLighthouseOutcome": true,
+  "receivedOrForwardedSignals": [],
+  "wrapperForcedKillAfterSixtySeconds": false,
+  "originalPrivateReceiptSha256": "fc42e58cc46c2ad307693455c833a1f0690c806450ea0ffd0a54b43e292a4f96",
+  "coreArtifacts": [
+    {
+      "directoryLabel": "idealmakoo-214-clean-repeat-ar-crm-handoffs",
+      "files": {}
+    }
+  ],
+  "privateCommandsLogsProcessIdentifiersOmitted": true
+}

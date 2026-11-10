@@ -1,0 +1,24 @@
+{
+  "format": "idealmakoo.root-independent-same-host-review",
+  "reviewedAt": "2026-10-21T20:34:57.248323+00:00",
+  "accepted": true,
+  "combinedReceiptSha256": "5136aae4d6038066899acc28867d36603650bb9ff04edd76408d38b83a67ef5f",
+  "phaseRecordsAndRawLogsVerified": 5,
+  "exportedRegularMembersVerified": 12,
+  "applicationAndHostControlReceiptsMatched": true,
+  "actualWitnessVerificationBranchesRead": true,
+  "antivirusControlReceiptExportVerified": true,
+  "envExportMatchedRestorePhase": true,
+  "allStagedWitnessHelpersMatchedReceiptBytes": true,
+  "templateHostBindingsAndRunExistingOnlyDifferencesIndependentlyVerified": true,
+  "selectedArchiveAndSourceBindingMatched": true,
+  "preservesCurrentSourceAndConfigurationInsteadOfReinstalling": true,
+  "nativeCompilerFixtureRetained": true,
+  "originalDockerfileCompilationAccepted": false,
+  "freshHostRecoveryAccepted": false,
+  "initialReviewFailure": {
+    "productExecutionRerun": false,
+    "acceptanceRecordedBeforeFailure": false,
+    "cause": "Root initially compared uninstantiated helper templates byte-for-byte to staged helpers. Corrected to exact staged-byte binding and separately verified six source-binding substitutions and the already accepted run-existing wrapper change; no product or evidence bytes changed."
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "url": "http://127.0.0.1:3100/ar/products/super-newclar/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "792dff27cf2bfeeae2e37cee66f9d9780a35ef97917cc02e51640664b8ddf9f2",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "أسنان سوبر نيوكلار الصناعية | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "سوبر نيوكلار بطبقتين وتركيبة مترابطة عرضيًا للتعويضات الكاملة والجزئية وفق المصدر."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/products/super-newclar/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/super-newclar/",
+    "en": "http://127.0.0.1:3100/en/products/super-newclar/",
+    "tr": "http://127.0.0.1:3100/tr/products/super-newclar/",
+    "ar": "http://127.0.0.1:3100/ar/products/super-newclar/",
+    "ru": "http://127.0.0.1:3100/ru/products/super-newclar/",
+    "x-default": "http://127.0.0.1:3100/fa/products/super-newclar/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "أسنان سوبر نيوكلار الصناعية",
+      "description": "سوبر نيوكلار بطبقتين وتركيبة مترابطة عرضيًا للتعويضات الكاملة والجزئية وفق المصدر.",
+      "image": "http://127.0.0.1:3100/media/official/1686378486.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "SUPER NEWCLAR"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/ar/products/super-newclar/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 71
+}

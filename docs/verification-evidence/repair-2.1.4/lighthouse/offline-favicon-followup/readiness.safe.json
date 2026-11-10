@@ -1,0 +1,18 @@
+{
+  "format": "offline-static-runtime-readiness-v1",
+  "startedAt": "2026-10-26T01:09:32.995877+00:00",
+  "finishedAt": "2026-10-26T01:09:33.702219+00:00",
+  "actualExitCode": 0,
+  "durationSeconds": 0.706,
+  "noPrivateDatabaseIdentityExported": true,
+  "httpStatus": 200,
+  "version": "2.1.4",
+  "database": "ok",
+  "privacy": "ready",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "inputFingerprint": "7453e88d3e56fbe65ef319c3b0a770bd48fef216505e49e7d3e5955f829655ee",
+  "runtimeRoleRestricted": true,
+  "excludedRuntimeNamesAbsent": true,
+  "readinessCommandExitCode": 0,
+  "workerHealthExitCode": 0
+}

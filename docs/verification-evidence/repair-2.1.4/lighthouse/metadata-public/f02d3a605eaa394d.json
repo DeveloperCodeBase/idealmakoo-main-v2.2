@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/blog/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "def5224a901513fc93a059b20045dc74bd4972b094585766e91937dd5f6d5936",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Ideal Makoo mesleki dergisi | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Ideal Makoo mesleki dergisinde ürünler ve dental sektör hakkında yayınlanan yazıları ve deneyimleri arayın."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/blog/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/blog/",
+    "en": "http://127.0.0.1:3100/en/blog/",
+    "tr": "http://127.0.0.1:3100/tr/blog/",
+    "ar": "http://127.0.0.1:3100/ar/blog/",
+    "ru": "http://127.0.0.1:3100/ru/blog/",
+    "x-default": "http://127.0.0.1:3100/fa/blog/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 55
+}

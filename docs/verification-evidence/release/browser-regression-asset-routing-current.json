@@ -1,0 +1,398 @@
+{
+  "schema": "idealmakoo.public-browser-regression-summary.v1",
+  "derivedFromRecordedResults": true,
+  "finalRelease": false,
+  "scope": "One recorded browser regression run; acceptance of other validation gates is outside this summary.",
+  "source": {
+    "files": 832,
+    "sha256": "981c8a90b315e4ae01de066365c3a08ae287b9afaf9202460bcf2db01161898e"
+  },
+  "application": {
+    "files": 685,
+    "sha256": "0045597565fe76bf449866d397a7eee2c5927a85cda40512044de2673f583807",
+    "buildId": "UFNFFG64Vx2uruUMUuU9z"
+  },
+  "execution": {
+    "exitCode": 0,
+    "startedAt": "2026-10-22T07:27:44.344Z",
+    "finishedAt": "2026-10-22T07:31:45.445Z",
+    "gateDurationMs": 241101,
+    "reportDurationMs": 240338.80000000002
+  },
+  "tools": {
+    "node": "v24.19.0",
+    "playwright": "1.64.1"
+  },
+  "counts": {
+    "expected": 45,
+    "executed": 45,
+    "passed": 45,
+    "failed": 0,
+    "skipped": 0,
+    "flaky": 0,
+    "retries": 0,
+    "runnerErrors": 0
+  },
+  "tests": [
+    {
+      "number": 1,
+      "title": "public accessibility: fa dark home",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 3096
+    },
+    {
+      "number": 2,
+      "title": "public accessibility: fa dark auth/login",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 1581
+    },
+    {
+      "number": 3,
+      "title": "public accessibility: fa dark contact",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 1654
+    },
+    {
+      "number": 4,
+      "title": "public accessibility: fa light home",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 3085
+    },
+    {
+      "number": 5,
+      "title": "public accessibility: fa light auth/login",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 1581
+    },
+    {
+      "number": 6,
+      "title": "public accessibility: fa light contact",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 1870
+    },
+    {
+      "number": 7,
+      "title": "public accessibility: en dark home",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 3427
+    },
+    {
+      "number": 8,
+      "title": "public accessibility: en dark auth/login",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 1930
+    },
+    {
+      "number": 9,
+      "title": "public accessibility: en dark contact",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 1862
+    },
+    {
+      "number": 10,
+      "title": "public accessibility: en light home",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 3231
+    },
+    {
+      "number": 11,
+      "title": "public accessibility: en light auth/login",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 1417
+    },
+    {
+      "number": 12,
+      "title": "public accessibility: en light contact",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 1754
+    },
+    {
+      "number": 13,
+      "title": "recovery-token navigation restores login and forgot forms and sends the English recovery locale",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 1478
+    },
+    {
+      "number": 14,
+      "title": "a valid private survey submits once without account bootstrap and reflects later revocation",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 2899
+    },
+    {
+      "number": 15,
+      "title": "recipient preferences retain a conflicted draft, save actual consent and revoke when the endpoint changes",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 2102
+    },
+    {
+      "number": 16,
+      "title": "a controlled SMS proof fixture verifies in the standalone page without granting marketing consent",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 1539
+    },
+    {
+      "number": 17,
+      "title": "P08 CRM-032: two organizations complete the inquiry, approved multilingual PDF, portal interest, forecast and isolated sample-quality lifecycle",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 19040
+    },
+    {
+      "number": 18,
+      "title": "form editing uses an actual lease, selected revision comparison and reversible lifecycle",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 9989
+    },
+    {
+      "number": 19,
+      "title": "the real rendering worker presents frames and handles keyboard input while the page controls remain usable",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 12563
+    },
+    {
+      "number": 20,
+      "title": "failure after canvas transfer remounts a fresh accessible React canvas and restores the same scene on the main thread",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 12273
+    },
+    {
+      "number": 21,
+      "title": "Communications UI saves a draft, previews only sample data, independently reviews the exact revision and withdraws it",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 6189
+    },
+    {
+      "number": 22,
+      "title": "page panel archives and recycles a live scheduled page, then restores only a draft with retained history",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 8981
+    },
+    {
+      "number": 23,
+      "title": "a scoped translator saves the complete product body and the product editor reloads that exact draft",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 6594
+    },
+    {
+      "number": 24,
+      "title": "named project lists preserve old bookmarks, resolve conflicts explicitly and share a revocable public selection",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 7489
+    },
+    {
+      "number": 25,
+      "title": "all five public catalogues render with correct language and no demo authentication",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 2908
+    },
+    {
+      "number": 26,
+      "title": "anonymous inquiry survives login and a lost merge response can be retried without adding quantities twice",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 2732
+    },
+    {
+      "number": 27,
+      "title": "registration, persistent profile, visible failed-save state and private request ownership",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 6528
+    },
+    {
+      "number": 28,
+      "title": "staff enrollment, genuine TOTP and recovery challenge gate the workspace",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 5134
+    },
+    {
+      "number": 29,
+      "title": "independent review publishes a durable page visible in a fresh browser and withdrawal removes it",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 11361
+    },
+    {
+      "number": 30,
+      "title": "verified customer reserves a real factory session and withdrawal releases the seats",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 5970
+    },
+    {
+      "number": 31,
+      "title": "notification matrix persists each channel and resolves a genuine concurrent-version conflict explicitly",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 4694
+    },
+    {
+      "number": 32,
+      "title": "private file becomes an independently reviewed version and a real public document download",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 7091
+    },
+    {
+      "number": 33,
+      "title": "organization shares separate view, reply and ownership in the customer portal",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 6358
+    },
+    {
+      "number": 34,
+      "title": "a signed incoming fixture is explicitly associated as an internal note and connector keys stay out of browser storage",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 6036
+    },
+    {
+      "number": 35,
+      "title": "hydrated public pages and the hero rendering worker run under nonce CSP without eval violations",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 11002
+    },
+    {
+      "number": 36,
+      "title": "image optimization permits known bundled files and rejects private, encoded and query-bearing paths",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 86
+    },
+    {
+      "number": 37,
+      "title": "the server-rendered public page remains mounted through session and publication hydration",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 902
+    },
+    {
+      "number": 38,
+      "title": "a staff member regenerates recovery codes in the real panel; old proofs and other sessions stop working",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 7066
+    },
+    {
+      "number": 39,
+      "title": "all forty recorded source addresses with valid percent encoding return an initial 301 without a trailing-slash detour",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 627
+    },
+    {
+      "number": 40,
+      "title": "raw percent, malformed escapes and double encoding obey the declared HTTP entrypoint",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 24
+    },
+    {
+      "number": 41,
+      "title": "ordinary page canonicalization keeps API and capability POST requests free of redirects",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 89
+    },
+    {
+      "number": 42,
+      "title": "public capability documents retain privacy headers and ordinary pages keep the base CSP",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 147
+    },
+    {
+      "number": 43,
+      "title": "an existing source page publishes edited copy after independent review and retains its original template",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 11176
+    },
+    {
+      "number": 44,
+      "title": "the people panel edits older accounts beyond 1000 customers and retains a paginated handover target across searches",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 5764
+    },
+    {
+      "number": 45,
+      "title": "hybrid panel creates roles and edits customer and environment staff profiles, grants and credentials; ordinary bootstrap preserves the edits",
+      "status": "passed",
+      "attempts": 1,
+      "retry": 0,
+      "durationMs": 22293
+    }
+  ]
+}

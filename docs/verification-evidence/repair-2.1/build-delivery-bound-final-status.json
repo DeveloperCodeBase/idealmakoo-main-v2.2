@@ -1,0 +1,19 @@
+{
+  "gate": "build",
+  "label": "delivery-bound-final",
+  "startedAt": "2026-10-21T09:11:59.806Z",
+  "finishedAt": "2026-10-21T09:13:03.144Z",
+  "exitCode": 0,
+  "childSignal": null,
+  "spawnError": null,
+  "sourceBefore": {
+    "sha256": "b185920ec0bd3ae7f49ea190da31efd089a35fb6a8a54143c94a59e18d38dd08",
+    "files": 813
+  },
+  "sourceAfter": {
+    "sha256": "b185920ec0bd3ae7f49ea190da31efd089a35fb6a8a54143c94a59e18d38dd08",
+    "files": 813
+  },
+  "sourceUnchanged": true,
+  "node": "v24.19.0"
+}

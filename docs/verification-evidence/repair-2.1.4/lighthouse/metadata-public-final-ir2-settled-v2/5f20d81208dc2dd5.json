@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/research/six-acrylic-ranges-steady-wear/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "e3469cc3f01e8b6d3c6c7e8ec87073ec13c99ffc9ec0d405962982f426a4dadb",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "نرخ سایش پایدار شش گروه دندان مصنوعی | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "اندازه‌گیری کاهش وزن در مراحل سایش و مقایسه برلیان، ایوکلار و چهار گروه دیگر."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/research/six-acrylic-ranges-steady-wear/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/six-acrylic-ranges-steady-wear/",
+    "en": "http://127.0.0.1:3100/en/research/six-acrylic-ranges-steady-wear/",
+    "tr": "http://127.0.0.1:3100/tr/research/six-acrylic-ranges-steady-wear/",
+    "ar": "http://127.0.0.1:3100/ar/research/six-acrylic-ranges-steady-wear/",
+    "ru": "http://127.0.0.1:3100/ru/research/six-acrylic-ranges-steady-wear/",
+    "x-default": "http://127.0.0.1:3100/fa/research/six-acrylic-ranges-steady-wear/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 58
+}

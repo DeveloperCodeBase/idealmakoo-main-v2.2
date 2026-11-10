@@ -1,0 +1,8 @@
+export const customProductCopy = {
+  create:{fa:'افزودن محصول جدید',en:'Add a new product',tr:'Yeni ürün ekle',ar:'إضافة منتج جديد',ru:'Добавить новый продукт'},
+  intro:{fa:'نام، برند و خانواده محصول را وارد کنید؛ سپس متن، تصویر، مشخصات و گونه‌ها را در ویرایشگر کامل و برای بازبینی ارسال کنید.',en:'Enter the name, brand and family, then complete the content, images, specifications and variants in the editor and submit for review.',tr:'Adı, markayı ve aileyi girin; ardından içerik, görsel, özellik ve varyantları düzenleyip incelemeye gönderin.',ar:'أدخل الاسم والعلامة والفئة، ثم أكمل المحتوى والصور والمواصفات والمتغيرات وأرسلها للمراجعة.',ru:'Укажите название, бренд и семейство, затем заполните содержание, изображения, характеристики и варианты и отправьте на проверку.'},
+  authored:{fa:'محصول افزوده‌شده توسط تیم محتوا',en:'Product added by the content team',tr:'İçerik ekibi tarafından eklenen ürün',ar:'منتج أضافه فريق المحتوى',ru:'Продукт, добавленный редакцией'},
+  source:{fa:'نشانی منبع، در صورت وجود',en:'Source URL, if available',tr:'Varsa kaynak adresi',ar:'رابط المصدر، إن وجد',ru:'Адрес источника, если есть'},
+  slug:{fa:'شناسه نشانی لاتین؛ خالی بگذارید تا ساخته شود',en:'URL slug; leave blank to generate',tr:'Adres kimliği; üretmek için boş bırakın',ar:'معرّف الرابط؛ اتركه فارغًا للتوليد',ru:'Часть URL; оставьте пустой для генерации'},
+  invalid:{fa:'نام، برند، خانواده یا نشانی محصول معتبر نیست.',en:'Check the product name, brand, family and URL.',tr:'Ürün adı, marka, aile ve adresi kontrol edin.',ar:'تحقق من اسم المنتج والعلامة والفئة والرابط.',ru:'Проверьте название, бренд, семейство и адрес продукта.'},
+} as const;

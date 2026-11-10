@@ -1,0 +1,50 @@
+.brandText{min-width:0;max-width:190px}.brandText strong,.brandText small{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.navigationLinks{min-width:0;gap:clamp(5px,.8vw,17px)}.navigationLinks>button{min-width:0;max-width:135px}.navigationLinks>button>span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.navigationLinks>button>svg{flex-shrink:0}.header :global(.mega-links) a span,.header :global(.mega-feature){overflow-wrap:anywhere;min-width:0}.header :global(.mega-menu){max-height:calc(100dvh - 150px);overflow:auto}.footerGrid{grid-template-columns:repeat(auto-fit,minmax(180px,1fr));align-items:start}.footerGrid>div{min-width:0;overflow-wrap:anywhere}.footerGrid h4{overflow-wrap:anywhere}.footerGrid a{max-width:100%}.footerGrid bdi{overflow-wrap:anywhere}@media(max-width:1100px){.brandText{max-width:160px}.header .navigationLinks{display:none}.header :global(.mobile-toggle){display:grid}.header :global(.gn-actions){margin-inline-start:auto}}@media(max-width:600px){.footerGrid{grid-template-columns:1fr 1fr}.footerGrid>div:first-child,.footerGrid>div:last-child{grid-column:1/-1}.brandText{max-width:170px}}
+
+/* Keep the mobile header compact; every displaced action remains in its drawer. */
+.header :global(.gn-bar) { min-width: 0; }
+.headerActions { min-width: 0; }
+.mobileNavigationContent { min-width: 0; }
+.mobileNavigationContent :global(.brand) { min-width: 0; max-width: 100%; margin-bottom: 20px; }
+.mobileNavigationContent details { min-width: 0; }
+.mobileNavigationContent summary { min-height: 46px; gap: 12px; padding-block: 6px; font-size: 1rem; line-height: 1.65; overflow-wrap: anywhere; cursor: pointer; }
+.mobileNavigationContent summary > svg, .mobileNavigationContent details a > svg { flex: 0 0 auto; }
+.mobileNavigationContent details a { min-width: 0; min-height: 46px; overflow-wrap: anywhere; line-height: 1.65; }
+.mobileNavigationContent > :global(.btn) { white-space: normal; text-align: center; }
+.mobileTools { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-block: 0 16px; }
+.mobileTools a, .mobileTools button { display: flex; align-items: center; gap: 8px; min-width: 0; min-height: 48px; padding: 10px; border: 1px solid var(--line); border-radius: 12px; background: var(--panel-soft); color: var(--text); text-align: start; font: inherit; font-size: .875rem; line-height: 1.6; cursor: pointer; }
+.mobileTools a:hover, .mobileTools button:hover { border-color: var(--line-bright); color: var(--accent); }
+.mobileTools svg { flex: 0 0 auto; color: var(--accent); }
+.mobileTools span { min-width: 0; overflow-wrap: anywhere; }
+.mobileTools b { margin-inline-start: auto; font-size: .75rem; font-weight: 600; color: var(--accent); }
+.mobilePreferences { display: grid; gap: 8px; padding-bottom: 14px; border-bottom: 1px solid var(--line); }
+.mobilePreferences > button, .mobilePreferences > label { display: flex; align-items: center; gap: 10px; min-width: 0; min-height: 46px; padding: 10px; border: 1px solid var(--line); border-radius: 12px; background: var(--panel-soft); color: var(--text); font: inherit; font-size: .875rem; text-align: start; }
+.mobilePreferences > button { cursor: pointer; }
+.mobilePreferences svg { flex: 0 0 auto; color: var(--accent); }
+.mobilePreferences span { min-width: 0; overflow-wrap: anywhere; }
+.mobilePreferences select { min-width: 0; flex: 1; width: 100%; max-width: 100%; min-height: 30px; margin-inline-start: auto; background: var(--panel-strong); border: 0; border-radius: 6px; color: var(--text); font: inherit; cursor: pointer; }
+.mobileNavigation :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+@media(max-width:1100px) {
+  .header :global(.gn-bar) { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px; height: auto; min-height: 66px; padding-block: 8px; }
+  .header:global(.site-header) :global(.gn-bar) { padding-left: max(16px, env(safe-area-inset-left)); padding-right: max(16px, env(safe-area-inset-right)); }
+  .header :global(.gn-bar) > :global(.brand) { min-width: 0; max-width: 100%; gap: 8px; }
+  .header .brandText { min-width: 0; max-width: 100%; }
+  .header .headerActions { gap: 4px; margin-inline-start: 0; }
+  .header .headerActions > button, .header .headerActions > :global(.icon-btn), .header .headerActions > :global(.nav-login) { flex: 0 0 44px; width: 44px; height: 44px; min-height: 44px; padding: 4px; margin: 0; justify-content: center; }
+  .header .headerActions > :global(.nav-login) > span { display: none; }
+  .header .headerActions > :global(.mobile-toggle) { display: grid; }
+  .header .headerActions > :global(.theme-language) { gap: 3px; }
+  .header .headerActions :global(.theme-language) > :global(.icon-btn) { display: grid; width: 44px; height: 44px; }
+  .header .headerActions :global(.language-trigger) { height: 44px; min-width: 49px; justify-content: center; font-size: 11px; }
+}
+@media(max-width:640px) {
+  .header .headerActions > :global(.theme-language) { display: none; }
+}
+@media(max-width:480px) {
+  .header .headerActions > :global(.nav-search), .header .headerActions > :global(.inquiry-icon) { display: none; }
+}
+@media(max-width:1240px) {
+  :global(html[data-font-size='large']) .header :global(.gn-bar) { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px; height: auto; min-height: 70px; padding-block: 8px; }
+  :global(html[data-font-size='large']) .header :global(.gn-bar) > :global(.brand) { min-width: 0; max-width: 100%; }
+  :global(html[data-font-size='large']) .header .headerActions > :global(.nav-login) { width: 44px; min-height: 44px; padding: 4px; justify-content: center; }
+  :global(html[data-font-size='large']) .header .headerActions > :global(.nav-login) span { display: none; }
+}

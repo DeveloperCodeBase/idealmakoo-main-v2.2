@@ -1,0 +1,104 @@
+{
+  "url": "http://127.0.0.1:3100/en/__lighthouse_missing_page__/",
+  "kind": "expected-404",
+  "indexed": false,
+  "expectedStatus": 404,
+  "device": "mobile",
+  "attempt": 1,
+  "id": "3c83fd3258d31a26",
+  "startedAt": "2026-10-25T23:06:52.241Z",
+  "status": "expected-http-response",
+  "scores": {
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  "metrics": {},
+  "lighthouseVersion": "13.5.0",
+  "fetchTime": "2026-10-25T23:06:54.337Z",
+  "finalDisplayedUrl": "http://127.0.0.1:3100/en/__lighthouse_missing_page__/",
+  "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+  "environment": {
+    "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "benchmarkIndex": 2488.5,
+    "credits": {}
+  },
+  "configSettings": {
+    "output": "json",
+    "maxWaitForFcp": 30000,
+    "maxWaitForLoad": 45000,
+    "pauseAfterFcpMs": 1000,
+    "pauseAfterLoadMs": 1000,
+    "networkQuietThresholdMs": 1000,
+    "cpuQuietThresholdMs": 1000,
+    "formFactor": "mobile",
+    "throttling": {
+      "rttMs": 150,
+      "throughputKbps": 1638.4,
+      "requestLatencyMs": 562.5,
+      "downloadThroughputKbps": 1474.5600000000002,
+      "uploadThroughputKbps": 675,
+      "cpuSlowdownMultiplier": 4
+    },
+    "throttlingMethod": "simulate",
+    "screenEmulation": {
+      "mobile": true,
+      "width": 412,
+      "height": 823,
+      "deviceScaleFactor": 1.75,
+      "disabled": false
+    },
+    "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+    "auditMode": false,
+    "gatherMode": false,
+    "clearStorageTypes": [
+      "file_systems",
+      "shader_cache",
+      "service_workers",
+      "cache_storage"
+    ],
+    "disableStorageReset": false,
+    "debugNavigation": false,
+    "channel": "node",
+    "usePassiveGathering": false,
+    "disableFullPageScreenshot": true,
+    "skipAboutBlank": false,
+    "blankPage": "about:blank",
+    "ignoreStatusCode": false,
+    "locale": "en-US",
+    "blockedUrlPatterns": null,
+    "additionalTraceCategories": null,
+    "extraHeaders": null,
+    "precomputedLanternData": null,
+    "onlyAudits": null,
+    "onlyCategories": [
+      "performance",
+      "accessibility",
+      "best-practices",
+      "seo"
+    ],
+    "skipAudits": null
+  },
+  "runtimeError": {
+    "code": "ERRORED_DOCUMENT_REQUEST",
+    "message": "Lighthouse was unable to reliably load the page you requested. Make sure you are testing the correct URL and that the server is properly responding to all requests. (Status code: 404)",
+    "errorStack": "LighthouseError: ERRORED_DOCUMENT_REQUEST\n    at getNetworkError (file:///workspace/scratch/7eb50c437e0a/idealmakoo-production-2.1.3/node_modules/lighthouse/core/lib/navigation-error.js:61:14)\n    at getPageLoadError (file:///workspace/scratch/7eb50c437e0a/idealmakoo-production-2.1.3/node_modules/lighthouse/core/lib/navigation-error.js:165:24)\n    at _computeNavigationResult (file:///workspace/scratch/7eb50c437e0a/idealmakoo-production-2.1.3/node_modules/lighthouse/core/gather/navigation-runner.js:148:7)\n    at async gatherFn (file:///workspace/scratch/7eb50c437e0a/idealmakoo-production-2.1.3/node_modules/lighthouse/core/gather/navigation-runner.js:300:23)\n    at async Runner.gather (file:///workspace/scratch/7eb50c437e0a/idealmakoo-production-2.1.3/node_modules/lighthouse/core/runner.js:232:25)\n    at async navigationGather (file:///workspace/scratch/7eb50c437e0a/idealmakoo-production-2.1.3/node_modules/lighthouse/core/gather/navigation-runner.js:306:21)\n    at async navigation (file:///workspace/scratch/7eb50c437e0a/idealmakoo-production-2.1.3/node_modules/lighthouse/core/index.js:58:24)\n    at async file:///workspace/scratch/7eb50c437e0a/idealmakoo-production-2.1.3/scripts/lighthouse-child.mjs:21:15",
+    "artifactKey": "PageLoadError"
+  },
+  "runWarnings": [
+    "Lighthouse was unable to reliably load the page you requested. Make sure you are testing the correct URL and that the server is properly responding to all requests. (Status code: 404)"
+  ],
+  "failedAudits": [],
+  "report": "3c83fd3258d31a26.attempt-1.sanitized-lhr.json",
+  "httpStatus": 404,
+  "httpUrl": "http://127.0.0.1:3100/en/__lighthouse_missing_page__/",
+  "expectedHttpVerified": true,
+  "identityErrors": [],
+  "urlIdentityVerified": true,
+  "durationMs": 4986,
+  "finishedAt": "2026-10-25T23:06:57.227Z",
+  "format": "sanitized-public-lighthouse-evidence-v1",
+  "rawReportSha256": "73ec42426c29557787ec37a418b80fa67977b788a71b2bde537b0584c27b5558",
+  "reportIsSanitized": true
+}

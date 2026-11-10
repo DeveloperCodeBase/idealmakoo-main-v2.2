@@ -1,0 +1,1580 @@
+{
+  "schemaVersion": 2,
+  "release": "2.0.0",
+  "generatedAt": "2026-10-20T09:35:20.531497+00:00",
+  "status": "passed within the explicitly recorded local acceptance scope",
+  "gates": {
+    "unit": {
+      "gate": "unit",
+      "label": "final-12",
+      "selectedFiles": [],
+      "browserGrep": null,
+      "acceptanceEnvironment": null,
+      "executionEnvironment": "unit-runner",
+      "startedAt": "2026-10-20T09:15:55.214Z",
+      "state": "completed",
+      "exitCode": 0,
+      "commandExitCode": 0,
+      "signal": null,
+      "error": null,
+      "provenance": {
+        "schemaVersion": 1,
+        "start": {
+          "capturedAt": "2026-10-20T09:15:56.101Z",
+          "runtimeSource": {
+            "algorithm": "sha256",
+            "scope": "runtime-v1",
+            "sha256": "e024ddc18a9a8c0e0b85b34b82fdf887bb3679fa68c74833abd19aade9c2ac78",
+            "fileCount": 625,
+            "byteCount": 48413076,
+            "entrypoints": []
+          },
+          "testInputs": {
+            "algorithm": "sha256",
+            "scope": "test-inputs-unit-v1",
+            "sha256": "bca6bc60f1c8635d6e1e4c7c48dd8b99018b0ad3376cb0072c153d5e47915ffd",
+            "fileCount": 50,
+            "byteCount": 386210,
+            "entrypoints": [
+              "tests/account.test.mjs",
+              "tests/ai-gateway.test.mjs",
+              "tests/avatar.test.mjs",
+              "tests/carousel-gesture.test.mjs",
+              "tests/carousel.test.mjs",
+              "tests/catalog.test.mjs",
+              "tests/crm-tools.test.mjs",
+              "tests/custom-products.test.mjs",
+              "tests/customer-permissions.test.mjs",
+              "tests/dam-client.test.mjs",
+              "tests/display-preferences.test.mjs",
+              "tests/editor-concurrency.test.mjs",
+              "tests/editor-workflows.test.mjs",
+              "tests/event-slot-picker.test.mjs",
+              "tests/experience.test.mjs",
+              "tests/form-schema.test.mjs",
+              "tests/frontend-state.test.mjs",
+              "tests/http-boundaries.test.mjs",
+              "tests/locale-actions.test.mjs",
+              "tests/locale-routing.test.mjs",
+              "tests/navigation-scroll.test.mjs",
+              "tests/operator-copy.test.mjs",
+              "tests/page-lifecycle-ui.test.mjs",
+              "tests/personal-routes.test.mjs",
+              "tests/private-device-runtime.test.mjs",
+              "tests/product-editor.test.mjs",
+              "tests/product-publication.test.mjs",
+              "tests/product-release.test.mjs",
+              "tests/product-translation.test.mjs",
+              "tests/production-frontend-contracts.test.mjs",
+              "tests/public-hydration.test.mjs",
+              "tests/public-routing.test.mjs",
+              "tests/public-surface.test.mjs",
+              "tests/pwa-policy.test.mjs",
+              "tests/reference-documents.test.mjs",
+              "tests/service-worker-classic.test.mjs",
+              "tests/site-content-control.test.mjs",
+              "tests/site-preferences.test.mjs",
+              "tests/source-download.test.mjs",
+              "tests/studio-ai.test.mjs",
+              "tests/user-settings.test.mjs",
+              "tests/workspace-permissions.test.mjs",
+              "tests/workspace.test.mjs"
+            ]
+          },
+          "collector": {
+            "schemaVersion": 1,
+            "definitionSha256": "5914d86adf7e3d47bd3133048e35b8e7ffb17852f2820fa4661dc24d3058efa5",
+            "runnerSha256": "6e7ce45dc4156c36c6b15ec64b7246234050bb95ebb4252941b7eb056059b33e"
+          }
+        },
+        "end": {
+          "capturedAt": "2026-10-20T09:16:06.445Z",
+          "runtimeSource": {
+            "algorithm": "sha256",
+            "scope": "runtime-v1",
+            "sha256": "e024ddc18a9a8c0e0b85b34b82fdf887bb3679fa68c74833abd19aade9c2ac78",
+            "fileCount": 625,
+            "byteCount": 48413076,
+            "entrypoints": []
+          },
+          "testInputs": {
+            "algorithm": "sha256",
+            "scope": "test-inputs-unit-v1",
+            "sha256": "bca6bc60f1c8635d6e1e4c7c48dd8b99018b0ad3376cb0072c153d5e47915ffd",
+            "fileCount": 50,
+            "byteCount": 386210,
+            "entrypoints": [
+              "tests/account.test.mjs",
+              "tests/ai-gateway.test.mjs",
+              "tests/avatar.test.mjs",
+              "tests/carousel-gesture.test.mjs",
+              "tests/carousel.test.mjs",
+              "tests/catalog.test.mjs",
+              "tests/crm-tools.test.mjs",
+              "tests/custom-products.test.mjs",
+              "tests/customer-permissions.test.mjs",
+              "tests/dam-client.test.mjs",
+              "tests/display-preferences.test.mjs",
+              "tests/editor-concurrency.test.mjs",
+              "tests/editor-workflows.test.mjs",
+              "tests/event-slot-picker.test.mjs",
+              "tests/experience.test.mjs",
+              "tests/form-schema.test.mjs",
+              "tests/frontend-state.test.mjs",
+              "tests/http-boundaries.test.mjs",
+              "tests/locale-actions.test.mjs",
+              "tests/locale-routing.test.mjs",
+              "tests/navigation-scroll.test.mjs",
+              "tests/operator-copy.test.mjs",
+              "tests/page-lifecycle-ui.test.mjs",
+              "tests/personal-routes.test.mjs",
+              "tests/private-device-runtime.test.mjs",
+              "tests/product-editor.test.mjs",
+              "tests/product-publication.test.mjs",
+              "tests/product-release.test.mjs",
+              "tests/product-translation.test.mjs",
+              "tests/production-frontend-contracts.test.mjs",
+              "tests/public-hydration.test.mjs",
+              "tests/public-routing.test.mjs",
+              "tests/public-surface.test.mjs",
+              "tests/pwa-policy.test.mjs",
+              "tests/reference-documents.test.mjs",
+              "tests/service-worker-classic.test.mjs",
+              "tests/site-content-control.test.mjs",
+              "tests/site-preferences.test.mjs",
+              "tests/source-download.test.mjs",
+              "tests/studio-ai.test.mjs",
+              "tests/user-settings.test.mjs",
+              "tests/workspace-permissions.test.mjs",
+              "tests/workspace.test.mjs"
+            ]
+          },
+          "collector": {
+            "schemaVersion": 1,
+            "definitionSha256": "5914d86adf7e3d47bd3133048e35b8e7ffb17852f2820fa4661dc24d3058efa5",
+            "runnerSha256": "6e7ce45dc4156c36c6b15ec64b7246234050bb95ebb4252941b7eb056059b33e"
+          }
+        },
+        "runtimeSourceUnchanged": true,
+        "testInputsUnchanged": true,
+        "collectorUnchanged": true,
+        "build": {
+          "start": null,
+          "end": null
+        }
+      },
+      "nodeVersion": "v24.19.0",
+      "provenanceErrors": [],
+      "finishedAt": "2026-10-20T09:16:06.445Z",
+      "durationMs": 11231,
+      "logSha256": "4986fe4a4f8b6310fada248c403782fa5b5d99dfb88358d59a8cf27d74b8c7cd",
+      "status": "passed",
+      "counts": {
+        "tests": 380,
+        "pass": 380,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "testDurationMs": 9499.213991
+    },
+    "postgres": {
+      "gate": "postgres",
+      "label": "final-10",
+      "selectedFiles": [],
+      "browserGrep": null,
+      "acceptanceEnvironment": null,
+      "executionEnvironment": "runtime",
+      "startedAt": "2026-10-20T09:15:56.528Z",
+      "state": "completed",
+      "exitCode": 0,
+      "commandExitCode": 0,
+      "signal": null,
+      "error": null,
+      "provenance": {
+        "schemaVersion": 1,
+        "start": {
+          "capturedAt": "2026-10-20T09:15:57.269Z",
+          "runtimeSource": {
+            "algorithm": "sha256",
+            "scope": "runtime-v1",
+            "sha256": "e024ddc18a9a8c0e0b85b34b82fdf887bb3679fa68c74833abd19aade9c2ac78",
+            "fileCount": 625,
+            "byteCount": 48413076,
+            "entrypoints": []
+          },
+          "testInputs": {
+            "algorithm": "sha256",
+            "scope": "test-inputs-postgres-v1",
+            "sha256": "58d6f4830ea6e89db923f5f9b7577e9ee93d6005f04f1a949d150754c67a3d6c",
+            "fileCount": 32,
+            "byteCount": 610546,
+            "entrypoints": [
+              "tests/server-automation.pg.mjs",
+              "tests/server-campaigns.pg.mjs",
+              "tests/server-communication-channels.pg.mjs",
+              "tests/server-company-certificates.pg.mjs",
+              "tests/server-contact-campaigns.pg.mjs",
+              "tests/server-crm-io.pg.mjs",
+              "tests/server-editor-workflows.pg.mjs",
+              "tests/server-glossary.pg.mjs",
+              "tests/server-notification-policy.pg.mjs",
+              "tests/server-notification-templates.pg.mjs",
+              "tests/server-page-lifecycle.pg.mjs",
+              "tests/server-portal-mapping.pg.mjs",
+              "tests/server-privacy.pg.mjs",
+              "tests/server-public-surface.pg.mjs",
+              "tests/server-resource-pages.pg.mjs",
+              "tests/server-resource-uploads.pg.mjs",
+              "tests/server-staff-lifecycle.pg.mjs",
+              "tests/server-task-reminder-policy.pg.mjs",
+              "tests/server-task-reminder-upgrade.pg.mjs",
+              "tests/server-tender-envelopes.pg.mjs",
+              "tests/server-workspace-calendar.pg.mjs",
+              "tests/server-workspace-commercial.pg.mjs",
+              "tests/server-workspace-domains.pg.mjs",
+              "tests/server-workspace-pipelines.pg.mjs",
+              "tests/server-workspace-policy.pg.mjs",
+              "tests/server-workspace-routing.pg.mjs",
+              "tests/server-workspace-scopes.pg.mjs",
+              "tests/server-workspace.integration.pg.mjs"
+            ]
+          },
+          "collector": {
+            "schemaVersion": 1,
+            "definitionSha256": "5914d86adf7e3d47bd3133048e35b8e7ffb17852f2820fa4661dc24d3058efa5",
+            "runnerSha256": "6e7ce45dc4156c36c6b15ec64b7246234050bb95ebb4252941b7eb056059b33e"
+          }
+        },
+        "end": {
+          "capturedAt": "2026-10-20T09:18:01.564Z",
+          "runtimeSource": {
+            "algorithm": "sha256",
+            "scope": "runtime-v1",
+            "sha256": "e024ddc18a9a8c0e0b85b34b82fdf887bb3679fa68c74833abd19aade9c2ac78",
+            "fileCount": 625,
+            "byteCount": 48413076,
+            "entrypoints": []
+          },
+          "testInputs": {
+            "algorithm": "sha256",
+            "scope": "test-inputs-postgres-v1",
+            "sha256": "58d6f4830ea6e89db923f5f9b7577e9ee93d6005f04f1a949d150754c67a3d6c",
+            "fileCount": 32,
+            "byteCount": 610546,
+            "entrypoints": [
+              "tests/server-automation.pg.mjs",
+              "tests/server-campaigns.pg.mjs",
+              "tests/server-communication-channels.pg.mjs",
+              "tests/server-company-certificates.pg.mjs",
+              "tests/server-contact-campaigns.pg.mjs",
+              "tests/server-crm-io.pg.mjs",
+              "tests/server-editor-workflows.pg.mjs",
+              "tests/server-glossary.pg.mjs",
+              "tests/server-notification-policy.pg.mjs",
+              "tests/server-notification-templates.pg.mjs",
+              "tests/server-page-lifecycle.pg.mjs",
+              "tests/server-portal-mapping.pg.mjs",
+              "tests/server-privacy.pg.mjs",
+              "tests/server-public-surface.pg.mjs",
+              "tests/server-resource-pages.pg.mjs",
+              "tests/server-resource-uploads.pg.mjs",
+              "tests/server-staff-lifecycle.pg.mjs",
+              "tests/server-task-reminder-policy.pg.mjs",
+              "tests/server-task-reminder-upgrade.pg.mjs",
+              "tests/server-tender-envelopes.pg.mjs",
+              "tests/server-workspace-calendar.pg.mjs",
+              "tests/server-workspace-commercial.pg.mjs",
+              "tests/server-workspace-domains.pg.mjs",
+              "tests/server-workspace-pipelines.pg.mjs",
+              "tests/server-workspace-policy.pg.mjs",
+              "tests/server-workspace-routing.pg.mjs",
+              "tests/server-workspace-scopes.pg.mjs",
+              "tests/server-workspace.integration.pg.mjs"
+            ]
+          },
+          "collector": {
+            "schemaVersion": 1,
+            "definitionSha256": "5914d86adf7e3d47bd3133048e35b8e7ffb17852f2820fa4661dc24d3058efa5",
+            "runnerSha256": "6e7ce45dc4156c36c6b15ec64b7246234050bb95ebb4252941b7eb056059b33e"
+          }
+        },
+        "runtimeSourceUnchanged": true,
+        "testInputsUnchanged": true,
+        "collectorUnchanged": true,
+        "build": {
+          "start": null,
+          "end": null
+        }
+      },
+      "nodeVersion": "v24.19.0",
+      "provenanceErrors": [],
+      "finishedAt": "2026-10-20T09:18:01.564Z",
+      "durationMs": 125036,
+      "logSha256": "7db44e0600584894b66271d73d09a4bebcc84555d9d531c3620706625175f43e",
+      "status": "passed",
+      "counts": {
+        "tests": 358,
+        "pass": 358,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "testDurationMs": 123785.311043
+    },
+    "api": {
+      "gate": "api",
+      "label": "final-10",
+      "selectedFiles": [],
+      "browserGrep": null,
+      "acceptanceEnvironment": null,
+      "executionEnvironment": "runtime",
+      "startedAt": "2026-10-20T09:15:57.514Z",
+      "state": "completed",
+      "exitCode": 0,
+      "commandExitCode": 0,
+      "signal": null,
+      "error": null,
+      "provenance": {
+        "schemaVersion": 1,
+        "start": {
+          "capturedAt": "2026-10-20T09:15:58.257Z",
+          "runtimeSource": {
+            "algorithm": "sha256",
+            "scope": "runtime-v1",
+            "sha256": "e024ddc18a9a8c0e0b85b34b82fdf887bb3679fa68c74833abd19aade9c2ac78",
+            "fileCount": 625,
+            "byteCount": 48413076,
+            "entrypoints": []
+          },
+          "testInputs": {
+            "algorithm": "sha256",
+            "scope": "test-inputs-api-v1",
+            "sha256": "798b6ce5feb9b928212a53cb67bd11e935e02d889e02df986fe63d20e2a25f34",
+            "fileCount": 6,
+            "byteCount": 57648,
+            "entrypoints": [
+              "tests/server-api.integration.test.ts"
+            ]
+          },
+          "collector": {
+            "schemaVersion": 1,
+            "definitionSha256": "5914d86adf7e3d47bd3133048e35b8e7ffb17852f2820fa4661dc24d3058efa5",
+            "runnerSha256": "6e7ce45dc4156c36c6b15ec64b7246234050bb95ebb4252941b7eb056059b33e"
+          }
+        },
+        "end": {
+          "capturedAt": "2026-10-20T09:16:14.194Z",
+          "runtimeSource": {
+            "algorithm": "sha256",
+            "scope": "runtime-v1",
+            "sha256": "e024ddc18a9a8c0e0b85b34b82fdf887bb3679fa68c74833abd19aade9c2ac78",
+            "fileCount": 625,
+            "byteCount": 48413076,
+            "entrypoints": []
+          },
+          "testInputs": {
+            "algorithm": "sha256",
+            "scope": "test-inputs-api-v1",
+            "sha256": "798b6ce5feb9b928212a53cb67bd11e935e02d889e02df986fe63d20e2a25f34",
+            "fileCount": 6,
+            "byteCount": 57648,
+            "entrypoints": [
+              "tests/server-api.integration.test.ts"
+            ]
+          },
+          "collector": {
+            "schemaVersion": 1,
+            "definitionSha256": "5914d86adf7e3d47bd3133048e35b8e7ffb17852f2820fa4661dc24d3058efa5",
+            "runnerSha256": "6e7ce45dc4156c36c6b15ec64b7246234050bb95ebb4252941b7eb056059b33e"
+          }
+        },
+        "runtimeSourceUnchanged": true,
+        "testInputsUnchanged": true,
+        "collectorUnchanged": true,
+        "build": {
+          "start": null,
+          "end": null
+        }
+      },
+      "nodeVersion": "v24.19.0",
+      "provenanceErrors": [],
+      "finishedAt": "2026-10-20T09:16:14.194Z",
+      "durationMs": 16680,
+      "logSha256": "be87c031dafba1659bb9c95170621d3cdb840ef3ade4971d612f12c6ef18590c",
+      "status": "passed",
+      "passedTests": 20,
+      "vitestDurationSeconds": 14.23
+    },
+    "build": {
+      "gate": "build",
+      "label": "final-11",
+      "selectedFiles": [],
+      "browserGrep": null,
+      "acceptanceEnvironment": "acceptance2",
+      "executionEnvironment": "acceptance2",
+      "startedAt": "2026-10-20T09:21:37.828Z",
+      "state": "completed",
+      "exitCode": 0,
+      "commandExitCode": 0,
+      "signal": null,
+      "error": null,
+      "provenance": {
+        "schemaVersion": 1,
+        "start": {
+          "capturedAt": "2026-10-20T09:21:38.812Z",
+          "runtimeSource": {
+            "algorithm": "sha256",
+            "scope": "runtime-v1",
+            "sha256": "e024ddc18a9a8c0e0b85b34b82fdf887bb3679fa68c74833abd19aade9c2ac78",
+            "fileCount": 625,
+            "byteCount": 48413076,
+            "entrypoints": []
+          },
+          "testInputs": {
+            "algorithm": "sha256",
+            "scope": "test-inputs-build-v1",
+            "sha256": "c1aab3d5419d0c101b031e8023b9989198ceca6b37c217ab81840c9941a9f4a0",
+            "fileCount": 12,
+            "byteCount": 202285,
+            "entrypoints": []
+          },
+          "collector": {
+            "schemaVersion": 1,
+            "definitionSha256": "5914d86adf7e3d47bd3133048e35b8e7ffb17852f2820fa4661dc24d3058efa5",
+            "runnerSha256": "6e7ce45dc4156c36c6b15ec64b7246234050bb95ebb4252941b7eb056059b33e"
+          }
+        },
+        "end": {
+          "capturedAt": "2026-10-20T09:22:54.672Z",
+          "runtimeSource": {
+            "algorithm": "sha256",
+            "scope": "runtime-v1",
+            "sha256": "e024ddc18a9a8c0e0b85b34b82fdf887bb3679fa68c74833abd19aade9c2ac78",
+            "fileCount": 625,
+            "byteCount": 48413076,
+            "entrypoints": []
+          },
+          "testInputs": {
+            "algorithm": "sha256",
+            "scope": "test-inputs-build-v1",
+            "sha256": "c1aab3d5419d0c101b031e8023b9989198ceca6b37c217ab81840c9941a9f4a0",
+            "fileCount": 12,
+            "byteCount": 202285,
+            "entrypoints": []
+          },
+          "collector": {
+            "schemaVersion": 1,
+            "definitionSha256": "5914d86adf7e3d47bd3133048e35b8e7ffb17852f2820fa4661dc24d3058efa5",
+            "runnerSha256": "6e7ce45dc4156c36c6b15ec64b7246234050bb95ebb4252941b7eb056059b33e"
+          }
+        },
+        "runtimeSourceUnchanged": true,
+        "testInputsUnchanged": true,
+        "collectorUnchanged": true,
+        "build": {
+          "start": {
+            "buildId": "ruc3z-7wIh9e3r5zGh3v0",
+            "standaloneBuildId": "ruc3z-7wIh9e3r5zGh3v0"
+          },
+          "end": {
+            "buildId": "25Y85jyISvw5bdtm5eT8W",
+            "standaloneBuildId": "25Y85jyISvw5bdtm5eT8W"
+          }
+        }
+      },
+      "nodeVersion": "v24.19.0",
+      "provenanceErrors": [],
+      "finishedAt": "2026-10-20T09:22:54.672Z",
+      "durationMs": 76844,
+      "logSha256": "34dc7440e2fcaac71e7d8c1a32c47fcf415f7babca3b6a02cfc3c439979cf26b",
+      "status": "passed",
+      "staticPages": 89,
+      "compileSeconds": 8.3,
+      "typescriptSeconds": 33.8,
+      "standalonePresent": true,
+      "strictTypeScript": true,
+      "buildId": "25Y85jyISvw5bdtm5eT8W"
+    },
+    "browser": {
+      "gate": "browser",
+      "label": "final-11",
+      "selectedFiles": [],
+      "browserGrep": null,
+      "acceptanceEnvironment": "acceptance2",
+      "executionEnvironment": "acceptance2",
+      "startedAt": "2026-10-20T09:25:20.267Z",
+      "state": "completed",
+      "exitCode": 0,
+      "commandExitCode": 0,
+      "signal": null,
+      "error": null,
+      "provenance": {
+        "schemaVersion": 1,
+        "start": {
+          "capturedAt": "2026-10-20T09:25:22.408Z",
+          "runtimeSource": {
+            "algorithm": "sha256",
+            "scope": "runtime-v1",
+            "sha256": "e024ddc18a9a8c0e0b85b34b82fdf887bb3679fa68c74833abd19aade9c2ac78",
+            "fileCount": 625,
+            "byteCount": 48413076,
+            "entrypoints": []
+          },
+          "testInputs": {
+            "algorithm": "sha256",
+            "scope": "test-inputs-browser-v1",
+            "sha256": "12872a37fc0c104642c383b1ed4f16f50b6514fe640ba8e8b701177b0664af34",
+            "fileCount": 14,
+            "byteCount": 162997,
+            "entrypoints": [
+              "tests/e2e/accessibility.spec.ts",
+              "tests/e2e/capabilities.spec.ts",
+              "tests/e2e/crm-lifecycle.spec.ts",
+              "tests/e2e/editor-workflows.spec.ts",
+              "tests/e2e/notification-templates.spec.ts",
+              "tests/e2e/page-lifecycle.spec.ts",
+              "tests/e2e/product-translation.spec.ts",
+              "tests/e2e/production.spec.ts",
+              "tests/e2e/runtime-contracts.spec.ts"
+            ]
+          },
+          "collector": {
+            "schemaVersion": 1,
+            "definitionSha256": "5914d86adf7e3d47bd3133048e35b8e7ffb17852f2820fa4661dc24d3058efa5",
+            "runnerSha256": "6e7ce45dc4156c36c6b15ec64b7246234050bb95ebb4252941b7eb056059b33e"
+          }
+        },
+        "end": {
+          "capturedAt": "2026-10-20T09:29:25.545Z",
+          "runtimeSource": {
+            "algorithm": "sha256",
+            "scope": "runtime-v1",
+            "sha256": "e024ddc18a9a8c0e0b85b34b82fdf887bb3679fa68c74833abd19aade9c2ac78",
+            "fileCount": 625,
+            "byteCount": 48413076,
+            "entrypoints": []
+          },
+          "testInputs": {
+            "algorithm": "sha256",
+            "scope": "test-inputs-browser-v1",
+            "sha256": "12872a37fc0c104642c383b1ed4f16f50b6514fe640ba8e8b701177b0664af34",
+            "fileCount": 14,
+            "byteCount": 162997,
+            "entrypoints": [
+              "tests/e2e/accessibility.spec.ts",
+              "tests/e2e/capabilities.spec.ts",
+              "tests/e2e/crm-lifecycle.spec.ts",
+              "tests/e2e/editor-workflows.spec.ts",
+              "tests/e2e/notification-templates.spec.ts",
+              "tests/e2e/page-lifecycle.spec.ts",
+              "tests/e2e/product-translation.spec.ts",
+              "tests/e2e/production.spec.ts",
+              "tests/e2e/runtime-contracts.spec.ts"
+            ]
+          },
+          "collector": {
+            "schemaVersion": 1,
+            "definitionSha256": "5914d86adf7e3d47bd3133048e35b8e7ffb17852f2820fa4661dc24d3058efa5",
+            "runnerSha256": "6e7ce45dc4156c36c6b15ec64b7246234050bb95ebb4252941b7eb056059b33e"
+          }
+        },
+        "runtimeSourceUnchanged": true,
+        "testInputsUnchanged": true,
+        "collectorUnchanged": true,
+        "build": {
+          "start": {
+            "buildId": "25Y85jyISvw5bdtm5eT8W",
+            "standaloneBuildId": "25Y85jyISvw5bdtm5eT8W"
+          },
+          "end": {
+            "buildId": "25Y85jyISvw5bdtm5eT8W",
+            "standaloneBuildId": "25Y85jyISvw5bdtm5eT8W"
+          }
+        }
+      },
+      "browserRuntime": {
+        "entrypoint": "caddy",
+        "baseURL": "http://127.0.0.1:3080",
+        "browserVersion": "Google Chrome for Testing 156.0.8078.4",
+        "playwrightVersion": "1.64.1",
+        "forbidOnly": true,
+        "retries": 0
+      },
+      "nodeVersion": "v24.19.0",
+      "provenanceErrors": [],
+      "finishedAt": "2026-10-20T09:29:25.546Z",
+      "durationMs": 245279,
+      "logSha256": "c3bcdc89ed630dab783ec9f9ab044c7b4819674d09741f4a0b68c0b6a2c2de5c",
+      "status": "passed",
+      "stats": {
+        "startTime": "2026-10-20T09:25:23.684Z",
+        "duration": 241395.85,
+        "expected": 35,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "caseCount": 35,
+      "cases": [
+        {
+          "file": "tests/e2e/accessibility.spec.ts",
+          "title": "public accessibility: fa dark home",
+          "project": "chromium",
+          "durationMs": 24245,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/accessibility.spec.ts",
+          "title": "public accessibility: fa dark auth/login",
+          "project": "chromium",
+          "durationMs": 3631,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/accessibility.spec.ts",
+          "title": "public accessibility: fa dark contact",
+          "project": "chromium",
+          "durationMs": 2016,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/accessibility.spec.ts",
+          "title": "public accessibility: fa light home",
+          "project": "chromium",
+          "durationMs": 18510,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/accessibility.spec.ts",
+          "title": "public accessibility: fa light auth/login",
+          "project": "chromium",
+          "durationMs": 3515,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/accessibility.spec.ts",
+          "title": "public accessibility: fa light contact",
+          "project": "chromium",
+          "durationMs": 2044,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/accessibility.spec.ts",
+          "title": "public accessibility: en dark home",
+          "project": "chromium",
+          "durationMs": 19030,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/accessibility.spec.ts",
+          "title": "public accessibility: en dark auth/login",
+          "project": "chromium",
+          "durationMs": 3472,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/accessibility.spec.ts",
+          "title": "public accessibility: en dark contact",
+          "project": "chromium",
+          "durationMs": 2344,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/accessibility.spec.ts",
+          "title": "public accessibility: en light home",
+          "project": "chromium",
+          "durationMs": 19028,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/accessibility.spec.ts",
+          "title": "public accessibility: en light auth/login",
+          "project": "chromium",
+          "durationMs": 3027,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/accessibility.spec.ts",
+          "title": "public accessibility: en light contact",
+          "project": "chromium",
+          "durationMs": 2039,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/capabilities.spec.ts",
+          "title": "a valid private survey submits once without account bootstrap and reflects later revocation",
+          "project": "chromium",
+          "durationMs": 2752,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/capabilities.spec.ts",
+          "title": "recipient preferences retain a conflicted draft, save actual consent and revoke when the endpoint changes",
+          "project": "chromium",
+          "durationMs": 3247,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/capabilities.spec.ts",
+          "title": "a controlled SMS proof fixture verifies in the standalone page without granting marketing consent",
+          "project": "chromium",
+          "durationMs": 1882,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/crm-lifecycle.spec.ts",
+          "title": "P08 CRM-032: two organizations complete the inquiry, approved multilingual PDF, portal interest, forecast and isolated sample-quality lifecycle",
+          "project": "chromium",
+          "durationMs": 18486,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/editor-workflows.spec.ts",
+          "title": "form editing uses an actual lease, selected revision comparison and reversible lifecycle",
+          "project": "chromium",
+          "durationMs": 9242,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/notification-templates.spec.ts",
+          "title": "Communications UI saves a draft, previews only sample data, independently reviews the exact revision and withdraws it",
+          "project": "chromium",
+          "durationMs": 5566,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/page-lifecycle.spec.ts",
+          "title": "page panel archives and recycles a live scheduled page, then restores only a draft with retained history",
+          "project": "chromium",
+          "durationMs": 7928,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/product-translation.spec.ts",
+          "title": "a scoped translator saves the complete product body and the product editor reloads that exact draft",
+          "project": "chromium",
+          "durationMs": 5641,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/production.spec.ts",
+          "title": "named project lists preserve old bookmarks, resolve conflicts explicitly and share a revocable public selection",
+          "project": "chromium",
+          "durationMs": 8021,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/production.spec.ts",
+          "title": "all five public catalogues render with correct language and no demo authentication",
+          "project": "chromium",
+          "durationMs": 3238,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/production.spec.ts",
+          "title": "anonymous inquiry survives login and a lost merge response can be retried without adding quantities twice",
+          "project": "chromium",
+          "durationMs": 4546,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/production.spec.ts",
+          "title": "registration, persistent profile, visible failed-save state and private request ownership",
+          "project": "chromium",
+          "durationMs": 8454,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/production.spec.ts",
+          "title": "staff enrollment, genuine TOTP and recovery challenge gate the workspace",
+          "project": "chromium",
+          "durationMs": 11145,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/production.spec.ts",
+          "title": "independent review publishes a durable page visible in a fresh browser and withdrawal removes it",
+          "project": "chromium",
+          "durationMs": 12258,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/production.spec.ts",
+          "title": "verified customer reserves a real factory session and withdrawal releases the seats",
+          "project": "chromium",
+          "durationMs": 6651,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/production.spec.ts",
+          "title": "notification matrix persists each channel and resolves a genuine concurrent-version conflict explicitly",
+          "project": "chromium",
+          "durationMs": 5727,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/production.spec.ts",
+          "title": "private file becomes an independently reviewed version and a real public document download",
+          "project": "chromium",
+          "durationMs": 5138,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/production.spec.ts",
+          "title": "organization shares separate view, reply and ownership in the customer portal",
+          "project": "chromium",
+          "durationMs": 8064,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/production.spec.ts",
+          "title": "a signed incoming fixture is explicitly associated as an internal note and connector keys stay out of browser storage",
+          "project": "chromium",
+          "durationMs": 5745,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/runtime-contracts.spec.ts",
+          "title": "all forty recorded source addresses with valid percent encoding return an initial 301 without a trailing-slash detour",
+          "project": "chromium",
+          "durationMs": 1228,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/runtime-contracts.spec.ts",
+          "title": "raw percent, malformed escapes and double encoding obey the declared HTTP entrypoint",
+          "project": "chromium",
+          "durationMs": 28,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/runtime-contracts.spec.ts",
+          "title": "ordinary page canonicalization keeps API and capability POST requests free of redirects",
+          "project": "chromium",
+          "durationMs": 93,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/runtime-contracts.spec.ts",
+          "title": "public capability documents retain privacy headers and ordinary pages keep the base CSP",
+          "project": "chromium",
+          "durationMs": 113,
+          "attempts": 1,
+          "status": "passed"
+        }
+      ],
+      "reportSha256": "529a11f162fba93c7b0a9ac08dd1a77f60626d36c2dfc6d48b77d6a9163ad5e9",
+      "entrypoint": "native Caddy to standalone Next.js",
+      "browser": "Google Chrome for Testing 156.0.8078.4",
+      "playwright": "1.64.1",
+      "database": "dedicated acceptance database; not the clean final runtime",
+      "buildId": "25Y85jyISvw5bdtm5eT8W",
+      "requiredSpecFiles": [
+        "tests/e2e/crm-lifecycle.spec.ts",
+        "tests/e2e/page-lifecycle.spec.ts",
+        "tests/e2e/product-translation.spec.ts",
+        "tests/e2e/runtime-contracts.spec.ts"
+      ]
+    }
+  },
+  "provenance": {
+    "schemaVersion": 1,
+    "runtimeSource": {
+      "algorithm": "sha256",
+      "scope": "runtime-v1",
+      "sha256": "e024ddc18a9a8c0e0b85b34b82fdf887bb3679fa68c74833abd19aade9c2ac78",
+      "fileCount": 625,
+      "byteCount": 48413076,
+      "entrypoints": []
+    },
+    "collector": {
+      "schemaVersion": 1,
+      "definitionSha256": "5914d86adf7e3d47bd3133048e35b8e7ffb17852f2820fa4661dc24d3058efa5",
+      "runnerSha256": "6e7ce45dc4156c36c6b15ec64b7246234050bb95ebb4252941b7eb056059b33e"
+    },
+    "testInputs": {
+      "unit": {
+        "algorithm": "sha256",
+        "scope": "test-inputs-unit-v1",
+        "sha256": "bca6bc60f1c8635d6e1e4c7c48dd8b99018b0ad3376cb0072c153d5e47915ffd",
+        "fileCount": 50,
+        "byteCount": 386210,
+        "entrypoints": [
+          "tests/account.test.mjs",
+          "tests/ai-gateway.test.mjs",
+          "tests/avatar.test.mjs",
+          "tests/carousel-gesture.test.mjs",
+          "tests/carousel.test.mjs",
+          "tests/catalog.test.mjs",
+          "tests/crm-tools.test.mjs",
+          "tests/custom-products.test.mjs",
+          "tests/customer-permissions.test.mjs",
+          "tests/dam-client.test.mjs",
+          "tests/display-preferences.test.mjs",
+          "tests/editor-concurrency.test.mjs",
+          "tests/editor-workflows.test.mjs",
+          "tests/event-slot-picker.test.mjs",
+          "tests/experience.test.mjs",
+          "tests/form-schema.test.mjs",
+          "tests/frontend-state.test.mjs",
+          "tests/http-boundaries.test.mjs",
+          "tests/locale-actions.test.mjs",
+          "tests/locale-routing.test.mjs",
+          "tests/navigation-scroll.test.mjs",
+          "tests/operator-copy.test.mjs",
+          "tests/page-lifecycle-ui.test.mjs",
+          "tests/personal-routes.test.mjs",
+          "tests/private-device-runtime.test.mjs",
+          "tests/product-editor.test.mjs",
+          "tests/product-publication.test.mjs",
+          "tests/product-release.test.mjs",
+          "tests/product-translation.test.mjs",
+          "tests/production-frontend-contracts.test.mjs",
+          "tests/public-hydration.test.mjs",
+          "tests/public-routing.test.mjs",
+          "tests/public-surface.test.mjs",
+          "tests/pwa-policy.test.mjs",
+          "tests/reference-documents.test.mjs",
+          "tests/service-worker-classic.test.mjs",
+          "tests/site-content-control.test.mjs",
+          "tests/site-preferences.test.mjs",
+          "tests/source-download.test.mjs",
+          "tests/studio-ai.test.mjs",
+          "tests/user-settings.test.mjs",
+          "tests/workspace-permissions.test.mjs",
+          "tests/workspace.test.mjs"
+        ]
+      },
+      "postgres": {
+        "algorithm": "sha256",
+        "scope": "test-inputs-postgres-v1",
+        "sha256": "58d6f4830ea6e89db923f5f9b7577e9ee93d6005f04f1a949d150754c67a3d6c",
+        "fileCount": 32,
+        "byteCount": 610546,
+        "entrypoints": [
+          "tests/server-automation.pg.mjs",
+          "tests/server-campaigns.pg.mjs",
+          "tests/server-communication-channels.pg.mjs",
+          "tests/server-company-certificates.pg.mjs",
+          "tests/server-contact-campaigns.pg.mjs",
+          "tests/server-crm-io.pg.mjs",
+          "tests/server-editor-workflows.pg.mjs",
+          "tests/server-glossary.pg.mjs",
+          "tests/server-notification-policy.pg.mjs",
+          "tests/server-notification-templates.pg.mjs",
+          "tests/server-page-lifecycle.pg.mjs",
+          "tests/server-portal-mapping.pg.mjs",
+          "tests/server-privacy.pg.mjs",
+          "tests/server-public-surface.pg.mjs",
+          "tests/server-resource-pages.pg.mjs",
+          "tests/server-resource-uploads.pg.mjs",
+          "tests/server-staff-lifecycle.pg.mjs",
+          "tests/server-task-reminder-policy.pg.mjs",
+          "tests/server-task-reminder-upgrade.pg.mjs",
+          "tests/server-tender-envelopes.pg.mjs",
+          "tests/server-workspace-calendar.pg.mjs",
+          "tests/server-workspace-commercial.pg.mjs",
+          "tests/server-workspace-domains.pg.mjs",
+          "tests/server-workspace-pipelines.pg.mjs",
+          "tests/server-workspace-policy.pg.mjs",
+          "tests/server-workspace-routing.pg.mjs",
+          "tests/server-workspace-scopes.pg.mjs",
+          "tests/server-workspace.integration.pg.mjs"
+        ]
+      },
+      "api": {
+        "algorithm": "sha256",
+        "scope": "test-inputs-api-v1",
+        "sha256": "798b6ce5feb9b928212a53cb67bd11e935e02d889e02df986fe63d20e2a25f34",
+        "fileCount": 6,
+        "byteCount": 57648,
+        "entrypoints": [
+          "tests/server-api.integration.test.ts"
+        ]
+      },
+      "build": {
+        "algorithm": "sha256",
+        "scope": "test-inputs-build-v1",
+        "sha256": "c1aab3d5419d0c101b031e8023b9989198ceca6b37c217ab81840c9941a9f4a0",
+        "fileCount": 12,
+        "byteCount": 202285,
+        "entrypoints": []
+      },
+      "browser": {
+        "algorithm": "sha256",
+        "scope": "test-inputs-browser-v1",
+        "sha256": "12872a37fc0c104642c383b1ed4f16f50b6514fe640ba8e8b701177b0664af34",
+        "fileCount": 14,
+        "byteCount": 162997,
+        "entrypoints": [
+          "tests/e2e/accessibility.spec.ts",
+          "tests/e2e/capabilities.spec.ts",
+          "tests/e2e/crm-lifecycle.spec.ts",
+          "tests/e2e/editor-workflows.spec.ts",
+          "tests/e2e/notification-templates.spec.ts",
+          "tests/e2e/page-lifecycle.spec.ts",
+          "tests/e2e/product-translation.spec.ts",
+          "tests/e2e/production.spec.ts",
+          "tests/e2e/runtime-contracts.spec.ts"
+        ]
+      }
+    },
+    "executionEnvironments": {
+      "unit": "unit-runner",
+      "postgres": "runtime",
+      "api": "runtime",
+      "build": "acceptance2",
+      "browser": "acceptance2"
+    },
+    "buildId": "25Y85jyISvw5bdtm5eT8W",
+    "allGateInputsMatchCurrentSource": true,
+    "runtimeSourceStableDuringEveryGate": true,
+    "scope": {
+      "runtimeDirectories": [
+        "src",
+        "public",
+        "scripts",
+        "db",
+        "deploy",
+        "worker"
+      ],
+      "runtimeRootFiles": [
+        ".dockerignore",
+        ".env.example",
+        "Dockerfile",
+        "docker-compose.yml",
+        "package.json",
+        "package-lock.json",
+        "next.config.ts",
+        "tsconfig.json",
+        "postcss.config.mjs",
+        "tailwind.config.ts"
+      ],
+      "rootComposeFiles": [
+        "docker-compose.yml"
+      ],
+      "generatedExcluded": [
+        "public/service-worker-classic.js",
+        "next-env.d.ts"
+      ],
+      "secretsAndGeneratedArtifactsExcluded": true
+    }
+  },
+  "evidence": {
+    "final-runtime.json": {
+      "sha256": "1fc56e2262d5816ca7c22a8a38c90b390d89fa796098873cdc49eb53fa4fd96d"
+    },
+    "build-secret-scan.json": {
+      "sha256": "3e2ada8d3cc5279b357e9ddf59cf846351b5083eb21cab1cd23c77e079abbf27"
+    },
+    "reverse-proxy.json": {
+      "sha256": "8aa44df55ab1e3fa109de20036651438be9976fe801a3d0e693a99d24a4c0a8f"
+    },
+    "native-recovery.json": {
+      "sha256": "9fa7bbd691741c017c823ad56e0dda99a5ed660a47d3de6abc65195d08aedb17"
+    },
+    "native-recovery-object-manifest.json": {
+      "sha256": "31c86939691887137c0817598d304787d6442147b25141442194f7ac268fb1d6"
+    },
+    "deployment-config.json": {
+      "sha256": "6acdf23f4f168afbaa2adc61022b050a18edb9edccfb0ef13bcd77e5384035ac"
+    },
+    "quote-pdf.json": {
+      "sha256": "f8ace29212e010b94f230132403600f1274707658bf773310fe3e888ed9f844f"
+    },
+    "dependency-audit.json": {
+      "sha256": "0e8a20ade8f0074c12b93d277f77450a85b599cd7b8040eddffcbe768c4c4059"
+    },
+    "remote-access.json": {
+      "sha256": "843af18d7c0fd7562e8343415a63f0548f338be12462c17edb68f5abac21ed3c"
+    }
+  },
+  "dependencyAudit": {
+    "status": "passed_with_warnings",
+    "advisoryCheckPassed": true,
+    "exitCode": 0,
+    "checkedAtUtc": "2026-10-20T08:19:39.712898+00:00",
+    "registry": "https://registry.npmjs.org",
+    "command": "npm audit --omit=dev --json",
+    "lockfileSha256": "effbae915e9930fa68e06fb94d6af314729e2ef7ea11618305cdee68943d86ae",
+    "lockfileUnchanged": true,
+    "metadata": {
+      "vulnerabilities": {
+        "info": 0,
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "critical": 0,
+        "total": 0
+      },
+      "dependencies": {
+        "prod": 93,
+        "dev": 144,
+        "optional": 89,
+        "peer": 32,
+        "peerOptional": 0,
+        "total": 299
+      }
+    },
+    "warnings": [
+      "npm warn Unknown env config \"http-proxy\". This will stop working in the next major version of npm."
+    ]
+  },
+  "quotePdf": {
+    "status": "passed for the recorded fixture review",
+    "acceptanceDateUtc": "2026-10-19",
+    "files": 10,
+    "pages": 29,
+    "languages": [
+      "fa",
+      "en",
+      "tr",
+      "ar",
+      "ru"
+    ],
+    "fixtureOnly": true,
+    "visualReview": {
+      "allSinglePages": true,
+      "allStressFirstAndLastPages": true,
+      "rtlLtrAndFontsReviewed": true
+    },
+    "boundsAndReplacementGlyphChecksPassed": true
+  },
+  "remoteAccess": {
+    "status": "connection-failed",
+    "checkedAt": "2026-10-20T09:28:20.701080+00:00",
+    "host": "193.163.201.141",
+    "user": "ubuntu",
+    "port": 22,
+    "exitCode": 255,
+    "reason": "connection-refused",
+    "remoteCommandExecuted": false,
+    "remoteSiteChanged": false,
+    "remoteDeploymentVerified": false
+  },
+  "databaseMigrations": 37,
+  "productionConfiguration": {
+    "demo": false,
+    "externalNotifications": "disabled",
+    "campaignDispatch": false,
+    "applicationRole": "idealmakoo_app",
+    "finalRuntimeHasAcceptanceFixtures": false
+  },
+  "priorAttempts": [
+    {
+      "gate": "browser",
+      "label": "final-7",
+      "status": "failed",
+      "treatedAsFinalPass": false,
+      "startedAt": "2026-10-20T07:50:18.602Z",
+      "finishedAt": "2026-10-20T07:59:32.782Z",
+      "durationMs": 554180,
+      "exitCode": 1,
+      "commandExitCode": null,
+      "selectedFiles": [],
+      "browserGrep": null,
+      "acceptanceEnvironment": null,
+      "provenanceRecorded": false,
+      "artifacts": {
+        "status": {
+          "file": "idealmakoo-recovery-browser-final-7-status.json",
+          "sha256": "1fd24d8f2bcb6923dc6728b5da741b89ac47d2df29c5c6d68c7e06072460ac34"
+        },
+        "log": {
+          "file": "idealmakoo-recovery-browser-final-7.log",
+          "sha256": "a41db9bff121b0f7702acc94e179bd2737380843b6a79b396a1ff825870615dd"
+        },
+        "report": {
+          "file": "idealmakoo-recovery-browser-final-7.json",
+          "sha256": "111dafdec79b10e7d51f0fa73c10f739d906a227328eb464c17b6cfb9feb7ed4"
+        }
+      },
+      "corrections": [
+        {
+          "kind": "application",
+          "description": "EventSlotPicker waits for established session state and aborts/reloads for identity and locale changes; focused unit regressions cover the hydration race."
+        },
+        {
+          "kind": "test-only",
+          "description": "The resource publication locator was corrected to the existing accessible name Publish reviewed version; publication authorization was unchanged."
+        }
+      ],
+      "scope": "full suite at that time",
+      "stats": {
+        "startTime": "2026-10-20T07:50:19.672Z",
+        "duration": 553061.672,
+        "expected": 30,
+        "skipped": 0,
+        "unexpected": 2,
+        "flaky": 0
+      },
+      "passed": 30,
+      "failed": 2,
+      "failedCases": [
+        {
+          "file": "tests/e2e/production.spec.ts",
+          "title": "verified customer reserves a real factory session and withdrawal releases the seats",
+          "project": "chromium",
+          "status": "unexpected",
+          "attemptStatuses": [
+            "timedOut"
+          ]
+        },
+        {
+          "file": "tests/e2e/production.spec.ts",
+          "title": "private file becomes an independently reviewed version and a real public document download",
+          "project": "chromium",
+          "status": "unexpected",
+          "attemptStatuses": [
+            "timedOut"
+          ]
+        }
+      ],
+      "finalAcceptanceReference": {
+        "build": {
+          "label": "final-11",
+          "buildId": "25Y85jyISvw5bdtm5eT8W",
+          "logSha256": "34dc7440e2fcaac71e7d8c1a32c47fcf415f7babca3b6a02cfc3c439979cf26b"
+        },
+        "browser": {
+          "label": "final-11",
+          "buildId": "25Y85jyISvw5bdtm5eT8W",
+          "reportSha256": "529a11f162fba93c7b0a9ac08dd1a77f60626d36c2dfc6d48b77d6a9163ad5e9",
+          "scope": "full final suite"
+        }
+      },
+      "retestedFailedCases": [
+        {
+          "file": "tests/e2e/production.spec.ts",
+          "title": "verified customer reserves a real factory session and withdrawal releases the seats",
+          "project": "chromium",
+          "durationMs": 6651,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/production.spec.ts",
+          "title": "private file becomes an independently reviewed version and a real public document download",
+          "project": "chromium",
+          "durationMs": 5138,
+          "attempts": 1,
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "gate": "build",
+      "label": "final-8",
+      "status": "failed",
+      "treatedAsFinalPass": false,
+      "startedAt": "2026-10-20T08:53:35.569Z",
+      "finishedAt": "2026-10-20T08:54:38.439Z",
+      "durationMs": 62870,
+      "exitCode": 1,
+      "commandExitCode": 1,
+      "selectedFiles": [],
+      "browserGrep": null,
+      "acceptanceEnvironment": "acceptance2",
+      "provenanceRecorded": true,
+      "artifacts": {
+        "status": {
+          "file": "idealmakoo-recovery-build-final-8-status.json",
+          "sha256": "60a911dfa3efca32f7a94743776a52195573fb1319757362dcd440a70efa22cc"
+        },
+        "log": {
+          "file": "idealmakoo-recovery-build-final-8.log",
+          "sha256": "e766109c4417be17cd69279ec9e2e0971e332f6f6c22d2bcc85a2d8de60fe66d"
+        }
+      },
+      "corrections": [
+        {
+          "kind": "application",
+          "description": "The absent-page branch in authorizePage now returns denied explicitly, preserving rejection and allowing strict TypeScript to narrow after."
+        }
+      ],
+      "scope": "production build with strict TypeScript",
+      "diagnostic": {
+        "file": "src/server/workspace-policy.ts",
+        "line": 192,
+        "column": 37,
+        "message": "'after' is possibly 'undefined'"
+      },
+      "finalAcceptanceReference": {
+        "build": {
+          "label": "final-11",
+          "buildId": "25Y85jyISvw5bdtm5eT8W",
+          "logSha256": "34dc7440e2fcaac71e7d8c1a32c47fcf415f7babca3b6a02cfc3c439979cf26b"
+        },
+        "browser": {
+          "label": "final-11",
+          "buildId": "25Y85jyISvw5bdtm5eT8W",
+          "reportSha256": "529a11f162fba93c7b0a9ac08dd1a77f60626d36c2dfc6d48b77d6a9163ad5e9",
+          "scope": "full final suite"
+        }
+      },
+      "directRecheck": "The accepted production build reran strict TypeScript; the final browser then exercised that same Build ID."
+    },
+    {
+      "gate": "browser",
+      "label": "final-8",
+      "status": "failed",
+      "treatedAsFinalPass": false,
+      "startedAt": "2026-10-20T09:05:26.405Z",
+      "finishedAt": "2026-10-20T09:08:04.145Z",
+      "durationMs": 157740,
+      "exitCode": 1,
+      "commandExitCode": 1,
+      "selectedFiles": [
+        "tests/e2e/crm-lifecycle.spec.ts",
+        "tests/e2e/page-lifecycle.spec.ts",
+        "tests/e2e/product-translation.spec.ts",
+        "tests/e2e/production.spec.ts"
+      ],
+      "browserGrep": "P08 CRM-032|scoped translator saves|page panel archives|verified customer reserves|private file becomes",
+      "acceptanceEnvironment": "acceptance",
+      "provenanceRecorded": true,
+      "artifacts": {
+        "status": {
+          "file": "idealmakoo-recovery-browser-final-8-status.json",
+          "sha256": "cbff67a9fe36628ba3d96860f5767ed344f744216060f89272580940615f6ba9"
+        },
+        "log": {
+          "file": "idealmakoo-recovery-browser-final-8.log",
+          "sha256": "20b73d2b9d04578357d34ad1fa6e951b966185f040bb697e19342f54413bfc35"
+        },
+        "report": {
+          "file": "idealmakoo-recovery-browser-final-8.json",
+          "sha256": "e496ace3abd55174aefc572d652a39c7360cd98dd97fbfc26adab2a891b3f2c0"
+        }
+      },
+      "corrections": [
+        {
+          "kind": "test-only",
+          "description": "The CRM acceptance guard was corrected from NOTIFICATIONS_MODE=off to the actual disabled value; no external delivery was enabled."
+        },
+        {
+          "kind": "test-only",
+          "description": "The product translation locator was corrected from Search to the existing accessible name Search workspace…."
+        },
+        {
+          "kind": "application",
+          "description": "The static-only public catch-all returned 404 for a managed resource page. Its resolver now checks the current managed resource publication and access rules before serving that page."
+        }
+      ],
+      "scope": "focused selection",
+      "stats": {
+        "startTime": "2026-10-20T09:05:28.406Z",
+        "duration": 154657.316,
+        "expected": 2,
+        "skipped": 0,
+        "unexpected": 3,
+        "flaky": 0
+      },
+      "passed": 2,
+      "failed": 3,
+      "failedCases": [
+        {
+          "file": "tests/e2e/crm-lifecycle.spec.ts",
+          "title": "P08 CRM-032: two organizations complete the inquiry, approved multilingual PDF, portal interest, forecast and isolated sample-quality lifecycle",
+          "project": "chromium",
+          "status": "unexpected",
+          "attemptStatuses": [
+            "failed"
+          ]
+        },
+        {
+          "file": "tests/e2e/product-translation.spec.ts",
+          "title": "a scoped translator saves the complete product body and the product editor reloads that exact draft",
+          "project": "chromium",
+          "status": "unexpected",
+          "attemptStatuses": [
+            "timedOut"
+          ]
+        },
+        {
+          "file": "tests/e2e/production.spec.ts",
+          "title": "private file becomes an independently reviewed version and a real public document download",
+          "project": "chromium",
+          "status": "unexpected",
+          "attemptStatuses": [
+            "failed"
+          ]
+        }
+      ],
+      "finalAcceptanceReference": {
+        "build": {
+          "label": "final-11",
+          "buildId": "25Y85jyISvw5bdtm5eT8W",
+          "logSha256": "34dc7440e2fcaac71e7d8c1a32c47fcf415f7babca3b6a02cfc3c439979cf26b"
+        },
+        "browser": {
+          "label": "final-11",
+          "buildId": "25Y85jyISvw5bdtm5eT8W",
+          "reportSha256": "529a11f162fba93c7b0a9ac08dd1a77f60626d36c2dfc6d48b77d6a9163ad5e9",
+          "scope": "full final suite"
+        }
+      },
+      "retestedFailedCases": [
+        {
+          "file": "tests/e2e/crm-lifecycle.spec.ts",
+          "title": "P08 CRM-032: two organizations complete the inquiry, approved multilingual PDF, portal interest, forecast and isolated sample-quality lifecycle",
+          "project": "chromium",
+          "durationMs": 18486,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/product-translation.spec.ts",
+          "title": "a scoped translator saves the complete product body and the product editor reloads that exact draft",
+          "project": "chromium",
+          "durationMs": 5641,
+          "attempts": 1,
+          "status": "passed"
+        },
+        {
+          "file": "tests/e2e/production.spec.ts",
+          "title": "private file becomes an independently reviewed version and a real public document download",
+          "project": "chromium",
+          "durationMs": 5138,
+          "attempts": 1,
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "gate": "browser",
+      "label": "final-9",
+      "status": "failed",
+      "treatedAsFinalPass": false,
+      "startedAt": "2026-10-20T09:18:47.996Z",
+      "finishedAt": "2026-10-20T09:19:39.973Z",
+      "durationMs": 51977,
+      "exitCode": 1,
+      "commandExitCode": 1,
+      "selectedFiles": [
+        "tests/e2e/crm-lifecycle.spec.ts",
+        "tests/e2e/page-lifecycle.spec.ts",
+        "tests/e2e/product-translation.spec.ts",
+        "tests/e2e/production.spec.ts"
+      ],
+      "browserGrep": "P08 CRM-032|scoped translator saves|page panel archives|verified customer reserves|private file becomes",
+      "acceptanceEnvironment": "acceptance",
+      "provenanceRecorded": true,
+      "artifacts": {
+        "status": {
+          "file": "idealmakoo-recovery-browser-final-9-status.json",
+          "sha256": "07d20408d708609e14114c50d388e862cf5b80f2d49cccfef3c1344fff52adeb"
+        },
+        "log": {
+          "file": "idealmakoo-recovery-browser-final-9.log",
+          "sha256": "35497744fb0b5897961137f9abacb74c81b34f34ea8a16eca0561b24f2e3e12c"
+        },
+        "report": {
+          "file": "idealmakoo-recovery-browser-final-9.json",
+          "sha256": "02b9acb95358e8a4ed9ed2380f77dc8651c7b2b30a8a05a5abf2669962594657"
+        }
+      },
+      "corrections": [
+        {
+          "kind": "test-only",
+          "description": "The unrelated customer CRM-evidence assertion expected 403, while domainRecord intentionally returns 404 to avoid disclosing the record. The test expectation is aligned to 404 without changing application authorization. Subsequent internal-note assertions were not reached in this failed attempt and must execute in the final full scenario."
+        }
+      ],
+      "scope": "focused selection",
+      "stats": {
+        "startTime": "2026-10-20T09:18:49.818Z",
+        "duration": 49237.304000000004,
+        "expected": 4,
+        "skipped": 0,
+        "unexpected": 1,
+        "flaky": 0
+      },
+      "passed": 4,
+      "failed": 1,
+      "failedCases": [
+        {
+          "file": "tests/e2e/crm-lifecycle.spec.ts",
+          "title": "P08 CRM-032: two organizations complete the inquiry, approved multilingual PDF, portal interest, forecast and isolated sample-quality lifecycle",
+          "project": "chromium",
+          "status": "unexpected",
+          "attemptStatuses": [
+            "failed"
+          ]
+        }
+      ],
+      "finalAcceptanceReference": {
+        "build": {
+          "label": "final-11",
+          "buildId": "25Y85jyISvw5bdtm5eT8W",
+          "logSha256": "34dc7440e2fcaac71e7d8c1a32c47fcf415f7babca3b6a02cfc3c439979cf26b"
+        },
+        "browser": {
+          "label": "final-11",
+          "buildId": "25Y85jyISvw5bdtm5eT8W",
+          "reportSha256": "529a11f162fba93c7b0a9ac08dd1a77f60626d36c2dfc6d48b77d6a9163ad5e9",
+          "scope": "full final suite"
+        }
+      },
+      "retestedFailedCases": [
+        {
+          "file": "tests/e2e/crm-lifecycle.spec.ts",
+          "title": "P08 CRM-032: two organizations complete the inquiry, approved multilingual PDF, portal interest, forecast and isolated sample-quality lifecycle",
+          "project": "chromium",
+          "durationMs": 18486,
+          "attempts": 1,
+          "status": "passed"
+        }
+      ]
+    }
+  ],
+  "packageVerification": "The private source packager verifies its allowlist, credentials and every ZIP entry SHA-256. The external release manifest records the final archive digest; the archive cannot include its own digest.",
+  "notExecuted": [
+    "Docker daemon or containers",
+    "fresh Ubuntu virtual-machine installation",
+    "remote deployment or domain TLS",
+    "live external SMTP/SMS/Telegram/Najva/AI providers",
+    "a live ClamAV signature service"
+  ],
+  "coverageLimits": [
+    "Successful counts are not code coverage percentages or a proof of defect-free software.",
+    "Browser coverage combines selected real UI workflows with actual HTTP domain commands; it is not every role/device/route combination.",
+    "Non-image clean-scan acceptance fixtures are explicitly controlled test data; an absent scanner remains fail-closed."
+  ]
+}

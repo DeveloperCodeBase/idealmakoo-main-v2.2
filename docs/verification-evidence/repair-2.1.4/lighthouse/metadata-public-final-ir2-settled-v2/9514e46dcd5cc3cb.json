@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/resources/super-berelian-official-image/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "5742fb24543de3e219c7d593eb7c2246a7bc8f1b1c0df0bc21c0224e3320fa98",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Искусственные зубы Super Berelian — официальное изображение | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Искусственные зубы Super Berelian — официальное изображение — Оригинальные графические документы завода"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/resources/super-berelian-official-image/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/super-berelian-official-image/",
+    "en": "http://127.0.0.1:3100/en/resources/super-berelian-official-image/",
+    "tr": "http://127.0.0.1:3100/tr/resources/super-berelian-official-image/",
+    "ar": "http://127.0.0.1:3100/ar/resources/super-berelian-official-image/",
+    "ru": "http://127.0.0.1:3100/ru/resources/super-berelian-official-image/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/super-berelian-official-image/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 43
+}

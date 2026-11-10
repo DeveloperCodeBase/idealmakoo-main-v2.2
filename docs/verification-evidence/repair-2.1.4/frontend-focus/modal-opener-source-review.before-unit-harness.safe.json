@@ -1,0 +1,44 @@
+{
+  "schema": "idealmakoo.explicit-modal-opener-review.v1",
+  "beforeBuildId": "i_L9unDIa8NEwrdKG7t07",
+  "beforeInputFingerprint": "bdaab8a68f6ffc26a9b56079e3c8e3767f51c8714da8da59697ef3c2b47fb68e",
+  "files": [
+    {
+      "path": "src/components/ui/dialog-runtime.ts",
+      "beforeSha256": "4384e4c932a8ba306d8557f287ce4fe779f87b1f685197cc131e75d181ca5f0c",
+      "afterSha256": "3d38e7863ea8cd97c380d82b9664f5e85dc5fe5e1a50427a44ad918b8c8a9069",
+      "afterBytes": 8789
+    },
+    {
+      "path": "src/components/ui/Primitives.tsx",
+      "beforeSha256": "95e6e12eb6ff7411085d1affbb4e850f155d59b00e548a6c599ca596be808226",
+      "afterSha256": "4c32aedba94eeec9f9acebf6815eb2f85c6eeac1f8f3c95c412b5c9c0493398c",
+      "afterBytes": 3658
+    },
+    {
+      "path": "src/components/workspace/ui.tsx",
+      "beforeSha256": "a37c557a93bea823011ec924111ba376265cb9d1bbff43170e5a652aa0831ce9",
+      "afterSha256": "7c8426b543f4785962fb2c2aebe369ef7713d8aa643e6488d05a400e31d06d3d",
+      "afterBytes": 3073
+    },
+    {
+      "path": "src/components/workspace/StaffManagement.tsx",
+      "beforeSha256": "555b17eec689be5aa606827378391773855af546fdd7b6681dfc2749b2a45aa2",
+      "afterSha256": "ff79937ea99d1fe65f953d7b3cc851440ec8ccf1e1c0e6bb0ffcef085916d79a",
+      "afterBytes": 45369
+    }
+  ],
+  "expectedBrowserCases": 69,
+  "expectedUnitCases": 858,
+  "unchangedControls": [
+    "busy/disabled states",
+    "role/permission gates",
+    "CSS and final markup",
+    "API behavior",
+    "initial focus selection",
+    "URL-change guard",
+    "restoreFocus:false opt-out",
+    "connected-target check",
+    "nested-dialog boundary"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "kind": "independent-offline-subset-backup-download-authentication",
+  "status": "passed",
+  "completedAt": "2026-10-24T09:10:57.364218+00:00",
+  "originalDownloadCliExitCode": 0,
+  "actualDownloadWaitConsumed": true,
+  "singleIndependentBackupInvocation": true,
+  "strictPinnedSsh": true,
+  "caller": {
+    "sourceZipSha256": "3552e3d8f65388794e2cf0c1df3277694cc6be99b8b0e9dde849d270141730cb",
+    "executionInputs986Sha256": "5df4b3194f4abcb77a02cd05ef400c1b95653a3458db80712b88d9846b725e00",
+    "lifecycleSha256": "41c35c535a685206dbbd22322aa5c3a95ed381ca7e36214ecf721719dbb3f1e6",
+    "privateDeploymentAliasUsed": true,
+    "primaryCurrentLinkChanged": false,
+    "productCodeChangedDuringOperation": false
+  },
+  "archivedDeployment": {
+    "sourceZipSha256": "1b2dd59c60a97bd1c113f6fdf7faaa330d6ca3157ccf3187b94f37eb4cecb806",
+    "executionInputs986Sha256": "2bed25d40de1ec28ecaf8edf79f778386ce5c156b8bb8a520f3e214aaec6490e",
+    "imageId": "sha256:4974f775daabed633a6767bc5d8dc4f85b739dbd35c2fbe74695aef87a3fdd94",
+    "sourceFilesVerified": 3286,
+    "allArchivedSourceFilesMatchFrozenCandidate": true,
+    "release": "20261024T080908Z-eaef1a71"
+  },
+  "runtimeSnapshot": {
+    "capturedServices": [
+      "proxy"
+    ],
+    "capturedAt": "2026-10-24T09:02:15.338712+00:00",
+    "snapshotSha256": "3984d2ee565a9d99e96702051200c031177e118e09c7194f63315955aac14285",
+    "snapshotBytes": 324,
+    "explicitSnapshotBudgetSeconds": 30,
+    "capturedContainerIdsMatchedPreflight": true,
+    "capturedSubsetResumptionReturnedZeroBeforeEncryptionPublication": true,
+    "resumptionProof": "Unchanged backup.sh set-e control flow calls lifecycle start --snapshot successfully before encrypting and exclusively publishing the archive.",
+    "independentPostOperationRuntimeReadbackPerformed": false
+  },
+  "archive": {
+    "sha256": "708049bfd6de22656bfd84c6cef4e3cc1c1224e15ddd57931cee4abb71161a97",
+    "bytes": 175167432,
+    "mode": "0600",
+    "included": false,
+    "format": 3,
+    "schemaInventory": {
+      "migrationCount": 41,
+      "publicRelations": 187
+    },
+    "ageAuthenticatedDecryption": true,
+    "completeManifestAndRestorePolicyAuthenticated": true,
+    "databaseMediaConfigurationLedgerAndProxyPayloadsValidated": true,
+    "ledgerAnchorSequence": 0,
+    "privateRecoveryIdentitySavedSeparately": true,
+    "privateRecoveryIdentityIncluded": false,
+    "temporaryPlaintextRemoved": true
+  },
+  "scope": {
+    "originalInstallerAccepted": false,
+    "servingSiteBackupClaimed": false,
+    "appAndWorkerStartedForBackup": false,
+    "apiCustomerMfaSessionAndErasureFixturesExecuted": false,
+    "cleanAndEicarScannerHttpFixturesExecuted": false,
+    "sameHostRestoreExecuted": false,
+    "newHostRecoveryExecuted": false,
+    "data": "Factory-seeded database and deployed persistent volumes; no added customer or uploaded-file fixture."
+  }
+}

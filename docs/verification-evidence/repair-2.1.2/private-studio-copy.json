@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "kind": "five-locale-owned-private-studio-copy-check",
+  "buildId": "fIFLzhRg6HZ_mfSabbL8J",
+  "startedAt": "2026-10-23T11:13:53.428Z",
+  "status": "completed",
+  "authVerified": true,
+  "workloadHash": "d8024a34a8dcc2f93596cc17ed52e02c400b96e7f741b470938e26ce013fa79d",
+  "records": [
+    {
+      "locale": "fa",
+      "targetPath": "/fa/admin/ai/",
+      "httpStatus": 200,
+      "lang": "fa",
+      "dir": "rtl",
+      "mainHeadings": 1,
+      "intro": "از ایده تا محتوای آمادهٔ بازبینی، با منابع ایده‌آل ماکو.",
+      "lab": "IDEAL MAKOO · کارگاه محتوا",
+      "viewportWidth": 412,
+      "documentWidth": 412,
+      "bodyWidth": 412,
+      "banner": {
+        "x": 12,
+        "y": 258.328125,
+        "width": 388,
+        "height": 122.484375
+      },
+      "generationDisabled": true,
+      "providerIdentityPresent": true,
+      "errors": [],
+      "passed": true,
+      "observedScreenshot": {
+        "bytes": 407783,
+        "sha256": "120496ecfcfc2d42a7746a16b92430c98b64b96a7fc79eff25ea117fedcf77de",
+        "includedInSourcePackage": false
+      }
+    },
+    {
+      "locale": "en",
+      "targetPath": "/en/admin/ai/",
+      "httpStatus": 200,
+      "lang": "en",
+      "dir": "ltr",
+      "mainHeadings": 1,
+      "intro": "From an idea to content ready for review, using Ideal Makoo sources.",
+      "lab": "IDEAL MAKOO · CONTENT LAB",
+      "viewportWidth": 412,
+      "documentWidth": 412,
+      "bodyWidth": 412,
+      "banner": {
+        "x": 12,
+        "y": 253.9375,
+        "width": 388,
+        "height": 143.375
+      },
+      "generationDisabled": true,
+      "providerIdentityPresent": true,
+      "errors": [],
+      "passed": true,
+      "observedScreenshot": {
+        "bytes": 421445,
+        "sha256": "7c6075588ffeb95cce332bd02665ba3d153bbb0fce2c4e431c788cbe24ec292e",
+        "includedInSourcePackage": false
+      }
+    },
+    {
+      "locale": "tr",
+      "targetPath": "/tr/admin/ai/",
+      "httpStatus": 200,
+      "lang": "tr",
+      "dir": "ltr",
+      "mainHeadings": 1,
+      "intro": "Ideal Makoo kaynaklarıyla fikirden incelemeye hazır içeriğe.",
+      "lab": "IDEAL MAKOO · İÇERİK ATÖLYESİ",
+      "viewportWidth": 412,
+      "documentWidth": 412,
+      "bodyWidth": 412,
+      "banner": {
+        "x": 12,
+        "y": 253.9375,
+        "width": 388,
+        "height": 143.375
+      },
+      "generationDisabled": true,
+      "providerIdentityPresent": true,
+      "errors": [],
+      "passed": true,
+      "observedScreenshot": {
+        "bytes": 416050,
+        "sha256": "ccbb5daaedf32dae780fd337c71286182992ff65c2768b09120c20b4f0b5bd37",
+        "includedInSourcePackage": false
+      }
+    },
+    {
+      "locale": "ar",
+      "targetPath": "/ar/admin/ai/",
+      "httpStatus": 200,
+      "lang": "ar",
+      "dir": "rtl",
+      "mainHeadings": 1,
+      "intro": "من الفكرة إلى محتوى جاهز للمراجعة، بالاعتماد على مصادر إيديال ماكو.",
+      "lab": "IDEAL MAKOO · مختبر المحتوى",
+      "viewportWidth": 412,
+      "documentWidth": 412,
+      "bodyWidth": 412,
+      "banner": {
+        "x": 12,
+        "y": 258.328125,
+        "width": 388,
+        "height": 143.375
+      },
+      "generationDisabled": true,
+      "providerIdentityPresent": true,
+      "errors": [],
+      "passed": true,
+      "observedScreenshot": {
+        "bytes": 412513,
+        "sha256": "7f1d8c1670bdefe65313fdd294f66946ef4ac0759b6a1580f3e5d1f22420052b",
+        "includedInSourcePackage": false
+      }
+    },
+    {
+      "locale": "ru",
+      "targetPath": "/ru/admin/ai/",
+      "httpStatus": 200,
+      "lang": "ru",
+      "dir": "ltr",
+      "mainHeadings": 1,
+      "intro": "От идеи до материала для проверки с использованием источников Ideal Makoo.",
+      "lab": "IDEAL MAKOO · СТУДИЯ КОНТЕНТА",
+      "viewportWidth": 412,
+      "documentWidth": 412,
+      "bodyWidth": 412,
+      "banner": {
+        "x": 12,
+        "y": 253.9375,
+        "width": 388,
+        "height": 173.96875
+      },
+      "generationDisabled": true,
+      "providerIdentityPresent": true,
+      "errors": [],
+      "passed": true,
+      "observedScreenshot": {
+        "bytes": 422089,
+        "sha256": "5220fcd26ea3046c4cd8a530a07356b8132ff9a0a64d118c920afda59176e365",
+        "includedInSourcePackage": false
+      }
+    }
+  ],
+  "passed": true,
+  "workloadUnchanged": true,
+  "buildUnchanged": true,
+  "finishedAt": "2026-10-23T11:14:05.097Z",
+  "sourceSafeReceiptSha256": "0ff84429a260a3a9ec4c462588f8615041c89f23f12ddb8aed5b4ad6f5b06b5f",
+  "packageDerivative": {
+    "screenshotsIncluded": false,
+    "screenshotPathReferencesRemoved": true,
+    "secretValuesIncluded": false
+  }
+}

@@ -1,0 +1,5 @@
+route,device,status,performance,accessibility,best-practices,seo,largest-contentful-paint,total-blocking-time,cumulative-layout-shift,durationMs,runWarningCount,mayBeIncomplete
+/en/contact/,mobile,completed,71,100,100,100,3257.7435,905.5,0.0001380422217268122,10213,0,false
+/fa/,mobile,completed,45,100,100,100,3795.071099999999,152993.96445,0.007545552663279595,170881,1,true
+/fa/products/,mobile,completed,73,100,100,100,3036.6849,760.5000000000005,0.0023129283861665247,11474,0,false
+/fa/quality/,mobile,completed,68,100,100,100,3230.6642,896.6679000000004,0.07189574076811377,9816,0,false

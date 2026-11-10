@@ -1,0 +1,92 @@
+/* Only page shells are fluid. Functional cards, prose and native dialogs keep
+   their own constraints. Stable data attributes avoid generated CSS-module names. */
+html body [data-page-shell="auth"],
+html body [data-page-shell="account"] {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  margin-inline: 0;
+  box-sizing: border-box;
+}
+
+html body [data-page-shell="account"] {
+  padding-inline: var(--page-gutter, 20px);
+}
+
+html body [data-page-shell="auth"] {
+  padding-inline: 0;
+}
+
+html body [data-page-shell="auth"] [data-auth-region="columns"] {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+html body [data-page-shell="auth"] [data-auth-region="columns"]::before {
+  display: none;
+}
+
+html body [data-page-shell="auth"] [data-auth-region="form"] {
+  min-width: 0;
+  padding-inline: var(--page-gutter, 20px);
+}
+
+/* Keep credential fields comfortable on ultrawide screens while the split
+   authentication scene occupies the complete page width. */
+html body [data-page-shell="auth"] [data-auth-region="form"] > * {
+  width: 100%;
+  max-width: 35rem;
+  margin-inline: auto;
+}
+
+html body [data-page-shell="auth"] [data-auth-region="intro"] {
+  flex-wrap: wrap;
+  padding-inline: var(--page-gutter, 20px);
+}
+
+html body [data-page-shell="auth"] [data-auth-region="demos"] {
+  margin-inline: var(--page-gutter, 20px);
+}
+
+/* These are multi-panel layouts; each enclosed form/control remains a card. */
+html body .page-content > .request-page-layout,
+html body .page-content > .protocol-layout {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+}
+
+/* Published CMS blocks must have the same full-page canvas as native pages. */
+html body .page-content > .publication-preview {
+  width: 100%;
+  max-width: none;
+  margin-inline: 0;
+  padding-inline: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+html body .page-content > .publication-preview::before,
+html body .page-content > .publication-preview::after {
+  display: none;
+}
+
+html body .page-content > .publication-preview > header > p,
+html body .page-content > .publication-preview > .published-prose {
+  max-width: 80ch;
+}
+
+@media print {
+  html body [data-page-shell="account"] { padding-inline: 0; }
+}

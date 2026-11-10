@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/segmentation/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "f51d8ef30aff2673f5f75b8b896b714d9bb04c3603f90c2d6f8bfbda3b3045d8",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "الجمهور وشرائح السوق | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "مختبرات الأسنان والعيادات والمستشفيات والجامعات وشبكة توزيع المنتجات السنية."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/segmentation/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/segmentation/",
+    "en": "http://127.0.0.1:3100/en/segmentation/",
+    "tr": "http://127.0.0.1:3100/tr/segmentation/",
+    "ar": "http://127.0.0.1:3100/ar/segmentation/",
+    "ru": "http://127.0.0.1:3100/ru/segmentation/",
+    "x-default": "http://127.0.0.1:3100/fa/segmentation/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 64
+}

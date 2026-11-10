@@ -1,0 +1,158 @@
+{
+  "schema": 1,
+  "kind": "isolated-combined-lifecycle-budget-and-exit-candidate",
+  "completedAt": "2026-10-24T07:56:00.480044+00:00",
+  "appliedToProduct": false,
+  "vmChanged": false,
+  "earlierExitCandidateUnchanged": true,
+  "changedProductRelativePaths": [
+    "scripts/install-ubuntu.sh",
+    "deploy/service-lifecycle.py",
+    "tests/deployment_service_lifecycle_test.py"
+  ],
+  "candidateHashes": [
+    {
+      "path": "scripts/install-ubuntu.sh",
+      "beforeSha256": "0db53d1c84961aa7a62981d6bb7a8062fdb57184b7b2c99e19382f489c1d39df",
+      "sha256": "8fc935c9b0fddcb47508699a5bb670d842ffb92d831cd1b537ff0611b2a205aa",
+      "bytes": 25909
+    },
+    {
+      "path": "deploy/service-lifecycle.py",
+      "beforeSha256": "56efebc9b3aaac6eb75c7bcc735b858a1299472dfc1a6bffa53359645ed5e5b9",
+      "sha256": "4fd2771c7b5d4d0c22787f3f03d6a08f6c2f06eebdeafd0c65aa10f967c250e0",
+      "bytes": 25915
+    },
+    {
+      "path": "tests/deployment_service_lifecycle_test.py",
+      "beforeSha256": "5f969df23d36b4801ec75675421c9415f17dc3383451c7814c6c9cb57620f082",
+      "sha256": "bae4e67492ea2bf3f4b2b6c3fbf90147862309c03b83df304ae41b8b6730d384",
+      "bytes": 45285
+    }
+  ],
+  "originalRuntimeDefaultsUnchanged": true,
+  "mutatingStartupBudget": "same finite caller Deadline, maximum=None only at Compose up and docker start",
+  "readOnlyComposeMaximumSeconds": 60,
+  "inspectMaximumSeconds": 15,
+  "publicProbeMaximumSeconds": 12,
+  "stopAndCleanupMaximumSeconds": 90,
+  "exitDiagnosticTimeoutSeconds": 15,
+  "originalExitStatusAndProcessGroupTerminationPreserved": true,
+  "deadlineCancellationOutputIdentityAndCleanupAstUnchanged": true,
+  "existingTestMethodsIncludingExitRegressionAstUnchanged": true,
+  "addedTestMethods": [
+    "test_actual_hung_mutating_child_and_descendant_end_at_deadline_with_cleanup",
+    "test_slow_mutating_starts_exhaust_one_deadline_before_later_service",
+    "test_slow_mutating_up_and_existing_start_finish_within_operation_budget"
+  ],
+  "baseline": {
+    "schema": 1,
+    "kind": "isolated-combined-candidate-focused-regressions",
+    "variant": "baseline",
+    "startedAt": "2026-10-24T07:54:12.185902+00:00",
+    "completedAt": "2026-10-24T07:54:34.566662+00:00",
+    "elapsedSeconds": 22.380662,
+    "testExitCode": 1,
+    "expectedExitCode": 1,
+    "expectedExitObserved": true,
+    "testNames": [
+      "LifecycleTests.test_slow_mutating_up_and_existing_start_finish_within_operation_budget",
+      "LifecycleTests.test_slow_mutating_starts_exhaust_one_deadline_before_later_service",
+      "LifecycleTests.test_actual_hung_mutating_child_and_descendant_end_at_deadline_with_cleanup",
+      "LifecycleTests.test_installer_exit_listing_is_bounded_kills_descendant_and_preserves_original_status"
+    ],
+    "unittestSummary": [
+      "Ran 4 tests in 22.253s",
+      "FAILED (failures=3)"
+    ],
+    "logSha256": "d3805f762692846074685b2e2000e9b592b53eab28472967786ff20738670192",
+    "productApplied": false,
+    "realDockerDaemonUsed": false,
+    "vmCalls": false,
+    "networkUsed": false,
+    "fullSuiteExecuted": false
+  },
+  "candidate": {
+    "schema": 1,
+    "kind": "isolated-combined-candidate-focused-regressions",
+    "variant": "candidate",
+    "startedAt": "2026-10-24T07:54:43.716165+00:00",
+    "completedAt": "2026-10-24T07:55:01.336036+00:00",
+    "elapsedSeconds": 17.619788,
+    "testExitCode": 0,
+    "expectedExitCode": 0,
+    "expectedExitObserved": true,
+    "testNames": [
+      "LifecycleTests.test_slow_mutating_up_and_existing_start_finish_within_operation_budget",
+      "LifecycleTests.test_slow_mutating_starts_exhaust_one_deadline_before_later_service",
+      "LifecycleTests.test_actual_hung_mutating_child_and_descendant_end_at_deadline_with_cleanup",
+      "LifecycleTests.test_installer_exit_listing_is_bounded_kills_descendant_and_preserves_original_status"
+    ],
+    "unittestSummary": [
+      "Ran 4 tests in 17.511s",
+      "OK"
+    ],
+    "logSha256": "f8cc72d51e4213ca4ef66cfad504558bd6bc6962b7da26e85427a44464c4a9e0",
+    "productApplied": false,
+    "realDockerDaemonUsed": false,
+    "vmCalls": false,
+    "networkUsed": false,
+    "fullSuiteExecuted": false
+  },
+  "baselineExpectedFailureEvents": {
+    "slowUpSubtest": 1,
+    "slowCapturedIdStartSubtest": 1,
+    "exitListing": 1
+  },
+  "candidatePassedTestMethods": 4,
+  "candidateFailedTestMethods": 0,
+  "fullOperationsSuiteExecuted": false,
+  "fullOperationsExpectedAfterApplication": 204,
+  "shellcheckExecuted": false,
+  "python310GrammarAndBashSyntaxPassed": true,
+  "newBuildExecuted": false,
+  "realRuntimeOrVmOperations": false,
+  "sourceProductThreeHashesStillMatchInputs": true,
+  "prediction": {
+    "files": 986,
+    "beforeSha256": "a9337f54dad49cdd79a8498cd575b05349887860dded6e5fabb5c10b6ca9ebce",
+    "afterSha256": "2bed25d40de1ec28ecaf8edf79f778386ce5c156b8bb8a520f3e214aaec6490e",
+    "actualNewManifestOrBuildClaimed": false
+  },
+  "observedFocusedFailureSource": {
+    "path": "acceptance/continuation-20261024/devops/evidence/focused-lifecycle-progress-07.safe.json",
+    "sha256": "66c65b2ee3532ff42013c81b2c93c7f561d8dcd56b4bd939441ff3f0fb247215",
+    "bytes": 14790
+  },
+  "priorInstallerFailuresCauseClaimed": false,
+  "artifacts": {
+    "candidate.patch": {
+      "sha256": "5fc22f05feed8e2ec16010c4586b8b7c63fd3699126f852cb00037a06b26b985",
+      "bytes": 20856
+    },
+    "README.md": {
+      "sha256": "9093ebccae7b256198f6a55e00279706bc8f4ef97acce280cf0d2a8b35e2e113",
+      "bytes": 3969
+    },
+    "predicted-application-inputs.json": {
+      "sha256": "e72239c67dc76afbe8acb8e4068b53f02025da3030f585aa14d67f22ae8a615f",
+      "bytes": 110777
+    },
+    "baseline-targeted.log": {
+      "sha256": "d3805f762692846074685b2e2000e9b592b53eab28472967786ff20738670192",
+      "bytes": 8286
+    },
+    "candidate-targeted.log": {
+      "sha256": "f8cc72d51e4213ca4ef66cfad504558bd6bc6962b7da26e85427a44464c4a9e0",
+      "bytes": 835
+    },
+    "inputs-before.safe.json": {
+      "sha256": "fe2a887379e27acb996884ab89887fe71b07da9a81a273c40fef9120477c345f",
+      "bytes": 1605
+    },
+    "prepared.safe.json": {
+      "sha256": "b6a31da24382c0607ff53ebea56f5946f4a2453aef9c1a5d10f338ae9eeff164",
+      "bytes": 421
+    }
+  }
+}

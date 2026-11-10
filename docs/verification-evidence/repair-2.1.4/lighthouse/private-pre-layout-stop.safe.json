@@ -1,0 +1,96 @@
+{
+  "format": "historical-private-audit-stop-v1",
+  "recordedAt": "2026-10-25T17:28:50.476205+00:00",
+  "classification": "Interrupted historical pre-layout-fix run; never reused as final-build coverage",
+  "buildId": "NWcRPAySX3HCzbpKSDJNf",
+  "runtimeInputFingerprint": "e5d44f7f6dcfd162d2b60a85443025116373d3e0b28989f6be5b0ececc36534b",
+  "configurationHash": "74b76258a6ce0ed190e2540cafa2ab95efaba424b7dba011d49ac661c969fc2d",
+  "command": {
+    "startedAt": "2026-10-25T17:00:54.187086+00:00",
+    "finishedAt": "2026-10-25T17:18:03.958908+00:00",
+    "durationSeconds": 1029.772,
+    "exitCode": 2
+  },
+  "stop": {
+    "requestedAt": "2026-10-25T17:17:58.729243+00:00",
+    "requestedSignal": "SIGTERM",
+    "supervisorIdentityVerifiedBeforeSignal": true,
+    "existingChildFallbackAfterMilliseconds": 5000,
+    "childExit": {
+      "code": null,
+      "signal": "SIGKILL"
+    },
+    "childStatusFinishedAt": "2026-10-25T17:18:03.900Z",
+    "timedOut": false,
+    "interrupted": true,
+    "supervisorAndWrapperExitCode": 2,
+    "description": "Supervisor received the requested SIGTERM, then its existing five-second fallback killed the non-exiting role child with SIGKILL. This was an operator-requested interruption, not a per-page timeout or a clean child exit."
+  },
+  "counts": {
+    "expected": 530,
+    "attempted": 153,
+    "completed": 152,
+    "errors": 1,
+    "timeouts": 0,
+    "pending": 377,
+    "coverageComplete": false
+  },
+  "observedRoles": [
+    "superAdmin"
+  ],
+  "inventoriedRoles": 12,
+  "interruptedOutcome": {
+    "route": "/en/admin/monitoring/recovery/",
+    "locale": "en",
+    "role": "superAdmin",
+    "status": "error",
+    "errorCode": "AUDIT_INTERRUPTED",
+    "attempt": 1,
+    "startedAt": "2026-10-25T17:17:54.499Z",
+    "finishedAt": "2026-10-25T17:18:03.897Z",
+    "authVerified": false,
+    "scoresPresent": false,
+    "rawReportPresent": false,
+    "perPageCleanupProof": "Unknown: the interrupted result contains no editorCleanup proof."
+  },
+  "laterProcessObservation": {
+    "checkedAt": "2026-10-25T17:28:50.476205+00:00",
+    "supervisorAbsent": true,
+    "roleChildAbsent": true,
+    "auditLockAbsent": true,
+    "chromeOrCrashpadProcesses": 0,
+    "scope": "Read-only process observation after termination; this does not prove interrupted page cleanup."
+  },
+  "laterOwnedLeaseCheck": {
+    "receipt": "private-pre-layout-owned-lease-check.safe.json",
+    "sha256": "bb78e6edd5ecf0bb0da9c164cb29b9451451062a630cc56913602ba824d1fa35",
+    "totalOwnedLeases": 0,
+    "cleanupRequired": false,
+    "doesNotRetroactivelyProveInterruptedPageCleanup": true
+  },
+  "strictSafeExport": {
+    "directory": "private-mobile-pre-layout-nwc",
+    "command": {
+      "startedAt": "2026-10-25T17:20:47.595908+00:00",
+      "finishedAt": "2026-10-25T17:20:48.347594+00:00",
+      "durationSeconds": 0.752,
+      "exitCode": 0
+    },
+    "outcomes": 153,
+    "compactAuditBytes": 11985408,
+    "exportManifestSha256": "d1e09efdcf63de377d425539c9d12a859421ddb160186fe51f74e5e81f91f298",
+    "rawScreenshotsOrPrivateDataExported": false
+  },
+  "retainedOriginalSha256": {
+    "commandReceipt": "e50554e1bfbd5b6414fbcec06ce5c36a5a0b8608b47d273810358f8202b9ce6f",
+    "stopRequest": "826a1e8a19bb853853c0a725cabca328088e0c2451999a773a828a5d1bd91c55",
+    "childStatus": "a56c708c34c7bb4ada5e0c5935ffdeef860af947256bad20c9926f65e362db79",
+    "manifest": "4230a8a92ab8348247ed8724c3d5ef2c45100d18f39c59bea3a301ea5b5dafd2",
+    "inventory": "38654a057929cbab6ed652a0736c03fe959d47254357e9658c8117be53b2122e",
+    "summary": "eb5a4b836a45e47a151494e87a33f87d3e25defe1f3274e86ed6f4333daa4903",
+    "runContext": "55e6b96bd95c38ce206d3e9d8470d1d5eece44e28f7acfe47f1bbae32188095f",
+    "exportCommandReceipt": "578884773a19b51402f28541eea015706312f66e4006f88d5a04d587c1538990"
+  },
+  "historyPolicy": "All original reservations, outcomes, raw reports and manifests remain in protected scratch. The incomplete historical run will not be resumed after application changes or merged into the new final run.",
+  "privateIdentifiersExported": false
+}

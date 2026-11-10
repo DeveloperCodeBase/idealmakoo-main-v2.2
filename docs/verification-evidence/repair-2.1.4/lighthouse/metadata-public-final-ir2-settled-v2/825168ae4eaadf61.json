@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/positioning/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "905e27cdbbfa1b8ed8da647a541b7ce040ea932a93944464259d8900619a8614",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Позиционирование и клиентский опыт | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Внимание к формам и оттенкам, обратной связи клиентов и поддержке партнёрской сети."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/positioning/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/positioning/",
+    "en": "http://127.0.0.1:3100/en/positioning/",
+    "tr": "http://127.0.0.1:3100/tr/positioning/",
+    "ar": "http://127.0.0.1:3100/ar/positioning/",
+    "ru": "http://127.0.0.1:3100/ru/positioning/",
+    "x-default": "http://127.0.0.1:3100/fa/positioning/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 46
+}

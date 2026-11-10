@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-26T14:00:30.262885+00:00",
+  "reviewer": "devops",
+  "scope": "Read-only visual QA of the latest release technical-specification DOCX render, after the IndexNow wording correction.",
+  "document": {
+    "pathRelativeToWorkspace": "work/deliverables/IdealMakoo-2.2-Technical-Spec.fa.docx",
+    "bytes": 54088,
+    "sha256": "c86ed0b35ef7c991ee48f969e8b7eef3e300942d2a1b8889a5dd71e82e5755db"
+  },
+  "renderDirectoryRelativeToWorkspace": "acceptance/render-tech-release",
+  "reviewMethod": "Every page opened individually through view_image with original-resolution detail and inspected visually at full page resolution; no contact-sheet-only or text-extraction-only approval.",
+  "pageCount": 9,
+  "pages": [
+    {
+      "pathRelativeToWorkspace": "acceptance/render-tech-release/page-1.png",
+      "bytes": 363151,
+      "sha256": "4e73e60b27691fdf2c3f5ea3e8fdd5a20a7db4a23cea2e5c71761d3674499baf",
+      "widthPixels": 1547,
+      "heightPixels": 2002,
+      "visuallyInspected": true,
+      "result": "passed"
+    },
+    {
+      "pathRelativeToWorkspace": "acceptance/render-tech-release/page-2.png",
+      "bytes": 475635,
+      "sha256": "ca1ed87601f93dbb72d8abb8b9af001aafc9c59dc3e4c8c8f976e62a1305d171",
+      "widthPixels": 1547,
+      "heightPixels": 2002,
+      "visuallyInspected": true,
+      "result": "passed"
+    },
+    {
+      "pathRelativeToWorkspace": "acceptance/render-tech-release/page-3.png",
+      "bytes": 397126,
+      "sha256": "72d098b5e8806cbed11ab2749dd3c9629312be5be59d7f0b09c54a1a6e84b507",
+      "widthPixels": 1547,
+      "heightPixels": 2002,
+      "visuallyInspected": true,
+      "result": "passed"
+    },
+    {
+      "pathRelativeToWorkspace": "acceptance/render-tech-release/page-4.png",
+      "bytes": 557960,
+      "sha256": "0cedde5f5dc2879232630d9a9d43d516a8a69472f6767c750725b2646f00512e",
+      "widthPixels": 1547,
+      "heightPixels": 2002,
+      "visuallyInspected": true,
+      "result": "passed"
+    },
+    {
+      "pathRelativeToWorkspace": "acceptance/render-tech-release/page-5.png",
+      "bytes": 510729,
+      "sha256": "1eda83cc1a20d14cfb2d4a9bc48ca46155640c4c61bc75aa75bbd78b16ce9cae",
+      "widthPixels": 1547,
+      "heightPixels": 2002,
+      "visuallyInspected": true,
+      "result": "passed"
+    },
+    {
+      "pathRelativeToWorkspace": "acceptance/render-tech-release/page-6.png",
+      "bytes": 509350,
+      "sha256": "35efdc3071b67b68fe6582f4d3f4b1d1907ad6caf2b57c049082b1d67f448461",
+      "widthPixels": 1547,
+      "heightPixels": 2002,
+      "visuallyInspected": true,
+      "result": "passed"
+    },
+    {
+      "pathRelativeToWorkspace": "acceptance/render-tech-release/page-7.png",
+      "bytes": 334527,
+      "sha256": "2136b7aa718bb96c83fb0f45224f0260f00543d7bfb0f64f31b8c99ed5bbd824",
+      "widthPixels": 1547,
+      "heightPixels": 2002,
+      "visuallyInspected": true,
+      "result": "passed"
+    },
+    {
+      "pathRelativeToWorkspace": "acceptance/render-tech-release/page-8.png",
+      "bytes": 326494,
+      "sha256": "90df6eacf202e6e051b1fbab545072cd3270bd3b82b8e3360c5173f0bead6c6c",
+      "widthPixels": 1547,
+      "heightPixels": 2002,
+      "visuallyInspected": true,
+      "result": "passed"
+    },
+    {
+      "pathRelativeToWorkspace": "acceptance/render-tech-release/page-9.png",
+      "bytes": 208270,
+      "sha256": "d5a989963ef97542e8b75806251b5337719f9fed357edb02acd1b0b1625ea02f",
+      "widthPixels": 1547,
+      "heightPixels": 2002,
+      "visuallyInspected": true,
+      "result": "passed"
+    }
+  ],
+  "checks": {
+    "allNinePagesReviewed": true,
+    "persianRtlAndMixedLatinTextReadable": true,
+    "noObservedClippingOrOverlap": true,
+    "tableHeadersAndRowsLegible": true,
+    "noMissingGlyphsObserved": true,
+    "footersAndPageNumbersInBounds": true,
+    "headingHierarchyAndPageBreaksReadable": true,
+    "indexNowPageSixExplicitlyFutureExternalIntegration": true
+  },
+  "result": "passed",
+  "limitations": [
+    "Visual review of the rendered document is not a claim that every software acceptance criterion has been executed.",
+    "Earlier render receipts remain historical; this receipt identifies the current DOCX and all nine current page images by SHA-256."
+  ]
+}

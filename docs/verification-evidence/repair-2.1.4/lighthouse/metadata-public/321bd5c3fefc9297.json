@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/strategy/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "86cc5a9f74ac1c3b19d2f6c2509f37722abd24739c980d851bff17571b74af14",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Business strategy | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Developing factory capacity and equipment, improving processes and broadening the dental product portfolio."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/strategy/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/strategy/",
+    "en": "http://127.0.0.1:3100/en/strategy/",
+    "tr": "http://127.0.0.1:3100/tr/strategy/",
+    "ar": "http://127.0.0.1:3100/ar/strategy/",
+    "ru": "http://127.0.0.1:3100/ru/strategy/",
+    "x-default": "http://127.0.0.1:3100/fa/strategy/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 63
+}

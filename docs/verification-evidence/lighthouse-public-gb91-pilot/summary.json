@@ -1,0 +1,443 @@
+{
+  "format": "public-lighthouse-private-safe-evidence-v1",
+  "scope": {
+    "kind": "representative-public-pilot",
+    "expectedViews": 4,
+    "measuredViews": 4,
+    "roles": [
+      "anonymous"
+    ],
+    "locales": [
+      "en",
+      "fa"
+    ],
+    "devices": [
+      "mobile"
+    ],
+    "fullPublicRouteSweep": false,
+    "fullWebsitePerformanceGate": false,
+    "workflowActionsMeasured": false,
+    "limitation": "Four listed anonymous mobile navigations only. Completion is not a performance pass. Lighthouse internal load-limit warnings remain material even when the runner completes."
+  },
+  "expected": 4,
+  "attempted": 4,
+  "completed": 4,
+  "errors": 0,
+  "timeouts": 0,
+  "pending": 0,
+  "coverageComplete": true,
+  "configurationHash": "0e5b9d14f87e6481f8aa9f54b30c5f284341745dc33d00644d048958cbce3b48",
+  "buildId": "gb91X0rgCFfgonVlsqBqC",
+  "runWarningCount": 1,
+  "reportsWithPossibleIncompleteResults": 1,
+  "parts": [
+    {
+      "filename": "audit-part-0001.json",
+      "bytes": 791376,
+      "sha256": "df8a7b4fdd4d84b1a3094a77b783310b54f8e3739dd39a25904f37dc955d5969"
+    }
+  ],
+  "records": [
+    {
+      "id": "2d3542e754aa45b5",
+      "attempt": 1,
+      "route": "/en/contact/",
+      "locale": "en",
+      "device": "mobile",
+      "kind": "representative-public-pilot",
+      "status": "completed",
+      "expectedStatus": 200,
+      "httpStatus": 200,
+      "expectedHttpVerified": true,
+      "startedAt": "2026-10-20T17:25:17.439Z",
+      "finishedAt": "2026-10-20T17:25:27.652Z",
+      "fetchTime": "2026-10-20T17:25:19.987Z",
+      "durationMs": 10213,
+      "scores": {
+        "performance": 71,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1850.7435,
+        "largest-contentful-paint": 3257.7435,
+        "speed-index": 1850.7435,
+        "total-blocking-time": 905.5,
+        "cumulative-layout-shift": 0.0001380422217268122,
+        "interactive": 6060.408000000001
+      },
+      "runtimeError": {
+        "present": false
+      },
+      "runWarnings": {
+        "count": 0,
+        "codes": [],
+        "mayBeIncomplete": false,
+        "textOmitted": true
+      },
+      "rawReportSha256": "676d32651a369c4f3359a8e282ebde8bea8289b904d4834576f12300cd34ace0",
+      "resultSha256": "807f3e01eb36d75b0023cff1a32bb4129e1698dd04dd25a42ff513cb7a1add54",
+      "rawReportOmitted": true,
+      "evidence": {
+        "filename": "audit-part-0001.json",
+        "index": 0,
+        "rawReportSha256": "676d32651a369c4f3359a8e282ebde8bea8289b904d4834576f12300cd34ace0"
+      }
+    },
+    {
+      "id": "f24cd142b15424bd",
+      "attempt": 1,
+      "route": "/fa/",
+      "locale": "fa",
+      "device": "mobile",
+      "kind": "representative-public-pilot",
+      "status": "completed",
+      "expectedStatus": 200,
+      "httpStatus": 200,
+      "expectedHttpVerified": true,
+      "startedAt": "2026-10-20T17:25:30.995Z",
+      "finishedAt": "2026-10-20T17:28:21.876Z",
+      "fetchTime": "2026-10-20T17:25:33.216Z",
+      "durationMs": 170881,
+      "scores": {
+        "performance": 45,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 2745.0711,
+        "largest-contentful-paint": 3795.071099999999,
+        "speed-index": 26377.629568535227,
+        "total-blocking-time": 152993.96445,
+        "cumulative-layout-shift": 0.007545552663279595,
+        "interactive": 162951.181305
+      },
+      "runtimeError": {
+        "present": false
+      },
+      "runWarnings": {
+        "count": 1,
+        "codes": [
+          "LIGHTHOUSE_LOAD_LIMIT_RESULTS_MAY_BE_INCOMPLETE"
+        ],
+        "mayBeIncomplete": true,
+        "textOmitted": true
+      },
+      "rawReportSha256": "0ff62831a1a8247a6fa94c960832d038877b44ff79753b2e7d535855b890a442",
+      "resultSha256": "5fc5d19ca86ffddb1f547b4d8bb7097afb2d9f2681ba31dbb9511fbdf964054b",
+      "rawReportOmitted": true,
+      "evidence": {
+        "filename": "audit-part-0001.json",
+        "index": 1,
+        "rawReportSha256": "0ff62831a1a8247a6fa94c960832d038877b44ff79753b2e7d535855b890a442"
+      }
+    },
+    {
+      "id": "74f11c38819ac33d",
+      "attempt": 1,
+      "route": "/fa/products/",
+      "locale": "fa",
+      "device": "mobile",
+      "kind": "representative-public-pilot",
+      "status": "completed",
+      "expectedStatus": 200,
+      "httpStatus": 200,
+      "expectedHttpVerified": true,
+      "startedAt": "2026-10-20T17:28:22.608Z",
+      "finishedAt": "2026-10-20T17:28:34.082Z",
+      "fetchTime": "2026-10-20T17:28:25.150Z",
+      "durationMs": 11474,
+      "scores": {
+        "performance": 73,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 2286.6849,
+        "largest-contentful-paint": 3036.6849,
+        "speed-index": 2286.6849,
+        "total-blocking-time": 760.5000000000005,
+        "cumulative-layout-shift": 0.0023129283861665247,
+        "interactive": 7093.767065000002
+      },
+      "runtimeError": {
+        "present": false
+      },
+      "runWarnings": {
+        "count": 0,
+        "codes": [],
+        "mayBeIncomplete": false,
+        "textOmitted": true
+      },
+      "rawReportSha256": "9f63269e3a7886187639113062556bdb43e18d4342709b35f9dadf6ba17c6247",
+      "resultSha256": "c54d437f07c376670a7c18fa085ec68aff7013e08daca8b94a6e383f5613f7e3",
+      "rawReportOmitted": true,
+      "evidence": {
+        "filename": "audit-part-0001.json",
+        "index": 2,
+        "rawReportSha256": "9f63269e3a7886187639113062556bdb43e18d4342709b35f9dadf6ba17c6247"
+      }
+    },
+    {
+      "id": "b68ebf79b25cc6d0",
+      "attempt": 1,
+      "route": "/fa/quality/",
+      "locale": "fa",
+      "device": "mobile",
+      "kind": "representative-public-pilot",
+      "status": "completed",
+      "expectedStatus": 200,
+      "httpStatus": 200,
+      "expectedHttpVerified": true,
+      "startedAt": "2026-10-20T17:28:36.844Z",
+      "finishedAt": "2026-10-20T17:28:46.660Z",
+      "fetchTime": "2026-10-20T17:28:39.112Z",
+      "durationMs": 9816,
+      "scores": {
+        "performance": 68,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 2298.8856000000005,
+        "largest-contentful-paint": 3230.6642,
+        "speed-index": 2298.8856000000005,
+        "total-blocking-time": 896.6679000000004,
+        "cumulative-layout-shift": 0.07189574076811377,
+        "interactive": 6875.707
+      },
+      "runtimeError": {
+        "present": false
+      },
+      "runWarnings": {
+        "count": 0,
+        "codes": [],
+        "mayBeIncomplete": false,
+        "textOmitted": true
+      },
+      "rawReportSha256": "5b1878428b702c341495c65e0d9d8bf239d74f031929bc085e22b35d3c6321e5",
+      "resultSha256": "16378f79dd08dee11cb08d67f402101e9fc9ce69a8407937a8647539c23f45bc",
+      "rawReportOmitted": true,
+      "evidence": {
+        "filename": "audit-part-0001.json",
+        "index": 3,
+        "rawReportSha256": "5b1878428b702c341495c65e0d9d8bf239d74f031929bc085e22b35d3c6321e5"
+      }
+    }
+  ],
+  "attempts": [
+    {
+      "id": "2d3542e754aa45b5",
+      "attempt": 1,
+      "route": "/en/contact/",
+      "locale": "en",
+      "device": "mobile",
+      "kind": "representative-public-pilot",
+      "status": "completed",
+      "expectedStatus": 200,
+      "httpStatus": 200,
+      "expectedHttpVerified": true,
+      "startedAt": "2026-10-20T17:25:17.439Z",
+      "finishedAt": "2026-10-20T17:25:27.652Z",
+      "fetchTime": "2026-10-20T17:25:19.987Z",
+      "durationMs": 10213,
+      "scores": {
+        "performance": 71,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1850.7435,
+        "largest-contentful-paint": 3257.7435,
+        "speed-index": 1850.7435,
+        "total-blocking-time": 905.5,
+        "cumulative-layout-shift": 0.0001380422217268122,
+        "interactive": 6060.408000000001
+      },
+      "runtimeError": {
+        "present": false
+      },
+      "runWarnings": {
+        "count": 0,
+        "codes": [],
+        "mayBeIncomplete": false,
+        "textOmitted": true
+      },
+      "rawReportSha256": "676d32651a369c4f3359a8e282ebde8bea8289b904d4834576f12300cd34ace0",
+      "resultSha256": "807f3e01eb36d75b0023cff1a32bb4129e1698dd04dd25a42ff513cb7a1add54",
+      "rawReportOmitted": true,
+      "evidence": {
+        "filename": "audit-part-0001.json",
+        "index": 0,
+        "rawReportSha256": "676d32651a369c4f3359a8e282ebde8bea8289b904d4834576f12300cd34ace0"
+      }
+    },
+    {
+      "id": "f24cd142b15424bd",
+      "attempt": 1,
+      "route": "/fa/",
+      "locale": "fa",
+      "device": "mobile",
+      "kind": "representative-public-pilot",
+      "status": "completed",
+      "expectedStatus": 200,
+      "httpStatus": 200,
+      "expectedHttpVerified": true,
+      "startedAt": "2026-10-20T17:25:30.995Z",
+      "finishedAt": "2026-10-20T17:28:21.876Z",
+      "fetchTime": "2026-10-20T17:25:33.216Z",
+      "durationMs": 170881,
+      "scores": {
+        "performance": 45,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 2745.0711,
+        "largest-contentful-paint": 3795.071099999999,
+        "speed-index": 26377.629568535227,
+        "total-blocking-time": 152993.96445,
+        "cumulative-layout-shift": 0.007545552663279595,
+        "interactive": 162951.181305
+      },
+      "runtimeError": {
+        "present": false
+      },
+      "runWarnings": {
+        "count": 1,
+        "codes": [
+          "LIGHTHOUSE_LOAD_LIMIT_RESULTS_MAY_BE_INCOMPLETE"
+        ],
+        "mayBeIncomplete": true,
+        "textOmitted": true
+      },
+      "rawReportSha256": "0ff62831a1a8247a6fa94c960832d038877b44ff79753b2e7d535855b890a442",
+      "resultSha256": "5fc5d19ca86ffddb1f547b4d8bb7097afb2d9f2681ba31dbb9511fbdf964054b",
+      "rawReportOmitted": true,
+      "evidence": {
+        "filename": "audit-part-0001.json",
+        "index": 1,
+        "rawReportSha256": "0ff62831a1a8247a6fa94c960832d038877b44ff79753b2e7d535855b890a442"
+      }
+    },
+    {
+      "id": "74f11c38819ac33d",
+      "attempt": 1,
+      "route": "/fa/products/",
+      "locale": "fa",
+      "device": "mobile",
+      "kind": "representative-public-pilot",
+      "status": "completed",
+      "expectedStatus": 200,
+      "httpStatus": 200,
+      "expectedHttpVerified": true,
+      "startedAt": "2026-10-20T17:28:22.608Z",
+      "finishedAt": "2026-10-20T17:28:34.082Z",
+      "fetchTime": "2026-10-20T17:28:25.150Z",
+      "durationMs": 11474,
+      "scores": {
+        "performance": 73,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 2286.6849,
+        "largest-contentful-paint": 3036.6849,
+        "speed-index": 2286.6849,
+        "total-blocking-time": 760.5000000000005,
+        "cumulative-layout-shift": 0.0023129283861665247,
+        "interactive": 7093.767065000002
+      },
+      "runtimeError": {
+        "present": false
+      },
+      "runWarnings": {
+        "count": 0,
+        "codes": [],
+        "mayBeIncomplete": false,
+        "textOmitted": true
+      },
+      "rawReportSha256": "9f63269e3a7886187639113062556bdb43e18d4342709b35f9dadf6ba17c6247",
+      "resultSha256": "c54d437f07c376670a7c18fa085ec68aff7013e08daca8b94a6e383f5613f7e3",
+      "rawReportOmitted": true,
+      "evidence": {
+        "filename": "audit-part-0001.json",
+        "index": 2,
+        "rawReportSha256": "9f63269e3a7886187639113062556bdb43e18d4342709b35f9dadf6ba17c6247"
+      }
+    },
+    {
+      "id": "b68ebf79b25cc6d0",
+      "attempt": 1,
+      "route": "/fa/quality/",
+      "locale": "fa",
+      "device": "mobile",
+      "kind": "representative-public-pilot",
+      "status": "completed",
+      "expectedStatus": 200,
+      "httpStatus": 200,
+      "expectedHttpVerified": true,
+      "startedAt": "2026-10-20T17:28:36.844Z",
+      "finishedAt": "2026-10-20T17:28:46.660Z",
+      "fetchTime": "2026-10-20T17:28:39.112Z",
+      "durationMs": 9816,
+      "scores": {
+        "performance": 68,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 2298.8856000000005,
+        "largest-contentful-paint": 3230.6642,
+        "speed-index": 2298.8856000000005,
+        "total-blocking-time": 896.6679000000004,
+        "cumulative-layout-shift": 0.07189574076811377,
+        "interactive": 6875.707
+      },
+      "runtimeError": {
+        "present": false
+      },
+      "runWarnings": {
+        "count": 0,
+        "codes": [],
+        "mayBeIncomplete": false,
+        "textOmitted": true
+      },
+      "rawReportSha256": "5b1878428b702c341495c65e0d9d8bf239d74f031929bc085e22b35d3c6321e5",
+      "resultSha256": "16378f79dd08dee11cb08d67f402101e9fc9ce69a8407937a8647539c23f45bc",
+      "rawReportOmitted": true,
+      "evidence": {
+        "filename": "audit-part-0001.json",
+        "index": 3,
+        "rawReportSha256": "5b1878428b702c341495c65e0d9d8bf239d74f031929bc085e22b35d3c6321e5"
+      }
+    }
+  ],
+  "omissions": {
+    "rawLighthouseReports": true,
+    "screenshotsAndBinaryPayloads": true,
+    "rawUrlsAndQueryIdentifiers": true,
+    "cookiesHeadersCredentialsAndSessionIdentifiers": true,
+    "domTextLabelsSnippetsAndAttributes": true,
+    "arbitraryTitlesDescriptionsDisplayValuesAndErrorText": true,
+    "networkResourceIdentifiers": true,
+    "safeSelectorPolicy": "Standard element names, combinators and positional pseudo-classes only; IDs, classes and attributes removed.",
+    "auditOutcomes": "Every audit outcome is retained. Unknown audit IDs receive an opaque alias. Image audits retain outcome metadata only.",
+    "errors": "Known Lighthouse or runner error codes and presence/counts are retained. Free-form error and warning text is omitted explicitly.",
+    "details": "Only allowlisted numeric measurements, structural containers and simplified selectors are retained.",
+    "authentication": "Anonymous public navigation; no authentication evidence is claimed.",
+    "detailMaximumArrayItems": 20,
+    "detailMaximumDepth": 8,
+    "detailMaximumNodesPerAudit": 2000,
+    "note": "A privacy-filtered derivative, not a raw Lighthouse report. Consult the separately protected raw report by its SHA-256 for omitted private details.",
+    "publicRouteAllowlistOnly": true
+  }
+}

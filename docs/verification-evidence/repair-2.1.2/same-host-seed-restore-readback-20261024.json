@@ -1,0 +1,157 @@
+{
+  "schema": 1,
+  "kind": "independent-seed-only-same-host-restore-readback",
+  "status": "passed",
+  "completedAt": "2026-10-24T09:54:03.597706+00:00",
+  "jobExitCode": 0,
+  "actualJobWaitConsumed": true,
+  "observerWaiterSessionId": 57717,
+  "actualObserverWaitConsumed": true,
+  "collectionWaiterSessionId": 17801,
+  "actualCollectionWaitConsumed": true,
+  "trustedOperationsCallerZipSha256": "3552e3d8f65388794e2cf0c1df3277694cc6be99b8b0e9dde849d270141730cb",
+  "authenticatedArchivedSourceZipSha256": "1b2dd59c60a97bd1c113f6fdf7faaa330d6ca3157ccf3187b94f37eb4cecb806",
+  "releaseSourceFilesVerified": 3286,
+  "retainedApplicationImageId": "sha256:4974f775daabed633a6767bc5d8dc4f85b739dbd35c2fbe74695aef87a3fdd94",
+  "runtimeImageSource": {
+    "status": "passed",
+    "filesVerified": 665,
+    "nodeVersion": "24.22.1",
+    "nodeArchitecture": "x64",
+    "nodePlatform": "linux",
+    "version": "2.1.2"
+  },
+  "primaryCurrentLinkUnchanged": true,
+  "actualAllWorkingDirectoriesRemainRetainedRelease": true,
+  "actualServiceImageAndLabelTuple": {
+    "app": {
+      "imageId": "sha256:4974f775daabed633a6767bc5d8dc4f85b739dbd35c2fbe74695aef87a3fdd94",
+      "workingDirectory": "/var/www/idealmakoo-212-primary/releases/20261024T080908Z-eaef1a71",
+      "status": "running",
+      "running": true,
+      "health": "healthy",
+      "oomKilled": false,
+      "errorPresent": false
+    },
+    "worker": {
+      "imageId": "sha256:4974f775daabed633a6767bc5d8dc4f85b739dbd35c2fbe74695aef87a3fdd94",
+      "workingDirectory": "/var/www/idealmakoo-212-primary/releases/20261024T080908Z-eaef1a71",
+      "status": "running",
+      "running": true,
+      "health": "healthy",
+      "oomKilled": false,
+      "errorPresent": false
+    },
+    "db": {
+      "imageId": "sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a",
+      "workingDirectory": "/var/www/idealmakoo-212-primary/releases/20261024T080908Z-eaef1a71",
+      "status": "running",
+      "running": true,
+      "health": "healthy",
+      "oomKilled": false,
+      "errorPresent": false
+    },
+    "proxy": {
+      "imageId": "sha256:d01db3368053a5b0fe89858bcfc9c494a8f177aa48b952886c973b908bd65476",
+      "workingDirectory": "/var/www/idealmakoo-212-primary/releases/20261024T080908Z-eaef1a71",
+      "status": "running",
+      "running": true,
+      "health": null,
+      "oomKilled": false,
+      "errorPresent": false
+    },
+    "clamav": {
+      "imageId": "sha256:6985dc7399ef32067268392984bb3c2e9a984dbe7d99a47d84ba3fe856ba767b",
+      "workingDirectory": "/var/www/idealmakoo-212-primary/releases/20261024T080908Z-eaef1a71",
+      "status": "running",
+      "running": true,
+      "health": "healthy",
+      "oomKilled": false,
+      "errorPresent": false
+    }
+  },
+  "migrationSeedService": {
+    "status": "exited",
+    "running": false,
+    "exitCode": 0,
+    "oomKilled": false
+  },
+  "databaseInventory": {
+    "usersTotal": 1,
+    "usersByRole": {
+      "superAdmin": 1
+    },
+    "workspaceLiveEntities": 211,
+    "pages": 120,
+    "records": 73,
+    "media": 17,
+    "pagesByLocale": {
+      "ru": 24,
+      "ar": 24,
+      "tr": 24,
+      "en": 24,
+      "fa": 24
+    },
+    "publishedLocaleReleases": 0,
+    "crmRequests": 0,
+    "migrationCount": 41,
+    "everyMigrationChecksumMatchesFrozenSource": true
+  },
+  "restoreSecurity": {
+    "counts": {
+      "sessionsTotal": 0,
+      "sessionsUnrevoked": 0,
+      "authChallengesTotal": 0,
+      "authChallengesUnconsumed": 0,
+      "recoveryCodesRemaining": 0,
+      "pendingMfaEnrollments": 0,
+      "enrolledMfaAccounts": 0,
+      "restoreSecurityAuditEvents": 1
+    },
+    "readOnlyTransaction": true,
+    "capturedBeforeApiFixtureLogin": true,
+    "preexistingSessionFixtures": 0,
+    "preexistingMfaFixtures": 0,
+    "nonVacuousSessionRevocationProven": false,
+    "customerOrErasureFixtureProven": false
+  },
+  "publicProxyHealth": {
+    "httpStatus": 200,
+    "body": {
+      "status": "ok",
+      "database": "ok",
+      "privacy": "ready",
+      "timestamp": "2026-10-24T09:54:02.676Z",
+      "version": "20261024T080908Z-eaef1a71",
+      "applicationVersion": "2.1.2"
+    }
+  },
+  "dailyBackupTimer": {
+    "NextElapseUSecRealtime": "Sun 2026-10-25 00:00:40 UTC",
+    "LastTriggerUSec": "",
+    "ActiveState": "active",
+    "SubState": "waiting"
+  },
+  "os": {
+    "PRETTY_NAME": "Ubuntu 22.04.5 LTS",
+    "VERSION_ID": "22.04",
+    "ID": "ubuntu"
+  },
+  "containerInspectionRequests": 1,
+  "containerListingRequests": 0,
+  "duplicateDoctorSweepPerformed": false,
+  "privateRawPayload": {
+    "sha256": "f36be6cfc781b8c25632747ff6a1d818e975d9e6fb3b9e2883fe0a54bea6c5e5",
+    "bytes": 6154,
+    "included": false
+  },
+  "scope": {
+    "selectedArchiveRemainsSeedOnly": true,
+    "nonVacuousSessionOrErasureRestorationProven": false,
+    "uploadedFileRestorationProven": false,
+    "postRestoreApiScannerFixturePending": true,
+    "originalWholeInstallerAccepted": false,
+    "pristineDeploymentOfTrusted3552Claimed": false,
+    "independentNewHostRecoveryPassed": false
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "format": "bounded-clean-crm-repeat-comparison-v1",
+  "createdAt": "2026-10-25T22:42:58.903779+00:00",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "compiledBuildInputFingerprint": "4fcec50f5846b0affccc59e43798613ba134a3f93559ea5ddba9705e1f38cc58",
+  "currentAuditInclusiveFingerprint": "64a14915618ac34a4daee3aa64eb82d44438b993096491966afc487be9f67b12",
+  "topologySha256": "d0c85e36be10862b020361b4179ad2add3a02848966239cb01fd7b6a92837bf4",
+  "expected": 3,
+  "completed": 3,
+  "errors": 0,
+  "timeouts": 0,
+  "primary530ScoresChanged": false,
+  "differentOwnedFixtureAndFreshRoleProfilePerRepeat": true,
+  "purpose": "Supplement the three primary outcomes that overlapped the inferred interval of a9.366s offline diagnostic read. No output parsing/export occurred alongside repeat scoring.",
+  "limits": "Separate observations do not prove causal contention or absence of it. Repeats are not replacements, score-selected samples, or part of primary1169-state coverage; normal server/image caches remain.",
+  "items": [
+    {
+      "registeredRoute": "admin/crm/deliveries",
+      "locale": "ar",
+      "role": "superAdmin",
+      "originalPrimary": {
+        "scores": {
+          "performance": 64,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 54
+        },
+        "metrics": {
+          "first-contentful-paint": 2114.4615000000003,
+          "largest-contentful-paint": 6037.923,
+          "speed-index": 2114.4615000000003,
+          "total-blocking-time": 465.00000000000045,
+          "cumulative-layout-shift": 0.01191740266131299,
+          "interactive": 6685.9025
+        },
+        "status": "completed",
+        "startedAt": "2026-10-25T21:30:01.253Z",
+        "finishedAt": "2026-10-25T21:30:08.112Z"
+      },
+      "cleanSeparateRepeat": {
+        "scores": {
+          "performance": 69,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 54
+        },
+        "metrics": {
+          "first-contentful-paint": 2123.1414,
+          "largest-contentful-paint": 5804.282799999999,
+          "speed-index": 2123.1414,
+          "total-blocking-time": 335.9999999999991,
+          "cumulative-layout-shift": 0.01191740266131299,
+          "interactive": 6690.839359999999
+        },
+        "status": "completed",
+        "startedAt": "2026-10-25T22:40:04.217Z",
+        "finishedAt": "2026-10-25T22:40:11.728Z",
+        "summarySha256": "8729032017110a10ee3d483f186dfcbd9dd6f0d8f1cf8a84ff4bbb087cb885e8",
+        "manifestSha256": "de11ceec4be3400419eed56833929f6e882c1cfe883ac6f1cde77b70fac9ecc0"
+      },
+      "ownedClosure": {
+        "format": "owned-single-target-repeat-final-readback-v1",
+        "startedAt": "2026-10-25T22:41:40.449Z",
+        "status": "passed",
+        "readOnly": true,
+        "additionalHttpOrBrowserRequests": 0,
+        "secretValuesOrPrivateIdentifiersExported": false,
+        "guardedRunDatabaseMatched": true,
+        "expectedOwnedActors": 12,
+        "observedOwnedActors": 12,
+        "activeOwnedActors": 0,
+        "sessions": {
+          "total": 2,
+          "unrevoked": 0,
+          "live": 0
+        },
+        "leases": {
+          "total": 0,
+          "active": 0
+        },
+        "applicationBuildId": "ir2DFJg8r5YdpbVQubUqF",
+        "finishedAt": "2026-10-25T22:41:40.508Z",
+        "durationMs": 60
+      },
+      "originalScoreRetainedInPrimary": true
+    },
+    {
+      "registeredRoute": "admin/crm/handoffs",
+      "locale": "ar",
+      "role": "superAdmin",
+      "originalPrimary": {
+        "scores": {
+          "performance": 62,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 54
+        },
+        "metrics": {
+          "first-contentful-paint": 2131.5543,
+          "largest-contentful-paint": 6682.1086000000005,
+          "speed-index": 2131.5543,
+          "total-blocking-time": 517.5,
+          "cumulative-layout-shift": 0.01191740266131299,
+          "interactive": 6785.745365000001
+        },
+        "status": "completed",
+        "startedAt": "2026-10-25T21:30:08.136Z",
+        "finishedAt": "2026-10-25T21:30:15.050Z"
+      },
+      "cleanSeparateRepeat": {
+        "scores": {
+          "performance": 68,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 54
+        },
+        "metrics": {
+          "first-contentful-paint": 2112.47805,
+          "largest-contentful-paint": 6537.956099999999,
+          "speed-index": 2112.47805,
+          "total-blocking-time": 311.99999999999864,
+          "cumulative-layout-shift": 0.01191740266131299,
+          "interactive": 6737.319027499999
+        },
+        "status": "completed",
+        "startedAt": "2026-10-25T22:40:33.816Z",
+        "finishedAt": "2026-10-25T22:40:41.311Z",
+        "summarySha256": "1652a5fa18b758746a296595aaba8aee1c621e625ef7ce2a2d62f76f506c89ce",
+        "manifestSha256": "59ba58c30a97eba15cd6d7dd2aca1dd79bacf3e7394fa0f18da7408de597997b"
+      },
+      "ownedClosure": {
+        "format": "owned-single-target-repeat-final-readback-v1",
+        "startedAt": "2026-10-25T22:41:40.587Z",
+        "status": "passed",
+        "readOnly": true,
+        "additionalHttpOrBrowserRequests": 0,
+        "secretValuesOrPrivateIdentifiersExported": false,
+        "guardedRunDatabaseMatched": true,
+        "expectedOwnedActors": 12,
+        "observedOwnedActors": 12,
+        "activeOwnedActors": 0,
+        "sessions": {
+          "total": 2,
+          "unrevoked": 0,
+          "live": 0
+        },
+        "leases": {
+          "total": 0,
+          "active": 0
+        },
+        "applicationBuildId": "ir2DFJg8r5YdpbVQubUqF",
+        "finishedAt": "2026-10-25T22:41:40.649Z",
+        "durationMs": 62
+      },
+      "originalScoreRetainedInPrimary": true
+    },
+    {
+      "registeredRoute": "admin/crm/inbox",
+      "locale": "ar",
+      "role": "superAdmin",
+      "originalPrimary": {
+        "scores": {
+          "performance": 64,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 54
+        },
+        "metrics": {
+          "first-contentful-paint": 2117.8029,
+          "largest-contentful-paint": 6668.605799999999,
+          "speed-index": 2117.8029,
+          "total-blocking-time": 425,
+          "cumulative-layout-shift": 0,
+          "interactive": 6668.605799999999
+        },
+        "status": "completed",
+        "startedAt": "2026-10-25T21:30:15.066Z",
+        "finishedAt": "2026-10-25T21:30:22.169Z"
+      },
+      "cleanSeparateRepeat": {
+        "scores": {
+          "performance": 68,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 54
+        },
+        "metrics": {
+          "first-contentful-paint": 2113.08615,
+          "largest-contentful-paint": 6551.1723,
+          "speed-index": 2113.08615,
+          "total-blocking-time": 306,
+          "cumulative-layout-shift": 0,
+          "interactive": 6551.1723
+        },
+        "status": "completed",
+        "startedAt": "2026-10-25T22:41:02.625Z",
+        "finishedAt": "2026-10-25T22:41:10.171Z",
+        "summarySha256": "a81875b2f393e6f2a38f3d02ea264a087ca72044aa5ed703fc30c027b3f50b12",
+        "manifestSha256": "84a28659112ae6d0f977043d3ae0560880b306b97f05c31dfbd25fd0ba7d1a4b"
+      },
+      "ownedClosure": {
+        "format": "owned-single-target-repeat-final-readback-v1",
+        "startedAt": "2026-10-25T22:41:40.729Z",
+        "status": "passed",
+        "readOnly": true,
+        "additionalHttpOrBrowserRequests": 0,
+        "secretValuesOrPrivateIdentifiersExported": false,
+        "guardedRunDatabaseMatched": true,
+        "expectedOwnedActors": 12,
+        "observedOwnedActors": 12,
+        "activeOwnedActors": 0,
+        "sessions": {
+          "total": 2,
+          "unrevoked": 0,
+          "live": 0
+        },
+        "leases": {
+          "total": 0,
+          "active": 0
+        },
+        "applicationBuildId": "ir2DFJg8r5YdpbVQubUqF",
+        "finishedAt": "2026-10-25T22:41:40.783Z",
+        "durationMs": 54
+      },
+      "originalScoreRetainedInPrimary": true
+    }
+  ],
+  "phaseReceipts": [
+    {
+      "file": "clean-repeat-deliveries-prepare.phase.safe.json",
+      "sha256": "628a4eff30b3cfe2c8d5d283f1e2403702faa6a55370b30fc897acce979e6037",
+      "actualCommandExitCode": 0,
+      "validationPassed": true
+    },
+    {
+      "file": "clean-repeat-deliveries-score.phase.safe.json",
+      "sha256": "a3047033c96bc772dbbb9a43c82efe618f499e806e455e176b48fced5cadd845",
+      "actualCommandExitCode": 0,
+      "validationPassed": true
+    },
+    {
+      "file": "clean-repeat-handoffs-prepare.phase.safe.json",
+      "sha256": "bed568c8c6e75e7761cc21a1c2b035b6c86b11a2230cb1eb62c9a23c6d737cf2",
+      "actualCommandExitCode": 0,
+      "validationPassed": true
+    },
+    {
+      "file": "clean-repeat-handoffs-score.phase.safe.json",
+      "sha256": "0d5c69e7310496f68e09db66ff1f5b2f8d76a0783b0c7d5b58ab7bb6126aedd2",
+      "actualCommandExitCode": 0,
+      "validationPassed": true
+    },
+    {
+      "file": "clean-repeat-inbox-prepare.phase.safe.json",
+      "sha256": "2fcf8f300621186fc6925496c3b83a8f5c185c10781ed22b556900ceb334fa5a",
+      "actualCommandExitCode": 0,
+      "validationPassed": true
+    },
+    {
+      "file": "clean-repeat-inbox-score.phase.safe.json",
+      "sha256": "8640bf9feaa7ec4fc6b4da2c1aab127f3369be29e800368f6dfbccbfa9337071",
+      "actualCommandExitCode": 0,
+      "validationPassed": true
+    },
+    {
+      "file": "clean-repeats-owned-closure.phase.safe.json",
+      "sha256": "8be9037452919a5883d16421a227295655bcd7d5e7731eaf174bfbe45cdb98c1",
+      "actualCommandExitCode": 0,
+      "validationPassed": true
+    },
+    {
+      "file": "clean-repeats-safe-export-attempt02.phase.safe.json",
+      "sha256": "fdfb0558556927539f352f34cb4b433bea83fb689ae1b042160fd533bb619d27",
+      "actualCommandExitCode": 0,
+      "validationPassed": true
+    },
+    {
+      "file": "clean-repeats-safe-export.phase.safe.json",
+      "sha256": "b0eb496bf255f4ec91503fbd0f9b63eec71877b41a426cd97aba9cf9bda10220",
+      "actualCommandExitCode": 1,
+      "validationPassed": true
+    }
+  ],
+  "exportSetupHistory": {
+    "firstActualExitCode": 1,
+    "reasonCode": "ENOENT",
+    "missingOutputParent": true,
+    "scoringOrRuntimeFailure": false,
+    "secondActualExitCode": 0,
+    "originalFailurePreserved": true
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/cooperation/research/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "b9a31960c3d8e052d5684ca240d14c095fc611bbc0e0feefaa8ed023192ff1f8",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Research & innovation proposal | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Submit a dental product or materials research proposal with your organization, project description and supporting documents."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/cooperation/research/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/cooperation/research/",
+    "en": "http://127.0.0.1:3100/en/cooperation/research/",
+    "tr": "http://127.0.0.1:3100/tr/cooperation/research/",
+    "ar": "http://127.0.0.1:3100/ar/cooperation/research/",
+    "ru": "http://127.0.0.1:3100/ru/cooperation/research/",
+    "x-default": "http://127.0.0.1:3100/fa/cooperation/research/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 34
+}

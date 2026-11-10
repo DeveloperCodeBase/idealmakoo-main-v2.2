@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "kind": "collected-owned-guest-outcome",
+  "guest": "recovery",
+  "job": "api-verify-fresh",
+  "status": "passed",
+  "exitCode": 0,
+  "actualGuestWaitConsumed": true,
+  "startedAt": "2026-10-25T06:17:46.048640+00:00",
+  "completedAt": "2026-10-25T06:18:20.255600+00:00",
+  "elapsedSeconds": 34.213111,
+  "files": {
+    "outcome.safe.json": {
+      "bytes": 397,
+      "sha256": "9d0cb7690acd0f7ce825d6c2d44d80ee4a0ed10da42dae8f548e30c55f74883d",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "start.safe.json": {
+      "bytes": 385,
+      "sha256": "8f1b6d2fc7cdb6c50bb771156d7b1a58a284eac3787d604adafaf3c700d5504c",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "stdout.private": {
+      "bytes": 5219,
+      "sha256": "892713770dee24868396e7b5c087f22e508dec71b61c418d52d509690e7a2a3a",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "stderr.private.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    }
+  },
+  "apiStatus": "passed",
+  "apiPhase": "verify-fresh",
+  "checks": [
+    "pre-backup session remains revoked owner",
+    "pre-backup session remains revoked customer",
+    "pre-backup session remains revoked staff",
+    "pre-backup session remains revoked erased",
+    "authenticated superAdmin",
+    "authenticated customer",
+    "restored customer profile matches backup",
+    "restored editable page matches backup",
+    "restored media bytes and checksum match backup",
+    "restored EICAR attachment retains the blocked scan verdict",
+    "restored blocked EICAR attachment remains unavailable to its owner",
+    "fresh host restores archived staff active state without inventing absent later security state",
+    "fresh host preserves staff MFA enrollment",
+    "archived staff password grants only an MFA challenge",
+    "password alone cannot establish archived staff session",
+    "restore invalidates archived staff recovery codes",
+    "archived recovery code cannot establish staff session",
+    "post-backup erasure survives restore",
+    "retired login remains denied erased"
+  ],
+  "checkCount": 19
+}

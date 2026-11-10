@@ -1,0 +1,70 @@
+{
+  "url": "http://127.0.0.1:3100/fa/products/glamour/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "8256e77619aff1735ebee7c1b1725ababeb4f8c2d5992d7e6f986fa0a31e7eeb",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "دندان مصنوعی گلامور | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "گلامور با ساختار چهارلایه و ترکیب کامپوزیت، در قالب‌ها و رنگ‌های گوناگون معرفی شده است."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/products/glamour/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/glamour/",
+    "en": "http://127.0.0.1:3100/en/products/glamour/",
+    "tr": "http://127.0.0.1:3100/tr/products/glamour/",
+    "ar": "http://127.0.0.1:3100/ar/products/glamour/",
+    "ru": "http://127.0.0.1:3100/ru/products/glamour/",
+    "x-default": "http://127.0.0.1:3100/fa/products/glamour/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "دندان مصنوعی گلامور",
+      "description": "گلامور با ساختار چهارلایه و ترکیب کامپوزیت، در قالب‌ها و رنگ‌های گوناگون معرفی شده است.",
+      "image": "http://127.0.0.1:3100/media/official/1686378413.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "GLAMOUR"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/fa/products/glamour/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 64
+}

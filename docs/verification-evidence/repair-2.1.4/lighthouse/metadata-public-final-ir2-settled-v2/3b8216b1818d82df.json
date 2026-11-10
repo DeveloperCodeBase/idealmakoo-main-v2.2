@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/cooperation/suppliers/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "f322d8480b316de1a15bbf3b5139a6e30a2fa02931f2bc148cd1e3ffd13a99e1",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Tedarikçi kaydı | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Tedarikçiler, Ideal Makoo ile iş birliği değerlendirmesi için kuruluş bilgilerini, tedarik yetkinliklerini ve belgelerini gönderebilir."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/cooperation/suppliers/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/cooperation/suppliers/",
+    "en": "http://127.0.0.1:3100/en/cooperation/suppliers/",
+    "tr": "http://127.0.0.1:3100/tr/cooperation/suppliers/",
+    "ar": "http://127.0.0.1:3100/ar/cooperation/suppliers/",
+    "ru": "http://127.0.0.1:3100/ru/cooperation/suppliers/",
+    "x-default": "http://127.0.0.1:3100/fa/cooperation/suppliers/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 46
+}

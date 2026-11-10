@@ -1,0 +1,81 @@
+{
+  "observedAt": "2026-10-21T13:27:55.422576+00:00",
+  "instanceId": "idealmakoo-user-directory-final-install-13b6943b742546bcabc0b2da5ed395d6",
+  "installer": {
+    "startedAt": "2026-10-21T13:16:48.701636+00:00",
+    "state": "completed",
+    "childPid": 4449,
+    "finishedAt": "2026-10-21T13:24:04.026785+00:00",
+    "exitCode": 139
+  },
+  "services": [
+    {
+      "id": "2aeaec0db2d1406f45ffbb134053265ac21ddd1267ca0c8659389e52f4e96473",
+      "service": "migrate",
+      "imageId": "sha256:3f1efb66022d779ecb2628102a158ba89e10812a8cf43dde85d89d643dc052b7",
+      "imageReference": "idealmakoo-app:20261021T131809Z-0a4ff71a",
+      "entrypoint": [
+        "/bin/sh",
+        "/app/scripts/entrypoint.sh"
+      ],
+      "command": [
+        "migrate"
+      ],
+      "status": "exited",
+      "running": false,
+      "exitCode": 139,
+      "error": "",
+      "oomKilled": false,
+      "startedAt": "2026-10-21T13:20:14.41649139Z",
+      "finishedAt": "2026-10-21T13:23:42.31678395Z",
+      "health": null,
+      "restartCount": 0
+    },
+    {
+      "id": "a49a5bdb1eb77c504f3c3117746c96e64b4827264129bfd76053ee37999e5201",
+      "service": "db",
+      "imageId": "sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a",
+      "imageReference": "pgvector/pgvector:pg16",
+      "entrypoint": [
+        "docker-entrypoint.sh"
+      ],
+      "command": [
+        "postgres"
+      ],
+      "status": "running",
+      "running": true,
+      "exitCode": 0,
+      "error": "",
+      "oomKilled": false,
+      "startedAt": "2026-10-21T13:19:23.46009869Z",
+      "finishedAt": "0001-01-01T00:00:00Z",
+      "health": "healthy",
+      "restartCount": 0
+    }
+  ],
+  "image": {
+    "imageId": "sha256:3f1efb66022d779ecb2628102a158ba89e10812a8cf43dde85d89d643dc052b7",
+    "repoTags": [
+      "idealmakoo-app:20261021T131809Z-0a4ff71a"
+    ],
+    "repoDigests": [
+      "idealmakoo-app@sha256:3f1efb66022d779ecb2628102a158ba89e10812a8cf43dde85d89d643dc052b7"
+    ],
+    "nodeVersion": "24.22.0",
+    "architecture": "amd64",
+    "os": "linux"
+  },
+  "kernelMessages": [],
+  "corePattern": "|/usr/share/apport/apport -p%p -s%s -c%c -d%d -P%P -u%u -g%g -F%F -- %E",
+  "retainedCoreFiles": [],
+  "coreFileContentsReadOrExported": false,
+  "publicCurrentAbsent": true,
+  "encryptedArchives": 0,
+  "productSourceModified": false,
+  "installationAccepted": false,
+  "runtimeRecordSha256": "e020132a3d2baad20fa9203ba5d596a96df00b17c01a6b569f9f2e9ccad21d8d",
+  "installerRecordSha256": "54856fb02bc9a396c65275c1c6ae40d598be313efc69c773b53ce1894a852780",
+  "installerLogSha256": "9d431d677858d0c9d1f8019032df1ccd48409d89f45e827b483a7fec8948b550",
+  "privateTransportLogSha256": "92094f7fa489e7c489b0e26e714143f8c4fcbea1e6a8372f1faf488dbf085907",
+  "helperSha256": "02dfefa4029399dedfc4c7d621b3c6f4f248f4d072574d6b4e7783666fb9066e"
+}

@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/about/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "3ddb4e70e24957a5ff02f636a92071e87ffe769408cb0edba61eb89f515442d6",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "عن إيدآل ماكو | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "تأسست إيدآل ماكو عام 1360 هجري شمسي لإنتاج الأسنان الصناعية وتطوير المواد السنية في منطقة ماكو الحرة."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/about/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/about/",
+    "en": "http://127.0.0.1:3100/en/about/",
+    "tr": "http://127.0.0.1:3100/tr/about/",
+    "ar": "http://127.0.0.1:3100/ar/about/",
+    "ru": "http://127.0.0.1:3100/ru/about/",
+    "x-default": "http://127.0.0.1:3100/fa/about/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 163
+}

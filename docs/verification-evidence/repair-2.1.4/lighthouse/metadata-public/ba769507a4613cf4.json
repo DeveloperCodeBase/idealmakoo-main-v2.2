@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/cooperation/outsourcing/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "8936c71cc91050b9b0fd6f7d59577b35adf73f52863e178ab77f9006d9ee4d99",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "مقترح تعهيد | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "راجع إعلانات التعهيد المنشورة من المصنع وأرسل المقترحات والمستندات عبر الدعوة ذات الصلة."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/cooperation/outsourcing/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/cooperation/outsourcing/",
+    "en": "http://127.0.0.1:3100/en/cooperation/outsourcing/",
+    "tr": "http://127.0.0.1:3100/tr/cooperation/outsourcing/",
+    "ar": "http://127.0.0.1:3100/ar/cooperation/outsourcing/",
+    "ru": "http://127.0.0.1:3100/ru/cooperation/outsourcing/",
+    "x-default": "http://127.0.0.1:3100/fa/cooperation/outsourcing/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 68
+}

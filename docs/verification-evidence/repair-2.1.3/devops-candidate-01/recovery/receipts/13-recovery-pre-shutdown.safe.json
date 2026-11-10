@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "kind": "completed-recovery-gates-before-normal-shutdown",
+  "status": "passed",
+  "completedAt": "2026-10-25T06:20:09.951974+00:00",
+  "jobs": {
+    "recovery-original-installer": {
+      "exitCode": 0,
+      "completedAt": "2026-10-25T06:12:46.832971+00:00",
+      "actualWaitConsumed": true
+    },
+    "runtime": {
+      "exitCode": 0,
+      "completedAt": "2026-10-25T06:14:41.540075+00:00",
+      "actualWaitConsumed": true
+    },
+    "security-witness": {
+      "exitCode": 0,
+      "completedAt": "2026-10-25T06:17:08.300701+00:00",
+      "actualWaitConsumed": true
+    },
+    "api-verify-fresh": {
+      "exitCode": 0,
+      "completedAt": "2026-10-25T06:18:20.255600+00:00",
+      "actualWaitConsumed": true
+    }
+  },
+  "backupUnits": {
+    "timer": {
+      "ActiveState": "inactive",
+      "SubState": "dead"
+    },
+    "service": {
+      "ActiveState": "inactive",
+      "SubState": "dead"
+    }
+  },
+  "runningEphemeralAcceptanceClients": 0,
+  "transportReceipt": {
+    "schema": 1,
+    "kind": "owned-pinned-ssh-command",
+    "guest": "recovery",
+    "label": "recovery-normal-shutdown-precheck",
+    "startedAt": "2026-10-25T06:20:03.972814+00:00",
+    "completedAt": "2026-10-25T06:20:10.157054+00:00",
+    "elapsedSeconds": 6.184244,
+    "exitCode": 0,
+    "actualWaitConsumed": true,
+    "timedOut": false
+  }
+}

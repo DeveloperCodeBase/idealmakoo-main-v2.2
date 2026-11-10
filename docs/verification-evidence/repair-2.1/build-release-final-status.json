@@ -1,0 +1,19 @@
+{
+  "gate": "build",
+  "label": "release-final",
+  "startedAt": "2026-10-21T08:40:41.469Z",
+  "finishedAt": "2026-10-21T08:41:47.564Z",
+  "exitCode": 0,
+  "childSignal": null,
+  "spawnError": null,
+  "sourceBefore": {
+    "sha256": "269f0e6d999840cb6a75ef238b380d2a3724d3e03d277bdc5c252d646b6364b7",
+    "files": 811
+  },
+  "sourceAfter": {
+    "sha256": "269f0e6d999840cb6a75ef238b380d2a3724d3e03d277bdc5c252d646b6364b7",
+    "files": 811
+  },
+  "sourceUnchanged": true,
+  "node": "v24.19.0"
+}

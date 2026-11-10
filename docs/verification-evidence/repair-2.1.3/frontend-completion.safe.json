@@ -1,0 +1,586 @@
+{
+  "schemaVersion": 1,
+  "kind": "current-2.1.3-native-frontend-initial-acceptance",
+  "completedAt": "2026-10-25T03:39:19.909012+00:00",
+  "applicationVersion": "2.1.3",
+  "buildId": "fztGyySqMaBbes8--JQKs",
+  "buildReceiptSha256": "b6ce5607d5254e6b31973d201578b9b88036e7e2eee668275df101fca81432e9",
+  "productFrontendEditsThisContinuation": false,
+  "functionalBrowser": {
+    "tests": 56,
+    "attempts": 56,
+    "exitCode": 0,
+    "stats": {
+      "startTime": "2026-10-25T03:22:18.402Z",
+      "duration": 224936.699,
+      "expected": 56,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "receiptSha256": "385535653eb147c7fc9ab62e0fa794d057adbc874e62084fc5a810e84473cc74",
+    "outerToolSession": 69843,
+    "outerExitCode": 0,
+    "outerWaitConsumed": true
+  },
+  "publicMetadata": {
+    "expected": 620,
+    "completed": 620,
+    "errors": 0,
+    "warnings": 0,
+    "coverageComplete": true,
+    "summarySha256": "aa17e93c1005a6231fbb367649d5b222dc78098df2846b391140e43924cdf1df",
+    "outerToolSession": 82453,
+    "outerExitCode": 0,
+    "outerWaitConsumed": true
+  },
+  "lighthouse": {
+    "expectedTargets": 2300,
+    "attemptedTargets": 12,
+    "scoredReports": 10,
+    "expectedHttpContracts": 2,
+    "pendingTargets": 2288,
+    "coverageComplete": false,
+    "scopes": [
+      {
+        "scope": "public",
+        "manifestSha256": "f22b02a07aa586af42acda96dd04d55ceb341bf3a1ac2dcfa71e7a4c03905131",
+        "summarySha256": "3055dcb0e5a02e0409cccedf796a4ea764a0f7293cfd31cd2b69c7821a38abc0",
+        "expected": 1240,
+        "attempted": 6,
+        "scored": 4,
+        "expectedHttpResponses": 2,
+        "errors": 0,
+        "timeouts": 0,
+        "pending": 1234,
+        "coverageComplete": false,
+        "scores": [
+          {
+            "route": "/ar/",
+            "locale": null,
+            "device": "mobile",
+            "status": "completed",
+            "scores": {
+              "performance": 44,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 100
+            },
+            "metrics": {
+              "first-contentful-paint": 1821.3208,
+              "largest-contentful-paint": 7457.292600000001,
+              "speed-index": 4249.07209015033,
+              "total-blocking-time": 2176.8396,
+              "cumulative-layout-shift": 0,
+              "interactive": 7556.438840000001
+            },
+            "authVerified": null,
+            "proofs": null,
+            "editorCleanupSuccess": null
+          },
+          {
+            "route": "/ar/",
+            "locale": null,
+            "device": "desktop",
+            "status": "completed",
+            "scores": {
+              "performance": 77,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 100
+            },
+            "metrics": {
+              "first-contentful-paint": 459.88750000000005,
+              "largest-contentful-paint": 1419.1062500000003,
+              "speed-index": 1322.404377066246,
+              "total-blocking-time": 408.0562500000001,
+              "cumulative-layout-shift": 9.292561921313396e-06,
+              "interactive": 1427.0506250000003
+            },
+            "authVerified": null,
+            "proofs": null,
+            "editorCleanupSuccess": null
+          },
+          {
+            "route": "/ar/__lighthouse_missing_page__/",
+            "locale": null,
+            "device": "mobile",
+            "status": "expected-http-response",
+            "scores": {
+              "performance": null,
+              "accessibility": null,
+              "best-practices": null,
+              "seo": null
+            },
+            "metrics": {},
+            "authVerified": null,
+            "proofs": null,
+            "editorCleanupSuccess": null
+          },
+          {
+            "route": "/ar/__lighthouse_missing_page__/",
+            "locale": null,
+            "device": "desktop",
+            "status": "expected-http-response",
+            "scores": {
+              "performance": null,
+              "accessibility": null,
+              "best-practices": null,
+              "seo": null
+            },
+            "metrics": {},
+            "authVerified": null,
+            "proofs": null,
+            "editorCleanupSuccess": null
+          },
+          {
+            "route": "/ar/about/",
+            "locale": null,
+            "device": "mobile",
+            "status": "completed",
+            "scores": {
+              "performance": 58,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 100
+            },
+            "metrics": {
+              "first-contentful-paint": 1370.1553,
+              "largest-contentful-paint": 6876.465900000002,
+              "speed-index": 2302.0219120005418,
+              "total-blocking-time": 749.4223499999998,
+              "cumulative-layout-shift": 0,
+              "interactive": 6895.358607500002
+            },
+            "authVerified": null,
+            "proofs": null,
+            "editorCleanupSuccess": null
+          },
+          {
+            "route": "/ar/about/",
+            "locale": null,
+            "device": "desktop",
+            "status": "completed",
+            "scores": {
+              "performance": 87,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 100
+            },
+            "metrics": {
+              "first-contentful-paint": 338.626,
+              "largest-contentful-paint": 1346.8779999999997,
+              "speed-index": 1024.4819759382526,
+              "total-blocking-time": 250.6869999999999,
+              "cumulative-layout-shift": 0,
+              "interactive": 1348.878
+            },
+            "authVerified": null,
+            "proofs": null,
+            "editorCleanupSuccess": null
+          }
+        ],
+        "browserVersion": "Google Chrome for Testing 156.0.8078.4",
+        "lighthouseVersion": "13.5.0",
+        "graphicsMode": "swiftshader-driver"
+      },
+      {
+        "scope": "private-mobile",
+        "manifestSha256": "bb3cee615d2645b6108e8c32edc8dfb925b375aab46b18404ea5f47785eef316",
+        "summarySha256": "0f88c9c70f768cae39790fcb067fb641687d242befa10b14d8d769547255656c",
+        "expected": 530,
+        "attempted": 3,
+        "scored": 3,
+        "expectedHttpResponses": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "pending": 527,
+        "coverageComplete": false,
+        "scores": [
+          {
+            "route": "admin",
+            "locale": "ar",
+            "device": "mobile",
+            "status": "completed",
+            "scores": {
+              "performance": 44,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 54
+            },
+            "metrics": {
+              "first-contentful-paint": 1816.6697,
+              "largest-contentful-paint": 7836.509099999999,
+              "speed-index": 2944.0684219996156,
+              "total-blocking-time": 3345.6651499999994,
+              "cumulative-layout-shift": 0.04706909365451993,
+              "interactive": 7841.392585
+            },
+            "authVerified": true,
+            "proofs": {
+              "preSessionRoleVerified": true,
+              "preStaffMfaVerified": true,
+              "preSessionFreshnessVerified": true,
+              "shellPresent": true,
+              "contentReady": true,
+              "documentLanguage": true,
+              "finalPathMatches": true,
+              "noindex": true,
+              "ownedRequestVisible": true,
+              "sessionRole": "superAdmin",
+              "sessionRoleVerified": true,
+              "staffMfaVerified": true,
+              "workspaceLoaded": true,
+              "httpStatus": 200,
+              "httpStatusVerified": true,
+              "ownedRequestVerified": true,
+              "apiErrorFree": true,
+              "runtimeErrorFree": true
+            },
+            "editorCleanupSuccess": true
+          },
+          {
+            "route": "admin/ai",
+            "locale": "ar",
+            "device": "mobile",
+            "status": "completed",
+            "scores": {
+              "performance": 65,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 54
+            },
+            "metrics": {
+              "first-contentful-paint": 2291.323875,
+              "largest-contentful-paint": 7737.64775,
+              "speed-index": 2291.323875,
+              "total-blocking-time": 344,
+              "cumulative-layout-shift": 0.04706909365451993,
+              "interactive": 7745.147750000001
+            },
+            "authVerified": true,
+            "proofs": {
+              "preSessionRoleVerified": true,
+              "preStaffMfaVerified": true,
+              "preSessionFreshnessVerified": true,
+              "shellPresent": true,
+              "contentReady": true,
+              "documentLanguage": true,
+              "finalPathMatches": true,
+              "noindex": true,
+              "ownedRequestVisible": true,
+              "sessionRole": "superAdmin",
+              "sessionRoleVerified": true,
+              "staffMfaVerified": true,
+              "workspaceLoaded": true,
+              "httpStatus": 200,
+              "httpStatusVerified": true,
+              "ownedRequestVerified": true,
+              "apiErrorFree": true,
+              "runtimeErrorFree": true
+            },
+            "editorCleanupSuccess": true
+          },
+          {
+            "route": "admin/ai/audio",
+            "locale": "ar",
+            "device": "mobile",
+            "status": "completed",
+            "scores": {
+              "performance": 62,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 54
+            },
+            "metrics": {
+              "first-contentful-paint": 2299.046,
+              "largest-contentful-paint": 7837.592,
+              "speed-index": 2299.046,
+              "total-blocking-time": 422,
+              "cumulative-layout-shift": 0.04706909365451993,
+              "interactive": 7839.0419999999995
+            },
+            "authVerified": true,
+            "proofs": {
+              "preSessionRoleVerified": true,
+              "preStaffMfaVerified": true,
+              "preSessionFreshnessVerified": true,
+              "shellPresent": true,
+              "contentReady": true,
+              "documentLanguage": true,
+              "finalPathMatches": true,
+              "noindex": true,
+              "ownedRequestVisible": true,
+              "sessionRole": "superAdmin",
+              "sessionRoleVerified": true,
+              "staffMfaVerified": true,
+              "workspaceLoaded": true,
+              "httpStatus": 200,
+              "httpStatusVerified": true,
+              "ownedRequestVerified": true,
+              "apiErrorFree": true,
+              "runtimeErrorFree": true
+            },
+            "editorCleanupSuccess": true
+          }
+        ],
+        "browserVersion": "Google Chrome for Testing 156.0.8078.4",
+        "lighthouseVersion": "13.5.0",
+        "graphicsMode": "swiftshader-driver"
+      },
+      {
+        "scope": "private-desktop",
+        "manifestSha256": "9d2aae9de04d445df8a1f84298792b0a6551ce682aa75dee0a00616a4ec6518f",
+        "summarySha256": "ae226821ca7a2f437ed635ecbdc8592ff1875b499c4277a18f075cf935f09196",
+        "expected": 530,
+        "attempted": 3,
+        "scored": 3,
+        "expectedHttpResponses": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "pending": 527,
+        "coverageComplete": false,
+        "scores": [
+          {
+            "route": "admin",
+            "locale": "ar",
+            "device": "desktop",
+            "status": "completed",
+            "scores": {
+              "performance": 61,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 58
+            },
+            "metrics": {
+              "first-contentful-paint": 420.971,
+              "largest-contentful-paint": 1679.3985,
+              "speed-index": 1637.4742418334952,
+              "total-blocking-time": 1741.0144999999998,
+              "cumulative-layout-shift": 0.027868204474498254,
+              "interactive": 2247.1855
+            },
+            "authVerified": true,
+            "proofs": {
+              "preSessionRoleVerified": true,
+              "preStaffMfaVerified": true,
+              "preSessionFreshnessVerified": true,
+              "shellPresent": true,
+              "contentReady": true,
+              "documentLanguage": true,
+              "finalPathMatches": true,
+              "noindex": true,
+              "ownedRequestVisible": true,
+              "sessionRole": "superAdmin",
+              "sessionRoleVerified": true,
+              "staffMfaVerified": true,
+              "workspaceLoaded": true,
+              "httpStatus": 200,
+              "httpStatusVerified": true,
+              "ownedRequestVerified": true,
+              "apiErrorFree": true,
+              "runtimeErrorFree": true
+            },
+            "editorCleanupSuccess": true
+          },
+          {
+            "route": "admin/ai",
+            "locale": "ar",
+            "device": "desktop",
+            "status": "completed",
+            "scores": {
+              "performance": 91,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 58
+            },
+            "metrics": {
+              "first-contentful-paint": 537.7915,
+              "largest-contentful-paint": 1827.8162000000004,
+              "speed-index": 1023.1260162503643,
+              "total-blocking-time": 86.44170000000003,
+              "cumulative-layout-shift": 0.04657364459864978,
+              "interactive": 1827.8162000000007
+            },
+            "authVerified": true,
+            "proofs": {
+              "preSessionRoleVerified": true,
+              "preStaffMfaVerified": true,
+              "preSessionFreshnessVerified": true,
+              "shellPresent": true,
+              "contentReady": true,
+              "documentLanguage": true,
+              "finalPathMatches": true,
+              "noindex": true,
+              "ownedRequestVisible": true,
+              "sessionRole": "superAdmin",
+              "sessionRoleVerified": true,
+              "staffMfaVerified": true,
+              "workspaceLoaded": true,
+              "httpStatus": 200,
+              "httpStatusVerified": true,
+              "ownedRequestVerified": true,
+              "apiErrorFree": true,
+              "runtimeErrorFree": true
+            },
+            "editorCleanupSuccess": true
+          },
+          {
+            "route": "admin/ai/audio",
+            "locale": "ar",
+            "device": "desktop",
+            "status": "completed",
+            "scores": {
+              "performance": 86,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 58
+            },
+            "metrics": {
+              "first-contentful-paint": 515.2048749999999,
+              "largest-contentful-paint": 1727.373649999999,
+              "speed-index": 946.2223199167132,
+              "total-blocking-time": 210.27707500000002,
+              "cumulative-layout-shift": 0.04657364459864978,
+              "interactive": 1727.373649999999
+            },
+            "authVerified": true,
+            "proofs": {
+              "preSessionRoleVerified": true,
+              "preStaffMfaVerified": true,
+              "preSessionFreshnessVerified": true,
+              "shellPresent": true,
+              "contentReady": true,
+              "documentLanguage": true,
+              "finalPathMatches": true,
+              "noindex": true,
+              "ownedRequestVisible": true,
+              "sessionRole": "superAdmin",
+              "sessionRoleVerified": true,
+              "staffMfaVerified": true,
+              "workspaceLoaded": true,
+              "httpStatus": 200,
+              "httpStatusVerified": true,
+              "ownedRequestVerified": true,
+              "apiErrorFree": true,
+              "runtimeErrorFree": true
+            },
+            "editorCleanupSuccess": true
+          }
+        ],
+        "browserVersion": "Google Chrome for Testing 156.0.8078.4",
+        "lighthouseVersion": "13.5.0",
+        "graphicsMode": "swiftshader-driver"
+      }
+    ],
+    "outerInvocations": [
+      {
+        "scope": "public",
+        "session": 17177,
+        "outerExitCode": 0,
+        "outerWaitConsumed": true,
+        "shippedChildExitCode": 2
+      },
+      {
+        "scope": "private-mobile",
+        "session": 34988,
+        "outerExitCode": 0,
+        "outerWaitConsumed": true,
+        "shippedChildExitCode": 2
+      },
+      {
+        "scope": "private-desktop",
+        "session": 94344,
+        "outerExitCode": 0,
+        "outerWaitConsumed": true,
+        "shippedChildExitCode": 2
+      }
+    ],
+    "partialExitMeaning": "Shipped runners exit2 because the frozen full matrices retain pending targets; target errors and timeouts are zero.",
+    "limits": [
+      "Ten scored reports are a partial sample of2,290 scored states and ten expected404 states.",
+      "Private pages intentionally remain noindex; private SEO scores are not public indexing failures.",
+      "Software-rendered Chrome results do not establish physical-device field performance.",
+      "No performance100 or Google rank guarantee is claimed."
+    ]
+  },
+  "nativeServiceShutdown": [
+    {
+      "name": "audit-native01-app",
+      "exitReceiptSha256": "bec8deaffcaaaafdc169a03a46a4e3b1cfb72e7bbc6032687b0587e5604abf9a",
+      "childExitCode": 143,
+      "childWaitConsumed": true,
+      "outerToolSession": 85179,
+      "outerExitCode": 143,
+      "outerWaitConsumed": true,
+      "terminationRequested": true
+    },
+    {
+      "name": "audit-native01-worker",
+      "exitReceiptSha256": "2aa5dc78662e0acc10e6c3d53db5ad6f353f4cdcdfa55b067428f89659196982",
+      "childExitCode": 0,
+      "childWaitConsumed": true,
+      "outerToolSession": 23009,
+      "outerExitCode": 0,
+      "outerWaitConsumed": true,
+      "terminationRequested": true
+    },
+    {
+      "name": "browser-browser01-app",
+      "exitReceiptSha256": "5f8f010fb2f4feaef264192816c8dd6ba19b790de0bcc94605ca2e6f4589f26f",
+      "childExitCode": 143,
+      "childWaitConsumed": true,
+      "outerToolSession": 19682,
+      "outerExitCode": 143,
+      "outerWaitConsumed": true,
+      "terminationRequested": true
+    },
+    {
+      "name": "browser-browser01-worker",
+      "exitReceiptSha256": "6959f5d6c103c5baf99b56fbe7a5e36d04088458dbccd84752dafd8d008d7326",
+      "childExitCode": 0,
+      "childWaitConsumed": true,
+      "outerToolSession": 84618,
+      "outerExitCode": 0,
+      "outerWaitConsumed": true,
+      "terminationRequested": true
+    },
+    {
+      "name": "audit-native01-caddy",
+      "exitReceiptSha256": "b4a0d56b9da1c59496f8eb15336d806f67392e30d17a9704ee8f6debdff0d07f",
+      "childExitCode": 0,
+      "childWaitConsumed": true,
+      "outerToolSession": 88484,
+      "outerExitCode": 0,
+      "outerWaitConsumed": true,
+      "terminationRequested": true
+    },
+    {
+      "name": "audit-native02-worker",
+      "exitReceiptSha256": "3af9c3746b5d5f53a937ebfa09dc36763ca87a1d36b0bc2f5e914b743338f625",
+      "childExitCode": 0,
+      "childWaitConsumed": true,
+      "outerToolSession": 82261,
+      "outerExitCode": 0,
+      "outerWaitConsumed": true,
+      "terminationRequested": true
+    },
+    {
+      "name": "audit-native02-app",
+      "exitReceiptSha256": "883a4f6faa5537a55fdc8dae4a2ccb3dc641ab38eec72aa6b9995d8294225450",
+      "childExitCode": 143,
+      "childWaitConsumed": true,
+      "outerToolSession": 76098,
+      "outerExitCode": 143,
+      "outerWaitConsumed": true,
+      "terminationRequested": true
+    }
+  ],
+  "matchingOwnedChromeProcesses": [],
+  "procCmdlineUnreadableCount": 0,
+  "postgresShutdownOwnedByBackendAgent": true,
+  "postgresShutdownClaimedHere": false,
+  "safeExportsPath": "frontend/lighthouse-safe-pilot",
+  "safeExportReceiptSha256": "a66b041f6ae4a4da5957a09096260ac888a0c2d96518111a8e87b409c9e115fb",
+  "nativeHttpScope": "No Docker, ClamAV, public TLS, backup or fresh-host recovery success is implied by these frontend checks."
+}

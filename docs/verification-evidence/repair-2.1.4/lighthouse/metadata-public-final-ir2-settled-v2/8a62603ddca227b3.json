@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/for/research/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "af98f49b10680c241f9fa137343b316a93a44a440302dc748f0aa3a096a2a183",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "پژوهشگران | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "مسیر پژوهشگران به آرشیو علمی، منابع محصول و اطلاعات کیفیت؛ همراه با فرم ارسال پیشنهاد پژوهش و نوآوری به کارخانه."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/for/research/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/for/research/",
+    "en": "http://127.0.0.1:3100/en/for/research/",
+    "tr": "http://127.0.0.1:3100/tr/for/research/",
+    "ar": "http://127.0.0.1:3100/ar/for/research/",
+    "ru": "http://127.0.0.1:3100/ru/for/research/",
+    "x-default": "http://127.0.0.1:3100/fa/for/research/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 45
+}

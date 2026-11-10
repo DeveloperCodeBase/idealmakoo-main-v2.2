@@ -1,0 +1,39 @@
+{
+  "url": "http://127.0.0.1:3100/ru/auth/login/",
+  "kind": "public-auth",
+  "indexed": false,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "5296e6f7ce918b56fe9ef943987064e916d714062ca44628d17ab6ed3673d868",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Ideal Makoo"
+  ],
+  "descriptions": [],
+  "canonicals": [],
+  "alternates": {},
+  "robots": [
+    "noindex, nofollow, noarchive"
+  ],
+  "noindex": true,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 0,
+    "resolvedBoundaries": 0,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 70
+}

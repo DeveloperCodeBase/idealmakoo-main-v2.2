@@ -1,0 +1,128 @@
+{
+  "buildId": "OOhw3Eok1VmYVX1q38dyK",
+  "measurements": [
+    {
+      "run": "lighthouse-image-policy-full",
+      "device": "mobile",
+      "durationMs": 19686,
+      "scores": {
+        "performance": 44,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1819.1840000000002,
+        "largest-contentful-paint": 7403.347999999999,
+        "speed-index": 4077.618121520698,
+        "total-blocking-time": 2408.4079999999994,
+        "cumulative-layout-shift": 0,
+        "interactive": 7449.927599999999
+      },
+      "lhTotalMs": 18659.08,
+      "fullPageScreenshotMs": 6893.91,
+      "auditCount": 155,
+      "traceScreenshotsPresent": true,
+      "speedIndexPresent": true,
+      "rawReportSha256": "3bc5ee47483c884a2069db762a554b4e542670ff00b5ab1efc49d4b51fc3b0bc"
+    },
+    {
+      "run": "lighthouse-image-policy-full",
+      "device": "desktop",
+      "durationMs": 24369,
+      "scores": {
+        "performance": 80,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 462.11750000000006,
+        "largest-contentful-paint": 1426.881875,
+        "speed-index": 1451.1853748237895,
+        "total-blocking-time": 340.9412500000001,
+        "cumulative-layout-shift": 1.135757568160526e-05,
+        "interactive": 1434.1465625
+      },
+      "lhTotalMs": 23283.78,
+      "fullPageScreenshotMs": 13601.04,
+      "auditCount": 153,
+      "traceScreenshotsPresent": true,
+      "speedIndexPresent": true,
+      "rawReportSha256": "6ab51574d03f3f9fb6fdacedf910aba117760b7dfdcb89eee5840ff0f5dd4d3f"
+    },
+    {
+      "run": "lighthouse-image-policy-compact",
+      "device": "mobile",
+      "durationMs": 11725,
+      "scores": {
+        "performance": 52,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1821.0798,
+        "largest-contentful-paint": 7307.50935,
+        "speed-index": 4214.813854969838,
+        "total-blocking-time": 908.9600999999998,
+        "cumulative-layout-shift": 0,
+        "interactive": 7398.18329
+      },
+      "lhTotalMs": 10603.78,
+      "fullPageScreenshotMs": 0,
+      "auditCount": 155,
+      "traceScreenshotsPresent": true,
+      "speedIndexPresent": true,
+      "rawReportSha256": "c1585b1bb76d0193a9914182e5b9abe8d49bcc4a4017cd1d93e79f97ed741cec"
+    },
+    {
+      "run": "lighthouse-image-policy-compact",
+      "device": "desktop",
+      "durationMs": 11142,
+      "scores": {
+        "performance": 66,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 461.9751,
+        "largest-contentful-paint": 1435.406625,
+        "speed-index": 1701.7245943055914,
+        "total-blocking-time": 809.0124500000003,
+        "cumulative-layout-shift": 1.135757568160526e-05,
+        "interactive": 1441.7547575
+      },
+      "lhTotalMs": 10098.02,
+      "fullPageScreenshotMs": 0,
+      "auditCount": 153,
+      "traceScreenshotsPresent": true,
+      "speedIndexPresent": true,
+      "rawReportSha256": "0e3b7d36b53930452047a4294589d3604875e621ec0ce46f51213fa97c072ad8"
+    }
+  ],
+  "comparison": [
+    {
+      "device": "mobile",
+      "settingsDifferenceKeys": [
+        "disableFullPageScreenshot"
+      ],
+      "auditIdsOnlyInDefault": [],
+      "auditIdsOnlyInCompact": [],
+      "categoryRefsEqual": true,
+      "categoryRefDiff": {}
+    },
+    {
+      "device": "desktop",
+      "settingsDifferenceKeys": [
+        "disableFullPageScreenshot"
+      ],
+      "auditIdsOnlyInDefault": [],
+      "auditIdsOnlyInCompact": [],
+      "categoryRefsEqual": true,
+      "categoryRefDiff": {}
+    }
+  ],
+  "note": "Independent cold-browser single runs. Runtime score differences are not evidence of a code or configuration improvement. Full-page report images are outside the scored trace; trace thumbnails and SpeedIndex were retained."
+}

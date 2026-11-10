@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/about/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "8f6892cd4186a9a64ff4e4edd7546010c8a42cf7d0f897316ff2c7cd5296de9c",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Ideal Makoo hakkında | Ideal Makoo"
+  ],
+  "descriptions": [
+    "1360 HŞ yılında kurulan Ideal Makoo, Maku Serbest Bölgesi’nde protez diş ve dental malzemeler üretir."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/about/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/about/",
+    "en": "http://127.0.0.1:3100/en/about/",
+    "tr": "http://127.0.0.1:3100/tr/about/",
+    "ar": "http://127.0.0.1:3100/ar/about/",
+    "ru": "http://127.0.0.1:3100/ru/about/",
+    "x-default": "http://127.0.0.1:3100/fa/about/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 53
+}

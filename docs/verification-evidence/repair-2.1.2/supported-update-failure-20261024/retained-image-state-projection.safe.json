@@ -1,0 +1,129 @@
+{
+  "schema": 1,
+  "kind": "retained-update-log-image-and-state-projection",
+  "recordedAt": "2026-10-24T15:19:00.428750+00:00",
+  "sourceClassificationSha256": "d316e305d27f2d8032c47eff8593805c58c0e538f191cbdbf755c8756ada8bfb",
+  "retainedLogs": {
+    "outcome.safe.json": {
+      "included": false,
+      "bytes": 321,
+      "sha256": "ff7e98212d5bfe776a2dd5238777f2af841479634d2980e876ddd37ee5e02fc3"
+    },
+    "start.safe.json": {
+      "included": false,
+      "bytes": 355,
+      "sha256": "f873c95564d89f8c896c601c81b721f1efa4e98012b4bd88f83ccfe93788cfc0"
+    },
+    "stdout.private": {
+      "included": false,
+      "bytes": 2284,
+      "sha256": "225d5f2a21857f3c9b377407f87ad701d519caf319d5529b21dcd3185b27870d"
+    },
+    "stderr.private.log": {
+      "included": false,
+      "bytes": 17567,
+      "sha256": "1fef0b98c0e0abc5bd7502ee810281c1952d423ef246f15eb92eaa4f12e528e4"
+    }
+  },
+  "buildImageExports": [
+    {
+      "buildStep": "#17",
+      "kind": "exporting manifest",
+      "digest": "sha256:9f46284bc456410fdd28b5b38d1c7148becaa0a348b45430a3b109615f753d9f"
+    },
+    {
+      "buildStep": "#17",
+      "kind": "exporting config",
+      "digest": "sha256:4addfb025d8aa69dac009c4418488bdbd90edca4ed7ff74ba8e503b46895b734"
+    },
+    {
+      "buildStep": "#17",
+      "kind": "exporting attestation manifest",
+      "digest": "sha256:e4a512d7974426f69fbf30175c3478311cb512874474209216e17fe579640b2d"
+    },
+    {
+      "buildStep": "#17",
+      "kind": "exporting manifest list",
+      "digest": "sha256:5ce90f210340f4f66c6712462045280077cd06715b0bb8453a0162c313d9b4dd"
+    },
+    {
+      "buildStep": "#17",
+      "imageReference": "idealmakoo_212_primary-proxy:20261024T143134Z-5f408c5e"
+    },
+    {
+      "buildStep": "#21",
+      "kind": "exporting manifest",
+      "digest": "sha256:5180d2a406d5446b022bd7e9c4e52d8bbb3f7dac9e2ef06bd94467b77dfc01fc"
+    },
+    {
+      "buildStep": "#21",
+      "kind": "exporting config",
+      "digest": "sha256:a75b4dfe273721b0859ece9d3cdf88671394c154bf5e49e62143a700d4da6d71"
+    },
+    {
+      "buildStep": "#21",
+      "kind": "exporting attestation manifest",
+      "digest": "sha256:3bf23fbde745d8531b09429cd7bf551d11461859e67767612c5a5a80683cab30"
+    },
+    {
+      "buildStep": "#21",
+      "kind": "exporting manifest list",
+      "digest": "sha256:8db52b43dc325a6c4afed9817147164063d12c6c78fc30f5ecc5be44ee1ca325"
+    },
+    {
+      "buildStep": "#21",
+      "imageReference": "idealmakoo_212_primary-clamav:20261024T143134Z-5f408c5e"
+    },
+    {
+      "buildStep": "#49",
+      "kind": "exporting manifest",
+      "digest": "sha256:58a24e88078e47257f773ecfeab7f60d91aeacd40234a30791948d12ec3b5b2c"
+    },
+    {
+      "buildStep": "#49",
+      "kind": "exporting config",
+      "digest": "sha256:838d046d317ebcb6bbfd5f0492ab0c6b0006fa0b57c3f5c959683fa04c35f2af"
+    },
+    {
+      "buildStep": "#49",
+      "kind": "exporting attestation manifest",
+      "digest": "sha256:edfee6e9e50992e39d17a2624c7592aa738b94976634cb36bb0002aa36292533"
+    },
+    {
+      "buildStep": "#49",
+      "kind": "exporting manifest list",
+      "digest": "sha256:d0219abf011f8f7868440872890fe88f4228170a51efa90064c4ddb22a743f0d"
+    },
+    {
+      "buildStep": "#49",
+      "imageReference": "idealmakoo_212_primary-app:20261024T143134Z-5f408c5e"
+    }
+  ],
+  "retainedExitDiagnosticTable": [
+    {
+      "service": "clamav",
+      "imageReference": "idealmakoo_212_primary-clamav:20261024T143134Z-5f408c5e",
+      "stateCategory": "Up",
+      "healthyTokenObserved": true,
+      "independentCurrentReadback": false
+    },
+    {
+      "service": "db",
+      "imageReference": "pgvector/pgvector:pg16",
+      "stateCategory": "Up",
+      "healthyTokenObserved": true,
+      "independentCurrentReadback": false
+    },
+    {
+      "service": "proxy",
+      "imageReference": "idealmakoo_212_primary-proxy:20261024T080908Z-eaef1a71",
+      "stateCategory": "Up",
+      "healthyTokenObserved": false,
+      "independentCurrentReadback": false
+    }
+  ],
+  "logProjectionsOnly": true,
+  "currentLinkObserved": false,
+  "runtimeSourceOrImageIndependentlyVerified": false,
+  "newProbeOrMutationPerformed": false
+}

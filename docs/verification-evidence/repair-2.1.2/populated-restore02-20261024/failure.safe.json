@@ -1,0 +1,145 @@
+{
+  "schema": 1,
+  "kind": "original-populated-restore02-failure",
+  "status": "failed",
+  "recordedAt": "2026-10-24T13:00:43.470417+00:00",
+  "job": "restore-populated-02",
+  "actualOriginalOutcome": {
+    "schema": 1,
+    "kind": "owned-guest-acceptance-job-outcome",
+    "job": "restore-populated-02",
+    "status": "failed",
+    "startedAt": "2026-10-24T12:02:53.249302+00:00",
+    "completedAt": "2026-10-24T12:56:20.112296+00:00",
+    "pid": 94842,
+    "startTicks": 1791202,
+    "exitCode": 124,
+    "actualWaitConsumed": true
+  },
+  "sourceAuthority": {
+    "trustedCallerZipSha256": "e99523f5e7e069f053004ac8afc00465403cc44cfac1d257abe393fc4e8829ca",
+    "callerApplicationInputsSha256": "de90dfabf8ddc57473a5943dfb03ba07b35b78f46e175a6e7ce9284fe2fb0558",
+    "callerExecutionInputsSha256": "82dd68edb6fa454fd8f296dcc61b958c6d4547e280abc8d70192532c7907d012",
+    "deployedAndArchivedSourceZipSha256": "1b2dd59c60a97bd1c113f6fdf7faaa330d6ca3157ccf3187b94f37eb4cecb806",
+    "retainedImageId": "sha256:4974f775daabed633a6767bc5d8dc4f85b739dbd35c2fbe74695aef87a3fdd94",
+    "originalRestoreScriptSha256": "74f299b67ae9739b0719c6692e87671b9146cbea9ff1ce081e840ea238d36244",
+    "selectedArchiveSha256": "7e9714fc3c758038c875b4d0276ac0c54b941ee2986e00efbf792674b7c428ed"
+  },
+  "lifecycleError": {
+    "operation": "up",
+    "code": "COMMAND_TIMEOUT",
+    "exitCode": 124,
+    "cleanupAttempted": true,
+    "cleanupVerified": true,
+    "clientProcessTerminationVerified": true
+  },
+  "failedOriginalOperation": {
+    "name": "up",
+    "services": [
+      "app",
+      "worker",
+      "proxy"
+    ],
+    "overallDeadlineSeconds": 1200,
+    "defaultReadOnlyCommandMaximumSeconds": 60,
+    "inspectMaximumSeconds": 15,
+    "publicProbeMaximumSeconds": 12,
+    "cleanupDeadlineSeconds": 90,
+    "mutatingStartupCommandUsesRemainingOverallDeadline": true,
+    "exactTimedOutChildCommandRecorded": false,
+    "exactTimedOutChildCommand": "unknown from the untraced retained structured error",
+    "retrospectiveCommandAttributionClaimed": false
+  },
+  "internalSafetyBackup": {
+    "snapshotObservedAt": "2026-10-24T12:11:28.106011+00:00",
+    "snapshotSha256": "e31b00d788a13e3e535ea94761ad24f3f372e01acfdd8e9cba33fad2e8b86b6d",
+    "capturedServiceCount": 3,
+    "unchangedSnapshotDeadlineSeconds": 30,
+    "laterSourceTarObserved": true,
+    "sourceTarBytes": 174243840,
+    "encryptedPublicationObservedAt": "2026-10-24T12:37:12.838844+00:00",
+    "completionSupportedByOriginalControlFlow": true,
+    "capturedSubsetResumptionPrecedesPublication": true,
+    "separateBackupChildWaitCollected": false
+  },
+  "checkpointPhaseHistory": [
+    {
+      "phase": "prepared",
+      "metadataModifiedAt": "2026-10-24T12:37:38.084000+00:00"
+    },
+    {
+      "phase": "security-applied",
+      "metadataModifiedAt": "2026-10-24T12:44:22.496000+00:00"
+    },
+    {
+      "phase": "security-applied",
+      "metadataModifiedAt": "2026-10-24T12:56:11.644000+00:00"
+    }
+  ],
+  "lastCheckpoint": {
+    "present": true,
+    "phase": "security-applied",
+    "metadataModifiedAt": "2026-10-24T12:56:11.644000+00:00"
+  },
+  "originalSecurityApplicationOutput": {
+    "alreadyApplied": false,
+    "accessReconciled": true,
+    "accountsMatched": 3,
+    "accountsDisabled": 1,
+    "identityMismatches": 0,
+    "credentialMismatches": 0,
+    "missingCurrentAccounts": 0,
+    "groupsDisabled": 0,
+    "membershipsRestored": 0,
+    "membershipsUnavailable": 0,
+    "sessionsRevoked": 3,
+    "challengesConsumed": 0,
+    "enrollmentsCleared": 0,
+    "recoveryCodesCleared": 20,
+    "staffInvitationsRevoked": 0,
+    "organizationInvitationsRevoked": 0,
+    "authMessagesCancelled": 0,
+    "ready": true
+  },
+  "independentPersistedSecurityOrFixtureProofAccepted": false,
+  "ownedProcessAndFinalServiceStateIndependentlyReadBack": false,
+  "finalStateReadback": "preparation only, pending root review",
+  "downstreamStopped": {
+    "exactSessionWitness02Started": false,
+    "apiVerifier02Started": false,
+    "supportedUpdateStarted": false,
+    "currentSourceCaptureStarted": false,
+    "freshRecoveryStarted": false,
+    "automaticRetry": false
+  },
+  "waits": {
+    "originalChildWaitConsumed": true,
+    "lastFileObservationWaiterSessionId": 4168,
+    "lastFileObservationExitCode": 0,
+    "lastFileObservationWaitConsumed": true,
+    "collectorWaiterSessionId": 10718,
+    "collectorExitCode": 0,
+    "collectorWaitConsumed": true,
+    "collectionCompletedAt": "2026-10-24T12:59:14.026936+00:00",
+    "longObserverRejectedBeforeExecution": true,
+    "longObserverWaiterExists": false
+  },
+  "privateOutputs": {
+    "stdout.private": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "included": false
+    },
+    "stderr.private.log": {
+      "sha256": "100349e75e6565ceb35f0bd1baf176f5eaf4ba034fed2260b87b8587831b5dd6",
+      "bytes": 5379,
+      "included": false
+    }
+  },
+  "scopeLimits": [
+    "Original restore failed at startup after original security application; this is not a restore acceptance pass.",
+    "CleanupVerified is the product error report, not an independent current-service proof.",
+    "Three original reported revocations require the separate persisted exact-session witness before an independent claim.",
+    "Original restore01 failure and both snapshot diagnostic failures remain preserved."
+  ]
+}

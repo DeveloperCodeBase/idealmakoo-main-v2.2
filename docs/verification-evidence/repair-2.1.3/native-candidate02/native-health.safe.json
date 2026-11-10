@@ -1,0 +1,45 @@
+{
+  "kind": "native-production-health-readbacks",
+  "readbacks": [
+    {
+      "kind": "native-production-health-readback",
+      "observedAt": "2026-10-25T07:38:03.351271+00:00",
+      "buildId": "JUTCtkNIJ8CT540y_qNL_",
+      "cohort": "browser",
+      "origin": "http://127.0.0.1:3096",
+      "httpStatus": 200,
+      "health": {
+        "status": "ok",
+        "database": "ok",
+        "privacy": "ready",
+        "timestamp": "2026-10-25T07:38:03.214Z",
+        "version": "2.1.3",
+        "applicationVersion": "2.1.3"
+      },
+      "workerHealthExitCode": 0,
+      "workerHealthActualWaitConsumed": true,
+      "workerHealthLogSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tlsDockerAntivirusAcceptanceClaimed": false
+    },
+    {
+      "kind": "native-production-health-readback",
+      "observedAt": "2026-10-25T07:50:37.405740+00:00",
+      "buildId": "JUTCtkNIJ8CT540y_qNL_",
+      "cohort": "audit",
+      "origin": "http://127.0.0.1:3096",
+      "httpStatus": 200,
+      "health": {
+        "status": "ok",
+        "database": "ok",
+        "privacy": "ready",
+        "timestamp": "2026-10-25T07:50:37.265Z",
+        "version": "2.1.3",
+        "applicationVersion": "2.1.3"
+      },
+      "workerHealthExitCode": 0,
+      "workerHealthActualWaitConsumed": true,
+      "workerHealthLogSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tlsDockerAntivirusAcceptanceClaimed": false
+    }
+  ]
+}

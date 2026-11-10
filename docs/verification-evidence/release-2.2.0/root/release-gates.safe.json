@@ -1,0 +1,74 @@
+{
+  "recordedAt": "2026-10-26T14:45:14.021371+00:00",
+  "version": "2.2.0",
+  "gates": {
+    "productionBuild": {
+      "status": "passed",
+      "receipt": "root/build.safe.json"
+    },
+    "unit": {
+      "status": "passed",
+      "tests": 885,
+      "receipt": "root/unit.safe.json"
+    },
+    "postgresql": {
+      "status": "passed",
+      "tests": 598,
+      "files": 53,
+      "receipt": "root/postgresql.safe.json"
+    },
+    "api": {
+      "status": "passed",
+      "tests": 20,
+      "receipt": "root/api.safe.json"
+    },
+    "browser": {
+      "status": "passed",
+      "tests": 76,
+      "retries": 0,
+      "receipt": "root/browser.safe.json"
+    },
+    "deploymentRegression": {
+      "status": "passed",
+      "tests": 282,
+      "receipt": "devops/deployment-regression.safe.json"
+    },
+    "dependencyAudit": {
+      "status": "passed",
+      "knownProductionVulnerabilities": 0,
+      "receipt": "root/dependencies.safe.json"
+    },
+    "discoveryHttp": {
+      "status": "passed",
+      "receipt": "root/http-discovery.safe.json"
+    },
+    "manualHttp": {
+      "status": "passed",
+      "receipt": "root/http-manuals.safe.json"
+    },
+    "manualLinks": {
+      "status": "passed",
+      "receipt": "frontend/manual-html-links.safe.json"
+    },
+    "documentVisualQa": {
+      "status": "passed",
+      "pages": 84,
+      "receipt": "root/documents.safe.json"
+    },
+    "mailRuntime": {
+      "status": "passed_local_fixture",
+      "receipt": "devops/mail-runtime-final.safe.json",
+      "scope": "Strict SMTP/IMAP, signed local delivery, relay denial, coordinated archive restoration and exact-container restart, certificate refresh and restored-message integrity",
+      "notProven": [
+        "public DNS/PTR/ACME",
+        "external inbox deliverability",
+        "full fresh website Ubuntu installation/upgrade"
+      ]
+    },
+    "actualUserServerDeployment": {
+      "status": "not_run",
+      "reason": "No destination server, domain ownership or live provider credentials supplied"
+    }
+  },
+  "overlapPolicy": "Focused and repeated checks are not added to full-suite counts. Mail protocols are reported separately from full mail acceptance. Archive checks are performed by the packaging script and recorded in the final deliverable manifest."
+}

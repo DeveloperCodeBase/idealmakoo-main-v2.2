@@ -1,0 +1,13 @@
+{
+  "gate": "typecheck-release",
+  "command": [
+    "npm",
+    "run",
+    "typecheck"
+  ],
+  "startedAt": "2026-10-25T11:15:29Z",
+  "finishedAt": "2026-10-25T11:15:32Z",
+  "durationSeconds": 2.733,
+  "exitCode": 0,
+  "logSha256": "f33a52571047e95bcdb67838e5c55b326c5aa0e8798062c5e0e22ea9a7f3ff2c"
+}

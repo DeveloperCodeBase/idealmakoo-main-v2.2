@@ -1,0 +1,63 @@
+{
+  "format": "idealmakoo.actual-docker-health-template-regression",
+  "observedAt": "2026-10-21T10:13:38.265183+00:00",
+  "realDockerDaemon": true,
+  "readOnly": true,
+  "sameProxyVerified": true,
+  "applicationBuildId": "qZolvXUvxRIPRoRpYcOE2",
+  "applicationSha256": "edae6e93c988c5f324553f6afa2e42a74b7709f7bad54749f28ffbdfb16e81ab",
+  "old": {
+    "exitCode": 1,
+    "template": "{\"id\":{{json .Id}},\"project\":{{json (index .Config.Labels \"com.docker.compose.project\")}},\"service\":{{json (index .Config.Labels \"com.docker.compose.service\")}},\"running\":{{json .State.Running}},\"paused\":{{json .State.Paused}},\"status\":{{json .State.Status}},\"health\":{{if .State.Health}}{{json .State.Health.Status}}{{else}}null{{end}}}",
+    "stderr": "template parsing error: template: :1:279: executing \"\" at <.State.Health>: map has no entry for key \"Health\"\n",
+    "lifecycleSourceSha256": "341e6d7a917e5e84b6f34d3889db39377cea0146425f4a460665e3a5efd1cf5c",
+    "rawLogSha256": "89245d24062dd7636c2ca178378f3bf9e8716b4b2654a33b96b0fbadd1a1d8a1",
+    "recordSha256": "93c04d554d44d9bec052b3bb1fe6ef6a537ef43427a8a0f8766cc67baa3d6a39"
+  },
+  "fixed": {
+    "exitCode": 0,
+    "template": "{\"id\":{{json .Id}},\"project\":{{json (index .Config.Labels \"com.docker.compose.project\")}},\"service\":{{json (index .Config.Labels \"com.docker.compose.service\")}},\"running\":{{json .State.Running}},\"paused\":{{json .State.Paused}},\"status\":{{json .State.Status}},\"health\":{{with (index .State \"Health\")}}{{json .Status}}{{else}}null{{end}}}",
+    "stderr": "",
+    "lifecycleSourceSha256": "56efebc9b3aaac6eb75c7bcc735b858a1299472dfc1a6bffa53359645ed5e5b9",
+    "rawLogSha256": "2c047ae0dbe75d85a8c5b2a827063c0062a82c98e20eb17b202371feb0e1cc3e",
+    "recordSha256": "79775dea2fd84556f869a14f923ef457950b780abf82ce1765803e33227fce56",
+    "services": [
+      {
+        "service": "app",
+        "running": false,
+        "health": "unhealthy"
+      },
+      {
+        "service": "worker",
+        "running": false,
+        "health": "unhealthy"
+      },
+      {
+        "service": "proxy",
+        "running": true,
+        "health": null
+      },
+      {
+        "service": "clamav",
+        "running": true,
+        "health": "healthy"
+      }
+    ]
+  },
+  "workerSuccessfulProbesBeforeFailureCleanup": [
+    {
+      "Start": "2026-10-21T10:07:12.35735089Z",
+      "End": "2026-10-21T10:07:44.97135802Z",
+      "ExitCode": 0
+    },
+    {
+      "Start": "2026-10-21T10:08:15.15728718Z",
+      "End": "2026-10-21T10:09:04.69374433Z",
+      "ExitCode": 0
+    }
+  ],
+  "productFilesModifiedOnGuest": false,
+  "installationRetried": false,
+  "installationAccepted": false,
+  "limitation": "This real Docker regression validates the formatter only. App/worker had already been stopped by installer failure cleanup. Complete corrected installation remains pending."
+}

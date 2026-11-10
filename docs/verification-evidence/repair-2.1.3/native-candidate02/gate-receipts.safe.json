@@ -1,0 +1,180 @@
+{
+  "kind": "source-bound-final-gate-projections",
+  "gates": {
+    "unit-candidate02-debounce-01": {
+      "childGateReceiptSha256": "20354514dcfb945edae46239541013f03a64946e910f22b8a39711f695a6a7b2",
+      "childGate": {
+        "name": "unit-candidate02-debounce-01",
+        "startedAt": "2026-10-25T07:33:02.485600+00:00",
+        "finishedAt": "2026-10-25T07:33:33.476718+00:00",
+        "durationSeconds": 30.991119,
+        "exitCode": 0,
+        "waitConsumed": true,
+        "timedOut": false,
+        "cancelled": false,
+        "sourceBefore": {
+          "sha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+          "files": 994
+        },
+        "sourceAfter": {
+          "sha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+          "files": 994
+        },
+        "sourceChanged": [],
+        "accepted": true
+      },
+      "outerTool": {
+        "name": "unit-candidate02-debounce-01",
+        "sessionId": 77953,
+        "actualOuterExitCode": 0,
+        "actualOuterWaitConsumed": true
+      }
+    },
+    "typecheck-candidate02-debounce-01": {
+      "childGateReceiptSha256": "5a92cb33e72ccb680c3b550a11e952429c492d52dab01db487a8ffe9640e0cf9",
+      "childGate": {
+        "name": "typecheck-candidate02-debounce-01",
+        "startedAt": "2026-10-25T07:33:02.396853+00:00",
+        "finishedAt": "2026-10-25T07:33:07.486801+00:00",
+        "durationSeconds": 5.089952,
+        "exitCode": 0,
+        "waitConsumed": true,
+        "timedOut": false,
+        "cancelled": false,
+        "sourceBefore": {
+          "sha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+          "files": 994
+        },
+        "sourceAfter": {
+          "sha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+          "files": 994
+        },
+        "sourceChanged": [],
+        "accepted": true
+      },
+      "outerTool": {
+        "name": "typecheck-candidate02-debounce-01",
+        "sessionId": 72288,
+        "actualOuterExitCode": 0,
+        "actualOuterWaitConsumed": true
+      }
+    },
+    "build-candidate02-debounce-01": {
+      "childGateReceiptSha256": "d84150f61354e02415806f22fe1f4a5c0e801215085257ccf26a295ab905c4a8",
+      "childGate": {
+        "name": "build-candidate02-debounce-01",
+        "startedAt": "2026-10-25T07:34:54.430417+00:00",
+        "finishedAt": "2026-10-25T07:35:53.846282+00:00",
+        "durationSeconds": 59.415867,
+        "exitCode": 0,
+        "waitConsumed": true,
+        "timedOut": false,
+        "cancelled": false,
+        "sourceBefore": {
+          "sha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+          "files": 994
+        },
+        "sourceAfter": {
+          "sha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+          "files": 994
+        },
+        "sourceChanged": [],
+        "accepted": true,
+        "buildId": "JUTCtkNIJ8CT540y_qNL_"
+      },
+      "outerTool": {
+        "name": "build-candidate02-debounce-01",
+        "sessionId": 81715,
+        "actualOuterExitCode": 0,
+        "actualOuterWaitConsumed": true
+      }
+    },
+    "e2e-candidate02-debounce-gate-01": {
+      "childGateReceiptSha256": "f7e8df2feda45759b2fb442f3ea4ab2ed703fa9d56187ee15bcd43e7c5f2b1ef",
+      "childGate": {
+        "name": "e2e-candidate02-debounce-gate-01",
+        "startedAt": "2026-10-25T07:38:07.270923+00:00",
+        "finishedAt": "2026-10-25T07:42:03.454222+00:00",
+        "durationSeconds": 236.183289,
+        "exitCode": 0,
+        "waitConsumed": true,
+        "timedOut": false,
+        "cancelled": false,
+        "sourceBefore": {
+          "sha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+          "files": 994
+        },
+        "sourceAfter": {
+          "sha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+          "files": 994
+        },
+        "sourceChanged": [],
+        "accepted": true
+      },
+      "outerTool": {
+        "name": "e2e-candidate02-debounce-gate-01",
+        "sessionId": 69491,
+        "actualOuterExitCode": 0,
+        "actualOuterWaitConsumed": true
+      }
+    },
+    "gallery-candidate02-debounce-gate-03": {
+      "childGateReceiptSha256": "74c8a1596209f15673031dfae66ce43afa8a5d68a78fc9c2e7a49252b72d050d",
+      "childGate": {
+        "name": "gallery-candidate02-debounce-gate-03",
+        "startedAt": "2026-10-25T07:49:31.083941+00:00",
+        "finishedAt": "2026-10-25T07:49:45.303626+00:00",
+        "durationSeconds": 14.219686,
+        "exitCode": 0,
+        "waitConsumed": true,
+        "timedOut": false,
+        "cancelled": false,
+        "sourceBefore": {
+          "sha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+          "files": 994
+        },
+        "sourceAfter": {
+          "sha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+          "files": 994
+        },
+        "sourceChanged": [],
+        "accepted": true
+      },
+      "outerTool": {
+        "name": "gallery-candidate02-debounce-gate-03",
+        "sessionId": 28352,
+        "actualOuterExitCode": 0,
+        "actualOuterWaitConsumed": true
+      }
+    },
+    "metadata-candidate02-debounce-gate-01": {
+      "childGateReceiptSha256": "73398eb62bb757a1b596068ea41275a0641dad55f4c79afbe2d177dd1a42e142",
+      "childGate": {
+        "name": "metadata-candidate02-debounce-gate-01",
+        "startedAt": "2026-10-25T07:51:06.706959+00:00",
+        "finishedAt": "2026-10-25T07:51:16.456419+00:00",
+        "durationSeconds": 9.749458,
+        "exitCode": 0,
+        "waitConsumed": true,
+        "timedOut": false,
+        "cancelled": false,
+        "sourceBefore": {
+          "sha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+          "files": 994
+        },
+        "sourceAfter": {
+          "sha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+          "files": 994
+        },
+        "sourceChanged": [],
+        "accepted": true
+      },
+      "outerTool": {
+        "name": "metadata-candidate02-debounce-gate-01",
+        "sessionId": 31635,
+        "actualOuterExitCode": 0,
+        "actualOuterWaitConsumed": true
+      }
+    }
+  }
+}

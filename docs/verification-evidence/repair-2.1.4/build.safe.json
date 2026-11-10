@@ -1,0 +1,16 @@
+{
+  "gate": "build-fullscreen-final",
+  "command": [
+    "npm",
+    "run",
+    "build"
+  ],
+  "exitCode": 0,
+  "durationSeconds": 61.545,
+  "startedAt": "2026-10-25T12:38:28.147011+00:00",
+  "finishedAt": "2026-10-25T12:39:29.692269+00:00",
+  "buildId": "NWcRPAySX3HCzbpKSDJNf",
+  "format": 1,
+  "logSha256": "7c2854c24520d8cb5a40804377a956984e586f64b725bcad7cb06e718ba2e499",
+  "logBytes": 3427
+}

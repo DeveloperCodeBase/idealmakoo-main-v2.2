@@ -1,0 +1,24 @@
+{
+  "gate": "unit-upload-final",
+  "command": [
+    "npm",
+    "test"
+  ],
+  "exitCode": 0,
+  "durationSeconds": 35.966,
+  "startedAt": "2026-10-25T12:12:33.840466+00:00",
+  "finishedAt": "2026-10-25T12:13:09.806415+00:00",
+  "format": 1,
+  "buildId": "mYkzU-dUdrd8P8urIq-YU",
+  "logSha256": "8569e232665de99b3489f2c254c06e95ae3986a9e1313e02d6bfe68896c7de61",
+  "logBytes": 94742,
+  "counts": {
+    "tests": 857,
+    "suites": 0,
+    "pass": 857,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/research/three-teeth-denture-base-bond/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "2a90ada81e1114631243d499757da8230f345b348449f0524b8637b0385e82f0",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Соединение Apple, Glamour и B.Star с акриловым базисом | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Лабораторное сравнение трёх групп с измерением силы разрушения соединения с термоотверждаемым акрилом."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/research/three-teeth-denture-base-bond/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/three-teeth-denture-base-bond/",
+    "en": "http://127.0.0.1:3100/en/research/three-teeth-denture-base-bond/",
+    "tr": "http://127.0.0.1:3100/tr/research/three-teeth-denture-base-bond/",
+    "ar": "http://127.0.0.1:3100/ar/research/three-teeth-denture-base-bond/",
+    "ru": "http://127.0.0.1:3100/ru/research/three-teeth-denture-base-bond/",
+    "x-default": "http://127.0.0.1:3100/fa/research/three-teeth-denture-base-bond/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 56
+}

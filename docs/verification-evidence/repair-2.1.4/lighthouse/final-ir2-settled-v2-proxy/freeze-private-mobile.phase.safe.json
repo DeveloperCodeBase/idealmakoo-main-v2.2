@@ -1,0 +1,55 @@
+{
+  "format": "topology-bound-phase-safe-derivative-v2",
+  "phase": "freeze-private-mobile",
+  "kind": "inventory",
+  "startedAt": "2026-10-25T21:25:48.300422+00:00",
+  "finishedAt": "2026-10-25T21:25:51.957934+00:00",
+  "durationSeconds": 3.658,
+  "topologySha256": "d0c85e36be10862b020361b4179ad2add3a02848966239cb01fd7b6a92837bf4",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "commandLaunchAttempted": true,
+  "commandStarted": true,
+  "coreConfigurationHashAloneBindsProxy": false,
+  "actualCommandExitCode": 0,
+  "validationPassed": true,
+  "validationErrorCode": null,
+  "validationIsSeparateFromLighthouseOutcome": true,
+  "receivedOrForwardedSignals": [],
+  "wrapperForcedKillAfterSixtySeconds": false,
+  "interruptedPageCleanup": "Not inferred by this wrapper; retain the original auditor's evidence.",
+  "originalPrivateReceiptSha256": "e026a3f8a98045fed82e63e17c7ea1a4a14b618c60fa25472008a468d342676a",
+  "beforeVerificationPresent": true,
+  "afterVerificationPresent": true,
+  "coreArtifacts": [
+    {
+      "directoryLabel": "idealmakoo-214-final-ir2-settled-v2-private-mobile",
+      "files": {
+        "manifest.json": {
+          "sha256": "eaad5a145d37978e583537ec56e69642591a9f4e0b5c1b033c97e15f622b13e0",
+          "bytes": 1987
+        },
+        "inventory.json": {
+          "sha256": "4b464bec81b7d7e1f1ea77608cfaefc3c8531983a69a79b05abf1e30f9399411",
+          "bytes": 159908
+        },
+        "summary.json": {
+          "sha256": "709d22a91eced83a34e8deafa0e63709c52496179b9f4bf4714e215680e19f44",
+          "bytes": 297
+        }
+      },
+      "coreConfigurationHash": "f29ed0d10cf2e2c08404ac461ec0cebed65d2709eacc18d0839a3e634a88848f",
+      "counts": {
+        "expected": 530,
+        "attempted": 0,
+        "completed": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "pending": 530,
+        "coverageComplete": false
+      }
+    }
+  ],
+  "omissions": [
+    "Raw process IDs/arguments/environment/logs, full process observations and raw-command hashes."
+  ]
+}

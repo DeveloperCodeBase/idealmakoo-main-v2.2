@@ -1,0 +1,70 @@
+{
+  "url": "http://127.0.0.1:3100/ar/products/yaghoot/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "2015f0b59e7875410a8065741b8d27eaa7586d5958870e9cae283b18d42e7cee",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "أسنان ياقوت الصناعية | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "ياقوت بثلاث طبقات وأربع دورات معالجة مع مادة كومبوزيت وقوالب متعددة."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/products/yaghoot/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/yaghoot/",
+    "en": "http://127.0.0.1:3100/en/products/yaghoot/",
+    "tr": "http://127.0.0.1:3100/tr/products/yaghoot/",
+    "ar": "http://127.0.0.1:3100/ar/products/yaghoot/",
+    "ru": "http://127.0.0.1:3100/ru/products/yaghoot/",
+    "x-default": "http://127.0.0.1:3100/fa/products/yaghoot/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "أسنان ياقوت الصناعية",
+      "description": "ياقوت بثلاث طبقات وأربع دورات معالجة مع مادة كومبوزيت وقوالب متعددة.",
+      "image": "http://127.0.0.1:3100/media/official/1686378565.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "YAGHOOT"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/ar/products/yaghoot/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 64
+}

@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/sample-request/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "08abf8de10a0cf172c279a9a349ad7a7d9f2b2a9c8762c9bfdf0261cc709025f",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Product sample request | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Select a product and submit your contact details and request purpose so the factory can review your product sample request."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/sample-request/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/sample-request/",
+    "en": "http://127.0.0.1:3100/en/sample-request/",
+    "tr": "http://127.0.0.1:3100/tr/sample-request/",
+    "ar": "http://127.0.0.1:3100/ar/sample-request/",
+    "ru": "http://127.0.0.1:3100/ru/sample-request/",
+    "x-default": "http://127.0.0.1:3100/fa/sample-request/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 40
+}

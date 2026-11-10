@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/products/category/materials/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "cba6a9b52619f5359603394bd060761a70b368d1f2415b12b13de85e8eea70f0",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Dental malzemeler | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Ideal Makoo dental ve laboratuvar malzemeleri, belgelenmiş kullanım alanları, kaynak özellikler ve ürün bilgisi talepleri."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/products/category/materials/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/category/materials/",
+    "en": "http://127.0.0.1:3100/en/products/category/materials/",
+    "tr": "http://127.0.0.1:3100/tr/products/category/materials/",
+    "ar": "http://127.0.0.1:3100/ar/products/category/materials/",
+    "ru": "http://127.0.0.1:3100/ru/products/category/materials/",
+    "x-default": "http://127.0.0.1:3100/fa/products/category/materials/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 50
+}

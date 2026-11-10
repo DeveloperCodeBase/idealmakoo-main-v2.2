@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/cooperation/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "98683c375fbd14ec9b698bcdc0f9aa27a867e97dede2c375408715d418d813da",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "همکاری با ما | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "مسیرهای همکاری با کارخانه را بشناسید: توزیع، تأمین، برون‌سپاری، سرمایه‌گذاری و پژوهش؛ سپس درخواست مرتبط را ثبت کنید."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/cooperation/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/cooperation/",
+    "en": "http://127.0.0.1:3100/en/cooperation/",
+    "tr": "http://127.0.0.1:3100/tr/cooperation/",
+    "ar": "http://127.0.0.1:3100/ar/cooperation/",
+    "ru": "http://127.0.0.1:3100/ru/cooperation/",
+    "x-default": "http://127.0.0.1:3100/fa/cooperation/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 48
+}

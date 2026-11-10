@@ -1,0 +1,31 @@
+{
+  "schema": "idealmakoo.browser-acceptance.v1",
+  "version": "2.1.4",
+  "recorded_at": "2026-10-25T12:29:22.014884+00:00",
+  "phase": "Before the later Carousel fullscreen state synchronization correction",
+  "production_build": "mYkzU-dUdrd8P8urIq-YU",
+  "database_identity_sha256": "1771a5e89cbd9b2b82c90dfccd39c11627da5b772640e5714d8b8e677b1a6664",
+  "browser_suite": {
+    "exit_code": 0,
+    "executed_tests": 62,
+    "passed": 62,
+    "failed": 0,
+    "skipped": 0,
+    "retries": 0,
+    "workers": 1,
+    "ci_unset": true,
+    "duration_reported": "4.4m",
+    "footer": "62 passed (4.4m)",
+    "build_id": "mYkzU-dUdrd8P8urIq-YU",
+    "database_identity_sha256": "1771a5e89cbd9b2b82c90dfccd39c11627da5b772640e5714d8b8e677b1a6664",
+    "log_sha256": "d1d66b4673a77349e9ca9003bbed7ff3cd85fc820e3204e8d148cab5ee9470df",
+    "recorded_at": "2026-10-25T12:24:22.231350+00:00",
+    "runner_warnings": [
+      "npm: Unknown env config http-proxy.",
+      "Node: NO_COLOR ignored because FORCE_COLOR is set."
+    ]
+  },
+  "scope": "Complete62-case Chromium production suite including multipart upload-boundary regression, zero retries, one worker, CI unset.",
+  "subsequent_finding": "Separate gallery QA observed native fullscreen entry without synchronized expanded state or visible exit control; this was not covered by these62 cases. A subsequent correction and dedicated regression are tracked separately.",
+  "private_material_included": false
+}

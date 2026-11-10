@@ -1,0 +1,70 @@
+{
+  "url": "http://127.0.0.1:3100/ar/products/newclar/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "6010d3868627fb679fc0b8618fa797d5721469e2b69fc5c51df830d89a4a9651",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "أسنان نيوكلار الصناعية | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "نيوكلار أول اسم منتج في تاريخ المصنع، ببنية أحادية الطبقة ودورتي معالجة."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/products/newclar/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/newclar/",
+    "en": "http://127.0.0.1:3100/en/products/newclar/",
+    "tr": "http://127.0.0.1:3100/tr/products/newclar/",
+    "ar": "http://127.0.0.1:3100/ar/products/newclar/",
+    "ru": "http://127.0.0.1:3100/ru/products/newclar/",
+    "x-default": "http://127.0.0.1:3100/fa/products/newclar/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "أسنان نيوكلار الصناعية",
+      "description": "نيوكلار أول اسم منتج في تاريخ المصنع، ببنية أحادية الطبقة ودورتي معالجة.",
+      "image": "http://127.0.0.1:3100/media/official/1686378608.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "NEWCLAR"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/ar/products/newclar/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 69
+}

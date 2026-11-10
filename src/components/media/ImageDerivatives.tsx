@@ -1,0 +1,32 @@
+'use client';
+import {useState,type FormEvent} from 'react';
+import type {DamAssetDetails,ImageRecipe,ServerMediaAsset} from '@/types/dam';
+import {initialImageRecipe,mediaAssetApiPath} from '@/lib/dam-client';
+import {c} from '@/components/controlled/copy';
+import {useControlledApi} from '@/components/controlled/useControlledApi';
+import styles from '@/components/controlled/controlled.module.css';
+import AuthorizedMediaPreview from './MediaTransport';
+import {mt,type MediaCopyKey} from './media-copy';
+
+type CreatedImage=Pick<ServerMediaAsset,'id'|'url'|'filename'|'size'|'mimeType'|'scanStatus'>;
+export default function ImageDerivatives({asset,details,locale,permitted,onCreated,onSelectSource}:{asset:ServerMediaAsset;details:DamAssetDetails;locale:string;permitted:boolean;onCreated:(asset:CreatedImage)=>Promise<void>;onSelectSource:(id:string)=>void}){
+ const api=useControlledApi(locale),[name,setName]=useState(''),[rights,setRights]=useState(false),[recipe,setRecipe]=useState<ImageRecipe>(()=>initialImageRecipe(details.sourceWidth,details.sourceHeight)),[created,setCreated]=useState<CreatedImage|null>(null);
+ const root=details.sourceAssetId===asset.id,enabled=permitted&&details.canManage&&details.effectiveRights&&asset.scanStatus==='clean'&&root&&details.sourceWidth>0&&details.sourceHeight>0;
+ const bounded=[recipe.crop.left,recipe.crop.top,recipe.crop.width,recipe.crop.height].every(Number.isSafeInteger)&&recipe.crop.left>=0&&recipe.crop.top>=0&&recipe.crop.width>0&&recipe.crop.height>0&&recipe.crop.left+recipe.crop.width<=details.sourceWidth&&recipe.crop.top+recipe.crop.height<=details.sourceHeight;
+ const submit=(event:FormEvent)=>{event.preventDefault();void api.run(async()=>{if(!bounded)throw new Error(mt(locale,'cropInvalid'));const result=await api.request<CreatedImage>(`/media/${asset.id}/derivatives`,{method:'POST',body:JSON.stringify({name:name.trim(),rightsConfirmed:true,recipe})});setCreated(result);await onCreated(result);});};
+ const cropFields:readonly [keyof ImageRecipe['crop'],MediaCopyKey,number,number][]=[['left','left',0,Math.max(0,details.sourceWidth-1)],['top','top',0,Math.max(0,details.sourceHeight-1)],['width','width',1,details.sourceWidth],['height','height',1,details.sourceHeight]];
+ return <section className={styles.card}>
+  <header className={styles.header}><h3>{mt(locale,'crops')}</h3><span dir="ltr">{details.sourceWidth} × {details.sourceHeight} px</span></header><p className={styles.muted}>{mt(locale,'cropHint')}</p>
+  {!root&&<button type="button" className="btn" onClick={()=>onSelectSource(details.sourceAssetId)}>{mt(locale,'chooseSource')}</button>}
+  {api.error&&<p className={styles.error} role="alert">{api.error}</p>}
+  {created&&<div className={styles.notice} role="status"><p>{c(locale,'confirmed')} <bdi>{created.filename}</bdi></p><button type="button" className="btn" onClick={()=>onSelectSource(created.id)}>{c(locale,'select')}</button></div>}
+  {root&&<form className={styles.form} onSubmit={submit}><fieldset disabled={!enabled||api.busy} style={{border:0,padding:0,minWidth:0,display:'grid',gap:'1rem'}}><label>{c(locale,'title')}<input required maxLength={170} value={name} onChange={event=>setName(event.target.value)}/></label>
+   <div className={styles.grid}>{cropFields.map(([field,label,min,max])=><label key={field}>{mt(locale,label)}<input type="number" min={min} max={Math.max(min,max)} required step={1} value={recipe.crop[field]} onChange={event=>setRecipe({...recipe,crop:{...recipe.crop,[field]:Number(event.target.value)}})}/></label>)}</div>
+   <div className={styles.grid}><label>{mt(locale,'outputWidth')}<input type="number" min={1} max={4096} required step={1} value={recipe.outputWidth} onChange={event=>setRecipe({...recipe,outputWidth:Number(event.target.value)})}/></label><label>{mt(locale,'outputHeight')}<input type="number" min={1} max={4096} required step={1} value={recipe.outputHeight} onChange={event=>setRecipe({...recipe,outputHeight:Number(event.target.value)})}/></label><label>{mt(locale,'quality')}<input type="number" min={40} max={95} required step={1} value={recipe.quality} onChange={event=>setRecipe({...recipe,quality:Number(event.target.value)})}/></label><label>{mt(locale,'fit')}<select value={recipe.fit} onChange={event=>setRecipe({...recipe,fit:event.target.value as ImageRecipe['fit']})}><option value="inside">{mt(locale,'inside')}</option><option value="cover">{mt(locale,'cover')}</option></select></label></div>
+   {enabled&&asset.visibility==='public'&&mediaAssetApiPath(asset.id,asset.url)&&<div dir="ltr" style={{position:'relative',width:'100%',maxWidth:600,aspectRatio:`${details.sourceWidth}/${details.sourceHeight}`,background:'#17222b',overflow:'hidden',borderRadius:12}}><img src={asset.url} alt={asset.filename} style={{width:'100%',height:'100%',objectFit:'contain'}}/>{bounded&&<div aria-hidden="true" style={{position:'absolute',left:`${recipe.crop.left/details.sourceWidth*100}%`,top:`${recipe.crop.top/details.sourceHeight*100}%`,width:`${recipe.crop.width/details.sourceWidth*100}%`,height:`${recipe.crop.height/details.sourceHeight*100}%`,border:'3px solid #fff',boxShadow:'0 0 0 1px #17222b,0 0 0 9999px rgba(0,0,0,.42)',pointerEvents:'none'}}/>}</div>}
+   {!bounded&&<p className={styles.error}>{mt(locale,'cropInvalid')}</p>}<label className={styles.check}><input type="checkbox" required checked={rights} onChange={event=>setRights(event.target.checked)}/>{mt(locale,'rights')}</label><button type="submit" className="btn btn-primary" disabled={!rights||!name.trim()||!bounded}>{mt(locale,'createCrop')}</button>
+  </fieldset></form>}
+  {!enabled&&root&&<p className={styles.notice}>{mt(locale,'unavailable')}</p>}
+  <div className={styles.list}>{!details.derivatives.length&&<p>{c(locale,'empty')}</p>}{details.derivatives.map(item=><article className={styles.card} key={item.id}><div className={styles.header}><strong className={styles.break}>{item.filename}</strong><span>{new Date(item.createdAt).toLocaleString(locale)}</span></div><p dir="ltr">{item.recipe.crop.width} × {item.recipe.crop.height} px → {item.recipe.outputWidth} × {item.recipe.outputHeight} px · {(item.bytes/1024).toFixed(1)} KiB</p>{item.archived?<span className={styles.badge}>{c(locale,'archive')}</span>:<><button type="button" className="btn" onClick={()=>onSelectSource(item.id)}>{c(locale,'select')}</button><AuthorizedMediaPreview asset={{...item,mimeType:'image/webp'}} enabled={details.effectiveRights} locale={locale} downloadOnly/></>}</article>)}</div>
+ </section>;
+}

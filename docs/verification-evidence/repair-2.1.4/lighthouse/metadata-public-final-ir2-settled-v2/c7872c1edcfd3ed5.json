@@ -1,0 +1,71 @@
+{
+  "url": "http://127.0.0.1:3100/tr/products/yaghoot/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "5adcbfb187bbcf8db252e868504e002f1453764bc861b4e924d3cd306d6af287",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Yaghoot protez dişler | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Yaghoot, kompozit malzeme ve kalıp seçenekleriyle üç katmanlı, dört döngülü bir yapı sunar."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/products/yaghoot/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/yaghoot/",
+    "en": "http://127.0.0.1:3100/en/products/yaghoot/",
+    "tr": "http://127.0.0.1:3100/tr/products/yaghoot/",
+    "ar": "http://127.0.0.1:3100/ar/products/yaghoot/",
+    "ru": "http://127.0.0.1:3100/ru/products/yaghoot/",
+    "x-default": "http://127.0.0.1:3100/fa/products/yaghoot/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Yaghoot protez dişler",
+      "description": "Yaghoot, kompozit malzeme ve kalıp seçenekleriyle üç katmanlı, dört döngülü bir yapı sunar.",
+      "image": "http://127.0.0.1:3100/media/official/1686378565.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "YAGHOOT"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/tr/products/yaghoot/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 64
+}

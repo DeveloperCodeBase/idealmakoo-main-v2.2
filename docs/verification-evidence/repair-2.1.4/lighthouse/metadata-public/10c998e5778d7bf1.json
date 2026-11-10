@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/technical-selection/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "b8ac6dea8fdca4c3a0f522390b23028e57839f70140d1edfcd952834eafd4207",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Technical selection / CSV | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Select products, quantities, shades and moulds, or preview and import a CSV list, then add the items to your technical inquiry."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/technical-selection/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/technical-selection/",
+    "en": "http://127.0.0.1:3100/en/technical-selection/",
+    "tr": "http://127.0.0.1:3100/tr/technical-selection/",
+    "ar": "http://127.0.0.1:3100/ar/technical-selection/",
+    "ru": "http://127.0.0.1:3100/ru/technical-selection/",
+    "x-default": "http://127.0.0.1:3100/fa/technical-selection/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 44
+}

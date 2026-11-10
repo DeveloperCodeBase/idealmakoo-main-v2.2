@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "kind": "actual-guest-compose-package-version-from-retained-installer-records",
+  "recordedAt": "2026-10-24T11:27:00.740453+00:00",
+  "matches": [
+    {
+      "record": "evidence/second-install-cancellation-01/installer.private.log",
+      "line": 176,
+      "version": "5.6.1-1~ubuntu.22.04~jammy",
+      "evidenceType": "Unpacking docker-compose-plugin"
+    },
+    {
+      "record": "evidence/second-install-cancellation-01/installer.private.log",
+      "line": 180,
+      "version": "5.6.1-1~ubuntu.22.04~jammy",
+      "evidenceType": "Setting up docker-compose-plugin"
+    }
+  ],
+  "newGuestOrCliProbePerformed": false,
+  "hostComposeVersionUsedAsGuestAuthority": false
+}

@@ -1,0 +1,201 @@
+{
+  "format": "idealmakoo.same-host-full-restore-acceptance",
+  "version": 1,
+  "verifiedAt": "2026-10-21T20:33:20.602020+00:00",
+  "state": "completed",
+  "accepted": true,
+  "applicationSha256": "12da2b69abf2fa85cf0655bc0b4ec7df9244ea0b50a29cc8c3be1157851b6e1c",
+  "operationalSourceSha256": "458f175a29b8bce25c5b45592c10952b57202b894e3aac65e244b7863c726be1",
+  "operationalSourceFiles": 821,
+  "sourceHandoffSha256": "ba9509bf2c7e892add9c93c0c73f106b81c7e1ac628ec061e553b7170c81bf1c",
+  "nativeBuildId": "-Q7Ffy3JmwVExwxk-Ymk-",
+  "chainRecordSha256": "596d4920d1447bd99c95253629136951125193e8001d27addc1e85d5ecb3a2aa",
+  "firstGuestOperationsAccepted": true,
+  "selectedBackup": {
+    "downloadRecordSha256": "91437c5f7eb14a128175e42a56523da189b6f3bc563ca04611e345a7d92a0c9f",
+    "archiveSha256": "2b8992834879d0134221504a59a9158eafcc703839fd83f46c3981392b407abc",
+    "authenticatedSourceBindingRecordSha256": "2f07ac920f8e9b0cfa6c8897880597b775fd9c4a74e11cb821e2516e92053f11",
+    "regularSourceFilesVerified": 1273
+  },
+  "phases": {
+    "late-change": {
+      "phaseRecordFile": "install-late-change.json",
+      "phaseRecordSha256": "142dd3a3a3296f5c1eef006e1215e48bbc20b63ac9d7afe8061c19548ddeac9e",
+      "guestStartedAt": "2026-10-21T19:34:22.713197+00:00",
+      "guestFinishedAt": "2026-10-21T19:38:31.330967+00:00",
+      "guestExitCode": 0,
+      "transportExitCode": 0,
+      "rawLogBytes": 289,
+      "rawLogSha256": "fd7bcd5e9901d6d152e5a1bd104dfc98ba504ef26092803b5dbd5108faf67241",
+      "protectedEnvironmentUnchanged": true
+    },
+    "host-transfer": {
+      "phaseRecordFile": "install-host-transfer.json",
+      "phaseRecordSha256": "ed66856bef88c51a5e0ff2a151037429a62deed349b3147f74b7256305b9c83a",
+      "guestStartedAt": "2026-10-21T19:38:54.496541+00:00",
+      "guestFinishedAt": "2026-10-21T19:39:20.938030+00:00",
+      "guestExitCode": 0,
+      "transportExitCode": 0,
+      "rawLogBytes": 250,
+      "rawLogSha256": "f9ee21f6369f52982f8155299fbd760723c31e5345a42af3f5ff8fae9733b019",
+      "protectedEnvironmentUnchanged": true
+    },
+    "restore-same-host": {
+      "phaseRecordFile": "install-restore-same-host.json",
+      "phaseRecordSha256": "756fbcefac89040629cce66fd99b4debcc2e782170debd6fe100b0ed82f550d3",
+      "guestStartedAt": "2026-10-21T19:39:50.951401+00:00",
+      "guestFinishedAt": "2026-10-21T20:25:26.739481+00:00",
+      "guestExitCode": 0,
+      "transportExitCode": 0,
+      "rawLogBytes": 4621,
+      "rawLogSha256": "cfe4dec2e024f9f032670f453a2f82a1d7cc39407e61b971599e3235f501469d",
+      "protectedEnvironmentUnchanged": true
+    },
+    "verify-same-host": {
+      "phaseRecordFile": "install-verify-same-host.json",
+      "phaseRecordSha256": "01d0a8f8df8a1bf8b30be01649f20d8a70d62cebbed49ecd576b22dac51304a8",
+      "guestStartedAt": "2026-10-21T20:25:50.793146+00:00",
+      "guestFinishedAt": "2026-10-21T20:29:50.883633+00:00",
+      "guestExitCode": 0,
+      "transportExitCode": 0,
+      "rawLogBytes": 1024,
+      "rawLogSha256": "17e4d637da7532467a38a75b4bf98bd2a081d32d9489271dd8cd7e0df05a8e08",
+      "protectedEnvironmentUnchanged": true
+    },
+    "host-verify-same-host": {
+      "phaseRecordFile": "install-host-verify-same-host.json",
+      "phaseRecordSha256": "dc7cd3d62b5e714185df2ddd16586368fba54e62db4441bc792712b837da1785",
+      "guestStartedAt": "2026-10-21T20:30:07.326562+00:00",
+      "guestFinishedAt": "2026-10-21T20:30:45.639123+00:00",
+      "guestExitCode": 0,
+      "transportExitCode": 0,
+      "rawLogBytes": 251,
+      "rawLogSha256": "24e75fe319a9fb06a1b9ac253aac426144684a7015ea2f44c8179a118f3805f1",
+      "protectedEnvironmentUnchanged": true
+    }
+  },
+  "postBackupChanges": {
+    "cmsChanged": true,
+    "syntheticCustomerErasedWithIndependentApproval": true,
+    "staffDisabled": 1,
+    "currentPrivacySequence": 1
+  },
+  "applicationRecoveryReceipt": {
+    "verifiedAt": "2026-10-21T20:29:43.395Z",
+    "mode": "same-host",
+    "sourceSite": "http://127.0.0.1:3088",
+    "restoredSite": "http://127.0.0.1:3088",
+    "cmsDraftRestored": true,
+    "postBackupCmsChangeRewound": true,
+    "assetCount": 2,
+    "publicAssetHash": "76a250555092959db1a02cf8690c91103670157cbe76c3a8f164fa79e4e3e119",
+    "assetHashesVerified": true,
+    "erasedCustomerAbsent": true,
+    "privacyTombstoneRetained": true,
+    "staffPolicy": "current-disabled-state-retained",
+    "passwordAndEnrolledMfaFingerprintsPreserved": true,
+    "recoveryCodesInvalidated": true,
+    "oldSessionsRevoked": true,
+    "oldSessionHttpStatuses": [
+      401,
+      401,
+      401
+    ],
+    "publicAssetHttpVerified": true,
+    "privateAssetRequiresFreshAuthentication": true,
+    "freshOwnerPasswordAndTotpLogin": true,
+    "freshOwnerWorkspaceStatus": 200,
+    "freshCustomerPasswordLogin": true,
+    "freshPrivateAssetDownloadStatus": 200,
+    "freshPrivateAssetHashVerified": true,
+    "authRowsInsertedDirectlyForFreshLogins": false
+  },
+  "hostStateReceipt": {
+    "format": "idealmakoo.vm-host-state-proof",
+    "version": 1,
+    "phase": "verify-same-host",
+    "verifiedAt": "2026-10-21T20:30:45.481898+00:00",
+    "sourceFileManifestSha256": "ab09582a9968fa2f20c9673cfc2effdadc5ab9c4beed825253f932d8755e92dc",
+    "applicationSha256": "12da2b69abf2fa85cf0655bc0b4ec7df9244ea0b50a29cc8c3be1157851b6e1c",
+    "sourceFilesMatched": 1273,
+    "applicationFilesMatched": 678,
+    "environmentKeyCount": 122,
+    "privateStateSha256": "98903ee73bedd5f9bb614db3d7ef654fae868cc9305e9954f4ecefa4642b70de",
+    "wholeStorageFileCount": 4,
+    "wholeStorageBytes": 3015,
+    "wholeStorageTreeSha256": "c4abbc8a96da143e8ddeca46f9c83be5f6bcc75081ff147495a13c0dbabff195",
+    "hostFixtureFileCount": 4,
+    "persistentTrees": {
+      "integrations": {
+        "fileCount": 1,
+        "bytes": 132,
+        "sha256": "7a5afd16e67c8f29c7aa01087ecb01685374694bd0a9986432e0e90f3be56985"
+      },
+      "caddyData": {
+        "fileCount": 4,
+        "bytes": 799,
+        "sha256": "e0b41d182c9d45159aff48bc8d2576fa835b6f383639267de922565cc6fa4298"
+      },
+      "caddyConfig": {
+        "fileCount": 2,
+        "bytes": 1583,
+        "sha256": "d6dfa206288b266c07839593e0b138a3c7607a282735e21e5777e8f52fb6da1a"
+      }
+    },
+    "sameHostComparedLatestLedger": true,
+    "reinstallAcceptanceClaimed": false,
+    "generatedPythonCacheFilesExplicitlyIdentified": 2,
+    "generatedEnvLinkVerified": true,
+    "generatedReleaseMetadataVerified": true,
+    "ledgerEntryCount": 1,
+    "ledgerHeadSha256": "7deafc558229c94912d1b57467747bc2e6f2867f162f6b1b2f7331d271e472b9",
+    "ledgerFingerprint": "00d0a4312b6d59e5c5e267ae5ddeaf2c45de0e32d42a47d9abcf79a6d328638b",
+    "ledgerSignatureVerificationPerformed": false,
+    "ledgerSignatureScope": "This file witness checks exact identity/journal bytes and body hashes. Cryptographic signatures and DB anti-resurrection are verified by the separate actual application recovery witness.",
+    "allowedChangedEnvironmentKeys": [],
+    "bootstrapPasswordEmpty": true,
+    "captureOnly": false,
+    "comparisonsPassed": true,
+    "newHostComparedLatestTransferredLedger": false,
+    "separateBackupAndCurrentTransferBaselines": true,
+    "publicAcmeIssuanceTested": false,
+    "privateValuesOrPathsExported": false,
+    "databaseMutationsPerformed": false,
+    "dockerOperations": "Local volume/container/image inspect and container enumeration only; no container Env read or container execution.",
+    "pass": true
+  },
+  "witnessHelpers": {
+    "vm-recovery-witness.mjs": "7aa0387f317bd07975ccb4b6bff2933a014a2c950f361d22fefaa9ca95ef354c",
+    "vm-host-state-witness.py": "95d796b6034e81b3cbfd949c903893b05e42f2f17ec46e375df82b03a73ad7b4",
+    "run-vm-witness.sh": "0667dc569e019c8e8d6d02cb509acdc6c30717846a44f1a8224f7c74d5686d4d",
+    "vm-antivirus-witness.mjs": "464f7db8082a16eba90f71eadf94fccb9274dbbe6224f0329207e048626123b2"
+  },
+  "privateControlExport": {
+    "recordSha256": "3a0a8b73bbc241678cc38b1d8d51f9e48fbbc90b3c61f4c825644e0eaabffa9d",
+    "manifestSha256": "3a2639acf7fa447d6f5657337a803ef0e5b7c356c96579e3e1581b2ddacee891",
+    "tarSha256": "83c3780bde7a6eac1c4d734ae4199d8f24ba78161260407d850038f8d5e79bab",
+    "tarBytes": 71680,
+    "regularFiles": 12,
+    "allMemberHashesMatched": true,
+    "sameHostReceiptSha256": "da5205809b7337bf990b3b0b919d883068549dd97348925f452aaafeed2bc6fa",
+    "hostStateProofSha256": "81c80da19118f7b31ce0792a674a365a444384d67178239a9e0bb978e0f5b15d",
+    "antivirusReceiptSha256": "8b8dc6be1bf52ea356db5b76f4d1ed60c4049da1d28d90a5123d073b712ac603",
+    "antivirusReceiptMatchesPassedBehavior": true,
+    "privateEnvironmentExportProofSha256": "94dff33ea6a9f49eea365891d45c2a6c5c9f92d7ad47823f55d4454edadaee48",
+    "privateEnvironmentMode": "0600",
+    "privateEnvironmentMatchesRestorePhase": true
+  },
+  "scope": {
+    "sameHostDatabaseAndMediaRestored": true,
+    "currentSourceConfigurationAndProxyTreesRetainedAndVerified": true,
+    "safetyBackupPublishedBeforeReplacement": true,
+    "newBackupCreatedForEvidence": false,
+    "nativeCompilerSubstitution": true,
+    "fullStandardFinalSourceDockerCompilationClaimed": false,
+    "freshHostRecoveryAccepted": false,
+    "publicAcmeIssuanceTested": false,
+    "fileWitnessVerifiesLedgerBytesNotSignatures": true,
+    "separateApplicationWitnessValidatesPrivacyReadinessAndAntiResurrection": true,
+    "rawSecretsIncluded": false
+  }
+}

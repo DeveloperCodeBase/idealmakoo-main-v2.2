@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "kind": "bounded-public-hydration-diagnostic-comparison",
+  "method": "Same public contact URL, same real Chrome/native mobile viewport diagnostic, VM fully off for both. No Lighthouse score is inferred from this DOM trace. No browser screenshot included.",
+  "before": {
+    "sourceFile": "contact-hydration-vm-off-native.json",
+    "sha256": "97efb0df0148d3b3813a46a42d7931dcac5b42829a8ee11e2f16cb45b74c2399",
+    "buildId": "paqOLbWOxqHRAWz2NcesU",
+    "startedAt": "2026-10-20T14:18:24.777Z",
+    "finishedAt": "2026-10-20T14:18:51.062Z",
+    "httpStatus": 200,
+    "error": null,
+    "consoleErrors": 0,
+    "pageErrors": 0,
+    "headingEverMissingAfterMount": true,
+    "pageLoaderObserved": true,
+    "geometryObservations": [
+      {
+        "atMs": 777.1999999992549,
+        "headingCount": 0,
+        "loadingCount": 0,
+        "mainHeight": null
+      },
+      {
+        "atMs": 1451.0999999977648,
+        "headingCount": 0,
+        "loadingCount": 1,
+        "mainHeight": 300
+      },
+      {
+        "atMs": 1561.199999999255,
+        "headingCount": 0,
+        "loadingCount": 1,
+        "mainHeight": 300
+      },
+      {
+        "atMs": 3144.199999999255,
+        "headingCount": 1,
+        "loadingCount": 0,
+        "mainHeight": 1977.96875
+      },
+      {
+        "atMs": 3587.199999999255,
+        "headingCount": 0,
+        "loadingCount": 1,
+        "mainHeight": 300
+      },
+      {
+        "atMs": 3780.599999997765,
+        "headingCount": 1,
+        "loadingCount": 0,
+        "mainHeight": 1977.96875
+      },
+      {
+        "atMs": 4203.199999999255,
+        "headingCount": 1,
+        "loadingCount": 0,
+        "mainHeight": 2019.75
+      }
+    ],
+    "layoutShifts": [
+      {
+        "atMs": 1495.5999999977648,
+        "value": 0.0015528728656867173,
+        "hadRecentInput": true,
+        "sourceNodes": [
+          "a.btn.nav-login",
+          "div.gn-actions.preferences_headerActions__Lom2V"
+        ]
+      },
+      {
+        "atMs": 3173.5,
+        "value": 0.5127582017010935,
+        "hadRecentInput": false,
+        "sourceNodes": [
+          "footer.site-footer"
+        ]
+      },
+      {
+        "atMs": 3773,
+        "value": 0.5127582017010935,
+        "hadRecentInput": false,
+        "sourceNodes": [
+          "footer.site-footer"
+        ]
+      },
+      {
+        "atMs": 3798.39999999851,
+        "value": 0.5127582017010935,
+        "hadRecentInput": false,
+        "sourceNodes": [
+          "footer.site-footer"
+        ]
+      }
+    ],
+    "storeEvents": [
+      {
+        "atMs": 3462.39999999851,
+        "name": "idealmakoo:server-site"
+      },
+      {
+        "atMs": 3935,
+        "name": "idealmakoo:display-preferences"
+      },
+      {
+        "atMs": 4206.89999999851,
+        "name": "idealmakoo:server-site"
+      }
+    ]
+  },
+  "after": {
+    "sourceFile": "contact-hydration-fixed-vm-off-native.json",
+    "sha256": "a5a9d63737b52547385e810110b87fa82430796122f312786ca735b46223eae7",
+    "buildId": "SEGX-S68AwFNAKa-yMEjI",
+    "startedAt": "2026-10-20T14:44:52.307Z",
+    "finishedAt": "2026-10-20T14:45:17.519Z",
+    "httpStatus": 200,
+    "error": null,
+    "consoleErrors": 0,
+    "pageErrors": 0,
+    "headingEverMissingAfterMount": false,
+    "pageLoaderObserved": false,
+    "geometryObservations": [
+      {
+        "atMs": 1111.199999999255,
+        "headingCount": 1,
+        "loadingCount": 0,
+        "mainHeight": 1539.796875
+      },
+      {
+        "atMs": 1507.199999999255,
+        "headingCount": 1,
+        "loadingCount": 0,
+        "mainHeight": 2021.96875
+      },
+      {
+        "atMs": 1666.199999999255,
+        "headingCount": 1,
+        "loadingCount": 0,
+        "mainHeight": 1977.96875
+      },
+      {
+        "atMs": 4430.300000000745,
+        "headingCount": 1,
+        "loadingCount": 0,
+        "mainHeight": 2019.75
+      }
+    ],
+    "layoutShifts": [
+      {
+        "atMs": 2495.199999999255,
+        "value": 0.00013804222172681223,
+        "hadRecentInput": true,
+        "sourceNodes": [
+          "a.text-link"
+        ]
+      }
+    ],
+    "storeEvents": [
+      {
+        "atMs": 3182,
+        "name": "idealmakoo:server-site"
+      },
+      {
+        "atMs": 3697.800000000745,
+        "name": "idealmakoo:display-preferences"
+      },
+      {
+        "atMs": 4480.699999999255,
+        "name": "idealmakoo:server-site"
+      }
+    ]
+  }
+}

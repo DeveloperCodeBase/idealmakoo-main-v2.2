@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/resources/berelian-official-image/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "d3c46a825117c8c02773cc8ae60ebb6d1882eeb4a30bf25ffafd8a9d44119c20",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "دندان مصنوعی برلیان — تصویر رسمی | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "دندان مصنوعی برلیان — تصویر رسمی — اسناد تصویری اصلی کارخانه"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/resources/berelian-official-image/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/berelian-official-image/",
+    "en": "http://127.0.0.1:3100/en/resources/berelian-official-image/",
+    "tr": "http://127.0.0.1:3100/tr/resources/berelian-official-image/",
+    "ar": "http://127.0.0.1:3100/ar/resources/berelian-official-image/",
+    "ru": "http://127.0.0.1:3100/ru/resources/berelian-official-image/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/berelian-official-image/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 73
+}

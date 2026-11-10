@@ -1,0 +1,29 @@
+{
+  "format": "idealmakoo-audit-tooling-command-v1",
+  "scope": "Audit-tooling tests only; no application build, browser run or new Docker/DB gate",
+  "label": "full-unit",
+  "attempt": 1,
+  "command": [
+    "npm",
+    "test"
+  ],
+  "startedAt": "2026-10-25T21:14:33.563848+00:00",
+  "finishedAt": "2026-10-25T21:15:05.489388+00:00",
+  "exitCode": 0,
+  "signal": null,
+  "durationSeconds": 31.922108522005146,
+  "counts": {
+    "tests": 871,
+    "pass": 871,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0
+  },
+  "completeLogBytes": 96153,
+  "completeLogSha256": "1a561df84d3b101dff11212680430b01d24f39325012ca5e3c89106b1574493e",
+  "completeOutputCaptured": true,
+  "runtimeDatabaseEnvironmentInherited": false,
+  "applicationRebuilt": false,
+  "newBrowserAcceptanceClaim": false
+}

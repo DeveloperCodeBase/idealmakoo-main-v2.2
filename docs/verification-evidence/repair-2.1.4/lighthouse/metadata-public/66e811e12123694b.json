@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/glossary/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "fffab7a294d7b3e26aa434e55c02ea60f91e6c7ba0f0baa281beaa3a0747aa81",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "واژه‌نامهٔ تخصصی | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "اصطلاحات و تعریف‌های تأییدشدهٔ این زبان را جست‌وجو کنید. روی اصطلاح‌های نشانه‌گذاری‌شده در مطالب کلیک کنید تا تعریف آن‌ها را بخوانید."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/glossary/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/glossary/",
+    "en": "http://127.0.0.1:3100/en/glossary/",
+    "tr": "http://127.0.0.1:3100/tr/glossary/",
+    "ar": "http://127.0.0.1:3100/ar/glossary/",
+    "ru": "http://127.0.0.1:3100/ru/glossary/",
+    "x-default": "http://127.0.0.1:3100/fa/glossary/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 70
+}

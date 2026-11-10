@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/resources/laboratory-putty-official-image/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "b3d9171bf7a7c262d53fd2f74939385720d12a887d8a821d84f993d101b9ef26",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Laboratuvar putty materyali — resmî görsel | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Laboratuvar putty materyali — resmî görsel — Fabrikanın orijinal görsel belgeleri"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/resources/laboratory-putty-official-image/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/laboratory-putty-official-image/",
+    "en": "http://127.0.0.1:3100/en/resources/laboratory-putty-official-image/",
+    "tr": "http://127.0.0.1:3100/tr/resources/laboratory-putty-official-image/",
+    "ar": "http://127.0.0.1:3100/ar/resources/laboratory-putty-official-image/",
+    "ru": "http://127.0.0.1:3100/ru/resources/laboratory-putty-official-image/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/laboratory-putty-official-image/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 49
+}

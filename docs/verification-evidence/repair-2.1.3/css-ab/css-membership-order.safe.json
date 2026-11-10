@@ -1,0 +1,1577 @@
+{
+  "schemaVersion": 1,
+  "kind": "css-entry-membership-and-order-comparison",
+  "buildA": "fztGyySqMaBbes8--JQKs",
+  "buildB": "G0D50qevp3Md82gIM2grZ",
+  "sameOrderedCssMembership": true,
+  "values": {
+    "A": [
+      {
+        "relative": "[locale]/page_client-reference-manifest.js",
+        "manifestSha256": "a57a9825179c5e5ad8e7bf9dc05b3ad2c052a55cce9735156ff51e652d783d4d",
+        "entries": [
+          {
+            "route": "/[locale]/page",
+            "css": [
+              {
+                "entry": "<ROOT>/src/",
+                "files": []
+              },
+              {
+                "entry": "<ROOT>/src/app/(entry)/layout",
+                "files": [
+                  {
+                    "path": "static/css/62b6680ce98576a2.css",
+                    "inlined": true,
+                    "sha256": "c428dd162ca22cd13dce0faf5f9b974393c3da78100eec66c652a75b24356027"
+                  },
+                  {
+                    "path": "static/css/a8aa5802b60669e4.css",
+                    "inlined": true,
+                    "sha256": "aa5e8c5b014ce5e3e3328c487a8927165c874ab2976f13cf810ae08783ba8103"
+                  },
+                  {
+                    "path": "static/css/84397fae94acf730.css",
+                    "inlined": true,
+                    "sha256": "d71b0811024786bb7d47977e03d963819f3721f668060e140f89ec255cd5da06"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/(entry)/page",
+                "files": []
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/[...slug]/page",
+                "files": [
+                  {
+                    "path": "static/css/80fccfd76ea5bd0a.css",
+                    "inlined": true,
+                    "sha256": "041aa638ca8c487fe318484e3dd2143726f8adf5169944d55757dad5471e612a"
+                  },
+                  {
+                    "path": "static/css/dc926db41d8d4e30.css",
+                    "inlined": true,
+                    "sha256": "b0534a26b601d0381f66f46508a4e5346283e969fbb29f6fb827bd559ec5ff01"
+                  },
+                  {
+                    "path": "static/css/d9d3081018677c38.css",
+                    "inlined": true,
+                    "sha256": "e04418c4263d3153a4d15affef2c1f38274ac4b040c6fb60a17d9893646502e0"
+                  },
+                  {
+                    "path": "static/css/30d2f432db07eb89.css",
+                    "inlined": true,
+                    "sha256": "1d1d75f416078f24d183515028248608681da89984be6032d104bde29150ceed"
+                  },
+                  {
+                    "path": "static/css/7b815423c151045d.css",
+                    "inlined": true,
+                    "sha256": "79212a187331cdd2d59e6a751981bde0313046e8d1537c97e0125aaf70e894c7"
+                  },
+                  {
+                    "path": "static/css/8affe021b5daf999.css",
+                    "inlined": true,
+                    "sha256": "1f6aa56ba5183036c88734a2ac9b482d8120cf23558d4416b7160c70fc756869"
+                  },
+                  {
+                    "path": "static/css/282d655c37951540.css",
+                    "inlined": true,
+                    "sha256": "e79ec3e3842d4daac1db5b16f676fe0d60c6bd25a3578e8c00ccf7f95fb4d464"
+                  },
+                  {
+                    "path": "static/css/c2c8f7ce724c4cd0.css",
+                    "inlined": true,
+                    "sha256": "e0b4b7375795e4abe46485ed3e814c16770e6b59fb53b1564dfa4a51429ef0d7"
+                  },
+                  {
+                    "path": "static/css/cb2667306902ea7f.css",
+                    "inlined": true,
+                    "sha256": "aef360c331038134137148aabda92deab23f5042f2e2ec5e595af2c16507444e"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/layout",
+                "files": [
+                  {
+                    "path": "static/css/62b6680ce98576a2.css",
+                    "inlined": true,
+                    "sha256": "c428dd162ca22cd13dce0faf5f9b974393c3da78100eec66c652a75b24356027"
+                  },
+                  {
+                    "path": "static/css/a8aa5802b60669e4.css",
+                    "inlined": true,
+                    "sha256": "aa5e8c5b014ce5e3e3328c487a8927165c874ab2976f13cf810ae08783ba8103"
+                  },
+                  {
+                    "path": "static/css/868cca9060d35dea.css",
+                    "inlined": true,
+                    "sha256": "96aa92edde1fb9a08f508a19c9d3a5bd640c506febfef7dfab24639d5e878948"
+                  },
+                  {
+                    "path": "static/css/84397fae94acf730.css",
+                    "inlined": true,
+                    "sha256": "d71b0811024786bb7d47977e03d963819f3721f668060e140f89ec255cd5da06"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/not-found",
+                "files": []
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/page",
+                "files": [
+                  {
+                    "path": "static/css/80fccfd76ea5bd0a.css",
+                    "inlined": true,
+                    "sha256": "041aa638ca8c487fe318484e3dd2143726f8adf5169944d55757dad5471e612a"
+                  },
+                  {
+                    "path": "static/css/dc926db41d8d4e30.css",
+                    "inlined": true,
+                    "sha256": "b0534a26b601d0381f66f46508a4e5346283e969fbb29f6fb827bd559ec5ff01"
+                  },
+                  {
+                    "path": "static/css/c2c8f7ce724c4cd0.css",
+                    "inlined": true,
+                    "sha256": "e0b4b7375795e4abe46485ed3e814c16770e6b59fb53b1564dfa4a51429ef0d7"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/global-not-found",
+                "files": [
+                  {
+                    "path": "static/css/62b6680ce98576a2.css",
+                    "inlined": true,
+                    "sha256": "c428dd162ca22cd13dce0faf5f9b974393c3da78100eec66c652a75b24356027"
+                  },
+                  {
+                    "path": "static/css/a8aa5802b60669e4.css",
+                    "inlined": true,
+                    "sha256": "aa5e8c5b014ce5e3e3328c487a8927165c874ab2976f13cf810ae08783ba8103"
+                  },
+                  {
+                    "path": "static/css/868cca9060d35dea.css",
+                    "inlined": true,
+                    "sha256": "96aa92edde1fb9a08f508a19c9d3a5bd640c506febfef7dfab24639d5e878948"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "relative": "[locale]/about/page_client-reference-manifest.js",
+        "manifestSha256": "c7eac3190d843534c518a78b1f6a7ff91514fd8e2bff5571b7ac38211f23bc8a",
+        "entries": [
+          {
+            "route": "/[locale]/about/page",
+            "css": [
+              {
+                "entry": "<ROOT>/src/",
+                "files": []
+              },
+              {
+                "entry": "<ROOT>/src/app/(entry)/layout",
+                "files": [
+                  {
+                    "path": "static/css/62b6680ce98576a2.css",
+                    "inlined": true,
+                    "sha256": "c428dd162ca22cd13dce0faf5f9b974393c3da78100eec66c652a75b24356027"
+                  },
+                  {
+                    "path": "static/css/a8aa5802b60669e4.css",
+                    "inlined": true,
+                    "sha256": "aa5e8c5b014ce5e3e3328c487a8927165c874ab2976f13cf810ae08783ba8103"
+                  },
+                  {
+                    "path": "static/css/84397fae94acf730.css",
+                    "inlined": true,
+                    "sha256": "d71b0811024786bb7d47977e03d963819f3721f668060e140f89ec255cd5da06"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/(entry)/page",
+                "files": []
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/[...slug]/page",
+                "files": [
+                  {
+                    "path": "static/css/80fccfd76ea5bd0a.css",
+                    "inlined": true,
+                    "sha256": "041aa638ca8c487fe318484e3dd2143726f8adf5169944d55757dad5471e612a"
+                  },
+                  {
+                    "path": "static/css/dc926db41d8d4e30.css",
+                    "inlined": true,
+                    "sha256": "b0534a26b601d0381f66f46508a4e5346283e969fbb29f6fb827bd559ec5ff01"
+                  },
+                  {
+                    "path": "static/css/d9d3081018677c38.css",
+                    "inlined": true,
+                    "sha256": "e04418c4263d3153a4d15affef2c1f38274ac4b040c6fb60a17d9893646502e0"
+                  },
+                  {
+                    "path": "static/css/30d2f432db07eb89.css",
+                    "inlined": true,
+                    "sha256": "1d1d75f416078f24d183515028248608681da89984be6032d104bde29150ceed"
+                  },
+                  {
+                    "path": "static/css/7b815423c151045d.css",
+                    "inlined": true,
+                    "sha256": "79212a187331cdd2d59e6a751981bde0313046e8d1537c97e0125aaf70e894c7"
+                  },
+                  {
+                    "path": "static/css/8affe021b5daf999.css",
+                    "inlined": true,
+                    "sha256": "1f6aa56ba5183036c88734a2ac9b482d8120cf23558d4416b7160c70fc756869"
+                  },
+                  {
+                    "path": "static/css/282d655c37951540.css",
+                    "inlined": true,
+                    "sha256": "e79ec3e3842d4daac1db5b16f676fe0d60c6bd25a3578e8c00ccf7f95fb4d464"
+                  },
+                  {
+                    "path": "static/css/c2c8f7ce724c4cd0.css",
+                    "inlined": true,
+                    "sha256": "e0b4b7375795e4abe46485ed3e814c16770e6b59fb53b1564dfa4a51429ef0d7"
+                  },
+                  {
+                    "path": "static/css/cb2667306902ea7f.css",
+                    "inlined": true,
+                    "sha256": "aef360c331038134137148aabda92deab23f5042f2e2ec5e595af2c16507444e"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/about/page",
+                "files": [
+                  {
+                    "path": "static/css/80fccfd76ea5bd0a.css",
+                    "inlined": true,
+                    "sha256": "041aa638ca8c487fe318484e3dd2143726f8adf5169944d55757dad5471e612a"
+                  },
+                  {
+                    "path": "static/css/dc926db41d8d4e30.css",
+                    "inlined": true,
+                    "sha256": "b0534a26b601d0381f66f46508a4e5346283e969fbb29f6fb827bd559ec5ff01"
+                  },
+                  {
+                    "path": "static/css/d9d3081018677c38.css",
+                    "inlined": true,
+                    "sha256": "e04418c4263d3153a4d15affef2c1f38274ac4b040c6fb60a17d9893646502e0"
+                  },
+                  {
+                    "path": "static/css/30d2f432db07eb89.css",
+                    "inlined": true,
+                    "sha256": "1d1d75f416078f24d183515028248608681da89984be6032d104bde29150ceed"
+                  },
+                  {
+                    "path": "static/css/7b815423c151045d.css",
+                    "inlined": true,
+                    "sha256": "79212a187331cdd2d59e6a751981bde0313046e8d1537c97e0125aaf70e894c7"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/layout",
+                "files": [
+                  {
+                    "path": "static/css/62b6680ce98576a2.css",
+                    "inlined": true,
+                    "sha256": "c428dd162ca22cd13dce0faf5f9b974393c3da78100eec66c652a75b24356027"
+                  },
+                  {
+                    "path": "static/css/a8aa5802b60669e4.css",
+                    "inlined": true,
+                    "sha256": "aa5e8c5b014ce5e3e3328c487a8927165c874ab2976f13cf810ae08783ba8103"
+                  },
+                  {
+                    "path": "static/css/868cca9060d35dea.css",
+                    "inlined": true,
+                    "sha256": "96aa92edde1fb9a08f508a19c9d3a5bd640c506febfef7dfab24639d5e878948"
+                  },
+                  {
+                    "path": "static/css/84397fae94acf730.css",
+                    "inlined": true,
+                    "sha256": "d71b0811024786bb7d47977e03d963819f3721f668060e140f89ec255cd5da06"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/not-found",
+                "files": []
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/page",
+                "files": [
+                  {
+                    "path": "static/css/80fccfd76ea5bd0a.css",
+                    "inlined": true,
+                    "sha256": "041aa638ca8c487fe318484e3dd2143726f8adf5169944d55757dad5471e612a"
+                  },
+                  {
+                    "path": "static/css/dc926db41d8d4e30.css",
+                    "inlined": true,
+                    "sha256": "b0534a26b601d0381f66f46508a4e5346283e969fbb29f6fb827bd559ec5ff01"
+                  },
+                  {
+                    "path": "static/css/c2c8f7ce724c4cd0.css",
+                    "inlined": true,
+                    "sha256": "e0b4b7375795e4abe46485ed3e814c16770e6b59fb53b1564dfa4a51429ef0d7"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/global-not-found",
+                "files": [
+                  {
+                    "path": "static/css/62b6680ce98576a2.css",
+                    "inlined": true,
+                    "sha256": "c428dd162ca22cd13dce0faf5f9b974393c3da78100eec66c652a75b24356027"
+                  },
+                  {
+                    "path": "static/css/a8aa5802b60669e4.css",
+                    "inlined": true,
+                    "sha256": "aa5e8c5b014ce5e3e3328c487a8927165c874ab2976f13cf810ae08783ba8103"
+                  },
+                  {
+                    "path": "static/css/868cca9060d35dea.css",
+                    "inlined": true,
+                    "sha256": "96aa92edde1fb9a08f508a19c9d3a5bd640c506febfef7dfab24639d5e878948"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "relative": "[locale]/admin/page_client-reference-manifest.js",
+        "manifestSha256": "6c5becc70e6c68e755bb45af60f8bc1979fd0572120aff7e6c105db1a64286cb",
+        "entries": [
+          {
+            "route": "/[locale]/admin/page",
+            "css": [
+              {
+                "entry": "<ROOT>/src/",
+                "files": []
+              },
+              {
+                "entry": "<ROOT>/src/app/(entry)/layout",
+                "files": [
+                  {
+                    "path": "static/css/62b6680ce98576a2.css",
+                    "inlined": true,
+                    "sha256": "c428dd162ca22cd13dce0faf5f9b974393c3da78100eec66c652a75b24356027"
+                  },
+                  {
+                    "path": "static/css/a8aa5802b60669e4.css",
+                    "inlined": true,
+                    "sha256": "aa5e8c5b014ce5e3e3328c487a8927165c874ab2976f13cf810ae08783ba8103"
+                  },
+                  {
+                    "path": "static/css/84397fae94acf730.css",
+                    "inlined": true,
+                    "sha256": "d71b0811024786bb7d47977e03d963819f3721f668060e140f89ec255cd5da06"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/(entry)/page",
+                "files": []
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/[...slug]/page",
+                "files": [
+                  {
+                    "path": "static/css/80fccfd76ea5bd0a.css",
+                    "inlined": true,
+                    "sha256": "041aa638ca8c487fe318484e3dd2143726f8adf5169944d55757dad5471e612a"
+                  },
+                  {
+                    "path": "static/css/dc926db41d8d4e30.css",
+                    "inlined": true,
+                    "sha256": "b0534a26b601d0381f66f46508a4e5346283e969fbb29f6fb827bd559ec5ff01"
+                  },
+                  {
+                    "path": "static/css/d9d3081018677c38.css",
+                    "inlined": true,
+                    "sha256": "e04418c4263d3153a4d15affef2c1f38274ac4b040c6fb60a17d9893646502e0"
+                  },
+                  {
+                    "path": "static/css/30d2f432db07eb89.css",
+                    "inlined": true,
+                    "sha256": "1d1d75f416078f24d183515028248608681da89984be6032d104bde29150ceed"
+                  },
+                  {
+                    "path": "static/css/7b815423c151045d.css",
+                    "inlined": true,
+                    "sha256": "79212a187331cdd2d59e6a751981bde0313046e8d1537c97e0125aaf70e894c7"
+                  },
+                  {
+                    "path": "static/css/8affe021b5daf999.css",
+                    "inlined": true,
+                    "sha256": "1f6aa56ba5183036c88734a2ac9b482d8120cf23558d4416b7160c70fc756869"
+                  },
+                  {
+                    "path": "static/css/282d655c37951540.css",
+                    "inlined": true,
+                    "sha256": "e79ec3e3842d4daac1db5b16f676fe0d60c6bd25a3578e8c00ccf7f95fb4d464"
+                  },
+                  {
+                    "path": "static/css/c2c8f7ce724c4cd0.css",
+                    "inlined": true,
+                    "sha256": "e0b4b7375795e4abe46485ed3e814c16770e6b59fb53b1564dfa4a51429ef0d7"
+                  },
+                  {
+                    "path": "static/css/cb2667306902ea7f.css",
+                    "inlined": true,
+                    "sha256": "aef360c331038134137148aabda92deab23f5042f2e2ec5e595af2c16507444e"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/admin/[...slug]/page",
+                "files": [
+                  {
+                    "path": "static/css/80fccfd76ea5bd0a.css",
+                    "inlined": true,
+                    "sha256": "041aa638ca8c487fe318484e3dd2143726f8adf5169944d55757dad5471e612a"
+                  },
+                  {
+                    "path": "static/css/dc926db41d8d4e30.css",
+                    "inlined": true,
+                    "sha256": "b0534a26b601d0381f66f46508a4e5346283e969fbb29f6fb827bd559ec5ff01"
+                  },
+                  {
+                    "path": "static/css/2c994303d28622e9.css",
+                    "inlined": true,
+                    "sha256": "fa8476c5e8eb8f5be39732f214e7187cee7ce16d1636679462a3784c0d50af91"
+                  },
+                  {
+                    "path": "static/css/38361df4e86fc522.css",
+                    "inlined": true,
+                    "sha256": "a2775f9cad400b4a6cc5889449cf3645e362dfabcb2ba5a13010fdf895034e57"
+                  },
+                  {
+                    "path": "static/css/cfd2996242920124.css",
+                    "inlined": true,
+                    "sha256": "8ee40f7c8985d0b655e75800ad1771f7337a1fc3b761cced6f69bbeefba46a4b"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/admin/page",
+                "files": [
+                  {
+                    "path": "static/css/80fccfd76ea5bd0a.css",
+                    "inlined": true,
+                    "sha256": "041aa638ca8c487fe318484e3dd2143726f8adf5169944d55757dad5471e612a"
+                  },
+                  {
+                    "path": "static/css/dc926db41d8d4e30.css",
+                    "inlined": true,
+                    "sha256": "b0534a26b601d0381f66f46508a4e5346283e969fbb29f6fb827bd559ec5ff01"
+                  },
+                  {
+                    "path": "static/css/2c994303d28622e9.css",
+                    "inlined": true,
+                    "sha256": "fa8476c5e8eb8f5be39732f214e7187cee7ce16d1636679462a3784c0d50af91"
+                  },
+                  {
+                    "path": "static/css/38361df4e86fc522.css",
+                    "inlined": true,
+                    "sha256": "a2775f9cad400b4a6cc5889449cf3645e362dfabcb2ba5a13010fdf895034e57"
+                  },
+                  {
+                    "path": "static/css/cfd2996242920124.css",
+                    "inlined": true,
+                    "sha256": "8ee40f7c8985d0b655e75800ad1771f7337a1fc3b761cced6f69bbeefba46a4b"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/layout",
+                "files": [
+                  {
+                    "path": "static/css/62b6680ce98576a2.css",
+                    "inlined": true,
+                    "sha256": "c428dd162ca22cd13dce0faf5f9b974393c3da78100eec66c652a75b24356027"
+                  },
+                  {
+                    "path": "static/css/a8aa5802b60669e4.css",
+                    "inlined": true,
+                    "sha256": "aa5e8c5b014ce5e3e3328c487a8927165c874ab2976f13cf810ae08783ba8103"
+                  },
+                  {
+                    "path": "static/css/868cca9060d35dea.css",
+                    "inlined": true,
+                    "sha256": "96aa92edde1fb9a08f508a19c9d3a5bd640c506febfef7dfab24639d5e878948"
+                  },
+                  {
+                    "path": "static/css/84397fae94acf730.css",
+                    "inlined": true,
+                    "sha256": "d71b0811024786bb7d47977e03d963819f3721f668060e140f89ec255cd5da06"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/not-found",
+                "files": []
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/page",
+                "files": [
+                  {
+                    "path": "static/css/80fccfd76ea5bd0a.css",
+                    "inlined": true,
+                    "sha256": "041aa638ca8c487fe318484e3dd2143726f8adf5169944d55757dad5471e612a"
+                  },
+                  {
+                    "path": "static/css/dc926db41d8d4e30.css",
+                    "inlined": true,
+                    "sha256": "b0534a26b601d0381f66f46508a4e5346283e969fbb29f6fb827bd559ec5ff01"
+                  },
+                  {
+                    "path": "static/css/c2c8f7ce724c4cd0.css",
+                    "inlined": true,
+                    "sha256": "e0b4b7375795e4abe46485ed3e814c16770e6b59fb53b1564dfa4a51429ef0d7"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/global-not-found",
+                "files": [
+                  {
+                    "path": "static/css/62b6680ce98576a2.css",
+                    "inlined": true,
+                    "sha256": "c428dd162ca22cd13dce0faf5f9b974393c3da78100eec66c652a75b24356027"
+                  },
+                  {
+                    "path": "static/css/a8aa5802b60669e4.css",
+                    "inlined": true,
+                    "sha256": "aa5e8c5b014ce5e3e3328c487a8927165c874ab2976f13cf810ae08783ba8103"
+                  },
+                  {
+                    "path": "static/css/868cca9060d35dea.css",
+                    "inlined": true,
+                    "sha256": "96aa92edde1fb9a08f508a19c9d3a5bd640c506febfef7dfab24639d5e878948"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "relative": "[locale]/admin/[...slug]/page_client-reference-manifest.js",
+        "manifestSha256": "863b1d304467e142d21586f29081382180329a8ed5794966cbe32efb9691b3c5",
+        "entries": [
+          {
+            "route": "/[locale]/admin/[...slug]/page",
+            "css": [
+              {
+                "entry": "<ROOT>/src/",
+                "files": []
+              },
+              {
+                "entry": "<ROOT>/src/app/(entry)/layout",
+                "files": [
+                  {
+                    "path": "static/css/62b6680ce98576a2.css",
+                    "inlined": true,
+                    "sha256": "c428dd162ca22cd13dce0faf5f9b974393c3da78100eec66c652a75b24356027"
+                  },
+                  {
+                    "path": "static/css/a8aa5802b60669e4.css",
+                    "inlined": true,
+                    "sha256": "aa5e8c5b014ce5e3e3328c487a8927165c874ab2976f13cf810ae08783ba8103"
+                  },
+                  {
+                    "path": "static/css/84397fae94acf730.css",
+                    "inlined": true,
+                    "sha256": "d71b0811024786bb7d47977e03d963819f3721f668060e140f89ec255cd5da06"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/(entry)/page",
+                "files": []
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/[...slug]/page",
+                "files": [
+                  {
+                    "path": "static/css/80fccfd76ea5bd0a.css",
+                    "inlined": true,
+                    "sha256": "041aa638ca8c487fe318484e3dd2143726f8adf5169944d55757dad5471e612a"
+                  },
+                  {
+                    "path": "static/css/dc926db41d8d4e30.css",
+                    "inlined": true,
+                    "sha256": "b0534a26b601d0381f66f46508a4e5346283e969fbb29f6fb827bd559ec5ff01"
+                  },
+                  {
+                    "path": "static/css/d9d3081018677c38.css",
+                    "inlined": true,
+                    "sha256": "e04418c4263d3153a4d15affef2c1f38274ac4b040c6fb60a17d9893646502e0"
+                  },
+                  {
+                    "path": "static/css/30d2f432db07eb89.css",
+                    "inlined": true,
+                    "sha256": "1d1d75f416078f24d183515028248608681da89984be6032d104bde29150ceed"
+                  },
+                  {
+                    "path": "static/css/7b815423c151045d.css",
+                    "inlined": true,
+                    "sha256": "79212a187331cdd2d59e6a751981bde0313046e8d1537c97e0125aaf70e894c7"
+                  },
+                  {
+                    "path": "static/css/8affe021b5daf999.css",
+                    "inlined": true,
+                    "sha256": "1f6aa56ba5183036c88734a2ac9b482d8120cf23558d4416b7160c70fc756869"
+                  },
+                  {
+                    "path": "static/css/282d655c37951540.css",
+                    "inlined": true,
+                    "sha256": "e79ec3e3842d4daac1db5b16f676fe0d60c6bd25a3578e8c00ccf7f95fb4d464"
+                  },
+                  {
+                    "path": "static/css/c2c8f7ce724c4cd0.css",
+                    "inlined": true,
+                    "sha256": "e0b4b7375795e4abe46485ed3e814c16770e6b59fb53b1564dfa4a51429ef0d7"
+                  },
+                  {
+                    "path": "static/css/cb2667306902ea7f.css",
+                    "inlined": true,
+                    "sha256": "aef360c331038134137148aabda92deab23f5042f2e2ec5e595af2c16507444e"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/admin/[...slug]/page",
+                "files": [
+                  {
+                    "path": "static/css/80fccfd76ea5bd0a.css",
+                    "inlined": true,
+                    "sha256": "041aa638ca8c487fe318484e3dd2143726f8adf5169944d55757dad5471e612a"
+                  },
+                  {
+                    "path": "static/css/dc926db41d8d4e30.css",
+                    "inlined": true,
+                    "sha256": "b0534a26b601d0381f66f46508a4e5346283e969fbb29f6fb827bd559ec5ff01"
+                  },
+                  {
+                    "path": "static/css/2c994303d28622e9.css",
+                    "inlined": true,
+                    "sha256": "fa8476c5e8eb8f5be39732f214e7187cee7ce16d1636679462a3784c0d50af91"
+                  },
+                  {
+                    "path": "static/css/38361df4e86fc522.css",
+                    "inlined": true,
+                    "sha256": "a2775f9cad400b4a6cc5889449cf3645e362dfabcb2ba5a13010fdf895034e57"
+                  },
+                  {
+                    "path": "static/css/cfd2996242920124.css",
+                    "inlined": true,
+                    "sha256": "8ee40f7c8985d0b655e75800ad1771f7337a1fc3b761cced6f69bbeefba46a4b"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/admin/page",
+                "files": [
+                  {
+                    "path": "static/css/80fccfd76ea5bd0a.css",
+                    "inlined": true,
+                    "sha256": "041aa638ca8c487fe318484e3dd2143726f8adf5169944d55757dad5471e612a"
+                  },
+                  {
+                    "path": "static/css/dc926db41d8d4e30.css",
+                    "inlined": true,
+                    "sha256": "b0534a26b601d0381f66f46508a4e5346283e969fbb29f6fb827bd559ec5ff01"
+                  },
+                  {
+                    "path": "static/css/2c994303d28622e9.css",
+                    "inlined": true,
+                    "sha256": "fa8476c5e8eb8f5be39732f214e7187cee7ce16d1636679462a3784c0d50af91"
+                  },
+                  {
+                    "path": "static/css/38361df4e86fc522.css",
+                    "inlined": true,
+                    "sha256": "a2775f9cad400b4a6cc5889449cf3645e362dfabcb2ba5a13010fdf895034e57"
+                  },
+                  {
+                    "path": "static/css/cfd2996242920124.css",
+                    "inlined": true,
+                    "sha256": "8ee40f7c8985d0b655e75800ad1771f7337a1fc3b761cced6f69bbeefba46a4b"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/layout",
+                "files": [
+                  {
+                    "path": "static/css/62b6680ce98576a2.css",
+                    "inlined": true,
+                    "sha256": "c428dd162ca22cd13dce0faf5f9b974393c3da78100eec66c652a75b24356027"
+                  },
+                  {
+                    "path": "static/css/a8aa5802b60669e4.css",
+                    "inlined": true,
+                    "sha256": "aa5e8c5b014ce5e3e3328c487a8927165c874ab2976f13cf810ae08783ba8103"
+                  },
+                  {
+                    "path": "static/css/868cca9060d35dea.css",
+                    "inlined": true,
+                    "sha256": "96aa92edde1fb9a08f508a19c9d3a5bd640c506febfef7dfab24639d5e878948"
+                  },
+                  {
+                    "path": "static/css/84397fae94acf730.css",
+                    "inlined": true,
+                    "sha256": "d71b0811024786bb7d47977e03d963819f3721f668060e140f89ec255cd5da06"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/not-found",
+                "files": []
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/page",
+                "files": [
+                  {
+                    "path": "static/css/80fccfd76ea5bd0a.css",
+                    "inlined": true,
+                    "sha256": "041aa638ca8c487fe318484e3dd2143726f8adf5169944d55757dad5471e612a"
+                  },
+                  {
+                    "path": "static/css/dc926db41d8d4e30.css",
+                    "inlined": true,
+                    "sha256": "b0534a26b601d0381f66f46508a4e5346283e969fbb29f6fb827bd559ec5ff01"
+                  },
+                  {
+                    "path": "static/css/c2c8f7ce724c4cd0.css",
+                    "inlined": true,
+                    "sha256": "e0b4b7375795e4abe46485ed3e814c16770e6b59fb53b1564dfa4a51429ef0d7"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/global-not-found",
+                "files": [
+                  {
+                    "path": "static/css/62b6680ce98576a2.css",
+                    "inlined": true,
+                    "sha256": "c428dd162ca22cd13dce0faf5f9b974393c3da78100eec66c652a75b24356027"
+                  },
+                  {
+                    "path": "static/css/a8aa5802b60669e4.css",
+                    "inlined": true,
+                    "sha256": "aa5e8c5b014ce5e3e3328c487a8927165c874ab2976f13cf810ae08783ba8103"
+                  },
+                  {
+                    "path": "static/css/868cca9060d35dea.css",
+                    "inlined": true,
+                    "sha256": "96aa92edde1fb9a08f508a19c9d3a5bd640c506febfef7dfab24639d5e878948"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "B": [
+      {
+        "relative": "[locale]/page_client-reference-manifest.js",
+        "manifestSha256": "c6b1b016b4337b9597be14fef5338b903049a00850b3a7f52be246993fb32b53",
+        "entries": [
+          {
+            "route": "/[locale]/page",
+            "css": [
+              {
+                "entry": "<ROOT>/src/",
+                "files": []
+              },
+              {
+                "entry": "<ROOT>/src/app/(entry)/layout",
+                "files": [
+                  {
+                    "path": "static/css/62b6680ce98576a2.css",
+                    "inlined": false,
+                    "sha256": "c428dd162ca22cd13dce0faf5f9b974393c3da78100eec66c652a75b24356027"
+                  },
+                  {
+                    "path": "static/css/a8aa5802b60669e4.css",
+                    "inlined": false,
+                    "sha256": "aa5e8c5b014ce5e3e3328c487a8927165c874ab2976f13cf810ae08783ba8103"
+                  },
+                  {
+                    "path": "static/css/84397fae94acf730.css",
+                    "inlined": false,
+                    "sha256": "d71b0811024786bb7d47977e03d963819f3721f668060e140f89ec255cd5da06"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/(entry)/page",
+                "files": []
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/[...slug]/page",
+                "files": [
+                  {
+                    "path": "static/css/80fccfd76ea5bd0a.css",
+                    "inlined": false,
+                    "sha256": "041aa638ca8c487fe318484e3dd2143726f8adf5169944d55757dad5471e612a"
+                  },
+                  {
+                    "path": "static/css/dc926db41d8d4e30.css",
+                    "inlined": false,
+                    "sha256": "b0534a26b601d0381f66f46508a4e5346283e969fbb29f6fb827bd559ec5ff01"
+                  },
+                  {
+                    "path": "static/css/d9d3081018677c38.css",
+                    "inlined": false,
+                    "sha256": "e04418c4263d3153a4d15affef2c1f38274ac4b040c6fb60a17d9893646502e0"
+                  },
+                  {
+                    "path": "static/css/30d2f432db07eb89.css",
+                    "inlined": false,
+                    "sha256": "1d1d75f416078f24d183515028248608681da89984be6032d104bde29150ceed"
+                  },
+                  {
+                    "path": "static/css/7b815423c151045d.css",
+                    "inlined": false,
+                    "sha256": "79212a187331cdd2d59e6a751981bde0313046e8d1537c97e0125aaf70e894c7"
+                  },
+                  {
+                    "path": "static/css/8affe021b5daf999.css",
+                    "inlined": false,
+                    "sha256": "1f6aa56ba5183036c88734a2ac9b482d8120cf23558d4416b7160c70fc756869"
+                  },
+                  {
+                    "path": "static/css/282d655c37951540.css",
+                    "inlined": false,
+                    "sha256": "e79ec3e3842d4daac1db5b16f676fe0d60c6bd25a3578e8c00ccf7f95fb4d464"
+                  },
+                  {
+                    "path": "static/css/c2c8f7ce724c4cd0.css",
+                    "inlined": false,
+                    "sha256": "e0b4b7375795e4abe46485ed3e814c16770e6b59fb53b1564dfa4a51429ef0d7"
+                  },
+                  {
+                    "path": "static/css/cb2667306902ea7f.css",
+                    "inlined": false,
+                    "sha256": "aef360c331038134137148aabda92deab23f5042f2e2ec5e595af2c16507444e"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/layout",
+                "files": [
+                  {
+                    "path": "static/css/62b6680ce98576a2.css",
+                    "inlined": false,
+                    "sha256": "c428dd162ca22cd13dce0faf5f9b974393c3da78100eec66c652a75b24356027"
+                  },
+                  {
+                    "path": "static/css/a8aa5802b60669e4.css",
+                    "inlined": false,
+                    "sha256": "aa5e8c5b014ce5e3e3328c487a8927165c874ab2976f13cf810ae08783ba8103"
+                  },
+                  {
+                    "path": "static/css/868cca9060d35dea.css",
+                    "inlined": false,
+                    "sha256": "96aa92edde1fb9a08f508a19c9d3a5bd640c506febfef7dfab24639d5e878948"
+                  },
+                  {
+                    "path": "static/css/84397fae94acf730.css",
+                    "inlined": false,
+                    "sha256": "d71b0811024786bb7d47977e03d963819f3721f668060e140f89ec255cd5da06"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/not-found",
+                "files": []
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/page",
+                "files": [
+                  {
+                    "path": "static/css/80fccfd76ea5bd0a.css",
+                    "inlined": false,
+                    "sha256": "041aa638ca8c487fe318484e3dd2143726f8adf5169944d55757dad5471e612a"
+                  },
+                  {
+                    "path": "static/css/dc926db41d8d4e30.css",
+                    "inlined": false,
+                    "sha256": "b0534a26b601d0381f66f46508a4e5346283e969fbb29f6fb827bd559ec5ff01"
+                  },
+                  {
+                    "path": "static/css/c2c8f7ce724c4cd0.css",
+                    "inlined": false,
+                    "sha256": "e0b4b7375795e4abe46485ed3e814c16770e6b59fb53b1564dfa4a51429ef0d7"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/global-not-found",
+                "files": [
+                  {
+                    "path": "static/css/62b6680ce98576a2.css",
+                    "inlined": false,
+                    "sha256": "c428dd162ca22cd13dce0faf5f9b974393c3da78100eec66c652a75b24356027"
+                  },
+                  {
+                    "path": "static/css/a8aa5802b60669e4.css",
+                    "inlined": false,
+                    "sha256": "aa5e8c5b014ce5e3e3328c487a8927165c874ab2976f13cf810ae08783ba8103"
+                  },
+                  {
+                    "path": "static/css/868cca9060d35dea.css",
+                    "inlined": false,
+                    "sha256": "96aa92edde1fb9a08f508a19c9d3a5bd640c506febfef7dfab24639d5e878948"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "relative": "[locale]/about/page_client-reference-manifest.js",
+        "manifestSha256": "af8e493abf91c2d11438d10097ef2cd9132f822eb2e2b4214b3fd5700799c53e",
+        "entries": [
+          {
+            "route": "/[locale]/about/page",
+            "css": [
+              {
+                "entry": "<ROOT>/src/",
+                "files": []
+              },
+              {
+                "entry": "<ROOT>/src/app/(entry)/layout",
+                "files": [
+                  {
+                    "path": "static/css/62b6680ce98576a2.css",
+                    "inlined": false,
+                    "sha256": "c428dd162ca22cd13dce0faf5f9b974393c3da78100eec66c652a75b24356027"
+                  },
+                  {
+                    "path": "static/css/a8aa5802b60669e4.css",
+                    "inlined": false,
+                    "sha256": "aa5e8c5b014ce5e3e3328c487a8927165c874ab2976f13cf810ae08783ba8103"
+                  },
+                  {
+                    "path": "static/css/84397fae94acf730.css",
+                    "inlined": false,
+                    "sha256": "d71b0811024786bb7d47977e03d963819f3721f668060e140f89ec255cd5da06"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/(entry)/page",
+                "files": []
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/[...slug]/page",
+                "files": [
+                  {
+                    "path": "static/css/80fccfd76ea5bd0a.css",
+                    "inlined": false,
+                    "sha256": "041aa638ca8c487fe318484e3dd2143726f8adf5169944d55757dad5471e612a"
+                  },
+                  {
+                    "path": "static/css/dc926db41d8d4e30.css",
+                    "inlined": false,
+                    "sha256": "b0534a26b601d0381f66f46508a4e5346283e969fbb29f6fb827bd559ec5ff01"
+                  },
+                  {
+                    "path": "static/css/d9d3081018677c38.css",
+                    "inlined": false,
+                    "sha256": "e04418c4263d3153a4d15affef2c1f38274ac4b040c6fb60a17d9893646502e0"
+                  },
+                  {
+                    "path": "static/css/30d2f432db07eb89.css",
+                    "inlined": false,
+                    "sha256": "1d1d75f416078f24d183515028248608681da89984be6032d104bde29150ceed"
+                  },
+                  {
+                    "path": "static/css/7b815423c151045d.css",
+                    "inlined": false,
+                    "sha256": "79212a187331cdd2d59e6a751981bde0313046e8d1537c97e0125aaf70e894c7"
+                  },
+                  {
+                    "path": "static/css/8affe021b5daf999.css",
+                    "inlined": false,
+                    "sha256": "1f6aa56ba5183036c88734a2ac9b482d8120cf23558d4416b7160c70fc756869"
+                  },
+                  {
+                    "path": "static/css/282d655c37951540.css",
+                    "inlined": false,
+                    "sha256": "e79ec3e3842d4daac1db5b16f676fe0d60c6bd25a3578e8c00ccf7f95fb4d464"
+                  },
+                  {
+                    "path": "static/css/c2c8f7ce724c4cd0.css",
+                    "inlined": false,
+                    "sha256": "e0b4b7375795e4abe46485ed3e814c16770e6b59fb53b1564dfa4a51429ef0d7"
+                  },
+                  {
+                    "path": "static/css/cb2667306902ea7f.css",
+                    "inlined": false,
+                    "sha256": "aef360c331038134137148aabda92deab23f5042f2e2ec5e595af2c16507444e"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/about/page",
+                "files": [
+                  {
+                    "path": "static/css/80fccfd76ea5bd0a.css",
+                    "inlined": false,
+                    "sha256": "041aa638ca8c487fe318484e3dd2143726f8adf5169944d55757dad5471e612a"
+                  },
+                  {
+                    "path": "static/css/dc926db41d8d4e30.css",
+                    "inlined": false,
+                    "sha256": "b0534a26b601d0381f66f46508a4e5346283e969fbb29f6fb827bd559ec5ff01"
+                  },
+                  {
+                    "path": "static/css/d9d3081018677c38.css",
+                    "inlined": false,
+                    "sha256": "e04418c4263d3153a4d15affef2c1f38274ac4b040c6fb60a17d9893646502e0"
+                  },
+                  {
+                    "path": "static/css/30d2f432db07eb89.css",
+                    "inlined": false,
+                    "sha256": "1d1d75f416078f24d183515028248608681da89984be6032d104bde29150ceed"
+                  },
+                  {
+                    "path": "static/css/7b815423c151045d.css",
+                    "inlined": false,
+                    "sha256": "79212a187331cdd2d59e6a751981bde0313046e8d1537c97e0125aaf70e894c7"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/layout",
+                "files": [
+                  {
+                    "path": "static/css/62b6680ce98576a2.css",
+                    "inlined": false,
+                    "sha256": "c428dd162ca22cd13dce0faf5f9b974393c3da78100eec66c652a75b24356027"
+                  },
+                  {
+                    "path": "static/css/a8aa5802b60669e4.css",
+                    "inlined": false,
+                    "sha256": "aa5e8c5b014ce5e3e3328c487a8927165c874ab2976f13cf810ae08783ba8103"
+                  },
+                  {
+                    "path": "static/css/868cca9060d35dea.css",
+                    "inlined": false,
+                    "sha256": "96aa92edde1fb9a08f508a19c9d3a5bd640c506febfef7dfab24639d5e878948"
+                  },
+                  {
+                    "path": "static/css/84397fae94acf730.css",
+                    "inlined": false,
+                    "sha256": "d71b0811024786bb7d47977e03d963819f3721f668060e140f89ec255cd5da06"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/not-found",
+                "files": []
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/page",
+                "files": [
+                  {
+                    "path": "static/css/80fccfd76ea5bd0a.css",
+                    "inlined": false,
+                    "sha256": "041aa638ca8c487fe318484e3dd2143726f8adf5169944d55757dad5471e612a"
+                  },
+                  {
+                    "path": "static/css/dc926db41d8d4e30.css",
+                    "inlined": false,
+                    "sha256": "b0534a26b601d0381f66f46508a4e5346283e969fbb29f6fb827bd559ec5ff01"
+                  },
+                  {
+                    "path": "static/css/c2c8f7ce724c4cd0.css",
+                    "inlined": false,
+                    "sha256": "e0b4b7375795e4abe46485ed3e814c16770e6b59fb53b1564dfa4a51429ef0d7"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/global-not-found",
+                "files": [
+                  {
+                    "path": "static/css/62b6680ce98576a2.css",
+                    "inlined": false,
+                    "sha256": "c428dd162ca22cd13dce0faf5f9b974393c3da78100eec66c652a75b24356027"
+                  },
+                  {
+                    "path": "static/css/a8aa5802b60669e4.css",
+                    "inlined": false,
+                    "sha256": "aa5e8c5b014ce5e3e3328c487a8927165c874ab2976f13cf810ae08783ba8103"
+                  },
+                  {
+                    "path": "static/css/868cca9060d35dea.css",
+                    "inlined": false,
+                    "sha256": "96aa92edde1fb9a08f508a19c9d3a5bd640c506febfef7dfab24639d5e878948"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "relative": "[locale]/admin/page_client-reference-manifest.js",
+        "manifestSha256": "c1d2a94b352c68fe6509a4ba2305faaa677ef09c895b4438a9b5b326683d5865",
+        "entries": [
+          {
+            "route": "/[locale]/admin/page",
+            "css": [
+              {
+                "entry": "<ROOT>/src/",
+                "files": []
+              },
+              {
+                "entry": "<ROOT>/src/app/(entry)/layout",
+                "files": [
+                  {
+                    "path": "static/css/62b6680ce98576a2.css",
+                    "inlined": false,
+                    "sha256": "c428dd162ca22cd13dce0faf5f9b974393c3da78100eec66c652a75b24356027"
+                  },
+                  {
+                    "path": "static/css/a8aa5802b60669e4.css",
+                    "inlined": false,
+                    "sha256": "aa5e8c5b014ce5e3e3328c487a8927165c874ab2976f13cf810ae08783ba8103"
+                  },
+                  {
+                    "path": "static/css/84397fae94acf730.css",
+                    "inlined": false,
+                    "sha256": "d71b0811024786bb7d47977e03d963819f3721f668060e140f89ec255cd5da06"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/(entry)/page",
+                "files": []
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/[...slug]/page",
+                "files": [
+                  {
+                    "path": "static/css/80fccfd76ea5bd0a.css",
+                    "inlined": false,
+                    "sha256": "041aa638ca8c487fe318484e3dd2143726f8adf5169944d55757dad5471e612a"
+                  },
+                  {
+                    "path": "static/css/dc926db41d8d4e30.css",
+                    "inlined": false,
+                    "sha256": "b0534a26b601d0381f66f46508a4e5346283e969fbb29f6fb827bd559ec5ff01"
+                  },
+                  {
+                    "path": "static/css/d9d3081018677c38.css",
+                    "inlined": false,
+                    "sha256": "e04418c4263d3153a4d15affef2c1f38274ac4b040c6fb60a17d9893646502e0"
+                  },
+                  {
+                    "path": "static/css/30d2f432db07eb89.css",
+                    "inlined": false,
+                    "sha256": "1d1d75f416078f24d183515028248608681da89984be6032d104bde29150ceed"
+                  },
+                  {
+                    "path": "static/css/7b815423c151045d.css",
+                    "inlined": false,
+                    "sha256": "79212a187331cdd2d59e6a751981bde0313046e8d1537c97e0125aaf70e894c7"
+                  },
+                  {
+                    "path": "static/css/8affe021b5daf999.css",
+                    "inlined": false,
+                    "sha256": "1f6aa56ba5183036c88734a2ac9b482d8120cf23558d4416b7160c70fc756869"
+                  },
+                  {
+                    "path": "static/css/282d655c37951540.css",
+                    "inlined": false,
+                    "sha256": "e79ec3e3842d4daac1db5b16f676fe0d60c6bd25a3578e8c00ccf7f95fb4d464"
+                  },
+                  {
+                    "path": "static/css/c2c8f7ce724c4cd0.css",
+                    "inlined": false,
+                    "sha256": "e0b4b7375795e4abe46485ed3e814c16770e6b59fb53b1564dfa4a51429ef0d7"
+                  },
+                  {
+                    "path": "static/css/cb2667306902ea7f.css",
+                    "inlined": false,
+                    "sha256": "aef360c331038134137148aabda92deab23f5042f2e2ec5e595af2c16507444e"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/admin/[...slug]/page",
+                "files": [
+                  {
+                    "path": "static/css/80fccfd76ea5bd0a.css",
+                    "inlined": false,
+                    "sha256": "041aa638ca8c487fe318484e3dd2143726f8adf5169944d55757dad5471e612a"
+                  },
+                  {
+                    "path": "static/css/dc926db41d8d4e30.css",
+                    "inlined": false,
+                    "sha256": "b0534a26b601d0381f66f46508a4e5346283e969fbb29f6fb827bd559ec5ff01"
+                  },
+                  {
+                    "path": "static/css/2c994303d28622e9.css",
+                    "inlined": false,
+                    "sha256": "fa8476c5e8eb8f5be39732f214e7187cee7ce16d1636679462a3784c0d50af91"
+                  },
+                  {
+                    "path": "static/css/38361df4e86fc522.css",
+                    "inlined": false,
+                    "sha256": "a2775f9cad400b4a6cc5889449cf3645e362dfabcb2ba5a13010fdf895034e57"
+                  },
+                  {
+                    "path": "static/css/cfd2996242920124.css",
+                    "inlined": false,
+                    "sha256": "8ee40f7c8985d0b655e75800ad1771f7337a1fc3b761cced6f69bbeefba46a4b"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/admin/page",
+                "files": [
+                  {
+                    "path": "static/css/80fccfd76ea5bd0a.css",
+                    "inlined": false,
+                    "sha256": "041aa638ca8c487fe318484e3dd2143726f8adf5169944d55757dad5471e612a"
+                  },
+                  {
+                    "path": "static/css/dc926db41d8d4e30.css",
+                    "inlined": false,
+                    "sha256": "b0534a26b601d0381f66f46508a4e5346283e969fbb29f6fb827bd559ec5ff01"
+                  },
+                  {
+                    "path": "static/css/2c994303d28622e9.css",
+                    "inlined": false,
+                    "sha256": "fa8476c5e8eb8f5be39732f214e7187cee7ce16d1636679462a3784c0d50af91"
+                  },
+                  {
+                    "path": "static/css/38361df4e86fc522.css",
+                    "inlined": false,
+                    "sha256": "a2775f9cad400b4a6cc5889449cf3645e362dfabcb2ba5a13010fdf895034e57"
+                  },
+                  {
+                    "path": "static/css/cfd2996242920124.css",
+                    "inlined": false,
+                    "sha256": "8ee40f7c8985d0b655e75800ad1771f7337a1fc3b761cced6f69bbeefba46a4b"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/layout",
+                "files": [
+                  {
+                    "path": "static/css/62b6680ce98576a2.css",
+                    "inlined": false,
+                    "sha256": "c428dd162ca22cd13dce0faf5f9b974393c3da78100eec66c652a75b24356027"
+                  },
+                  {
+                    "path": "static/css/a8aa5802b60669e4.css",
+                    "inlined": false,
+                    "sha256": "aa5e8c5b014ce5e3e3328c487a8927165c874ab2976f13cf810ae08783ba8103"
+                  },
+                  {
+                    "path": "static/css/868cca9060d35dea.css",
+                    "inlined": false,
+                    "sha256": "96aa92edde1fb9a08f508a19c9d3a5bd640c506febfef7dfab24639d5e878948"
+                  },
+                  {
+                    "path": "static/css/84397fae94acf730.css",
+                    "inlined": false,
+                    "sha256": "d71b0811024786bb7d47977e03d963819f3721f668060e140f89ec255cd5da06"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/not-found",
+                "files": []
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/page",
+                "files": [
+                  {
+                    "path": "static/css/80fccfd76ea5bd0a.css",
+                    "inlined": false,
+                    "sha256": "041aa638ca8c487fe318484e3dd2143726f8adf5169944d55757dad5471e612a"
+                  },
+                  {
+                    "path": "static/css/dc926db41d8d4e30.css",
+                    "inlined": false,
+                    "sha256": "b0534a26b601d0381f66f46508a4e5346283e969fbb29f6fb827bd559ec5ff01"
+                  },
+                  {
+                    "path": "static/css/c2c8f7ce724c4cd0.css",
+                    "inlined": false,
+                    "sha256": "e0b4b7375795e4abe46485ed3e814c16770e6b59fb53b1564dfa4a51429ef0d7"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/global-not-found",
+                "files": [
+                  {
+                    "path": "static/css/62b6680ce98576a2.css",
+                    "inlined": false,
+                    "sha256": "c428dd162ca22cd13dce0faf5f9b974393c3da78100eec66c652a75b24356027"
+                  },
+                  {
+                    "path": "static/css/a8aa5802b60669e4.css",
+                    "inlined": false,
+                    "sha256": "aa5e8c5b014ce5e3e3328c487a8927165c874ab2976f13cf810ae08783ba8103"
+                  },
+                  {
+                    "path": "static/css/868cca9060d35dea.css",
+                    "inlined": false,
+                    "sha256": "96aa92edde1fb9a08f508a19c9d3a5bd640c506febfef7dfab24639d5e878948"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "relative": "[locale]/admin/[...slug]/page_client-reference-manifest.js",
+        "manifestSha256": "52b2dbb081759753464f5764f9dde68691a8f323cf6605d3e3b21f26175676bd",
+        "entries": [
+          {
+            "route": "/[locale]/admin/[...slug]/page",
+            "css": [
+              {
+                "entry": "<ROOT>/src/",
+                "files": []
+              },
+              {
+                "entry": "<ROOT>/src/app/(entry)/layout",
+                "files": [
+                  {
+                    "path": "static/css/62b6680ce98576a2.css",
+                    "inlined": false,
+                    "sha256": "c428dd162ca22cd13dce0faf5f9b974393c3da78100eec66c652a75b24356027"
+                  },
+                  {
+                    "path": "static/css/a8aa5802b60669e4.css",
+                    "inlined": false,
+                    "sha256": "aa5e8c5b014ce5e3e3328c487a8927165c874ab2976f13cf810ae08783ba8103"
+                  },
+                  {
+                    "path": "static/css/84397fae94acf730.css",
+                    "inlined": false,
+                    "sha256": "d71b0811024786bb7d47977e03d963819f3721f668060e140f89ec255cd5da06"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/(entry)/page",
+                "files": []
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/[...slug]/page",
+                "files": [
+                  {
+                    "path": "static/css/80fccfd76ea5bd0a.css",
+                    "inlined": false,
+                    "sha256": "041aa638ca8c487fe318484e3dd2143726f8adf5169944d55757dad5471e612a"
+                  },
+                  {
+                    "path": "static/css/dc926db41d8d4e30.css",
+                    "inlined": false,
+                    "sha256": "b0534a26b601d0381f66f46508a4e5346283e969fbb29f6fb827bd559ec5ff01"
+                  },
+                  {
+                    "path": "static/css/d9d3081018677c38.css",
+                    "inlined": false,
+                    "sha256": "e04418c4263d3153a4d15affef2c1f38274ac4b040c6fb60a17d9893646502e0"
+                  },
+                  {
+                    "path": "static/css/30d2f432db07eb89.css",
+                    "inlined": false,
+                    "sha256": "1d1d75f416078f24d183515028248608681da89984be6032d104bde29150ceed"
+                  },
+                  {
+                    "path": "static/css/7b815423c151045d.css",
+                    "inlined": false,
+                    "sha256": "79212a187331cdd2d59e6a751981bde0313046e8d1537c97e0125aaf70e894c7"
+                  },
+                  {
+                    "path": "static/css/8affe021b5daf999.css",
+                    "inlined": false,
+                    "sha256": "1f6aa56ba5183036c88734a2ac9b482d8120cf23558d4416b7160c70fc756869"
+                  },
+                  {
+                    "path": "static/css/282d655c37951540.css",
+                    "inlined": false,
+                    "sha256": "e79ec3e3842d4daac1db5b16f676fe0d60c6bd25a3578e8c00ccf7f95fb4d464"
+                  },
+                  {
+                    "path": "static/css/c2c8f7ce724c4cd0.css",
+                    "inlined": false,
+                    "sha256": "e0b4b7375795e4abe46485ed3e814c16770e6b59fb53b1564dfa4a51429ef0d7"
+                  },
+                  {
+                    "path": "static/css/cb2667306902ea7f.css",
+                    "inlined": false,
+                    "sha256": "aef360c331038134137148aabda92deab23f5042f2e2ec5e595af2c16507444e"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/admin/[...slug]/page",
+                "files": [
+                  {
+                    "path": "static/css/80fccfd76ea5bd0a.css",
+                    "inlined": false,
+                    "sha256": "041aa638ca8c487fe318484e3dd2143726f8adf5169944d55757dad5471e612a"
+                  },
+                  {
+                    "path": "static/css/dc926db41d8d4e30.css",
+                    "inlined": false,
+                    "sha256": "b0534a26b601d0381f66f46508a4e5346283e969fbb29f6fb827bd559ec5ff01"
+                  },
+                  {
+                    "path": "static/css/2c994303d28622e9.css",
+                    "inlined": false,
+                    "sha256": "fa8476c5e8eb8f5be39732f214e7187cee7ce16d1636679462a3784c0d50af91"
+                  },
+                  {
+                    "path": "static/css/38361df4e86fc522.css",
+                    "inlined": false,
+                    "sha256": "a2775f9cad400b4a6cc5889449cf3645e362dfabcb2ba5a13010fdf895034e57"
+                  },
+                  {
+                    "path": "static/css/cfd2996242920124.css",
+                    "inlined": false,
+                    "sha256": "8ee40f7c8985d0b655e75800ad1771f7337a1fc3b761cced6f69bbeefba46a4b"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/admin/page",
+                "files": [
+                  {
+                    "path": "static/css/80fccfd76ea5bd0a.css",
+                    "inlined": false,
+                    "sha256": "041aa638ca8c487fe318484e3dd2143726f8adf5169944d55757dad5471e612a"
+                  },
+                  {
+                    "path": "static/css/dc926db41d8d4e30.css",
+                    "inlined": false,
+                    "sha256": "b0534a26b601d0381f66f46508a4e5346283e969fbb29f6fb827bd559ec5ff01"
+                  },
+                  {
+                    "path": "static/css/2c994303d28622e9.css",
+                    "inlined": false,
+                    "sha256": "fa8476c5e8eb8f5be39732f214e7187cee7ce16d1636679462a3784c0d50af91"
+                  },
+                  {
+                    "path": "static/css/38361df4e86fc522.css",
+                    "inlined": false,
+                    "sha256": "a2775f9cad400b4a6cc5889449cf3645e362dfabcb2ba5a13010fdf895034e57"
+                  },
+                  {
+                    "path": "static/css/cfd2996242920124.css",
+                    "inlined": false,
+                    "sha256": "8ee40f7c8985d0b655e75800ad1771f7337a1fc3b761cced6f69bbeefba46a4b"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/layout",
+                "files": [
+                  {
+                    "path": "static/css/62b6680ce98576a2.css",
+                    "inlined": false,
+                    "sha256": "c428dd162ca22cd13dce0faf5f9b974393c3da78100eec66c652a75b24356027"
+                  },
+                  {
+                    "path": "static/css/a8aa5802b60669e4.css",
+                    "inlined": false,
+                    "sha256": "aa5e8c5b014ce5e3e3328c487a8927165c874ab2976f13cf810ae08783ba8103"
+                  },
+                  {
+                    "path": "static/css/868cca9060d35dea.css",
+                    "inlined": false,
+                    "sha256": "96aa92edde1fb9a08f508a19c9d3a5bd640c506febfef7dfab24639d5e878948"
+                  },
+                  {
+                    "path": "static/css/84397fae94acf730.css",
+                    "inlined": false,
+                    "sha256": "d71b0811024786bb7d47977e03d963819f3721f668060e140f89ec255cd5da06"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/not-found",
+                "files": []
+              },
+              {
+                "entry": "<ROOT>/src/app/[locale]/page",
+                "files": [
+                  {
+                    "path": "static/css/80fccfd76ea5bd0a.css",
+                    "inlined": false,
+                    "sha256": "041aa638ca8c487fe318484e3dd2143726f8adf5169944d55757dad5471e612a"
+                  },
+                  {
+                    "path": "static/css/dc926db41d8d4e30.css",
+                    "inlined": false,
+                    "sha256": "b0534a26b601d0381f66f46508a4e5346283e969fbb29f6fb827bd559ec5ff01"
+                  },
+                  {
+                    "path": "static/css/c2c8f7ce724c4cd0.css",
+                    "inlined": false,
+                    "sha256": "e0b4b7375795e4abe46485ed3e814c16770e6b59fb53b1564dfa4a51429ef0d7"
+                  }
+                ]
+              },
+              {
+                "entry": "<ROOT>/src/app/global-not-found",
+                "files": [
+                  {
+                    "path": "static/css/62b6680ce98576a2.css",
+                    "inlined": false,
+                    "sha256": "c428dd162ca22cd13dce0faf5f9b974393c3da78100eec66c652a75b24356027"
+                  },
+                  {
+                    "path": "static/css/a8aa5802b60669e4.css",
+                    "inlined": false,
+                    "sha256": "aa5e8c5b014ce5e3e3328c487a8927165c874ab2976f13cf810ae08783ba8103"
+                  },
+                  {
+                    "path": "static/css/868cca9060d35dea.css",
+                    "inlined": false,
+                    "sha256": "96aa92edde1fb9a08f508a19c9d3a5bd640c506febfef7dfab24639d5e878948"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

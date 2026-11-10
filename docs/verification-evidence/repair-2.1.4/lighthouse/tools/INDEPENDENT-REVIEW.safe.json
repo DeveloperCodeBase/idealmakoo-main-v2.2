@@ -1,0 +1,35 @@
+{
+  "format": "native-proxy-tools-static-review-provenance-v1",
+  "recordedAt": "2026-10-25T19:06:04.143219+00:00",
+  "reviewer": "Separate collaborating backend/security agent",
+  "method": "Read-only source inspection; no execution, no code mutation by reviewer",
+  "externalThirdPartyCertification": false,
+  "reviews": [
+    {
+      "subject": "topology guard",
+      "initialCandidateSha256": "4b14c17bb6ea693f3695dd5170ae90ee7178b81616eef74eb5dd37aa82685a98",
+      "findings": [
+        "Selected runtime mapping omitted declared policy variables.",
+        "TEST_ADMIN_DATABASE_URL was absent from the forbidden set.",
+        "Extraction provenance was recorded but not bound to observed binary/image fields."
+      ],
+      "closedOnSha256": "529320485df3347acfed3fffa77a558199240654083746c975a4ea0c96f6e76f",
+      "closure": "All three bounded findings addressed; no further material finding within that requested scope."
+    },
+    {
+      "subject": "bounded proof lifecycle",
+      "initialCandidateSha256": "f4a6a5cb4dd24cb2fb21f2f1ae3c81e2fea7d2de949a33b3f7bedaa06522d587",
+      "findings": [
+        "Signal termination could bypass asynchronous finally and receipt completion.",
+        "HTTP timeout covered inactivity instead of the entire response.",
+        "Activation ownership was marked only after awaited activation."
+      ],
+      "closedOnSha256": "b4e115decfb56a2c6451d0e2b9385efcede23c46ee8f3d019becd0fd9083ba9a",
+      "lifecycleModuleSha256": "1471bbbe0a020b98da49be81279f0cc69ab58d52908c6387094e72a828e02064",
+      "closure": "Three bounded lifecycle findings addressed; dedicated cleanup client applies its own5s statement timeout, invokes existing scoped cleanup, reads back state and is destroyed; no further material finding in that delta."
+    }
+  ],
+  "actualCaddyOrDatabaseProofClaimed": false,
+  "signalCleanupSyntheticProofIsNotRealDatabaseCleanup": true,
+  "parentReviewAccepted": true
+}

@@ -1,0 +1,151 @@
+{
+  "schema": 1,
+  "kind": "actual-docker-runtime-identity-and-readiness",
+  "status": "passed",
+  "completedAt": "2026-10-25T08:59:32.558347+00:00",
+  "version": "2.1.3",
+  "releaseDirectory": "/var/www/idealmakoo-acceptance-recovery/releases/20261025T080810Z-c1af535f",
+  "candidateReleaseManifestSha256": "45e93bf57a3113881d10052dd61d9ac831a36af0328a7eb584bb43aa14a73e92",
+  "candidateSourceZipSha256": "05f9fada3a33e7df149012e0eeae0824e9fb3dda93b4387a70278626dd767578",
+  "releaseSourceFilesVerified": 3535,
+  "packagingManifestPresentInRelease": true,
+  "os": {
+    "PRETTY_NAME": "Ubuntu 22.04.5 LTS",
+    "VERSION_ID": "22.04",
+    "ID": "ubuntu"
+  },
+  "containers": {
+    "app": {
+      "id": "9fca15610d01edf2d7647de629046702cc229e8e9b8b0c9d44385ce325d26088",
+      "imageId": "sha256:0d728ec4c80dfb990da49ee82c540b9f33404c3b95ec3bea919cf5670aac45a3",
+      "status": "running",
+      "health": "healthy",
+      "running": true,
+      "oomKilled": false,
+      "startedAt": "2026-10-25T08:54:23.83941956Z",
+      "workingDirectory": "/var/www/idealmakoo-acceptance-recovery/releases/20261025T080810Z-c1af535f"
+    },
+    "worker": {
+      "id": "773fba4676e31a058cb054a5858c11e6d3b860f4dd1fa422ae44901f4b634f6e",
+      "imageId": "sha256:0d728ec4c80dfb990da49ee82c540b9f33404c3b95ec3bea919cf5670aac45a3",
+      "status": "running",
+      "health": "healthy",
+      "running": true,
+      "oomKilled": false,
+      "startedAt": "2026-10-25T08:55:11.22891743Z",
+      "workingDirectory": "/var/www/idealmakoo-acceptance-recovery/releases/20261025T080810Z-c1af535f"
+    },
+    "db": {
+      "id": "d78f9781d3a4e5d06c57417043cbf9bfbb03cdc7c4bcad55bfc9dc61b0728b6c",
+      "imageId": "sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a",
+      "status": "running",
+      "health": "healthy",
+      "running": true,
+      "oomKilled": false,
+      "startedAt": "2026-10-25T08:45:33.22614417Z",
+      "workingDirectory": "/var/www/idealmakoo-acceptance-recovery/releases/20261025T080810Z-c1af535f"
+    },
+    "proxy": {
+      "id": "3f839f94a6b57e997d5ec6a1587a37fac2611b805262eec7c7b312dd30ca4aef",
+      "imageId": "sha256:82dcd93410295b24ffb8836b03ec3408ea73b45b21ffb5c95b522045b1fad1e3",
+      "status": "running",
+      "health": null,
+      "running": true,
+      "oomKilled": false,
+      "startedAt": "2026-10-25T08:56:19.79101536Z",
+      "workingDirectory": "/var/www/idealmakoo-acceptance-recovery/releases/20261025T080810Z-c1af535f"
+    },
+    "clamav": {
+      "id": "37f0e0e857feec6efca03b5ff3e73d69387a2e0c30700bd12aab5da745c232c2",
+      "imageId": "sha256:0d4a4d7cedd05dc2ee438812637c477a39c26224c87d7a7571a63e188792f267",
+      "status": "running",
+      "health": "healthy",
+      "running": true,
+      "oomKilled": false,
+      "startedAt": "2026-10-25T08:46:59.9313663Z",
+      "workingDirectory": "/var/www/idealmakoo-acceptance-recovery/releases/20261025T080810Z-c1af535f"
+    }
+  },
+  "migrationSeedService": {
+    "id": "21a79ef9718103561bf62abce816f01088be202ec8e666f85768a9b27d30c971",
+    "status": "exited",
+    "exitCode": 0,
+    "oomKilled": false
+  },
+  "databaseInventory": {
+    "usersTotal": 3,
+    "usersByRole": {
+      "customer": 1,
+      "superAdmin": 1,
+      "contentEditor": 1
+    },
+    "workspaceLiveEntities": 211,
+    "pages": 120,
+    "records": 73,
+    "media": 17,
+    "pagesByLocale": {
+      "ru": 24,
+      "ar": 24,
+      "tr": 24,
+      "en": 24,
+      "fa": 24
+    },
+    "publishedLocaleReleases": 0,
+    "crmRequests": 0,
+    "migrationCount": 41,
+    "everyMigrationChecksumMatchesFrozenSource": true
+  },
+  "runtimeImageSource": {
+    "status": "passed",
+    "filesVerified": 668,
+    "version": "2.1.3"
+  },
+  "actualRuntimeDatabaseRole": {
+    "role": "idealmakoo_app",
+    "rolcanlogin": true,
+    "rolsuper": false,
+    "rolcreatedb": false,
+    "rolcreaterole": false,
+    "rolreplication": false
+  },
+  "doctorExitCode": 0,
+  "doctorOutputPublished": false,
+  "publicProxyHealth": {
+    "httpStatus": 200,
+    "body": {
+      "status": "ok",
+      "database": "ok",
+      "privacy": "ready",
+      "timestamp": "2026-10-25T08:59:22.756Z",
+      "version": "20261025T080810Z-c1af535f",
+      "applicationVersion": "2.1.3"
+    }
+  },
+  "dailyBackupTimer": {
+    "NextElapseUSecRealtime": "Mon 2026-10-26 00:09:55 UTC",
+    "LastTriggerUSec": "Sun 2026-10-25 06:06:34 UTC",
+    "ActiveState": "active",
+    "SubState": "waiting"
+  },
+  "candidate02UpdatePreservation": {
+    "status": "passed",
+    "originalUpdaterUsedSameInstalledFixture": true,
+    "samePackageVersionNewTimestampedRelease": true,
+    "previousSymlinkMatchesAcceptedRecoveryRelease": true,
+    "protectedEnvironmentBytesUnchanged": true,
+    "existingArchiveFilesPreserved": 1,
+    "newEncryptedBackupFiles": 2,
+    "newEncryptedBackupNames": [
+      "idealmakoo-20261025T083900Z-51a8ff88.tar.age",
+      "idealmakoo-20261025T085022Z-278fdf4c.tar.age"
+    ],
+    "newBackupsAreAgeEncryptedRegularFiles": true,
+    "normalServiceResumptionVerified": true,
+    "latestSignedPrivacyLedgerHeadUnchanged": {
+      "format": 1,
+      "fingerprint": "ccd57c3aded2927085e5ee3d8a88aac07bc55733008f2749a1fe769e885fb6c3",
+      "sequence": 1,
+      "hash": "f26601fa50bd6e560e522dda46e1933ea8444a81826fe86acd76c8cc53d4e8c0"
+    }
+  }
+}

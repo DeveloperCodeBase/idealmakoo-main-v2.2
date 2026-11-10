@@ -1,0 +1,56 @@
+{
+  "format": "topology-bound-phase-safe-derivative-v2",
+  "phase": "public-desktop-representative",
+  "kind": "scoring",
+  "startedAt": "2026-10-26T00:45:03.153747+00:00",
+  "finishedAt": "2026-10-26T00:47:46.024644+00:00",
+  "durationSeconds": 162.871,
+  "topologySha256": "d0c85e36be10862b020361b4179ad2add3a02848966239cb01fd7b6a92837bf4",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "commandLaunchAttempted": true,
+  "commandStarted": true,
+  "coreConfigurationHashAloneBindsProxy": false,
+  "actualCommandExitCode": 0,
+  "validationPassed": true,
+  "validationErrorCode": null,
+  "validationIsSeparateFromLighthouseOutcome": true,
+  "receivedOrForwardedSignals": [],
+  "wrapperForcedKillAfterSixtySeconds": false,
+  "interruptedPageCleanup": "Not inferred by this wrapper; retain the original auditor's evidence.",
+  "originalPrivateReceiptSha256": "c9d49bc6bd3e09fae63b970f3dd894d1c6fb0cbd1d72e7f40472df9cb9eca637",
+  "beforeVerificationPresent": true,
+  "afterVerificationPresent": true,
+  "coreArtifacts": [
+    {
+      "directoryLabel": "lighthouse214-final-ir2-settled-v2-public-desktop-representative",
+      "files": {
+        "manifest.json": {
+          "sha256": "5f8b0310086d33d91b803b4a08785aedffdb79f64cf1e1914cbac3eba52db2a3",
+          "bytes": 2318
+        },
+        "inventory.json": {
+          "sha256": "eb70acc544f036a6bf07c014288e4f63522a7aa5585315a537542cfc6c0f216b",
+          "bytes": 2541
+        },
+        "summary.json": {
+          "sha256": "1d66bec5be58c45864d1d4f7c9d391615d1d9255456d20e14280c47cbc727912",
+          "bytes": 73598
+        }
+      },
+      "coreConfigurationHash": "99d9518a73248ff8be3846384e71f32b6c400f3220ac752fb863f098dc4d47fe",
+      "counts": {
+        "expected": 14,
+        "attempted": 14,
+        "completed": 14,
+        "expectedHttpResponses": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "pending": 0,
+        "coverageComplete": true
+      }
+    }
+  ],
+  "omissions": [
+    "Raw process IDs/arguments/environment/logs, full process observations and raw-command hashes."
+  ]
+}

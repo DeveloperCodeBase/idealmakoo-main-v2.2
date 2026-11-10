@@ -1,0 +1,32 @@
+{
+  "format": "topology-bound-phase-safe-derivative-v2",
+  "phase": "prepare-all-fixtures",
+  "kind": "fixtures",
+  "startedAt": "2026-10-25T21:24:49.809699+00:00",
+  "finishedAt": "2026-10-25T21:24:53.873877+00:00",
+  "durationSeconds": 4.064,
+  "topologySha256": "d0c85e36be10862b020361b4179ad2add3a02848966239cb01fd7b6a92837bf4",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "commandLaunchAttempted": true,
+  "commandStarted": true,
+  "coreConfigurationHashAloneBindsProxy": false,
+  "actualCommandExitCode": 0,
+  "validationPassed": true,
+  "validationErrorCode": null,
+  "validationIsSeparateFromLighthouseOutcome": true,
+  "receivedOrForwardedSignals": [],
+  "wrapperForcedKillAfterSixtySeconds": false,
+  "interruptedPageCleanup": "Not inferred by this wrapper; retain the original auditor's evidence.",
+  "originalPrivateReceiptSha256": "081ee88c75b46ae2addc33089be2b18143cbd2230e05c115c5df4d6acefa4b91",
+  "beforeVerificationPresent": true,
+  "afterVerificationPresent": true,
+  "coreArtifacts": [
+    {
+      "directoryLabel": "idealmakoo-214-final-ir2-settled-v2-private-mobile",
+      "files": {}
+    }
+  ],
+  "omissions": [
+    "Raw process IDs/arguments/environment/logs, full process observations and raw-command hashes."
+  ]
+}

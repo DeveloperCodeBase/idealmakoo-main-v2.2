@@ -1,0 +1,54 @@
+{
+  "format": "idealmakoo-caddy-extraction-v1",
+  "status": "passed",
+  "startedAt": "2026-10-25T19:22:15.773623+00:00",
+  "completedAt": "2026-10-25T19:22:25.745411+00:00",
+  "elapsedSeconds": 9.972,
+  "source": {
+    "imageId": "sha256:cb7508606270b4c98da7e176fc3b7ffd6448ac13a78650c0137335b95a6ee307",
+    "repositoryDigests": [
+      "idealmakoo214fresh-proxy@sha256:cb7508606270b4c98da7e176fc3b7ffd6448ac13a78650c0137335b95a6ee307"
+    ],
+    "binaryPath": "/usr/bin/caddy",
+    "sha256": "678ade3bfc088749c81a681adc603333ee0bb023b6a6cfe3c0f58bef8ff854e9",
+    "bytes": 51953826,
+    "version": "v2.11.7 h1:yj0Y4fYZGPkSvibBJ1sTWE33xC0fxztVyXEW5iIdUT4=",
+    "elfClass": 64,
+    "elfMachine": 62,
+    "permissions": {
+      "mode": 493,
+      "uid": 1001,
+      "gid": 1001
+    },
+    "capabilities": {
+      "observed": true,
+      "present": false,
+      "rawHex": null
+    }
+  },
+  "hostCopy": {
+    "sha256": "678ade3bfc088749c81a681adc603333ee0bb023b6a6cfe3c0f58bef8ff854e9",
+    "bytes": 51953826,
+    "version": "v2.11.7 h1:yj0Y4fYZGPkSvibBJ1sTWE33xC0fxztVyXEW5iIdUT4=",
+    "elfClass": 64,
+    "elfMachine": 62,
+    "permissions": {
+      "mode": 493,
+      "uid": 0,
+      "gid": 0
+    },
+    "securityCapabilityXattrPresent": false
+  },
+  "byteIdentityVerifiedSourceGuestHost": true,
+  "sourceContainerAndImagePinned": true,
+  "sourceImageAndContainerNotModified": true,
+  "downloaded": false,
+  "sourceDockerfileSha256": "203f1ca51061d3eb276d089d4678a1725e3e195cac0fd214496a928a461a9e6e",
+  "sourceCaddyfileSha256": "6e1c0d5cea4aa55abf4fb04d98776446e4e0f512630d91c43030c1313f85e153",
+  "guestExtractionActualExitCode": 0,
+  "hostTransferActualExitCode": 0,
+  "hostVersionActualExitCode": 0,
+  "nativeProxyStarted": false,
+  "boundPrivateExtractionReceiptSha256": "fff144b0f45fe8f083de29bdee0b7c44aa6e2d776689b77a2638e523ab1a4d89",
+  "repositoryDigestsScope": "Verbatim RepoDigests observed from local Docker image inspect; this metadata is not proof of remote registry publication."
+}

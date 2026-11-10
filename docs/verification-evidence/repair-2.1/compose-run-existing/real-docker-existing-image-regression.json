@@ -1,0 +1,75 @@
+{
+  "format": "idealmakoo.actual-docker-existing-image-run-regression",
+  "startedAt": "2026-10-21T12:55:43.408888+00:00",
+  "finishedAt": "2026-10-21T12:56:17.588606+00:00",
+  "instanceId": "idealmakoo-user-directory-final-install-13b6943b742546bcabc0b2da5ed395d6",
+  "composeVersion": "5.6.0",
+  "applicationProjectModified": false,
+  "productFiles": [
+    {
+      "name": "deploy/compose.py",
+      "sha256": "eb0fc779d736b33c1ab6b132fdd9634ec602b4c04f14c0be17001e09f298742f"
+    },
+    {
+      "name": "deploy/env-file.py",
+      "sha256": "941ee4a0087a7617233d10f8929e063949ba18f6c4f8a33a6d9fcc741a6985da"
+    }
+  ],
+  "existingImage": {
+    "exitCode": 0,
+    "seconds": 22.221,
+    "inputBytes": 262144,
+    "inputAndOutputSha256": "2312394bd99545d9de131c24efb781e765ac1aec243f2ed9347597a793a415e9",
+    "literalDollarEnvironmentVerified": true,
+    "observedPreviousReleaseImageAuthorityVerified": true,
+    "privateConfigPermissionsVerified": true,
+    "profileAndDrillEnvironmentAndReadOnlyBindVerified": true,
+    "binaryStdinPreserved": true,
+    "commandArgumentsAfterServicePreserved": true,
+    "selectedImagePinned": true,
+    "allBuildDefinitionsRemoved": true,
+    "allPullPoliciesNever": true,
+    "readOnlyUnprivilegedContainer": true,
+    "trace": [
+      {
+        "category": "config"
+      },
+      {
+        "category": "image-inspect"
+      },
+      {
+        "category": "run",
+        "privateFileMode": "0o600",
+        "privateDirectoryMode": "0o700",
+        "buildsRemoved": true,
+        "neverPull": true,
+        "pinnedImage": "sha256:41762d89512f993f17ba511f2d6d5e275bcebcf3295a3f75ccd6425ce3df2085",
+        "profile": true,
+        "noUnsupportedRunFlag": true,
+        "afterServiceFlagsPreserved": true
+      }
+    ]
+  },
+  "missingImage": {
+    "exitCode": 1,
+    "seconds": 13.735,
+    "failedBeforeRun": true,
+    "noImageBuildOrPull": true,
+    "inertBuildTripwireImagesStillAbsent": true,
+    "dependencyNotCreated": true,
+    "trace": [
+      {
+        "category": "config"
+      },
+      {
+        "category": "image-inspect"
+      }
+    ]
+  },
+  "privateTemporaryModelsRemoved": true,
+  "testContainersRemaining": 0,
+  "pass": true,
+  "runtimeRecordSha256": "ed0bf6fb4b1c68b94d72f2bd11b1f46ae724e7832eef5541e6a86967ae0b672c",
+  "helperSha256": "74349dd59741d2b9bc380eb2849819b6f14c7b5056f45196f656452e78a74c38",
+  "transportLogSha256": "c39b2f81365534198bcc80cd21c88069bb085880164984cd5eb5cf55445dfcb5"
+}

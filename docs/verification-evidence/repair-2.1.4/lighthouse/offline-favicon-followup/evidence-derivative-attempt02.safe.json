@@ -1,0 +1,10 @@
+{
+  "format": "offline-static-evidence-derivative-attempt-v1",
+  "recordedAt": "2026-10-26T01:18:21.779352+00:00",
+  "actualExitCode": 0,
+  "status": "passed",
+  "priorActualExit1Retained": true,
+  "prelaunchRefusalGuardFlagsRemainNull": true,
+  "sourceScoresAndOriginalRawReceiptsUnchanged": true,
+  "phaseDerivatives": 5
+}

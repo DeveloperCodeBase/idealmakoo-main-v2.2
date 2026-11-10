@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/products/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "9b103c7cb5e8aa5f1ee34a93660417bd3db631219290817d14cf2035bf28c0af",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Ürünler | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Mesleğinize uygun başlangıç noktasını seçin ve ürün özelliklerini inceleyin."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/products/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/",
+    "en": "http://127.0.0.1:3100/en/products/",
+    "tr": "http://127.0.0.1:3100/tr/products/",
+    "ar": "http://127.0.0.1:3100/ar/products/",
+    "ru": "http://127.0.0.1:3100/ru/products/",
+    "x-default": "http://127.0.0.1:3100/fa/products/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 58
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "nativeContactBuildId": "HSeZD37BGY1jy6cC01AzB",
+  "nativeContact": {
+    "profileOverheadIncluded": true,
+    "mainRunTaskCount": 600,
+    "mainTotalWallMs": 701.577,
+    "mainTotalThreadCpuMs": 240.43,
+    "onlyMainTaskOver50Ms": {
+      "wallMs": 423.708,
+      "threadCpuMs": 2.689,
+      "nestedJsOrLayoutEvents": 0
+    },
+    "gpuRunTaskWallMs": 1600.099,
+    "gpuRunTaskThreadCpuMs": 151.342,
+    "compositorRunTaskWallMs": 560.114,
+    "compositorRunTaskThreadCpuMs": 3.326,
+    "profileIdleMs": 7246.371,
+    "summarySha256": "3f2cb545dde92203848f1be6f1d271d722fe873dca4da4c3a45d4fbd89a89be1",
+    "traceSha256": "cf1cea28356ced164a041ab6f7e423306db2a6fab1cc1089d48533950759c5a7"
+  },
+  "interpretation": "Native task wall time is not thread CPU time. Ordinary routes also show long waits without corresponding long JavaScript tasks. Evidence does not justify attributing every low score to the home 3D scene or removing visual effects. Software rendering and Lighthouse simulated throttling limit transfer to physical devices. High simulated LCP/TBT remain reported risks. No physical-device field performance acceptance is claimed.",
+  "fullSweepEtaHours": [
+    7.5,
+    9
+  ],
+  "etaBasis": {
+    "ordinaryPublic4TargetsWallSeconds": 51.537,
+    "privateMobile3TargetsWallSeconds": 34.076455,
+    "includesMeasuredPrivateAuthAndCleanup": true,
+    "furtherMfaCounterPacingAndSlowerPagesPossible": true
+  },
+  "fullSweepExecuted": false,
+  "rawTracesOmitted": true
+}

@@ -1,0 +1,645 @@
+{
+  "schemaVersion": 1,
+  "kind": "targeted02-before-after-safe-summary",
+  "createdAt": "2026-10-23T07:43:38.779937+00:00",
+  "buildId": "i2FywRVMQcWLcBXtSt9h7",
+  "currentScope": {
+    "selectedTargets": 4,
+    "completed": 4,
+    "errors": 0,
+    "timeouts": 0,
+    "warnings": 0,
+    "measurementsPerTarget": 1,
+    "notFullInventory": true
+  },
+  "planSha256": "2f89271159e56feebcd0d22aaef30bafad6524123173f49b8bc8bb74910c1a55",
+  "readinessSha256": "14100e66e552b37f13157a749691946e8dc8c8285c73baf57b0f8bc59f944507",
+  "browser": {
+    "path": "/workspace/scratch/5ebaf3fb0d91/acceptance-20261023b/tools/chrome/chrome-linux64/chrome",
+    "expectedSha256": "377a9fc07b495c3b8d0ab8ec1fdfd153641759f9756fea34d8dfce4de82f5025"
+  },
+  "transport": {
+    "path": "/workspace/scratch/5ebaf3fb0d91/acceptance-20261023b/native-runtime/config/transport.prepared.safe.json",
+    "sha256": "cc5c9928786f5111dc9dea7cb9298ecfebbc7970d4a4944ff5cc7b42794cc76c",
+    "bindingMethod": "External acceptance pin; the shipped audit CLIs do not have a transport-manifest flag. Actual encoding is separately observed by their HTTP measurements."
+  },
+  "commands": [
+    {
+      "label": "lh-target02-01-prepare-mobile",
+      "receiptSha256": "8902c38c100869279cccd79e25873b55efdefc5a3583c71ecf2066facf0f252d",
+      "startedAt": "2026-10-23T07:37:42.714703+00:00",
+      "finishedAt": "2026-10-23T07:37:46.034603+00:00",
+      "durationSeconds": 3.32,
+      "exitCode": 0,
+      "logSha256": "dedf3a0c70d13ebc9dd032f803d298bfb5056ab48c087acba35525a3d6ba3932"
+    },
+    {
+      "label": "lh-target02-02-prepare-desktop",
+      "receiptSha256": "b90088ccdd7d1cdf5c13e8d18a144b39cac3c13b29d95456cfcd8c4237c25372",
+      "startedAt": "2026-10-23T07:37:46.072023+00:00",
+      "finishedAt": "2026-10-23T07:37:49.518888+00:00",
+      "durationSeconds": 3.447,
+      "exitCode": 0,
+      "logSha256": "4ffe7395ef3d6b10c997d465db4254f2b2099a92b2399eedcd81945b0c4c3409"
+    },
+    {
+      "label": "lh-target02-03-inventory-mobile",
+      "receiptSha256": "cbecab49e8405d40ba0524a5a124c2163184027a175855df6a6924d99d3b6416",
+      "startedAt": "2026-10-23T07:37:49.556779+00:00",
+      "finishedAt": "2026-10-23T07:37:52.776092+00:00",
+      "durationSeconds": 3.219,
+      "exitCode": 0,
+      "logSha256": "628deec7c4bee0ce9b75b2ae09bd365257699850cfdb198d7503def4d5fc4764"
+    },
+    {
+      "label": "lh-target02-04-inventory-desktop",
+      "receiptSha256": "58a84d19122bf830192b5a95014ec659317813993d1c9807a8411a45acc9afd3",
+      "startedAt": "2026-10-23T07:37:52.820895+00:00",
+      "finishedAt": "2026-10-23T07:37:55.854937+00:00",
+      "durationSeconds": 3.034,
+      "exitCode": 0,
+      "logSha256": "b4191a64d1beab87514d840c09255fad060bfb9ce2d599b1ba19de5b95c76d63"
+    },
+    {
+      "label": "lh-target02-05-inventory-public",
+      "receiptSha256": "86682b91ff6cb876e357b2981c7d931342fd97c2778d8c6a780cdf5da6e49f26",
+      "startedAt": "2026-10-23T07:37:55.897114+00:00",
+      "finishedAt": "2026-10-23T07:37:56.362743+00:00",
+      "durationSeconds": 0.465,
+      "exitCode": 0,
+      "logSha256": "51aec30ad0c86277284061fe803db92cc12e7a1dd94e3d03aeea0d4188a8f133"
+    },
+    {
+      "label": "lh-target02-06-measure-users-mobile",
+      "receiptSha256": "0916c03a62792ca7f53623dd8f0f493dd99282b385b2552e606910d58949efc7",
+      "startedAt": "2026-10-23T07:37:56.396921+00:00",
+      "finishedAt": "2026-10-23T07:38:20.337831+00:00",
+      "durationSeconds": 23.941,
+      "exitCode": 0,
+      "logSha256": "d265fc981882553dd25817c0fd48a57de0a8c5c889109eef674e26ed4ad93329"
+    },
+    {
+      "label": "lh-target02-07-measure-users-desktop",
+      "receiptSha256": "8b2d5b6252c60139bb1792a77e9321b3c33e0c9367558e75f1603009096bbeb8",
+      "startedAt": "2026-10-23T07:38:20.376286+00:00",
+      "finishedAt": "2026-10-23T07:38:43.935786+00:00",
+      "durationSeconds": 23.559,
+      "exitCode": 0,
+      "logSha256": "0ef2ed7b549dbe87e65b636ba01700696fa292a747c17db896abdffc5f001325"
+    },
+    {
+      "label": "lh-target02-08-measure-home-both",
+      "receiptSha256": "3b0efb0932e3cb8cfd2926f7c1a327a09bfe294cb59c71552bc85bc44c69d29a",
+      "startedAt": "2026-10-23T07:38:43.986969+00:00",
+      "finishedAt": "2026-10-23T07:39:30.428879+00:00",
+      "durationSeconds": 46.442,
+      "exitCode": 0,
+      "logSha256": "70091d7fca33b159d67eb92a3e2eeb35e55ff3654f82278b4e45ba2d5c3a5f1d"
+    },
+    {
+      "label": "lh-target02-09-export-private-mobile",
+      "receiptSha256": "826a85a43fe5332cfddd46499229359a1769b7316803d48abda510975e320ccf",
+      "startedAt": "2026-10-23T07:39:30.462008+00:00",
+      "finishedAt": "2026-10-23T07:39:30.551091+00:00",
+      "durationSeconds": 0.089,
+      "exitCode": 0,
+      "logSha256": "843f799414b368243ac770c872a6e2a2b38ecfe7429bf8c1b93906d0803cd587"
+    },
+    {
+      "label": "lh-target02-10-export-private-desktop",
+      "receiptSha256": "e019920392200edbc8222f806fe0d0ec2c101bdeda266dfa5d19b03a8a8102ec",
+      "startedAt": "2026-10-23T07:39:30.588069+00:00",
+      "finishedAt": "2026-10-23T07:39:30.671630+00:00",
+      "durationSeconds": 0.083,
+      "exitCode": 0,
+      "logSha256": "91dddd0a46bbc7ba5c155fb62acaec66086a1a908ecdd66befdac9b54041c35c"
+    },
+    {
+      "label": "lh-target02-11-export-public-both",
+      "receiptSha256": "021c691a47387e2b5fadefc0764c6a33e71a1952b6bb426820136eef1af35307",
+      "startedAt": "2026-10-23T07:39:30.709477+00:00",
+      "finishedAt": "2026-10-23T07:39:30.762766+00:00",
+      "durationSeconds": 0.053,
+      "exitCode": 0,
+      "logSha256": "acf22d8d442aaaf89b6f8240de8232e916d28ae530d2ab4bebb11ae03d10201b"
+    }
+  ],
+  "rows": [
+    {
+      "route": "/ar/admin/users/",
+      "device": "mobile",
+      "attempt": 1,
+      "status": "completed",
+      "durationMs": 17399,
+      "httpStatus": 200,
+      "previousBuildId": "jV_8qsw2l0Gfrz9MFyW9n",
+      "before": {
+        "scores": {
+          "performance": 54,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 54
+        },
+        "simulatedMetrics": {
+          "largest-contentful-paint": 9085.13125,
+          "total-blocking-time": 680.1737499999999,
+          "cumulative-layout-shift": 0.04706909365451993
+        },
+        "rawReportSha256": "c49d555623ee9dea38ce9f91826d884b4c9673845425467e7581c1b7f2ca393b"
+      },
+      "after": {
+        "scores": {
+          "performance": 45,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 54
+        },
+        "simulatedMetrics": {
+          "largest-contentful-paint": 9271.788750000002,
+          "total-blocking-time": 1368.8422500000001,
+          "cumulative-layout-shift": 0.04706909365451993
+        },
+        "rawReportSha256": "1bc95ab62b0e120fbc745f42b2a9cd36f7283d3f7735bf982798a44560567f0c"
+      },
+      "settingsExactlyMatchPreviousReport": true,
+      "lighthouseVersion": "13.5.0",
+      "cpuSlowdownMultiplier": 4,
+      "nativeObserved": {
+        "fcpMs": 1514,
+        "lcpMs": 2465,
+        "traceEndMs": 3895,
+        "totalTaskTimeMs": 992.3639999999963,
+        "numTasksOver50ms": 2
+      },
+      "lcpElement": {
+        "structuralSelector": "main > div > section > p",
+        "rectangle": {
+          "top": 426,
+          "bottom": 495,
+          "left": 12,
+          "right": 400,
+          "width": 388,
+          "height": 69
+        },
+        "nativeBreakdown": [
+          {
+            "subpart": "timeToFirstByte",
+            "label": "Time to first byte",
+            "duration": 58.919
+          },
+          {
+            "subpart": "elementRenderDelay",
+            "label": "Element render delay",
+            "duration": 2405.672
+          }
+        ]
+      },
+      "mainThreadAuditScaledMs": {
+        "other": 2458.1159999999845,
+        "scriptEvaluation": 1015.4840000000072,
+        "styleLayout": 195.53200000000004,
+        "scriptParseCompile": 165.432,
+        "paintCompositeRender": 81.32000000000015,
+        "parseHTML": 35.256,
+        "garbageCollection": 18.316000000000003
+      },
+      "topScriptAuditScaledMs": [
+        {
+          "resource": "Unattributable",
+          "totalMs": 2266.6759999999836,
+          "scriptingMs": 9.595999999999998,
+          "parseCompileMs": 0
+        },
+        {
+          "resource": "/_next/static/chunks/3794-9f866eb1b07be87c.js",
+          "totalMs": 819.9160000000087,
+          "scriptingMs": 715.0120000000088,
+          "parseCompileMs": 19.54
+        },
+        {
+          "resource": "/ar/admin/users/",
+          "totalMs": 419.2840000000003,
+          "scriptingMs": 10.975999999999996,
+          "parseCompileMs": 46.232000000000006
+        },
+        {
+          "resource": "/_next/static/chunks/4bd1b696-8cd12253b448cc13.js",
+          "totalMs": 145.39600000000016,
+          "scriptingMs": 68.18000000000015,
+          "parseCompileMs": 15.384
+        }
+      ],
+      "renderBlocking": [],
+      "fontDisplayFailure": false,
+      "warningCount": 0,
+      "failedSeoAudits": [
+        "is-crawlable",
+        "meta-description"
+      ],
+      "authVerified": true,
+      "editorCleanup": {
+        "policy": "authenticated-robots-committed-lease-release-v1",
+        "beforeCount": 0,
+        "trackedCount": 0,
+        "remainingCount": 0,
+        "releasedCount": 0,
+        "observedReleaseRequests": 0,
+        "observedReleaseResponses": 0,
+        "observedReleaseFailures": 0,
+        "observedRequestFailures": 0,
+        "durationMs": 557,
+        "budgetMs": 15000,
+        "settledForMs": 508,
+        "success": true,
+        "destinationVerified": true,
+        "navigationStatus": 200,
+        "releaseStatuses": []
+      },
+      "activeLeaseReleaseExercised": false
+    },
+    {
+      "route": "/ar/admin/users/",
+      "device": "desktop",
+      "attempt": 1,
+      "status": "completed",
+      "durationMs": 17436,
+      "httpStatus": 200,
+      "previousBuildId": "jV_8qsw2l0Gfrz9MFyW9n",
+      "before": {
+        "scores": {
+          "performance": 36,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 58
+        },
+        "simulatedMetrics": {
+          "largest-contentful-paint": 2010.7598000000014,
+          "total-blocking-time": 913.7486000000006,
+          "cumulative-layout-shift": 1
+        },
+        "rawReportSha256": "337f9231cc8293598f44bd6efe795dc45004643385d8f32228083e85028eba2b"
+      },
+      "after": {
+        "scores": {
+          "performance": 57,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 58
+        },
+        "simulatedMetrics": {
+          "largest-contentful-paint": 2107.7671499999997,
+          "total-blocking-time": 1320.74755,
+          "cumulative-layout-shift": 0.03621802534066459
+        },
+        "rawReportSha256": "e893a57ebf9ede1410624efdc1a2e65e83168b1bc980ac99e1433a6532a5b294"
+      },
+      "settingsExactlyMatchPreviousReport": true,
+      "lighthouseVersion": "13.5.0",
+      "cpuSlowdownMultiplier": 1,
+      "nativeObserved": {
+        "fcpMs": 2275,
+        "lcpMs": 2275,
+        "traceEndMs": 4893,
+        "totalTaskTimeMs": 2138.1420000000016,
+        "numTasksOver50ms": 2
+      },
+      "lcpElement": {
+        "structuralSelector": "main > div > div > h1",
+        "rectangle": {
+          "top": 121,
+          "bottom": 160,
+          "left": 802,
+          "right": 1039,
+          "width": 237,
+          "height": 39
+        },
+        "nativeBreakdown": [
+          {
+            "subpart": "timeToFirstByte",
+            "label": "Time to first byte",
+            "duration": 48.217
+          },
+          {
+            "subpart": "elementRenderDelay",
+            "label": "Element render delay",
+            "duration": 2226.835
+          }
+        ]
+      },
+      "mainThreadAuditScaledMs": {
+        "other": 1670.5619999999876,
+        "scriptEvaluation": 328.5669999999936,
+        "styleLayout": 55.727,
+        "scriptParseCompile": 49.075999999999986,
+        "paintCompositeRender": 13.695999999999986,
+        "parseHTML": 10.661999999999999,
+        "garbageCollection": 9.852000000000013
+      },
+      "topScriptAuditScaledMs": [
+        {
+          "resource": "Unattributable",
+          "totalMs": 1626.6759999999877,
+          "scriptingMs": 6.834999999999998,
+          "parseCompileMs": 0
+        },
+        {
+          "resource": "/_next/static/chunks/3794-9f866eb1b07be87c.js",
+          "totalMs": 281.66100000000125,
+          "scriptingMs": 247.94000000000128,
+          "parseCompileMs": 4.25
+        },
+        {
+          "resource": "/ar/admin/users/",
+          "totalMs": 112.92899999999999,
+          "scriptingMs": 2.340999999999999,
+          "parseCompileMs": 16.318000000000005
+        }
+      ],
+      "renderBlocking": [],
+      "fontDisplayFailure": false,
+      "warningCount": 0,
+      "failedSeoAudits": [
+        "is-crawlable",
+        "meta-description"
+      ],
+      "authVerified": true,
+      "editorCleanup": {
+        "policy": "authenticated-robots-committed-lease-release-v1",
+        "beforeCount": 0,
+        "trackedCount": 0,
+        "remainingCount": 0,
+        "releasedCount": 0,
+        "observedReleaseRequests": 0,
+        "observedReleaseResponses": 0,
+        "observedReleaseFailures": 0,
+        "observedRequestFailures": 0,
+        "durationMs": 573,
+        "budgetMs": 15000,
+        "settledForMs": 519,
+        "success": true,
+        "destinationVerified": true,
+        "navigationStatus": 200,
+        "releaseStatuses": []
+      },
+      "activeLeaseReleaseExercised": false
+    },
+    {
+      "route": "/fa/",
+      "device": "mobile",
+      "attempt": 1,
+      "status": "completed",
+      "durationMs": 19758,
+      "httpStatus": 200,
+      "previousBuildId": "jV_8qsw2l0Gfrz9MFyW9n",
+      "before": {
+        "scores": {
+          "performance": 33,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "simulatedMetrics": {
+          "largest-contentful-paint": 7512.3297,
+          "total-blocking-time": 2179.0262000000007,
+          "cumulative-layout-shift": 0.2141315831719902
+        },
+        "rawReportSha256": "dbd5dcbf0cb433a6cace14d791515b6aa3794259ba792cd1614f76be4672f121"
+      },
+      "after": {
+        "scores": {
+          "performance": 44,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "simulatedMetrics": {
+          "largest-contentful-paint": 7955.1872250000015,
+          "total-blocking-time": 2219.31735,
+          "cumulative-layout-shift": 0
+        },
+        "rawReportSha256": "612e709e689846b7234ff0e8a4b68f2e9b070c03cf9d3d0d0118fe09fb5c9715"
+      },
+      "settingsExactlyMatchPreviousReport": true,
+      "lighthouseVersion": "13.5.0",
+      "cpuSlowdownMultiplier": 4,
+      "nativeObserved": {
+        "fcpMs": 1470,
+        "lcpMs": 1470,
+        "traceEndMs": 3902,
+        "totalTaskTimeMs": 1372.529999999985,
+        "numTasksOver50ms": 4
+      },
+      "lcpElement": {
+        "structuralSelector": "div > h1 > span > span",
+        "rectangle": {
+          "top": 189,
+          "bottom": 244,
+          "left": 20,
+          "right": 392,
+          "width": 372,
+          "height": 56
+        },
+        "nativeBreakdown": [
+          {
+            "subpart": "timeToFirstByte",
+            "label": "Time to first byte",
+            "duration": 67.226
+          },
+          {
+            "subpart": "elementRenderDelay",
+            "label": "Element render delay",
+            "duration": 1402.466
+          }
+        ]
+      },
+      "mainThreadAuditScaledMs": {
+        "other": 2883.5359999999755,
+        "scriptEvaluation": 1673.211999999964,
+        "styleLayout": 479.0240000000003,
+        "paintCompositeRender": 176.883999999993,
+        "scriptParseCompile": 174.27599999999998,
+        "parseHTML": 58.716,
+        "garbageCollection": 44.47199999999999
+      },
+      "topScriptAuditScaledMs": [
+        {
+          "resource": "Unattributable",
+          "totalMs": 2356.7879999999795,
+          "scriptingMs": 15.975999999999996,
+          "parseCompileMs": 0
+        },
+        {
+          "resource": "/_next/static/chunks/3794-9f866eb1b07be87c.js",
+          "totalMs": 1503.968000000001,
+          "scriptingMs": 1292.224000000001,
+          "parseCompileMs": 24.764000000000003
+        },
+        {
+          "resource": "/fa/",
+          "totalMs": 976.6840000000033,
+          "scriptingMs": 25.723999999999986,
+          "parseCompileMs": 57.18
+        },
+        {
+          "resource": "/_next/static/chunks/4bd1b696-8cd12253b448cc13.js",
+          "totalMs": 277.392,
+          "scriptingMs": 81.03200000000022,
+          "parseCompileMs": 15.264000000000001
+        }
+      ],
+      "renderBlocking": [
+        {
+          "resource": "/_next/static/css/8fcd9aea4312038e.css",
+          "transferBytes": 2650,
+          "estimatedSavingsMs": 162
+        }
+      ],
+      "fontDisplayFailure": false,
+      "warningCount": 0,
+      "failedSeoAudits": []
+    },
+    {
+      "route": "/fa/",
+      "device": "desktop",
+      "attempt": 1,
+      "status": "completed",
+      "durationMs": 24882,
+      "httpStatus": 200,
+      "previousBuildId": "jV_8qsw2l0Gfrz9MFyW9n",
+      "before": {
+        "scores": {
+          "performance": 68,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "simulatedMetrics": {
+          "largest-contentful-paint": 1432.04095,
+          "total-blocking-time": 297.99415,
+          "cumulative-layout-shift": 0.2829086872717375
+        },
+        "rawReportSha256": "8971f51c0e29bbf3ee85d25309b9a0aca959f039e01c04bd9cda5b3297a54922"
+      },
+      "after": {
+        "scores": {
+          "performance": 69,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "simulatedMetrics": {
+          "largest-contentful-paint": 1490.4639,
+          "total-blocking-time": 614.3623,
+          "cumulative-layout-shift": 1.135757568160526e-05
+        },
+        "rawReportSha256": "ec610905d90b35d70799419b573264f1d84dc29c4a2e7d63e1cfab0ff2a03c58"
+      },
+      "settingsExactlyMatchPreviousReport": true,
+      "lighthouseVersion": "13.5.0",
+      "cpuSlowdownMultiplier": 1,
+      "nativeObserved": {
+        "fcpMs": 1737,
+        "lcpMs": 1737,
+        "traceEndMs": 4171,
+        "totalTaskTimeMs": 1406.027999999975,
+        "numTasksOver50ms": 5
+      },
+      "lcpElement": {
+        "structuralSelector": "div > h1 > span > span",
+        "rectangle": {
+          "top": 388,
+          "bottom": 482,
+          "left": 753,
+          "right": 1278,
+          "width": 526,
+          "height": 94
+        },
+        "nativeBreakdown": [
+          {
+            "subpart": "timeToFirstByte",
+            "label": "Time to first byte",
+            "duration": 64.817
+          },
+          {
+            "subpart": "elementRenderDelay",
+            "label": "Element render delay",
+            "duration": 1671.729
+          }
+        ]
+      },
+      "mainThreadAuditScaledMs": {
+        "other": 904.567999999977,
+        "scriptEvaluation": 318.0249999999969,
+        "styleLayout": 83.55199999999998,
+        "scriptParseCompile": 42.04100000000002,
+        "paintCompositeRender": 26.192000000000395,
+        "garbageCollection": 17.460000000000004,
+        "parseHTML": 14.19
+      },
+      "topScriptAuditScaledMs": [
+        {
+          "resource": "Unattributable",
+          "totalMs": 834.3179999999774,
+          "scriptingMs": 5.4049999999999985,
+          "parseCompileMs": 0
+        },
+        {
+          "resource": "/_next/static/chunks/3794-9f866eb1b07be87c.js",
+          "totalMs": 269.0680000000015,
+          "scriptingMs": 227.71700000000152,
+          "parseCompileMs": 6.129
+        },
+        {
+          "resource": "/fa/",
+          "totalMs": 161.07600000000008,
+          "scriptingMs": 12.650999999999998,
+          "parseCompileMs": 10.886000000000003
+        },
+        {
+          "resource": "/_next/static/chunks/4bd1b696-8cd12253b448cc13.js",
+          "totalMs": 56.881000000000036,
+          "scriptingMs": 16.698000000000004,
+          "parseCompileMs": 5.19
+        }
+      ],
+      "renderBlocking": [
+        {
+          "resource": "/_next/static/css/8fcd9aea4312038e.css",
+          "transferBytes": 2650,
+          "estimatedSavingsMs": 51
+        }
+      ],
+      "fontDisplayFailure": false,
+      "warningCount": 0,
+      "failedSeoAudits": []
+    }
+  ],
+  "interpretation": {
+    "layoutShift": "Large measured home and desktop-directory layout shifts were reduced; current mobile-directory CLS remains unchanged.",
+    "remainingPerformance": "Other/Unattributable dominates main-thread time; a shared script chunk has measured cost but these reports do not identify a specific unnecessary function or worker cause. No additional product change is justified from this bounded evidence.",
+    "privateSeo": "Private routes retain intentional noindex and independently lack a meta description; scores54/58 are not changed for ranking.",
+    "timing": "LCP/TBT score values use Lighthouse simulation. Native observed LCP and task time are separate. Main-thread/bootup audit durations are scaled by CPU multiplier4 on mobile and1 on desktop.",
+    "singleSample": "One measurement per route/device, no retries. Software rendering and host/run variation remain; the comparison is not a performance guarantee.",
+    "leaseScope": "Both selected private pages observed zero owned leases; successful cleanup does not establish a positive held-lease release on an editor."
+  },
+  "fullAuditPending": {
+    "plannedPublicTargetsPerDevice": 620,
+    "plannedPrivateTargetsPerDevice": 530,
+    "plannedBothDeviceTargets": 2300,
+    "plannedExpected404Targets": 10,
+    "plannedPotentialScoredPages": 2290,
+    "actualFullInventoriesFrozen": false,
+    "privateScopePerDevice": {
+      "superAdmin": 430,
+      "customer": 80,
+      "otherStaffRepresentatives": 20,
+      "otherStaffRoles": 10
+    },
+    "countQualification": "These are source-plan counts. Exact full counts must come from the future frozen inventories, without silently sampling or dropping cases.",
+    "currentFourMeasurementCommandsWallSeconds": 93.94200000000001,
+    "naiveWallSecondsPerTarget": 23.485500000000002,
+    "naive2300TargetHours": 15.004625,
+    "weightedRecordedJobDurationHours": 12.81648611111111,
+    "throughputQualification": "Approximately12–16hours is a planning range from these four selected observations, not measured full-census throughput. Full batches amortize login/browser startup; other routes, content, host load, cleanup and exports can change runtime. Page deadline remains300seconds."
+  }
+}

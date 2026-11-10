@@ -1,0 +1,60 @@
+{
+  "url": "http://127.0.0.1:3100/fa/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "03a7af7cb7d3f6b925fd93136d2e5f309adf2a06d238de25c7886e40238724ea",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "خانه | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "دندان‌های مصنوعی و مواد دندان‌پزشکی ایده‌آل ماکو؛ حاصل بیش از چهار دهه تجربه، برای انتخاب حرفه‌ای شما."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/",
+    "en": "http://127.0.0.1:3100/en/",
+    "tr": "http://127.0.0.1:3100/tr/",
+    "ar": "http://127.0.0.1:3100/ar/",
+    "ru": "http://127.0.0.1:3100/ru/",
+    "x-default": "http://127.0.0.1:3100/fa/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "ایده‌آل ماکو",
+      "url": "http://127.0.0.1:3100",
+      "logo": "http://127.0.0.1:3100/media/brand/logo-transparent.png",
+      "telephone": "02188899776"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 64
+}

@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/factory-visit/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "b827bc8822d65819e7bb8b33e849967cb65b635bc3ebb4fcbb40a1c71f27988c",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Factory visit request | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Request a factory visit. When visit sessions are published, review available times and bookable capacity in this section."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/factory-visit/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/factory-visit/",
+    "en": "http://127.0.0.1:3100/en/factory-visit/",
+    "tr": "http://127.0.0.1:3100/tr/factory-visit/",
+    "ar": "http://127.0.0.1:3100/ar/factory-visit/",
+    "ru": "http://127.0.0.1:3100/ru/factory-visit/",
+    "x-default": "http://127.0.0.1:3100/fa/factory-visit/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 53
+}

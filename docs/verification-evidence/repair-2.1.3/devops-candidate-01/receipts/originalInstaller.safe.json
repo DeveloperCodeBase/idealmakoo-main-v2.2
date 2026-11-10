@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "kind": "collected-owned-guest-outcome",
+  "guest": "primary",
+  "job": "primary-original-installer",
+  "status": "passed",
+  "exitCode": 0,
+  "actualGuestWaitConsumed": true,
+  "startedAt": "2026-10-25T03:46:22.003764+00:00",
+  "completedAt": "2026-10-25T04:35:12.748598+00:00",
+  "elapsedSeconds": 2930.748242,
+  "files": {
+    "outcome.safe.json": {
+      "bytes": 407,
+      "sha256": "7459f81005faf3365a0e94006130a369e20d8c404fa09a46f14686b67c370afa",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "start.safe.json": {
+      "bytes": 350,
+      "sha256": "316f28ed7aa288744e217b428c3744b99452ab1744aa85d40c13e2b4d268942b",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "stdout.private": {
+      "bytes": 13167,
+      "sha256": "d58b4733ee62df98c60943f0bd675ad004a8e19750c094c979e0d7c89603144c",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "stderr.private.log": {
+      "bytes": 141719,
+      "sha256": "b02773891cd392c9c6bcdc37d0e89ae3d63e08f8cc23036b10a21cfea550de2c",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    }
+  }
+}

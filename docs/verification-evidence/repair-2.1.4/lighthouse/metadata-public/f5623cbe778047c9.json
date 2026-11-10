@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/install/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "8d5c61253a4320b3c85d55456d7ecb00133a4d79e26216a8f4ab2c09a41d0077",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Uygulamayı yükle | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Desteklenen tarayıcıdan Ideal Makoo web uygulamasını yükleyerek ürünlere, kaynaklara ve site hizmetlerine kolayca erişin."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/install/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/install/",
+    "en": "http://127.0.0.1:3100/en/install/",
+    "tr": "http://127.0.0.1:3100/tr/install/",
+    "ar": "http://127.0.0.1:3100/ar/install/",
+    "ru": "http://127.0.0.1:3100/ru/install/",
+    "x-default": "http://127.0.0.1:3100/fa/install/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 43
+}

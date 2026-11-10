@@ -1,0 +1,21 @@
+{
+  "phase": "typecheck",
+  "command": [
+    "npm",
+    "run",
+    "typecheck"
+  ],
+  "startedAt": "2026-10-25T17:54:22.022386+00:00",
+  "completed": true,
+  "interrupted": false,
+  "completedAt": "2026-10-25T17:54:27.323276+00:00",
+  "exitCode": 0,
+  "elapsedSeconds": 5.301,
+  "logBytes": 154,
+  "logSha256": "f33a52571047e95bcdb67838e5c55b326c5aa0e8798062c5e0e22ea9a7f3ff2c",
+  "observedBuildIdAfterCommand": "NWcRPAySX3HCzbpKSDJNf",
+  "sourceInputFingerprint": "f22b49bac26f5b59ede573dbaf6ed4cd52c738bfbe32b2d00ae9e47fe28c29ce",
+  "originalReceiptSha256": "b57649655dccbe764766e2958efa4e9c9e2cd001d48c2151fd09944d39c7f5a5",
+  "privateLogExcluded": true,
+  "buildIdentityNote": "This is a source/typecheck gate before the new production build; observedBuildIdAfterCommand identifies the older .next still present at that time."
+}

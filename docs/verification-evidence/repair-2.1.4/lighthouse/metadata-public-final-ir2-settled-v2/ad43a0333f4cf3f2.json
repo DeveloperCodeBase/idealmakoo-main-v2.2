@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/segmentation/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "efc54eef996076e63175467c1b819b4b570b561b7c5668e04876bfa5606bdb30",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Audiences and market segments | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Dental laboratories, clinics, hospitals, universities and the dental product distribution network."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/segmentation/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/segmentation/",
+    "en": "http://127.0.0.1:3100/en/segmentation/",
+    "tr": "http://127.0.0.1:3100/tr/segmentation/",
+    "ar": "http://127.0.0.1:3100/ar/segmentation/",
+    "ru": "http://127.0.0.1:3100/ru/segmentation/",
+    "x-default": "http://127.0.0.1:3100/fa/segmentation/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 52
+}

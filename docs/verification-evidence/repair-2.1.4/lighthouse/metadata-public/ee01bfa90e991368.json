@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/for/dentist/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "9f5f436d6560daf6c4ac93bdf7911c74d1cb102ea5d7737e714d71ae3b3a21b2",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "أطباء الأسنان | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "مواد سنية ومواصفات منتجات موثقة ومؤقت تعليمات المنتج وطلبات عينات أو استفسارات تقنية لأطباء الأسنان."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/for/dentist/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/for/dentist/",
+    "en": "http://127.0.0.1:3100/en/for/dentist/",
+    "tr": "http://127.0.0.1:3100/tr/for/dentist/",
+    "ar": "http://127.0.0.1:3100/ar/for/dentist/",
+    "ru": "http://127.0.0.1:3100/ru/for/dentist/",
+    "x-default": "http://127.0.0.1:3100/fa/for/dentist/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 93
+}

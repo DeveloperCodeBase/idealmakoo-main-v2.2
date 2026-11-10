@@ -1,0 +1,80 @@
+{
+  "format": "historical-private-layout-observations-v1",
+  "createdAt": "2026-10-25T17:31:03.800445+00:00",
+  "buildId": "NWcRPAySX3HCzbpKSDJNf",
+  "scope": "Two already completed historical reports; no new navigation or measurement",
+  "observations": [
+    {
+      "route": "/en/admin/cms/products/",
+      "role": "superAdmin",
+      "locale": "en",
+      "device": "mobile",
+      "rawReportSha256": "d2d89826d9a3baa3637036fc756bdfae6a5109b5653460ea879d886952e2066e",
+      "performanceScore": 45,
+      "cls": 0.6203564982481804,
+      "layoutShiftItems": [
+        {
+          "shiftScore": 0.5732874045936605,
+          "structuralSelector": "div > main > div > div",
+          "finalBoundingRect": {
+            "top": 4355,
+            "bottom": 6067,
+            "left": 12,
+            "right": 400,
+            "width": 388,
+            "height": 1712
+          }
+        },
+        {
+          "shiftScore": 0.04706909365451993,
+          "structuralSelector": "body > div > main > footer",
+          "finalBoundingRect": {
+            "top": 6085,
+            "bottom": 6121,
+            "left": 12,
+            "right": 400,
+            "width": 388,
+            "height": 36
+          }
+        }
+      ],
+      "unsizedImages": {
+        "score": 1,
+        "reportedItems": 0
+      },
+      "note": "These are affected elements and final bounds. They do not identify the initiating content mutation or establish causality by themselves."
+    },
+    {
+      "route": "/en/admin/monitoring/",
+      "role": "superAdmin",
+      "locale": "en",
+      "device": "mobile",
+      "rawReportSha256": "9c8a77625e4a19adbd5ab23244cf3ff838af6cb7aa3772ec39a597d85ec19230",
+      "performanceScore": 49,
+      "cls": 0.3709020986445516,
+      "layoutShiftItems": [
+        {
+          "shiftScore": 0.3709020986445516,
+          "structuralSelector": "main > div > section > p",
+          "finalBoundingRect": {
+            "top": 727,
+            "bottom": 834,
+            "left": 12,
+            "right": 400,
+            "width": 388,
+            "height": 108
+          }
+        }
+      ],
+      "unsizedImages": {
+        "score": 1,
+        "reportedItems": 0
+      },
+      "note": "These are affected elements and final bounds. They do not identify the initiating content mutation or establish causality by themselves."
+    }
+  ],
+  "privacy": "Only selected layout-shifts, unsized-images and cumulative-layout-shift audit objects parsed via mmap. Numeric shift scores and already strict-safe structural selectors/bounds retained. No DOM text, labels, snippets, CSS identifiers, URLs with queries, screenshots, image payloads, credentials or network details exported.",
+  "inputSummarySha256": "74a8de8668c3311e68a2d1aec8551b879343214aeecda550aabd92021c860a41",
+  "inputSafePartSha256": "a0d70c14f29e69dabf8b85a3a411c6081a94f15c37a5eb93d332d730d9bb19b9",
+  "noBrowserDatabaseOrHttpActivity": true
+}

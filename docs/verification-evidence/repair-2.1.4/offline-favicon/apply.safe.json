@@ -1,0 +1,132 @@
+{
+  "status": "passed",
+  "actualExecExitCode": 0,
+  "startedAt": "2026-10-26T01:04:33.570688+00:00",
+  "finishedAt": "2026-10-26T01:04:33.580799+00:00",
+  "durationSeconds": 0.010125457003596239,
+  "candidateManifestSha256": "8a0960d032b5af7adaf43acf1a242c8400f3428c0e538c8ba4bf7ab7680008a9",
+  "allBeforeHashesMatchedBeforeAnyWrite": true,
+  "allAppliedHashesMatchCandidate": true,
+  "modifiedTextFiles": 11,
+  "addedIdenticalPngFiles": 1,
+  "publicStaticChangedFiles": 9,
+  "existingTestChangedFiles": 3,
+  "newTopLevelTests": 0,
+  "compiledBuildIdBeforeAfter": "ir2DFJg8r5YdpbVQubUqF",
+  "compiledFileTreeNotRehashedInThisStep": true,
+  "noBuildBrowserHttpDatabaseOrServiceAction": true,
+  "changes": [
+    {
+      "path": "public/offline/fa.html",
+      "change": "modify",
+      "beforeBytes": 1965,
+      "afterBytes": 2062,
+      "beforeSha256": "390eaf04aa17502ae2401ba4d4b355c8f42470343887a5f91556e394e621f63d",
+      "afterSha256": "fa773bc257d34b96d61d6057217fb8ab3b42361e90808a56db6f5782c561ac60",
+      "approvedDeltaReversalEqualsOriginal": true
+    },
+    {
+      "path": "public/offline/en.html",
+      "change": "modify",
+      "beforeBytes": 1731,
+      "afterBytes": 1828,
+      "beforeSha256": "90217158e3463f15608788b7935b4a4517b43023fbe39e093d4c59b8190601ea",
+      "afterSha256": "95505f4e0ae6218d9191ad8c276c2c79d68095021bf699c7631c44e05ee986fa",
+      "approvedDeltaReversalEqualsOriginal": true
+    },
+    {
+      "path": "public/offline/tr.html",
+      "change": "modify",
+      "beforeBytes": 1791,
+      "afterBytes": 1888,
+      "beforeSha256": "37db640245835879433bd7067ac96af053795c608dcf56b29d7af7c739b4e657",
+      "afterSha256": "669185a151de220ce2d1aeb06d2b5beeb3b4e0d7b79334284c46d6bcec5fdecd",
+      "approvedDeltaReversalEqualsOriginal": true
+    },
+    {
+      "path": "public/offline/ar.html",
+      "change": "modify",
+      "beforeBytes": 1944,
+      "afterBytes": 2041,
+      "beforeSha256": "5b91e0b58bf6a4167501d9d56bdb5dce8b621c22f8e030e337d419c489dca057",
+      "afterSha256": "240752ff32113e7ed00982e09ae5ab45c6e58f8985c635749e7b348e20cd10fc",
+      "approvedDeltaReversalEqualsOriginal": true
+    },
+    {
+      "path": "public/offline/ru.html",
+      "change": "modify",
+      "beforeBytes": 2011,
+      "afterBytes": 2108,
+      "beforeSha256": "d9d1b7341b949986c9ef5c1a41ee3c3e170321a3af3a665bb90b81a821998a47",
+      "afterSha256": "c11f3eac6ace7aa10755d0e6a9efc9479b99745e834de3c50a017e5229a40b3c",
+      "approvedDeltaReversalEqualsOriginal": true
+    },
+    {
+      "path": "public/sw-policy.js",
+      "change": "modify",
+      "beforeBytes": 2057,
+      "afterBytes": 2057,
+      "beforeSha256": "e0326da5da22e98fff1e6a6162cd8d8a18eadd97b70ad886005f341b0e2d3aa3",
+      "afterSha256": "1669fae0fe37dbb16887f483f57d62d2d25b18ea752d3dd05c513a2b4102d389",
+      "approvedDeltaReversalEqualsOriginal": true
+    },
+    {
+      "path": "public/service-worker.js",
+      "change": "modify",
+      "beforeBytes": 2703,
+      "afterBytes": 3182,
+      "beforeSha256": "295d724bff28e50a87c3337a143138cf2707d9ca2eac45afa3eefc34e70fe80c",
+      "afterSha256": "d25d7d04a7948dfeb99f8cf285fbcd6836474a43ebed77917fbedae58d0cb213",
+      "approvedDeltaReversalEqualsOriginal": true
+    },
+    {
+      "path": "public/service-worker-classic.js",
+      "change": "modify",
+      "beforeBytes": 4692,
+      "afterBytes": 5171,
+      "beforeSha256": "2ad9eee431765feebab26807f45dd2e05048f2514bc2da2837b1889912bcd6b1",
+      "afterSha256": "58d886ea44d662ff63c1c48b87b4de8aa8a975d3df0250d393723e2d944f4628",
+      "approvedDeltaReversalEqualsOriginal": true
+    },
+    {
+      "path": "tests/pwa-policy.test.mjs",
+      "change": "modify",
+      "beforeBytes": 2492,
+      "afterBytes": 2814,
+      "beforeSha256": "3a6aa7ed6ba0c28901ec199b8ae965a4299dcc8afa25ae9160eeea4682bf2475",
+      "afterSha256": "c2e312b8d5d404451dbd91e8f6c5ac94d2cf65b3a6f8bb26f080bc9f81ce3efa",
+      "approvedDeltaReversalEqualsOriginal": true
+    },
+    {
+      "path": "tests/service-worker-classic.test.mjs",
+      "change": "modify",
+      "beforeBytes": 6660,
+      "afterBytes": 7321,
+      "beforeSha256": "d1467da7eb7723f35740e7b5b686d089e40744b51f74ccc512ed9d0596d8a22b",
+      "afterSha256": "d77a5a27bfec091c8c77353c36ce6fe422216a289139634c9d8c4b97d9620204",
+      "approvedDeltaReversalEqualsOriginal": true
+    },
+    {
+      "path": "tests/e2e/pwa-offline.spec.ts",
+      "change": "modify",
+      "beforeBytes": 3552,
+      "afterBytes": 5689,
+      "beforeSha256": "5f626213be35e36702b41b972392d4b2c8cfe20bcef2e438af42cfbe8d6803f4",
+      "afterSha256": "709e8d5f1b82617128c6aa536eed3926652dcc2fa1eadc914b77cb4c18d1b4bf",
+      "approvedDeltaReversalEqualsOriginal": true
+    },
+    {
+      "path": "public/media/official/idealmakoo-favicon-48.png",
+      "change": "add-identical-bundled-asset",
+      "beforeBytes": null,
+      "afterBytes": 4791,
+      "beforeSha256": null,
+      "afterSha256": "1c715c272d59df0eceef288dc2effe527a97a9b32d80382acd88ff1a4e9dbc02",
+      "identicalToExistingPath": "public/icons/idealmakoo-favicon-48.png"
+    }
+  ],
+  "format": "offline-favicon-typed-evidence-v1",
+  "rawReceiptSha256": "58962e3f8d613e40966b6c8fc7a6ad8c99bde40de79549be82599807fe14510c",
+  "privatePathsEnvironmentLogsAndBrowserPayloadsExported": false,
+  "scope": "Nine public static files including one added identical icon, and three existing test files. Browser service-worker runtime changed; no Next-compiled source or configuration change."
+}

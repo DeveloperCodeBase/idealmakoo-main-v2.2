@@ -1,0 +1,11 @@
+{
+  "kind": "doctor-configured-timeout-regression",
+  "baselineExitCode": 1,
+  "baselineSeconds": 6.056,
+  "baselineFalseFailureReproduced": true,
+  "sourceAfterSha256": "3a1b459ca361cc9d6ae1395067d6990b2ad5ac5c3a561b24ee2e4949450736d0",
+  "newRegressionTests": 2,
+  "newRegressionExitCode": 0,
+  "result": "configured 90s budget no longer falls back to6s abort; blank budget retains default",
+  "originalReceiptSha256": "a57e9b6a0b6c9af018b2d8b2d665dbde3dbfc50d0d24dd38bcb52c1a04d2af42"
+}

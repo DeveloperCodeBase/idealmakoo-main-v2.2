@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "kind": "final-ai-copy-only-diff",
+  "checkedAt": "2026-10-23T11:07:13.411928+00:00",
+  "previousBuildId": "HSeZD37BGY1jy6cC01AzB",
+  "previousInputSha256": "499c0bc34043d69e34cd7559f59b45ac1414cf4ae25f94f1dde5025328f3f05e",
+  "previousInputs": 986,
+  "changedFiles": [
+    "src/components/workspace/AiStudio.tsx"
+  ],
+  "afterFileSha256": "5a1aaeb85f033477fd78b442b8792445c930724df140ba0259629ff440f948bb",
+  "sharedWorkspaceAndStylesUnchanged": true,
+  "backendDatabaseOperationsTestsUnchanged": true
+}

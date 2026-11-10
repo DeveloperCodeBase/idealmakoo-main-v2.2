@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/inquiry-list/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "fc00fcf8bdc77d08c6c5e8d06b59dfe3bb3014da40eed6e333860669e37ea094",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Список запросов | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Проверьте выбранные продукты и количество, измените список и отправьте технический запрос на завод."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/inquiry-list/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/inquiry-list/",
+    "en": "http://127.0.0.1:3100/en/inquiry-list/",
+    "tr": "http://127.0.0.1:3100/tr/inquiry-list/",
+    "ar": "http://127.0.0.1:3100/ar/inquiry-list/",
+    "ru": "http://127.0.0.1:3100/ru/inquiry-list/",
+    "x-default": "http://127.0.0.1:3100/fa/inquiry-list/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 46
+}

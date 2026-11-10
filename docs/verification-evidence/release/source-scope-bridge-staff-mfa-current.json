@@ -1,0 +1,650 @@
+{
+  "format": "source-application-applicability-bridge-v1",
+  "recordedAt": "2026-10-22T11:11:08.385289+00:00",
+  "currentCohort": "staff-mfa-recovery-05-r4",
+  "cohorts": {
+    "asset-routing-03": {
+      "source": {
+        "files": 832,
+        "sha256": "981c8a90b315e4ae01de066365c3a08ae287b9afaf9202460bcf2db01161898e"
+      },
+      "application": {
+        "files": 685,
+        "sha256": "0045597565fe76bf449866d397a7eee2c5927a85cda40512044de2673f583807"
+      },
+      "buildId": "UFNFFG64Vx2uruUMUuU9z"
+    },
+    "workspace-target-04": {
+      "source": {
+        "files": 832,
+        "sha256": "17c709a725bebcdf51f081402c0dfb1c3d27b1fa18267a0d6130788cb8708ba7"
+      },
+      "application": {
+        "files": 685,
+        "sha256": "5effbe2eb13bf0d85d6bf7c8bc1c585fa91ba98238f949c08d6e56194f294880"
+      },
+      "buildId": "pI34d4E4cOI25iRFMK_j9"
+    },
+    "staff-mfa-recovery-05-r4": {
+      "source": {
+        "files": 834,
+        "sha256": "19044d087929a9edfe8c2a16c786915567edd87a9bd48caa009a2e1da6ea64f4"
+      },
+      "application": {
+        "files": 685,
+        "sha256": "30a8ab7365218e8ee4ace5c814ae3deeeea4b36c7d0950a9fb1d3407cf8a2264"
+      },
+      "buildId": "6zYPGs6att2TeUwSprugE"
+    }
+  },
+  "verification": {
+    "currentFilesMatchSavedCatalogs": true,
+    "sourceNameSetMatched": true,
+    "applicationNameSetMatched": true,
+    "sourceFiles": 834,
+    "applicationFiles": 685,
+    "uniqueFilesReadOnce": 969,
+    "uniqueBytesRead": 51475642,
+    "sourceBytes": 9208780,
+    "applicationBytes": 48601246,
+    "aggregateAlgorithm": "SHA-256 of each sorted relative UTF-8 path, one NUL byte, and complete file bytes; names use JavaScript UTF-16 lexical order",
+    "inputsStableBeforeAndAfter": true
+  },
+  "comparisons": [
+    {
+      "from": "asset-routing-03",
+      "to": "workspace-target-04",
+      "source": {
+        "beforeFiles": 832,
+        "afterFiles": 832,
+        "identicalFiles": 831,
+        "modifiedFiles": 1,
+        "addedFiles": 0,
+        "removedFiles": 0,
+        "modified": [
+          {
+            "path": "src/components/workspace/workspace.css",
+            "before": {
+              "sha256": "3e6cf603dc61d4db9ce437933463e5b57ddf9db0ccc4193313eb56f294b5d26b",
+              "bytes": 102845
+            },
+            "after": {
+              "sha256": "86ba67d110c9aeb5d8b90e2b96d9ef7834b1495508e6b5975490d201ad33c479",
+              "bytes": 102895
+            }
+          }
+        ],
+        "added": [],
+        "removed": []
+      },
+      "application": {
+        "beforeFiles": 685,
+        "afterFiles": 685,
+        "identicalFiles": 684,
+        "modifiedFiles": 1,
+        "addedFiles": 0,
+        "removedFiles": 0,
+        "modified": [
+          {
+            "path": "src/components/workspace/workspace.css",
+            "before": {
+              "sha256": "3e6cf603dc61d4db9ce437933463e5b57ddf9db0ccc4193313eb56f294b5d26b",
+              "bytes": 102845
+            },
+            "after": {
+              "sha256": "86ba67d110c9aeb5d8b90e2b96d9ef7834b1495508e6b5975490d201ad33c479",
+              "bytes": 102895
+            }
+          }
+        ],
+        "added": [],
+        "removed": []
+      }
+    },
+    {
+      "from": "workspace-target-04",
+      "to": "staff-mfa-recovery-05-r4",
+      "source": {
+        "beforeFiles": 832,
+        "afterFiles": 834,
+        "identicalFiles": 826,
+        "modifiedFiles": 6,
+        "addedFiles": 2,
+        "removedFiles": 0,
+        "modified": [
+          {
+            "path": "src/components/workspace/StaffManagement.tsx",
+            "before": {
+              "sha256": "462c50264a6576e3657345210a42288c3b1f5e09bc9b69c80ee7c193f2c3356f",
+              "bytes": 28052
+            },
+            "after": {
+              "sha256": "0135738460faf3c41c58d45f3ec8aeb37ee89e9e6e038554274e10166ffe77fa",
+              "bytes": 44898
+            }
+          },
+          {
+            "path": "src/server/account.ts",
+            "before": {
+              "sha256": "3d50e5c3bbafed564c5b35ef2f39efd8f0d3ca5e17479a70ed3f287700b80508",
+              "bytes": 31762
+            },
+            "after": {
+              "sha256": "3e206d9ba27bb1a9d591402dd8e6b03e7adc9d9a503e48678486f27d6137eb59",
+              "bytes": 42041
+            }
+          },
+          {
+            "path": "src/server/router.ts",
+            "before": {
+              "sha256": "4524c6c94f9665c0f7b66fbe001e83e15880e12d6ee648b7dc8d7cb58e96d460",
+              "bytes": 76314
+            },
+            "after": {
+              "sha256": "18c548ef40b373299161ebd7af20cef0837622edfa517d039c7faa6e094610d0",
+              "bytes": 76517
+            }
+          },
+          {
+            "path": "src/types/user-management.ts",
+            "before": {
+              "sha256": "f2308f97d16820c577f975ced88bdcf0d4932d892e009df23ddb2340007dbed1",
+              "bytes": 2012
+            },
+            "after": {
+              "sha256": "7c2437fadbee828a6d1f99dcb6c18da9cce7300bc9daf623e0330436609fde06",
+              "bytes": 2550
+            }
+          },
+          {
+            "path": "tests/api-reauthentication.test.mjs",
+            "before": {
+              "sha256": "1bba768e55ba971a7606aa8c464c96cecdbbd0c71a9a8ab574fe1c280c85a481",
+              "bytes": 1990
+            },
+            "after": {
+              "sha256": "58f448b3487ff37da87eec7410d52cd2794744281876768dcc0d5ae4ba5f727b",
+              "bytes": 2106
+            }
+          },
+          {
+            "path": "tests/staff-user-directory.test.mjs",
+            "before": {
+              "sha256": "ed877e34e904281e95e63b5b0ca15bb83f20cb26b259ca2fa616be211f1bef71",
+              "bytes": 36823
+            },
+            "after": {
+              "sha256": "c8926ce21cc13d8b28e05ee333018c8764b5ea05e32c15d71ab8c9b53a0d30a3",
+              "bytes": 43710
+            }
+          }
+        ],
+        "added": [
+          {
+            "path": "tests/e2e/panel-staff-mfa-reset.spec.ts",
+            "sha256": "01dc2f2cda65869cecd35759f146b2f33c23ebfad22b2cdc6e8ab2bdef2d3bda",
+            "bytes": 15464
+          },
+          {
+            "path": "tests/server-panel-staff-mfa-reset.pg.mjs",
+            "sha256": "51f00218be2c087f694fc62d8724ca608638115f47ffe9334cc8bb2432e33fc3",
+            "bytes": 28310
+          }
+        ],
+        "removed": []
+      },
+      "application": {
+        "beforeFiles": 685,
+        "afterFiles": 685,
+        "identicalFiles": 681,
+        "modifiedFiles": 4,
+        "addedFiles": 0,
+        "removedFiles": 0,
+        "modified": [
+          {
+            "path": "src/components/workspace/StaffManagement.tsx",
+            "before": {
+              "sha256": "462c50264a6576e3657345210a42288c3b1f5e09bc9b69c80ee7c193f2c3356f",
+              "bytes": 28052
+            },
+            "after": {
+              "sha256": "0135738460faf3c41c58d45f3ec8aeb37ee89e9e6e038554274e10166ffe77fa",
+              "bytes": 44898
+            }
+          },
+          {
+            "path": "src/server/account.ts",
+            "before": {
+              "sha256": "3d50e5c3bbafed564c5b35ef2f39efd8f0d3ca5e17479a70ed3f287700b80508",
+              "bytes": 31762
+            },
+            "after": {
+              "sha256": "3e206d9ba27bb1a9d591402dd8e6b03e7adc9d9a503e48678486f27d6137eb59",
+              "bytes": 42041
+            }
+          },
+          {
+            "path": "src/server/router.ts",
+            "before": {
+              "sha256": "4524c6c94f9665c0f7b66fbe001e83e15880e12d6ee648b7dc8d7cb58e96d460",
+              "bytes": 76314
+            },
+            "after": {
+              "sha256": "18c548ef40b373299161ebd7af20cef0837622edfa517d039c7faa6e094610d0",
+              "bytes": 76517
+            }
+          },
+          {
+            "path": "src/types/user-management.ts",
+            "before": {
+              "sha256": "f2308f97d16820c577f975ced88bdcf0d4932d892e009df23ddb2340007dbed1",
+              "bytes": 2012
+            },
+            "after": {
+              "sha256": "7c2437fadbee828a6d1f99dcb6c18da9cce7300bc9daf623e0330436609fde06",
+              "bytes": 2550
+            }
+          }
+        ],
+        "added": [],
+        "removed": []
+      }
+    },
+    {
+      "from": "asset-routing-03",
+      "to": "staff-mfa-recovery-05-r4",
+      "source": {
+        "beforeFiles": 832,
+        "afterFiles": 834,
+        "identicalFiles": 825,
+        "modifiedFiles": 7,
+        "addedFiles": 2,
+        "removedFiles": 0,
+        "modified": [
+          {
+            "path": "src/components/workspace/StaffManagement.tsx",
+            "before": {
+              "sha256": "462c50264a6576e3657345210a42288c3b1f5e09bc9b69c80ee7c193f2c3356f",
+              "bytes": 28052
+            },
+            "after": {
+              "sha256": "0135738460faf3c41c58d45f3ec8aeb37ee89e9e6e038554274e10166ffe77fa",
+              "bytes": 44898
+            }
+          },
+          {
+            "path": "src/components/workspace/workspace.css",
+            "before": {
+              "sha256": "3e6cf603dc61d4db9ce437933463e5b57ddf9db0ccc4193313eb56f294b5d26b",
+              "bytes": 102845
+            },
+            "after": {
+              "sha256": "86ba67d110c9aeb5d8b90e2b96d9ef7834b1495508e6b5975490d201ad33c479",
+              "bytes": 102895
+            }
+          },
+          {
+            "path": "src/server/account.ts",
+            "before": {
+              "sha256": "3d50e5c3bbafed564c5b35ef2f39efd8f0d3ca5e17479a70ed3f287700b80508",
+              "bytes": 31762
+            },
+            "after": {
+              "sha256": "3e206d9ba27bb1a9d591402dd8e6b03e7adc9d9a503e48678486f27d6137eb59",
+              "bytes": 42041
+            }
+          },
+          {
+            "path": "src/server/router.ts",
+            "before": {
+              "sha256": "4524c6c94f9665c0f7b66fbe001e83e15880e12d6ee648b7dc8d7cb58e96d460",
+              "bytes": 76314
+            },
+            "after": {
+              "sha256": "18c548ef40b373299161ebd7af20cef0837622edfa517d039c7faa6e094610d0",
+              "bytes": 76517
+            }
+          },
+          {
+            "path": "src/types/user-management.ts",
+            "before": {
+              "sha256": "f2308f97d16820c577f975ced88bdcf0d4932d892e009df23ddb2340007dbed1",
+              "bytes": 2012
+            },
+            "after": {
+              "sha256": "7c2437fadbee828a6d1f99dcb6c18da9cce7300bc9daf623e0330436609fde06",
+              "bytes": 2550
+            }
+          },
+          {
+            "path": "tests/api-reauthentication.test.mjs",
+            "before": {
+              "sha256": "1bba768e55ba971a7606aa8c464c96cecdbbd0c71a9a8ab574fe1c280c85a481",
+              "bytes": 1990
+            },
+            "after": {
+              "sha256": "58f448b3487ff37da87eec7410d52cd2794744281876768dcc0d5ae4ba5f727b",
+              "bytes": 2106
+            }
+          },
+          {
+            "path": "tests/staff-user-directory.test.mjs",
+            "before": {
+              "sha256": "ed877e34e904281e95e63b5b0ca15bb83f20cb26b259ca2fa616be211f1bef71",
+              "bytes": 36823
+            },
+            "after": {
+              "sha256": "c8926ce21cc13d8b28e05ee333018c8764b5ea05e32c15d71ab8c9b53a0d30a3",
+              "bytes": 43710
+            }
+          }
+        ],
+        "added": [
+          {
+            "path": "tests/e2e/panel-staff-mfa-reset.spec.ts",
+            "sha256": "01dc2f2cda65869cecd35759f146b2f33c23ebfad22b2cdc6e8ab2bdef2d3bda",
+            "bytes": 15464
+          },
+          {
+            "path": "tests/server-panel-staff-mfa-reset.pg.mjs",
+            "sha256": "51f00218be2c087f694fc62d8724ca608638115f47ffe9334cc8bb2432e33fc3",
+            "bytes": 28310
+          }
+        ],
+        "removed": []
+      },
+      "application": {
+        "beforeFiles": 685,
+        "afterFiles": 685,
+        "identicalFiles": 680,
+        "modifiedFiles": 5,
+        "addedFiles": 0,
+        "removedFiles": 0,
+        "modified": [
+          {
+            "path": "src/components/workspace/StaffManagement.tsx",
+            "before": {
+              "sha256": "462c50264a6576e3657345210a42288c3b1f5e09bc9b69c80ee7c193f2c3356f",
+              "bytes": 28052
+            },
+            "after": {
+              "sha256": "0135738460faf3c41c58d45f3ec8aeb37ee89e9e6e038554274e10166ffe77fa",
+              "bytes": 44898
+            }
+          },
+          {
+            "path": "src/components/workspace/workspace.css",
+            "before": {
+              "sha256": "3e6cf603dc61d4db9ce437933463e5b57ddf9db0ccc4193313eb56f294b5d26b",
+              "bytes": 102845
+            },
+            "after": {
+              "sha256": "86ba67d110c9aeb5d8b90e2b96d9ef7834b1495508e6b5975490d201ad33c479",
+              "bytes": 102895
+            }
+          },
+          {
+            "path": "src/server/account.ts",
+            "before": {
+              "sha256": "3d50e5c3bbafed564c5b35ef2f39efd8f0d3ca5e17479a70ed3f287700b80508",
+              "bytes": 31762
+            },
+            "after": {
+              "sha256": "3e206d9ba27bb1a9d591402dd8e6b03e7adc9d9a503e48678486f27d6137eb59",
+              "bytes": 42041
+            }
+          },
+          {
+            "path": "src/server/router.ts",
+            "before": {
+              "sha256": "4524c6c94f9665c0f7b66fbe001e83e15880e12d6ee648b7dc8d7cb58e96d460",
+              "bytes": 76314
+            },
+            "after": {
+              "sha256": "18c548ef40b373299161ebd7af20cef0837622edfa517d039c7faa6e094610d0",
+              "bytes": 76517
+            }
+          },
+          {
+            "path": "src/types/user-management.ts",
+            "before": {
+              "sha256": "f2308f97d16820c577f975ced88bdcf0d4932d892e009df23ddb2340007dbed1",
+              "bytes": 2012
+            },
+            "after": {
+              "sha256": "7c2437fadbee828a6d1f99dcb6c18da9cce7300bc9daf623e0330436609fde06",
+              "bytes": 2550
+            }
+          }
+        ],
+        "added": [],
+        "removed": []
+      }
+    }
+  ],
+  "privateCheckboxCss": {
+    "path": "src/components/workspace/workspace.css",
+    "before": {
+      "sha256": "3e6cf603dc61d4db9ce437933463e5b57ddf9db0ccc4193313eb56f294b5d26b",
+      "bytes": 102845
+    },
+    "after": {
+      "sha256": "86ba67d110c9aeb5d8b90e2b96d9ef7834b1495508e6b5975490d201ad33c479",
+      "bytes": 102895
+    },
+    "addedBytes": 50,
+    "exactAppendedText": ".ws-root form .ws-checkbox-label{min-height:24px}\n",
+    "allEarlierBytesPreserved": true,
+    "unchangedBetween04And05": true,
+    "scope": "The selector is limited to checkbox labels inside forms under .ws-root; this byte proof is not a computed-style or pixel comparison."
+  },
+  "unchangedPublicAndWorkerInputs": {
+    "comparison": "asset-routing-03 to staff-mfa-recovery-05-r4",
+    "publicAssets": {
+      "selector": "all application-catalog files under public/",
+      "files": 133,
+      "bytes": 42266449,
+      "allByteIdentical": true
+    },
+    "experienceAndHeroCode": {
+      "selector": "src/components/experience/** plus the two listed site components and scripts/build-worker.mjs",
+      "files": 32,
+      "allByteIdentical": true,
+      "members": [
+        {
+          "path": "scripts/build-worker.mjs",
+          "sha256": "77431a217e5fce34f15f790b6b1ee9b73a33f80ad80034e06b510361e53f14a7",
+          "bytes": 3992
+        },
+        {
+          "path": "src/components/experience/RubikExperience.tsx",
+          "sha256": "024fa1820d99bb13c7e8878b354a6204181f3be825195edb8c7b94e24167a6d0",
+          "bytes": 9238
+        },
+        {
+          "path": "src/components/experience/ToothExperience.tsx",
+          "sha256": "465af757e396a4b68f0a5878a7bc12f3cd562da0176c0cd17bafe384aa5087d7",
+          "bytes": 26280
+        },
+        {
+          "path": "src/components/experience/engines/anatomy.ts",
+          "sha256": "9903431f431f21b9a9b66b366fa7eec67c4869a4b6eaef654ace8a46cb41c7a9",
+          "bytes": 8920
+        },
+        {
+          "path": "src/components/experience/engines/auth-worker-host.ts",
+          "sha256": "6c2227bbd3af5674989484c5d8550a27ccf93a87394407ebe184032614e9c438",
+          "bytes": 7243
+        },
+        {
+          "path": "src/components/experience/engines/auth-worker-protocol.ts",
+          "sha256": "36c619069db437e61cf65938b44b8b7e7f47e2e9f997676e6290e79ea70cc3a6",
+          "bytes": 4530
+        },
+        {
+          "path": "src/components/experience/engines/auth.ts",
+          "sha256": "ff6f336d632bb8cdef34ff935b93e855286bd8fd6d5ca37f6a6e57bec8c18d30",
+          "bytes": 37655
+        },
+        {
+          "path": "src/components/experience/engines/auth.worker.ts",
+          "sha256": "0c09be55ae125334c88f970df17a3d028e922d680e4ad89b3a4f6cdda61938b8",
+          "bytes": 6288
+        },
+        {
+          "path": "src/components/experience/engines/dynamics.ts",
+          "sha256": "f51147853c565f528a43f11699ed0d0a91eab41d97191608828f5de02a34e205",
+          "bytes": 12371
+        },
+        {
+          "path": "src/components/experience/engines/environment.ts",
+          "sha256": "257f359739ceb1d3b1e7c30234c1bf834e6e0f9c9feaee0d4e65292a5de642c4",
+          "bytes": 4973
+        },
+        {
+          "path": "src/components/experience/engines/framing.ts",
+          "sha256": "92775930944a20f94d1ed74d54fe2751c433a9d3ac1fd656bd72c7cf5d69cb3d",
+          "bytes": 4247
+        },
+        {
+          "path": "src/components/experience/engines/hero-platform.ts",
+          "sha256": "36b547a0e2428083e24cc1df6bab87cbfc461cb7e39b6eac840406385b843126",
+          "bytes": 842
+        },
+        {
+          "path": "src/components/experience/engines/hero-worker-host.ts",
+          "sha256": "e04af08615e1a5888cefea76ef415c23b8dff2d29a288fda2ebf79dad327c1f7",
+          "bytes": 10780
+        },
+        {
+          "path": "src/components/experience/engines/hero-worker-protocol.ts",
+          "sha256": "016606dc1edd9353529ae4f2e660951ec628cfae97e9cb02048bd12e195e5aa2",
+          "bytes": 4535
+        },
+        {
+          "path": "src/components/experience/engines/hero.ts",
+          "sha256": "3b16ac5a1a0d9f353fd30303011edfda0f3c46bc1c227a09f947018c79308598",
+          "bytes": 33966
+        },
+        {
+          "path": "src/components/experience/engines/hero.worker.ts",
+          "sha256": "d8724af7b1f7c2cf4c71a4ff28f234383fe86d731151d5b046250a483c2c85b6",
+          "bytes": 9442
+        },
+        {
+          "path": "src/components/experience/engines/liquid-water.ts",
+          "sha256": "df0e02d89b448eb6ed8cd0e4bada0102472c9508240a86526c5c5549affecefb",
+          "bytes": 11338
+        },
+        {
+          "path": "src/components/experience/engines/molar-mesh.ts",
+          "sha256": "23935ae5befa063fc9e760cd1f98755556efd2317082e6aaf4198c06a00b2af0",
+          "bytes": 7410
+        },
+        {
+          "path": "src/components/experience/engines/molar.worker.ts",
+          "sha256": "103b3a18926b3e47d200a1cfa7272a714927ec2ef6aac2ddc357c3358f148b03",
+          "bytes": 1146
+        },
+        {
+          "path": "src/components/experience/engines/ocean-math.ts",
+          "sha256": "eccfc7cd1dfcf3a1d0caa57851683d9c2f3d6ce9dedfd8fbc0effc6dd5dcb837",
+          "bytes": 7847
+        },
+        {
+          "path": "src/components/experience/engines/prepare-molar.ts",
+          "sha256": "035dba3ca1e6dccea059b97af881872c0d02e557fcf30641c2cc1386a75fd84c",
+          "bytes": 4402
+        },
+        {
+          "path": "src/components/experience/engines/rubik-platform.ts",
+          "sha256": "0cccbeca4cb143d168813411b69fc619ebf2899c8a160667c72fb9b64b368768",
+          "bytes": 750
+        },
+        {
+          "path": "src/components/experience/engines/rubik-worker-host.ts",
+          "sha256": "7ae6e8e204911618e07db1483815edaae557b74851473791c341694cd9a1007e",
+          "bytes": 8641
+        },
+        {
+          "path": "src/components/experience/engines/rubik-worker-protocol.ts",
+          "sha256": "89a16fa7400582287c21ea390985c24315a73245919546812a04ae4737ddc218",
+          "bytes": 6604
+        },
+        {
+          "path": "src/components/experience/engines/rubik.ts",
+          "sha256": "a3ffa1de07321b589980b464de73227aac7dc5755e23b258ce4612488b9a46c0",
+          "bytes": 43993
+        },
+        {
+          "path": "src/components/experience/engines/rubik.worker.ts",
+          "sha256": "a7dfc2a8b941c58cd8f5867717c4c8d1b55772e349f65b32ae4fcb07b8a7888f",
+          "bytes": 7523
+        },
+        {
+          "path": "src/components/experience/engines/scene-clock.ts",
+          "sha256": "2f9f4b494979c968ce57ab62a83a562bd17e889fb041159d1ccd5f580464828d",
+          "bytes": 898
+        },
+        {
+          "path": "src/components/experience/engines/scene-preparation.ts",
+          "sha256": "8c4231a18fee2db8e5afb47756fe4f49d66e07c0223ade180b04ac2189ef82c8",
+          "bytes": 3119
+        },
+        {
+          "path": "src/components/experience/engines/tooth.ts",
+          "sha256": "a4f8876b6e241468bf3246662e666bd66bcad84199eb3282a7fa048356cdfd84",
+          "bytes": 7200
+        },
+        {
+          "path": "src/components/experience/experience.module.css",
+          "sha256": "96914e8e8b9acbd62f55e479d2df95b72dd613647c811f2e2a8d42b402f847e8",
+          "bytes": 8343
+        },
+        {
+          "path": "src/components/site/HeroHeadline.tsx",
+          "sha256": "a22027751e4ac65054ba4e6b9a13e0c719ee7dd0e4110538c247c809a130bf49",
+          "bytes": 3023
+        },
+        {
+          "path": "src/components/site/ImmersiveHero.tsx",
+          "sha256": "2e4d29c1fc8ed3e3059be0a0ed2eacb4106582fe5f811caac547461a563d5ef5",
+          "bytes": 7403
+        }
+      ]
+    },
+    "historicalEvidence": "frontend-visual-worker-asset-routing-03.json",
+    "applicability": "Unchanged selected code and assets support a narrow source applicability comparison. The six earlier Worker cases and six visual observations remain measurements of asset-routing-03.",
+    "limits": [
+      "No current Worker or visual test was run for this bridge.",
+      "Unchanged input files do not establish identical runtime behavior, screenshots, pixels, materials, INP, or performance.",
+      "The changed account, router, staff-management, and type files remain explicit application differences."
+    ]
+  },
+  "lighthouseScope": {
+    "historicalPrivateFull": {
+      "cohort": "workspace-target-04",
+      "evidence": "lighthouse-private-workspace-target-04-full/summary.json",
+      "resultsRelabelledAsCurrent": false
+    },
+    "currentPrivateFull": {
+      "decision": "not-repeated",
+      "measurementPerformedOnCurrentCohort": false,
+      "rationale": "The coordinator retains the complete 04 measurement as historical evidence and evaluates the scoped MFA change through separately recorded current functional, database, browser, and fast accessibility evidence. This bridge does not substitute those results for a current full Lighthouse measurement.",
+      "currentFastAuditResultIncludedInThisBridge": false
+    },
+    "currentPublicFull": {
+      "state": "pending",
+      "resultIncludedInThisBridge": false
+    }
+  },
+  "claims": {
+    "productFilesModifiedByThisOperation": false,
+    "testsOrBrowserExecutedByThisOperation": false,
+    "newPerformanceGainClaimed": false,
+    "pixelEquivalenceClaimed": false,
+    "originalDockerfileBuildVerifiedByThisOperation": false,
+    "freshHostRecoveryVerifiedByThisOperation": false,
+    "allProductionRequirementsAccepted": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/positioning/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "a324c3f0b0fc5d0a6b4f08cb7b91c0bd9d7945c09ab870ce75a39f0776e1523f",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Konumlandırma ve müşteri deneyimi | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Kalıp ve renk ayrıntıları, müşteri geri bildirimi ve iş ortağı ağının desteklenmesi."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/positioning/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/positioning/",
+    "en": "http://127.0.0.1:3100/en/positioning/",
+    "tr": "http://127.0.0.1:3100/tr/positioning/",
+    "ar": "http://127.0.0.1:3100/ar/positioning/",
+    "ru": "http://127.0.0.1:3100/ru/positioning/",
+    "x-default": "http://127.0.0.1:3100/fa/positioning/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 41
+}

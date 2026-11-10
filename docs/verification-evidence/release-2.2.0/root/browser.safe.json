@@ -1,0 +1,558 @@
+{
+  "command": "Playwright full suite; --workers=1 --retries=0 --reporter=list,json",
+  "exitCode": 0,
+  "buildId": "DkViRTtsCNVaL0ACDvvzz",
+  "stats": {
+    "startTime": "2026-10-26T14:15:50.119Z",
+    "duration": 343618.584,
+    "expected": 76,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "workers": 1,
+  "retries": 0,
+  "tests": [
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: fa dark home",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 3037
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: fa dark auth/login",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 1467
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: fa dark contact",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 1640
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: fa light home",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 2828
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: fa light auth/login",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 1533
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: fa light contact",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 1977
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: en dark home",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 2940
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: en dark auth/login",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 1491
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: en dark contact",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 1632
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: en light home",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 2876
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: en light auth/login",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 1933
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: en light contact",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 1684
+    },
+    {
+      "file": "auth-navigation.spec.ts",
+      "title": "recovery-token navigation restores login and forgot forms and sends the English recovery locale",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 1252
+    },
+    {
+      "file": "capabilities.spec.ts",
+      "title": "a valid private survey submits once without account bootstrap and reflects later revocation",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 2768
+    },
+    {
+      "file": "capabilities.spec.ts",
+      "title": "recipient preferences retain a conflicted draft, save actual consent and revoke when the endpoint changes",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 2048
+    },
+    {
+      "file": "capabilities.spec.ts",
+      "title": "a controlled SMS proof fixture verifies in the standalone page without granting marketing consent",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 1367
+    },
+    {
+      "file": "carousel-fullscreen.spec.ts",
+      "title": "native fullscreen retains synchronized controls through portal changes and opens details inside the fullscreen element",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 2346
+    },
+    {
+      "file": "carousel-fullscreen.spec.ts",
+      "title": "a browser-enforced fullscreen denial keeps the accessible dialog fallback and normal exit usable",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 2035
+    },
+    {
+      "file": "communications-initial-load.spec.ts",
+      "title": "Communications waits for the first directory response and retains campaign drafts during later reloads and language changes",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 3281
+    },
+    {
+      "file": "communications-initial-load.spec.ts",
+      "title": "A first directory error still exposes permitted campaigns and a successful retry preserves their local draft",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 2720
+    },
+    {
+      "file": "crm-lifecycle.spec.ts",
+      "title": "P08 CRM-032: two organizations complete the inquiry, approved multilingual PDF, portal interest, forecast and isolated sample-quality lifecycle",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 16595
+    },
+    {
+      "file": "dialog-focus.spec.ts",
+      "title": "delayed dialog initialization preserves deliberate field focus and normal keyboard dismissal",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 3696
+    },
+    {
+      "file": "editor-workflows.spec.ts",
+      "title": "form editing uses an actual lease, selected revision comparison and reversible lifecycle",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 8642
+    },
+    {
+      "file": "expanded-services.spec.ts",
+      "title": "SMS customer form is reachable in five languages and reflects actual server readiness without sending messages",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 3520
+    },
+    {
+      "file": "expanded-services.spec.ts",
+      "title": "global search serves real published results, filters content and handles a replaced query on a mobile viewport",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 1940
+    },
+    {
+      "file": "expanded-services.spec.ts",
+      "title": "comments stay private until a publisher approves; likes and reports use authenticated real endpoints",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 6317
+    },
+    {
+      "file": "expanded-services.spec.ts",
+      "title": "staff overview shows scoped API usage and optional AI with server capabilities and an accessible role manual",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 2863
+    },
+    {
+      "file": "expanded-services.spec.ts",
+      "title": "a translator can use reports and optional AI in an authorized target language from the Persian interface",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 2244
+    },
+    {
+      "file": "expanded-services.spec.ts",
+      "title": "phone-only customers see their verified identity and can contact the factory without a required email",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 4253
+    },
+    {
+      "file": "expanded-services.spec.ts",
+      "title": "offline OTP transport exercises normalized inputs, a rejected code and successful customer navigation without sending SMS",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 2337
+    },
+    {
+      "file": "hero-worker.spec.ts",
+      "title": "the real rendering worker presents frames and handles keyboard input while the page controls remain usable",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 9435
+    },
+    {
+      "file": "hero-worker.spec.ts",
+      "title": "failure after canvas transfer remounts a fresh accessible React canvas and restores the same scene on the main thread",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 10207
+    },
+    {
+      "file": "localized-not-found.spec.ts",
+      "title": "raw no-JavaScript 404 is complete and localized for public, resource and malformed capability paths (fa)",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 87
+    },
+    {
+      "file": "localized-not-found.spec.ts",
+      "title": "raw no-JavaScript 404 is complete and localized for public, resource and malformed capability paths (en)",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 74
+    },
+    {
+      "file": "localized-not-found.spec.ts",
+      "title": "raw no-JavaScript 404 is complete and localized for public, resource and malformed capability paths (tr)",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 65
+    },
+    {
+      "file": "localized-not-found.spec.ts",
+      "title": "raw no-JavaScript 404 is complete and localized for public, resource and malformed capability paths (ar)",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 91
+    },
+    {
+      "file": "localized-not-found.spec.ts",
+      "title": "raw no-JavaScript 404 is complete and localized for public, resource and malformed capability paths (ru)",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 82
+    },
+    {
+      "file": "localized-not-found.spec.ts",
+      "title": "forged path, nonce and CSP cannot select the raw 404 locale or script policy",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 165
+    },
+    {
+      "file": "localized-not-found.spec.ts",
+      "title": "localized missing-page HEAD responses retain real 404 and privacy headers without a body",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 95
+    },
+    {
+      "file": "localized-not-found.spec.ts",
+      "title": "early 404 routing preserves known 200 pages, canonical URLs and recorded legacy redirects",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 242
+    },
+    {
+      "file": "notification-templates.spec.ts",
+      "title": "Communications UI saves a draft, previews only sample data, independently reviews the exact revision and withdraws it",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 6263
+    },
+    {
+      "file": "page-builder-authoring.spec.ts",
+      "title": "page authoring keeps unsaved navigation, save boundaries, CTA previews and edited-language direction correct",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 4450
+    },
+    {
+      "file": "page-builder-authoring.spec.ts",
+      "title": "the customer and visitor guide opens in every interface language without changing account navigation",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 4615
+    },
+    {
+      "file": "page-lifecycle.spec.ts",
+      "title": "page panel archives and recycles a live scheduled page, then restores only a draft with retained history",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 7427
+    },
+    {
+      "file": "panel-staff-mfa-reset.spec.ts",
+      "title": "senior panel recovery requires fresh proof, clears old staff access and forces real MFA enrollment",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 25751
+    },
+    {
+      "file": "product-translation.spec.ts",
+      "title": "a scoped translator saves the complete product body and the product editor reloads that exact draft",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 5386
+    },
+    {
+      "file": "production.spec.ts",
+      "title": "named project lists preserve old bookmarks, resolve conflicts explicitly and share a revocable public selection",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 6083
+    },
+    {
+      "file": "production.spec.ts",
+      "title": "all five public catalogues render with correct language and no demo authentication",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 2676
+    },
+    {
+      "file": "production.spec.ts",
+      "title": "anonymous inquiry survives login and a lost merge response can be retried without adding quantities twice",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 2902
+    },
+    {
+      "file": "production.spec.ts",
+      "title": "registration, persistent profile, visible failed-save state and private request ownership",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 9738
+    },
+    {
+      "file": "production.spec.ts",
+      "title": "staff enrollment, genuine TOTP and recovery challenge gate the workspace",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 4134
+    },
+    {
+      "file": "production.spec.ts",
+      "title": "independent review publishes a durable page visible in a fresh browser and withdrawal removes it",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 11175
+    },
+    {
+      "file": "production.spec.ts",
+      "title": "verified customer reserves a real factory session and withdrawal releases the seats",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 5072
+    },
+    {
+      "file": "production.spec.ts",
+      "title": "notification matrix persists each channel and resolves a genuine concurrent-version conflict explicitly",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 3642
+    },
+    {
+      "file": "production.spec.ts",
+      "title": "private file becomes an independently reviewed version and a real public document download",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 6299
+    },
+    {
+      "file": "production.spec.ts",
+      "title": "organization shares separate view, reply and ownership in the customer portal",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 5659
+    },
+    {
+      "file": "production.spec.ts",
+      "title": "a signed incoming fixture is explicitly associated as an internal note and connector keys stay out of browser storage",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 6134
+    },
+    {
+      "file": "public-csp-images.spec.ts",
+      "title": "hydrated public pages and the hero rendering worker run under nonce CSP without eval violations",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 10373
+    },
+    {
+      "file": "public-csp-images.spec.ts",
+      "title": "image optimization permits known bundled files and rejects private, encoded and query-bearing paths",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 54
+    },
+    {
+      "file": "public-csp-images.spec.ts",
+      "title": "the server-rendered public page remains mounted through session and publication hydration",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 919
+    },
+    {
+      "file": "public-image-priority.spec.ts",
+      "title": "the initially visible research poster is prioritized while reflected and below-fold posters stay lazy",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 1514
+    },
+    {
+      "file": "pwa-offline.spec.ts",
+      "title": "an installation offer survives navigation to the guide and is used only by its button",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 1255
+    },
+    {
+      "file": "pwa-offline.spec.ts",
+      "title": "production public assets cache and five localized offline pages work without caching account data",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 3161
+    },
+    {
+      "file": "recovery-security.spec.ts",
+      "title": "a staff member regenerates recovery codes in the real panel; old proofs and other sessions stop working",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 24329
+    },
+    {
+      "file": "rubik-worker.spec.ts",
+      "title": "the real cube worker presents the preserved scene and accepts native keyboard input while page controls stay usable",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 6705
+    },
+    {
+      "file": "rubik-worker.spec.ts",
+      "title": "cube worker failure after transfer remounts a fresh accessible canvas and preserves the main-thread fallback",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 7851
+    },
+    {
+      "file": "runtime-contracts.spec.ts",
+      "title": "all forty recorded source addresses with valid percent encoding return an initial 301 without a trailing-slash detour",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 672
+    },
+    {
+      "file": "runtime-contracts.spec.ts",
+      "title": "raw percent, malformed escapes and double encoding obey the declared HTTP entrypoint",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 57
+    },
+    {
+      "file": "runtime-contracts.spec.ts",
+      "title": "ordinary page canonicalization keeps API and capability POST requests free of redirects",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 64
+    },
+    {
+      "file": "runtime-contracts.spec.ts",
+      "title": "public capability documents retain privacy headers and ordinary pages keep the base CSP",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 117
+    },
+    {
+      "file": "source-template-publishing.spec.ts",
+      "title": "an existing source page publishes edited copy after independent review and retains its original template",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 11670
+    },
+    {
+      "file": "upload-boundaries.spec.ts",
+      "title": "private multipart uploads survive the framework buffer while current size and malformed-body guards remain active",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 1019
+    },
+    {
+      "file": "user-directory.spec.ts",
+      "title": "the people panel edits older accounts beyond 1000 customers and retains a paginated handover target across searches",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 5920
+    },
+    {
+      "file": "user-management.spec.ts",
+      "title": "hybrid panel creates roles and edits customer and environment staff profiles, grants and credentials; ordinary bootstrap preserves the edits",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 21426
+    },
+    {
+      "file": "workspace-initial-layout.spec.ts",
+      "title": "Products do not expose records below a still-loading editor and retain their filter when the selected product changes",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 3244
+    },
+    {
+      "file": "workspace-initial-layout.spec.ts",
+      "title": "Monitoring orders its initial snapshot, preserves error recovery, and retains unsaved objectives during refresh and window changes",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 3442
+    }
+  ],
+  "reportSha256": "ae8544bf4ef0887f9a2e6dcc54eae3f8ad7937bb842adfc6faf7fec7e48de9b7",
+  "logSha256": "d30e34c341d0b2e7e65b11e61943348118237f6880e5c20c98622a380b875f95",
+  "externalNotificationsMode": "disabled",
+  "passed": true,
+  "limits": [
+    "Chromium only; not a cross-browser/load audit",
+    "One new OTP UI scenario stubs the provider transport response; real OTP server invariants separately covered by PostgreSQL tests",
+    "Disposable fixture accounts, no actual provider credentials or external messages"
+  ]
+}

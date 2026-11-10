@@ -1,0 +1,81 @@
+{
+  "format": "scratch-topology-guard-verification-v2",
+  "createdAt": "2026-10-25T18:35:18.697438+00:00",
+  "helperSha256": "4b14c17bb6ea693f3695dd5170ae90ee7178b81616eef74eb5dd37aa82685a98",
+  "testSha256": "dcfd035d55aab0e413c18c91e587aaed6596262fef492449fed9706eec4039b9",
+  "finalNativeTests": {
+    "tests": 16,
+    "passed": 16,
+    "failed": 0,
+    "actualExitCode": 0,
+    "durationSeconds": 6.042,
+    "actualUnprivilegedObservation": [
+      {
+        "method": "direct",
+        "success": false,
+        "errorCode": "PROC_EXE_PERMISSION_DENIED"
+      },
+      {
+        "method": "same-uid-fork",
+        "success": true,
+        "observerUid": 10002
+      }
+    ]
+  },
+  "attemptHistory": [
+    {
+      "label": "unit-01",
+      "tests": 13,
+      "passed": 11,
+      "errors": 2,
+      "actualExitCode": 1,
+      "durationSeconds": 5.937,
+      "commandReceiptSha256": "89f513c590b1def03fb013d955d5f2e593c87dcf2886715a95e95deb0ae5a57c",
+      "stdoutSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderrSha256": "93dad53e1705c49e6a50df22e9da14ddc550e95538db4949647a6b571a278db2"
+    },
+    {
+      "label": "unit-native-02",
+      "tests": 14,
+      "passed": 14,
+      "errors": 0,
+      "actualExitCode": 0,
+      "durationSeconds": 6.054,
+      "commandReceiptSha256": "88569c8506706c999d114eee09ffe6a3d023085de72bbec709e709b7f86aeb18",
+      "stdoutSha256": "0b387d07c4edf25a9df94517ed5e55e3f0983133a51b258b60cd203fa7e24bf6",
+      "stderrSha256": "1d9a2e53e3d3bbba9f263ec27f4a9b986ec7059c1917b69d0782e95da404b147"
+    },
+    {
+      "label": "unit-native-03",
+      "tests": 15,
+      "passed": 15,
+      "errors": 0,
+      "actualExitCode": 0,
+      "durationSeconds": 6.006,
+      "commandReceiptSha256": "6f5350ddd2df380c49849319cbff7f24569a9848a46b5fc4c5c1f4001058dcc7",
+      "stdoutSha256": "0b387d07c4edf25a9df94517ed5e55e3f0983133a51b258b60cd203fa7e24bf6",
+      "stderrSha256": "eff9d50c8c28fbb187c1b341a6dbca9a25e4105dc7e4eb4b8319dc5c5d24858f"
+    },
+    {
+      "label": "unit-native-04",
+      "tests": 16,
+      "passed": 16,
+      "errors": 0,
+      "actualExitCode": 0,
+      "durationSeconds": 6.042,
+      "commandReceiptSha256": "70841d1a9ed6a147aef4c96239efcc794cd8960b5c05193b18ad197201efd77b",
+      "stdoutSha256": "0b387d07c4edf25a9df94517ed5e55e3f0983133a51b258b60cd203fa7e24bf6",
+      "stderrSha256": "952b8134fd8cfd830f3a47ac03ea4bb9f90eafb30ad98bb985d9d13302cfe333"
+    }
+  ],
+  "applicationSourceChanges": false,
+  "applicationDatabaseBrowserOrCaddyServiceStarted": false,
+  "noSecretValuesOrSecretHashesExported": true,
+  "preservedPriorFourteenCaseVerificationSha256": "2b74ce3e2e543ba19b47e4c07f0288ff13b89c937e4fc5e77954dde2e822a328",
+  "additionalVerifiedBoundaries": [
+    "Strict topology derivative excludes private paths, process arguments and arbitrary fields while retaining original topology hash and failed-observation provenance",
+    "Guarded database identity excludes credentials and rejects remote/mismatched/non-disposable targets"
+  ],
+  "realCaddyCompatibilitySealAndTransportAuthProof": "Pending exact retained binary, root final build/activation GO and actual observations; not claimed by these tests.",
+  "preparedIuo4PlanStatus": "Unactivated historical preparation retained unchanged. The final build requires fresh prepare output with the final guard and explicit database identity; do not relabel the old candidate."
+}

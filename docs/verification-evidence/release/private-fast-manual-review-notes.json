@@ -1,0 +1,158 @@
+{
+  "format": "idealmakoo.private-fast-manual-review-notes-v1",
+  "title": "توضیح موارد نیازمند بررسی دستی در تشخیص سریع دسترس‌پذیری بخش خصوصی",
+  "evidenceKind": "public-safe-derived-explanation",
+  "source": {
+    "files": 831,
+    "sha256": "71ae23d3db96eb7825bd1762b6992c2494066e02415f5545b26b12663837fc2a"
+  },
+  "application": {
+    "files": 685,
+    "sha256": "df0d27890b71a653a0210f8cda6f0d3ce478b179dc9c2465293000e280e86f86"
+  },
+  "buildId": "xAFijE374c1niyBYMmnro",
+  "diagnostic": {
+    "views": 122,
+    "completed": 122,
+    "errors": 0,
+    "timeouts": 0,
+    "automaticViolations": 0,
+    "incompleteRuleOccurrences": 233,
+    "incompleteNodeOccurrences": 5671,
+    "startedAt": "2026-10-22T05:56:43.656Z",
+    "finishedAt": "2026-10-22T06:01:16.050Z"
+  },
+  "countingNote": "شمارها تعداد وقوع قاعده و گره در نمای آزموده‌شده‌اند؛ عناصر یکتا یا تعداد نقص مستقل نیستند.",
+  "reviewScope": {
+    "retainedResultsAndSourceReviewed": true,
+    "manualInteractionChecksExecuted": false,
+    "applicationCodeChanged": false,
+    "incompleteResultsReclassifiedAsPass": false,
+    "fullAccessibilityConformanceClaimed": false,
+    "explanation": "این سند تفسیر خواندنیِ نتایج موجود و کد همان نسخه است. نبود تخلف خودکار، نتیجهٔ بررسی دستی یا تأیید انطباق کامل نیست."
+  },
+  "sourceFiles": [
+    {
+      "file": "src/components/workspace/Workspace.tsx",
+      "sha256": "bb915a02ce7808ddafff3fb993e654d40827f037daca37a0dde853a33e41ede5"
+    },
+    {
+      "file": "src/components/account/PersonalSettings.tsx",
+      "sha256": "037b8e03857c7f44c25693490c8fa967ac465765fcd725330bf2cda5361ec64c"
+    },
+    {
+      "file": "src/components/account/personal-settings.module.css",
+      "sha256": "36dc00c278f5eee456789a2b4a69ee3d07df3e3e274c3ce245df2dcb70905fa9"
+    },
+    {
+      "file": "src/components/workspace/StaffLifecycle.tsx",
+      "sha256": "93d6cacbbe46cc0d594e4d50ce1e7377d9c39f87ecdcabfa5215c52e06c83f93"
+    }
+  ],
+  "rules": [
+    {
+      "rule": "aria-valid-attr-value",
+      "ruleOccurrences": 106,
+      "nodeOccurrences": 106,
+      "views": 106,
+      "automatedDisposition": "incomplete",
+      "reasonCounts": {
+        "controlsWithinPopup": 106
+      },
+      "sourceControl": "Workspace mobile menu / native mobile drawer",
+      "sourceFiles": [
+        "src/components/workspace/Workspace.tsx"
+      ],
+      "established": "هر 106 مورد با کنترل منوی موبایل در حالت بسته تطبیق داشت. کد، dialog را هنگام بازشدن ایجاد می‌کند و Axe ارجاع کنترلِ popup را به بررسی دستی می‌سپارد؛ از تصویر حالت بسته، مقدار نامعتبر یا نقص تازه‌ای اثبات نشد.",
+      "remainingManualChecks": [
+        "در حالت باز، وجود مقصد، نام پنجره و وضعیت باز یا بسته را بررسی کنید.",
+        "بازکردن با صفحه‌کلید، محل تمرکز، بستن با Escape و بازگشت تمرکز را در مرورگر و فناوری کمکی بررسی کنید."
+      ]
+    },
+    {
+      "rule": "color-contrast",
+      "ruleOccurrences": 122,
+      "nodeOccurrences": 5557,
+      "views": 122,
+      "automatedDisposition": "incomplete",
+      "reasonCounts": {
+        "bgGradient": 2399,
+        "pseudoContent": 2889,
+        "shortTextContent": 176,
+        "emptyValue": 36,
+        "nonBmp": 28,
+        "elmPartiallyObscured": 16,
+        "elmPartiallyObscuring": 8,
+        "bgOverlap": 5
+      },
+      "reasonCategories": {
+        "backgroundNotResolved": [
+          "bgGradient",
+          "pseudoContent",
+          "bgOverlap"
+        ],
+        "partialOverlap": [
+          "elmPartiallyObscured",
+          "elmPartiallyObscuring"
+        ],
+        "textContentNeedsInterpretation": [
+          "shortTextContent",
+          "emptyValue",
+          "nonBmp"
+        ]
+      },
+      "established": "علت‌های ثبت‌شده شامل پس‌زمینهٔ گرادیان یا شبه‌عنصر، هم‌پوشانی، متن کوتاه، مقدار خالی و محتوای نمادی است. از این موارد نسبت کنتراست یا نتیجهٔ عددی قبولی/رد استخراج نشده است.",
+      "remainingManualChecks": [
+        "رنگ واقعی نوشته و پس‌زمینهٔ ترکیب‌شده را در محل متن و در تم‌ها و حالت‌های مربوط اندازه بگیرید.",
+        "متن و کنترل‌های هم‌پوشان را از نظر پوشیدگی و کنتراست بررسی کنید.",
+        "متن کوتاه و نمادها را متناسب با محتوا ارزیابی کنید؛ برای ورودی خالی، متن واقعاً واردشده نیز باید بررسی شود."
+      ]
+    },
+    {
+      "rule": "form-field-multiple-labels",
+      "ruleOccurrences": 3,
+      "nodeOccurrences": 6,
+      "views": 3,
+      "automatedDisposition": "incomplete",
+      "checkCounts": {
+        "none:multiple-label": 6
+      },
+      "observedReason": "multipleNativeLabelAssociations",
+      "sourceControl": "PersonalSettings Toggle: reducedMotion / liquidEffects",
+      "sourceFiles": [
+        "src/components/account/PersonalSettings.tsx",
+        "src/components/account/personal-settings.module.css"
+      ],
+      "established": "در هر شش مورد، label صریح نخست عنوان توصیفی دارد؛ label پوشانندهٔ دوم، ورودی و یک عنصر تزئینی بدون متن را دربر می‌گیرد. تضاد نام یا حذف عنوان از این شواهد اثبات نشد؛ سازگاری چند label با فناوری کمکی همچنان بررسی دستی می‌خواهد.",
+      "remainingManualChecks": [
+        "اعلام درست و بدون تکرار نام و راهنما را با فناوری کمکی بررسی کنید.",
+        "کلید Space، نمایش تمرکز و فعال‌سازی با عنوان یا خود کلید باید وضعیت و نام دسترس‌پذیر را حفظ کنند."
+      ]
+    },
+    {
+      "rule": "th-has-data-cells",
+      "ruleOccurrences": 2,
+      "nodeOccurrences": 2,
+      "views": 2,
+      "automatedDisposition": "incomplete",
+      "checkCounts": {
+        "all:th-has-data-cells": 2
+      },
+      "observedReason": "emptyInvitationTableWithoutDataCells",
+      "sourceControl": "StaffLifecycle invitation list",
+      "sourceFiles": [
+        "src/components/workspace/StaffLifecycle.tsx"
+      ],
+      "established": "دو جدول دعوت‌نامهٔ ثبت‌شده هرکدام شش سرستون و صفر سلول داده دارند و پیام حالت خالی نیز وجود دارد. این وضعیت، شکست ارتباط سرستون با داده در جدول دارای ردیف را نشان نمی‌دهد.",
+      "remainingManualChecks": [
+        "قابل‌فهم بودن پیام حالت خالی و نبود القای دعوت‌نامهٔ موجود را بررسی کنید.",
+        "وقتی ردیف واقعی وجود دارد، ارتباط سرستون‌ها با سلول‌های داده را جداگانه بررسی کنید."
+      ]
+    }
+  ],
+  "limitations": [
+    "این توضیح به تشخیص سریع 122 نما و نسخهٔ مشخص‌شده محدود است؛ نتیجهٔ کل Lighthouse خصوصی یا عمومی را اعلام نمی‌کند.",
+    "بررسی تعاملی دستی، اندازه‌گیری دستی کنتراست و آزمون فناوری کمکی در این مرور انجام نشده‌اند.",
+    "هیچ مورد incomplete حذف، به pass تبدیل یا به‌عنوان رفع‌شده معرفی نشده است؛ اصلاح محصول از این مرور نتیجه گرفته نشده است."
+  ]
+}

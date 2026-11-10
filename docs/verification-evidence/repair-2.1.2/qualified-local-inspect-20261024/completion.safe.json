@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "kind": "qualified-local-inspect-full-compatibility-completion",
+  "status": "passed",
+  "recordedAt": "2026-10-24T17:43:18.905970+00:00",
+  "historicalApplicationInputs": {
+    "files": 987,
+    "sha256": "30d2d54eef773f72807ed4473e64627b54bd3da16509bc3de3f6cf8c609079d4"
+  },
+  "currentApplicationInputs": {
+    "sha256": "29480cc4a946a7df71868f19dd8bfd357117c5f0a0b0d3a8c408256d3c060bf4",
+    "files": 989
+  },
+  "changedPaths": [
+    "deploy/docker-inspect.py",
+    "deploy/service-lifecycle.py",
+    "tests/deployment_discovery_contract_test.py",
+    "tests/deployment_docker_inspect_test.py",
+    "tests/deployment_service_lifecycle_test.py"
+  ],
+  "onlyFiveApprovedExecutionPathsChanged": true,
+  "files": {
+    "deploy/service-lifecycle.py": "e55a73f32d8ff06b3699ce86e8e139b385b6e05be6c873216cfc024363fa92b5",
+    "deploy/docker-inspect.py": "87593e909e0e3c40a37b2f0230f4ca21bc9d5348dfc8969d1bc2d4800f81c8e8",
+    "tests/deployment_service_lifecycle_test.py": "3930902b45708f78e43f4cc7efbb57b9e32151be0cbd1a02dea4afd46bf6e666",
+    "tests/deployment_discovery_contract_test.py": "9d77ac987d83286cd7514559fad3a4f87ced9ea998f3898b53034fabd7ec4d65",
+    "tests/deployment_docker_inspect_test.py": "387a832ca75e20911c3290f3972696b6411d6841b03763a6799b624932b24d90"
+  },
+  "patchSha256": "1e7ee1d21bab9fbe0113c1113a8219a3fec514a0b9cdfc9f95fcaf7ab24290b3",
+  "focusedMethods": 65,
+  "focusedNewMethods": 14,
+  "fullDiscoveredMethods": 238,
+  "fullTestsRun": 238,
+  "fullPassed": 238,
+  "failures": 0,
+  "errors": 0,
+  "skips": 0,
+  "expectedFailures": 0,
+  "unexpectedSuccesses": 0,
+  "testDurationSeconds": 85.697196,
+  "actualChildWaitConsumed": true,
+  "childExitCode": 0,
+  "outerToolWaiterSession": 34462,
+  "outerToolExitCode": 0,
+  "outerToolWaitConsumed": true,
+  "sourceChangedDuringTests": [],
+  "receiptFiles": {
+    "operations.safe.json": "1804c6f6062cfcb1bd51cc2499da124a7279caffe2cc4b608fe8aa46bf3b5063",
+    "actual-process-start.safe.json": "a7c365d42e5ed8ec3182ff48fdfab359f88348389b690a0b0cec90c2fe0d2b24",
+    "actual-process-outcome.safe.json": "b628abeed2cd87c3941522dde7b3ba824c74132bf0f3d6be6b70d3592e151c5f",
+    "preflight.safe.json": "514eda953dc91013ea48179f3a59355d5744ca3e326f1a142474005c29b6ff02",
+    "inputs-before-tests.json": "b5afa65f579683587ddde44f901d01ea97e1b130f876cc8d007468160683ba27",
+    "inputs-after-tests.json": "b5afa65f579683587ddde44f901d01ea97e1b130f876cc8d007468160683ba27",
+    "root-review.safe.json": "b1d91943f8fab122164057009d08f265758c0fc6315c488c8a996f8001cf4ec3"
+  },
+  "readOnlyInspectionTransportChanged": true,
+  "mutatingCommandsOrDeadlinePoliciesChanged": false,
+  "actualGuestQualificationOrStartupTested": false,
+  "actualStartupCauseFixedClaimed": false,
+  "guestVmActionsPerformed": false,
+  "newNativeBuildExecuted": false,
+  "deployedCandidateAcceptanceClaimed": false
+}

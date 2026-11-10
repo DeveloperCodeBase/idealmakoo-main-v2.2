@@ -1,0 +1,73 @@
+{
+  "format": "topology-bound-phase-safe-derivative-v1",
+  "phase": "freeze-private-mobile",
+  "kind": "inventory",
+  "startedAt": "2026-10-25T19:58:56.027640+00:00",
+  "finishedAt": "2026-10-25T19:58:59.642960+00:00",
+  "durationSeconds": 3.615,
+  "topologySha256": "da2b88aba7a748b934b4e7e6af1d8117b5a63ee7a5f018df71b5d142814e11a0",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "commandLaunchAttempted": true,
+  "commandStarted": true,
+  "coreConfigurationHashAloneBindsProxy": false,
+  "actualCommandExitCode": 0,
+  "validationPassed": true,
+  "validationErrorCode": null,
+  "validationIsSeparateFromLighthouseOutcome": true,
+  "receivedOrForwardedSignals": [],
+  "wrapperForcedKillAfterSixtySeconds": false,
+  "interruptedPageCleanup": "Not inferred by this wrapper; retain the original auditor's evidence.",
+  "originalPrivateReceiptSha256": "bb5bdd498fd34ef999fd93c53343afbad7f8e2f90ca63102fe7e0c2af12fbc3f",
+  "beforeVerificationPresent": true,
+  "afterVerificationPresent": true,
+  "coreArtifacts": [
+    {
+      "directoryLabel": "idealmakoo-214-final-ir2-private-mobile",
+      "files": {
+        "manifest.json": {
+          "sha256": "e0db4dfe7b293d50d35d274047cd0cfa59f89ed46ec6dfa4dacfc6b02a502d82",
+          "bytes": 1979
+        },
+        "inventory.json": {
+          "sha256": "ce15b0e77c2adb8fb4fbbd4ecfb00dc55a3e5b23b65747942b03d72c270724d8",
+          "bytes": 159908
+        },
+        "summary.json": {
+          "sha256": "72479c2730739f28910f21ecf2d64290d966a9b6e20d86a5f85939807261784c",
+          "bytes": 297
+        }
+      },
+      "coreConfigurationHash": "bddc13f3234afd7a0b08437e77493c433d7c06ce67917cf6c5aa185dc1ff1455",
+      "counts": {
+        "expected": 530,
+        "attempted": 0,
+        "completed": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "pending": 530,
+        "coverageComplete": false
+      }
+    }
+  ],
+  "retainedPrivateArtifactHashes": {
+    "stdout.log": {
+      "sha256": "4bd9ecc6d48a7d4c53a8f9a8a5dcfd90b1b1ce380ba2edf6bf6467d3e64af086",
+      "bytes": 334
+    },
+    "stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "command.json": {
+      "sha256": "06fea9c948512264a8846e4f39fad737f0b2fa6a82788e9d6eb81962bdc851cc",
+      "bytes": 628
+    },
+    "launch.json": {
+      "sha256": "c120e0b10952d1f9e0f95ae16b3530d7366ef314e02c69cbb6bee76bdd05015e",
+      "bytes": 163
+    }
+  },
+  "omissions": [
+    "raw process IDs/arguments/environment/logs and full proc observations"
+  ]
+}

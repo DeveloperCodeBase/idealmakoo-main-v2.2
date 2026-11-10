@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/resources/acrylic-teeth-wear-comparison-cover/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "89df27a3082831d46f4f1212e15d42c85c80e150cb1bd4355b47b76c2535bd61",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "صورة مرجعية للبحث — مقارنة تآكل ست سلاسل من الأسنان الأكريليكية | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "مقارنة تآكل ست سلاسل من الأسنان الأكريليكية — وثائق المصنع المصوّرة الأصلية"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/resources/acrylic-teeth-wear-comparison-cover/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/acrylic-teeth-wear-comparison-cover/",
+    "en": "http://127.0.0.1:3100/en/resources/acrylic-teeth-wear-comparison-cover/",
+    "tr": "http://127.0.0.1:3100/tr/resources/acrylic-teeth-wear-comparison-cover/",
+    "ar": "http://127.0.0.1:3100/ar/resources/acrylic-teeth-wear-comparison-cover/",
+    "ru": "http://127.0.0.1:3100/ru/resources/acrylic-teeth-wear-comparison-cover/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/acrylic-teeth-wear-comparison-cover/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 77
+}

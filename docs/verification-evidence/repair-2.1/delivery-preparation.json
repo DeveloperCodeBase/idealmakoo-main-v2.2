@@ -1,0 +1,12 @@
+{
+  "preparedAt": "2026-10-21T08:01:35.759Z",
+  "kind": "delivery",
+  "counts": {
+    "migrations": 41,
+    "users": 1,
+    "pages": 120
+  },
+  "externalProvidersEnabled": false,
+  "runtimeProof": "delivery-final-health.json",
+  "privateEnvironmentIncluded": false
+}

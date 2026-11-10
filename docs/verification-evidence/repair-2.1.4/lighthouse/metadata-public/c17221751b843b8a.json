@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/factory-visit/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "04b5ed0b824f9f4d938c4292b2f7440c9cb6a6621584b504a4e0614f0c624288",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "طلب زيارة المصنع | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "اطلب زيارة المصنع، وعند نشر برامج الزيارة راجع المواعيد والسعة المتاحة للحجز في هذا القسم."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/factory-visit/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/factory-visit/",
+    "en": "http://127.0.0.1:3100/en/factory-visit/",
+    "tr": "http://127.0.0.1:3100/tr/factory-visit/",
+    "ar": "http://127.0.0.1:3100/ar/factory-visit/",
+    "ru": "http://127.0.0.1:3100/ru/factory-visit/",
+    "x-default": "http://127.0.0.1:3100/fa/factory-visit/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 119
+}

@@ -1,0 +1,71 @@
+{
+  "url": "http://127.0.0.1:3100/ru/products/glamour/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "e5dfb9d4a570f5645a2ed5beb7445d59e89721dce3e7f583e3dca14733e5b8d1",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Искусственные зубы Glamour | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Glamour сочетает четырёхслойную композитную структуру с выбором форм и оттенков."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/products/glamour/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/glamour/",
+    "en": "http://127.0.0.1:3100/en/products/glamour/",
+    "tr": "http://127.0.0.1:3100/tr/products/glamour/",
+    "ar": "http://127.0.0.1:3100/ar/products/glamour/",
+    "ru": "http://127.0.0.1:3100/ru/products/glamour/",
+    "x-default": "http://127.0.0.1:3100/fa/products/glamour/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Искусственные зубы Glamour",
+      "description": "Glamour сочетает четырёхслойную композитную структуру с выбором форм и оттенков.",
+      "image": "http://127.0.0.1:3100/media/official/1686378413.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "GLAMOUR"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/ru/products/glamour/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 56
+}

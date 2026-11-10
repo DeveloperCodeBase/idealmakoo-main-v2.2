@@ -1,0 +1,39 @@
+▶ Managed resource publication announcements use independent approval, public availability and current delivery permission
+  ✔ real publishResource creates one event; bounded fanout respects consent, locale, verified SMS and the official channel (238.067667ms)
+  ✔ authenticated, restricted, draft and pending-review resources never become broadcast events (138.414622ms)
+  ✔ a queued publication is cancelled before fanout when its scan approval is withdrawn (52.193835ms)
+  ✔ dispatch rechecks publisher deactivation and suppresses every channel without sending (96.039708ms)
+  ✔ dispatch rechecks reviewer role revocation and suppresses every channel without sending (100.598022ms)
+  ✔ dispatch rechecks reviewer locale revocation and suppresses every channel without sending (94.609596ms)
+  ✔ dispatch rechecks withdrawn publication and suppresses every channel without sending (105.046487ms)
+  ✔ dispatch rechecks later independent rejection and suppresses every channel without sending (100.051509ms)
+  ✔ dispatch rechecks changed metadata and suppresses every channel without sending (88.41524ms)
+  ✔ dispatch rechecks quarantined asset and suppresses every channel without sending (109.428389ms)
+  ✔ dispatch rechecks withdrawn asset rights and suppresses every channel without sending (108.444955ms)
+  ✔ revoked recipient consent and changed official channel are checked again at actual dispatch (107.753324ms)
+  ✔ approved document comments disappear from the public API as soon as scan approval or distribution rights are withdrawn (147.927151ms)
+  ✔ new event relation preserves least-privilege grant/revoke and existing publication-retention inventory (192.322328ms)
+✔ Managed resource publication announcements use independent approval, public availability and current delivery permission (3478.737413ms)
+▶ Strict resource-page resolver uses current publication, independent review, permission and usable-file metadata
+  ✔ Public current release exposes exactly translated page metadata, without file-language equality or download audit (293.922021ms)
+  ✔ Draft and archived documents have no page, even for their administrative owner (125.103703ms)
+  ✔ Authenticated metadata needs a current active verified account and does not appear to anonymous users (61.490846ms)
+  ✔ A view-only explicit grant admits restricted metadata; management roles do not bypass it and revoke is immediate (110.659238ms)
+  ✔ Organization grants use current membership and a current published data room (147.185504ms)
+  ✔ An expired explicit grant is rechecked against the wall clock (1582.29671ms)
+  ✔ Only the current published version and latest independent approval can authorize a page (251.222365ms)
+  ✔ Changed unreviewed metadata and altered asset digest or length cannot authorize an otherwise published page (241.711928ms)
+  ✔ Current quarantine and confidential retained evidence stop page resolution without changing generic metadata behavior (86.744883ms)
+  ✔ Current DAM rights revocation and expiry remove a page without reusing a prior successful authorization (1591.716013ms)
+  ✔ The immutable version distribution expiry is also enforced (2041.923293ms)
+  ✔ Page metadata never reads the blob or records view/download analytics (64.505241ms)
+  ✔ Authorization waits for the workspace transaction then reloads a revoked account (116.761884ms)
+✔ Strict resource-page resolver uses current publication, independent review, permission and usable-file metadata (8146.83821ms)
+ℹ tests 29
+ℹ suites 0
+ℹ pass 29
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 12909.081163

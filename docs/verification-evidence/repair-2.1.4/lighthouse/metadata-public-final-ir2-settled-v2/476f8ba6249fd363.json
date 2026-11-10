@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/marketing-training/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "6004d787097e99375dd87e72fdca4c79bdbf18ceb22c6b44566f6b77f4c3c00c",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Market management and learning | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Understanding user needs, market study, continuous improvement and staff development."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/marketing-training/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/marketing-training/",
+    "en": "http://127.0.0.1:3100/en/marketing-training/",
+    "tr": "http://127.0.0.1:3100/tr/marketing-training/",
+    "ar": "http://127.0.0.1:3100/ar/marketing-training/",
+    "ru": "http://127.0.0.1:3100/ru/marketing-training/",
+    "x-default": "http://127.0.0.1:3100/fa/marketing-training/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 54
+}

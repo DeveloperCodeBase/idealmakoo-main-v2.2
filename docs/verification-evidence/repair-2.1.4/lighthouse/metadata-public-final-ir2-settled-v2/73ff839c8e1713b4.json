@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/resources/marjan-new-official-image/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "be0ea8306c85a9ff8a7b2d05ef1a8e6da8566e1f6716c7f8fdc01ed3af93cc03",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Искусственные зубы Marjan New — официальное изображение | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Искусственные зубы Marjan New — официальное изображение — Оригинальные графические документы завода"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/resources/marjan-new-official-image/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/marjan-new-official-image/",
+    "en": "http://127.0.0.1:3100/en/resources/marjan-new-official-image/",
+    "tr": "http://127.0.0.1:3100/tr/resources/marjan-new-official-image/",
+    "ar": "http://127.0.0.1:3100/ar/resources/marjan-new-official-image/",
+    "ru": "http://127.0.0.1:3100/ru/resources/marjan-new-official-image/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/marjan-new-official-image/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 44
+}

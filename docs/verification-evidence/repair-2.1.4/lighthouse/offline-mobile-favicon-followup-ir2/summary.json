@@ -1,0 +1,657 @@
+{
+  "manifest": "manifest.json",
+  "updatedAt": "2026-10-26T01:12:57.092Z",
+  "expected": 5,
+  "attempted": 5,
+  "completed": 5,
+  "expectedHttpResponses": 0,
+  "errors": 0,
+  "timeouts": 0,
+  "pending": 0,
+  "coverageComplete": true,
+  "interrupted": false,
+  "records": [
+    {
+      "url": "http://127.0.0.1:3100/offline/ar.html",
+      "kind": "public-offline-document",
+      "indexed": false,
+      "expectedStatus": 200,
+      "device": "mobile",
+      "attempt": 1,
+      "id": "8f0a38030ebcee31",
+      "startedAt": "2026-10-26T01:12:06.052Z",
+      "status": "completed",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 609.51805,
+        "largest-contentful-paint": 759.0361,
+        "speed-index": 609.51805,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "interactive": 759.0361
+      },
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-26T01:12:08.093Z",
+      "finalDisplayedUrl": "http://127.0.0.1:3100/offline/ar.html",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+        "benchmarkIndex": 2311,
+        "credits": {
+          "axe-core": "4.14.0"
+        }
+      },
+      "configSettings": {
+        "output": "json",
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": true,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ],
+        "skipAudits": null
+      },
+      "runWarnings": [],
+      "failedAudits": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "score": 0
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "score": 0
+        }
+      ],
+      "report": "8f0a38030ebcee31.attempt-1.sanitized-lhr.json",
+      "httpStatus": 200,
+      "httpUrl": "http://127.0.0.1:3100/offline/ar.html",
+      "expectedHttpVerified": true,
+      "identityErrors": [],
+      "urlIdentityVerified": true,
+      "durationMs": 5588,
+      "finishedAt": "2026-10-26T01:12:11.640Z",
+      "format": "sanitized-public-lighthouse-evidence-v1",
+      "rawReportSha256": "5f61a5851762aaab66259a81a0e4daeaa3ec42fee8cd73b7ea44f5c0e2e9f059",
+      "reportIsSanitized": true,
+      "resultFile": "8f0a38030ebcee31.attempt-1.result.json"
+    },
+    {
+      "url": "http://127.0.0.1:3100/offline/en.html",
+      "kind": "public-offline-document",
+      "indexed": false,
+      "expectedStatus": 200,
+      "device": "mobile",
+      "attempt": 1,
+      "id": "df1e6a22c45841a9",
+      "startedAt": "2026-10-26T01:12:16.332Z",
+      "status": "completed",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 606.9562,
+        "largest-contentful-paint": 606.9562,
+        "speed-index": 606.9562,
+        "total-blocking-time": 9,
+        "cumulative-layout-shift": 0,
+        "interactive": 644.3562
+      },
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-26T01:12:18.374Z",
+      "finalDisplayedUrl": "http://127.0.0.1:3100/offline/en.html",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+        "benchmarkIndex": 2287,
+        "credits": {
+          "axe-core": "4.14.0"
+        }
+      },
+      "configSettings": {
+        "output": "json",
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": true,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ],
+        "skipAudits": null
+      },
+      "runWarnings": [],
+      "failedAudits": [
+        {
+          "id": "max-potential-fid",
+          "title": "Max Potential First Input Delay",
+          "score": 0.99,
+          "displayValue": "70 ms"
+        },
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "score": 0
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "score": 0
+        }
+      ],
+      "report": "df1e6a22c45841a9.attempt-1.sanitized-lhr.json",
+      "httpStatus": 200,
+      "httpUrl": "http://127.0.0.1:3100/offline/en.html",
+      "expectedHttpVerified": true,
+      "identityErrors": [],
+      "urlIdentityVerified": true,
+      "durationMs": 5557,
+      "finishedAt": "2026-10-26T01:12:21.889Z",
+      "format": "sanitized-public-lighthouse-evidence-v1",
+      "rawReportSha256": "073fc4b220720e10ef410d86755f8a570853d7e35aacf1d9901fa4a2dc4793f7",
+      "reportIsSanitized": true,
+      "resultFile": "df1e6a22c45841a9.attempt-1.result.json"
+    },
+    {
+      "url": "http://127.0.0.1:3100/offline/fa.html",
+      "kind": "public-offline-document",
+      "indexed": false,
+      "expectedStatus": 200,
+      "device": "mobile",
+      "attempt": 1,
+      "id": "1e8a050247ea4ab6",
+      "startedAt": "2026-10-26T01:12:26.652Z",
+      "status": "completed",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 609.61455,
+        "largest-contentful-paint": 761.2291,
+        "speed-index": 609.61455,
+        "total-blocking-time": 2,
+        "cumulative-layout-shift": 0,
+        "interactive": 761.2291
+      },
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-26T01:12:28.651Z",
+      "finalDisplayedUrl": "http://127.0.0.1:3100/offline/fa.html",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+        "benchmarkIndex": 2293.5,
+        "credits": {
+          "axe-core": "4.14.0"
+        }
+      },
+      "configSettings": {
+        "output": "json",
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": true,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ],
+        "skipAudits": null
+      },
+      "runWarnings": [],
+      "failedAudits": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "score": 0
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "score": 0
+        }
+      ],
+      "report": "1e8a050247ea4ab6.attempt-1.sanitized-lhr.json",
+      "httpStatus": 200,
+      "httpUrl": "http://127.0.0.1:3100/offline/fa.html",
+      "expectedHttpVerified": true,
+      "identityErrors": [],
+      "urlIdentityVerified": true,
+      "durationMs": 5575,
+      "finishedAt": "2026-10-26T01:12:32.227Z",
+      "format": "sanitized-public-lighthouse-evidence-v1",
+      "rawReportSha256": "111c31f5e7de51ee06b7b65e0984bd51525339f3e3e0ebfb0d0c5b6be4224bf0",
+      "reportIsSanitized": true,
+      "resultFile": "1e8a050247ea4ab6.attempt-1.result.json"
+    },
+    {
+      "url": "http://127.0.0.1:3100/offline/ru.html",
+      "kind": "public-offline-document",
+      "indexed": false,
+      "expectedStatus": 200,
+      "device": "mobile",
+      "attempt": 1,
+      "id": "0abdec68d0f5e3e6",
+      "startedAt": "2026-10-26T01:12:36.949Z",
+      "status": "completed",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 606.993,
+        "largest-contentful-paint": 759.9860000000001,
+        "speed-index": 606.993,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "interactive": 759.9860000000001
+      },
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-26T01:12:38.993Z",
+      "finalDisplayedUrl": "http://127.0.0.1:3100/offline/ru.html",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+        "benchmarkIndex": 2354,
+        "credits": {
+          "axe-core": "4.14.0"
+        }
+      },
+      "configSettings": {
+        "output": "json",
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": true,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ],
+        "skipAudits": null
+      },
+      "runWarnings": [],
+      "failedAudits": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "score": 0
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "score": 0
+        }
+      ],
+      "report": "0abdec68d0f5e3e6.attempt-1.sanitized-lhr.json",
+      "httpStatus": 200,
+      "httpUrl": "http://127.0.0.1:3100/offline/ru.html",
+      "expectedHttpVerified": true,
+      "identityErrors": [],
+      "urlIdentityVerified": true,
+      "durationMs": 5546,
+      "finishedAt": "2026-10-26T01:12:42.495Z",
+      "format": "sanitized-public-lighthouse-evidence-v1",
+      "rawReportSha256": "cc709000463b0825cda47f8d9f3b49e23bcc52aa117785f784c806e7ab3d2885",
+      "reportIsSanitized": true,
+      "resultFile": "0abdec68d0f5e3e6.attempt-1.result.json"
+    },
+    {
+      "url": "http://127.0.0.1:3100/offline/tr.html",
+      "kind": "public-offline-document",
+      "indexed": false,
+      "expectedStatus": 200,
+      "device": "mobile",
+      "attempt": 1,
+      "id": "4ba908b555be52c0",
+      "startedAt": "2026-10-26T01:12:47.249Z",
+      "status": "completed",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 608.30125,
+        "largest-contentful-paint": 760.6025,
+        "speed-index": 608.30125,
+        "total-blocking-time": 112,
+        "cumulative-layout-shift": 0,
+        "interactive": 770.30125
+      },
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-26T01:12:49.261Z",
+      "finalDisplayedUrl": "http://127.0.0.1:3100/offline/tr.html",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+        "benchmarkIndex": 2244.5,
+        "credits": {
+          "axe-core": "4.14.0"
+        }
+      },
+      "configSettings": {
+        "output": "json",
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": true,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ],
+        "skipAudits": null
+      },
+      "runWarnings": [],
+      "failedAudits": [
+        {
+          "id": "total-blocking-time",
+          "title": "Total Blocking Time",
+          "score": 0.97,
+          "displayValue": "110 ms"
+        },
+        {
+          "id": "max-potential-fid",
+          "title": "Max Potential First Input Delay",
+          "score": 0.79,
+          "displayValue": "170 ms"
+        },
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "score": 0
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "score": 0
+        }
+      ],
+      "report": "4ba908b555be52c0.attempt-1.sanitized-lhr.json",
+      "httpStatus": 200,
+      "httpUrl": "http://127.0.0.1:3100/offline/tr.html",
+      "expectedHttpVerified": true,
+      "identityErrors": [],
+      "urlIdentityVerified": true,
+      "durationMs": 5570,
+      "finishedAt": "2026-10-26T01:12:52.819Z",
+      "format": "sanitized-public-lighthouse-evidence-v1",
+      "rawReportSha256": "fb837e00943bc046cecea100ed633eb8e2a61e564365ad341aad9d44e6f0d041",
+      "reportIsSanitized": true,
+      "resultFile": "4ba908b555be52c0.attempt-1.result.json"
+    }
+  ],
+  "attempts": [
+    {
+      "id": "8f0a38030ebcee31",
+      "attempt": 1,
+      "status": "completed",
+      "result": "8f0a38030ebcee31.attempt-1.result.json"
+    },
+    {
+      "id": "df1e6a22c45841a9",
+      "attempt": 1,
+      "status": "completed",
+      "result": "df1e6a22c45841a9.attempt-1.result.json"
+    },
+    {
+      "id": "1e8a050247ea4ab6",
+      "attempt": 1,
+      "status": "completed",
+      "result": "1e8a050247ea4ab6.attempt-1.result.json"
+    },
+    {
+      "id": "0abdec68d0f5e3e6",
+      "attempt": 1,
+      "status": "completed",
+      "result": "0abdec68d0f5e3e6.attempt-1.result.json"
+    },
+    {
+      "id": "4ba908b555be52c0",
+      "attempt": 1,
+      "status": "completed",
+      "result": "4ba908b555be52c0.attempt-1.result.json"
+    }
+  ],
+  "format": "sanitized-public-lighthouse-evidence-v1",
+  "evidencePolicy": "Explicitly sanitized derivative, not a raw Lighthouse report. Original raw reports remain in scratch and are identified by SHA256. Screenshot/image payloads are omitted at the exact JSON pointers recorded; scores, metrics, nonimage audit results and failed attempts are retained. Browser logs, input files, cookies and private raw reports are not included."
+}

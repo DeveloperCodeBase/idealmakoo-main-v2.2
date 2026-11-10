@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/cooperation/distribution/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "fe1cc675647e107d0d61074c4d43750e8a9a996f41c86cc11db5a3c645ffdef1",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "طلب شراكة توزيع | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "أرسل مقترح توزيع المنتجات مع بيانات مؤسستك وبلدك وقدراتك لمراجعته من المصنع."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/cooperation/distribution/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/cooperation/distribution/",
+    "en": "http://127.0.0.1:3100/en/cooperation/distribution/",
+    "tr": "http://127.0.0.1:3100/tr/cooperation/distribution/",
+    "ar": "http://127.0.0.1:3100/ar/cooperation/distribution/",
+    "ru": "http://127.0.0.1:3100/ru/cooperation/distribution/",
+    "x-default": "http://127.0.0.1:3100/fa/cooperation/distribution/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 81
+}

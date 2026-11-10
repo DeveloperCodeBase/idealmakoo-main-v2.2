@@ -1,0 +1,825 @@
+{
+  "format": "idealmakoo.public-source-scope-bridge",
+  "version": 2,
+  "observedAt": "2026-10-22T05:13:25.180592+00:00",
+  "verificationKind": "read-only source and application input identity",
+  "scopeVerified": true,
+  "hashMethod": "Each file uses SHA-256 of raw bytes. Aggregate uses SHA-256 of sorted relative UTF-8 product paths followed by NUL and raw bytes for each file.",
+  "source": {
+    "baseline": {
+      "files": 821,
+      "sha256": "458f175a29b8bce25c5b45592c10952b57202b894e3aac65e244b7863c726be1"
+    },
+    "current": {
+      "files": 831,
+      "sha256": "79d34c8326f3adc5eb28834a588bac6a76e08bdd9f1c8f67de96c2480982dfa5"
+    },
+    "modified": 38,
+    "added": 10,
+    "removed": 0,
+    "unchanged": 783,
+    "unexpectedChangedOrAdded": [],
+    "expectedButNotChangedOrAdded": [],
+    "removedPaths": []
+  },
+  "application": {
+    "baseline": {
+      "files": 678,
+      "sha256": "12da2b69abf2fa85cf0655bc0b4ec7df9244ea0b50a29cc8c3be1157851b6e1c"
+    },
+    "current": {
+      "files": 685,
+      "sha256": "048a901cbebf94e9e4b367bab87e5fd91f68860ca7c64f32539852e66061140e"
+    },
+    "modified": 36,
+    "added": 7,
+    "removed": 0,
+    "unchanged": 642,
+    "unexpectedChangedOrAdded": []
+  },
+  "approvedChangeGroups": {
+    "frontend": {
+      "modified": 36,
+      "added": 10,
+      "total": 46
+    },
+    "coordinatedRootRepairs": {
+      "modified": 2,
+      "added": 0,
+      "total": 2
+    }
+  },
+  "changedProductFiles": [
+    {
+      "path": "src/app/globals.css",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 87890,
+        "sha256": "d8cd314d3dbb5bab2233a912a84f9c939bd963291b60aa44c04ac62a2c4f73e2"
+      },
+      "after": {
+        "bytes": 87948,
+        "sha256": "48d702425a79b977d593ce0972b23a28e744c24c41453411156b42cd88d6fb31"
+      }
+    },
+    {
+      "path": "src/components/Application.tsx",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 4660,
+        "sha256": "66970ceff2b33d14076b242be24858fe6a61aa8bc1145b94cc599bc4f382b44c"
+      },
+      "after": {
+        "bytes": 4687,
+        "sha256": "b1b8cf8613d536b2f862f6bfb8ef922a704ce1825cc0307cc01ad5b73f595714"
+      }
+    },
+    {
+      "path": "src/components/account/AccountPortal.tsx",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 10241,
+        "sha256": "fa3542ab440f7d5664c7bdccd0fe9a00178e542e304aa6b431465962c0dbc694"
+      },
+      "after": {
+        "bytes": 10255,
+        "sha256": "947fba150739b7b74eea0d23f261c6c91a6f2f308d0c923d233110e9316d96a4"
+      }
+    },
+    {
+      "path": "src/components/account/AccountRequests.tsx",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 15573,
+        "sha256": "21f18a005069cd22aa591fb20a48be1b4f1f91ce7e7d5bd8c0fad6059403a316"
+      },
+      "after": {
+        "bytes": 15590,
+        "sha256": "f4af5a62ea974d1b707ba514c2d9817062a4747c1f8f4bd62023f532cfb41d2d"
+      }
+    },
+    {
+      "path": "src/components/account/AuthPage.tsx",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 18575,
+        "sha256": "8b565154b3800fe6d6cc6ec6c57f6aef341840312bb5a896c2912e4bad849022"
+      },
+      "after": {
+        "bytes": 18649,
+        "sha256": "a7b1bfdb674199dd28f0bac2c6a4d2e801e7c1d95073b0596e6ff59314d38794"
+      }
+    },
+    {
+      "path": "src/components/account/account.module.css",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 45033,
+        "sha256": "0b5494f633e20dc6c4b689eada4692777c191893d51f9e0645937d24ac9fa799"
+      },
+      "after": {
+        "bytes": 45071,
+        "sha256": "4710e42d15da28267c233bd4582ccc843c263fde2ca83b86c6c82f854703c047"
+      }
+    },
+    {
+      "path": "src/components/account/portal-ui.tsx",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 4809,
+        "sha256": "b7b2057481aca80166e27ba000f5d8de60fc3e4db406bf1434918217d13d5aa4"
+      },
+      "after": {
+        "bytes": 4911,
+        "sha256": "a0585e211865f0626ceea7699a2f4764a0a2034accce6d834362070775655b51"
+      }
+    },
+    {
+      "path": "src/components/content/CompanyContent.tsx",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 8535,
+        "sha256": "5180edfe2a98f84113f7265e2fce9e15f41702ddd7cd3627b18d249ec21bf97b"
+      },
+      "after": {
+        "bytes": 8609,
+        "sha256": "d21757e5c058b960c07b2f1b179c83afaefd2d4557bb0c21bff07a91b0232054"
+      }
+    },
+    {
+      "path": "src/components/content/ReferenceDocuments.tsx",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 20053,
+        "sha256": "cf1836cc7888f37446e18f34840e57be5d6d12a1df8bab6ea67785333346ede1"
+      },
+      "after": {
+        "bytes": 20326,
+        "sha256": "83da0716667db099f5707c1fab0a480435bff15b3e9dd9daf61e32dff99d9c3f"
+      }
+    },
+    {
+      "path": "src/components/content/ResourceCenter.tsx",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 15298,
+        "sha256": "3a453a375c1dd57a23f15859295aa0a333b3d98fee2058f80284fec0d342abab"
+      },
+      "after": {
+        "bytes": 15298,
+        "sha256": "f94aa72b7327ed432b9d82806bf8f4cf1b4b8a84a6e6075de4b56b057ec653ae"
+      }
+    },
+    {
+      "path": "src/components/content/content.css",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 20141,
+        "sha256": "fda55d28f2b649a3eef2fe50646ae0e3fbd6a9eb60790ace375135d685b61c77"
+      },
+      "after": {
+        "bytes": 20165,
+        "sha256": "641afebad8f98cfdede383efbb84d22256f06c713a6050de67dbf2376cfc11dc"
+      }
+    },
+    {
+      "path": "src/components/content/shared.tsx",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 7705,
+        "sha256": "8041ecb7fe8a429d2992d21ac305358399c6ec1034dc9722997f2ede060c4c68"
+      },
+      "after": {
+        "bytes": 7826,
+        "sha256": "440a0ac6986f027863af5e9c461928d705ae672cd8313da6e98a6a539c74827f"
+      }
+    },
+    {
+      "path": "src/components/experience/RubikExperience.tsx",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 7373,
+        "sha256": "91131394c941dc73b3ca3be548105b41b1806b5f72a917623b66e8d85fedf0f2"
+      },
+      "after": {
+        "bytes": 9238,
+        "sha256": "024fa1820d99bb13c7e8878b354a6204181f3be825195edb8c7b94e24167a6d0"
+      }
+    },
+    {
+      "path": "src/components/experience/ToothExperience.tsx",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 24018,
+        "sha256": "fabdae9f85d4a677216c70d7e9b5b83c85b49d248db6a893791f77d524041c86"
+      },
+      "after": {
+        "bytes": 26280,
+        "sha256": "465af757e396a4b68f0a5878a7bc12f3cd562da0176c0cd17bafe384aa5087d7"
+      }
+    },
+    {
+      "path": "src/components/experience/engines/auth-worker-host.ts",
+      "owner": "frontend",
+      "change": "added",
+      "before": null,
+      "after": {
+        "bytes": 7243,
+        "sha256": "6c2227bbd3af5674989484c5d8550a27ccf93a87394407ebe184032614e9c438"
+      }
+    },
+    {
+      "path": "src/components/experience/engines/auth-worker-protocol.ts",
+      "owner": "frontend",
+      "change": "added",
+      "before": null,
+      "after": {
+        "bytes": 4530,
+        "sha256": "36c619069db437e61cf65938b44b8b7e7f47e2e9f997676e6290e79ea70cc3a6"
+      }
+    },
+    {
+      "path": "src/components/experience/engines/auth.ts",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 37147,
+        "sha256": "e0ddce39c0dd8388a46633d96ed12d43603e53c3118c565600dbaf36278216a3"
+      },
+      "after": {
+        "bytes": 37655,
+        "sha256": "ff6f336d632bb8cdef34ff935b93e855286bd8fd6d5ca37f6a6e57bec8c18d30"
+      }
+    },
+    {
+      "path": "src/components/experience/engines/auth.worker.ts",
+      "owner": "frontend",
+      "change": "added",
+      "before": null,
+      "after": {
+        "bytes": 6288,
+        "sha256": "0c09be55ae125334c88f970df17a3d028e922d680e4ad89b3a4f6cdda61938b8"
+      }
+    },
+    {
+      "path": "src/components/experience/engines/rubik-platform.ts",
+      "owner": "frontend",
+      "change": "added",
+      "before": null,
+      "after": {
+        "bytes": 750,
+        "sha256": "0cccbeca4cb143d168813411b69fc619ebf2899c8a160667c72fb9b64b368768"
+      }
+    },
+    {
+      "path": "src/components/experience/engines/rubik-worker-host.ts",
+      "owner": "frontend",
+      "change": "added",
+      "before": null,
+      "after": {
+        "bytes": 8641,
+        "sha256": "7ae6e8e204911618e07db1483815edaae557b74851473791c341694cd9a1007e"
+      }
+    },
+    {
+      "path": "src/components/experience/engines/rubik-worker-protocol.ts",
+      "owner": "frontend",
+      "change": "added",
+      "before": null,
+      "after": {
+        "bytes": 6604,
+        "sha256": "89a16fa7400582287c21ea390985c24315a73245919546812a04ae4737ddc218"
+      }
+    },
+    {
+      "path": "src/components/experience/engines/rubik.ts",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 43666,
+        "sha256": "b67cd5393af10ea83193a822570c2b14d4c87b16733d14392e32b55fe74215b1"
+      },
+      "after": {
+        "bytes": 43993,
+        "sha256": "a3ffa1de07321b589980b464de73227aac7dc5755e23b258ce4612488b9a46c0"
+      }
+    },
+    {
+      "path": "src/components/experience/engines/rubik.worker.ts",
+      "owner": "frontend",
+      "change": "added",
+      "before": null,
+      "after": {
+        "bytes": 7523,
+        "sha256": "a7dfc2a8b941c58cd8f5867717c4c8d1b55772e349f65b32ae4fcb07b8a7888f"
+      }
+    },
+    {
+      "path": "src/components/site/Navigation.tsx",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 12152,
+        "sha256": "4f6855f1a878ccb665542072dc2b8b642602437e1bdd07a57175dc1cddeae777"
+      },
+      "after": {
+        "bytes": 12252,
+        "sha256": "52e1b0b100406913a7d536992c3483505c45e27cd70e6665dca5099f398faad7"
+      }
+    },
+    {
+      "path": "src/components/site/Products.tsx",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 33011,
+        "sha256": "9ccc41b09cb9c17c34226edc24fbf13458f38156b027cedeb21ccde22f8abe81"
+      },
+      "after": {
+        "bytes": 33028,
+        "sha256": "c3eda87586a1b130e19203fed5d326aad49c551855ec478d9d0d5730af4aefbe"
+      }
+    },
+    {
+      "path": "src/components/site/Requests.tsx",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 11131,
+        "sha256": "cbc7b1d4f0e74b348489b124d90258e9995dfaaa90188398bde80c8aecb3257f"
+      },
+      "after": {
+        "bytes": 11148,
+        "sha256": "7427c68b44d9c8dc1fadb4db3c38ff72149e08cb5b7796356738fc8d39fdc338"
+      }
+    },
+    {
+      "path": "src/components/site/Tools.tsx",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 16300,
+        "sha256": "55ca21846af59740ad7824bd4bec872a1f1f15d5da7a858ddc34c77c5b405b08"
+      },
+      "after": {
+        "bytes": 16300,
+        "sha256": "a7dd5a9de522f74c25af236cd3e825ffc42b8aceb276821920251f82ff3bb789"
+      }
+    },
+    {
+      "path": "src/components/ui/Primitives.tsx",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 3471,
+        "sha256": "8c38e5ec1112bcc6612e204179538a252a8f0dacf62a206b2bd0e67057305d2a"
+      },
+      "after": {
+        "bytes": 3555,
+        "sha256": "95e6e12eb6ff7411085d1affbb4e850f155d59b00e548a6c599ca596be808226"
+      }
+    },
+    {
+      "path": "src/components/workspace/Administration.tsx",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 17741,
+        "sha256": "6cf7c8a4227b9cc4d91b5ac17f0098206b7e6be64fa81c07f8c4e31ff439dad4"
+      },
+      "after": {
+        "bytes": 17869,
+        "sha256": "d7d669ad885ee2abe9d7411ec96cec2cc64402e6273c5b51bf5b981316d3e54a"
+      }
+    },
+    {
+      "path": "src/components/workspace/CMS.tsx",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 37554,
+        "sha256": "4f8f838db42d14a951b4b8b0d12ade6a0bf60e00fc7b6099a4c035a3712450a4"
+      },
+      "after": {
+        "bytes": 37703,
+        "sha256": "59944badbf928719e582ebf686004816186d110b053d09732d374fabccc9f49a"
+      }
+    },
+    {
+      "path": "src/components/workspace/CrmOperationReports.tsx",
+      "owner": "root",
+      "change": "modified",
+      "before": {
+        "bytes": 6155,
+        "sha256": "8f07aeae414bd156193bd03fbc1bb64fe0173add0c02d13e2a3ba5f7c0b4c96c"
+      },
+      "after": {
+        "bytes": 6603,
+        "sha256": "8078380b2a0940962cd4d7570d7b816dfabc5d55a6ddc3cac427c13ddb2fa60a"
+      }
+    },
+    {
+      "path": "src/components/workspace/LiveMonitoring.tsx",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 18544,
+        "sha256": "bdcfaac3cc5a93ce080949c777095553867fe28da76fe9cefd56de6f25456da2"
+      },
+      "after": {
+        "bytes": 18699,
+        "sha256": "2b7c1e100407f07fe72277939e0ab0aebb262e38058de82b36e6b2b865fcea37"
+      }
+    },
+    {
+      "path": "src/components/workspace/NotificationTemplateCenter.tsx",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 29092,
+        "sha256": "dd9a8c57180b34996cc03b97dd1b7e012a233fd12a7825b246065871152aaf85"
+      },
+      "after": {
+        "bytes": 29156,
+        "sha256": "2d0920dc817f0e3adcff975a527a41c8e2007f50c5a98322adf63e5a26c36d0a"
+      }
+    },
+    {
+      "path": "src/components/workspace/ProductionFormBuilder.tsx",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 22945,
+        "sha256": "fbac63cf6da998263c5ceee0a45f59872314be46851193e3071b57830936aea4"
+      },
+      "after": {
+        "bytes": 23032,
+        "sha256": "e7e12efd1d6a0c0acac45ec214efb2427dd2fe1b9825573506d693f7bdadeb83"
+      }
+    },
+    {
+      "path": "src/components/workspace/ProductionPipeline.tsx",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 18855,
+        "sha256": "df3cbdfe1158468d842dbb84cc82eeff6e5018cc1db8680f6ece92d28a1e2b1e"
+      },
+      "after": {
+        "bytes": 18943,
+        "sha256": "e7aa44540ad267adc87e0a8ddfbe1e95448e9ae7e41cf6c2234b2473b7ee8958"
+      }
+    },
+    {
+      "path": "src/components/workspace/RecordTranslation.tsx",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 13596,
+        "sha256": "bcbc8de3c084bc7d2a599b8fd9f701a686775367afcd405f49ffafa54572a472"
+      },
+      "after": {
+        "bytes": 13712,
+        "sha256": "aaf0f7489812d97f6f2d7932b713d34e559ff8b2355198d5b194fa31127eb44a"
+      }
+    },
+    {
+      "path": "src/components/workspace/Records.tsx",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 49216,
+        "sha256": "8d2fb0603d89f42b61a4976947bd917cc72dcc13e5e133a7790e5014c58a1808"
+      },
+      "after": {
+        "bytes": 49357,
+        "sha256": "c537a57de364febb46afabbe93fcfdebcd3a9a77e5b7988bbbb70beb9d91e00e"
+      }
+    },
+    {
+      "path": "src/components/workspace/ServerPublicationCalendar.tsx",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 7684,
+        "sha256": "65b91cce5acd365d733fd6d30ec75c0d7ab0e0efa68c5b17901b6ad83971002e"
+      },
+      "after": {
+        "bytes": 7742,
+        "sha256": "a993fbb497118630feaf85933dfb88e99d9d4bcbbc2f8e335a93fb4afafd7ebe"
+      }
+    },
+    {
+      "path": "src/components/workspace/SiteSettings.tsx",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 40379,
+        "sha256": "29596c8e5f182bf16efd6393a7c0225bbfdcd6f748a43c637be96d487b82b40d"
+      },
+      "after": {
+        "bytes": 40409,
+        "sha256": "2342e166fdb1ce4f1ab45dd9d4fc7aa8b26ea3155dcbfdc1304f983a61010d49"
+      }
+    },
+    {
+      "path": "src/components/workspace/StaffLifecycle.tsx",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 34365,
+        "sha256": "1d9a758fcbfaa1470a409a1d1ac8383c789595eb2055bf7d1b3ea42e5beb4300"
+      },
+      "after": {
+        "bytes": 34422,
+        "sha256": "93d6cacbbe46cc0d594e4d50ce1e7377d9c39f87ecdcabfa5215c52e06c83f93"
+      }
+    },
+    {
+      "path": "src/components/workspace/ui.tsx",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 2950,
+        "sha256": "84823b6c430b06347388ae2481d9bd80c00d2e0429f5ff084964c1592beeb3ff"
+      },
+      "after": {
+        "bytes": 2950,
+        "sha256": "a37c557a93bea823011ec924111ba376265cb9d1bbff43170e5a652aa0831ce9"
+      }
+    },
+    {
+      "path": "src/components/workspace/workspace-role.css",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 42276,
+        "sha256": "55ce911e5ac7c3a10e02de405f06e3da85cc5dd8ea0434e9ffb8746c8e32d5d6"
+      },
+      "after": {
+        "bytes": 42373,
+        "sha256": "fd5ee2e79c7b482f91a15fbed59530d979447df1bdcd422ef3f2a239ee3cbdf9"
+      }
+    },
+    {
+      "path": "src/components/workspace/workspace.css",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 101774,
+        "sha256": "6fe27a5c33f635920b1cd051043ad48e5ae014dcaaf5fa30a8162df502af4fb8"
+      },
+      "after": {
+        "bytes": 102845,
+        "sha256": "3e6cf603dc61d4db9ce437933463e5b57ddf9db0ccc4193313eb56f294b5d26b"
+      }
+    },
+    {
+      "path": "tests/auth-worker.test.mjs",
+      "owner": "frontend",
+      "change": "added",
+      "before": null,
+      "after": {
+        "bytes": 17871,
+        "sha256": "f32db4f5f7548a3add915781003b40e59d4707fc9345be3a86271ae6b29fe864"
+      }
+    },
+    {
+      "path": "tests/rubik-worker-lifecycle.test.mjs",
+      "owner": "frontend",
+      "change": "added",
+      "before": null,
+      "after": {
+        "bytes": 18433,
+        "sha256": "8de16a1cf668f8b99c0acaac165d31e744c207a38bc49f6e4487fc7aa783bf70"
+      }
+    },
+    {
+      "path": "tests/rubik-worker-protocol.test.mjs",
+      "owner": "frontend",
+      "change": "added",
+      "before": null,
+      "after": {
+        "bytes": 12458,
+        "sha256": "cba52e8a71d1a9c202134d4977a8c6c14df68dc31042932c04612bbca0ddc647"
+      }
+    },
+    {
+      "path": "tests/scene-preparation.test.mjs",
+      "owner": "frontend",
+      "change": "modified",
+      "before": {
+        "bytes": 11862,
+        "sha256": "e8a65e9368ea9288ef5c922eed182a94bfe49bad1d2519363a7dbc7139f8d8a9"
+      },
+      "after": {
+        "bytes": 12919,
+        "sha256": "d9dd07e95286f22f611c6e7fae680823a135987aae0bf25f5ed584554818f63e"
+      }
+    },
+    {
+      "path": "tests/workspace-startup.test.mjs",
+      "owner": "root",
+      "change": "modified",
+      "before": {
+        "bytes": 9399,
+        "sha256": "fd74cc59955f9eaad3cec87c20d6a19f521ee86a5e53d32d0002f89a28d1af16"
+      },
+      "after": {
+        "bytes": 10063,
+        "sha256": "3106eb8c0205b66718bb27cc150736fd1c61a658501d9ce8dee55fc6edf5ce08"
+      }
+    }
+  ],
+  "unchangedProductScopes": {
+    "server": {
+      "baselineFiles": 93,
+      "currentFiles": 93,
+      "unchangedFiles": 93,
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "allByteIdentical": true
+    },
+    "sharedLibrary": {
+      "baselineFiles": 69,
+      "currentFiles": 69,
+      "unchangedFiles": 69,
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "allByteIdentical": true
+    },
+    "sharedTypes": {
+      "baselineFiles": 31,
+      "currentFiles": 31,
+      "unchangedFiles": 31,
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "allByteIdentical": true
+    },
+    "workerService": {
+      "baselineFiles": 4,
+      "currentFiles": 4,
+      "unchangedFiles": 4,
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "allByteIdentical": true
+    },
+    "database": {
+      "baselineFiles": 41,
+      "currentFiles": 41,
+      "unchangedFiles": 41,
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "allByteIdentical": true
+    },
+    "deployment": {
+      "baselineFiles": 23,
+      "currentFiles": 23,
+      "unchangedFiles": 23,
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "allByteIdentical": true
+    },
+    "scripts": {
+      "baselineFiles": 48,
+      "currentFiles": 48,
+      "unchangedFiles": 48,
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "allByteIdentical": true
+    },
+    "packageAndBuildConfiguration": {
+      "baselineFiles": 10,
+      "currentFiles": 10,
+      "unchangedFiles": 10,
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "allByteIdentical": true
+    },
+    "publicAssetsIncludingGeneratedServiceWorkers": {
+      "baselineFiles": 133,
+      "currentFiles": 133,
+      "unchangedFiles": 133,
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "allByteIdentical": true
+    },
+    "unchangedSourceTests": {
+      "baselineFiles": 164,
+      "currentFiles": 164,
+      "unchangedFiles": 164,
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "allByteIdentical": true
+    }
+  },
+  "checkedScopes": {
+    "sourceRoots": [
+      "src",
+      "worker",
+      "db",
+      "scripts",
+      "deploy",
+      "tests"
+    ],
+    "sourceFiles": [
+      "package.json",
+      "package-lock.json",
+      "next.config.ts",
+      "tsconfig.json",
+      "Dockerfile",
+      "docker-compose.yml"
+    ],
+    "applicationRoots": [
+      "src",
+      "worker",
+      "public"
+    ],
+    "applicationFiles": [
+      "next.config.ts",
+      "package.json",
+      "package-lock.json",
+      "tailwind.config.ts",
+      "postcss.config.mjs",
+      "tsconfig.json",
+      "scripts/build-service-worker.mjs",
+      "scripts/build-worker.mjs"
+    ],
+    "excluded": [
+      "__pycache__ directories",
+      ".pyc files"
+    ]
+  },
+  "checks": {
+    "onlyApprovedProductFileChanges": true,
+    "frontendBeforeAndAfterBound": true,
+    "rootBeforeAndAfterBound": true,
+    "exactSourceEntrySet": true,
+    "currentSourceAggregateMatchesGate": true,
+    "exactApplicationEntrySet": true,
+    "currentApplicationFilesAndAggregateMatchBuild": true,
+    "operationalScopesUnchanged": true,
+    "scopedFilesStableDuringRead": true
+  },
+  "applicability": {
+    "historicalTestsRerunByThisCheck": false,
+    "runtimeEquivalenceVerified": false,
+    "browserExecutionPerformed": false,
+    "sourceModifiedByThisCheck": false,
+    "limits": [
+      "This verifies product file identity and the declared change scope. It does not rerun historical backend, database, deployment, or browser tests.",
+      "Runtime versions, installed dependencies, operating-system state, database contents, service configuration, and behavior need their own execution evidence.",
+      "Historical test results remain attached to their original source and runtime. Unchanged implementation bytes alone do not establish current runtime test success.",
+      "Documentation is outside these frozen code scopes; no claim is made that all documentation is unchanged."
+    ]
+  },
+  "runtimeEvidenceContext": {
+    "comparisonMethod": "Read version values in preserved native gate receipts; this projection launches no runtime.",
+    "historicalNativeBackendGates": {
+      "node": "v24.19.0",
+      "source": {
+        "sha256": "7f3ce91bb62edb78824310083b185f1854fa0d98458b04dea167078a24c4155d",
+        "files": 819
+      },
+      "postgresTests": 513,
+      "postgresPassed": 513,
+      "apiTests": 20,
+      "apiPassed": 20
+    },
+    "currentNativeUnitGate": {
+      "node": "v24.19.0",
+      "source": {
+        "sha256": "79d34c8326f3adc5eb28834a588bac6a76e08bdd9f1c8f67de96c2480982dfa5",
+        "files": 831
+      }
+    },
+    "reportedNativeNodeVersionsMatch": true,
+    "sameNodeVersionEstablishesRuntimeEquivalence": false,
+    "vmImageRuntimeScope": "VM image runtime versions belong to separate Docker/VM evidence and are not the versions used by these historical native backend gates.",
+    "historicalBackendGatesRerunByThisProjection": false
+  }
+}

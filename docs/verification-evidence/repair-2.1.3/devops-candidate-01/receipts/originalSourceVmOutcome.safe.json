@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "kind": "owned-disposable-vm-outcome",
+  "name": "primary",
+  "startedAt": "2026-10-25T03:39:59.630080+00:00",
+  "completedAt": "2026-10-25T05:14:35.875143+00:00",
+  "elapsedSeconds": 5676.245107,
+  "pid": 15294,
+  "exitCode": 0,
+  "actualWaitConsumed": true,
+  "forcedProcessTermination": false,
+  "stopRequests": [],
+  "diskFreeBytesAtEnd": 22589149184
+}

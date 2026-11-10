@@ -1,0 +1,30 @@
+{
+  "scope": "Owned disposable populated managed installation; no customer system",
+  "operation": {
+    "name": "upgrade",
+    "startedAt": "2026-10-25T13:04:06.015116+00:00",
+    "completed": true,
+    "completedAt": "2026-10-25T13:06:56.068797+00:00",
+    "elapsedSeconds": 170.057,
+    "exitCode": 1
+  },
+  "failedPhase": "application and proxy image build",
+  "errorSummary": "Docker CLI registry authorization fetch attempted direct DNS and timed out resolving auth.docker.io through 127.0.0.53",
+  "beforePreUpgradeBackupWriterStopAndMigrations": true,
+  "daemonAndDockerClientBuildProxyAlreadyConfigured": true,
+  "sudoCommandClientEnvironmentWasMissingProxy": true,
+  "explicitExistingProxyHttpsProbeStatus": 200,
+  "dockerCliMetadataProbe": {
+    "exitCode": 0,
+    "manifestBytes": 9078,
+    "manifestSha256": "4edf897a3ffa55b89f906fc8cc78afdb3f1834cc9c7083565e611a8a7d5fe99e"
+  },
+  "resolution": "Pass the existing HTTP_PROXY/HTTPS_PROXY/NO_PROXY environment to the sudo-launched original installer; no source or daemon changes",
+  "tlsVerificationRetained": true,
+  "applicationInputFingerprintUnchanged": true,
+  "officialGuidance": "https://docs.docker.com/engine/daemon/proxy/",
+  "originalPrivateLogDigest": {
+    "bytes": 5815,
+    "sha256": "e2b2183e7272ac9f727c43d3c788ee21a9f6e222c8509f536083d0e0dad05e48"
+  }
+}

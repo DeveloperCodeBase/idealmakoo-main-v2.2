@@ -1,0 +1,523 @@
+{
+  "schemaVersion": 1,
+  "version": "2.1.1",
+  "updatedAt": "2026-10-23T07:37:13.045490+00:00",
+  "stage": "native-build03-three-case-followup-complete-operational-and-lighthouse-pending",
+  "buildId": "i2FywRVMQcWLcBXtSt9h7",
+  "sourceScopeBridge": {
+    "recordedFilesBeforePreviousBuild": 803,
+    "previousBuildId": "jV_8qsw2l0Gfrz9MFyW9n",
+    "previousManifestSha256": "8fec06e97137b1fda9648ca64e75581b86611783f4854bb9acc6899f94d41736",
+    "currentRecordedFiles": 804,
+    "beforeBuildManifestSha256": "d63fb08e3ed0f744c1352e078a83a1cb09ee01c4a01c77ccc60b39e74c3eba15",
+    "afterBuildManifestSha256": "047a1f378ab8af3da0f893b600ff7a34d9771a82b6b34f2746624d81247b835f",
+    "buildIdentitySha256": "07f79ab27ca04961a00829ea976c832bacecc5898e54ee425981e2a3f4a22c3b",
+    "compiledSourceChangesDuringBuild": [],
+    "currentSourceInventoryAndHashesMatched": true,
+    "unchangedPreviousRecordedFiles": 793,
+    "changedRecordedFilesSinceBuild01": [
+      {
+        "path": "scripts/audit-private-lighthouse.mjs",
+        "beforeSha256": "1a6f7530adbf47cd164c06571428e6a7864cf31759b6cb75518d5092b80666c4",
+        "afterSha256": "2b66508231a7af31dd45aa098a482ce80ad1896b666bad2ec373ead6c203fa62"
+      },
+      {
+        "path": "scripts/export-private-lighthouse-evidence.mjs",
+        "beforeSha256": "c79e18a46b9ce7d1a73b09517d08c03297ecc8807f22883516411de17c1d9dfc",
+        "afterSha256": "4150f07b8be0000033db0b471693b925b9dd9916a75a85642e22afe6478e080b"
+      },
+      {
+        "path": "scripts/lib/private-audit-policy.mjs",
+        "beforeSha256": "0a56dca65680cd597202703f24c42830c4ea96af5894ae566590ccb4e75487d2",
+        "afterSha256": "5405270c9badc2476307c2a11f6be8c9ffee16fee44798d0b0b9cee0868d7f57"
+      },
+      {
+        "path": "scripts/lighthouse-private-child.mjs",
+        "beforeSha256": "c87ff6442c76190938f65036539eeb79f25e6e1c269546a7e46fd52b4c217572",
+        "afterSha256": "67223439bf87034cf0b75b641cabcecce1547c45c55651c8214cca2e15e20b5e"
+      },
+      {
+        "path": "src/components/experience/ToothExperience.tsx",
+        "beforeSha256": "465af757e396a4b68f0a5878a7bc12f3cd562da0176c0cd17bafe384aa5087d7",
+        "afterSha256": "bfa2d0f6ddfc2d7df385eafd024de9c86d5eedf070e23f8108b2a83e7458767c"
+      },
+      {
+        "path": "src/components/experience/experience.module.css",
+        "beforeSha256": "96914e8e8b9acbd62f55e479d2df95b72dd613647c811f2e2a8d42b402f847e8",
+        "afterSha256": "b443eb7248065badf321f9f9310bd2acd0175f04c656429677a45cc29d6db228"
+      },
+      {
+        "path": "src/components/site/ImmersiveHero.tsx",
+        "beforeSha256": "2e4d29c1fc8ed3e3059be0a0ed2eacb4106582fe5f811caac547461a563d5ef5",
+        "afterSha256": "f286d739e6dd7b2c9dfe4c9bed87978a8e3ef12ab1913e95c162632150c48549"
+      },
+      {
+        "path": "src/components/ui/dialog-runtime.ts",
+        "beforeSha256": "2f999d785487056b36a6dcb403e2919ddd3d6e449adc557dc89ff2afdc82f0c7",
+        "afterSha256": "7928a11c28d31a10fac3ca6e811a40a7d5ed041e8f6b0937ab3992c6e2e7a1c1"
+      },
+      {
+        "path": "src/components/workspace/StaffManagement.tsx",
+        "beforeSha256": "0135738460faf3c41c58d45f3ec8aeb37ee89e9e6e038554274e10166ffe77fa",
+        "afterSha256": "555b17eec689be5aa606827378391773855af546fdd7b6681dfc2749b2a45aa2"
+      },
+      {
+        "path": "src/components/workspace/workspace-role.css",
+        "beforeSha256": "fd5ee2e79c7b482f91a15fbed59530d979447df1bdcd422ef3f2a239ee3cbdf9",
+        "afterSha256": "c32c11934c748a416373eb189680017dd8079e6eb114a91bef882c9ebb584359"
+      }
+    ],
+    "addedFilesSinceBuild01": [
+      {
+        "path": "scripts/lib/private-audit-editor-cleanup.mjs",
+        "sha256": "dfd0442630d3c37e6e650059dc81f8284ce358fda90d20a9ee182010601ce076"
+      }
+    ],
+    "removedFilesSinceBuild01": [],
+    "unchangedDomains": {
+      "server": {
+        "recordedFiles": 97,
+        "unchanged": true,
+        "newExecutionClaimed": false
+      },
+      "database": {
+        "recordedFiles": 41,
+        "unchanged": true,
+        "newExecutionClaimed": false
+      },
+      "worker": {
+        "recordedFiles": 4,
+        "unchanged": true,
+        "newExecutionClaimed": false
+      },
+      "deployment": {
+        "recordedFiles": 23,
+        "unchanged": true,
+        "newExecutionClaimed": false
+      }
+    },
+    "build02BeforeManifestSha256": "840059086c2c9f0e11937a42b117991ffa4557b2ec138a4b3d6c7e9628dd8d53",
+    "changedRecordedFilesSinceBuild02": [
+      {
+        "path": "src/components/experience/ToothExperience.tsx",
+        "beforeSha256": "744bd532fd4bf1c8be403b8a9b2711cc006dd7e0e1217d3de9cf4ef6dfbc7e9e",
+        "afterSha256": "bfa2d0f6ddfc2d7df385eafd024de9c86d5eedf070e23f8108b2a83e7458767c"
+      },
+      {
+        "path": "src/components/experience/experience.module.css",
+        "beforeSha256": "c3141cce028b5b8ec0284c0137d15b61fdcf404df9bbc122a3bd501074b83999",
+        "afterSha256": "b443eb7248065badf321f9f9310bd2acd0175f04c656429677a45cc29d6db228"
+      }
+    ],
+    "addedOrRemovedFilesSinceBuild02": [],
+    "captureExclusions": [
+      "__pycache__ directories",
+      ".pyc bytecode"
+    ],
+    "scope": "Build03 compiled the six changed component/CSS files since build01, including the two-file hero fallback metadata correction since build02, and current audit inputs. Unit/typecheck, only the exact three hero/CSP follow-up cases and the browser-asset pattern scan are current executions. Browser03 remains a failed 17/20 execution on build02, including its 17 passed cases. The complete 56-browser suite, 528 PostgreSQL cases, 20 API cases, original raw-HTTP 404 gate, isolated schema upgrade and operational-script tests retain their original execution times; none is relabelled as a new run. Explicit server/API, database, worker and deployment file sets are unchanged. Tests and documentation are outside the build-input manifest."
+  },
+  "gates": {
+    "unit": {
+      "id": "unit-final-03",
+      "startedAt": "2026-10-23T07:26:24.557617+00:00",
+      "finishedAt": "2026-10-23T07:26:55.194176+00:00",
+      "durationSeconds": 30.636,
+      "exitCode": 0,
+      "logBytes": 89586,
+      "logSha256": "4afaabfb1b0e6684cda392494717347d193729e55a255adbda99fc9b89f34151",
+      "originalReceiptSha256": "8ffcdb1a4295d52d82de64c30e6cc7cb9124696ef957df8970b255fef8c674dd",
+      "counts": {
+        "tests": 810,
+        "suites": 0,
+        "pass": 810,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "executionCohort": "current-build03-source",
+      "currentBuildId": "i2FywRVMQcWLcBXtSt9h7"
+    },
+    "typescript": {
+      "id": "typecheck-final-03",
+      "startedAt": "2026-10-23T07:26:24.437556+00:00",
+      "finishedAt": "2026-10-23T07:26:28.067672+00:00",
+      "durationSeconds": 3.63,
+      "exitCode": 0,
+      "logBytes": 154,
+      "logSha256": "641c378220765bbcf641f927759bbb72a9bd63949b02c2e8d252482c72aab1c8",
+      "originalReceiptSha256": "d3a27ae35a06a09dddf620be2153b09c8aae09bcb642f4990cb502172b6a7110",
+      "executionCohort": "current-build03-source",
+      "currentBuildId": "i2FywRVMQcWLcBXtSt9h7"
+    },
+    "postgresql": {
+      "id": "integration-pg-03",
+      "startedAt": "2026-10-23T05:16:52.990354+00:00",
+      "finishedAt": "2026-10-23T05:20:11.609651+00:00",
+      "durationSeconds": 198.619,
+      "exitCode": 0,
+      "logBytes": 148870,
+      "logSha256": "25c8137e83da4683fe05d404b87fd88999142b0504e8b9220c0668150685a2ca",
+      "originalReceiptSha256": "38a91335ba0f556573e26f1e08b8b3457cae6c957d4dcb785089e954a92e458d",
+      "counts": {
+        "tests": 528,
+        "suites": 0,
+        "pass": 528,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "executionCohort": "retained-build01-execution",
+      "associatedPriorBuildId": "jV_8qsw2l0Gfrz9MFyW9n",
+      "reexecutedForCurrentBuild": false
+    },
+    "api": {
+      "id": "integration-api-01",
+      "startedAt": "2026-10-23T05:20:56.946781+00:00",
+      "finishedAt": "2026-10-23T05:21:07.162019+00:00",
+      "durationSeconds": 10.215,
+      "exitCode": 0,
+      "logBytes": 1041,
+      "logSha256": "7d0544e0af36fd2e7f23ac3f804d1182c543e2cfc3378f71509f38b2e6e30fed",
+      "originalReceiptSha256": "16416ef9f78e5baf2da1def930bb25135bbd63c6eba534fbe33186970bbe6e8d",
+      "tests": 20,
+      "passed": 20,
+      "failed": 0,
+      "executionCohort": "retained-build01-execution",
+      "associatedPriorBuildId": "jV_8qsw2l0Gfrz9MFyW9n",
+      "reexecutedForCurrentBuild": false
+    },
+    "build": {
+      "id": "production-build-03",
+      "startedAt": "2026-10-23T07:28:03.461962+00:00",
+      "finishedAt": "2026-10-23T07:29:07.389839+00:00",
+      "durationSeconds": 63.928,
+      "exitCode": 0,
+      "logBytes": 3364,
+      "logSha256": "d871c812cab87f7db7109c912779b69130b46d44a686a36ac85e5c79f74cc64c",
+      "originalReceiptSha256": "73fa2563ab84bc986affa8745897ca1afcf1fde7f5f873b89097dfe7200b2d88",
+      "executionCohort": "current-build03-source",
+      "currentBuildId": "i2FywRVMQcWLcBXtSt9h7"
+    },
+    "rawHttp404": {
+      "id": "raw-http-01",
+      "startedAt": "2026-10-23T05:25:17.309479+00:00",
+      "finishedAt": "2026-10-23T05:25:20.343695+00:00",
+      "durationSeconds": 3.034,
+      "exitCode": 0,
+      "logBytes": 1969,
+      "logSha256": "27b4e23839e600b1168052e930e7ee61c08b980837319d8e1c8b9ae9c6df3150",
+      "originalReceiptSha256": "dfacfda8af58bc2b547e3693fa4038802fd6e4add77cf0b95d244f73f405cc04",
+      "tests": 8,
+      "requests": 36,
+      "passed": 8,
+      "failed": 0,
+      "skipped": 0,
+      "retries": 0,
+      "locales": [
+        "fa",
+        "en",
+        "ar",
+        "ru",
+        "tr"
+      ],
+      "httpEntrypoint": "caddy",
+      "executionCohort": "retained-build01-execution",
+      "associatedPriorBuildId": "jV_8qsw2l0Gfrz9MFyW9n",
+      "reexecutedForCurrentBuild": false
+    },
+    "browser": {
+      "id": "browser-e2e-02",
+      "startedAt": "2026-10-23T05:32:12.990388+00:00",
+      "finishedAt": "2026-10-23T05:36:03.556374+00:00",
+      "durationSeconds": 230.566,
+      "exitCode": 0,
+      "logBytes": 9335,
+      "logSha256": "954cbcd3499b34d2b595e3581e5c87a99304bb3a7ca735cedfb3c24aab44a70b",
+      "originalReceiptSha256": "61c1014c54c8c54146133b5766eab3dc68c020ae539bb6caefabdf5c70ca4745",
+      "tests": 56,
+      "passed": 56,
+      "failed": 0,
+      "skipped": 0,
+      "flaky": 0,
+      "retries": 0,
+      "httpEntrypoint": "caddy",
+      "originalSummarySha256": "eba002c428694774a5358d6ce091a082c85fd174294685e847e6c16cde73ef64",
+      "executionCohort": "retained-build01-execution",
+      "associatedPriorBuildId": "jV_8qsw2l0Gfrz9MFyW9n",
+      "reexecutedForCurrentBuild": false
+    },
+    "retainedSelectedBrowserFailure": {
+      "id": "browser-e2e-03",
+      "startedAt": "2026-10-23T07:21:31.463281+00:00",
+      "finishedAt": "2026-10-23T07:23:03.548971+00:00",
+      "durationSeconds": 92.086,
+      "exitCode": 1,
+      "logBytes": 14903,
+      "logSha256": "db0604160c63c3add47a85ce2194a2303a40aa2523b3c4141f9d7b9ea2c9bbfb",
+      "originalReceiptSha256": "1371d7906bb18911bc0f868db3ec65293d27fec5bdee03f0881261cf1c9d1430",
+      "status": "failed",
+      "tests": 20,
+      "passed": 17,
+      "failed": 3,
+      "skipped": 0,
+      "flaky": 0,
+      "retries": 0,
+      "executionCohort": "retained-build02-failed-selected-execution",
+      "associatedPriorBuildId": "yiIif_e5qM77v2z6MKg0A",
+      "reexecutedForCurrentBuild": false,
+      "originalSummarySha256": "27f492a8c3c074d384f45240272620c654e34bcf4e86666b88039f8bec144a16",
+      "originalRawReportSha256": "bf916a095b277c844178eaf0fe85df05209da45cdd961e1a5d52931a9ba72121",
+      "failureCategories": [
+        {
+          "category": "strict-locator-matched-multiple-hero-roots",
+          "cases": 3,
+          "matchedElementsPerFailure": 2
+        }
+      ],
+      "failedCases": [
+        {
+          "file": "hero-worker.spec.ts",
+          "title": "the real rendering worker presents frames and handles keyboard input while the page controls remain usable",
+          "category": "strict-locator-matched-multiple-hero-roots",
+          "matchedElements": 2
+        },
+        {
+          "file": "hero-worker.spec.ts",
+          "title": "failure after canvas transfer remounts a fresh accessible React canvas and restores the same scene on the main thread",
+          "category": "strict-locator-matched-multiple-hero-roots",
+          "matchedElements": 2
+        },
+        {
+          "file": "public-csp-images.spec.ts",
+          "title": "hydrated public pages and the hero rendering worker run under nonce CSP without eval violations",
+          "category": "strict-locator-matched-multiple-hero-roots",
+          "matchedElements": 2
+        }
+      ],
+      "passedCountsByFile": {
+        "accessibility.spec.ts": 12,
+        "panel-staff-mfa-reset.spec.ts": 1,
+        "public-csp-images.spec.ts": 2,
+        "user-directory.spec.ts": 1,
+        "user-management.spec.ts": 1
+      },
+      "scope": "The 17 passes and three locator failures remain attributed to build02. The current three-case follow-up does not relabel this run as 20/20."
+    },
+    "selectedBrowser": {
+      "id": "browser-e2e-04",
+      "startedAt": "2026-10-23T07:34:15.976755+00:00",
+      "finishedAt": "2026-10-23T07:34:48.336191+00:00",
+      "durationSeconds": 32.359,
+      "exitCode": 0,
+      "logBytes": 1239,
+      "logSha256": "a9ae1383353ca5928b5c3d2766a70e28cbb03137499950eb1ca1f22ae2577340",
+      "originalReceiptSha256": "fd135c581ade479e38fa5afd1a18ba8ee45fd99176b0e8b2e4e337e2d211c994",
+      "tests": 3,
+      "passed": 3,
+      "failed": 0,
+      "skipped": 0,
+      "flaky": 0,
+      "retries": 0,
+      "httpEntrypoint": "caddy",
+      "scope": "Only the exact three hero-worker/canvas-fallback/nonce-CSP cases that failed in browser03; not a rerun of the selected 20-case or complete 56-case suite.",
+      "cases": [
+        {
+          "file": "hero-worker.spec.ts",
+          "title": "the real rendering worker presents frames and handles keyboard input while the page controls remain usable",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "duration_ms": 10287
+            }
+          ]
+        },
+        {
+          "file": "hero-worker.spec.ts",
+          "title": "failure after canvas transfer remounts a fresh accessible React canvas and restores the same scene on the main thread",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "duration_ms": 10083
+            }
+          ]
+        },
+        {
+          "file": "public-csp-images.spec.ts",
+          "title": "hydrated public pages and the hero rendering worker run under nonce CSP without eval violations",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "duration_ms": 10486
+            }
+          ]
+        }
+      ],
+      "originalSummarySha256": "dd93421c13dfabed473ab238da6bbe90ecde712da0518d30fe194f0c3be3905d",
+      "originalRawReportSha256": "20c6588d755b426a453346e0a7ce9ccbf272332ed5dbe379bdcf78d23685ff14",
+      "executionCohort": "current-build03-source",
+      "currentBuildId": "i2FywRVMQcWLcBXtSt9h7"
+    },
+    "deploymentScripts": {
+      "originalReceiptSha256": "50233fdaff4fd4aff45f3bd75fb363f39ad25f39ab93c3486750084d922c57ca",
+      "status": "passed",
+      "commands": [
+        {
+          "label": "deployment-python",
+          "startedAt": "2026-10-23T05:10:18.822284+00:00",
+          "finishedAt": "2026-10-23T05:11:14.456254+00:00",
+          "durationSeconds": 55.633993,
+          "exitCode": 0,
+          "logSha256": "0159c9b0919453138edbce603f7a0c4c2f622484f52e7df1ba6d546885a74c98",
+          "logBytes": 38339
+        },
+        {
+          "label": "shellcheck",
+          "startedAt": "2026-10-23T05:11:14.457383+00:00",
+          "finishedAt": "2026-10-23T05:11:16.326825+00:00",
+          "durationSeconds": 1.869465,
+          "exitCode": 0,
+          "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "logBytes": 0
+        },
+        {
+          "label": "bash-syntax",
+          "startedAt": "2026-10-23T05:11:16.327369+00:00",
+          "finishedAt": "2026-10-23T05:11:16.359408+00:00",
+          "durationSeconds": 0.032056,
+          "exitCode": 0,
+          "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "logBytes": 0
+        }
+      ],
+      "tests": 198,
+      "passed": 198,
+      "shellScripts": 14,
+      "shellcheckExit": 0,
+      "syntaxExit": 0,
+      "executionCohort": "retained-build01-execution",
+      "associatedPriorBuildId": "jV_8qsw2l0Gfrz9MFyW9n",
+      "reexecutedForCurrentBuild": false
+    },
+    "schemaUpgrade": {
+      "originalReceiptSha256": "da2d483d5718c11fd85430d37334b178f5f469f6a8f328b8fe4b9a919826c1de",
+      "status": "passed",
+      "originalMigratorEqualsCurrent": true,
+      "migratorSha256": "b05962f8843ca24a78bf8de22ad90f0e0f7c686cf574ec4f21893023c4621e24",
+      "phases": [
+        {
+          "label": "original37",
+          "applied": 37,
+          "exitCode": 0,
+          "durationMs": 1017.596,
+          "logSha256": "f7d425996f5c1ec6f26898e147c7addaab587f463ab66c535c0645c049d292ca"
+        },
+        {
+          "label": "upgrade41",
+          "applied": 4,
+          "exitCode": 0,
+          "durationMs": 148.074,
+          "logSha256": "ed9dc68f12f96b61e4f550c926532d131d89167800909c2bcb4717783671736e"
+        },
+        {
+          "label": "idempotent41",
+          "applied": 0,
+          "exitCode": 0,
+          "durationMs": 134.123,
+          "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ],
+      "originalMigrationCount": 37,
+      "currentMigrationCount": 41,
+      "syntheticData": {
+        "tables": {
+          "users": 2,
+          "user_settings": 1,
+          "audit_events": 1
+        },
+        "totalRows": 4,
+        "usersInactive": true,
+        "passwordValuesInertAndNonAuthenticating": true,
+        "unchangedAfterUpgrade": true,
+        "unchangedAfterRepeat": true,
+        "originalSnapshotSha256": "1615f5b58d61e94a949a3d5bac4ef21b8fda831c366f58f9c69614561cdf730e",
+        "coverageLimitation": "Four synthetic rows only; not a full historical production dataset or an old application runtime."
+      },
+      "cleanup": {
+        "attempted": true,
+        "passed": true
+      },
+      "scope": {
+        "randomSchemaOnly": true,
+        "sharedPublicDataRead": false,
+        "sharedPublicDataWrite": false,
+        "originalApplicationRuntimeExercised": false,
+        "currentUnmodifiedCliWithOriginalSchema": true,
+        "realPostgreSql": true
+      },
+      "publicCatalogUnchanged": true,
+      "executionCohort": "retained-build01-execution",
+      "associatedPriorBuildId": "jV_8qsw2l0Gfrz9MFyW9n",
+      "reexecutedForCurrentBuild": false
+    },
+    "browserAssetPatterns": {
+      "status": "passed",
+      "files": 216,
+      "bytes": 5709741,
+      "findings": [],
+      "patterns": 8,
+      "privateInputsRead": 0,
+      "exactKnownSecretScanPerformed": false,
+      "buildIdStable": true,
+      "fileInventoryAndMetadataStable": true,
+      "symlinks": 0,
+      "scope": {
+        "nextStatic": "all regular files",
+        "public": "JS/MJS/CJS/source-map files only",
+        "formats": "Seven shipped credential-format patterns plus credential-bearing DB URL patterns; no values or matching text emitted",
+        "streaming": "64KiB chunks,32KiB overlap,64MiB per file,512MiB total,10000 scanned files maximum",
+        "limits": "This does not detect arbitrary passwords/session/MFA values or transformed secrets, and is not an exact-known-secret scan."
+      },
+      "originalReceiptSha256": "3e131c93f7dbeefabf314a3a85e20b7b86117f7f924c8c0641af28630d58a76f",
+      "execution": {
+        "id": "browser-assets-patterns-03",
+        "startedAt": "2026-10-23T07:29:27.718940+00:00",
+        "finishedAt": "2026-10-23T07:29:28.035973+00:00",
+        "durationSeconds": 0.317,
+        "exitCode": 0,
+        "logBytes": 1197,
+        "logSha256": "23d38a65df5119bcbd7e0b6726eb139c873e98563fbf8cdabbdb42f6aa59b1a2",
+        "originalReceiptSha256": "8a23cfa8b78144432019f58260b6c9c3f3ad50dfc4396fc1d86f74ca89436999"
+      },
+      "exactKnownSecretScanStatus": "blocked-by-automatic-approval-review-before-collection",
+      "privateCredentialInventoryCreated": false,
+      "executionCohort": "current-build03-source",
+      "currentBuildId": "i2FywRVMQcWLcBXtSt9h7"
+    }
+  },
+  "pending": [
+    "current targeted and full mobile/desktop Lighthouse",
+    "original Dockerfile Ubuntu installation with full antivirus",
+    "encrypted backup download, verify, drill and same/fresh-host recovery",
+    "final source archive and archive pattern scan"
+  ],
+  "unexercisedExternalServices": [
+    "paid AI provider generation",
+    "SMTP/SMS/push delivery",
+    "public DNS and public TLS",
+    "deployment on user server"
+  ],
+  "previousNativeAcceptance": {
+    "path": "acceptance-build01.json",
+    "sha256": "38df2300fcd3b9770abe7e7f84efd91467ca2b31def6290dc1340896fc14bc74",
+    "preserved": true
+  },
+  "historicalEvidence": "docs/verification-evidence/release belongs to earlier 2.1.0 builds; those results are not counted in this report."
+}

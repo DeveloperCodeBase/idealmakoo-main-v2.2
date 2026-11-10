@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/privacy/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "08a691a795df5b8697d83469db53516dc041b1f4a607e52719990ebbb4fedd1e",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "الخصوصية | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "تُحفظ على الخادم المعلومات التي تقدمها في الحساب والملف والنماذج، ومنها الاسم ووسائل الاتصال والمؤسسة والرسائل والمرفقات، لمعالجة طلباتك وإدارة التواصل. تتوافر إعدادات الحساب وقوائمه على الأجهزة الأخرى بعد تسجيل الدخول."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/privacy/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/privacy/",
+    "en": "http://127.0.0.1:3100/en/privacy/",
+    "tr": "http://127.0.0.1:3100/tr/privacy/",
+    "ar": "http://127.0.0.1:3100/ar/privacy/",
+    "ru": "http://127.0.0.1:3100/ru/privacy/",
+    "x-default": "http://127.0.0.1:3100/fa/privacy/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 84
+}

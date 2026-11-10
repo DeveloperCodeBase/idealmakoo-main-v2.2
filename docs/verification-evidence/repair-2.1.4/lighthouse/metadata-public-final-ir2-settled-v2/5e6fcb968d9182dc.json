@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/research/apple-super-major-wear/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "eb63f8d69757182912244b0a77d4300af20b1f728614cffabf22ef6cb9972dcf",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "مقایسه سایش دندان اپل و سوپر ماژور | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "بررسی ۶۴ نمونه با شبیه‌ساز جویدن و مقایسه اسکن‌های سه‌بعدی قبل و بعد از آزمون."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/research/apple-super-major-wear/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/apple-super-major-wear/",
+    "en": "http://127.0.0.1:3100/en/research/apple-super-major-wear/",
+    "tr": "http://127.0.0.1:3100/tr/research/apple-super-major-wear/",
+    "ar": "http://127.0.0.1:3100/ar/research/apple-super-major-wear/",
+    "ru": "http://127.0.0.1:3100/ru/research/apple-super-major-wear/",
+    "x-default": "http://127.0.0.1:3100/fa/research/apple-super-major-wear/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 57
+}

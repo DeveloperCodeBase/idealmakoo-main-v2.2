@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/research/president-ivoclar-3d-wear/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "1fbd6a241ecf19471e45d1997c71b4d9cf3758373bfa155813a06166ef309afa",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "مقایسه سایش پرزیدنت و ایوکلار با اسکن سه‌بعدی | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "معرفی مطالعه سایش در برابر دندان طبیعی و استفاده از اسکنر سه‌بعدی برای ارزیابی."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/research/president-ivoclar-3d-wear/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/president-ivoclar-3d-wear/",
+    "en": "http://127.0.0.1:3100/en/research/president-ivoclar-3d-wear/",
+    "tr": "http://127.0.0.1:3100/tr/research/president-ivoclar-3d-wear/",
+    "ar": "http://127.0.0.1:3100/ar/research/president-ivoclar-3d-wear/",
+    "ru": "http://127.0.0.1:3100/ru/research/president-ivoclar-3d-wear/",
+    "x-default": "http://127.0.0.1:3100/fa/research/president-ivoclar-3d-wear/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 56
+}

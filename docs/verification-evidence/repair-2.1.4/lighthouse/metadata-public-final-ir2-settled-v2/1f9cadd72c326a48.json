@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/news/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "bcd5deb504bf77683ff8357673e610fe7d3baf376ec55d885fc4a5ce5c9d0b17",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "صدای کارخانه، روایت پیشرفت. | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "خبرها، اطلاعیه‌ها و روایت‌های منتشرشده ایده‌آل ماکو، در یک فضای یکپارچه."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/news/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/news/",
+    "en": "http://127.0.0.1:3100/en/news/",
+    "tr": "http://127.0.0.1:3100/tr/news/",
+    "ar": "http://127.0.0.1:3100/ar/news/",
+    "ru": "http://127.0.0.1:3100/ru/news/",
+    "x-default": "http://127.0.0.1:3100/fa/news/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 48
+}

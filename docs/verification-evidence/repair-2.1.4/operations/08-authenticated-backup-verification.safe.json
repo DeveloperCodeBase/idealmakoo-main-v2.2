@@ -1,0 +1,72 @@
+{
+  "operationStatus": {
+    "name": "backup-verification",
+    "startedAt": "2026-10-25T14:40:56.416183+00:00",
+    "completed": true,
+    "completedAt": "2026-10-25T14:40:58.462659+00:00",
+    "elapsedSeconds": 2.046,
+    "exitCode": 0
+  },
+  "proof": {
+    "startedAt": "2026-10-25T14:40:56.581506+00:00",
+    "archiveBytes": 181691896,
+    "archiveSha256": "49950812b6d13c32644b0ded627259d96a542fb6168d7d76df40144f26c54113",
+    "sourceTarSha256AtStaging": "0dd415e2b943290434db982cc1e1e9c9a386b29891ee812a705da5dca518735e",
+    "externalProviderActionsRequested": false,
+    "status": "passed",
+    "encryptedTransportHeaderVerified": true,
+    "downloadChecksumVerified": true,
+    "recipientDecryptionVerified": true,
+    "completeFormat": 3,
+    "senderAuthenticationVerified": true,
+    "schema": {
+      "migrationCount": 41,
+      "publicRelations": 187
+    },
+    "inventoryToolResult": "41|187",
+    "allStagedSourceFilesVerified": 3665,
+    "requiredRuntimeAssets": {
+      "public/media/environment/blue-lagoon-1k.hdr": {
+        "bytes": 1559027,
+        "sha256": "6d5d4e19954d5f8efd74124ee7d21e5d69efb61d5398d2e16a019fd67fa591dd"
+      },
+      "public/media/environment/blue-lagoon-1k.hdr.gz": {
+        "bytes": 1197664,
+        "sha256": "75f23bf11ad81c6ef425b00e3258717bf7e2cd17625f6b1986aa2809b2fac315"
+      },
+      "public/offline/fa.html": {
+        "bytes": 1965,
+        "sha256": "390eaf04aa17502ae2401ba4d4b355c8f42470343887a5f91556e394e621f63d"
+      },
+      "public/offline/en.html": {
+        "bytes": 1731,
+        "sha256": "90217158e3463f15608788b7935b4a4517b43023fbe39e093d4c59b8190601ea"
+      },
+      "public/offline/tr.html": {
+        "bytes": 1791,
+        "sha256": "37db640245835879433bd7067ac96af053795c608dcf56b29d7af7c739b4e657"
+      },
+      "public/offline/ar.html": {
+        "bytes": 1944,
+        "sha256": "5b91e0b58bf6a4167501d9d56bdb5dce8b621c22f8e030e337d419c489dca057"
+      },
+      "public/offline/ru.html": {
+        "bytes": 2011,
+        "sha256": "d9d1b7341b949986c9ef5c1a41ee3c3e170321a3af3a665bb90b81a821998a47"
+      }
+    },
+    "separateProtectedIdentityFile": true,
+    "completedAt": "2026-10-25T14:40:58.452301+00:00",
+    "elapsedSeconds": 1.871,
+    "transientPlaintextRemovedAfterVerification": true
+  },
+  "retainedServerArchiveMatchesExactDownloadedBytes": true,
+  "archiveMatchesKnownIsolatedProjectAndInstalledRelease": true,
+  "originalFrozenVerifierSha256": "a0813428f3aebe8c4d545eaaec7af54f8de0b3eafdee2f4779aab6132ddac349",
+  "originalPrivateLogDigest": {
+    "bytes": 1828,
+    "sha256": "c8d09ad413d117608b75eb62be3955edd4c50f7bd452e4c3d96a1609189fe1c4"
+  },
+  "snapshotPublicRelationsScope": "187 complete public relations; runtime-readable application role scope is separately 186",
+  "keysCookiesSessionIdsAndPrivatePathsExported": false
+}

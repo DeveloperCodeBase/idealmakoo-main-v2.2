@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/research/iranian-teeth-ivoclar-wear/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "f71027cafe5ae0efb83729020079a8f91041f5c7a2be974ce19d0ea8223f181a",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "تآكل بريليان وسوبر بريليان مقارنة بإيفوكلار | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "اختبار تآكل مخبري يقارن تغير الوزن في طرازين إيرانيين وأسنان إيفوكلار."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/research/iranian-teeth-ivoclar-wear/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/iranian-teeth-ivoclar-wear/",
+    "en": "http://127.0.0.1:3100/en/research/iranian-teeth-ivoclar-wear/",
+    "tr": "http://127.0.0.1:3100/tr/research/iranian-teeth-ivoclar-wear/",
+    "ar": "http://127.0.0.1:3100/ar/research/iranian-teeth-ivoclar-wear/",
+    "ru": "http://127.0.0.1:3100/ru/research/iranian-teeth-ivoclar-wear/",
+    "x-default": "http://127.0.0.1:3100/fa/research/iranian-teeth-ivoclar-wear/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 65
+}

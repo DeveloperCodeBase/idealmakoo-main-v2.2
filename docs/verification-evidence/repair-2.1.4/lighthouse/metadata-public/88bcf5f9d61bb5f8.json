@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/resources/six-acrylic-ranges-steady-wear-cover/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "350ede1e999cd8cd68c4844cdcb458f6999f66c4c64397528cb399047fc7bfaf",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Research reference image — Steady-state wear in six denture tooth groups | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Steady-state wear in six denture tooth groups — Original factory image documents"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/resources/six-acrylic-ranges-steady-wear-cover/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/six-acrylic-ranges-steady-wear-cover/",
+    "en": "http://127.0.0.1:3100/en/resources/six-acrylic-ranges-steady-wear-cover/",
+    "tr": "http://127.0.0.1:3100/tr/resources/six-acrylic-ranges-steady-wear-cover/",
+    "ar": "http://127.0.0.1:3100/ar/resources/six-acrylic-ranges-steady-wear-cover/",
+    "ru": "http://127.0.0.1:3100/ru/resources/six-acrylic-ranges-steady-wear-cover/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/six-acrylic-ranges-steady-wear-cover/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 48
+}

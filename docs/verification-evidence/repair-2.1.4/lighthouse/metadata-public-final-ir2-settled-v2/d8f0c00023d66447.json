@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/research/three-teeth-heat-cured-resin/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "58558fa322cdb8af544e6d14ead05ae2ef90a11be57aa533b7ef15ec491e80f7",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Berelian, Super Berelian ve Ivoclar dişlerinin sıcak polimerize rezine bağlantısı | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Üç grubun ve diş ya da akrilik kaide içindeki kırılma konumlarının karşılaştırması."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/research/three-teeth-heat-cured-resin/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/three-teeth-heat-cured-resin/",
+    "en": "http://127.0.0.1:3100/en/research/three-teeth-heat-cured-resin/",
+    "tr": "http://127.0.0.1:3100/tr/research/three-teeth-heat-cured-resin/",
+    "ar": "http://127.0.0.1:3100/ar/research/three-teeth-heat-cured-resin/",
+    "ru": "http://127.0.0.1:3100/ru/research/three-teeth-heat-cured-resin/",
+    "x-default": "http://127.0.0.1:3100/fa/research/three-teeth-heat-cured-resin/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 46
+}

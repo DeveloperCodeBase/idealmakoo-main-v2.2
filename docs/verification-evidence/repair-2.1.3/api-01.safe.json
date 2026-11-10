@@ -1,0 +1,17 @@
+{
+  "kind": "api-01",
+  "startedAt": "2026-10-25T03:24:07.825960+00:00",
+  "finishedAt": "2026-10-25T03:24:20.090354+00:00",
+  "seconds": 12.264402252999844,
+  "exitCode": 0,
+  "waited": true,
+  "sourceSha256Before": "baa58aec548bde226f763b32ee7afa771f161fca26288aa2f9a0b55a27c36984",
+  "sourceSha256After": "baa58aec548bde226f763b32ee7afa771f161fca26288aa2f9a0b55a27c36984",
+  "counts": {
+    "tests": 20,
+    "pass": 20,
+    "fail": 0,
+    "skipped": 0
+  },
+  "logSha256": "b50d2c237ca5a86ddfc32abef665d195a78ad7fabafb547d9efe3da5f1267599"
+}

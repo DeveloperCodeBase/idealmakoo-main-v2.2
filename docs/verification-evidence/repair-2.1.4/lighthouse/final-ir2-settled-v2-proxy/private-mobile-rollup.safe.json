@@ -1,0 +1,1694 @@
+{
+  "createdAt": "2026-10-25T22:33:38.069Z",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "applicationVersion": "2.1.4",
+  "scope": "authenticated",
+  "device": [
+    "mobile"
+  ],
+  "scopeLimitation": "Registered principal-role route navigation plus explicitly inventoried owned-detail and other-role scenarios; not every role×route combination, customer/content record or CRUD workflow.",
+  "counts": {
+    "expected": 530,
+    "attempted": 530,
+    "completed": 530,
+    "errors": 0,
+    "timeouts": 0,
+    "pending": 0,
+    "coverageComplete": true
+  },
+  "attemptHistory": {
+    "outcomeAttempts": 530,
+    "retriedJobs": 0,
+    "additionalOutcomeAttempts": 0,
+    "completedAttempts": 530,
+    "expectedHttpResponseAttempts": 0,
+    "errorAttempts": 0,
+    "timeoutAttempts": 0,
+    "exportValidationRefusedAttempts": 0,
+    "note": "Reservation-only files do not claim a measured outcome. Original process outcomes use sourceStatus when export validation refused a report; refusals are separate and are not additional Lighthouse failures. All reported attempts remain retained."
+  },
+  "exportValidation": {
+    "refusedAttempts": 0,
+    "latestRefusals": 0,
+    "countsAreNotAdditionalLighthouseRuns": true
+  },
+  "sourceOutcomeCounts": null,
+  "allLatestRequestedJobsSucceeded": true,
+  "groupedScores": {
+    "authenticatedNoindex": {
+      "jobs": 530,
+      "attempted": 530,
+      "scored": 530,
+      "expectedHttpResponses": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "sourceErrors": 0,
+      "sourceTimeouts": 0,
+      "exportValidationRefusals": 0,
+      "pending": 0,
+      "categories": {
+        "performance": {
+          "count": 530,
+          "min": 42,
+          "median": 65,
+          "p75": 67,
+          "max": 88,
+          "below90": 530
+        },
+        "accessibility": {
+          "count": 530,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "best-practices": {
+          "count": 530,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "seo": {
+          "count": 530,
+          "min": 50,
+          "median": 54,
+          "p75": 54,
+          "max": 58,
+          "below90": 530
+        }
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "count": 530,
+          "min": 1362.6896,
+          "median": 2117.1904750000003,
+          "p75": 2123.1818,
+          "max": 2491.0858
+        },
+        "largest-contentful-paint": {
+          "count": 530,
+          "min": 2957.4858,
+          "median": 6754.4965,
+          "p75": 7233.5120000000015,
+          "max": 8352.849600000001
+        },
+        "total-blocking-time": {
+          "count": 530,
+          "min": 256.5,
+          "median": 401,
+          "p75": 440,
+          "max": 726.061400000001
+        },
+        "cumulative-layout-shift": {
+          "count": 530,
+          "min": 0,
+          "median": 0.03203368712544463,
+          "p75": 0.04706909365451993,
+          "max": 0.537036469273576
+        }
+      },
+      "durationMs": {
+        "count": 530,
+        "min": 6524,
+        "median": 7140,
+        "p75": 7420,
+        "max": 12691
+      }
+    }
+  },
+  "role": {
+    "admin": {
+      "jobs": 2,
+      "attempted": 2,
+      "scored": 2,
+      "expectedHttpResponses": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "sourceErrors": 0,
+      "sourceTimeouts": 0,
+      "exportValidationRefusals": 0,
+      "pending": 0,
+      "categories": {
+        "performance": {
+          "count": 2,
+          "min": 66,
+          "median": 66.5,
+          "p75": 67,
+          "max": 67,
+          "below90": 2
+        },
+        "accessibility": {
+          "count": 2,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "best-practices": {
+          "count": 2,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "seo": {
+          "count": 2,
+          "min": 58,
+          "median": 58,
+          "p75": 58,
+          "max": 58,
+          "below90": 2
+        }
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "count": 2,
+          "min": 1515.25095,
+          "median": 1740.7473,
+          "p75": 1966.24365,
+          "max": 1966.24365
+        },
+        "largest-contentful-paint": {
+          "count": 2,
+          "min": 7457.5019,
+          "median": 7642.909150000001,
+          "p75": 7828.3164000000015,
+          "max": 7828.3164000000015
+        },
+        "total-blocking-time": {
+          "count": 2,
+          "min": 316.62182499999926,
+          "median": 328.8109124999992,
+          "p75": 340.9999999999991,
+          "max": 340.9999999999991
+        },
+        "cumulative-layout-shift": {
+          "count": 2,
+          "min": 0.06973843446489063,
+          "median": 0.07167866551550495,
+          "p75": 0.07361889656611928,
+          "max": 0.07361889656611928
+        }
+      },
+      "durationMs": {
+        "count": 2,
+        "min": 7330,
+        "median": 7672.5,
+        "p75": 8015,
+        "max": 8015
+      }
+    },
+    "analyst": {
+      "jobs": 2,
+      "attempted": 2,
+      "scored": 2,
+      "expectedHttpResponses": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "sourceErrors": 0,
+      "sourceTimeouts": 0,
+      "exportValidationRefusals": 0,
+      "pending": 0,
+      "categories": {
+        "performance": {
+          "count": 2,
+          "min": 68,
+          "median": 71,
+          "p75": 74,
+          "max": 74,
+          "below90": 2
+        },
+        "accessibility": {
+          "count": 2,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "best-practices": {
+          "count": 2,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "seo": {
+          "count": 2,
+          "min": 54,
+          "median": 54,
+          "p75": 54,
+          "max": 54,
+          "below90": 2
+        }
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "count": 2,
+          "min": 1516.8501,
+          "median": 1930.6718500000002,
+          "p75": 2344.4936000000002,
+          "max": 2344.4936000000002
+        },
+        "largest-contentful-paint": {
+          "count": 2,
+          "min": 5495.7002,
+          "median": 5807.5589,
+          "p75": 6119.4176,
+          "max": 6119.4176
+        },
+        "total-blocking-time": {
+          "count": 2,
+          "min": 275,
+          "median": 298.0000000000002,
+          "p75": 321.00000000000045,
+          "max": 321.00000000000045
+        },
+        "cumulative-layout-shift": {
+          "count": 2,
+          "min": 0.0112033951083444,
+          "median": 0.01125031049824534,
+          "p75": 0.01129722588814628,
+          "max": 0.01129722588814628
+        }
+      },
+      "durationMs": {
+        "count": 2,
+        "min": 6612,
+        "median": 7064,
+        "p75": 7516,
+        "max": 7516
+      }
+    },
+    "business": {
+      "jobs": 2,
+      "attempted": 2,
+      "scored": 2,
+      "expectedHttpResponses": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "sourceErrors": 0,
+      "sourceTimeouts": 0,
+      "exportValidationRefusals": 0,
+      "pending": 0,
+      "categories": {
+        "performance": {
+          "count": 2,
+          "min": 65,
+          "median": 68.5,
+          "p75": 72,
+          "max": 72,
+          "below90": 2
+        },
+        "accessibility": {
+          "count": 2,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "best-practices": {
+          "count": 2,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "seo": {
+          "count": 2,
+          "min": 54,
+          "median": 54,
+          "p75": 54,
+          "max": 54,
+          "below90": 2
+        }
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "count": 2,
+          "min": 1514.1336,
+          "median": 1743.601575,
+          "p75": 1973.06955,
+          "max": 1973.06955
+        },
+        "largest-contentful-paint": {
+          "count": 2,
+          "min": 5654.267200000001,
+          "median": 5929.203150000001,
+          "p75": 6204.139100000001,
+          "max": 6204.139100000001
+        },
+        "total-blocking-time": {
+          "count": 2,
+          "min": 312.99999999999955,
+          "median": 371.99999999999955,
+          "p75": 430.99999999999955,
+          "max": 430.99999999999955
+        },
+        "cumulative-layout-shift": {
+          "count": 2,
+          "min": 0.04706909365451993,
+          "median": 0.04706909365451993,
+          "p75": 0.04706909365451993,
+          "max": 0.04706909365451993
+        }
+      },
+      "durationMs": {
+        "count": 2,
+        "min": 6888,
+        "median": 7144.5,
+        "p75": 7401,
+        "max": 7401
+      }
+    },
+    "contentEditor": {
+      "jobs": 2,
+      "attempted": 2,
+      "scored": 2,
+      "expectedHttpResponses": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "sourceErrors": 0,
+      "sourceTimeouts": 0,
+      "exportValidationRefusals": 0,
+      "pending": 0,
+      "categories": {
+        "performance": {
+          "count": 2,
+          "min": 65,
+          "median": 65.5,
+          "p75": 66,
+          "max": 66,
+          "below90": 2
+        },
+        "accessibility": {
+          "count": 2,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "best-practices": {
+          "count": 2,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "seo": {
+          "count": 2,
+          "min": 54,
+          "median": 54,
+          "p75": 54,
+          "max": 54,
+          "below90": 2
+        }
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "count": 2,
+          "min": 1522.1426999999999,
+          "median": 1821.6683249999999,
+          "p75": 2121.19395,
+          "max": 2121.19395
+        },
+        "largest-contentful-paint": {
+          "count": 2,
+          "min": 6786.2854,
+          "median": 6994.83665,
+          "p75": 7203.387900000001,
+          "max": 7203.387900000001
+        },
+        "total-blocking-time": {
+          "count": 2,
+          "min": 347,
+          "median": 370,
+          "p75": 393,
+          "max": 393
+        },
+        "cumulative-layout-shift": {
+          "count": 2,
+          "min": 0.06251318087851271,
+          "median": 0.06441557082334629,
+          "p75": 0.06631796076817985,
+          "max": 0.06631796076817985
+        }
+      },
+      "durationMs": {
+        "count": 2,
+        "min": 7446,
+        "median": 7846.5,
+        "p75": 8247,
+        "max": 8247
+      }
+    },
+    "customer": {
+      "jobs": 80,
+      "attempted": 80,
+      "scored": 80,
+      "expectedHttpResponses": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "sourceErrors": 0,
+      "sourceTimeouts": 0,
+      "exportValidationRefusals": 0,
+      "pending": 0,
+      "categories": {
+        "performance": {
+          "count": 80,
+          "min": 57,
+          "median": 80,
+          "p75": 83,
+          "max": 88,
+          "below90": 80
+        },
+        "accessibility": {
+          "count": 80,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "best-practices": {
+          "count": 80,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "seo": {
+          "count": 80,
+          "min": 58,
+          "median": 58,
+          "p75": 58,
+          "max": 58,
+          "below90": 80
+        }
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "count": 80,
+          "min": 1362.6896,
+          "median": 1525.96965,
+          "p75": 2271.56865,
+          "max": 2295.9001500000004
+        },
+        "largest-contentful-paint": {
+          "count": 80,
+          "min": 2957.4858,
+          "median": 3626.3028000000004,
+          "p75": 5828.8908,
+          "max": 6449.4544000000005
+        },
+        "total-blocking-time": {
+          "count": 80,
+          "min": 256.5,
+          "median": 363.5,
+          "p75": 406.5,
+          "max": 726.061400000001
+        },
+        "cumulative-layout-shift": {
+          "count": 80,
+          "min": 0,
+          "median": 0,
+          "p75": 0.007914174647770876,
+          "max": 0.3395607113396457
+        }
+      },
+      "durationMs": {
+        "count": 80,
+        "min": 6598,
+        "median": 7013.5,
+        "p75": 7146,
+        "max": 12193
+      }
+    },
+    "hr": {
+      "jobs": 2,
+      "attempted": 2,
+      "scored": 2,
+      "expectedHttpResponses": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "sourceErrors": 0,
+      "sourceTimeouts": 0,
+      "exportValidationRefusals": 0,
+      "pending": 0,
+      "categories": {
+        "performance": {
+          "count": 2,
+          "min": 69,
+          "median": 69,
+          "p75": 69,
+          "max": 69,
+          "below90": 2
+        },
+        "accessibility": {
+          "count": 2,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "best-practices": {
+          "count": 2,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "seo": {
+          "count": 2,
+          "min": 54,
+          "median": 54,
+          "p75": 54,
+          "max": 54,
+          "below90": 2
+        }
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "count": 2,
+          "min": 1520.5998,
+          "median": 1744.7076749999999,
+          "p75": 1968.8155499999998,
+          "max": 1968.8155499999998
+        },
+        "largest-contentful-paint": {
+          "count": 2,
+          "min": 5627.1996,
+          "median": 5806.91535,
+          "p75": 5986.6311000000005,
+          "max": 5986.6311000000005
+        },
+        "total-blocking-time": {
+          "count": 2,
+          "min": 333,
+          "median": 369,
+          "p75": 405,
+          "max": 405
+        },
+        "cumulative-layout-shift": {
+          "count": 2,
+          "min": 0,
+          "median": 0.001603802603763624,
+          "p75": 0.003207605207527248,
+          "max": 0.003207605207527248
+        }
+      },
+      "durationMs": {
+        "count": 2,
+        "min": 6660,
+        "median": 6984.5,
+        "p75": 7309,
+        "max": 7309
+      }
+    },
+    "productManager": {
+      "jobs": 2,
+      "attempted": 2,
+      "scored": 2,
+      "expectedHttpResponses": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "sourceErrors": 0,
+      "sourceTimeouts": 0,
+      "exportValidationRefusals": 0,
+      "pending": 0,
+      "categories": {
+        "performance": {
+          "count": 2,
+          "min": 64,
+          "median": 67,
+          "p75": 70,
+          "max": 70,
+          "below90": 2
+        },
+        "accessibility": {
+          "count": 2,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "best-practices": {
+          "count": 2,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "seo": {
+          "count": 2,
+          "min": 58,
+          "median": 58,
+          "p75": 58,
+          "max": 58,
+          "below90": 2
+        }
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "count": 2,
+          "min": 1516.6528500000002,
+          "median": 1742.5534499999999,
+          "p75": 1968.4540499999998,
+          "max": 1968.4540499999998
+        },
+        "largest-contentful-paint": {
+          "count": 2,
+          "min": 7139.132124999998,
+          "median": 7486.133624999999,
+          "p75": 7833.135125,
+          "max": 7833.135125
+        },
+        "total-blocking-time": {
+          "count": 2,
+          "min": 257.5,
+          "median": 326.2500000000002,
+          "p75": 395.00000000000045,
+          "max": 395.00000000000045
+        },
+        "cumulative-layout-shift": {
+          "count": 2,
+          "min": 0.04706909365451993,
+          "median": 0.04706909365451993,
+          "p75": 0.04706909365451993,
+          "max": 0.04706909365451993
+        }
+      },
+      "durationMs": {
+        "count": 2,
+        "min": 8514,
+        "median": 8683,
+        "p75": 8852,
+        "max": 8852
+      }
+    },
+    "publisher": {
+      "jobs": 2,
+      "attempted": 2,
+      "scored": 2,
+      "expectedHttpResponses": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "sourceErrors": 0,
+      "sourceTimeouts": 0,
+      "exportValidationRefusals": 0,
+      "pending": 0,
+      "categories": {
+        "performance": {
+          "count": 2,
+          "min": 64,
+          "median": 65.5,
+          "p75": 67,
+          "max": 67,
+          "below90": 2
+        },
+        "accessibility": {
+          "count": 2,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "best-practices": {
+          "count": 2,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "seo": {
+          "count": 2,
+          "min": 54,
+          "median": 54,
+          "p75": 54,
+          "max": 54,
+          "below90": 2
+        }
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "count": 2,
+          "min": 1517.44125,
+          "median": 1817.40405,
+          "p75": 2117.36685,
+          "max": 2117.36685
+        },
+        "largest-contentful-paint": {
+          "count": 2,
+          "min": 7063.882499999999,
+          "median": 7321.3081,
+          "p75": 7578.733700000001,
+          "max": 7578.733700000001
+        },
+        "total-blocking-time": {
+          "count": 2,
+          "min": 388,
+          "median": 401.5,
+          "p75": 415,
+          "max": 415
+        },
+        "cumulative-layout-shift": {
+          "count": 2,
+          "min": 0.008734305159843518,
+          "median": 0.009040372227292506,
+          "p75": 0.009346439294741495,
+          "max": 0.009346439294741495
+        }
+      },
+      "durationMs": {
+        "count": 2,
+        "min": 7096,
+        "median": 7401.5,
+        "p75": 7707,
+        "max": 7707
+      }
+    },
+    "scientificReviewer": {
+      "jobs": 2,
+      "attempted": 2,
+      "scored": 2,
+      "expectedHttpResponses": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "sourceErrors": 0,
+      "sourceTimeouts": 0,
+      "exportValidationRefusals": 0,
+      "pending": 0,
+      "categories": {
+        "performance": {
+          "count": 2,
+          "min": 64,
+          "median": 64.5,
+          "p75": 65,
+          "max": 65,
+          "below90": 2
+        },
+        "accessibility": {
+          "count": 2,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "best-practices": {
+          "count": 2,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "seo": {
+          "count": 2,
+          "min": 54,
+          "median": 54,
+          "p75": 54,
+          "max": 54,
+          "below90": 2
+        }
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "count": 2,
+          "min": 1516.6224,
+          "median": 1815.3775500000002,
+          "p75": 2114.1327,
+          "max": 2114.1327
+        },
+        "largest-contentful-paint": {
+          "count": 2,
+          "min": 7165.2448,
+          "median": 7326.2551,
+          "p75": 7487.2654,
+          "max": 7487.2654
+        },
+        "total-blocking-time": {
+          "count": 2,
+          "min": 366,
+          "median": 418,
+          "p75": 470,
+          "max": 470
+        },
+        "cumulative-layout-shift": {
+          "count": 2,
+          "min": 0.001983180553098294,
+          "median": 0.001988709866908048,
+          "p75": 0.001994239180717802,
+          "max": 0.001994239180717802
+        }
+      },
+      "durationMs": {
+        "count": 2,
+        "min": 6677,
+        "median": 7065,
+        "p75": 7453,
+        "max": 7453
+      }
+    },
+    "superAdmin": {
+      "jobs": 430,
+      "attempted": 430,
+      "scored": 430,
+      "expectedHttpResponses": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "sourceErrors": 0,
+      "sourceTimeouts": 0,
+      "exportValidationRefusals": 0,
+      "pending": 0,
+      "categories": {
+        "performance": {
+          "count": 430,
+          "min": 42,
+          "median": 65,
+          "p75": 66,
+          "max": 72,
+          "below90": 430
+        },
+        "accessibility": {
+          "count": 430,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "best-practices": {
+          "count": 430,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "seo": {
+          "count": 430,
+          "min": 50,
+          "median": 54,
+          "p75": 54,
+          "max": 58,
+          "below90": 430
+        }
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "count": 430,
+          "min": 1510.0815,
+          "median": 2117.80605,
+          "p75": 2122.5268,
+          "max": 2491.0858
+        },
+        "largest-contentful-paint": {
+          "count": 430,
+          "min": 5511.6507,
+          "median": 6814.823600000001,
+          "p75": 7327.1281,
+          "max": 8352.849600000001
+        },
+        "total-blocking-time": {
+          "count": 430,
+          "min": 273,
+          "median": 406,
+          "p75": 446.00000000000045,
+          "max": 721
+        },
+        "cumulative-layout-shift": {
+          "count": 430,
+          "min": 0,
+          "median": 0.04706909365451993,
+          "p75": 0.04706909365451993,
+          "max": 0.537036469273576
+        }
+      },
+      "durationMs": {
+        "count": 430,
+        "min": 6524,
+        "median": 7171,
+        "p75": 7428,
+        "max": 12691
+      }
+    },
+    "support": {
+      "jobs": 2,
+      "attempted": 2,
+      "scored": 2,
+      "expectedHttpResponses": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "sourceErrors": 0,
+      "sourceTimeouts": 0,
+      "exportValidationRefusals": 0,
+      "pending": 0,
+      "categories": {
+        "performance": {
+          "count": 2,
+          "min": 66,
+          "median": 67,
+          "p75": 68,
+          "max": 68,
+          "below90": 2
+        },
+        "accessibility": {
+          "count": 2,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "best-practices": {
+          "count": 2,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "seo": {
+          "count": 2,
+          "min": 54,
+          "median": 54,
+          "p75": 54,
+          "max": 54,
+          "below90": 2
+        }
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "count": 2,
+          "min": 1516.7089500000002,
+          "median": 1741.10265,
+          "p75": 1965.49635,
+          "max": 1965.49635
+        },
+        "largest-contentful-paint": {
+          "count": 2,
+          "min": 6425.417900000001,
+          "median": 6701.329387500001,
+          "p75": 6977.240875,
+          "max": 6977.240875
+        },
+        "total-blocking-time": {
+          "count": 2,
+          "min": 365,
+          "median": 371.5,
+          "p75": 378,
+          "max": 378
+        },
+        "cumulative-layout-shift": {
+          "count": 2,
+          "min": 0.00411514991416814,
+          "median": 0.004911817916009812,
+          "p75": 0.005708485917851483,
+          "max": 0.005708485917851483
+        }
+      },
+      "durationMs": {
+        "count": 2,
+        "min": 6769,
+        "median": 7287,
+        "p75": 7805,
+        "max": 7805
+      }
+    },
+    "translator": {
+      "jobs": 2,
+      "attempted": 2,
+      "scored": 2,
+      "expectedHttpResponses": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "sourceErrors": 0,
+      "sourceTimeouts": 0,
+      "exportValidationRefusals": 0,
+      "pending": 0,
+      "categories": {
+        "performance": {
+          "count": 2,
+          "min": 61,
+          "median": 62.5,
+          "p75": 64,
+          "max": 64,
+          "below90": 2
+        },
+        "accessibility": {
+          "count": 2,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "best-practices": {
+          "count": 2,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "seo": {
+          "count": 2,
+          "min": 54,
+          "median": 54,
+          "p75": 54,
+          "max": 54,
+          "below90": 2
+        }
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "count": 2,
+          "min": 1513.52115,
+          "median": 1814.588325,
+          "p75": 2115.6555,
+          "max": 2115.6555
+        },
+        "largest-contentful-paint": {
+          "count": 2,
+          "min": 7587.056400000002,
+          "median": 7928.9022,
+          "p75": 8270.748,
+          "max": 8270.748
+        },
+        "total-blocking-time": {
+          "count": 2,
+          "min": 433.0000000000009,
+          "median": 461.50000000000045,
+          "p75": 490,
+          "max": 490
+        },
+        "cumulative-layout-shift": {
+          "count": 2,
+          "min": 0.05540114685486411,
+          "median": 0.05604197961361279,
+          "p75": 0.056682812372361474,
+          "max": 0.056682812372361474
+        }
+      },
+      "durationMs": {
+        "count": 2,
+        "min": 7625,
+        "median": 7940,
+        "p75": 8255,
+        "max": 8255
+      }
+    }
+  },
+  "frequentFailedAudits": [
+    {
+      "id": "first-contentful-paint",
+      "count": 530,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 530
+    },
+    {
+      "id": "largest-contentful-paint",
+      "count": 530,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 530
+    },
+    {
+      "id": "total-blocking-time",
+      "count": 530,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 530
+    },
+    {
+      "id": "max-potential-fid",
+      "count": 530,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 530
+    },
+    {
+      "id": "interactive",
+      "count": 530,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 530
+    },
+    {
+      "id": "unused-css-rules",
+      "count": 530,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 530
+    },
+    {
+      "id": "unused-javascript",
+      "count": 530,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 530
+    },
+    {
+      "id": "meta-description",
+      "count": 530,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 530
+    },
+    {
+      "id": "is-crawlable",
+      "count": 530,
+      "intentionalNoindex": 530,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 0
+    },
+    {
+      "id": "bf-cache",
+      "count": 530,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 530
+    },
+    {
+      "id": "speed-index",
+      "count": 387,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 387
+    },
+    {
+      "id": "mainthread-work-breakdown",
+      "count": 352,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 352
+    },
+    {
+      "id": "bootup-time",
+      "count": 319,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 319
+    },
+    {
+      "id": "cumulative-layout-shift",
+      "count": 258,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 258
+    },
+    {
+      "id": "legacy-javascript-insight",
+      "count": 219,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 219
+    },
+    {
+      "id": "network-dependency-tree-insight",
+      "count": 219,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 219
+    },
+    {
+      "id": "render-blocking-insight",
+      "count": 219,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 219
+    },
+    {
+      "id": "layout-shifts",
+      "count": 50,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 50
+    },
+    {
+      "id": "image-delivery-insight",
+      "count": 25,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 25
+    },
+    {
+      "id": "cls-culprits-insight",
+      "count": 20,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 20
+    }
+  ],
+  "lowestPerformance": [
+    {
+      "id": "6b17d8bb5b1466d5",
+      "route": "/tr/admin/users/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 42,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 2131.0478000000003,
+        "largest-contentful-paint": 6966.5717,
+        "speed-index": 2131.0478000000003,
+        "total-blocking-time": 431,
+        "cumulative-layout-shift": 0.537036469273576,
+        "interactive": 6971.171700000001
+      },
+      "attempt": 1
+    },
+    {
+      "id": "03e1b239acd296e6",
+      "route": "/ar/admin/staff/",
+      "locale": "ar",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 46,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 2120.8857,
+        "largest-contentful-paint": 7868.733300000001,
+        "speed-index": 2120.8857,
+        "total-blocking-time": 680,
+        "cumulative-layout-shift": 0.21476783514320036,
+        "interactive": 7868.733300000002
+      },
+      "attempt": 1
+    },
+    {
+      "id": "15b76dd755e694cd",
+      "route": "/fa/admin/staff/",
+      "locale": "fa",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 49,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 2116.9959,
+        "largest-contentful-paint": 7965.322399999997,
+        "speed-index": 2116.9959,
+        "total-blocking-time": 461.99999999999955,
+        "cumulative-layout-shift": 0.25169212629843435,
+        "interactive": 7965.322399999997
+      },
+      "attempt": 1
+    },
+    {
+      "id": "1940a753fb6e3ae0",
+      "route": "/tr/admin/staff/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 52,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 2132.1530000000002,
+        "largest-contentful-paint": 7277.229499999998,
+        "speed-index": 2132.1530000000002,
+        "total-blocking-time": 491,
+        "cumulative-layout-shift": 0.20174994648454025,
+        "interactive": 7277.229499999999
+      },
+      "attempt": 1
+    },
+    {
+      "id": "a52b1ede0230e5d6",
+      "route": "/ar/admin/users/",
+      "locale": "ar",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 53,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 2123.3008499999996,
+        "largest-contentful-paint": 7937.135600000002,
+        "speed-index": 2123.3008499999996,
+        "total-blocking-time": 421,
+        "cumulative-layout-shift": 0.21476783514320036,
+        "interactive": 7937.135600000003
+      },
+      "attempt": 1
+    },
+    {
+      "id": "50b450e027e41e00",
+      "route": "/en/admin/events/",
+      "locale": "en",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 53,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 1518.88305,
+        "largest-contentful-paint": 6825.7661,
+        "speed-index": 1518.88305,
+        "total-blocking-time": 462,
+        "cumulative-layout-shift": 0.2331510979154886,
+        "interactive": 6825.766100000001
+      },
+      "attempt": 1
+    },
+    {
+      "id": "02a52093f8571ac7",
+      "route": "/en/admin/users/",
+      "locale": "en",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 54,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 1516.7031,
+        "largest-contentful-paint": 7382.4061999999985,
+        "speed-index": 1516.7031,
+        "total-blocking-time": 457,
+        "cumulative-layout-shift": 0.20347797909785187,
+        "interactive": 7389.906199999999
+      },
+      "attempt": 1
+    },
+    {
+      "id": "42feaf9793273f9f",
+      "route": "/ru/admin/staff/",
+      "locale": "ru",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 54,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 2145.7554,
+        "largest-contentful-paint": 7414.633100000003,
+        "speed-index": 2145.7554,
+        "total-blocking-time": 489.9999999999991,
+        "cumulative-layout-shift": 0.16507086688178824,
+        "interactive": 7414.633100000003
+      },
+      "attempt": 1
+    },
+    {
+      "id": "c8fd972c95d31d09",
+      "route": "/tr/admin/crm/opportunities/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 54,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 2119.434,
+        "largest-contentful-paint": 7499.151000000002,
+        "speed-index": 2119.434,
+        "total-blocking-time": 405.00000000000045,
+        "cumulative-layout-shift": 0.2141926348816418,
+        "interactive": 7506.651000000002
+      },
+      "attempt": 1
+    },
+    {
+      "id": "bc3f532cbbce75b1",
+      "route": "/en/admin/cms/forms/",
+      "locale": "en",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 56,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 1517.85975,
+        "largest-contentful-paint": 7275.5325,
+        "speed-index": 1517.85975,
+        "total-blocking-time": 578,
+        "cumulative-layout-shift": 0.1396581544420942,
+        "interactive": 7275.532500000001
+      },
+      "attempt": 1
+    },
+    {
+      "id": "5435d8e34725ac97",
+      "route": "/ru/admin/pages/",
+      "locale": "ru",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 56,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 58
+      },
+      "metrics": {
+        "first-contentful-paint": 2270.5849500000004,
+        "largest-contentful-paint": 7215.169900000001,
+        "speed-index": 2270.5849500000004,
+        "total-blocking-time": 721,
+        "cumulative-layout-shift": 0.011170069447865657,
+        "interactive": 7215.169900000001
+      },
+      "attempt": 1
+    },
+    {
+      "id": "0840667397a2c638",
+      "route": "/ru/admin/users/",
+      "locale": "ru",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 56,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 2119.5326,
+        "largest-contentful-paint": 7331.298899999998,
+        "speed-index": 2119.5326,
+        "total-blocking-time": 457.99999999999955,
+        "cumulative-layout-shift": 0.15978242572083573,
+        "interactive": 7338.798899999998
+      },
+      "attempt": 1
+    },
+    {
+      "id": "6f7aa9b9a21718e4",
+      "route": "/tr/admin/forms/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 56,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 2133.6188,
+        "largest-contentful-paint": 7475.4282,
+        "speed-index": 2133.6188,
+        "total-blocking-time": 485,
+        "cumulative-layout-shift": 0.14854244209554873,
+        "interactive": 7475.4282
+      },
+      "attempt": 1
+    },
+    {
+      "id": "86cb9212ed097053",
+      "route": "/tr/admin/research/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 56,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 58
+      },
+      "metrics": {
+        "first-contentful-paint": 2126.0692,
+        "largest-contentful-paint": 7967.397050000001,
+        "speed-index": 2126.0692,
+        "total-blocking-time": 690.0000000000009,
+        "cumulative-layout-shift": 0.04706909365451993,
+        "interactive": 8005.622915000002
+      },
+      "attempt": 1
+    },
+    {
+      "id": "9a01877041ae6e1d",
+      "route": "/ar/admin/crm/data/",
+      "locale": "ar",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 57,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 2120.2072500000004,
+        "largest-contentful-paint": 6720.4145,
+        "speed-index": 2120.2072500000004,
+        "total-blocking-time": 467,
+        "cumulative-layout-shift": 0.1460162545665701,
+        "interactive": 6725.414500000001
+      },
+      "attempt": 1
+    },
+    {
+      "id": "82723fc75b067e90",
+      "route": "/fa/admin/cms/forms/",
+      "locale": "fa",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 57,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 2114.6265,
+        "largest-contentful-paint": 7580.253000000001,
+        "speed-index": 2114.6265,
+        "total-blocking-time": 434.00000000000045,
+        "cumulative-layout-shift": 0.15105954934930235,
+        "interactive": 7587.753000000001
+      },
+      "attempt": 1
+    },
+    {
+      "id": "7c9fa8f79717178a",
+      "route": "/fa/admin/forms/",
+      "locale": "fa",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 57,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 2115.73515,
+        "largest-contentful-paint": 7676.470299999997,
+        "speed-index": 2115.73515,
+        "total-blocking-time": 498,
+        "cumulative-layout-shift": 0.12830037567376124,
+        "interactive": 7683.970299999997
+      },
+      "attempt": 1
+    },
+    {
+      "id": "f8a463ac547c5f83",
+      "route": "/tr/admin/cms/forms/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 57,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 2126.167,
+        "largest-contentful-paint": 7521.250500000001,
+        "speed-index": 2126.167,
+        "total-blocking-time": 459.0000000000009,
+        "cumulative-layout-shift": 0.13381767804626415,
+        "interactive": 7521.250500000002
+      },
+      "attempt": 1
+    },
+    {
+      "id": "ccd9b8ae36d2b5e2",
+      "route": "/fa/account/profile/",
+      "locale": "fa",
+      "role": "customer",
+      "scores": {
+        "performance": 57,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 58
+      },
+      "metrics": {
+        "first-contentful-paint": 1520.1970000000001,
+        "largest-contentful-paint": 5944.591,
+        "speed-index": 1520.1970000000001,
+        "total-blocking-time": 366,
+        "cumulative-layout-shift": 0.24197481947473087,
+        "interactive": 5944.591
+      },
+      "attempt": 1
+    },
+    {
+      "id": "5006d997d048606f",
+      "route": "/ar/admin/crm/pipeline/",
+      "locale": "ar",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 58,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 1967.1064499999998,
+        "largest-contentful-paint": 7533.2129,
+        "speed-index": 1967.1064499999998,
+        "total-blocking-time": 468,
+        "cumulative-layout-shift": 0.1362938908024749,
+        "interactive": 7540.7129
+      },
+      "attempt": 1
+    }
+  ],
+  "incomplete": [],
+  "failedAuditEvidence": {
+    "sourcePolicy": "strict-safe-audit-parts-for-latest-completed-attempts",
+    "eligibleLatestCompleted": 530,
+    "withAuditEvidence": 530,
+    "missingAuditEvidence": 0,
+    "quarantinedOutcomesExcluded": 0,
+    "otherNoncompletedOutcomesExcluded": 0,
+    "note": "Missing audit evidence is reported explicitly and does not mean there were no failed audits. Expected noindex/HTTP-denial outcomes are separate from optimization or review findings; a sub-perfect metric audit is not by itself a functional failure."
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "status": "passed",
+  "recordedAt": "2026-10-25T17:58:57.802698+00:00",
+  "scope": "Final approved source/test continuity before rebuilt native and Docker acceptance; retains the earlier pre-test-correction receipt",
+  "priorNativeBuildId": "NWcRPAySX3HCzbpKSDJNf",
+  "priorInputFingerprint": "e5d44f7f6dcfd162d2b60a85443025116373d3e0b28989f6be5b0ececc36534b",
+  "currentApplicationInputFingerprint": "f22b49bac26f5b59ede573dbaf6ed4cd52c738bfbe32b2d00ae9e47fe28c29ce",
+  "applicationInputCount": 833,
+  "approvedApplicationChanges": [
+    {
+      "path": "src/components/workspace/LiveMonitoring.tsx",
+      "before": {
+        "sha256": "2b7c1e100407f07fe72277939e0ab0aebb262e38058de82b36e6b2b865fcea37",
+        "bytes": 18699
+      },
+      "after": {
+        "sha256": "a44835dd2812aaef34b24a7366c5d8cda66509b6f63b6470e6ac33e1a295a011",
+        "bytes": 18900
+      }
+    },
+    {
+      "path": "src/components/workspace/NotificationTemplateCenter.tsx",
+      "before": {
+        "sha256": "2d0920dc817f0e3adcff975a527a41c8e2007f50c5a98322adf63e5a26c36d0a",
+        "bytes": 29156
+      },
+      "after": {
+        "sha256": "2a0f24c8d6b959c95aaabbf5088a907e6c94aafcbd168c6f86562a571e1c1a80",
+        "bytes": 29285
+      }
+    },
+    {
+      "path": "src/components/workspace/ProductWorkspace.tsx",
+      "before": null,
+      "after": {
+        "sha256": "a2a3107ec78fc4ab7dbf3d413900d98a6d1ce1b34d3debcd33dcad9901c3c330",
+        "bytes": 355
+      }
+    },
+    {
+      "path": "src/components/workspace/Workspace.tsx",
+      "before": {
+        "sha256": "bb915a02ce7808ddafff3fb993e654d40827f037daca37a0dde853a33e41ede5",
+        "bytes": 28329
+      },
+      "after": {
+        "sha256": "a1456472a3924c247c9216cf4cfcfa9bf24227b992aa3b9da9d74fc795a0761a",
+        "bytes": 28249
+      }
+    }
+  ],
+  "approvedTestChanges": [
+    {
+      "path": "tests/e2e/communications-initial-load.spec.ts",
+      "before": null,
+      "after": {
+        "sha256": "2bfd8d952c66e1d542e7a68cf83775c369b12b740e97575940cbaa3c957c35b6",
+        "bytes": 8230
+      }
+    },
+    {
+      "path": "tests/e2e/workspace-initial-layout.spec.ts",
+      "before": null,
+      "after": {
+        "sha256": "d6c16157ed737fd8fca57efcf5161e8ab9f669eafc7fdb8251518a158cc171f5",
+        "bytes": 10384
+      }
+    },
+    {
+      "path": "tests/workspace-route-preload.test.mjs",
+      "before": {
+        "bytes": 8909,
+        "sha256": "de17f34a67a29efce89c7d53c51456e912d2b0f649b787a8e818cfe238de6dd2"
+      },
+      "after": {
+        "sha256": "dce6eb8a325c77b2ede62e369e473b961c52522dc0c9f183a1f1d21ad622c27e",
+        "bytes": 10370
+      }
+    },
+    {
+      "path": "tests/workspace-startup.test.mjs",
+      "before": {
+        "bytes": 10063,
+        "sha256": "3ba821fb752e1daa4602c60f27775603b2cc0adff869013c29b04ce32a1245c9"
+      },
+      "after": {
+        "sha256": "8986b9cd3ea130c7d7fc6977e509f330e1bf79f9f0950df60e2cf6445dcbf523",
+        "bytes": 10096
+      }
+    }
+  ],
+  "expectedUnitTestCount": 858,
+  "expectedBrowserTestCount": 68,
+  "allOtherApplicationBuildDeploymentAuditInputsUnchanged": true,
+  "unchangedSourceGroups": {
+    "server": {
+      "files": 95,
+      "allBytesAndHashesUnchanged": true
+    },
+    "api": {
+      "files": 2,
+      "allBytesAndHashesUnchanged": true
+    },
+    "worker": {
+      "files": 4,
+      "allBytesAndHashesUnchanged": true
+    },
+    "deployment": {
+      "files": 24,
+      "allBytesAndHashesUnchanged": true
+    },
+    "database": {
+      "files": 41,
+      "allBytesAndHashesUnchanged": true
+    },
+    "migrations": {
+      "files": 41,
+      "allBytesAndHashesUnchanged": true
+    },
+    "scripts": {
+      "files": 50,
+      "allBytesAndHashesUnchanged": true
+    }
+  },
+  "buildDependencyAndRootConfigInputsUnchanged": true,
+  "onlyTwoExistingDispatcherTestsUpdatedAndTwoNewBrowserFilesAdded": true,
+  "priorTestFileCount": 203,
+  "currentTestFileCount": 205,
+  "previousContinuityReceiptSha256": "e46b300870e6adebb1588c8fe8900a4816adfe6464d106819632d04fbfb70093",
+  "operations01Through16HashesStillMatch": true,
+  "newNativeBuildResultNotClaimedByThisSourceReceipt": true,
+  "noDatabaseEnvironmentServiceOrVmMutation": true
+}

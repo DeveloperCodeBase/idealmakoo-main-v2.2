@@ -1,0 +1,26 @@
+{
+  "format": "completed-owned-public-audit-lock-closure-v1",
+  "observedAt": "2026-10-26T00:48:40.750576+00:00",
+  "phase": "public-desktop-representative",
+  "lockObservedAfterActualPhaseClosure": true,
+  "actualCleanupCompleted": true,
+  "lockOriginalBytes": 75,
+  "lockOriginalSha256": "e2d55d90f7f1251086bef88100e362d02cffbdee110a583bce9d5f896e221afb",
+  "lockOwnerMatchedConsumedPhaseLaunch": true,
+  "ownerAbsentInNativeNamespaceBeforeCleanup": true,
+  "originalPhaseActualExitCode": 0,
+  "originalPhaseTopologyValidationPassed": true,
+  "originalPhaseReceiptSha256": "c9d49bc6bd3e09fae63b970f3dd894d1c6fb0cbd1d72e7f40472df9cb9eca637",
+  "lockOriginalRetainedPrivately": true,
+  "onlyProvenStaleOwnedLockRemoved": true,
+  "lockAbsentAfterCleanup": true,
+  "coreEvidenceUnchanged": true,
+  "coreEvidenceHashes": {
+    "manifest.json": "5f8b0310086d33d91b803b4a08785aedffdb79f64cf1e1914cbac3eba52db2a3",
+    "inventory.json": "eb70acc544f036a6bf07c014288e4f63522a7aa5585315a537542cfc6c0f216b",
+    "summary.json": "1d66bec5be58c45864d1d4f7c9d391615d1d9255456d20e14280c47cbc727912"
+  },
+  "scoringReexecuted": false,
+  "automaticUnlinkFailureReason": "unobserved; producer finally suppresses unlink errors",
+  "privateProcessIdentifiersHostNamePathsExcluded": true
+}

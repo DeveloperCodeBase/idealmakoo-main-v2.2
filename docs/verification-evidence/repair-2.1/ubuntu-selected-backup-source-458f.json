@@ -1,0 +1,82 @@
+{
+  "format": "idealmakoo.selected-downloaded-backup-source-binding",
+  "version": 1,
+  "state": "completed",
+  "startedAt": "2026-10-21T19:08:31.158849+00:00",
+  "helperSha256": "c72a838b1be868b8dbd7dae5f2bb7b573ba6aed8123e7078ded1ed579f43bb29",
+  "activePhase": "verify-input-stability",
+  "subprocesses": [
+    {
+      "phase": "preflight-selected",
+      "exitCode": 0,
+      "outputBytes": 0,
+      "outputSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "phase": "preflight-snapshot",
+      "exitCode": 0,
+      "outputBytes": 0,
+      "outputSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "phase": "age-decrypt",
+      "exitCode": 0,
+      "outputBytes": 0,
+      "outputSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "phase": "authenticated-unpack",
+      "exitCode": 0,
+      "outputBytes": 26,
+      "outputSha256": "338272e02f75754f5b9a2b9813f0d3711794dc31e461cc083564c67403bcfb5a"
+    },
+    {
+      "phase": "reject-legacy-restore-policy",
+      "exitCode": 0,
+      "outputBytes": 0,
+      "outputSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "freshDockerBuildExecutedByThisHelper": false,
+  "restoreExecutedByThisHelper": false,
+  "networkExecutedByThisHelper": false,
+  "plaintextStagingRemoved": true,
+  "sourceSha256": "458f175a29b8bce25c5b45592c10952b57202b894e3aac65e244b7863c726be1",
+  "sourceFilesBound": 821,
+  "applicationSha256": "12da2b69abf2fa85cf0655bc0b4ec7df9244ea0b50a29cc8c3be1157851b6e1c",
+  "applicationFilesBound": 678,
+  "expectedSourceRegularFiles": 1273,
+  "sourceHandoffSha256": "ba9509bf2c7e892add9c93c0c73f106b81c7e1ac628ec061e553b7170c81bf1c",
+  "nativeFixtureManifestSha256": "6317f9cee2cff76c8753d2873bc5d8dedffacfa86d8a5bca1351a53d1402edce",
+  "independentSourceBindingSha256": "d71161c1d35fb6188be9e5d1ac90646ddf91e9c3acf806dc8bb86c54a8ae2db4",
+  "installUpgradeRecordSha256": "a1e1049a578d2d1b0e20437845ef80b50929298a409aac46b25b81bbca4b61ad",
+  "actualDownloadRecordSha256": "91437c5f7eb14a128175e42a56523da189b6f3bc563ca04611e345a7d92a0c9f",
+  "ciphertextSha256": "2b8992834879d0134221504a59a9158eafcc703839fd83f46c3981392b407abc",
+  "ciphertextBytes": 64589400,
+  "separateRecoveryIdentitySha256": "771419e8237e5c600cc9b6c636f728dff37ac0a274001e406303df43051401e1",
+  "trustedArchiveValidatorSha256": "e453bf6aee0c1a2f31f9dd9cbb7c10200ad5b112d5b14f1e2bc4d50029d6924b",
+  "ageExecutableSha256": "529450dfeaf3055cb24d76789d0b1f5eb8cd23e03dc4add64f84776df1272b02",
+  "ageExecutableRegularAndExecutableVerified": true,
+  "nativeIdentityOnlyVerified": true,
+  "expectedSourceFileManifestSha256": "ab09582a9968fa2f20c9673cfc2effdadc5ab9c4beed825253f932d8755e92dc",
+  "originalDockerfileSha256": "73c6a4ef453388a1caf1c197c6ded87301e8b294a351f35ed6a70aa8d1249591",
+  "sourceRegularFilesCompared": 1273,
+  "sourceRegularBytesCompared": 62624939,
+  "missingSourceFiles": 0,
+  "unexpectedSourceFiles": 0,
+  "mismatchedSourceFiles": 0,
+  "extractedSourceFileManifestSha256": "ab09582a9968fa2f20c9673cfc2effdadc5ab9c4beed825253f932d8755e92dc",
+  "backupFormat": 3,
+  "authenticatedManifestSha256": "cf3113106e96df5143ab20765c9e0277c9f4addffb21c721cb2ee4fd989dab63",
+  "authenticatedSourceTarSha256": "0dcc140f462862dae5191aee19705cd20114e64070412a5ba685164a927132c9",
+  "authenticatedSourceTarBytes": 63631360,
+  "installedReleaseMatches": true,
+  "originalDockerfileMatches": true,
+  "sourcePackExpectationExclusions": 0,
+  "authenticatedPayloadsVerified": true,
+  "legacyFormatAllowed": false,
+  "sourceComparisonCompleted": true,
+  "inputsUnchanged": true,
+  "exitCode": 0,
+  "finishedAt": "2026-10-21T19:08:32.173055+00:00"
+}

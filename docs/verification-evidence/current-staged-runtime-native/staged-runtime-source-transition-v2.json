@@ -1,0 +1,202 @@
+{
+  "format": "idealmakoo.staged-runtime-source-transition",
+  "version": 2,
+  "recordedAt": "2026-10-20T23:41:20.593640+00:00",
+  "baseArchiveSha256": "c71bc2bd53af84b7844fa740cd97fca2e95eb828cde08146593e5d83b905d0a0",
+  "baseSourceFilesVerified": 1055,
+  "changedFiles": 11,
+  "newFiles": 4,
+  "files": [
+    {
+      "file": "Dockerfile",
+      "before": {
+        "sha256": "84a4a0c296c1e84ec02a7d6cc45a4db890ec876eaeda68ac279854bc13181c82",
+        "bytes": 3184
+      },
+      "after": {
+        "sha256": "73c6a4ef453388a1caf1c197c6ded87301e8b294a351f35ed6a70aa8d1249591",
+        "bytes": 3664
+      },
+      "mode": "0o644"
+    },
+    {
+      "file": "deploy/caddy/Dockerfile",
+      "before": {
+        "sha256": "baf623efc6471eccb604645488125012b05fb11f2fd5cbb453321b5acee3b674",
+        "bytes": 322
+      },
+      "after": {
+        "sha256": "203f1ca51061d3eb276d089d4678a1725e3e195cac0fd214496a928a461a9e6e",
+        "bytes": 785
+      },
+      "mode": "0o644"
+    },
+    {
+      "file": "deploy/lib.sh",
+      "before": {
+        "sha256": "3c29119966e1c9f1ac0fab178d2d769ced17b7b256ceab6434ac12758d832b3a",
+        "bytes": 2638
+      },
+      "after": {
+        "sha256": "bfa2217784146feb8e6a815fdb436470fe67e1c042b96e1a8046b24f61f2546b",
+        "bytes": 2890
+      },
+      "mode": "0o755"
+    },
+    {
+      "file": "deploy/service-lifecycle.py",
+      "before": null,
+      "after": {
+        "sha256": "341e6d7a917e5e84b6f34d3889db39377cea0146425f4a460665e3a5efd1cf5c",
+        "bytes": 24968
+      },
+      "mode": "0o644"
+    },
+    {
+      "file": "scripts/backup.sh",
+      "before": {
+        "sha256": "78d8db399485d612041cbceaa4835052981c9b3f9d7f90013e3fcd685db98d53",
+        "bytes": 8954
+      },
+      "after": {
+        "sha256": "35142ad43f9c6760b67900c8a72a167a0413e10d28a210dbee43f1ea3e34bd28",
+        "bytes": 10277
+      },
+      "mode": "0o755"
+    },
+    {
+      "file": "scripts/install-ubuntu.sh",
+      "before": {
+        "sha256": "7444308f6dc83de231f8c23c0e80086eb710664d1e223dcf24e7cdf29f63e884",
+        "bytes": 24899
+      },
+      "after": {
+        "sha256": "530d9a5a294ed6df520ed7da2d2738064fbc9e6d3e486d11154320f98ef25d5e",
+        "bytes": 25141
+      },
+      "mode": "0o755"
+    },
+    {
+      "file": "scripts/restore.sh",
+      "before": {
+        "sha256": "8060ecf2fd444d0fa06e3d8fdc5443b2754cfdce2ee975caad108fe4c1de3bcc",
+        "bytes": 11457
+      },
+      "after": {
+        "sha256": "75e7957f8f9487ae8a6813f22fa2da543015aff5f0d620e9ad86331ae20a5acb",
+        "bytes": 11776
+      },
+      "mode": "0o755"
+    },
+    {
+      "file": "scripts/update.sh",
+      "before": {
+        "sha256": "aca0a2101f38dcd2527c688c1b0eae66f8a2501c57b002d8bb147a6986763fb7",
+        "bytes": 2738
+      },
+      "after": {
+        "sha256": "6c44b3b244c30af5f58e0866482a64ac76e1a650faf8141c092b241354ba42f7",
+        "bytes": 4108
+      },
+      "mode": "0o755"
+    },
+    {
+      "file": "scripts/check-health.sh",
+      "before": {
+        "sha256": "b2bfc2a960b0e545a3cf72afe9396feb5d0c633df27fbc8ab428dcd36c616088",
+        "bytes": 1231
+      },
+      "after": {
+        "sha256": "d1eb2b9ab5e2d8f0a98bef1047f17d9353c1c7a936e8eaf1c3a3e73f6751de3e",
+        "bytes": 484
+      },
+      "mode": "0o755"
+    },
+    {
+      "file": "tests/deployment_service_lifecycle_test.py",
+      "before": null,
+      "after": {
+        "sha256": "46809f871e54c64598efe21aa80d919e4de516b9c8800627314a4d4e9a556e7f",
+        "bytes": 26308
+      },
+      "mode": "0o644"
+    },
+    {
+      "file": "tests/deployment_docker_build_inputs_test.py",
+      "before": null,
+      "after": {
+        "sha256": "1a65fae1363d8ae2d438f9a20ac1e6510c890038daf936f67d80c16859f929da",
+        "bytes": 13570
+      },
+      "mode": "0o644"
+    },
+    {
+      "file": "tests/deployment_caddy_capability_test.py",
+      "before": null,
+      "after": {
+        "sha256": "82c3e6cf4782d41ef96ded6ac78ffd37cfa825f5eb71205fcf4f054c58c6ee78",
+        "bytes": 6202
+      },
+      "mode": "0o644"
+    },
+    {
+      "file": "tests/deployment_failure_cleanup_test.py",
+      "before": {
+        "sha256": "048444381b70a35d4ffc4e92dbda29305981ae96f73b87b6fc60c6ca7fe64d78",
+        "bytes": 11363
+      },
+      "after": {
+        "sha256": "3aaa2a62570e1922677efa9ac1056de5493a82377221c7c537aef8d6793892ee",
+        "bytes": 30361
+      },
+      "mode": "0o644"
+    },
+    {
+      "file": "tests/deployment_pending_restore_test.py",
+      "before": {
+        "sha256": "fcd5386f53861e96aba9a3eecb3ca63783e2e10b4ba2fe372945c83212a0fafb",
+        "bytes": 28738
+      },
+      "after": {
+        "sha256": "f040be97aea845405ed26a5d6c9a2f0e8bb3279f6cec2305fa574819edd711f3",
+        "bytes": 35844
+      },
+      "mode": "0o644"
+    },
+    {
+      "file": ".github/workflows/ci.yml",
+      "before": {
+        "sha256": "cc37971f2cebe0f079aea11b7c24237b96f79f2bb252a92805766591adcb23c3",
+        "bytes": 9511
+      },
+      "after": {
+        "sha256": "40805b7c1d5acf4102767ed91247b9c9c2d11c57aafa4611fd29ad610a53eee9",
+        "bytes": 9827
+      },
+      "mode": "0o644"
+    }
+  ],
+  "unchangedPriorSourceFiles": 1044,
+  "applicationAndPublicDesignChanged": false,
+  "healthConfigurationChanged": false,
+  "packageOrLockChanged": false,
+  "databaseOrNativeRuntimeMutated": false,
+  "nativeBuildRerun": false,
+  "dockerBuildRequired": true,
+  "ubuntuAcceptance": false,
+  "archiveModeNormalization": "Prior handoff normalized selected executable files to0750; main modes are retained exactly.",
+  "writerSha256": "eff946774add13ce921c20cff3ba0732cc1efea2970424f5a1ff9e0cc29fb289",
+  "priorTransition": {
+    "path": "/tmp/idealmakoo-production-repair-20261020/evidence/staged-runtime-source-transition.json",
+    "sha256": "8a669b15d64c42beb08335388b8d0f1e5e46bb52a6c37d3c95e4c78be5768ad5"
+  },
+  "followup": {
+    "file": "scripts/update.sh",
+    "beforeSha256": "860d42d2199add274492bb7c06cdd5bf5e9d418a81e25cadb61db7081597917d",
+    "afterSha256": "6c44b3b244c30af5f58e0866482a64ac76e1a650faf8141c092b241354ba42f7",
+    "reason": "ShellCheck SC2329 cannot resolve this branch-local EXIT handler. Quote the trap and document the narrow indirect-call suppression; actual caller tests verify cleanup execution. No cleanup behavior changed.",
+    "priorActualGate": "devops-staged-runtime-final-status.json",
+    "priorPythonPassed": 150,
+    "priorShellcheckPassed": false
+  }
+}

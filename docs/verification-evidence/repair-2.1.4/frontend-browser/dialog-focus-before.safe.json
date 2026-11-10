@@ -1,0 +1,116 @@
+{
+  "schema": "idealmakoo.dialog-focus-diagnosis.v1",
+  "buildId": "IUO4lyoYpICGn_Igd7EsH",
+  "originalFullSuite": {
+    "exitCode": 1,
+    "passed": 67,
+    "failed": 1,
+    "caseCount": 68,
+    "failureBeforeHandover": true,
+    "staffLengths": {
+      "requestedFill": 67,
+      "afterFill": 67,
+      "patch": 67,
+      "response": 67,
+      "refreshedList": 67
+    },
+    "customerLengths": {
+      "initial": 61,
+      "requestedFill": 70,
+      "afterFill": 39,
+      "patch": 39,
+      "response": 39,
+      "refreshedList": 39
+    },
+    "inputMaximumLength": 100,
+    "responseAndListPreservedSubmittedValue": true
+  },
+  "unmodifiedNaturalDiagnostic": {
+    "exitCode": 0,
+    "cases": 2,
+    "allPassed": true,
+    "originalTruncationReproduced": false,
+    "sequences": [
+      {
+        "mode": "immediate",
+        "status": "passed",
+        "inputSequences": [
+          {
+            "enteredLength": 67,
+            "selectionBeforeInput": [
+              0,
+              58
+            ],
+            "nextFocusTarget": "close",
+            "millisecondsToNextFocus": 2.5
+          },
+          {
+            "enteredLength": 70,
+            "selectionBeforeInput": [
+              0,
+              61
+            ],
+            "nextFocusTarget": "close",
+            "millisecondsToNextFocus": 2.899999998509884
+          }
+        ]
+      },
+      {
+        "mode": "settled",
+        "status": "passed",
+        "inputSequences": [
+          {
+            "enteredLength": 67,
+            "selectionBeforeInput": [
+              0,
+              58
+            ],
+            "nextFocusTarget": "other-dialog",
+            "millisecondsToNextFocus": 186.09999999403954
+          },
+          {
+            "enteredLength": 70,
+            "selectionBeforeInput": [
+              0,
+              61
+            ],
+            "nextFocusTarget": "other-dialog",
+            "millisecondsToNextFocus": 194.69999999552965
+          }
+        ]
+      }
+    ]
+  },
+  "controlledRegressionBefore": {
+    "exitCode": 1,
+    "cases": 1,
+    "passed": 0,
+    "failed": 1,
+    "initialNativeCloseFocusPassed": true,
+    "normalClickAndInputPassed": true,
+    "preCallbackExactValueAndFocusPassed": true,
+    "releasedBrowserAnimationMilliseconds": 32,
+    "postCallbackFieldFocusPassed": false,
+    "fullInputRetained": true,
+    "noForcedClickOrAppTestHook": true
+  },
+  "interpretation": {
+    "delayedFocusTheftProven": true,
+    "originalTruncationCauseProven": false,
+    "apiTruncationObserved": false
+  },
+  "privateReceiptSha256": {
+    "originalFullSuite": "32df142dc17ca0d47ebd74244acc5216cb761b44d6671c6ba7fa1d3d42c89cca",
+    "naturalDiagnosticExecution": "522b70b050aba4faaf8f96c24aa70418669d864690d278760362fa71326842e4",
+    "controlledBeforeExecution": "a804491f25b6a924cd8f0c5e77f6871674855cfda3c4e28c91685ff6f023c202",
+    "originalSourceWitness": "3fe3544ae479985483bf942786ba9c583f424dfbee9e28bfdb9fe95e1113b5c5"
+  },
+  "rawDiagnosisReceiptSha256": "58d1a1f803712df7e02cc9a454568920a6bc8c19f5a15c6bd3c9bd93d1225730",
+  "privateMaterialIncluded": false,
+  "verifiedFollowup": {
+    "buildId": "ir2DFJg8r5YdpbVQubUqF",
+    "focusedReceipt": "focused-final.safe.json",
+    "delayedFieldFocusAssertionPassed": true,
+    "originalInputTruncationCauseProven": false
+  }
+}

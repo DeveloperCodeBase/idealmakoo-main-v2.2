@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/segmentation/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "aefb435a2359346615729abdf28ef0e84b29ac5d72f92ec269f92e9684377b5d",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "مخاطبان و بخش‌بندی بازار | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "لابراتوارها، کلینیک‌ها، درمانگاه‌ها، بیمارستان‌ها، دانشگاه‌ها و شبکه توزیع محصولات دندانپزشکی."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/segmentation/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/segmentation/",
+    "en": "http://127.0.0.1:3100/en/segmentation/",
+    "tr": "http://127.0.0.1:3100/tr/segmentation/",
+    "ar": "http://127.0.0.1:3100/ar/segmentation/",
+    "ru": "http://127.0.0.1:3100/ru/segmentation/",
+    "x-default": "http://127.0.0.1:3100/fa/segmentation/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 65
+}

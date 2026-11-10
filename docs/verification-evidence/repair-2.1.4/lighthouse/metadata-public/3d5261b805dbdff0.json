@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/resources/apple-official-image/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "67c905913344ac86e66d1fd275c12800878ab584003518bb8814ec9365430908",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "أسنان آبل الصناعية — صورة رسمية | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "أسنان آبل الصناعية — صورة رسمية — وثائق المصنع المصوّرة الأصلية"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/resources/apple-official-image/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/apple-official-image/",
+    "en": "http://127.0.0.1:3100/en/resources/apple-official-image/",
+    "tr": "http://127.0.0.1:3100/tr/resources/apple-official-image/",
+    "ar": "http://127.0.0.1:3100/ar/resources/apple-official-image/",
+    "ru": "http://127.0.0.1:3100/ru/resources/apple-official-image/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/apple-official-image/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 65
+}

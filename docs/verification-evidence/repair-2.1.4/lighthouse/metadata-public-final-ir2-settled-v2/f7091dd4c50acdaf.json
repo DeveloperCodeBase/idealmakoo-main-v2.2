@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/research/president-ivoclar-3d-wear/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "8f98f9636d3a490c5f4df4ca7ba8ab05af7b1474a72eca3f745d5a8468fc8225",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Üç boyutlu taramayla President ve Ivoclar aşınması | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Doğal dişe karşı aşınmanın 3B taramayla değerlendirildiği bir çalışmanın tanıtımı."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/research/president-ivoclar-3d-wear/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/president-ivoclar-3d-wear/",
+    "en": "http://127.0.0.1:3100/en/research/president-ivoclar-3d-wear/",
+    "tr": "http://127.0.0.1:3100/tr/research/president-ivoclar-3d-wear/",
+    "ar": "http://127.0.0.1:3100/ar/research/president-ivoclar-3d-wear/",
+    "ru": "http://127.0.0.1:3100/ru/research/president-ivoclar-3d-wear/",
+    "x-default": "http://127.0.0.1:3100/fa/research/president-ivoclar-3d-wear/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 53
+}

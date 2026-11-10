@@ -1,0 +1,21 @@
+{
+  "kind": "normal-native-postgres-shutdown-with-original-outer-wait",
+  "recordedAt": "2026-10-25T07:55:05.455257+00:00",
+  "startedAt": "2026-10-25T07:53:42.072525+00:00",
+  "finishedAt": "2026-10-25T07:53:42.111412+00:00",
+  "postgresExitCode": 0,
+  "postgresChildWaitConsumed": true,
+  "stopCommandExitCode": 0,
+  "stopCommandToolChunk": "6dd788",
+  "originalSupervisorSessionId": 13432,
+  "originalOuterExitCode": 0,
+  "originalOuterWaitConsumed": true,
+  "actualOuterCompletionToolChunk": "e8960f",
+  "clusterDataRetained": true,
+  "clusterReseededOrRemoved": false,
+  "rootGoReceived": true,
+  "allFrontendConsumersReleased": true,
+  "controllerSha256": "8090a18a7174940a10dab004cd896a8e049dcbe200930e2f7305600695303a3f",
+  "postgresExitReceiptSha256": "31318f771fa1e27ac983cf3e4f9981805520349bb9262fa5feffc00d387e2173",
+  "postgresStopReceiptSha256": "993eed3dc939052c62a5ebfc1c4a37cb9640cfd722670b44a75c70f4730c18f7"
+}

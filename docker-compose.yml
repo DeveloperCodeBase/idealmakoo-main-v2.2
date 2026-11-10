@@ -1,0 +1,420 @@
+name: ${COMPOSE_PROJECT_NAME:-idealmakoo}
+
+x-logging: &logging
+  driver: json-file
+  options:
+    max-size: "10m"
+    max-file: "5"
+
+x-runtime-environment: &runtime-environment
+  NODE_ENV: production
+  NODE_USE_ENV_PROXY: ${RUNTIME_USE_ENV_PROXY:-0}
+  HTTP_PROXY: ${RUNTIME_HTTP_PROXY:-}
+  HTTPS_PROXY: ${RUNTIME_HTTPS_PROXY:-}
+  NO_PROXY: ${RUNTIME_NO_PROXY_EFFECTIVE:-localhost,127.0.0.1,::1,[::1],app,worker,db,clamav,proxy,mailserver}
+  DATABASE_URL: ${DATABASE_URL:?Set DATABASE_URL in the protected .env file}
+  DATABASE_SSL: ${DATABASE_SSL:-false}
+  DB_POOL_SIZE: ${DB_POOL_SIZE:-10}
+  SESSION_SECRET: ${SESSION_SECRET:?Generate SESSION_SECRET}
+  SESSION_IDLE_MINUTES: ${SESSION_IDLE_MINUTES:-60}
+  SESSION_HOURS: ${SESSION_HOURS:-24}
+  MFA_ENCRYPTION_KEY: ${MFA_ENCRYPTION_KEY:?Generate MFA_ENCRYPTION_KEY}
+  SITE_URL: ${SITE_URL:?Set SITE_URL}
+  NEXT_PUBLIC_SITE_URL: ${SITE_URL}
+  NEXT_PUBLIC_DATA_MODE: api
+  NEXT_PUBLIC_DEMO_MODE: "false"
+  DEMO_MODE: "false"
+  STAFF_PROVISIONING_MODE: ${STAFF_PROVISIONING_MODE:-hybrid}
+  STORAGE_DIR: /app/storage
+  STORAGE_QUOTA_BYTES: ${STORAGE_QUOTA_BYTES:-10737418240}
+  STORAGE_USER_QUOTA_BYTES: ${STORAGE_USER_QUOTA_BYTES:-1073741824}
+  STORAGE_GUEST_QUOTA_BYTES: ${STORAGE_GUEST_QUOTA_BYTES:-104857600}
+  UPLOAD_MAX_FILE_BYTES: ${UPLOAD_MAX_FILE_BYTES:-20971520}
+  UPLOAD_MAX_IMAGE_BYTES: ${UPLOAD_MAX_IMAGE_BYTES:-20971520}
+  UPLOAD_MAX_DOCUMENT_BYTES: ${UPLOAD_MAX_DOCUMENT_BYTES:-20971520}
+  UPLOAD_MAX_VIDEO_BYTES: ${UPLOAD_MAX_VIDEO_BYTES:-20971520}
+  UPLOAD_MAX_AUDIO_BYTES: ${UPLOAD_MAX_AUDIO_BYTES:-20971520}
+  UPLOAD_CONCURRENT_REQUESTS: ${UPLOAD_CONCURRENT_REQUESTS:-2}
+  PRIVACY_LEDGER_DIR: /app/privacy-ledger
+  TRUST_PROXY: "true"
+  RELEASE_SHA: ${RELEASE_SHA:-local}
+  NOTIFICATIONS_MODE: ${NOTIFICATIONS_MODE:-disabled}
+  CUSTOMER_SMS_OTP_ENABLED: ${CUSTOMER_SMS_OTP_ENABLED:-true}
+  SMS_MAX_SEGMENTS: ${SMS_MAX_SEGMENTS:-6}
+  SMS_ESTIMATED_SEGMENT_COST_IRR: ${SMS_ESTIMATED_SEGMENT_COST_IRR:-}
+  SMTP_HOST: ${SMTP_HOST:-}
+  SMTP_PORT: ${SMTP_PORT:-587}
+  SMTP_SECURE: ${SMTP_SECURE:-false}
+  SMTP_USER: ${SMTP_USER:-}
+  SMTP_PASSWORD: ${SMTP_PASSWORD:-}
+  SMTP_FROM: ${SMTP_FROM:-}
+  SMTP_DKIM_MODE: ${SMTP_DKIM_MODE:-off}
+  SMTP_DKIM_DOMAIN: ${SMTP_DKIM_DOMAIN:-}
+  SMTP_DKIM_SELECTOR: ${SMTP_DKIM_SELECTOR:-}
+  SMTP_DKIM_PRIVATE_KEY_B64: ${SMTP_DKIM_PRIVATE_KEY_B64:-}
+  CRM_CAMPAIGNS_ENABLED: ${CRM_CAMPAIGNS_ENABLED:-false}
+  KAVENEGAR_API_KEY: ${KAVENEGAR_API_KEY:-}
+  KAVENEGAR_SENDER: ${KAVENEGAR_SENDER:-}
+  KAVENEGAR_OTP_TEMPLATE: ${KAVENEGAR_OTP_TEMPLATE:-}
+  NAJVA_API_KEY: ${NAJVA_API_KEY:-}
+  NAJVA_API_URL: ${NAJVA_API_URL:-}
+  NAJVA_WEBSITE_ID: ${NAJVA_WEBSITE_ID:-}
+  NAJVA_SDK_URL: ${NAJVA_SDK_URL:-}
+  NAJVA_WORKER_FILE: ${NAJVA_WORKER_FILE:-}
+  NAJVA_SCRIPT_ORIGINS: ${NAJVA_SCRIPT_ORIGINS:-}
+  NAJVA_CONNECT_ORIGINS: ${NAJVA_CONNECT_ORIGINS:-}
+  TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN:-}
+  TELEGRAM_CHAT_ID: ${TELEGRAM_CHAT_ID:-}
+  TELEGRAM_BOT_USERNAME: ${TELEGRAM_BOT_USERNAME:-}
+  TELEGRAM_WEBHOOK_SECRET: ${TELEGRAM_WEBHOOK_SECRET:-}
+  TELEGRAM_CHANNEL_ID: ${TELEGRAM_CHANNEL_ID:-}
+  TELEGRAM_CHANNEL_LOCALES: ${TELEGRAM_CHANNEL_LOCALES:-fa}
+  AI_PROVIDER: ${AI_PROVIDER:-openrouter}
+  OPENROUTER_API_KEY: ${OPENROUTER_API_KEY:-}
+  OPENROUTER_TEXT_MODEL: ${OPENROUTER_TEXT_MODEL:-}
+  OPENROUTER_IMAGE_MODEL: ${OPENROUTER_IMAGE_MODEL:-}
+  OPENROUTER_VIDEO_MODEL: ${OPENROUTER_VIDEO_MODEL:-}
+  OPENROUTER_AUDIO_MODEL: ${OPENROUTER_AUDIO_MODEL:-}
+  OPENROUTER_AUDIO_VOICE: ${OPENROUTER_AUDIO_VOICE:-}
+  OPENROUTER_WEBHOOK_SECRET: ${OPENROUTER_WEBHOOK_SECRET:-}
+  GOOGLE_API_KEY: ${GOOGLE_API_KEY:-}
+  GOOGLE_TEXT_MODEL: ${GOOGLE_TEXT_MODEL:-}
+  GOOGLE_IMAGE_MODEL: ${GOOGLE_IMAGE_MODEL:-}
+  GOOGLE_AI_API_KEY: ${GOOGLE_AI_API_KEY:-}
+  GOOGLE_AI_TEXT_MODEL: ${GOOGLE_AI_TEXT_MODEL:-}
+  GOOGLE_AI_IMAGE_MODEL: ${GOOGLE_AI_IMAGE_MODEL:-}
+  AI_DAILY_BUDGET_USD: ${AI_DAILY_BUDGET_USD:-5}
+  AI_MONTHLY_BUDGET_USD: ${AI_MONTHLY_BUDGET_USD:-100}
+  AI_REQUEST_RESERVE_USD: ${AI_REQUEST_RESERVE_USD:-1}
+  AI_VIDEO_RESERVE_USD: ${AI_VIDEO_RESERVE_USD:-10}
+  AI_AUDIO_RESERVE_USD: ${AI_AUDIO_RESERVE_USD:-1}
+  AI_PUBLIC_CHAT: ${AI_PUBLIC_CHAT:-false}
+  RAG_ENABLED: ${RAG_ENABLED:-false}
+  RAG_EMBEDDING_MODEL: ${RAG_EMBEDDING_MODEL:-}
+  RAG_EMBEDDING_DIMENSIONS: ${RAG_EMBEDDING_DIMENSIONS:-768}
+  RAG_REQUEST_RESERVE_USD: ${RAG_REQUEST_RESERVE_USD:-0.02}
+  MEDIA_PROCESSING_ENABLED: ${MEDIA_PROCESSING_ENABLED:-true}
+  MEDIA_PROCESSING_TIMEOUT_SECONDS: ${MEDIA_PROCESSING_TIMEOUT_SECONDS:-120}
+  MONITORING_BROWSER_METRICS_ENABLED: ${MONITORING_BROWSER_METRICS_ENABLED:-false}
+  MONITORING_INTERNAL_PROBE_URL: ${MONITORING_INTERNAL_PROBE_URL:-http://app:3000}
+  MONITORING_EXTERNAL_PROBES_ENABLED: ${MONITORING_EXTERNAL_PROBES_ENABLED:-false}
+  CLAMAV_HOST: ${CLAMAV_HOST:-clamav}
+  CLAMAV_PORT: ${CLAMAV_PORT:-3310}
+  CLAMAV_TIMEOUT_MS: ${CLAMAV_TIMEOUT_MS:-120000}
+
+x-app: &app
+  image: ${APP_IMAGE:-idealmakoo-app:local}
+  labels:
+    com.idealmakoo.release: ${RELEASE_SHA:-local}
+  build:
+    context: .
+    args:
+      NODE_IMAGE: ${NODE_IMAGE:-node:24-bookworm-slim}
+      BUILD_NPM_REGISTRY: ${BUILD_NPM_REGISTRY:-https://registry.npmjs.org}
+      NEXT_PUBLIC_SITE_URL: ${SITE_URL}
+  user: "10001:10001"
+  init: true
+  read_only: true
+  tmpfs:
+    - /tmp:rw,noexec,nosuid,size=128m,uid=10001,gid=10001,mode=1770
+  cap_drop: [ALL]
+  security_opt: [no-new-privileges:true]
+  stop_grace_period: 45s
+  logging: *logging
+  networks: [backend, egress]
+
+services:
+  db:
+    image: ${POSTGRES_IMAGE:-pgvector/pgvector:pg16}
+    user: "999:999"
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-idealmakoo}
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ${POSTGRES_ADMIN_PASSWORD:?Generate POSTGRES_ADMIN_PASSWORD}
+      POSTGRES_APP_PASSWORD: ${POSTGRES_APP_PASSWORD:?Generate POSTGRES_APP_PASSWORD}
+      POSTGRES_MIGRATION_PASSWORD: ${POSTGRES_MIGRATION_PASSWORD:?Generate POSTGRES_MIGRATION_PASSWORD}
+      POSTGRES_INITDB_ARGS: --auth-host=scram-sha-256 --auth-local=trust
+      PGDATA: /var/lib/postgresql/data/pgdata
+    volumes:
+      - database:/var/lib/postgresql/data
+      - ./deploy/postgres/init-roles.sh:/docker-entrypoint-initdb.d/10-roles.sh:ro
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=64m,uid=999,gid=999,mode=1770
+      - /var/run/postgresql:rw,noexec,nosuid,size=16m,uid=999,gid=999,mode=3775
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    shm_size: 256mb
+    healthcheck:
+      test: [CMD-SHELL, 'pg_isready -U postgres -d "$${POSTGRES_DB}" -h 127.0.0.1']
+      interval: 5s
+      timeout: 5s
+      retries: 30
+      start_period: 30s
+    restart: unless-stopped
+    stop_grace_period: 60s
+    logging: *logging
+    networks: [backend]
+
+  migrate:
+    <<: *app
+    command: [migrate]
+    environment:
+      <<: *runtime-environment
+      DATABASE_URL: ${MIGRATION_DATABASE_URL:?Set MIGRATION_DATABASE_URL}
+      MIGRATION_DATABASE_URL: ${MIGRATION_DATABASE_URL}
+      DATABASE_APP_ROLE: idealmakoo_app
+      BOOTSTRAP_ADMIN_EMAIL: ${BOOTSTRAP_ADMIN_EMAIL:-}
+      BOOTSTRAP_ADMIN_PASSWORD: ${BOOTSTRAP_ADMIN_PASSWORD:-}
+      BOOTSTRAP_ADMIN_NAME: ${BOOTSTRAP_ADMIN_NAME:-}
+      BOOTSTRAP_ADMIN_QUALITY_SCOPE: ${BOOTSTRAP_ADMIN_QUALITY_SCOPE:-false}
+      STAFF_ACCOUNTS_JSON: ${STAFF_ACCOUNTS_JSON:-[]}
+    volumes:
+      - type: bind
+        source: ${PRIVACY_LEDGER_HOST_DIR:?Create the separate protected privacy ledger directory}
+        target: /app/privacy-ledger
+        bind: {create_host_path: false}
+    depends_on:
+      db: {condition: service_healthy}
+    restart: "no"
+
+  app:
+    <<: *app
+    command: [web]
+    environment: *runtime-environment
+    volumes:
+      - storage:/app/storage
+      - next-cache:/app/.next/cache
+      - type: bind
+        source: ${PRIVACY_LEDGER_HOST_DIR:?Create the separate protected privacy ledger directory}
+        target: /app/privacy-ledger
+        bind: {create_host_path: false}
+      - type: bind
+        source: ${INTEGRATIONS_HOST_DIR:?Create the optional integrations directory}
+        target: /app/integrations
+        read_only: true
+        bind: {create_host_path: false}
+    expose: ["3000"]
+    healthcheck:
+      test: [CMD, node, /app/deploy/app-healthcheck.mjs, "${APP_HEALTH_TIMEOUT_SECONDS:-8}"]
+      interval: 15s
+      timeout: ${APP_HEALTH_TIMEOUT_SECONDS:-8}s
+      retries: 5
+      start_period: ${APP_HEALTH_START_PERIOD_SECONDS:-45}s
+    depends_on:
+      db: {condition: service_healthy}
+      migrate: {condition: service_completed_successfully}
+    restart: unless-stopped
+
+  worker:
+    <<: *app
+    command: [worker]
+    cpus: ${WORKER_CPUS:-2.0}
+    mem_limit: ${WORKER_MEMORY:-2g}
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=768m,uid=10001,gid=10001,mode=1770
+    environment: *runtime-environment
+    volumes:
+      - storage:/app/storage
+      - type: bind
+        source: ${PRIVACY_LEDGER_HOST_DIR:?Create the separate protected privacy ledger directory}
+        target: /app/privacy-ledger
+        read_only: true
+        bind: {create_host_path: false}
+    healthcheck:
+      test: [CMD, node, --import, tsx, /app/scripts/worker-health.ts]
+      interval: 30s
+      timeout: ${WORKER_HEALTH_TIMEOUT_SECONDS:-10}s
+      retries: 4
+      start_period: ${WORKER_HEALTH_START_PERIOD_SECONDS:-60}s
+    depends_on:
+      db: {condition: service_healthy}
+      migrate: {condition: service_completed_successfully}
+    restart: unless-stopped
+
+  proxy:
+    image: ${PROXY_IMAGE:-idealmakoo-proxy:local}
+    build:
+      context: ./deploy/caddy
+      args:
+        CADDY_IMAGE: ${CADDY_IMAGE:-caddy:2-alpine}
+    user: "10002:10002"
+    environment:
+      SITE_ADDRESS: ${SITE_ADDRESS:?Set a domain or http://localhost}
+      ACME_EMAIL: ${ACME_EMAIL:-}
+    ports:
+      - ${BIND_IP:-0.0.0.0}:${HTTP_PORT:-80}:80
+      - ${BIND_IP:-0.0.0.0}:${HTTPS_PORT:-443}:443
+    volumes:
+      - caddy-data:/data
+      - caddy-config:/config
+    read_only: true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=16m,uid=10002,gid=10002,mode=1770
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    sysctls:
+      net.ipv4.ip_unprivileged_port_start: "0"
+    depends_on:
+      app: {condition: service_healthy}
+    restart: unless-stopped
+    stop_grace_period: 30s
+    logging: *logging
+    networks: [egress]
+
+  clamav:
+    image: ${CLAMAV_RUNTIME_IMAGE:-idealmakoo-clamav:local}
+    build:
+      context: ./deploy/clamav
+      args:
+        CLAMAV_IMAGE: ${CLAMAV_IMAGE:-clamav/clamav:stable_base}
+    profiles: [antivirus]
+    user: clamav
+    entrypoint: [/sbin/tini, --, /usr/local/bin/idealmakoo-clamav.sh]
+    environment:
+      CLAMAV_NO_MILTERD: "true"
+      FRESHCLAM_CHECKS: "6"
+      CLAMD_STARTUP_TIMEOUT: "900"
+    volumes:
+      - clamav-signatures:/var/lib/clamav
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=256m,mode=1777
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    expose: ["3310"]
+    healthcheck:
+      test: [CMD, /bin/sh, -c, 'printf "zPING\0" | nc -w 3 127.0.0.1 3310 | grep -q PONG']
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 10m
+    restart: unless-stopped
+    stop_grace_period: 45s
+    logging: *logging
+    networks: [backend, egress]
+
+  mailserver:
+    image: ${MAIL_SERVER_IMAGE:-ghcr.io/docker-mailserver/docker-mailserver:16.0.1}
+    profiles: [mail]
+    hostname: ${MAIL_HOSTNAME:-mail.invalid}
+    environment:
+      TZ: Asia/Tehran
+      ACCOUNT_PROVISIONER: FILE
+      PERMIT_DOCKER: none
+      SSL_TYPE: manual
+      SSL_CERT_PATH: /srv/mail-tls/${MAIL_HOSTNAME:-mail.invalid}.crt
+      SSL_KEY_PATH: /srv/mail-tls/${MAIL_HOSTNAME:-mail.invalid}.key
+      TLS_LEVEL: modern
+      SPOOF_PROTECTION: "1"
+      ENABLE_RSPAMD: "1"
+      ENABLE_RSPAMD_REDIS: "1"
+      ENABLE_OPENDKIM: "0"
+      ENABLE_OPENDMARC: "0"
+      ENABLE_POLICYD_SPF: "0"
+      ENABLE_AMAVIS: "0"
+      ENABLE_SPAMASSASSIN: "0"
+      ENABLE_CLAMAV: "0"
+      ENABLE_FAIL2BAN: "0"
+      ENABLE_POP3: "0"
+      ENABLE_IMAP: "1"
+      ENABLE_MANAGESIEVE: "0"
+      ENABLE_QUOTAS: "1"
+      POSTFIX_INET_PROTOCOLS: ipv4
+      DOVECOT_INET_PROTOCOLS: ipv4
+      POSTFIX_MESSAGE_SIZE_LIMIT: ${MAIL_MESSAGE_LIMIT_BYTES:-26214400}
+      POSTFIX_MAILBOX_SIZE_LIMIT: ${MAIL_MAILBOX_LIMIT_BYTES:-1073741824}
+      POSTMASTER_ADDRESS: ${MAIL_SERVICE_ADDRESS:-notifications@invalid.invalid}
+      RELAY_HOST: ${MAIL_RELAY_HOST:-}
+      RELAY_PORT: ${MAIL_RELAY_PORT:-587}
+      RELAY_USER: ${MAIL_RELAY_USER:-}
+      RELAY_PASSWORD: ${MAIL_RELAY_PASSWORD:-}
+      DMS_CONFIG_POLL: "15"
+      LOG_LEVEL: warn
+      ENABLE_UPDATE_CHECK: "0"
+    ports:
+      - ${BIND_IP:-0.0.0.0}:25:25
+      - ${BIND_IP:-0.0.0.0}:465:465
+      - ${BIND_IP:-0.0.0.0}:587:587
+      - ${BIND_IP:-0.0.0.0}:993:993
+    volumes:
+      - type: bind
+        source: ${MAIL_DATA_DIR:-/var/www/idealmakoo/mail-server}/data
+        target: /var/mail
+        bind: {create_host_path: false}
+      - type: bind
+        source: ${MAIL_DATA_DIR:-/var/www/idealmakoo/mail-server}/state
+        target: /var/mail-state
+        bind: {create_host_path: false}
+      - type: bind
+        source: ${MAIL_DATA_DIR:-/var/www/idealmakoo/mail-server}/logs
+        target: /var/log/mail
+        bind: {create_host_path: false}
+      - type: bind
+        source: ${MAIL_DATA_DIR:-/var/www/idealmakoo/mail-server}/config
+        target: /tmp/docker-mailserver
+        bind: {create_host_path: false}
+      - type: volume
+        source: caddy-data
+        target: /srv/mail-tls
+        read_only: true
+        volume:
+          subpath: caddy/certificates/acme-v02.api.letsencrypt.org-directory/${MAIL_HOSTNAME:-mail.invalid}
+    # DMS initializes Postfix/Dovecot as root and drops their privileges.
+    # It receives neither a Docker socket nor NET_ADMIN/NET_RAW.
+    cap_drop: [NET_RAW]
+    security_opt: [no-new-privileges:true]
+    healthcheck:
+      test: [CMD-SHELL, 'supervisorctl status postfix dovecot rspamd | awk ''BEGIN{ok=1} $$2 != "RUNNING" {ok=0} END{exit !(ok && NR == 3)}'' && bash -c ''</dev/tcp/127.0.0.1/465''']
+      interval: 30s
+      timeout: 10s
+      retries: 6
+      start_period: 120s
+    restart: unless-stopped
+    stop_grace_period: 60s
+    logging: *logging
+    networks:
+      egress:
+        aliases: ["${MAIL_HOSTNAME:-mail.invalid}"]
+
+  storage-tool:
+    <<: *app
+    profiles: [operations]
+    entrypoint: [/bin/tar]
+    command: [--help]
+    environment: {}
+    volumes:
+      - storage:/app/storage
+    networks: []
+    network_mode: none
+    restart: "no"
+
+  proxy-data-tool:
+    image: ${PROXY_IMAGE:-idealmakoo-proxy:local}
+    profiles: [operations]
+    user: "10002:10002"
+    entrypoint: [/bin/tar]
+    command: [--help]
+    environment: {}
+    volumes:
+      - caddy-data:/data
+      - caddy-config:/config
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    network_mode: none
+    restart: "no"
+
+volumes:
+  database:
+  storage:
+  next-cache:
+  caddy-data:
+  caddy-config:
+  clamav-signatures:
+
+networks:
+  backend:
+    internal: true
+  egress:
+

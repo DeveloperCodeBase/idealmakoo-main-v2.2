@@ -1,0 +1,24 @@
+{
+  "format": "completed-owned-public-audit-lock-closure-v1",
+  "observedAt": "2026-10-26T00:41:18.187066+00:00",
+  "actualCleanupCompleted": true,
+  "lockOriginalBytes": 75,
+  "lockOriginalSha256": "ed819226454d5f551b7b5cc4e3aeea1bfbcce588316b72a8421d32d4714f1c1a",
+  "lockOwnerMatchedConsumedPhaseLaunch": true,
+  "ownerAbsentInNativeNamespaceBeforeCleanup": true,
+  "originalPhaseActualExitCode": 0,
+  "originalPhaseTopologyValidationPassed": true,
+  "originalPhaseReceiptSha256": "b5683a326be3c2a7a22fcab34882f95dedd75231f1dfb2ca421b64b5931a9afc",
+  "lockOriginalRetainedPrivately": true,
+  "onlyProvenStaleOwnedLockRemoved": true,
+  "lockAbsentAfterCleanup": true,
+  "coreEvidenceUnchanged": true,
+  "coreEvidenceHashes": {
+    "manifest.json": "0bfc510d1476aed9e53c51158b10843ab090133f26a27b025bc40b4c5a158215",
+    "inventory.json": "786c88164275a012f5606d0adf53d1110b8f75e89bbb8ba610b2166ed05e290a",
+    "summary.json": "bb55995b2829a234524e14ec370d36013589be692399ece7723984e1b7a89b26"
+  },
+  "scoringReexecuted": false,
+  "automaticUnlinkFailureReason": "unobserved; producer finally suppresses unlink errors",
+  "privateProcessIdentifiersHostNamePathsExcluded": true
+}

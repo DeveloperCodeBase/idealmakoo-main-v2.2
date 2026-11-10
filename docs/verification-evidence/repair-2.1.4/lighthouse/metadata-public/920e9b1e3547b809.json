@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/manufacturing/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "5f25d2acd4040dc4d7236467ca120af813da1525db7bf7a1dd4d5bf89ff5cd26",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "الشكل، الطبقات، التفاصيل. | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "استكشف سلاسل الأسنان الصناعية للمصنع من حيث البنية والمواد وتنوع القوالب."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/manufacturing/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/manufacturing/",
+    "en": "http://127.0.0.1:3100/en/manufacturing/",
+    "tr": "http://127.0.0.1:3100/tr/manufacturing/",
+    "ar": "http://127.0.0.1:3100/ar/manufacturing/",
+    "ru": "http://127.0.0.1:3100/ru/manufacturing/",
+    "x-default": "http://127.0.0.1:3100/fa/manufacturing/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 98
+}

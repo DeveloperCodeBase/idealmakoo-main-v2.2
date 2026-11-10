@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/contact/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "32eb597de59d3a881859d76518c894f36c44c8ff93682fb0478a96c054f6d9ba",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "تماس با ایده‌آل ماکو | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "دفتر تهران: میدان ولیعصر، ابتدای ضلع جنوبی بلوار کشاورز، پلاک ۲۲، طبقه ۵."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/contact/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/contact/",
+    "en": "http://127.0.0.1:3100/en/contact/",
+    "tr": "http://127.0.0.1:3100/tr/contact/",
+    "ar": "http://127.0.0.1:3100/ar/contact/",
+    "ru": "http://127.0.0.1:3100/ru/contact/",
+    "x-default": "http://127.0.0.1:3100/fa/contact/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 46
+}

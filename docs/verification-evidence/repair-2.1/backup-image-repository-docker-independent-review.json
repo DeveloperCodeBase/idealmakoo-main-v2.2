@@ -1,0 +1,14 @@
+{
+  "reviewedAt": "2026-10-21T15:15:07.651139+00:00",
+  "reviewedEvidenceSha256": "c7a0b028917c3c5d634a2e3bb8c2de4f74a403526d30d78ef6b2449d3e65e39c",
+  "sourceSha256": "458f175a29b8bce25c5b45592c10952b57202b894e3aac65e244b7863c726be1",
+  "productFilesVerified": 4,
+  "actualRunExistingCasesPassed": 2,
+  "beforeAfterImageMetadataIdentical": true,
+  "unrelatedFirstDigestIgnored": true,
+  "actualImmutableImageSelectionPassed": true,
+  "missingOriginalRepositoryRejected": true,
+  "testContainersAndModelsRemaining": 0,
+  "scope": "Independent readback of actual Docker witness and exact source-byte comparison. Full backup, new-release installation, registry availability and recovery are separate gates.",
+  "completeBackupOrRestoreAccepted": false
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-20T15:40:06.955Z",
+  "applicationVersion": "2.1.0",
+  "applicationSha256": "34a8ce048c07eca0c7c6286d741b7c58b1e1c920ea421ec51315a2662f61cdea",
+  "buildId": "zTyFzGk88zFYZzMkC8On8",
+  "scope": "Local clean delivery runtime behind Caddy. No public-domain deployment is claimed.",
+  "baseUrl": "http://127.0.0.1:3080",
+  "status": 200,
+  "body": {
+    "status": "ok",
+    "database": "ok",
+    "privacy": "ready",
+    "timestamp": "2026-10-20T15:40:06.925Z",
+    "version": "2.1.0",
+    "applicationVersion": "2.1.0"
+  },
+  "production": true,
+  "ownerCredentialsRemoved": true,
+  "existingCleanDeliveryDatabasePreserved": true
+}

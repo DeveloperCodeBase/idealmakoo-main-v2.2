@@ -1,0 +1,45 @@
+{
+  "format": 1,
+  "release": "2.2.0",
+  "reviewType": "Focused code and real PostgreSQL regression review of the new public OTP, engagement and notification boundaries",
+  "status": "No remaining concrete blocker identified within the reviewed scope",
+  "closedFindings": [
+    {
+      "finding": "Dedicated managed-resource publication lacked publication notification fanout",
+      "resolution": "Added a separate durable event linked to immutable resource publication history. Public current version, matching reviewed metadata, independent approval, current publisher/reviewer permission, locale, clean scan and distribution rights are checked before fanout and again at actual dispatch. Private/authenticated documents are never broadcast.",
+      "proof": "resource-notifications.safe.txt"
+    },
+    {
+      "finding": "The administrator directory omitted phone and placeholder flags needed for safe phone-only account projection",
+      "resolution": "The directory selects the required fields, hides internal placeholder addresses, exposes verified phone identity and supports normalized Iranian/international phone search without expanding punctuation-only searches. Current administrative access remains mandatory.",
+      "proof": "expansion.safe.txt"
+    },
+    {
+      "finding": "Generic managed-resource metadata authorization allowed engagement reads after its strict public page became unavailable",
+      "resolution": "Engagement now uses the existing strict resource-page resolver and reuses its caller transaction. Previously approved comments are suppressed after scan or distribution rights withdrawal; writes to the unavailable document also fail closed.",
+      "proof": "resource-notifications.safe.txt"
+    },
+    {
+      "finding": "The expanded content topic allowed timed notice fanout without the existing public visibility window check",
+      "resolution": "Reuse publicNoticePublicationVisible at current-event authorization. Disabled or expired notices do not enqueue; valid future notices retain a durable event and are skipped until their public start without blocking other ready events. Final delivery rechecks the same visibility and locale. Content consent remains required.",
+      "proof": "public-surface.safe.txt"
+    }
+  ],
+  "reviewedControls": [
+    "Customer OTP cannot authenticate staff or inactive accounts; phone redemption is serialized, expiry and attempt budgets persist, and repeated concurrent redemption creates one session.",
+    "OTP and channel proofs are not returned as plaintext API results or included in cost reports; outbox endpoints and proof payloads are encrypted.",
+    "Pending/rejected comments do not appear publicly; approval requires a different authorized moderator, current locale, MFA and expected record version.",
+    "Role-routed request and signed-connector alerts contain a minimal reference and protected link; current recipient permissions are checked again before dispatch.",
+    "Publication notifications preserve explicit topic and channel consent, current binding, locale, quiet hours and digest behavior. Unknown costs remain unknown.",
+    "AI assistance rechecks current role/locale after generation and never publishes, sends customer responses or approves content automatically.",
+    "The additive resource event relation is covered by dynamic runtime grants and backup relation inventory. Existing publication history continues to block unreviewed author erasure; no customer contact text is copied into event receipts."
+  ],
+  "documentedBoundaries": [
+    "Comments are flat; nested replies and independent outbound moderation alerts are not implemented.",
+    "External telephone calls require a real PBX/connector adapter; manual CRM notes do not synthesize connector events.",
+    "A provider acceptance is not recipient delivery or reading. No real external messages were sent in this validation.",
+    "Visit metrics are browser-window approximations, not unique-person or bot-free counts.",
+    "Live domain DNS, email delivery reputation and paid-provider credentials require deployment-specific acceptance.",
+    "This focused review is not a complete penetration test or a claim that all possible vulnerabilities are absent."
+  ]
+}

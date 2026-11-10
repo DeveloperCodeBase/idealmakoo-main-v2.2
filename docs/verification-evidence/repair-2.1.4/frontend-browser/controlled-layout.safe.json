@@ -1,0 +1,161 @@
+{
+  "schema": "idealmakoo.controlled-layout-evidence.v1",
+  "applicationVersion": "2.1.4",
+  "method": {
+    "viewport": {
+      "width": 412,
+      "height": 823,
+      "deviceScaleFactor": 1.75
+    },
+    "networkThrottling": false,
+    "browser": "Chromium",
+    "role": "superAdmin",
+    "measurements": "Held real first response or entry chunk; scalar layout-shift observation, not a Lighthouse score."
+  },
+  "communications": {
+    "before": {
+      "buildId": "NWcRPAySX3HCzbpKSDJNf",
+      "campaignMountedBeforeResponse": true,
+      "campaignMountedAfterResponse": true,
+      "retainedElementDisplacementPx": 1504.8125,
+      "initialCls": 0.2039221876042027,
+      "releaseWindowCls": 0.19562575941676794,
+      "firstErrorIndependentCampaignAccess": true,
+      "errorVisible": true,
+      "retryDraftRetained": true,
+      "languageDraftRetained": true,
+      "templateOrSuppressionWrites": 0,
+      "pageErrorCount": 0,
+      "postLoginWriteCount": 0
+    },
+    "after": {
+      "buildId": "IUO4lyoYpICGn_Igd7EsH",
+      "campaignMountedBeforeResponse": false,
+      "campaignMountedAfterResponse": true,
+      "retainedElementDisplacementPx": null,
+      "initialCls": 0.04706909365451993,
+      "releaseWindowCls": 0.04706909365451993,
+      "firstErrorIndependentCampaignAccess": true,
+      "errorVisible": true,
+      "retryDraftRetained": true,
+      "languageDraftRetained": true,
+      "templateOrSuppressionWrites": 0,
+      "pageErrorCount": 0,
+      "postLoginWriteCount": 0
+    },
+    "fixtureContinuity": "Before used the retained historical audit fixture; after used a separate controlled-probe clone. These are not identical database fixtures."
+  },
+  "products": {
+    "before": {
+      "buildId": "NWcRPAySX3HCzbpKSDJNf",
+      "recordsMountedBeforeModule": true,
+      "recordsMountedAfterModule": true,
+      "retainedElementModuleDisplacementPx": 4010,
+      "laterLeaseDisplacementPx": 22.796875,
+      "initialCls": 0.6203564982481804,
+      "moduleReleaseCls": 0.5732874045936605,
+      "leaseReleaseCls": 0
+    },
+    "after": {
+      "buildId": "IUO4lyoYpICGn_Igd7EsH",
+      "recordsMountedBeforeModule": false,
+      "recordsMountedAfterModule": true,
+      "retainedElementModuleDisplacementPx": null,
+      "laterLeaseDisplacementPx": 22.796875,
+      "initialCls": 0.04706909365451993,
+      "moduleReleaseCls": 0.04706909365451993,
+      "leaseReleaseCls": 0
+    },
+    "fixtureContinuity": "Same controlled-probe fixture; editor lease response held independently from the entry chunk."
+  },
+  "monitoring": {
+    "before": {
+      "buildId": "NWcRPAySX3HCzbpKSDJNf",
+      "windowMountedBeforeSnapshot": true,
+      "noteMountedBeforeSnapshot": true,
+      "retainedWindowDisplacementPx": 204.765625,
+      "retainedNoteDisplacementPx": 166.671875,
+      "initialCls": 0.37090209864455165,
+      "snapshotReleaseCls": 0.37090209864455165,
+      "controlsAvailableAfterFirstError": true,
+      "firstErrorVisible": true,
+      "retryRecovered": true,
+      "refreshDraftRetained": true,
+      "windowDraftRetained": true
+    },
+    "after": {
+      "buildId": "IUO4lyoYpICGn_Igd7EsH",
+      "windowMountedBeforeSnapshot": false,
+      "noteMountedBeforeSnapshot": false,
+      "retainedWindowDisplacementPx": null,
+      "retainedNoteDisplacementPx": null,
+      "initialCls": 0.04706909365451993,
+      "snapshotReleaseCls": 0.04706909365451993,
+      "controlsAvailableAfterFirstError": true,
+      "firstErrorVisible": true,
+      "retryRecovered": true,
+      "refreshDraftRetained": true,
+      "windowDraftRetained": true
+    },
+    "fixtureContinuity": "Same controlled-probe fixture."
+  },
+  "normalEditorCleanup": {
+    "before": {
+      "trackedCount": 1,
+      "releasedCount": 1,
+      "remainingCount": 0,
+      "success": true,
+      "destinationVerified": true,
+      "navigationStatus": 200,
+      "observedReleaseFailures": 0,
+      "observedRequestFailures": 0
+    },
+    "after": {
+      "trackedCount": 1,
+      "releasedCount": 1,
+      "remainingCount": 0,
+      "success": true,
+      "destinationVerified": true,
+      "navigationStatus": 200,
+      "observedReleaseFailures": 0,
+      "observedRequestFailures": 0
+    }
+  },
+  "unexpectedApiWriteCounts": {
+    "before": 0,
+    "after": 0
+  },
+  "pageErrorCounts": {
+    "before": 0,
+    "after": 0
+  },
+  "limitations": [
+    "Null displacement means the subtree was intentionally absent before the held release; it is not a measured zero movement.",
+    "Residual footer/loading CLS remains; no zero-CLS or predicted Lighthouse-score claim.",
+    "These after measurements belong to IUO4. The subsequent shared dialog focus guard does not relabel these as newly captured measurements.",
+    "Chromium controlled behavior is not exhaustive proof of all devices or all role/action combinations."
+  ],
+  "rawReceiptSha256": {
+    "communicationsBefore": "50b6bbf3a80b134537f833175c8d1022a0dda7ffb7e25491a50d6c699b210f4c",
+    "communicationsAfter": "30d11a192c2f55d3cea89410e281db0804e62adbe986fb925c81f8063814ce62",
+    "productsMonitoringBefore": "a080644da6ceff727815442f598dd0caf0e5f7e10ac35429fbfcf3613403a09a",
+    "productsMonitoringAfter": "efa00593404fe0a2366e10eb7603b4f78ce72aaa551558ae08f3fecfc97bf714"
+  },
+  "retainedDiagnosticAttempts": [
+    {
+      "scope": "communications baseline",
+      "attempt": 1,
+      "outcome": "helper selector timeout",
+      "correction": "Exact existing accessible action name and selector scope; original attempt retained.",
+      "receiptSha256": "b80fc594d15b06dee6b68f52dc8ef6b03c4727ef3b254ebdfae1cfddf991118d"
+    },
+    {
+      "scope": "products/monitoring baseline",
+      "attempt": 1,
+      "outcome": "ambiguous helper selector after both causal measurements",
+      "correction": "Scoped the measurement-window selector to its actual control; original attempt retained.",
+      "receiptSha256": "c381e0d246ca856ea3d26b73e0aac2686754f7baa6be0b66c003dcd140325978"
+    }
+  ],
+  "privateMaterialIncluded": false
+}

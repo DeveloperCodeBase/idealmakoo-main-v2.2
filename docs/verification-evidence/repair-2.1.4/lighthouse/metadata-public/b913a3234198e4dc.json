@@ -1,0 +1,70 @@
+{
+  "url": "http://127.0.0.1:3100/ar/products/light-cure-composite/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "475ef47fc2f12233d073cba2a1e202daa34842207e5afb59306ebdc9486efe2b",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "كومبوزيت ضوئي التصلب | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "كومبوزيت ترميمي ضوئي في حقنة 4 غرام مع درجات معتمة وألوان شائعة وفق المصنع."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/products/light-cure-composite/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/light-cure-composite/",
+    "en": "http://127.0.0.1:3100/en/products/light-cure-composite/",
+    "tr": "http://127.0.0.1:3100/tr/products/light-cure-composite/",
+    "ar": "http://127.0.0.1:3100/ar/products/light-cure-composite/",
+    "ru": "http://127.0.0.1:3100/ru/products/light-cure-composite/",
+    "x-default": "http://127.0.0.1:3100/fa/products/light-cure-composite/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "كومبوزيت ضوئي التصلب",
+      "description": "كومبوزيت ترميمي ضوئي في حقنة 4 غرام مع درجات معتمة وألوان شائعة وفق المصنع.",
+      "image": "http://127.0.0.1:3100/media/official/1726468061.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "B.STAR"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/ar/products/light-cure-composite/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 71
+}

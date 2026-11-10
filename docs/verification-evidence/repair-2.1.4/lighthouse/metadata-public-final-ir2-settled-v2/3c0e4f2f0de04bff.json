@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/sustainability/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "63f07941c44349c59bad2bc48cef8bbcb2712260cba2033c2a70f2d92dc81428",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Sürdürülebilirlik raporu | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Bu sürümde resmî sürdürülebilirlik raporu, enerji tüketimi göstergesi veya belgelenmiş emisyon verisi yayımlanmamıştır. Kurumsal bilgi için fabrikayla görüşün."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/sustainability/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/sustainability/",
+    "en": "http://127.0.0.1:3100/en/sustainability/",
+    "tr": "http://127.0.0.1:3100/tr/sustainability/",
+    "ar": "http://127.0.0.1:3100/ar/sustainability/",
+    "ru": "http://127.0.0.1:3100/ru/sustainability/",
+    "x-default": "http://127.0.0.1:3100/fa/sustainability/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 43
+}

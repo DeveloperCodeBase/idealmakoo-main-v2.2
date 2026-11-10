@@ -1,0 +1,32 @@
+{
+  "name": "unit-2.1.2-final-copy",
+  "command": [
+    "npm",
+    "run",
+    "test:unit"
+  ],
+  "startedAt": "2026-10-23T10:08:50.790548+00:00",
+  "finishedAt": "2026-10-23T10:09:23.549346+00:00",
+  "durationSeconds": 32.646,
+  "exitCode": 0,
+  "sourceBefore": {
+    "sha256": "1737ef27e76ade403d1ecdab25c089b62ac89eea0c73c04f37fd7f44548b7b8a",
+    "files": 986
+  },
+  "sourceAfter": {
+    "sha256": "1737ef27e76ade403d1ecdab25c089b62ac89eea0c73c04f37fd7f44548b7b8a",
+    "files": 986
+  },
+  "sourceChanged": [],
+  "accepted": true,
+  "logSha256": "60348a7ee9fd063803b2ebeda14814a8daa8468c4cf81193c305087ec2bdfa60",
+  "version": "2.1.2",
+  "tests": {
+    "total": 815,
+    "passed": 815,
+    "failed": 0,
+    "skipped": 0,
+    "cancelled": 0,
+    "todo": 0
+  }
+}

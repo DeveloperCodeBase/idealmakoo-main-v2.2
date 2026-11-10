@@ -1,0 +1,43 @@
+✔ CSV parser preserves quoted delimiters, multiline cells and UTF-8 while rejecting ambiguity and limits (25.516801ms)
+✔ CSV output quotes every cell and neutralizes spreadsheet formulas after whitespace (0.823659ms)
+▶ PostgreSQL authenticated inbox and resumable scoped CSV transfers
+  ✔ connector credentials are administrative, encrypted and revealed only at creation or rotation (116.402707ms)
+  ✔ machine HMAC covers exact bounded raw bytes, time and strict event shape without exposing records (56.742089ms)
+  ✔ concurrent provider retries deduplicate exactly and reject conflicting bytes without rewriting evidence (65.358273ms)
+  ✔ intake grants, routing groups, quality and request assignment apply before private inbox projection (72.418199ms)
+  ✔ request association is explicit, scoped, atomic, internal and immutable after the first binding (77.022567ms)
+  ✔ quality quarantine cannot be copied into an ordinary request and pagination cursors are account-bound (36.762646ms)
+  ✔ CSV preview validates rows without writes, returns the same source job, and requires explicit count confirmation (53.142914ms)
+  ✔ duplicate external identities are reviewable and repeated source imports cannot silently create duplicates (293.754271ms)
+  ✔ CSV rows, CRM creation, external dedupe, typed endpoints and audit share durable transaction boundaries (100.995889ms)
+  ✔ mid-transaction SQL failure rolls back domain and checkpoints, and a restart applies the row once (110.906533ms)
+  ✔ bounded concurrent workers and explicit pause/resume retain applied rows without duplication (185.230724ms)
+  ✔ revoked creator grants pause execution and cancellation preserves an explicit partial result (63.06919ms)
+  ✔ exports capture only selected current records and formula-safe snapshots remain private after scope revocation (47.174963ms)
+  ✔ private CRM search filters current row and contact scopes before matching and counts (12.74621ms)
+✔ PostgreSQL authenticated inbox and resumable scoped CSV transfers (2789.108493ms)
+✔ Closed event catalog validates every five-language builtin without executing markup or leaking real data (5.844288ms)
+▶ Versioned transactional templates: actual PostgreSQL, HTTP, queue, independent review and current dispatch policy
+  ✔ HTTP rejects CSRF, customers, mass assignment and current revoked locale/role grants (88.169996ms)
+  ✔ Exact revision review, self-review prohibition, activation, locale restriction and compare-and-swap are authoritative (60.950613ms)
+  ✔ Canonical queued body remains unchanged; dispatch uses the captured approved copy even after new draft edits (32.762469ms)
+  ✔ Withdrawn and revoked-authority templates safely fall back without changing recipient, locale, or frozen event content (71.794217ms)
+  ✔ Current topic opt-out and quiet hours run before template rendering; a digest preserves rendered member text (66.239616ms)
+  ✔ Request HTTP creation atomically binds the exact locale template and idempotent retries retain its revision (140.672631ms)
+  ✔ Audit failure rolls back revision and profile; business transaction failure rolls back the outbox and encrypted snapshot (18.053877ms)
+  ✔ Snapshot tampering is suppressed before delivery and cannot alter a protected event or recipient (35.189099ms)
+  ✔ Actual password reset keeps its server URL and token encrypted; preview and metadata ledger contain neither (53.771001ms)
+  ✔ Runtime expansion overflow uses the same-channel builtin; malformed template or wrong catalog remains an explicit error (31.89111ms)
+  ✔ An independent reviewer whose role changes cannot activate a previously approved revision (35.047434ms)
+  ✔ A withdraw then reactivation never revives a previously queued withdrawn release; history restore requires new review (94.057256ms)
+  ✔ Actual task reminder guards see the unchanged canonical body; completion after claim suppresses the templated copy (79.336499ms)
+  ✔ Verified SMS, Telegram and Push use reviewed transactional text while provider proof, consent and endpoint binding remain authoritative (380.961169ms)
+✔ Versioned transactional templates: actual PostgreSQL, HTTP, queue, independent review and current dispatch policy (2938.215323ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 33
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6873.474505

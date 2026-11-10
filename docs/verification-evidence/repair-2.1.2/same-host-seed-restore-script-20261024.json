@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "kind": "actual-seed-only-same-host-restore-script",
+  "status": "passed",
+  "startedAt": "2026-10-24T09:15:59.075464+00:00",
+  "completedAt": "2026-10-24T09:51:10.969524+00:00",
+  "elapsedSeconds": 2111.89406,
+  "job": "restore-seed-replace-01",
+  "originalRestoreExitCode": 0,
+  "actualRestoreChildWaitConsumed": true,
+  "originalRestorePid": 40490,
+  "originalRestoreStartTicks": 789784,
+  "readOnlyObserverExitCode": 0,
+  "observerWaiterSessionId": 81505,
+  "actualObserverWaitConsumed": true,
+  "collectionWaiterSessionId": 30633,
+  "actualCollectionWaitConsumed": true,
+  "automaticRetry": false,
+  "source": {
+    "originalRestoreScriptSha256": "74f299b67ae9739b0719c6692e87671b9146cbea9ff1ce081e840ea238d36244",
+    "scriptIdenticalAcrossCallerAndArchivedSource": true,
+    "trustedOperationsZipSha256": "3552e3d8f65388794e2cf0c1df3277694cc6be99b8b0e9dde849d270141730cb",
+    "trustedOperationsInputs986Sha256": "5df4b3194f4abcb77a02cd05ef400c1b95653a3458db80712b88d9846b725e00",
+    "archivedDeployedSourceZipSha256": "1b2dd59c60a97bd1c113f6fdf7faaa330d6ca3157ccf3187b94f37eb4cecb806",
+    "archivedDeployedInputs986Sha256": "2bed25d40de1ec28ecaf8edf79f778386ce5c156b8bb8a520f3e214aaec6490e",
+    "retainedPreflightImageId": "sha256:4974f775daabed633a6767bc5d8dc4f85b739dbd35c2fbe74695aef87a3fdd94",
+    "compilerInputs727Identical": true,
+    "ordinaryReleaseMetadataLinkAdded": true,
+    "releaseMetadataSha256": "4b8000b20bab62308efe9f3d771c2366dc5b1661e9ac5a255b2a2230e3210a9f",
+    "imageOrReleaseCheckBypassed": false
+  },
+  "selectedArchive": {
+    "sha256": "708049bfd6de22656bfd84c6cef4e3cc1c1224e15ddd57931cee4abb71161a97",
+    "bytes": 175167432,
+    "format": 3,
+    "independentlyAuthenticatedBeforeRestore": true,
+    "all3286ArchivedSourceFilesVerified": true,
+    "included": false,
+    "backupLedgerSequence": 0
+  },
+  "originalFlow": {
+    "internalSafetyBackupEnabled": true,
+    "internalSafetyBackupCompleted": true,
+    "normalCurrentAccessCheckpointEnabled": true,
+    "databaseAndMediaReplacementWithOriginalVerificationPassedByExitControlFlow": true,
+    "checkpointSecurityAppliedObservedAt": "2026-10-24T09:36:00.926163+00:00",
+    "checkpointSecurityAppliedMetadataModifiedAt": "2026-10-24T09:35:02.104000+00:00",
+    "normalLifecycleUpAndCheckHealthPassedByExitControlFlow": true,
+    "pendingCheckpointClearPassedByExitControlFlow": true,
+    "restoreKeysRequested": false,
+    "limitsOrTlsOrAntivirusRelaxed": false
+  },
+  "rawLogs": [
+    {
+      "stream": "stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "included": false
+    },
+    {
+      "stream": "stderr",
+      "bytes": 5121,
+      "sha256": "393fb887c3b6906089139837090cf7c62bd6d61d113c3447b4b28f154c7d2d85",
+      "included": false
+    }
+  ],
+  "scope": {
+    "data": "Factory-seeded data and persistent volumes",
+    "preflightSeedCounts": {
+      "users": 1,
+      "liveEntities": 211,
+      "pages": 120,
+      "records": 73,
+      "media": 17
+    },
+    "preflightMigrationChecksumsMatched": 41,
+    "apiOrSqlFixtureAddedBeforeArchive": false,
+    "nonVacuousSessionOrErasureRestorationProven": false,
+    "uploadedFileRestorationProven": false,
+    "independentPostRestoreReadbackPending": true,
+    "postRestoreScannerFixturePending": true,
+    "pristineDeploymentOfTrusted3552Claimed": false,
+    "originalWholeInstallerAccepted": false,
+    "independentNewHostRecoveryPassed": false
+  },
+  "observerCorrection": {
+    "priorProgress01Through06EmptyLifecycleErrorsArraysAuthoritative": false,
+    "reason": "Early file-only observer expected status=failed; shipped lifecycle uses operation/code/exitCode.",
+    "phaseAndActualExitObservationsPreserved": true,
+    "correctedSchemaAppliedBeforeFinalOutcome": true,
+    "completeCollectedStderrHasLifecycleFailureRecord": false
+  }
+}

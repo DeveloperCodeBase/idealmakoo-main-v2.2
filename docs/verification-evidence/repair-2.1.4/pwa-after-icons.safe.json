@@ -1,0 +1,28 @@
+{
+  "createdAt": "2026-10-25T11:31:26.283066+00:00",
+  "buildId": "OruFAGBKnBw7jMP-nT3JJ",
+  "exitCode": 0,
+  "durationSeconds": 5.028,
+  "command": [
+    "node",
+    "--env-file=.env.local",
+    "node_modules/@playwright/test/cli.js",
+    "test",
+    "tests/e2e/pwa-offline.spec.ts",
+    "--project=chromium",
+    "--workers=1",
+    "--retries=0",
+    "--reporter=json",
+    "--output",
+    "/workspace/scratch/7eb50c437e0a/perf-work/pwa-e2e-after-icons-artifacts"
+  ],
+  "stats": {
+    "startTime": "2026-10-25T11:31:21.685Z",
+    "duration": 4584.344,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "scope": "Two real PWA navigation/offline cases after standard-size icon correction; one worker and zero retries."
+}

@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/resources/resin-base-bond-four-teeth-cover/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "16c04376da5ed56c34db42572108903b64a980f704cb9f8593532c7a21d1932f",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "صورة مرجعية للبحث — ارتباط القاعدة الراتنجية بغلامور وياقوت وآبل وإيفوكلار | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "ارتباط القاعدة الراتنجية بغلامور وياقوت وآبل وإيفوكلار — وثائق المصنع المصوّرة الأصلية"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/resources/resin-base-bond-four-teeth-cover/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/resin-base-bond-four-teeth-cover/",
+    "en": "http://127.0.0.1:3100/en/resources/resin-base-bond-four-teeth-cover/",
+    "tr": "http://127.0.0.1:3100/tr/resources/resin-base-bond-four-teeth-cover/",
+    "ar": "http://127.0.0.1:3100/ar/resources/resin-base-bond-four-teeth-cover/",
+    "ru": "http://127.0.0.1:3100/ru/resources/resin-base-bond-four-teeth-cover/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/resin-base-bond-four-teeth-cover/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 87
+}

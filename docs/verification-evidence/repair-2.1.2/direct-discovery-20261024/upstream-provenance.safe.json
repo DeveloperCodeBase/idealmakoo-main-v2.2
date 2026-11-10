@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-24T11:35:30.334013+00:00",
+  "module": "github.com/docker/compose/v5",
+  "version": "v5.6.1",
+  "origin": {
+    "VCS": "git",
+    "URL": "https://github.com/docker/compose",
+    "Hash": "6cbc19a3fd59e305fb814dca4d854a4fb67d2941",
+    "Ref": "refs/tags/v5.6.1"
+  },
+  "moduleTimestamp": "2026-10-21T07:20:42Z",
+  "infoUrl": "https://proxy.golang.org/github.com/docker/compose/v5/@v/v5.6.1.info",
+  "archiveUrl": "https://proxy.golang.org/github.com/docker/compose/v5/@v/v5.6.1.zip",
+  "archiveBytes": 1238637,
+  "archiveSha256": "f420bb6dedc4408963039e0fbab49ff986ac751e71ac6ff4c977d1958a4214b4",
+  "archiveRetained": false,
+  "acquisition": "Earlier authorized HTTPS source-only reads; no source executed. These excerpts were copied from the already returned line-numbered extraction; no new download was made for persistence. Omitted sections are explicitly marked. Full-file hashes are provided only where the initial extraction computed them.",
+  "guestVersionEvidence": "Retained dpkg install record: docker-compose-plugin5.6.1-1~ubuntu.22.04~jammy; not a new live binary probe.",
+  "hostVersionBoundary": "Host CLI2.40.3 is a separate tested binary; no host/guest equivalence is inferred.",
+  "files": [
+    {
+      "file": "pkg-compose-ps.go.excerpt",
+      "upstreamPath": "pkg/compose/ps.go",
+      "upstreamLineRanges": [
+        [
+          30,
+          62
+        ]
+      ],
+      "excerptBytes": 1149,
+      "excerptSha256": "be06b4fd47db7e9a7c3c37088d3fa9b037056b1fe0af61445310232c5b17bcfc",
+      "upstreamCompleteFileSha256": "944fc3d1f7d93b01def2ca2bada89da001a6cd0c1bf490bafe421906bc209e70",
+      "upstreamUrl": "https://github.com/docker/compose/blob/v5.6.1/pkg/compose/ps.go"
+    },
+    {
+      "file": "pkg-compose-containers.go.excerpt",
+      "upstreamPath": "pkg/compose/containers.go",
+      "upstreamLineRanges": [
+        [
+          44,
+          57
+        ],
+        [
+          90,
+          104
+        ],
+        [
+          154,
+          159
+        ]
+      ],
+      "excerptBytes": 1212,
+      "excerptSha256": "94f298d9291c81b8ba850710dd608f0dbcce491b5cbd1a33a1c0a78d5ad91284",
+      "upstreamCompleteFileSha256": "80011d29d313e7dcb0c012bc47a4371fb5f57dddd82114aa1c45cc94ea9a9ffb",
+      "upstreamUrl": "https://github.com/docker/compose/blob/v5.6.1/pkg/compose/containers.go"
+    },
+    {
+      "file": "cmd-compose-ps.go.excerpt",
+      "upstreamPath": "cmd/compose/ps.go",
+      "upstreamLineRanges": [
+        [
+          89,
+          90
+        ],
+        [
+          95,
+          141
+        ]
+      ],
+      "excerptBytes": 1474,
+      "excerptSha256": "70029765ce609dfe5e2d4df8409c9954cd675753e65db4c95d25ca0685a4c35b",
+      "upstreamCompleteFileSha256": "f9a89731f18c81ff8abf5651e4d54e7618f2a359d50024375bb2a6e81d4f3d9a",
+      "upstreamUrl": "https://github.com/docker/compose/blob/v5.6.1/cmd/compose/ps.go"
+    },
+    {
+      "file": "pkg-compose-loader.go.excerpt",
+      "upstreamPath": "pkg/compose/loader.go",
+      "upstreamLineRanges": [
+        [
+          111,
+          113
+        ],
+        [
+          123,
+          132
+        ],
+        [
+          150,
+          153
+        ]
+      ],
+      "excerptBytes": 749,
+      "excerptSha256": "a1fea1ccef3f4498f2a75bb1afc9c971385e3d705da755d2ac0bf2c8c166bfed",
+      "upstreamCompleteFileSha256": null,
+      "upstreamUrl": "https://github.com/docker/compose/blob/v5.6.1/pkg/compose/loader.go"
+    }
+  ]
+}

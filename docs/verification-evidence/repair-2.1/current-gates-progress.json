@@ -1,0 +1,384 @@
+{
+  "recordedAt": "2026-10-21T20:34:57.248323+00:00",
+  "buildId": "-Q7Ffy3JmwVExwxk-Ymk-",
+  "applicationSha256": "12da2b69abf2fa85cf0655bc0b4ec7df9244ea0b50a29cc8c3be1157851b6e1c",
+  "sourceSha256": "7f3ce91bb62edb78824310083b185f1854fa0d98458b04dea167078a24c4155d",
+  "acceptedGates": {
+    "unit": {
+      "status": "unit-exporter-final-status.json",
+      "rawLogSha256": "dcd0ccbe487fd078f26a7ae230c47885185dfbc408be5a014a7930f01d2e184c",
+      "passed": 688
+    },
+    "typecheck": {
+      "status": "typecheck-worker-final-status.json",
+      "rawLogSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "postgres": {
+      "status": "postgres-worker-final-status.json",
+      "rawLogSha256": "606b39cba1cd46c2f7551f46cdea39368bbdbbccb24be522d8d5b875b66bf523"
+    },
+    "api": {
+      "status": "api-worker-final-status.json",
+      "rawLogSha256": "8294bc38dcfe2cd315f0d185c517ce8da79ffde6675f997cfbb4e1e19a080d82"
+    },
+    "build": {
+      "status": "build-worker-final-status.json",
+      "rawLogSha256": "880fe2284c5fc07d53cfc084763cfe5d9a79d0685879c39797fd25599fe866e1"
+    },
+    "browser": {
+      "status": "browser-worker-final.json",
+      "rawReportSha256": "d9456d55b14feffde9f0fc9253bdf51dc5ddedb0262f119f6f14a4ae6e1c957d"
+    },
+    "publicMetadata": {
+      "status": "public-metadata-worker-final/summary.json",
+      "checked": 620,
+      "errors": 0,
+      "warnings": 0
+    },
+    "operations": {
+      "status": "backup-image-identity/repository-acceptance-01/full-gate.json",
+      "rawLogSha256": "a6937bd19de015a7839fef48d14ed27888859bf834e6e7182affcec7a8b508a2",
+      "statusSha256": "7b2d9a1cd7c9ec0d2a77957a10cb150b241877a6cb4e2fdf4d29b72b1d37e4ba",
+      "sourceSha256": "458f175a29b8bce25c5b45592c10952b57202b894e3aac65e244b7863c726be1",
+      "passed": 194
+    },
+    "shellcheck": {
+      "status": "backup-image-identity/repository-acceptance-01/shellcheck-gate.json",
+      "rawLogSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "statusSha256": "5685360384d26705e8945a05e8097e4ee42f75a2992a4463f765532d20a10485",
+      "sourceSha256": "458f175a29b8bce25c5b45592c10952b57202b894e3aac65e244b7863c726be1",
+      "passedFiles": 14
+    },
+    "existingImageDockerRegression": {
+      "status": "compose-run-existing/real-docker-existing-image-regression.json",
+      "statusSha256": "364ae5969c4a0cda84d55698a7fa50b0fae79941be014fccca39677275189c74",
+      "composeVersion": "5.6.0",
+      "scope": "Existing-image one-off and missing-image build/pull refusal; does not accept full installer or restore.",
+      "sourceSha256": "03ef35eeb75b81f63d6c73b66e5b3c96fb1071b09e15b3fdcb893b352e565a6a"
+    },
+    "ubuntuCleanInstallBeforeImageIdentityRepair": {
+      "status": "ubuntu-initial-clean-03ef-acceptance.json",
+      "sourceSha256": "03ef35eeb75b81f63d6c73b66e5b3c96fb1071b09e15b3fdcb893b352e565a6a",
+      "nativeBuilderOnlyFixture": true,
+      "standardDockerfileCompilationAccepted": false,
+      "installerExitCode": 0,
+      "runtimeWitnessExitCode": 0,
+      "initialEncryptedArchiveBytes": 64353816
+    },
+    "backupImageRepositoryDockerRegression": {
+      "status": "backup-image-identity/real-docker-image-repository-regression.json",
+      "statusSha256": "c7a0b028917c3c5d634a2e3bb8c2de4f74a403526d30d78ef6b2449d3e65e39c",
+      "sourceSha256": "458f175a29b8bce25c5b45592c10952b57202b894e3aac65e244b7863c726be1",
+      "actualRunExistingCasesPassed": 2,
+      "completedAt": "2026-10-21T15:13:58.476120+00:00",
+      "independentReview": "backup-image-repository-docker-independent-review.json",
+      "scope": "Isolated immutable image/repository selection and existing-image execution; no full backup/restore acceptance."
+    },
+    "ubuntuUpgradeFinalSource": {
+      "terminalEvidence": "ubuntu-upgrade-458f-terminal-independent-review.json",
+      "runtimeEvidence": "ubuntu-upgrade-458f-runtime.json",
+      "runtimeEvidenceSha256": "8ad0c03151db56bbf6c5b9f4ffbbee4b16b21d7aca09d9bd660a4ca8f740f909",
+      "sourceSha256": "458f175a29b8bce25c5b45592c10952b57202b894e3aac65e244b7863c726be1",
+      "release": "20261021T153144Z-833453b7",
+      "installerExitCode": 0,
+      "runtimeWitnessExitCode": 0,
+      "nativeBuilderOnlyFixture": true,
+      "standardDockerfileCompilationAccepted": false,
+      "runtimeNodeVersion": "v24.22.1"
+    },
+    "installedSystemdBackupService": {
+      "status": "ubuntu-systemd-backup-458f.json",
+      "statusSha256": "5a3e8090279ce218b9f3d500744d71bd40fc46ab3f2270928ee099737eb71317",
+      "sourceSha256": "458f175a29b8bce25c5b45592c10952b57202b894e3aac65e244b7863c726be1",
+      "release": "20261021T153144Z-833453b7",
+      "exitCode": 0,
+      "guestStartedAt": "2026-10-21T17:34:56.185880+00:00",
+      "guestFinishedAt": "2026-10-21T17:57:23.231484+00:00",
+      "calendarTriggerObserved": false,
+      "scope": "The installed protected oneshot service was actually invoked with systemctl start and completed successfully. Timer enablement was observed separately. Downloaded archive authentication and recovery remain separate gates."
+    },
+    "dockerServedHeroWorker": {
+      "status": "ubuntu-hero-worker-http-458f.json",
+      "statusSha256": "cbd4da02937fdbceeea819c63672e74793ab8a4baa0dfdd654298a098f2aadf1",
+      "httpStatus": 200,
+      "mimeType": "application/javascript",
+      "bytes": 27372,
+      "bodySha256": "897fcb099996cd71b6f1bad587adf230c226a09eb73982227759fefe4ada4370",
+      "nativeArtifactMatched": true,
+      "nativeBuilderOnlyFixture": true,
+      "browserExecutionClaimed": false,
+      "standardDockerCompiler": false
+    },
+    "realAntivirusUploadAndAccess": {
+      "accepted": true,
+      "evidence": "ubuntu-real-antivirus-458f.json",
+      "sha256": "e960c5886c6378ee7a6f5a4532d2432f3c14492ada0540afb69966b4e8fe0613",
+      "sourceSha256": "458f175a29b8bce25c5b45592c10952b57202b894e3aac65e244b7863c726be1",
+      "applicationSha256": "12da2b69abf2fa85cf0655bc0b4ec7df9244ea0b50a29cc8c3be1157851b6e1c",
+      "completedWorkerScans": 2,
+      "realClamavReceipts": 2,
+      "cleanHttpStatus": 200,
+      "blockedHttpStatus": 409,
+      "blockedProblemCode": "QUARANTINED",
+      "anonymousDenials": 2,
+      "signatureFilesVerified": 3,
+      "dailyDatabaseVersion": "28160",
+      "fullVerificationControlReceiptExportPending": false,
+      "originalDockerfileCompilationClaimed": false,
+      "exportedControlReceiptSha256": "8b8dc6be1bf52ea356db5b76f4d1ed60c4049da1d28d90a5123d073b712ac603"
+    },
+    "completeEncryptedBackupDownload": {
+      "accepted": true,
+      "evidence": "ubuntu-backup-download-458f.json",
+      "sha256": "1f26ececadeec23f53640b8e0589098f29f72321212a8cdd780d170e0499fa25",
+      "productCommandFinishedAt": "2026-10-21T19:06:09.996663+00:00",
+      "archiveBytes": 64589400,
+      "checksumVerified": true,
+      "separatePrivateIdentityVerified": true,
+      "restoreAcceptedByThisGate": false
+    },
+    "authenticatedDownloadedBackupSource": {
+      "accepted": true,
+      "evidence": "ubuntu-selected-backup-source-458f.json",
+      "sha256": "2f07ac920f8e9b0cfa6c8897880597b775fd9c4a74e11cb821e2516e92053f11",
+      "backupFormat": 3,
+      "authenticatedPayloadsVerified": true,
+      "sourceRegularFilesCompared": 1273,
+      "sourceRegularBytesCompared": 62624939,
+      "missingFiles": 0,
+      "unexpectedFiles": 0,
+      "mismatchedFiles": 0,
+      "sourceSha256": "458f175a29b8bce25c5b45592c10952b57202b894e3aac65e244b7863c726be1",
+      "applicationSha256": "12da2b69abf2fa85cf0655bc0b4ec7df9244ea0b50a29cc8c3be1157851b6e1c",
+      "plaintextStagingRemoved": true,
+      "restoreExecuted": false
+    },
+    "isolatedBackupRestoreDrill": {
+      "accepted": true,
+      "evidence": "ubuntu-backup-verify-drill-458f.json",
+      "sha256": "993660ff760a012fdd75178c08160793a79690962e6897c62c77211dceeb347a",
+      "verifyOnlyAndDrillExecuted": true,
+      "separateDatabaseRestoreAndStructureRowSequenceComparison": true,
+      "mediaArchiveIntegrityVerified": true,
+      "runtimeGrantsAccessPolicyAuthRevocationAndErasureReplay": true,
+      "temporaryDrillDatabaseCleanupIncludedInSuccessfulExit": true,
+      "liveWebsiteDatabaseNotReplaced": true,
+      "operationAuditRecordExpected": true,
+      "executedBeforePostBackupErasureAndStaffDisable": true,
+      "sameHostReplacementAcceptedByThisGate": false,
+      "freshHostRecoveryAcceptedByThisGate": false,
+      "guestDrillFinishedAt": "2026-10-21T19:33:46.202544+00:00"
+    },
+    "sameHostFullRestore": {
+      "accepted": true,
+      "evidence": "ubuntu-same-host-restore-458f.json",
+      "sha256": "5136aae4d6038066899acc28867d36603650bb9ff04edd76408d38b83a67ef5f",
+      "independentReview": "ubuntu-same-host-restore-458f-independent-review.json",
+      "independentReviewSha256": "a3385c702e75db3092f329bff4677f2e6815496fea9cae157f1ca1290b5c7d2e",
+      "guestRestoreFinishedAt": "2026-10-21T20:25:26.739481+00:00",
+      "applicationVerificationAt": "2026-10-21T20:29:43.395Z",
+      "hostVerificationAt": "2026-10-21T20:30:45.481898+00:00",
+      "restoredCmsAndMedia": true,
+      "postBackupErasureRetained": true,
+      "currentDisabledStaffStateRetained": true,
+      "oldSessionsRevoked": 3,
+      "freshOwnerPasswordAndTotpLogin": true,
+      "freshCustomerPasswordLoginAndPrivateDownload": true,
+      "sourceRegularFilesMatched": 1273,
+      "nativeCompilerSubstitution": true,
+      "freshHostRecoveryAccepted": false
+    }
+  },
+  "pending": [
+    "public-lighthouse-615-reports-plus-5-expected-404",
+    "private-lighthouse-530-authorized-views",
+    "fresh-Ubuntu-original-Dockerfile-recovery"
+  ],
+  "postBuildOfflineChangeSourceSha256": "47bd4263d4a26e3a31a1773fbaf7cf6e77d4319dac8826c0e649e1203acf39f0",
+  "sourceSha256Scope": "Source at the native application build gates; later changes are explicitly bound below.",
+  "currentSourceSha256": "458f175a29b8bce25c5b45592c10952b57202b894e3aac65e244b7863c726be1",
+  "currentSourceFileCount": 821,
+  "applicationCarryForwardBindings": [
+    "exporter-change-independent-binding.json",
+    "compose-run-existing-independent-binding.json",
+    "backup-image-repository-independent-binding.json"
+  ],
+  "latestUbuntuInstallerAttempt": {
+    "startedAt": "2026-10-21T13:58:32.871447+00:00",
+    "state": "completed",
+    "accepted": true,
+    "release": "20261021T135944Z-547a4641",
+    "applicationSha256": "12da2b69abf2fa85cf0655bc0b4ec7df9244ea0b50a29cc8c3be1157851b6e1c",
+    "sourceSha256": "03ef35eeb75b81f63d6c73b66e5b3c96fb1071b09e15b3fdcb893b352e565a6a",
+    "milestones": [
+      {
+        "observedAt": "2026-10-21T14:06:40+00:00",
+        "event": "Migration container exited successfully after all 41 migrations and factory seed."
+      },
+      {
+        "observedAt": "2026-10-21T14:19:36+00:00",
+        "event": "Startup and public readiness passed; current release published; built-in initial backup entered."
+      },
+      {
+        "observedAt": "2026-10-21T14:21:30+00:00",
+        "event": "Built-in backup entered normal service stop for coherent snapshot; archive completion not yet observed."
+      }
+    ],
+    "scope": "Successful clean application installation and initial encrypted backup on prepared Ubuntu24.04 using source03ef; native-builder-only fixture. Later source upgrade and standard Dockerfile recovery remain separate pending gates.",
+    "finishedAt": "2026-10-21T14:42:02.800551+00:00",
+    "exitCode": 0,
+    "acceptanceScope": "Successful clean application installation on prepared Ubuntu; native-builder-only fixture. Final source upgrade, standard Dockerfile compilation and recovery are separate pending gates.",
+    "evidence": "ubuntu-initial-clean-03ef-acceptance.json",
+    "logSha256": "30df334bfc496da3e37e8703ee70f53fba150b8ad7c3c5fe17e705dce6caa621"
+  },
+  "previousUbuntuInstallerAttempts": [
+    {
+      "startedAt": "2026-10-21T13:16:48.701636+00:00",
+      "finishedAt": "2026-10-21T13:24:04.026785+00:00",
+      "exitCode": 139,
+      "accepted": false,
+      "committedMigrations": 41,
+      "committedUsers": 0,
+      "encryptedArchives": 0,
+      "nodeVersion": "24.22.0",
+      "diagnosis": "Apport recorded SIGSEGV for foreground Node; exact child and cause are not determined. No retained core.",
+      "evidence": [
+        "compose-run-existing/migrate-signal-failure.json",
+        "compose-run-existing/migrate-signal-boundary.json"
+      ],
+      "logSha256": "9d431d677858d0c9d1f8019032df1ccd48409d89f45e827b483a7fec8948b550",
+      "isolatedReplay": {
+        "exitCode": 0,
+        "finishedAt": "2026-10-21T13:49:21.085455+00:00",
+        "installationAccepted": false,
+        "originalFailureCauseDetermined": false,
+        "phaseMarkers": 0,
+        "evidence": "compose-run-existing/signal-diagnostic.json"
+      }
+    }
+  ],
+  "pendingOperationalChange": {
+    "status": "full-operations-shellcheck-real-Docker-genuine-upgrade-and-runtime-passed-recovery-pending",
+    "sourceBeforeSha256": "03ef35eeb75b81f63d6c73b66e5b3c96fb1071b09e15b3fdcb893b352e565a6a",
+    "sourceAfterSha256": "458f175a29b8bce25c5b45592c10952b57202b894e3aac65e244b7863c726be1",
+    "paths": [
+      "deploy/backup-image-reference.py",
+      "scripts/backup.sh",
+      "tests/deployment_failure_cleanup_test.py"
+    ],
+    "evidence": "backup-image-repository-independent-binding.json",
+    "behavior": "Bind helpers to immutable container image IDs; select the database digest from that image and its original deployed repository. Offline observation does not prove registry publication or reachability.",
+    "newTestMethodsPrepared": 16,
+    "acceptanceRequired": [
+      "final-source-backup-download-and-recovery",
+      "fresh-Ubuntu-original-Dockerfile-compilation-and-recovery"
+    ],
+    "firstActualDockerRegression": {
+      "accepted": false,
+      "exitCode": 1,
+      "evidence": "backup-image-identity/real-docker-image-identity-regression-failure.json"
+    },
+    "isolatedAliasMechanism": {
+      "completedAt": "2026-10-21T14:58:19.645075+00:00",
+      "acceptedAsMechanismEvidence": true,
+      "productAcceptance": false,
+      "evidence": "backup-image-identity/repodigest-alias-lifecycle-20261021t145632z.json",
+      "finding": "A local unpublished alias becomes the first RepoDigest. Selection must bind to the deployed database repository, while digest content is observed from the actual immutable image."
+    },
+    "fullOperationsPassed": 194,
+    "shellcheckFilesPassed": 14,
+    "actualDockerWitness": "backup-image-identity/real-docker-image-repository-regression.json"
+  },
+  "previousOperationsGates": [
+    {
+      "operations": {
+        "status": "compose-run-existing/full-gate.json",
+        "rawLogSha256": "0c62463039101fd4dc53c562e32af75136dfe5a7030618812e2fb3164bd54a15",
+        "statusSha256": "f5b8a59941ddf35a54d5a5523dc9799ee528d4a54a5887ea569395d4c577c5a0",
+        "passed": 178,
+        "sourceSha256": "03ef35eeb75b81f63d6c73b66e5b3c96fb1071b09e15b3fdcb893b352e565a6a"
+      },
+      "shellcheck": {
+        "status": "compose-run-existing/shellcheck-gate.json",
+        "rawLogSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "statusSha256": "a53318eab9f972a7aace8ac64702dfe2d4ad13a9f461a726e128757c42e81ded",
+        "passedFiles": 14,
+        "sourceSha256": "03ef35eeb75b81f63d6c73b66e5b3c96fb1071b09e15b3fdcb893b352e565a6a"
+      }
+    }
+  ],
+  "rejectedOperationalCandidates": [
+    {
+      "sourceSha256": "5bc6a32aabee5438a460b295e28b39256cf42c756f21adde0e4252e80793ef42",
+      "reason": "First RepoDigest may name an unpublished unrelated local alias.",
+      "realDockerRegressionAccepted": false,
+      "evidence": "backup-image-identity/real-docker-image-identity-regression-failure.json"
+    }
+  ],
+  "finalUpgradeSourceHandoff": {
+    "evidence": "ubuntu-upgrade-source-458f-independent-binding.json",
+    "sourceSha256": "458f175a29b8bce25c5b45592c10952b57202b894e3aac65e244b7863c726be1",
+    "archiveSha256": "59bcef86cb2d08584197d676c5e4721cd70416219bc514066c43c0c2c4dd27b1",
+    "sourceFilesCompared": 821,
+    "applicationFilesCompared": 678,
+    "runtimeAccepted": false
+  },
+  "latestUbuntuUpgradeAttempt": {
+    "state": "completed",
+    "supervisorStartedAt": "2026-10-21T15:28:06.184039+00:00",
+    "sourceSha256": "458f175a29b8bce25c5b45592c10952b57202b894e3aac65e244b7863c726be1",
+    "nativeBuilderOnlyFixture": true,
+    "sourceHandoffEvidence": "ubuntu-upgrade-source-458f-independent-binding.json",
+    "accepted": true,
+    "startedAt": "2026-10-21T15:28:29.980388+00:00",
+    "logBytes": 88896,
+    "exitCode": 0,
+    "scope": "Accepted genuine upgrade to final operational source and independent runtime checks, using a native-builder-only fixture. Original host SSH timeout was preserved; the same guest completed exit0 and was adopted read-only. Standard Dockerfile compilation, actual timer execution, antivirus and recovery remain separate gates.",
+    "npmLogObservations": {
+      "warningLines": 4,
+      "errorLines": 0,
+      "deprecatedWarnings": 0,
+      "knownCodeCounts": {},
+      "rawLinesExported": false,
+      "classificationEvidence": "ubuntu-upgrade-458f-npm-warnings.json"
+    },
+    "installerExitAccepted": true,
+    "independentRuntimeWitnessPending": false,
+    "finishedAt": "2026-10-21T17:29:08.953350+00:00",
+    "terminalEvidence": "ubuntu-upgrade-458f-terminal-independent-review.json",
+    "rawLogSha256": "cd5e26f90765ac5661cc67c18f053542e99eae15614eece1f02ba8bc4d779589",
+    "originalHostSupervisorExceptionClass": "TimeoutExpired",
+    "originalHostSupervisorBudgetSeconds": 7200,
+    "guestOperationRelaunched": false,
+    "terminalResultAdoptedReadOnly": true,
+    "runtimeEvidence": "ubuntu-upgrade-458f-runtime.json",
+    "lastRecordedRunningObservation": {
+      "lastObservedAt": "2026-10-21T17:02:29.111993+00:00",
+      "consistentSnapshotStarted": true,
+      "encryptedBackupSaved": true,
+      "installerPublishedSuccess": false,
+      "preUpgradeBackupStarted": true,
+      "failureCleanupStarted": false,
+      "factorySeedCompleted": true,
+      "buildReleases": [
+        "20261021T153144Z-833453b7"
+      ],
+      "dockerBuildStepsCompleted": 46,
+      "dockerBuildStepsCached": 6,
+      "activeBuildSteps": []
+    },
+    "postUpgradeEncryptedArchiveBytes": 64558664
+  },
+  "acceptanceHarnessHistory": {
+    "hostAssetsRepair": {
+      "status": "retry-completed",
+      "evidence": "ubuntu-host-assets-harness-repair.json",
+      "sha256": "20b86f1d85321b9eb818828c047e772d3b0a9c825cb2aa6d7da5eaa76488157a",
+      "originalFailurePreserved": true,
+      "productFilesChanged": false,
+      "acceptedFivePhasesWillNotRerun": true,
+      "retryPhaseRecordSha256": "ba4985501ac578b5ed8baac68570e00de4ab255447b7b55c3a6cbdd18a419b9e",
+      "retryExitCode": 0
+    }
+  }
+}

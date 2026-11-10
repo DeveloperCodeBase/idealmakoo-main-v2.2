@@ -1,0 +1,23 @@
+{
+  "format": "original-ir2-fourf-before-tool-change-closure-v1",
+  "checkedAt": "2026-10-25T21:10:43.092462+00:00",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "inputFingerprint": "4fcec50f5846b0affccc59e43798613ba134a3f93559ea5ddba9705e1f38cc58",
+  "topologySha256": "da2b88aba7a748b934b4e7e6af1d8117b5a63ee7a5f018df71b5d142814e11a0",
+  "fullTopologySourceEnvironmentAndProcessVerificationPassed": true,
+  "ownedDiagnosticChromeProcesses": 0,
+  "originalPrivateRun": {
+    "expected": 530,
+    "attempted": 388,
+    "completed": 387,
+    "errors": 1,
+    "timeouts": 0,
+    "pending": 142,
+    "actualScoringExit": 2,
+    "resumed": false
+  },
+  "controlledProofActualExit": 0,
+  "controlledProofCasesPassed": 3,
+  "sourceToolEditPerformed": false,
+  "shutdownStatus": "Not yet performed; normal owned-service exits recorded separately."
+}

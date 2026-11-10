@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/global/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "7f4e05b07344eb8800686e587fd170f43cf9b47ff7cdd1f4a67e5452b56843c3",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Maku’dan daha geniş pazarlara. | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Fabrikanın Maku Serbest Bölgesi’ndeki konumu ve şirketin anlattığı ihracat geçmişi."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/global/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/global/",
+    "en": "http://127.0.0.1:3100/en/global/",
+    "tr": "http://127.0.0.1:3100/tr/global/",
+    "ar": "http://127.0.0.1:3100/ar/global/",
+    "ru": "http://127.0.0.1:3100/ru/global/",
+    "x-default": "http://127.0.0.1:3100/fa/global/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 51
+}

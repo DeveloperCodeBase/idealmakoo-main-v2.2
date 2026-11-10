@@ -1,0 +1,70 @@
+{
+  "url": "http://127.0.0.1:3100/ar/products/super-berelian/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "483746946469965b9e59d86bdceb8e9ac891f100ac846e22709e0a70d36659e0",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "أسنان سوبر بريليان الصناعية | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "سوبر بريليان سلسلة أسنان صناعية بثلاث طبقات وأربع دورات معالجة."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/products/super-berelian/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/super-berelian/",
+    "en": "http://127.0.0.1:3100/en/products/super-berelian/",
+    "tr": "http://127.0.0.1:3100/tr/products/super-berelian/",
+    "ar": "http://127.0.0.1:3100/ar/products/super-berelian/",
+    "ru": "http://127.0.0.1:3100/ru/products/super-berelian/",
+    "x-default": "http://127.0.0.1:3100/fa/products/super-berelian/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "أسنان سوبر بريليان الصناعية",
+      "description": "سوبر بريليان سلسلة أسنان صناعية بثلاث طبقات وأربع دورات معالجة.",
+      "image": "http://127.0.0.1:3100/media/official/1686378359.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "SUPER BERELIAN"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/ar/products/super-berelian/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 69
+}

@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/cooperation/outsourcing/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "2fada060d208641057d8ea04cb33878d32e96e688a44d2420b42041d81b1f68c",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Предложение аутсорсинга | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Изучите опубликованные запросы завода на аутсорсинг и направьте предложение с документами через соответствующий конкурс."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/cooperation/outsourcing/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/cooperation/outsourcing/",
+    "en": "http://127.0.0.1:3100/en/cooperation/outsourcing/",
+    "tr": "http://127.0.0.1:3100/tr/cooperation/outsourcing/",
+    "ar": "http://127.0.0.1:3100/ar/cooperation/outsourcing/",
+    "ru": "http://127.0.0.1:3100/ru/cooperation/outsourcing/",
+    "x-default": "http://127.0.0.1:3100/fa/cooperation/outsourcing/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 70
+}

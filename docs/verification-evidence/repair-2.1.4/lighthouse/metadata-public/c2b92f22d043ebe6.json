@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/cooperation/investment/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "f08c15a2b9f53c867924d34d3ad8f3b12fd2e260cbf0e87a5bf59129e84ccf82",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "تعاون استثماري | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "سجّل اهتمامك بالتعاون الاستثماري وتواصل مع المصنع لمراجعة المقترح أو الوصول المصرح به إلى المستندات."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/cooperation/investment/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/cooperation/investment/",
+    "en": "http://127.0.0.1:3100/en/cooperation/investment/",
+    "tr": "http://127.0.0.1:3100/tr/cooperation/investment/",
+    "ar": "http://127.0.0.1:3100/ar/cooperation/investment/",
+    "ru": "http://127.0.0.1:3100/ru/cooperation/investment/",
+    "x-default": "http://127.0.0.1:3100/fa/cooperation/investment/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 78
+}

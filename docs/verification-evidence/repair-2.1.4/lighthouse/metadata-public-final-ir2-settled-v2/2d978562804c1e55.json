@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/manufacturing/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "f6821551f2c4502d23b7d30d3253cdb7a83e71712118f7579d08702ad9d3d3c9",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Form. Layers. Detail. | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Explore the factory’s denture tooth ranges through structure, materials and mould variety."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/manufacturing/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/manufacturing/",
+    "en": "http://127.0.0.1:3100/en/manufacturing/",
+    "tr": "http://127.0.0.1:3100/tr/manufacturing/",
+    "ar": "http://127.0.0.1:3100/ar/manufacturing/",
+    "ru": "http://127.0.0.1:3100/ru/manufacturing/",
+    "x-default": "http://127.0.0.1:3100/fa/manufacturing/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 40
+}

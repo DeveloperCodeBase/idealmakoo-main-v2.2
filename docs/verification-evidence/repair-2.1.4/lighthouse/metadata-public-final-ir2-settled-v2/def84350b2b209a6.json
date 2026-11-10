@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/resources/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "6c2a6931b1c89bbc2d0856b1845027ee966c83a24c9c83b7b48e6d52f31728e4",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "کاتالوگ و دانلودها | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "اسناد تصویری اصلی کارخانه"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/resources/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/",
+    "en": "http://127.0.0.1:3100/en/resources/",
+    "tr": "http://127.0.0.1:3100/tr/resources/",
+    "ar": "http://127.0.0.1:3100/ar/resources/",
+    "ru": "http://127.0.0.1:3100/ru/resources/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 61
+}

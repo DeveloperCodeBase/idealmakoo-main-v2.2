@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "kind": "clean-ubuntu-original-installer-preparation",
+  "status": "passed",
+  "completedAt": "2026-10-25T05:20:11.113080+00:00",
+  "mode": "recovery",
+  "sourceZipSha256": "2deb94d17e0852d75102461fa566555c973f632320729a366a73b86ae9381574",
+  "version": "2.1.3",
+  "sourceFilesVerified": 3456,
+  "dockerAbsentBeforeInstaller": true,
+  "emptyApplicationTarget": "/var/www/idealmakoo-acceptance-recovery",
+  "fullAntivirus": true,
+  "resourceGuardBypass": false,
+  "healthTimeoutsSeconds": {
+    "app": 90,
+    "worker": 90,
+    "appStart": 600,
+    "workerStart": 600
+  },
+  "healthOverrideReason": "Slow QEMU TCG emulation; documented settings only; product defaults unchanged.",
+  "tlsVerificationDisabled": false,
+  "aptSignatureVerificationDisabled": false,
+  "applicationTransport": "Explicit HTTP test mode behind host loopback NAT; public ACME/TLS is not exercised.",
+  "testNetworkTrustOverride": true,
+  "sourceModified": false
+}

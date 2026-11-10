@@ -1,0 +1,28 @@
+{
+  "command": "npm run test:integration",
+  "startedAt": "2026-10-25T10:41:37.632499+00:00",
+  "finishedAt": "2026-10-25T10:45:35.231817+00:00",
+  "durationSeconds": 237.599,
+  "exitCode": 0,
+  "database": "isolated disposable local PostgreSQL16.15",
+  "credentials": "synthetic; no production keys",
+  "postgres": {
+    "tests": 558,
+    "passed": 558,
+    "failed": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "topLevelGroups": 89,
+    "durationMs": 225589.142388
+  },
+  "api": {
+    "testFiles": 1,
+    "tests": 20,
+    "passed": 20,
+    "failed": 0,
+    "durationSeconds": 11.51
+  },
+  "logSha256": "7b28d0a6a4ae60c1ff86e11ce8d7043ee727b264dfde85dcf07d8bdc9d409bde",
+  "completeTerminalSummaryReceived": true
+}

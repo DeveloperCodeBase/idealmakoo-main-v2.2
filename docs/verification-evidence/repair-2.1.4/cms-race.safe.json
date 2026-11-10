@@ -1,0 +1,16 @@
+{
+  "before": {
+    "inputDuringPendingAccepted": true,
+    "titleBeforeAcknowledgement": "new typing during save",
+    "titleAfterAcknowledgement": "submitted snapshot",
+    "newerInputLost": true,
+    "sourceMatchesAfterApproval": false
+  },
+  "after": {
+    "inputDuringPendingAccepted": false,
+    "titleBeforeAcknowledgement": "submitted snapshot",
+    "titleAfterAcknowledgement": "submitted snapshot",
+    "newerInputLost": false,
+    "sourceMatchesAfterApproval": true
+  }
+}

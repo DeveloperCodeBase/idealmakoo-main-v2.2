@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/media/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "b8040848b6866f79567ce327e729540b4fd71e73486b8d79a80d62bdfc13e320",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "آرشیو چندرسانه‌ای کارخانه | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "آرشیو محتوای چندرسانه‌ای منتشرشدهٔ ایده‌آل ماکو؛ مدخل‌های رسانه‌ای درباره کارخانه و محصولات را جستجو و مرور کنید."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/media/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/media/",
+    "en": "http://127.0.0.1:3100/en/media/",
+    "tr": "http://127.0.0.1:3100/tr/media/",
+    "ar": "http://127.0.0.1:3100/ar/media/",
+    "ru": "http://127.0.0.1:3100/ru/media/",
+    "x-default": "http://127.0.0.1:3100/fa/media/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 55
+}

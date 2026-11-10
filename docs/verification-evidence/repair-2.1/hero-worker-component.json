@@ -1,0 +1,780 @@
+{
+  "format": "actual-hero-worker-component-evidence-v1",
+  "scope": "Actual production component and rendering worker bundled with esbuild, React development StrictMode, local fixture DOM; production Next/CSP/build acceptance is separate. No Lighthouse scores.",
+  "chrome": "156.0.8078.4",
+  "browserFlags": [
+    "--no-sandbox",
+    "--disable-dev-shm-usage",
+    "--enable-unsafe-swiftshader"
+  ],
+  "viewport": {
+    "width": 390,
+    "height": 838,
+    "deviceScaleFactor": 2,
+    "reducedMotion": "no-preference"
+  },
+  "componentSourceFiles": {
+    "src/components/experience/ToothExperience.tsx": "fabdae9f85d4a677216c70d7e9b5b83c85b49d248db6a893791f77d524041c86",
+    "src/components/experience/engines/hero.ts": "3b16ac5a1a0d9f353fd30303011edfda0f3c46bc1c227a09f947018c79308598",
+    "src/components/experience/engines/hero-platform.ts": "36b547a0e2428083e24cc1df6bab87cbfc461cb7e39b6eac840406385b843126",
+    "src/components/experience/engines/hero-worker-host.ts": "e04af08615e1a5888cefea76ef415c23b8dff2d29a288fda2ebf79dad327c1f7",
+    "src/components/experience/engines/hero-worker-protocol.ts": "016606dc1edd9353529ae4f2e660951ec628cfae97e9cb02048bd12e195e5aa2",
+    "src/components/experience/engines/hero.worker.ts": "d8724af7b1f7c2cf4c71a4ff28f234383fe86d731151d5b046250a483c2c85b6",
+    "src/components/experience/engines/scene-clock.ts": "2f9f4b494979c968ce57ab62a83a562bd17e889fb041159d1ccd5f580464828d",
+    "src/components/experience/engines/scene-preparation.ts": "8c4231a18fee2db8e5afb47756fe4f49d66e07c0223ade180b04ac2189ef82c8",
+    "src/components/experience/experience.module.css": "96914e8e8b9acbd62f55e479d2df95b72dd613647c811f2e2a8d42b402f847e8"
+  },
+  "baselineComponentSourceFiles": {
+    "src/components/experience/ToothExperience.tsx": "fabdae9f85d4a677216c70d7e9b5b83c85b49d248db6a893791f77d524041c86",
+    "src/components/experience/engines/hero.ts": "3b16ac5a1a0d9f353fd30303011edfda0f3c46bc1c227a09f947018c79308598",
+    "src/components/experience/engines/hero-platform.ts": "36b547a0e2428083e24cc1df6bab87cbfc461cb7e39b6eac840406385b843126",
+    "src/components/experience/engines/hero-worker-host.ts": "e04af08615e1a5888cefea76ef415c23b8dff2d29a288fda2ebf79dad327c1f7",
+    "src/components/experience/engines/hero-worker-protocol.ts": "016606dc1edd9353529ae4f2e660951ec628cfae97e9cb02048bd12e195e5aa2",
+    "src/components/experience/engines/hero.worker.ts": "95043758afb33ae5e19ec54d94edd17a2bff8c4230a1ac671ccd066e331a2982",
+    "src/components/experience/engines/scene-clock.ts": "2f9f4b494979c968ce57ab62a83a562bd17e889fb041159d1ccd5f580464828d",
+    "src/components/experience/engines/scene-preparation.ts": "8c4231a18fee2db8e5afb47756fe4f49d66e07c0223ade180b04ac2189ef82c8",
+    "src/components/experience/experience.module.css": "96914e8e8b9acbd62f55e479d2df95b72dd613647c811f2e2a8d42b402f847e8"
+  },
+  "runs": [
+    {
+      "name": "before-first-frame-fix",
+      "rawReportSha256": "b3d84956c1577f815a3d2cee0148575556711eb1d76986b141a2349092c06167",
+      "startedAt": "2026-10-21T10:18:59.063Z",
+      "finishedAt": "2026-10-21T10:20:07.235Z",
+      "scope": "Current production component/worker lifecycle under development StrictMode; no Lighthouse scores",
+      "cases": [
+        {
+          "mode": "normal",
+          "fillInputActionMs": 25,
+          "checks": {
+            "accessible": true,
+            "allWorkersDisposed": true,
+            "allTransferredCanvasesDetached": true,
+            "noUnhandledErrors": true,
+            "expectedFailureCount": true,
+            "restoredFreshCanvas": true,
+            "realPresentation": true,
+            "keyboardAcknowledged": true,
+            "movingHandObserved": true
+          },
+          "readyObservations": [
+            {
+              "at": 2265.300000000745,
+              "variant": "hero",
+              "rgba": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "firstObservedOpaqueAt": 3557.5,
+              "observedEmptyAfterReadyMs": 1292.2,
+              "firstHostFrames": [
+                {
+                  "ready": 0,
+                  "frame": 1,
+                  "at": 2274.300000000745,
+                  "rgba": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "ready": 0,
+                  "frame": 78,
+                  "at": 3557.5,
+                  "rgba": [
+                    83,
+                    97,
+                    109,
+                    255
+                  ]
+                }
+              ]
+            },
+            {
+              "at": 21958.39999999851,
+              "variant": "auth",
+              "rgba": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "firstObservedOpaqueAt": 21971.60000000149,
+              "observedEmptyAfterReadyMs": 13.2,
+              "firstHostFrames": [
+                {
+                  "ready": 1,
+                  "frame": 1,
+                  "at": 21971.60000000149,
+                  "rgba": [
+                    200,
+                    200,
+                    200,
+                    255
+                  ]
+                }
+              ]
+            },
+            {
+              "at": 26283.5,
+              "variant": "hero",
+              "rgba": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "firstObservedOpaqueAt": null,
+              "observedEmptyAfterReadyMs": null,
+              "firstHostFrames": [
+                {
+                  "ready": 2,
+                  "frame": 1,
+                  "at": 26290.39999999851,
+                  "rgba": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              ]
+            }
+          ],
+          "movingHand": [
+            {
+              "at": 18384.699999999255,
+              "transform": "translate3d(102.26px, 605.36px, 0px)",
+              "phase": "grip",
+              "opacity": "0.999932",
+              "lastPresentation": {
+                "worker": "idealmakoo-hero",
+                "type": "presentation",
+                "at": 18053.60000000149,
+                "presentation": {
+                  "transform": "translate3d(102.26px,605.36px,0)",
+                  "opacity": "0.9999322712635091",
+                  "mode": "hand",
+                  "phase": "grip",
+                  "cursor": "grab"
+                }
+              }
+            },
+            {
+              "at": 19118.5,
+              "transform": "translate3d(102.26px, 605.36px, 0px)",
+              "phase": "grip",
+              "opacity": "0.999955",
+              "lastPresentation": {
+                "worker": "idealmakoo-hero",
+                "type": "presentation",
+                "at": 18668.60000000149,
+                "presentation": {
+                  "transform": "translate3d(102.26px,605.36px,0)",
+                  "opacity": "0.9999546000702375",
+                  "mode": "hand",
+                  "phase": "grip",
+                  "cursor": "grab"
+                }
+              }
+            },
+            {
+              "at": 19889.10000000149,
+              "transform": "translate3d(102.26px, 605.36px, 0px)",
+              "phase": "lift",
+              "opacity": "0.99998",
+              "lastPresentation": {
+                "worker": "idealmakoo-hero",
+                "type": "presentation",
+                "at": 19872.39999999851,
+                "presentation": {
+                  "transform": "translate3d(102.26px,605.36px,0)",
+                  "opacity": "0.9999796004965888",
+                  "mode": "hand",
+                  "phase": "lift",
+                  "cursor": "grab"
+                }
+              }
+            }
+          ],
+          "activeCanvas": {
+            "width": 585,
+            "height": 1350,
+            "tabIndex": 0,
+            "hidden": "false"
+          },
+          "transferredCanvasesBeforeNavigation": [
+            {
+              "connected": true,
+              "current": true
+            }
+          ],
+          "finalWorkers": [
+            {
+              "name": "idealmakoo-hero",
+              "terminated": true
+            },
+            {
+              "name": "idealmakoo-hero",
+              "terminated": true
+            }
+          ],
+          "finalTransferredCanvases": [
+            {
+              "connected": false
+            },
+            {
+              "connected": false
+            }
+          ],
+          "forcedFailures": 0,
+          "unhandledErrors": [],
+          "messageCounts": {
+            "capabilities": 2,
+            "ready": 2,
+            "settings-ack": 7,
+            "presentation": 29,
+            "input-ack": 2
+          }
+        },
+        {
+          "mode": "after-transfer",
+          "fillInputActionMs": 2939,
+          "checks": {
+            "accessible": true,
+            "allWorkersDisposed": true,
+            "allTransferredCanvasesDetached": true,
+            "noUnhandledErrors": true,
+            "expectedFailureCount": true,
+            "restoredFreshCanvas": true,
+            "realPresentation": true,
+            "keyboardAcknowledged": true,
+            "movingHandObserved": true
+          },
+          "readyObservations": [
+            {
+              "at": 2691.900000002235,
+              "variant": "hero",
+              "rgba": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "firstObservedOpaqueAt": 3498.5,
+              "observedEmptyAfterReadyMs": 806.6,
+              "firstHostFrames": [
+                {
+                  "ready": 0,
+                  "frame": 1,
+                  "at": 3498.5,
+                  "rgba": [
+                    83,
+                    97,
+                    109,
+                    255
+                  ]
+                }
+              ]
+            }
+          ],
+          "movingHand": [],
+          "activeCanvas": {
+            "width": 585,
+            "height": 1257,
+            "tabIndex": 0,
+            "hidden": "false"
+          },
+          "transferredCanvasesBeforeNavigation": [
+            {
+              "connected": false,
+              "current": false
+            }
+          ],
+          "finalWorkers": [
+            {
+              "name": "idealmakoo-hero",
+              "terminated": true
+            },
+            {
+              "name": "idealmakoo-anatomy",
+              "terminated": true
+            }
+          ],
+          "finalTransferredCanvases": [
+            {
+              "connected": false
+            }
+          ],
+          "forcedFailures": 1,
+          "unhandledErrors": [],
+          "messageCounts": {
+            "capabilities": 1,
+            "untyped": 1
+          }
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "corrected-full",
+      "rawReportSha256": "7753719a1387e161fd17b9e6c42ce81f78760ce0551fe6d678941d3706d246a3",
+      "startedAt": "2026-10-21T10:21:07.720Z",
+      "finishedAt": "2026-10-21T10:22:28.463Z",
+      "scope": "Current production component/worker lifecycle under development StrictMode; no Lighthouse scores",
+      "cases": [
+        {
+          "mode": "normal",
+          "fillInputActionMs": 125,
+          "checks": {
+            "accessible": true,
+            "allWorkersDisposed": true,
+            "allTransferredCanvasesDetached": true,
+            "noUnhandledErrors": true,
+            "expectedFailureCount": true,
+            "restoredFreshCanvas": true,
+            "realPresentation": true,
+            "keyboardAcknowledged": true,
+            "movingHandObserved": true,
+            "heroReadyHasImage": true
+          },
+          "readyObservations": [
+            {
+              "at": 3258,
+              "variant": "hero",
+              "rgba": [
+                83,
+                97,
+                109,
+                255
+              ],
+              "firstObservedOpaqueAt": 3258,
+              "observedEmptyAfterReadyMs": 0,
+              "firstHostFrames": [
+                {
+                  "ready": 0,
+                  "frame": 1,
+                  "at": 3263.10000000149,
+                  "rgba": [
+                    83,
+                    97,
+                    109,
+                    255
+                  ]
+                }
+              ]
+            },
+            {
+              "at": 41049.5,
+              "variant": "hero",
+              "rgba": [
+                139,
+                155,
+                167,
+                255
+              ],
+              "firstObservedOpaqueAt": 41049.5,
+              "observedEmptyAfterReadyMs": 0,
+              "firstHostFrames": [
+                {
+                  "ready": 1,
+                  "frame": 1,
+                  "at": 41062.10000000149,
+                  "rgba": [
+                    139,
+                    155,
+                    167,
+                    255
+                  ]
+                }
+              ]
+            }
+          ],
+          "movingHand": [
+            {
+              "at": 33323.800000000745,
+              "transform": "translate3d(101.18px, 542.95px, 0px)",
+              "phase": "carry",
+              "opacity": "1",
+              "lastPresentation": {
+                "worker": "idealmakoo-hero",
+                "type": "presentation",
+                "at": 32986.70000000298,
+                "presentation": {
+                  "transform": "translate3d(101.18px,542.95px,0)",
+                  "opacity": "0.9999999969251201",
+                  "mode": "hand",
+                  "phase": "carry",
+                  "cursor": "grab"
+                }
+              }
+            },
+            {
+              "at": 34785.800000000745,
+              "transform": "translate3d(101.29px, 542.62px, 0px)",
+              "phase": "carry",
+              "opacity": "1",
+              "lastPresentation": {
+                "worker": "idealmakoo-hero",
+                "type": "presentation",
+                "at": 34753.10000000149,
+                "presentation": {
+                  "transform": "translate3d(101.29px,542.62px,0)",
+                  "opacity": "0.9999999990738639",
+                  "mode": "hand",
+                  "phase": "carry",
+                  "cursor": "grab"
+                }
+              }
+            },
+            {
+              "at": 36204,
+              "transform": "translate3d(101.41px, 542.3px, 0px)",
+              "phase": "carry",
+              "opacity": "1",
+              "lastPresentation": {
+                "worker": "idealmakoo-hero",
+                "type": "presentation",
+                "at": 35959.900000002235,
+                "presentation": {
+                  "transform": "translate3d(101.41px,542.30px,0)",
+                  "opacity": "0.9999999995838603",
+                  "mode": "hand",
+                  "phase": "carry",
+                  "cursor": "grab"
+                }
+              }
+            }
+          ],
+          "activeCanvas": {
+            "width": 585,
+            "height": 1350,
+            "tabIndex": 0,
+            "hidden": "false"
+          },
+          "transferredCanvasesBeforeNavigation": [
+            {
+              "connected": true,
+              "current": true
+            }
+          ],
+          "finalWorkers": [
+            {
+              "name": "idealmakoo-hero",
+              "terminated": true
+            },
+            {
+              "name": "idealmakoo-hero",
+              "terminated": true
+            }
+          ],
+          "finalTransferredCanvases": [
+            {
+              "connected": false
+            },
+            {
+              "connected": false
+            }
+          ],
+          "forcedFailures": 0,
+          "unhandledErrors": [],
+          "messageCounts": {
+            "capabilities": 2,
+            "ready": 2,
+            "settings-ack": 7,
+            "presentation": 58,
+            "input-ack": 2
+          }
+        },
+        {
+          "mode": "after-transfer",
+          "fillInputActionMs": 2636,
+          "checks": {
+            "accessible": true,
+            "allWorkersDisposed": true,
+            "allTransferredCanvasesDetached": true,
+            "noUnhandledErrors": true,
+            "expectedFailureCount": true,
+            "restoredFreshCanvas": true,
+            "realPresentation": true,
+            "keyboardAcknowledged": true,
+            "movingHandObserved": true,
+            "heroReadyHasImage": true
+          },
+          "readyObservations": [
+            {
+              "at": 2302.5,
+              "variant": "hero",
+              "rgba": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "firstObservedOpaqueAt": 3099.199999999255,
+              "observedEmptyAfterReadyMs": 796.7,
+              "firstHostFrames": [
+                {
+                  "ready": 0,
+                  "frame": 1,
+                  "at": 3099.199999999255,
+                  "rgba": [
+                    83,
+                    97,
+                    109,
+                    255
+                  ]
+                }
+              ]
+            }
+          ],
+          "movingHand": [],
+          "activeCanvas": {
+            "width": 585,
+            "height": 1257,
+            "tabIndex": 0,
+            "hidden": "false"
+          },
+          "transferredCanvasesBeforeNavigation": [
+            {
+              "connected": false,
+              "current": false
+            }
+          ],
+          "finalWorkers": [
+            {
+              "name": "idealmakoo-hero",
+              "terminated": true
+            },
+            {
+              "name": "idealmakoo-anatomy",
+              "terminated": true
+            }
+          ],
+          "finalTransferredCanvases": [
+            {
+              "connected": false
+            }
+          ],
+          "forcedFailures": 1,
+          "unhandledErrors": [],
+          "messageCounts": {
+            "capabilities": 1,
+            "untyped": 1
+          }
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "genuine-variant-frame-supplement",
+      "rawReportSha256": "9359482e7817a6a9ff663cd20ee41990ed5d320ac1ea832f5384fd3d3554e780",
+      "startedAt": "2026-10-21T10:24:05.363Z",
+      "finishedAt": "2026-10-21T10:24:18.131Z",
+      "scope": "Only genuine variant frames and cleanup; carry/failure are in attempt-2-corrected",
+      "cases": [
+        {
+          "mode": "normal",
+          "fillInputActionMs": 28,
+          "checks": {
+            "accessible": true,
+            "allWorkersDisposed": true,
+            "allTransferredCanvasesDetached": true,
+            "noUnhandledErrors": true,
+            "expectedFailureCount": true,
+            "restoredFreshCanvas": true,
+            "realPresentation": true,
+            "keyboardAcknowledged": true,
+            "genuineAuthFrame": true,
+            "movingHandObserved": null,
+            "heroReadyHasImage": true
+          },
+          "readyObservations": [
+            {
+              "at": 3428.300000000745,
+              "variant": "hero",
+              "rgba": [
+                83,
+                97,
+                109,
+                255
+              ],
+              "firstObservedOpaqueAt": 3428.300000000745,
+              "observedEmptyAfterReadyMs": 0,
+              "firstHostFrames": [
+                {
+                  "ready": 0,
+                  "frame": 1,
+                  "at": 3430.5,
+                  "rgba": [
+                    83,
+                    97,
+                    109,
+                    255
+                  ]
+                }
+              ]
+            },
+            {
+              "at": 7279.699999999255,
+              "variant": "auth",
+              "rgba": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "firstObservedOpaqueAt": 7290.60000000149,
+              "observedEmptyAfterReadyMs": 10.9,
+              "firstHostFrames": [
+                {
+                  "ready": 1,
+                  "frame": 1,
+                  "at": 7290.60000000149,
+                  "rgba": [
+                    200,
+                    200,
+                    200,
+                    255
+                  ]
+                }
+              ]
+            },
+            {
+              "at": 12391.199999999255,
+              "variant": "hero",
+              "rgba": [
+                139,
+                155,
+                167,
+                255
+              ],
+              "firstObservedOpaqueAt": 12391.199999999255,
+              "observedEmptyAfterReadyMs": 0,
+              "firstHostFrames": [
+                {
+                  "ready": 2,
+                  "frame": 1,
+                  "at": 12397.699999999255,
+                  "rgba": [
+                    139,
+                    155,
+                    167,
+                    255
+                  ]
+                }
+              ]
+            }
+          ],
+          "movingHand": [],
+          "activeCanvas": {
+            "width": 585,
+            "height": 1350,
+            "tabIndex": 0,
+            "hidden": "false"
+          },
+          "transferredCanvasesBeforeNavigation": [
+            {
+              "connected": true,
+              "current": true
+            }
+          ],
+          "finalWorkers": [
+            {
+              "name": "idealmakoo-hero",
+              "terminated": true
+            },
+            {
+              "name": "idealmakoo-hero",
+              "terminated": true
+            }
+          ],
+          "finalTransferredCanvases": [
+            {
+              "connected": false
+            },
+            {
+              "connected": false
+            }
+          ],
+          "forcedFailures": 0,
+          "unhandledErrors": [],
+          "messageCounts": {
+            "capabilities": 2,
+            "ready": 2,
+            "settings-ack": 7,
+            "presentation": 3,
+            "input-ack": 2
+          }
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "normal-initial.png",
+      "bytes": 577931,
+      "sha256": "4601a32dcfc7ee6082753705fc503d0197634e00ec03fc5345e63d28b987c589",
+      "rawOnly": true
+    },
+    {
+      "name": "normal-light.png",
+      "bytes": 638082,
+      "sha256": "c7612df0cdc6bb8f82d637e3466e8549856dd0cdc591a03a92c973f746241591",
+      "rawOnly": true
+    },
+    {
+      "name": "moving-hand-0.png",
+      "bytes": 655408,
+      "sha256": "a2c6993d2fa02e36bdd89013970d2be141ccd241ebe12e1b6929c125c8aa115c",
+      "rawOnly": true
+    },
+    {
+      "name": "moving-hand-1.png",
+      "bytes": 656407,
+      "sha256": "d5fcac4ce29b7b5a6a0b4844134c0843d67b0ecff3c9ad4b702fa6b9586e856b",
+      "rawOnly": true
+    },
+    {
+      "name": "moving-hand-2.png",
+      "bytes": 656496,
+      "sha256": "b514b815e30d53d893779990fe29e55ad16e6c46ac42e0da9ffeeffd170bca25",
+      "rawOnly": true
+    },
+    {
+      "name": "after-transfer-initial.png",
+      "bytes": 654786,
+      "sha256": "c440d2dbe29081f8924a0fc26cf80ce5525a9897826d2402f6fd710229f0ecdc",
+      "rawOnly": true
+    },
+    {
+      "name": "after-transfer-light.png",
+      "bytes": 683840,
+      "sha256": "b9f5eafc84136c4f2caf1f1ad158053fbe0879e1afa9d30bf6fbd7cafa28a163",
+      "rawOnly": true
+    }
+  ],
+  "manualVisualReview": {
+    "files": [
+      "moving-hand-0.png",
+      "moving-hand-2.png"
+    ],
+    "observation": "The finger remained attached to the moving crown in the inspected carry-phase endpoints. Other tooth motion, water, reflections and light theme remain visible.",
+    "automatedGeometricAlignmentMeasurement": false
+  },
+  "limitations": [
+    "The first complete corrected run used a variant marker wait that could resolve early; the separate supplement requires an observed auth ready transition and nonempty frame before switching back to an opaque hero frame.",
+    "The fallback intentionally retains the same main-thread renderer and its software-GPU cost. Its observed fill action took 2636ms; worker rendering does not make the fallback faster.",
+    "Production Next worker URL/MIME/CSP and the complete release browser regression, including motion preferences, require separate acceptance on the final build; this local fixture does not claim those results.",
+    "Screenshot inspection and the four earlier exact fixed-pose comparisons do not establish an atomic DOM/canvas presentation fence in every browser.",
+    "No raw screenshots or full browser report dumps are embedded in this compact file."
+  ],
+  "assetFiles": {
+    "public/media/environment/blue-lagoon-1k.hdr": "6d5d4e19954d5f8efd74124ee7d21e5d69efb61d5398d2e16a019fd67fa591dd"
+  }
+}

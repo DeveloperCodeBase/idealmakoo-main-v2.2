@@ -1,0 +1,18 @@
+{
+  "observedAt": "2026-10-21T13:51:32.548136+00:00",
+  "directoryMode": "0o700",
+  "directoryUid": 0,
+  "directoryGid": 0,
+  "shimFileMode": "0o555",
+  "containerUser": "10001:10001",
+  "pathBeginsWithShimDirectory": true,
+  "corePatternRestored": true,
+  "diagnosticResultSha256": "d8c3e133ae8b633f0bf91f07bb0217ecb6b8de1bd313d5786262b149f9d62b5b",
+  "entrypointLogSha256": "2304030ea9eb78f60a67d271965a4d0bb2121abf0920e6625b96be07db1189df",
+  "fixtureInstrumentationEffective": false,
+  "instrumentationLimitation": "The directory requested0755 while umask077 was active, leaving root-owned0700. The10001 process could not search it; PATH proceeded to normal node. No per-phase PID markers were collected.",
+  "samePinnedImageEntrypointExitCode": 0,
+  "originalSegmentationFaultCauseDetermined": false,
+  "installationAccepted": false,
+  "diagnosticRepeated": false
+}

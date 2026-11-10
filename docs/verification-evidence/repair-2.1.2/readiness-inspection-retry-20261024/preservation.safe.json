@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "kind": "readiness-inspection-isolated-baseline-preservation",
+  "files": {
+    "deploy/service-lifecycle.py": {
+      "bytes": 31933,
+      "sha256": "e55a73f32d8ff06b3699ce86e8e139b385b6e05be6c873216cfc024363fa92b5"
+    },
+    "deploy/docker-inspect.py": {
+      "bytes": 11046,
+      "sha256": "87593e909e0e3c40a37b2f0230f4ca21bc9d5348dfc8969d1bc2d4800f81c8e8"
+    },
+    "deploy/compose.py": {
+      "bytes": 12011,
+      "sha256": "27c5f7ad14d8386575f041a3755990e8aec1102e6d407d39224f56f94583f550"
+    },
+    "deploy/env-file.py": {
+      "bytes": 5081,
+      "sha256": "941ee4a0087a7617233d10f8929e063949ba18f6c4f8a33a6d9fcc741a6985da"
+    },
+    "tests/deployment_service_lifecycle_test.py": {
+      "bytes": 60518,
+      "sha256": "3930902b45708f78e43f4cc7efbb57b9e32151be0cbd1a02dea4afd46bf6e666"
+    }
+  },
+  "productInputsUnchanged": true,
+  "candidatePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261024/backend/readiness-inspection-retry-preparation-01/candidate-source",
+  "baselinePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261024/backend/readiness-inspection-retry-preparation-01/baseline-source",
+  "commandDeadlineInspectHealthStopCleanupMainAstUnchanged": true,
+  "runtimeTestsNotRunYet": true
+}

@@ -1,0 +1,26 @@
+{
+  "format": "public-compression-scalar-diagnostic-v1",
+  "status": "observed",
+  "requestCount": 2,
+  "changedTopLevelFields": [
+    "observedAt"
+  ],
+  "bothObservedAtValuesValidIsoTimestamps": true,
+  "allOtherPublicJsonEqual": true,
+  "responses": [
+    {
+      "status": 200,
+      "encoding": "",
+      "wireBytes": 12598,
+      "decodedBytes": 12598
+    },
+    {
+      "status": 200,
+      "encoding": "gzip",
+      "wireBytes": 4258,
+      "decodedBytes": 12598
+    }
+  ],
+  "bodiesOrTimestampValuesExported": false,
+  "applicationChanged": false
+}

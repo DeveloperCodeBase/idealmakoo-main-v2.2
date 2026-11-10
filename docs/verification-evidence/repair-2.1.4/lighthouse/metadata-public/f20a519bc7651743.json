@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/resources/ideal-makoo-mould-guide/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "06cdd23f4d88e4c6016037e6a265382520b5c2547a67a059cd34e469f93e97f0",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "راهنمای تصویری قالب‌های ایده‌آل ماکو | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "۱۴ صفحه از ساختار و فرم دندان، نمودارهای اندازه و جدول‌های قالب؛ همراه توضیح خانه‌های ناقص منبع."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/resources/ideal-makoo-mould-guide/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/ideal-makoo-mould-guide/",
+    "en": "http://127.0.0.1:3100/en/resources/ideal-makoo-mould-guide/",
+    "tr": "http://127.0.0.1:3100/tr/resources/ideal-makoo-mould-guide/",
+    "ar": "http://127.0.0.1:3100/ar/resources/ideal-makoo-mould-guide/",
+    "ru": "http://127.0.0.1:3100/ru/resources/ideal-makoo-mould-guide/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/ideal-makoo-mould-guide/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 74
+}

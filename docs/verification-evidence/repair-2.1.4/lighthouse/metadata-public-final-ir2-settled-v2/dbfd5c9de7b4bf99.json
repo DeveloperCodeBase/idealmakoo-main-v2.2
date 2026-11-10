@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/install/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "b8d00a59eadf91c54da5440a63b7466b6539330a45e28be93c9224015d9fff98",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "نصب برنامه | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "راهنمای نصب وب‌اپلیکیشن ایده‌آل ماکو از مرورگر سازگار و دسترسی دوباره به محصولات، منابع و خدمات وب‌سایت."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/install/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/install/",
+    "en": "http://127.0.0.1:3100/en/install/",
+    "tr": "http://127.0.0.1:3100/tr/install/",
+    "ar": "http://127.0.0.1:3100/ar/install/",
+    "ru": "http://127.0.0.1:3100/ru/install/",
+    "x-default": "http://127.0.0.1:3100/fa/install/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 47
+}

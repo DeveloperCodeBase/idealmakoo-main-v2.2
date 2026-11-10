@@ -1,0 +1,28 @@
+{
+  "verifiedAt": "2026-10-20T15:53:49.378196+00:00",
+  "scope": "Actual four-attempt screenshot-free public pilot derivative; not a successful full release audit.",
+  "method": "Summary attempt index resolves each original result file; compact scores, metrics, times, errors, category scores and non-screenshot audit outcomes are compared to actual result/LHR bytes.",
+  "buildId": "zTyFzGk88zFYZzMkC8On8",
+  "attempts": 4,
+  "completed": 3,
+  "timeouts": 1,
+  "pending": 0,
+  "coverageComplete": true,
+  "rawReportHashesVerified": 3,
+  "nonScreenshotAuditOutcomesVerified": 459,
+  "scoresMetricsTimesErrorsEqual": true,
+  "coverageEqual": true,
+  "embeddedImageOrAudioDataAbsent": true,
+  "partHashesAndBoundsVerified": true,
+  "compactAuditBytes": 255183,
+  "maximumPartBytes": 33554432,
+  "parts": [
+    {
+      "filename": "audit-part-0001.json",
+      "attempts": 4,
+      "bytes": 255183,
+      "sha256": "9b818a3677a2f5ba0f1d2326fc57b09e1a85f296593935cfe662caeff77cb446"
+    }
+  ],
+  "exporterSha256": "0d3af966d123cf7c2e3c98fbaadc8ed2a9f4b81b13526d075f531eab72a248af"
+}

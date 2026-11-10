@@ -1,0 +1,264 @@
+{
+  "inputArchiveSha256": "c12eeed7713dfd65d0d3aadd3420040291c6b795e310da1d478f1dd1d49f90e4",
+  "baselineMigrationCount": 41,
+  "baselineMigrationsUnchanged": true,
+  "currentMigrationCount": 43,
+  "added": [
+    {
+      "file": "db/migrations/043_customer_engagement.sql",
+      "sha256": "eb3018f785c9f45df6606b169a2a3a86b305b1e5c2823d7a59d2eb642a284a1b"
+    },
+    {
+      "file": "db/migrations/044_resource_notifications.sql",
+      "sha256": "28ed0a8f6ddaa1e3e3193e2c50676e7e145529171cc7d039079dc8caaad2ee86"
+    }
+  ],
+  "baseline": [
+    {
+      "file": "db/migrations/001_core.sql",
+      "inputSha256": "b798f844b8c5a6fba06f5fd7f97c2620b1a209745f8b43386cea6f9c59d8a89d",
+      "currentSha256": "b798f844b8c5a6fba06f5fd7f97c2620b1a209745f8b43386cea6f9c59d8a89d",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/002_workspace.sql",
+      "inputSha256": "5d8fd67dbea951192a232cb7bd9dc7289130c134657f91e82147d2cea9c98715",
+      "currentSha256": "5d8fd67dbea951192a232cb7bd9dc7289130c134657f91e82147d2cea9c98715",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/003_requests_operations.sql",
+      "inputSha256": "3f4d61e61c12364458949dddf892a0df7b4540499604bf91033f88edffcf8cb1",
+      "currentSha256": "3f4d61e61c12364458949dddf892a0df7b4540499604bf91033f88edffcf8cb1",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/004_organizations.sql",
+      "inputSha256": "2628500b97ceea64a1ce997ddb6e19da0637377d741af86e8499a85ab6e08325",
+      "currentSha256": "2628500b97ceea64a1ce997ddb6e19da0637377d741af86e8499a85ab6e08325",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/006_crm_automation.sql",
+      "inputSha256": "1c00a7c78dc0c06c2de955d76451ea2c05fa046ee3d8ebdb15dfb94a7f6654ab",
+      "currentSha256": "1c00a7c78dc0c06c2de955d76451ea2c05fa046ee3d8ebdb15dfb94a7f6654ab",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/007_crm_scopes.sql",
+      "inputSha256": "87f20f33045b06d64447763903a3464ffbe90e7d4848e3cb2e2d9c5a5c65cf40",
+      "currentSha256": "87f20f33045b06d64447763903a3464ffbe90e7d4848e3cb2e2d9c5a5c65cf40",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/008_events.sql",
+      "inputSha256": "2252875a2981d0c2f89c5d46c9f939cb6e6cb556e796c2fa67b126741f23ced0",
+      "currentSha256": "2252875a2981d0c2f89c5d46c9f939cb6e6cb556e796c2fa67b126741f23ced0",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/009_resources.sql",
+      "inputSha256": "155101116994bb183a1b141535a75487263a8927eb3033e39867b41c1d94c96d",
+      "currentSha256": "155101116994bb183a1b141535a75487263a8927eb3033e39867b41c1d94c96d",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/010_notification_policy.sql",
+      "inputSha256": "d841a5b334cd13376bc6ae5576fbf7757bc4e2e4b41e05c56c318bd28bc15c3a",
+      "currentSha256": "d841a5b334cd13376bc6ae5576fbf7757bc4e2e4b41e05c56c318bd28bc15c3a",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/011_crm_commercial.sql",
+      "inputSha256": "fb29c8ba37b2e4975c146164cc51bb268fe23e2aa7fc34bd0271e35a2f26bd07",
+      "currentSha256": "fb29c8ba37b2e4975c146164cc51bb268fe23e2aa7fc34bd0271e35a2f26bd07",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/012_privacy.sql",
+      "inputSha256": "35d394de15e0819ef5161f5ee2af6196eacb0be6185d1dee5f46f355dc97c116",
+      "currentSha256": "35d394de15e0819ef5161f5ee2af6196eacb0be6185d1dee5f46f355dc97c116",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/013_crm_routing.sql",
+      "inputSha256": "b66d36bf54a62e6a34a4290d9e218689e9bf40ae9c560c8756cda3c3009b7c30",
+      "currentSha256": "b66d36bf54a62e6a34a4290d9e218689e9bf40ae9c560c8756cda3c3009b7c30",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/014_crm_pipelines.sql",
+      "inputSha256": "e6e40818924f244bb0114202e66d301c5be32e49adfc0d2818efaedc492e62c3",
+      "currentSha256": "e6e40818924f244bb0114202e66d301c5be32e49adfc0d2818efaedc492e62c3",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/015_storage.sql",
+      "inputSha256": "7ba3001a8693730a1c9cbc7f992ba2bfe1c135282e55a6faa91eceeb1709ef72",
+      "currentSha256": "7ba3001a8693730a1c9cbc7f992ba2bfe1c135282e55a6faa91eceeb1709ef72",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/016_content_collaboration.sql",
+      "inputSha256": "c1ed20da7fc3e50fbaf8ba1fef358f5e30b67df44c98fe39a817f6552832ab90",
+      "currentSha256": "c1ed20da7fc3e50fbaf8ba1fef358f5e30b67df44c98fe39a817f6552832ab90",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/017_crm_campaigns.sql",
+      "inputSha256": "b5cda05e284c726a6115f395c832b511ba8f110d8643aacbe312b2f5851446a1",
+      "currentSha256": "b5cda05e284c726a6115f395c832b511ba8f110d8643aacbe312b2f5851446a1",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/018_crm_domains.sql",
+      "inputSha256": "335f98f243cda68790d935c2e7d871530ba838a34e3fcee8ec202f68f91462c1",
+      "currentSha256": "335f98f243cda68790d935c2e7d871530ba838a34e3fcee8ec202f68f91462c1",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/019_crm_operations.sql",
+      "inputSha256": "22bac052c3f128bb643e53bfb4b10d0f8b54ec89855cf975ee17265a60f0ae8a",
+      "currentSha256": "22bac052c3f128bb643e53bfb4b10d0f8b54ec89855cf975ee17265a60f0ae8a",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/020_crm_io.sql",
+      "inputSha256": "35ff97fcef2bc741a9c7af6b7d919f0aa84090165d1ad89b2941155330fc7db6",
+      "currentSha256": "35ff97fcef2bc741a9c7af6b7d919f0aa84090165d1ad89b2941155330fc7db6",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/021_shared_blocks.sql",
+      "inputSha256": "db6910a5237416c724da8f7d06f5ed032799a8f604537a79baf71213a6f54231",
+      "currentSha256": "db6910a5237416c724da8f7d06f5ed032799a8f604537a79baf71213a6f54231",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/022_media_provenance.sql",
+      "inputSha256": "d079124304cd1372f0cff8f02fa4c38ce86ccd28a5678e31fd6b129b82772f1d",
+      "currentSha256": "d079124304cd1372f0cff8f02fa4c38ce86ccd28a5678e31fd6b129b82772f1d",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/023_quote_artifacts.sql",
+      "inputSha256": "5276663827ad93956b421d2b0991d62f8448593ada5689fd35fc3d77cf411593",
+      "currentSha256": "5276663827ad93956b421d2b0991d62f8448593ada5689fd35fc3d77cf411593",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/024_crm_request_selector.sql",
+      "inputSha256": "38b23d2281fd08877ca579a35b89ae7ae353cb503b979d61a3f1ea7af8d31428",
+      "currentSha256": "38b23d2281fd08877ca579a35b89ae7ae353cb503b979d61a3f1ea7af8d31428",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/025_staff_lifecycle.sql",
+      "inputSha256": "4b4cd57b6a043cfa5c8cf8e4e0c730489c3edfb887a10b14a0b6778aa4747615",
+      "currentSha256": "4b4cd57b6a043cfa5c8cf8e4e0c730489c3edfb887a10b14a0b6778aa4747615",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/026_portal_crm_accounts.sql",
+      "inputSha256": "785193e0088ceeff38b9738d60ea0d1c0f51373c8722e00c128ff0c88b9b6360",
+      "currentSha256": "785193e0088ceeff38b9738d60ea0d1c0f51373c8722e00c128ff0c88b9b6360",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/027_wishlists.sql",
+      "inputSha256": "a29b85f0bd7e9e744ef9fd3d51c7e859528ae8a0f6ab1245fe738b39c9333fda",
+      "currentSha256": "a29b85f0bd7e9e744ef9fd3d51c7e859528ae8a0f6ab1245fe738b39c9333fda",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/028_operations_monitoring.sql",
+      "inputSha256": "ceb6db2690e121d2024da8e894a8e6c511897ce44e7b09a2b77459f90d9eafe9",
+      "currentSha256": "ceb6db2690e121d2024da8e894a8e6c511897ce44e7b09a2b77459f90d9eafe9",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/029_media_processing.sql",
+      "inputSha256": "fcf9f348fe08a757818a7aec647974b71b108470e8f6299175b87907fcac0597",
+      "currentSha256": "fcf9f348fe08a757818a7aec647974b71b108470e8f6299175b87907fcac0597",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/030_semantic_knowledge.sql",
+      "inputSha256": "e30d43c2e4acc4eb7a6b94eb9ceada20b2af414e89d6de0f0235fb5365baedd5",
+      "currentSha256": "e30d43c2e4acc4eb7a6b94eb9ceada20b2af414e89d6de0f0235fb5365baedd5",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/031_partner_public_profiles.sql",
+      "inputSha256": "922b359ddd6822a2641344e7b800cc318786d45f5a10d7b1ddf7f5dbd1638cf8",
+      "currentSha256": "922b359ddd6822a2641344e7b800cc318786d45f5a10d7b1ddf7f5dbd1638cf8",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/032_tender_envelopes.sql",
+      "inputSha256": "9f4a176c30dda1443842b4198bdabf417a12307afcacd7b808e785718359ae19",
+      "currentSha256": "9f4a176c30dda1443842b4198bdabf417a12307afcacd7b808e785718359ae19",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/033_inquiry_merge.sql",
+      "inputSha256": "5f27b8a25a9de3ce151268ce03f49324ffd5b603b220d9b6ed7ab9920fa8eb38",
+      "currentSha256": "5f27b8a25a9de3ce151268ce03f49324ffd5b603b220d9b6ed7ab9920fa8eb38",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/034_contact_campaigns.sql",
+      "inputSha256": "7d2e2ee21800f3f0ee611495d4a05cbd79d48cddcdc92ef2873be7bcb5d855b4",
+      "currentSha256": "7d2e2ee21800f3f0ee611495d4a05cbd79d48cddcdc92ef2873be7bcb5d855b4",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/035_company_certificates.sql",
+      "inputSha256": "d4c726082e459de5adf68d85e94e494761dd5ceefef80a76de42bbb27a0c8d83",
+      "currentSha256": "d4c726082e459de5adf68d85e94e494761dd5ceefef80a76de42bbb27a0c8d83",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/036_crm_task_reminder_policy.sql",
+      "inputSha256": "4ec95ece2454688ff8684887d6dcbc7a8a33b2a6afa83ae5c311a295cd180365",
+      "currentSha256": "4ec95ece2454688ff8684887d6dcbc7a8a33b2a6afa83ae5c311a295cd180365",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/037_notification_templates.sql",
+      "inputSha256": "d0d4f31da6d156c2ef91045ec5b44b337f0a471dbc82661d1e408e012b567e90",
+      "currentSha256": "d0d4f31da6d156c2ef91045ec5b44b337f0a471dbc82661d1e408e012b567e90",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/038_editor_workflows.sql",
+      "inputSha256": "1b987bc4bbe7a6559d812b71d72d1b9bde3af16b2c0ced7151cb064e12f80884",
+      "currentSha256": "1b987bc4bbe7a6559d812b71d72d1b9bde3af16b2c0ced7151cb064e12f80884",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/039_staff_storage_policy.sql",
+      "inputSha256": "3ed6a23a4a36caaadc9fff959046b8fc5eb39c99f79edbc95460c045a4911fc1",
+      "currentSha256": "3ed6a23a4a36caaadc9fff959046b8fc5eb39c99f79edbc95460c045a4911fc1",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/040_content_ai_proposal_consumption.sql",
+      "inputSha256": "e7f7be94be11a15ce55bca586757a0e6282a2560087140620aaf77575d81cd2b",
+      "currentSha256": "e7f7be94be11a15ce55bca586757a0e6282a2560087140620aaf77575d81cd2b",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/041_product_registry.sql",
+      "inputSha256": "1304c12da5cb4d1d1361d5240d2d8bac1c6fefc4b8711cdae74286cbe20fd760",
+      "currentSha256": "1304c12da5cb4d1d1361d5240d2d8bac1c6fefc4b8711cdae74286cbe20fd760",
+      "identical": true
+    },
+    {
+      "file": "db/migrations/042_user_directory.sql",
+      "inputSha256": "7cb99450b447c2d19ff48ce7952d7bdff749640ee5b291c150f6fb7328ddf5cd",
+      "currentSha256": "7cb99450b447c2d19ff48ce7952d7bdff749640ee5b291c150f6fb7328ddf5cd",
+      "identical": true
+    }
+  ]
+}

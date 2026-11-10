@@ -1,0 +1,25 @@
+{
+  "format": "offline-favicon-final-owned-runtime-closure-v1",
+  "completedAt": "2026-10-26T01:17:53.680773+00:00",
+  "nativePidNamespaceVerified": true,
+  "normalSignals": [
+    "web:SIGTERM",
+    "worker:SIGTERM"
+  ],
+  "actualWebSupervisorExitCode": 143,
+  "actualWorkerSupervisorExitCode": 0,
+  "actualSupervisorCompletionsConsumed": true,
+  "ownedWebWrapperNextChildAndOriginalWorkerAbsent": true,
+  "matchingKnownAuditChromeProcesses": 0,
+  "observedQemuProcesses": 0,
+  "unrelatedExecutableObservationPermissionDenials": 7,
+  "vanishedOrNonExecutableProcessEntries": 0,
+  "processObservationScope": "Known owned PIDs plus exact audit Chrome executable; unrelated denied executable observations are not claimed visible",
+  "caddyAndPostgresStoppedByPerf": false,
+  "rootCaddyHandoffReady": true,
+  "fullCurrentClosure": "final-current-full-closure.safe.json",
+  "currentInputFingerprint": "7453e88d3e56fbe65ef319c3b0a770bd48fef216505e49e7d3e5955f829655ee",
+  "topologySha256": "9423dd71d0172fd02d0249dba41d3f0ad5332ec9da3d8dfb1b26c4c6429c4c53",
+  "compiledBuildId": "ir2DFJg8r5YdpbVQubUqF",
+  "privateProcessIdsOrCommandValuesExported": false
+}

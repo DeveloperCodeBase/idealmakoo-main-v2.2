@@ -1,0 +1,1712 @@
+{
+  "schemaVersion": 2,
+  "recordedAt": "2026-10-22T14:25:46.960904+00:00",
+  "status": "staged-current06-native-and-targeted42-completed-baseline05-retained-preseal-archive-verification-pending",
+  "finalRelease": false,
+  "projectVersion": "2.1.0",
+  "source": {
+    "sha256": "6336b75dca94f039fdcb3c5f5433785507591fc89ea627d2e8592a760c177d5b",
+    "files": 834
+  },
+  "application": {
+    "sha256": "7c7f4f01035ba9aa4c6fa63abfb1927fd877895f41aafa3f97de8ae70a199389",
+    "files": 685,
+    "buildId": "yYjrbjXGc-JUKXS2hIubP",
+    "standaloneBuildId": "yYjrbjXGc-JUKXS2hIubP"
+  },
+  "currentNativeGates": {
+    "unit": {
+      "status": "passed",
+      "executionCohort": "link-text-seo-06",
+      "startedAt": "2026-10-22T13:49:51.560Z",
+      "finishedAt": "2026-10-22T13:50:26.188Z",
+      "exitCode": 0,
+      "sourceUnchanged": true,
+      "environmentFingerprintRecorded": false,
+      "environmentUnchanged": null,
+      "counts": {
+        "tests": 760,
+        "passed": 760,
+        "failed": 0,
+        "skipped": 0,
+        "cancelled": 0
+      },
+      "accepted": true,
+      "resultAvailable": true
+    },
+    "typecheck": {
+      "status": "passed",
+      "executionCohort": "link-text-seo-06",
+      "startedAt": "2026-10-22T13:50:26.406Z",
+      "finishedAt": "2026-10-22T13:50:57.526Z",
+      "exitCode": 0,
+      "sourceUnchanged": true,
+      "environmentFingerprintRecorded": false,
+      "environmentUnchanged": null,
+      "accepted": true,
+      "resultAvailable": true
+    },
+    "build": {
+      "status": "passed",
+      "executionCohort": "link-text-seo-06",
+      "startedAt": "2026-10-22T13:50:57.780Z",
+      "finishedAt": "2026-10-22T13:52:26.935Z",
+      "exitCode": 0,
+      "sourceUnchanged": true,
+      "environmentFingerprintRecorded": true,
+      "environmentUnchanged": true,
+      "accepted": true,
+      "resultAvailable": true
+    }
+  },
+  "currentKnownBuildValuesScan": {
+    "status": "passed",
+    "accepted": true,
+    "recordedAt": "2026-10-22T13:52:28.554Z",
+    "buildId": "yYjrbjXGc-JUKXS2hIubP",
+    "filesScanned": 3077,
+    "bytesScanned": 172702629,
+    "privateValuesChecked": 5,
+    "findings": 0,
+    "scope": "exact-known-values-supplied-to-this-local-build",
+    "finalArchiveScan": false,
+    "completeSecurityAcceptanceInferred": false
+  },
+  "currentPending": [
+    "final-archive-known-value-scan",
+    "original-dockerfile-build",
+    "fresh-host-full-recovery",
+    "external-provider-delivery",
+    "public-dns-tls-and-customer-deployment"
+  ],
+  "priorExecutedCohorts": [
+    {
+      "label": "asset-routing-01",
+      "source": {
+        "sha256": "bc24f5e9887d415823fcf5d93675ea4b4d710e678cf7da655d90d8306255f45f",
+        "files": 832
+      },
+      "application": {
+        "sha256": "f50a70c4215a6aacd99c1f1066406ad61de92a27d0d5f5ca56a96afb901fdfe7",
+        "files": 685,
+        "buildId": "Hq6UM9Wh-wOuUBgPttGv_",
+        "standaloneBuildId": "Hq6UM9Wh-wOuUBgPttGv_"
+      },
+      "gates": {
+        "unit": {
+          "status": "passed",
+          "accepted": true,
+          "startedAt": "2026-10-22T07:02:46.507Z",
+          "finishedAt": "2026-10-22T07:03:19.400Z",
+          "exitCode": 0,
+          "node": "v24.19.0",
+          "sourceUnchanged": true,
+          "environmentUnchanged": true,
+          "signalPresent": false,
+          "spawnFailed": false,
+          "counts": {
+            "tests": 756,
+            "passed": 756,
+            "failed": 0,
+            "skipped": 0,
+            "cancelled": 0
+          }
+        },
+        "typecheck": {
+          "status": "passed",
+          "accepted": true,
+          "startedAt": "2026-10-22T07:03:19.575Z",
+          "finishedAt": "2026-10-22T07:03:48.640Z",
+          "exitCode": 0,
+          "node": "v24.19.0",
+          "sourceUnchanged": true,
+          "environmentUnchanged": true,
+          "signalPresent": false,
+          "spawnFailed": false
+        },
+        "build": {
+          "status": "passed",
+          "accepted": true,
+          "startedAt": "2026-10-22T07:03:48.808Z",
+          "finishedAt": "2026-10-22T07:05:03.007Z",
+          "exitCode": 0,
+          "node": "v24.19.0",
+          "sourceUnchanged": true,
+          "environmentUnchanged": true,
+          "signalPresent": false,
+          "spawnFailed": false
+        },
+        "postgres": {
+          "status": "passed",
+          "accepted": true,
+          "startedAt": "2026-10-22T07:10:41.073Z",
+          "finishedAt": "2026-10-22T07:13:35.443Z",
+          "exitCode": 0,
+          "node": "v24.19.0",
+          "sourceUnchanged": true,
+          "environmentUnchanged": true,
+          "signalPresent": false,
+          "spawnFailed": false,
+          "counts": {
+            "tests": 513,
+            "passed": 513,
+            "failed": 0,
+            "skipped": 0,
+            "cancelled": 0,
+            "todo": 0
+          }
+        },
+        "api": {
+          "status": "pending-evidence",
+          "accepted": false,
+          "reason": "No terminal receipt is explicitly pinned in this configuration."
+        }
+      },
+      "knownBuildValuesScan": {
+        "status": "passed",
+        "scope": "compiled output only; not the final source archive",
+        "filesScanned": 3077,
+        "bytesScanned": 172741418,
+        "exactValuesChecked": 5,
+        "findings": 0,
+        "finalArchiveScan": false,
+        "completeSecurityAssessment": false
+      },
+      "promotedToCurrentExecution": false
+    },
+    {
+      "label": "asset-routing-02",
+      "source": {
+        "sha256": "2ccef3b0f97f7ec30a8d907d80131ed9e11edf4ab1280d9187137b24a6b685af",
+        "files": 832
+      },
+      "application": null,
+      "gates": {
+        "unit": {
+          "status": "not-accepted",
+          "accepted": false,
+          "startedAt": "2026-10-22T07:15:21.242Z",
+          "finishedAt": "2026-10-22T07:15:56.488Z",
+          "exitCode": 1,
+          "node": "v24.19.0",
+          "sourceUnchanged": true,
+          "environmentUnchanged": true,
+          "signalPresent": false,
+          "spawnFailed": false,
+          "counts": {
+            "tests": 756,
+            "passed": 755,
+            "failed": 1,
+            "skipped": 0,
+            "cancelled": 0
+          }
+        },
+        "typecheck": {
+          "status": "pending-evidence",
+          "accepted": false,
+          "reason": "No terminal receipt is explicitly pinned in this configuration."
+        },
+        "build": {
+          "status": "pending-evidence",
+          "accepted": false,
+          "reason": "No terminal receipt is explicitly pinned in this configuration."
+        },
+        "postgres": {
+          "status": "pending-evidence",
+          "accepted": false,
+          "reason": "No terminal receipt is explicitly pinned in this configuration."
+        },
+        "api": {
+          "status": "pending-evidence",
+          "accepted": false,
+          "reason": "No terminal receipt is explicitly pinned in this configuration."
+        }
+      },
+      "knownBuildValuesScan": {
+        "status": "pending-evidence",
+        "scope": "compiled output only; not the final source archive"
+      },
+      "promotedToCurrentExecution": false
+    },
+    {
+      "label": "asset-routing-03",
+      "source": {
+        "sha256": "981c8a90b315e4ae01de066365c3a08ae287b9afaf9202460bcf2db01161898e",
+        "files": 832
+      },
+      "application": {
+        "sha256": "0045597565fe76bf449866d397a7eee2c5927a85cda40512044de2673f583807",
+        "files": 685,
+        "buildId": "UFNFFG64Vx2uruUMUuU9z",
+        "standaloneBuildId": "UFNFFG64Vx2uruUMUuU9z"
+      },
+      "gates": {
+        "unit": {
+          "status": "passed",
+          "accepted": true,
+          "startedAt": "2026-10-22T07:17:40.368Z",
+          "finishedAt": "2026-10-22T07:18:16.235Z",
+          "exitCode": 0,
+          "node": "v24.19.0",
+          "sourceUnchanged": true,
+          "environmentUnchanged": true,
+          "signalPresent": false,
+          "spawnFailed": false,
+          "counts": {
+            "tests": 756,
+            "passed": 756,
+            "failed": 0,
+            "skipped": 0,
+            "cancelled": 0
+          }
+        },
+        "typecheck": {
+          "status": "passed",
+          "accepted": true,
+          "startedAt": "2026-10-22T07:18:16.447Z",
+          "finishedAt": "2026-10-22T07:18:45.706Z",
+          "exitCode": 0,
+          "node": "v24.19.0",
+          "sourceUnchanged": true,
+          "environmentUnchanged": true,
+          "signalPresent": false,
+          "spawnFailed": false
+        },
+        "build": {
+          "status": "passed",
+          "accepted": true,
+          "startedAt": "2026-10-22T07:18:45.934Z",
+          "finishedAt": "2026-10-22T07:20:03.546Z",
+          "exitCode": 0,
+          "node": "v24.19.0",
+          "sourceUnchanged": true,
+          "environmentUnchanged": true,
+          "signalPresent": false,
+          "spawnFailed": false
+        },
+        "postgres": {
+          "status": "passed",
+          "accepted": true,
+          "startedAt": "2026-10-22T07:20:27.220Z",
+          "finishedAt": "2026-10-22T07:23:25.765Z",
+          "exitCode": 0,
+          "node": "v24.19.0",
+          "sourceUnchanged": true,
+          "environmentUnchanged": true,
+          "signalPresent": false,
+          "spawnFailed": false,
+          "counts": {
+            "tests": 513,
+            "passed": 513,
+            "failed": 0,
+            "skipped": 0,
+            "cancelled": 0,
+            "todo": 0
+          }
+        },
+        "api": {
+          "status": "passed",
+          "accepted": true,
+          "startedAt": "2026-10-22T07:23:26.104Z",
+          "finishedAt": "2026-10-22T07:23:37.128Z",
+          "exitCode": 0,
+          "node": "v24.19.0",
+          "sourceUnchanged": true,
+          "environmentUnchanged": true,
+          "signalPresent": false,
+          "spawnFailed": false,
+          "counts": {
+            "tests": 20,
+            "passed": 20,
+            "failed": 0,
+            "skipped": 0,
+            "cancelled": 0,
+            "todo": 0
+          }
+        }
+      },
+      "knownBuildValuesScan": {
+        "status": "passed",
+        "scope": "compiled output only; not the final source archive",
+        "filesScanned": 3077,
+        "bytesScanned": 172664042,
+        "exactValuesChecked": 5,
+        "findings": 0,
+        "finalArchiveScan": false,
+        "completeSecurityAssessment": false
+      },
+      "promotedToCurrentExecution": false,
+      "currentNativeRuntimeStartup": {
+        "status": "startup-readiness-observed",
+        "readyAt": "2026-10-22T07:24:14.738357+00:00",
+        "buildId": "UFNFFG64Vx2uruUMUuU9z",
+        "health": "ok",
+        "database": "ok",
+        "privacy": "ready",
+        "workerHeartbeat": "running",
+        "compiledArtifactIdentityOnly": true,
+        "runningProcessCompletionClaimed": false,
+        "dockerOrFreshHostAcceptanceClaimed": false
+      },
+      "currentFunctionalObservation": {
+        "status": "not-accepted-limited-diagnostic-recorded",
+        "source": {
+          "sha256": "981c8a90b315e4ae01de066365c3a08ae287b9afaf9202460bcf2db01161898e",
+          "files": 832
+        },
+        "application": {
+          "sha256": "0045597565fe76bf449866d397a7eee2c5927a85cda40512044de2673f583807",
+          "files": 685,
+          "buildId": "UFNFFG64Vx2uruUMUuU9z",
+          "standaloneBuildId": "UFNFFG64Vx2uruUMUuU9z"
+        },
+        "startedAt": "2026-10-22T07:24:48.693Z",
+        "finishedAt": "2026-10-22T07:25:18.107Z",
+        "exitCode": 2,
+        "counts": {
+          "expected": 30,
+          "attempted": 30,
+          "completed": 26,
+          "errors": 4,
+          "timeouts": 0,
+          "pending": 0
+        },
+        "interrupted": false,
+        "directViews": {
+          "completed": 25,
+          "errors": 0,
+          "locales": 5
+        },
+        "clientNavigationFlows": {
+          "expected": 5,
+          "completed": 1,
+          "errors": 4,
+          "allRecordedFormAndThemeChecksPassed": true,
+          "sameDocumentNavigationSteps": 25,
+          "allRecordedSameDocumentNavigationStepsPassed": true,
+          "initialViewsBeforeMarkerAreNotSameDocumentEvidence": true
+        },
+        "staticRequestFailures": {
+          "count": 6,
+          "affectedFlows": 4,
+          "failureCode": "net::ERR_ABORTED",
+          "underlyingCauseEstablished": false
+        },
+        "pageErrors": 0,
+        "staticNon2xxResponses": 0,
+        "checkedSourceFilesUnchanged": 6,
+        "servedBuildMatchedBeforeAndAfter": true,
+        "formsFilledOrSubmitted": false,
+        "accountCreationPerformed": false,
+        "directDatabaseAccess": false,
+        "scope": "Anonymous route and link readiness; not login, registration, password reset, MFA completion, visual parity or performance acceptance.",
+        "diagnosticReference": "anonymous-auth-navigation-diagnostic.json"
+      },
+      "currentBrowserRegression": {
+        "status": "passed",
+        "source": {
+          "files": 832,
+          "sha256": "981c8a90b315e4ae01de066365c3a08ae287b9afaf9202460bcf2db01161898e"
+        },
+        "application": {
+          "files": 685,
+          "sha256": "0045597565fe76bf449866d397a7eee2c5927a85cda40512044de2673f583807",
+          "buildId": "UFNFFG64Vx2uruUMUuU9z"
+        },
+        "execution": {
+          "exitCode": 0,
+          "startedAt": "2026-10-22T07:27:44.344Z",
+          "finishedAt": "2026-10-22T07:31:45.445Z",
+          "gateDurationMs": 241101,
+          "reportDurationMs": 240338.80000000002
+        },
+        "counts": {
+          "expected": 45,
+          "executed": 45,
+          "passed": 45,
+          "failed": 0,
+          "skipped": 0,
+          "flaky": 0,
+          "retries": 0,
+          "runnerErrors": 0
+        },
+        "evidence": "browser-regression-asset-routing-current.json",
+        "separateAuthNavigationFailuresReclassified": false,
+        "independentVisualWorkerOrFullLighthouseAcceptanceClaimed": false
+      },
+      "currentAnonymousAuthDiagnostic": {
+        "reference": "anonymous-auth-navigation-diagnostic.json",
+        "originalCounts": {
+          "expected": 30,
+          "attempted": 30,
+          "completed": 26,
+          "errors": 4,
+          "timeouts": 0,
+          "pending": 0
+        },
+        "instrumentedCounts": {
+          "expected": 5,
+          "attempted": 5,
+          "completed": 0,
+          "errors": 5,
+          "timeouts": 0,
+          "pending": 0
+        },
+        "instrumentedExitCode": 2,
+        "staticFailureCount": 9,
+        "allFailuresBeforeContextCloseRequest": true,
+        "workerErrorsObservedAfterTheirTerminateCalls": true,
+        "interpretation": "Consistent with obsolete Worker dependency cancellation during route changes; unique request-to-Worker ownership and a definitive cause are not established.",
+        "underlyingCauseEstablished": false,
+        "historicalOutcomesReclassified": false,
+        "readyMessagesObserved": 0,
+        "rendererOrPerformanceAcceptanceClaimed": false
+      },
+      "currentPrivateA11y": {
+        "reference": "private-fast-axe-asset-routing-03.json",
+        "status": "not-accepted",
+        "accepted": false,
+        "binding": {
+          "source": {
+            "sha256": "981c8a90b315e4ae01de066365c3a08ae287b9afaf9202460bcf2db01161898e",
+            "files": 832
+          },
+          "application": {
+            "sha256": "0045597565fe76bf449866d397a7eee2c5927a85cda40512044de2673f583807",
+            "files": 685
+          },
+          "publicBuildId": "UFNFFG64Vx2uruUMUuU9z"
+        },
+        "execution": {
+          "startedAt": "2026-10-22T07:41:48.484Z",
+          "finishedAt": "2026-10-22T07:46:15.939Z",
+          "exitCode": 2,
+          "state": "completed",
+          "interrupted": false,
+          "failureCode": null,
+          "roleProcessesCompleted": true
+        },
+        "counts": {
+          "expected": 122,
+          "attempted": 122,
+          "completed": 121,
+          "errors": 1,
+          "timeouts": 0,
+          "pending": 0,
+          "violations": 0,
+          "violationNodes": 0,
+          "incomplete": 233,
+          "incompleteNodes": 5928
+        },
+        "coverage": {
+          "selectedInventoryCoverageComplete": true,
+          "axeDocumentsAnalyzed": 122,
+          "measurementCompleted": false,
+          "analysisCompleted": false,
+          "automatedA11yPass": false,
+          "manualReviewRequired": true,
+          "fullAccessibilityConformanceClaimed": false,
+          "fullProtectedInventoryCoverageClaimed": false
+        },
+        "cleanup": {
+          "fixtureCleanupPassed": true,
+          "ownedBrowserCleanupPassed": true,
+          "workloadUnchanged": true,
+          "sourceUnchanged": true
+        },
+        "failedCases": [
+          "case-073"
+        ],
+        "failureCode": "AUDIT_PROTECTED_PAGE_CHECK_FAILED",
+        "keyboardScrollObservation": {
+          "performed": true,
+          "selector": ".ws-palette-items",
+          "key": "PageDown",
+          "mutatesApplicationData": false,
+          "focusVerified": true,
+          "scrollAdvanced": true,
+          "scrollRestored": false,
+          "scrollable": true,
+          "before": {
+            "focused": true,
+            "top": 0,
+            "clientHeight": 195,
+            "scrollHeight": 675
+          },
+          "after": {
+            "focused": true,
+            "top": 13
+          },
+          "passed": false
+        },
+        "restorationCauseEstablished": false,
+        "incompleteAreUniqueDefectCounts": false,
+        "manualReviewRequired": true,
+        "historicalPassedCohortSubstituted": false
+      },
+      "currentPaletteFollowup": {
+        "reference": "palette-scroll-observation.json",
+        "timing": {
+          "startedAt": "2026-10-22T08:01:37.643Z",
+          "finishedAt": "2026-10-22T08:01:42.460Z",
+          "durationMs": 4817
+        },
+        "overallOutcome": {
+          "state": "completed",
+          "passed": false,
+          "exitCode": 2,
+          "failureCode": "AUDIT_PALETTE_BROWSER_ERROR",
+          "interrupted": false,
+          "deadlineReached": false
+        },
+        "targetedChecks": {
+          "normalMotion": true,
+          "focusVerified": true,
+          "scrollable": true,
+          "scrollAdvanced": true,
+          "keyboardMotionSettled": true,
+          "savedPositionsRestored": true,
+          "restorationSettled": true,
+          "focusRestored": true
+        },
+        "targetedCheckCounts": {
+          "passed": 8,
+          "failed": 0
+        },
+        "positions": {
+          "saved": {
+            "top": 0,
+            "left": 0,
+            "windowX": 0,
+            "windowY": 0
+          },
+          "restoredImmediate": {
+            "top": 0,
+            "left": 0,
+            "windowX": 0,
+            "windowY": 0
+          },
+          "restoredAfterSettle": {
+            "top": 0,
+            "left": 0,
+            "windowX": 0,
+            "windowY": 0
+          }
+        },
+        "beforeTop": 0,
+        "afterPageDownTop": 170,
+        "requestAndPageObservation": {
+          "blockedMutationRequests": 1,
+          "blockedExternalRequests": 0,
+          "pageErrors": 0,
+          "blockedRequestMethodAndPathRecorded": false,
+          "blockedRequestCauseEstablished": false,
+          "interpretation": "One request outside the helper allowlist was blocked. Its method, path and cause were not recorded; this does not establish which application action attempted it."
+        },
+        "fastRunOutcomeReclassified": false,
+        "acceptedByEightTargetedChecks": false
+      },
+      "currentWorkerVerification": {
+        "reference": "frontend-visual-worker-asset-routing-03.json",
+        "status": "completed-targeted-scenarios",
+        "acceptedWithinRecordedScope": true,
+        "startedAt": "2026-10-22T07:50:37.839Z",
+        "finishedAt": "2026-10-22T07:51:52.269Z",
+        "supervisingToolExitCode": 0,
+        "expected": 6,
+        "attempted": 6,
+        "completed": 6,
+        "errors": 0,
+        "pending": 0,
+        "recordedChecks": 66,
+        "recordedChecksTrue": 66,
+        "normalAnimation": true,
+        "browserClosed": true,
+        "checkedApplicationInputCount": 12,
+        "checkedApplicationInputsUnchanged": true,
+        "helperFilesUnchanged": true,
+        "syntheticInputsSubmitted": false,
+        "fullBrowserSuiteReplacement": false,
+        "pixelEquivalenceClaimed": false,
+        "performanceScoringPerformed": false,
+        "fieldInpClaimed": false,
+        "separateAuthOrFastFailuresReclassified": false
+      },
+      "currentVisualObservationAndComparison": {
+        "reference": "frontend-visual-worker-asset-routing-03.json",
+        "status": "six-observations-and-limited-recorded-value-comparison-completed",
+        "startedAt": "2026-10-22T07:52:50.006Z",
+        "finishedAt": "2026-10-22T07:53:38.180Z",
+        "supervisingToolExitCode": 0,
+        "expected": 6,
+        "completed": 6,
+        "captureErrors": 0,
+        "recordedChecks": 42,
+        "recordedChecksTrue": 42,
+        "viewport": {
+          "width": 1280,
+          "height": 900,
+          "deviceScaleFactor": 1
+        },
+        "normalAnimation": true,
+        "buildUnchanged": true,
+        "captureSummaryComparisonPerformed": false,
+        "offlineRecordedValueComparison": {
+          "performed": true,
+          "priorPublicBuildId": "8dbsk8DNW5JXfEcUEW6u_",
+          "currentPublicBuildId": "UFNFFG64Vx2uruUMUuU9z",
+          "viewPairs": 6,
+          "viewportExactlyEqual": true,
+          "allSixRecordedObservationObjectsExactlyEqual": true,
+          "screenshotsComparedByThisProjection": false,
+          "pixelEquivalenceClaimed": false,
+          "materialEquivalenceClaimed": false,
+          "newManualImageReviewClaimed": false
+        },
+        "comprehensiveAppearanceEquivalenceEstablished": false,
+        "priorDarkRubikTimingMaterialUncertaintyResolved": false
+      },
+      "evidenceReferences": [
+        "native-gates-asset-routing-current.json",
+        "source-scope-bridge-asset-routing-current.json",
+        "css-asset-routing-current.json",
+        "browser-regression-asset-routing-current.json",
+        "anonymous-auth-navigation-diagnostic.json",
+        "private-fast-axe-asset-routing-03.json",
+        "palette-scroll-observation.json",
+        "frontend-visual-worker-asset-routing-03.json"
+      ]
+    },
+    {
+      "label": "staff-mfa-recovery-05-r3",
+      "source": {
+        "sha256": "b558b14372e94eb6f173d0de3ddc84097fb74ee7b60d1a9ff596fbb3d426d3f5",
+        "files": 834
+      },
+      "postgres": {
+        "exitCode": 1,
+        "gateExitCode": 1,
+        "accepted": false,
+        "counts": {
+          "tests": 526,
+          "passed": 523,
+          "failed": 3,
+          "skipped": 0,
+          "cancelled": 0,
+          "todo": 0
+        },
+        "sourceUnchanged": true,
+        "environmentUnchanged": true
+      },
+      "subsequentTestOnlyFixtureRepairApplied": true,
+      "promotedToCurrentExecution": false
+    },
+    {
+      "label": "staff-mfa-recovery-05-r4",
+      "source": {
+        "sha256": "19044d087929a9edfe8c2a16c786915567edd87a9bd48caa009a2e1da6ea64f4",
+        "files": 834
+      },
+      "application": {
+        "sha256": "30a8ab7365218e8ee4ace5c814ae3deeeea4b36c7d0950a9fb1d3407cf8a2264",
+        "files": 685,
+        "buildId": "6zYPGs6att2TeUwSprugE",
+        "standaloneBuildId": "6zYPGs6att2TeUwSprugE"
+      },
+      "gates": {
+        "unit": {
+          "status": "passed",
+          "accepted": true,
+          "resultAvailable": true,
+          "startedAt": "2026-10-22T10:47:37.164Z",
+          "finishedAt": "2026-10-22T10:48:17.335Z",
+          "exitCode": 0,
+          "gateExitCode": 0,
+          "sourceUnchanged": true,
+          "environmentFingerprintRecorded": false,
+          "environmentUnchanged": null,
+          "counts": {
+            "tests": 760,
+            "passed": 760,
+            "failed": 0,
+            "skipped": 0,
+            "cancelled": 0
+          },
+          "expectedTests": 760
+        },
+        "typecheck": {
+          "status": "passed",
+          "accepted": true,
+          "resultAvailable": true,
+          "startedAt": "2026-10-22T10:47:29.672Z",
+          "finishedAt": "2026-10-22T10:48:00.060Z",
+          "exitCode": 0,
+          "gateExitCode": 0,
+          "sourceUnchanged": true,
+          "environmentFingerprintRecorded": false,
+          "environmentUnchanged": null
+        },
+        "build": {
+          "status": "passed",
+          "accepted": true,
+          "resultAvailable": true,
+          "startedAt": "2026-10-22T10:47:35.762Z",
+          "finishedAt": "2026-10-22T10:48:52.973Z",
+          "exitCode": 0,
+          "gateExitCode": 0,
+          "sourceUnchanged": true,
+          "environmentFingerprintRecorded": true,
+          "environmentUnchanged": true
+        },
+        "postgres": {
+          "status": "passed",
+          "accepted": true,
+          "resultAvailable": true,
+          "startedAt": "2026-10-22T10:47:35.453Z",
+          "finishedAt": "2026-10-22T10:51:28.597Z",
+          "exitCode": 0,
+          "gateExitCode": 0,
+          "sourceUnchanged": true,
+          "environmentFingerprintRecorded": true,
+          "environmentUnchanged": true,
+          "counts": {
+            "tests": 526,
+            "passed": 526,
+            "failed": 0,
+            "skipped": 0,
+            "cancelled": 0,
+            "todo": 0
+          },
+          "expectedTests": 526
+        },
+        "api": {
+          "status": "passed",
+          "accepted": true,
+          "resultAvailable": true,
+          "startedAt": "2026-10-22T10:51:45.301Z",
+          "finishedAt": "2026-10-22T10:51:55.103Z",
+          "exitCode": 0,
+          "gateExitCode": 0,
+          "sourceUnchanged": true,
+          "environmentFingerprintRecorded": true,
+          "environmentUnchanged": true,
+          "counts": {
+            "tests": 20,
+            "passed": 20,
+            "failed": 0,
+            "skipped": 0,
+            "cancelled": 0,
+            "todo": 0
+          },
+          "expectedTests": 20
+        }
+      },
+      "knownBuildValuesScan": {
+        "status": "passed",
+        "accepted": true,
+        "startedAt": "2026-10-22T10:50:28.616Z",
+        "finishedAt": "2026-10-22T10:50:30.658Z",
+        "buildId": "6zYPGs6att2TeUwSprugE",
+        "filesScanned": 3771,
+        "bytesScanned": 1281387554,
+        "privateValuesChecked": 7,
+        "findings": 0,
+        "symlinksSkipped": 0,
+        "finalArchiveScan": false,
+        "scope": "compiled-output-exact-known-values-only",
+        "completeSecurityAcceptanceInferred": false
+      },
+      "promotedToCurrentExecution": false,
+      "currentNativeRuntimeStartup": {
+        "status": "startup-readiness-observed",
+        "accepted": true,
+        "startedAt": "2026-10-22T10:49:46.383726+00:00",
+        "readyAt": "2026-10-22T10:49:47.893634+00:00",
+        "buildId": "6zYPGs6att2TeUwSprugE",
+        "health": "ok",
+        "database": "ok",
+        "privacyLedger": "ready",
+        "compiledArtifactIdentityOnly": true,
+        "databaseCreatedOrResetByStart": false,
+        "workflowAcceptanceInferred": false,
+        "browserAcceptanceInferred": false
+      },
+      "currentBrowserRegression": {
+        "status": "passed",
+        "accepted": true,
+        "expectedTests": 46,
+        "observedTests": 46,
+        "counts": {
+          "passed": 46,
+          "failed": 0,
+          "skipped": 0,
+          "flaky": 0
+        },
+        "execution": {
+          "startedAt": "2026-10-22T10:52:49.883Z",
+          "finishedAt": "2026-10-22T10:57:03.904Z",
+          "exitCode": 0,
+          "gateExitCode": 0
+        },
+        "completeSuiteSelection": true,
+        "singleAttempt": true,
+        "noRetry": true,
+        "sourceUnchanged": true,
+        "environmentUnchanged": true,
+        "currentStaffMfaRecoveryCasePassed": true,
+        "functionalTestIsNotLighthouseScore": true,
+        "privateReusableFactorCollectionCompleted": true,
+        "privateReusableFactorCollectionScope": "Captured reusable factors of this completed browser run; final archive known-value scanning remains separate."
+      },
+      "currentPrivateA11y": {
+        "status": "passed",
+        "accepted": true,
+        "acceptedScope": "selected-122-scenario-automated-audit",
+        "expectedScenarios": 122,
+        "measurementCompleted": true,
+        "execution": {
+          "state": "completed",
+          "startedAt": "2026-10-22T10:58:28.174Z",
+          "finishedAt": "2026-10-22T11:03:05.122Z",
+          "exitCode": 0,
+          "interrupted": false,
+          "failureCode": null
+        },
+        "counts": {
+          "expected": 122,
+          "attempted": 122,
+          "completed": 122,
+          "errors": 0,
+          "timeouts": 0,
+          "pending": 0,
+          "violations": 0,
+          "violationNodes": 0,
+          "incomplete": 233,
+          "incompleteNodes": 6055
+        },
+        "analysisCompleted": true,
+        "automatedA11yPass": true,
+        "manualReviewRequired": true,
+        "incompleteAreUniqueDefectCounts": false,
+        "allRoleRouteCombinationsCovered": false,
+        "workflowActionsMeasured": false,
+        "fullAccessibilityConformanceClaimed": false,
+        "performanceScoringPerformed": false,
+        "sourceUnchanged": true,
+        "workloadUnchanged": true,
+        "fixtureCleanupPassed": true,
+        "ownedBrowserCleanupPassed": true,
+        "resultBasis": "actual-terminal-and-verified-public-projection",
+        "publicDerivativeState": "verified",
+        "publicDerivativeReference": "private-fast-axe-staff-mfa-recovery-05-r4.json",
+        "historicalFailedOutcomesReclassified": false,
+        "cleanupObservationTimeScope": "terminal-time-only"
+      },
+      "currentPrivateFullLighthouse": {
+        "performedForCurrentSource": false,
+        "measurementCompleted": false,
+        "historicalPrivate530Reference": "lighthouse-private-workspace-target-04-full/summary.json",
+        "decisionOnAdditionalCurrentRun": "not-repeated-for-current-cohort",
+        "historicalResultsRelabeled": false,
+        "decisionBasis": [
+          "currentNativeGates",
+          "currentBrowserRegression",
+          "currentPrivateA11y",
+          "currentSourceApplicability"
+        ],
+        "decisionScope": "Scoped MFA change is evaluated through current functional, database, 46-browser and selected fast evidence; this is not a new full private Lighthouse measurement or coverage of every role-route combination."
+      },
+      "currentStaffMfaRecovery": {
+        "implemented": true,
+        "executionAcceptance": "passed-current-unit-postgres-and-browser-suites",
+        "operatorGuide": "../../USER-MANAGEMENT.fa.md",
+        "scope": "fresh-superadmin-password-and-totp-for-other-active-staff",
+        "selfResetAllowed": false,
+        "environmentOnlyModeAllowsPanelReset": false,
+        "newEnvironmentIdentityAdoptionAllowed": false,
+        "notificationQueueImpliesDelivery": false,
+        "currentBrowserCasePassed": true,
+        "productionDeploymentAcceptanceInferred": false
+      },
+      "currentPublicMetadata": {
+        "status": "passed",
+        "acceptedWithinAutomatedMetadataScope": true,
+        "execution": {
+          "startedAt": "2026-10-22T11:12:52.625933+00:00",
+          "finishedAt": "2026-10-22T11:13:09.164323+00:00",
+          "exitCode": 0
+        },
+        "buildId": "6zYPGs6att2TeUwSprugE",
+        "counts": {
+          "expected": 620,
+          "checked": 620,
+          "passed": 620,
+          "errors": 0,
+          "warnings": 0
+        },
+        "coverageComplete": true,
+        "resultBasis": "actual-process-terminal-and-metadata-summary",
+        "publicDerivativeState": "verified",
+        "publicDerivativeReference": "public-metadata-staff-mfa-recovery-05-r4/summary.json",
+        "lighthousePerformanceMeasuredByThisCheck": false,
+        "searchRankingGuaranteed": false,
+        "humanEditorialReviewInferred": false,
+        "metadataInventoryUsedAsLighthouseInventory": false,
+        "metricEquivalenceReference": "public-metadata-staff-mfa-recovery-05-r4/metric-equivalence.json",
+        "integrityReference": "public-metadata-staff-mfa-recovery-05-r4/package-integrity.json"
+      },
+      "currentSourceApplicability": {
+        "reference": "source-scope-bridge-staff-mfa-current.json",
+        "status": "current-input-bytes-and-name-sets-matched",
+        "sourceFiles": 834,
+        "applicationFiles": 685,
+        "sourceChangesFrom04": {
+          "identicalFiles": 826,
+          "modifiedFiles": 6,
+          "addedFiles": 2,
+          "removedFiles": 0
+        },
+        "applicationChangesFrom04": {
+          "identicalFiles": 681,
+          "modifiedFiles": 4,
+          "addedFiles": 0,
+          "removedFiles": 0
+        },
+        "privateCheckboxCssAddedBytesFrom03": 50,
+        "cssIdenticalBetween04And05": true,
+        "publicAssetsUnchangedFrom03": 133,
+        "selectedExperienceAndHeroInputsUnchangedFrom03": 32,
+        "pixelOrPerformanceEquivalenceClaimed": false,
+        "newWorkerOrVisualExecutionClaimed": false
+      },
+      "reportedTestCountsTotal": 1352,
+      "reportedTestCountsComponents": {
+        "unit": 760,
+        "postgres": 526,
+        "api": 20,
+        "browser": 46
+      },
+      "publicFullLighthouse": {
+        "status": "measurement-completed",
+        "measurementCompleted": true,
+        "executionCohort": "staff-mfa-recovery-05-r4",
+        "finishedAt": "2026-10-22T13:26:04.885546+00:00",
+        "childExitCode": 0,
+        "supervisorExitCode": 0,
+        "counts": {
+          "expected": 620,
+          "attempted": 620,
+          "pending": 0,
+          "completed": 615,
+          "expectedHttpResponses": 5,
+          "errors": 0,
+          "timeouts": 0,
+          "allAttempts": 620
+        },
+        "rawLhrReportCount": 620,
+        "coverageComplete": true,
+        "singleAttemptPerCase": true,
+        "sourceIdentityUnchanged": true,
+        "cleanupErrors": 0,
+        "warnings": {
+          "records": 5,
+          "occurrences": 5,
+          "allExpectedHttp404": true,
+          "scoredHttp200Warnings": 0,
+          "auditWarnings": 0
+        },
+        "runtimeErrors": {
+          "scoredHttp200": 0,
+          "expectedHttp404": {
+            "ERRORED_DOCUMENT_REQUEST": 5
+          },
+          "executionErrorStatusCount": 0
+        },
+        "scoreBudget": {
+          "evaluated": false,
+          "passed": null,
+          "reason": "Coverage and completed measurements do not establish that any score threshold passed."
+        },
+        "scoreSummary": {
+          "allScored": {
+            "cases": 615,
+            "performance": {
+              "minimum": 50,
+              "median": 73,
+              "maximum": 88
+            },
+            "accessibility100": 615,
+            "bestPractices100": 615,
+            "seo": {
+              "100": 548,
+              "92": 42,
+              "58": 25
+            }
+          },
+          "indexable": {
+            "cases": 590,
+            "performance": {
+              "minimum": 50,
+              "median": 73,
+              "maximum": 88
+            },
+            "seo": {
+              "100": 548,
+              "92": 42
+            },
+            "simulatedLcpMs": {
+              "median": 4067.573575,
+              "maximum": 8945.206
+            },
+            "totalBlockingTimeMs": {
+              "median": 485.5,
+              "maximum": 1392.0751
+            },
+            "cumulativeLayoutShift": {
+              "median": 0,
+              "maximum": 0.10109676976542656
+            }
+          },
+          "intentionalNoindex": {
+            "cases": 25,
+            "performance": {
+              "minimum": 67,
+              "median": 78,
+              "maximum": 87
+            },
+            "seo": {
+              "58": 25
+            }
+          },
+          "expectedHttp404": {
+            "cases": 5,
+            "numericScoresPresent": false
+          },
+          "fieldPerformanceOrInpClaimed": false
+        },
+        "summaryReference": "lighthouse-public/summary.json",
+        "metricEquivalenceReference": "lighthouse-public/metric-equivalence.json",
+        "integrityReference": "lighthouse-public/package-integrity.json",
+        "publicDerivativeVerified": true,
+        "compactValidation": {
+          "failedCheckerV2Retained": true,
+          "failedCheckerV2Reason": "FULL_REPORT_OR_PART_COVERAGE_MISMATCH",
+          "correctedCheckerV3Passed": true,
+          "http200ScoredReports": 615,
+          "expectedHttp404Reports": 5,
+          "totalReports": 620,
+          "nonVisualOutcomes": 94860,
+          "rawOrCompactMutated": false,
+          "browserAuditRerunForChecker": false
+        },
+        "rerunOn06": false
+      },
+      "evidenceReferences": [
+        "private-fast-axe-staff-mfa-recovery-05-r4.json",
+        "public-metadata-staff-mfa-recovery-05-r4/summary.json",
+        "public-metadata-staff-mfa-recovery-05-r4/metric-equivalence.json",
+        "public-metadata-staff-mfa-recovery-05-r4/package-integrity.json",
+        "lighthouse-public/summary.json",
+        "lighthouse-public/metric-equivalence.json",
+        "lighthouse-public/package-integrity.json",
+        "source-scope-bridge-staff-mfa-current.json"
+      ]
+    }
+  ],
+  "historicalSource": {
+    "sha256": "71ae23d3db96eb7825bd1762b6992c2494066e02415f5545b26b12663837fc2a",
+    "files": 831
+  },
+  "historicalEvidence": [
+    "native-gates-a11y-readiness.json",
+    "source-scope-bridge.json",
+    "frontend-visual-worker-summary.json",
+    "private-fast-a11y-readiness.json",
+    "private-fast-diagnostic-before-correction.json",
+    "private-lighthouse-baseline-interrupted.json",
+    "css-external-styles-comparison.json",
+    "operational-source-applicability-reconnected.json",
+    "devops-runtime-boundaries-reconnected.json",
+    "container-build-capability-current.json",
+    "dependency-advisory-summary-reconnected.json"
+  ],
+  "productionAcceptanceComplete": false,
+  "liveCustomerDeploymentCompleted": false,
+  "allPageLighthouseCompleted": false,
+  "originalDockerfileFullBuildVerified": false,
+  "freshHostFullRecoveryVerified": false,
+  "googleRankingGuaranteed": false,
+  "historicalEvidencePromotedToNewExecution": false,
+  "performanceImprovementAccepted": false,
+  "performanceLimit": "The historical asset-routing-03 observation retained the 56,780-byte account stylesheet in sampled public, auth and admin entries, with zero public CSS byte reduction against asset01. That is not a current06 measurement. The full public05 baseline measured Performance 50–88 (median73) across615 scored pages and retained42 indexable SEO92 results. The current06 source bridge proves only a189-byte two-component semantic link-text change and unchanged remaining input bytes; it establishes no broad performance or CSS gain.",
+  "evidence": [
+    "native-gates-asset-routing-current.json",
+    "source-scope-bridge-asset-routing-current.json",
+    "css-asset-routing-current.json",
+    "browser-regression-asset-routing-current.json",
+    "anonymous-auth-navigation-diagnostic.json",
+    "private-fast-axe-asset-routing-03.json",
+    "palette-scroll-observation.json",
+    "frontend-visual-worker-asset-routing-03.json",
+    "lighthouse-private-workspace-target-04-full/summary.json",
+    "lighthouse-private-workspace-target-04-full/metric-equivalence.json",
+    "lighthouse-private-workspace-target-04-full/package-integrity.json",
+    "private-fast-axe-workspace-target-04.json",
+    "container-build-capability-current.json",
+    "source-scope-bridge-staff-mfa-current.json",
+    "private-fast-axe-staff-mfa-recovery-05-r4.json",
+    "public-metadata-staff-mfa-recovery-05-r4/summary.json",
+    "public-metadata-staff-mfa-recovery-05-r4/metric-equivalence.json",
+    "public-metadata-staff-mfa-recovery-05-r4/package-integrity.json",
+    "lighthouse-public/summary.json",
+    "lighthouse-public/metric-equivalence.json",
+    "lighthouse-public/package-integrity.json",
+    "source-scope-bridge-public-link-text-current.json",
+    "lighthouse-public-link-text-seo-06/summary.json",
+    "lighthouse-public-link-text-seo-06/metric-equivalence.json",
+    "lighthouse-public-link-text-seo-06/package-integrity.json",
+    "public-link-text-appearance-current.json"
+  ],
+  "currentNativeRuntimeStartup": {
+    "status": "startup-readiness-observed",
+    "accepted": true,
+    "executionCohort": "link-text-seo-06",
+    "startedAt": "2026-10-22T13:53:36.950129+00:00",
+    "readyAt": "2026-10-22T13:53:39.036129+00:00",
+    "buildId": "yYjrbjXGc-JUKXS2hIubP",
+    "health": "ok",
+    "database": "ok",
+    "privacyLedger": "ready",
+    "compiledArtifactIdentityOnly": true,
+    "databaseCreatedOrResetByStart": false,
+    "workflowAcceptanceInferred": false,
+    "browserAcceptanceInferred": false,
+    "productionDeploymentAcceptanceInferred": false
+  },
+  "currentFunctionalObservation": {
+    "status": "bounded-link-appearance-observation-with-capture-guard-failures",
+    "accepted": false,
+    "reference": "public-link-text-appearance-current.json",
+    "baselineCohort": "staff-mfa-recovery-05-r4",
+    "currentCohort": "link-text-seo-06",
+    "observedBranches": 3,
+    "observedLinks": 8,
+    "allPerLinkComparisonChecksPassed": true,
+    "contentAndAppearanceComparisonPassed": true,
+    "bothOriginalCaptureGuardsPassed": false,
+    "baselineCaptureOverallPassed": false,
+    "afterCaptureOverallPassed": false,
+    "overallValidationPassed": false,
+    "baselineCaptureExitCode": 2,
+    "afterCaptureExitCode": 2,
+    "comparatorExitCode": 2,
+    "requestFailures": {
+      "baseline": 38,
+      "after": 36,
+      "recordedErrorCode": "net::ERR_ABORTED",
+      "causeEstablished": false
+    },
+    "fullPageAppearanceClaimed": false,
+    "pixelEqualityClaimed": false,
+    "performanceImprovementClaimed": false,
+    "imageFilesIncludedInReleasePackage": false,
+    "historicalFailureReclassified": false
+  },
+  "staticCssObservationReference": "css-asset-routing-current.json",
+  "publicCssSizeReductionEstablished": false,
+  "dependencyAdvisory": {
+    "reference": "dependency-advisory-summary-reconnected.json",
+    "collectionCompletedAt": "2026-10-22T05:28:35.216582+00:00",
+    "measurementCompleted": true,
+    "production": {
+      "exitCode": 0,
+      "reportedVulnerabilities": 0
+    },
+    "fullDependencyTree": {
+      "exitCode": 1,
+      "reportedVulnerabilities": 7,
+      "high": 5,
+      "moderate": 2,
+      "allAffectedEntriesDevelopmentOnly": true,
+      "distinctUnderlyingAdvisories": 2
+    },
+    "rawFindingCountsReducedForBackportInterpretation": false,
+    "dependencyInputsChanged": false,
+    "remediationInstalled": false,
+    "productionZeroEstablishesApplicationOrImageSecurity": false
+  },
+  "currentBrowserRegression": {
+    "status": "not-rerun-on-current06",
+    "performedForCurrentSource": false,
+    "baselineCohort": "staff-mfa-recovery-05-r4",
+    "baselineResultReference": "priorExecutedCohorts[staff-mfa-recovery-05-r4].currentBrowserRegression",
+    "baselineResultRetained": true,
+    "sourceApplicabilityReference": "source-scope-bridge-public-link-text-current.json",
+    "historicalResultPromotedToCurrentExecution": false
+  },
+  "currentAnonymousAuthDiagnostic": {
+    "status": "historical-only",
+    "accepted": false,
+    "reference": "anonymous-auth-navigation-diagnostic.json",
+    "currentSourceExecutionClaimed": false
+  },
+  "currentPrivateA11y": {
+    "status": "not-rerun-on-current06",
+    "performedForCurrentSource": false,
+    "baselineCohort": "staff-mfa-recovery-05-r4",
+    "baselineResultReference": "priorExecutedCohorts[staff-mfa-recovery-05-r4].currentPrivateA11y",
+    "baselineResultRetained": true,
+    "sourceApplicabilityReference": "source-scope-bridge-public-link-text-current.json",
+    "historicalResultPromotedToCurrentExecution": false
+  },
+  "currentPaletteFollowup": {
+    "status": "historical-only",
+    "reference": "palette-scroll-observation.json",
+    "currentSourceExecutionClaimed": false
+  },
+  "currentWorkerVerification": {
+    "status": "historical-only",
+    "reference": "frontend-visual-worker-asset-routing-03.json",
+    "currentSourceExecutionClaimed": false,
+    "sourceApplicabilityBridgePending": false,
+    "sourceApplicabilityReference": "source-scope-bridge-staff-mfa-current.json",
+    "sourceApplicabilityEstablishesNewExecution": false,
+    "sourceApplicabilityReferences": [
+      "source-scope-bridge-staff-mfa-current.json",
+      "source-scope-bridge-public-link-text-current.json"
+    ]
+  },
+  "currentVisualObservationAndComparison": {
+    "status": "historical-only",
+    "reference": "frontend-visual-worker-asset-routing-03.json",
+    "currentSourceExecutionClaimed": false,
+    "sourceApplicabilityBridgePending": false,
+    "sourceApplicabilityReference": "source-scope-bridge-staff-mfa-current.json",
+    "sourceApplicabilityEstablishesNewExecution": false,
+    "sourceApplicabilityReferences": [
+      "source-scope-bridge-staff-mfa-current.json",
+      "source-scope-bridge-public-link-text-current.json"
+    ]
+  },
+  "historicalPrivateLighthouse": {
+    "label": "workspace-target-04",
+    "source": {
+      "sha256": "17c709a725bebcdf51f081402c0dfb1c3d27b1fa18267a0d6130788cb8708ba7",
+      "files": 832
+    },
+    "application": {
+      "sha256": "5effbe2eb13bf0d85d6bf7c8bc1c585fa91ba98238f949c08d6e56194f294880",
+      "files": 685,
+      "buildId": "pI34d4E4cOI25iRFMK_j9"
+    },
+    "scope": "private",
+    "counts": {
+      "expected": 530,
+      "attempted": 530,
+      "pending": 0,
+      "completed": 530,
+      "expectedHttpResponses": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "allAttempts": 530
+    },
+    "coverageComplete": true,
+    "measurementCompleted": true,
+    "scoreBudget": {
+      "evaluated": false,
+      "passed": null,
+      "reason": "Coverage and completed measurements do not establish that any score threshold passed."
+    },
+    "finalRelease": false,
+    "summaryReference": "lighthouse-private-workspace-target-04-full/summary.json",
+    "metricEquivalenceReference": "lighthouse-private-workspace-target-04-full/metric-equivalence.json",
+    "integrityReference": "lighthouse-private-workspace-target-04-full/package-integrity.json",
+    "promotedToCurrentExecution": false,
+    "fastReference": "private-fast-axe-workspace-target-04.json"
+  },
+  "currentPrivateFullLighthouse": {
+    "performedForCurrentSource": false,
+    "measurementCompleted": false,
+    "historicalPrivate530Reference": "lighthouse-private-workspace-target-04-full/summary.json",
+    "decisionOnAdditionalCurrentRun": "not-repeated-for-05-or-06",
+    "historicalResultsRelabeled": false,
+    "decisionBasis": [
+      "baseline05-native-database-browser46-and-fast122-results",
+      "source-scope-bridge-staff-mfa-current.json",
+      "source-scope-bridge-public-link-text-current.json"
+    ],
+    "decisionScope": "The 05 MFA change was tested with native/database/browser/selected-fast checks; 06 changes only two public leaf components. No new full private Lighthouse measurement or all-role-route coverage is claimed."
+  },
+  "currentPublicFullLighthouse": {
+    "status": "not-repeated-for-current06",
+    "measurementCompleted": false,
+    "performedForCurrentSource": false,
+    "baselineCohort": "staff-mfa-recovery-05-r4",
+    "baselineReference": "lighthouse-public/summary.json",
+    "baselineInventoryCoverageComplete": true,
+    "baselineAttempts": 620,
+    "currentTargetedSubsetIsFullInventory": false
+  },
+  "currentStaffMfaRecovery": {
+    "implemented": true,
+    "executionAcceptance": "passed-on-baseline05-unchanged-source-scope-in06",
+    "operatorGuide": "../../USER-MANAGEMENT.fa.md",
+    "scope": "fresh-superadmin-password-and-totp-for-other-active-staff",
+    "selfResetAllowed": false,
+    "environmentOnlyModeAllowsPanelReset": false,
+    "newEnvironmentIdentityAdoptionAllowed": false,
+    "notificationQueueImpliesDelivery": false,
+    "currentBrowserCasePassed": null,
+    "productionDeploymentAcceptanceInferred": false,
+    "executionCohort": "staff-mfa-recovery-05-r4",
+    "baselineBrowserCasePassed": true,
+    "browserCaseRerunOn06": false,
+    "sourceApplicabilityReference": "source-scope-bridge-public-link-text-current.json",
+    "currentBrowserCaseNotRunOn06": true
+  },
+  "migrationCompatibility": {
+    "exactHistoricalRecoveredRange": "001-024",
+    "explicitlyReconstructedRangeWithNewChecksums": "025-034",
+    "freshDatabaseTestsAccepted": true,
+    "historicalPreReconstructionLedgerUpgradeAutomatic": false,
+    "ledgerOrChecksumRewritingAllowed": false,
+    "historicalMigrationRequiresIndependentSchemaAndBackfillReview": true
+  },
+  "currentDraftNotYetFinalized": true,
+  "reportedTestCountsTotal": 760,
+  "reportedTestCountsComponents": {
+    "unit": 760
+  },
+  "reportedTestCountIsNotIndependentSecurityAssertionCount": true,
+  "evidenceScopes": {
+    "native-gates-asset-routing-current.json": "historical-asset-routing-03",
+    "source-scope-bridge-asset-routing-current.json": "historical-asset-routing-03",
+    "css-asset-routing-current.json": "historical-asset-routing-03",
+    "browser-regression-asset-routing-current.json": "historical-asset-routing-03",
+    "anonymous-auth-navigation-diagnostic.json": "historical-asset-routing-03",
+    "private-fast-axe-asset-routing-03.json": "historical-asset-routing-03",
+    "palette-scroll-observation.json": "historical-asset-routing-03",
+    "frontend-visual-worker-asset-routing-03.json": "historical-asset-routing-03",
+    "lighthouse-private-workspace-target-04-full/summary.json": "historical-workspace-target-04",
+    "lighthouse-private-workspace-target-04-full/metric-equivalence.json": "historical-workspace-target-04",
+    "lighthouse-private-workspace-target-04-full/package-integrity.json": "historical-workspace-target-04",
+    "private-fast-axe-workspace-target-04.json": "historical-workspace-target-04",
+    "container-build-capability-current.json": "environment-capability-failure-not-docker-build",
+    "source-scope-bridge-staff-mfa-current.json": "baseline-staff-mfa-recovery-05-r4-not-rerun06",
+    "private-fast-axe-staff-mfa-recovery-05-r4.json": "baseline-staff-mfa-recovery-05-r4-not-rerun06",
+    "public-metadata-staff-mfa-recovery-05-r4/summary.json": "baseline-staff-mfa-recovery-05-r4-not-rerun06",
+    "public-metadata-staff-mfa-recovery-05-r4/metric-equivalence.json": "baseline-staff-mfa-recovery-05-r4-not-rerun06",
+    "public-metadata-staff-mfa-recovery-05-r4/package-integrity.json": "baseline-staff-mfa-recovery-05-r4-not-rerun06",
+    "lighthouse-public/summary.json": "baseline-staff-mfa-recovery-05-r4-not-rerun06",
+    "lighthouse-public/metric-equivalence.json": "baseline-staff-mfa-recovery-05-r4-not-rerun06",
+    "lighthouse-public/package-integrity.json": "baseline-staff-mfa-recovery-05-r4-not-rerun06",
+    "source-scope-bridge-public-link-text-current.json": "current06-native-gates-and-exact-two-file-input-applicability-not-runtime-equivalence",
+    "lighthouse-public-link-text-seo-06/summary.json": "current06-selected42-lighthouse-only-not-full-public06",
+    "lighthouse-public-link-text-seo-06/metric-equivalence.json": "current06-selected42-lighthouse-only-not-full-public06",
+    "lighthouse-public-link-text-seo-06/package-integrity.json": "current06-selected42-lighthouse-only-not-full-public06",
+    "public-link-text-appearance-current.json": "current06-three-branch-comparison-with-both-capture-failures-retained"
+  },
+  "staticCssObservationScope": "historical-asset-routing-03-not-current-measurement",
+  "currentPublicMetadata": {
+    "status": "not-rerun-on-current06",
+    "performedForCurrentSource": false,
+    "baselineCohort": "staff-mfa-recovery-05-r4",
+    "baselineResultReference": "priorExecutedCohorts[staff-mfa-recovery-05-r4].currentPublicMetadata",
+    "baselineResultRetained": true,
+    "sourceApplicabilityReference": "source-scope-bridge-public-link-text-current.json",
+    "historicalResultPromotedToCurrentExecution": false
+  },
+  "allCurrentPublicInventoryLighthouseCompleted": false,
+  "currentSourceApplicability": {
+    "reference": "source-scope-bridge-public-link-text-current.json",
+    "status": "current-input-bytes-and-name-sets-matched",
+    "sourceFiles": 834,
+    "applicationFiles": 685,
+    "fromCohort": "staff-mfa-recovery-05-r4",
+    "sourceChanges": {
+      "identicalFiles": 832,
+      "modifiedFiles": 2,
+      "addedFiles": 0,
+      "removedFiles": 0
+    },
+    "applicationChanges": {
+      "identicalFiles": 683,
+      "modifiedFiles": 2,
+      "addedFiles": 0,
+      "removedFiles": 0
+    },
+    "changedCodePaths": [
+      "src/components/content/CompanyContent.tsx",
+      "src/components/site/Products.tsx"
+    ],
+    "addedBytes": 189,
+    "allOtherInputsUnchanged": true,
+    "historicalExecutionRelabeled": false,
+    "pixelOrPerformanceEquivalenceClaimed": false,
+    "earlierBridgeReference": "source-scope-bridge-staff-mfa-current.json"
+  },
+  "currentTargetedPublicLighthouse": {
+    "status": "measurement-completed-for-selected42",
+    "executionCohort": "link-text-seo-06",
+    "performedForCurrentSource": true,
+    "measurementCompleted": true,
+    "counts": {
+      "expected": 42,
+      "attempted": 42,
+      "pending": 0,
+      "completed": 42,
+      "expectedHttpResponses": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "allAttempts": 42
+    },
+    "selection": {
+      "cases": 42,
+      "groups": {
+        "en/products": 17,
+        "fa/products": 17,
+        "fa/company": 8
+      },
+      "selection": "All42 previous05 SEO92 cases; no additions/omissions"
+    },
+    "execution": {
+      "startedAt": "2026-10-22T14:02:54.032933+00:00",
+      "finishedAt": "2026-10-22T14:12:18.675866+00:00",
+      "supervisorFinishedAt": "2026-10-22T14:12:18.904477+00:00",
+      "childExitCode": 0,
+      "supervisorExitCode": 0,
+      "singleAttemptPerCase": true,
+      "sourceApplicationRuntimeInventoryBuildUnchanged": true,
+      "postflightErrors": 0,
+      "runnerLockReleased": true
+    },
+    "coverageCompleteForSelected42": true,
+    "allCurrentPublicInventoryCovered": false,
+    "prior590IndexableResultsRelabeledAsCurrent": false,
+    "unmeasuredIndexablePagesRetainBaseline05": 548,
+    "runWarnings": 0,
+    "auditWarnings": 0,
+    "runtimeErrors": 0,
+    "cleanupErrors": 0,
+    "scoreBudget": {
+      "evaluated": false,
+      "passed": null,
+      "reason": "Coverage and completed measurements do not establish that any score threshold passed."
+    },
+    "scores": {
+      "performance": {
+        "numericCount": 42,
+        "min": 59,
+        "median": 67.5,
+        "max": 84,
+        "counts": {
+          "59": 2,
+          "61": 1,
+          "63": 5,
+          "64": 3,
+          "65": 5,
+          "66": 2,
+          "67": 3,
+          "68": 3,
+          "69": 3,
+          "70": 1,
+          "72": 1,
+          "73": 1,
+          "74": 2,
+          "77": 1,
+          "79": 1,
+          "80": 2,
+          "81": 2,
+          "82": 1,
+          "83": 1,
+          "84": 2
+        }
+      },
+      "accessibility": {
+        "numericCount": 42,
+        "min": 100,
+        "median": 100.0,
+        "max": 100,
+        "counts": {
+          "100": 42
+        }
+      },
+      "best-practices": {
+        "numericCount": 42,
+        "min": 100,
+        "median": 100.0,
+        "max": 100,
+        "counts": {
+          "100": 42
+        }
+      },
+      "seo": {
+        "numericCount": 42,
+        "min": 100,
+        "median": 100.0,
+        "max": 100,
+        "counts": {
+          "100": 42
+        }
+      }
+    },
+    "numericMeasurements": {
+      "first-contentful-paint": {
+        "numericCount": 42,
+        "min": 1367.4490999999998,
+        "median": 1376.9688,
+        "max": 2170.0209999999997
+      },
+      "largest-contentful-paint": {
+        "numericCount": 42,
+        "min": 3167.4491,
+        "median": 5502.824799999999,
+        "max": 6566.74705
+      },
+      "total-blocking-time": {
+        "numericCount": 42,
+        "min": 289.5,
+        "median": 470.080875,
+        "max": 769.1669500000012
+      },
+      "cumulative-layout-shift": {
+        "numericCount": 42,
+        "min": 0,
+        "median": 0.0,
+        "max": 0
+      }
+    },
+    "directLinkTextAudit": {
+      "all42ActualAuditFieldsRead": true,
+      "scoreCounts": {
+        "1": 42
+      },
+      "mode": "binary",
+      "weight": 1,
+      "reportedGenericLinkOccurrences": 0,
+      "baseline05ScoreCounts": {
+        "0": 42
+      },
+      "baseline05ReportedGenericLinkOccurrences": 118
+    },
+    "sameSelected42Baseline05": {
+      "scores": {
+        "performance": {
+          "numericCount": 42,
+          "min": 63,
+          "median": 67.5,
+          "max": 82,
+          "counts": {
+            "63": 1,
+            "64": 2,
+            "65": 6,
+            "66": 5,
+            "67": 7,
+            "68": 2,
+            "69": 3,
+            "70": 1,
+            "71": 3,
+            "72": 2,
+            "77": 2,
+            "78": 1,
+            "79": 3,
+            "81": 2,
+            "82": 2
+          }
+        },
+        "accessibility": {
+          "numericCount": 42,
+          "min": 100,
+          "median": 100.0,
+          "max": 100,
+          "counts": {
+            "100": 42
+          }
+        },
+        "best-practices": {
+          "numericCount": 42,
+          "min": 100,
+          "median": 100.0,
+          "max": 100,
+          "counts": {
+            "100": 42
+          }
+        },
+        "seo": {
+          "numericCount": 42,
+          "min": 92,
+          "median": 92.0,
+          "max": 92,
+          "counts": {
+            "92": 42
+          }
+        }
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "numericCount": 42,
+          "min": 1365.3667,
+          "median": 1380.93885,
+          "max": 2131.1045999999997
+        },
+        "largest-contentful-paint": {
+          "numericCount": 42,
+          "min": 2442.4458999999997,
+          "median": 5416.3355,
+          "max": 6417.3366750000005
+        },
+        "total-blocking-time": {
+          "numericCount": 42,
+          "min": 307,
+          "median": 475.97400000000005,
+          "max": 628.7797
+        },
+        "cumulative-layout-shift": {
+          "numericCount": 42,
+          "min": 0,
+          "median": 0.0,
+          "max": 0
+        }
+      },
+      "linkTextScoreCounts": {
+        "0": 42
+      },
+      "reportedGenericLinkOccurrences": 118,
+      "runWarningEntries": 0,
+      "auditWarningEntries": 0,
+      "runtimeErrorRecords": 0
+    },
+    "summaryReference": "lighthouse-public-link-text-seo-06/summary.json",
+    "metricEquivalenceReference": "lighthouse-public-link-text-seo-06/metric-equivalence.json",
+    "integrityReference": "lighthouse-public-link-text-seo-06/package-integrity.json",
+    "publicDerivativeVerified": true,
+    "rawCompactOutcomeEquivalence": {
+      "passed": true,
+      "reports": 42,
+      "nonVisualOutcomes": 6426
+    },
+    "publicDerivativeLimits": {
+      "rawByteIdenticalClaim": false,
+      "screenshotOnlyAuditsOmitted": 3,
+      "maximumArrayItems": 20,
+      "maximumStringLength": 16000,
+      "privateImagesRawDomAndProvenanceShipped": false
+    },
+    "causalPerformanceImprovementClaimed": false,
+    "fieldInpClaimed": false,
+    "comprehensiveAccessibilityConformanceClaimed": false
+  },
+  "reportedTestCountsScope": "Actual current06 automated test count only; typecheck and build are separate command gates. The 1352 baseline05 total is retained inside that prior cohort and not added to the current count.",
+  "baseline05ReportedTestCountsTotal": 1352,
+  "baseline05FullPublicInventoryLighthouseCompleted": true,
+  "targetedLinkTextSeoImprovementObserved": true,
+  "finalArchiveVerification": {
+    "state": "pending-external-post-seal-verification",
+    "performedAtDocumentFreeze": false,
+    "archiveSha256AvailableAtDocumentFreeze": false,
+    "externalReceiptAvailableAtDocumentFreeze": false,
+    "externalReceiptReference": null,
+    "scope": "This document is frozen before packaging. The actual sealed ZIP hash and exact-known-value scan will be recorded in a separate final-artifact receipt. Build/projection scans do not replace that check.",
+    "completeSecurityAcceptanceInferred": false
+  }
+}

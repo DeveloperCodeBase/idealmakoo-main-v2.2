@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/knowledge/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "1ff224f2f82106894e05afbe2c9b60dc2b340af21ab18a4826025fad5a310c4d",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "جایی برای دانش و تجربه. | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "محتوای تخصصی درباره محصولات، مواد و تجربه حرفه‌ای در صنعت دندان."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/knowledge/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/knowledge/",
+    "en": "http://127.0.0.1:3100/en/knowledge/",
+    "tr": "http://127.0.0.1:3100/tr/knowledge/",
+    "ar": "http://127.0.0.1:3100/ar/knowledge/",
+    "ru": "http://127.0.0.1:3100/ru/knowledge/",
+    "x-default": "http://127.0.0.1:3100/fa/knowledge/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 71
+}

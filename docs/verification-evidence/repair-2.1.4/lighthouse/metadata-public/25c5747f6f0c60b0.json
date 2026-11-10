@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/resources/four-teeth-wear-rate-cover/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "6311c58f857d5c041c4f544d15d31191b1be1356fe1175a3179b0ef5067eed5c",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Research reference image — Wear-rate comparison of four denture tooth types | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Wear-rate comparison of four denture tooth types — Original factory image documents"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/resources/four-teeth-wear-rate-cover/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/four-teeth-wear-rate-cover/",
+    "en": "http://127.0.0.1:3100/en/resources/four-teeth-wear-rate-cover/",
+    "tr": "http://127.0.0.1:3100/tr/resources/four-teeth-wear-rate-cover/",
+    "ar": "http://127.0.0.1:3100/ar/resources/four-teeth-wear-rate-cover/",
+    "ru": "http://127.0.0.1:3100/ru/resources/four-teeth-wear-rate-cover/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/four-teeth-wear-rate-cover/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 46
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "kind": "historical-build03-frozen-lighthouse-inventories",
+  "createdAt": "2026-10-23T10:50:47.312445+00:00",
+  "buildId": "HSeZD37BGY1jy6cC01AzB",
+  "buildInputSha256": "499c0bc34043d69e34cd7559f59b45ac1414cf4ae25f94f1dde5025328f3f05e",
+  "expectedTargets": 2300,
+  "runs": [
+    {
+      "run": "lighthouse-public-03",
+      "scope": "all-public",
+      "configurationHash": "10969d81a8a6da27f64228fe1e0869a8a91718c817702d0fa41e4967a37fcc75",
+      "manifestSha256": "d4b69bf6745dabab21299488932147daf242762197a7e4237562dc5f3c374d0c",
+      "inventorySha256": "b4c6855d8c186b914d856dac2defff25918dbad6dae0669ede7dc83e0d2002b1",
+      "expected": 1240,
+      "devices": [
+        "mobile",
+        "desktop"
+      ],
+      "inventoryHash": "9423a25272253cf7c22c125dfae34ee645b5eaf0357a49e25936cfff19b77b1e",
+      "buildId": "HSeZD37BGY1jy6cC01AzB",
+      "chromeVersion": "Google Chrome for Testing 156.0.8078.4",
+      "lighthouseVersion": "13.5.0",
+      "graphicsMode": "swiftshader-driver",
+      "disableFullPageScreenshot": true,
+      "kinds": {
+        "public": 1180,
+        "expected-404": 10,
+        "public-auth": 50
+      },
+      "publicContentHash": "c81fb2b40e486f8608c7c7da584d76197bef191244fad9d1b45128ddbb7e8e74",
+      "servedAssetsHash": "f378d51a18ab0a7e6abd4beadabec893c68cab18381d8c293259203268eca92d",
+      "sourceUrls": 620,
+      "expectedHttpStatuses": {
+        "200": 1230,
+        "404": 10
+      }
+    },
+    {
+      "run": "lighthouse-private-mobile",
+      "scope": "authenticated",
+      "configurationHash": "81414b5be6c7b939c292f965d03d6152870cd2bbcf4b442a57476650d4981339",
+      "manifestSha256": "62d333339a28bfa50b8b9beb2695bcf7884b005e489a012be6e32b4506fad9f8",
+      "inventorySha256": "40bf6ab0b9303e8b881739cce582abeb55cb27de7de5fdeb3829491c5c108652",
+      "expected": 530,
+      "devices": [
+        "mobile"
+      ],
+      "inventoryHash": "12a2a68bc15754da483d655bb62f1db6099b86d4267146114bbb0a94f9896648",
+      "buildId": "HSeZD37BGY1jy6cC01AzB",
+      "chromeVersion": "Google Chrome for Testing 156.0.8078.4",
+      "lighthouseVersion": "13.5.0",
+      "graphicsMode": "swiftshader-driver",
+      "disableFullPageScreenshot": true,
+      "kinds": {
+        "workspace": 430,
+        "account": 75,
+        "owned-request-detail": 5,
+        "representative-role": 20
+      },
+      "workloadHash": "d96afab46670e9d5e4cd2eac2b16204ab9fce89533ad29d90457602532011458",
+      "roleCounts": {
+        "superAdmin": 430,
+        "customer": 80,
+        "admin": 2,
+        "contentEditor": 2,
+        "productManager": 2,
+        "scientificReviewer": 2,
+        "translator": 2,
+        "publisher": 2,
+        "hr": 2,
+        "business": 2,
+        "analyst": 2,
+        "support": 2
+      },
+      "registeredPaths": 101
+    },
+    {
+      "run": "lighthouse-private-desktop",
+      "scope": "authenticated",
+      "configurationHash": "d5dd98a5e2e67fb0c4739a524c9e6b97758ef797ec9606241c46078abee7528c",
+      "manifestSha256": "6a95461bf4f6324c4b08fcf9e76b76072996c2c59a8400c29238cfbd17488367",
+      "inventorySha256": "a215c39d47ab7174991b78b0d02c96b6919f16a627476b94b98b19056965422c",
+      "expected": 530,
+      "devices": [
+        "desktop"
+      ],
+      "inventoryHash": "7238c9c684b7e0183995ad489549162dd96078521a110195b441a5760300a8a9",
+      "buildId": "HSeZD37BGY1jy6cC01AzB",
+      "chromeVersion": "Google Chrome for Testing 156.0.8078.4",
+      "lighthouseVersion": "13.5.0",
+      "graphicsMode": "swiftshader-driver",
+      "disableFullPageScreenshot": true,
+      "kinds": {
+        "workspace": 430,
+        "account": 75,
+        "owned-request-detail": 5,
+        "representative-role": 20
+      },
+      "workloadHash": "d96afab46670e9d5e4cd2eac2b16204ab9fce89533ad29d90457602532011458",
+      "roleCounts": {
+        "superAdmin": 430,
+        "customer": 80,
+        "admin": 2,
+        "contentEditor": 2,
+        "productManager": 2,
+        "scientificReviewer": 2,
+        "translator": 2,
+        "publisher": 2,
+        "hr": 2,
+        "business": 2,
+        "analyst": 2,
+        "support": 2
+      },
+      "registeredPaths": 101
+    }
+  ],
+  "scopeNote": "All frozen public destinations and all registered private routes in their principal roles, plus explicit owned-detail and other-role samples. Not every role-route combination. Ten intentional public 404 responses are contract checks without Lighthouse category scores. All score runs are serial and use the actual software-rendered 3D functionality.",
+  "status": "incomplete-superseded-by-build04",
+  "deliveryBuildId": "fIFLzhRg6HZ_mfSabbL8J",
+  "notResumableOnDeliveryBuild": true
+}

@@ -1,0 +1,139 @@
+{
+  "recordedAt": "2026-10-21T13:01:16.988785+00:00",
+  "scope": "Independent byte comparison; this does not itself accept the repaired installer or restoration",
+  "baselineArchiveSha256": "2ecce7e560bdbf6b3e2b4f2674d56e525d4b5a1b3d1c9ebdfd4c4215d897b42d",
+  "baselineManifestSha256": "ce3e9f3136635bc00d51aecc7d5fb8bfbcd97cd5318d0544b266832686285cc4",
+  "sourceBeforeSha256": "47bd4263d4a26e3a31a1773fbaf7cf6e77d4319dac8826c0e649e1203acf39f0",
+  "sourceAfterSha256": "03ef35eeb75b81f63d6c73b66e5b3c96fb1071b09e15b3fdcb893b352e565a6a",
+  "fileCountBefore": 819,
+  "fileCountAfter": 820,
+  "changedFiles": [
+    {
+      "path": "deploy/compose.py",
+      "before": {
+        "bytes": 2914,
+        "sha256": "8d145b83592ed45122ddf4ad5be9b46bb7614031c0d94126862d7e3ee5037f65"
+      },
+      "after": {
+        "bytes": 9957,
+        "sha256": "eb0fc779d736b33c1ab6b132fdd9634ec602b4c04f14c0be17001e09f298742f"
+      }
+    },
+    {
+      "path": "deploy/lib.sh",
+      "before": {
+        "bytes": 2890,
+        "sha256": "bfa2217784146feb8e6a815fdb436470fe67e1c042b96e1a8046b24f61f2546b"
+      },
+      "after": {
+        "bytes": 2886,
+        "sha256": "8c6f0011463eb0dabff2d79757e0309e202d8c71340f4c56caba0652f2f86d1c"
+      }
+    },
+    {
+      "path": "deploy/recovery.sh",
+      "before": {
+        "bytes": 4499,
+        "sha256": "bdbfc2d8d3a981c93446261777817a9a7bc102c6c0508ae890811d5184d23c6c"
+      },
+      "after": {
+        "bytes": 4483,
+        "sha256": "90c5b1db9b58a1668572b4e13e3650d6539484c9a29957c7085941113a368e5b"
+      }
+    },
+    {
+      "path": "scripts/backup.sh",
+      "before": {
+        "bytes": 10277,
+        "sha256": "35142ad43f9c6760b67900c8a72a167a0413e10d28a210dbee43f1ea3e34bd28"
+      },
+      "after": {
+        "bytes": 10269,
+        "sha256": "d904f9d8fad7dad241075fbfcbfd97f4486e7a4d519e462f6ae21036709604ab"
+      }
+    },
+    {
+      "path": "scripts/install-ubuntu.sh",
+      "before": {
+        "bytes": 25760,
+        "sha256": "4f80763057981367d343ee1566869f7ba7a63beb6f59a9afccea0eab25f553d8"
+      },
+      "after": {
+        "bytes": 25754,
+        "sha256": "39ea28884b2a89ab798b849a6a384e2473c2a4da785341a3666d62a7d5f1c62d"
+      }
+    },
+    {
+      "path": "scripts/provision-staff.sh",
+      "before": {
+        "bytes": 904,
+        "sha256": "87ae8f70552e9763ec6e871a83ee83b2700a639c88cd887dc84e2b30f1c003c6"
+      },
+      "after": {
+        "bytes": 902,
+        "sha256": "93da5d10ab8a0d933dec9bde60ba5e6bf79212f32e4fbe84d72fc5175a667606"
+      }
+    },
+    {
+      "path": "scripts/restore.sh",
+      "before": {
+        "bytes": 11776,
+        "sha256": "75e7957f8f9487ae8a6813f22fa2da543015aff5f0d620e9ad86331ae20a5acb"
+      },
+      "after": {
+        "bytes": 11772,
+        "sha256": "74f299b67ae9739b0719c6692e87671b9146cbea9ff1ce081e840ea238d36244"
+      }
+    },
+    {
+      "path": "tests/deployment_compose_test.py",
+      "before": {
+        "bytes": 4282,
+        "sha256": "8808b0aa2f077df38ad008eacdf67a2f799116ca29cf59f69a1112e4c49fd926"
+      },
+      "after": {
+        "bytes": 9004,
+        "sha256": "f96c6e29b4f075da57036790befee6ed5fb1713f33972b438ab2165f635fb26c"
+      }
+    },
+    {
+      "path": "tests/deployment_existing_image_run_test.py",
+      "before": null,
+      "after": {
+        "bytes": 12610,
+        "sha256": "8ebb95f2606a8da3a4be57cc589e004ebf375f7edc3d3d14927c94753ff71f3e"
+      }
+    },
+    {
+      "path": "tests/deployment_failure_cleanup_test.py",
+      "before": {
+        "bytes": 30361,
+        "sha256": "3aaa2a62570e1922677efa9ac1056de5493a82377221c7c537aef8d6793892ee"
+      },
+      "after": {
+        "bytes": 30370,
+        "sha256": "58f10114046f9b5e08b0d5d7fb30e721aa742be6c9ab96e539c9d09180fe3faa"
+      }
+    },
+    {
+      "path": "tests/deployment_pending_restore_test.py",
+      "before": {
+        "bytes": 35844,
+        "sha256": "f040be97aea845405ed26a5d6c9a2f0e8bb3279f6cec2305fa574819edd711f3"
+      },
+      "after": {
+        "bytes": 35853,
+        "sha256": "8efbefc61949082af1ac4346236303c1aaff32ff97c87e4519927f6b423e65db"
+      }
+    }
+  ],
+  "unexpectedChanges": [],
+  "applicationBuildId": "-Q7Ffy3JmwVExwxk-Ymk-",
+  "standaloneBuildId": "-Q7Ffy3JmwVExwxk-Ymk-",
+  "applicationSha256": "12da2b69abf2fa85cf0655bc0b4ec7df9244ea0b50a29cc8c3be1157851b6e1c",
+  "applicationFilesVerified": 678,
+  "applicationMismatches": [],
+  "applicationEvidenceManifestSha256": "0120f9be2468d09a7dd21c8d2bb2050b4abaa350d549ed6e129fed3d85d80954",
+  "inspectionScriptSha256": "0f38e2dcbd49f1486fce0818796a12868d4ba56fca15999c476aa991bf855b96",
+  "newOperationalAcceptanceRequired": true
+}

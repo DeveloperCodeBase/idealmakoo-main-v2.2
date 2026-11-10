@@ -1,0 +1,67 @@
+{
+  "format": "idealmakoo.release-scope-proof",
+  "version": 2,
+  "kind": "publicMetadata",
+  "state": "completed",
+  "exitCode": 0,
+  "pass": true,
+  "error": null,
+  "startedAt": "2026-10-20T20:50:53.659Z",
+  "finishedAt": "2026-10-20T20:51:10.430Z",
+  "applicationSha256": "36eb4aa33a1b192622c4a9e500b00c86348524d3e49813af951db6830dde9338",
+  "runtimeSha256": "4835ce50923c5fbea4f84a67fba32f0d47a3ea74fe097d81e9294a4613ede9c1",
+  "buildId": "OWySC3_X3kR5uD-ExxkAJ",
+  "inventory": {
+    "path": "/tmp/idealmakoo-production-repair-20261020/evidence/public-metadata-credential-safe-v2/inventory.json",
+    "sha256": "6248d4ef8d6f18abce5acd55dbda9a9762eb1a2956059f0d515baa2a07029dc8"
+  },
+  "outcomes": {
+    "path": "/tmp/idealmakoo-production-repair-20261020/evidence/public-metadata-credential-safe-v2/outcomes.json",
+    "sha256": "5ab26d578de42294d8206b52286432c73fe0cbef88b5a8788b7d5e2682945136"
+  },
+  "metadataExecution": {
+    "path": "/tmp/idealmakoo-production-repair-20261020/evidence/metadata-credential-all-public-status.json",
+    "sha256": "d091e922e088ee09c0cccd0981f6bc7c44240704817c3828a95177ce49b13086",
+    "bytes": 159524
+  },
+  "collectorCommand": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+    "scripts/audit-public-metadata.mjs",
+    "--run",
+    "/tmp/idealmakoo-lighthouse-evidence/credential-all-public-mobile",
+    "--output",
+    "/tmp/idealmakoo-lighthouse-evidence/credential-public-metadata",
+    "--concurrency",
+    "4"
+  ],
+  "collectorLog": {
+    "path": "/tmp/idealmakoo-production-repair-20261020/evidence/metadata-credential-all-public.log",
+    "sha256": "1d6d9e952c19e913d81865e2868fc94bcada9901f37c8258e05a3d14b7b50068",
+    "bytes": 1939
+  },
+  "normalizer": {
+    "path": "/tmp/idealmakoo-production-repair-20261020/tools/export-bound-public-metadata-v2.py",
+    "sha256": "40c73d599585be779050685c3ab8394bab8abfbcee6cd6c12a152654db5cd0bf",
+    "bytes": 15279
+  },
+  "applicationManifest": {
+    "path": "/tmp/idealmakoo-production-repair-20261020/evidence/build-credential-startup-final-application-after.json",
+    "sha256": "32de450803d5510d601232988ca4a4bbb63f808e350f50246aa62fe0dc5c8a2e",
+    "bytes": 115513
+  },
+  "checks": {
+    "allDiscoveredUrlsChecked": true,
+    "canonicalHreflangSchemaChecked": true,
+    "visibleBodyLocaleHeuristicChecked": true,
+    "zeroVisibleBodyLocaleHeuristicWarnings": true
+  },
+  "scope": {
+    "method": "Actual HTTP/streamed HTML metadata, JSON-LD nonce/shape, reciprocal hreflang and Arabic-script heuristic in en/tr/ru main content.",
+    "timing": "The collector records whole-run start/end, per-request durations, and observations of raw-file mtimes. It does not record per-URL completion timestamps.",
+    "translationSemanticsCertified": false,
+    "lighthousePerformanceAccepted": false,
+    "googleRichResultsCertified": false,
+    "searchRankGuaranteed": false,
+    "rawHtmlOrStructuredDataOrBodyTextExported": false
+  }
+}

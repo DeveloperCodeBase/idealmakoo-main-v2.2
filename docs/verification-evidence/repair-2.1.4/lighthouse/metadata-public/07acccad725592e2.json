@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/verify-product/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "bdedf1f1781176ea3575d692d0d95007352945448dcffb96e97be7f2e1e3104b",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Check batch reference | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Look up an exact serial or batch code in the factory registry, with its recorded status and support contact."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/verify-product/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/verify-product/",
+    "en": "http://127.0.0.1:3100/en/verify-product/",
+    "tr": "http://127.0.0.1:3100/tr/verify-product/",
+    "ar": "http://127.0.0.1:3100/ar/verify-product/",
+    "ru": "http://127.0.0.1:3100/ru/verify-product/",
+    "x-default": "http://127.0.0.1:3100/fa/verify-product/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 45
+}

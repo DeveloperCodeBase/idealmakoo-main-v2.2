@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "kind": "owned-disposable-vm-outcome",
+  "name": "recovery",
+  "startedAt": "2026-10-25T05:15:25.200627+00:00",
+  "completedAt": "2026-10-25T06:20:37.545940+00:00",
+  "elapsedSeconds": 3912.34533,
+  "pid": 21531,
+  "exitCode": 0,
+  "actualWaitConsumed": true,
+  "forcedProcessTermination": false,
+  "stopRequests": [],
+  "diskFreeBytesAtEnd": 13311328256,
+  "runtimeDisk": "/tmp/idealmakoo-acceptance-recovery-20261025-fo9a_2ry/disk.qcow2",
+  "runtimeDiskRetainedWithMatchingObservedIdentity": true,
+  "diskIdentityAfterShutdown": {
+    "path": "/tmp/idealmakoo-acceptance-recovery-20261025-fo9a_2ry/disk.qcow2",
+    "observedAt": "2026-10-25T06:20:37.545874+00:00",
+    "pathExists": true,
+    "qemuDescriptors": [],
+    "device": 27,
+    "inode": 1572886,
+    "bytes": 10039525376,
+    "allocatedBytes": 9276149760,
+    "links": 1,
+    "pathIsSymlink": false,
+    "pathMatchesActualQemuDescriptor": false
+  },
+  "lastDiskIdentityWhileRunning": {
+    "path": "/tmp/idealmakoo-acceptance-recovery-20261025-fo9a_2ry/disk.qcow2",
+    "observedAt": "2026-10-25T06:20:25.375539+00:00",
+    "pathExists": true,
+    "qemuDescriptors": [
+      {
+        "fd": 9,
+        "target": "/tmp/idealmakoo-acceptance-recovery-20261025-fo9a_2ry/disk.qcow2",
+        "device": 27,
+        "inode": 1572886,
+        "bytes": 10039525376,
+        "allocatedBytes": 9276149760,
+        "links": 1
+      }
+    ],
+    "device": 27,
+    "inode": 1572886,
+    "bytes": 10039525376,
+    "allocatedBytes": 9276149760,
+    "links": 1,
+    "pathIsSymlink": false,
+    "pathMatchesActualQemuDescriptor": true,
+    "readOnlyDiskGuardian": {
+      "pid": 21523,
+      "fd": 4,
+      "device": 27,
+      "inode": 1572886
+    }
+  },
+  "independentTmpOverlay": true,
+  "readOnlyDiskGuardian": {
+    "pid": 21523,
+    "fd": 4,
+    "device": 27,
+    "inode": 1572886
+  },
+  "stoppedDiskRetentionCopy": null,
+  "guardianHeldUntilRetainedPathVerification": true
+}

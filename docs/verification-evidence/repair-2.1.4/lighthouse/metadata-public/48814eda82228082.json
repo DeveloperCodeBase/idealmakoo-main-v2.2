@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/support/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "6f9355748136ab68ec69f7a45ec3a5ad7a12b274b031dd0f8e008eb0bc0a9895",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Support request | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Submit and follow up on support requests about products or website services, with contact details, an issue description and related files."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/support/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/support/",
+    "en": "http://127.0.0.1:3100/en/support/",
+    "tr": "http://127.0.0.1:3100/tr/support/",
+    "ar": "http://127.0.0.1:3100/ar/support/",
+    "ru": "http://127.0.0.1:3100/ru/support/",
+    "x-default": "http://127.0.0.1:3100/fa/support/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 46
+}

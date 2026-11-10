@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/cooperation/distribution/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "8c113a015892f5ea3ca4a95d66f302adb8eea78785dd4efc0fb5c066c9a4760e",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Запрос дилерства | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Направьте предложение о дистрибуции продукции с данными организации, страной и описанием возможностей для рассмотрения заводом."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/cooperation/distribution/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/cooperation/distribution/",
+    "en": "http://127.0.0.1:3100/en/cooperation/distribution/",
+    "tr": "http://127.0.0.1:3100/tr/cooperation/distribution/",
+    "ar": "http://127.0.0.1:3100/ar/cooperation/distribution/",
+    "ru": "http://127.0.0.1:3100/ru/cooperation/distribution/",
+    "x-default": "http://127.0.0.1:3100/fa/cooperation/distribution/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 81
+}

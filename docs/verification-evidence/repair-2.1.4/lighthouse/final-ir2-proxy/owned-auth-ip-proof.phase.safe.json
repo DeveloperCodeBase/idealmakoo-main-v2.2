@@ -1,0 +1,50 @@
+{
+  "format": "topology-bound-phase-safe-derivative-v1",
+  "phase": "owned-auth-ip-proof",
+  "kind": "fixtures",
+  "startedAt": "2026-10-25T19:58:09.334953+00:00",
+  "finishedAt": "2026-10-25T19:58:30.574175+00:00",
+  "durationSeconds": 21.239,
+  "topologySha256": "da2b88aba7a748b934b4e7e6af1d8117b5a63ee7a5f018df71b5d142814e11a0",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "commandLaunchAttempted": true,
+  "commandStarted": true,
+  "coreConfigurationHashAloneBindsProxy": false,
+  "actualCommandExitCode": 0,
+  "validationPassed": true,
+  "validationErrorCode": null,
+  "validationIsSeparateFromLighthouseOutcome": true,
+  "receivedOrForwardedSignals": [],
+  "wrapperForcedKillAfterSixtySeconds": false,
+  "interruptedPageCleanup": "Not inferred by this wrapper; retain the original auditor's evidence.",
+  "originalPrivateReceiptSha256": "486733f22f69cfc22021638f48f5527a47c5ad91d06aadc860c1cb24f2021e18",
+  "beforeVerificationPresent": true,
+  "afterVerificationPresent": true,
+  "coreArtifacts": [
+    {
+      "directoryLabel": "idealmakoo-214-final-ir2-private-mobile",
+      "files": {}
+    }
+  ],
+  "retainedPrivateArtifactHashes": {
+    "stdout.log": {
+      "sha256": "b8201358fc90b6f71dd1ebfd21cd275abe8bd778dc4f0b42189d3b554f9756a8",
+      "bytes": 116
+    },
+    "stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "command.json": {
+      "sha256": "fd50104af9db25a67944a6be110eff25a74d0d271f2789c8d6f665f6eb558f1c",
+      "bytes": 744
+    },
+    "launch.json": {
+      "sha256": "73d69ae9ed9dbb14a48d71d189894babe494b85b2c304cfbd873f2e01e382b54",
+      "bytes": 163
+    }
+  },
+  "omissions": [
+    "raw process IDs/arguments/environment/logs and full proc observations"
+  ]
+}

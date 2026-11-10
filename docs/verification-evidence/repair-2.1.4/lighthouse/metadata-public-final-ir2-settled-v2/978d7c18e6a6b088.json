@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/terms/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "0cc4ac8ab31a160ded037a2cab4b4eb2d82164f96df57524976afad7b2662e93",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Kullanım koşulları | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Bu site Ideal Makoo için profesyonel katalog ve iletişim portalıdır. Bilgi, numune veya iş birliği talebi sipariş, stok ya da fiyat onayı değildir. Nihai tedarik koşulları inceleme ve resmî yanıtla belirlenir. Doğru iletişim ve talep bilgileri verin; yalnızca kullanma ve paylaşma hakkınız olan dosyaları yükleyin."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/terms/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/terms/",
+    "en": "http://127.0.0.1:3100/en/terms/",
+    "tr": "http://127.0.0.1:3100/tr/terms/",
+    "ar": "http://127.0.0.1:3100/ar/terms/",
+    "ru": "http://127.0.0.1:3100/ru/terms/",
+    "x-default": "http://127.0.0.1:3100/fa/terms/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 50
+}

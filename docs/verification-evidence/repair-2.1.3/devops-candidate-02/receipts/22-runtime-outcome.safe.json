@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "kind": "owned-guest-acceptance-job-outcome",
+  "job": "candidate02-runtime",
+  "status": "passed",
+  "startedAt": "2026-10-25T08:57:46.011011+00:00",
+  "completedAt": "2026-10-25T08:59:32.696847+00:00",
+  "elapsedSeconds": 106.689703,
+  "pid": 33649,
+  "startTicks": 330723,
+  "exitCode": 0,
+  "timedOut": false,
+  "forcedProcessTermination": false,
+  "actualWaitConsumed": true
+}

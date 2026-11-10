@@ -1,0 +1,123 @@
+{
+  "schema": 1,
+  "kind": "distinct-staged-start-after-failed-supported-update-acceptance",
+  "status": "passed-in-stated-diagnostic-scope",
+  "recordedAt": "2026-10-24T15:57:47.516077+00:00",
+  "job": "staged-start-after-update-01",
+  "actualOutcome": {
+    "schema": 1,
+    "kind": "owned-guest-acceptance-job-outcome",
+    "job": "staged-start-after-update-01",
+    "status": "passed",
+    "startedAt": "2026-10-24T15:41:19.099757+00:00",
+    "completedAt": "2026-10-24T15:54:55.027921+00:00",
+    "pid": 161149,
+    "startTicks": 3101786,
+    "exitCode": 0,
+    "actualWaitConsumed": true
+  },
+  "actualOutcomeSha256": "3b8039fdadc1c3a1f0a279ca36d3522f70cda65b57d4c738d5d67ae9ca2a7ddc",
+  "elapsedIncludingPreflightSeconds": 815.928164,
+  "lifecycleStartedAt": "2026-10-24T15:41:33.661958+00:00",
+  "elapsedFromLifecycleStartToOwnedExitSeconds": 801.365963,
+  "originalUpdate": {
+    "exitCode": 124,
+    "outcomeSha256": "ff7e98212d5bfe776a2dd5238777f2af841479634d2980e876ddd37ee5e02fc3",
+    "relabelledAsSuccessful": false
+  },
+  "operation": {
+    "class": "lifecycle-up",
+    "selectedServices": [
+      "app",
+      "worker",
+      "proxy"
+    ],
+    "overallDeadlineSeconds": 1200,
+    "readOnlyDiscoveryMaximumSeconds": 60,
+    "inspectionMaximumSeconds": 15,
+    "publicProbeMaximumSeconds": 12,
+    "cleanupDeadlineSeconds": 90,
+    "normalArgumentsAndPoliciesRetained": true,
+    "requiredSelectedServiceHealthAndPublicReadinessPassedByUnchangedControlFlow": true,
+    "independentPostOperationAllServiceOrImageReadbackPerformed": false,
+    "scannerHealthNotIndependentlyRecheckedAfterOperation": true,
+    "noBuildOrPull": true,
+    "noManagedCurrentPromotion": true,
+    "noFullUpdateBackupAuthenticationOrRetryPerformed": true
+  },
+  "sourceAuthority": {
+    "managedAttemptedRelease": "20261024T143134Z-5f408c5e",
+    "managedSourceZipSha256": "e99523f5e7e069f053004ac8afc00465403cc44cfac1d257abe393fc4e8829ca",
+    "managedSourceFilesVerifiedAtStart": 3340,
+    "managedApplicationInputCount": 987,
+    "managedApplicationInputsSha256": "de90dfabf8ddc57473a5943dfb03ba07b35b78f46e175a6e7ce9284fe2fb0558",
+    "managedExecutionInputCount": 996,
+    "managedExecutionInputsSha256": "82dd68edb6fa454fd8f296dcc61b958c6d4547e280abc8d70192532c7907d012",
+    "separateAcceptanceCallerFiles": {
+      "service-lifecycle.py": "3db80a9bd1d81e661a9204b8cd5e52dbc7c9503949770a37d870a2d4e53c897d",
+      "compose.py": "27c5f7ad14d8386575f041a3755990e8aec1102e6d407d39224f56f94583f550",
+      "env-file.py": "941ee4a0087a7617233d10f8929e063949ba18f6c4f8a33a6d9fcc741a6985da"
+    },
+    "managedSourceNotOverwritten": true,
+    "callerLocalOperationsTestsPassed": 224,
+    "originalOldCurrentReleasePreservedAtStart": "20261024T080908Z-eaef1a71"
+  },
+  "lockedFreshPreflight": {
+    "status": "passed",
+    "receiptSha256": "6e356d223bf5078b9614c1ec7418caacdb9bbf7b954487b881ab8b39c27e2dd1",
+    "protectedConfigurationKeysLedgerSourceArchiveAndExactStoppedStateVerified": true,
+    "originalExistingLockOpenedReadOnlyAndHeldThroughLifecycle": true,
+    "lockEnvironmentBypass": false,
+    "guestMemoryMiB": 5920,
+    "guestFreeMiB": 50242
+  },
+  "appProcessObservation": {
+    "receiptSha256": "5fb5b509589f9db539674506fec9970fec7501c62c08f13965869d47bfa5e48e",
+    "observedAt": "2026-10-24T15:48:30.128760+00:00",
+    "status": "classified",
+    "classes": [
+      "entrypoint-web",
+      "next-server"
+    ],
+    "image": "sha256:d0219abf011f8f7868440872890fe88f4228170a51efa90064c4ddb22a743f0d",
+    "release": "20261024T143134Z-5f408c5e",
+    "identityStableAcrossBothInspections": true,
+    "rawArgumentsRetained": false,
+    "causalInterpretationClaimed": false
+  },
+  "outputs": {
+    "stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "included": false
+    },
+    "stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "included": false
+    },
+    "failedCommandDiagnostic": null,
+    "actualOwnedWaitConsumed": true,
+    "launchOuterWaiter": 64330,
+    "launchOuterExitCode": 0,
+    "launchWaitConsumed": true,
+    "finalFileReaderOuterWaiter": 76639,
+    "finalFileReaderOuterExitCode": 0,
+    "finalFileReaderWaitConsumed": true,
+    "collectionOuterWaiter": 32989,
+    "collectionOuterExitCode": 0,
+    "collectionWaitConsumed": true
+  },
+  "hostGuard": {
+    "observedAt": "2026-10-24T15:57:44.884037+00:00",
+    "diskIdentityPassed": true,
+    "diskAvailableBytes": 10743345152,
+    "oomKills": 0,
+    "primaryVmRunning": true,
+    "initialColdStartupGuardGapDisclosed": true
+  },
+  "nextAction": "Stopped after completed diagnostic and collection; no downstream action authorized by this receipt",
+  "originalInstallAndSupportedUpdateAcceptanceStillIncomplete": true,
+  "freshRecoveryAndNativeBuild05StillUnexecuted": true,
+  "privateCredentialsLogsAndArchivePayloadIncluded": false
+}

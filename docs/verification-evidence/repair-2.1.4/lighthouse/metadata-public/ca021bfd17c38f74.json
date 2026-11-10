@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/resources/iranian-teeth-ivoclar-wear-cover/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "235b674603796c56a91c0be5b9bd97be1a479313201c39a9bf9bb772f5078f4d",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Research reference image — Wear of Berelian and Super Berelian compared with Ivoclar | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Wear of Berelian and Super Berelian compared with Ivoclar — Original factory image documents"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/resources/iranian-teeth-ivoclar-wear-cover/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/iranian-teeth-ivoclar-wear-cover/",
+    "en": "http://127.0.0.1:3100/en/resources/iranian-teeth-ivoclar-wear-cover/",
+    "tr": "http://127.0.0.1:3100/tr/resources/iranian-teeth-ivoclar-wear-cover/",
+    "ar": "http://127.0.0.1:3100/ar/resources/iranian-teeth-ivoclar-wear-cover/",
+    "ru": "http://127.0.0.1:3100/ru/resources/iranian-teeth-ivoclar-wear-cover/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/iranian-teeth-ivoclar-wear-cover/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 56
+}

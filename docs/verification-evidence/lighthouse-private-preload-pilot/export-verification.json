@@ -1,0 +1,168 @@
+{
+  "format": "idealmakoo.private-pilot-independent-export-verification",
+  "version": 1,
+  "checkedAt": "2026-10-20T18:05:36.848482+00:00",
+  "verifierSha256": "f17b6497cdb53be841e01de5324f2fa6da405a4c02b64e3126df22ae2debde6e",
+  "rawRuntimeErrors": 0,
+  "rawRunWarnings": 0,
+  "buildId": "stScJleP0frgKg8QFR4Iq",
+  "configurationHash": "e9f2b999ec5fe87c56ee81c4289e775c616e425e5511b47723cf5df843455d15",
+  "rawInputHashes": {
+    "summary.json": "aad41bf6a3fdc189668cd844ee766a15580b7e5e98f2b5a7b294d9e8df03f776",
+    "manifest.json": "322db9109f9be342d1118682b2c00f70bc64ff0695f28a91cbecde65a71da778",
+    "inventory.json": "95756e1e3d022984fb9a57bcd637b0036c9adacd978c15dbf72a12fb5e6b8195",
+    "4ddb9e05d0c053b5.attempt-1.result.json": "34ad94648c5bed3aa2dc83da3373ec798966daabce508b5db3486dbd34acc165",
+    "4ddb9e05d0c053b5.attempt-1.lhr.json": "174df387048f715f19a20d01ca36c1ff778b0d9b493d587c0e0e1f3eb6535f59",
+    "2c67687faf6bef85.attempt-1.result.json": "5494cb578a9eda41eaaa85b9ea202fbad2f73db3ec0d2e164a0a1d7d25f23947",
+    "2c67687faf6bef85.attempt-1.lhr.json": "0ff38e33b3424074286e8395e654a2915e66aae31efa0c9debdead69ee0ad4a4",
+    "383db339ad3e4267.attempt-1.result.json": "c45062ae6c2a8e14d2e1490d9bab3b7da6db92e8cb3c0fd1678b4bb83afc0755",
+    "383db339ad3e4267.attempt-1.lhr.json": "a841420562a383665f3b836ab3066d3180d956ace9f93e63265f53629002aeb2"
+  },
+  "rawReportHashes": [
+    "174df387048f715f19a20d01ca36c1ff778b0d9b493d587c0e0e1f3eb6535f59",
+    "0ff38e33b3424074286e8395e654a2915e66aae31efa0c9debdead69ee0ad4a4",
+    "a841420562a383665f3b836ab3066d3180d956ace9f93e63265f53629002aeb2"
+  ],
+  "counts": {
+    "expected": 3,
+    "attempted": 3,
+    "completed": 3,
+    "errors": 0,
+    "timeouts": 0,
+    "pending": 0,
+    "attempts": 3,
+    "rawReports": 3,
+    "auditOutcomes": 465,
+    "metricSavingsOutcomes": 54,
+    "auditErrorOutcomes": 0
+  },
+  "parts": [
+    {
+      "filename": "audit-part-0001.json",
+      "attempts": 3,
+      "bytes": 277226,
+      "sha256": "a14ccfcc5306ad8adf48de2bfccfbf46f22b644ad99f30de62a6a4ecfccf6036"
+    }
+  ],
+  "checkedSafeBytes": 298502,
+  "outcomesScoresMetricsTimesAndAuthProofEqualRaw": true,
+  "allRawAuditsRetained": true,
+  "allRawHashesMatch": true,
+  "rawInputsUnchanged": true,
+  "privacy": {
+    "rawReportsCopied": false,
+    "screenshotsOrBinaryPayloadsCopied": false,
+    "credentialIdentityOrDomFieldsFound": false,
+    "observedPrivateMarkersRetained": 0,
+    "observedPrivateMarkersChecked": 3,
+    "elementOnlySelectorsVerified": true
+  },
+  "scenarioCoverage": {
+    "measurement": "Authenticated navigation, Lighthouse audits and recorded shell/content/authentication checks for the listed jobs.",
+    "roles": [
+      "customer",
+      "superAdmin"
+    ],
+    "locales": [
+      "en",
+      "fa"
+    ],
+    "devices": [
+      "mobile"
+    ],
+    "jobKinds": {
+      "workspace": 2,
+      "account": 0,
+      "representative-role": 0,
+      "owned-request-detail": 1
+    },
+    "registeredPrivatePaths": 101,
+    "registeredLocalePathsInventoried": 3,
+    "expectedJobs": 3,
+    "attemptedJobs": 3,
+    "successfulJobs": 3,
+    "allInventoriedNavigationsSucceeded": true,
+    "allRoleRouteCombinationsTested": false,
+    "workflowActionsMeasured": false,
+    "limitation": "Only the inventoried role/locale/device/data scenarios are covered. Navigation measurements do not assert exhaustive CRUD, permission-matrix or business-workflow coverage. Owned-request identities are omitted."
+  },
+  "scope": "Three measured mobile navigation scenarios only; no claim of full 530-view, role-matrix, CRUD or field-performance coverage.",
+  "records": [
+    {
+      "route": "/fa/admin/",
+      "role": "superAdmin",
+      "locale": "fa",
+      "kind": "workspace",
+      "device": "mobile",
+      "status": "completed",
+      "scores": {
+        "performance": 58,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 2738.67615,
+        "largest-contentful-paint": 7477.136400000001,
+        "speed-index": 2738.67615,
+        "total-blocking-time": 534.0000000000018,
+        "cumulative-layout-shift": 0.0005253541015733316,
+        "interactive": 7477.136400000001
+      },
+      "durationMs": 11584,
+      "apiFailureCount": 0,
+      "pageErrorCount": 0
+    },
+    {
+      "route": "/en/admin/pages/",
+      "role": "superAdmin",
+      "locale": "en",
+      "kind": "workspace",
+      "device": "mobile",
+      "status": "completed",
+      "scores": {
+        "performance": 53,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 58
+      },
+      "metrics": {
+        "first-contentful-paint": 2129.4744,
+        "largest-contentful-paint": 7975.948800000001,
+        "speed-index": 2129.4744,
+        "total-blocking-time": 843.9123999999997,
+        "cumulative-layout-shift": 0.0509104116126677,
+        "interactive": 8005.948800000002
+      },
+      "durationMs": 10166,
+      "apiFailureCount": 0,
+      "pageErrorCount": 0
+    },
+    {
+      "route": "/fa/account/requests/",
+      "role": "customer",
+      "locale": "fa",
+      "kind": "owned-request-detail",
+      "device": "mobile",
+      "status": "completed",
+      "scores": {
+        "performance": 61,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 58
+      },
+      "metrics": {
+        "first-contentful-paint": 2280.6747,
+        "largest-contentful-paint": 6432.23695,
+        "speed-index": 2280.6747,
+        "total-blocking-time": 543,
+        "cumulative-layout-shift": 0.001736137178327258,
+        "interactive": 6432.748195
+      },
+      "durationMs": 13774,
+      "apiFailureCount": 0,
+      "pageErrorCount": 0
+    }
+  ],
+  "pass": true
+}

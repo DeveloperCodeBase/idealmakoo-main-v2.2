@@ -1,0 +1,158 @@
+{
+  "format": "idealmakoo.operational-audit-source-transition",
+  "version": 1,
+  "startedAt": "2026-10-21T06:47:41.626Z",
+  "finishedAt": "2026-10-21T06:47:42.742Z",
+  "applicationBefore": {
+    "sha256": "1a7fd8f6293196e45e78a52aa765b0c4039f512fdb26cbbd5724367288ac5388",
+    "files": 669
+  },
+  "applicationAfter": {
+    "sha256": "1a7fd8f6293196e45e78a52aa765b0c4039f512fdb26cbbd5724367288ac5388",
+    "files": 669
+  },
+  "applicationUnchanged": true,
+  "runtimeBefore": {
+    "algorithm": "sha256",
+    "scope": "runtime-v1",
+    "sha256": "b70c7d3e2f8698f4481b52a446dcfa3e682a80827f0e60465c5f809b3936a671",
+    "fileCount": 780,
+    "byteCount": 49115125,
+    "entrypoints": []
+  },
+  "runtimeAfter": {
+    "algorithm": "sha256",
+    "scope": "runtime-v1",
+    "sha256": "647b9657a948fc0105f186baf312fd282388a5843a42b6c2c33db38ed7e8361a",
+    "fileCount": 781,
+    "byteCount": 49119384,
+    "entrypoints": []
+  },
+  "drafts": [
+    {
+      "name": "backup-timer-protected-roots",
+      "file": "PREPARED-MANIFEST.json",
+      "sha256": "5c13518383e6e28274b85b2d1aadb78fc86cf0318d570d28fb932921d5f9c1a9"
+    },
+    {
+      "name": "public-audit-identity",
+      "file": "MANIFEST.json",
+      "sha256": "d58f5fb6e93934c7f8d4f415f9eedbca7d89ec24b8d518330c36f8d0a31d93a5"
+    }
+  ],
+  "changes": [
+    {
+      "file": "scripts/install-ubuntu.sh",
+      "draft": "backup-timer-protected-roots",
+      "before": {
+        "sha256": "4e58b209b06e19c8cd646b22e56935645be94e2a685c4ace7d15808fdb8b8228",
+        "bytes": 25260,
+        "mode": 493
+      },
+      "after": {
+        "sha256": "4f80763057981367d343ee1566869f7ba7a63beb6f59a9afccea0eab25f553d8",
+        "bytes": 25760,
+        "mode": 493
+      }
+    },
+    {
+      "file": "tests/deployment_installer_paths_test.py",
+      "draft": "backup-timer-protected-roots",
+      "before": null,
+      "after": {
+        "sha256": "4ea751d619b1180296bce3ed098b9f53fb9a43c20e3b6c61c777ba6ea0a1b6b3",
+        "bytes": 6100,
+        "mode": 420
+      }
+    },
+    {
+      "file": "scripts/audit-public-metadata.mjs",
+      "draft": "public-audit-identity",
+      "before": {
+        "sha256": "4c3a5ac76d59ebd4c9c379e88f14de59e4171e2cc24718fd575f9305ed072e30",
+        "bytes": 11150,
+        "mode": 420
+      },
+      "after": {
+        "sha256": "3bb825b848013ae0bde7a8dd5769313e7e141d18462416ad969eacb70ff8fef5",
+        "bytes": 10763,
+        "mode": 420
+      }
+    },
+    {
+      "file": "scripts/lighthouse-child.mjs",
+      "draft": "public-audit-identity",
+      "before": {
+        "sha256": "38771e1ccb63283e7c5d2a6f9d9f5659bfba2684f9a899f41e1fbccee9b4698c",
+        "bytes": 4366,
+        "mode": 420
+      },
+      "after": {
+        "sha256": "c5b86133a6325195cf80ed977813cabafc7bea816c1d67af21a31269e3160a25",
+        "bytes": 4708,
+        "mode": 420
+      }
+    },
+    {
+      "file": "scripts/lib/public-audit-identity.mjs",
+      "draft": "public-audit-identity",
+      "before": null,
+      "after": {
+        "sha256": "8f51831afb36d245276f240c41d43dbcd9284efc219367ad60231b2eb1e326fa",
+        "bytes": 3804,
+        "mode": 420
+      }
+    },
+    {
+      "file": "tests/public-audit-identity.test.mjs",
+      "draft": "public-audit-identity",
+      "before": null,
+      "after": {
+        "sha256": "0d7a8e3efaa07bc691c22a67b45657224abdde8eb40d1e046770803c6d8fa86b",
+        "bytes": 20122,
+        "mode": 420
+      }
+    }
+  ],
+  "modeChanges": [
+    {
+      "file": "scripts/doctor.sh",
+      "sha256": "92de75a6770e0dea97d7dcc8d520d9779dc72c518a22d0219fbb809e7021db51",
+      "beforeMode": 420,
+      "afterMode": 493
+    },
+    {
+      "file": "scripts/download-backup.sh",
+      "sha256": "90bddf3ad23192e9fbe67febb0ccd9487c680ed022fb72080ce119d9e56e9a1f",
+      "beforeMode": 420,
+      "afterMode": 493
+    },
+    {
+      "file": "scripts/provision-staff.sh",
+      "sha256": "87ae8f70552e9763ec6e871a83ee83b2700a639c88cd887dc84e2b30f1c003c6",
+      "beforeMode": 420,
+      "afterMode": 493
+    },
+    {
+      "file": "scripts/recover-ubuntu.sh",
+      "sha256": "4d287aeab67020bc1ecd333310bf9bd7765bed9ddbf01b1f557390992dc87172",
+      "beforeMode": 420,
+      "afterMode": 493
+    },
+    {
+      "file": "deploy/recovery.sh",
+      "sha256": "bdbfc2d8d3a981c93446261777817a9a7bc102c6c0508ae890811d5184d23c6c",
+      "beforeMode": 420,
+      "afterMode": 493
+    }
+  ],
+  "compiledBuildAtTransition": {
+    "buildId": "bK2Eb-_hVW6EM3B-gfBNN",
+    "standaloneBuildId": "bK2Eb-_hVW6EM3B-gfBNN"
+  },
+  "nativeBuildForChangedRuntimePending": true,
+  "documentationApplied": false,
+  "actualUbuntuFinalSourceAccepted": false,
+  "scopes": "Only installer preflight, public audit identity/reporting, their focused tests, and five canonical shell executable modes. No public design or application code changes.",
+  "helperSha256": "be672ab9ce6ebb1ded0b4dd53009b2e5f1f2c7fa29b0db1667e5ec20cbefc68c"
+}

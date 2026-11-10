@@ -1,0 +1,71 @@
+{
+  "url": "http://127.0.0.1:3100/ru/products/bstar-nano-composite/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "fef920331d426c1e43daa38a7bab332190d815d4b3d3516325c6473b58e3cd16",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Зубы B.Star Nano Composite | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Четырёхслойная нанокомпозитная серия с послойной окраской по данным официальной страницы."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/products/bstar-nano-composite/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/bstar-nano-composite/",
+    "en": "http://127.0.0.1:3100/en/products/bstar-nano-composite/",
+    "tr": "http://127.0.0.1:3100/tr/products/bstar-nano-composite/",
+    "ar": "http://127.0.0.1:3100/ar/products/bstar-nano-composite/",
+    "ru": "http://127.0.0.1:3100/ru/products/bstar-nano-composite/",
+    "x-default": "http://127.0.0.1:3100/fa/products/bstar-nano-composite/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Зубы B.Star Nano Composite",
+      "description": "Четырёхслойная нанокомпозитная серия с послойной окраской по данным официальной страницы.",
+      "image": "http://127.0.0.1:3100/media/official/1686378278.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "B.STAR"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/ru/products/bstar-nano-composite/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 52
+}

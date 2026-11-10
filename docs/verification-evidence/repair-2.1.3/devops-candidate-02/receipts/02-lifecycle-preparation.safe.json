@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "kind": "prepared-not-executed-candidate02-original-updater-lifecycle",
+  "status": "prepared-pending-frozen-candidate-and-parent-native-release-go",
+  "preparedAt": "2026-10-25T06:40:29.263271+00:00",
+  "helpers": [
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/resume_recovery_candidate02.py",
+      "sha256": "2f374499d315f7926a5a189330e7c8345c8e130babe64e03df7e565c401ed79c",
+      "bytes": 11951,
+      "python310SyntaxPassed": true,
+      "embeddedGuestSnippetsChecked": 0
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/candidate02_archive.py",
+      "sha256": "5bcec0f5d4abbedd6bd71574adaf896602c448375c5fe553eb75bbfd6a002bd1",
+      "bytes": 4878,
+      "python310SyntaxPassed": true,
+      "embeddedGuestSnippetsChecked": 0
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/candidate02_guest.py",
+      "sha256": "30f44ec650c5d205fba899fd4d4c20771607c6b0a990a119c9945a804d1428d3",
+      "bytes": 9446,
+      "python310SyntaxPassed": true,
+      "embeddedGuestSnippetsChecked": 0
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/candidate02_runtime_readback.py",
+      "sha256": "295f134c9ff4ba88926e8359b6f268281d2b261c1fe871cfab83e2d1bcf4d55f",
+      "bytes": 11993,
+      "python310SyntaxPassed": true,
+      "embeddedGuestSnippetsChecked": 0
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/candidate02_client.py",
+      "sha256": "17911e43df8d25a1017028fef6c57e162ee581dbd9d2a70787b640ff3c5c3162",
+      "bytes": 11818,
+      "python310SyntaxPassed": true,
+      "embeddedGuestSnippetsChecked": 3
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/observe_candidate02.py",
+      "sha256": "7665c4051005495ee125333c0007d269911d27da0f38771ef2a44ad5e1ca1125",
+      "bytes": 3857,
+      "python310SyntaxPassed": true,
+      "embeddedGuestSnippetsChecked": 0
+    }
+  ],
+  "frozenPriorVmHelperSha256": "c7d995b6068bba688d64af4f6fec151c72a13b1598080c36625aef6e3dcb93d0",
+  "priorRecoveryVmOutcomeSha256": "1b8b7dd89d344e89874c2e971aab006830e0b41309cf1a356bec0189e314bf61",
+  "retainedDisk": "/tmp/idealmakoo-acceptance-recovery-20261025-fo9a_2ry/disk.qcow2",
+  "retainedDiskDevice": 27,
+  "retainedDiskInode": 1572886,
+  "newRuntimeDirectory": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/c2-runtime",
+  "qmpPathBytes": 104,
+  "hostPreBootFloorBytes": 12884901888,
+  "hostRunningFloorBytes": 2147483648,
+  "sameVmMemoryMiB": 6144,
+  "sameVirtualCpus": 4,
+  "sameAcceleration": "TCG multi",
+  "originalOperation": "current/scripts/update.sh --source separately-verified-C2-source",
+  "normalPreUpgradeAndFinalEncryptedBackupsRetained": true,
+  "fullAntivirusAndExistingHealthOverridesUnchanged": true,
+  "criticalExistingDockerfileComposeDeploymentMigrationsAndOperationScriptsMustMatch": true,
+  "postUpdateSourceSchemaRoleHealthEnvironmentBackupAndLedgerChecksPrepared": true,
+  "postUpdateExistingApiFixtureVerificationPrepared": true,
+  "newVmBootOrGuestStagingOrProductEditPerformed": false,
+  "review": {
+    "reviewer": "source_compare",
+    "mode": "read-only bounded source review",
+    "concreteCorrectionApplied": "Top-level Dockerfile and docker-compose.yml included in critical equality.",
+    "remainingConcreteIssuesReported": 0,
+    "runtimeOutcomeClaimed": false
+  },
+  "pending": [
+    "Root supplies frozen C2 ZIP path and SHA256.",
+    "Root confirms all native consumers have stopped and actual waits are consumed.",
+    "Owned resume, readiness, ZIP verification/staging and original updater execution.",
+    "Actual runtime/readback/API outcomes, normal poweroff and consumed original supervisor wait."
+  ]
+}

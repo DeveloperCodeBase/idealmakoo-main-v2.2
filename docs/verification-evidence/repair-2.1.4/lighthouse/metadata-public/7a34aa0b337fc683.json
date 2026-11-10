@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/careers/apply/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "49a913e730a381882a2c66ae6319dcfc758af5d6950e3d6d540c9994678c8dbd",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Application & talent pool | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Introduce your skills and interest in working with the factory. Submit contact details, a CV and a message to the talent pool."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/careers/apply/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/careers/apply/",
+    "en": "http://127.0.0.1:3100/en/careers/apply/",
+    "tr": "http://127.0.0.1:3100/tr/careers/apply/",
+    "ar": "http://127.0.0.1:3100/ar/careers/apply/",
+    "ru": "http://127.0.0.1:3100/ru/careers/apply/",
+    "x-default": "http://127.0.0.1:3100/fa/careers/apply/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 52
+}

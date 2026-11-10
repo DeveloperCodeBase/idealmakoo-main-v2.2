@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+umask 077
+root=/srv/idealmakoo-mail-current
+exec 2>>"$root/completion-run.private.log"
+export PATH="$root/tools/usr/bin:$root/tools/usr/sbin:$PATH"
+export LD_LIBRARY_PATH="$root/tools/usr/lib/x86_64-linux-gnu"
+export DOCKER_CONFIG="$root/docker-config"
+export DOCKER_HOST="unix://$root/docker.sock"
+export IDEALMAKOO_ENV_FILE="$root/shared/.env"
+export IDEALMAKOO_COMPOSE_OVERRIDE="$root/mail-health.fixture.yml"
+export SSL_CERT_FILE="$root/tls/mail.example.test.crt"
+test ! -e "$root/completion-20261026-1431"
+if pgrep -x dockerd >/dev/null; then
+  docker info >/dev/null
+else
+  nohup dockerd --host "$DOCKER_HOST" --data-root "$root/docker-data" \
+    --exec-root /run/idealmakoo-mail-current-completion \
+    --pidfile "$root/docker-completion.pid" --log-level warn \
+    >"$root/daemon-completion.private.log" 2>&1 </dev/null &
+  for attempt in $(seq 1 60); do
+    if docker info >/dev/null 2>&1; then break; fi
+    sleep 2
+  done
+  docker info >/dev/null
+fi
+docker image inspect ghcr.io/docker-mailserver/docker-mailserver:16.0.1 >/dev/null
+printf '{"completed":"cachedDockerDaemonReady"}\n'
+python3 "$root/completion-harness.py"

@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/resources/yaghoot-official-image/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "e27a399af7e0443a86b959bc7b0f2a3f5d18987d981eaee74979f24c8c382214",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "دندان مصنوعی یاقوت — تصویر رسمی | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "دندان مصنوعی یاقوت — تصویر رسمی — اسناد تصویری اصلی کارخانه"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/resources/yaghoot-official-image/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/yaghoot-official-image/",
+    "en": "http://127.0.0.1:3100/en/resources/yaghoot-official-image/",
+    "tr": "http://127.0.0.1:3100/tr/resources/yaghoot-official-image/",
+    "ar": "http://127.0.0.1:3100/ar/resources/yaghoot-official-image/",
+    "ru": "http://127.0.0.1:3100/ru/resources/yaghoot-official-image/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/yaghoot-official-image/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 46
+}

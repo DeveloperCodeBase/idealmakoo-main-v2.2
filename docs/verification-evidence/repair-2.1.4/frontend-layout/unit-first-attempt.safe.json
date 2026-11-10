@@ -1,0 +1,33 @@
+{
+  "phase": "unit",
+  "command": [
+    "npm",
+    "run",
+    "test:unit"
+  ],
+  "startedAt": "2026-10-25T17:54:35.849876+00:00",
+  "completed": true,
+  "interrupted": false,
+  "completedAt": "2026-10-25T17:55:02.795214+00:00",
+  "exitCode": 1,
+  "elapsedSeconds": 26.945,
+  "logBytes": 124658,
+  "logSha256": "7273c3b5e1a88a9454817a42ec3f90c738995a7d3dce33ad363cde33579dfb20",
+  "observedBuildIdAfterCommand": "NWcRPAySX3HCzbpKSDJNf",
+  "tapFooter": {},
+  "sourceInputFingerprint": "f22b49bac26f5b59ede573dbaf6ed4cd52c738bfbe32b2d00ae9e47fe28c29ce",
+  "originalReceiptSha256": "e21367e95dac7a6b80abbf2a99d505853581bf4d99d1b56dbcae8856d6b20c1d",
+  "privateLogExcluded": true,
+  "derivedSummary": {
+    "tests": 857,
+    "pass": 814,
+    "fail": 43,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "loopbackListenEpermFailures": 41,
+    "oldProductEntryMockAssertionFailures": 2
+  },
+  "resolution": "Retained failed attempt. Reviewed loopback permission and two product-entry unit fixtures corrected; one real fragment/key/props contract test added before the complete858-case rerun.",
+  "buildIdentityNote": "This is a source/typecheck gate before the new production build; observedBuildIdAfterCommand identifies the older .next still present at that time."
+}

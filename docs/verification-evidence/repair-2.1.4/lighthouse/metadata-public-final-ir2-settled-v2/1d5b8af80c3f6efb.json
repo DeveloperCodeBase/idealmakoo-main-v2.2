@@ -1,0 +1,71 @@
+{
+  "url": "http://127.0.0.1:3100/ru/products/antic/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "edee777391284f1a12b09360eee38d94b9dd2a411156d9862e40894ba7e2a79f",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Искусственные зубы Antic | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Antic — нанокомпозитная серия с пятью слоями и шестью циклами; на странице указано немецкое сырьё."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/products/antic/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/antic/",
+    "en": "http://127.0.0.1:3100/en/products/antic/",
+    "tr": "http://127.0.0.1:3100/tr/products/antic/",
+    "ar": "http://127.0.0.1:3100/ar/products/antic/",
+    "ru": "http://127.0.0.1:3100/ru/products/antic/",
+    "x-default": "http://127.0.0.1:3100/fa/products/antic/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Искусственные зубы Antic",
+      "description": "Antic — нанокомпозитная серия с пятью слоями и шестью циклами; на странице указано немецкое сырьё.",
+      "image": "http://127.0.0.1:3100/media/official/1726467544.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "ANTIC"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/ru/products/antic/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 52
+}

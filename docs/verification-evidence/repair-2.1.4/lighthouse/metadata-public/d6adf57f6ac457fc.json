@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/research/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "7c0d4ad897493c1ace852ddf4aba70116fd1aaea03f29e68fef9f4c2501824de",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "البحوث والمعرفة | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "دراسات حول المواد والارتباط والمتانة من الأرشيف العلمي الرسمي للمصنع."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/research/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/",
+    "en": "http://127.0.0.1:3100/en/research/",
+    "tr": "http://127.0.0.1:3100/tr/research/",
+    "ar": "http://127.0.0.1:3100/ar/research/",
+    "ru": "http://127.0.0.1:3100/ru/research/",
+    "x-default": "http://127.0.0.1:3100/fa/research/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 97
+}

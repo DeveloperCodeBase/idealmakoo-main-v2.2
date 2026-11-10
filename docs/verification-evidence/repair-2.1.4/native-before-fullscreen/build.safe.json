@@ -1,0 +1,16 @@
+{
+  "gate": "build-upload-final",
+  "command": [
+    "npm",
+    "run",
+    "build"
+  ],
+  "exitCode": 0,
+  "durationSeconds": 69.201,
+  "startedAt": "2026-10-25T12:13:09.806888+00:00",
+  "finishedAt": "2026-10-25T12:14:19.007966+00:00",
+  "buildId": "mYkzU-dUdrd8P8urIq-YU",
+  "format": 1,
+  "logSha256": "c17b2911d6367621f18251059d2561d9463f2f79181ead69abe586204464f8cd",
+  "logBytes": 3427
+}

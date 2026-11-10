@@ -1,0 +1,18 @@
+{
+  "phase": "green-five-roots",
+  "startedAt": "2026-10-21T06:27:00.854381+00:00",
+  "finishedAt": "2026-10-21T06:27:02.015525+00:00",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/tmp/idealmakoo-production-repair-20261020/source-drafts/backup-timer-protected-roots/after/tests/deployment_installer_paths_test.py",
+    "-v"
+  ],
+  "sourceRoot": "/tmp/idealmakoo-production-repair-20261020/source-drafts/backup-timer-protected-roots/staged-project",
+  "installerSha256": "4f80763057981367d343ee1566869f7ba7a63beb6f59a9afccea0eab25f553d8",
+  "testSha256": "4ea751d619b1180296bce3ed098b9f53fb9a43c20e3b6c61c777ba6ea0a1b6b3",
+  "exitCode": 0,
+  "logPath": "/tmp/idealmakoo-production-repair-20261020/source-drafts/backup-timer-protected-roots/evidence/green-five-roots.log",
+  "logSha256": "127f19793a6d982767217ab06164fd97b370d286e4347e3ff141188bf10dc5f2",
+  "passed": true,
+  "testCount": 7
+}

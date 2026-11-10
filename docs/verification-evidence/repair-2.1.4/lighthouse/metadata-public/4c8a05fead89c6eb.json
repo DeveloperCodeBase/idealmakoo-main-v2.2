@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/distributors/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "60ca32dad3f0d0cd1b5895bd17a69962bc04862a4c7ab57304610fe661af5f65",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "شبکهٔ نمایندگان | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "برای راهنمایی درباره مسیر توزیع محصولات در کشور خود با کارخانه تماس بگیرید یا درخواست همکاری در توزیع را ثبت کنید."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/distributors/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/distributors/",
+    "en": "http://127.0.0.1:3100/en/distributors/",
+    "tr": "http://127.0.0.1:3100/tr/distributors/",
+    "ar": "http://127.0.0.1:3100/ar/distributors/",
+    "ru": "http://127.0.0.1:3100/ru/distributors/",
+    "x-default": "http://127.0.0.1:3100/fa/distributors/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 56
+}

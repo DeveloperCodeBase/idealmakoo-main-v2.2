@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/distributors/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "de665b3458274a9fe637cf013494d505bf7f8cedd0b6651559ed4f3b0981aa16",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Distribütör ağı | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Ülkenizde ürün dağıtımı hakkında bilgi için fabrikayla iletişime geçin veya dağıtım iş birliği başvurusu gönderin."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/distributors/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/distributors/",
+    "en": "http://127.0.0.1:3100/en/distributors/",
+    "tr": "http://127.0.0.1:3100/tr/distributors/",
+    "ar": "http://127.0.0.1:3100/ar/distributors/",
+    "ru": "http://127.0.0.1:3100/ru/distributors/",
+    "x-default": "http://127.0.0.1:3100/fa/distributors/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 55
+}

@@ -1,0 +1,12 @@
+{
+  "format": "native-topology-seal-safe-derivative-v1",
+  "startedAt": "2026-10-25T21:24:07.146347+00:00",
+  "actualExitCode": 0,
+  "durationSeconds": 0.75,
+  "guardSha256": "22690e970b374366047bddd78deada4201492f479843d2e2ea74b8a3bdf30512",
+  "contractWritten": true,
+  "topologySha256": "d0c85e36be10862b020361b4179ad2add3a02848966239cb01fd7b6a92837bf4",
+  "secretValuesOrHashesExported": false,
+  "originalPrivateReceiptSha256": "a81ba48489335522a3ddd300564304bf80bf1a55f98e6c33f028fb1fd9bd36ca",
+  "omittedInternalExecutionIdentifiers": true
+}

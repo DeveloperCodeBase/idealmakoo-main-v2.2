@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "kind": "collected-owned-guest-outcome",
+  "guest": "primary",
+  "job": "api-seed-canonical",
+  "status": "passed",
+  "exitCode": 0,
+  "actualGuestWaitConsumed": true,
+  "startedAt": "2026-10-25T04:49:40.091197+00:00",
+  "completedAt": "2026-10-25T04:50:22.170435+00:00",
+  "elapsedSeconds": 42.082617,
+  "files": {
+    "outcome.safe.json": {
+      "bytes": 399,
+      "sha256": "1479ce134eccad3884b4526d59ce43f5593c42897a6ee78015361f2c76b453fc",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "start.safe.json": {
+      "bytes": 386,
+      "sha256": "b49d474a5f3de705fdbb530e361a381c6faf7310f9378d230cbeccba2d2f5440",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "stdout.private": {
+      "bytes": 4704,
+      "sha256": "e82f89dee02a53d1c2043afbb017510aa7a2f17e397cf0e4f05917130a0fa08e",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "stderr.private.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    }
+  },
+  "apiStatus": "passed",
+  "apiPhase": "seed",
+  "checks": [
+    "authenticated superAdmin",
+    "public signup always creates customer retained",
+    "public signup always creates customer erasable",
+    "customer cannot manage users",
+    "authenticated contentEditor",
+    "editable source page saved",
+    "real antivirus-scanned upload matches original bytes",
+    "private upload denied to anonymous",
+    "private upload denied to another customer",
+    "supported EICAR DOCX initially enters private quarantine",
+    "real ClamAV blocks the exact EICAR entry inside the supported DOCX archive",
+    "authenticated owner cannot download the ClamAV-blocked EICAR attachment"
+  ],
+  "checkCount": 12
+}

@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "kind": "safe-evidence-file-manifest",
+  "recordedAt": "2026-10-24T17:49:30.639544+00:00",
+  "files": {
+    "operations.safe.json": {
+      "bytes": 1348,
+      "sha256": "1804c6f6062cfcb1bd51cc2499da124a7279caffe2cc4b608fe8aa46bf3b5063"
+    },
+    "actual-process-outcome.safe.json": {
+      "bytes": 468,
+      "sha256": "b628abeed2cd87c3941522dde7b3ba824c74132bf0f3d6be6b70d3592e151c5f"
+    },
+    "completion.safe.json": {
+      "bytes": 2864,
+      "sha256": "d4177b8ba8c193fbc2e91425dcf4650e01c64a7fa5503f85a078c3673a2a0744"
+    },
+    "focused.safe.json": {
+      "bytes": 1452,
+      "sha256": "03e554d56d71b0660055ee5258d60d826a7b2084f3b72cac742da842436a9783"
+    },
+    "baseline.safe.json": {
+      "bytes": 1584,
+      "sha256": "66c747bc711e50268dabb646448233a498c6a85933ca68a70fec32e64d6c409d"
+    },
+    "focused-completion.safe.json": {
+      "bytes": 3676,
+      "sha256": "817151bf1f78475a6ebffb817d210d353d4ce8bf81daad7f4b56821e54dba5e0"
+    },
+    "focused-process-outcomes.safe.json": {
+      "bytes": 1053,
+      "sha256": "5b742df0948252abc3c5745206ba39dbe2eef5b6ce662c528f65f14a1199ccc5"
+    },
+    "application-inputs.safe.json": {
+      "bytes": 110947,
+      "sha256": "b5afa65f579683587ddde44f901d01ea97e1b130f876cc8d007468160683ba27"
+    },
+    "execution-inputs.safe.json": {
+      "bytes": 157048,
+      "sha256": "9a559f7d82a894739c217eb7562b8d9dad18f6241ac4e1e4b18045aeec1b4f43"
+    },
+    "compiler-input-equivalence.safe.json": {
+      "bytes": 115798,
+      "sha256": "7b7c1a556680e3102a8481e270dd80fb1b3b5b26ace6d338c241d07c65f100cd"
+    },
+    "input-summary.safe.json": {
+      "bytes": 1104,
+      "sha256": "100cad92e8c78bff593b954bbaedeefbe0a71777472c550beea40251f3e2cc89"
+    }
+  },
+  "privateRawLogsArgumentsEnvironmentOrSessionValuesIncluded": false,
+  "actualGuestStartupAcceptanceClaimedByThisCheckpoint": false
+}

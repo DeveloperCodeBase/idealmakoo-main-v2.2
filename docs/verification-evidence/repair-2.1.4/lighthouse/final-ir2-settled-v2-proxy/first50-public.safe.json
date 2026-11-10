@@ -1,0 +1,120 @@
+{
+  "format": "final-public-first50-scalar-v1",
+  "observedAt": "2026-10-25T22:53:05.163726+00:00",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "compiledBuildInputFingerprint": "4fcec50f5846b0affccc59e43798613ba134a3f93559ea5ddba9705e1f38cc58",
+  "currentAuditInclusiveFingerprint": "64a14915618ac34a4daee3aa64eb82d44438b993096491966afc487be9f67b12",
+  "topologySha256": "d0c85e36be10862b020361b4179ad2add3a02848966239cb01fd7b6a92837bf4",
+  "sampleOutcomes": 50,
+  "completed": 49,
+  "expectedHttpResponses": 1,
+  "errors": 0,
+  "timeouts": 0,
+  "observedSpanSeconds": 551.718,
+  "secondsPerOutcome": 11.03436,
+  "projected620SecondsAtSampleRate": 6841.303199999999,
+  "projectedRemaining570Seconds": 6289.5851999999995,
+  "groupedScores": {
+    "indexablePublic": {
+      "attempted": 44,
+      "scored": 44,
+      "expectedHttpResponses": 0,
+      "categories": {
+        "performance": {
+          "count": 44,
+          "min": 71,
+          "median": 83.0,
+          "max": 88,
+          "below90": 44
+        },
+        "accessibility": {
+          "count": 44,
+          "min": 100,
+          "median": 100.0,
+          "max": 100,
+          "below90": 0
+        },
+        "best-practices": {
+          "count": 44,
+          "min": 100,
+          "median": 100.0,
+          "max": 100,
+          "below90": 0
+        },
+        "seo": {
+          "count": 44,
+          "min": 100,
+          "median": 100.0,
+          "max": 100,
+          "below90": 0
+        }
+      }
+    },
+    "publicAuthNoindex": {
+      "attempted": 5,
+      "scored": 5,
+      "expectedHttpResponses": 0,
+      "categories": {
+        "performance": {
+          "count": 5,
+          "min": 86,
+          "median": 88,
+          "max": 89,
+          "below90": 5
+        },
+        "accessibility": {
+          "count": 5,
+          "min": 100,
+          "median": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "best-practices": {
+          "count": 5,
+          "min": 100,
+          "median": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "seo": {
+          "count": 5,
+          "min": 58,
+          "median": 58,
+          "max": 58,
+          "below90": 5
+        }
+      }
+    },
+    "expected404": {
+      "attempted": 1,
+      "scored": 0,
+      "expectedHttpResponses": 1,
+      "categories": {
+        "performance": null,
+        "accessibility": null,
+        "best-practices": null,
+        "seo": null
+      }
+    },
+    "otherNoindex": {
+      "attempted": 0,
+      "scored": 0,
+      "expectedHttpResponses": 0,
+      "categories": {
+        "performance": null,
+        "accessibility": null,
+        "best-practices": null,
+        "seo": null
+      }
+    }
+  },
+  "rawReportBytes49": 20129647,
+  "rawReportBytesProjected615": 252647610.30612245,
+  "allRunFileBytesAtObservation": 21949796,
+  "allRunFileCountAtObservation": 314,
+  "sanitizedExportMeasured": false,
+  "sanitizedByteProjection": "Not claimed from this sample; image-free derivative size is measured after scoring. Raw source report projection is an upper planning reference before formatting and auxiliary metadata.",
+  "rawLighthouseReportsParsedForSnapshot": 0,
+  "source": "Small existing summary records plus file stat only.",
+  "timingLimits": "Sample begins first task and ends50th result, includes normal per-page fresh browser startup/teardown and one fast expected404; future route costs/errors vary. Browser cold profiles do not reset normal server/image caches."
+}

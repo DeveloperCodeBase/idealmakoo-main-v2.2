@@ -1,0 +1,71 @@
+{
+  "url": "http://127.0.0.1:3100/tr/products/bstar-nano-composite/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "6e697b823e383d93eee595bdafe4a897c1156e0c697a229207aac4109b21f5e2",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "B.Star nano kompozit dişler | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Resmî ürün sayfasında açıklanan, katmanlı renklendirmeye sahip dört katmanlı nano kompozit seri."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/products/bstar-nano-composite/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/bstar-nano-composite/",
+    "en": "http://127.0.0.1:3100/en/products/bstar-nano-composite/",
+    "tr": "http://127.0.0.1:3100/tr/products/bstar-nano-composite/",
+    "ar": "http://127.0.0.1:3100/ar/products/bstar-nano-composite/",
+    "ru": "http://127.0.0.1:3100/ru/products/bstar-nano-composite/",
+    "x-default": "http://127.0.0.1:3100/fa/products/bstar-nano-composite/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "B.Star nano kompozit dişler",
+      "description": "Resmî ürün sayfasında açıklanan, katmanlı renklendirmeye sahip dört katmanlı nano kompozit seri.",
+      "image": "http://127.0.0.1:3100/media/official/1686378278.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "B.STAR"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/tr/products/bstar-nano-composite/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 55
+}

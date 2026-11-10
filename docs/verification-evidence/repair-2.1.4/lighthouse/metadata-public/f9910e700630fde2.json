@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/global/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "0081f6e59dcafa6a97bf0341a286f961c698cd33904b698bd02033ee900a23f0",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "From Maku, to wider markets. | Ideal Makoo"
+  ],
+  "descriptions": [
+    "The factory’s position in the Maku Free Zone and the export history described by the company."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/global/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/global/",
+    "en": "http://127.0.0.1:3100/en/global/",
+    "tr": "http://127.0.0.1:3100/tr/global/",
+    "ar": "http://127.0.0.1:3100/ar/global/",
+    "ru": "http://127.0.0.1:3100/ru/global/",
+    "x-default": "http://127.0.0.1:3100/fa/global/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 69
+}

@@ -1,0 +1,17 @@
+{
+  "observedAt": "2026-10-25T12:42:16.959475+00:00",
+  "buildId": "NWcRPAySX3HCzbpKSDJNf",
+  "httpStatus": 200,
+  "body": {
+    "status": "ok",
+    "database": "ok",
+    "privacy": "ready",
+    "timestamp": "2026-10-25T12:42:16.824Z",
+    "version": "2.1.4",
+    "applicationVersion": "2.1.4"
+  },
+  "workerHealthExit": 0,
+  "functionalDatabase": "idealmakoo_repair_acceptance_1792931349081_489685",
+  "originalAuditCloneUnchanged": true,
+  "fresh20MiBPolicyVerifiedBeforeStartup": true
+}

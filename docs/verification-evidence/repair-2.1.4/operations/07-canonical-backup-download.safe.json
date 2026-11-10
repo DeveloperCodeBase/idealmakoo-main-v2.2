@@ -1,0 +1,21 @@
+{
+  "scope": "Actual original workstation download command against owned managed Docker installation",
+  "operationStatus": {
+    "name": "backup-download",
+    "startedAt": "2026-10-25T14:32:50.523197+00:00",
+    "completed": true,
+    "completedAt": "2026-10-25T14:39:41.723643+00:00",
+    "elapsedSeconds": 411.2,
+    "exitCode": 0
+  },
+  "commandPattern": "bash scripts/download-backup.sh --host OWNED_SERVER --remote-root MANAGED_ROOT --output ARCHIVE.tar.age --recovery-key-output SEPARATE_PROTECTED_IDENTITY",
+  "archiveBytes": 181691896,
+  "archiveSha256": "49950812b6d13c32644b0ded627259d96a542fb6168d7d76df40144f26c54113",
+  "canonicalServerArchiveRetained": true,
+  "separateProtectedRecoveryIdentityReceived": true,
+  "originalPrivateLogDigest": {
+    "bytes": 2484,
+    "sha256": "873fab94a726f6deaed9bcb0566418591aaf3cbc9ee806d7d220f5cdfc5e23b3"
+  },
+  "keysCookiesSessionIdsAndPrivatePathsExported": false
+}

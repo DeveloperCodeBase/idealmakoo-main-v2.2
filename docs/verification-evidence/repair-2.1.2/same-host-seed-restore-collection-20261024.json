@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "collected-guest-job",
+  "collectedAt": "2026-10-24T09:52:10.201431+00:00",
+  "port": 22082,
+  "job": "restore-seed-replace-01",
+  "status": "passed",
+  "actualProcessOutcome": {
+    "schema": 1,
+    "kind": "owned-guest-acceptance-job-outcome",
+    "job": "restore-seed-replace-01",
+    "status": "passed",
+    "startedAt": "2026-10-24T09:15:59.075464+00:00",
+    "completedAt": "2026-10-24T09:51:10.969524+00:00",
+    "pid": 40490,
+    "startTicks": 789784,
+    "exitCode": 0,
+    "actualWaitConsumed": true
+  },
+  "privateOutputPreserved": true,
+  "stdoutSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderrSha256": "393fb887c3b6906089139837090cf7c62bd6d61d113c3447b4b28f154c7d2d85"
+}

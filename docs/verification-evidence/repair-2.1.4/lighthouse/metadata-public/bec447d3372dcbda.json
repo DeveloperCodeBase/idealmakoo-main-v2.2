@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/resources/three-teeth-heat-cured-resin-cover/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "8f48bb6f435889306c3d9565ba5ec1a777b4e089c741dd54e5c96432dd5195ce",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Иллюстрация исследования — Соединение Berelian, Super Berelian и Ivoclar с термоотверждаемой смолой | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Соединение Berelian, Super Berelian и Ivoclar с термоотверждаемой смолой — Оригинальные графические документы завода"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/resources/three-teeth-heat-cured-resin-cover/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/three-teeth-heat-cured-resin-cover/",
+    "en": "http://127.0.0.1:3100/en/resources/three-teeth-heat-cured-resin-cover/",
+    "tr": "http://127.0.0.1:3100/tr/resources/three-teeth-heat-cured-resin-cover/",
+    "ar": "http://127.0.0.1:3100/ar/resources/three-teeth-heat-cured-resin-cover/",
+    "ru": "http://127.0.0.1:3100/ru/resources/three-teeth-heat-cured-resin-cover/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/three-teeth-heat-cured-resin-cover/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 62
+}

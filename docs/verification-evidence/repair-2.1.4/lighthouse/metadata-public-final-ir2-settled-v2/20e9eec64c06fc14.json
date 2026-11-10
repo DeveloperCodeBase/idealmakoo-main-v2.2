@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/resources/iranian-teeth-ivoclar-wear-cover/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "b491ebb6181e5ac6f6bf9a68a0670e178db578c43952ab383d84844516594575",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "تصویر مرجع پژوهش — بررسی سایش برلیان و سوپر برلیان در مقایسه با ایوکلار | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "بررسی سایش برلیان و سوپر برلیان در مقایسه با ایوکلار — اسناد تصویری اصلی کارخانه"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/resources/iranian-teeth-ivoclar-wear-cover/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/iranian-teeth-ivoclar-wear-cover/",
+    "en": "http://127.0.0.1:3100/en/resources/iranian-teeth-ivoclar-wear-cover/",
+    "tr": "http://127.0.0.1:3100/tr/resources/iranian-teeth-ivoclar-wear-cover/",
+    "ar": "http://127.0.0.1:3100/ar/resources/iranian-teeth-ivoclar-wear-cover/",
+    "ru": "http://127.0.0.1:3100/ru/resources/iranian-teeth-ivoclar-wear-cover/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/iranian-teeth-ivoclar-wear-cover/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 61
+}

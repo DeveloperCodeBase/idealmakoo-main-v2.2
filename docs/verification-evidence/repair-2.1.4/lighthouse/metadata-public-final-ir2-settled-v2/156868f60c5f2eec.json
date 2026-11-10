@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/resources/apple-super-major-wear-cover/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "3bf66761fb03dd7ac94a9a34c030818638c81f028c1c10f578d46c87bc24993f",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "تصویر مرجع پژوهش — مقایسه سایش دندان اپل و سوپر ماژور | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "مقایسه سایش دندان اپل و سوپر ماژور — اسناد تصویری اصلی کارخانه"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/resources/apple-super-major-wear-cover/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/apple-super-major-wear-cover/",
+    "en": "http://127.0.0.1:3100/en/resources/apple-super-major-wear-cover/",
+    "tr": "http://127.0.0.1:3100/tr/resources/apple-super-major-wear-cover/",
+    "ar": "http://127.0.0.1:3100/ar/resources/apple-super-major-wear-cover/",
+    "ru": "http://127.0.0.1:3100/ru/resources/apple-super-major-wear-cover/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/apple-super-major-wear-cover/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 65
+}

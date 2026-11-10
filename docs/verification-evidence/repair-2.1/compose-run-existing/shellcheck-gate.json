@@ -1,0 +1,42 @@
+{
+  "startedAt": "2026-10-21T13:01:36.661326+00:00",
+  "finishedAt": "2026-10-21T13:01:38.764500+00:00",
+  "exitCode": 0,
+  "passed": true,
+  "wallSeconds": 2.103,
+  "sourceSha256": {
+    "deploy/clamav/idealmakoo-clamav.sh": "dba038f4202b56aaf99f9085b80ad5e09acc91e054c3a2d538e4ca7c5ffd1bee",
+    "deploy/lib.sh": "8c6f0011463eb0dabff2d79757e0309e202d8c71340f4c56caba0652f2f86d1c",
+    "deploy/postgres/init-roles.sh": "a3affd9fb2a6a445c588206177223f90cfbf844f0f22f148affc6150f49ff04a",
+    "deploy/recovery.sh": "90c5b1db9b58a1668572b4e13e3650d6539484c9a29957c7085941113a368e5b",
+    "scripts/backup.sh": "d904f9d8fad7dad241075fbfcbfd97f4486e7a4d519e462f6ae21036709604ab",
+    "scripts/check-health.sh": "d1eb2b9ab5e2d8f0a98bef1047f17d9353c1c7a936e8eaf1c3a3e73f6751de3e",
+    "scripts/doctor.sh": "92de75a6770e0dea97d7dcc8d520d9779dc72c518a22d0219fbb809e7021db51",
+    "scripts/download-backup.sh": "dff4b9c6821bd57e4a7ae441bffe372a5729492df17d67d400f249aabe6a34b4",
+    "scripts/entrypoint.sh": "b965ff1233e8fe6316e6d0af099bb44fca415da806952bbe169378dacc522296",
+    "scripts/install-ubuntu.sh": "39ea28884b2a89ab798b849a6a384e2473c2a4da785341a3666d62a7d5f1c62d",
+    "scripts/provision-staff.sh": "93da5d10ab8a0d933dec9bde60ba5e6bf79212f32e4fbe84d72fc5175a667606",
+    "scripts/recover-ubuntu.sh": "2147a6ea89b1a4c43afaf2bde011641aac024303fae20ca15a763cad7e8bffbd",
+    "scripts/restore.sh": "74f299b67ae9739b0719c6692e87671b9146cbea9ff1ce081e840ea238d36244",
+    "scripts/update.sh": "786c623560400ecff9b7ffe167f5526429a898e9d0cb736cbd8c38ad7839b3a3"
+  },
+  "sourceChangedDuringGate": [],
+  "targets": [
+    "deploy/clamav/idealmakoo-clamav.sh",
+    "deploy/lib.sh",
+    "deploy/postgres/init-roles.sh",
+    "deploy/recovery.sh",
+    "scripts/backup.sh",
+    "scripts/check-health.sh",
+    "scripts/doctor.sh",
+    "scripts/download-backup.sh",
+    "scripts/entrypoint.sh",
+    "scripts/install-ubuntu.sh",
+    "scripts/provision-staff.sh",
+    "scripts/recover-ubuntu.sh",
+    "scripts/restore.sh",
+    "scripts/update.sh"
+  ],
+  "binarySha256": "54dc63164186ad21fb909f5194fb5291f4035c2d2cae04b5680385b8d8fbb73c",
+  "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

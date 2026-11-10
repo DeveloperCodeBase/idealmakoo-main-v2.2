@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/knowledge/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "5424ab1dd892d26dcddec9e0a9ddfbbcc97999998b98f6eadf110046765909c1",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "مساحة للمعرفة والخبرة. | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "محتوى متخصص حول المنتجات والمواد والخبرة المهنية في صناعة الأسنان."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/knowledge/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/knowledge/",
+    "en": "http://127.0.0.1:3100/en/knowledge/",
+    "tr": "http://127.0.0.1:3100/tr/knowledge/",
+    "ar": "http://127.0.0.1:3100/ar/knowledge/",
+    "ru": "http://127.0.0.1:3100/ru/knowledge/",
+    "x-default": "http://127.0.0.1:3100/fa/knowledge/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 72
+}

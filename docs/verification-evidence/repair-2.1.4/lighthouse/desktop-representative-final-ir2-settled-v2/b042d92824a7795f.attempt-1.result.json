@@ -1,0 +1,157 @@
+{
+  "url": "http://127.0.0.1:3100/fa/",
+  "kind": "representative-home",
+  "indexed": true,
+  "expectedStatus": 200,
+  "device": "desktop",
+  "attempt": 1,
+  "id": "b042d92824a7795f",
+  "startedAt": "2026-10-26T00:46:25.293Z",
+  "status": "completed",
+  "scores": {
+    "performance": 98,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  "metrics": {
+    "first-contentful-paint": 506.69129999999996,
+    "largest-contentful-paint": 1091.43405,
+    "speed-index": 709.169716052533,
+    "total-blocking-time": 35,
+    "cumulative-layout-shift": 0.00001135757568160526,
+    "interactive": 1095.6289050000003
+  },
+  "lighthouseVersion": "13.5.0",
+  "fetchTime": "2026-10-26T00:46:27.284Z",
+  "finalDisplayedUrl": "http://127.0.0.1:3100/fa/",
+  "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+  "environment": {
+    "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "benchmarkIndex": 2319,
+    "credits": {
+      "axe-core": "4.14.0"
+    }
+  },
+  "configSettings": {
+    "output": "json",
+    "maxWaitForFcp": 15000,
+    "maxWaitForLoad": 45000,
+    "pauseAfterFcpMs": 1000,
+    "pauseAfterLoadMs": 1000,
+    "networkQuietThresholdMs": 1000,
+    "cpuQuietThresholdMs": 1000,
+    "formFactor": "desktop",
+    "throttling": {
+      "rttMs": 40,
+      "throughputKbps": 10240,
+      "requestLatencyMs": 0,
+      "downloadThroughputKbps": 0,
+      "uploadThroughputKbps": 0,
+      "cpuSlowdownMultiplier": 1
+    },
+    "throttlingMethod": "simulate",
+    "screenEmulation": {
+      "mobile": false,
+      "width": 1350,
+      "height": 940,
+      "deviceScaleFactor": 1,
+      "disabled": false
+    },
+    "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+    "auditMode": false,
+    "gatherMode": false,
+    "clearStorageTypes": [
+      "file_systems",
+      "shader_cache",
+      "service_workers",
+      "cache_storage"
+    ],
+    "disableStorageReset": false,
+    "debugNavigation": false,
+    "channel": "node",
+    "usePassiveGathering": false,
+    "disableFullPageScreenshot": true,
+    "skipAboutBlank": false,
+    "blankPage": "about:blank",
+    "ignoreStatusCode": false,
+    "locale": "en-US",
+    "blockedUrlPatterns": null,
+    "additionalTraceCategories": null,
+    "extraHeaders": null,
+    "precomputedLanternData": null,
+    "onlyAudits": null,
+    "onlyCategories": [
+      "performance",
+      "accessibility",
+      "best-practices",
+      "seo"
+    ],
+    "skipAudits": [
+      "modern-http-insight",
+      "bf-cache"
+    ]
+  },
+  "runWarnings": [],
+  "failedAudits": [
+    {
+      "id": "largest-contentful-paint",
+      "title": "Largest Contentful Paint",
+      "score": 0.92,
+      "displayValue": "1.1 s"
+    },
+    {
+      "id": "max-potential-fid",
+      "title": "Max Potential First Input Delay",
+      "score": 0.98,
+      "displayValue": "90 ms"
+    },
+    {
+      "id": "unused-css-rules",
+      "title": "Reduce unused CSS",
+      "score": 0,
+      "displayValue": "Est savings of 26 KiB"
+    },
+    {
+      "id": "unused-javascript",
+      "title": "Reduce unused JavaScript",
+      "score": 0,
+      "displayValue": "Est savings of 115 KiB"
+    },
+    {
+      "id": "image-delivery-insight",
+      "title": "Improve image delivery",
+      "score": 0.5,
+      "displayValue": "Est savings of 22 KiB"
+    },
+    {
+      "id": "legacy-javascript-insight",
+      "title": "Legacy JavaScript",
+      "score": 0,
+      "displayValue": "Est savings of 12 KiB"
+    },
+    {
+      "id": "network-dependency-tree-insight",
+      "title": "Network dependency tree",
+      "score": 0
+    },
+    {
+      "id": "render-blocking-insight",
+      "title": "Render-blocking requests",
+      "score": 0,
+      "displayValue": "Est savings of 260 ms"
+    }
+  ],
+  "report": "b042d92824a7795f.attempt-1.sanitized-lhr.json",
+  "httpStatus": 200,
+  "httpUrl": "http://127.0.0.1:3100/fa/",
+  "expectedHttpVerified": true,
+  "identityErrors": [],
+  "urlIdentityVerified": true,
+  "durationMs": 9336,
+  "finishedAt": "2026-10-26T00:46:34.629Z",
+  "format": "sanitized-public-lighthouse-evidence-v1",
+  "rawReportSha256": "42be8a67fe47a0a5110a3df93093e4d8832e13e4f407741757b12d0d56c01b5a",
+  "reportIsSanitized": true
+}

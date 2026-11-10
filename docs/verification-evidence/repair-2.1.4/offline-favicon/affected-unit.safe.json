@@ -1,0 +1,37 @@
+{
+  "command": [
+    "node",
+    "--test",
+    "--test-isolation=none",
+    "--test-reporter=tap",
+    "tests/pwa-policy.test.mjs",
+    "tests/service-worker-classic.test.mjs"
+  ],
+  "actualExitCode": 0,
+  "startedAt": "2026-10-26T01:05:51.913900+00:00",
+  "finishedAt": "2026-10-26T01:05:52.029564+00:00",
+  "durationSeconds": 0.11507363099372014,
+  "validationPassed": true,
+  "summary": {
+    "tests": 9,
+    "suites": 0,
+    "pass": 9,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0
+  },
+  "rawLogSha256": "bbccb84bb45b878b8a68a59e3d6664717eb71dfd43b48cbcccccdb82f166a328",
+  "rawLogBytes": 2926,
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "scope": "Existing affected worker/policy checks only; not a full unit suite or application build/browser rerun.",
+  "environmentOverrides": {
+    "NODE_ENV": "test",
+    "NEXT_PUBLIC_DEMO_MODE": "true"
+  },
+  "conventionSource": "scripts/run-unit.mjs; same --test-isolation=none convention, restricted to the two affected files",
+  "format": "offline-favicon-typed-evidence-v1",
+  "rawReceiptSha256": "a012c57ab4a2283454f50fdf28a0684a49b6870a8ce62926b3f0a5206901eabc",
+  "privatePathsEnvironmentLogsAndBrowserPayloadsExported": false,
+  "qualification": "All nine declared cases passed under the existing project --test-isolation=none convention. This is not a full871-unit or69-browser rerun."
+}

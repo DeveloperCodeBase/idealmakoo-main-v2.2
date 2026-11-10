@@ -1,0 +1,8 @@
+{
+  "historical": true,
+  "applicationVersion": "2.0.0",
+  "currentAcceptance": false,
+  "archivedEvidence": "history-2.0.0/final-runtime.json",
+  "currentReport": "../VERIFICATION.fa.md",
+  "note": "Historical 2.0.0 evidence retained for provenance; this file is not acceptance evidence for repaired 2.1.0."
+}

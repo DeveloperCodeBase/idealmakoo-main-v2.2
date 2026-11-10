@@ -1,0 +1,34 @@
+{
+  "format": "offline-favicon-focused-evidence-index-v1",
+  "createdAt": "2026-10-26T01:08:22.180336+00:00",
+  "compiledBuildId": "ir2DFJg8r5YdpbVQubUqF",
+  "files": [
+    {
+      "file": "apply.safe.json",
+      "sha256": "6b2605a5020731ee7a62aee206bf69c7851988e003c10e7313392aab81ea5799",
+      "bytes": 5486
+    },
+    {
+      "file": "affected-unit-attempt01.safe.json",
+      "sha256": "b77e609c351e57d86fdcecd67ebe9864bf94cbf2fd1304211952275adc1fd5f6",
+      "bytes": 1161
+    },
+    {
+      "file": "affected-unit.safe.json",
+      "sha256": "5d4e4a3301744f3e8f6d09eca8fb7003327f85c2bb167c5c44c783865ca8dd77",
+      "bytes": 1359
+    },
+    {
+      "file": "generator-check.safe.json",
+      "sha256": "de2ec3e62c1e76fa897bd9fb54fa0c733af91ecff147e0703d464381e1c12401",
+      "bytes": 857
+    },
+    {
+      "file": "history.safe.json",
+      "sha256": "56629a43632e3fa6acdcfd4eb130b5d4c250b67f11f947ed4e0d3f99da41fd02",
+      "bytes": 688
+    }
+  ],
+  "noScreenshotsRawLogsOrSecrets": true,
+  "scope": "Static-source apply and focused pre-browser checks only. Actual served-byte continuity, current fingerprint, two PWA browser cases and five-page Lighthouse follow-up are separate receipts."
+}

@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/resources/three-teeth-heat-cured-resin-cover/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "e4b7e0e3bf5a84c01121992e8d3f3d3822fd0c7906827b3992f0ac62b6989e71",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "تصویر مرجع پژوهش — اتصال برلیان، سوپر برلیان و ایوکلار به رزین گرماپخت | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "اتصال برلیان، سوپر برلیان و ایوکلار به رزین گرماپخت — اسناد تصویری اصلی کارخانه"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/resources/three-teeth-heat-cured-resin-cover/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/three-teeth-heat-cured-resin-cover/",
+    "en": "http://127.0.0.1:3100/en/resources/three-teeth-heat-cured-resin-cover/",
+    "tr": "http://127.0.0.1:3100/tr/resources/three-teeth-heat-cured-resin-cover/",
+    "ar": "http://127.0.0.1:3100/ar/resources/three-teeth-heat-cured-resin-cover/",
+    "ru": "http://127.0.0.1:3100/ru/resources/three-teeth-heat-cured-resin-cover/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/three-teeth-heat-cured-resin-cover/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 67
+}

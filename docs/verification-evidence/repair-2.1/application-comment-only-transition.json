@@ -1,0 +1,15 @@
+{
+  "recordedAt": "2026-10-21T09:12:36.401856+00:00",
+  "previousBuildId": "ZExXgIfF-M2np679FYhoQ",
+  "previousApplicationHash": "209cfa2017ed5c5ba4d6f7135d7183a16731ff7e345e41e55bccd3556f551a1c",
+  "applicationFilesCompared": 674,
+  "changedApplicationFiles": [
+    "src/components/experience/engines/hero.ts"
+  ],
+  "commentOnlyVerifiedByExactPriorFileSha256": true,
+  "runtimeBehaviorEdited": false,
+  "fileSha256Before": "0d879e68e9ebfc47bd6d084f6c3ea37a5b14d0891ff99a4d251fa95327fce9f6",
+  "fileSha256After": "a86bc3b9ff240d7d4f551979bdffefa3b1ea5e4c685521f7da97ea739bc66938",
+  "change": "Corrected the comment: Three r180 constructor alpha:false controls clear semantics; its internally created WebGL context retains alpha:true.",
+  "scopeNote": "This witness covers application inputs. Audit-only scripts/tests and documentation changed separately and have targeted regression evidence."
+}

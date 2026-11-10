@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/manufacturing/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "7da6b68e405d617b674d0a8a775d7547b88fb285cecbe3b849f763f61960cbb8",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Форма. Слои. Детали. | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Изучите серии искусственных зубов через структуру, материалы и разнообразие форм."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/manufacturing/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/manufacturing/",
+    "en": "http://127.0.0.1:3100/en/manufacturing/",
+    "tr": "http://127.0.0.1:3100/tr/manufacturing/",
+    "ar": "http://127.0.0.1:3100/ar/manufacturing/",
+    "ru": "http://127.0.0.1:3100/ru/manufacturing/",
+    "x-default": "http://127.0.0.1:3100/fa/manufacturing/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 50
+}

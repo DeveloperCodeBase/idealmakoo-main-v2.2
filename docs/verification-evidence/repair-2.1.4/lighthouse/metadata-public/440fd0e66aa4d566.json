@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/resources/six-teeth-wear-rate-cover/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "5b872ba0dc494b81c84afa1941a6bb5ef72fd22dcc948f9d185e5759214629a9",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Research reference image — Wear-rate comparison of six denture tooth types | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Wear-rate comparison of six denture tooth types — Original factory image documents"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/resources/six-teeth-wear-rate-cover/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/six-teeth-wear-rate-cover/",
+    "en": "http://127.0.0.1:3100/en/resources/six-teeth-wear-rate-cover/",
+    "tr": "http://127.0.0.1:3100/tr/resources/six-teeth-wear-rate-cover/",
+    "ar": "http://127.0.0.1:3100/ar/resources/six-teeth-wear-rate-cover/",
+    "ru": "http://127.0.0.1:3100/ru/resources/six-teeth-wear-rate-cover/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/six-teeth-wear-rate-cover/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 50
+}

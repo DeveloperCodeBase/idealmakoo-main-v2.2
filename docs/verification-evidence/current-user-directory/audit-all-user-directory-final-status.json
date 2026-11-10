@@ -1,0 +1,27 @@
+{
+  "format": "idealmakoo.dependency-audit",
+  "scope": "all-dependencies-including-development",
+  "startedAt": "2026-10-21T06:01:54.668363+00:00",
+  "finishedAt": "2026-10-21T06:01:56.326674+00:00",
+  "commandExitCode": 1,
+  "counts": {
+    "info": 0,
+    "low": 0,
+    "moderate": 2,
+    "high": 5,
+    "critical": 0,
+    "total": 7
+  },
+  "lockAndPackageUnchanged": true,
+  "inputsBefore": {
+    "package.json": "53d7b278f31022c21c72c9531c69ff5f0edee406a29249c812d2615d5f1c28af",
+    "package-lock.json": "362eb9c406b73518235d96b56ada6b34842b59798ce145664dd709f8419cb73f"
+  },
+  "inputsAfter": {
+    "package.json": "53d7b278f31022c21c72c9531c69ff5f0edee406a29249c812d2615d5f1c28af",
+    "package-lock.json": "362eb9c406b73518235d96b56ada6b34842b59798ce145664dd709f8419cb73f"
+  },
+  "reportSha256": "ac7a579617f736752206025e9671faa793820f0c16b56f1738d3cd5f58990c20",
+  "registryError": null,
+  "productionGate": "audit-user-directory-final-status.json"
+}

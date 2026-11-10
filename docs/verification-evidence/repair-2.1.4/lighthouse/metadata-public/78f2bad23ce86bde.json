@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/resources/ideal-makoo-mould-poster/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "966eb62f378bffda0aa3b2471d01233fe15ba9a02305a524f6cdf42c428c39aa",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "کاتالوگ جامع و چارت قالب ایده‌آل ماکو | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "از فرم دندان و ابعاد تا معرفی ۱۲ سری در سند؛ نسخهٔ ۲۶ صفحه‌ای خوانا از پوستر ارسالی."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/resources/ideal-makoo-mould-poster/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/ideal-makoo-mould-poster/",
+    "en": "http://127.0.0.1:3100/en/resources/ideal-makoo-mould-poster/",
+    "tr": "http://127.0.0.1:3100/tr/resources/ideal-makoo-mould-poster/",
+    "ar": "http://127.0.0.1:3100/ar/resources/ideal-makoo-mould-poster/",
+    "ru": "http://127.0.0.1:3100/ru/resources/ideal-makoo-mould-poster/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/ideal-makoo-mould-poster/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 47
+}

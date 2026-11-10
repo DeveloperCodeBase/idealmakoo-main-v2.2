@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/research/four-teeth-wear-rate/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "1b24035c908a67a0de4be782d496c02eb0ac179aa04bdfab4588f75c57de47a7",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "مقایسه نرخ سایش ۴ نوع دندان مصنوعی | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "مدخل آرشیوی درباره نرخ سایش و رفتار نمونه‌ها در مرحله پایدار آزمون."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/research/four-teeth-wear-rate/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/four-teeth-wear-rate/",
+    "en": "http://127.0.0.1:3100/en/research/four-teeth-wear-rate/",
+    "tr": "http://127.0.0.1:3100/tr/research/four-teeth-wear-rate/",
+    "ar": "http://127.0.0.1:3100/ar/research/four-teeth-wear-rate/",
+    "ru": "http://127.0.0.1:3100/ru/research/four-teeth-wear-rate/",
+    "x-default": "http://127.0.0.1:3100/fa/research/four-teeth-wear-rate/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 69
+}

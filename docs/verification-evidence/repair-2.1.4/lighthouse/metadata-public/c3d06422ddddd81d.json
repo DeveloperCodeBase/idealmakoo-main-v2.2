@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/for/research/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "e4c0808cf6e55792371e6624dc2ed709b541b63a773a19baf9a024cdd57d35bc",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Araştırmacılar | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Araştırmacılar için bilimsel arşiv, ürün kaynakları, kalite bilgileri ve fabrikaya araştırma teklifi gönderme formu."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/for/research/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/for/research/",
+    "en": "http://127.0.0.1:3100/en/for/research/",
+    "tr": "http://127.0.0.1:3100/tr/for/research/",
+    "ar": "http://127.0.0.1:3100/ar/for/research/",
+    "ru": "http://127.0.0.1:3100/ru/for/research/",
+    "x-default": "http://127.0.0.1:3100/fa/for/research/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 51
+}

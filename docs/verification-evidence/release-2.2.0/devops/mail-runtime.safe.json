@@ -1,0 +1,114 @@
+{
+  "format": 1,
+  "scope": "Controlled local mail fixture; no user domain, DNS or external recipients.",
+  "initialArchiveRestoration": {
+    "format": 1,
+    "status": "partial",
+    "localTlsSmtp465Authentication": true,
+    "localTlsImap993Authentication": true,
+    "archiveInventoryValidated": true,
+    "restoredSignedFixtureBytesMatch": true,
+    "dkimPrivateKeyPreserved": true,
+    "restoredOutboundPaused": true,
+    "externalMessagesSent": 0,
+    "publicDnsAndAcmeProven": false,
+    "externalInboxDeliverabilityProven": false,
+    "fullWebsiteInstallerExecuted": false,
+    "postRestoreFinalHealthProven": false,
+    "actualSignedMailboxFixtureInArchive": true,
+    "dkimSignsBothUnsubscribeHeaders": true,
+    "mailArchiveSha256": "832ebcd22e7e298fba440bacbcbbf01d1578c7ba7061d80e60d410ec994fd156",
+    "mailArchiveMembers": 77,
+    "restoreStageCommitted": true,
+    "negativeRelayAssertionPrecededSnapshot": "The immutable initial harness asserts SMTP465 unauthenticated external RCPT rejection before creating this populated mail archive; no DATA was sent to that external address.",
+    "blockedBoundary": "Initial larger VM exited137 during post-restore restart. Reduced-emulation rerun has not passed mandatory service health; no final mail acceptance receipt was produced."
+  },
+  "currentCodeProtocolChecks": {
+    "authenticatedLocalSmtpAccepted": true,
+    "localImapDeliveryAndDkimUnsubscribeSignatureVerified": true,
+    "unauthenticatedRelayRejectedBeforeData": true
+  },
+  "originalRestoredMessageRead": {
+    "originalRestoredMessageReadOverStrictTlsImap": true,
+    "certificateRefreshExecuted": false,
+    "messagesSent": 0
+  },
+  "finalHarnessExit": {
+    "exitCode": 1
+  },
+  "sourceSha256": {
+    "deploy/mail-config.py": "8abb755077a18137b0424d9b9cb8d5163ce8b27245497e8158b87dc717b99fef",
+    "deploy/mail-data.py": "a310ceb8909685e708187ede461d33f59720a2e3b0b38ea99131ebb7c21acb03",
+    "deploy/mail-diagnostics.py": "12ad6bf44d11ac4ec5e6efe3824dc71a158e02222de93b17dfea50edb59b0278",
+    "deploy/service-lifecycle.py": "9d66021ee6307767ddfa743119417f71b07bd7d550e7d1085cd69041a1cf5ea7",
+    "deploy/docker-inspect.py": "016cee3c5c84b9373136def2cdea23e4170f09e968d27d6ae7c6478155089cb0",
+    "deploy/compose.py": "258b18ff39528351fc9bfb590c73591265a3f5ab13e7dbc1c167f66a94b41867",
+    "deploy/env-file.py": "1ec4e9acba9179a0834ef3ba3c8769916f07d3696bef54c3cd3ed6be689896b0",
+    "docker-compose.yml": "287fd91e276273859a14b9f1657ce35bd2776aba08ab315ac5dcabcda993dd01",
+    "scripts/mail-certificate-refresh.sh": "522e4f13f4ec7a6315fac53c32b7d3d2d47628ba05dbb3c07eb722845861ceb5",
+    ".env.example": "a9a9c8a9b996a18cbc3436efcc618616e8560a237ea4e5462a4a26b0dcac0bed"
+  },
+  "initialHarnessSha256": "068f09f90d3559357d831770bdb894a5ebf826739e749e4cf7dfa05389de71ba",
+  "finalHarnessSha256": "7d6d42febb2a6ab7e859366b3edd508f6d486275caaea8e223e0bcc097c9b744",
+  "recordedAt": "2026-10-26T13:55:17.645029+00:00",
+  "status": "partial; protocol, signed message, archive data restoration and subsequent IMAP read verified; full coordinated acceptance not completed",
+  "mailImage": {
+    "reference": "ghcr.io/docker-mailserver/docker-mailserver:16.0.1",
+    "registryDigest": "sha256:d0fe7668defe157aad57ea31b1707ad1e2fb57d7a91bdf17cbdf876549946c86"
+  },
+  "environment": {
+    "freshOwnedUbuntuVm": true,
+    "ubuntu": "24.04",
+    "docker": "29.1.3",
+    "compose": "2.40.3",
+    "emulation": "QEMU TCG; no KVM",
+    "tls": "Dedicated local self-signed fixture certificate explicitly trusted only by test clients; hostname and chain verification remain enabled",
+    "dns": "example.test with local hosts mapping; no public DNS or ACME ownership validation",
+    "externalMessagesSent": 0
+  },
+  "attempts": [
+    {
+      "phase": "initial default health",
+      "result": "SMTP/IMAP and signed local delivery reached; authenticated mail archive restored; VM process exited137 during subsequent restart",
+      "cause": "Exit137 observed during concurrent application build; memory pressure suspected, not independently attributed"
+    },
+    {
+      "phase": "reduced-emulation default health",
+      "result": "health command exceeded10-second budget; attempt cancelled through normal lifecycle cleanup"
+    },
+    {
+      "phase": "explicit fixture timing",
+      "override": {
+        "healthTimeoutSeconds": 45,
+        "healthStartPeriodSeconds": 300,
+        "healthCommandUnchanged": true
+      },
+      "result": "StrictTLS SMTP/IMAP, signedlocaldelivery and unauthenticatedSMTP465relay rejection passed; snapshot failed closed because harness reused existing snapshot.json",
+      "finalExitCode": {
+        "exitCode": 1
+      }
+    },
+    {
+      "phase": "post-restoration read only proof",
+      "result": {
+        "originalRestoredMessageReadOverStrictTlsImap": true,
+        "certificateRefreshExecuted": false,
+        "messagesSent": 0
+      }
+    }
+  ],
+  "notExecuted": [
+    "full current website Ubuntu installation/upgrade",
+    "full second mail snapshot/restore/exact-container restart sequence after reused-snapshot refusal",
+    "certificate refresh or rotation runtime check",
+    "public SMTP25 relay and SMTP587 STARTTLS supplemental checks",
+    "real user DNS/MX/PTR/ACME changes",
+    "external mail inbox, SMS or Telegram delivery"
+  ],
+  "cleanup": {
+    "ownedVmShutdown": "Normal systemd poweroff requested; QEMU exited0.",
+    "temporaryRegistryRelayStopped": true,
+    "userServerDnsOrProviderCredentialsUsed": false,
+    "finishedAt": "2026-10-26T13:56:43.692433+00:00"
+  }
+}

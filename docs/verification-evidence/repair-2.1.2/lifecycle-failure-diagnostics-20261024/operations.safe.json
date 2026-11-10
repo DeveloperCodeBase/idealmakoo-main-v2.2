@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "kind": "complete-deployment-suite-after-sanitized-failure-diagnostics",
+  "startedAt": "2026-10-24T15:31:30.406333+00:00",
+  "completedAt": "2026-10-24T15:32:57.791435+00:00",
+  "durationSeconds": 87.283882,
+  "pythonVersion": "3.12.14",
+  "pattern": "deployment_*_test.py",
+  "discovered": 224,
+  "testsRun": 224,
+  "passed": 224,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "expectedFailures": 0,
+  "unexpectedSuccesses": 0,
+  "failureTests": [],
+  "errorTests": [],
+  "exitCode": 0,
+  "accepted": true,
+  "composeVersion": "2.40.3",
+  "ageVersions": [
+    "1.1.1"
+  ],
+  "authenticatedToolHashesReverified": true,
+  "disposableLoopbackFixturesAuthorized": true,
+  "realDockerDaemonUsed": false,
+  "vmCalls": false,
+  "externalNetworkCalls": false,
+  "newBuildExecuted": false,
+  "applicationOrDatabaseServicesStarted": false,
+  "sourceBefore": {
+    "sha256": "30d2d54eef773f72807ed4473e64627b54bd3da16509bc3de3f6cf8c609079d4",
+    "files": 987
+  },
+  "sourceAfter": {
+    "sha256": "30d2d54eef773f72807ed4473e64627b54bd3da16509bc3de3f6cf8c609079d4",
+    "files": 987
+  },
+  "sourceChangedDuringTests": [],
+  "log": {
+    "path": "acceptance/continuation-20261024/native-build05/operations-04/operations.private.log",
+    "sha256": "07fa72f355e5b7c8a6a2782655b1225d433e9f7292b024a1149b30365cce3c34",
+    "bytes": 43751
+  }
+}

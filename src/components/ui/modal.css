@@ -1,0 +1,105 @@
+/* Native top-layer placement is physical; text and content keep their own direction.
+   Optical styling lives in dialog-surface.css. Do not put scrollbars on this rim. */
+.app-dialog[data-viewport-dialog] {
+  position: fixed;
+  inset: auto;
+  left: var(--dialog-center-x, 50vw);
+  top: var(--dialog-center-y, 50dvh);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  display: none;
+  flex-direction: column;
+  width: min(var(--dialog-preferred-width, 650px), var(--dialog-available-width, calc(100vw - 24px)));
+  max-width: var(--dialog-available-width, calc(100vw - 24px));
+  min-width: 0;
+  height: auto;
+  min-height: 0;
+  max-height: var(--dialog-available-height, calc(100dvh - 24px));
+  padding: 0;
+  overflow: hidden;
+  overscroll-behavior: contain;
+  scrollbar-gutter: auto;
+  border-radius: 26px;
+  color: var(--text);
+  font: inherit;
+  box-sizing: border-box;
+  isolation: isolate;
+  z-index: 1000;
+}
+.app-dialog[data-viewport-dialog][open] { display: flex; }
+.app-dialog[data-viewport-dialog]:not([open]) { display: none; }
+.app-dialog[data-viewport-dialog].search-dialog { --dialog-preferred-width: 720px; }
+.app-dialog[data-viewport-dialog].image-dialog { --dialog-preferred-width: 1050px; }
+.app-dialog[data-viewport-dialog].assistant-dialog { --dialog-preferred-width: 460px; }
+.app-dialog[data-viewport-dialog] > .dialog-heading {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-width: 0;
+  width: 100%;
+  margin: 0;
+  padding: 19px 24px;
+  box-sizing: border-box;
+}
+.app-dialog[data-viewport-dialog] > .dialog-heading h2 {
+  min-width: 0;
+  margin: 0;
+  font-size: clamp(18px, 2.2vw, 22px);
+  font-weight: 700;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+  max-height: min(4.95em, calc(var(--dialog-available-height, 100dvh) * .35));
+  overflow: auto;
+}
+.app-dialog[data-viewport-dialog] > .dialog-heading > .dialog-close {
+  display: grid;
+  place-items: center;
+  flex: 0 0 44px;
+  width: 44px;
+  height: 44px;
+  min-height: 44px;
+  padding: 0;
+}
+.app-dialog[data-viewport-dialog] > .dialog-body {
+  position: relative;
+  z-index: 1;
+  flex: 1 1 auto;
+  min-width: 0;
+  min-height: 0;
+  width: 100%;
+  margin: 0;
+  padding: 24px;
+  overflow: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  scrollbar-color: var(--line-bright) transparent;
+  scroll-padding-block: 20px;
+  box-sizing: border-box;
+}
+.app-dialog[data-viewport-dialog] > .dialog-body > * { min-width: 0; max-width: 100%; }
+.app-dialog[data-viewport-dialog] :is(input, select, textarea) { max-width: 100%; }
+.app-dialog[data-viewport-dialog] .zoomed-image {
+  display: block;
+  max-width: 100%;
+  max-height: max(120px, calc(var(--dialog-available-height, 100dvh) - 140px));
+  width: auto;
+  height: auto;
+  margin-inline: auto;
+  object-fit: contain;
+}
+@media (max-width: 560px) {
+  .app-dialog[data-viewport-dialog] { border-radius: 22px; }
+  .app-dialog[data-viewport-dialog] > .dialog-heading { padding: 14px 17px; gap: 10px; }
+  .app-dialog[data-viewport-dialog] > .dialog-heading h2 { font-size: 18px; }
+  .app-dialog[data-viewport-dialog] > .dialog-body { padding: 18px 17px max(20px, env(safe-area-inset-bottom)); }
+  .app-dialog[data-viewport-dialog] > .dialog-body :is(input, select, textarea) { font-size: max(1rem, 16px); }
+  .app-dialog[data-viewport-dialog] .search-field kbd { display: none; }
+  .app-dialog[data-viewport-dialog] .search-result-list a { align-items: flex-start; }
+  .app-dialog[data-viewport-dialog] .search-result-list a > span { min-width: 0; overflow-wrap: anywhere; }
+  .app-dialog[data-viewport-dialog] .search-result-list a > svg { flex: 0 0 auto; }
+}

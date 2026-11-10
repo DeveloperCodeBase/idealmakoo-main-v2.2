@@ -1,0 +1,68 @@
+{
+  "createdAt": "2026-10-25T21:26:06.510Z",
+  "configurationHash": "d7748ca968b935f795b0eea3fc7edaaa8cb9afc8cd047a8bbcc483a3126024de",
+  "config": {
+    "schemaVersion": 3,
+    "baseUrl": "http://127.0.0.1:3100",
+    "devices": [
+      "mobile"
+    ],
+    "categories": [
+      "performance",
+      "accessibility",
+      "best-practices",
+      "seo"
+    ],
+    "chromeFlags": [
+      "--headless=new",
+      "--disable-dev-shm-usage",
+      "--no-sandbox",
+      "--enable-unsafe-swiftshader"
+    ],
+    "graphicsMode": "webgl-software-fallback",
+    "chromePath": "/tmp/idealmakoo-214-browser/chrome-linux64/chrome",
+    "chromeVersion": "Google Chrome for Testing 156.0.8078.4",
+    "deadlineSeconds": 180,
+    "maxWaitForLoad": 45000,
+    "disableFullPageScreenshot": true,
+    "lighthouseVersion": "13.5.0",
+    "chromeLauncherVersion": "1.2.0",
+    "applicationVersion": "2.1.4",
+    "buildId": "ir2DFJg8r5YdpbVQubUqF",
+    "servedAssetsHash": "82df30e0c5bc22750234495cef13b34342f90a3e22dd5803606ca4cedd56b3ff",
+    "staticAssets": [
+      "/_next/static/chunks/3794-9f866eb1b07be87c.js",
+      "/_next/static/chunks/4bd1b696-8cd12253b448cc13.js",
+      "/_next/static/chunks/8488.49065f393d1ebae6.js",
+      "/_next/static/chunks/main-app-785728497a09b1a5.js",
+      "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "/_next/static/chunks/webpack-ca1caac1e207542b.js",
+      "/_next/static/css/2edd00438c0efd42.css",
+      "/_next/static/css/57bcb7e354699743.css",
+      "/_next/static/css/80fccfd76ea5bd0a.css",
+      "/_next/static/css/84397fae94acf730.css",
+      "/_next/static/css/868cca9060d35dea.css",
+      "/_next/static/css/8fcd9aea4312038e.css",
+      "/_next/static/css/a8aa5802b60669e4.css",
+      "/_next/static/css/c2c8f7ce724c4cd0.css"
+    ],
+    "publicContentHash": "c81fb2b40e486f8608c7c7da584d76197bef191244fad9d1b45128ddbb7e8e74",
+    "inventoryHash": "813f52df708c86a1656ea09ce298d40a80b85a5cdbf519d97028cbf06afc11d6"
+  },
+  "expected": 620,
+  "sourceUrls": 620,
+  "scope": "all-public",
+  "host": {
+    "platform": "linux",
+    "release": "6.18.55",
+    "architecture": "x64",
+    "node": "v24.22.1",
+    "cpu": "AMD EPYC 9V74 80-Core Processor",
+    "availableCpus": 8,
+    "memoryBytes": 10451439616,
+    "cpuQuota": "800000 100000",
+    "memoryLimit": "8589934592"
+  },
+  "format": "sanitized-public-lighthouse-evidence-v1",
+  "evidencePolicy": "Explicitly sanitized derivative, not a raw Lighthouse report. Original raw reports remain in scratch and are identified by SHA256. Screenshot/image payloads are omitted at the exact JSON pointers recorded; scores, metrics, nonimage audit results and failed attempts are retained. Browser logs, input files, cookies and private raw reports are not included."
+}

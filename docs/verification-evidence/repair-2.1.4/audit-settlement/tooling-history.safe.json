@@ -1,0 +1,58 @@
+{
+  "format": "idealmakoo-audit-tooling-history-v1",
+  "scope": "Preserves candidate execution history; these are audit-tool test outcomes, not application or Lighthouse scores",
+  "attempts": [
+    {
+      "kind": "synthetic-file-isolated",
+      "exitCode": 1,
+      "detail": "Cleanup and abort files passed; new exporter policy-mismatch fixture changed raw status without matching summary, so existing ATTEMPT_STATUS_MISMATCH rejected before intended assertion.",
+      "receiptSha256": "2ead11bd052c9a52c2f702bee0ece05897a2724f74188bd0e439be22b2fc172b"
+    },
+    {
+      "kind": "direct-diagnostic-exporter",
+      "exitCode": 1,
+      "tests": 30,
+      "passed": 29,
+      "failed": 1,
+      "detail": "Exposed the same fixture inconsistency; original test source retained privately."
+    },
+    {
+      "kind": "synthetic-intermediate",
+      "exitCode": 0,
+      "tests": 63,
+      "passed": 63,
+      "failed": 0,
+      "detail": "Passed before the final refinement that avoids document evaluation while any request body is pending; not relabelled as final candidate.",
+      "receiptSha256": "e9cabe2fbafc8e6df31f8d170b0a583d75c2642aa94e0b2ce3decc1cb2412aa5"
+    },
+    {
+      "kind": "synthetic-final",
+      "exitCode": 0,
+      "tests": 63,
+      "passed": 63,
+      "failed": 0,
+      "receiptSha256": "1dfafce56c1eeef8e1e666e91a0945f66660caff19ec29c77f9237fc0869d5e8"
+    },
+    {
+      "kind": "post-apply-affected",
+      "exitCode": 0,
+      "tests": 63,
+      "passed": 63,
+      "failed": 0
+    },
+    {
+      "kind": "post-apply-full-unit",
+      "exitCode": 0,
+      "tests": 871,
+      "passed": 871,
+      "failed": 0
+    }
+  ],
+  "legacyPolicy": "authenticated-robots-committed-lease-release-v1",
+  "currentPolicy": "authenticated-robots-settled-committed-lease-release-v2",
+  "legacyV1ProofRequirementsUnchanged": true,
+  "manifestReceiptPolicyIdentityRequired": true,
+  "unknownPoliciesRejected": true,
+  "originalLighthouseCleanupFailureRelabelled": false,
+  "rawLogsOrBrowserArtifactsIncluded": false
+}

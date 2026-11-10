@@ -1,0 +1,18 @@
+{
+  "format": "historical-stop-observation-qualification-v1",
+  "recordedAt": "2026-10-25T18:26:12.400148+00:00",
+  "originalStopReceiptSha256": "267fc01fadd987fe9db49b321b034dd12e70093f888662a1da8ed260cdc670d5",
+  "qualifiedField": "laterProcessObservation at17:28:50",
+  "qualification": "That scan used a sandbox PID namespace and is not independent native-host absence proof. Its original fields and receipt are retained unchanged. Genuine recorded supervisor/child exit outcomes are unaffected.",
+  "currentNativeObservation": {
+    "pidNamespace": "pid:[4026532200]",
+    "singleLevelNativeNSpid": true,
+    "formerSupervisorPidAbsent": true,
+    "formerRoleChildPidAbsent": true,
+    "processesUsingOriginalOwnedBrowserProfile": 0,
+    "scope": "Only the original stopped audit processes/profile; no statement about unrelated current test browsers. This is a later observation, not proof of interrupted page cleanup."
+  },
+  "originalRoleInputSha256": "18d591159dcf3cee3751980f5c68050593bdea90c44e8b95215c4bf2cceb7aa2",
+  "privateProfileOrActorIdentifiersExported": false,
+  "originalInterruptedPageCleanup": "Unknown; unchanged."
+}

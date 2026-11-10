@@ -1,0 +1,134 @@
+{
+  "kind": "shipped-production-browser-acceptance",
+  "startedAt": "2026-10-23T10:40:41.695967+00:00",
+  "buildId": "HSeZD37BGY1jy6cC01AzB",
+  "scope": "selected-specifications",
+  "selectedSpecs": [
+    "tests/e2e/hero-worker.spec.ts",
+    "tests/e2e/rubik-worker.spec.ts",
+    "tests/e2e/public-csp-images.spec.ts"
+  ],
+  "origin": "http://127.0.0.1:3096",
+  "httpEntrypoint": "caddy",
+  "sourceVersion": "2.1.2",
+  "status": "passed",
+  "exitCode": 0,
+  "finishedAt": "2026-10-23T10:41:24.685535+00:00",
+  "durationSeconds": 42.989,
+  "rawReportBytes": 12059,
+  "rawReportSha256": "11ab6252d2dbb856fef4527011f2a5288ea103e7784e2b65bebf2cada5d68668",
+  "logBytes": 1483,
+  "logSha256": "4fa6700a78933b826d35b6b533f7c9b0e7b3ebe63705610ec0558d6ba14c8ca3",
+  "stats": {
+    "startTime": "2026-10-23T10:40:42.175Z",
+    "duration": 42495.538,
+    "expected": 7,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "tests": [
+    {
+      "file": "hero-worker.spec.ts",
+      "line": 3,
+      "title": "the real rendering worker presents frames and handles keyboard input while the page controls remain usable",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "attempts": [
+        {
+          "status": "passed",
+          "durationMs": 9820,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "file": "hero-worker.spec.ts",
+      "line": 38,
+      "title": "failure after canvas transfer remounts a fresh accessible React canvas and restores the same scene on the main thread",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "attempts": [
+        {
+          "status": "passed",
+          "durationMs": 8413,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "file": "public-csp-images.spec.ts",
+      "line": 3,
+      "title": "hydrated public pages and the hero rendering worker run under nonce CSP without eval violations",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "attempts": [
+        {
+          "status": "passed",
+          "durationMs": 9221,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "file": "public-csp-images.spec.ts",
+      "line": 30,
+      "title": "image optimization permits known bundled files and rejects private, encoded and query-bearing paths",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "attempts": [
+        {
+          "status": "passed",
+          "durationMs": 98,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "file": "public-csp-images.spec.ts",
+      "line": 46,
+      "title": "the server-rendered public page remains mounted through session and publication hydration",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "attempts": [
+        {
+          "status": "passed",
+          "durationMs": 817,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "file": "rubik-worker.spec.ts",
+      "line": 3,
+      "title": "the real cube worker presents the preserved scene and accepts native keyboard input while page controls stay usable",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "attempts": [
+        {
+          "status": "passed",
+          "durationMs": 5898,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "file": "rubik-worker.spec.ts",
+      "line": 36,
+      "title": "cube worker failure after transfer remounts a fresh accessible canvas and preserves the main-thread fallback",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "attempts": [
+        {
+          "status": "passed",
+          "durationMs": 7443,
+          "retry": 0
+        }
+      ]
+    }
+  ],
+  "testCount": 7,
+  "attemptCount": 7,
+  "rawErrorsOmitted": true,
+  "originalReceiptSha256": "50ffee4b26e2736d32fc5054a41a9f6cfdcfb317640bb4137762ca2cd9c53813"
+}

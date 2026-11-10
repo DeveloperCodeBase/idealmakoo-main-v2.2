@@ -1,0 +1,12 @@
+{
+  "gate": "build-width-final",
+  "command": [
+    "npm",
+    "run",
+    "build"
+  ],
+  "exitCode": 0,
+  "durationSeconds": 70.84,
+  "startedAt": "2026-10-25T11:44:21Z",
+  "finishedAt": "2026-10-25T11:45:32Z"
+}

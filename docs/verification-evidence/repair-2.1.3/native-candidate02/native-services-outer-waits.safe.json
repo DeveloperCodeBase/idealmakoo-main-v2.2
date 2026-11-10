@@ -1,0 +1,42 @@
+{
+  "kind": "actual-native-service-outer-waits",
+  "recordedFromReturnedToolResults": true,
+  "normalOwnedSigterm": true,
+  "entries": [
+    {
+      "name": "browser-c2-debounce-browser-01-app",
+      "sessionId": 45498,
+      "actualOuterExitCode": 143,
+      "actualOuterWaitConsumed": true,
+      "completionChunkId": "0f2d58"
+    },
+    {
+      "name": "browser-c2-debounce-browser-01-worker",
+      "sessionId": 2954,
+      "actualOuterExitCode": 0,
+      "actualOuterWaitConsumed": true,
+      "completionChunkId": "2daa76"
+    },
+    {
+      "name": "audit-c2-debounce-audit-01-app",
+      "sessionId": 17313,
+      "actualOuterExitCode": 143,
+      "actualOuterWaitConsumed": true,
+      "completionChunkId": "bae153"
+    },
+    {
+      "name": "audit-c2-debounce-audit-01-worker",
+      "sessionId": 42319,
+      "actualOuterExitCode": 0,
+      "actualOuterWaitConsumed": true,
+      "completionChunkId": "3f8d67"
+    },
+    {
+      "name": "browser-c2-debounce-browser-01-caddy",
+      "sessionId": 22150,
+      "actualOuterExitCode": 0,
+      "actualOuterWaitConsumed": true,
+      "completionChunkId": "310ded"
+    }
+  ]
+}

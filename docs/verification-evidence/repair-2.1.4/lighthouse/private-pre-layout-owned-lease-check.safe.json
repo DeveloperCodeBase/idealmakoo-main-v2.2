@@ -1,0 +1,23 @@
+{
+  "format": "owned-audit-lease-state-check-v1",
+  "checkedAt": "2026-10-25T17:24:18.555Z",
+  "buildId": "NWcRPAySX3HCzbpKSDJNf",
+  "scope": "Only leases belonging to the twelve original owned audit actors in the guarded disposable database",
+  "actorCount": 12,
+  "totalOwnedLeases": 0,
+  "activeOwnedLeases": 0,
+  "expiredOwnedLeases": 0,
+  "cleanupRequired": false,
+  "databaseWrites": false,
+  "browserOrHttpRequests": false,
+  "originalInterruptedPageCleanup": "Unknown; this later state check does not retroactively supply per-page cleanup proof.",
+  "privateIdentifiersExported": false,
+  "priorDiagnosticAttempt": {
+    "actualExitCode": 1,
+    "sqlState": "42883",
+    "toolChunk": "a3f174",
+    "reason": "Read-only helper used uuid[] for the text user_id column; this corrected attempt uses text[].",
+    "rowsReadOrWritten": 0,
+    "applicationFailure": false
+  }
+}

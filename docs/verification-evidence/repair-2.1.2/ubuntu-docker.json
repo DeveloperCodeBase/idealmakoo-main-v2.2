@@ -1,0 +1,331 @@
+{
+  "schema": 1,
+  "kind": "production-operational-acceptance-final",
+  "reportedAt": "2026-10-23T12:23:48.426780+00:00",
+  "version": "2.1.2",
+  "status": "incomplete-not-accepted",
+  "productionInstallationAccepted": false,
+  "freshOperatingSystemInstallAccepted": false,
+  "testedCandidate": {
+    "sourceZipSha256": "21937e869ae27c462b2a12037256e021c94e521956f110288b6e2b3bf4e8ac3a",
+    "sourceZipBytes": 67713714,
+    "zipEntries": 3275,
+    "independentlyVerifiedGuestManifestFiles": 3273,
+    "releaseManifestSha256": "ea30302e5b79c6e35c7623818c8fb79689350a65feef3efe433e5f0196338ace",
+    "nativeBuildId": "fIFLzhRg6HZ_mfSabbL8J",
+    "nativeBuildInputCount": 986,
+    "nativeBuildInputsSha256": "a9337f54dad49cdd79a8498cd575b05349887860dded6e5fabb5c10b6ca9ebce",
+    "guestExecutionInputCount": 995,
+    "guestExecutionInputsSha256": "aa19497131760e94ec6555b6ca24e2c84fad45f6f410fa8d0b13f18a43fcc487",
+    "allOperationsTestedInputsMatchedCandidate": true,
+    "operationsTestedInputCount": 58,
+    "scope": "Exact frozen execution source; later documentation-only packaging is not this tested ZIP."
+  },
+  "completedOfflineGates": {
+    "pythonOperationsTests": {
+      "run": 200,
+      "passed": 200,
+      "failures": 0,
+      "skipped": 0,
+      "exitCode": 0,
+      "seconds": 66.665
+    },
+    "shellSyntaxAndShellcheck": {
+      "count": 14,
+      "syntaxExitCode": 0,
+      "shellcheckExitCode": 0,
+      "modifiedDoctorRechecked": true
+    },
+    "doctorRegression": {
+      "testCount": 2,
+      "passed": true,
+      "baseline": "The real probe aborted a healthy seven-second response after 6.056 seconds because doctor did not pass the configured 90-second budget.",
+      "fix": "Doctor forwards the validated application health timeout; the blank value retains the documented eight-second budget."
+    }
+  },
+  "installationProvenance": {
+    "operatingSystem": "Ubuntu 24.04.5 LTS",
+    "kernel": "6.8.0-147-generic #147-Ubuntu",
+    "operatingSystemWasReused": true,
+    "operatingSystemAndDockerDependencyCachesReused": true,
+    "separateApplicationRootWasAbsent": true,
+    "initialApplicationContainers": 0,
+    "initialApplicationVolumes": 0,
+    "databaseAndStorageStartedEmpty": true,
+    "historicalProjectWasStopped": true,
+    "historicalVolumesPreserved": 6,
+    "emulator": {
+      "machine": "pc",
+      "cpu": "max",
+      "vcpus": 4,
+      "memoryMiB": 6144,
+      "acceleration": "TCG",
+      "initialThreadMode": "multi",
+      "translationCacheMiB": 256,
+      "qemuBinarySha256": "8a35ccba41582fc6c38b9df85fc9e35fa1d42f414d2d7d8090ee9b2f5e7c0854"
+    },
+    "fullAntivirusRequired": true,
+    "productResourceGuardsBypassed": false,
+    "tlsVerificationDisabled": false,
+    "corporateCaInstalledForVerifiedTls": true,
+    "siteScope": "Isolated loopback HTTP acceptance environment; no public DNS/TLS deployment was performed."
+  },
+  "originalInstaller": {
+    "attemptCount": 1,
+    "startedAt": "2026-10-23T11:24:53.542276+00:00",
+    "exitCode": null,
+    "actualInstallerWaitConsumed": false,
+    "status": "interrupted-by-guest-kernel-panic-before-completion",
+    "dockerImageBuildCompleted": true,
+    "databaseStartupObservedHealthy": true,
+    "migrationAndSeedContainerExitCode": 0,
+    "migrationAndSeedContainerOomKilled": false,
+    "independentDatabaseInventoryAndMigrationChecksumsQueried": false,
+    "independentSeedCountsVerified": false,
+    "currentReleaseSymlinkCommitted": false,
+    "dailyBackupTimerInstallationReached": false,
+    "initialEncryptedBackupReached": false,
+    "sixServiceReadinessAccepted": false,
+    "accepted": false
+  },
+  "imageIdentity": {
+    "verification": "The build exported these digests; Docker inspect observed the same manifest-list image on app and migrate before the panic.",
+    "exportedConfigDigest": "sha256:73f1e2ae0fe9bcf7bbbdf5fe07a02a6ea1a318d5ef3d92b704d9ade485a3430f",
+    "exportedManifestDigest": "sha256:4485e00430ea42f95f2329c927098c553d83d30df74a7d70a90bdf98bf4674d7",
+    "exportedManifestListDigest": "sha256:d7d697ac7eaa58f6957014f8ba512f70a5dd332470e2eeccf32b633157013f36",
+    "observedAppImage": "sha256:d7d697ac7eaa58f6957014f8ba512f70a5dd332470e2eeccf32b633157013f36",
+    "observedMigrationImage": "sha256:d7d697ac7eaa58f6957014f8ba512f70a5dd332470e2eeccf32b633157013f36",
+    "appAndMigrationImageMatch": true,
+    "runtimeFileByFileSourceReadbackCompleted": false,
+    "sourceTransferVerificationCompleted": true
+  },
+  "lastPrePanicServiceObservation": {
+    "observedAt": "2026-10-23T12:02:39.877921+00:00",
+    "services": {
+      "db": {
+        "status": "running",
+        "running": true,
+        "health": "healthy",
+        "exitCode": 0,
+        "oomKilled": false,
+        "imageId": "sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a",
+        "created": true,
+        "readinessAccepted": true,
+        "lastProbeExitCode": 0
+      },
+      "migrate": {
+        "status": "exited",
+        "running": false,
+        "health": null,
+        "exitCode": 0,
+        "oomKilled": false,
+        "imageId": "sha256:d7d697ac7eaa58f6957014f8ba512f70a5dd332470e2eeccf32b633157013f36",
+        "created": true,
+        "readinessAccepted": false
+      },
+      "app": {
+        "status": "running",
+        "running": true,
+        "health": "starting",
+        "exitCode": 0,
+        "oomKilled": false,
+        "imageId": "sha256:d7d697ac7eaa58f6957014f8ba512f70a5dd332470e2eeccf32b633157013f36",
+        "created": true,
+        "readinessAccepted": false,
+        "lastProbeExitCode": 1
+      },
+      "worker": {
+        "created": false,
+        "readinessAccepted": false
+      },
+      "clamav": {
+        "status": "running",
+        "running": true,
+        "health": "starting",
+        "exitCode": 0,
+        "oomKilled": false,
+        "imageId": "sha256:5f31e306cd938b1f7a83a5aeab673e3b1040fdc48ea231b3ba678e9ada17ebf1",
+        "created": true,
+        "readinessAccepted": false,
+        "lastProbeExitCode": 1
+      },
+      "proxy": {
+        "created": false,
+        "readinessAccepted": false
+      }
+    },
+    "guestMemory": {
+      "MemTotalKiB": 6066388,
+      "MemAvailableKiB": 4668636,
+      "SwapTotalKiB": 0,
+      "SwapFreeKiB": 0
+    },
+    "guestFreeDiskBytes": 50144780288
+  },
+  "kernelInterruption": {
+    "firstException": "int3: 0000 [#1] PREEMPT SMP NOPTI",
+    "firstExceptionContext": {
+      "guestUptimeSeconds": 2752.921206,
+      "cpu": 2,
+      "pid": 5738,
+      "comm": "containerd-shim",
+      "taint": "Not tainted"
+    },
+    "kernelRip": "update_cfs_group+0x15/0xf0",
+    "callTrace": [
+      "task_tick_fair",
+      "scheduler_tick",
+      "update_process_times",
+      "tick_sched_handle",
+      "tick_nohz_highres_handler",
+      "__hrtimer_run_queues",
+      "hrtimer_interrupt",
+      "__sysvec_apic_timer_interrupt",
+      "sysvec_apic_timer_interrupt"
+    ],
+    "panic": "Fatal exception in interrupt",
+    "freshclamAppearedInAnotherCpuTrace": true,
+    "causalAttributionEstablished": false,
+    "memoryExhaustionEstablished": false,
+    "hostOomEvents": {
+      "oom": 0,
+      "oom_kill": 0,
+      "oom_group_kill": 0
+    },
+    "controlledQmpQuitAfterGuestHalted": true,
+    "firstQemuExitCode": 0,
+    "firstQemuActualWaitConsumed": true,
+    "firstStopWasGracefulGuestPoweroff": false,
+    "firstQemuExitIsNotInstallerSuccess": true
+  },
+  "boundedDiagnostic": {
+    "attemptCount": 1,
+    "startedAt": "2026-10-23T12:14:29.702976+00:00",
+    "environmentChange": "TCG thread=single on a child COW disk; CPU model, four vCPUs, 6144 MiB RAM, kernel and product source unchanged.",
+    "crashDiskPreservedReadOnly": true,
+    "crashDiskSha256ReverifiedAfterDiagnostic": "bd9bbbf7e81c82166ae2529e6b449556956acd08d851aac8be208396c21ad6ae",
+    "kernelBooted": true,
+    "newPanicObserved": false,
+    "snapshotUptimeSeconds": 285.56,
+    "snapshotMemory": {
+      "MemTotalKiB": 6066388,
+      "MemAvailableKiB": 5527232,
+      "SwapTotalKiB": 0,
+      "SwapFreeKiB": 0
+    },
+    "dockerPsTimeoutSeconds": 30,
+    "subsequentSnapshotWrapperTimeoutSeconds": 35,
+    "subsequentContainerStateReturned": false,
+    "applicationHealthProbeReached": false,
+    "stableProductionServiceReadinessEstablished": false,
+    "hostInitialRequiredDiskBytes": 4294967296,
+    "hostStopFloorBytes": 2147483648,
+    "observedMinimumHostDiskBytes": 5659340800,
+    "stopFloorReached": false,
+    "productResourceGuardsUnchanged": true,
+    "installerRetried": false,
+    "newImageBuildStarted": false,
+    "conclusion": "The guest booted without another observed panic, but Docker did not return its bounded read-only status. This does not establish a fix or complete installation."
+  },
+  "scannerAcceptance": {
+    "officialDatabaseDownloadObserved": true,
+    "databaseTestStarted": true,
+    "databaseTestPassObserved": false,
+    "daemonReadinessAccepted": false,
+    "cleanUploadScanExecuted": false,
+    "eicarDocxScanExecuted": false,
+    "quarantinedDownloadDenialVerified": false,
+    "offlineFixturePreparationIsNotRealScanAcceptance": true
+  },
+  "backupAndRecoveryAcceptance": {
+    "selectedEncryptedBackupCreated": false,
+    "backupDownloaded": false,
+    "downloadAuthenticatedOffHost": false,
+    "sameHostRestoreExecuted": false,
+    "sameHostDataAndSessionRevocationReadbackVerified": false,
+    "sameHostCurrentStaffSecurityAndErasureVerified": false,
+    "independentFreshUbuntuDiskPrepared": true,
+    "independentRecoveryVmEverStarted": false,
+    "originalFreshHostRecoveryWrapperExecuted": false,
+    "freshHostLatestLedgerAndDataReadbackVerified": false,
+    "accepted": false
+  },
+  "finalShutdown": {
+    "requestMethod": "guest systemctl poweroff --no-block via pinned SSH",
+    "requestedAt": "2026-10-23T12:20:11.813683+00:00",
+    "guestPoweroffCommandExitCode": 0,
+    "guestKernelPowerDownObserved": true,
+    "diagnosticQemuExitCode": 0,
+    "diagnosticQemuActualWaitConsumed": true,
+    "completedAt": "2026-10-23T12:22:09.772231+00:00",
+    "manualQemuForceKillUsed": false,
+    "diagnosticQmpQuitUsed": false,
+    "bothVmsStopped": true,
+    "ownedSshAndHttpPortsNoLongerListening": true,
+    "perContainerGracefulShutdownIndependentlyVerified": false,
+    "allDataAndCrashCheckpointRetained": true,
+    "dockerCachePruneExecuted": false,
+    "dockerServiceStoppedObserved": true,
+    "finalrdServiceStoppedObserved": true,
+    "systemdStopTimeoutObserved": false
+  },
+  "privateEvidenceDigests": {
+    "firstPanicSerial": {
+      "included": false,
+      "sha256": "70d5e550f8c6054d626833470e095e9533480c04bda951b4f8685b50f6e00290",
+      "bytes": 77180
+    },
+    "lastPrePanicObservation": {
+      "included": false,
+      "sha256": "02d9b3c80c98c9991456abd1c28df1f33cb983a32676ddc45a2a8a966582ccde",
+      "bytes": 3479
+    },
+    "buildExportObservation": {
+      "included": false,
+      "sha256": "bf9e168cca57dd91c2a9119ce86c6dde885c7a4f4f2424351a902db9832c8c02",
+      "bytes": 2909
+    },
+    "diagnosticDockerTimeout": {
+      "included": false,
+      "sha256": "a82e17ae5383c8f52ff7f89909719394da002e8c7edbe613649610bf1c3fb6d0",
+      "bytes": 1063
+    },
+    "diagnosticMemorySnapshot": {
+      "included": false,
+      "sha256": "45a4289e34b3c7a12b2720571c2807febb5916340c242779e5f125e05f0c2ac5",
+      "bytes": 151
+    },
+    "diagnosticSerial": {
+      "included": false,
+      "sha256": "0c6e6102e86bef7eaa0e4c5a9b99414339a1f0b8ccdce75b8409b7f93158f7dc",
+      "bytes": 86482
+    },
+    "actualVmWait": {
+      "included": false,
+      "sha256": "dcbb5c1b80aaf6828422a5293fbe19442187e1725e2ecee56f72938315d8c8cd",
+      "bytes": 6672
+    },
+    "crashDisk": {
+      "included": false,
+      "sha256": "bd9bbbf7e81c82166ae2529e6b449556956acd08d851aac8be208396c21ad6ae",
+      "bytes": 14013038592
+    }
+  },
+  "pendingMaterialGates": [
+    "Successful original Ubuntu installer completion and committed release.",
+    "Application, worker, database, scanner and proxy readiness together.",
+    "Runtime image file-by-file source identity and independent DB migration/seed inventory.",
+    "Actual clean and harmless EICAR uploads, scanner verdicts and blocked-download proof.",
+    "Encrypted complete backup, selected download and off-host authentication.",
+    "Same-host restore, data checksums, session revocation, current staff security and erasure preservation.",
+    "Independent new-host recovery using the latest external privacy ledger."
+  ],
+  "intentionallyOmittedDuplicateGates": [
+    "separate verify-only restore",
+    "separate restore drill",
+    "manual backup-timer trigger",
+    "update rehearsal"
+  ],
+  "summaryEnglish": "The exact frozen 2.1.2 source was verified on an empty application project on a reused Ubuntu/Docker host. The production image built and the migration/seed container exited zero. Before installation completed, Ubuntu kernel 6.8.0-147 panicked in update_cfs_group. One preserved-checkpoint diagnostic boot changed only TCG to single-thread mode; it booted, but Docker status timed out. The application health probe was not reached, and no root cause or environment fix is established. Both VMs are stopped and the actual emulator waits were consumed. Installation, real antivirus scanning, backup/download, restore and independent recovery remain unaccepted; all data and crash evidence are retained.",
+  "summaryPersian": "سورس دقیق نسخهٔ ۲.۱.۲ در مهمان اوبونتو تطبیق داده شد و نصب از پروژهٔ برنامه با دیتابیس و فضای ذخیره‌سازی خالی، روی سیستم‌عامل و کش Docker موجود آغاز شد. ایمیج پروداکشن ساخته شد و کانتینر مهاجرت و سید با کد صفر پایان یافت. پیش از تکمیل نصب، کرنل اوبونتو 6.8.0-147 در update_cfs_group دچار توقف بحرانی شد. در یک بوت تشخیصی با حفظ دیسک خطا، فقط TCG به حالت تک‌رشته‌ای تغییر کرد؛ سیستم بوت شد ولی پاسخ وضعیت Docker در مهلت محدود نرسید و بررسی سلامت برنامه اجرا نشد. علت ریشه‌ای یا رفع قطعی مشکل محیط ثابت نشده است. هر دو ماشین خاموش‌اند و پایان واقعی پردازه‌های شبیه‌ساز ثبت شده است. نصب موفق، اسکن واقعی آنتی‌ویروس، بکاپ و دانلود، ری‌استور و بازیابی میزبان مستقل هنوز تأیید نشده‌اند؛ داده‌ها و شواهد خطا حفظ شده‌اند."
+}

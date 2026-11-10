@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/cooperation/distribution/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "0b0812a1283257a01259278a87d3c0993e0bd3336cb9b9dbceac5f2357d63fdc",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Distribütörlük talebi | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Ürün dağıtımı iş birliği teklifinizi kuruluş, ülke ve yetkinlik bilgilerinizle fabrikanın değerlendirmesine sunun."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/cooperation/distribution/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/cooperation/distribution/",
+    "en": "http://127.0.0.1:3100/en/cooperation/distribution/",
+    "tr": "http://127.0.0.1:3100/tr/cooperation/distribution/",
+    "ar": "http://127.0.0.1:3100/ar/cooperation/distribution/",
+    "ru": "http://127.0.0.1:3100/ru/cooperation/distribution/",
+    "x-default": "http://127.0.0.1:3100/fa/cooperation/distribution/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 54
+}

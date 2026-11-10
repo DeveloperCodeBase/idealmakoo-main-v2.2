@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/videos/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "839d0461c199bac1c46dc54eda05599b097ec19eb0389df35147c9864bb807f7",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "فيديوهات المصنع والمنتجات | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "استعرض وابحث في فيديوهات مصنع إيدآل ماكو ومنتجاته المنشورة مع تفاصيل كل فيديو في صفحته."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/videos/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/videos/",
+    "en": "http://127.0.0.1:3100/en/videos/",
+    "tr": "http://127.0.0.1:3100/tr/videos/",
+    "ar": "http://127.0.0.1:3100/ar/videos/",
+    "ru": "http://127.0.0.1:3100/ru/videos/",
+    "x-default": "http://127.0.0.1:3100/fa/videos/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 61
+}

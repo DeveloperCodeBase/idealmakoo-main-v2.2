@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/sample-request/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "f56a46b9ca7d7e6d4ca706ee859b1019ea8bed1d1f6cfac495d7886b36e1c9a9",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Запрос образца продукции | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Выберите продукт и укажите контакты и цель запроса, чтобы завод мог рассмотреть заявку на образец."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/sample-request/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/sample-request/",
+    "en": "http://127.0.0.1:3100/en/sample-request/",
+    "tr": "http://127.0.0.1:3100/tr/sample-request/",
+    "ar": "http://127.0.0.1:3100/ar/sample-request/",
+    "ru": "http://127.0.0.1:3100/ru/sample-request/",
+    "x-default": "http://127.0.0.1:3100/fa/sample-request/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 46
+}

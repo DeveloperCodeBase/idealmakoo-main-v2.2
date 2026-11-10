@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "kind": "qualified-local-inspect-current-input-summary",
+  "recordedAt": "2026-10-24T17:49:30.639544+00:00",
+  "applicationInputs": {
+    "files": 989,
+    "sha256": "29480cc4a946a7df71868f19dd8bfd357117c5f0a0b0d3a8c408256d3c060bf4",
+    "receipt": "application-inputs.safe.json"
+  },
+  "executionInputs": {
+    "files": 998,
+    "sha256": "31a67fb0b307249d289d16a5634db3b22248b28ead4399fd5ce75190157ec7ea",
+    "receipt": "execution-inputs.safe.json"
+  },
+  "compilerInputs": {
+    "files": 727,
+    "sha256": "9e2914460b7db6ecd1156bf9e9de79ea38271b860f161f5be47b4c58ebf9e680",
+    "unchanged": true,
+    "receipt": "compiler-input-equivalence.safe.json"
+  },
+  "changedPathsFromHistoricalPackage07": [
+    "deploy/docker-inspect.py",
+    "deploy/service-lifecycle.py",
+    "tests/deployment_discovery_contract_test.py",
+    "tests/deployment_docker_inspect_test.py",
+    "tests/deployment_service_lifecycle_test.py"
+  ],
+  "completeOperationsReceipt": "completion.safe.json",
+  "newNativeBuildExecuted": false,
+  "newPackageIdentityClaimed": false,
+  "guestStartupAccepted": false
+}

@@ -1,0 +1,102 @@
+{
+  "completedAt": "2026-10-25T12:29:12.311126+00:00",
+  "oldDatabasePreserved": "idealmakoo_repair_acceptance_1792929463992_669eea",
+  "oldDataOrRateLimitsChangedByPreparation": false,
+  "functionalDatabase": "idealmakoo_repair_acceptance_1792931349081_489685",
+  "originalAuditCloneChanged": false,
+  "functionalEnvironmentFile": "/tmp/idealmakoo-native-fullscreen-78g9zcer/functional.env",
+  "dataDirectory": "/workspace/scratch/7eb50c437e0a/runtime/fresh-fullscreen-1792931349081",
+  "freshKeysGenerated": true,
+  "additionalAuditCloneCreated": false,
+  "trustProxy": false,
+  "rateControlsChanged": false,
+  "independentLedgerStoragePaths": true,
+  "inventory": {
+    "counts": {
+      "migrations": 41,
+      "users": 1,
+      "rate_limits": 0,
+      "requests": 0,
+      "sessions": 0,
+      "pages": 120,
+      "products": 17
+    },
+    "pagesByLocale": [
+      {
+        "locale": "ar",
+        "count": 24
+      },
+      {
+        "locale": "en",
+        "count": 24
+      },
+      {
+        "locale": "fa",
+        "count": 24
+      },
+      {
+        "locale": "ru",
+        "count": 24
+      },
+      {
+        "locale": "tr",
+        "count": 24
+      }
+    ]
+  },
+  "steps": [
+    {
+      "name": "create-disposable-db",
+      "exitCode": 0,
+      "elapsedSeconds": 0.116
+    },
+    {
+      "name": "migrate",
+      "exitCode": 0,
+      "elapsedSeconds": 0.938
+    },
+    {
+      "name": "privacy-initialize",
+      "exitCode": 0,
+      "elapsedSeconds": 0.383
+    },
+    {
+      "name": "privacy-replay",
+      "exitCode": 0,
+      "elapsedSeconds": 0.378
+    },
+    {
+      "name": "privacy-ready-owner",
+      "exitCode": 0,
+      "elapsedSeconds": 0.365
+    },
+    {
+      "name": "seed",
+      "exitCode": 0,
+      "elapsedSeconds": 0.781
+    },
+    {
+      "name": "runtime-grants",
+      "exitCode": 0,
+      "elapsedSeconds": 0.066
+    },
+    {
+      "name": "runtime-role",
+      "exitCode": 0,
+      "elapsedSeconds": 0.128
+    },
+    {
+      "name": "clean-inventory",
+      "exitCode": 0,
+      "elapsedSeconds": 0.072
+    }
+  ],
+  "activeEnvironmentNotSwappedYet": false,
+  "runtimePrivileges": {
+    "role": "idealmakoo_app",
+    "temp": false,
+    "create": false
+  },
+  "defaultFileLimitBytes": 20971520,
+  "servicesStarted": false
+}

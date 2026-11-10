@@ -1,0 +1,59 @@
+{
+  "gate": "build",
+  "label": "user-directory-final",
+  "selected": [],
+  "startedAt": "2026-10-21T05:57:08.628Z",
+  "state": "completed",
+  "exitCode": 0,
+  "applicationBefore": "1a7fd8f6293196e45e78a52aa765b0c4039f512fdb26cbbd5724367288ac5388",
+  "runtimeBefore": {
+    "algorithm": "sha256",
+    "scope": "runtime-v1",
+    "sha256": "b70c7d3e2f8698f4481b52a446dcfa3e682a80827f0e60465c5f809b3936a671",
+    "fileCount": 780,
+    "byteCount": 49115125,
+    "entrypoints": []
+  },
+  "testInputsBefore": {
+    "algorithm": "sha256",
+    "scope": "test-inputs-build-v1",
+    "sha256": "b71b96c660b34ff2d7bd68629cc195454b2a1e50cbf8660084b938b7301d7947",
+    "fileCount": 19,
+    "byteCount": 248054,
+    "entrypoints": []
+  },
+  "buildBefore": {
+    "buildId": null,
+    "standaloneBuildId": null
+  },
+  "nodeVersion": "v24.19.0",
+  "pid": 10807,
+  "applicationAfter": "1a7fd8f6293196e45e78a52aa765b0c4039f512fdb26cbbd5724367288ac5388",
+  "applicationUnchanged": true,
+  "runtimeAfter": {
+    "algorithm": "sha256",
+    "scope": "runtime-v1",
+    "sha256": "b70c7d3e2f8698f4481b52a446dcfa3e682a80827f0e60465c5f809b3936a671",
+    "fileCount": 780,
+    "byteCount": 49115125,
+    "entrypoints": []
+  },
+  "runtimeUnchanged": true,
+  "testInputsAfter": {
+    "algorithm": "sha256",
+    "scope": "test-inputs-build-v1",
+    "sha256": "b71b96c660b34ff2d7bd68629cc195454b2a1e50cbf8660084b938b7301d7947",
+    "fileCount": 19,
+    "byteCount": 248054,
+    "entrypoints": []
+  },
+  "testInputsUnchanged": true,
+  "buildAfter": {
+    "buildId": "bK2Eb-_hVW6EM3B-gfBNN",
+    "standaloneBuildId": "bK2Eb-_hVW6EM3B-gfBNN"
+  },
+  "commandExitCode": 0,
+  "signal": null,
+  "error": null,
+  "finishedAt": "2026-10-21T05:58:23.081Z"
+}

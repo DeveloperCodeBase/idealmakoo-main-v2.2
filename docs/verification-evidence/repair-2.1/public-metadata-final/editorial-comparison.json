@@ -1,0 +1,27 @@
+{
+  "scope": "All 620 public/auth/expected-missing routes; duplicate metadata comparison only considers indexable HTTP 200 pages within each language.",
+  "contentUnchanged": true,
+  "inventoryUnchanged": true,
+  "baseline": {
+    "buildId": "sPTh26GaGouK6nn5b3u7H",
+    "publicContentHash": "c81fb2b40e486f8608c7c7da584d76197bef191244fad9d1b45128ddbb7e8e74",
+    "inventoryHash": "678ed9c29732f5c3475a4ee5bd3e9faded88ee51b8af047834d35d02cd855bf6",
+    "titleGroups": 80,
+    "descriptionGroups": 20,
+    "affectedPages": 270
+  },
+  "current": {
+    "buildId": "ZExXgIfF-M2np679FYhoQ",
+    "publicContentHash": "c81fb2b40e486f8608c7c7da584d76197bef191244fad9d1b45128ddbb7e8e74",
+    "inventoryHash": "678ed9c29732f5c3475a4ee5bd3e9faded88ee51b8af047834d35d02cd855bf6",
+    "titleGroups": 0,
+    "descriptionGroups": 0,
+    "affectedPages": 0
+  },
+  "baselineEvidence": "editorial-baseline.json",
+  "currentEvidence": "summary.json",
+  "limits": [
+    "Metadata uniqueness is not a complete editorial review.",
+    "This HTTP/HTML/JSON-LD audit is not a Lighthouse result, Google Rich Results test or guarantee of ranking."
+  ]
+}

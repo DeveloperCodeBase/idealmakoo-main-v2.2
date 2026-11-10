@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/events/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "6f661a2455a91041e869767ea534d503ece6c21ad66615e74995af6b4301e364",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "أقرب إلى مجتمع طب الأسنان. | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "تظهر هنا إعلانات المعارض واللقاءات المتخصصة وبرامج المصنع بعد نشرها."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/events/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/events/",
+    "en": "http://127.0.0.1:3100/en/events/",
+    "tr": "http://127.0.0.1:3100/tr/events/",
+    "ar": "http://127.0.0.1:3100/ar/events/",
+    "ru": "http://127.0.0.1:3100/ru/events/",
+    "x-default": "http://127.0.0.1:3100/fa/events/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 93
+}

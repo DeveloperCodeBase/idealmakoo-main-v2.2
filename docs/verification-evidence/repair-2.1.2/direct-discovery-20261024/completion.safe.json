@@ -1,0 +1,105 @@
+{
+  "schema": 1,
+  "kind": "protected-direct-discovery-complete-operations-handoff",
+  "completedAt": "2026-10-24T11:47:31.663529+00:00",
+  "actualOperationsChildExitCode": 0,
+  "actualOperationsChildWaitConsumed": true,
+  "outerToolWaitExitCode": 0,
+  "outerToolWaitConsumed": true,
+  "outerToolSessionId": 1396,
+  "discovered": 218,
+  "passed": 218,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "expectedFailures": 0,
+  "unexpectedSuccesses": 0,
+  "durationSeconds": 83.897956,
+  "sourceBefore": {
+    "sha256": "de90dfabf8ddc57473a5943dfb03ba07b35b78f46e175a6e7ce9284fe2fb0558",
+    "files": 987
+  },
+  "sourceAfter": {
+    "sha256": "de90dfabf8ddc57473a5943dfb03ba07b35b78f46e175a6e7ce9284fe2fb0558",
+    "files": 987
+  },
+  "sourceChangedDuringTests": [],
+  "baseline": {
+    "sha256": "5df4b3194f4abcb77a02cd05ef400c1b95653a3458db80712b88d9846b725e00",
+    "files": 986
+  },
+  "changedFromBaseline": [
+    "deploy/compose.py",
+    "deploy/service-lifecycle.py",
+    "tests/deployment_discovery_contract_test.py",
+    "tests/deployment_service_lifecycle_test.py"
+  ],
+  "onlyFourApprovedExecutionPathsChanged": true,
+  "authenticatedToolHashesAndVersionsReverified": true,
+  "newNativeBuildExecuted": false,
+  "vmUpdated": false,
+  "realDockerDaemonUsed": false,
+  "applicationOrDatabaseServicesStarted": false,
+  "realBackupOrRestoreSuccessClaimedForCandidate": false,
+  "productDocumentationEditedByThisTask": false,
+  "fullSuiteRunCount": 1,
+  "additionalOptionalTestsRun": false,
+  "artifacts": {
+    "preflight.safe.json": {
+      "sha256": "2d0b80f664f1aa5256dc17f1ebece1d851d3a12f5f14862b5f60aa67644020d8",
+      "bytes": 1521
+    },
+    "operations.safe.json": {
+      "sha256": "9d27ae4c837604e39218d85dca5b6ee71b6a52166df8d019fa08268e93697fc7",
+      "bytes": 1361
+    },
+    "actual-process-start.safe.json": {
+      "sha256": "96ee89977c8822ce740f47bcc3c06ac2c3f5c452ab1109506f2a744d07bdbee4",
+      "bytes": 456
+    },
+    "actual-process-outcome.safe.json": {
+      "sha256": "f8ac2f0cb5b220513a4420e9708089b37468c85c25cb7f5714cd1d61fdf46694",
+      "bytes": 422
+    },
+    "inputs-before-approved-candidate.json": {
+      "sha256": "f62128c4615172ecc9dee6ebf48555289631c6027ce5dfc79fc55705ddfec7c2",
+      "bytes": 110613
+    },
+    "inputs-before-tests.json": {
+      "sha256": "ed9386065dc5a2fe22940531be23ec1c61db86f6d14ef25939f9a48e3bfa6c56",
+      "bytes": 110732
+    },
+    "inputs-after-tests.json": {
+      "sha256": "ed9386065dc5a2fe22940531be23ec1c61db86f6d14ef25939f9a48e3bfa6c56",
+      "bytes": 110732
+    },
+    "helpers-candidate.safe.json": {
+      "sha256": "9e94146ae6c8a110e8368e2fde5b0277fffb163485509c9095da80f9ea25f028",
+      "bytes": 2712
+    },
+    "helpers.candidate.patch": {
+      "sha256": "2be470f6572fa140008779a2649a8c6887f4c7d77b79d93002be3de373008c31",
+      "bytes": 5256
+    },
+    "tests-candidate.safe.json": {
+      "sha256": "3b7cb7d0da66a5105017cf243a7b081c083347e4d9b5070be59a428b3fc93e18",
+      "bytes": 700
+    },
+    "tests-candidate.patch": {
+      "sha256": "6e1e75d0edad79f59238cd0c20895308c9951d0a1492f9714274526c60ceed09",
+      "bytes": 21607
+    },
+    "discovery-baseline.safe.json": {
+      "sha256": "c12edc4eaa3016c8ba396e13996dc727b5b75f417e18d53160a65c77a9762521",
+      "bytes": 1135
+    },
+    "discovery-candidate-01.safe.json": {
+      "sha256": "b41e5bd42f08265bec99c8d09004727c6178b5b68c8b1457d4515df7d9edff20",
+      "bytes": 1741
+    },
+    "run_operations.py": {
+      "sha256": "50f8755212b15a83aaf8478b67b304bc444e5bf4e068251ff52381f1f656f6c0",
+      "bytes": 4931
+    }
+  }
+}

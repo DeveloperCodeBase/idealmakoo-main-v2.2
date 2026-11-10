@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "kind": "approved-exact-subset-readiness-patch-applied",
+  "recordedAt": "2026-10-24T08:48:17.705177+00:00",
+  "gitApplyCheckExitCode": 0,
+  "gitApplyExitCode": 0,
+  "patchSha256": "8ea97d9645f010eef3d62e36f6d61aa3cf7074bf2afccaec256c74b3539955be",
+  "before": {
+    "sha256": "2bed25d40de1ec28ecaf8edf79f778386ce5c156b8bb8a520f3e214aaec6490e",
+    "files": 986
+  },
+  "after": {
+    "sha256": "5df4b3194f4abcb77a02cd05ef400c1b95653a3458db80712b88d9846b725e00",
+    "files": 986
+  },
+  "changed": [
+    "deploy/service-lifecycle.py",
+    "tests/deployment_service_lifecycle_test.py"
+  ],
+  "changedFromPreservedBuild04": [
+    "deploy/service-lifecycle.py",
+    "scripts/install-ubuntu.sh",
+    "tests/deployment_service_lifecycle_test.py"
+  ],
+  "allChangedFilesMatchReviewedCandidate": true,
+  "jsDatabaseAndAssetsUnchanged": true,
+  "snapshotTimeoutUnchanged": true,
+  "newEnvironmentKnob": false,
+  "newBuildExecuted": false,
+  "servicesStarted": false,
+  "vmChanged": false,
+  "candidateReceipt": "acceptance/continuation-20261024/backend/proxy-subset-candidate/review.safe.json",
+  "candidateReceiptSha256": "e83f04a4211e25fdc46d966e7db2711fc1ce928160d25e7a40ba946675af0298"
+}

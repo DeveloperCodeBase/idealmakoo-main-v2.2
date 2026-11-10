@@ -1,0 +1,70 @@
+{
+  "url": "http://127.0.0.1:3100/fa/products/berelian/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "eb917759581ff25cd7af2c56680d54f29d486fc442f002a169e7c9a61be3f610",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "دندان مصنوعی برلیان | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "سری برلیان با ساختار اکریلیکی دولایه و سه مرحله پخت، برای پروتزهای کامل و جزئی."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/products/berelian/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/berelian/",
+    "en": "http://127.0.0.1:3100/en/products/berelian/",
+    "tr": "http://127.0.0.1:3100/tr/products/berelian/",
+    "ar": "http://127.0.0.1:3100/ar/products/berelian/",
+    "ru": "http://127.0.0.1:3100/ru/products/berelian/",
+    "x-default": "http://127.0.0.1:3100/fa/products/berelian/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "دندان مصنوعی برلیان",
+      "description": "سری برلیان با ساختار اکریلیکی دولایه و سه مرحله پخت، برای پروتزهای کامل و جزئی.",
+      "image": "http://127.0.0.1:3100/media/official/1686482280.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "BERELIAN"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/fa/products/berelian/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 83
+}

@@ -1,0 +1,70 @@
+{
+  "url": "http://127.0.0.1:3100/ar/products/apple/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "ae430dc13dff2228e2d5e8761bede4b691836ab0e7442e8fce410e2cb3d92f0a",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "أسنان آبل الصناعية | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "سلسلة آبل بأربع طبقات ومادة كومبوزيت مع قوالب متنوعة للتعويضات المتحركة."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/products/apple/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/apple/",
+    "en": "http://127.0.0.1:3100/en/products/apple/",
+    "tr": "http://127.0.0.1:3100/tr/products/apple/",
+    "ar": "http://127.0.0.1:3100/ar/products/apple/",
+    "ru": "http://127.0.0.1:3100/ru/products/apple/",
+    "x-default": "http://127.0.0.1:3100/fa/products/apple/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "أسنان آبل الصناعية",
+      "description": "سلسلة آبل بأربع طبقات ومادة كومبوزيت مع قوالب متنوعة للتعويضات المتحركة.",
+      "image": "http://127.0.0.1:3100/media/official/1686377879.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "APPLE"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/ar/products/apple/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 78
+}

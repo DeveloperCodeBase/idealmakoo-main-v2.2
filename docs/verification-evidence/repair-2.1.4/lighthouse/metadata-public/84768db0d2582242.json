@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/for/lab/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "f9d1eb67da45be999b14cdfb925e2c9317917b5acb504cc8cd173dc567447995",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "مختبرات الأسنان | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "مصادر لمختبرات الأسنان: أسنان صناعية واختيار تقني للألوان والقوالب وقوائم استفسار المنتجات."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/for/lab/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/for/lab/",
+    "en": "http://127.0.0.1:3100/en/for/lab/",
+    "tr": "http://127.0.0.1:3100/tr/for/lab/",
+    "ar": "http://127.0.0.1:3100/ar/for/lab/",
+    "ru": "http://127.0.0.1:3100/ru/for/lab/",
+    "x-default": "http://127.0.0.1:3100/fa/for/lab/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 87
+}

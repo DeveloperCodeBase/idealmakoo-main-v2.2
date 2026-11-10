@@ -1,0 +1,290 @@
+{
+  "format": "offline-favicon-completed-followup-index-v1",
+  "completedAt": "2026-10-26T01:21:34.934095+00:00",
+  "status": "complete",
+  "scope": {
+    "existingFocusedPwaCases": 2,
+    "separateOfflineMobileDocuments": 5,
+    "originalPrimaryStates": 1169,
+    "originalPrimaryScoresReplaced": false,
+    "newFullPublicPrivateSweepClaimed": false
+  },
+  "identities": {
+    "currentInputFingerprint": "7453e88d3e56fbe65ef319c3b0a770bd48fef216505e49e7d3e5955f829655ee",
+    "currentInputCount": 834,
+    "compiledBuildId": "ir2DFJg8r5YdpbVQubUqF",
+    "compiledBuildInputFingerprint": "4fcec50f5846b0affccc59e43798613ba134a3f93559ea5ddba9705e1f38cc58",
+    "originalPrimaryInputFingerprint": "64a14915618ac34a4daee3aa64eb82d44438b993096491966afc487be9f67b12",
+    "originalPrimaryTopologySha256": "d0c85e36be10862b020361b4179ad2add3a02848966239cb01fd7b6a92837bf4",
+    "followupTopologySha256": "9423dd71d0172fd02d0249dba41d3f0ad5332ec9da3d8dfb1b26c4c6429c4c53"
+  },
+  "actualResults": {
+    "focusedPwaCasesPassed": 2,
+    "pwaCommandExitCode": 0,
+    "pwaCommandSeconds": 6.228,
+    "lighthouseCompleted": 5,
+    "lighthouseCommandExitCode": 0,
+    "lighthouseCommandSeconds": 52.787,
+    "errors": 0,
+    "timeouts": 0,
+    "pending": 0,
+    "retries": 0,
+    "consoleErrorAuditsPassed": 5,
+    "safeExportBytes": 1340591,
+    "safeExportFiles": 15,
+    "groupedScores": {
+      "jobs": 5,
+      "attempted": 5,
+      "scored": 5,
+      "expectedHttpResponses": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "sourceErrors": 0,
+      "sourceTimeouts": 0,
+      "exportValidationRefusals": 0,
+      "pending": 0,
+      "categories": {
+        "performance": {
+          "count": 5,
+          "min": 99,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "accessibility": {
+          "count": 5,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "best-practices": {
+          "count": 5,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "seo": {
+          "count": 5,
+          "min": 54,
+          "median": 54,
+          "p75": 54,
+          "max": 54,
+          "below90": 5
+        }
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "count": 5,
+          "min": 606.9562,
+          "median": 608.30125,
+          "p75": 609.51805,
+          "max": 609.61455
+        },
+        "largest-contentful-paint": {
+          "count": 5,
+          "min": 606.9562,
+          "median": 759.9860000000001,
+          "p75": 760.6025,
+          "max": 761.2291
+        },
+        "total-blocking-time": {
+          "count": 5,
+          "min": 0,
+          "median": 2,
+          "p75": 9,
+          "max": 112
+        },
+        "cumulative-layout-shift": {
+          "count": 5,
+          "min": 0,
+          "median": 0,
+          "p75": 0,
+          "max": 0
+        }
+      },
+      "durationMs": {
+        "count": 5,
+        "min": 5546,
+        "median": 5570,
+        "p75": 5575,
+        "max": 5588
+      }
+    }
+  },
+  "methodologyQualifications": [
+    "The retirement proof seeds a v1 CacheStorage entry before the first worker registration; it does not claim every real installed-worker upgrade state.",
+    "The public service-worker/static runtime changed, but the exact compiled Next scope remained unchanged; the already tested Docker image has the earlier static assets.",
+    "All original1169 outcomes, including prior offlineBP96, remain immutable; new5 are an independent follow-up.",
+    "Expected noindex and absent meta-description both remain in offlineSEO54.",
+    "The pre-source receipt explicitly records the earlier pending serving state; later served/runtime/PWA/scoring/closure receipts supersede only that pending status, not its original bytes.",
+    "First launcher-preparation refusal, prelaunch rollup refusal, typed-export failure and closed-owned-lock evidence remain retained; none is relabeled as an extra Lighthouse failure."
+  ],
+  "files": [
+    {
+      "path": "closed-lock-cleanup.safe.json",
+      "sha256": "8cee34077db6a6b95a0c32260b032461163faed2cb57e6d5f05cdcd00b4e74d8",
+      "bytes": 1290
+    },
+    {
+      "path": "evidence-derivative-attempt01.safe.json",
+      "sha256": "2e67dab3d937b61216cfd43d4248bd87d9add71576269265d9a9ef27637bc1be",
+      "bytes": 492
+    },
+    {
+      "path": "evidence-derivative-attempt02.safe.json",
+      "sha256": "9f8c2495a83f56d69416cc4fa2cdf1113043121900ff2e11980a5641e20c28de",
+      "bytes": 325
+    },
+    {
+      "path": "export-and-console-check.safe.json",
+      "sha256": "77fd72714665dd94a87fbbaa91e79c9b8c162209b88c2e84736eadca95b1a333",
+      "bytes": 2212
+    },
+    {
+      "path": "final-current-full-closure.safe.json",
+      "sha256": "9b7e208539deac1880e7d13d5016e1abfa3f1f5a27fffe8cd345d078e05b5752",
+      "bytes": 881
+    },
+    {
+      "path": "focused-pwa-offline-icon.phase.safe.json",
+      "sha256": "1fbb7b431eebea564246a4c3409a8266ce93cdac8240a2eb07e5f8e09c7a435c",
+      "bytes": 1156
+    },
+    {
+      "path": "focused-pwa.safe.json",
+      "sha256": "b5ce18fa159b8b0367536f891a4bb56f23c01d8fa60811451cf4456731af533b",
+      "bytes": 2405
+    },
+    {
+      "path": "input-snapshot-command.safe.json",
+      "sha256": "e3cb59b3681f2778eca84b802d0e4827ded5017392d7904c0949d3532640523e",
+      "bytes": 588
+    },
+    {
+      "path": "launch-preparation-attempt01.safe.json",
+      "sha256": "5c2a34db83a29d4c2515e1eb4e1136bba28ccceb54a7a52de2978fae894edc53",
+      "bytes": 873
+    },
+    {
+      "path": "launch-preparation-attempt02.safe.json",
+      "sha256": "657983537d66257ca39a9201aff5f4bfadb3aa8d5d8ef1e0cdfa6484db538de8",
+      "bytes": 1495
+    },
+    {
+      "path": "offline-favicon-rollup-02.phase.safe.json",
+      "sha256": "3409a6418d7fb3285ec5712a0623eab86200dad80c9bc406af35755d89f170a1",
+      "bytes": 2187
+    },
+    {
+      "path": "offline-favicon-rollup.phase.safe.json",
+      "sha256": "01a10a6beebc1472d6eafb95c9857f646428f7c881ae04ae57a5a7fd964e9664",
+      "bytes": 2221
+    },
+    {
+      "path": "offline-favicon-safe-export.phase.safe.json",
+      "sha256": "208436fd4bdf312dabe0caf085e785123626f1fe3d9247d09c66b9671b467435",
+      "bytes": 3085
+    },
+    {
+      "path": "offline-mobile-favicon-followup.phase.safe.json",
+      "sha256": "2ffa363cba96753b3f3abce9b94da1976f1f94d200e1fb6455a760998309a523",
+      "bytes": 2061
+    },
+    {
+      "path": "offline-mobile-rollup.safe.json",
+      "sha256": "f1465e2dee9bb9d29dc1259366166bd15b868de48fb23e2725cf9acca85bbf41",
+      "bytes": 32515
+    },
+    {
+      "path": "old-next-normal-stop.safe.json",
+      "sha256": "137a9e4b6036f29f60120980530310e2d71cf85cb9bd7135dfefd53b1fc8ba27",
+      "bytes": 508
+    },
+    {
+      "path": "owned-runtime-closure.safe.json",
+      "sha256": "6df37aa8e7ee849355e4e57942721ca6342c81a33299de1a59170d387694bffa",
+      "bytes": 1152
+    },
+    {
+      "path": "readiness.safe.json",
+      "sha256": "71dd33068daae798660e16d2a50113ecbacbd01cf1fd6772a52440bff996c59a",
+      "bytes": 599
+    },
+    {
+      "path": "seal-attempt01.safe.json",
+      "sha256": "a5c9e59d4b906fba3ebb2beb53f1f7c9bc2b092d726336772655f2597a3554bd",
+      "bytes": 749
+    },
+    {
+      "path": "served-after-restart.safe.json",
+      "sha256": "e0e7e3f8e9a35146b20dad5fa4733de9e94a0b12b92bcb0d4bc1e51f275d7fda",
+      "bytes": 4048
+    },
+    {
+      "path": "served-public-assets.safe.json",
+      "sha256": "0157ae8b13a7173b958ecd7dc62970ed7ecb374355395726b1b1f0f978c32d82",
+      "bytes": 6802
+    },
+    {
+      "path": "source-before-restart.safe.json",
+      "sha256": "18dac0d0ce189f428d85f1e0af3fe4c5954dc6d18b59f9a3c183a76c565290fd",
+      "bytes": 4049
+    },
+    {
+      "path": "source-static-continuity.safe.json",
+      "sha256": "353c6ba4d61f86c4b5f3ecda0a8542fd1d7599f5ceb9050e7473370709af720d",
+      "bytes": 2139
+    },
+    {
+      "path": "topology.safe.json",
+      "sha256": "0af52c043487751c5bdba493698599cef6ea0b67044eed18ee3015386c73e3e2",
+      "bytes": 4080
+    }
+  ],
+  "sanitizedEvidenceManifest": {
+    "path": "../offline-mobile-favicon-followup-ir2/EXPORT.json",
+    "sha256": "745660083ad11144fed44743b54c06ffe5e38c2c3d28c62743094f99d2cf7a50",
+    "bytes": 4330
+  },
+  "sanitizedSummary": {
+    "path": "../offline-mobile-favicon-followup-ir2/summary.json",
+    "sha256": "8cf25006d500601ec6661c4b5e9517efad281b308b543044a8fb9338274be134",
+    "bytes": 22575
+  },
+  "routeCsv": {
+    "path": "../offline-mobile-favicon-followup-ir2/summary.csv",
+    "sha256": "70c0171fb204b4865a37a292d65494b359f2afa4b5bbeeab8354dbf4f7b8fa5d",
+    "bytes": 1025
+  },
+  "applicationInputs": {
+    "path": "../../application-inputs.safe.json",
+    "sha256": "00c9f0292e88f8a5deed252377f65d34a3572916531397ed4078bd23cfb5f394",
+    "bytes": 151461
+  },
+  "priorPrimaryInputs": {
+    "path": "../../application-inputs-before-offline-favicon-64a.safe.json",
+    "sha256": "fc04da4e3110ee77110fddef5ced25113c1618f9c38cc584ea20e0ce062925f6",
+    "bytes": 150054
+  },
+  "sourceAndAffectedTestIndex": {
+    "path": "../../offline-favicon/index.safe.json",
+    "sha256": "baa136aefd41021727064d5e221fa2b1e80d8aedf42948c6ba8bd27bbdaa5104",
+    "bytes": 1204
+  },
+  "originalPrimaryIndex": {
+    "path": "../final-ir2-settled-v2-proxy/PRIMARY-COMPLETE.safe.json",
+    "sha256": "a68667eda59e0445a90c8833bfaaa5b9141a3a750f0de5b66ee1f2a78d6e959e",
+    "bytes": 12858
+  },
+  "privateRawReportsBrowserImagesOrSecretsDelivered": false,
+  "laterRootOwnedCaddyClosure": {
+    "path": "../../runtime-caddy-closure.safe.json",
+    "sha256": "71e99b1b16a64937e0b5931426650fe626564d12f5fe246f816f369759b33c31",
+    "bytes": 973
+  }
+}

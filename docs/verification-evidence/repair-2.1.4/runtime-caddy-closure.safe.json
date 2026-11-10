@@ -1,0 +1,19 @@
+{
+  "format": "production-audit-owned-caddy-final-closure-v1",
+  "verifiedAt": "2026-10-26T01:18:33.826534+00:00",
+  "normalShutdownSignal": "SIGTERM",
+  "exactOwnedSupervisorIdentityAndPidfdValidated": true,
+  "normalSignalCommandActualExitCode": 0,
+  "actualSupervisorToolExitCode": 0,
+  "actualSupervisorReportedExitCode": 0,
+  "actualChildPopenReturnCode": 0,
+  "actualChildExitCode": 0,
+  "childReaped": true,
+  "supervisorFailure": null,
+  "ownedSupervisorAndChildAbsentInNativeNamespace": true,
+  "forcedKillOrBroadCleanupUsed": false,
+  "rawSupervisorReceiptSha256": "953e8c19b8c6cedbeb64bc78b61de70079cc4afecf6051efd6aabe239fd40fa9",
+  "signalReceiptSha256": "3513861a557a8a2d9ff504d2badd6cdff12ff7a0f02d6b2fabdcf920a7459ad6",
+  "environmentRead": false,
+  "scope": "Only the exact owned Caddy audit supervisor and its recorded child; no statement about unrelated services. Next and worker closure is separately recorded; PostgreSQL closure follows separately."
+}

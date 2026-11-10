@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-23T10:47:28.466928+00:00",
+  "buildId": "HSeZD37BGY1jy6cC01AzB",
+  "kind": "manual-visual-review-of-recorded-public-screenshots",
+  "reviewedCount": 20,
+  "records": [
+    {
+      "locale": "fa",
+      "device": "mobile",
+      "kind": "cube-caption",
+      "observedScreenshot": {
+        "bytes": 271111,
+        "sha256": "f06d37c8b782f362ff194ee0ae5dd3e98e28fdfd5f249d6eee62549e1a188adf",
+        "includedInSourcePackage": false
+      },
+      "result": "reviewed-no-issue-found-in-changed-caption-or-horizontal-fit"
+    },
+    {
+      "locale": "fa",
+      "device": "desktop",
+      "kind": "cube-caption",
+      "observedScreenshot": {
+        "bytes": 695142,
+        "sha256": "a1ebe75d779e3c413d5a72e30d44ba3caf133801e225657ab2ebbc158bdf96b6",
+        "includedInSourcePackage": false
+      },
+      "result": "reviewed-no-issue-found-in-changed-caption-or-horizontal-fit"
+    },
+    {
+      "locale": "en",
+      "device": "mobile",
+      "kind": "cube-caption",
+      "observedScreenshot": {
+        "bytes": 280006,
+        "sha256": "e7952239194896788c7a990bc02b6e1e95e2a27762258b70eb412d3a282171d8",
+        "includedInSourcePackage": false
+      },
+      "result": "reviewed-no-issue-found-in-changed-caption-or-horizontal-fit"
+    },
+    {
+      "locale": "en",
+      "device": "desktop",
+      "kind": "cube-caption",
+      "observedScreenshot": {
+        "bytes": 731882,
+        "sha256": "41a2929170f7813632120e099cde5217fd31fe19b92bca95c72286e2bc5e0066",
+        "includedInSourcePackage": false
+      },
+      "result": "reviewed-no-issue-found-in-changed-caption-or-horizontal-fit"
+    },
+    {
+      "locale": "tr",
+      "device": "mobile",
+      "kind": "cube-caption",
+      "observedScreenshot": {
+        "bytes": 279271,
+        "sha256": "790ce7735f2cc0ca1c5af1259ad847d09f3fca6050fcc754b75dcf36a1f4d4b3",
+        "includedInSourcePackage": false
+      },
+      "result": "reviewed-no-issue-found-in-changed-caption-or-horizontal-fit"
+    },
+    {
+      "locale": "tr",
+      "device": "desktop",
+      "kind": "cube-caption",
+      "observedScreenshot": {
+        "bytes": 725020,
+        "sha256": "efab037b600655ac15aa3e58b2259908475dc71b8dfd0bbdacc072d35ac2306b",
+        "includedInSourcePackage": false
+      },
+      "result": "reviewed-no-issue-found-in-changed-caption-or-horizontal-fit"
+    },
+    {
+      "locale": "ar",
+      "device": "mobile",
+      "kind": "cube-caption",
+      "observedScreenshot": {
+        "bytes": 270493,
+        "sha256": "fbf684403054f5554507ec48de11ee481d2438904e321f76213187827d97ba92",
+        "includedInSourcePackage": false
+      },
+      "result": "reviewed-no-issue-found-in-changed-caption-or-horizontal-fit"
+    },
+    {
+      "locale": "ar",
+      "device": "desktop",
+      "kind": "cube-caption",
+      "observedScreenshot": {
+        "bytes": 683727,
+        "sha256": "ef3bb6109f63a40eb345c767acddca16ab85034bfc8d25a1b95b9c2feed1a2b7",
+        "includedInSourcePackage": false
+      },
+      "result": "reviewed-no-issue-found-in-changed-caption-or-horizontal-fit"
+    },
+    {
+      "locale": "ru",
+      "device": "mobile",
+      "kind": "cube-caption",
+      "observedScreenshot": {
+        "bytes": 276928,
+        "sha256": "48d0b6e428e9807671a915e5ec6a637ed0db7b92cc46f0ae5f4c6d72499f13fa",
+        "includedInSourcePackage": false
+      },
+      "result": "reviewed-no-issue-found-in-changed-caption-or-horizontal-fit"
+    },
+    {
+      "locale": "ru",
+      "device": "desktop",
+      "kind": "cube-caption",
+      "observedScreenshot": {
+        "bytes": 732877,
+        "sha256": "39ff4f9bc9ded0b23a4cfd7c37fcccefef6c62a618e410beeb232b79fcf9b147",
+        "includedInSourcePackage": false
+      },
+      "result": "reviewed-no-issue-found-in-changed-caption-or-horizontal-fit"
+    },
+    {
+      "locale": "fa",
+      "device": "mobile",
+      "kind": "resource-bundle",
+      "observedScreenshot": {
+        "bytes": 219313,
+        "sha256": "d0ce77655644efcca4a4f58164822ad2233c81491e38360f871371ebcabf0e2c",
+        "includedInSourcePackage": false
+      },
+      "result": "reviewed-no-issue-found-in-changed-caption-or-horizontal-fit"
+    },
+    {
+      "locale": "en",
+      "device": "mobile",
+      "kind": "resource-bundle",
+      "observedScreenshot": {
+        "bytes": 224542,
+        "sha256": "c718b5470a9ea3704bfcd26eba132c83bcd1162072bac657d37433f60c92ac33",
+        "includedInSourcePackage": false
+      },
+      "result": "reviewed-no-issue-found-in-changed-caption-or-horizontal-fit"
+    },
+    {
+      "locale": "tr",
+      "device": "mobile",
+      "kind": "resource-bundle",
+      "observedScreenshot": {
+        "bytes": 211056,
+        "sha256": "885809cc3bc109d394354259f05ee82091667944a005d6f90192b4c306b98fe7",
+        "includedInSourcePackage": false
+      },
+      "result": "reviewed-no-issue-found-in-changed-caption-or-horizontal-fit"
+    },
+    {
+      "locale": "ar",
+      "device": "mobile",
+      "kind": "resource-bundle",
+      "observedScreenshot": {
+        "bytes": 200800,
+        "sha256": "c0d14401d343fac7a59fb5d88a53e5b26e90ad53399b756e6c36090f1502cecf",
+        "includedInSourcePackage": false
+      },
+      "result": "reviewed-no-issue-found-in-changed-caption-or-horizontal-fit"
+    },
+    {
+      "locale": "ru",
+      "device": "mobile",
+      "kind": "resource-bundle",
+      "observedScreenshot": {
+        "bytes": 213677,
+        "sha256": "99ad91bcea9ea12d991cb65679fdf002f84b9492e2c57f6d86884f600e032dd1",
+        "includedInSourcePackage": false
+      },
+      "result": "reviewed-no-issue-found-in-changed-caption-or-horizontal-fit"
+    },
+    {
+      "locale": "fa",
+      "device": "mobile",
+      "kind": "cooperation",
+      "observedScreenshot": {
+        "bytes": 222519,
+        "sha256": "b2616439a2fbcb2d94decbc1d46f26c3649a632e7ecf7551ab4d0be83e68532a",
+        "includedInSourcePackage": false
+      },
+      "result": "reviewed-no-issue-found-in-changed-caption-or-horizontal-fit"
+    },
+    {
+      "locale": "tr",
+      "device": "mobile",
+      "kind": "technical-selection",
+      "observedScreenshot": {
+        "bytes": 199115,
+        "sha256": "68a12f763dd3a43b6660333be7ddc0ca064759c7f2d1ea7dfa46725e5944e6b3",
+        "includedInSourcePackage": false
+      },
+      "result": "reviewed-no-issue-found-in-changed-caption-or-horizontal-fit"
+    },
+    {
+      "locale": "tr",
+      "device": "desktop",
+      "kind": "distributors",
+      "observedScreenshot": {
+        "bytes": 509881,
+        "sha256": "de26fadd502ea31d411e0ffad0b45ceb447ebcbc69040174464527b05459e0a7",
+        "includedInSourcePackage": false
+      },
+      "result": "reviewed-no-issue-found-in-changed-caption-or-horizontal-fit"
+    },
+    {
+      "locale": "ru",
+      "device": "mobile",
+      "kind": "technical-selection",
+      "observedScreenshot": {
+        "bytes": 196346,
+        "sha256": "52f93c393dea483d01b3fc1635893558c94a687750a13471b7cf4b88010d46a8",
+        "includedInSourcePackage": false
+      },
+      "result": "reviewed-no-issue-found-in-changed-caption-or-horizontal-fit"
+    },
+    {
+      "locale": "ar",
+      "device": "desktop",
+      "kind": "cooperation",
+      "observedScreenshot": {
+        "bytes": 518785,
+        "sha256": "5b61116359f4b16634f4bc4b7bf56d20dd6cd19d3dc6448fa1e34aef494b16bd",
+        "includedInSourcePackage": false
+      },
+      "result": "reviewed-no-issue-found-in-changed-caption-or-horizontal-fit"
+    }
+  ],
+  "findings": [
+    "The actual three-dimensional cube and tooth remain present in all ten reviewed locale/viewport cube observations.",
+    "Changed cube captions, five mobile bundle badges and representative request headings display their selected-locale copy and fit horizontally.",
+    "The public design, colors and component geometry are unchanged by the copy edits."
+  ],
+  "limitations": [
+    "This is a visual inspection of the listed recorded screenshots, not an automated pixel-diff comparison.",
+    "The automated 60-observation receipt covers the complete selected locale/viewport/caption matrix; only the listed 20 screenshots received this manual visual review.",
+    "Scroll-to-caption captures may put the preceding content underneath the sticky navigation; this receipt assesses the changed caption, scene and horizontal fit."
+  ],
+  "sourceSafeReceiptSha256": "cb00360a5b8185ae8c0a3bed7603b7d0b4f8645dc441d0eac8759a154a45dbf4",
+  "packageDerivative": {
+    "screenshotsIncluded": false,
+    "screenshotPathReferencesRemoved": true,
+    "secretValuesIncluded": false
+  }
+}

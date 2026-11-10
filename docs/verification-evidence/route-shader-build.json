@@ -1,0 +1,51 @@
+{
+  "gate": "build",
+  "label": "route-shader-final",
+  "startedAt": "2026-10-20T15:29:01.780Z",
+  "finishedAt": "2026-10-20T15:38:27.061Z",
+  "exitCode": 0,
+  "applicationBefore": "34a8ce048c07eca0c7c6286d741b7c58b1e1c920ea421ec51315a2662f61cdea",
+  "applicationAfter": "34a8ce048c07eca0c7c6286d741b7c58b1e1c920ea421ec51315a2662f61cdea",
+  "applicationUnchanged": true,
+  "runtimeUnchanged": true,
+  "testInputsUnchanged": true,
+  "runtimeBefore": {
+    "algorithm": "sha256",
+    "scope": "runtime-v1",
+    "sha256": "0dfed1f3156490fb24f05b9087bf7280d7caa925885d21f5f13d08bfa3fd859d",
+    "fileCount": 761,
+    "byteCount": 49021668,
+    "entrypoints": []
+  },
+  "runtimeAfter": {
+    "algorithm": "sha256",
+    "scope": "runtime-v1",
+    "sha256": "0dfed1f3156490fb24f05b9087bf7280d7caa925885d21f5f13d08bfa3fd859d",
+    "fileCount": 761,
+    "byteCount": 49021668,
+    "entrypoints": []
+  },
+  "testInputsBefore": {
+    "algorithm": "sha256",
+    "scope": "test-inputs-build-v1",
+    "sha256": "2c02717cdc842d19ff73d29433dc2d4eb96febf453bfc6ab90b9e04c89622b65",
+    "fileCount": 17,
+    "byteCount": 229824,
+    "entrypoints": []
+  },
+  "testInputsAfter": {
+    "algorithm": "sha256",
+    "scope": "test-inputs-build-v1",
+    "sha256": "2c02717cdc842d19ff73d29433dc2d4eb96febf453bfc6ab90b9e04c89622b65",
+    "fileCount": 17,
+    "byteCount": 229824,
+    "entrypoints": []
+  },
+  "buildAfter": {
+    "buildId": "zTyFzGk88zFYZzMkC8On8",
+    "standaloneBuildId": "zTyFzGk88zFYZzMkC8On8"
+  },
+  "nodeVersion": "v24.19.0",
+  "applicationFileCount": 653,
+  "scope": "Production build only; does not imply final runtime, browser, Docker or Lighthouse acceptance."
+}

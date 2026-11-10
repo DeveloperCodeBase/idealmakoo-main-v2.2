@@ -1,0 +1,77 @@
+{
+  "kind": "verified-candidate03-metadata-counts",
+  "createdAt": "2026-10-25T10:10:02.711Z",
+  "buildId": "DuF4NV2a3keq3h3H5T3Dr",
+  "publicContentHash": "c81fb2b40e486f8608c7c7da584d76197bef191244fad9d1b45128ddbb7e8e74",
+  "inventoryHash": "5d64b4b3f9bc22e0e2105ebb0ce0e6b6a54c56eba3cbaef681973c4332bda11f",
+  "expected": 620,
+  "checked": 620,
+  "passed": 620,
+  "errors": 0,
+  "warnings": 0,
+  "coverageComplete": true,
+  "originalSummarySha256": "a5011790247a096a5ba18b71947920a6bc82dd0e21072a1a98c4e414323a1c62",
+  "rawPageRecordsIncluded": false,
+  "actualGate": {
+    "sourceReceiptSha256": "602a4d950cfe65999ecd5a4105e879829b68f6a563f3e430e40c29f7019040e1",
+    "child": {
+      "name": "metadata-candidate03",
+      "startedAt": "2026-10-25T10:09:50.967449+00:00",
+      "finishedAt": "2026-10-25T10:10:02.860049+00:00",
+      "durationSeconds": 11.892595,
+      "exitCode": 0,
+      "waitConsumed": true,
+      "timedOut": false,
+      "cancelled": false,
+      "sourceBefore": {
+        "sha256": "79cbbf107e4886e03ade1119ab48d3a57e8a7385a64ba125322d3f4e1b923f94",
+        "files": 994
+      },
+      "sourceAfter": {
+        "sha256": "79cbbf107e4886e03ade1119ab48d3a57e8a7385a64ba125322d3f4e1b923f94",
+        "files": 994
+      },
+      "sourceChanged": [],
+      "accepted": true
+    },
+    "actualOuterTool": {
+      "sessionId": 88892,
+      "exitCode": 0,
+      "actualWaitConsumed": true,
+      "launchJournal": {
+        "file": "tool-journal/entries/20261025T100952096000Z-exec_command-0718d0.json",
+        "sha256": "e9431bb20c877e8df3f8ab8d5d3ba0bb1e16c0f881f9fdc1754cc5206a0cca29",
+        "metadata": {
+          "actualReturnedToolMetadata": true,
+          "chunk_id": "0718d0",
+          "exit_code": null,
+          "operation": "exec_command",
+          "planSha256": "04208bda3940d319e6598c0fd77a70251a35c71b514a6d78eb444585094a3d4d",
+          "requestedSessionId": null,
+          "schemaVersion": 1,
+          "session_id": 88892,
+          "step": "c3-metadata",
+          "time": "2026-10-25T10:09:52.096Z",
+          "wall_time_seconds": 1.000763123
+        }
+      },
+      "terminalJournal": {
+        "file": "tool-journal/entries/20261025T101013450000Z-write_stdin-6db3cf.json",
+        "sha256": "4550724381d208fbca74b496adb1ed345b4897b4ffb79cce2c54d3e729251510",
+        "metadata": {
+          "actualReturnedToolMetadata": true,
+          "chunk_id": "6db3cf",
+          "exit_code": 0,
+          "operation": "write_stdin",
+          "planSha256": "04208bda3940d319e6598c0fd77a70251a35c71b514a6d78eb444585094a3d4d",
+          "requestedSessionId": 88892,
+          "schemaVersion": 1,
+          "session_id": null,
+          "step": "c3-metadata",
+          "time": "2026-10-25T10:10:13.450Z",
+          "wall_time_seconds": 2.4337e-05
+        }
+      }
+    }
+  }
+}

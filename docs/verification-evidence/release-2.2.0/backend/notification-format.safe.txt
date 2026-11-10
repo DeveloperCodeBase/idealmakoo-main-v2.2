@@ -1,0 +1,14 @@
+✔ customer phone normalization accepts Persian/Arabic digits and international notation without accepting prose (2.042501ms)
+✔ SMS size uses GSM extension septets, Unicode units and multipart boundaries (0.319202ms)
+✔ channel fitting retains both action and preference links and never splits an emoji (1.229388ms)
+✔ responsive notification HTML escapes all authored values and preserves RTL and unsubscribe (0.394574ms)
+✔ provider contract sends Telegram photo with bounded caption and captures actual Kavenegar IRR cost (27.098993ms)
+✔ SMTP mail has a plain and HTML action link and refuses internal phone identity addresses (1.840412ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 562.306459

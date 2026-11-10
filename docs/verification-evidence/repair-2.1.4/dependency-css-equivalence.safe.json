@@ -1,0 +1,201 @@
+{
+  "beforeParser": "6.1.5",
+  "afterParser": "7.1.6",
+  "scope": "identical frozen CSS inputs and content corpus; no inferred full visual equivalence",
+  "files": 38,
+  "outputBytes": 528765,
+  "allOutputHashesAndWarningsEqual": true,
+  "warnings": 0,
+  "results": {
+    "src/app/full-width.css": {
+      "bytes": 2403,
+      "sha256": "b23645fad61fe1e8566d0216af6b97a79ea99fb8974848cb5a6a29e826ae0ce6",
+      "warnings": []
+    },
+    "src/app/globals.css": {
+      "bytes": 92556,
+      "sha256": "1b407e93c5bde213ceea49708067d2b4f567b0c1792c11c931e175ece6e141a1",
+      "warnings": []
+    },
+    "src/app/liquid-theme.css": {
+      "bytes": 15406,
+      "sha256": "646e7f22bcbb41c6ef07ce3b357d1f8daebe3a4fdaf576dc034e7f39ec0863bb",
+      "warnings": []
+    },
+    "src/app/mobile-layout.css": {
+      "bytes": 7040,
+      "sha256": "b05b3b4b407140697606428145321575342b4eecd95683e9358ebdc4e0ae252d",
+      "warnings": []
+    },
+    "src/app/user-preferences.css": {
+      "bytes": 1898,
+      "sha256": "0d139d4a2fe2193aee62a42f2ef351a45fa5da3ccd36e4f37a4fc9dd5851a0b7",
+      "warnings": []
+    },
+    "src/components/account/account.module.css": {
+      "bytes": 45370,
+      "sha256": "5943e89ee5b795ab1a6e8d116197b48b7da106b02a02f42d623458e90302e825",
+      "warnings": []
+    },
+    "src/components/account/personal-settings.module.css": {
+      "bytes": 27796,
+      "sha256": "9e8975648a4f0adfc4bbdff2b43d50a9988ad5266dbda578b5614d65f71277e2",
+      "warnings": []
+    },
+    "src/components/account/user-avatar.module.css": {
+      "bytes": 971,
+      "sha256": "7ce66e41717a7248b2c5833a9dd59de92574876c4a86e2a418129883c976a20f",
+      "warnings": []
+    },
+    "src/components/capabilities/capabilities.css": {
+      "bytes": 2344,
+      "sha256": "a31b7aa8547973de7139f5bdc95c4beb8889612f04636b4464bf249fd7a009e5",
+      "warnings": []
+    },
+    "src/components/content/content-carousel.css": {
+      "bytes": 1746,
+      "sha256": "0f1ae5bfdf1954585327463711c951040b2219b6b8b51f72cbec6c550e4ba6a8",
+      "warnings": []
+    },
+    "src/components/content/content.css": {
+      "bytes": 20335,
+      "sha256": "44163c134bad7a9f7497093e5c2fbb1a4f6ca6c7e9c5070a707f6632d96132ad",
+      "warnings": []
+    },
+    "src/components/content/glossary.css": {
+      "bytes": 1463,
+      "sha256": "0105a61bb31c3e4fbf6a104aa7c686e35053ba467412600dc103943f69570ee2",
+      "warnings": []
+    },
+    "src/components/content/reference-documents.css": {
+      "bytes": 11254,
+      "sha256": "0389109b6b20473f7b41c488333269391b3f6b2cb01d50779f5bea65aaac5ee4",
+      "warnings": []
+    },
+    "src/components/controlled/controlled.module.css": {
+      "bytes": 3278,
+      "sha256": "05acc1b6aa95c82359e681b9ebc0b95f716cf7352974d2a062db4085709c767a",
+      "warnings": []
+    },
+    "src/components/experience/experience.module.css": {
+      "bytes": 8661,
+      "sha256": "b443eb7248065badf321f9f9310bd2acd0175f04c656429677a45cc29d6db228",
+      "warnings": []
+    },
+    "src/components/site/UserMenu.module.css": {
+      "bytes": 4161,
+      "sha256": "c395319477c0c005cf4cb5265b6135953ca680dabbfb00d83023b234c0d5f79a",
+      "warnings": []
+    },
+    "src/components/site/assistant.css": {
+      "bytes": 8033,
+      "sha256": "dd634ce04b3a9a810991eee69904936112f26d93ca8479784cf670030e168887",
+      "warnings": []
+    },
+    "src/components/site/carousel.css": {
+      "bytes": 22886,
+      "sha256": "810d539c52860e8a737559d951a05cb3500d920c15d4b8eb1da43802d9744646",
+      "warnings": []
+    },
+    "src/components/site/footer-credit.module.css": {
+      "bytes": 1001,
+      "sha256": "7183d92f5e285a6627d0e7bf51671be6830dbc6abd177672f8d5a74930599e3d",
+      "warnings": []
+    },
+    "src/components/site/home.css": {
+      "bytes": 19341,
+      "sha256": "dd9516e72d5b1bee76c474755a07276a77679cb35fc17ae71958fc8d824e9174",
+      "warnings": []
+    },
+    "src/components/site/mobile-drawer.module.css": {
+      "bytes": 2010,
+      "sha256": "a83e09f205ab113bca96e881d1dc5480a4298e9f1bd89bd04b46425fdf781674",
+      "warnings": []
+    },
+    "src/components/site/preferences.module.css": {
+      "bytes": 5777,
+      "sha256": "8e3ab38e0a1ebcedd89ae70348ca1357f5412502ad831a40c05bddc7aa6ac9ff",
+      "warnings": []
+    },
+    "src/components/site/product-publication.css": {
+      "bytes": 2303,
+      "sha256": "41965d5d7a89af8ebf1b39bf65530caa0feef91c46a25f8cfa51e09df6677329",
+      "warnings": []
+    },
+    "src/components/site/product-release.css": {
+      "bytes": 4821,
+      "sha256": "3f6f62d198c0d738ae6b049879db20d8296340d9d193100ec3cbb5b93d300d86",
+      "warnings": []
+    },
+    "src/components/tenders/tender.module.css": {
+      "bytes": 3453,
+      "sha256": "e99b1ee18a2051bc22ca3b36e8ff763285a9aa2dc8e4c03662a72d442176edba",
+      "warnings": []
+    },
+    "src/components/ui/dialog-surface.css": {
+      "bytes": 6054,
+      "sha256": "7ea61785fc28ce2942ea2037c577c846fdb64a15238b78d454ff4958443f7034",
+      "warnings": []
+    },
+    "src/components/ui/modal.css": {
+      "bytes": 3750,
+      "sha256": "727860de42a3dfca4eab6f42d578bc5f294ee3747384f2ec386ea995609b1f4f",
+      "warnings": []
+    },
+    "src/components/ui/rich-text.css": {
+      "bytes": 2726,
+      "sha256": "9d464b2d4ed9707377398b7f4948305255181cda186e70ef4c324ff88eab8b06",
+      "warnings": []
+    },
+    "src/components/wishlists/wishlists.css": {
+      "bytes": 2439,
+      "sha256": "e4dd10598f538a1b0faa66f18971ce6004c85431129deb6cf0fefd0b85a1e138",
+      "warnings": []
+    },
+    "src/components/workspace/SiteSettings.module.css": {
+      "bytes": 10288,
+      "sha256": "3bcd69e45bbd7a37469ae75c732b199343ce371c9e7cfd99b01f79767fc2cfd2",
+      "warnings": []
+    },
+    "src/components/workspace/crm-tools.css": {
+      "bytes": 10623,
+      "sha256": "25b8d751a5dfd6c477a75a1b682bbaa9806e1a126ea2644e724e0d7e1685a97b",
+      "warnings": []
+    },
+    "src/components/workspace/notification-templates.css": {
+      "bytes": 1829,
+      "sha256": "72c7f08aa9645d3f850a160cc26c2bc01a79f09be8d7d20a1417e24f638973a4",
+      "warnings": []
+    },
+    "src/components/workspace/product-editor.css": {
+      "bytes": 13567,
+      "sha256": "6fe1f5ad428fc02b638f89af506c3d9de27bb689d4ccfbb37a9d1c2ecbc4168d",
+      "warnings": []
+    },
+    "src/components/workspace/shared-blocks.css": {
+      "bytes": 1346,
+      "sha256": "a14cfaed550775d22724b3efe125e288065fcda7184e53fcf27ce63bb372f6ef",
+      "warnings": []
+    },
+    "src/components/workspace/studio-ai.css": {
+      "bytes": 7268,
+      "sha256": "eef075d1a1ade39ad3db0238b49d07c4e4318eae223a8f151648373cae5600c2",
+      "warnings": []
+    },
+    "src/components/workspace/workspace-modal.css": {
+      "bytes": 6088,
+      "sha256": "1e6090a91aebf13848eda8dfda792257a70737c15eed4a6a72f3215ad4d01eac",
+      "warnings": []
+    },
+    "src/components/workspace/workspace-role.css": {
+      "bytes": 42969,
+      "sha256": "7fd63ae256e7d85c55bc86eb916fe1985c327967192511573d0b92003b59211c",
+      "warnings": []
+    },
+    "src/components/workspace/workspace.css": {
+      "bytes": 103511,
+      "sha256": "8227175ddc7845bac71227f1ba1572df43b42ed8975d2c419ef54c5853254d12",
+      "warnings": []
+    }
+  }
+}

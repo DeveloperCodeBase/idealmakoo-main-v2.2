@@ -1,0 +1,60 @@
+{
+  "format": "topology-bound-phase-safe-derivative-v2",
+  "phase": "public-desktop-rollup",
+  "kind": "export",
+  "startedAt": "2026-10-26T00:48:53.651436+00:00",
+  "finishedAt": "2026-10-26T00:48:54.446221+00:00",
+  "durationSeconds": 0.795,
+  "topologySha256": "d0c85e36be10862b020361b4179ad2add3a02848966239cb01fd7b6a92837bf4",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "commandLaunchAttempted": true,
+  "commandStarted": true,
+  "coreConfigurationHashAloneBindsProxy": false,
+  "actualCommandExitCode": 0,
+  "validationPassed": true,
+  "validationErrorCode": null,
+  "validationIsSeparateFromLighthouseOutcome": true,
+  "receivedOrForwardedSignals": [],
+  "wrapperForcedKillAfterSixtySeconds": false,
+  "interruptedPageCleanup": "Not inferred by this wrapper; retain the original auditor's evidence.",
+  "originalPrivateReceiptSha256": "570f6885a12fad2a5b747bc103020ed77d8d2ab922b4a1df7e4f1f5de9a08d80",
+  "beforeVerificationPresent": true,
+  "afterVerificationPresent": true,
+  "coreArtifacts": [
+    {
+      "directoryLabel": "desktop-representative-final-ir2-settled-v2",
+      "files": {
+        "manifest.json": {
+          "sha256": "ed730b5bcf714f562cd67b0383849671125da4c0e14c451e05685ed3f0c74497",
+          "bytes": 2754
+        },
+        "inventory.json": {
+          "sha256": "458b9263e8af1f78dfb902f9e81089fca138a8e452a939dc16aa9f20c2baede0",
+          "bytes": 2542
+        },
+        "summary.json": {
+          "sha256": "bb4de7ef7ded3c82e2482ac60fe81e6ea317f7406b73f93a00f6371f4b9cd066",
+          "bytes": 76764
+        },
+        "EXPORT.json": {
+          "sha256": "309ce917f2d77248ec3c07248f88df260beed15d411ce806bb52e635d0e22696",
+          "bytes": 10119
+        }
+      },
+      "coreConfigurationHash": "99d9518a73248ff8be3846384e71f32b6c400f3220ac752fb863f098dc4d47fe",
+      "counts": {
+        "expected": 14,
+        "attempted": 14,
+        "completed": 14,
+        "expectedHttpResponses": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "pending": 0,
+        "coverageComplete": true
+      }
+    }
+  ],
+  "omissions": [
+    "Raw process IDs/arguments/environment/logs, full process observations and raw-command hashes."
+  ]
+}

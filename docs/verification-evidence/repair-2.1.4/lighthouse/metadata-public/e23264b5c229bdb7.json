@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/research/acrylic-teeth-wear-comparison/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "0a2820934f5f274998fe390c25ebc7ce419c8658faeb5e16622d52823bf7f184",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Altı akrilik diş serisinin aşınma karşılaştırması | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Super Berelian ile Major Plus, Super Lux, Polident Primo, Vitapan ve Ivoclar karşılaştırması."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/research/acrylic-teeth-wear-comparison/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/acrylic-teeth-wear-comparison/",
+    "en": "http://127.0.0.1:3100/en/research/acrylic-teeth-wear-comparison/",
+    "tr": "http://127.0.0.1:3100/tr/research/acrylic-teeth-wear-comparison/",
+    "ar": "http://127.0.0.1:3100/ar/research/acrylic-teeth-wear-comparison/",
+    "ru": "http://127.0.0.1:3100/ru/research/acrylic-teeth-wear-comparison/",
+    "x-default": "http://127.0.0.1:3100/fa/research/acrylic-teeth-wear-comparison/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 64
+}

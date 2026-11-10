@@ -1,0 +1,10 @@
+{
+  "format": "offline-static-evidence-derivative-attempt-v1",
+  "recordedAt": "2026-10-26T01:18:21.766811+00:00",
+  "actualExitCode": 1,
+  "status": "typed-export-harness-failed",
+  "reasonCode": "NULL_GUARD_OBSERVATION_IN_PRELAUNCH_REFUSAL",
+  "scoringOrSanitizerOutcomeChanged": false,
+  "alreadyWrittenDerivativesRetainedByteIdentically": true,
+  "correction": "Treat absent/null before/after guard observations as unobserved, preserving null flags and the original prelaunch refusal."
+}

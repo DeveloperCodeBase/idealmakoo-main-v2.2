@@ -1,0 +1,96 @@
+{
+  "format": "private-lighthouse-evidence-v1",
+  "scope": "authenticated",
+  "createdAt": "2026-10-23T07:37:52.743Z",
+  "configurationHash": "43c6e4f2d0cc67dccb770f29acc5656607e4ad0bd46869956b8e8485c5dd641f",
+  "config": {
+    "schemaVersion": 2,
+    "baseOrigin": "http://127.0.0.1:3094",
+    "buildId": "i2FywRVMQcWLcBXtSt9h7",
+    "applicationVersion": "2.1.1",
+    "lighthouseVersion": "13.5.0",
+    "chromeVersion": "156.0.8078.4",
+    "devices": [
+      "mobile"
+    ],
+    "categories": [
+      "performance",
+      "accessibility",
+      "best-practices",
+      "seo"
+    ],
+    "chromeFlags": [
+      "--headless=new",
+      "--disable-dev-shm-usage",
+      "--no-sandbox",
+      "--enable-unsafe-swiftshader",
+      "--use-gl=angle",
+      "--use-angle=swiftshader"
+    ],
+    "omittedChromeFlags": 0,
+    "chromeFlagsSha256": "541cd864e4b72df85e6516efff98402fe6de52ff5e010b4599f384070aea6322",
+    "deadlineSeconds": 300,
+    "maxWaitForLoad": 45000,
+    "routesSourceSha256": "57fcd851331201647f8eba1118df95678b548685d11a1a076576c9bc179da81b",
+    "otherConfigFieldsOmitted": true,
+    "privateRunnerSourceSha256": "baf2bfa9213736982dfd0fbe1987224ccfed55acb08dfa096d0bf208fb9c3ec6",
+    "targetPath": "/ar/admin/users/",
+    "teardownPolicy": "authenticated-robots-committed-lease-release-v1",
+    "teardownFingerprint": "dfd0442630d3c37e6e650059dc81f8284ce358fda90d20a9ee182010601ce076",
+    "graphicsMode": "swiftshader-driver",
+    "inventoryHash": "82193d38cdd487d1d47cf84071832a5d2d91e4e69dce09273480df5ab1f7f2ab",
+    "workloadHash": "435447874d0c7a8c999f3d44218c13c0689c965f9f272836f0a85012552e58b1"
+  },
+  "expected": 1,
+  "scenarioCoverage": {
+    "measurement": "Authenticated navigation, Lighthouse audits and recorded shell/content/authentication checks for the listed jobs.",
+    "selectionScope": "selected-principal-role-route",
+    "selectedOnly": true,
+    "roles": [
+      "superAdmin"
+    ],
+    "locales": [
+      "ar"
+    ],
+    "devices": [
+      "mobile"
+    ],
+    "jobKinds": {
+      "workspace": 1,
+      "account": 0,
+      "representative-role": 0,
+      "owned-request-detail": 0
+    },
+    "registeredPrivatePaths": 101,
+    "registeredLocalePathsInventoried": 1,
+    "expectedJobs": 1,
+    "attemptedJobs": 1,
+    "successfulJobs": 1,
+    "allInventoriedNavigationsSucceeded": true,
+    "allRoleRouteCombinationsTested": false,
+    "workflowActionsMeasured": false,
+    "limitation": "Only the inventoried role/locale/device/data scenarios are covered. Navigation measurements do not assert exhaustive CRUD, permission-matrix or business-workflow coverage. Owned-request identities are omitted."
+  },
+  "host": {
+    "platform": "linux",
+    "otherHostFieldsOmitted": true
+  },
+  "omissions": {
+    "rawLighthouseReports": true,
+    "screenshotsAndBinaryPayloads": true,
+    "rawUrlsAndQueryIdentifiers": true,
+    "cookiesHeadersCredentialsAndSessionIdentifiers": true,
+    "domTextLabelsSnippetsAndAttributes": true,
+    "arbitraryTitlesDescriptionsDisplayValuesAndErrorText": true,
+    "networkResourceIdentifiers": true,
+    "safeSelectorPolicy": "Standard element names, combinators and positional pseudo-classes only; IDs, classes and attributes removed.",
+    "auditOutcomes": "Every audit outcome is retained. Unknown audit IDs receive an opaque alias. Image audits retain outcome metadata only.",
+    "errors": "Known Lighthouse or runner error codes and presence/counts are retained. Free-form error and warning text is omitted explicitly.",
+    "details": "Only allowlisted numeric measurements, structural containers and simplified selectors are retained.",
+    "authentication": "Before/after proof retains only known roles, HTTP status codes, booleans and UTC observation/expiry times. Planned real renewal retains its fixed reason, times and success; identities and credentials are omitted.",
+    "detailMaximumArrayItems": 20,
+    "detailMaximumDepth": 8,
+    "detailMaximumNodesPerAudit": 2000,
+    "note": "A privacy-filtered derivative, not a raw Lighthouse report. Consult the separately protected raw report by its SHA-256 for omitted private details."
+  }
+}

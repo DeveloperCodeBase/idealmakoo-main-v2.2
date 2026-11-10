@@ -1,0 +1,25 @@
+{
+  "recordedAt": "2026-10-26T14:02:57.215081+00:00",
+  "runtime": "local production Next.js build",
+  "buildId": "DkViRTtsCNVaL0ACDvvzz",
+  "testFile": "tests/e2e/expanded-services.spec.ts",
+  "passed": 7,
+  "failed": 0,
+  "durationSeconds": 27.1,
+  "database": "disposable local acceptance database",
+  "externalSmsMessagesSent": 0,
+  "externalAiGenerations": 0,
+  "otpEvidence": "The readiness screen is checked against the actual server in five languages. One separate browser test deliberately mocks the OTP request/verification transport and establishes a real disposable local customer session to verify UI normalization, rejected-code retry and successful account navigation. This is not evidence of live SMS delivery.",
+  "verified": [
+    "five-language OTP readiness and email-method switch",
+    "mobile public search, product filter, empty results and horizontal overflow",
+    "authenticated like, private pending comment, authorized publication, report, withdrawal from public comments",
+    "organization usage and analyst moderation exclusion",
+    "optional role-authorized AI availability with explicit action gating",
+    "translator authorized language from Persian interface",
+    "phone-only security and optional-email contact form",
+    "administrator phone search and hidden placeholder identity",
+    "offline OTP UI completion"
+  ],
+  "fixtureCleanup": "Test accounts deactivated, sessions revoked, test comments rejected, test likes removed and test reports dismissed."
+}

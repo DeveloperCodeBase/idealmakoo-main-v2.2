@@ -1,0 +1,78 @@
+{
+  "format": "idealmakoo.native-runtime-readiness",
+  "version": 1,
+  "label": "user-directory-final",
+  "observedAt": "2026-10-21T06:00:37.467Z",
+  "buildId": "bK2Eb-_hVW6EM3B-gfBNN",
+  "runtimeSource": {
+    "algorithm": "sha256",
+    "scope": "runtime-v1",
+    "sha256": "b70c7d3e2f8698f4481b52a446dcfa3e682a80827f0e60465c5f809b3936a671",
+    "fileCount": 780,
+    "byteCount": 49115125,
+    "entrypoints": []
+  },
+  "processes": [
+    {
+      "path": "runtime-acceptance-web-user-directory-final-process.json",
+      "sha256": "ff8b63c5578a37643c27e81a38af521b1bada59c0480504255d39e7005247b55",
+      "pid": 11415,
+      "kind": "web",
+      "uid": 0,
+      "processStartTicks": "357094"
+    },
+    {
+      "path": "runtime-acceptance-worker-user-directory-final-process.json",
+      "sha256": "2d9d8d3167752defa719e26f35d9c736f212117ccef16097161897543f21ae64",
+      "pid": 11452,
+      "kind": "worker",
+      "uid": 0,
+      "processStartTicks": "357575"
+    },
+    {
+      "path": "runtime-caddy-user-directory-final2-process.json",
+      "sha256": "8597973d708da1cb61fe57a30286c197ee5d385b46a341031af91da167202297",
+      "pid": 11583,
+      "kind": "proxy",
+      "uid": 65534,
+      "processStartTicks": "362309"
+    }
+  ],
+  "entrypoint": "http://127.0.0.1:3080",
+  "health": {
+    "httpStatus": 200,
+    "body": {
+      "status": "ok",
+      "database": "ok",
+      "privacy": "ready",
+      "timestamp": "2026-10-21T06:00:37.238Z",
+      "version": "2.1.0",
+      "applicationVersion": "2.1.0"
+    }
+  },
+  "publicPage": {
+    "path": "/fa/",
+    "status": 200,
+    "securityHeadersVerified": true
+  },
+  "databaseRole": {
+    "name": "idealmakoo_app",
+    "rolsuper": false,
+    "rolcreaterole": false,
+    "rolcreatedb": false,
+    "rolreplication": false
+  },
+  "worker": {
+    "name": "main",
+    "heartbeat_at": "2026-10-21T06:00:27.085Z",
+    "details": {
+      "state": "running",
+      "version": "2.1.0",
+      "applicationVersion": "2.1.0"
+    },
+    "age_seconds": "10.377333"
+  },
+  "providerDelivery": false,
+  "actualDockerAcceptance": false,
+  "publicDeployment": false
+}

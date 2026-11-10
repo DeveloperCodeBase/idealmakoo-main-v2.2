@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:3100/ar/auth/login/",
+  "kind": "public-auth",
+  "indexed": false,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "076279ab3043deceb20c666ebcf707d166c4779a06bafbe937e447058676c7ad",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "إيديال ماكو"
+  ],
+  "descriptions": [],
+  "canonicals": [],
+  "alternates": {},
+  "robots": [
+    "noindex, nofollow, noarchive"
+  ],
+  "noindex": true,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 0,
+    "resolvedBoundaries": 0,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 153
+}

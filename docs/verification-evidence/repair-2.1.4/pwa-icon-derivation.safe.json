@@ -1,0 +1,41 @@
+{
+  "createdAt": "2026-10-25T11:28:23.233Z",
+  "sharp": "0.35.5",
+  "method": "Each existing square RGBA PNG is resized to its declared standard dimensions using Sharp Lanczos3 and contain, without enlargement, cropping, flattening, recoloring or new artwork; original aspect and transparent padding are preserved.",
+  "records": [
+    {
+      "path": "public/icons/idealmakoo-192.png",
+      "before": {
+        "width": 226,
+        "height": 226,
+        "bytes": 62920,
+        "sha256": "a5c0f105907f6b562a1c5d1bf8792b283d493a04233bb6b322ffab90c04c5ae1",
+        "hasAlpha": true
+      },
+      "after": {
+        "width": 192,
+        "height": 192,
+        "bytes": 47024,
+        "sha256": "f5489bd357c3ef4846d177bbb34fd0fb35b56a4bc72bc0fcbd2368cb2c1cac7a",
+        "hasAlpha": true
+      }
+    },
+    {
+      "path": "public/icons/idealmakoo-512.png",
+      "before": {
+        "width": 604,
+        "height": 604,
+        "bytes": 416524,
+        "sha256": "42ed52e228cd117949535db9bee3199d995e8339d91cb28bbf978ddac468abe8",
+        "hasAlpha": true
+      },
+      "after": {
+        "width": 512,
+        "height": 512,
+        "bytes": 303911,
+        "sha256": "1cd1d54e71799877087b8c2ef8ad2f04cd5d2f9808bb734f89d79248684b8fc8",
+        "hasAlpha": true
+      }
+    }
+  ]
+}

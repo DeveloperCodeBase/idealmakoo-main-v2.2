@@ -1,0 +1,123 @@
+{
+  "schema": 1,
+  "kind": "primary-advisory-status-review-not-a-new-npm-audit",
+  "release": "2.1.2",
+  "retrievedAt": "2026-10-24T03:38:24.913283+00:00",
+  "historicalAudit": {
+    "date": "2026-10-23",
+    "file": "dependency-audit-all.json",
+    "command": "npm audit --package-lock-only --json",
+    "exitCode": 1,
+    "vulnerabilities": {
+      "info": 0,
+      "low": 0,
+      "moderate": 2,
+      "high": 5,
+      "critical": 0,
+      "total": 7
+    },
+    "sha256": "ac7a579617f736752206025e9671faa793820f0c16b56f1738d3cd5f58990c20",
+    "preservedUnmodified": true
+  },
+  "inputHashes": {
+    "package.json": "dd8a4b6ae61bdd13346478c9c4d5de40a42c7bd63f725dadf95d893e8e0ced9c",
+    "package-lock.json": "c0f874cca4df5654937431e5c1eb7f1b993c8bc95872ad2bf0e78bf684ffbc2a"
+  },
+  "reportedLockedNodes": [
+    {
+      "name": "braces",
+      "node": "node_modules/braces",
+      "lockedVersion": "3.0.3",
+      "dev": true,
+      "historicalAuditSeverity": "high"
+    },
+    {
+      "name": "chokidar",
+      "node": "node_modules/chokidar",
+      "lockedVersion": "3.6.0",
+      "dev": true,
+      "historicalAuditSeverity": "high"
+    },
+    {
+      "name": "fast-glob",
+      "node": "node_modules/fast-glob",
+      "lockedVersion": "3.3.3",
+      "dev": true,
+      "historicalAuditSeverity": "high"
+    },
+    {
+      "name": "micromatch",
+      "node": "node_modules/micromatch",
+      "lockedVersion": "4.0.8",
+      "dev": true,
+      "historicalAuditSeverity": "high"
+    },
+    {
+      "name": "postcss-nested",
+      "node": "node_modules/postcss-nested",
+      "lockedVersion": "6.2.0",
+      "dev": true,
+      "historicalAuditSeverity": "moderate"
+    },
+    {
+      "name": "postcss-selector-parser",
+      "node": "node_modules/postcss-selector-parser",
+      "lockedVersion": "6.1.5",
+      "dev": true,
+      "historicalAuditSeverity": "moderate"
+    },
+    {
+      "name": "tailwindcss",
+      "node": "node_modules/tailwindcss",
+      "lockedVersion": "3.4.17",
+      "dev": true,
+      "historicalAuditSeverity": "high"
+    }
+  ],
+  "primaryAdvisories": [
+    {
+      "id": "GHSA-vfj7-8cjw-p6xm",
+      "package": "braces",
+      "url": "https://github.com/advisories/GHSA-vfj7-8cjw-p6xm",
+      "status": "withdrawn",
+      "withdrawnAt": "2026-10-23",
+      "lastUpdated": "2026-10-23",
+      "withdrawalReasonSummary": "GitHub states that the reported issue is not practically exploitable.",
+      "lockedVersion": "3.0.3",
+      "action": "Retain the current package; no speculative patch, fork, or major Tailwind migration is warranted for this withdrawn advisory."
+    },
+    {
+      "id": "GHSA-rj75-hqrm-r3gf",
+      "package": "postcss-selector-parser",
+      "url": "https://github.com/postcss/postcss-selector-parser/security/advisories/GHSA-rj75-hqrm-r3gf",
+      "status": "maintainer-patched-version-already-locked",
+      "maintainerAffectedRanges": [
+        ">=7.0.0 <7.1.6",
+        "<6.1.5"
+      ],
+      "maintainerPatchedVersions": [
+        "7.1.6",
+        "6.1.5"
+      ],
+      "lockedVersion": "6.1.5",
+      "historicalNpmRange": "<7.1.6",
+      "action": "Retain the existing compatible 6.1.5 backport; the historical aggregate range differs from the maintainer advisory."
+    }
+  ],
+  "decision": {
+    "newNpmAuditExecuted": false,
+    "omitDevAuditRetried": false,
+    "packageJsonChanged": false,
+    "lockfileChanged": false,
+    "runtimeCodeChanged": false,
+    "dependencyGraphChanged": false,
+    "testsRerun": false,
+    "documentationOnly": true
+  },
+  "limitations": [
+    "This is a dated primary-source metadata review of the seven entries already recorded in the historical full audit.",
+    "No fresh npm registry audit result or new zero-vulnerability claim is made.",
+    "Withdrawal and backport recognition do not establish absence of all possible dependency vulnerabilities."
+  ],
+  "documentation": "../../DEPENDENCY-SECURITY.fa.md"
+}

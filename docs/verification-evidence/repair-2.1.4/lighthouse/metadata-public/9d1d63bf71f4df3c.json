@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/strategy/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "cdd70c60c303a9e94869edbb70208112175108106aa41bb69b216c76ce53132f",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "اهداف و راهبرد تجاری | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "توسعه ظرفیت کارخانه و تجهیزات، ارتقای فرایندها و گسترش سبد محصولات دندانی."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/strategy/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/strategy/",
+    "en": "http://127.0.0.1:3100/en/strategy/",
+    "tr": "http://127.0.0.1:3100/tr/strategy/",
+    "ar": "http://127.0.0.1:3100/ar/strategy/",
+    "ru": "http://127.0.0.1:3100/ru/strategy/",
+    "x-default": "http://127.0.0.1:3100/fa/strategy/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 65
+}

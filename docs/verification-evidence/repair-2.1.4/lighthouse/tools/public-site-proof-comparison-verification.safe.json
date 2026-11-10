@@ -1,0 +1,56 @@
+{
+  "format": "public-site-proof-comparison-verification-v1",
+  "createdAt": "2026-10-25T19:57:33.777132+00:00",
+  "status": "passed-synthetic-and-independent-review",
+  "scope": "Only the exact public /api/v1/site proof; unchanged /workspace strict decoded-byte comparison. No application/scoring/topology changes.",
+  "files": {
+    "prove-native-proxy.mjs": "34797f1a943d1f47e847cfb217928bafaf3f02a2a03d84523e6665e9f8bda3e0",
+    "proxy-proof-content.mjs": "938fad81282a0fc0f4ef1524507e392e019770701c590e62706e881880c79b7b",
+    "test-proxy-proof-content.mjs": "799816765b5eeed8744369091ae8dda6aa5a2a7942a53763434798959b6eafce",
+    "proxy-proof-lifecycle.mjs": "1471bbbe0a020b98da49be81279f0cc69ab58d52908c6387094e72a828e02064"
+  },
+  "originalHelperSha256": "b4e115decfb56a2c6451d0e2b9385efcede23c46ee8f3d019becd0fd9083ba9a",
+  "originalHelperPreservedOutsideDeliverable": true,
+  "comparison": "Structural content equality excluding only both validated canonical UTC top-level observedAt timestamps; actual rawDecodedBytesEqual recorded separately.",
+  "nativeTests": {
+    "format": "proof-content-tests-command-v1",
+    "startedAt": "2026-10-25T19:56:16.995922+00:00",
+    "actualExitCode": 0,
+    "durationSeconds": 0.11855500099773053,
+    "stdoutSha256": "e2c56ce3021af0c6617a020e34d38cce0aca7e7c349b211d35b5ad39a01dee4c",
+    "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "caseCountExpected": 3,
+    "actualCaseCountThreeObserved": true,
+    "appDatabaseBrowserOrServiceUsed": false
+  },
+  "priorSandboxRunnerObservations": {
+    "attempts": 2,
+    "actualExitCodes": [
+      0,
+      0
+    ],
+    "reportedTestFiles": [
+      1,
+      1
+    ],
+    "caseLevelCountObserved": false,
+    "usedForThreeCasePassClaim": false
+  },
+  "independentReview": {
+    "reviewer": "Separate collaborating backend_security agent",
+    "readOnly": true,
+    "testsOrRuntimeCallsPerformedByReviewer": false,
+    "matchedExactFourSourceHashes": true,
+    "materialFindingInNarrowDelta": false
+  },
+  "realPublicProofBeforeCorrection": {
+    "actualCommandExitCode": 2,
+    "topologyValidationPassed": true,
+    "proofSha256": "f7b9450054f767c99f217a096fc38164f9ee23eb573d48708061eb661691bd3b",
+    "phaseReceiptSha256": "4c53800bacca733e3af9704db9bfa6eff7b6bc7eeb3d7ecee2ea796a1a26b93a",
+    "diagnosticSha256": "d8d7e896a1fa89fdd24f8c0d9da2f5ddf26d278495eb7ee82b9b9b47ad7f896d",
+    "normalizationAllowedOnlyAfterScalarSourceConfirmation": true,
+    "rawBodiesOrTimestampValuesExported": false
+  },
+  "correctedRealProofStatus": "not-yet-run"
+}

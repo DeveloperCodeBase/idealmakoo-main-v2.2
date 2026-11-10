@@ -1,0 +1,104 @@
+{
+  "format": "read-only-diagnostic-overlap-qualification-v1",
+  "observedAt": "2026-10-25T22:32:39.814002+00:00",
+  "activity": "One selected-object offline parsing of the already recorded first25 private LHRs; no browser or requests.",
+  "actualExecExitCode": 0,
+  "capturedElapsedSeconds": 9.366,
+  "independentUtcStartCaptured": false,
+  "cpuTimeCaptured": false,
+  "diagnosticResultGeneratedAt": "2026-10-25T21:30:17.423351+00:00",
+  "diagnosticFileMtimeUtc": "2026-10-25T21:30:17.424943+00:00",
+  "diagnosticSha256": "761f0ff38c0c7030963bd03f9dd24ea20cbae0a6461e9d74e94a2440571c0931",
+  "inferredInterval": {
+    "start": "2026-10-25T21:30:08.057351+00:00",
+    "end": "2026-10-25T21:30:17.423351+00:00",
+    "qualification": "Inferred by subtracting captured elapsed time from the generated-at timestamp near command completion; not an independently observed exact exec UTC start/end. Output write/print/shutdown time was not separately captured."
+  },
+  "conservativeInspectionMarginSeconds": 1,
+  "conservativeMarginQualification": "A one-second neighboring-result inspection margin is a review convention, not a proven bound on the unknown endpoint offset.",
+  "outcomesInOrNearInferredInterval": [
+    {
+      "ordinal": 27,
+      "registeredRoute": "admin/crm/deliveries",
+      "locale": "ar",
+      "role": "superAdmin",
+      "startedAt": "2026-10-25T21:30:01.253Z",
+      "finishedAt": "2026-10-25T21:30:08.112Z",
+      "status": "completed",
+      "scores": {
+        "performance": 64,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 2114.4615000000003,
+        "largest-contentful-paint": 6037.923,
+        "speed-index": 2114.4615000000003,
+        "total-blocking-time": 465.00000000000045,
+        "cumulative-layout-shift": 0.01191740266131299,
+        "interactive": 6685.9025
+      },
+      "durationMs": 6859,
+      "overlapsInferredInterval": true,
+      "originalResultSha256": "0ab9c3ba9ca7059aab7490403214f4721126090903aebe8c912393ed8a5571a1"
+    },
+    {
+      "ordinal": 28,
+      "registeredRoute": "admin/crm/handoffs",
+      "locale": "ar",
+      "role": "superAdmin",
+      "startedAt": "2026-10-25T21:30:08.136Z",
+      "finishedAt": "2026-10-25T21:30:15.050Z",
+      "status": "completed",
+      "scores": {
+        "performance": 62,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 2131.5543,
+        "largest-contentful-paint": 6682.1086000000005,
+        "speed-index": 2131.5543,
+        "total-blocking-time": 517.5,
+        "cumulative-layout-shift": 0.01191740266131299,
+        "interactive": 6785.745365000001
+      },
+      "durationMs": 6914,
+      "overlapsInferredInterval": true,
+      "originalResultSha256": "1727fda6d2e7d71a77cf081d303cbe9c565a4a573e7dfd3728322216b5a9a175"
+    },
+    {
+      "ordinal": 29,
+      "registeredRoute": "admin/crm/inbox",
+      "locale": "ar",
+      "role": "superAdmin",
+      "startedAt": "2026-10-25T21:30:15.066Z",
+      "finishedAt": "2026-10-25T21:30:22.169Z",
+      "status": "completed",
+      "scores": {
+        "performance": 64,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 2117.8029,
+        "largest-contentful-paint": 6668.605799999999,
+        "speed-index": 2117.8029,
+        "total-blocking-time": 425,
+        "cumulative-layout-shift": 0,
+        "interactive": 6668.605799999999
+      },
+      "durationMs": 7103,
+      "overlapsInferredInterval": true,
+      "originalResultSha256": "e5235dd8b88e50b0c3ccd5e537e94991a81d3e4c925e26aa049d7af79e153bfa"
+    }
+  ],
+  "rawLighthouseParsedForThisAssessment": 0,
+  "additionalBrowserOrRequests": 0,
+  "allOriginalOutcomesRetained": true,
+  "scoreReplacementOrExclusion": false,
+  "comparisonClaim": "Scores alone cannot establish causal CPU contention or absence of contamination; this records the activity honestly for bounded review."
+}

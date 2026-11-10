@@ -1,0 +1,5 @@
+"url","device","kind","indexed","expectedStatus","httpStatus","status","performance","accessibility","best-practices","seo","largest-contentful-paint","total-blocking-time","cumulative-layout-shift","durationMs","error"
+"http://127.0.0.1:3090/en/contact/","mobile","representative-public","true","200","200","completed","88","100","100","100","2717.7319500000003","307","0.0001380422217268122","8301",""
+"http://127.0.0.1:3090/fa/","mobile","representative-public","true","200","200","completed","43","100","100","100","4006.2190499999997","155635.48412500002","0.007545552663279595","161765",""
+"http://127.0.0.1:3090/fa/products/","mobile","representative-public","true","200","200","completed","84","100","100","100","2848.24575","447","0.0023129283861665247","9499",""
+"http://127.0.0.1:3090/fa/quality/","mobile","representative-public","true","200","200","completed","82","100","100","100","3181.834","335.5","0.07189574076811377","8381",""

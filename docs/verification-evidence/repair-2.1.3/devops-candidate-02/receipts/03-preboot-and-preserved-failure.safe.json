@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "kind": "candidate02-actual-source-and-capacity-before-single-resume",
+  "status": "passed",
+  "observedAt": "2026-10-25T08:02:21.439229+00:00",
+  "sourceZipSha256": "05f9fada3a33e7df149012e0eeae0824e9fb3dda93b4387a70278626dd767578",
+  "archiveBytes": 69150185,
+  "externalManifestSha256": "35ccdd6c16739c94d62f94f54446a461073296403103a0214b2e0dbadff5998b",
+  "embeddedReleaseManifestSha256": "45e93bf57a3113881d10052dd61d9ac831a36af0328a7eb584bb43aa14a73e92",
+  "externalManifestAddsOnlyArchiveHashAndBytes": true,
+  "zipEntries": 3537,
+  "sourceFilesVerified": 3535,
+  "everyPayloadAndChecksumVerified": true,
+  "sourceAcceptanceSha256": "86c1a2bb20cd4545746dd9bce812426b1a53f653bd045d7e44f2a0e0153afa66",
+  "testedBuildId": "JUTCtkNIJ8CT540y_qNL_",
+  "tested994InputSha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+  "diskFreeBytesImmediatelyBeforeResume": 12995964928,
+  "unchangedPreBootFloorBytes": 12884901888,
+  "headroomBytes": 111063040,
+  "vmNotYetBooted": true,
+  "earlierPreflightFailure": {
+    "exitCode": 1,
+    "stage": "before VM or guest stage",
+    "cause": "Acceptance preflight compared the adjacent extended manifest hash with the embedded manifest hash.",
+    "sourceZipAndPayloadVerificationPassedBeforeThatAssertion": true,
+    "resolution": "Verify the provided adjacent hash, both archive identity fields, and equality of the remaining manifest body to the embedded manifest.",
+    "productOrReviewedHelperChanged": false
+  }
+}

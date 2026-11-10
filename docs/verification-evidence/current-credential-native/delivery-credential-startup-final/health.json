@@ -1,0 +1,32 @@
+{
+  "recordedAt": "2026-10-20T20:50:14.331Z",
+  "applicationSha256": "36eb4aa33a1b192622c4a9e500b00c86348524d3e49813af951db6830dde9338",
+  "buildId": "OWySC3_X3kR5uD-ExxkAJ",
+  "httpStatus": 200,
+  "body": {
+    "status": "ok",
+    "database": "ok",
+    "privacy": "ready",
+    "timestamp": "2026-10-20T20:50:14.320Z",
+    "version": "2.1.0",
+    "applicationVersion": "2.1.0"
+  },
+  "processes": [
+    {
+      "pid": 159666,
+      "kind": "web",
+      "databaseAndStorageMatch": true
+    },
+    {
+      "pid": 159691,
+      "kind": "standalone",
+      "databaseAndStorageMatch": true
+    },
+    {
+      "pid": 159645,
+      "kind": "worker",
+      "databaseAndStorageMatch": true
+    }
+  ],
+  "scope": "Actual local native production standalone and worker; no Ubuntu Docker or public deployment claim."
+}

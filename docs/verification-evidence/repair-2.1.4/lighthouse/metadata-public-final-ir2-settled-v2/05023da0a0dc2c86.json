@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/resources/iranian-swiss-dentin-bond-cover/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "514452d59afefb02c095ca4b163ceb93bd1fdace5adf3eb3ad0e1b6da5ab1ec3",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "تصویر مرجع پژوهش — استحکام اتصال کامپوزیت ایده‌آل ماکو و سینرژی به عاج | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "استحکام اتصال کامپوزیت ایده‌آل ماکو و سینرژی به عاج — اسناد تصویری اصلی کارخانه"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/resources/iranian-swiss-dentin-bond-cover/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/iranian-swiss-dentin-bond-cover/",
+    "en": "http://127.0.0.1:3100/en/resources/iranian-swiss-dentin-bond-cover/",
+    "tr": "http://127.0.0.1:3100/tr/resources/iranian-swiss-dentin-bond-cover/",
+    "ar": "http://127.0.0.1:3100/ar/resources/iranian-swiss-dentin-bond-cover/",
+    "ru": "http://127.0.0.1:3100/ru/resources/iranian-swiss-dentin-bond-cover/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/iranian-swiss-dentin-bond-cover/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 50
+}

@@ -1,0 +1,12 @@
+{
+  "format": "offline-static-old-next-normal-stop-v1",
+  "originalReceiptSha256": "9b57173eac5a76aa272a0d1089261e3f8b3ed27846e6e0aa54ed9bceb412fe2c",
+  "requestedAt": "2026-10-26T01:07:13.787081+00:00",
+  "completedAt": "2026-10-26T01:07:35.471694+00:00",
+  "signalRequested": "SIGTERM",
+  "observedWebWrapperExitCode": 143,
+  "ownedWrapperAndNextChildAbsent": true,
+  "workerCaddyAndPostgresStopped": false,
+  "privatePidsPathsAndCommandHashesOmitted": true,
+  "actualSupervisorCompletionConsumed": true
+}

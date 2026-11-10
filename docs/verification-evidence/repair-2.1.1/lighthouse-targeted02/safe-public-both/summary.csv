@@ -1,0 +1,3 @@
+"url","device","kind","indexed","expectedStatus","httpStatus","status","performance","accessibility","best-practices","seo","largest-contentful-paint","total-blocking-time","cumulative-layout-shift","durationMs","error"
+"http://127.0.0.1:3094/fa/","mobile","representative","true","200","200","completed","44","100","100","100","7955.1872250000015","2219.31735","0","19758",""
+"http://127.0.0.1:3094/fa/","desktop","representative","true","200","200","completed","69","100","100","100","1490.4639","614.3623","0.00001135757568160526","24882",""

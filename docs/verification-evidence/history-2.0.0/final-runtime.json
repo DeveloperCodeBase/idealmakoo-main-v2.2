@@ -1,0 +1,366 @@
+{
+  "status": "passed",
+  "verifiedAt": "2026-10-20T09:34:19.624Z",
+  "release": "2.0.0",
+  "buildId": "25Y85jyISvw5bdtm5eT8W",
+  "execution": "native-standalone-through-caddy",
+  "standaloneProcessObservation": {
+    "method": "proc-status-ppid",
+    "childCount": 1,
+    "parentRelationshipVerified": true
+  },
+  "databaseIsolation": {
+    "integrationAcceptanceAndFinalSeparate": true,
+    "finalOnly": true
+  },
+  "applicationRole": {
+    "name": "idealmakoo_app",
+    "superuser": false,
+    "createDb": false,
+    "createRole": false,
+    "bypassRls": false,
+    "schemaCreate": false,
+    "migrationRead": false,
+    "deniedMigrationReadSqlstate": "42501"
+  },
+  "privilegedCredentialsExcludedFromRuntime": true,
+  "migrations": {
+    "count": 37,
+    "allNamesAndSourceChecksumsMatch": true,
+    "verifiedUsingSeparateOwnerConnection": true
+  },
+  "counts": {
+    "users": 1,
+    "active_owners": 1,
+    "non_bootstrap_users": 0,
+    "requests": 0,
+    "customer_organizations": 0,
+    "organization_memberships": 0,
+    "quote_snapshots": 0,
+    "assets": 0,
+    "demo_entities": 0,
+    "crm_records": 0,
+    "fresh_worker_heartbeats": 1
+  },
+  "storageFiles": 0,
+  "readiness": {
+    "status": "ok",
+    "database": "ok",
+    "privacy": "ready",
+    "version": "2.0.0"
+  },
+  "locales": [
+    {
+      "locale": "fa",
+      "status": 200,
+      "documentLanguageMatched": true
+    },
+    {
+      "locale": "en",
+      "status": 200,
+      "documentLanguageMatched": true
+    },
+    {
+      "locale": "tr",
+      "status": 200,
+      "documentLanguageMatched": true
+    },
+    {
+      "locale": "ar",
+      "status": 200,
+      "documentLanguageMatched": true
+    },
+    {
+      "locale": "ru",
+      "status": 200,
+      "documentLanguageMatched": true
+    }
+  ],
+  "workerHealthExit": 0,
+  "checks": [
+    {
+      "name": "four independently isolated databases",
+      "passed": true
+    },
+    {
+      "name": "four independently isolated storage roots",
+      "passed": true
+    },
+    {
+      "name": "four independently isolated privacy ledgers",
+      "passed": true
+    },
+    {
+      "name": "same final standalone build",
+      "passed": true
+    },
+    {
+      "name": "web launcher command",
+      "passed": true
+    },
+    {
+      "name": "web launcher directory",
+      "passed": true
+    },
+    {
+      "name": "web launcher final data isolation",
+      "passed": true
+    },
+    {
+      "name": "web launcher production configuration",
+      "passed": true
+    },
+    {
+      "name": "web launcher no privileged deployment credentials",
+      "passed": true
+    },
+    {
+      "name": "one standalone web process",
+      "passed": true
+    },
+    {
+      "name": "standalone parent relationship",
+      "passed": true
+    },
+    {
+      "name": "standalone directory",
+      "passed": true
+    },
+    {
+      "name": "standalone final data isolation",
+      "passed": true
+    },
+    {
+      "name": "standalone production configuration",
+      "passed": true
+    },
+    {
+      "name": "standalone no privileged deployment credentials",
+      "passed": true
+    },
+    {
+      "name": "worker command",
+      "passed": true
+    },
+    {
+      "name": "worker directory",
+      "passed": true
+    },
+    {
+      "name": "worker final data isolation",
+      "passed": true
+    },
+    {
+      "name": "worker production configuration",
+      "passed": true
+    },
+    {
+      "name": "worker no privileged deployment credentials",
+      "passed": true
+    },
+    {
+      "name": "restricted application role",
+      "passed": true
+    },
+    {
+      "name": "application migration ledger access denied",
+      "passed": true
+    },
+    {
+      "name": "one actual bootstrap account",
+      "passed": true
+    },
+    {
+      "name": "no acceptance or demonstration business data",
+      "passed": true
+    },
+    {
+      "name": "fresh worker heartbeat",
+      "passed": true
+    },
+    {
+      "name": "37 exact migrations",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 001_core.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 002_workspace.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 003_requests_operations.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 004_organizations.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 006_crm_automation.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 007_crm_scopes.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 008_events.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 009_resources.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 010_notification_policy.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 011_crm_commercial.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 012_privacy.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 013_crm_routing.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 014_crm_pipelines.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 015_storage.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 016_content_collaboration.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 017_crm_campaigns.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 018_crm_domains.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 019_crm_operations.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 020_crm_io.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 021_shared_blocks.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 022_media_provenance.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 023_quote_artifacts.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 024_crm_request_selector.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 025_staff_lifecycle.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 026_portal_crm_accounts.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 027_wishlists.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 028_operations_monitoring.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 029_media_processing.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 030_semantic_knowledge.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 031_partner_public_profiles.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 032_tender_envelopes.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 033_inquiry_merge.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 034_contact_campaigns.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 035_company_certificates.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 036_crm_task_reminder_policy.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 037_notification_templates.sql",
+      "passed": true
+    },
+    {
+      "name": "migration checksum 038_editor_workflows.sql",
+      "passed": true
+    },
+    {
+      "name": "final storage has no test files",
+      "passed": true
+    },
+    {
+      "name": "production readiness through Caddy",
+      "passed": true
+    },
+    {
+      "name": "public locale fa",
+      "passed": true
+    },
+    {
+      "name": "public locale en",
+      "passed": true
+    },
+    {
+      "name": "public locale tr",
+      "passed": true
+    },
+    {
+      "name": "public locale ar",
+      "passed": true
+    },
+    {
+      "name": "public locale ru",
+      "passed": true
+    },
+    {
+      "name": "actual worker-health command",
+      "passed": true
+    }
+  ]
+}

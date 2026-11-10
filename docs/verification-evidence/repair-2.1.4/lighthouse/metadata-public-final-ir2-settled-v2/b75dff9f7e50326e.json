@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/privacy/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "7e7069eb9f2fafa907d3245c6e3b9deea430dab19e7ca9b02e06e423519d07cc",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Gizlilik | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Hesap, profil ve formlarda gönderdiğiniz ad, iletişim bilgileri, kuruluş, mesaj ve ekler taleplerinizi işlemek ve iletişimi yönetmek için sunucuda saklanır. Hesap ayarları ve listeler giriş yaptıktan sonra diğer cihazlarda da kullanılabilir."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/privacy/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/privacy/",
+    "en": "http://127.0.0.1:3100/en/privacy/",
+    "tr": "http://127.0.0.1:3100/tr/privacy/",
+    "ar": "http://127.0.0.1:3100/ar/privacy/",
+    "ru": "http://127.0.0.1:3100/ru/privacy/",
+    "x-default": "http://127.0.0.1:3100/fa/privacy/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 60
+}

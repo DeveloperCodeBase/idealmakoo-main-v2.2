@@ -1,0 +1,34 @@
+{
+  "jobs": [
+    {
+      "url": "http://127.0.0.1:3080/en/contact/",
+      "kind": "representative",
+      "indexed": false,
+      "expectedStatus": 200,
+      "device": "mobile"
+    },
+    {
+      "url": "http://127.0.0.1:3080/fa/",
+      "kind": "representative",
+      "indexed": false,
+      "expectedStatus": 200,
+      "device": "mobile"
+    },
+    {
+      "url": "http://127.0.0.1:3080/fa/products/",
+      "kind": "representative",
+      "indexed": false,
+      "expectedStatus": 200,
+      "device": "mobile"
+    },
+    {
+      "url": "http://127.0.0.1:3080/fa/quality/",
+      "kind": "representative",
+      "indexed": false,
+      "expectedStatus": 200,
+      "device": "mobile"
+    }
+  ],
+  "excluded": [],
+  "sourceUrls": 4
+}

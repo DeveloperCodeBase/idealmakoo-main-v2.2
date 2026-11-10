@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/research/apple-super-major-wear/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "7546f7cc5195503e98de3e0bcf1ca729b38fe8eb24c564db21484aaa23fb2fd0",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Сравнение износа зубов Apple и Super Major | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Исследование 64 образцов с симулятором жевания и 3D-сканированием до и после испытаний."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/research/apple-super-major-wear/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/apple-super-major-wear/",
+    "en": "http://127.0.0.1:3100/en/research/apple-super-major-wear/",
+    "tr": "http://127.0.0.1:3100/tr/research/apple-super-major-wear/",
+    "ar": "http://127.0.0.1:3100/ar/research/apple-super-major-wear/",
+    "ru": "http://127.0.0.1:3100/ru/research/apple-super-major-wear/",
+    "x-default": "http://127.0.0.1:3100/fa/research/apple-super-major-wear/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 65
+}

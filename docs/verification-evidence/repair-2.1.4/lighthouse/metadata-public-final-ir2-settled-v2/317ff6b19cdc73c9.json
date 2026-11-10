@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/research/resin-base-bond-four-teeth/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "241da837bd650e33d28090f6002fdcea20bcb2a0ac78e0a4b1f9ff82e145910f",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "ارتباط القاعدة الراتنجية بغلامور وياقوت وآبل وإيفوكلار | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "دراسة أربعة طرازات أسنان صناعية وتأثير تحضير سطح الارتباط."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/research/resin-base-bond-four-teeth/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/resin-base-bond-four-teeth/",
+    "en": "http://127.0.0.1:3100/en/research/resin-base-bond-four-teeth/",
+    "tr": "http://127.0.0.1:3100/tr/research/resin-base-bond-four-teeth/",
+    "ar": "http://127.0.0.1:3100/ar/research/resin-base-bond-four-teeth/",
+    "ru": "http://127.0.0.1:3100/ru/research/resin-base-bond-four-teeth/",
+    "x-default": "http://127.0.0.1:3100/fa/research/resin-base-bond-four-teeth/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 66
+}

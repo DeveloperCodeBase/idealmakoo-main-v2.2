@@ -1,0 +1,31 @@
+{
+  "command": [
+    "node",
+    "--test",
+    "--test-reporter=tap",
+    "tests/pwa-policy.test.mjs",
+    "tests/service-worker-classic.test.mjs"
+  ],
+  "actualExitCode": 0,
+  "startedAt": "2026-10-26T01:04:56.086423+00:00",
+  "finishedAt": "2026-10-26T01:04:56.272862+00:00",
+  "durationSeconds": 0.18584945000475273,
+  "validationPassed": false,
+  "summary": {
+    "tests": 2,
+    "suites": 0,
+    "pass": 2,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0
+  },
+  "rawLogSha256": "181b22013b4cd6a42edbdd2252c761a5bbed8dab567fc3b7970941eefafc520a",
+  "rawLogBytes": 387,
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "scope": "Existing affected worker/policy checks only; no full unit suite, application build or browser rerun.",
+  "format": "offline-favicon-typed-evidence-v1",
+  "rawReceiptSha256": "86afd90fa094e79c5ff5d70160869d57d16103547a21597e2d0069240b29fbbb",
+  "privatePathsEnvironmentLogsAndBrowserPayloadsExported": false,
+  "qualification": "Node exited0 but exposed only two file-level outcomes, so this did not establish the nine declared test cases. The aggregate capture wrapper exited1 because coverage validation was false."
+}

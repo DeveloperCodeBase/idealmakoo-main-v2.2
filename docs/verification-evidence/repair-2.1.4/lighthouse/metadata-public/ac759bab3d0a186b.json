@@ -1,0 +1,71 @@
+{
+  "url": "http://127.0.0.1:3100/ru/products/marjan-new/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "b80ac1a5cf4dbf8aeb90edbc0b7e33b8afe32107ed8902d94d108684a4470c5e",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Искусственные зубы Marjan New | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Marjan New — двухслойные зубы с передними и боковыми формами и выбором оттенков."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/products/marjan-new/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/marjan-new/",
+    "en": "http://127.0.0.1:3100/en/products/marjan-new/",
+    "tr": "http://127.0.0.1:3100/tr/products/marjan-new/",
+    "ar": "http://127.0.0.1:3100/ar/products/marjan-new/",
+    "ru": "http://127.0.0.1:3100/ru/products/marjan-new/",
+    "x-default": "http://127.0.0.1:3100/fa/products/marjan-new/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Искусственные зубы Marjan New",
+      "description": "Marjan New — двухслойные зубы с передними и боковыми формами и выбором оттенков.",
+      "image": "http://127.0.0.1:3100/media/official/1686378532.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "MARJAN NEW"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/ru/products/marjan-new/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 82
+}

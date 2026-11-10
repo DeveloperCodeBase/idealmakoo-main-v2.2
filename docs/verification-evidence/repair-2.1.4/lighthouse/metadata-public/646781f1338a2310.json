@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/research/president-ivoclar-3d-wear/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "a5392b1b61d63f6b8115fef64dce223608db660bd6cb436acd548323b234d12a",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Сравнение износа President и Ivoclar с помощью 3D-сканирования | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Описание исследования износа относительно естественных зубов с применением 3D-сканирования."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/research/president-ivoclar-3d-wear/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/president-ivoclar-3d-wear/",
+    "en": "http://127.0.0.1:3100/en/research/president-ivoclar-3d-wear/",
+    "tr": "http://127.0.0.1:3100/tr/research/president-ivoclar-3d-wear/",
+    "ar": "http://127.0.0.1:3100/ar/research/president-ivoclar-3d-wear/",
+    "ru": "http://127.0.0.1:3100/ru/research/president-ivoclar-3d-wear/",
+    "x-default": "http://127.0.0.1:3100/fa/research/president-ivoclar-3d-wear/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 68
+}

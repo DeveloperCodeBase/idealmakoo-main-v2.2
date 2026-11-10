@@ -1,0 +1,104 @@
+{
+  "kind": "intermediate-public-lighthouse-pilot-not-final-acceptance",
+  "buildId": "SEGX-S68AwFNAKa-yMEjI",
+  "applicationSha256": "1fefad07fe9115c8841d0e8f7391ba40f963af2eb9a88cc7180e0a911fea86e0",
+  "updatedAt": "2026-10-20T14:54:40.110Z",
+  "expected": 4,
+  "attempted": 4,
+  "completed": 3,
+  "timeouts": 1,
+  "pending": 0,
+  "summarySha256": "14d4de90beba080314b391a1ca2e298319efd04ad68a736ccad723bd0302828f",
+  "records": [
+    {
+      "url": "http://127.0.0.1:3080/en/contact/",
+      "status": "completed",
+      "startedAt": "2026-10-20T14:48:25.994Z",
+      "finishedAt": "2026-10-20T14:48:54.793Z",
+      "durationMs": 28799,
+      "scores": {
+        "performance": 45,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 2042.97375,
+        "largest-contentful-paint": 5817.4868750000005,
+        "speed-index": 4297.0066498389,
+        "total-blocking-time": 6136.0175,
+        "cumulative-layout-shift": 0.0001380422217268122,
+        "interactive": 11067.6825
+      },
+      "httpStatus": 200,
+      "lighthouseVersion": "13.5.0",
+      "benchmarkIndex": 548,
+      "reportSha256": "74b91825c22d70631e7c9353062198165448f084e32c3531be43cc9d3be2c511"
+    },
+    {
+      "url": "http://127.0.0.1:3080/fa/",
+      "status": "timeout",
+      "startedAt": "2026-10-20T14:48:57.244Z",
+      "finishedAt": "2026-10-20T14:53:57.590Z",
+      "durationMs": 300346,
+      "scores": {},
+      "metrics": {},
+      "benchmarkIndex": null
+    },
+    {
+      "url": "http://127.0.0.1:3080/fa/products/",
+      "status": "completed",
+      "startedAt": "2026-10-20T14:54:00.297Z",
+      "finishedAt": "2026-10-20T14:54:20.227Z",
+      "durationMs": 19930,
+      "scores": {
+        "performance": 59,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1559.5229,
+        "largest-contentful-paint": 3738.28435,
+        "speed-index": 2092.413267986771,
+        "total-blocking-time": 3184.4771,
+        "cumulative-layout-shift": 0.000141636436679099,
+        "interactive": 8659.283395
+      },
+      "httpStatus": 200,
+      "lighthouseVersion": "13.5.0",
+      "benchmarkIndex": 744,
+      "reportSha256": "a2ccc0e22009e4f9c2e162c99bbc593934028590d2840af7292a72129689bffc"
+    },
+    {
+      "url": "http://127.0.0.1:3080/fa/quality/",
+      "status": "completed",
+      "startedAt": "2026-10-20T14:54:22.748Z",
+      "finishedAt": "2026-10-20T14:54:38.866Z",
+      "durationMs": 16118,
+      "scores": {
+        "performance": 62,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 2179.70235,
+        "largest-contentful-paint": 3577.2698,
+        "speed-index": 2179.70235,
+        "total-blocking-time": 1628.5,
+        "cumulative-layout-shift": 0,
+        "interactive": 7675.881897500001
+      },
+      "httpStatus": 200,
+      "lighthouseVersion": "13.5.0",
+      "benchmarkIndex": 1480,
+      "reportSha256": "4cf07daf8647669caa56f9fe7faefc8384eabb83b2c2e688719334cd00d11133"
+    }
+  ],
+  "limitations": [
+    "Shared execution host; CPU benchmark varied substantially across runs.",
+    "Scores are from this four-page pilot only; the homepage timeout has no score.",
+    "Current source contains route splitting and shader preparation changes not measured by this report."
+  ]
+}

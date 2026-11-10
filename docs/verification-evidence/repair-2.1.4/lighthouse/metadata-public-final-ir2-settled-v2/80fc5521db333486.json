@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/research/acrylic-teeth-wear-comparison/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "80352caeee1f787be2d7a7837459025484ade465cff1e00a6fa074dc1f48c8a6",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "مقایسه سایش شش سری دندان اکریلیکی | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "گزارش مقایسه سوپر برلیان با ماژور پلاس، سوپر لوکس، پلی‌دنت پریمو، ویتاپان و ایوکلار."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/research/acrylic-teeth-wear-comparison/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/acrylic-teeth-wear-comparison/",
+    "en": "http://127.0.0.1:3100/en/research/acrylic-teeth-wear-comparison/",
+    "tr": "http://127.0.0.1:3100/tr/research/acrylic-teeth-wear-comparison/",
+    "ar": "http://127.0.0.1:3100/ar/research/acrylic-teeth-wear-comparison/",
+    "ru": "http://127.0.0.1:3100/ru/research/acrylic-teeth-wear-comparison/",
+    "x-default": "http://127.0.0.1:3100/fa/research/acrylic-teeth-wear-comparison/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 53
+}

@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/inquiry-list/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "05f949a28e352361e088290b586cf39c0f103d6e6f23ff1a6952fbb93a6d56ed",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "قائمة الاستفسارات | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "راجع المنتجات المختارة والكميات المطلوبة وعدّل قائمة الاستفسار ثم أرسل طلبك التقني إلى المصنع."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/inquiry-list/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/inquiry-list/",
+    "en": "http://127.0.0.1:3100/en/inquiry-list/",
+    "tr": "http://127.0.0.1:3100/tr/inquiry-list/",
+    "ar": "http://127.0.0.1:3100/ar/inquiry-list/",
+    "ru": "http://127.0.0.1:3100/ru/inquiry-list/",
+    "x-default": "http://127.0.0.1:3100/fa/inquiry-list/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 82
+}

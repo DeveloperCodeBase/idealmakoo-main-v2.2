@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/inquiry-list/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "bdae35a99981d8bd4aed6d8088454c96d7d21d974b0a6592289a126aac60bad2",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "فهرست استعلام | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "فهرست محصولات انتخاب‌شده و تعداد موردنیاز را بررسی و ویرایش کنید، سپس درخواست استعلام فنی خود را برای کارخانه بفرستید."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/inquiry-list/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/inquiry-list/",
+    "en": "http://127.0.0.1:3100/en/inquiry-list/",
+    "tr": "http://127.0.0.1:3100/tr/inquiry-list/",
+    "ar": "http://127.0.0.1:3100/ar/inquiry-list/",
+    "ru": "http://127.0.0.1:3100/ru/inquiry-list/",
+    "x-default": "http://127.0.0.1:3100/fa/inquiry-list/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 39
+}

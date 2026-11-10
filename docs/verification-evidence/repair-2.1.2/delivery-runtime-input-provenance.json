@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "kind": "delivery-runtime-input-provenance",
+  "comparedAt": "2026-10-23T12:21:57.426102+00:00",
+  "targetVersion": "2.1.2",
+  "nativeBuildId": "fIFLzhRg6HZ_mfSabbL8J",
+  "nativeApplicationInputSha256": "a9337f54dad49cdd79a8498cd575b05349887860dded6e5fabb5c10b6ca9ebce",
+  "applicationInputsCompared": 986,
+  "applicationInputDifferences": [],
+  "operationalInputsCompared": 58,
+  "operationalInputDifferences": [],
+  "vmTestedSourceZipSha256": "21937e869ae27c462b2a12037256e021c94e521956f110288b6e2b3bf4e8ac3a",
+  "vmCandidateNonDocumentationFilesCompared": 996,
+  "vmCandidateNonDocumentationDifferences": [],
+  "newPackagedRuntimeOrOperationsPaths": [],
+  "generatedPythonCachePathsExcludedByShippedPackager": 28,
+  "documentationAndReadmeMayDiffer": true,
+  "comparisonIncludesApplicationSourcePublicAssetsDatabaseTestsDeploymentAndOperations": true,
+  "doesNotClaimSuccessfulUbuntuInstallationOrRecovery": true,
+  "note": "Final reporting changes and sanitized receipts are documentation. The actual VM candidate archive is retained separately; its checksum is not the final documentation-refreshed archive checksum."
+}

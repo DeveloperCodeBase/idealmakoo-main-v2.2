@@ -1,0 +1,56 @@
+{
+  "kind": "verified-css-only-source-and-build-scope",
+  "candidateBuilds": {
+    "A": "fztGyySqMaBbes8--JQKs",
+    "B": "G0D50qevp3Md82gIM2grZ"
+  },
+  "changedSourcePaths": [
+    "next.config.ts"
+  ],
+  "change": {
+    "experimental.inlineCss": {
+      "A": true,
+      "B": false
+    }
+  },
+  "candidateAConfigSha256": "11bf58f484dd9904575d49f1d153a9f67eeb5aaa668aa696ad4ae035cbb06b0d",
+  "candidateBConfigSha256": "c4684dbc7a7b65b57f18e06c61e5b293f156c9a14d18eb84d51f4dcfcc1165a6",
+  "independentlyRecheckedBuildInputFilesPerCandidate": 990,
+  "candidateBInputDigest": "bff28628ceee0004cd626da9cb1a8f6cbb9b164eb4ac043cac9fbe9c51672855",
+  "buildBReceipt": {
+    "name": "build-css-b-01",
+    "command": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "startedAt": "2026-10-25T06:26:48.124575+00:00",
+    "finishedAt": "2026-10-25T06:27:52.515777+00:00",
+    "durationSeconds": 64.391257,
+    "exitCode": 0,
+    "waitConsumed": true,
+    "timedOut": false,
+    "cancelled": false,
+    "sourceBefore": {
+      "sha256": "bff28628ceee0004cd626da9cb1a8f6cbb9b164eb4ac043cac9fbe9c51672855",
+      "files": 990
+    },
+    "sourceAfter": {
+      "sha256": "bff28628ceee0004cd626da9cb1a8f6cbb9b164eb4ac043cac9fbe9c51672855",
+      "files": 990
+    },
+    "sourceChanged": [],
+    "accepted": true,
+    "buildId": "G0D50qevp3Md82gIM2grZ"
+  },
+  "buildInputReceiptSha256": "44d21746225b767d61b9fd0856c74244b0e7e51c9ff1a09e47b287f63da74636",
+  "preparationReceiptSha256": "5e8f98fc82cb2712fad0aa892238b445298100acd1d5cbbd49499f861a4e2821",
+  "galleryAndFaviconChangesIncludedInAb": false,
+  "finalCandidateC2HasAdditionalChanges": true,
+  "lighthouseAndChromeVersions": [
+    [
+      "13.5.0",
+      "Google Chrome for Testing 156.0.8078.4"
+    ]
+  ]
+}

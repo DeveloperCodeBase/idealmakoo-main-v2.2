@@ -1,0 +1,49 @@
+{
+	email {$ACME_EMAIL:admin@localhost.invalid}
+	admin off
+	servers {
+		timeouts {
+			read_header 15s
+			idle 2m
+		}
+	}
+}
+
+{$SITE_ADDRESS} {
+	encode zstd gzip
+	header {
+		-Server
+		X-Content-Type-Options nosniff
+		?Referrer-Policy strict-origin-when-cross-origin
+		Permissions-Policy "camera=(), microphone=(), geolocation=()"
+	}
+	request_body {
+		# 80 MiB file safety ceiling plus a bounded 64 KiB multipart envelope.
+		# The application applies the administrator's lower per-type quota.
+		max_size 83951616
+	}
+	reverse_proxy app:3000 {
+		header_up X-Forwarded-For {remote_host}
+		header_up X-Real-IP {remote_host}
+		header_up X-Forwarded-Proto {scheme}
+		transport http {
+			dial_timeout 10s
+			response_header_timeout 180s
+		}
+	}
+	log {
+		output stdout
+		format filter {
+			wrap json
+			fields {
+				request>uri replace REDACTED
+				request>headers delete
+				resp_headers>Set-Cookie delete
+				resp_headers>Location delete
+			}
+		}
+	}
+}
+
+# A managed public mail hostname may be added by the installer.
+import /data/idealmakoo-extra/*.caddy

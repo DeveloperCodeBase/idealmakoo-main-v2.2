@@ -1,0 +1,71 @@
+{
+  "url": "http://127.0.0.1:3100/en/products/generation-8-bonding/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "190a7f524d57f24ce98ce241eac03d771c9aa8a51d2790208b518480ce749348",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Generation 8 resin bonding | Ideal Makoo"
+  ],
+  "descriptions": [
+    "A universal bonding product described for several etching approaches and use with composite and amalgam."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/products/generation-8-bonding/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/generation-8-bonding/",
+    "en": "http://127.0.0.1:3100/en/products/generation-8-bonding/",
+    "tr": "http://127.0.0.1:3100/tr/products/generation-8-bonding/",
+    "ar": "http://127.0.0.1:3100/ar/products/generation-8-bonding/",
+    "ru": "http://127.0.0.1:3100/ru/products/generation-8-bonding/",
+    "x-default": "http://127.0.0.1:3100/fa/products/generation-8-bonding/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Generation 8 resin bonding",
+      "description": "A universal bonding product described for several etching approaches and use with composite and amalgam.",
+      "image": "http://127.0.0.1:3100/media/official/1725864310.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "IDEAL MAKOO"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/en/products/generation-8-bonding/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 72
+}

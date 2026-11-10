@@ -1,0 +1,85 @@
+{
+  "startedAt": "2026-10-21T10:46:26.075615+00:00",
+  "scope": "Offline private evidence exporter and regression only; no application, runtime, authentication, build or browser change.",
+  "defect": "Boolean false from the no-error audit expression was represented as an unclassified error.",
+  "before": {
+    "scripts/export-private-lighthouse-evidence.mjs": "b3a8becb75313d3b681af5dda818cf32b26965836d19c0c53271a37a3b157844",
+    "tests/private-lighthouse-export.test.mjs": "73b103b850b927fb7e52e3da22d5580685ce2921a87e8a1bfe344bbc43dadf79"
+  },
+  "independentInitialResult": {
+    "pass": false,
+    "code": "AUDIT_ERROR_PRESENCE"
+  },
+  "rawPilotResult": {
+    "expected": 3,
+    "completed": 3,
+    "errors": 0,
+    "timeouts": 0,
+    "pending": 0
+  },
+  "finishedSourceEditsAt": "2026-10-21T10:47:23.243135+00:00",
+  "after": {
+    "scripts/export-private-lighthouse-evidence.mjs": "c79e18a46b9ce7d1a73b09517d08c03297ecc8807f22883516411de17c1d9dfc",
+    "tests/private-lighthouse-export.test.mjs": "304146b4ad97148436d47027476114d895eb81ceebda1d38791f6ca3a92bbdd8"
+  },
+  "format": "idealmakoo.private-exporter-scoped-repair",
+  "version": 1,
+  "failedExport": {
+    "retainedPrivately": true,
+    "delivered": false,
+    "fileHashes": {
+      "audit-part-0001.json": "8c18036dba1461f221fa4c6dfd96388dbb981e81aedb90b69e6b60ba9125d4e6",
+      "summary.json": "683ee4aa57e662a40364a0577d22df2be65ab04e76b44ed56224a1af51072985",
+      "summary.csv": "3e2b10e3fbcb29d64ac8d964419a5e9ac4c987c2c27cf4a4a6d8cb96d843ee42",
+      "inventory.json": "2b32f68c99681fc525c655e16f654f4f75403f2939168323f4fdbf233a5650b2",
+      "EXPORT.json": "10bfe4b14c0332443ea10951658cb9f30756ad1cc7ac6c7b4b9f3440fed1be5e",
+      "manifest.json": "c1f8c339720b3ebf6fd0f8cb851bdd1ac7b437ead7c908534a9dde93abcf04cd"
+    }
+  },
+  "focusedGate": {
+    "startedAt": "2026-10-21T10:47:11.268107+00:00",
+    "finishedAt": "2026-10-21T10:47:11.725355+00:00",
+    "exitCode": 0,
+    "command": [
+      "node",
+      "--test",
+      "--test-isolation=none",
+      "--test-reporter=tap",
+      "tests/private-lighthouse-export.test.mjs"
+    ],
+    "logSha256": "b377179fc68941535b81efcf150e0ba123a37c42f855866b88ecbb03bf063aca",
+    "runnerSummary": [
+      "# tests 22",
+      "# suites 0",
+      "# pass 22",
+      "# fail 0",
+      "# cancelled 0",
+      "# skipped 0",
+      "# todo 0",
+      "# duration_ms 411.628406"
+    ],
+    "registeredTestCount": 22,
+    "newRegressionObserved": true
+  },
+  "excludedInitialInvocation": {
+    "accepted": false,
+    "reason": "Isolated invocation reported only one test-file result and did not enumerate the22 registered tests.",
+    "startedAt": "2026-10-21T10:46:38.532099+00:00",
+    "finishedAt": "2026-10-21T10:46:39.113994+00:00",
+    "exitCode": 0,
+    "logSha256": "798bc2f23af905e9279f6c4f1e9cce933f63d4684043ef5de306d36f899f77ae",
+    "completeSuiteRequired": true
+  },
+  "beforeSourceCopies": {
+    "retainedPrivately": true,
+    "method": "Exactly reconstructed from approved bounded delta; each byte sequence matches independently recorded pre-edit SHA256.",
+    "verified": true
+  },
+  "independentFinalProof": {
+    "path": "export-verification.json",
+    "sha256": "00f676f5257d920a7a504b89cf4f1be17186c24c4ace3ea90b9ff197fa9ce7b6",
+    "pass": true
+  },
+  "applicationIdentityProof": "../application-after-exporter-fix.json",
+  "scopeLimit": "The offline exporter/test correction did not change application behavior, the built assets or the three measured raw reports."
+}

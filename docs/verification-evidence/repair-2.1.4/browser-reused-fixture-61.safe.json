@@ -1,0 +1,22 @@
+{
+  "schema": "idealmakoo.browser-acceptance.v1",
+  "version": "2.1.4",
+  "phase": "Repeated61-case suite against the earlier reused disposable fixture",
+  "production_build": "LTeGm6BGMyrdzNBHH5VYg",
+  "browser_suite": {
+    "exit_code": 1,
+    "executed_tests": 61,
+    "passed": 56,
+    "failed": 5,
+    "skipped": 0,
+    "retries": 0,
+    "workers": 1,
+    "ci_unset": true,
+    "duration_reported": "4.0m",
+    "footer": "5 failed; 56 passed (4.0m)",
+    "log_sha256": "51f201ef62f588c04fcb4724c250a535207d6c2448b4f7a9b08b7c727d6bdc8b"
+  },
+  "failure_summary": "Five request-creation workflows encountered the unchanged30-per-hour limiter already consumed by earlier suites on the previous disposable database. A fresh isolated database resolved the condition; no production limiter or assertion was weakened.",
+  "diagnosis_receipt": "intake-rate-limit-diagnosis.safe.json",
+  "private_material_included": false
+}

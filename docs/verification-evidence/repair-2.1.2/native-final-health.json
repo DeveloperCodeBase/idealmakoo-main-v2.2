@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23T11:10:08.525176+00:00",
+  "buildId": "fIFLzhRg6HZ_mfSabbL8J",
+  "http": [
+    {
+      "path": "/api/v1/health",
+      "status": 200,
+      "bytes": 135,
+      "health": {
+        "status": "ok",
+        "database": "ok",
+        "privacy": "ready",
+        "timestamp": "2026-10-23T11:10:08.191Z",
+        "version": "2.1.2",
+        "applicationVersion": "2.1.2"
+      }
+    },
+    {
+      "path": "/fa/",
+      "status": 200,
+      "bytes": 658829,
+      "contentSecurityPolicyPresent": true
+    }
+  ],
+  "workerHealthExitCode": 0
+}

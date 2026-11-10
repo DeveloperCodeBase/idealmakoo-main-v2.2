@@ -1,0 +1,60 @@
+{
+  "format": "topology-bound-phase-safe-derivative-v2",
+  "phase": "public-mobile-safe-export",
+  "kind": "export",
+  "startedAt": "2026-10-26T00:39:21.255918+00:00",
+  "finishedAt": "2026-10-26T00:39:22.062538+00:00",
+  "durationSeconds": 0.807,
+  "topologySha256": "d0c85e36be10862b020361b4179ad2add3a02848966239cb01fd7b6a92837bf4",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "commandLaunchAttempted": true,
+  "commandStarted": true,
+  "coreConfigurationHashAloneBindsProxy": false,
+  "actualCommandExitCode": 1,
+  "validationPassed": true,
+  "validationErrorCode": null,
+  "validationIsSeparateFromLighthouseOutcome": true,
+  "receivedOrForwardedSignals": [],
+  "wrapperForcedKillAfterSixtySeconds": false,
+  "interruptedPageCleanup": "Not inferred by this wrapper; retain the original auditor's evidence.",
+  "originalPrivateReceiptSha256": "3a099b96beff9bd9f1ce228a5647e0426e791ca4d8801b65243cf293f79074fb",
+  "beforeVerificationPresent": true,
+  "afterVerificationPresent": true,
+  "coreArtifacts": [
+    {
+      "directoryLabel": "lighthouse214-final-ir2-settled-v2-public-mobile",
+      "files": {
+        "manifest.json": {
+          "sha256": "0bfc510d1476aed9e53c51158b10843ab090133f26a27b025bc40b4c5a158215",
+          "bytes": 2315
+        },
+        "inventory.json": {
+          "sha256": "786c88164275a012f5606d0adf53d1110b8f75e89bbb8ba610b2166ed05e290a",
+          "bytes": 146957
+        },
+        "summary.json": {
+          "sha256": "bb55995b2829a234524e14ec370d36013589be692399ece7723984e1b7a89b26",
+          "bytes": 3710578
+        }
+      },
+      "coreConfigurationHash": "d7748ca968b935f795b0eea3fc7edaaa8cb9afc8cd047a8bbcc483a3126024de",
+      "counts": {
+        "expected": 620,
+        "attempted": 620,
+        "completed": 615,
+        "expectedHttpResponses": 5,
+        "errors": 0,
+        "timeouts": 0,
+        "pending": 0,
+        "coverageComplete": true
+      }
+    },
+    {
+      "directoryLabel": "public-mobile-final-ir2-settled-v2",
+      "files": {}
+    }
+  ],
+  "omissions": [
+    "Raw process IDs/arguments/environment/logs, full process observations and raw-command hashes."
+  ]
+}

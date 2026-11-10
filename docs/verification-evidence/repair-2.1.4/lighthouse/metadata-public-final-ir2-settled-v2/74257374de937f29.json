@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/cooperation/suppliers/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "f0c440b75c4192f980dad60b867b4e6fc4f33938fb60e81817a5942158682f2d",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Supplier registration | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Suppliers can submit organization details, supply capabilities and supporting documents for a partnership review by Ideal Makoo."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/cooperation/suppliers/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/cooperation/suppliers/",
+    "en": "http://127.0.0.1:3100/en/cooperation/suppliers/",
+    "tr": "http://127.0.0.1:3100/tr/cooperation/suppliers/",
+    "ar": "http://127.0.0.1:3100/ar/cooperation/suppliers/",
+    "ru": "http://127.0.0.1:3100/ru/cooperation/suppliers/",
+    "x-default": "http://127.0.0.1:3100/fa/cooperation/suppliers/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 32
+}

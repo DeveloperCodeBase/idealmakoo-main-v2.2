@@ -1,0 +1,44 @@
+{
+  "format": "idealmakoo.upgrade-npm-warning-classification",
+  "observedAt": "2026-10-21T17:33:16.223037+00:00",
+  "privateUpgradeLogSha256": "cd5e26f90765ac5661cc67c18f053542e99eae15614eece1f02ba8bc4d779589",
+  "warningLineCount": 4,
+  "categoryCounts": {
+    "install-scripts": 4
+  },
+  "npmErrorLineCount": 0,
+  "warningRows": [
+    {
+      "lineNumber": 1206,
+      "category": "install-scripts",
+      "lineSha256": "c7d2c514f6bbc32abf6d702da7b17b84d214d91d2d20a58661626bcb03b6d19d",
+      "referencesAllowScripts": true,
+      "referencesEsbuildPostinstall": false
+    },
+    {
+      "lineNumber": 1207,
+      "category": "install-scripts",
+      "lineSha256": "1273cf077b8937dbdfd6bce9146021cde019c87a55f4bc70f2c7dedcbb56dce2",
+      "referencesAllowScripts": false,
+      "referencesEsbuildPostinstall": true
+    },
+    {
+      "lineNumber": 1208,
+      "category": "install-scripts",
+      "lineSha256": "175ff35574309b22f7c84bac53bfaeee0bb9bc85f819b1ec95c5bab2fd0285d5",
+      "referencesAllowScripts": false,
+      "referencesEsbuildPostinstall": false
+    },
+    {
+      "lineNumber": 1209,
+      "category": "install-scripts",
+      "lineSha256": "5888ca06d13588493d32f45b6f04fd7487011250300033622fb94b2809f5ef73",
+      "referencesAllowScripts": false,
+      "referencesEsbuildPostinstall": false
+    }
+  ],
+  "classification": "npm install-scripts warning block references allowScripts policy and esbuild postinstall; four warning lines are not treated as four distinct dependency faults",
+  "rawWarningTextIncluded": false,
+  "installerResult": "original guest completed exit0; unrelated outer SSH timeout preserved separately",
+  "packageOrSourceChangedToSuppressWarnings": false
+}

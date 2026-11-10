@@ -1,0 +1,236 @@
+{
+  "format": 1,
+  "recordedAt": "2026-10-26T13:58:49.014766+00:00",
+  "status": "passed",
+  "runs": [
+    {
+      "id": "expansion",
+      "commandArgv": [
+        "node",
+        "--env-file=/workspace/scratch/b533b546ba70/acceptance/test.env",
+        "--import",
+        "tsx",
+        "--test",
+        "--test-concurrency=1",
+        "tests/server-expansion-220.pg.mjs"
+      ],
+      "workingDirectory": "/workspace/scratch/b533b546ba70/work/idealmakoo-production-2.1.4",
+      "exitCode": 0,
+      "tests": 14,
+      "pass": 14,
+      "fail": 0,
+      "cancelled": 0,
+      "skipped": 0,
+      "todo": 0,
+      "durationMilliseconds": 5563.229598,
+      "scope": [
+        "SMS OTP, replay/rate/role boundaries",
+        "Phone-only administrator directory and normalized phone search",
+        "Request recipient scope, comment moderation, aggregate totals",
+        "Current image rights, content opt-in, unsubscribe",
+        "All eleven staff AI roles and revocation after generation"
+      ],
+      "safeLog": "expansion.safe.txt",
+      "safeLogSha256": "be8ad751db41d6f4e9424c50173913d6e3eb46773b2243eaff80e4a80c79a696",
+      "sourceRunLogSha256": "be8ad751db41d6f4e9424c50173913d6e3eb46773b2243eaff80e4a80c79a696"
+    },
+    {
+      "id": "resource-notifications",
+      "commandArgv": [
+        "node",
+        "--env-file=/workspace/scratch/b533b546ba70/acceptance/test.env",
+        "--import",
+        "tsx",
+        "--test",
+        "--test-concurrency=1",
+        "tests/server-resource-notifications.pg.mjs",
+        "tests/server-resource-pages.pg.mjs"
+      ],
+      "workingDirectory": "/workspace/scratch/b533b546ba70/work/idealmakoo-production-2.1.4",
+      "exitCode": 0,
+      "tests": 29,
+      "pass": 29,
+      "fail": 0,
+      "cancelled": 0,
+      "skipped": 0,
+      "todo": 0,
+      "durationMilliseconds": 12909.081163,
+      "scope": [
+        "Real public/private/draft/reviewed resource publication",
+        "Bounded consent-aware account/SMS/official Telegram fanout and version deduplication",
+        "Current publisher/reviewer/locale, rights, scan, metadata and channel revocation at actual dispatch",
+        "Approved-comment suppression after resource scan/rights withdrawal",
+        "Strict resource page regressions, scoped runtime grants/revocation and retention inventory"
+      ],
+      "safeLog": "resource-notifications.safe.txt",
+      "safeLogSha256": "eb3bc44ff03ce90882dc46657620ff775f8e6c123581811557d4c25fde2277f2",
+      "sourceRunLogSha256": "eb3bc44ff03ce90882dc46657620ff775f8e6c123581811557d4c25fde2277f2"
+    },
+    {
+      "id": "compatibility",
+      "commandArgv": [
+        "node",
+        "--env-file=/workspace/scratch/b533b546ba70/acceptance/test.env",
+        "--import",
+        "tsx",
+        "--test",
+        "--test-concurrency=1",
+        "tests/server-crm-io.pg.mjs",
+        "tests/server-notification-templates.pg.mjs"
+      ],
+      "workingDirectory": "/workspace/scratch/b533b546ba70/work/idealmakoo-production-2.1.4",
+      "exitCode": 0,
+      "tests": 33,
+      "pass": 33,
+      "fail": 0,
+      "cancelled": 0,
+      "skipped": 0,
+      "todo": 0,
+      "durationMilliseconds": 6873.474505,
+      "scope": [
+        "Signed connector alerts to currently authorized staff without private message text",
+        "Real reset template selection, escaping, exact action URL, no extra attachments or unsafe HTML",
+        "Existing CRM and template approval/consent safeguards"
+      ],
+      "safeLog": "compatibility.safe.txt",
+      "safeLogSha256": "bf4057d9aa53f4eeb134c2a3954547431d65eb2e77c73a55507ebe715691c5d8",
+      "sourceRunLogSha256": "bf4057d9aa53f4eeb134c2a3954547431d65eb2e77c73a55507ebe715691c5d8"
+    },
+    {
+      "id": "phone-directory-compatibility",
+      "commandArgv": [
+        "node",
+        "--env-file=/workspace/scratch/b533b546ba70/acceptance/test.env",
+        "--import",
+        "tsx",
+        "--test",
+        "--test-concurrency=1",
+        "tests/server-expansion-220.pg.mjs",
+        "tests/server-user-directory.pg.mjs",
+        "tests/server-user-management.pg.mjs"
+      ],
+      "workingDirectory": "/workspace/scratch/b533b546ba70/work/idealmakoo-production-2.1.4",
+      "exitCode": 0,
+      "tests": 48,
+      "pass": 48,
+      "fail": 0,
+      "cancelled": 0,
+      "skipped": 0,
+      "todo": 0,
+      "durationMilliseconds": 22315.539487,
+      "scope": [
+        "Real PostgreSQL directory pagination, cursor validation, role/session revocation",
+        "Administrative user lifecycle and credential changes",
+        "New phone-only directory regression before final punctuation-only search tightening"
+      ],
+      "safeLog": "phone-directory-compatibility.safe.txt",
+      "safeLogSha256": "c8e88154c0bba38b605a3047d18bed5d2bdbe388f129000eac605db9614bba6f",
+      "sourceRunLogSha256": "c8e88154c0bba38b605a3047d18bed5d2bdbe388f129000eac605db9614bba6f"
+    },
+    {
+      "id": "notification-format",
+      "commandArgv": [
+        "node",
+        "--import",
+        "tsx",
+        "--test",
+        "--test-isolation=none",
+        "tests/notification-format.test.mjs"
+      ],
+      "workingDirectory": "/workspace/scratch/b533b546ba70/work/idealmakoo-production-2.1.4",
+      "exitCode": 0,
+      "tests": 6,
+      "pass": 6,
+      "fail": 0,
+      "cancelled": 0,
+      "skipped": 0,
+      "todo": 0,
+      "durationMilliseconds": 562.306459,
+      "scope": [
+        "Iranian/international phone normalization",
+        "GSM extension and Unicode SMS segment boundaries",
+        "Emoji-safe text fitting preserving action and unsubscribe links",
+        "Escaped RTL HTML; mocked Telegram photo, Kavenegar IRR and SMTP contract"
+      ],
+      "safeLog": "notification-format.safe.txt",
+      "safeLogSha256": "f8619487dd23e579e3f0c57b2270b2d18a08254e29ee2beb95dc7c1ff2bfb250",
+      "sourceRunLogSha256": "f8619487dd23e579e3f0c57b2270b2d18a08254e29ee2beb95dc7c1ff2bfb250"
+    },
+    {
+      "id": "typecheck",
+      "commandArgv": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "workingDirectory": "/workspace/scratch/b533b546ba70/work/idealmakoo-production-2.1.4",
+      "exitCode": 0,
+      "scope": [
+        "TypeScript project after all final backend source changes"
+      ],
+      "sourceRunLogSha256": "99a5171b02eb6bcc0cc9fe95a1d9082b17b3c33e624eaaba709162413ca75d5b"
+    },
+    {
+      "id": "grant-cli",
+      "commandArgv": [
+        "python3",
+        "-m",
+        "unittest",
+        "tests/deployment_grants_test.py"
+      ],
+      "workingDirectory": "/workspace/scratch/b533b546ba70/work/idealmakoo-production-2.1.4",
+      "exitCode": 0,
+      "tests": 4,
+      "pass": 4,
+      "fail": 0,
+      "skipped": 0,
+      "evidenceSource": "Captured successful tool output; no raw log file retained.",
+      "scope": [
+        "Explicit runtime role required",
+        "Sensitive tables remain revoked",
+        "Malformed connection and driver errors do not print credentials"
+      ]
+    },
+    {
+      "id": "public-surface",
+      "commandArgv": [
+        "node",
+        "--env-file=/workspace/scratch/b533b546ba70/acceptance/test.env",
+        "--import",
+        "tsx",
+        "--test",
+        "--test-concurrency=1",
+        "tests/server-public-surface.pg.mjs",
+        "tests/server-notification-policy.pg.mjs"
+      ],
+      "workingDirectory": "/workspace/scratch/b533b546ba70/work/idealmakoo-production-2.1.4",
+      "exitCode": 0,
+      "tests": 30,
+      "pass": 30,
+      "fail": 0,
+      "cancelled": 0,
+      "skipped": 0,
+      "todo": 0,
+      "durationMilliseconds": 12276.635199,
+      "scope": [
+        "Existing public surface and complete notification policy regressions",
+        "Active notice creates a content event but no unsolicited delivery without opt-in",
+        "Future notice remains pending until its public window opens without blocking active events",
+        "Disabled/expired notices cannot be broadcast; queued expiry and locale are checked at actual dispatch"
+      ],
+      "safeLog": "public-surface.safe.txt",
+      "safeLogSha256": "01836e2f21aa41da4e460f1b2a1d7edf631fa2321fbe81f5f611f09f5fc38bef",
+      "sourceRunLogSha256": "01836e2f21aa41da4e460f1b2a1d7edf631fa2321fbe81f5f611f09f5fc38bef"
+    }
+  ],
+  "counting": "Counts are the Node/Python runner totals. Node parent tests count as tests. Runs overlap; do not add these totals to claim a count of unique tests.",
+  "finalChangeCoverage": "Final resource/engagement change is covered by resource-notifications (29). Final phone-query punctuation tightening is covered by expansion (14); the 48-test compatibility run preceded only that narrow search tightening and the separate resource fix. The later timed-notice visibility correction is covered by public-surface (30), including existing notification-policy behavior, with a new final typecheck.",
+  "externalMessagesSent": 0,
+  "environment": "Real isolated PostgreSQL schemas with pgcrypto/vector; mocked or prohibited outbound transports. Database URLs, credentials and test request payloads are not included.",
+  "notProven": [
+    "Real customer-domain deployment or DNS/ACME status",
+    "Live SMS/Telegram/email recipient delivery or paid-provider billing",
+    "A complete production security penetration test",
+    "Root release build, browser and full regression results are separate release evidence"
+  ]
+}

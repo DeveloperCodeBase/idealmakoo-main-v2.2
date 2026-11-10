@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/privacy/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "171ecf4faca514551a6da0fb7d07ba26e1716a442a59b65c84dd8fd20f532031",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Конфиденциальность | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Имя, контакты, организация, сообщения и вложения, отправленные через аккаунт, профиль и формы, сохраняются на сервере для обработки запросов и связи. Настройки и списки аккаунта доступны на других устройствах после входа."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/privacy/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/privacy/",
+    "en": "http://127.0.0.1:3100/en/privacy/",
+    "tr": "http://127.0.0.1:3100/tr/privacy/",
+    "ar": "http://127.0.0.1:3100/ar/privacy/",
+    "ru": "http://127.0.0.1:3100/ru/privacy/",
+    "x-default": "http://127.0.0.1:3100/fa/privacy/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 47
+}

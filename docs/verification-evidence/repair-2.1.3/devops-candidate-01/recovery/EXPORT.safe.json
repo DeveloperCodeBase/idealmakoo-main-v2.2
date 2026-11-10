@@ -1,0 +1,144 @@
+{
+  "schema": 1,
+  "kind": "bounded-public-safe-recovery-evidence-export",
+  "summaryFile": "fresh-recovery-acceptance-public.safe.json",
+  "summarySha256": "154c0b567361578097c2ea1dd711e76804552f3002bdd173800b5b586b71d32f",
+  "referenceCount": 15,
+  "additionalActualJobOutcomes": 4,
+  "copiedReceipts": [
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/primary-acceptance-public.safe.json",
+      "sha256": "a3d28ec53292b205032b1b542d5fb307983385b0e7c82fb912fe88d99da31d98",
+      "bytes": 13666,
+      "packagedRelativePath": "receipts/01-devops-primary-acceptance-public.safe.json",
+      "byteIdentical": true
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/populated-backup/outcome.safe.json",
+      "sha256": "fc2c1e9ea9179eeb17f5c9bec02e7d6af99088ee57a79f7d273ba81748686f7f",
+      "bytes": 773,
+      "packagedRelativePath": "receipts/02-populated-backup-outcome.safe.json",
+      "byteIdentical": true
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/off-host-authentication/authentication.safe.json",
+      "sha256": "66a1fcf2a5c52f42331a8f3ea539743185382919d3c6c5670516e10573345271",
+      "bytes": 1312,
+      "packagedRelativePath": "receipts/03-off-host-authentication-authentication.safe.json",
+      "byteIdentical": true
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/populated-backup/recovery-material.safe.json",
+      "sha256": "104fc8d219ed44a1d084d5ec3dbe79020c124337b8263062cf0aa65bf8564e1b",
+      "bytes": 1855,
+      "packagedRelativePath": "receipts/04-populated-backup-recovery-material.safe.json",
+      "byteIdentical": true
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/preparation.safe.json",
+      "sha256": "cab6870a8452447da5d5d72e995f3686d8d13465418cd6838845b55e042f9869",
+      "bytes": 957,
+      "packagedRelativePath": "receipts/05-recovery-preparation.safe.json",
+      "byteIdentical": true
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/runtime/start.safe.json",
+      "sha256": "fbe0e6a43b7019d4b9e8459987e3f0bfe99108eac01a7a74c5ea35ae2050ae4e",
+      "bytes": 2453,
+      "packagedRelativePath": "receipts/06-runtime-start.safe.json",
+      "byteIdentical": true
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/collected/recovery-original-installer/collection.safe.json",
+      "sha256": "d0903447716554b7a7eb56e45cd82904ada3861a9684f58efa1241eb1b1af7c9",
+      "bytes": 1145,
+      "packagedRelativePath": "receipts/07-recovery-original-installer-collection.safe.json",
+      "byteIdentical": true
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/collected/runtime/collection.safe.json",
+      "sha256": "a5738ed307ae8b421ddbe25962aed72791183a4062bc6c9b1dd72a9d26eea23f",
+      "bytes": 5631,
+      "packagedRelativePath": "receipts/08-runtime-collection.safe.json",
+      "byteIdentical": true
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/test-timer-paused.safe.json",
+      "sha256": "356135f8f75612f6c675908ec0d927c1602d6059df040500f6806bedcbdf2d7a",
+      "bytes": 510,
+      "packagedRelativePath": "receipts/09-recovery-test-timer-paused.safe.json",
+      "byteIdentical": true
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/commands/stage-file-07.safe.json",
+      "sha256": "444dd360ce7f74d2b804b75dc14dc09db6a8026d5b08e8e757236263acfa718e",
+      "bytes": 386,
+      "packagedRelativePath": "receipts/10-commands-stage-file-07.safe.json",
+      "byteIdentical": true
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/collected/security-witness/collection.safe.json",
+      "sha256": "ee53cdb49114a197ef292f81aa9e59dc8a58d3dc99a3d93a0d2e62c89d55a6ac",
+      "bytes": 3172,
+      "packagedRelativePath": "receipts/11-security-witness-collection.safe.json",
+      "byteIdentical": true
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/collected/api-verify-fresh/collection.safe.json",
+      "sha256": "cdef55e39a6c7981ddca316e24960ce48abfc92269924be1397b09dd6f0c6481",
+      "bytes": 2241,
+      "packagedRelativePath": "receipts/12-api-verify-fresh-collection.safe.json",
+      "byteIdentical": true
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/pre-shutdown.safe.json",
+      "sha256": "d9f80ffda5d1f14091969a0a3bfa38c7e1844a5a157c95bf511c865fda93ff85",
+      "bytes": 1349,
+      "packagedRelativePath": "receipts/13-recovery-pre-shutdown.safe.json",
+      "byteIdentical": true
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/commands/recovery-normal-poweroff.safe.json",
+      "sha256": "7f5c83ede0a94beb178a51412ffb66cf8f8d04dd957de83fc2e331024c640f5c",
+      "bytes": 319,
+      "packagedRelativePath": "receipts/14-commands-recovery-normal-poweroff.safe.json",
+      "byteIdentical": true
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/runtime/outcome.safe.json",
+      "sha256": "1b8b7dd89d344e89874c2e971aab006830e0b41309cf1a356bec0189e314bf61",
+      "bytes": 1945,
+      "packagedRelativePath": "receipts/15-runtime-outcome.safe.json",
+      "byteIdentical": true
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/collected/recovery-original-installer/outcome.safe.json",
+      "sha256": "f2962f4b16c616a230bff3a055a424cbbf738d81055647268303009885660b67",
+      "bytes": 408,
+      "packagedRelativePath": "receipts/16-recovery-original-installer-outcome.safe.json",
+      "byteIdentical": true
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/collected/runtime/outcome.safe.json",
+      "sha256": "8d72f6475f4b6366e9c9605e85635b1faa92478183f4a383d8247fd818a1e0fc",
+      "bytes": 388,
+      "packagedRelativePath": "receipts/17-runtime-outcome.safe.json",
+      "byteIdentical": true
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/collected/security-witness/outcome.safe.json",
+      "sha256": "7646a20da2a285c49e3cf941c6f499218cb2630a7380ded34e8f8997b5b8d7af",
+      "bytes": 397,
+      "packagedRelativePath": "receipts/18-security-witness-outcome.safe.json",
+      "byteIdentical": true
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/collected/api-verify-fresh/outcome.safe.json",
+      "sha256": "9d0cb7690acd0f7ce825d6c2d44d80ee4a0ed10da42dae8f548e30c55f74883d",
+      "bytes": 397,
+      "packagedRelativePath": "receipts/19-api-verify-fresh-outcome.safe.json",
+      "byteIdentical": true
+    }
+  ],
+  "rawPrivateLogsAndRecoveryMaterialsIncluded": false
+}

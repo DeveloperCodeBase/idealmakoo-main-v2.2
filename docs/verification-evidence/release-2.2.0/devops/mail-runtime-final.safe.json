@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUtc": "2026-10-26T14:47:29.748427+00:00",
+  "result": "passed",
+  "scope": "Current frozen mail deployment component: authenticated local SMTP/IMAP, DKIM, relay refusal, owned lifecycle snapshot/stop, mail archive validation/staged restore, exact captured-container healthy restart, byte-identical message retrieval, and offline fixture certificate rotation through the production refresh script.",
+  "executionExitCode": 0,
+  "previousAttempt": {
+    "file": "mail-runtime.safe.json",
+    "sha256": "3b818696e3a589691171455bbff5d0a9706cebd215172cc107e28d4dfe177f35",
+    "status": "Preserved unchanged as historical partial evidence; this new run completes the previously pending coordinated mail restore/restart and fixture certificate-refresh gates."
+  },
+  "runtime": {
+    "kernel": "6.8.0-147-generic",
+    "dockerEngineVersion": "29.1.3",
+    "composeVersion": "2.40.3+ds1-0ubuntu1~24.04.1",
+    "mailImageRepoDigests": [
+      "ghcr.io/docker-mailserver/docker-mailserver@sha256:d0fe7668defe157aad57ea31b1707ad1e2fb57d7a91bdf17cbdf876549946c86"
+    ]
+  },
+  "isolation": {
+    "vmDirectory": "/tmp/idealmakoo-current-mail-vm",
+    "guestProject": "idealmakoo-mail-current",
+    "fixtureDomains": [
+      "example.test",
+      "mail.example.test"
+    ],
+    "guestRamMiB": 3072,
+    "vcpus": 2,
+    "tcgTranslationCacheMiB": 64,
+    "externalGuestNetworking": "Blocked by QEMU user-network restrict=on; only the owned loopback SSH forwarding was used.",
+    "externalRecipients": 0,
+    "localRecipient": "The existing fixture mailbox itself only.",
+    "notificationsMode": "disabled",
+    "mailOutboundEnabledBeforeAndAfter": false,
+    "registryDownloadsDuringThisRun": 0,
+    "tls": "Self-signed test certificates explicitly trusted by fixture clients; chain and hostname verification remained enabled. No public-domain certificate or ACME request was made."
+  },
+  "fixtureOnlyTiming": {
+    "file": "mail-health.fixture.yml",
+    "sha256": "96d0647320b1c722e2056d95d0a05c1aba75d0633c9c58a93b8c9fac27c00a0b",
+    "healthcheckTimeoutSeconds": 45,
+    "healthcheckStartPeriodSeconds": 300,
+    "productionHealthcheckCommandUnchanged": true,
+    "productionDeploymentLogicUnchanged": true,
+    "callerSelectedLifecycleTimeoutSeconds": {
+      "initialUp": 600,
+      "snapshot": 60,
+      "stop": 90,
+      "exactCapturedStart": 420
+    },
+    "certificateRefreshScriptOwnTimeoutsUnchanged": {
+      "stop": 90,
+      "up": 300
+    }
+  },
+  "harness": {
+    "pythonFile": "mail-completion-harness.py",
+    "pythonSha256": "3a5df61c3ea9d3d515a4dbd0074a31865b6e6c12b2d184955b6cac4db8d7c5c6",
+    "runnerFile": "mail-completion-runner.txt",
+    "runnerSha256": "2192f82ac01f7bea31ed309b9f196b62f3c742c918ba590d51ae37f07d4bef0a",
+    "outputIsolation": "An exclusive new completion-20261026-1431 directory was created; previous snapshot or payload output was neither removed nor overwritten."
+  },
+  "assertions": {
+    "all49FrozenDeploymentHashesMatchedInsideGuestAndAfterExport": true,
+    "initialRealContainerHealthy": true,
+    "strictSmtpAndImapAuthenticationPassed": true,
+    "actualLocalSmtpMessageReadThroughImap": true,
+    "dkimSignatureCoveredFromToSubjectAndBothUnsubscribeHeaders": true,
+    "unauthenticatedExternalRelayRejectedBeforeData": true,
+    "mailArchiveManifestAndOwnershipValidated": true,
+    "currentMailboxCredentialsAndDkimPreserved": true,
+    "exactCapturedContainerRestartedHealthyAfterRestore": true,
+    "restoredMessageBytesEqualOriginalViaStrictTlsImap": true,
+    "actualProductionCertificateRefreshCommandPassed": true,
+    "newServedCertificateDifferedFromOldCertificate": true,
+    "newCertificateVerifiedOverSmtpAndImap": true,
+    "certificateFingerprintMarkerMatchedNewCertificate": true,
+    "restoredMessageStillReadableAfterCertificateRefresh": true,
+    "outboundRemainedPaused": true,
+    "capturedMailContainerStoppedBeforeMailArchiveSnapshot": true
+  },
+  "completionEvidence": {
+    "schemaVersion": 1,
+    "startedAtUtc": "2026-10-26T14:34:49.791223+00:00",
+    "result": "passed",
+    "phases": [
+      {
+        "name": "frozenSourceAndIsolatedFixtureValidated",
+        "passedAtUtc": "2026-10-26T14:34:58.442979+00:00",
+        "files": 49
+      },
+      {
+        "name": "initialContainerHealthyAndStrictSmtpImapAuthenticated",
+        "passedAtUtc": "2026-10-26T14:37:03.263541+00:00"
+      },
+      {
+        "name": "localSmtpToImapDkimAndUnauthenticatedRelayRefusalPassed",
+        "passedAtUtc": "2026-10-26T14:37:11.121357+00:00"
+      },
+      {
+        "name": "ExactCapturedMailContainerStopped",
+        "passedAtUtc": "2026-10-26T14:37:54.115707+00:00"
+      },
+      {
+        "name": "MailArchiveValidatedAndRestoredWithCurrentCredentialsAndDkim",
+        "passedAtUtc": "2026-10-26T14:37:58.068244+00:00",
+        "inventory": {
+          "members": 125,
+          "bytes": 3279931
+        }
+      },
+      {
+        "name": "ExactCapturedContainerHealthyAfterRestoreAndSameMessageRetrieved",
+        "passedAtUtc": "2026-10-26T14:40:14.955562+00:00",
+        "restoredMessageSha256": "b1e5c6044e72dc6b0bd2d2c1b7d466429a0b54b98339b9036f224fa571ce5ed8"
+      },
+      {
+        "name": "ProductionCertificateRefreshReloadedNewFixtureCertificateWithStrictTls",
+        "passedAtUtc": "2026-10-26T14:44:14.258677+00:00",
+        "certificateChanged": true
+      }
+    ],
+    "externalRecipients": 0,
+    "publicDnsOrAcmeProven": false,
+    "runtimeSourceSha256": {
+      ".env.example": "a9a9c8a9b996a18cbc3436efcc618616e8560a237ea4e5462a4a26b0dcac0bed",
+      "Dockerfile": "fcbf5f00e0d9d12c722a85f0482b77696b4cb1a39800f8df95f1b9ac67811fbd",
+      "deploy/app-healthcheck.mjs": "8b98a827e9c8bea55e6fc71d96d65dbc9f922c10607a61f51b85d9a863362f2f",
+      "deploy/backup-archive.py": "630c145764d12c9293dec71da2e0145e13329baa9cf2a435f05e934825b45731",
+      "deploy/backup-image-reference.py": "5252657e12853dc860015682d59d5dab2e0f4dec6841cb96425c5d9497419a10",
+      "deploy/backup-inventory.mjs": "a992b0ae1b4cdba127f73e95e3190e8a42d78c3e09eeee1b3fa81aef6c476ffb",
+      "deploy/bootstrap-environment.py": "91f5feaa091a3b9b96ea7d23b83c6a06b528da0dcbd6959fdb941fa4c563427f",
+      "deploy/build-images.py": "949d194b90cf2ea7750f1c0262078efc28c5ee0839ad14625e13a1a2e491066d",
+      "deploy/caddy/Caddyfile": "2b65de2696ebb31a211e4c4e2be3327dda0a697e6e3993bf38c87b58d39cbd35",
+      "deploy/caddy/Dockerfile": "203f1ca51061d3eb276d089d4678a1725e3e195cac0fd214496a928a461a9e6e",
+      "deploy/clamav/Dockerfile": "096d411aff185836fdd88bb7c67cb999d191a2272fabf7daf1d31ef097c2263e",
+      "deploy/clamav/idealmakoo-clamav.sh": "dba038f4202b56aaf99f9085b80ad5e09acc91e054c3a2d538e4ca7c5ffd1bee",
+      "deploy/compose.py": "258b18ff39528351fc9bfb590c73591265a3f5ab13e7dbc1c167f66a94b41867",
+      "deploy/docker-inspect.py": "016cee3c5c84b9373136def2cdea23e4170f09e968d27d6ae7c6478155089cb0",
+      "deploy/env-file.py": "1ec4e9acba9179a0834ef3ba3c8769916f07d3696bef54c3cd3ed6be689896b0",
+      "deploy/grant-runtime.mjs": "b08b4d75402362ed610caaed1ee53d473afea1ad83ea47444c1f3bd6d2048359",
+      "deploy/lib.sh": "8c6f0011463eb0dabff2d79757e0309e202d8c71340f4c56caba0652f2f86d1c",
+      "deploy/mail-config.py": "8abb755077a18137b0424d9b9cb8d5163ce8b27245497e8158b87dc717b99fef",
+      "deploy/mail-data.py": "a310ceb8909685e708187ede461d33f59720a2e3b0b38ea99131ebb7c21acb03",
+      "deploy/mail-diagnostics.py": "12ad6bf44d11ac4ec5e6efe3824dc71a158e02222de93b17dfea50edb59b0278",
+      "deploy/network-preflight.py": "908d975d30ce2d0244b06579e55f5d840fc2dfa69e46076b003033ad1d04074f",
+      "deploy/network-steps.py": "b4120e6257eb58fe739a0ebb1d740aaa76f16b9cb2e30506f8807178df56f0fd",
+      "deploy/pending-restore.py": "43ee6007a3d79511c84eff11a2ff2d2937c018e0c522d1478ecaed7b60c8461a",
+      "deploy/postgres/init-roles.sh": "a3affd9fb2a6a445c588206177223f90cfbf844f0f22f148affc6150f49ff04a",
+      "deploy/recovery-evidence.py": "61aa1c40c927463212e0cac727367f219d987a047f1e7ed9f2e4b02cb442de0e",
+      "deploy/recovery.sh": "90c5b1db9b58a1668572b4e13e3650d6539484c9a29957c7085941113a368e5b",
+      "deploy/restore-host-files.py": "c1ea5de421a40f446f5ff009116002fe04f5c078e538ffc66a3ade67cc8ba2bb",
+      "deploy/runtime-directories.py": "782388ee8ca06fc017f98f39a65773eedd64e844442d1351a2d33ece84981eba",
+      "deploy/service-lifecycle.py": "9d66021ee6307767ddfa743119417f71b07bd7d550e7d1085cd69041a1cf5ea7",
+      "deploy/telegram-setup.py": "23a3c48774e8794f8f3d41911f6a63d25b3cd0efc3457baa6834c11659bda0c7",
+      "deploy/verify-runtime-role.mjs": "77578b6a86941a31c31d398d4519bf938e3a60295da3de43106035f2d4c69df7",
+      "deploy/wait-for-database.mjs": "0bee05fdadda497291ad82232c2f8235d01144b5a6197d360329cf7e269751f0",
+      "docker-compose.yml": "287fd91e276273859a14b9f1657ce35bd2776aba08ab315ac5dcabcda993dd01",
+      "scripts/backup.sh": "fe2ffea67d3cf2deed2eb975428c4992c2b7d8547e4ff765fbbed6d1aaedbcc0",
+      "scripts/check-health.sh": "d1eb2b9ab5e2d8f0a98bef1047f17d9353c1c7a936e8eaf1c3a3e73f6751de3e",
+      "scripts/doctor.sh": "825b6a42e13831d6f49a45dffcfb095e721202f71ecff03df9b908b462765505",
+      "scripts/download-backup.sh": "dff4b9c6821bd57e4a7ae441bffe372a5729492df17d67d400f249aabe6a34b4",
+      "scripts/entrypoint.sh": "b965ff1233e8fe6316e6d0af099bb44fca415da806952bbe169378dacc522296",
+      "scripts/install-ubuntu.sh": "eb2075fca9abb74bea8483b452dbbb2423ffcd0a5054b134adb3b9498d8f8d3b",
+      "scripts/mail-certificate-refresh.sh": "522e4f13f4ec7a6315fac53c32b7d3d2d47628ba05dbb3c07eb722845861ceb5",
+      "scripts/mail-certificate-timer.sh": "a70991b306bdec188294713461f91d30668846f4648f3635acfc25b95150f03b",
+      "scripts/mail-certificate-wait.sh": "60a716e8664ff31704eb91cab987cce2ee39b79fc09922512fd3329b67b417a6",
+      "scripts/mail-server.sh": "166e46467730687df48cc9796d3cd2ad0129ce285734392a0369ef6c5d7e1565",
+      "scripts/preflight.sh": "f78745db043f67966c34574ffc3a3c6da42b08447a0de2dc0da901d1d4542e00",
+      "scripts/provision-staff.sh": "93da5d10ab8a0d933dec9bde60ba5e6bf79212f32e4fbe84d72fc5175a667606",
+      "scripts/recover-ubuntu.sh": "b7b69ae96eb1140cdc9e04d5e30be50dee21f7b410ad9335395cdd361a9dce4e",
+      "scripts/reload-settings.sh": "7ca25c498b298fcafe4ff9391cff1b3ee7f934c94df6f3382bc7502e735c0bf7",
+      "scripts/restore.sh": "6557d7a19bc16a6fc3212b75e99ea2cd6ace767e83d5796ba1e1d92d82780d2f",
+      "scripts/update.sh": "786c623560400ecff9b7ffe167f5526429a898e9d0cb736cbd8c38ad7839b3a3"
+    },
+    "fixtureHealthOverrideSha256": "96d0647320b1c722e2056d95d0a05c1aba75d0633c9c58a93b8c9fac27c00a0b",
+    "coordinatedRestoreRestartPassed": true,
+    "offlineCertificateRotationPassed": true,
+    "finishedAtUtc": "2026-10-26T14:44:14.336975+00:00"
+  },
+  "cleanup": {
+    "method": "sudo systemctl poweroff in the owned guest",
+    "shutdownCommandExitCode": 0,
+    "qemuExitCode": 0,
+    "normalGuestPoweroffObserved": true,
+    "temporaryRegistryRelayUsedInThisRun": false
+  },
+  "notProvenByThisRun": [
+    "Full fresh Ubuntu website installation or a complete app/database update.",
+    "The outer encrypted complete-website backup/restore shell wrapper end to end; this live gate exercised its mail component and exact-owned lifecycle boundaries.",
+    "Public DNS/MX/SPF/DKIM/DMARC/PTR correctness, public ACME issuance/renewal, Internet mail reputation or external inbox delivery.",
+    "Actual SMS, Telegram, AI provider traffic or any operation on the user server/domain."
+  ],
+  "preparationNotes": [
+    "The first QEMU launch needed the extracted official module directory and serial-only device settings; these were environment startup corrections before the acceptance harness ran. No production source logic changed."
+  ]
+}

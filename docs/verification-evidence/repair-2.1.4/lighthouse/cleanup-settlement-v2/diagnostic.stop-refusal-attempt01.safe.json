@@ -1,0 +1,19 @@
+{
+  "format": "diagnostic-stop-refusal-and-reconciliation-v1",
+  "observedAt": "2026-10-25T21:12:51.852573+00:00",
+  "stopAttempt01": {
+    "actualExit": 1,
+    "toolChunk": "23feed",
+    "reason": "Owned service identity changed",
+    "signalsSent": false
+  },
+  "identityReadback": {
+    "sameNativePidAndStartTicks": true,
+    "sameCwd": true,
+    "actualExecutableMatchesConfiguredNode": true,
+    "actualParentIsOwnedDiagnosticWorkerSupervisor": true,
+    "allFiveIntendedArgumentsMatchExactly": true,
+    "initialRecordedArgvSnapshotWasEmpty": true
+  },
+  "qualification": "The original snapshot/refusal remain unchanged. No byte hash is retroactively replaced. A separate strict identity reconciliation is required before a normal signal."
+}

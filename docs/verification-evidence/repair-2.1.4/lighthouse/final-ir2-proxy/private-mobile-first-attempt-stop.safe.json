@@ -1,0 +1,49 @@
+{
+  "format": "private-mobile-first-attempt-stop-v1",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "topologySha256": "da2b88aba7a748b934b4e7e6af1d8117b5a63ee7a5f018df71b5d142814e11a0",
+  "actualPhaseExit": 2,
+  "topologyValidationPassed": true,
+  "startedAt": "2026-10-25T19:59:42.039419+00:00",
+  "finishedAt": "2026-10-25T20:43:47.650552+00:00",
+  "durationSeconds": 2645.611,
+  "counts": {
+    "expected": 530,
+    "attempted": 388,
+    "completed": 387,
+    "errors": 1,
+    "timeouts": 0,
+    "pending": 142,
+    "coverageComplete": false,
+    "interrupted": false
+  },
+  "roleChild": {
+    "code": 2,
+    "signal": null,
+    "timedOut": false,
+    "interrupted": false
+  },
+  "failedAttempt": {
+    "role": "superAdmin",
+    "locale": "tr",
+    "route": "admin/forms",
+    "errorCode": "AUDIT_EDITOR_CLEANUP_FAILED",
+    "navigationAuthAndRuntimeChecksPassed": true,
+    "scoredAsSuccessful": false
+  },
+  "originalSummarySha256": "713ba40089a2ad2e12e0cc4d89ede6ac160f7be785d25d5a6c7280cbbd108675",
+  "originalPhaseReceiptSha256": "92402299b6d98a6655083c5f0bcc3643cf595a6bc50bc725bb589c113e77d2bb",
+  "readonlyReadbackSha256": "81190555b7e372b5b3e7dbabf323bc204fbd1baf3c8c38a3178a5ff1ae90b4da",
+  "allOwnedActorsInactiveAtReadback": true,
+  "allOwnedSessionsRevokedAtReadback": true,
+  "strictSafePartialExport": {
+    "status": "passed",
+    "actualExit": 0,
+    "files": 6,
+    "bytes": 32135130,
+    "attempts": 388,
+    "rawEvidenceRetained": true,
+    "includedInFinalPackage": false
+  },
+  "qualification": "This was an actual post-measurement committed-lease cleanup failure, not an interrupted navigation, Lighthouse timeout or topology validation refusal. The failed scores are excluded. Natural later expiry does not change that outcome. No automatic retry, lease clearing or source change was performed."
+}

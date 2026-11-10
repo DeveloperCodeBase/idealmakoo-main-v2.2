@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/research/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "e401c9112e2285c1a5f8daa8dcb7f0b66e2eb51b14983f7e08451b6fababc6a4",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Research & knowledge | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Studies on materials, bonding and durability, from the official factory research archive."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/research/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/",
+    "en": "http://127.0.0.1:3100/en/research/",
+    "tr": "http://127.0.0.1:3100/tr/research/",
+    "ar": "http://127.0.0.1:3100/ar/research/",
+    "ru": "http://127.0.0.1:3100/ru/research/",
+    "x-default": "http://127.0.0.1:3100/fa/research/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 81
+}

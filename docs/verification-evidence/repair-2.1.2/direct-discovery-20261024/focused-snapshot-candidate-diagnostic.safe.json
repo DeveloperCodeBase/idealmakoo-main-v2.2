@@ -1,0 +1,136 @@
+{
+  "schema": 1,
+  "kind": "real-ubuntu-candidate-read-only-snapshot-proof",
+  "status": "passed",
+  "recordedAt": "2026-10-24T11:58:08.207687+00:00",
+  "job": "focused-snapshot-candidate-01",
+  "candidateSourceZipSha256": "e99523f5e7e069f053004ac8afc00465403cc44cfac1d257abe393fc4e8829ca",
+  "candidateExecutionInputCount": 996,
+  "candidateExecutionInputsSha256": "82dd68edb6fa454fd8f296dcc61b958c6d4547e280abc8d70192532c7907d012",
+  "candidateApplicationInputCount": 987,
+  "candidateApplicationInputsSha256": "de90dfabf8ddc57473a5943dfb03ba07b35b78f46e175a6e7ce9284fe2fb0558",
+  "lifecycleSha256": "aae5675fcc92f74c8f5eb910a360d70913d890ee536d912113d82f5d04501ff7",
+  "composeSha256": "27c5f7ad14d8386575f041a3755990e8aec1102e6d407d39224f56f94583f550",
+  "guestManifestFilesIndependentlyVerified": 3340,
+  "deployedAndArchivedSourceZipSha256": "1b2dd59c60a97bd1c113f6fdf7faaa330d6ca3157ccf3187b94f37eb4cecb806",
+  "retainedApplicationImageId": "sha256:4974f775daabed633a6767bc5d8dc4f85b739dbd35c2fbe74695aef87a3fdd94",
+  "selectedPopulatedArchiveSha256": "7e9714fc3c758038c875b4d0276ac0c54b941ee2986e00efbf792674b7c428ed",
+  "operation": "snapshot",
+  "originalDeadlineSeconds": 30,
+  "originalCommandMaximumSeconds": 60,
+  "originalInspectMaximumSeconds": 15,
+  "originalStartedAt": "2026-10-24T11:55:38.202052+00:00",
+  "originalCompletedAt": "2026-10-24T11:56:05.355794+00:00",
+  "originalElapsedSeconds": 27.15378,
+  "originalExitCode": 0,
+  "candidateProofAccepted": true,
+  "ownedJobStartedAt": "2026-10-24T11:55:16.308969+00:00",
+  "ownedJobCompletedAt": "2026-10-24T11:56:18.090861+00:00",
+  "ownedJobExitCode": 0,
+  "ownedJobActualWaitConsumed": true,
+  "launcherWaiterSessionId": 4020,
+  "launcherWaitConsumed": true,
+  "observerWaiterSessionId": 54559,
+  "observerExitCode": 0,
+  "observerWaitConsumed": true,
+  "collectionWaiterSessionId": 15943,
+  "collectionExitCode": 0,
+  "collectionWaitConsumed": true,
+  "traceReadWaiterSessionId": 23511,
+  "traceReadExitCode": 0,
+  "traceReadWaitConsumed": true,
+  "commands": [
+    {
+      "sequence": 1,
+      "commandClass": "protected-direct-project-discovery",
+      "suppliedMaximumSeconds": 60,
+      "deadlineRemainingAtEntrySeconds": 29.582576,
+      "startedAt": "2026-10-24T11:55:39.443661+00:00",
+      "completedAt": "2026-10-24T11:55:58.914961+00:00",
+      "elapsedSeconds": 19.502152,
+      "childExitCode": 0
+    },
+    {
+      "sequence": 2,
+      "commandClass": "docker-inspect",
+      "suppliedMaximumSeconds": 15,
+      "deadlineRemainingAtEntrySeconds": 9.885632,
+      "startedAt": "2026-10-24T11:55:59.143503+00:00",
+      "completedAt": "2026-10-24T11:56:05.152763+00:00",
+      "elapsedSeconds": 6.022299,
+      "childExitCode": 0
+    }
+  ],
+  "beforeInvariants": {
+    "status": "passed",
+    "observedAt": "2026-10-24T11:55:38.137692+00:00",
+    "knownContainersVerified": 6,
+    "protectedFilesAndLinksVerified": true,
+    "inspectElapsedSeconds": 14.819558,
+    "inspectMaximumSeconds": 15,
+    "containerListingRequests": 0
+  },
+  "afterInvariants": {
+    "status": "passed",
+    "observedAt": "2026-10-24T11:56:17.966842+00:00",
+    "knownContainersVerified": 6,
+    "protectedFilesAndLinksVerified": true,
+    "inspectElapsedSeconds": 7.857175,
+    "inspectMaximumSeconds": 15,
+    "containerListingRequests": 0
+  },
+  "beforeAfter": {
+    "beforeAfterInvariantsEqual": true,
+    "snapshotIdsProjectAndEnvMatched": true,
+    "helperGomaxprocsUnchanged": true,
+    "capturedServices": [
+      "app",
+      "worker",
+      "proxy"
+    ]
+  },
+  "effectiveClientEnvironment": {
+    "helper": {
+      "present": false
+    },
+    "effectiveProtectedClient": {
+      "present": false
+    },
+    "gomaxprocsOverrideApplied": false
+  },
+  "protectedCurrentEnvKeyArchiveLedgerSourceAndContainerIdentityUnchanged": true,
+  "noProductServiceOrDataMutation": true,
+  "noTimeoutSecurityResourceOrTlsRelaxation": true,
+  "traceRecordingErrors": [],
+  "smallTracingIoOverheadPresent": true,
+  "observedOperationHeadroomSeconds": 2.84622,
+  "previousBaselineExitCode": 124,
+  "previousClientSerialExitCode": 124,
+  "comparisonScope": "One direct-discovery snapshot succeeded on the same retained runtime. This does not establish causes of all earlier timeouts or prove restore success.",
+  "failedRestore01Preserved": true,
+  "failedRestore01ExitCode": 124,
+  "wholeInstallerAccepted": false,
+  "populatedRestoreAccepted": false,
+  "freshRecoveryAccepted": false,
+  "primaryVmStillRunning": true,
+  "hostGuard": {
+    "observedAt": "2026-10-24T11:58:03.339024+00:00",
+    "diskIdentityPassed": true,
+    "availableBytes": 11511676928,
+    "oomKill": 0
+  },
+  "privateTraceAndSnapshot": {
+    "included": false
+  },
+  "fullSafeTraceSha256": "9246ce24ea393dc677b721118b111a2495f79ddf17d686eea4be5a71d8abcc6d",
+  "privateStdout": {
+    "included": false,
+    "bytes": 1256,
+    "sha256": "b5e382e0643706b5d43c92bcc2c3e58e81aa073fc40082482ed7a37734aa867a"
+  },
+  "privateStderr": {
+    "included": false,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

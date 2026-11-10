@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/research/three-teeth-denture-base-bond/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "a13bcce046b0ea93dd49737d71999aec3c7c0ec0f7ec6bda1e9a55ccf0d389cb",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "اتصال اپل، گلامور و بی‌استار به اکریل بیس دنچر | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "مقایسه آزمایشگاهی سه گروه دندان و ثبت نیروی شکست اتصال به اکریل گرماپخت."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/research/three-teeth-denture-base-bond/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/three-teeth-denture-base-bond/",
+    "en": "http://127.0.0.1:3100/en/research/three-teeth-denture-base-bond/",
+    "tr": "http://127.0.0.1:3100/tr/research/three-teeth-denture-base-bond/",
+    "ar": "http://127.0.0.1:3100/ar/research/three-teeth-denture-base-bond/",
+    "ru": "http://127.0.0.1:3100/ru/research/three-teeth-denture-base-bond/",
+    "x-default": "http://127.0.0.1:3100/fa/research/three-teeth-denture-base-bond/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 60
+}

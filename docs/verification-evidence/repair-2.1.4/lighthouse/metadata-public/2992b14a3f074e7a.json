@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/videos/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "4968ba378d742ed0160c18c901579cec4d0270297aa7072c47563cd943cb21d2",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Factory and product videos | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Browse and search published videos of the Ideal Makoo factory and products, with details on each video’s own page."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/videos/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/videos/",
+    "en": "http://127.0.0.1:3100/en/videos/",
+    "tr": "http://127.0.0.1:3100/tr/videos/",
+    "ar": "http://127.0.0.1:3100/ar/videos/",
+    "ru": "http://127.0.0.1:3100/ru/videos/",
+    "x-default": "http://127.0.0.1:3100/fa/videos/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 60
+}

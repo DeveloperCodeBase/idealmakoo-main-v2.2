@@ -1,0 +1,135 @@
+{
+  "schema": 1,
+  "kind": "actual-original-supported-update03-failure-from-retained-logs",
+  "status": "failed",
+  "observedAt": "2026-10-24T19:08:39.895866+00:00",
+  "job": "supported-update-current-source-03",
+  "sourceZipSha256": "cac09a38db766729d4e0d0150b8b64d652752a92e9bdce2188fa770bb697f43d",
+  "applicationInputs": {
+    "files": 989,
+    "sha256": "29480cc4a946a7df71868f19dd8bfd357117c5f0a0b0d3a8c408256d3c060bf4"
+  },
+  "executionInputs": {
+    "files": 998,
+    "sha256": "31a67fb0b307249d289d16a5634db3b22248b28ead4399fd5ce75190157ec7ea"
+  },
+  "actualOriginalOutcome": {
+    "schema": 1,
+    "kind": "owned-guest-acceptance-job-outcome",
+    "job": "supported-update-current-source-03",
+    "status": "failed",
+    "startedAt": "2026-10-24T18:20:06.585721+00:00",
+    "completedAt": "2026-10-24T19:05:16.489480+00:00",
+    "pid": 208134,
+    "startTicks": 4054541,
+    "exitCode": 124,
+    "actualWaitConsumed": true
+  },
+  "actualOriginalOutcomeSha256": "41e15b9837e06621b3d0bb31ac8e944f32ff7d2c8bfc83dbd37f51138771426a",
+  "actualCollectionOuterSession": 81621,
+  "actualCollectionOuterExitCode": 0,
+  "actualCollectionOuterWaitConsumed": true,
+  "collectionReceiptSha256": "83efd8efbbdd12f6ff6d83d5f9a57ee3251dac2e607b2da08bfa34e55b90cc52",
+  "originalLaunchTransportExitCode": 124,
+  "originalLaunchTransportWasNotRetried": true,
+  "originalJobLaunchIndependentlyObserved": true,
+  "failurePhase": "application, worker, scanner and public endpoint readiness",
+  "lifecycleErrors": [
+    {
+      "operation": "up",
+      "code": "COMMAND_TIMEOUT",
+      "exitCode": 124,
+      "cleanupAttempted": true,
+      "cleanupVerified": true,
+      "clientProcessTerminationVerified": true,
+      "failedCommand": {
+        "class": "container-inspect",
+        "services": [
+          "app"
+        ],
+        "elapsedSeconds": 15.071783,
+        "suppliedMaximumSeconds": 15,
+        "effectiveMaximumSeconds": 15,
+        "overallRemainingSeconds": 1043.095221
+      }
+    },
+    {
+      "operation": "ps",
+      "code": "DEADLINE_EXCEEDED",
+      "exitCode": 124,
+      "cleanupAttempted": false,
+      "cleanupVerified": null,
+      "clientProcessTerminationVerified": true,
+      "failedCommand": {
+        "class": "compose-ps",
+        "services": [],
+        "elapsedSeconds": 14.949385,
+        "suppliedMaximumSeconds": 60,
+        "effectiveMaximumSeconds": 14.92121,
+        "overallRemainingSeconds": 0
+      }
+    }
+  ],
+  "upCallerGlobalBudgetSeconds": 1200,
+  "inspectSuppliedMaximumSeconds": 15,
+  "callerGlobalDeadlineExhaustionInferred": false,
+  "loggedManagedRelease": "/var/www/idealmakoo-212-primary/releases/20261024T182617Z-f7df7105",
+  "loggedImageExports": [
+    {
+      "service": "proxy",
+      "exportedConfigDigest": "sha256:4addfb025d8aa69dac009c4418488bdbd90edca4ed7ff74ba8e503b46895b734",
+      "exportedManifestListDigest": "sha256:993d304e57060f4b36c6be470bafed541c74a578818bb6780e91e33dfcec159e",
+      "tag": "docker.io/library/idealmakoo_212_primary-proxy:20261024T182617Z-f7df7105",
+      "completedSeconds": 18.7
+    },
+    {
+      "service": "clamav",
+      "exportedConfigDigest": "sha256:a75b4dfe273721b0859ece9d3cdf88671394c154bf5e49e62143a700d4da6d71",
+      "exportedManifestListDigest": "sha256:380d9ac6be7a4d9046e41df9854e4b2e7e90e31c545e976c1855b62108d6e4d3",
+      "tag": "docker.io/library/idealmakoo_212_primary-clamav:20261024T182617Z-f7df7105",
+      "completedSeconds": 19.7
+    },
+    {
+      "service": "app",
+      "exportedConfigDigest": "sha256:febb961c1de2a5521723759fec4ade8963c67ac91740586ed72364c7e7bfe2a5",
+      "exportedManifestListDigest": "sha256:6179584b250d4b7a4d248793f837cbbb32b2d0a0400e2bd308a30a6825e87706",
+      "tag": "docker.io/library/idealmakoo_212_primary-app:20261024T182617Z-f7df7105",
+      "completedSeconds": 17.0
+    }
+  ],
+  "compilerBuildLayerObservations": [
+    {
+      "step": 36,
+      "stage": "app builder 9/9",
+      "cached": true
+    }
+  ],
+  "newImageRuntimeIdentityIndependentlyAccepted": false,
+  "migrationContainerLoggedExitCodes": [
+    0
+  ],
+  "firstSafetyBackupPublication": {
+    "markerCount": 1,
+    "path": "/var/www/idealmakoo-212-primary/shared/backups/idealmakoo-20261024T183214Z-6d4355ff.tar.age",
+    "independentlyAuthenticated": false,
+    "capturedSubsetResumptionPrecedesPublicationInUnchangedScript": true
+  },
+  "secondMandatoryBackupPublicationObserved": false,
+  "currentReleasePromotionObserved": false,
+  "currentRuntimeStateIndependentlyObservedAfterFailure": false,
+  "selectedTransportAtFailureEstablished": false,
+  "rootCauseEstablished": false,
+  "rawLogs": {
+    "included": false,
+    "stdout": {
+      "bytes": 2045,
+      "sha256": "e9202fe2844c5132632c99696fc3b6ae9edc3c17b28f762126847a62296dda55"
+    },
+    "stderr": {
+      "bytes": 17155,
+      "sha256": "c5b59e801a95b843446f05242971eb054d86e2bbb9e710066c5e252070daee47"
+    }
+  },
+  "automaticRetry": false,
+  "conditionalRuntimeArchiveCaptureAndRecoveryBlocked": true
+}

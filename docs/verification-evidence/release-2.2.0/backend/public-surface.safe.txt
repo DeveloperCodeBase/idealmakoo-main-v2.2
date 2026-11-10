@@ -1,0 +1,40 @@
+✔ notification calendars enforce cross-midnight quiet hours and real DST boundaries (24.104534ms)
+✔ DKIM signs both RFC 8058 headers in a real in-memory MIME message (75.487449ms)
+▶ PostgreSQL notification consent, queued digests, unsubscribe and uncertain delivery
+  ✔ strict per-account preferences persist and concurrent versions do not overwrite (25.948123ms)
+  ✔ legacy consent writes update the same authoritative policy atomically (11.450898ms)
+  ✔ destinations derive from a verified account and transactional enqueue rolls back with its caller (209.567173ms)
+  ✔ instant inbox delivery, consent revocation and stale lease tokens are enforced at dispatch (57.875085ms)
+  ✔ quiet hours defer a real queued receipt without consuming delivery attempts (30.378601ms)
+  ✔ durable daily digests aggregate once, recheck topics, and propagate accepted results (116.957264ms)
+  ✔ a changed digest schedule moves unsent members back to the durable buffer (42.951223ms)
+  ✔ RFC 8058 uses an opaque HTTPS endpoint and safe GET then token-only POST (45.242119ms)
+  ✔ unsubscribe validates multipart, does not follow account-email changes, and never requires a cookie (21.586439ms)
+  ✔ marketing cannot leave SMTP without DKIM configuration and changed endpoints suppress delivery (26.536073ms)
+  ✔ ambiguous SMTP results and stale digest leases remain uncertain and are not resent (47.45892ms)
+  ✔ only an actual reviewed release fans out to opted-in matching locales with verified email (166.542906ms)
+  ✔ withdrawn public releases suppress queued announcements and cancel unexpanded events (204.346856ms)
+  ✔ independent claimers lease each pending job at most once (43.450382ms)
+✔ PostgreSQL notification consent, queued digests, unsubscribe and uncertain delivery (2220.683535ms)
+▶ PostgreSQL public surface: versioned preferences, reviewed timed notices and current public document search
+  ✔ Independent office/factory and attribution fields commit with exact version while unpublished edits stay private (53.195605ms)
+  ✔ Legacy address-only clients preserve the saved factory and footer, and current limited-language grants cannot edit global identity (17.508888ms)
+  ✔ Malformed notice windows and wrong record collections reject the whole workspace write (63.480222ms)
+  ✔ Review requires an independent current account and the selected language definition; publication rejects forged banner metadata (115.767282ms)
+  ✔ Draft edits keep both live languages and a translator cannot change another language schedule or current revoked grants (289.655935ms)
+  ✔ Server projection and public RAG omit future, expired and disabled published notices (485.301725ms)
+  ✔ Notice fanout waits for its public window without blocking active content and rechecks expiry at actual delivery (3678.321011ms)
+  ✔ The real scheduled publication worker publishes only the approved notice revision after its due time (1291.138871ms)
+  ✔ Locale withdrawal stays local, archiving requires every release withdrawn and restoring an archive never revives it (182.678082ms)
+  ✔ Actual public search returns only current reviewed documents, with translated metadata and the real file language (36.645542ms)
+  ✔ Quarantine, actual rights revocation and wall-clock expiry remove a previously found file immediately (707.085316ms)
+  ✔ Withdrawal removes actual public search hits and direct anonymous metadata together (24.233438ms)
+✔ PostgreSQL public surface: versioned preferences, reviewed timed notices and current public document search (8582.703655ms)
+ℹ tests 30
+ℹ suites 0
+ℹ pass 30
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 12276.635199

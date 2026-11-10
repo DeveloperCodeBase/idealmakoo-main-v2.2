@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/cooperation/suppliers/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "481f22a2b25d79e092e691dae621b247d04c9561e4ad475224d85d43911321e9",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Регистрация поставщика | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Поставщики могут направить сведения об организации, возможностях поставок и подтверждающие документы для рассмотрения сотрудничества."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/cooperation/suppliers/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/cooperation/suppliers/",
+    "en": "http://127.0.0.1:3100/en/cooperation/suppliers/",
+    "tr": "http://127.0.0.1:3100/tr/cooperation/suppliers/",
+    "ar": "http://127.0.0.1:3100/ar/cooperation/suppliers/",
+    "ru": "http://127.0.0.1:3100/ru/cooperation/suppliers/",
+    "x-default": "http://127.0.0.1:3100/fa/cooperation/suppliers/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 51
+}

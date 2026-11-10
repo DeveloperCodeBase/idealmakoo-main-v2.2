@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/resources/ideal-makoo-mould-poster/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "bb4b0450a425240ef81b1a6379fa0011b80ee5fc7286a80a0d13a513847a811b",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Ideal Makoo complete catalogue and mould chart | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Tooth forms, dimensions and 12 series profiles in the document, presented as a readable 26-page edition of the supplied poster."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/resources/ideal-makoo-mould-poster/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/ideal-makoo-mould-poster/",
+    "en": "http://127.0.0.1:3100/en/resources/ideal-makoo-mould-poster/",
+    "tr": "http://127.0.0.1:3100/tr/resources/ideal-makoo-mould-poster/",
+    "ar": "http://127.0.0.1:3100/ar/resources/ideal-makoo-mould-poster/",
+    "ru": "http://127.0.0.1:3100/ru/resources/ideal-makoo-mould-poster/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/ideal-makoo-mould-poster/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 45
+}

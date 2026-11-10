@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-10-21T10:43:20.633Z",
+  "baseOrigin": "http://127.0.0.1:3090",
+  "buildId": "-Q7Ffy3JmwVExwxk-Ymk-",
+  "sourceSha256": "7f3ce91bb62edb78824310083b185f1854fa0d98458b04dea167078a24c4155d",
+  "localBuildVerified": true,
+  "servedBuildIdPresent": true,
+  "pageStatus": 200,
+  "readinessStatus": 200,
+  "database": "ok",
+  "privacy": "ready",
+  "applicationVersion": "2.1.0",
+  "graphicsMode": "webgl-software-fallback",
+  "staticChecks": [
+    {
+      "path": "/_next/static/chunks/webpack-4bd5a44add2841f6.js",
+      "status": 200,
+      "sha256": "7585241ae030be9d439fc426b35effd87b92924497a204791aeaffedcd5a2f70",
+      "localMatches": true
+    },
+    {
+      "path": "/_next/static/chunks/4bd1b696-8cd12253b448cc13.js",
+      "status": 200,
+      "sha256": "898c71c4da75489e3cf225ab3cd3d44d6232a491ee816510ba79b6e3ac17885e",
+      "localMatches": true
+    },
+    {
+      "path": "/_next/static/chunks/3794-9f866eb1b07be87c.js",
+      "status": 200,
+      "sha256": "53821a51c79012ff9993815f79206fe012dfd77a37eb58620cf2eef9f272a8bc",
+      "localMatches": true
+    }
+  ],
+  "pass": true
+}

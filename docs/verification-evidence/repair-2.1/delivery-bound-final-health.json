@@ -1,0 +1,21 @@
+{
+  "recordedAt": "2026-10-21T09:13:50.897500+00:00",
+  "buildId": "qZolvXUvxRIPRoRpYcOE2",
+  "runtime": "delivery",
+  "/api/v1/health": {
+    "status": 200,
+    "contentType": "application/json; charset=utf-8",
+    "body": {
+      "status": "ok",
+      "database": "ok",
+      "privacy": "ready",
+      "timestamp": "2026-10-21T09:13:51.279Z",
+      "version": "2.1.0-current",
+      "applicationVersion": "2.1.0"
+    }
+  },
+  "/fa/": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8"
+  }
+}

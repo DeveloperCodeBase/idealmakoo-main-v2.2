@@ -1,0 +1,15 @@
+{
+  "stage": "audit",
+  "checkedAt": "2026-10-25T19:51:58.169Z",
+  "httpStatus": 200,
+  "version": "2.1.4",
+  "database": "ok",
+  "privacy": "ready",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "inputFingerprint": "4fcec50f5846b0affccc59e43798613ba134a3f93559ea5ddba9705e1f38cc58",
+  "databaseNameSha256": "bcd781ac88b5b375e192c8fffff9c6c1ecb524384b26aecf7262e50d213f5412",
+  "runtimeRoleRestricted": true,
+  "excludedRuntimeNamesAbsent": true,
+  "readinessCommandExitCode": 0,
+  "workerHealthExitCode": 0
+}

@@ -1,0 +1,142 @@
+{
+  "format": "portable-native-proxy-tools-export-v1",
+  "createdAt": "2026-10-25T22:36:20.547591+00:00",
+  "status": "current-safe-tools-subset-with-reviewed-explicit-process-role",
+  "files": [
+    {
+      "file": "EXPORT.historical-before-explicit-role.safe.json",
+      "sha256": "7636c95a9626d7ae0608c784af652f5987d9b02e97e29b6c3de3f1f21de62fdf",
+      "bytes": 4878
+    },
+    {
+      "file": "EXPORT.historical-before-observed-at.safe.json",
+      "sha256": "4b746340fad6dec5af4b289164da49646f5120c802218df390c0a5d8582ae9aa",
+      "bytes": 4025
+    },
+    {
+      "file": "EXPORT.historical-before-package-check.safe.json",
+      "sha256": "88d7fb6bcf7352896643e88557dd948860931f3b8472bf9c1d34c81d03903723",
+      "bytes": 3053
+    },
+    {
+      "file": "INDEPENDENT-REVIEW.safe.json",
+      "sha256": "970502ed15c460d9ed52447b4c5b17a3a77df9c97b8c35cfbbd377ee59a243f2",
+      "bytes": 1936
+    },
+    {
+      "file": "README.fa.md",
+      "sha256": "3f50fe0d02e94451095ba6b1e937d5e9194fc3430edb16b5dbadfb9a7cf1cfd5",
+      "bytes": 22737
+    },
+    {
+      "file": "guard-explicit-role-review.safe.json",
+      "sha256": "94b13ef3d113942334ea65dc014f71c5401cabcda72b11c47f5d6471760a810a",
+      "bytes": 917
+    },
+    {
+      "file": "native-proxy-guard-role-verification.safe.json",
+      "sha256": "ec9bb1d2b1dd57fdf126903fa4cbfee23c8c1465c845e2c5a654a5d98fcd0904",
+      "bytes": 626
+    },
+    {
+      "file": "native-proxy-guard-verification-final.safe.json",
+      "sha256": "0f8ce3b86aef380977a53b5a44f949e566df3cb41c48ebbb2811f2f74f56fac6",
+      "bytes": 3434
+    },
+    {
+      "file": "native-proxy-guard-verification-revised.safe.json",
+      "sha256": "76284b254b3caa4547ac9c1bd180e42368c287f3849ab39f4c1dafd5663e06d9",
+      "bytes": 4264
+    },
+    {
+      "file": "native-proxy-guard.historical-52932048.py",
+      "sha256": "529320485df3347acfed3fffa77a558199240654083746c975a4ea0c96f6e76f",
+      "bytes": 44472
+    },
+    {
+      "file": "native-proxy-guard.py",
+      "sha256": "22690e970b374366047bddd78deada4201492f479843d2e2ea74b8a3bdf30512",
+      "bytes": 44887
+    },
+    {
+      "file": "native-proxy-proof-lifecycle-verification.safe.json",
+      "sha256": "f34c0b652f1774e8ab53f894f986efe26ba8e027340e50fee43eed6342441d84",
+      "bytes": 2182
+    },
+    {
+      "file": "native-proxy-proof-receipt-attempt-01.safe.json",
+      "sha256": "a978a3d335a9156449be4c2acb729223a53f3fdc7d02f044a2ed3b33096e0acd",
+      "bytes": 584
+    },
+    {
+      "file": "packaging-correction.safe.json",
+      "sha256": "6b804204d1d61f8fc299bfaea817c0b61bcd3ca553afec1a32fa32f74ffa624f",
+      "bytes": 1531
+    },
+    {
+      "file": "prove-native-proxy.mjs",
+      "sha256": "34797f1a943d1f47e847cfb217928bafaf3f02a2a03d84523e6665e9f8bda3e0",
+      "bytes": 16956
+    },
+    {
+      "file": "proxy-proof-content.mjs",
+      "sha256": "938fad81282a0fc0f4ef1524507e392e019770701c590e62706e881880c79b7b",
+      "bytes": 1368
+    },
+    {
+      "file": "proxy-proof-lifecycle.mjs",
+      "sha256": "1471bbbe0a020b98da49be81279f0cc69ab58d52908c6387094e72a828e02064",
+      "bytes": 2326
+    },
+    {
+      "file": "public-site-proof-comparison-verification.safe.json",
+      "sha256": "f3c4b13980d077efab80e515c123c40888b858dc18bfde457fa724def17c017e",
+      "bytes": 2582
+    },
+    {
+      "file": "test-proxy-proof-content.mjs",
+      "sha256": "799816765b5eeed8744369091ae8dda6aa5a2a7942a53763434798959b6eafce",
+      "bytes": 2263
+    },
+    {
+      "file": "test-proxy-proof-lifecycle.mjs",
+      "sha256": "5f38388a6618567b3e02e7c20f3fcbb5e266d5a2f437d64b9f22b07516ba7378",
+      "bytes": 3671
+    }
+  ],
+  "fileCount": 20,
+  "totalBytes": 168692,
+  "byteIdenticalSourceCopies": 11,
+  "scope": "Documentation utilities only; no production runtime inputs or audit scoring sources modified.",
+  "safety": {
+    "knownPrivateValueScanFindings": 0,
+    "hardcodedPrivateWorkspacePathFindings": 0,
+    "actualEnvPlansLogsCookiesDomOrBrowserImagesIncluded": false,
+    "secretValuesOrCredentialHashesIncluded": false,
+    "syntheticCredentialFixturesExplicitlyLabeled": true
+  },
+  "portabilityLimits": [
+    "Linux/proc/native PID namespace and authorized root/same-UID observation for full guard witness.",
+    "Caddy production UID/GID10002 and ELF64/x86_64; exact retained binary/receipt required.",
+    "Node plus existing project dependencies; exact project routes/API/assets/fixture helper contracts.",
+    "Explicit IPv4 loopback HTTP and named disposable database scope.",
+    "No service launcher; no TLS/H2/WAN/general-proxy compatibility claim."
+  ],
+  "realRuntimeActivationOrFinalLighthouseCoverageClaimed": false,
+  "historicalExport": "EXPORT.historical-before-package-check.safe.json",
+  "excludedUnshippedSyntheticHarness": {
+    "file": "test_native_proxy_guard.py",
+    "sourceSha256": "9679b176c6db0e6299500239a309f3e909f463acdf9ba0a1ca7f4ac0ac9a1701",
+    "originalRetainedOutsideDeliverable": true,
+    "resultsAndAllAttemptReceiptsRetained": true,
+    "reason": "Confirmed disallowed literal synthetic DB passwords under the unchanged docs-path credential policy; only the redundant documentation copy was excluded."
+  },
+  "reproduction": "Four lifecycle tests and three public timestamp/content comparison tests are shipped. The exact25-case Python synthetic harness remains outside the deliverable; original22-case history plus all result/sourceSHA/attempt receipts are preserved.",
+  "historicalBeforeObservedAtCorrection": "EXPORT.historical-before-observed-at.safe.json",
+  "proofCorrectionVerification": "public-site-proof-comparison-verification.safe.json",
+  "historicalBeforeExplicitRole": "EXPORT.historical-before-explicit-role.safe.json",
+  "currentGuardSha256": "22690e970b374366047bddd78deada4201492f479843d2e2ea74b8a3bdf30512",
+  "currentGuardTests": 25,
+  "explicitRoleVerification": "native-proxy-guard-role-verification.safe.json",
+  "explicitRoleIndependentReview": "guard-explicit-role-review.safe.json"
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "kind": "public-safe-primary-acceptance-evidence-copy",
+  "createdAt": "2026-10-25T05:31:12.176734+00:00",
+  "candidateSourceZipSha256": "2deb94d17e0852d75102461fa566555c973f632320729a366a73b86ae9381574",
+  "summarySha256": "a3d28ec53292b205032b1b542d5fb307983385b0e7c82fb912fe88d99da31d98",
+  "receiptsCopied": 15,
+  "contentsByteIdentical": true,
+  "privateFilesOrRawLogBodiesCopied": false,
+  "independentRecoveryStatusAtExport": "running; not yet passed",
+  "files": [
+    {
+      "name": "emptyHostPreparation",
+      "packagedPath": "receipts/emptyHostPreparation.safe.json",
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/primary/preparation.safe.json",
+      "bytes": 955,
+      "sha256": "5bd196c3339331eb17775061f5adc2c363c72a9b5f2767570db7f351aaae5423"
+    },
+    {
+      "name": "originalInstaller",
+      "packagedPath": "receipts/originalInstaller.safe.json",
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/primary/collected/primary-original-installer/collection.safe.json",
+      "bytes": 1143,
+      "sha256": "cfa5a2881c1837186094ec836788cc38b9476a4493da34785e51b1b22311e4d4"
+    },
+    {
+      "name": "runtimeSourceSchemaRoleHealth",
+      "packagedPath": "receipts/runtimeSourceSchemaRoleHealth.safe.json",
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/primary/collected/runtime/collection.safe.json",
+      "bytes": 5727,
+      "sha256": "e7beea308a95a0587c6f0fc9990d1cbc74d7d9a33172dae16e9feb3e83179da0"
+    },
+    {
+      "name": "canonicalApiSeed",
+      "packagedPath": "receipts/canonicalApiSeed.safe.json",
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/primary/collected/api-seed-canonical/collection.safe.json",
+      "bytes": 1833,
+      "sha256": "0983cf22b9dc59b091f98d8f0da5e66e377ccea9a6375c0ec247e31d35d188fe"
+    },
+    {
+      "name": "failedFirstApiHarnessAttempt",
+      "packagedPath": "receipts/failedFirstApiHarnessAttempt.safe.json",
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/primary/collected/api-seed/collection.safe.json",
+      "bytes": 1242,
+      "sha256": "37790b5d51b158aaa1939bdc42397fdf7e9107c8b769a5d4ae006417a5e5d35f"
+    },
+    {
+      "name": "failedAttemptNoAuthMutationReadbackTransport",
+      "packagedPath": "receipts/failedAttemptNoAuthMutationReadbackTransport.safe.json",
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/primary/commands/failed-seed-no-auth-mutations-002.safe.json",
+      "bytes": 329,
+      "sha256": "3f96004af22599258de327e91cc4010743e90bf7264edd393307e4f708b0f090"
+    },
+    {
+      "name": "liveSessionCapture",
+      "packagedPath": "receipts/liveSessionCapture.safe.json",
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/primary/collected/capture-sessions/collection.safe.json",
+      "bytes": 1441,
+      "sha256": "aaa72f80fb682bca1adab54aef241c4ba8bbe283ceed3e6fc5d559ce2c862cfb"
+    },
+    {
+      "name": "originalPopulatedBackupDownload",
+      "packagedPath": "receipts/originalPopulatedBackupDownload.safe.json",
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/populated-backup/outcome.safe.json",
+      "bytes": 773,
+      "sha256": "fc2c1e9ea9179eeb17f5c9bec02e7d6af99088ee57a79f7d273ba81748686f7f"
+    },
+    {
+      "name": "offHostBackupAuthentication",
+      "packagedPath": "receipts/offHostBackupAuthentication.safe.json",
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/off-host-authentication/authentication.safe.json",
+      "bytes": 1312,
+      "sha256": "66a1fcf2a5c52f42331a8f3ea539743185382919d3c6c5670516e10573345271"
+    },
+    {
+      "name": "postBackupApiMutation",
+      "packagedPath": "receipts/postBackupApiMutation.safe.json",
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/primary/collected/api-mutate/collection.safe.json",
+      "bytes": 1409,
+      "sha256": "627bf27952b5b970bf8d32a81ebd059fa36b2f4367f0177be7a186dfaf2dedb9"
+    },
+    {
+      "name": "verifiedLatestLedgerExport",
+      "packagedPath": "receipts/verifiedLatestLedgerExport.safe.json",
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/primary/collected/ledger/collection.safe.json",
+      "bytes": 2063,
+      "sha256": "3bfa72a536c801f4837aaf7400a7e92c7f4ba1fd014936985537dae03a32d13d"
+    },
+    {
+      "name": "securedRecoveryMaterialBinding",
+      "packagedPath": "receipts/securedRecoveryMaterialBinding.safe.json",
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/populated-backup/recovery-material.safe.json",
+      "bytes": 1855,
+      "sha256": "104fc8d219ed44a1d084d5ec3dbe79020c124337b8263062cf0aa65bf8564e1b"
+    },
+    {
+      "name": "scannerVersionAndTestTimerPause",
+      "packagedPath": "receipts/scannerVersionAndTestTimerPause.safe.json",
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/primary/test-timer-paused.safe.json",
+      "bytes": 510,
+      "sha256": "cd65b3ea41d87550229f42cf44efc3c3c6d2304ea961540dac20abeba66565f7"
+    },
+    {
+      "name": "sourceShutdownPrecheck",
+      "packagedPath": "receipts/sourceShutdownPrecheck.safe.json",
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/primary/pre-shutdown.safe.json",
+      "bytes": 368,
+      "sha256": "fae4822c658b955a4d2eec38403bcfb939f2794b8c061605e8edcb6506203843"
+    },
+    {
+      "name": "originalSourceVmOutcome",
+      "packagedPath": "receipts/originalSourceVmOutcome.safe.json",
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/primary/runtime/outcome.safe.json",
+      "bytes": 376,
+      "sha256": "db14cec2599f7b31f1b2f3c829a08242a6d5bb0ffe8619bdf64c9b4711fdc8a5"
+    }
+  ]
+}

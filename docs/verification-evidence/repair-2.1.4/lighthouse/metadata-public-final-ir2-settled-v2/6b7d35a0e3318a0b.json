@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/cooperation/research/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "95e370684b2dad8df9e9cbe32c9c6c388d48b00bb8c96c3241c46acfccecad05",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "مقترح بحث وابتكار | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "قدّم مقترح بحث أو ابتكار حول المنتجات والمواد السنية مع تعريف المؤسسة ووصف المشروع والمستندات الداعمة."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/cooperation/research/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/cooperation/research/",
+    "en": "http://127.0.0.1:3100/en/cooperation/research/",
+    "tr": "http://127.0.0.1:3100/tr/cooperation/research/",
+    "ar": "http://127.0.0.1:3100/ar/cooperation/research/",
+    "ru": "http://127.0.0.1:3100/ru/cooperation/research/",
+    "x-default": "http://127.0.0.1:3100/fa/cooperation/research/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 83
+}

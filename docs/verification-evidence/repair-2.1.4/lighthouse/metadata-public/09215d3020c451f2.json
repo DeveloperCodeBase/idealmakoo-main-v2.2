@@ -1,0 +1,71 @@
+{
+  "url": "http://127.0.0.1:3100/tr/products/super-newclar/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "0e3adbafaaa636fb204e65b6f6ba12ebb603cf1db23b0b65f29838d938d5949b",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Super Newclar protez dişler | Ideal Makoo"
+  ],
+  "descriptions": [
+    "İki katmanlı Super Newclar, tam ve bölümlü protezler için kaynakta belirtilen çapraz bağlı formülü kullanır."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/products/super-newclar/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/super-newclar/",
+    "en": "http://127.0.0.1:3100/en/products/super-newclar/",
+    "tr": "http://127.0.0.1:3100/tr/products/super-newclar/",
+    "ar": "http://127.0.0.1:3100/ar/products/super-newclar/",
+    "ru": "http://127.0.0.1:3100/ru/products/super-newclar/",
+    "x-default": "http://127.0.0.1:3100/fa/products/super-newclar/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Super Newclar protez dişler",
+      "description": "İki katmanlı Super Newclar, tam ve bölümlü protezler için kaynakta belirtilen çapraz bağlı formülü kullanır.",
+      "image": "http://127.0.0.1:3100/media/official/1686378486.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "SUPER NEWCLAR"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/tr/products/super-newclar/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 48
+}

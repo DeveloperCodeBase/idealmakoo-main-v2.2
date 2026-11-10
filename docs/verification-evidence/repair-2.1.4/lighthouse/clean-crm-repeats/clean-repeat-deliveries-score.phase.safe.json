@@ -1,0 +1,50 @@
+{
+  "format": "topology-bound-phase-safe-derivative-v2",
+  "phase": "clean-repeat-deliveries-score",
+  "kind": "scoring",
+  "startedAt": "2026-10-25T22:39:58.370219+00:00",
+  "finishedAt": "2026-10-25T22:40:15.052908+00:00",
+  "durationSeconds": 16.683,
+  "topologySha256": "d0c85e36be10862b020361b4179ad2add3a02848966239cb01fd7b6a92837bf4",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "commandLaunchAttempted": true,
+  "commandStarted": true,
+  "coreConfigurationHashAloneBindsProxy": false,
+  "actualCommandExitCode": 0,
+  "validationPassed": true,
+  "validationErrorCode": null,
+  "validationIsSeparateFromLighthouseOutcome": true,
+  "receivedOrForwardedSignals": [],
+  "wrapperForcedKillAfterSixtySeconds": false,
+  "originalPrivateReceiptSha256": "ba2e4886006ba0bd762d9741fd36c261d73921cbb252ab7bc0953cf32e91da9c",
+  "coreArtifacts": [
+    {
+      "directoryLabel": "idealmakoo-214-clean-repeat-ar-crm-deliveries",
+      "files": {
+        "manifest.json": {
+          "sha256": "0ca417c7d72a14fe3e5681d0d48430191558de3aa0c1c108c4b5eef8beefec3a",
+          "bytes": 1979
+        },
+        "inventory.json": {
+          "sha256": "8d1a31b16ae97cd67edb03434c1b923207ea08e4ef3d59c2b6a5df20ae5a64bb",
+          "bytes": 3025
+        },
+        "summary.json": {
+          "sha256": "641c66ab1f546a38a2eb57f1227baebf3bea4f3bb53217af022d36d840cc4965",
+          "bytes": 5726
+        }
+      },
+      "coreConfigurationHash": "54c8fed80546d0b6feddeebc06a0079af8cca395ddbe1f1403a4cbeb31cc72d2",
+      "counts": {
+        "expected": 1,
+        "attempted": 1,
+        "completed": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "pending": 0,
+        "coverageComplete": true
+      }
+    }
+  ],
+  "privateCommandsLogsProcessIdentifiersOmitted": true
+}

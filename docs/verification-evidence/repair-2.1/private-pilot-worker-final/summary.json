@@ -1,0 +1,328 @@
+{
+  "format": "private-lighthouse-evidence-v1",
+  "scope": "authenticated",
+  "updatedAt": "2026-10-21T10:44:27.851Z",
+  "expected": 3,
+  "attempted": 3,
+  "completed": 3,
+  "errors": 0,
+  "timeouts": 0,
+  "pending": 0,
+  "coverageComplete": true,
+  "interrupted": false,
+  "scenarioCoverage": {
+    "measurement": "Authenticated navigation, Lighthouse audits and recorded shell/content/authentication checks for the listed jobs.",
+    "roles": [
+      "customer",
+      "superAdmin"
+    ],
+    "locales": [
+      "en",
+      "fa"
+    ],
+    "devices": [
+      "mobile"
+    ],
+    "jobKinds": {
+      "workspace": 2,
+      "account": 0,
+      "representative-role": 0,
+      "owned-request-detail": 1
+    },
+    "registeredPrivatePaths": 101,
+    "registeredLocalePathsInventoried": 3,
+    "expectedJobs": 3,
+    "attemptedJobs": 3,
+    "successfulJobs": 3,
+    "allInventoriedNavigationsSucceeded": true,
+    "allRoleRouteCombinationsTested": false,
+    "workflowActionsMeasured": false,
+    "limitation": "Only the inventoried role/locale/device/data scenarios are covered. Navigation measurements do not assert exhaustive CRUD, permission-matrix or business-workflow coverage. Owned-request identities are omitted."
+  },
+  "omissions": {
+    "rawLighthouseReports": true,
+    "screenshotsAndBinaryPayloads": true,
+    "rawUrlsAndQueryIdentifiers": true,
+    "cookiesHeadersCredentialsAndSessionIdentifiers": true,
+    "domTextLabelsSnippetsAndAttributes": true,
+    "arbitraryTitlesDescriptionsDisplayValuesAndErrorText": true,
+    "networkResourceIdentifiers": true,
+    "safeSelectorPolicy": "Standard element names, combinators and positional pseudo-classes only; IDs, classes and attributes removed.",
+    "auditOutcomes": "Every audit outcome is retained. Unknown audit IDs receive an opaque alias. Image audits retain outcome metadata only.",
+    "errors": "Known Lighthouse or runner error codes and presence/counts are retained. Free-form error and warning text is omitted explicitly.",
+    "details": "Only allowlisted numeric measurements, structural containers and simplified selectors are retained.",
+    "authentication": "Before/after proof retains only known roles, HTTP status codes, booleans and UTC observation/expiry times. Planned real renewal retains its fixed reason, times and success; identities and credentials are omitted.",
+    "detailMaximumArrayItems": 20,
+    "detailMaximumDepth": 8,
+    "detailMaximumNodesPerAudit": 2000,
+    "note": "A privacy-filtered derivative, not a raw Lighthouse report. Consult the separately protected raw report by its SHA-256 for omitted private details."
+  },
+  "parts": [
+    {
+      "filename": "audit-part-0001.json",
+      "attempts": 3,
+      "bytes": 239952,
+      "sha256": "1f4858e83d5036f08a1afaa8993361c81ba8bdc8ec901bfe7249341902d380cf"
+    }
+  ],
+  "records": [
+    {
+      "id": "480f751bad945473",
+      "route": "/fa/admin/",
+      "locale": "fa",
+      "role": "superAdmin",
+      "kind": "workspace",
+      "device": "mobile",
+      "expectedStatus": 200,
+      "indexed": false,
+      "queryAndFragmentOmitted": false,
+      "attempt": 1,
+      "status": "completed",
+      "scores": {
+        "performance": 60,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 1821.0609,
+        "largest-contentful-paint": 7667.7131500000005,
+        "speed-index": 1821.0609,
+        "total-blocking-time": 572.9999999999991,
+        "cumulative-layout-shift": 0,
+        "interactive": 7667.713150000001
+      },
+      "durationMs": 9835,
+      "startedAt": "2026-10-21T10:43:48.234Z",
+      "finishedAt": "2026-10-21T10:43:58.069Z",
+      "fetchTime": "2026-10-21T10:43:51.365Z",
+      "authVerified": true,
+      "authenticationProofVersion": 2,
+      "checks": {
+        "preSessionRoleVerified": true,
+        "preStaffMfaVerified": true,
+        "preSessionFreshnessVerified": true,
+        "sessionRoleVerified": true,
+        "httpStatusVerified": true,
+        "staffMfaVerified": true,
+        "shellPresent": true,
+        "contentReady": true,
+        "noindex": true,
+        "finalPathMatches": true,
+        "documentLanguage": true,
+        "workspaceLoaded": true,
+        "ownedRequestVisible": true,
+        "ownedRequestVerified": true,
+        "apiErrorFree": true,
+        "runtimeErrorFree": true,
+        "sessionRole": "superAdmin",
+        "httpStatus": 200
+      },
+      "preflight": {
+        "sessionRole": "superAdmin",
+        "httpStatus": 200,
+        "workspaceStatus": 200,
+        "securityStatus": 200,
+        "expiresAt": "2026-10-22T10:43:42.472Z",
+        "observedAt": "2026-10-21T10:43:49.719Z",
+        "otherFieldsOmitted": true
+      },
+      "httpStatus": 200,
+      "apiFailureCount": 0,
+      "pageErrorCount": 0,
+      "runWarnings": {
+        "count": 0,
+        "textOmitted": true
+      },
+      "arbitraryResultFieldsOmitted": true,
+      "evidence": {
+        "filename": "audit-part-0001.json",
+        "index": 0,
+        "rawReportSha256": "98124ca0c9b8875f2608fa5506aa463093f40f0adafcace18f09b95951d3f9e5"
+      }
+    },
+    {
+      "id": "04cf11f1ffbfbdaa",
+      "route": "/en/admin/pages/",
+      "locale": "en",
+      "role": "superAdmin",
+      "kind": "workspace",
+      "device": "mobile",
+      "expectedStatus": 200,
+      "indexed": false,
+      "queryAndFragmentOmitted": false,
+      "attempt": 1,
+      "status": "completed",
+      "scores": {
+        "performance": 60,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 58
+      },
+      "metrics": {
+        "first-contentful-paint": 1457.6358,
+        "largest-contentful-paint": 8370.179,
+        "speed-index": 1457.6358,
+        "total-blocking-time": 589,
+        "cumulative-layout-shift": 0,
+        "interactive": 8400.179
+      },
+      "durationMs": 9016,
+      "startedAt": "2026-10-21T10:43:58.073Z",
+      "finishedAt": "2026-10-21T10:44:07.089Z",
+      "fetchTime": "2026-10-21T10:43:59.394Z",
+      "authVerified": true,
+      "authenticationProofVersion": 2,
+      "checks": {
+        "preSessionRoleVerified": true,
+        "preStaffMfaVerified": true,
+        "preSessionFreshnessVerified": true,
+        "sessionRoleVerified": true,
+        "httpStatusVerified": true,
+        "staffMfaVerified": true,
+        "shellPresent": true,
+        "contentReady": true,
+        "noindex": true,
+        "finalPathMatches": true,
+        "documentLanguage": true,
+        "workspaceLoaded": true,
+        "ownedRequestVisible": true,
+        "ownedRequestVerified": true,
+        "apiErrorFree": true,
+        "runtimeErrorFree": true,
+        "sessionRole": "superAdmin",
+        "httpStatus": 200
+      },
+      "preflight": {
+        "sessionRole": "superAdmin",
+        "httpStatus": 200,
+        "workspaceStatus": 200,
+        "securityStatus": 200,
+        "expiresAt": "2026-10-22T10:43:42.472Z",
+        "observedAt": "2026-10-21T10:43:58.152Z",
+        "otherFieldsOmitted": true
+      },
+      "httpStatus": 200,
+      "apiFailureCount": 0,
+      "pageErrorCount": 0,
+      "runWarnings": {
+        "count": 0,
+        "textOmitted": true
+      },
+      "arbitraryResultFieldsOmitted": true,
+      "evidence": {
+        "filename": "audit-part-0001.json",
+        "index": 1,
+        "rawReportSha256": "f6f342efaab06b42593338a7a42077f88956a35473641143f1179656ee150e56"
+      }
+    },
+    {
+      "id": "72c767b22f2ed584",
+      "route": "/fa/account/requests/",
+      "locale": "fa",
+      "role": "customer",
+      "kind": "owned-request-detail",
+      "device": "mobile",
+      "expectedStatus": 200,
+      "indexed": false,
+      "ownedRequestIdentifierOmitted": true,
+      "queryAndFragmentOmitted": true,
+      "attempt": 1,
+      "status": "completed",
+      "scores": {
+        "performance": 61,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 58
+      },
+      "metrics": {
+        "first-contentful-paint": 1221.7392,
+        "largest-contentful-paint": 6178.848,
+        "speed-index": 1221.7392,
+        "total-blocking-time": 651.1304,
+        "cumulative-layout-shift": 0,
+        "interactive": 6181.498
+      },
+      "durationMs": 9464,
+      "startedAt": "2026-10-21T10:44:15.672Z",
+      "finishedAt": "2026-10-21T10:44:25.136Z",
+      "fetchTime": "2026-10-21T10:44:18.141Z",
+      "authVerified": true,
+      "authenticationProofVersion": 2,
+      "checks": {
+        "preSessionRoleVerified": true,
+        "preStaffMfaVerified": true,
+        "preSessionFreshnessVerified": true,
+        "sessionRoleVerified": true,
+        "httpStatusVerified": true,
+        "staffMfaVerified": true,
+        "shellPresent": true,
+        "contentReady": true,
+        "noindex": true,
+        "finalPathMatches": true,
+        "documentLanguage": true,
+        "workspaceLoaded": true,
+        "ownedRequestVisible": true,
+        "ownedRequestVerified": true,
+        "apiErrorFree": true,
+        "runtimeErrorFree": true,
+        "sessionRole": "customer",
+        "httpStatus": 200
+      },
+      "preflight": {
+        "sessionRole": "customer",
+        "httpStatus": 200,
+        "workspaceStatus": null,
+        "securityStatus": 200,
+        "expiresAt": "2026-10-22T10:44:12.483Z",
+        "observedAt": "2026-10-21T10:44:16.479Z",
+        "otherFieldsOmitted": true
+      },
+      "httpStatus": 200,
+      "apiFailureCount": 0,
+      "pageErrorCount": 0,
+      "runWarnings": {
+        "count": 0,
+        "textOmitted": true
+      },
+      "arbitraryResultFieldsOmitted": true,
+      "evidence": {
+        "filename": "audit-part-0001.json",
+        "index": 2,
+        "rawReportSha256": "3d922f64454b61cd0fdd01181697f867ad260d7f380356bd0a528f22bfc32704"
+      }
+    }
+  ],
+  "attempts": [
+    {
+      "id": "480f751bad945473",
+      "attempt": 1,
+      "status": "completed",
+      "evidence": {
+        "filename": "audit-part-0001.json",
+        "index": 0,
+        "rawReportSha256": "98124ca0c9b8875f2608fa5506aa463093f40f0adafcace18f09b95951d3f9e5"
+      }
+    },
+    {
+      "id": "04cf11f1ffbfbdaa",
+      "attempt": 1,
+      "status": "completed",
+      "evidence": {
+        "filename": "audit-part-0001.json",
+        "index": 1,
+        "rawReportSha256": "f6f342efaab06b42593338a7a42077f88956a35473641143f1179656ee150e56"
+      }
+    },
+    {
+      "id": "72c767b22f2ed584",
+      "attempt": 1,
+      "status": "completed",
+      "evidence": {
+        "filename": "audit-part-0001.json",
+        "index": 2,
+        "rawReportSha256": "3d922f64454b61cd0fdd01181697f867ad260d7f380356bd0a528f22bfc32704"
+      }
+    }
+  ]
+}

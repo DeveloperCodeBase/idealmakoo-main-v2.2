@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/research/apple-super-major-wear/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "2e19d2594f2cbad219b0bf4d73e11f06fade28b7a8c8b736bbb13eaea8d70973",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "مقارنة تآكل أسنان آبل وسوبر ماجور | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "دراسة على 64 عينة بمحاكي مضغ ومقارنة مسح ثلاثي الأبعاد قبل الاختبار وبعده."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/research/apple-super-major-wear/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/apple-super-major-wear/",
+    "en": "http://127.0.0.1:3100/en/research/apple-super-major-wear/",
+    "tr": "http://127.0.0.1:3100/tr/research/apple-super-major-wear/",
+    "ar": "http://127.0.0.1:3100/ar/research/apple-super-major-wear/",
+    "ru": "http://127.0.0.1:3100/ru/research/apple-super-major-wear/",
+    "x-default": "http://127.0.0.1:3100/fa/research/apple-super-major-wear/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 95
+}

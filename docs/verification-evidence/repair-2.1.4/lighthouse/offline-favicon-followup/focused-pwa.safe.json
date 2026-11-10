@@ -1,0 +1,68 @@
+{
+  "format": "offline-favicon-focused-pwa-v1",
+  "exportedAt": "2026-10-26T01:11:43.200783+00:00",
+  "status": "passed",
+  "actualCommandExitCode": 0,
+  "guardedCommandDurationSeconds": 6.228,
+  "stats": {
+    "startTime": "2026-10-26T01:11:14.080Z",
+    "duration": 5100.32,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "cases": [
+    {
+      "title": "an installation offer survives navigation to the guide and is used only by its button",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMilliseconds": 1214,
+          "errorCount": 0
+        }
+      ]
+    },
+    {
+      "title": "production public assets cache and five localized offline pages work without caching account data",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMilliseconds": 3155,
+          "errorCount": 0
+        }
+      ]
+    }
+  ],
+  "expectedCases": 2,
+  "completedCases": 2,
+  "failures": 0,
+  "retries": 0,
+  "sourceTestSha256": "709e8d5f1b82617128c6aa536eed3926652dcc2fa1eadc914b77cb4c18d1b4bf",
+  "rawReportSha256": "e723aec0917c44f9bf11fac2369b122c11b7fd19cd603fbe49bce7a7f95ea58a",
+  "phaseReceiptSha256": "f43412a108ce13fecff0fb4eeaf6b3b2326f041d8f7b203a4aa893c4b22233cd",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "currentStaticInputFingerprint": "7453e88d3e56fbe65ef319c3b0a770bd48fef216505e49e7d3e5955f829655ee",
+  "topologySha256": "9423dd71d0172fd02d0249dba41d3f0ad5332ec9da3d8dfb1b26c4c6429c4c53",
+  "assertedBehavior": [
+    "one-use retained install offer across navigation",
+    "pre-existing offline-v1 cache seeded before first worker registration and removed after activation",
+    "five offline-v2 localized documents cached",
+    "bundled PNG available offline with200/imagepng/correctPNGsignature",
+    "five actual localized public fallback navigations with service-worker responses",
+    "public font cache works offline",
+    "private/account path remains uncached and fails offline"
+  ],
+  "authBudgetResetEnabled": false,
+  "privilegedHarnessCredentialsRequired": false,
+  "newFull69BrowserSuiteOrDockerRunClaimed": false,
+  "rawScreenshotsTracesOrPrivateReportDelivered": false
+}

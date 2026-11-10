@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/research/acrylic-composite-resin-bond/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "f0b637a0a296a45a012cd98f04d218b240a4ae58ef55866c80515bb4011ffb68",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Akrilik ve kompozit dişlerin kaide rezinine bağlantısı | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Super Berelian, Yaghoot ve Major dişlerinin kaide rezinine bağlantısının laboratuvar karşılaştırması."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/research/acrylic-composite-resin-bond/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/acrylic-composite-resin-bond/",
+    "en": "http://127.0.0.1:3100/en/research/acrylic-composite-resin-bond/",
+    "tr": "http://127.0.0.1:3100/tr/research/acrylic-composite-resin-bond/",
+    "ar": "http://127.0.0.1:3100/ar/research/acrylic-composite-resin-bond/",
+    "ru": "http://127.0.0.1:3100/ru/research/acrylic-composite-resin-bond/",
+    "x-default": "http://127.0.0.1:3100/fa/research/acrylic-composite-resin-bond/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 54
+}

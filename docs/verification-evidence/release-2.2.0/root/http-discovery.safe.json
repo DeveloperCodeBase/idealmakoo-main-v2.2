@@ -1,0 +1,298 @@
+{
+  "base": "loopback acceptance only",
+  "checks": [
+    {
+      "locale": "fa",
+      "status": 200,
+      "total": 118,
+      "shown": 3
+    },
+    {
+      "locale": "en",
+      "status": 200,
+      "total": 118,
+      "shown": 3
+    },
+    {
+      "locale": "tr",
+      "status": 200,
+      "total": 118,
+      "shown": 3
+    },
+    {
+      "locale": "ar",
+      "status": 200,
+      "total": 118,
+      "shown": 3
+    },
+    {
+      "locale": "ru",
+      "status": 200,
+      "total": 118,
+      "shown": 3
+    }
+  ],
+  "sitemap": {
+    "status": 200,
+    "shards": [
+      {
+        "path": "/sitemaps/ar-careers-1.xml",
+        "urls": 2,
+        "bytes": 1341
+      },
+      {
+        "path": "/sitemaps/ar-events-1.xml",
+        "urls": 1,
+        "bytes": 719
+      },
+      {
+        "path": "/sitemaps/ar-glossary-1.xml",
+        "urls": 1,
+        "bytes": 733
+      },
+      {
+        "path": "/sitemaps/ar-knowledge-1.xml",
+        "urls": 1,
+        "bytes": 740
+      },
+      {
+        "path": "/sitemaps/ar-news-1.xml",
+        "urls": 1,
+        "bytes": 705
+      },
+      {
+        "path": "/sitemaps/ar-pages-1.xml",
+        "urls": 44,
+        "bytes": 26737
+      },
+      {
+        "path": "/sitemaps/ar-products-1.xml",
+        "urls": 20,
+        "bytes": 13510
+      },
+      {
+        "path": "/sitemaps/ar-research-1.xml",
+        "urls": 14,
+        "bytes": 10681
+      },
+      {
+        "path": "/sitemaps/ar-resources-1.xml",
+        "urls": 34,
+        "bytes": 26866
+      },
+      {
+        "path": "/sitemaps/en-careers-1.xml",
+        "urls": 2,
+        "bytes": 1341
+      },
+      {
+        "path": "/sitemaps/en-events-1.xml",
+        "urls": 1,
+        "bytes": 719
+      },
+      {
+        "path": "/sitemaps/en-glossary-1.xml",
+        "urls": 1,
+        "bytes": 733
+      },
+      {
+        "path": "/sitemaps/en-knowledge-1.xml",
+        "urls": 1,
+        "bytes": 740
+      },
+      {
+        "path": "/sitemaps/en-news-1.xml",
+        "urls": 1,
+        "bytes": 705
+      },
+      {
+        "path": "/sitemaps/en-pages-1.xml",
+        "urls": 44,
+        "bytes": 26737
+      },
+      {
+        "path": "/sitemaps/en-products-1.xml",
+        "urls": 20,
+        "bytes": 13510
+      },
+      {
+        "path": "/sitemaps/en-research-1.xml",
+        "urls": 14,
+        "bytes": 10681
+      },
+      {
+        "path": "/sitemaps/en-resources-1.xml",
+        "urls": 34,
+        "bytes": 26866
+      },
+      {
+        "path": "/sitemaps/fa-careers-1.xml",
+        "urls": 2,
+        "bytes": 1341
+      },
+      {
+        "path": "/sitemaps/fa-events-1.xml",
+        "urls": 1,
+        "bytes": 719
+      },
+      {
+        "path": "/sitemaps/fa-glossary-1.xml",
+        "urls": 1,
+        "bytes": 733
+      },
+      {
+        "path": "/sitemaps/fa-knowledge-1.xml",
+        "urls": 1,
+        "bytes": 740
+      },
+      {
+        "path": "/sitemaps/fa-news-1.xml",
+        "urls": 1,
+        "bytes": 705
+      },
+      {
+        "path": "/sitemaps/fa-pages-1.xml",
+        "urls": 44,
+        "bytes": 26737
+      },
+      {
+        "path": "/sitemaps/fa-products-1.xml",
+        "urls": 20,
+        "bytes": 13510
+      },
+      {
+        "path": "/sitemaps/fa-research-1.xml",
+        "urls": 14,
+        "bytes": 10681
+      },
+      {
+        "path": "/sitemaps/fa-resources-1.xml",
+        "urls": 34,
+        "bytes": 26866
+      },
+      {
+        "path": "/sitemaps/ru-careers-1.xml",
+        "urls": 2,
+        "bytes": 1341
+      },
+      {
+        "path": "/sitemaps/ru-events-1.xml",
+        "urls": 1,
+        "bytes": 719
+      },
+      {
+        "path": "/sitemaps/ru-glossary-1.xml",
+        "urls": 1,
+        "bytes": 733
+      },
+      {
+        "path": "/sitemaps/ru-knowledge-1.xml",
+        "urls": 1,
+        "bytes": 740
+      },
+      {
+        "path": "/sitemaps/ru-news-1.xml",
+        "urls": 1,
+        "bytes": 705
+      },
+      {
+        "path": "/sitemaps/ru-pages-1.xml",
+        "urls": 44,
+        "bytes": 26737
+      },
+      {
+        "path": "/sitemaps/ru-products-1.xml",
+        "urls": 20,
+        "bytes": 13510
+      },
+      {
+        "path": "/sitemaps/ru-research-1.xml",
+        "urls": 14,
+        "bytes": 10681
+      },
+      {
+        "path": "/sitemaps/ru-resources-1.xml",
+        "urls": 34,
+        "bytes": 26866
+      },
+      {
+        "path": "/sitemaps/tr-careers-1.xml",
+        "urls": 2,
+        "bytes": 1341
+      },
+      {
+        "path": "/sitemaps/tr-events-1.xml",
+        "urls": 1,
+        "bytes": 719
+      },
+      {
+        "path": "/sitemaps/tr-glossary-1.xml",
+        "urls": 1,
+        "bytes": 733
+      },
+      {
+        "path": "/sitemaps/tr-knowledge-1.xml",
+        "urls": 1,
+        "bytes": 740
+      },
+      {
+        "path": "/sitemaps/tr-news-1.xml",
+        "urls": 1,
+        "bytes": 705
+      },
+      {
+        "path": "/sitemaps/tr-pages-1.xml",
+        "urls": 44,
+        "bytes": 26737
+      },
+      {
+        "path": "/sitemaps/tr-products-1.xml",
+        "urls": 20,
+        "bytes": 13510
+      },
+      {
+        "path": "/sitemaps/tr-research-1.xml",
+        "urls": 14,
+        "bytes": 10681
+      },
+      {
+        "path": "/sitemaps/tr-resources-1.xml",
+        "urls": 34,
+        "bytes": 26866
+      }
+    ],
+    "uniqueCanonicalUrls": 590,
+    "privateRoutes": 0
+  },
+  "health": {
+    "status": "ok",
+    "database": "ok",
+    "privacy": "ready",
+    "version": "2.2.0"
+  },
+  "passed": true,
+  "seconds": 1.996,
+  "robots": {
+    "status": 200,
+    "recordedAt": "2026-10-26T14:32:15.331563+00:00",
+    "sha256": "faa6bbec9fd4fc549fa909bbc3b85e7aa6c1a092671906211079e290d83e4521",
+    "sitemapEntryPresent": true,
+    "sitemapPaths": [
+      "/sitemap.xml"
+    ],
+    "disallowedPaths": [
+      "/api/",
+      "/admin/",
+      "/*/admin/",
+      "/*/account/",
+      "/*/auth/",
+      "/*/page/",
+      "/*/published/",
+      "/*/feedback/",
+      "/*/saved-share/",
+      "/*/communication-preferences/",
+      "/*/communication-verification/",
+      "/*/communication-unsubscribe/"
+    ]
+  }
+}

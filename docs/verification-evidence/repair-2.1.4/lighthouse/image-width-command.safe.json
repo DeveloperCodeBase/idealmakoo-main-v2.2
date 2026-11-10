@@ -1,0 +1,12 @@
+{
+  "label": "final-image-width-comparison",
+  "startedAt": "2026-10-25T12:48:57.698497+00:00",
+  "finishedAt": "2026-10-25T12:48:57.963668+00:00",
+  "durationSeconds": 0.265,
+  "exitCode": 0,
+  "receivedSignals": [],
+  "environmentValuesExported": false,
+  "buildId": "NWcRPAySX3HCzbpKSDJNf",
+  "sourceReceiptSha256": "dc04a25da1e5e2628bba9d8c6c7e07b80e7b030530ad24c8fab04ace244a1851",
+  "commandAndHostPathsOmitted": true
+}

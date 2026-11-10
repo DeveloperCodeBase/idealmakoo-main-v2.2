@@ -1,0 +1,28 @@
+{
+  "format": "portable-tools-packaging-correction-v1",
+  "recordedAt": "2026-10-25T19:20:30.102Z",
+  "scope": "Documentation copy only; application, original production tests, tested helper sources and packager unchanged.",
+  "initialActualSourcePackageCheck": {
+    "actualExitCode": 1,
+    "findings": 1,
+    "reason": "Embedded database password",
+    "file": "docs/verification-evidence/repair-2.1.4/lighthouse/tools/test_native_proxy_guard.py",
+    "archiveCreated": false,
+    "observation": "Parent reported the actual unchanged package:source -- --check result."
+  },
+  "excludedDocumentationCopy": "test_native_proxy_guard.py",
+  "excludedCopySourceSha256": "bb2d7b4fe22736e696b748a470ea6d5b5de5e4ccf5bdbc7c4413c5c2d69d8a32",
+  "originalTestRetainedOutsideDeliverable": true,
+  "originalSourceEditedOrLiteralsObfuscated": false,
+  "credentialScannerWeakened": false,
+  "historicalExportSha256": "88d7fb6bcf7352896643e88557dd948860931f3b8472bf9c1d34c81d03903723",
+  "safeTestResultsAndSourceShaRetained": true,
+  "subsetScan": {
+    "method": "Execute the unchanged credentials definitions and scan function extracted byte-for-byte from the actual source packager against every resulting file, with its real docs path.",
+    "packagerSha256": "e65c81ae0a75eefd9bbf769fb1a2a18b4a4e2ae2314a77fa3179e1f494505e5c",
+    "files": 13,
+    "findings": 0,
+    "credentialValuesPrinted": false
+  },
+  "fullStandardSourcePackageRecheck": "Parent will run the standard command separately; not claimed by this bounded subset check."
+}

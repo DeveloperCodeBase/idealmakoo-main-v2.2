@@ -1,0 +1,104 @@
+{
+  "updatedAt": "2026-10-25T17:01:10.244261+00:00",
+  "scope": "Closed current 2.1.4 disposable Docker acceptance stages, including original failures, environment corrections, actual restoration and final normal VM shutdown",
+  "evidence": [
+    {
+      "file": "01-managed-update-first-attempt.safe.json",
+      "sha256": "717f8b51b74bf759c91e979c417dac9e6e2e44bb3f3cf3a5906c2848e4fd1954",
+      "bytes": 1334
+    },
+    {
+      "file": "02-selective-proxy-preservation.safe.json",
+      "sha256": "a3cadc161e63184b9e454b927dd29f7106b998b3d0b47b74afc88fae5def5d30",
+      "bytes": 546
+    },
+    {
+      "file": "03-managed-update.safe.json",
+      "sha256": "e078877e10436c5b4b6a56350b2b5ad69447fe2214f05f94cfcf95950b5a2fab",
+      "bytes": 1061
+    },
+    {
+      "file": "04-source-runtime-role.safe.json",
+      "sha256": "a08c18b0d47d854a18426d5893a364847065da94844195edbe8fa9559ca94225",
+      "bytes": 4841
+    },
+    {
+      "file": "05-production-image-optimizer.safe.json",
+      "sha256": "4ef3049a28166fa3ed0e8024a185d7c4296a175c3d209b6528f0df5c09ebc043",
+      "bytes": 818
+    },
+    {
+      "file": "06-private-av-workflow.safe.json",
+      "sha256": "56c524057cfcfd3d4c651d71b9493b546190e27dd55485aec3d2e43d27c5107a",
+      "bytes": 1444
+    },
+    {
+      "file": "07-canonical-backup-download.safe.json",
+      "sha256": "de75dfefd6b59567f61e6ae0357a4d0a49e267f13480f7494bb24f8350db5c85",
+      "bytes": 923
+    },
+    {
+      "file": "08-authenticated-backup-verification.safe.json",
+      "sha256": "bea946802c9de58a7b1b231eb8d6d2aaac8f6cd4c735e92f6d77948973e4c1ef",
+      "bytes": 2831
+    },
+    {
+      "file": "09-isolated-restore-drill.safe.json",
+      "sha256": "d14111869e232ee62376c22885532edb981fd3b3ff300a70219e15ec18b88be9",
+      "bytes": 1078
+    },
+    {
+      "file": "10-external-vm-interruption-recovery.safe.json",
+      "sha256": "69f2da158b2034216a82fa6cb245c37a8c0f5660ede02d0dbee8a91d294316ca",
+      "bytes": 1564
+    },
+    {
+      "file": "11-restore-marker-helper-correction.safe.json",
+      "sha256": "7b88a2759729eea80aa32c13eeb7a8f0403c785f22cc4943bdcc3896ea1becf6",
+      "bytes": 2491
+    },
+    {
+      "file": "12-guarded-in-place-restore.safe.json",
+      "sha256": "9b6b3cdaef262434350ff367568a8049ee570c69c5bccdbeda5bb2d2aad8a059",
+      "bytes": 6989
+    },
+    {
+      "file": "13-fresh-install-network-trust.safe.json",
+      "sha256": "0a7bf67b90960a32a6bfe6331277935b53c921b80f1634c6c3f466b1f35a80d3",
+      "bytes": 2641
+    },
+    {
+      "file": "14-fresh-application-install.safe.json",
+      "sha256": "053297a5d229887bd5d43ae98b4e644f9203b186b6bf154022db267ba95ed2f3",
+      "bytes": 8503
+    },
+    {
+      "file": "15-fresh-private-av-workflow.safe.json",
+      "sha256": "3dcd6711c78c6c238eedb9aa4186bcacd2a9fb8a0a39a2898ec0477c43a26454",
+      "bytes": 1464
+    },
+    {
+      "file": "16-normal-shutdown-preservation.safe.json",
+      "sha256": "ff48c81eae5c16e3381f9d4d09d644fee6700ccf62b331dfa7a6c638469e3ecc",
+      "bytes": 3323
+    }
+  ],
+  "completed": [
+    "actual managed source upgrade and original Docker build",
+    "installed source, seven required assets, runtime identity and restricted database role",
+    "actual production-pruned 480px optimizer and pixel decode",
+    "real private upload, worker and ClamAV clean/quarantine/download workflow",
+    "canonical full encrypted backup download with separate protected recovery identity",
+    "independent age decryption, authenticated format3 verification and exact full source/asset comparison",
+    "real isolated restore drill",
+    "guarded in-place restore activation, marker and session readback",
+    "isolated fresh application installation on existing Ubuntu/Docker host",
+    "fresh-project generated/preserved keys, pristine seeds, owner MFA gate, initial encrypted backup and actual AV workflow",
+    "normal final VM shutdown with backing identities, retained volumes and encrypted backups verified"
+  ],
+  "pending": [],
+  "rawPrivateLogsAndKeysExported": false,
+  "inProgress": [],
+  "status": "passed",
+  "allRequiredOperationalStagesClosed": true
+}

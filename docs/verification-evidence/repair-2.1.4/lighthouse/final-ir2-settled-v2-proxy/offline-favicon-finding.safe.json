@@ -1,0 +1,62 @@
+{
+  "format": "offline-favicon-existing-report-finding-v1",
+  "observedAt": "2026-10-26T00:52:20.493161+00:00",
+  "scope": "original64a-five-offline-documents",
+  "newBrowserOrHttpRequests": 0,
+  "allFiveHaveOnlyThisFailingBestPracticesAudit": true,
+  "styleOrCspFailureObserved": false,
+  "findings": [
+    {
+      "documentPath": "/offline/ar.html",
+      "bestPracticesScore": 96,
+      "auditId": "errors-in-console",
+      "resourcePath": "/favicon.ico",
+      "observedStatus": 404,
+      "sanitizedReportFile": "../offline-mobile-final-ir2-settled-v2/8f0a38030ebcee31.attempt-1.sanitized-lhr.json",
+      "sanitizedReportSha256": "34656b569d48bb48c2578fe1f96a44cba045083c89122ac187153efca97efdfb",
+      "rawReportSha256": "f68672c6bd6ab5a8ee821dca65cde04e2c59a8fdc2930035a1f14f53ef7fe56a"
+    },
+    {
+      "documentPath": "/offline/en.html",
+      "bestPracticesScore": 96,
+      "auditId": "errors-in-console",
+      "resourcePath": "/favicon.ico",
+      "observedStatus": 404,
+      "sanitizedReportFile": "../offline-mobile-final-ir2-settled-v2/df1e6a22c45841a9.attempt-1.sanitized-lhr.json",
+      "sanitizedReportSha256": "01679654143a075c379e7c642830960a7d1d86d2801af12f178f64c04aea91bb",
+      "rawReportSha256": "f110ed515bace701c009ab6341f69cd128e82e1df00eed3e2414186d821e7294"
+    },
+    {
+      "documentPath": "/offline/fa.html",
+      "bestPracticesScore": 96,
+      "auditId": "errors-in-console",
+      "resourcePath": "/favicon.ico",
+      "observedStatus": 404,
+      "sanitizedReportFile": "../offline-mobile-final-ir2-settled-v2/1e8a050247ea4ab6.attempt-1.sanitized-lhr.json",
+      "sanitizedReportSha256": "367faad4846f23bc7e5fa68a175e21cc378755795c6d54ad714cda2ff70b3b8c",
+      "rawReportSha256": "e4b85551cf25a2fb7e6882830f90052c368826bdfb938580b6678889d8011091"
+    },
+    {
+      "documentPath": "/offline/ru.html",
+      "bestPracticesScore": 96,
+      "auditId": "errors-in-console",
+      "resourcePath": "/favicon.ico",
+      "observedStatus": 404,
+      "sanitizedReportFile": "../offline-mobile-final-ir2-settled-v2/0abdec68d0f5e3e6.attempt-1.sanitized-lhr.json",
+      "sanitizedReportSha256": "dbec2350aef2a498e3a41ae1dd76627834f06c955ee7fa964c4f67a481f14e2f",
+      "rawReportSha256": "ec17442cb190fabee9b71e7441fb7a8508a0bd8414ee38691e9320410339a5d7"
+    },
+    {
+      "documentPath": "/offline/tr.html",
+      "bestPracticesScore": 96,
+      "auditId": "errors-in-console",
+      "resourcePath": "/favicon.ico",
+      "observedStatus": 404,
+      "sanitizedReportFile": "../offline-mobile-final-ir2-settled-v2/4ba908b555be52c0.attempt-1.sanitized-lhr.json",
+      "sanitizedReportSha256": "3ea720ef27bebbcc586736e4118ec14f7f0204d52028c52cf306531d5e8f7e8e",
+      "rawReportSha256": "6b85e6e81e8cb65bf9842193eaf5573cd8e2d08b8e1a1d78722226e038203e86"
+    }
+  ],
+  "originalScoresRetained": true,
+  "correctionStatus": "separate-static-asset-followup-authorized-not-yet-measured"
+}

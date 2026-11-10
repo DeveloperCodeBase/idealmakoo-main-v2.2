@@ -1,0 +1,11 @@
+{
+  "kind": "real-pg-regression-after-fix",
+  "startedAt": "2026-10-25T03:16:11.254380+00:00",
+  "finishedAt": "2026-10-25T03:16:13.376659+00:00",
+  "seconds": 2.1222802659999616,
+  "exitCode": 0,
+  "waited": true,
+  "sourceSha256": "baa58aec548bde226f763b32ee7afa771f161fca26288aa2f9a0b55a27c36984",
+  "testSha256": "1c111a5ff065b3e150d989f56b44f5730afc3220800cb0dd469ad708ca5c4e11",
+  "logSha256": "8652a1945db9e6ca60c83f3089a9a50b85eebe030d3035532c7f23d2c6b267a9"
+}

@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/resources/official-site-archive/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "7148d15c15f546e54456f40d88e33776229f463b6fa57ab4ee3768d0e8642653",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "آرشیو صفحات سایت مرجع | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "آرشیو صفحات مرجع محصولات، پژوهش‌ها و معرفی شرکت؛ متن اصلی فارسی، تاریخ ثبت و پیوند هر منبع برای مراجعه در دسترس است."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/resources/official-site-archive/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/official-site-archive/",
+    "en": "http://127.0.0.1:3100/en/resources/official-site-archive/",
+    "tr": "http://127.0.0.1:3100/tr/resources/official-site-archive/",
+    "ar": "http://127.0.0.1:3100/ar/resources/official-site-archive/",
+    "ru": "http://127.0.0.1:3100/ru/resources/official-site-archive/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/official-site-archive/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 75
+}

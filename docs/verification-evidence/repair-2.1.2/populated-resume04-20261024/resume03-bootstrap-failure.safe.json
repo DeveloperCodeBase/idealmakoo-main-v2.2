@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "kind": "resume03-acceptance-bootstrap-refusal",
+  "status": "failed-before-product-body",
+  "recordedAt": "2026-10-24T13:30:57.226626+00:00",
+  "job": "restore-populated-resume-03",
+  "actualChildOutcome": {
+    "schema": 1,
+    "kind": "owned-guest-acceptance-job-outcome",
+    "job": "restore-populated-resume-03",
+    "status": "failed",
+    "startedAt": "2026-10-24T13:22:16.615501+00:00",
+    "completedAt": "2026-10-24T13:22:16.766181+00:00",
+    "pid": 119900,
+    "startTicks": 2267538,
+    "exitCode": 125,
+    "actualWaitConsumed": true
+  },
+  "freshOriginalLaunchPreflightPassed": true,
+  "originalLaunchPreflightSha256": "37865416a0be686efa64ea4cde3306d99e8e81fa85223994609414089a22e46c",
+  "launcherSha256": "8ea362dca8e1b6802e1a2184ae88294cf3a69122b15e957a11b0317130ef2e16",
+  "bootstrapSha256": "a4b6bf84c7e4209010381638d1f46ed6d18bf95a7612805a7bd5292f82f07586",
+  "observerSha256": "1982aae7339ce2e7453b127c7b83951f755224a5edbab29daeb3463c98722682",
+  "originalRestoreSourceSha256": "74f299b67ae9739b0719c6692e87671b9146cbea9ff1ce081e840ea238d36244",
+  "exactMessageClassification": "Reviewed acceptance bootstrap combined invocation-or-inherited-override guard refused",
+  "specificPredicateIdentified": false,
+  "originalProductScriptProcessInvoked": true,
+  "originalProductBodyReached": false,
+  "productLifecycleTimeoutClaimed": false,
+  "traceFilesObservedAfterChildExit": 0,
+  "pendingCheckpointUnchanged": true,
+  "checkpointPhase": "security-applied",
+  "checkpointMetadataSha256": "e0b6a8c47379e71d7f38767199603d154c154b7d6ccc0db68f83e793067f1dfa",
+  "originalRestore02Actual124Preserved": true,
+  "downstreamWitnessApiUpdateOrFreshRecoveryLaunched": false,
+  "automaticRetry": false,
+  "waits": {
+    "actualChildWaitConsumed": true,
+    "launcherWaiterSessionId": 45998,
+    "launcherGuestExitCode": 0,
+    "launcherOuterExitCode": 0,
+    "launcherWaitConsumed": true,
+    "fileObservationWaiterSessionId": 87280,
+    "fileObservationGuestExitCode": 0,
+    "fileObservationOuterExitCode": 0,
+    "fileObservationWaitConsumed": true,
+    "collectorWaiterSessionId": 71312,
+    "collectorExitCode": 0,
+    "collectorWaitConsumed": true
+  },
+  "privateOutput": {
+    "stdout.private": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "included": false
+    },
+    "stderr.private.log": {
+      "sha256": "568c3a326eaeb280be34db09237a2a27de909469c627878a3b1520f1ca91ad56",
+      "bytes": 83,
+      "included": false
+    }
+  },
+  "retainedProvenanceReceiptSha256": "0bd805e52ed34a8257d6563f22d8c114711382bbfb23678dfce65a105e93cf80",
+  "retainedProvenanceDoesNotReconstructHistoricalChildEnvironment": true,
+  "harmlessLocalHostBashFixtureOnly": {
+    "receiptSha256": "4fa576449adda9e814338b040b5145e1422db12240295b057e196afbc484e22c",
+    "startupArgsMatch": true,
+    "guestSemanticsProven": false
+  }
+}

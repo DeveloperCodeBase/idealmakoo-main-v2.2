@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/marketing-training/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "9d5fd087ed7a916d234c3c85228b49cb68fb9502dbd99e102cbda4b0775c6fe5",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "آموزش و مدیریت بازار | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "شناخت نیاز مصرف‌کننده، مطالعه بازار، بهبود مستمر و توجه به مهارت کارکنان."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/marketing-training/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/marketing-training/",
+    "en": "http://127.0.0.1:3100/en/marketing-training/",
+    "tr": "http://127.0.0.1:3100/tr/marketing-training/",
+    "ar": "http://127.0.0.1:3100/ar/marketing-training/",
+    "ru": "http://127.0.0.1:3100/ru/marketing-training/",
+    "x-default": "http://127.0.0.1:3100/fa/marketing-training/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 55
+}

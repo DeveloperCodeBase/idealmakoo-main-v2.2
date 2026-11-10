@@ -1,0 +1,310 @@
+{
+  "format": "idealmakoo.public-dependency-advisory-summary",
+  "schemaVersion": 1,
+  "finalRelease": false,
+  "kind": "fresh-lockfile-advisory-check",
+  "collectionCompletedAt": "2026-10-22T05:28:35.216582+00:00",
+  "registry": "https://registry.npmjs.org",
+  "nodeVersion": "v24.19.0",
+  "npmVersion": "11.9.0",
+  "commands": [
+    "npm audit --json --package-lock-only --ignore-scripts --registry=https://registry.npmjs.org --audit-level=low --omit=dev",
+    "npm audit --json --package-lock-only --ignore-scripts --registry=https://registry.npmjs.org --audit-level=low --include=dev --include=optional --include=peer"
+  ],
+  "executionControls": {
+    "emptyPrivateUserAndGlobalNpmConfigs": true,
+    "separatePrivateCaches": true,
+    "perAuditDeadlineSeconds": 120,
+    "fetchTimeoutMilliseconds": 45000,
+    "fetchRetries": 0,
+    "lifecycleScriptsDisabled": true,
+    "noInstallFixOrUpdate": true
+  },
+  "dependencyInputs": [
+    {
+      "path": "package.json",
+      "bytes": 2146,
+      "sha256Before": "53d7b278f31022c21c72c9531c69ff5f0edee406a29249c812d2615d5f1c28af",
+      "sha256After": "53d7b278f31022c21c72c9531c69ff5f0edee406a29249c812d2615d5f1c28af"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 196114,
+      "sha256Before": "362eb9c406b73518235d96b56ada6b34842b59798ce145664dd709f8419cb73f",
+      "sha256After": "362eb9c406b73518235d96b56ada6b34842b59798ce145664dd709f8419cb73f"
+    }
+  ],
+  "dependencyInputsUnchanged": true,
+  "lockfileVersion": 3,
+  "resolvedPackageUrls": 397,
+  "allResolvedUrlsUseSelectedPublicRegistry": true,
+  "results": [
+    {
+      "scope": "production",
+      "startedAt": "2026-10-22T05:28:32.434331+00:00",
+      "completedAt": "2026-10-22T05:28:33.257509+00:00",
+      "durationSeconds": 0.823,
+      "exitCode": 0,
+      "reportCompleted": true,
+      "reportedVulnerabilities": {
+        "info": 0,
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "critical": 0,
+        "total": 0
+      },
+      "rawReportBytes": 365,
+      "rawReportSha256": "e50d3c19f139fbb681b06a7ec1ae588ab2faea3005033738fec5eeddb8a48752",
+      "stderrBytes": 0,
+      "policyPassAtLowThreshold": true
+    },
+    {
+      "scope": "full",
+      "startedAt": "2026-10-22T05:28:33.277023+00:00",
+      "completedAt": "2026-10-22T05:28:35.202635+00:00",
+      "durationSeconds": 1.926,
+      "exitCode": 1,
+      "reportCompleted": true,
+      "reportedVulnerabilities": {
+        "info": 0,
+        "low": 0,
+        "moderate": 2,
+        "high": 5,
+        "critical": 0,
+        "total": 7
+      },
+      "rawReportBytes": 4283,
+      "rawReportSha256": "ac7a579617f736752206025e9671faa793820f0c16b56f1738d3cd5f58990c20",
+      "stderrBytes": 0,
+      "policyPassAtLowThreshold": false
+    }
+  ],
+  "affectedPackageEntries": [
+    {
+      "name": "braces",
+      "lockedVersion": "3.0.3",
+      "developmentOnlyInLockfile": true,
+      "isDirect": false,
+      "reportedSeverity": "high",
+      "viaAdvisories": [
+        "GHSA-vfj7-8cjw-p6xm"
+      ],
+      "viaPackages": [],
+      "npmReportedFixAvailable": {
+        "name": "tailwindcss",
+        "version": "4.3.3",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "chokidar",
+      "lockedVersion": "3.6.0",
+      "developmentOnlyInLockfile": true,
+      "isDirect": false,
+      "reportedSeverity": "high",
+      "viaAdvisories": [],
+      "viaPackages": [
+        "braces"
+      ],
+      "npmReportedFixAvailable": {
+        "name": "tailwindcss",
+        "version": "4.3.3",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "fast-glob",
+      "lockedVersion": "3.3.3",
+      "developmentOnlyInLockfile": true,
+      "isDirect": false,
+      "reportedSeverity": "high",
+      "viaAdvisories": [],
+      "viaPackages": [
+        "micromatch"
+      ],
+      "npmReportedFixAvailable": true
+    },
+    {
+      "name": "micromatch",
+      "lockedVersion": "4.0.8",
+      "developmentOnlyInLockfile": true,
+      "isDirect": false,
+      "reportedSeverity": "high",
+      "viaAdvisories": [],
+      "viaPackages": [
+        "braces"
+      ],
+      "npmReportedFixAvailable": {
+        "name": "tailwindcss",
+        "version": "4.3.3",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "postcss-nested",
+      "lockedVersion": "6.2.0",
+      "developmentOnlyInLockfile": true,
+      "isDirect": false,
+      "reportedSeverity": "moderate",
+      "viaAdvisories": [],
+      "viaPackages": [
+        "postcss-selector-parser"
+      ],
+      "npmReportedFixAvailable": true
+    },
+    {
+      "name": "postcss-selector-parser",
+      "lockedVersion": "6.1.5",
+      "developmentOnlyInLockfile": true,
+      "isDirect": false,
+      "reportedSeverity": "moderate",
+      "viaAdvisories": [
+        "GHSA-rj75-hqrm-r3gf"
+      ],
+      "viaPackages": [],
+      "npmReportedFixAvailable": {
+        "name": "tailwindcss",
+        "version": "4.3.3",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "tailwindcss",
+      "lockedVersion": "3.4.17",
+      "developmentOnlyInLockfile": true,
+      "isDirect": true,
+      "reportedSeverity": "high",
+      "viaAdvisories": [],
+      "viaPackages": [
+        "chokidar",
+        "fast-glob",
+        "micromatch",
+        "postcss-nested",
+        "postcss-selector-parser"
+      ],
+      "npmReportedFixAvailable": {
+        "name": "tailwindcss",
+        "version": "4.3.3",
+        "isSemVerMajor": true
+      }
+    }
+  ],
+  "distinctUnderlyingAdvisoryCount": 2,
+  "underlyingAdvisories": {
+    "GHSA-vfj7-8cjw-p6xm": {
+      "name": "braces",
+      "url": "https://github.com/advisories/GHSA-vfj7-8cjw-p6xm",
+      "severity": "high",
+      "range": "<=3.0.3",
+      "cwe": [
+        "CWE-674"
+      ]
+    },
+    "GHSA-rj75-hqrm-r3gf": {
+      "name": "postcss-selector-parser",
+      "url": "https://github.com/advisories/GHSA-rj75-hqrm-r3gf",
+      "severity": "moderate",
+      "range": "<7.1.6",
+      "cwe": [
+        "CWE-400",
+        "CWE-407"
+      ]
+    }
+  },
+  "countInterpretation": "Seven affected package entries include npm meta-vulnerabilities propagated through two underlying advisories; they are not seven independent disclosures.",
+  "selectorParserBackport": {
+    "lockedVersion": "6.1.5",
+    "maintainerListsAsPatched": true,
+    "maintainerPatchedVersions": [
+      "6.1.5",
+      "7.1.6"
+    ],
+    "npmReportedAffectedRange": "<7.1.6",
+    "maintainerAdvisory": "https://github.com/postcss/postcss-selector-parser/security/advisories/GHSA-rj75-hqrm-r3gf",
+    "aggregateAdvisory": "https://github.com/advisories/GHSA-rj75-hqrm-r3gf",
+    "assessment": "The current locked version is listed as patched by the maintainer. npm/aggregate metadata still flags the whole range below 7.1.6. The two moderate package entries remain in the unadjusted report.",
+    "installedCodeReadOnlyInspection": {
+      "packageJsonSha256": "8b3f70826ba194cad94f78929201d8562d82de178611a68ad4c4d3ed287d5a0a",
+      "parserJavaScriptSha256": "b00cfcba4229ca9db927fa401d1d2b40ecaec14401316bfce8283aa8cc2b46fc",
+      "setBasedFixPatternsObserved": {
+        "uniqueIndexesUseSet": true,
+        "interpolationMembershipUsesSet": true,
+        "classMembershipUsesSet": true,
+        "idMembershipUsesSet": true
+      },
+      "codeExecuted": false
+    },
+    "compatibilityOrExploitTestPerformedInThisCheck": false
+  },
+  "bracesAssessment": {
+    "lockedVersion": "3.0.3",
+    "reportedAffectedRange": "<=3.0.3",
+    "patchedVersionListedByCurrentAdvisory": null,
+    "advisory": "https://github.com/advisories/GHSA-vfj7-8cjw-p6xm",
+    "findingRetained": true,
+    "npmSuggestedRootPackageChange": {
+      "name": "tailwindcss",
+      "version": "4.3.3",
+      "isSemVerMajor": true
+    },
+    "assessment": "The brace-pattern denial-of-service advisory remains unresolved in the locked development dependency chain. No patched braces release is listed by this advisory; npm reports a major Tailwind upgrade path. No alternative fix or migration was installed or validated here."
+  },
+  "localBuildConfiguration": {
+    "tailwindContent": [
+      "./src/**/*.{ts,tsx}"
+    ],
+    "postcssPlugins": [
+      "tailwindcss",
+      "autoprefixer"
+    ],
+    "dockerfileProductionDependencyPrune": "--omit=dev",
+    "actualCurrentDockerImageInspected": false,
+    "sourceFiles": [
+      {
+        "path": "tailwind.config.ts",
+        "sha256": "fd80041d6519f2600029fa866c30fb8363e93af225fd9e638ff942a55465d1cc"
+      },
+      {
+        "path": "postcss.config.mjs",
+        "sha256": "9199a4d20e13f66b8be9a348af182f4d14805b93b315db19f95be8432cd8301b"
+      },
+      {
+        "path": "Dockerfile",
+        "sha256": "73c6a4ef453388a1caf1c197c6ded87301e8b294a351f35ed6a70aa8d1249591"
+      }
+    ]
+  },
+  "limitations": [
+    "Zero production findings means no advisory returned for the production lockfile scope at these timestamps; it does not establish a vulnerability-free application.",
+    "This is a registry advisory lookup of the lockfile, not an OS, container-image, deployed-runtime, penetration, provenance-signature or tarball-integrity scan.",
+    "Development dependencies still run in build and CI contexts. Their dev flag alone is not proof that all attack paths are unreachable.",
+    "The maintainer/aggregate discrepancy is documented without deleting or lowering the raw npm findings.",
+    "The historical parser compatibility comparison was not rerun and does not establish compatibility for the current application or every selector.",
+    "No registry version enumeration, remediation installation, dependency update, exploit attempt or major-version migration was executed in this check.",
+    "The npm dependency metadata describes the lockfile inventory; it is not presented as a separate observed production-image package census."
+  ],
+  "references": [
+    {
+      "url": "https://docs.npmjs.com/cli/v11/commands/npm-audit/",
+      "purpose": "Audit exit status, omit/package-lock-only semantics and meta-vulnerabilities"
+    },
+    {
+      "url": "https://github.com/advisories/GHSA-vfj7-8cjw-p6xm",
+      "purpose": "Current braces affected range and lack of a listed patched version"
+    },
+    {
+      "url": "https://github.com/postcss/postcss-selector-parser/security/advisories/GHSA-rj75-hqrm-r3gf",
+      "purpose": "Maintainer 6.1.5 backport and context-dependent reachability"
+    },
+    {
+      "url": "https://github.com/advisories/GHSA-rj75-hqrm-r3gf",
+      "purpose": "Aggregate range retained in the npm response"
+    }
+  ],
+  "publicExportPolicy": {
+    "explicitFieldsOnly": true,
+    "privatePathsOrCredentialsIncluded": false,
+    "rawPrivateRecordsIncluded": false
+  }
+}

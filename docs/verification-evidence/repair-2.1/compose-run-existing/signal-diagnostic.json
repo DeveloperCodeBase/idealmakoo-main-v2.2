@@ -1,0 +1,159 @@
+{
+  "format": "idealmakoo.isolated-signal-diagnostic",
+  "startedAt": "2026-10-21T13:44:07.407837+00:00",
+  "state": "completed",
+  "instanceId": "idealmakoo-user-directory-final-install-13b6943b742546bcabc0b2da5ed395d6",
+  "appImage": "sha256:3f1efb66022d779ecb2628102a158ba89e10812a8cf43dde85d89d643dc052b7",
+  "databaseImage": "sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a",
+  "originalFailureExitCode": 139,
+  "preservedArchiveSha256": "7c65c6db2b5fbf02ad6c72dde3ec1ed3791a20ce063553755dcfbe573efc0f13",
+  "originalEntrypointUnchanged": true,
+  "productSourceModified": false,
+  "installationAccepted": false,
+  "coreLimitBytes": 268435456,
+  "commandTrace": [
+    {
+      "category": "guard-original-containers",
+      "elapsedSeconds": 1.232,
+      "exitCode": 0
+    },
+    {
+      "category": "guard-absent-network",
+      "elapsedSeconds": 1.276,
+      "exitCode": 1
+    },
+    {
+      "category": "guard-absent-container",
+      "elapsedSeconds": 0.987,
+      "exitCode": 1
+    },
+    {
+      "category": "guard-absent-container",
+      "elapsedSeconds": 1.117,
+      "exitCode": 1
+    },
+    {
+      "category": "create-isolated-network",
+      "elapsedSeconds": 3.966,
+      "exitCode": 0
+    },
+    {
+      "category": "create-isolated-database",
+      "elapsedSeconds": 2.433,
+      "exitCode": 0
+    },
+    {
+      "category": "start-isolated-database",
+      "elapsedSeconds": 7.349,
+      "exitCode": 0
+    },
+    {
+      "category": "wait-isolated-database",
+      "elapsedSeconds": 4.176,
+      "exitCode": 2
+    },
+    {
+      "category": "wait-isolated-database",
+      "elapsedSeconds": 4.28,
+      "exitCode": 2
+    },
+    {
+      "category": "wait-isolated-database",
+      "elapsedSeconds": 4.465,
+      "exitCode": 2
+    },
+    {
+      "category": "wait-isolated-database",
+      "elapsedSeconds": 4.002,
+      "exitCode": 2
+    },
+    {
+      "category": "wait-isolated-database",
+      "elapsedSeconds": 4.113,
+      "exitCode": 0
+    },
+    {
+      "category": "restore-isolated-database",
+      "elapsedSeconds": 31.282,
+      "exitCode": 0
+    },
+    {
+      "category": "verify-cloned-counts",
+      "elapsedSeconds": 4.2,
+      "exitCode": 0
+    },
+    {
+      "category": "verify-cloned-migrations",
+      "elapsedSeconds": 4.265,
+      "exitCode": 0
+    },
+    {
+      "category": "verify-cloned-roles",
+      "elapsedSeconds": 3.463,
+      "exitCode": 0
+    },
+    {
+      "category": "create-instrumented-migrate",
+      "elapsedSeconds": 2.674,
+      "exitCode": 0
+    },
+    {
+      "category": "verify-isolated-bindings",
+      "elapsedSeconds": 1.181,
+      "exitCode": 0
+    },
+    {
+      "category": "retain-diagnostic-container-state",
+      "elapsedSeconds": 1.327,
+      "exitCode": 0
+    },
+    {
+      "category": "stop-isolated-database",
+      "elapsedSeconds": 6.242,
+      "exitCode": 0
+    }
+  ],
+  "shimSha256": "95ddc1256666eba9e561afdebf1cf2e6595048d2b093db3b47f149f8a6290fd7",
+  "diagnosticNetwork": "idealmakoo-signal-20261021-132404",
+  "diagnosticDatabaseContainer": "idealmakoo-signal-20261021-132404-db",
+  "diagnosticMigrateContainer": "idealmakoo-signal-20261021-132404-migrate",
+  "unchangedEnvironmentExceptPath": true,
+  "noOriginalMounts": true,
+  "noPublishedPorts": true,
+  "noBuildOrPull": true,
+  "phase": "stop-isolated-database",
+  "clonedCounts": {
+    "schemaMigrations": 41,
+    "users": 0,
+    "userSettings": 0,
+    "staffProvisioned": 0,
+    "workspaceEntities": 0,
+    "auditEvents": 0
+  },
+  "clonedMigrationRowsMatch": true,
+  "clonedRolesMatch": true,
+  "clonedLedgerMatches": true,
+  "diagnosticStartedAt": "2026-10-21T13:45:44.368766+00:00",
+  "attachPid": 11649,
+  "diagnosticExitCode": 0,
+  "diagnosticFinishedAt": "2026-10-21T13:49:21.085455+00:00",
+  "corePatternRestored": true,
+  "diagnosticContainerState": {
+    "Status": "exited",
+    "Running": false,
+    "OOMKilled": false,
+    "ExitCode": 0,
+    "Error": "",
+    "StartedAt": "2026-10-21T13:45:46.12461695Z",
+    "FinishedAt": "2026-10-21T13:49:17.92682339Z"
+  },
+  "originalLedgerUnchanged": true,
+  "originalEnvironmentUnchanged": true,
+  "cores": [],
+  "entrypointLogSha256": "2304030ea9eb78f60a67d271965a4d0bb2121abf0920e6625b96be07db1189df",
+  "phaseMarkers": [],
+  "finishedAt": "2026-10-21T13:49:28.926588+00:00",
+  "helperSha256": "4641546d5c209ffb7de34641fe2ca7addc35b15a5fe872df2e4c4d98fba41dd9",
+  "runtimeRecordSha256": "e020132a3d2baad20fa9203ba5d596a96df00b17c01a6b569f9f2e9ccad21d8d",
+  "preservationProofSha256": "7e5918a8eac2db0ff00cbe4cdb46a458bca72b8005cfa3b57e271b92cf039158"
+}

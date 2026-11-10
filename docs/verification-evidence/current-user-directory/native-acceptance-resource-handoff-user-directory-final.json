@@ -1,0 +1,37 @@
+{
+  "format": "idealmakoo.native-acceptance-resource-handoff",
+  "observedAt": "2026-10-21T06:12:28.672837+00:00",
+  "reason": "The complete42-test browser gate passed; native app and worker are stopped to provide memory headroom for the separate6GiB Ubuntu VM acceptance.",
+  "processes": [
+    {
+      "kind": "web",
+      "pid": 11415,
+      "processStartTicks": "357094",
+      "originalLaunchPath": "/tmp/idealmakoo-production-repair-20261020/evidence/runtime-acceptance-web-user-directory-final-launch-original.json",
+      "originalLaunchSha256": "ff8b63c5578a37643c27e81a38af521b1bada59c0480504255d39e7005247b55",
+      "stoppedRecordPath": "/tmp/idealmakoo-production-repair-20261020/evidence/runtime-acceptance-web-user-directory-final-process.json",
+      "stoppedRecordSha256": "b55a888f8542006c893e31273fcc54b755a4e7da2418452dd42881bff17fd591",
+      "stoppedAt": "2026-10-21T06:11:29.983Z",
+      "observedState": "absent",
+      "gracefulStopObserved": true
+    },
+    {
+      "kind": "worker",
+      "pid": 11452,
+      "processStartTicks": "357575",
+      "originalLaunchPath": "/tmp/idealmakoo-production-repair-20261020/evidence/runtime-acceptance-worker-user-directory-final-launch-original.json",
+      "originalLaunchSha256": "2d9d8d3167752defa719e26f35d9c736f212117ccef16097161897543f21ae64",
+      "stoppedRecordPath": "/tmp/idealmakoo-production-repair-20261020/evidence/runtime-acceptance-worker-user-directory-final-process.json",
+      "stoppedRecordSha256": "eba06ba07ce02d2e8d014e05308f167e06edf30bc1f76c43d0438db3bfff43e3",
+      "stoppedAt": "2026-10-21T06:11:37.960Z",
+      "observedState": "absent",
+      "gracefulStopObserved": true
+    }
+  ],
+  "buildRetained": true,
+  "databaseRetained": true,
+  "cgroupMemoryLimitBytes": 8589934592,
+  "cgroupMemoryCurrentBytes": 7034036224,
+  "browserEvidenceRemainsBoundToOriginalLaunchRecords": true,
+  "futureAuditRequiresFreshLaunchRecords": true
+}

@@ -1,0 +1,17 @@
+{
+  "recordedAt": "2026-10-21T10:51:13.008Z",
+  "fileCount": 819,
+  "reconstructedBuildGateSourceSha256": "7f3ce91bb62edb78824310083b185f1854fa0d98458b04dea167078a24c4155d",
+  "currentSourceSha256": "47bd4263d4a26e3a31a1773fbaf7cf6e77d4319dac8826c0e649e1203acf39f0",
+  "changedFiles": {
+    "scripts/export-private-lighthouse-evidence.mjs": {
+      "beforeSha256": "b3a8becb75313d3b681af5dda818cf32b26965836d19c0c53271a37a3b157844",
+      "afterSha256": "c79e18a46b9ce7d1a73b09517d08c03297ecc8807f22883516411de17c1d9dfc"
+    },
+    "tests/private-lighthouse-export.test.mjs": {
+      "beforeSha256": "73b103b850b927fb7e52e3da22d5580685ce2921a87e8a1bfe344bbc43dadf79",
+      "afterSha256": "304146b4ad97148436d47027476114d895eb81ceebda1d38791f6ca3a92bbdd8"
+    }
+  },
+  "applicationInputProof": "application-after-exporter-fix.json"
+}

@@ -1,0 +1,71 @@
+{
+  "url": "http://127.0.0.1:3100/en/products/glamour/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "7b75f61b300937c537a36f8a668c1041807f525031b5cc4a2f348ca8aa5d23d4",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Glamour denture teeth | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Glamour combines a four-layer structure and composite material in a range of moulds and shades."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/products/glamour/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/glamour/",
+    "en": "http://127.0.0.1:3100/en/products/glamour/",
+    "tr": "http://127.0.0.1:3100/tr/products/glamour/",
+    "ar": "http://127.0.0.1:3100/ar/products/glamour/",
+    "ru": "http://127.0.0.1:3100/ru/products/glamour/",
+    "x-default": "http://127.0.0.1:3100/fa/products/glamour/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Glamour denture teeth",
+      "description": "Glamour combines a four-layer structure and composite material in a range of moulds and shades.",
+      "image": "http://127.0.0.1:3100/media/official/1686378413.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "GLAMOUR"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/en/products/glamour/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 64
+}

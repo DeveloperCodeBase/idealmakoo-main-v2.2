@@ -1,0 +1,209 @@
+{
+  "schema": 1,
+  "kind": "distinct-supported-populated-restore-resume04-acceptance",
+  "status": "original-resume-and-owned-completion-passed",
+  "recordedAt": "2026-10-24T14:09:09.806339+00:00",
+  "job": "restore-populated-resume-04",
+  "scope": {
+    "originalMatchingResume": true,
+    "freshReplacementRepeated": false,
+    "newSafetyBackupTaken": false,
+    "originalWholeInstallerAccepted": false,
+    "finalCurrentSourceDeploymentAccepted": false,
+    "independentPostResumeApiVerificationAccepted": false,
+    "independentFreshHostRecoveryAccepted": false
+  },
+  "authorities": {
+    "trustedCallerZipSha256": "e99523f5e7e069f053004ac8afc00465403cc44cfac1d257abe393fc4e8829ca",
+    "trustedCallerExecutionInputsSha256": "82dd68edb6fa454fd8f296dcc61b958c6d4547e280abc8d70192532c7907d012",
+    "trustedCallerApplicationInputsSha256": "de90dfabf8ddc57473a5943dfb03ba07b35b78f46e175a6e7ce9284fe2fb0558",
+    "originalRestoreScriptSha256": "74f299b67ae9739b0719c6692e87671b9146cbea9ff1ce081e840ea238d36244",
+    "deployedAndArchivedSourceZipSha256": "1b2dd59c60a97bd1c113f6fdf7faaa330d6ca3157ccf3187b94f37eb4cecb806",
+    "deployedImageId": "sha256:4974f775daabed633a6767bc5d8dc4f85b739dbd35c2fbe74695aef87a3fdd94",
+    "populatedArchiveSha256": "7e9714fc3c758038c875b4d0276ac0c54b941ee2986e00efbf792674b7c428ed",
+    "checkpointBeforeSha256": "e0b6a8c47379e71d7f38767199603d154c154b7d6ccc0db68f83e793067f1dfa"
+  },
+  "originalOutcome": {
+    "schema": 1,
+    "kind": "owned-guest-acceptance-job-outcome",
+    "job": "restore-populated-resume-04",
+    "status": "passed",
+    "startedAt": "2026-10-24T13:42:14.410087+00:00",
+    "completedAt": "2026-10-24T14:05:21.145033+00:00",
+    "pid": 125508,
+    "startTicks": 2387319,
+    "exitCode": 0,
+    "actualWaitConsumed": true
+  },
+  "originalOutcomeArtifact": {
+    "sha256": "f025da4de1294da2f459ca189db09ea12aa983c68001e1c776334a495ef42cd2",
+    "bytes": 321
+  },
+  "actualElapsedSeconds": 1386.734946,
+  "originalJobCollection": {
+    "completedAt": "2026-10-24T14:07:00.235086+00:00",
+    "outerWaiterSession": 5465,
+    "outerExitCode": 0,
+    "outerWaitConsumed": true
+  },
+  "privateRawArtifacts": {
+    "stdout": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "included": false
+    },
+    "stderr": {
+      "sha256": "3177aa76c20a6d66180b392023dd18df2c884a15effa6e437f63694a4c4419bd",
+      "bytes": 1385,
+      "included": false
+    },
+    "traceTar": {
+      "sha256": "c7d5367dfbabe0c2d62a97fbe595b4a40da411f6ae2e802f879924a9be0476aa",
+      "bytes": 102400,
+      "included": false
+    }
+  },
+  "observer": {
+    "bootstrapSha256": "ca45f63f801ff82c832b004adc22308be871443940666f4326dcf52b298e90f1",
+    "pythonSha256": "638333efaaa58d89bdb07d95c9b5a00bcdac7aa744e9a11b1f48452f89dfe4e0",
+    "onlyAddedProcessEnvironmentKey": "BASH_ENV",
+    "originalProductSourceAndDeadlinesUnchanged": true,
+    "smallObservationIoOverheadPresent": true,
+    "nestedBashAndNonLifecycleCommandsOutsideTrace": true,
+    "traceCollectionExitCode": 0,
+    "traceCollectionWaiterSession": 17249,
+    "traceCollectionWaitConsumed": true,
+    "traceFiles": 2,
+    "traceBytes": 92124,
+    "traceCollectionReceipt": {
+      "sha256": "00d099b8342c8e7b9133ef650d6a309c56f7524493149d5d4db2c15a268a2a1e",
+      "bytes": 1201
+    },
+    "offlineParserSha256": "df0499e5a1c60c5689dcc43afac84b3d1aa91337d6781589c0886478bbf8ccb2",
+    "offlineParserExitCode": 0,
+    "offlineParserWaitConsumed": true,
+    "diagnosticComplete": true,
+    "diagnosticCounts": {
+      "validatedInvocations": 2,
+      "validatedCommands": 95,
+      "failedCommandAttempts": 0
+    },
+    "diagnosticReceipt": {
+      "sha256": "74150b09851245db6fca3eaafe3ac2e7de9bd252aa0ba1e7a8876a41ca7b80e4",
+      "bytes": 74792
+    },
+    "legacyDiagnosticKindLabel": "offline-resume03-numeric-diagnostic",
+    "actualDiagnosticJobBinding": "restore-populated-resume-04",
+    "invocationSummary": [
+      {
+        "operation": "stop",
+        "startedAt": "2026-10-24T13:42:26.218423+00:00",
+        "completedAt": "2026-10-24T13:42:34.254068+00:00",
+        "actualMainReturnCode": 0,
+        "commandCount": 5,
+        "commandTimingSeconds": {
+          "min": 0.678699,
+          "max": 4.002729
+        },
+        "selectedStartupAndHttpCommands": []
+      },
+      {
+        "operation": "up",
+        "startedAt": "2026-10-24T13:48:50.513197+00:00",
+        "completedAt": "2026-10-24T14:00:38.142029+00:00",
+        "actualMainReturnCode": 0,
+        "commandCount": 90,
+        "commandTimingSeconds": {
+          "min": 1.307718,
+          "max": 35.645891
+        },
+        "selectedStartupAndHttpCommands": [
+          {
+            "sequence": 1,
+            "commandClass": "compose-up",
+            "selectedServices": [
+              "app"
+            ],
+            "observedAt": "2026-10-24T13:48:50.573253+00:00",
+            "completedAt": "2026-10-24T13:49:08.660820+00:00",
+            "delegatedElapsedSeconds": 18.091361,
+            "suppliedMaximumSeconds": null,
+            "originalSuccessfulReturnImpliesChildExitCode": 0
+          },
+          {
+            "sequence": 30,
+            "commandClass": "compose-up",
+            "selectedServices": [
+              "worker"
+            ],
+            "observedAt": "2026-10-24T13:52:01.901668+00:00",
+            "completedAt": "2026-10-24T13:52:37.538936+00:00",
+            "delegatedElapsedSeconds": 35.645891,
+            "suppliedMaximumSeconds": null,
+            "originalSuccessfulReturnImpliesChildExitCode": 0
+          },
+          {
+            "sequence": 83,
+            "commandClass": "compose-up",
+            "selectedServices": [
+              "proxy"
+            ],
+            "observedAt": "2026-10-24T13:59:29.506453+00:00",
+            "completedAt": "2026-10-24T13:59:43.063724+00:00",
+            "delegatedElapsedSeconds": 13.561928,
+            "suppliedMaximumSeconds": null,
+            "originalSuccessfulReturnImpliesChildExitCode": 0
+          },
+          {
+            "sequence": 89,
+            "commandClass": "original-http-readiness-probe",
+            "observedAt": "2026-10-24T14:00:21.873685+00:00",
+            "completedAt": "2026-10-24T14:00:32.395246+00:00",
+            "delegatedElapsedSeconds": 10.508781,
+            "suppliedMaximumSeconds": 12,
+            "originalSuccessfulReturnImpliesChildExitCode": 0
+          }
+        ]
+      }
+    ],
+    "productSuccessNotInferredFromParser": true
+  },
+  "securityPhase": {
+    "originalScriptAlreadyApplied": true,
+    "originalScriptReady": true,
+    "originalScriptAccessReconciled": true,
+    "originalRestore02AuditTimestampPreservedAsAuthority": "2026-10-24T12:44:01.514619+00:00",
+    "newIndependentSecurityWitnessExecuted": false
+  },
+  "ownedCompletion": {
+    "completedAt": "2026-10-24T14:08:08.646101+00:00",
+    "originalOutcomeSha256": "f025da4de1294da2f459ca189db09ea12aa983c68001e1c776334a495ef42cd2",
+    "originalProcessIdentityGone": true,
+    "numericPidReused": false,
+    "ownedCgroupAbsent": true,
+    "ownedCgroupEmptyOrAbsent": true,
+    "readOnlyOperationsLockAcquired": true,
+    "pendingCheckpointAbsent": true,
+    "systemctlShowCalls": 1,
+    "systemctlMaximumSeconds": 15,
+    "systemctlElapsedSeconds": 0.523213,
+    "guestExitCode": 0,
+    "outerWaiterSession": 98256,
+    "outerExitCode": 0,
+    "outerWaitConsumed": true,
+    "sourceReceipt": {
+      "sha256": "125666998fbcdf4cee5f472e07abd3c69d310a4f53c82dc26093608132afb774",
+      "bytes": 1142
+    },
+    "additionalDockerHttpDatabaseAuthenticationCalls": false
+  },
+  "historyPreserved": {
+    "originalRestore02ExitCode": 124,
+    "originalRestore02OutcomeSha256": "d226ce6edcc439e68bfcc46a93ad80d5bff843470d4eb6e69495b9c57fb0c8b6",
+    "acceptanceBootstrapResume03ExitCode": 125,
+    "acceptanceBootstrapResume03OutcomeSha256": "e042d4bc0c5535ae6c25bed91429be2b5175cdecad422c827a6357e15ff8b524",
+    "resume03ProductBodyReached": false,
+    "failedCasesRelabeledSuccessful": false
+  },
+  "subsequentWitnessApiUpdateNativeFreshRecoveryExecuted": false
+}

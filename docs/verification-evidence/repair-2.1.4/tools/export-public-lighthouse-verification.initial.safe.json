@@ -1,0 +1,27 @@
+{
+  "format": "portable-public-evidence-utility-verification-v1",
+  "verifiedAt": "2026-10-25T13:23:43.339Z",
+  "utility": "docs/verification-evidence/repair-2.1.4/tools/export-public-lighthouse-without-images.mjs",
+  "utilitySha256": "796b50678f38d0e4533e9ace3207784660499324529059aa24f0d784c545cd85",
+  "runtimeDependency": "Existing project tsx loader and public-audit-inventory policy; Node built-ins for all export operations",
+  "explicitPaths": [
+    "--project",
+    "--run",
+    "--output"
+  ],
+  "reproduction": {
+    "sourceScope": "four final-build anonymous mobile pilot reports",
+    "buildId": "NWcRPAySX3HCzbpKSDJNf",
+    "exitCode": 0,
+    "byteIdenticalFiles": 12,
+    "reports": 4,
+    "reportBytes": 1456017,
+    "removedImagePaths": 8,
+    "sourceHashesAndReportHashesIdentical": true,
+    "exportTimestampIntentionallyVaries": true
+  },
+  "existingOutputRefused": true,
+  "absoluteScratchDependencies": false,
+  "applicationOrBrowserChanged": false,
+  "note": "This confirms report derivation reproducibility, not new browser measurements or full-site acceptance. Public original reports remain scratch only."
+}

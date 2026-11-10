@@ -1,0 +1,365 @@
+{
+  "format": "primary1169-complete-original64a-evidence-v1",
+  "exportedAt": "2026-10-26T00:52:20.494596+00:00",
+  "status": "original-primary-protocol-complete-separate-static-asset-followup-pending",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "compiledBuildInputFingerprint": "4fcec50f5846b0affccc59e43798613ba134a3f93559ea5ddba9705e1f38cc58",
+  "primaryAuditInclusiveFingerprint": "64a14915618ac34a4daee3aa64eb82d44438b993096491966afc487be9f67b12",
+  "topologySha256": "d0c85e36be10862b020361b4179ad2add3a02848966239cb01fd7b6a92837bf4",
+  "coreConfigurationHashAloneBindsProxy": false,
+  "primaryPlannedStates": 1169,
+  "primaryObservedStates": 1169,
+  "primaryLighthouseCompleted": 1164,
+  "primaryExpected404Contracts": 5,
+  "primaryProcessErrors": 0,
+  "primaryTimeouts": 0,
+  "primaryPending": 0,
+  "primaryScoreRetries": 0,
+  "allFourScoringCommandsActualExitCode": 0,
+  "allFourBeforeAndAfterTopologyChecksPassed": true,
+  "scopeLimits": [
+    "Registered principal-role routes plus explicit other-role/owned-detail scenarios; not all records or the role-route Cartesian product.",
+    "Desktop14 is representative, not all desktop pages.",
+    "Three separate CRM clean repeats do not replace or enter the primary1169.",
+    "Original NWc and firstir2 failed partial runs remain separate historical evidence."
+  ],
+  "scopes": [
+    {
+      "scope": "authenticatedMobile",
+      "directory": "../private-mobile-final-ir2-settled-v2",
+      "counts": {
+        "expected": 530,
+        "attempted": 530,
+        "completed": 530,
+        "errors": 0,
+        "timeouts": 0,
+        "pending": 0,
+        "coverageComplete": true
+      },
+      "aggregate": {
+        "file": "private-mobile-rollup.safe.json",
+        "sha256": "413cfc3f8bf949f2a56c155bd6d283ba627fc80b72d87a7f0d0366619c5a71fb"
+      },
+      "exportManifest": {
+        "file": "../private-mobile-final-ir2-settled-v2/EXPORT.json",
+        "sha256": "0dc1ffaa4399e1868daeb66c36939dfc3a75edfcff2a7e0c2f357779e0b950a0"
+      },
+      "files": 7,
+      "bytes": 44154340,
+      "largestFileBytes": 33482805,
+      "rawReportsOrBrowserImagesDelivered": false
+    },
+    {
+      "scope": "publicMobile",
+      "directory": "../public-mobile-final-ir2-settled-v2",
+      "counts": {
+        "expected": 620,
+        "attempted": 620,
+        "completed": 615,
+        "expectedHttpResponses": 5,
+        "errors": 0,
+        "timeouts": 0,
+        "pending": 0,
+        "coverageComplete": true
+      },
+      "aggregate": {
+        "file": "public-mobile-rollup.safe.json",
+        "sha256": "fb882f4f5689c581cc4f160fa713fc8dc2e08e3ef5bd1b1171b7e6db41ec5246"
+      },
+      "exportManifest": {
+        "file": "../public-mobile-final-ir2-settled-v2/EXPORT.json",
+        "sha256": "9d2ff9269a98f7048e894722a50cec2475bcf1dcf39eca0b4b98df7a0ce6e3cc"
+      },
+      "files": 1245,
+      "bytes": 222597720,
+      "largestFileBytes": 3831914,
+      "rawReportsOrBrowserImagesDelivered": false
+    },
+    {
+      "scope": "offlineMobile",
+      "directory": "../offline-mobile-final-ir2-settled-v2",
+      "counts": {
+        "expected": 5,
+        "attempted": 5,
+        "completed": 5,
+        "expectedHttpResponses": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "pending": 0,
+        "coverageComplete": true
+      },
+      "aggregate": {
+        "file": "offline-mobile-rollup.safe.json",
+        "sha256": "b6f30fb45fc809261054ad4ff5cda94401eb7c786fb8af3c737ced3a56839d17"
+      },
+      "exportManifest": {
+        "file": "../offline-mobile-final-ir2-settled-v2/EXPORT.json",
+        "sha256": "4f9e56fae7d61e68b8e2842051f86e20073ab598b8d306fd41b1b68a302b8e7b"
+      },
+      "files": 15,
+      "bytes": 1344034,
+      "largestFileBytes": 259015,
+      "rawReportsOrBrowserImagesDelivered": false
+    },
+    {
+      "scope": "desktopRepresentatives",
+      "directory": "../desktop-representative-final-ir2-settled-v2",
+      "counts": {
+        "expected": 14,
+        "attempted": 14,
+        "completed": 14,
+        "expectedHttpResponses": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "pending": 0,
+        "coverageComplete": true
+      },
+      "aggregate": {
+        "file": "desktop-representative-rollup.safe.json",
+        "sha256": "facd3428db530bad22e3a62539b4195432739cd7e2d28dddd3b69009bb2ff191"
+      },
+      "exportManifest": {
+        "file": "../desktop-representative-final-ir2-settled-v2/EXPORT.json",
+        "sha256": "309ce917f2d77248ec3c07248f88df260beed15d411ce806bb52e635d0e22696"
+      },
+      "files": 33,
+      "bytes": 5215261,
+      "largestFileBytes": 401367,
+      "rawReportsOrBrowserImagesDelivered": false
+    }
+  ],
+  "primarySafeExportBytes": 273311355,
+  "publicExportPreconditionFailure": {
+    "phase": "public-mobile-safe-export",
+    "actualExitCode": 1,
+    "reason": "retained-proved-dead-owned-audit-lock",
+    "scoreOutcomesChanged": false,
+    "freshExportActualExitCode": 0
+  },
+  "closedLockHandling": "Exact original lock bytes/metadata preserved privately; owner matched consumed phase and was absent in native PID namespace before only that lock was removed; original manifest/inventory/summary hashes unchanged. Unlink failure cause unobserved.",
+  "primaryClosure": "final-original64a-full-closure.safe.json",
+  "files": [
+    {
+      "file": "public-mobile-full.phase.safe.json",
+      "sha256": "d7eac74eb4d54c3f4ee9b0ea580d08369312aa7b256249805b8fbbbf4b7afb72",
+      "bytes": 2035
+    },
+    {
+      "file": "private-owned-closure-readback.phase.safe.json",
+      "sha256": "0e2c1b1dca1066d310d9931a400b78ea12926b4a4c342ec02efc824d02e9e460",
+      "bytes": 2011
+    },
+    {
+      "file": "private-safe-export.phase.safe.json",
+      "sha256": "62df6a66e406a77d773504eecebb58eadb1c3dbb9eaf1f0b958497dc68685f87",
+      "bytes": 3003
+    },
+    {
+      "file": "owned-auth-ip-proof.phase.safe.json",
+      "sha256": "2e39ef1ee55f7375cecd2f3546f696f06247548c48ff1e469f08c1dc441d454b",
+      "bytes": 1238
+    },
+    {
+      "file": "freeze-private-mobile.phase.safe.json",
+      "sha256": "80f6e5cd73bbb1facdefe034b44bae6165a49171802665e4dc7a9bb426ff340a",
+      "bytes": 1998
+    },
+    {
+      "file": "first25-private-diagnostics.safe.json",
+      "sha256": "761f0ff38c0c7030963bd03f9dd24ea20cbae0a6461e9d74e94a2440571c0931",
+      "bytes": 41850
+    },
+    {
+      "file": "public-metadata.phase.safe.json",
+      "sha256": "04184827b27f106c604c09e28bfbedcf596380e48e44e375a99ec20d67e22e55",
+      "bytes": 2387
+    },
+    {
+      "file": "private-role-closure.safe.json",
+      "sha256": "69eba7ea356ae40439c1119e345e7cc1728436967a8b43c34c44b14a066ee805",
+      "bytes": 5479
+    },
+    {
+      "file": "public-mobile-safe-export-02.phase.safe.json",
+      "sha256": "d75b542cb5f560bf890a692356aee268ca8e409591c23305c1af0f5af1e524df",
+      "bytes": 3084
+    },
+    {
+      "file": "proof-public.safe.json",
+      "sha256": "8b95154c2c194b35f0412d460cb8fe598101b2aa06b7bdf8a7473626e095c34e",
+      "bytes": 2418
+    },
+    {
+      "file": "public-transport-proof.phase.safe.json",
+      "sha256": "b1f9064101bd37364876568e093df16d9bbd6f7639b9c81bb8b230bb2a29a905",
+      "bytes": 1129
+    },
+    {
+      "file": "final-original64a-full-closure.safe.json",
+      "sha256": "87588098f303cd67591da1bf185c4695c1a61208cfdf2c9f0cf8bf9ccf93e00d",
+      "bytes": 1211
+    },
+    {
+      "file": "private-owned-closure.safe.json",
+      "sha256": "3edb4421505c17481b66916645b7455b5b388cf563cbc224d431688f2201515d",
+      "bytes": 591
+    },
+    {
+      "file": "topology.safe.json",
+      "sha256": "3d97f7be58da9e35bcdff51396b17fab1b615a095b13179dfb524c5a19f42613",
+      "bytes": 4080
+    },
+    {
+      "file": "desktop-closed-lock-cleanup.safe.json",
+      "sha256": "fad1f0c73721f684e456674e6e2996e47004846eac345e76f213e31fac34f040",
+      "bytes": 1271
+    },
+    {
+      "file": "public-mobile-rollup.phase.safe.json",
+      "sha256": "9fcf49cc735f8df1f7c25cccdc5a36f23fe2786af54acfbd304fabdf266f1357",
+      "bytes": 2168
+    },
+    {
+      "file": "offline-favicon-finding.safe.json",
+      "sha256": "e857d620eff67c8bf5fdbacfaf577403ba244c5bf37880de967c3cf0bd652610",
+      "bytes": 2927
+    },
+    {
+      "file": "offline-mobile-rollup.phase.safe.json",
+      "sha256": "4ba44e07f93bb3b0f632f5a4f9cb2dd3fd0d3f02519f7de37930de541f333ed0",
+      "bytes": 2158
+    },
+    {
+      "file": "desktop-representative-rollup.safe.json",
+      "sha256": "facd3428db530bad22e3a62539b4195432739cd7e2d28dddd3b69009bb2ff191",
+      "bytes": 44912
+    },
+    {
+      "file": "offline-closed-lock-cleanup.safe.json",
+      "sha256": "ad7dedc8dde804f73feea2317d200fac22c6d635c4a1498f84d85e0020431bf2",
+      "bytes": 1261
+    },
+    {
+      "file": "public-mobile-export-size.safe.json",
+      "sha256": "179e216247165de1e4db895e73c57a7926f88c24ceb4419ae52504c13c2aa7b4",
+      "bytes": 1646
+    },
+    {
+      "file": "public-closed-lock-cleanup.safe.json",
+      "sha256": "dd3b3460369cf91d760b89f5784ea288ce7c8b1b3cf6be53bb4fbf63cc715b36",
+      "bytes": 1180
+    },
+    {
+      "file": "offline-mobile-rollup.safe.json",
+      "sha256": "b6f30fb45fc809261054ad4ff5cda94401eb7c786fb8af3c737ced3a56839d17",
+      "bytes": 32655
+    },
+    {
+      "file": "seal-attempt-02.safe.json",
+      "sha256": "ce2316d0f9d7d3d56edf10bc6827e8d554e654682a9656e45e093787ff4195f6",
+      "bytes": 549
+    },
+    {
+      "file": "first25-private.safe.json",
+      "sha256": "7e37da8b83000905db1a5ae9adcd0e137542eac07a904b0fcfedf2d7014e475f",
+      "bytes": 2837
+    },
+    {
+      "file": "public-mobile-rollup.safe.json",
+      "sha256": "fb882f4f5689c581cc4f160fa713fc8dc2e08e3ef5bd1b1171b7e6db41ec5246",
+      "bytes": 55679
+    },
+    {
+      "file": "forms-v1-v2-full-sweep-comparison.safe.json",
+      "sha256": "51832e59a57e44aabfbde57fccbc5c2c28cb5e6629ae78f6eca6beb8c9990b71",
+      "bytes": 3729
+    },
+    {
+      "file": "proof-authenticated.safe.json",
+      "sha256": "75d6e5ea9149f633e22408c5d3b5c9e644b675a5bc6c950f6ebc6c032cbe81f5",
+      "bytes": 5764
+    },
+    {
+      "file": "public-desktop-safe-export.phase.safe.json",
+      "sha256": "376e540f58f9e08c5b5f24060ef30fab9d7acd9a6a9519161974b30191c95199",
+      "bytes": 3091
+    },
+    {
+      "file": "private-mobile-full.phase.safe.json",
+      "sha256": "5f5035166537a485e1443542bcb14ff6755650f3d6bb9bd463fa9833d9c2b85a",
+      "bytes": 2002
+    },
+    {
+      "file": "private-browser-closure.safe.json",
+      "sha256": "0611abf94983fd57152a70ec40db9867497edf36ab5a8411df01806824a1966e",
+      "bytes": 355
+    },
+    {
+      "file": "public-desktop-representative.phase.safe.json",
+      "sha256": "8215fa46b1a52233c5ba6b6303a1ee99632fa6830314a2e576eb68037b8994fd",
+      "bytes": 2054
+    },
+    {
+      "file": "users-cls-structure.safe.json",
+      "sha256": "4ba726113ee4858840c1269bfcb856c08c2d683e3365236dc1a3b331641e3c97",
+      "bytes": 7768
+    },
+    {
+      "file": "seal-attempt-01.refusal.safe.json",
+      "sha256": "b7393351f665cc37c0119bb1d044c2788d9abc68a8329ff8d852149922266e10",
+      "bytes": 1150
+    },
+    {
+      "file": "public-desktop-rollup.phase.safe.json",
+      "sha256": "2d9e27560ed519c956f1609e926e92c2ee7bb2cfeac57d790923766e12189a3c",
+      "bytes": 2171
+    },
+    {
+      "file": "public-mobile-safe-export.phase.safe.json",
+      "sha256": "d25b5766b235b5429015d3dd4ec92a690d1af6e8a2332834856d2de4bc26404c",
+      "bytes": 2131
+    },
+    {
+      "file": "freeze-public-mobile.phase.safe.json",
+      "sha256": "1b62a51e2f76fafdaffc3d2cc6e03acf8a1aa12f2e5863adc2ffc2aa604176c8",
+      "bytes": 2031
+    },
+    {
+      "file": "offline-mobile-full.phase.safe.json",
+      "sha256": "4b10811537197c0272610740e3b6b819d7725aebe96937beb0cdfd6d29780435",
+      "bytes": 2024
+    },
+    {
+      "file": "offline-mobile-safe-export.phase.safe.json",
+      "sha256": "331eeaf49a51b33bbee43c53d272f6f501011efa33edf20d1a2b6f2771489534",
+      "bytes": 3059
+    },
+    {
+      "file": "first50-public.safe.json",
+      "sha256": "a3fba71448d1b38eb75dd334f0fec69d9c19fe780052dae24ca3b908e402b38d",
+      "bytes": 3486
+    },
+    {
+      "file": "diagnostic-overlap.safe.json",
+      "sha256": "9088d2194ef57942e83d79accccc5987672add0c95d151e81a238942b3d77f58",
+      "bytes": 4072
+    },
+    {
+      "file": "private-mobile-rollup.safe.json",
+      "sha256": "413cfc3f8bf949f2a56c155bd6d283ba627fc80b72d87a7f0d0366619c5a71fb",
+      "bytes": 42212
+    },
+    {
+      "file": "PREPARATION.safe.json",
+      "sha256": "74aaca03e4e03bc27a4ab57dd2586590d31298002c728d047d7d14cc48129d7e",
+      "bytes": 5523
+    },
+    {
+      "file": "prepare-all-fixtures.phase.safe.json",
+      "sha256": "7830d93bffae1addc37a6fb52f52b2ce7b454026bccbd79d4a715d35ae757704",
+      "bytes": 1238
+    }
+  ],
+  "privateRawReportsDomCookiesTokensAndBrowserImagesDelivered": false,
+  "staticAssetFollowupDoesNotRelabelOriginalPrimaryScores": true
+}

@@ -1,0 +1,104 @@
+{
+  "format": "native-proxy-topology-safe-derivative-v1",
+  "exportedAt": "2026-10-26T01:15:34.409581+00:00",
+  "originalPrivateContractSha256": "9423dd71d0172fd02d0249dba41d3f0ad5332ec9da3d8dfb1b26c4c6429c4c53",
+  "sealedAt": "2026-10-26T01:10:24.277547+00:00",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "inputFingerprint": "7453e88d3e56fbe65ef319c3b0a770bd48fef216505e49e7d3e5955f829655ee",
+  "sourceInputReceiptSha256": "00c9f0292e88f8a5deed252377f65d34a3572916531397ed4078bd23cfb5f394",
+  "guardedDatabaseIdentity": "b64db08a2a24353240aa60e412150687ad325ee432774971d73c6d13f99cd4aa",
+  "databaseNameSha256": "1f3863898f924ae902cd43b8bb5d75f27ed2e26e77e581ada524f35a0043ce2a",
+  "publicOrigin": "http://127.0.0.1:3100",
+  "upstreamOrigin": "http://127.0.0.1:3102",
+  "scope": "Native loopback HTTP proxy fidelity; not TLS, H2, H3, WAN or full container isolation.",
+  "runtimeEnvironmentObservationScope": "Every declared runtime variable; explicit Next-only PORT/HOSTNAME overrides. Not arbitrary OS-environment equivalence.",
+  "binary": {
+    "sha256": "678ade3bfc088749c81a681adc603333ee0bb023b6a6cfe3c0f58bef8ff854e9",
+    "version": "v2.11.7 h1:yj0Y4fYZGPkSvibBJ1sTWE33xC0fxztVyXEW5iIdUT4=",
+    "sourceImageId": "sha256:cb7508606270b4c98da7e176fc3b7ffd6448ac13a78650c0137335b95a6ee307",
+    "provenanceReceiptSha256": "fff144b0f45fe8f083de29bdee0b7c44aa6e2d776689b77a2638e523ab1a4d89"
+  },
+  "configuration": {
+    "productionCaddyfileSha256": "6e1c0d5cea4aa55abf4fb04d98776446e4e0f512630d91c43030c1313f85e153",
+    "nativeCaddyfileSha256": "e871123c6da9b2e1adb5d23b821ada1cb6e10f24c5ca4588e69246516428764a",
+    "adaptedJsonSha256": "712b4f24d56cedee65b8c4350a554e350c3b0ba6e22a06c1aa0c1dde85bafcf6",
+    "configurationApiDisabled": true,
+    "onlyNativeCaddyChanges": [
+      "upstream-substitution",
+      "loopback-bind"
+    ],
+    "onlyEnvironmentKeyChanged": "TRUST_PROXY"
+  },
+  "nativePidNamespace": "pid:[4026532200]",
+  "processesAtSeal": {
+    "caddy": {
+      "ownedProcessIdentitySha256": "0821d1bc79292f905d48b4919ee4786b6cd65540794c04bb0d82cee47560a2a4",
+      "executableSha256": "678ade3bfc088749c81a681adc603333ee0bb023b6a6cfe3c0f58bef8ff854e9",
+      "uid": 10002,
+      "gid": 10002,
+      "listeners": [
+        {
+          "host": "127.0.0.1",
+          "port": 3100
+        }
+      ],
+      "expectedEnvironmentMatches": true,
+      "forbiddenEnvironmentAbsent": true,
+      "observationMethods": [
+        {
+          "method": "direct",
+          "success": false,
+          "errorCode": "PROC_EXE_PERMISSION_DENIED"
+        },
+        {
+          "method": "same-uid-fork",
+          "success": true,
+          "observerUid": 10002
+        }
+      ]
+    },
+    "next": {
+      "ownedProcessIdentitySha256": "a365fbea1ae92b0bcefe4cb8805e75661906d2d5d57d1caf0affac9b552044fb",
+      "executableSha256": "61ab14cd750fc24d5db53490ec5fc40f756e4b6e136b78cf7004265471d9bd1d",
+      "uid": 0,
+      "gid": 0,
+      "listeners": [
+        {
+          "host": "127.0.0.1",
+          "port": 3102
+        }
+      ],
+      "expectedEnvironmentMatches": true,
+      "forbiddenEnvironmentAbsent": true,
+      "observationMethods": [
+        {
+          "method": "direct",
+          "success": true
+        }
+      ]
+    },
+    "worker": {
+      "ownedProcessIdentitySha256": "5a6a0bac8d90a9b4f881bfd595c40ea7caa729d2978a9ee5f7916e4c8a8ec0c4",
+      "executableSha256": "61ab14cd750fc24d5db53490ec5fc40f756e4b6e136b78cf7004265471d9bd1d",
+      "uid": 0,
+      "gid": 0,
+      "listeners": [],
+      "expectedEnvironmentMatches": true,
+      "forbiddenEnvironmentAbsent": true,
+      "observationMethods": [
+        {
+          "method": "direct",
+          "success": true
+        }
+      ]
+    }
+  },
+  "guardSha256": "22690e970b374366047bddd78deada4201492f479843d2e2ea74b8a3bdf30512",
+  "coreConfigurationHashAloneBindsProxy": false,
+  "phaseReceiptsRequiredForLaterContinuity": true,
+  "omissions": {
+    "environmentPathsValuesAndSecretHashes": true,
+    "rawProcessArgumentsAndPidNumbers": true,
+    "rawLogsPrivateReportsDomCookiesAndImages": true
+  }
+}

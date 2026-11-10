@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/resources/four-teeth-wear-rate-cover/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "89e84cf3d5e260817ac98c13f88a3afe46433c7b8ab13ee90a7d7f8cbb75193f",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Araştırma kaynak görseli — Dört protez diş türünün aşınma hızı karşılaştırması | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Dört protez diş türünün aşınma hızı karşılaştırması — Fabrikanın orijinal görsel belgeleri"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/resources/four-teeth-wear-rate-cover/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/four-teeth-wear-rate-cover/",
+    "en": "http://127.0.0.1:3100/en/resources/four-teeth-wear-rate-cover/",
+    "tr": "http://127.0.0.1:3100/tr/resources/four-teeth-wear-rate-cover/",
+    "ar": "http://127.0.0.1:3100/ar/resources/four-teeth-wear-rate-cover/",
+    "ru": "http://127.0.0.1:3100/ru/resources/four-teeth-wear-rate-cover/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/four-teeth-wear-rate-cover/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 58
+}

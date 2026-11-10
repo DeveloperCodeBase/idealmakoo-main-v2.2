@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/technical-selection/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "d8016b8f74d421f22adcc2ca0a0ebf140ca1224755b9d98db464ea9c4178b929",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "انتخاب فنی / ورود CSV | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "محصول، تعداد، شید و مولد موردنیاز را انتخاب کنید یا فهرست CSV را پس از پیش‌نمایش وارد کنید و به استعلام فنی بیفزایید."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/technical-selection/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/technical-selection/",
+    "en": "http://127.0.0.1:3100/en/technical-selection/",
+    "tr": "http://127.0.0.1:3100/tr/technical-selection/",
+    "ar": "http://127.0.0.1:3100/ar/technical-selection/",
+    "ru": "http://127.0.0.1:3100/ru/technical-selection/",
+    "x-default": "http://127.0.0.1:3100/fa/technical-selection/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 50
+}

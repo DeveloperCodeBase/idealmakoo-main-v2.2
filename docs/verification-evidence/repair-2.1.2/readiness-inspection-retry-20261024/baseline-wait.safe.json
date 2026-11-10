@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "kind": "isolated-readiness-focused-actual-outer-completion",
+  "label": "baseline",
+  "actualOuterToolExitCode": 0,
+  "actualOuterWaitConsumed": true,
+  "returnedRunningSession": false,
+  "wallTimeSeconds": 0.103404287,
+  "ownedChildExitCode": 1,
+  "actualOwnedChildWaitConsumed": true,
+  "baselineExpectedFailure": true,
+  "productApplied": false
+}

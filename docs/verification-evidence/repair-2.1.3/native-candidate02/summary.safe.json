@@ -1,0 +1,64 @@
+{
+  "kind": "verified-final-native-candidate02-summary",
+  "closedAt": "2026-10-25T07:57:38.506766+00:00",
+  "applicationVersion": "2.1.3",
+  "buildId": "JUTCtkNIJ8CT540y_qNL_",
+  "sourceInputSha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+  "sourceInputFiles": 994,
+  "unit": {
+    "tests": 820,
+    "passed": 820,
+    "failed": 0,
+    "skipped": 0,
+    "durationSeconds": 30.991119
+  },
+  "typecheck": {
+    "exitCode": 0,
+    "durationSeconds": 5.089952
+  },
+  "build": {
+    "exitCode": 0,
+    "durationSeconds": 59.415867
+  },
+  "e2e": {
+    "tests": 56,
+    "passed": 56,
+    "failed": 0,
+    "skipped": 0,
+    "retries": 0,
+    "durationSeconds": 236.183289
+  },
+  "gallery": {
+    "acceptedAttempt": "debounce03",
+    "checks": 7,
+    "checkedPageErrors": 0,
+    "typingRuns": 7,
+    "largestObservedInputGapMs": 16,
+    "incompleteTypedUrlRequests": 0,
+    "durationSeconds": 14.219686,
+    "priorUnknownOuterExitPreserved": true
+  },
+  "metadata": {
+    "checked": 620,
+    "passed": 620,
+    "errors": 0,
+    "warnings": 0,
+    "durationSeconds": 9.749458
+  },
+  "lighthouseInventories": {
+    "commands": 25,
+    "uniqueTargetStates": 1223,
+    "scoredTargets": 0,
+    "pendingTargets": 1223,
+    "plannedScoredLhrs": 1218,
+    "plannedExpected404Contracts": 5,
+    "desktopStatesOutsideScope": 1077,
+    "coverageComplete": false,
+    "durationSeconds": 71.219245
+  },
+  "acceptedFinalGatesHaveActualChildAndOuterZeroExitsAndWaits": true,
+  "nativePostgresStoppedNormallyAndOriginalWaitConsumed": true,
+  "rawPrivateArtifactsIncluded": false,
+  "newMeasurementsDuringExport": 0,
+  "tlsDockerAntivirusOrOriginalUpdaterAcceptanceClaimedByThisBundle": false
+}

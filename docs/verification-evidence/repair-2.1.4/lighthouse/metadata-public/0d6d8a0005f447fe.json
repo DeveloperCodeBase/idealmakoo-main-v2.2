@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/goals/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "ab71a53f90f43776e4178b27357fef2ee7bbc87ad6c56c7e838e7fea656ed0e3",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "اهداف و آرمان‌ها | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "گسترش تنوع تولید، دسترسی گروه‌های مختلف مشتریان و توسعه حضور در بازارهای بین‌المللی."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/goals/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/goals/",
+    "en": "http://127.0.0.1:3100/en/goals/",
+    "tr": "http://127.0.0.1:3100/tr/goals/",
+    "ar": "http://127.0.0.1:3100/ar/goals/",
+    "ru": "http://127.0.0.1:3100/ru/goals/",
+    "x-default": "http://127.0.0.1:3100/fa/goals/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 47
+}

@@ -1,0 +1,90 @@
+{
+  "format": "private-lighthouse-evidence-v1",
+  "scope": "authenticated",
+  "createdAt": "2026-10-20T17:59:10.087Z",
+  "configurationHash": "e9f2b999ec5fe87c56ee81c4289e775c616e425e5511b47723cf5df843455d15",
+  "config": {
+    "schemaVersion": 1,
+    "baseOrigin": "http://127.0.0.1:3080",
+    "buildId": "stScJleP0frgKg8QFR4Iq",
+    "applicationVersion": "2.1.0",
+    "lighthouseVersion": "13.5.0",
+    "chromeVersion": "156.0.8078.4",
+    "devices": [
+      "mobile"
+    ],
+    "categories": [
+      "performance",
+      "accessibility",
+      "best-practices",
+      "seo"
+    ],
+    "chromeFlags": [
+      "--headless=new",
+      "--disable-dev-shm-usage",
+      "--enable-unsafe-swiftshader",
+      "--no-sandbox"
+    ],
+    "omittedChromeFlags": 0,
+    "chromeFlagsSha256": "9092709b2943f60920ead72fffdce78772123e2d9bb2402523cdacc0ed0c18c6",
+    "deadlineSeconds": 300,
+    "maxWaitForLoad": 45000,
+    "routesSourceSha256": "57fcd851331201647f8eba1118df95678b548685d11a1a076576c9bc179da81b",
+    "otherConfigFieldsOmitted": true,
+    "privateRunnerSourceSha256": "e1c13f08a16ed3d47243154df2a5cfa398f41896a387762b1aaee8ab803c9fb5",
+    "inventoryHash": "3dd8271b23977b8bceb1dab2ae7129b6145627fd20e1cc796302e67f71c2fb0b",
+    "workloadHash": "488146b8fcfe82621ffc02685b2366477fc403c494d7d8ce1ba6b3e970e89d68"
+  },
+  "expected": 3,
+  "scenarioCoverage": {
+    "measurement": "Authenticated navigation, Lighthouse audits and recorded shell/content/authentication checks for the listed jobs.",
+    "roles": [
+      "customer",
+      "superAdmin"
+    ],
+    "locales": [
+      "en",
+      "fa"
+    ],
+    "devices": [
+      "mobile"
+    ],
+    "jobKinds": {
+      "workspace": 2,
+      "account": 0,
+      "representative-role": 0,
+      "owned-request-detail": 1
+    },
+    "registeredPrivatePaths": 101,
+    "registeredLocalePathsInventoried": 3,
+    "expectedJobs": 3,
+    "attemptedJobs": 3,
+    "successfulJobs": 3,
+    "allInventoriedNavigationsSucceeded": true,
+    "allRoleRouteCombinationsTested": false,
+    "workflowActionsMeasured": false,
+    "limitation": "Only the inventoried role/locale/device/data scenarios are covered. Navigation measurements do not assert exhaustive CRUD, permission-matrix or business-workflow coverage. Owned-request identities are omitted."
+  },
+  "host": {
+    "platform": "linux",
+    "otherHostFieldsOmitted": true
+  },
+  "omissions": {
+    "rawLighthouseReports": true,
+    "screenshotsAndBinaryPayloads": true,
+    "rawUrlsAndQueryIdentifiers": true,
+    "cookiesHeadersCredentialsAndSessionIdentifiers": true,
+    "domTextLabelsSnippetsAndAttributes": true,
+    "arbitraryTitlesDescriptionsDisplayValuesAndErrorText": true,
+    "networkResourceIdentifiers": true,
+    "safeSelectorPolicy": "Standard element names, combinators and positional pseudo-classes only; IDs, classes and attributes removed.",
+    "auditOutcomes": "Every audit outcome is retained. Unknown audit IDs receive an opaque alias. Image audits retain outcome metadata only.",
+    "errors": "Known Lighthouse or runner error codes and presence/counts are retained. Free-form error and warning text is omitted explicitly.",
+    "details": "Only allowlisted numeric measurements, structural containers and simplified selectors are retained.",
+    "authentication": "Before/after proof retains only known roles, HTTP status codes, booleans and UTC observation/expiry times. Planned real renewal retains its fixed reason, times and success; identities and credentials are omitted.",
+    "detailMaximumArrayItems": 20,
+    "detailMaximumDepth": 8,
+    "detailMaximumNodesPerAudit": 2000,
+    "note": "A privacy-filtered derivative, not a raw Lighthouse report. Consult the separately protected raw report by its SHA-256 for omitted private details."
+  }
+}

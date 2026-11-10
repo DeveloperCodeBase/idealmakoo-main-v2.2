@@ -1,0 +1,133 @@
+{
+  "schema": 1,
+  "kind": "isolated-exact-captured-subset-readiness-candidate",
+  "completedAt": "2026-10-24T08:46:01.255675+00:00",
+  "appliedToProduct": false,
+  "vmChanged": false,
+  "baselineApplicationInputSha256": "2bed25d40de1ec28ecaf8edf79f778386ce5c156b8bb8a520f3e214aaec6490e",
+  "changedProductRelativePaths": [
+    "deploy/service-lifecycle.py",
+    "tests/deployment_service_lifecycle_test.py"
+  ],
+  "candidateFiles": [
+    {
+      "path": "deploy/service-lifecycle.py",
+      "beforeSha256": "4fd2771c7b5d4d0c22787f3f03d6a08f6c2f06eebdeafd0c65aa10f967c250e0",
+      "sha256": "41c35c535a685206dbbd22322aa5c3a95ed381ca7e36214ecf721719dbb3f1e6",
+      "bytes": 26301
+    },
+    {
+      "path": "tests/deployment_service_lifecycle_test.py",
+      "beforeSha256": "bae4e67492ea2bf3f4b2b6c3fbf90147862309c03b83df304ae41b8b6730d384",
+      "sha256": "4986ea1d7d490b71c631a34e27e0204bea80277acc201f4a393b4c28b97d7e28",
+      "bytes": 50410
+    }
+  ],
+  "requirePublicDefault": true,
+  "capturedSnapshotRequiresPublicOnlyWithAppAndProxy": true,
+  "newUpAndExplicitCheckSemanticsPreserved": true,
+  "unrelatedLifecycleFunctionsAndClassesAstUnchanged": true,
+  "existingTestMethodsAstUnchanged": true,
+  "newTestMethods": [
+    "test_captured_app_proxy_new_up_and_explicit_check_keep_bounded_public_gate",
+    "test_proxy_subsets_resume_without_starting_absent_app_or_requiring_its_http"
+  ],
+  "snapshotTimeoutStill30": true,
+  "newEnvironmentKnob": false,
+  "noChangedBudgets": true,
+  "baseline": {
+    "schema": 1,
+    "kind": "captured-subset-readiness-focused-regression",
+    "variant": "baseline",
+    "startedAt": "2026-10-24T08:44:52.533225+00:00",
+    "completedAt": "2026-10-24T08:44:52.697721+00:00",
+    "elapsedSeconds": 0.164398,
+    "testExitCode": 1,
+    "expectedExitCode": 1,
+    "expectedExitObserved": true,
+    "testNames": [
+      "LifecycleTests.test_proxy_subsets_resume_without_starting_absent_app_or_requiring_its_http",
+      "LifecycleTests.test_captured_app_proxy_new_up_and_explicit_check_keep_bounded_public_gate",
+      "LifecycleTests.test_all_eight_previous_running_subsets_keep_ids_and_omit_stopped_services"
+    ],
+    "unittestSummary": [
+      "Ran 3 tests in 0.057s",
+      "FAILED (failures=2)"
+    ],
+    "logSha256": "22b188cf0378c069f0eb0ba121a3a332f88c6b1f0f6087ffed6d8f9e916f1858",
+    "fakeClockAndDriverOnly": true,
+    "realDockerOrHttpCalls": false,
+    "vmCalls": false,
+    "productApplied": false,
+    "fullSuiteExecuted": false
+  },
+  "candidate": {
+    "schema": 1,
+    "kind": "captured-subset-readiness-focused-regression",
+    "variant": "candidate",
+    "startedAt": "2026-10-24T08:44:52.698241+00:00",
+    "completedAt": "2026-10-24T08:44:52.862561+00:00",
+    "elapsedSeconds": 0.164257,
+    "testExitCode": 0,
+    "expectedExitCode": 0,
+    "expectedExitObserved": true,
+    "testNames": [
+      "LifecycleTests.test_proxy_subsets_resume_without_starting_absent_app_or_requiring_its_http",
+      "LifecycleTests.test_captured_app_proxy_new_up_and_explicit_check_keep_bounded_public_gate",
+      "LifecycleTests.test_all_eight_previous_running_subsets_keep_ids_and_omit_stopped_services"
+    ],
+    "unittestSummary": [
+      "Ran 3 tests in 0.053s",
+      "OK"
+    ],
+    "logSha256": "5c03b4df1d121fa0e4d62d4ed2c72751b032ec557a38fb0797c5dbdcfa99ae15",
+    "fakeClockAndDriverOnly": true,
+    "realDockerOrHttpCalls": false,
+    "vmCalls": false,
+    "productApplied": false,
+    "fullSuiteExecuted": false
+  },
+  "expectedBaselineFailureEvents": [
+    "proxy-only-snapshot-resume-with-app-off",
+    "worker-proxy-snapshot-resume-with-app-off"
+  ],
+  "targetedTestMethodsPassed": 3,
+  "negativeHttpControls": 4,
+  "existingEightSubsetControlPassed": true,
+  "python310GrammarPassed": true,
+  "fullSuiteRun": false,
+  "expectedFullSuiteCountAfterApply": 206,
+  "productTwoFilesStillMatchBaseline": true,
+  "predictedApplicationInputs": {
+    "files": 986,
+    "sha256": "5df4b3194f4abcb77a02cd05ef400c1b95653a3458db80712b88d9846b725e00",
+    "actualNewManifestOrBuildClaimed": false
+  },
+  "realBackupOrInstallationSuccessClaimed": false,
+  "artifacts": {
+    "candidate.patch": {
+      "sha256": "8ea97d9645f010eef3d62e36f6d61aa3cf7074bf2afccaec256c74b3539955be",
+      "bytes": 7423
+    },
+    "README.md": {
+      "sha256": "b995ad3a7b91ce9f29ed9004e176d840b2b98c5156197fa18898bfe1a0b6c373",
+      "bytes": 3144
+    },
+    "inputs-before.safe.json": {
+      "sha256": "d32dc513133cc5b7504af0df68e7455fd1d5a5a7e56c33a0a850856d2dd1a952",
+      "bytes": 693
+    },
+    "baseline-targeted.log": {
+      "sha256": "22b188cf0378c069f0eb0ba121a3a332f88c6b1f0f6087ffed6d8f9e916f1858",
+      "bytes": 6172
+    },
+    "candidate-targeted.log": {
+      "sha256": "5c03b4df1d121fa0e4d62d4ed2c72751b032ec557a38fb0797c5dbdcfa99ae15",
+      "bytes": 649
+    },
+    "predicted-application-inputs.json": {
+      "sha256": "96f979b98e9e799366bf21fb075f1713630c2db14593b5eec094c3a1ce5e65c4",
+      "bytes": 110777
+    }
+  }
+}

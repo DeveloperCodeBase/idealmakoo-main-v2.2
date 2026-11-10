@@ -1,0 +1,483 @@
+{
+  "format": "first25-private-selected-diagnostics-safe-v2",
+  "exportedAt": "2026-10-25T20:12:39.053707+00:00",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "topologySha256": "da2b88aba7a748b934b4e7e6af1d8117b5a63ee7a5f018df71b5d142814e11a0",
+  "reportsExamined": 25,
+  "additionalBrowserOrHttpRequests": 0,
+  "observedTraceLcpMs": {
+    "count": 25,
+    "min": 320,
+    "median": 685,
+    "max": 809
+  },
+  "lcpElementCoverage": {
+    "reports": 25,
+    "reportsWithElement": 12,
+    "reportsWithoutElementDetails": 13,
+    "tagCounts": {
+      "h2": 5,
+      "p": 5,
+      "h1": 1,
+      "small": 1
+    },
+    "unavailableIsNotAssumedTextOrImage": true
+  },
+  "diagnosticRanges": {
+    "unused-javascript.numericValue": {
+      "count": 25,
+      "min": 460,
+      "median": 740,
+      "max": 900
+    },
+    "unused-javascript.overallSavingsBytes": {
+      "count": 25,
+      "min": 111356,
+      "median": 129917,
+      "max": 157431
+    },
+    "unused-javascript.overallSavingsMs": {
+      "count": 25,
+      "min": 460,
+      "median": 740,
+      "max": 900
+    },
+    "unused-javascript.metricSavings.FCP": {
+      "count": 25,
+      "min": 0,
+      "median": 0,
+      "max": 0
+    },
+    "unused-javascript.metricSavings.LCP": {
+      "count": 25,
+      "min": 450,
+      "median": 750,
+      "max": 900
+    },
+    "unused-css-rules.numericValue": {
+      "count": 25,
+      "min": 140,
+      "median": 300,
+      "max": 450
+    },
+    "unused-css-rules.overallSavingsBytes": {
+      "count": 25,
+      "min": 34117,
+      "median": 44680,
+      "max": 45581
+    },
+    "unused-css-rules.overallSavingsMs": {
+      "count": 25,
+      "min": 140,
+      "median": 300,
+      "max": 450
+    },
+    "unused-css-rules.metricSavings.FCP": {
+      "count": 25,
+      "min": 300,
+      "median": 450,
+      "max": 450
+    },
+    "unused-css-rules.metricSavings.LCP": {
+      "count": 25,
+      "min": 150,
+      "median": 300,
+      "max": 450
+    },
+    "bootup-time.numericValue": {
+      "count": 25,
+      "min": 811.1760000000021,
+      "median": 4596.80799999999,
+      "max": 4984.011999999996
+    },
+    "bootup-time.metricSavings.TBT": {
+      "count": 25,
+      "min": 250,
+      "median": 350,
+      "max": 450
+    },
+    "mainthread-work-breakdown.numericValue": {
+      "count": 25,
+      "min": 1380.808000000006,
+      "median": 5534.923999999871,
+      "max": 6532.83599999979
+    },
+    "mainthread-work-breakdown.metricSavings.TBT": {
+      "count": 25,
+      "min": 300,
+      "median": 350,
+      "max": 500
+    },
+    "render-blocking-insight.metricSavings.FCP": {
+      "count": 12,
+      "min": 1350,
+      "median": 1500.0,
+      "max": 1500
+    },
+    "render-blocking-insight.metricSavings.LCP": {
+      "count": 25,
+      "min": 0,
+      "median": 0,
+      "max": 1500
+    },
+    "total-byte-weight.numericValue": {
+      "count": 25,
+      "min": 846250,
+      "median": 933105,
+      "max": 1151076
+    },
+    "network-dependency-tree-insight.metricSavings.LCP": {
+      "count": 25,
+      "min": 0,
+      "median": 0,
+      "max": 0
+    }
+  },
+  "failedAuditCounts": {
+    "performance": {
+      "first-contentful-paint": 25,
+      "largest-contentful-paint": 25,
+      "total-blocking-time": 25,
+      "speed-index": 25,
+      "interactive": 25,
+      "max-potential-fid": 25,
+      "unused-css-rules": 25,
+      "unused-javascript": 25,
+      "bf-cache": 25,
+      "cumulative-layout-shift": 16,
+      "mainthread-work-breakdown": 14,
+      "bootup-time": 13,
+      "legacy-javascript-insight": 12,
+      "network-dependency-tree-insight": 12,
+      "render-blocking-insight": 12,
+      "layout-shifts": 3,
+      "image-delivery-insight": 1,
+      "unsized-images": 1,
+      "cls-culprits-insight": 1
+    },
+    "accessibility": {},
+    "best-practices": {}
+  },
+  "representativeMedianPerformance": {
+    "registeredRoute": "admin/cms",
+    "locale": "ar",
+    "role": "superAdmin",
+    "performance": 65,
+    "metrics": {
+      "first-contentful-paint": 2119.49535,
+      "largest-contentful-paint": 7192.9907,
+      "speed-index": 2119.49535,
+      "total-blocking-time": 368,
+      "cumulative-layout-shift": 0.06000263696406474,
+      "interactive": 7192.9907
+    },
+    "largestTransfers": [
+      {
+        "path": "[resource-path-omitted]",
+        "type": "Font",
+        "transferSize": 129182,
+        "resourceSize": 128304,
+        "protocol": "http/1.1",
+        "networkRequestTime": 67.70799998939037,
+        "networkEndTime": 75.79599999636412,
+        "priority": "High",
+        "contentEncodingHeaderPresentInLhr": false
+      },
+      {
+        "path": "/_next/static/chunks/9716-5d8343522a5a0ef1.js",
+        "type": "Script",
+        "transferSize": 96313,
+        "resourceSize": 314535,
+        "protocol": "http/1.1",
+        "networkRequestTime": 136.64199999719858,
+        "networkEndTime": 152.65699999779463,
+        "priority": "Low",
+        "contentEncodingHeaderPresentInLhr": false
+      },
+      {
+        "path": "/_next/static/chunks/159-92e450a74ddb57d1.js",
+        "type": "Script",
+        "transferSize": 83656,
+        "resourceSize": 237326,
+        "protocol": "http/1.1",
+        "networkRequestTime": 143.07699999958277,
+        "networkEndTime": 161.6169999986887,
+        "priority": "Low",
+        "contentEncodingHeaderPresentInLhr": false
+      },
+      {
+        "path": "[resource-path-omitted]",
+        "type": "Font",
+        "transferSize": 73797,
+        "resourceSize": 72920,
+        "protocol": "http/1.1",
+        "networkRequestTime": 315.23200000077486,
+        "networkEndTime": 331.7609999999404,
+        "priority": "VeryHigh",
+        "contentEncodingHeaderPresentInLhr": false
+      },
+      {
+        "path": "/_next/static/chunks/3794-9f866eb1b07be87c.js",
+        "type": "Script",
+        "transferSize": 67687,
+        "resourceSize": 243059,
+        "protocol": "http/1.1",
+        "networkRequestTime": 81.94799999892712,
+        "networkEndTime": 96.79199999570847,
+        "priority": "Low",
+        "contentEncodingHeaderPresentInLhr": false
+      },
+      {
+        "path": "/_next/static/chunks/4bd1b696-8cd12253b448cc13.js",
+        "type": "Script",
+        "transferSize": 64634,
+        "resourceSize": 203727,
+        "protocol": "http/1.1",
+        "networkRequestTime": 81.80200000107288,
+        "networkEndTime": 97.45299999415874,
+        "priority": "Low",
+        "contentEncodingHeaderPresentInLhr": false
+      },
+      {
+        "path": "/api/v1/workspace",
+        "type": "Fetch",
+        "transferSize": 62670,
+        "resourceSize": 349641,
+        "protocol": "http/1.1",
+        "networkRequestTime": 318.7669999971986,
+        "networkEndTime": 354.26299999654293,
+        "priority": "High",
+        "contentEncodingHeaderPresentInLhr": false
+      },
+      {
+        "path": "[resource-path-omitted]",
+        "type": "Other",
+        "transferSize": 47860,
+        "resourceSize": 47024,
+        "protocol": "http/1.1",
+        "networkRequestTime": 270.03699999302626,
+        "networkEndTime": 274.31399999558926,
+        "priority": "High",
+        "contentEncodingHeaderPresentInLhr": false
+      },
+      {
+        "path": "/_next/static/chunks/8471-34a6f35a6d1951c0.js",
+        "type": "Script",
+        "transferSize": 33882,
+        "resourceSize": 101135,
+        "protocol": "http/1.1",
+        "networkRequestTime": 143.24299999326468,
+        "networkEndTime": 152.28099999576807,
+        "priority": "Low",
+        "contentEncodingHeaderPresentInLhr": false
+      },
+      {
+        "path": "/_next/static/chunks/1407-d56070ac6db15b99.js",
+        "type": "Script",
+        "transferSize": 33055,
+        "resourceSize": 100500,
+        "protocol": "http/1.1",
+        "networkRequestTime": 367.7399999946356,
+        "networkEndTime": 377.3939999938011,
+        "priority": "Low",
+        "contentEncodingHeaderPresentInLhr": false
+      },
+      {
+        "path": "/_next/static/chunks/1074-135366284b7f20c6.js",
+        "type": "Script",
+        "transferSize": 26637,
+        "resourceSize": 89616,
+        "protocol": "http/1.1",
+        "networkRequestTime": 135.79199999570847,
+        "networkEndTime": 146.0759999975562,
+        "priority": "Low",
+        "contentEncodingHeaderPresentInLhr": false
+      },
+      {
+        "path": "/_next/static/css/2edd00438c0efd42.css",
+        "type": "Stylesheet",
+        "transferSize": 19253,
+        "resourceSize": 90560,
+        "protocol": "http/1.1",
+        "networkRequestTime": 60.818999998271465,
+        "networkEndTime": 68.25199999660254,
+        "priority": "VeryHigh",
+        "contentEncodingHeaderPresentInLhr": false
+      }
+    ],
+    "transferredBytesByType": {
+      "Document": 10028,
+      "Stylesheet": 79298,
+      "Script": 504519,
+      "Font": 202979,
+      "Manifest": 1153,
+      "Other": 53486,
+      "Fetch": 76673,
+      "Image": 4996
+    },
+    "requestCountsByType": {
+      "Document": 1,
+      "Stylesheet": 10,
+      "Script": 19,
+      "Font": 2,
+      "Manifest": 1,
+      "Other": 2,
+      "Fetch": 12,
+      "Image": 1
+    },
+    "requestHeaderFieldObservation": {
+      "responseHeadersPresent": false,
+      "headersPresent": false
+    },
+    "rawReportSha256": "70de3182b5858fa22c3ea2e9b4f791d0bce6cf00a845e30e217182e62ed92bea",
+    "observedTraceLcpMs": 736,
+    "mainThreadByGroupCpuScaled": [
+      {
+        "group": "scriptEvaluation",
+        "durationMs": 4846.659999999785
+      },
+      {
+        "group": "other",
+        "durationMs": 663.8560000000007
+      },
+      {
+        "group": "garbageCollection",
+        "durationMs": 243.73999999999805
+      },
+      {
+        "group": "styleLayout",
+        "durationMs": 159.392
+      },
+      {
+        "group": "scriptParseCompile",
+        "durationMs": 136.45600000000002
+      },
+      {
+        "group": "paintCompositeRender",
+        "durationMs": 46.04399999999995
+      },
+      {
+        "group": "parseHTML",
+        "durationMs": 19.104000000000006
+      }
+    ],
+    "largestBootupTasksCpuScaled": [
+      {
+        "path": "[resource-path-omitted]",
+        "total": 4321.0559999999705,
+        "scripting": 3793.851999999972,
+        "scriptParseCompile": 7.943999999999999
+      },
+      {
+        "path": "/_next/static/chunks/3794-9f866eb1b07be87c.js",
+        "total": 624.8680000000012,
+        "scripting": 567.6480000000012,
+        "scriptParseCompile": 18.804000000000002
+      },
+      {
+        "path": "[resource-path-omitted]",
+        "total": 529.9599999999997,
+        "scripting": 42.863999999999955,
+        "scriptParseCompile": 0
+      },
+      {
+        "path": "/_next/static/chunks/4bd1b696-8cd12253b448cc13.js",
+        "total": 286.59200000000004,
+        "scripting": 217.26400000000007,
+        "scriptParseCompile": 12.304
+      },
+      {
+        "path": "/_next/static/chunks/9716-5d8343522a5a0ef1.js",
+        "total": 135.9200000000002,
+        "scripting": 99.69200000000018,
+        "scriptParseCompile": 29.311999999999998
+      },
+      {
+        "path": "/_next/static/chunks/159-92e450a74ddb57d1.js",
+        "total": 105.40800000000009,
+        "scripting": 78.60000000000008,
+        "scriptParseCompile": 21.372
+      }
+    ],
+    "largestBootupAttribution": "Document URL; not Puppeteer source URL. Scripting duration is CPU-scaled, not observed wall-clock LCP.",
+    "lcpElementOrNetworkChainDetailAvailable": false
+  },
+  "maximumCls": {
+    "registeredRoute": "admin/crm/accounts",
+    "locale": "ar",
+    "role": "superAdmin",
+    "performance": 61,
+    "metrics": {
+      "first-contentful-paint": 2114.3724,
+      "largest-contentful-paint": 7436.326399999998,
+      "speed-index": 2114.3724,
+      "total-blocking-time": 331.9999999999991,
+      "cumulative-layout-shift": 0.1422249616056857,
+      "interactive": 7436.326399999998
+    },
+    "rawReportSha256": "ef565698f8b9bcb44729ef3f60c667b838b4a71f6c92559557dae6b3f8a3d6a5",
+    "observedTraceLcpMs": 695,
+    "shiftedStructures": [
+      {
+        "node": {
+          "tag": "div",
+          "category": "text-or-interface",
+          "boundingRect": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "score": 0.1106227549684127
+      },
+      {
+        "node": {
+          "tag": "footer",
+          "category": "text-or-interface",
+          "boundingRect": {
+            "top": 1320,
+            "bottom": 1356,
+            "left": 12,
+            "right": 400,
+            "width": 388,
+            "height": 36
+          }
+        },
+        "score": 0.03160220663727299
+      }
+    ],
+    "lcpElements": [
+      {
+        "tag": "h2",
+        "category": "text-or-interface",
+        "boundingRect": {
+          "top": 772,
+          "bottom": 794,
+          "left": 104,
+          "right": 308,
+          "width": 204,
+          "height": 23
+        }
+      }
+    ],
+    "observedLcpBreakdownMs": [
+      {
+        "subpart": "timeToFirstByte",
+        "duration": 21.042000007629394
+      },
+      {
+        "subpart": "elementRenderDelay",
+        "duration": 674.1299999923706
+      }
+    ],
+    "networkInsightLongestChainMs": 56
+  },
+  "modeledVsObservedAndCpuScope": "Installed Lighthouse13.5 bootup-time.js107-124 and mainthread-work-breakdown.js103-116 multiply raw task durations by configured CPU slowdown4 for simulate. Those audit totals are CPU-scaled estimates for the trace, not observed wall-clock LCP or isolated causal LCP delays.",
+  "encodingObservationLimits": "Existing selected LHR network rows have no responseHeaders/headers fields. Smaller transferSize than resourceSize supports compression inference for JS/CSS, but an exact Content-Encoding header/algorithm cannot be read back from these LHRs. Separate finite JSON proof actually observed gzip.",
+  "unresolvedAttribution": "The shifted CRM-accounts div ends with a zero-size bounding box. Its displacement and the footer contribution do not establish the initiating cause.",
+  "remainingCostInterpretation": "Shared startup, script evaluation/hydration, common CSS, fonts and authorized data loading remain material. No proven small safe correction or guaranteed score improvement is inferred.",
+  "privacy": "Strictly selected numeric metrics, fixed registered route/role labels, allowed static resource paths and node tag/geometry only. No DOM text/labels/selectors/IDs, raw private URLs, query values, cookies, credentials or browser images."
+}

@@ -1,0 +1,152 @@
+{
+  "observedAt": "2026-10-25T14:12:04.144467+00:00",
+  "applicationInputFingerprint": "e5d44f7f6dcfd162d2b60a85443025116373d3e0b28989f6be5b0ececc36534b",
+  "nativeAcceptanceBuildId": "NWcRPAySX3HCzbpKSDJNf",
+  "dockerRuntimeIdentity": {
+    "version": "2.1.4",
+    "buildId": "9PsqpWkzxqBu9_tPY-Ykq",
+    "nodeVersion": "v24.22.1",
+    "architecture": "x64",
+    "platform": "linux",
+    "glibcVersion": "2.36",
+    "osRelease": {
+      "PRETTY_NAME": "Debian GNU/Linux 12 (bookworm)",
+      "VERSION_ID": "12",
+      "ID": "debian"
+    }
+  },
+  "nativeAndDockerBuildIdsAreIndependent": true,
+  "source": {
+    "stagedAt": "2026-10-25T12:55:42.815462+00:00",
+    "verifiedInGuestAt": "2026-10-25T13:02:57.534060+00:00",
+    "tarBytes": 180695040,
+    "tarSha256": "0dd415e2b943290434db982cc1e1e9c9a386b29891ee812a705da5dca518735e",
+    "fileCount": 3665,
+    "applicationInputsReceiptSha256AtStaging": "032e3005d4e0547de9239e625726c48d059d8d1bf6c5d3070e51b80ff116420e",
+    "staleOriginalManifestsExcluded": true,
+    "protectedEnvironmentExcluded": true
+  },
+  "services": {
+    "app": {
+      "imageId": "sha256:78d8c938db87fb9d1c3c455f8f5727e17e8c7dcadce4a570e253b8504b181bb4",
+      "running": true,
+      "health": "healthy",
+      "oomKilled": false,
+      "configuredUser": "10001:10001",
+      "privileged": false,
+      "localScannerEndpoint": "clamav:3310",
+      "externalNotificationDeliveryMode": "disabled"
+    },
+    "worker": {
+      "imageId": "sha256:78d8c938db87fb9d1c3c455f8f5727e17e8c7dcadce4a570e253b8504b181bb4",
+      "running": true,
+      "health": "healthy",
+      "oomKilled": false,
+      "configuredUser": "10001:10001",
+      "privileged": false,
+      "localScannerEndpoint": "clamav:3310",
+      "externalNotificationDeliveryMode": "disabled"
+    },
+    "db": {
+      "imageId": "sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a",
+      "running": true,
+      "health": "healthy",
+      "oomKilled": false,
+      "configuredUser": "999:999",
+      "privileged": false
+    },
+    "proxy": {
+      "imageId": "sha256:21c32494af3a1e95edf27bae74f2fd2f716824260bc67db0ab8cbf49300c8ce7",
+      "running": true,
+      "health": null,
+      "oomKilled": false,
+      "configuredUser": "10002:10002",
+      "privileged": false
+    },
+    "clamav": {
+      "imageId": "sha256:57847459745cf7d39a8efb0b1ad35cfc0fffcf7053f342a74e14b2954390f696",
+      "running": true,
+      "health": "healthy",
+      "oomKilled": false,
+      "configuredUser": "clamav",
+      "privileged": false
+    }
+  },
+  "runtimeRoleVerification": {
+    "status": "passed",
+    "role": "idealmakoo_app",
+    "readableRelations": 186,
+    "deniedOperations": 5
+  },
+  "health": {
+    "status": "ok",
+    "database": "ok",
+    "privacy": "ready",
+    "timestamp": "2026-10-25T14:11:51.825Z",
+    "version": "20261025T131233Z-52a89f19",
+    "applicationVersion": "2.1.4"
+  },
+  "inventoryBeforeOwnedAvFixture": {
+    "migrations": 41,
+    "users": 3,
+    "pages": 120,
+    "products": 17,
+    "records": 73,
+    "media": 17,
+    "roles": {
+      "customer": 1,
+      "superAdmin": 1,
+      "contentEditor": 1
+    },
+    "localePages": {
+      "ru": 24,
+      "ar": 24,
+      "tr": 24,
+      "en": 24,
+      "fa": 24
+    }
+  },
+  "comparisonWithPopulatedPreUpgradeState": {
+    "workspaceUnchanged": true,
+    "usersUnchanged": true,
+    "secretFingerprintsUnchanged": true,
+    "backupIdentityFingerprintUnchanged": true,
+    "volumeNamesUnchanged": true,
+    "privacyLedgerDirectoryUnchanged": true,
+    "allStagedSourceFilesMatchInstalledRelease": true,
+    "allMandatoryRuntimeAssetsMatchInsideContainer": true
+  },
+  "requiredRuntimeAssets": {
+    "public/media/environment/blue-lagoon-1k.hdr": {
+      "bytes": 1559027,
+      "sha256": "6d5d4e19954d5f8efd74124ee7d21e5d69efb61d5398d2e16a019fd67fa591dd"
+    },
+    "public/media/environment/blue-lagoon-1k.hdr.gz": {
+      "bytes": 1197664,
+      "sha256": "75f23bf11ad81c6ef425b00e3258717bf7e2cd17625f6b1986aa2809b2fac315"
+    },
+    "public/offline/fa.html": {
+      "bytes": 1965,
+      "sha256": "390eaf04aa17502ae2401ba4d4b355c8f42470343887a5f91556e394e621f63d"
+    },
+    "public/offline/en.html": {
+      "bytes": 1731,
+      "sha256": "90217158e3463f15608788b7935b4a4517b43023fbe39e093d4c59b8190601ea"
+    },
+    "public/offline/tr.html": {
+      "bytes": 1791,
+      "sha256": "37db640245835879433bd7067ac96af053795c608dcf56b29d7af7c739b4e657"
+    },
+    "public/offline/ar.html": {
+      "bytes": 1944,
+      "sha256": "5b91e0b58bf6a4167501d9d56bdb5dce8b621c22f8e030e337d419c489dca057"
+    },
+    "public/offline/ru.html": {
+      "bytes": 2011,
+      "sha256": "d9d1b7341b949986c9ef5c1a41ee3c3e170321a3af3a665bb90b81a821998a47"
+    }
+  },
+  "persistentVolumeCount": 6,
+  "protectedEnvironmentMode": "0600",
+  "externalBusinessProviderActionsRequested": false
+}

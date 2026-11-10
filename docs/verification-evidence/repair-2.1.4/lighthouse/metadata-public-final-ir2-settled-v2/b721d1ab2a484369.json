@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/for/dentist/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "3d1f7467bbdf8c770275cfa6f2c196fdaebe4f6feb817202712bbf6331837b84",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "دندان‌پزشکان | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "مسیر دسترسی دندان‌پزشکان به مواد دندانی، مشخصات مستند، تایمر دستورالعمل محصول و ثبت درخواست نمونه یا بررسی فنی."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/for/dentist/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/for/dentist/",
+    "en": "http://127.0.0.1:3100/en/for/dentist/",
+    "tr": "http://127.0.0.1:3100/tr/for/dentist/",
+    "ar": "http://127.0.0.1:3100/ar/for/dentist/",
+    "ru": "http://127.0.0.1:3100/ru/for/dentist/",
+    "x-default": "http://127.0.0.1:3100/fa/for/dentist/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 43
+}

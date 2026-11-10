@@ -1,0 +1,19 @@
+{
+  "format": "final-source-package-preflight-v1",
+  "startedAt": "2026-10-26T01:19:22.737654+00:00",
+  "finishedAt": "2026-10-26T01:19:28.996705+00:00",
+  "actualExitCode": 0,
+  "durationSeconds": 6.259054820999154,
+  "logSha256": "6c2ac5b67d8521e8de9500e9fc8e769374f20bad5cf339959a4802e17dadfacb",
+  "logBytes": 333,
+  "summary": {
+    "check": "passed",
+    "files": 6497,
+    "uncompressedBytes": 504028891,
+    "excluded": 2,
+    "credentialFindings": 0,
+    "archiveRoot": "idealmakoo-production-2.1.4/"
+  },
+  "zipCreated": false,
+  "scope": "Exact source-package allowlist before final small closure receipts and documentation were added. No ZIP was created in this check. Final delivered file count, bytes and entry hashes are recorded by RELEASE-MANIFEST.json in the archive and the external source manifest."
+}

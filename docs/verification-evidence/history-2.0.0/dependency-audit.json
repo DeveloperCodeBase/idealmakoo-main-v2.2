@@ -1,0 +1,38 @@
+{
+  "acceptanceDateUtc": "2026-10-20",
+  "checkedAtUtc": "2026-10-20T08:19:39.712898+00:00",
+  "command": "npm audit --omit=dev --json",
+  "registry": "https://registry.npmjs.org",
+  "exitCode": 0,
+  "durationSeconds": 0.655,
+  "nodeVersion": "v24.19.0",
+  "npmVersion": "11.9.0",
+  "lockfileSha256": "effbae915e9930fa68e06fb94d6af314729e2ef7ea11618305cdee68943d86ae",
+  "lockfileUnchanged": true,
+  "metadata": {
+    "vulnerabilities": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 0
+    },
+    "dependencies": {
+      "prod": 93,
+      "dev": 144,
+      "optional": 89,
+      "peer": 32,
+      "peerOptional": 0,
+      "total": 299
+    }
+  },
+  "vulnerabilities": {},
+  "stderr": "npm warn Unknown env config \"http-proxy\". This will stop working in the next major version of npm.\n",
+  "auditReportVersion": 2,
+  "status": "passed_with_warnings",
+  "warnings": [
+    "npm warn Unknown env config \"http-proxy\". This will stop working in the next major version of npm."
+  ],
+  "advisoryCheckPassed": true
+}

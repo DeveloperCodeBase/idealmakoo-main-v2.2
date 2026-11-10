@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/research/acrylic-composite-resin-bond/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "f9ef75d8346dabb4bb46e808e898fac33dc6d6838968c04546ad512de41fa1eb",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Соединение акриловых и композитных зубов с базисной смолой | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Лабораторное сравнение соединения Super Berelian, Yaghoot и Major с базисной смолой."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/research/acrylic-composite-resin-bond/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/acrylic-composite-resin-bond/",
+    "en": "http://127.0.0.1:3100/en/research/acrylic-composite-resin-bond/",
+    "tr": "http://127.0.0.1:3100/tr/research/acrylic-composite-resin-bond/",
+    "ar": "http://127.0.0.1:3100/ar/research/acrylic-composite-resin-bond/",
+    "ru": "http://127.0.0.1:3100/ru/research/acrylic-composite-resin-bond/",
+    "x-default": "http://127.0.0.1:3100/fa/research/acrylic-composite-resin-bond/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 51
+}

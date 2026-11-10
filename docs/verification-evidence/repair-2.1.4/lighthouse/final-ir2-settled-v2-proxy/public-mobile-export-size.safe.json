@@ -1,0 +1,48 @@
+{
+  "format": "final-public-mobile-export-size-v1",
+  "observedAt": "2026-10-26T00:42:49.339545+00:00",
+  "directory": "../public-mobile-final-ir2-settled-v2",
+  "files": 1245,
+  "bytes": 222597720,
+  "largestFileBytes": 3831914,
+  "sanitizedReportBytes": 214868333,
+  "rawReportsDelivered": false,
+  "browserScreenshotsDelivered": false,
+  "exportSha256": "9d2ff9269a98f7048e894722a50cec2475bcf1dcf39eca0b4b98df7a0ce6e3cc",
+  "firstExportActualExitCode": 1,
+  "firstExportFailureWasPreconditionRefusal": true,
+  "successfulExportActualExitCode": 0,
+  "allOriginalScoreOutcomesUnchanged": true,
+  "phaseEvidence": [
+    {
+      "file": "public-mobile-full.phase.safe.json",
+      "sha256": "d7eac74eb4d54c3f4ee9b0ea580d08369312aa7b256249805b8fbbbf4b7afb72",
+      "bytes": 2035
+    },
+    {
+      "file": "public-mobile-safe-export.phase.safe.json",
+      "sha256": "d25b5766b235b5429015d3dd4ec92a690d1af6e8a2332834856d2de4bc26404c",
+      "bytes": 2131
+    },
+    {
+      "file": "public-mobile-safe-export-02.phase.safe.json",
+      "sha256": "d75b542cb5f560bf890a692356aee268ca8e409591c23305c1af0f5af1e524df",
+      "bytes": 3084
+    },
+    {
+      "file": "public-mobile-rollup.phase.safe.json",
+      "sha256": "9fcf49cc735f8df1f7c25cccdc5a36f23fe2786af54acfbd304fabdf266f1357",
+      "bytes": 2168
+    },
+    {
+      "file": "public-closed-lock-cleanup.safe.json",
+      "sha256": "dd3b3460369cf91d760b89f5784ea288ce7c8b1b3cf6be53bb4fbf63cc715b36",
+      "bytes": 1180
+    },
+    {
+      "file": "first50-public.safe.json",
+      "sha256": "a3fba71448d1b38eb75dd334f0fec69d9c19fe780052dae24ca3b908e402b38d",
+      "bytes": 3486
+    }
+  ]
+}

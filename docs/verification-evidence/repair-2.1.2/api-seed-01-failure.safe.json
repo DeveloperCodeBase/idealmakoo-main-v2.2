@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "kind": "original-api-seed-fixture-failure",
+  "status": "failed",
+  "job": "api-seed-01",
+  "phase": "seed",
+  "startedAt": "2026-10-24T09:58:23.658033+00:00",
+  "completedAt": "2026-10-24T09:58:41.443702+00:00",
+  "actualExitCode": 1,
+  "actualJobWaitConsumed": true,
+  "observerWaiterSessionId": 71278,
+  "actualObserverWaitConsumed": true,
+  "collectionWaiterSessionId": 4849,
+  "actualCollectionWaitConsumed": true,
+  "runnerSha256": "ea1a687f7706df4afa16988884c03bd16cbdfb82812e6ccca2b84073f40be09b",
+  "completedAssertions": [],
+  "jsonDecodeError": "Unexpected end of JSON input",
+  "originalHttpMethodPathStatusAndProblemCodeCaptured": false,
+  "originalHttpStatus": null,
+  "originalFailingHttpPath": null,
+  "knownPrivateStateFieldNames": [
+    "schema",
+    "fixtureId",
+    "createdAt",
+    "owner"
+  ],
+  "knownPrivateOwnerStateFieldNames": [
+    "email",
+    "password"
+  ],
+  "ownerAuthenticationSessionOrPendingEnrollmentSideEffectsKnown": false,
+  "customerStaffPageAndUploadPhasesReached": false,
+  "cleanPdfOrEicarScannerProofObtained": false,
+  "productDefectEstablished": false,
+  "privateResult": {
+    "bytes": 342,
+    "sha256": "698399376fbc20b6c90e3c40e35d471798815b6020398e9792dafcefe6297fee",
+    "included": false
+  },
+  "subsequentReadOnlyComparison": {
+    "receipt": "api-bootstrap-transport-01.safe.json",
+    "reproducedEmptyFetchBootstrapAndValidNativeHttpContract": true,
+    "reconstructsOriginalUnrecordedResponse": false
+  },
+  "originalResultOverwritten": false,
+  "automaticRetry": false
+}

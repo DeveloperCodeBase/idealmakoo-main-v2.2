@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "kind": "qualified-local-docker-inspect-focused-regression",
+  "phase": "baseline-02",
+  "startedAt": "2026-10-24T17:36:34.627333+00:00",
+  "completedAt": "2026-10-24T17:36:36.702037+00:00",
+  "durationSeconds": 2.074713,
+  "discovered": 1,
+  "testsRun": 1,
+  "failures": 0,
+  "errors": 1,
+  "skipped": 0,
+  "expectedFailures": 0,
+  "unexpectedSuccesses": 0,
+  "failureTests": [],
+  "errorTests": [
+    "deployment_docker_inspect_test.DockerInspectTests.test_qualified_reader_avoids_cli_startup_stall_inside_unchanged_parent_budget"
+  ],
+  "testExitCode": 1,
+  "baselineReproduced": true,
+  "accepted": true,
+  "sourceChangedDuringTests": [],
+  "inputs": {
+    "deploy/docker-inspect.py": "87593e909e0e3c40a37b2f0230f4ca21bc9d5348dfc8969d1bc2d4800f81c8e8",
+    "deploy/service-lifecycle.py": "e55a73f32d8ff06b3699ce86e8e139b385b6e05be6c873216cfc024363fa92b5",
+    "deploy/compose.py": "27c5f7ad14d8386575f041a3755990e8aec1102e6d407d39224f56f94583f550",
+    "deploy/env-file.py": "941ee4a0087a7617233d10f8929e063949ba18f6c4f8a33a6d9fcc741a6985da",
+    "tests/deployment_docker_inspect_test.py": "387a832ca75e20911c3290f3972696b6411d6841b03763a6799b624932b24d90",
+    "tests/deployment_service_lifecycle_test.py": "d61df9182756c1dbfa534c6b2acc7b254787c995af79d91cc32dfba78097537a",
+    "tests/deployment_discovery_contract_test.py": "9d77ac987d83286cd7514559fad3a4f87ced9ea998f3898b53034fabd7ec4d65"
+  },
+  "realDockerDaemonUsed": false,
+  "vmCalls": false,
+  "tcpListeners": false,
+  "logSha256": "0e5f6bb8d633ed7e26d5fa1e8a59b2156a314c5be4d6fe1ccc5d842cd55ba9f1"
+}

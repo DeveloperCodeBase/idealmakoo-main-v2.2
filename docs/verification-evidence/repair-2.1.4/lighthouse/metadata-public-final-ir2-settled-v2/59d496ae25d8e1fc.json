@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:3100/fa/auth/register/",
+  "kind": "public-auth",
+  "indexed": false,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "5251b3b3b77f90daedcfa7a5c6f8d39c8df7a998d0eef41678cdd77d0ad9ca18",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "ایده‌آل ماکو"
+  ],
+  "descriptions": [],
+  "canonicals": [],
+  "alternates": {},
+  "robots": [
+    "noindex, nofollow, noarchive"
+  ],
+  "noindex": true,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 55
+}

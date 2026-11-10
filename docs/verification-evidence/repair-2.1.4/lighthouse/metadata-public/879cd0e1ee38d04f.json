@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/research/four-teeth-wear-rate/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "0824bb6948c2634b30b10d431251a76ce474935a730ecd8c1c05460dde60c116",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Сравнение скорости износа четырёх типов искусственных зубов | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Архивный материал о скорости износа и поведении образцов на стационарной стадии."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/research/four-teeth-wear-rate/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/four-teeth-wear-rate/",
+    "en": "http://127.0.0.1:3100/en/research/four-teeth-wear-rate/",
+    "tr": "http://127.0.0.1:3100/tr/research/four-teeth-wear-rate/",
+    "ar": "http://127.0.0.1:3100/ar/research/four-teeth-wear-rate/",
+    "ru": "http://127.0.0.1:3100/ru/research/four-teeth-wear-rate/",
+    "x-default": "http://127.0.0.1:3100/fa/research/four-teeth-wear-rate/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 69
+}

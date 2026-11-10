@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/pricing-policy/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "fa0b5f3d3d79aa27cb4b711fcb20bd70d6835e9f36269688ab9de3b1e7eedf27",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Ticari politika ve ürün değeri | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Şirketin farklı müşteri grupları için ürün çeşitliliği ve teknik değer konusundaki tarihsel yaklaşımı."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/pricing-policy/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/pricing-policy/",
+    "en": "http://127.0.0.1:3100/en/pricing-policy/",
+    "tr": "http://127.0.0.1:3100/tr/pricing-policy/",
+    "ar": "http://127.0.0.1:3100/ar/pricing-policy/",
+    "ru": "http://127.0.0.1:3100/ru/pricing-policy/",
+    "x-default": "http://127.0.0.1:3100/fa/pricing-policy/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 49
+}

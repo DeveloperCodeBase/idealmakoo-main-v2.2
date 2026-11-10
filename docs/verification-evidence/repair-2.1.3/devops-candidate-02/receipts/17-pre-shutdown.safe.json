@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "kind": "candidate02-completed-gates-before-normal-shutdown",
+  "status": "passed",
+  "completedAt": "2026-10-25T09:02:31.398137+00:00",
+  "jobs": {
+    "candidate02-original-update": {
+      "completedAt": "2026-10-25T08:57:25.300450+00:00",
+      "exitCode": 0,
+      "actualWaitConsumed": true
+    },
+    "candidate02-runtime": {
+      "completedAt": "2026-10-25T08:59:32.696847+00:00",
+      "exitCode": 0,
+      "actualWaitConsumed": true
+    },
+    "api-verify-candidate02": {
+      "completedAt": "2026-10-25T09:01:49.283534+00:00",
+      "exitCode": 0,
+      "actualWaitConsumed": true
+    }
+  },
+  "backupTimerAndServiceInactive": true,
+  "runningEphemeralAcceptanceClients": 0,
+  "transportReceipt": {
+    "schema": 1,
+    "kind": "owned-pinned-ssh-command",
+    "guest": "recovery",
+    "label": "candidate02-normal-shutdown-precheck",
+    "startedAt": "2026-10-25T09:02:25.754469+00:00",
+    "completedAt": "2026-10-25T09:02:32.038902+00:00",
+    "elapsedSeconds": 6.284442,
+    "exitCode": 0,
+    "actualWaitConsumed": true,
+    "timedOut": false
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/cooperation/research/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "d924a10b5488b34a7724e80e99b9653e8b4693b3292e51dd2bba8694a6916b54",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "پیشنهاد پژوهش و نوآوری | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "پیشنهاد پژوهش و نوآوری درباره محصولات و مواد دندانی را با معرفی مجموعه، شرح طرح و مستندات پشتیبان برای کارخانه ارسال کنید."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/cooperation/research/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/cooperation/research/",
+    "en": "http://127.0.0.1:3100/en/cooperation/research/",
+    "tr": "http://127.0.0.1:3100/tr/cooperation/research/",
+    "ar": "http://127.0.0.1:3100/ar/cooperation/research/",
+    "ru": "http://127.0.0.1:3100/ru/cooperation/research/",
+    "x-default": "http://127.0.0.1:3100/fa/cooperation/research/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 65
+}

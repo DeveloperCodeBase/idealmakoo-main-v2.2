@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/research/acrylic-teeth-wear-comparison/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "f98d27ff234f81e332b8e4233d27563776f0f803aa9bf155f8505011a5fb16cd",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "مقارنة تآكل ست سلاسل من الأسنان الأكريليكية | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "مقارنة سوبر بريليان مع ماجور بلس وسوبر لوكس وبوليدنت بريمو وفيتابان وإيفوكلار."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/research/acrylic-teeth-wear-comparison/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/acrylic-teeth-wear-comparison/",
+    "en": "http://127.0.0.1:3100/en/research/acrylic-teeth-wear-comparison/",
+    "tr": "http://127.0.0.1:3100/tr/research/acrylic-teeth-wear-comparison/",
+    "ar": "http://127.0.0.1:3100/ar/research/acrylic-teeth-wear-comparison/",
+    "ru": "http://127.0.0.1:3100/ru/research/acrylic-teeth-wear-comparison/",
+    "x-default": "http://127.0.0.1:3100/fa/research/acrylic-teeth-wear-comparison/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 88
+}

@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "kind": "approved-combined-operations-patch-applied",
+  "recordedAt": "2026-10-24T07:57:18.031215+00:00",
+  "gitApplyCheckExitCode": 0,
+  "gitApplyExitCode": 0,
+  "patchSha256": "5fc22f05feed8e2ec16010c4586b8b7c63fd3699126f852cb00037a06b26b985",
+  "before": {
+    "sha256": "a9337f54dad49cdd79a8498cd575b05349887860dded6e5fabb5c10b6ca9ebce",
+    "files": 986
+  },
+  "after": {
+    "sha256": "2bed25d40de1ec28ecaf8edf79f778386ce5c156b8bb8a520f3e214aaec6490e",
+    "files": 986
+  },
+  "changed": [
+    "deploy/service-lifecycle.py",
+    "scripts/install-ubuntu.sh",
+    "tests/deployment_service_lifecycle_test.py"
+  ],
+  "allChangedFilesMatchReviewedCandidate": true,
+  "jsDatabaseAndAssetsUnchanged": true,
+  "newBuildExecuted": false,
+  "servicesStarted": false,
+  "preservationReceipt": "acceptance/continuation-20261024/native-build05/preservation.safe.json"
+}

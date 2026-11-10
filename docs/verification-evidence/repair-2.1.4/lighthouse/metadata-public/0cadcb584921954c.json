@@ -1,0 +1,70 @@
+{
+  "url": "http://127.0.0.1:3100/fa/products/newclar/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "541f09cb50e443049b1fca8f6dfac99de94dcc55d8ef0b636dd46c58c80b8829",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "دندان مصنوعی نیوکلار | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "نیوکلار، نخستین نام محصول در تاریخ کارخانه؛ مدل تک‌لایه با دو مرحله پخت."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/products/newclar/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/newclar/",
+    "en": "http://127.0.0.1:3100/en/products/newclar/",
+    "tr": "http://127.0.0.1:3100/tr/products/newclar/",
+    "ar": "http://127.0.0.1:3100/ar/products/newclar/",
+    "ru": "http://127.0.0.1:3100/ru/products/newclar/",
+    "x-default": "http://127.0.0.1:3100/fa/products/newclar/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "دندان مصنوعی نیوکلار",
+      "description": "نیوکلار، نخستین نام محصول در تاریخ کارخانه؛ مدل تک‌لایه با دو مرحله پخت.",
+      "image": "http://127.0.0.1:3100/media/official/1686378608.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "NEWCLAR"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/fa/products/newclar/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 64
+}

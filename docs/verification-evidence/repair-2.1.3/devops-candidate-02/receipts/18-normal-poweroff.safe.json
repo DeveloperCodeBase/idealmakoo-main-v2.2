@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "kind": "owned-pinned-ssh-command",
+  "guest": "recovery",
+  "label": "candidate02-normal-poweroff",
+  "startedAt": "2026-10-25T09:02:32.039425+00:00",
+  "completedAt": "2026-10-25T09:02:35.414123+00:00",
+  "elapsedSeconds": 3.374714,
+  "exitCode": 0,
+  "actualWaitConsumed": true,
+  "timedOut": false
+}

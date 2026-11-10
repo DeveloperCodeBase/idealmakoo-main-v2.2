@@ -1,0 +1,70 @@
+{
+  "url": "http://127.0.0.1:3100/fa/products/dentex-etch-37/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "650a3aaabeae2bec2185c913e65cd06965c40e740c5d8dfdf90223e0f8a24bb2",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "اسید اچ ۳۷٪ دنتکس | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "ژل اچ آبی برای کاربردهای ترمیمی و ارتودنسی معرفی‌شده در صفحه رسمی؛ با قابلیت شست‌وشو."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/products/dentex-etch-37/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/dentex-etch-37/",
+    "en": "http://127.0.0.1:3100/en/products/dentex-etch-37/",
+    "tr": "http://127.0.0.1:3100/tr/products/dentex-etch-37/",
+    "ar": "http://127.0.0.1:3100/ar/products/dentex-etch-37/",
+    "ru": "http://127.0.0.1:3100/ru/products/dentex-etch-37/",
+    "x-default": "http://127.0.0.1:3100/fa/products/dentex-etch-37/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "اسید اچ ۳۷٪ دنتکس",
+      "description": "ژل اچ آبی برای کاربردهای ترمیمی و ارتودنسی معرفی‌شده در صفحه رسمی؛ با قابلیت شست‌وشو.",
+      "image": "http://127.0.0.1:3100/media/official/1726477204.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "DENTEX"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/fa/products/dentex-etch-37/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 61
+}

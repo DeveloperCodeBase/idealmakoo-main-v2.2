@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/for/lab/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "6bba1a7e5a2423d86808631662041d8eeb203227350260ba200b871ae4f07b20",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Diş laboratuvarları | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Diş laboratuvarları için kaynaklar: protez dişler, teknik renk ve kalıp seçimi ve ürün talep listeleri."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/for/lab/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/for/lab/",
+    "en": "http://127.0.0.1:3100/en/for/lab/",
+    "tr": "http://127.0.0.1:3100/tr/for/lab/",
+    "ar": "http://127.0.0.1:3100/ar/for/lab/",
+    "ru": "http://127.0.0.1:3100/ru/for/lab/",
+    "x-default": "http://127.0.0.1:3100/fa/for/lab/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 50
+}

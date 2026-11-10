@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/factory-visit/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "791d1fd338e165b982da60b6e1ce53b21c9a6d5a54faeae7826b6f2821f300cf",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "درخواست بازدید کارخانه | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "درخواست بازدید از کارخانه را ثبت کنید؛ در صورت انتشار برنامهٔ بازدید، زمان و ظرفیت قابل رزرو را در همین بخش ببینید."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/factory-visit/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/factory-visit/",
+    "en": "http://127.0.0.1:3100/en/factory-visit/",
+    "tr": "http://127.0.0.1:3100/tr/factory-visit/",
+    "ar": "http://127.0.0.1:3100/ar/factory-visit/",
+    "ru": "http://127.0.0.1:3100/ru/factory-visit/",
+    "x-default": "http://127.0.0.1:3100/fa/factory-visit/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 48
+}

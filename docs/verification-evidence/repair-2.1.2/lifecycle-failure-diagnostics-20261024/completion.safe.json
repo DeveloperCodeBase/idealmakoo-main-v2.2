@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "kind": "sanitized-lifecycle-failure-diagnostics-full-compatibility-completion",
+  "status": "passed",
+  "recordedAt": "2026-10-24T15:33:11.380133+00:00",
+  "historicalApplicationInputs": {
+    "files": 987,
+    "sha256": "de90dfabf8ddc57473a5943dfb03ba07b35b78f46e175a6e7ce9284fe2fb0558"
+  },
+  "currentApplicationInputs": {
+    "files": 987,
+    "sha256": "30d2d54eef773f72807ed4473e64627b54bd3da16509bc3de3f6cf8c609079d4"
+  },
+  "changedPaths": [
+    "deploy/service-lifecycle.py",
+    "tests/deployment_service_lifecycle_test.py"
+  ],
+  "onlyTwoApprovedExecutionPathsChanged": true,
+  "files": {
+    "deploy/service-lifecycle.py": "3db80a9bd1d81e661a9204b8cd5e52dbc7c9503949770a37d870a2d4e53c897d",
+    "tests/deployment_service_lifecycle_test.py": "3fca706c7275a7b8fc655091e3284555360d989bdc47cb8cd65e3b22d45aec67"
+  },
+  "patchSha256": "aade8e326fb3528f21d5857975b51ee83fe91dacb2bd78258f7807124564eaf3",
+  "focusedMethods": 6,
+  "fullDiscoveredMethods": 224,
+  "fullTestsRun": 224,
+  "fullPassed": 224,
+  "failures": 0,
+  "errors": 0,
+  "skips": 0,
+  "expectedFailures": 0,
+  "unexpectedSuccesses": 0,
+  "testDurationSeconds": 87.283882,
+  "actualChildWaitConsumed": true,
+  "childExitCode": 0,
+  "outerToolWaiterSession": 18571,
+  "outerToolExitCode": 0,
+  "outerToolWaitConsumed": true,
+  "sourceChangedDuringTests": [],
+  "receiptFiles": {
+    "operations.safe.json": "3c0a6119dce0dbb21638df63f8ba0fff17ce4e43a35e95a3a64e55762eff9eba",
+    "actual-process-start.safe.json": "acb0e922bd6ca9bdcaa91ac15ca1b87cf7f5adf4fa70ae580281ea465c61b7a0",
+    "actual-process-outcome.safe.json": "84cad09c8888414f04a14e437b028f4b484b47cf334df6f1eeda90adf8bf4da5",
+    "preflight.safe.json": "3df1d057474e8adbb2650354e48f86bdb9ae890ebf38723a4aa2ea0728940410",
+    "inputs-before-tests.json": "bdc5bbb1a92273af25e2e8ff282a40fbc8a000a9060582332e57e0e6777edaf4",
+    "inputs-after-tests.json": "bdc5bbb1a92273af25e2e8ff282a40fbc8a000a9060582332e57e0e6777edaf4"
+  },
+  "runtimeCommandsOrDeadlinePoliciesChanged": false,
+  "failedCommandContextContainsOnlyFixedClassAllowedServicesAndNumericTimings": true,
+  "unknownActualUpdateFailedChildStillUnknown": true,
+  "actualStartupCauseFixedClaimed": false,
+  "guestVmActionsPerformed": false,
+  "newNativeBuildExecuted": false,
+  "deployedCandidateAcceptanceClaimed": false
+}

@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/careers/apply/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "7355ce97b12917d5d4de5f308126474843d9d57b60e7d85417a70dc66c8cf8a6",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "طلب عمل ومواهب | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "عرّف بمهاراتك واهتمامك بالعمل مع المصنع وأرسل بيانات التواصل والسيرة الذاتية ورسالتك إلى قاعدة المواهب."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/careers/apply/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/careers/apply/",
+    "en": "http://127.0.0.1:3100/en/careers/apply/",
+    "tr": "http://127.0.0.1:3100/tr/careers/apply/",
+    "ar": "http://127.0.0.1:3100/ar/careers/apply/",
+    "ru": "http://127.0.0.1:3100/ru/careers/apply/",
+    "x-default": "http://127.0.0.1:3100/fa/careers/apply/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 80
+}

@@ -1,0 +1,915 @@
+{
+  "format": "idealmakoo.public-visual-worker-observations.v1",
+  "createdAt": "2026-10-22T08:06:59.855907Z",
+  "cohort": "asset-routing-03",
+  "finalRelease": false,
+  "binding": {
+    "source": {
+      "sha256": "981c8a90b315e4ae01de066365c3a08ae287b9afaf9202460bcf2db01161898e",
+      "files": 832
+    },
+    "application": {
+      "sha256": "0045597565fe76bf449866d397a7eee2c5927a85cda40512044de2673f583807",
+      "files": 685
+    },
+    "publicBuildId": "UFNFFG64Vx2uruUMUuU9z"
+  },
+  "workerScenarios": {
+    "startedAt": "2026-10-22T07:50:37.839Z",
+    "finishedAt": "2026-10-22T07:51:52.269Z",
+    "supervisingToolExitCode": 0,
+    "expected": 6,
+    "attempted": 6,
+    "completed": 6,
+    "errors": 0,
+    "pending": 0,
+    "recordedChecks": 66,
+    "recordedChecksTrue": 66,
+    "browserVersion": "156.0.8078.4",
+    "normalAnimation": true,
+    "browserClosed": true,
+    "checkedApplicationInputCount": 12,
+    "checkedApplicationInputsUnchanged": true,
+    "helperFilesUnchanged": true,
+    "syntheticInputsSubmitted": false,
+    "cases": [
+      {
+        "case": "auth-worker",
+        "scene": "auth",
+        "mode": "normal",
+        "route": "/fa/auth/login/",
+        "startedAt": "2026-10-22T07:50:37.937Z",
+        "finishedAt": "2026-10-22T07:50:50.796Z",
+        "status": "completed",
+        "httpStatus": 200,
+        "checks": {
+          "http200": true,
+          "accessibleCanvas": true,
+          "visibleCanvas": true,
+          "realWorkerReady": true,
+          "privacyTransitionsAcknowledged": true,
+          "keyboardAndReleaseAcknowledged": true,
+          "themeTransitionsAcknowledged": true,
+          "authModeAcknowledged": true,
+          "sameDocumentRouteCleanup": true,
+          "noFormTextInObservedWorkerPayloads": true,
+          "noAuthSubmission": true,
+          "noPageErrors": true,
+          "noCspViolations": true
+        },
+        "recordedChecks": 13,
+        "contextClosed": true,
+        "pageErrorCount": 0,
+        "authSubmissionCount": 0,
+        "observedWorkerTraffic": {
+          "workers": 2,
+          "matchingSceneWorkers": 2,
+          "readyMessages": 2,
+          "terminationCalls": 2,
+          "outgoingMessages": 30,
+          "incomingMessages": 25,
+          "privacyMatches": 0,
+          "unknownSceneStrings": 0,
+          "inspectionIncomplete": 0,
+          "contractErrorCount": 0,
+          "overflow": false,
+          "injectedFaults": 0
+        },
+        "privacyCheckApplicability": {
+          "messagesObserved": true,
+          "zeroMessagesEstablishesPayloadCoverage": false
+        },
+        "publicWorkerAssets": [
+          {
+            "path": "/_next/static/chunks/idealmakoo-auth.b1d7bd0d4cf079a5.js",
+            "status": 200,
+            "mime": "application/javascript; charset=UTF-8",
+            "bytes": 24276,
+            "sha256": "6423f2d1c6790a949ec973b7d8ce0fd951c440190ca7569de51a6330fb4fbabf",
+            "matchesLocalCompiledBytes": true
+          }
+        ]
+      },
+      {
+        "case": "rubik-worker",
+        "scene": "rubik",
+        "mode": "normal",
+        "route": "/fa/manufacturing/",
+        "startedAt": "2026-10-22T07:50:50.813Z",
+        "finishedAt": "2026-10-22T07:51:08.301Z",
+        "status": "completed",
+        "httpStatus": 200,
+        "checks": {
+          "http200": true,
+          "accessibleCanvas": true,
+          "visibleCanvas": true,
+          "realWorkerReady": true,
+          "keyboardAndReleaseAcknowledged": true,
+          "themeTransitionsAcknowledged": true,
+          "sameDocumentRouteCleanup": true,
+          "noFormTextInObservedWorkerPayloads": true,
+          "noAuthSubmission": true,
+          "noPageErrors": true,
+          "noCspViolations": true
+        },
+        "recordedChecks": 11,
+        "contextClosed": true,
+        "pageErrorCount": 0,
+        "authSubmissionCount": 0,
+        "observedWorkerTraffic": {
+          "workers": 1,
+          "matchingSceneWorkers": 1,
+          "readyMessages": 1,
+          "terminationCalls": 1,
+          "outgoingMessages": 20,
+          "incomingMessages": 18,
+          "privacyMatches": 0,
+          "unknownSceneStrings": 0,
+          "inspectionIncomplete": 0,
+          "contractErrorCount": 0,
+          "overflow": false,
+          "injectedFaults": 0
+        },
+        "privacyCheckApplicability": {
+          "messagesObserved": true,
+          "zeroMessagesEstablishesPayloadCoverage": false
+        },
+        "publicWorkerAssets": [
+          {
+            "path": "/_next/static/chunks/idealmakoo-rubik.b221981401ec9983.js",
+            "status": 200,
+            "mime": "application/javascript; charset=UTF-8",
+            "bytes": 22271,
+            "sha256": "a6930aa12cf7bdb340fbb644259251529fb18d7651b2a60c9d4634028272e9f2",
+            "matchesLocalCompiledBytes": true
+          }
+        ]
+      },
+      {
+        "case": "auth-without-offscreen",
+        "scene": "auth",
+        "mode": "without-offscreen",
+        "route": "/fa/auth/login/",
+        "startedAt": "2026-10-22T07:51:08.305Z",
+        "finishedAt": "2026-10-22T07:51:13.164Z",
+        "status": "completed",
+        "httpStatus": 200,
+        "checks": {
+          "http200": true,
+          "accessibleCanvas": true,
+          "visibleCanvas": true,
+          "mainThreadCapabilityFallback": true,
+          "recoveredSceneStillReady": true,
+          "noFormTextInObservedWorkerPayloads": true,
+          "noAuthSubmission": true,
+          "noPageErrors": true,
+          "noCspViolations": true
+        },
+        "recordedChecks": 9,
+        "contextClosed": true,
+        "pageErrorCount": 0,
+        "authSubmissionCount": 0,
+        "observedWorkerTraffic": {
+          "workers": 0,
+          "matchingSceneWorkers": 0,
+          "readyMessages": 0,
+          "terminationCalls": 0,
+          "outgoingMessages": 0,
+          "incomingMessages": 0,
+          "privacyMatches": 0,
+          "unknownSceneStrings": 0,
+          "inspectionIncomplete": 0,
+          "contractErrorCount": 0,
+          "overflow": false,
+          "injectedFaults": 0
+        },
+        "privacyCheckApplicability": {
+          "messagesObserved": false,
+          "zeroMessagesEstablishesPayloadCoverage": false
+        },
+        "publicWorkerAssets": []
+      },
+      {
+        "case": "rubik-without-offscreen",
+        "scene": "rubik",
+        "mode": "without-offscreen",
+        "route": "/fa/manufacturing/",
+        "startedAt": "2026-10-22T07:51:13.164Z",
+        "finishedAt": "2026-10-22T07:51:29.730Z",
+        "status": "completed",
+        "httpStatus": 200,
+        "checks": {
+          "http200": true,
+          "accessibleCanvas": true,
+          "visibleCanvas": true,
+          "mainThreadCapabilityFallback": true,
+          "recoveredSceneStillReady": true,
+          "noFormTextInObservedWorkerPayloads": true,
+          "noAuthSubmission": true,
+          "noPageErrors": true,
+          "noCspViolations": true
+        },
+        "recordedChecks": 9,
+        "contextClosed": true,
+        "pageErrorCount": 0,
+        "authSubmissionCount": 0,
+        "observedWorkerTraffic": {
+          "workers": 0,
+          "matchingSceneWorkers": 0,
+          "readyMessages": 0,
+          "terminationCalls": 0,
+          "outgoingMessages": 0,
+          "incomingMessages": 0,
+          "privacyMatches": 0,
+          "unknownSceneStrings": 0,
+          "inspectionIncomplete": 0,
+          "contractErrorCount": 0,
+          "overflow": false,
+          "injectedFaults": 0
+        },
+        "privacyCheckApplicability": {
+          "messagesObserved": false,
+          "zeroMessagesEstablishesPayloadCoverage": false
+        },
+        "publicWorkerAssets": []
+      },
+      {
+        "case": "auth-init-error",
+        "scene": "auth",
+        "mode": "init-error",
+        "route": "/fa/auth/login/",
+        "startedAt": "2026-10-22T07:51:29.732Z",
+        "finishedAt": "2026-10-22T07:51:35.818Z",
+        "status": "completed",
+        "httpStatus": 200,
+        "checks": {
+          "http200": true,
+          "accessibleCanvas": true,
+          "visibleCanvas": true,
+          "oneInjectedInitFailure": true,
+          "freshReactCanvas": true,
+          "failedWorkerTerminated": true,
+          "mainThreadRecovery": true,
+          "recoveredSceneStillReady": true,
+          "noFormTextInObservedWorkerPayloads": true,
+          "noAuthSubmission": true,
+          "noPageErrors": true,
+          "noCspViolations": true
+        },
+        "recordedChecks": 12,
+        "contextClosed": true,
+        "pageErrorCount": 0,
+        "authSubmissionCount": 0,
+        "observedWorkerTraffic": {
+          "workers": 1,
+          "matchingSceneWorkers": 1,
+          "readyMessages": 0,
+          "terminationCalls": 1,
+          "outgoingMessages": 3,
+          "incomingMessages": 1,
+          "privacyMatches": 0,
+          "unknownSceneStrings": 0,
+          "inspectionIncomplete": 0,
+          "contractErrorCount": 0,
+          "overflow": false,
+          "injectedFaults": 1
+        },
+        "privacyCheckApplicability": {
+          "messagesObserved": true,
+          "zeroMessagesEstablishesPayloadCoverage": false
+        },
+        "publicWorkerAssets": [
+          {
+            "path": "/_next/static/chunks/idealmakoo-auth.b1d7bd0d4cf079a5.js",
+            "status": 200,
+            "mime": "application/javascript; charset=UTF-8",
+            "bytes": 24276,
+            "sha256": "6423f2d1c6790a949ec973b7d8ce0fd951c440190ca7569de51a6330fb4fbabf",
+            "matchesLocalCompiledBytes": true
+          }
+        ]
+      },
+      {
+        "case": "rubik-init-error",
+        "scene": "rubik",
+        "mode": "init-error",
+        "route": "/fa/manufacturing/",
+        "startedAt": "2026-10-22T07:51:35.818Z",
+        "finishedAt": "2026-10-22T07:51:52.162Z",
+        "status": "completed",
+        "httpStatus": 200,
+        "checks": {
+          "http200": true,
+          "accessibleCanvas": true,
+          "visibleCanvas": true,
+          "oneInjectedInitFailure": true,
+          "freshReactCanvas": true,
+          "failedWorkerTerminated": true,
+          "mainThreadRecovery": true,
+          "recoveredSceneStillReady": true,
+          "noFormTextInObservedWorkerPayloads": true,
+          "noAuthSubmission": true,
+          "noPageErrors": true,
+          "noCspViolations": true
+        },
+        "recordedChecks": 12,
+        "contextClosed": true,
+        "pageErrorCount": 0,
+        "authSubmissionCount": 0,
+        "observedWorkerTraffic": {
+          "workers": 1,
+          "matchingSceneWorkers": 1,
+          "readyMessages": 0,
+          "terminationCalls": 1,
+          "outgoingMessages": 3,
+          "incomingMessages": 1,
+          "privacyMatches": 0,
+          "unknownSceneStrings": 0,
+          "inspectionIncomplete": 0,
+          "contractErrorCount": 0,
+          "overflow": false,
+          "injectedFaults": 1
+        },
+        "privacyCheckApplicability": {
+          "messagesObserved": true,
+          "zeroMessagesEstablishesPayloadCoverage": false
+        },
+        "publicWorkerAssets": [
+          {
+            "path": "/_next/static/chunks/idealmakoo-rubik.b221981401ec9983.js",
+            "status": 200,
+            "mime": "application/javascript; charset=UTF-8",
+            "bytes": 22271,
+            "sha256": "a6930aa12cf7bdb340fbb644259251529fb18d7651b2a60c9d4634028272e9f2",
+            "matchesLocalCompiledBytes": true
+          }
+        ]
+      }
+    ]
+  },
+  "visualObservations": {
+    "startedAt": "2026-10-22T07:52:50.006Z",
+    "finishedAt": "2026-10-22T07:53:38.180Z",
+    "supervisingToolExitCode": 0,
+    "expected": 6,
+    "completed": 6,
+    "captureErrors": 0,
+    "recordedChecks": 42,
+    "recordedChecksTrue": 42,
+    "viewport": {
+      "width": 1280,
+      "height": 900,
+      "deviceScaleFactor": 1
+    },
+    "normalAnimation": true,
+    "buildUnchanged": true,
+    "captureSummaryComparisonPerformed": false,
+    "cases": [
+      {
+        "case": "home-dark",
+        "route": "/fa/",
+        "scene": "rubik",
+        "theme": "dark",
+        "startedAt": "2026-10-22T07:52:50.254Z",
+        "finishedAt": "2026-10-22T07:52:59.694Z",
+        "status": "completed",
+        "httpStatus": 200,
+        "pageErrorCount": 0,
+        "scrollDetachRecoveries": 0,
+        "checks": {
+          "http200": true,
+          "ready": true,
+          "theme": true,
+          "canvasVisible": true,
+          "keyboardAccessible": true,
+          "noHorizontalOverflow": true,
+          "noPageErrors": true
+        },
+        "recordedChecks": 7,
+        "observation": {
+          "state": "ready",
+          "theme": "dark",
+          "documentTheme": "dark",
+          "scene": {
+            "x": 54.75,
+            "y": 237.44,
+            "width": 661.34,
+            "height": 530
+          },
+          "canvas": {
+            "rectangle": {
+              "x": 54.75,
+              "y": 237.44,
+              "width": 661.34,
+              "height": 530
+            },
+            "backingWidth": 661,
+            "backingHeight": 530,
+            "tabIndex": 0,
+            "role": "img",
+            "ariaHidden": "false"
+          },
+          "hint": {
+            "rectangle": {
+              "x": 66.75,
+              "y": 736.44,
+              "width": 637.34,
+              "height": 19
+            },
+            "style": {
+              "fontFamily": "Estedad, Vazirmatn, Arial, sans-serif",
+              "fontSize": "10px",
+              "fontWeight": "400",
+              "lineHeight": "19px",
+              "letterSpacing": "0.2px",
+              "display": "flex",
+              "paddingTop": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "marginTop": "0px",
+              "marginBottom": "0px"
+            }
+          },
+          "scrollX": 0,
+          "horizontalOverflow": 0
+        }
+      },
+      {
+        "case": "home-light",
+        "route": "/fa/",
+        "scene": "rubik",
+        "theme": "light",
+        "startedAt": "2026-10-22T07:52:59.850Z",
+        "finishedAt": "2026-10-22T07:53:09.989Z",
+        "status": "completed",
+        "httpStatus": 200,
+        "pageErrorCount": 0,
+        "scrollDetachRecoveries": 0,
+        "checks": {
+          "http200": true,
+          "ready": true,
+          "theme": true,
+          "canvasVisible": true,
+          "keyboardAccessible": true,
+          "noHorizontalOverflow": true,
+          "noPageErrors": true
+        },
+        "recordedChecks": 7,
+        "observation": {
+          "state": "ready",
+          "theme": "light",
+          "documentTheme": "light",
+          "scene": {
+            "x": 54.75,
+            "y": 237.44,
+            "width": 661.34,
+            "height": 530
+          },
+          "canvas": {
+            "rectangle": {
+              "x": 54.75,
+              "y": 237.44,
+              "width": 661.34,
+              "height": 530
+            },
+            "backingWidth": 661,
+            "backingHeight": 530,
+            "tabIndex": 0,
+            "role": "img",
+            "ariaHidden": "false"
+          },
+          "hint": {
+            "rectangle": {
+              "x": 66.75,
+              "y": 736.44,
+              "width": 637.34,
+              "height": 19
+            },
+            "style": {
+              "fontFamily": "Estedad, Vazirmatn, Arial, sans-serif",
+              "fontSize": "10px",
+              "fontWeight": "400",
+              "lineHeight": "19px",
+              "letterSpacing": "0.2px",
+              "display": "flex",
+              "paddingTop": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "marginTop": "0px",
+              "marginBottom": "0px"
+            }
+          },
+          "scrollX": 0,
+          "horizontalOverflow": 0
+        }
+      },
+      {
+        "case": "manufacturing-dark",
+        "route": "/fa/manufacturing/",
+        "scene": "rubik",
+        "theme": "dark",
+        "startedAt": "2026-10-22T07:53:10.119Z",
+        "finishedAt": "2026-10-22T07:53:18.895Z",
+        "status": "completed",
+        "httpStatus": 200,
+        "pageErrorCount": 0,
+        "scrollDetachRecoveries": 0,
+        "checks": {
+          "http200": true,
+          "ready": true,
+          "theme": true,
+          "canvasVisible": true,
+          "keyboardAccessible": true,
+          "noHorizontalOverflow": true,
+          "noPageErrors": true
+        },
+        "recordedChecks": 7,
+        "observation": {
+          "state": "ready",
+          "theme": "dark",
+          "documentTheme": "dark",
+          "scene": {
+            "x": 54.77,
+            "y": 384.75,
+            "width": 576,
+            "height": 515
+          },
+          "canvas": {
+            "rectangle": {
+              "x": 54.77,
+              "y": 384.75,
+              "width": 576,
+              "height": 515
+            },
+            "backingWidth": 576,
+            "backingHeight": 515,
+            "tabIndex": 0,
+            "role": "img",
+            "ariaHidden": "false"
+          },
+          "hint": {
+            "rectangle": {
+              "x": 66.77,
+              "y": 868.75,
+              "width": 552,
+              "height": 19
+            },
+            "style": {
+              "fontFamily": "Estedad, Vazirmatn, Arial, sans-serif",
+              "fontSize": "10px",
+              "fontWeight": "400",
+              "lineHeight": "19px",
+              "letterSpacing": "0.2px",
+              "display": "flex",
+              "paddingTop": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "marginTop": "0px",
+              "marginBottom": "0px"
+            }
+          },
+          "scrollX": 0,
+          "horizontalOverflow": 0
+        }
+      },
+      {
+        "case": "manufacturing-light",
+        "route": "/fa/manufacturing/",
+        "scene": "rubik",
+        "theme": "light",
+        "startedAt": "2026-10-22T07:53:19.064Z",
+        "finishedAt": "2026-10-22T07:53:27.515Z",
+        "status": "completed",
+        "httpStatus": 200,
+        "pageErrorCount": 0,
+        "scrollDetachRecoveries": 0,
+        "checks": {
+          "http200": true,
+          "ready": true,
+          "theme": true,
+          "canvasVisible": true,
+          "keyboardAccessible": true,
+          "noHorizontalOverflow": true,
+          "noPageErrors": true
+        },
+        "recordedChecks": 7,
+        "observation": {
+          "state": "ready",
+          "theme": "light",
+          "documentTheme": "light",
+          "scene": {
+            "x": 54.77,
+            "y": 384.75,
+            "width": 576,
+            "height": 515
+          },
+          "canvas": {
+            "rectangle": {
+              "x": 54.77,
+              "y": 384.75,
+              "width": 576,
+              "height": 515
+            },
+            "backingWidth": 576,
+            "backingHeight": 515,
+            "tabIndex": 0,
+            "role": "img",
+            "ariaHidden": "false"
+          },
+          "hint": {
+            "rectangle": {
+              "x": 66.77,
+              "y": 868.75,
+              "width": 552,
+              "height": 19
+            },
+            "style": {
+              "fontFamily": "Estedad, Vazirmatn, Arial, sans-serif",
+              "fontSize": "10px",
+              "fontWeight": "400",
+              "lineHeight": "19px",
+              "letterSpacing": "0.2px",
+              "display": "flex",
+              "paddingTop": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "marginTop": "0px",
+              "marginBottom": "0px"
+            }
+          },
+          "scrollX": 0,
+          "horizontalOverflow": 0
+        }
+      },
+      {
+        "case": "auth-dark",
+        "route": "/fa/auth/login/",
+        "scene": "auth",
+        "theme": "dark",
+        "startedAt": "2026-10-22T07:53:27.631Z",
+        "finishedAt": "2026-10-22T07:53:32.951Z",
+        "status": "completed",
+        "httpStatus": 200,
+        "pageErrorCount": 0,
+        "scrollDetachRecoveries": 0,
+        "checks": {
+          "http200": true,
+          "ready": true,
+          "theme": true,
+          "canvasVisible": true,
+          "keyboardAccessible": true,
+          "noHorizontalOverflow": true,
+          "noPageErrors": true
+        },
+        "recordedChecks": 7,
+        "observation": {
+          "state": "ready",
+          "theme": "dark",
+          "documentTheme": "dark",
+          "scene": {
+            "x": 0,
+            "y": 241.59,
+            "width": 640,
+            "height": 392.75
+          },
+          "canvas": {
+            "rectangle": {
+              "x": 0,
+              "y": 241.59,
+              "width": 640,
+              "height": 392.75
+            },
+            "backingWidth": 640,
+            "backingHeight": 392,
+            "tabIndex": 0,
+            "role": "img",
+            "ariaHidden": "false"
+          },
+          "hint": {
+            "rectangle": {
+              "x": 641,
+              "y": 242.59,
+              "width": 0,
+              "height": 21
+            },
+            "style": {
+              "fontFamily": "Estedad, Vazirmatn, Arial, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25.2px",
+              "letterSpacing": "normal",
+              "display": "inline",
+              "paddingTop": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "marginTop": "0px",
+              "marginBottom": "0px"
+            }
+          },
+          "scrollX": 0,
+          "horizontalOverflow": 0
+        }
+      },
+      {
+        "case": "auth-light",
+        "route": "/fa/auth/login/",
+        "scene": "auth",
+        "theme": "light",
+        "startedAt": "2026-10-22T07:53:33.047Z",
+        "finishedAt": "2026-10-22T07:53:37.791Z",
+        "status": "completed",
+        "httpStatus": 200,
+        "pageErrorCount": 0,
+        "scrollDetachRecoveries": 0,
+        "checks": {
+          "http200": true,
+          "ready": true,
+          "theme": true,
+          "canvasVisible": true,
+          "keyboardAccessible": true,
+          "noHorizontalOverflow": true,
+          "noPageErrors": true
+        },
+        "recordedChecks": 7,
+        "observation": {
+          "state": "ready",
+          "theme": "light",
+          "documentTheme": "light",
+          "scene": {
+            "x": 0,
+            "y": 241.59,
+            "width": 640,
+            "height": 392.75
+          },
+          "canvas": {
+            "rectangle": {
+              "x": 0,
+              "y": 241.59,
+              "width": 640,
+              "height": 392.75
+            },
+            "backingWidth": 640,
+            "backingHeight": 392,
+            "tabIndex": 0,
+            "role": "img",
+            "ariaHidden": "false"
+          },
+          "hint": {
+            "rectangle": {
+              "x": 641,
+              "y": 242.59,
+              "width": 0,
+              "height": 21
+            },
+            "style": {
+              "fontFamily": "Estedad, Vazirmatn, Arial, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25.2px",
+              "letterSpacing": "normal",
+              "display": "inline",
+              "paddingTop": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "marginTop": "0px",
+              "marginBottom": "0px"
+            }
+          },
+          "scrollX": 0,
+          "horizontalOverflow": 0
+        }
+      }
+    ]
+  },
+  "offlineRecordedValueComparison": {
+    "performed": true,
+    "priorPublicBuildId": "8dbsk8DNW5JXfEcUEW6u_",
+    "priorStartedAt": "2026-10-22T05:00:39.620Z",
+    "priorFinishedAt": "2026-10-22T05:01:22.667Z",
+    "currentPublicBuildId": "UFNFFG64Vx2uruUMUuU9z",
+    "viewPairs": 6,
+    "viewportExactlyEqual": true,
+    "allSixRecordedObservationObjectsExactlyEqual": true,
+    "comparisons": [
+      {
+        "case": "home-dark",
+        "matchedFields": {
+          "state": true,
+          "theme": true,
+          "documentTheme": true,
+          "scene": true,
+          "canvas": true,
+          "hint": true,
+          "scrollX": true,
+          "horizontalOverflow": true
+        },
+        "allRecordedObservationFieldsExactlyEqual": true
+      },
+      {
+        "case": "home-light",
+        "matchedFields": {
+          "state": true,
+          "theme": true,
+          "documentTheme": true,
+          "scene": true,
+          "canvas": true,
+          "hint": true,
+          "scrollX": true,
+          "horizontalOverflow": true
+        },
+        "allRecordedObservationFieldsExactlyEqual": true
+      },
+      {
+        "case": "manufacturing-dark",
+        "matchedFields": {
+          "state": true,
+          "theme": true,
+          "documentTheme": true,
+          "scene": true,
+          "canvas": true,
+          "hint": true,
+          "scrollX": true,
+          "horizontalOverflow": true
+        },
+        "allRecordedObservationFieldsExactlyEqual": true
+      },
+      {
+        "case": "manufacturing-light",
+        "matchedFields": {
+          "state": true,
+          "theme": true,
+          "documentTheme": true,
+          "scene": true,
+          "canvas": true,
+          "hint": true,
+          "scrollX": true,
+          "horizontalOverflow": true
+        },
+        "allRecordedObservationFieldsExactlyEqual": true
+      },
+      {
+        "case": "auth-dark",
+        "matchedFields": {
+          "state": true,
+          "theme": true,
+          "documentTheme": true,
+          "scene": true,
+          "canvas": true,
+          "hint": true,
+          "scrollX": true,
+          "horizontalOverflow": true
+        },
+        "allRecordedObservationFieldsExactlyEqual": true
+      },
+      {
+        "case": "auth-light",
+        "matchedFields": {
+          "state": true,
+          "theme": true,
+          "documentTheme": true,
+          "scene": true,
+          "canvas": true,
+          "hint": true,
+          "scrollX": true,
+          "horizontalOverflow": true
+        },
+        "allRecordedObservationFieldsExactlyEqual": true
+      }
+    ],
+    "screenshotsComparedByThisProjection": false,
+    "pixelEquivalenceClaimed": false,
+    "materialEquivalenceClaimed": false,
+    "newManualImageReviewClaimed": false
+  },
+  "hostClosure": {
+    "observedAt": "2026-10-22T07:55:08.701Z",
+    "ownedChromeProcessesRemaining": 0,
+    "otherChromeProcessesObserved": 3,
+    "nonOwnedProcessesUntouched": true,
+    "signalsSent": false,
+    "unreadableProcessFiles": 0,
+    "initialGlobalAbsenceCheckFailed": true,
+    "scope": "Owned browser cleanup; this receipt does not claim global browser-process absence."
+  },
+  "performanceScoringPerformed": false,
+  "fieldInpClaimed": false,
+  "pixelEquivalenceClaimed": false,
+  "fullAccessibilityConformanceClaimed": false,
+  "limitations": [
+    "Six targeted Worker lifecycle/capability scenarios and six desktop visual observations do not replace the full browser suite or complete public/private audits.",
+    "66 Worker and 42 visual check occurrences are actual recorded booleans. The unsupported-transfer scenarios have zero Worker traffic; their true privacy condition does not constitute positive payload-inspection coverage.",
+    "ACK proves accepted message delivery, not a solved Rubik state, pointer latency threshold, throughput improvement or field INP.",
+    "Fallback scenarios deliberately simulate unavailable transfer or an initialization error; normal scenarios use ordinary animation and native rendering.",
+    "All six prior/current recorded observation objects match exactly, including rectangles, canvas backing dimensions, hint computed styles, theme/readiness and horizontal-overflow measurements. Equality applies only to those sampled fields.",
+    "Capture summaries did not compare appearances. This derivative compares saved numeric/style observations without a new browser or image test.",
+    "Earlier dark Rubik brightness/Neon intensity differences were observed at different animation stages; timing/material equivalence remains unresolved by these numeric observations. No pixel or comprehensive visual-design equivalence is claimed.",
+    "No screenshots, raw input logs, document/canvas/Worker IDs, private origins, fixture identities or raw-evidence fingerprints are included.",
+    "This targeted success does not reclassify the separate failed auth navigation/network diagnostics or the fast122 restoration assertion."
+  ]
+}

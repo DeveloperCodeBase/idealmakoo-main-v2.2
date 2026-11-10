@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/for/research/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "0f423b2302666ef7beef1621f146c79f36e29bcd39769ca34d202395f4fc5f84",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Researchers | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Access for researchers to the scientific archive, product sources and quality information, with a factory research proposal form."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/for/research/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/for/research/",
+    "en": "http://127.0.0.1:3100/en/for/research/",
+    "tr": "http://127.0.0.1:3100/tr/for/research/",
+    "ar": "http://127.0.0.1:3100/ar/for/research/",
+    "ru": "http://127.0.0.1:3100/ru/for/research/",
+    "x-default": "http://127.0.0.1:3100/fa/for/research/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 75
+}

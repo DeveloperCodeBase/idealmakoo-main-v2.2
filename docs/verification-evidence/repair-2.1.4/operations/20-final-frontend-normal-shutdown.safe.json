@@ -1,0 +1,42 @@
+{
+  "recordedAt": "2026-10-25T19:51:06.484761+00:00",
+  "status": "passed",
+  "scope": "Final app-only Docker build/runtime refresh after the approved frontend corrections; original operational acceptance01-16 is preserved",
+  "priorOperationalAcceptanceRepeated": false,
+  "format": "idealmakoo-final-frontend-normal-shutdown-v1",
+  "normalPoweroffCommand": {
+    "startedAt": "2026-10-25T19:49:57.947914+00:00",
+    "completedAt": "2026-10-25T19:50:08.857297+00:00",
+    "actualExitCode": 0,
+    "durationSeconds": 10.909,
+    "normalGuestPoweroffCommandUsed": true,
+    "knownQemuPidVerifiedBeforeCommand": true,
+    "bothImmutableBackingsVerifiedBeforeClosingQemu": true,
+    "protectedOfficialBaseHashVerifiedBeforeClosingQemu": true,
+    "forcedTerminationSent": false,
+    "qemuCompletionMustStillBeObservedSeparately": true
+  },
+  "qemuSupervisor": {
+    "startedAt": "2026-10-25T19:09:27.545524+00:00",
+    "completedAt": "2026-10-25T19:50:34.212838+00:00",
+    "exitCode": 0,
+    "durationSeconds": 2466.667,
+    "hostFreeBytes": 3683381248,
+    "baseMetadataUnchanged": true,
+    "officialBaseSha256": "2099e63da0b822ef8e05e3d596c1b402eaaae658fc08ab919cb8495bfcdc488b",
+    "overlayAllocatedBytes": 7965818880
+  },
+  "environment": {
+    "vcpus": 4,
+    "memoryMiB": 6144,
+    "acceleration": "TCG"
+  },
+  "ownedQemuProcessAbsent": true,
+  "actualSupervisorCompletionConsumed": true,
+  "priorOperationalReceipts01Through16Unchanged": true,
+  "historical16EntryIndexPreservedSha256": "c08361982fbbb02d04fe0eb4ec71d2908ff2b38c69f8e61df39011a177d05925",
+  "allFinalRuntimeAndExtractionGatesClosedBeforeShutdown": true,
+  "forcedTerminationUsed": false,
+  "imageVolumeCacheOrArchivePrunePerformed": false,
+  "nativeScoringNotPerformedByThisAgent": true
+}

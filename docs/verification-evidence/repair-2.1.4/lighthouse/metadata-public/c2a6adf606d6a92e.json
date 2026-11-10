@@ -1,0 +1,70 @@
+{
+  "url": "http://127.0.0.1:3100/fa/products/generation-8-bonding/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "23d2cdfc29c07c42258f5e3782d4d9828c7b73d78753526f05d315dc1bdae22e",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "باندینگ رزین نسل ۸ | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "باندینگ یونیورسال معرفی‌شده برای روش‌های مختلف اچینگ و کار با کامپوزیت و آمالگام."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/products/generation-8-bonding/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/generation-8-bonding/",
+    "en": "http://127.0.0.1:3100/en/products/generation-8-bonding/",
+    "tr": "http://127.0.0.1:3100/tr/products/generation-8-bonding/",
+    "ar": "http://127.0.0.1:3100/ar/products/generation-8-bonding/",
+    "ru": "http://127.0.0.1:3100/ru/products/generation-8-bonding/",
+    "x-default": "http://127.0.0.1:3100/fa/products/generation-8-bonding/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "باندینگ رزین نسل ۸",
+      "description": "باندینگ یونیورسال معرفی‌شده برای روش‌های مختلف اچینگ و کار با کامپوزیت و آمالگام.",
+      "image": "http://127.0.0.1:3100/media/official/1725864310.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "IDEAL MAKOO"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/fa/products/generation-8-bonding/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 55
+}

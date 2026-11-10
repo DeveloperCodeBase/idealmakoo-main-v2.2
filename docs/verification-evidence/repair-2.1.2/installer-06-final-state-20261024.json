@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "kind": "corrected-installer-exact-final-phase-and-retained-state",
+  "recordedAt": "2026-10-24T08:34:22.641979+00:00",
+  "sourceZipSha256": "1b2dd59c60a97bd1c113f6fdf7faaa330d6ca3157ccf3187b94f37eb4cecb806",
+  "installerSha256": "8fc935c9b0fddcb47508699a5bb670d842ffb92d831cd1b537ff0611b2a205aa",
+  "failurePhase": {
+    "name": "initial complete encrypted backup and final readiness",
+    "exitCode": 124
+  },
+  "lifecycleFailure": {
+    "operation": "snapshot",
+    "code": "DEADLINE_EXCEEDED",
+    "exitCode": 124,
+    "cleanupAttempted": false,
+    "cleanupVerified": null,
+    "clientProcessTerminationVerified": true
+  },
+  "snapshotCallerExplicitTimeoutSeconds": 30,
+  "startupControlFlowEvidence": {
+    "shippedLifecycleUpReturnedZero": true,
+    "shippedCheckHealth240ReturnedZero": true,
+    "evidenceBasis": "set -Eeuo pipefail installer reached initial backup after unconditionally completing lifecycle up, check-health 240, current-link promotion and systemctl enable --now timer",
+    "independentLaterRuntimeHealthReadbackPerformed": false
+  },
+  "currentLinkAndTimer": {
+    "linkPromotionCommandPassedThrough": true,
+    "timerEnableNowCommandPassedThrough": true,
+    "timerEnableSymlinkCreationLogged": true,
+    "currentLinkActualReadbackPerformed": false,
+    "currentTimerActiveStateActualReadbackPerformed": false
+  },
+  "retainedWriterState": {
+    "originalInstallerBoundedStopReturnedZero": true,
+    "stoppedServices": [
+      "app",
+      "worker"
+    ],
+    "finalComposeListingRows": [
+      {
+        "service": "clamav",
+        "status": "Up 16 minutes (healthy)"
+      },
+      {
+        "service": "db",
+        "status": "Up 19 minutes (healthy)"
+      },
+      {
+        "service": "proxy",
+        "status": "Up 4 minutes"
+      }
+    ],
+    "listingWasOriginalBoundedExitDiagnostic": true
+  },
+  "backupArtifactEvidence": {
+    "snapshotFailedBeforeWriterQuiesceDatabaseDumpAndEncryptionByShippedControlFlow": true,
+    "encryptedBackupSuccessMessagePresent": false,
+    "filesystemAbsenceOrPartialCleanupIndependentlyVerified": false,
+    "cleanupErrorMessagePresent": false
+  },
+  "privateLog": {
+    "sha256": "cf5e046ae332b39a221de71405ed7d08ac3e247b5038b4ff698aff14bad9312b",
+    "bytes": 16400,
+    "included": false
+  },
+  "newGuestProbeOrMutationPerformed": false,
+  "wholeInstallerAccepted": false
+}

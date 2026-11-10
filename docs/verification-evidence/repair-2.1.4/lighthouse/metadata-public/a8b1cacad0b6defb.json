@@ -1,0 +1,43 @@
+{
+  "url": "http://127.0.0.1:3100/en/__lighthouse_missing_page__/",
+  "kind": "expected-404",
+  "indexed": false,
+  "expectedStatus": 404,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 404,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "324b34dd5960da4ea1d1b1d41402367e21d599cdc75a5d5cb7778b9a7e9dc3b9",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Page not found | Ideal Makoo"
+  ],
+  "descriptions": [
+    "This address is unavailable or the page has been removed. You can return to the home page."
+  ],
+  "canonicals": [],
+  "alternates": {},
+  "robots": [
+    "noindex",
+    "noindex, nofollow, noarchive",
+    "noindex, nofollow, noarchive"
+  ],
+  "noindex": true,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 0,
+    "resolvedBoundaries": 0,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 32
+}

@@ -1,0 +1,143 @@
+{
+  "format": "idealmakoo.actual-ubuntu-upload-antivirus-acceptance",
+  "reviewedAt": "2026-10-21T18:42:17.928521+00:00",
+  "instanceId": "idealmakoo-user-directory-final-install-13b6943b742546bcabc0b2da5ed395d6",
+  "runtimeRecordSha256": "e020132a3d2baad20fa9203ba5d596a96df00b17c01a6b569f9f2e9ccad21d8d",
+  "currentRelease": "20261021T153144Z-833453b7",
+  "applicationSha256": "12da2b69abf2fa85cf0655bc0b4ec7df9244ea0b50a29cc8c3be1157851b6e1c",
+  "nativeBuildId": "-Q7Ffy3JmwVExwxk-Ymk-",
+  "source821Sha256": "458f175a29b8bce25c5b45592c10952b57202b894e3aac65e244b7863c726be1",
+  "sourceHandoffSha256": "ba9509bf2c7e892add9c93c0c73f106b81c7e1ac628ec061e553b7170c81bf1c",
+  "executedExternalWitnessSha256": "464f7db8082a16eba90f71eadf94fccb9274dbbe6224f0329207e048626123b2",
+  "executedWrapperSha256": "0667dc569e019c8e8d6d02cb509acdc6c30717846a44f1a8224f7c74d5686d4d",
+  "phases": {
+    "antivirus-prepare": {
+      "phaseRecordSha256": "b152e29c8f14664b877f58f864f903bd9a3d7717284f538a8ba50b34d3bdd27e",
+      "guestStartedAt": "2026-10-21T18:28:34.290435+00:00",
+      "guestFinishedAt": "2026-10-21T18:32:15.592772+00:00",
+      "exitCode": 0,
+      "transportExitCode": 0,
+      "rawLogBytes": 376,
+      "rawLogSha256": "7f852570cd7374316e1f25b7a6440b8e8392b83779ba65ea81e323438b17168a",
+      "observedResult": {
+        "ok": true,
+        "command": "prepare",
+        "uploadedDocuments": 2,
+        "initiallyPending": 2,
+        "realWorkerReady": true,
+        "loadedScannerObserved": true,
+        "signatureDatabaseVersion": 28160,
+        "timing": {
+          "setupMilliseconds": 115818,
+          "setupLimitMilliseconds": 300000,
+          "actionBudgetMilliseconds": 55000
+        }
+      }
+    },
+    "antivirus-poll-1": {
+      "phaseRecordSha256": "132b6bae3510784ade192969155ea5656162307b72c0850cab6ede2d5bbb827f",
+      "guestStartedAt": "2026-10-21T18:32:38.940819+00:00",
+      "guestFinishedAt": "2026-10-21T18:35:49.617494+00:00",
+      "exitCode": 0,
+      "transportExitCode": 0,
+      "rawLogBytes": 324,
+      "rawLogSha256": "d88b745a870c4dca757b92f740ada56f0918bddb076c83c094ae03b8458b0936",
+      "observedResult": {
+        "ok": true,
+        "command": "poll",
+        "complete": true,
+        "documents": 2,
+        "pending": 0,
+        "clean": 1,
+        "blocked": 1,
+        "failedJobs": 0,
+        "timing": {
+          "setupMilliseconds": 114671,
+          "setupLimitMilliseconds": 300000,
+          "actionBudgetMilliseconds": 55000
+        }
+      }
+    },
+    "antivirus-verify": {
+      "phaseRecordSha256": "495aa67465f23fc64479a79ad0e7d5206e3f5bd9c9834a8eacfc35187907692d",
+      "guestStartedAt": "2026-10-21T18:36:13.794525+00:00",
+      "guestFinishedAt": "2026-10-21T18:39:45.970715+00:00",
+      "exitCode": 0,
+      "transportExitCode": 0,
+      "rawLogBytes": 399,
+      "rawLogSha256": "18d6a676acd769c8dabd577c8f06e800b032be96f5db44a5cf3de9186395dab5",
+      "observedResult": {
+        "ok": true,
+        "command": "verify",
+        "verified": true,
+        "uploadedDocuments": 2,
+        "completedWorkerScans": 2,
+        "cleanDownloads": 1,
+        "eicarBlockedDownloads": 1,
+        "anonymousDenials": 2,
+        "realClamavReceipts": 2,
+        "timing": {
+          "setupMilliseconds": 115477,
+          "setupLimitMilliseconds": 300000,
+          "actionBudgetMilliseconds": 55000
+        }
+      }
+    },
+    "signature-provenance": {
+      "phaseRecordSha256": "fff492a8b7e13d0efe508f7f175f7b3f5b1773ad5c9929becb344b2a309e8b05",
+      "guestStartedAt": "2026-10-21T18:40:21.876903+00:00",
+      "guestFinishedAt": "2026-10-21T18:41:16.532867+00:00",
+      "exitCode": 0,
+      "transportExitCode": 0,
+      "rawLogBytes": 1176,
+      "rawLogSha256": "1f855575af86866dbe5afa4f7b227c5397de0e66f652a254e5dc15b11c12539d",
+      "signatureFiles": [
+        {
+          "file": "main.cvd",
+          "buildTime": "16 Dec 2025 23:18 +0000",
+          "version": "63",
+          "signatures": "3287027",
+          "functionalityLevel": "90",
+          "signatureVerificationPassed": true
+        },
+        {
+          "file": "daily.cvd",
+          "buildTime": "21 Oct 2026 06:25 +0000",
+          "version": "28160",
+          "signatures": "355776",
+          "functionalityLevel": "90",
+          "signatureVerificationPassed": true
+        },
+        {
+          "file": "bytecode.cvd",
+          "buildTime": "11 Sep 2025 08:29 -0400",
+          "version": "339",
+          "signatures": "80",
+          "functionalityLevel": "90",
+          "signatureVerificationPassed": true
+        }
+      ]
+    }
+  },
+  "accepted": true,
+  "criteriaEnforcedByExecutedFrozenWitness": {
+    "actualAuthenticatedApiUploads": 2,
+    "initialScanStatus": "pending",
+    "workerDeliveredJobs": 2,
+    "realClamavReceipts": 2,
+    "cleanFileScanStatus": "clean",
+    "standardEicarFileScanStatus": "blocked",
+    "cleanDownloadHttpStatus": 200,
+    "eicarDownloadHttpStatus": 409,
+    "eicarErrorCode": "QUARANTINED",
+    "anonymousPrivateFileDenials": 2,
+    "exactUploadedStorageAndHttpHashesChecked": true,
+    "cleanAndBlockedWorkerAuditRecordsChecked": true,
+    "helperDirectlySetScannerResult": false,
+    "helperDirectlyInvokedPayloadScan": false
+  },
+  "fullVerificationControlReceiptIncludedLaterByExistingExport": true,
+  "nativeCompilerSubstitution": true,
+  "fullStandardDockerCompilationClaimed": false,
+  "publicProductionHostTouched": false
+}

@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/research/acrylic-composite-resin-bond/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "039398a7eca61ddfaa0cd3e9dfcfc17ea4affd8665cff6c1f2821b79e1425713",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "ارتباط الأسنان الأكريليكية والكومبوزيت براتنج القاعدة | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "مقارنة مخبرية لارتباط سوبر بريليان وياقوت وماجور براتنج قاعدة التعويض."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/research/acrylic-composite-resin-bond/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/acrylic-composite-resin-bond/",
+    "en": "http://127.0.0.1:3100/en/research/acrylic-composite-resin-bond/",
+    "tr": "http://127.0.0.1:3100/tr/research/acrylic-composite-resin-bond/",
+    "ar": "http://127.0.0.1:3100/ar/research/acrylic-composite-resin-bond/",
+    "ru": "http://127.0.0.1:3100/ru/research/acrylic-composite-resin-bond/",
+    "x-default": "http://127.0.0.1:3100/fa/research/acrylic-composite-resin-bond/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 83
+}

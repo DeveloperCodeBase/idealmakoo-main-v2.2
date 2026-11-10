@@ -1,0 +1,24 @@
+{
+  "format": "owned-private-audit-final-readback-v1",
+  "startedAt": "2026-10-25T22:35:00.998Z",
+  "status": "passed",
+  "readOnly": true,
+  "additionalHttpOrBrowserRequests": 0,
+  "secretValuesOrPrivateIdentifiersExported": false,
+  "guardedRunDatabaseMatched": true,
+  "expectedOwnedActors": 12,
+  "observedOwnedActors": 12,
+  "activeOwnedActors": 0,
+  "sessions": {
+    "total": 15,
+    "unrevoked": 0,
+    "live": 0
+  },
+  "leases": {
+    "total": 0,
+    "active": 0
+  },
+  "applicationBuildId": "ir2DFJg8r5YdpbVQubUqF",
+  "finishedAt": "2026-10-25T22:35:01.072Z",
+  "durationMs": 74
+}

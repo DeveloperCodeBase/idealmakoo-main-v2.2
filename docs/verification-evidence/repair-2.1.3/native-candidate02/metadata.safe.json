@@ -1,0 +1,45 @@
+{
+  "kind": "verified-final-public-metadata-summary",
+  "createdAt": "2026-10-25T07:51:16.336Z",
+  "buildId": "JUTCtkNIJ8CT540y_qNL_",
+  "publicContentHash": "c81fb2b40e486f8608c7c7da584d76197bef191244fad9d1b45128ddbb7e8e74",
+  "inventoryHash": "5d64b4b3f9bc22e0e2105ebb0ce0e6b6a54c56eba3cbaef681973c4332bda11f",
+  "expected": 620,
+  "checked": 620,
+  "coverageComplete": true,
+  "passed": 620,
+  "errors": 0,
+  "warnings": 0,
+  "note": "HTTP/HTML/JSON-LD/reciprocity validation and duplicate-metadata review. This is not a Lighthouse score, full editorial review or Google Rich Results test.",
+  "sourceInputSha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+  "originalSummarySha256": "951f4f9b45f133be1a186ceff65be9480121e1fa32476c6db6694041dbad6795",
+  "independentlyCheckedRecords": 620,
+  "rawRecordPayloadsIncluded": false,
+  "childGateReceiptSha256": "73398eb62bb757a1b596068ea41275a0641dad55f4c79afbe2d177dd1a42e142",
+  "childGate": {
+    "name": "metadata-candidate02-debounce-gate-01",
+    "startedAt": "2026-10-25T07:51:06.706959+00:00",
+    "finishedAt": "2026-10-25T07:51:16.456419+00:00",
+    "durationSeconds": 9.749458,
+    "exitCode": 0,
+    "waitConsumed": true,
+    "timedOut": false,
+    "cancelled": false,
+    "sourceBefore": {
+      "sha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+      "files": 994
+    },
+    "sourceAfter": {
+      "sha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+      "files": 994
+    },
+    "sourceChanged": [],
+    "accepted": true
+  },
+  "outerTool": {
+    "name": "metadata-candidate02-debounce-gate-01",
+    "sessionId": 31635,
+    "actualOuterExitCode": 0,
+    "actualOuterWaitConsumed": true
+  }
+}

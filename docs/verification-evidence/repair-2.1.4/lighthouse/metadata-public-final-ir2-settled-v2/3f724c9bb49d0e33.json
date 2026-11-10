@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/resources/acrylic-composite-resin-bond-cover/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "90d5ed9530d07fe53f4b5f926d1ee3b2b1d89b0cbc6d29ee018c5cb8cf393585",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Иллюстрация исследования — Соединение акриловых и композитных зубов с базисной смолой | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Соединение акриловых и композитных зубов с базисной смолой — Оригинальные графические документы завода"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/resources/acrylic-composite-resin-bond-cover/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/acrylic-composite-resin-bond-cover/",
+    "en": "http://127.0.0.1:3100/en/resources/acrylic-composite-resin-bond-cover/",
+    "tr": "http://127.0.0.1:3100/tr/resources/acrylic-composite-resin-bond-cover/",
+    "ar": "http://127.0.0.1:3100/ar/resources/acrylic-composite-resin-bond-cover/",
+    "ru": "http://127.0.0.1:3100/ru/resources/acrylic-composite-resin-bond-cover/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/acrylic-composite-resin-bond-cover/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 53
+}

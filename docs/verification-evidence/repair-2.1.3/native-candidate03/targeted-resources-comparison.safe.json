@@ -1,0 +1,120 @@
+{
+  "kind": "single-resources-mobile-diagnostic-comparison",
+  "scope": "One historical C2 measurement and one authorized C3 measurement; no repetition or best-score selection. Full C3 audit remains unmeasured.",
+  "publicIndexability": "Indexable in full shipped C3 public inventory; the diagnostic custom-URL inventory indexed=false is a selection marker, not a noindex response.",
+  "sameLighthouseConfiguration": true,
+  "records": [
+    {
+      "candidate": "C2",
+      "buildId": "JUTCtkNIJ8CT540y_qNL_",
+      "sourceInputSha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+      "path": "/ar/resources/",
+      "device": "mobile",
+      "attempt": 1,
+      "scores": {
+        "performance": 42,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "modeledMetrics": {
+        "first-contentful-paint": 1520.505,
+        "largest-contentful-paint": 6665.85,
+        "speed-index": 3657.340965944453,
+        "total-blocking-time": 1772.83,
+        "cumulative-layout-shift": 0.1444717792701184,
+        "interactive": 6724.5340000000015
+      },
+      "observedLhrMetrics": {
+        "observedFirstContentfulPaint": 1516,
+        "observedLargestContentfulPaint": 1964,
+        "observedCumulativeLayoutShift": 0.1444717792701184,
+        "observedSpeedIndex": 1617
+      },
+      "runWarningCount": 0,
+      "runtimeError": null,
+      "lighthouseVersion": "13.5.0",
+      "configSettingsSha256": "c2e7aa221d6cc33dedaae23bc4a31b6a5637c6de1340bafca067c1efe5868f98",
+      "rawLhrSha256": "e840571f8ed1eb41cd42fd06adaaeb537343e28a74f651c91b3e4c680328afe5",
+      "resultSha256": "27c8067c58b33565092e72dd3c35d7feb3cc39246016182e7f7f7b358b282e95"
+    },
+    {
+      "candidate": "C3",
+      "buildId": "DuF4NV2a3keq3h3H5T3Dr",
+      "sourceInputSha256": "79cbbf107e4886e03ade1119ab48d3a57e8a7385a64ba125322d3f4e1b923f94",
+      "path": "/ar/resources/",
+      "device": "mobile",
+      "attempt": 1,
+      "scores": {
+        "performance": 54,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "modeledMetrics": {
+        "first-contentful-paint": 1542.1695,
+        "largest-contentful-paint": 6661.867249999999,
+        "speed-index": 3438.280191097012,
+        "total-blocking-time": 942.3870000000006,
+        "cumulative-layout-shift": 0,
+        "interactive": 6805.07545
+      },
+      "observedLhrMetrics": {
+        "observedFirstContentfulPaint": 1284,
+        "observedLargestContentfulPaint": 1284,
+        "observedCumulativeLayoutShift": 0,
+        "observedSpeedIndex": 1303
+      },
+      "runWarningCount": 0,
+      "runtimeError": null,
+      "lighthouseVersion": "13.5.0",
+      "configSettingsSha256": "c2e7aa221d6cc33dedaae23bc4a31b6a5637c6de1340bafca067c1efe5868f98",
+      "rawLhrSha256": "3a2546ad7df5750e9f6422908c7422ebd217d1162980701562b5bf0bb917da17",
+      "resultSha256": "d8e893413a18b332f150ee630c35c4717367bab053527deddec6226c6f2d2c50"
+    }
+  ],
+  "actualRunnerReceiptSha256": "6345ba28726779a3235fb254a03229965fff018b70d2477c8f1d7c554d83485d",
+  "actualRunnerExitCode": 0,
+  "actualRunnerWaitConsumed": true,
+  "actualOuterTool": {
+    "sessionId": 94115,
+    "exitCode": 0,
+    "actualWaitConsumed": true,
+    "launchJournal": {
+      "file": "tool-journal/entries/20261025T100827902000Z-exec_command-601ae0.json",
+      "sha256": "d798a563a5b0a1e88f632e0bd2b166c3f6d61d4c88b9f6f07d35a5a46f477d80",
+      "metadata": {
+        "actualReturnedToolMetadata": true,
+        "chunk_id": "601ae0",
+        "exit_code": null,
+        "operation": "exec_command",
+        "planSha256": "04208bda3940d319e6598c0fd77a70251a35c71b514a6d78eb444585094a3d4d",
+        "requestedSessionId": null,
+        "schemaVersion": 1,
+        "session_id": 94115,
+        "step": "c3-targeted-resources-mobile",
+        "time": "2026-10-25T10:08:27.902Z",
+        "wall_time_seconds": 1.000745286
+      }
+    },
+    "terminalJournal": {
+      "file": "tool-journal/entries/20261025T100848398000Z-write_stdin-237cac.json",
+      "sha256": "e32b4823a85b78d4985aebe93d7318dc34190b736cd012f6bf5fc03f9604e6b6",
+      "metadata": {
+        "actualReturnedToolMetadata": true,
+        "chunk_id": "237cac",
+        "exit_code": 0,
+        "operation": "write_stdin",
+        "planSha256": "04208bda3940d319e6598c0fd77a70251a35c71b514a6d78eb444585094a3d4d",
+        "requestedSessionId": 94115,
+        "schemaVersion": 1,
+        "session_id": null,
+        "step": "c3-targeted-resources-mobile",
+        "time": "2026-10-25T10:08:48.398Z",
+        "wall_time_seconds": 4.0967e-05
+      }
+    }
+  },
+  "attributionLimit": "Ten held-response browser cases establish the empty-directory geometry repair. Single-run performance/TBT changes are observations, not a replicated causal gain; modeled mobile LCP remains about 6.66 seconds.",
+  "rawTraceArtifactCollected": false
+}

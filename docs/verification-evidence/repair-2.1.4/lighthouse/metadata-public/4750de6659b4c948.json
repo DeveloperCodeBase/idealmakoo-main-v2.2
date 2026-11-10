@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/tools/shade-mould-matcher/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "68f4ae19c22a5075605fc2dc38d872f2554962c2e0733ce38a5cc1f2250cf92a",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Shade & mould guide | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Explore products by family and material, read documented specifications and prepare a technical request."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/tools/shade-mould-matcher/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/tools/shade-mould-matcher/",
+    "en": "http://127.0.0.1:3100/en/tools/shade-mould-matcher/",
+    "tr": "http://127.0.0.1:3100/tr/tools/shade-mould-matcher/",
+    "ar": "http://127.0.0.1:3100/ar/tools/shade-mould-matcher/",
+    "ru": "http://127.0.0.1:3100/ru/tools/shade-mould-matcher/",
+    "x-default": "http://127.0.0.1:3100/fa/tools/shade-mould-matcher/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 48
+}

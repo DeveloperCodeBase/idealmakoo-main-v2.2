@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "kind": "collected-owned-guest-outcome",
+  "guest": "recovery",
+  "job": "recovery-original-installer",
+  "status": "passed",
+  "exitCode": 0,
+  "actualGuestWaitConsumed": true,
+  "startedAt": "2026-10-25T05:20:11.782760+00:00",
+  "completedAt": "2026-10-25T06:12:46.832971+00:00",
+  "elapsedSeconds": 3155.054415,
+  "files": {
+    "outcome.safe.json": {
+      "bytes": 408,
+      "sha256": "f2962f4b16c616a230bff3a055a424cbbf738d81055647268303009885660b67",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "start.safe.json": {
+      "bytes": 351,
+      "sha256": "28d35f611d36ac23c4090e85ec001af5cf2eb171e7999a565aa46f3a5c47082c",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "stdout.private": {
+      "bytes": 11230,
+      "sha256": "1bf97149ffb62a06f1b3e23af0d8bf76955e75f75a6ddd5f501243cb7013276a",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "stderr.private.log": {
+      "bytes": 145783,
+      "sha256": "aba77c88bcf9da9c7b3e6f5916d286e06a3dbcc752ca66494a3669d0199ed236",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/resources/newclar-official-image/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "c49db928c204d450b8b1d6212fe07e4597418a366bff696d2d6c27b79846abac",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "أسنان نيوكلار الصناعية — صورة رسمية | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "أسنان نيوكلار الصناعية — صورة رسمية — وثائق المصنع المصوّرة الأصلية"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/resources/newclar-official-image/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/newclar-official-image/",
+    "en": "http://127.0.0.1:3100/en/resources/newclar-official-image/",
+    "tr": "http://127.0.0.1:3100/tr/resources/newclar-official-image/",
+    "ar": "http://127.0.0.1:3100/ar/resources/newclar-official-image/",
+    "ru": "http://127.0.0.1:3100/ru/resources/newclar-official-image/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/newclar-official-image/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 54
+}

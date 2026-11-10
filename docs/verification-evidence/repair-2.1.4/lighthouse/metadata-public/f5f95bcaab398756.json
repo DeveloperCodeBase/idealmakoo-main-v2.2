@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/mission/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "0c8620dd753a17e97550d2b2d9168dd5dbceee02f7723d1181ad0217e29cfae1",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Миссия и принципы | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Приоритет честности, качества, удовлетворённости клиентов и сотрудничества со стоматологическим сообществом."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/mission/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/mission/",
+    "en": "http://127.0.0.1:3100/en/mission/",
+    "tr": "http://127.0.0.1:3100/tr/mission/",
+    "ar": "http://127.0.0.1:3100/ar/mission/",
+    "ru": "http://127.0.0.1:3100/ru/mission/",
+    "x-default": "http://127.0.0.1:3100/fa/mission/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 66
+}

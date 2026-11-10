@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/pricing-policy/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "ee921c356b1459b2e80d6840e03a39a6764e39afbabba9309dfdd78f8841f83a",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "سیاست تجاری و ارزش محصول | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "روایت تاریخی شرکت از تنوع محصولات و تناسب ارزش فنی با نیاز گروه‌های مختلف مشتریان."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/pricing-policy/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/pricing-policy/",
+    "en": "http://127.0.0.1:3100/en/pricing-policy/",
+    "tr": "http://127.0.0.1:3100/tr/pricing-policy/",
+    "ar": "http://127.0.0.1:3100/ar/pricing-policy/",
+    "ru": "http://127.0.0.1:3100/ru/pricing-policy/",
+    "x-default": "http://127.0.0.1:3100/fa/pricing-policy/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 44
+}

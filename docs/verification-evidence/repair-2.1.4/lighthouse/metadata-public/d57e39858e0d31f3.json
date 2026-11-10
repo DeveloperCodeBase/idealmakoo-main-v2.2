@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/resources/six-teeth-wear-rate-cover/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "074ce2653400b1c218c87c2634e83e4fb6d5f745a7f703198e62b89a981a1c89",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Иллюстрация исследования — Сравнение скорости износа шести типов искусственных зубов | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Сравнение скорости износа шести типов искусственных зубов — Оригинальные графические документы завода"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/resources/six-teeth-wear-rate-cover/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/six-teeth-wear-rate-cover/",
+    "en": "http://127.0.0.1:3100/en/resources/six-teeth-wear-rate-cover/",
+    "tr": "http://127.0.0.1:3100/tr/resources/six-teeth-wear-rate-cover/",
+    "ar": "http://127.0.0.1:3100/ar/resources/six-teeth-wear-rate-cover/",
+    "ru": "http://127.0.0.1:3100/ru/resources/six-teeth-wear-rate-cover/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/six-teeth-wear-rate-cover/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 55
+}

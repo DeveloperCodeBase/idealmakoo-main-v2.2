@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/resources/dentex-etch-37-official-image/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "109749baca56f3333d25940e91ca7a3a8ec765a87307be7e242f131f08894c78",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Dentex %37 asitleme jeli — resmî görsel | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Dentex %37 asitleme jeli — resmî görsel — Fabrikanın orijinal görsel belgeleri"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/resources/dentex-etch-37-official-image/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/dentex-etch-37-official-image/",
+    "en": "http://127.0.0.1:3100/en/resources/dentex-etch-37-official-image/",
+    "tr": "http://127.0.0.1:3100/tr/resources/dentex-etch-37-official-image/",
+    "ar": "http://127.0.0.1:3100/ar/resources/dentex-etch-37-official-image/",
+    "ru": "http://127.0.0.1:3100/ru/resources/dentex-etch-37-official-image/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/dentex-etch-37-official-image/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 42
+}

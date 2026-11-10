@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "applicationVersion": "2.1.0",
+  "applicationSha256": "cfe5ecdde102eef7e3bef70f6d2b8fd1f590c323aa1cf2394cf02e7177337459",
+  "verifiedAt": "2026-10-20T12:14:31.823Z",
+  "phase": "delivery",
+  "counts": {
+    "migrations": 40,
+    "users": 1,
+    "active_super_admins": 1,
+    "non_admin_users": 0,
+    "env_bound_super_admins": 1,
+    "requests": 0,
+    "registry_records": 0,
+    "source_pages": 120,
+    "products": 17,
+    "business_records": 0,
+    "demo_records": 0,
+    "sessions": 0
+  },
+  "migrations": [
+    {
+      "name": "001_core.sql",
+      "checksum": "b798f844b8c5a6fba06f5fd7f97c2620b1a209745f8b43386cea6f9c59d8a89d"
+    },
+    {
+      "name": "002_workspace.sql",
+      "checksum": "5d8fd67dbea951192a232cb7bd9dc7289130c134657f91e82147d2cea9c98715"
+    },
+    {
+      "name": "003_requests_operations.sql",
+      "checksum": "3f4d61e61c12364458949dddf892a0df7b4540499604bf91033f88edffcf8cb1"
+    },
+    {
+      "name": "004_organizations.sql",
+      "checksum": "2628500b97ceea64a1ce997ddb6e19da0637377d741af86e8499a85ab6e08325"
+    },
+    {
+      "name": "006_crm_automation.sql",
+      "checksum": "1c00a7c78dc0c06c2de955d76451ea2c05fa046ee3d8ebdb15dfb94a7f6654ab"
+    },
+    {
+      "name": "007_crm_scopes.sql",
+      "checksum": "87f20f33045b06d64447763903a3464ffbe90e7d4848e3cb2e2d9c5a5c65cf40"
+    },
+    {
+      "name": "008_events.sql",
+      "checksum": "2252875a2981d0c2f89c5d46c9f939cb6e6cb556e796c2fa67b126741f23ced0"
+    },
+    {
+      "name": "009_resources.sql",
+      "checksum": "155101116994bb183a1b141535a75487263a8927eb3033e39867b41c1d94c96d"
+    },
+    {
+      "name": "010_notification_policy.sql",
+      "checksum": "d841a5b334cd13376bc6ae5576fbf7757bc4e2e4b41e05c56c318bd28bc15c3a"
+    },
+    {
+      "name": "011_crm_commercial.sql",
+      "checksum": "fb29c8ba37b2e4975c146164cc51bb268fe23e2aa7fc34bd0271e35a2f26bd07"
+    },
+    {
+      "name": "012_privacy.sql",
+      "checksum": "35d394de15e0819ef5161f5ee2af6196eacb0be6185d1dee5f46f355dc97c116"
+    },
+    {
+      "name": "013_crm_routing.sql",
+      "checksum": "b66d36bf54a62e6a34a4290d9e218689e9bf40ae9c560c8756cda3c3009b7c30"
+    },
+    {
+      "name": "014_crm_pipelines.sql",
+      "checksum": "e6e40818924f244bb0114202e66d301c5be32e49adfc0d2818efaedc492e62c3"
+    },
+    {
+      "name": "015_storage.sql",
+      "checksum": "7ba3001a8693730a1c9cbc7f992ba2bfe1c135282e55a6faa91eceeb1709ef72"
+    },
+    {
+      "name": "016_content_collaboration.sql",
+      "checksum": "c1ed20da7fc3e50fbaf8ba1fef358f5e30b67df44c98fe39a817f6552832ab90"
+    },
+    {
+      "name": "017_crm_campaigns.sql",
+      "checksum": "b5cda05e284c726a6115f395c832b511ba8f110d8643aacbe312b2f5851446a1"
+    },
+    {
+      "name": "018_crm_domains.sql",
+      "checksum": "335f98f243cda68790d935c2e7d871530ba838a34e3fcee8ec202f68f91462c1"
+    },
+    {
+      "name": "019_crm_operations.sql",
+      "checksum": "22bac052c3f128bb643e53bfb4b10d0f8b54ec89855cf975ee17265a60f0ae8a"
+    },
+    {
+      "name": "020_crm_io.sql",
+      "checksum": "35ff97fcef2bc741a9c7af6b7d919f0aa84090165d1ad89b2941155330fc7db6"
+    },
+    {
+      "name": "021_shared_blocks.sql",
+      "checksum": "db6910a5237416c724da8f7d06f5ed032799a8f604537a79baf71213a6f54231"
+    },
+    {
+      "name": "022_media_provenance.sql",
+      "checksum": "d079124304cd1372f0cff8f02fa4c38ce86ccd28a5678e31fd6b129b82772f1d"
+    },
+    {
+      "name": "023_quote_artifacts.sql",
+      "checksum": "5276663827ad93956b421d2b0991d62f8448593ada5689fd35fc3d77cf411593"
+    },
+    {
+      "name": "024_crm_request_selector.sql",
+      "checksum": "38b23d2281fd08877ca579a35b89ae7ae353cb503b979d61a3f1ea7af8d31428"
+    },
+    {
+      "name": "025_staff_lifecycle.sql",
+      "checksum": "4b4cd57b6a043cfa5c8cf8e4e0c730489c3edfb887a10b14a0b6778aa4747615"
+    },
+    {
+      "name": "026_portal_crm_accounts.sql",
+      "checksum": "785193e0088ceeff38b9738d60ea0d1c0f51373c8722e00c128ff0c88b9b6360"
+    },
+    {
+      "name": "027_wishlists.sql",
+      "checksum": "a29b85f0bd7e9e744ef9fd3d51c7e859528ae8a0f6ab1245fe738b39c9333fda"
+    },
+    {
+      "name": "028_operations_monitoring.sql",
+      "checksum": "ceb6db2690e121d2024da8e894a8e6c511897ce44e7b09a2b77459f90d9eafe9"
+    },
+    {
+      "name": "029_media_processing.sql",
+      "checksum": "fcf9f348fe08a757818a7aec647974b71b108470e8f6299175b87907fcac0597"
+    },
+    {
+      "name": "030_semantic_knowledge.sql",
+      "checksum": "e30d43c2e4acc4eb7a6b94eb9ceada20b2af414e89d6de0f0235fb5365baedd5"
+    },
+    {
+      "name": "031_partner_public_profiles.sql",
+      "checksum": "922b359ddd6822a2641344e7b800cc318786d45f5a10d7b1ddf7f5dbd1638cf8"
+    },
+    {
+      "name": "032_tender_envelopes.sql",
+      "checksum": "9f4a176c30dda1443842b4198bdabf417a12307afcacd7b808e785718359ae19"
+    },
+    {
+      "name": "033_inquiry_merge.sql",
+      "checksum": "5f27b8a25a9de3ce151268ce03f49324ffd5b603b220d9b6ed7ab9920fa8eb38"
+    },
+    {
+      "name": "034_contact_campaigns.sql",
+      "checksum": "7d2e2ee21800f3f0ee611495d4a05cbd79d48cddcdc92ef2873be7bcb5d855b4"
+    },
+    {
+      "name": "035_company_certificates.sql",
+      "checksum": "d4c726082e459de5adf68d85e94e494761dd5ceefef80a76de42bbb27a0c8d83"
+    },
+    {
+      "name": "036_crm_task_reminder_policy.sql",
+      "checksum": "4ec95ece2454688ff8684887d6dcbc7a8a33b2a6afa83ae5c311a295cd180365"
+    },
+    {
+      "name": "037_notification_templates.sql",
+      "checksum": "d0d4f31da6d156c2ef91045ec5b44b337f0a471dbc82661d1e408e012b567e90"
+    },
+    {
+      "name": "038_editor_workflows.sql",
+      "checksum": "1b987bc4bbe7a6559d812b71d72d1b9bde3af16b2c0ced7151cb064e12f80884"
+    },
+    {
+      "name": "039_staff_storage_policy.sql",
+      "checksum": "3ed6a23a4a36caaadc9fff959046b8fc5eb39c99f79edbc95460c045a4911fc1"
+    },
+    {
+      "name": "040_content_ai_proposal_consumption.sql",
+      "checksum": "e7f7be94be11a15ce55bca586757a0e6282a2560087140620aaf77575d81cd2b"
+    },
+    {
+      "name": "041_product_registry.sql",
+      "checksum": "1304c12da5cb4d1d1361d5240d2d8bac1c6fefc4b8711cdae74286cbe20fd760"
+    }
+  ],
+  "runtimePermissions": {
+    "application_role": true,
+    "restricted_role": true,
+    "cannot_create_schema_objects": true,
+    "cannot_access_migrations": true,
+    "cannot_provision_staff": true,
+    "cannot_rewrite_audit": true,
+    "cannot_forge_recovery_evidence": true,
+    "can_read_runtime_data": true
+  },
+  "privacyReady": true,
+  "separateDatabaseStorageLedgerKeys": true,
+  "protectedEnvironmentMode": "0600",
+  "preparationCompleted": true,
+  "webOrWorkerStarted": false,
+  "applicationSourceChanged": false
+}

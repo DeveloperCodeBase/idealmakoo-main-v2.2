@@ -1,0 +1,21 @@
+{
+  "format": "idealmakoo.actual-docker-backup-image-identity-regression-failure",
+  "accepted": false,
+  "scriptExitCode": 1,
+  "failedCondition": "First post-retarget database digest text equality against initial first RepoDigest selected after test aliases were added",
+  "actualImmutableContainerImageChecksCompletedBeforeFailure": true,
+  "runExistingNodeProbeReached": false,
+  "localOnlyDigestRejectionProbeReached": false,
+  "initialAndPostRetargetDigestValuesCaptured": false,
+  "failureInterpretation": "The exact original first-entry change was not recorded; a separate bounded alias lifecycle capture is required. No product fix is inferred only from this assertion.",
+  "cleanup": "The only captured exception is the original assertion; finally validates/removes exact test containers and aliases. A later independent read-only metadata observation confirms no remaining test containers.",
+  "privateFailureLogBytes": 90,
+  "privateFailureLogSha256": "735ed6fc9909dd28bc0e96a3f4acd09bf74100ebdafddc8259ac14da19e42581",
+  "helperSha256": "f3c178362c8f789b157570e5995257e2546af6bc84bbccdf370b9524b1ee15d9",
+  "afterFailureMetadataSha256": "145607107a1e67516643f9af19a0ea9ea092bc89f0b067ac6c422ed1cbc0aef9",
+  "afterFailureMetadataFile": "failed-witness-image-metadata.json",
+  "applicationOperationalSourceCandidateSha256": "5bc6a32aabee5438a460b295e28b39256cf42c756f21adde0e4252e80793ef42",
+  "backupScriptSha256": "9d5298df22ce5a7f181c14064cd7623aaf9c5cd3e09e62b33058141726a7c29c",
+  "applicationSourceChanged": false,
+  "retryPerformed": false
+}

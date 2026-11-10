@@ -1,0 +1,767 @@
+{
+  "format": "idealmakoo.native-application-evidence-continuity",
+  "version": 1,
+  "startedAt": "2026-10-20T23:43:18.770Z",
+  "reviewedAt": "2026-10-20T23:43:21.398Z",
+  "pass": true,
+  "scope": "File-only continuity of prior native application evidence after an explicitly reviewed operations-only transition. No gate, build, runtime, browser, network or VM was executed.",
+  "application": {
+    "sha256": "36eb4aa33a1b192622c4a9e500b00c86348524d3e49813af951db6830dde9338",
+    "files": 668,
+    "currentEntriesExactlyMatchAllHistoricalManifests": true,
+    "manifests": [
+      {
+        "file": "postgres-credential-startup-final2-application-before.json",
+        "bytes": 115513,
+        "sha256": "32de450803d5510d601232988ca4a4bbb63f808e350f50246aa62fe0dc5c8a2e"
+      },
+      {
+        "file": "postgres-credential-startup-final2-application-after.json",
+        "bytes": 115513,
+        "sha256": "32de450803d5510d601232988ca4a4bbb63f808e350f50246aa62fe0dc5c8a2e"
+      },
+      {
+        "file": "api-credential-startup-final2-application-before.json",
+        "bytes": 115513,
+        "sha256": "32de450803d5510d601232988ca4a4bbb63f808e350f50246aa62fe0dc5c8a2e"
+      },
+      {
+        "file": "api-credential-startup-final2-application-after.json",
+        "bytes": 115513,
+        "sha256": "32de450803d5510d601232988ca4a4bbb63f808e350f50246aa62fe0dc5c8a2e"
+      },
+      {
+        "file": "build-credential-startup-final-application-before.json",
+        "bytes": 115513,
+        "sha256": "32de450803d5510d601232988ca4a4bbb63f808e350f50246aa62fe0dc5c8a2e"
+      },
+      {
+        "file": "build-credential-startup-final-application-after.json",
+        "bytes": 115513,
+        "sha256": "32de450803d5510d601232988ca4a4bbb63f808e350f50246aa62fe0dc5c8a2e"
+      },
+      {
+        "file": "browser-credential-startup-final-application-before.json",
+        "bytes": 115513,
+        "sha256": "32de450803d5510d601232988ca4a4bbb63f808e350f50246aa62fe0dc5c8a2e"
+      },
+      {
+        "file": "browser-credential-startup-final-application-after.json",
+        "bytes": 115513,
+        "sha256": "32de450803d5510d601232988ca4a4bbb63f808e350f50246aa62fe0dc5c8a2e"
+      }
+    ]
+  },
+  "retainedBuild": {
+    "buildId": "OWySC3_X3kR5uD-ExxkAJ",
+    "standaloneBuildId": "OWySC3_X3kR5uD-ExxkAJ",
+    "buildExecutionRerun": false,
+    "authoredTypeScriptFilesUnchanged": 521,
+    "explicitBuildInputsUnchanged": [
+      {
+        "file": "package.json",
+        "bytes": 2146,
+        "sha256": "53d7b278f31022c21c72c9531c69ff5f0edee406a29249c812d2615d5f1c28af"
+      },
+      {
+        "file": "package-lock.json",
+        "bytes": 196114,
+        "sha256": "362eb9c406b73518235d96b56ada6b34842b59798ce145664dd709f8419cb73f"
+      },
+      {
+        "file": "next.config.ts",
+        "bytes": 1929,
+        "sha256": "9a8204040c6a82f23c974f895ddbcfedc7a5a6411246635875d2d5f9522d1e60"
+      },
+      {
+        "file": "tsconfig.json",
+        "bytes": 863,
+        "sha256": "feee3f25f723bc9afa8e1f8862c1414e2e5f5ac271e7e48da8fe0609bb49d7bc"
+      },
+      {
+        "file": "tailwind.config.ts",
+        "bytes": 354,
+        "sha256": "fd80041d6519f2600029fa866c30fb8363e93af225fd9e638ff942a55465d1cc"
+      },
+      {
+        "file": "postcss.config.mjs",
+        "bytes": 59,
+        "sha256": "9199a4d20e13f66b8be9a348af182f4d14805b93b315db19f95be8432cd8301b"
+      },
+      {
+        "file": "playwright.config.ts",
+        "bytes": 1154,
+        "sha256": "72b9006fb7c5b1e2b44848eb7f2c23d9bc113d02524110d90adfd0e92597175b"
+      },
+      {
+        "file": "vitest.config.ts",
+        "bytes": 453,
+        "sha256": "849ec454e1b9b21db03273437280f839238442e6d23fe1e35772f4a318828554"
+      },
+      {
+        "file": "scripts/build-service-worker.mjs",
+        "bytes": 2618,
+        "sha256": "df5f98026e18d76ca4d94344e5b90800a9f1c5207f43a681dbef98c48b729821"
+      }
+    ]
+  },
+  "sourceTransition": {
+    "selected": {
+      "file": "staged-runtime-source-transition-v2.json",
+      "bytes": 6398,
+      "sha256": "dc59f3fa74a04ccb705d68ee7612fffda4ae77c36df1a3203f486b36dfec469d"
+    },
+    "prior": {
+      "file": "staged-runtime-source-transition.json",
+      "bytes": 5601,
+      "sha256": "8a669b15d64c42beb08335388b8d0f1e5e46bb52a6c37d3c95e4c78be5768ad5"
+    },
+    "beforeProvenance": {
+      "file": "staged-runtime-source-provenance-before.json",
+      "bytes": 8529,
+      "sha256": "d29281a1e4d6fc25c62db5d02d8694445ee89ff63e492b8bdff9f74382eb6b6d"
+    },
+    "afterProvenance": {
+      "file": "staged-runtime-source-provenance-after-v2.json",
+      "bytes": 8529,
+      "sha256": "d246ffc47a32e0cb2632337287d7bcfb0c3d17a656b541281ecef029f6079647"
+    },
+    "baselineHandoff": {
+      "file": "vm/credential-startup-final/source-handoff-2.1.json",
+      "bytes": 182430,
+      "sha256": "9b390d8356736950ea2dda5f2f3d38172358f428f9e561c999782e6c3d317a57"
+    },
+    "baselineSourceFilesVerified": 1055,
+    "unchangedPriorFiles": 1044,
+    "changedExistingFiles": 11,
+    "newFiles": 4,
+    "files": [
+      {
+        "file": "Dockerfile",
+        "before": {
+          "sha256": "84a4a0c296c1e84ec02a7d6cc45a4db890ec876eaeda68ac279854bc13181c82",
+          "bytes": 3184
+        },
+        "after": {
+          "sha256": "73c6a4ef453388a1caf1c197c6ded87301e8b294a351f35ed6a70aa8d1249591",
+          "bytes": 3664
+        },
+        "mode": "0o644"
+      },
+      {
+        "file": "deploy/caddy/Dockerfile",
+        "before": {
+          "sha256": "baf623efc6471eccb604645488125012b05fb11f2fd5cbb453321b5acee3b674",
+          "bytes": 322
+        },
+        "after": {
+          "sha256": "203f1ca51061d3eb276d089d4678a1725e3e195cac0fd214496a928a461a9e6e",
+          "bytes": 785
+        },
+        "mode": "0o644"
+      },
+      {
+        "file": "deploy/lib.sh",
+        "before": {
+          "sha256": "3c29119966e1c9f1ac0fab178d2d769ced17b7b256ceab6434ac12758d832b3a",
+          "bytes": 2638
+        },
+        "after": {
+          "sha256": "bfa2217784146feb8e6a815fdb436470fe67e1c042b96e1a8046b24f61f2546b",
+          "bytes": 2890
+        },
+        "mode": "0o755"
+      },
+      {
+        "file": "deploy/service-lifecycle.py",
+        "before": null,
+        "after": {
+          "sha256": "341e6d7a917e5e84b6f34d3889db39377cea0146425f4a460665e3a5efd1cf5c",
+          "bytes": 24968
+        },
+        "mode": "0o644"
+      },
+      {
+        "file": "scripts/backup.sh",
+        "before": {
+          "sha256": "78d8db399485d612041cbceaa4835052981c9b3f9d7f90013e3fcd685db98d53",
+          "bytes": 8954
+        },
+        "after": {
+          "sha256": "35142ad43f9c6760b67900c8a72a167a0413e10d28a210dbee43f1ea3e34bd28",
+          "bytes": 10277
+        },
+        "mode": "0o755"
+      },
+      {
+        "file": "scripts/install-ubuntu.sh",
+        "before": {
+          "sha256": "7444308f6dc83de231f8c23c0e80086eb710664d1e223dcf24e7cdf29f63e884",
+          "bytes": 24899
+        },
+        "after": {
+          "sha256": "530d9a5a294ed6df520ed7da2d2738064fbc9e6d3e486d11154320f98ef25d5e",
+          "bytes": 25141
+        },
+        "mode": "0o755"
+      },
+      {
+        "file": "scripts/restore.sh",
+        "before": {
+          "sha256": "8060ecf2fd444d0fa06e3d8fdc5443b2754cfdce2ee975caad108fe4c1de3bcc",
+          "bytes": 11457
+        },
+        "after": {
+          "sha256": "75e7957f8f9487ae8a6813f22fa2da543015aff5f0d620e9ad86331ae20a5acb",
+          "bytes": 11776
+        },
+        "mode": "0o755"
+      },
+      {
+        "file": "scripts/update.sh",
+        "before": {
+          "sha256": "aca0a2101f38dcd2527c688c1b0eae66f8a2501c57b002d8bb147a6986763fb7",
+          "bytes": 2738
+        },
+        "after": {
+          "sha256": "6c44b3b244c30af5f58e0866482a64ac76e1a650faf8141c092b241354ba42f7",
+          "bytes": 4108
+        },
+        "mode": "0o755"
+      },
+      {
+        "file": "scripts/check-health.sh",
+        "before": {
+          "sha256": "b2bfc2a960b0e545a3cf72afe9396feb5d0c633df27fbc8ab428dcd36c616088",
+          "bytes": 1231
+        },
+        "after": {
+          "sha256": "d1eb2b9ab5e2d8f0a98bef1047f17d9353c1c7a936e8eaf1c3a3e73f6751de3e",
+          "bytes": 484
+        },
+        "mode": "0o755"
+      },
+      {
+        "file": "tests/deployment_service_lifecycle_test.py",
+        "before": null,
+        "after": {
+          "sha256": "46809f871e54c64598efe21aa80d919e4de516b9c8800627314a4d4e9a556e7f",
+          "bytes": 26308
+        },
+        "mode": "0o644"
+      },
+      {
+        "file": "tests/deployment_docker_build_inputs_test.py",
+        "before": null,
+        "after": {
+          "sha256": "1a65fae1363d8ae2d438f9a20ac1e6510c890038daf936f67d80c16859f929da",
+          "bytes": 13570
+        },
+        "mode": "0o644"
+      },
+      {
+        "file": "tests/deployment_caddy_capability_test.py",
+        "before": null,
+        "after": {
+          "sha256": "82c3e6cf4782d41ef96ded6ac78ffd37cfa825f5eb71205fcf4f054c58c6ee78",
+          "bytes": 6202
+        },
+        "mode": "0o644"
+      },
+      {
+        "file": "tests/deployment_failure_cleanup_test.py",
+        "before": {
+          "sha256": "048444381b70a35d4ffc4e92dbda29305981ae96f73b87b6fc60c6ca7fe64d78",
+          "bytes": 11363
+        },
+        "after": {
+          "sha256": "3aaa2a62570e1922677efa9ac1056de5493a82377221c7c537aef8d6793892ee",
+          "bytes": 30361
+        },
+        "mode": "0o644"
+      },
+      {
+        "file": "tests/deployment_pending_restore_test.py",
+        "before": {
+          "sha256": "fcd5386f53861e96aba9a3eecb3ca63783e2e10b4ba2fe372945c83212a0fafb",
+          "bytes": 28738
+        },
+        "after": {
+          "sha256": "f040be97aea845405ed26a5d6c9a2f0e8bb3279f6cec2305fa574819edd711f3",
+          "bytes": 35844
+        },
+        "mode": "0o644"
+      },
+      {
+        "file": ".github/workflows/ci.yml",
+        "before": {
+          "sha256": "cc37971f2cebe0f079aea11b7c24237b96f79f2bb252a92805766591adcb23c3",
+          "bytes": 9511
+        },
+        "after": {
+          "sha256": "40805b7c1d5acf4102767ed91247b9c9c2d11c57aafa4611fd29ad610a53eee9",
+          "bytes": 9827
+        },
+        "mode": "0o644"
+      }
+    ]
+  },
+  "priorRuntimeSource": {
+    "algorithm": "sha256",
+    "scope": "runtime-v1",
+    "sha256": "4835ce50923c5fbea4f84a67fba32f0d47a3ea74fe097d81e9294a4613ede9c1",
+    "fileCount": 777,
+    "byteCount": 49064815,
+    "entrypoints": []
+  },
+  "currentRuntimeSource": {
+    "algorithm": "sha256",
+    "scope": "runtime-v1",
+    "sha256": "5a7cf154d82fda53a5ac5314e12ec397982b6fa67ea9ad2d465b1465ba939c3f",
+    "fileCount": 778,
+    "byteCount": 49093485,
+    "entrypoints": []
+  },
+  "currentTestInputs": {
+    "unit": {
+      "algorithm": "sha256",
+      "scope": "test-inputs-unit-v1",
+      "sha256": "daacc89a2bf5b8fd3f442dc09e03e2ab24021eb378421659ed04f8fe7aa8387d",
+      "fileCount": 91,
+      "byteCount": 820042,
+      "entrypoints": [
+        "tests/acceptance-auth-budget.test.mjs",
+        "tests/account-startup.test.mjs",
+        "tests/account.test.mjs",
+        "tests/ai-gateway.test.mjs",
+        "tests/api-reauthentication.test.mjs",
+        "tests/app-provider-request-races.test.mjs",
+        "tests/audit-streamed-html.test.mjs",
+        "tests/auth-page-lifecycle.test.mjs",
+        "tests/avatar.test.mjs",
+        "tests/carousel-gesture.test.mjs",
+        "tests/carousel.test.mjs",
+        "tests/catalog.test.mjs",
+        "tests/content-ai-translation.test.mjs",
+        "tests/content-collaboration-runtime.test.mjs",
+        "tests/content-editor-identity.test.mjs",
+        "tests/crm-tools.test.mjs",
+        "tests/custom-products.test.mjs",
+        "tests/customer-permissions.test.mjs",
+        "tests/dam-client.test.mjs",
+        "tests/display-preferences.test.mjs",
+        "tests/editor-concurrency.test.mjs",
+        "tests/editor-workflows.test.mjs",
+        "tests/editorial-csp.test.mjs",
+        "tests/editorial-settings.test.mjs",
+        "tests/event-slot-picker.test.mjs",
+        "tests/experience.test.mjs",
+        "tests/form-schema.test.mjs",
+        "tests/frontend-payload-boundaries.test.mjs",
+        "tests/frontend-state.test.mjs",
+        "tests/http-boundaries.test.mjs",
+        "tests/lighthouse-attempts.test.mjs",
+        "tests/locale-actions.test.mjs",
+        "tests/locale-routing.test.mjs",
+        "tests/molar-preparation.test.mjs",
+        "tests/navigation-scroll.test.mjs",
+        "tests/operator-copy.test.mjs",
+        "tests/page-lifecycle-ui.test.mjs",
+        "tests/page-translation.test.mjs",
+        "tests/password-hashing.test.mjs",
+        "tests/personal-routes.test.mjs",
+        "tests/private-audit-policy.test.mjs",
+        "tests/private-audit-session.test.mjs",
+        "tests/private-device-runtime.test.mjs",
+        "tests/private-lighthouse-export.test.mjs",
+        "tests/product-editor.test.mjs",
+        "tests/product-publication.test.mjs",
+        "tests/product-release.test.mjs",
+        "tests/product-translation.test.mjs",
+        "tests/production-frontend-contracts.test.mjs",
+        "tests/public-hydration.test.mjs",
+        "tests/public-import-boundaries.test.mjs",
+        "tests/public-route-entries.test.mjs",
+        "tests/public-routing.test.mjs",
+        "tests/public-surface.test.mjs",
+        "tests/pwa-policy.test.mjs",
+        "tests/reference-documents.test.mjs",
+        "tests/scene-preparation.test.mjs",
+        "tests/service-worker-classic.test.mjs",
+        "tests/site-content-control.test.mjs",
+        "tests/site-preferences.test.mjs",
+        "tests/source-download.test.mjs",
+        "tests/source-language-render.test.mjs",
+        "tests/source-template-render.test.mjs",
+        "tests/storage-policy-form.test.mjs",
+        "tests/studio-ai.test.mjs",
+        "tests/upload-policy.test.mjs",
+        "tests/user-settings.test.mjs",
+        "tests/workspace-permissions.test.mjs",
+        "tests/workspace-route-preload.test.mjs",
+        "tests/workspace-startup.test.mjs",
+        "tests/workspace.test.mjs"
+      ]
+    },
+    "postgres": {
+      "algorithm": "sha256",
+      "scope": "test-inputs-postgres-v1",
+      "sha256": "48006d869ae11326bb9b7868256340d2c131c93fa78c55bc530921104f70f713",
+      "fileCount": 46,
+      "byteCount": 771143,
+      "entrypoints": [
+        "tests/server-ai-media.pg.mjs",
+        "tests/server-auth-credentials.pg.mjs",
+        "tests/server-auth-limits.pg.mjs",
+        "tests/server-automation.pg.mjs",
+        "tests/server-campaigns.pg.mjs",
+        "tests/server-communication-channels.pg.mjs",
+        "tests/server-company-certificates.pg.mjs",
+        "tests/server-contact-campaigns.pg.mjs",
+        "tests/server-content-ai.pg.mjs",
+        "tests/server-crm-io.pg.mjs",
+        "tests/server-editor-workflows.pg.mjs",
+        "tests/server-glossary.pg.mjs",
+        "tests/server-mfa-recovery.pg.mjs",
+        "tests/server-notification-policy.pg.mjs",
+        "tests/server-notification-templates.pg.mjs",
+        "tests/server-page-lifecycle.pg.mjs",
+        "tests/server-page-translation.pg.mjs",
+        "tests/server-portal-mapping.pg.mjs",
+        "tests/server-privacy.pg.mjs",
+        "tests/server-product-registry.pg.mjs",
+        "tests/server-public-surface.pg.mjs",
+        "tests/server-resource-pages.pg.mjs",
+        "tests/server-resource-uploads.pg.mjs",
+        "tests/server-restore-security.pg.mjs",
+        "tests/server-site-policy.pg.mjs",
+        "tests/server-source-pages.pg.mjs",
+        "tests/server-staff-lifecycle.pg.mjs",
+        "tests/server-staff-mfa-reset.pg.mjs",
+        "tests/server-staff-provisioning.pg.mjs",
+        "tests/server-storage-policy.pg.mjs",
+        "tests/server-task-reminder-policy.pg.mjs",
+        "tests/server-task-reminder-upgrade.pg.mjs",
+        "tests/server-tender-envelopes.pg.mjs",
+        "tests/server-workspace-calendar.pg.mjs",
+        "tests/server-workspace-commercial.pg.mjs",
+        "tests/server-workspace-domains.pg.mjs",
+        "tests/server-workspace-pipelines.pg.mjs",
+        "tests/server-workspace-policy.pg.mjs",
+        "tests/server-workspace-routing.pg.mjs",
+        "tests/server-workspace-scopes.pg.mjs",
+        "tests/server-workspace.integration.pg.mjs"
+      ]
+    },
+    "api": {
+      "algorithm": "sha256",
+      "scope": "test-inputs-api-v1",
+      "sha256": "4dba30bb5bbc5f8b5a0debe88e6b47749505588ce015b901e396bd30eb7e5c61",
+      "fileCount": 7,
+      "byteCount": 59417,
+      "entrypoints": [
+        "tests/server-api.integration.test.ts"
+      ]
+    },
+    "build": {
+      "algorithm": "sha256",
+      "scope": "test-inputs-build-v1",
+      "sha256": "2bf29b5b92a5e54bb79f2cd5c425d5e5bd3a6564172dd44cca08c7d853654751",
+      "fileCount": 18,
+      "byteCount": 238004,
+      "entrypoints": []
+    },
+    "browser": {
+      "algorithm": "sha256",
+      "scope": "test-inputs-browser-v1",
+      "sha256": "459d03096e508aa25bc0bf44f76d80bf0ebe9dd67d6b8e29d979b7511106abe6",
+      "fileCount": 21,
+      "byteCount": 200485,
+      "entrypoints": [
+        "tests/e2e/accessibility.spec.ts",
+        "tests/e2e/auth-navigation.spec.ts",
+        "tests/e2e/capabilities.spec.ts",
+        "tests/e2e/crm-lifecycle.spec.ts",
+        "tests/e2e/editor-workflows.spec.ts",
+        "tests/e2e/notification-templates.spec.ts",
+        "tests/e2e/page-lifecycle.spec.ts",
+        "tests/e2e/product-translation.spec.ts",
+        "tests/e2e/production.spec.ts",
+        "tests/e2e/public-csp-images.spec.ts",
+        "tests/e2e/recovery-security.spec.ts",
+        "tests/e2e/runtime-contracts.spec.ts",
+        "tests/e2e/source-template-publishing.spec.ts"
+      ]
+    },
+    "typecheck": {
+      "algorithm": "sha256",
+      "scope": "test-inputs-typecheck-v1",
+      "sha256": "d9be32de157bff5b9b70a226990bf9cbb9c866300ad1a0cecacdbe2da459f70a",
+      "fileCount": 18,
+      "byteCount": 238004,
+      "entrypoints": []
+    }
+  },
+  "priorReviewDescriptors": [
+    {
+      "file": "native-credential-startup-final-independent.json",
+      "bytes": 14902,
+      "sha256": "7436261d9d204d5d6de08854b23a6e452ed4d8043577600be3e4d9cc0bee17cb"
+    },
+    {
+      "file": "browser-credential-startup-final-independent.json",
+      "bytes": 28874,
+      "sha256": "c58fa41f0aeebd271c8ffaaf5407c5e82e4009899d32be464223d3a90dbbb6b4"
+    }
+  ],
+  "historicalRuns": [
+    {
+      "gate": "postgres",
+      "label": "credential-startup-final2",
+      "executionRerun": false,
+      "startedAt": "2026-10-20T20:42:01.394Z",
+      "finishedAt": "2026-10-20T20:45:48.376Z",
+      "exitCode": 0,
+      "counts": {
+        "tests": 471,
+        "pass": 471,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0
+      },
+      "buildPhases": null,
+      "status": {
+        "file": "postgres-credential-startup-final2-status.json",
+        "bytes": 5356,
+        "sha256": "1ecc9d928760a3cf576e94069591a8e66db2903e83dc24bfca8476904f5f56ac"
+      },
+      "rawLogHashOnly": {
+        "file": "postgres-credential-startup-final2.log",
+        "bytes": 57881,
+        "sha256": "a0788b842df297cfc07b263a3f6200c0f7c4e6c16eac3103a2cd5df8f9cc6340"
+      },
+      "applicationSha256": "36eb4aa33a1b192622c4a9e500b00c86348524d3e49813af951db6830dde9338",
+      "executionRuntimeSource": {
+        "algorithm": "sha256",
+        "scope": "runtime-v1",
+        "sha256": "4835ce50923c5fbea4f84a67fba32f0d47a3ea74fe097d81e9294a4613ede9c1",
+        "fileCount": 777,
+        "byteCount": 49064815,
+        "entrypoints": []
+      },
+      "unchangedCurrentTestInputs": {
+        "algorithm": "sha256",
+        "scope": "test-inputs-postgres-v1",
+        "sha256": "48006d869ae11326bb9b7868256340d2c131c93fa78c55bc530921104f70f713",
+        "fileCount": 46,
+        "byteCount": 771143,
+        "entrypoints": [
+          "tests/server-ai-media.pg.mjs",
+          "tests/server-auth-credentials.pg.mjs",
+          "tests/server-auth-limits.pg.mjs",
+          "tests/server-automation.pg.mjs",
+          "tests/server-campaigns.pg.mjs",
+          "tests/server-communication-channels.pg.mjs",
+          "tests/server-company-certificates.pg.mjs",
+          "tests/server-contact-campaigns.pg.mjs",
+          "tests/server-content-ai.pg.mjs",
+          "tests/server-crm-io.pg.mjs",
+          "tests/server-editor-workflows.pg.mjs",
+          "tests/server-glossary.pg.mjs",
+          "tests/server-mfa-recovery.pg.mjs",
+          "tests/server-notification-policy.pg.mjs",
+          "tests/server-notification-templates.pg.mjs",
+          "tests/server-page-lifecycle.pg.mjs",
+          "tests/server-page-translation.pg.mjs",
+          "tests/server-portal-mapping.pg.mjs",
+          "tests/server-privacy.pg.mjs",
+          "tests/server-product-registry.pg.mjs",
+          "tests/server-public-surface.pg.mjs",
+          "tests/server-resource-pages.pg.mjs",
+          "tests/server-resource-uploads.pg.mjs",
+          "tests/server-restore-security.pg.mjs",
+          "tests/server-site-policy.pg.mjs",
+          "tests/server-source-pages.pg.mjs",
+          "tests/server-staff-lifecycle.pg.mjs",
+          "tests/server-staff-mfa-reset.pg.mjs",
+          "tests/server-staff-provisioning.pg.mjs",
+          "tests/server-storage-policy.pg.mjs",
+          "tests/server-task-reminder-policy.pg.mjs",
+          "tests/server-task-reminder-upgrade.pg.mjs",
+          "tests/server-tender-envelopes.pg.mjs",
+          "tests/server-workspace-calendar.pg.mjs",
+          "tests/server-workspace-commercial.pg.mjs",
+          "tests/server-workspace-domains.pg.mjs",
+          "tests/server-workspace-pipelines.pg.mjs",
+          "tests/server-workspace-policy.pg.mjs",
+          "tests/server-workspace-routing.pg.mjs",
+          "tests/server-workspace-scopes.pg.mjs",
+          "tests/server-workspace.integration.pg.mjs"
+        ]
+      },
+      "newOperationalAcceptance": false
+    },
+    {
+      "gate": "api",
+      "label": "credential-startup-final2",
+      "executionRerun": false,
+      "startedAt": "2026-10-20T20:42:00.375Z",
+      "finishedAt": "2026-10-20T20:42:19.109Z",
+      "exitCode": 0,
+      "counts": {
+        "tests": 20,
+        "passed": 20,
+        "failed": 0,
+        "skipped": 0
+      },
+      "buildPhases": null,
+      "status": {
+        "file": "api-credential-startup-final2-status.json",
+        "bytes": 1625,
+        "sha256": "cf9870bec7644c0530170558ab572868c3f1fee505f6ebd56fb2e75919cb464f"
+      },
+      "rawLogHashOnly": {
+        "file": "api-credential-startup-final2.log",
+        "bytes": 1423,
+        "sha256": "98c79fceee0cc54056f9109ba27cbbca92600882bd33906a7f53591afbd84050"
+      },
+      "applicationSha256": "36eb4aa33a1b192622c4a9e500b00c86348524d3e49813af951db6830dde9338",
+      "executionRuntimeSource": {
+        "algorithm": "sha256",
+        "scope": "runtime-v1",
+        "sha256": "4835ce50923c5fbea4f84a67fba32f0d47a3ea74fe097d81e9294a4613ede9c1",
+        "fileCount": 777,
+        "byteCount": 49064815,
+        "entrypoints": []
+      },
+      "unchangedCurrentTestInputs": {
+        "algorithm": "sha256",
+        "scope": "test-inputs-api-v1",
+        "sha256": "4dba30bb5bbc5f8b5a0debe88e6b47749505588ce015b901e396bd30eb7e5c61",
+        "fileCount": 7,
+        "byteCount": 59417,
+        "entrypoints": [
+          "tests/server-api.integration.test.ts"
+        ]
+      },
+      "newOperationalAcceptance": false
+    },
+    {
+      "gate": "build",
+      "label": "credential-startup-final",
+      "executionRerun": false,
+      "startedAt": "2026-10-20T20:41:02.570Z",
+      "finishedAt": "2026-10-20T20:42:45.657Z",
+      "exitCode": 0,
+      "counts": null,
+      "buildPhases": {
+        "compile": true,
+        "typeScript": true,
+        "staticPages": 88,
+        "staticPagesExpected": 88,
+        "finalizing": true
+      },
+      "status": {
+        "file": "build-credential-startup-final-status.json",
+        "bytes": 1755,
+        "sha256": "34d2f23cf8302f405fccb7c7503b685c6b1565fad9c5030e4bcfaeee5efe5a90"
+      },
+      "rawLogHashOnly": {
+        "file": "build-credential-startup-final.log",
+        "bytes": 3375,
+        "sha256": "4c024e46763b5523cda6ef51c9a0544fab803b0c6d4f477ff1bebad6f52e27cc"
+      },
+      "applicationSha256": "36eb4aa33a1b192622c4a9e500b00c86348524d3e49813af951db6830dde9338",
+      "executionRuntimeSource": {
+        "algorithm": "sha256",
+        "scope": "runtime-v1",
+        "sha256": "4835ce50923c5fbea4f84a67fba32f0d47a3ea74fe097d81e9294a4613ede9c1",
+        "fileCount": 777,
+        "byteCount": 49064815,
+        "entrypoints": []
+      },
+      "unchangedCurrentTestInputs": {
+        "algorithm": "sha256",
+        "scope": "test-inputs-build-v1",
+        "sha256": "2bf29b5b92a5e54bb79f2cd5c425d5e5bd3a6564172dd44cca08c7d853654751",
+        "fileCount": 18,
+        "byteCount": 238004,
+        "entrypoints": []
+      },
+      "newOperationalAcceptance": false
+    },
+    {
+      "gate": "browser",
+      "label": "credential-startup-final",
+      "executionRerun": false,
+      "startedAt": "2026-10-20T20:44:44.584Z",
+      "finishedAt": "2026-10-20T20:49:21.002Z",
+      "exitCode": 0,
+      "counts": {
+        "discovered": 41,
+        "executed": 41,
+        "passed": 41,
+        "failed": 0,
+        "skipped": 0,
+        "retried": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "buildPhases": null,
+      "status": {
+        "file": "browser-credential-startup-final-status.json",
+        "bytes": 2923,
+        "sha256": "4d9025acba62f6e6fc5c546946254bafbdc11e0b323a6540a77c140b464581a9"
+      },
+      "rawLogHashOnly": {
+        "file": "browser-credential-startup-final.log",
+        "bytes": 6653,
+        "sha256": "0650268c48f86baa8555cae42c91797e670264fc418835fef3e5d6d8dd89cdda"
+      },
+      "applicationSha256": "36eb4aa33a1b192622c4a9e500b00c86348524d3e49813af951db6830dde9338",
+      "executionRuntimeSource": {
+        "algorithm": "sha256",
+        "scope": "runtime-v1",
+        "sha256": "4835ce50923c5fbea4f84a67fba32f0d47a3ea74fe097d81e9294a4613ede9c1",
+        "fileCount": 777,
+        "byteCount": 49064815,
+        "entrypoints": []
+      },
+      "unchangedCurrentTestInputs": {
+        "algorithm": "sha256",
+        "scope": "test-inputs-browser-v1",
+        "sha256": "459d03096e508aa25bc0bf44f76d80bf0ebe9dd67d6b8e29d979b7511106abe6",
+        "fileCount": 21,
+        "byteCount": 200485,
+        "entrypoints": [
+          "tests/e2e/accessibility.spec.ts",
+          "tests/e2e/auth-navigation.spec.ts",
+          "tests/e2e/capabilities.spec.ts",
+          "tests/e2e/crm-lifecycle.spec.ts",
+          "tests/e2e/editor-workflows.spec.ts",
+          "tests/e2e/notification-templates.spec.ts",
+          "tests/e2e/page-lifecycle.spec.ts",
+          "tests/e2e/product-translation.spec.ts",
+          "tests/e2e/production.spec.ts",
+          "tests/e2e/public-csp-images.spec.ts",
+          "tests/e2e/recovery-security.spec.ts",
+          "tests/e2e/runtime-contracts.spec.ts",
+          "tests/e2e/source-template-publishing.spec.ts"
+        ]
+      },
+      "newOperationalAcceptance": false
+    }
+  ],
+  "unitInputScopeChanged": true,
+  "newUnitAndDevopsGatesOwnedSeparately": true,
+  "allInputsStableBeforeAndAfter": true,
+  "executionRerun": false,
+  "nativeApplicationEvidenceReusable": true,
+  "requiresFreshRuntimeObservation": true,
+  "dockerBuildRequired": true,
+  "ubuntuAcceptance": false,
+  "lighthouseAcceptance": false,
+  "releaseAcceptance": false,
+  "helperSha256": "fb3ac446150f361a1b5036f9aeaba94ac0f5c54ad0a6e22ddfe5e0fb505b2ea1",
+  "collectorSha256": "5914d86adf7e3d47bd3133048e35b8e7ffb17852f2820fa4661dc24d3058efa5"
+}

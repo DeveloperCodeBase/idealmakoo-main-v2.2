@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/mission/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "2e7e1e0a712c54d86ba8465cd0d7afd4ad8b2424c6c50406b153cf757f034299",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "رسالت و بیانیه شرکت | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "تأکید بر صداقت، کیفیت، رضایت مصرف‌کننده و همکاری نزدیک با جامعه دندانپزشکی."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/mission/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/mission/",
+    "en": "http://127.0.0.1:3100/en/mission/",
+    "tr": "http://127.0.0.1:3100/tr/mission/",
+    "ar": "http://127.0.0.1:3100/ar/mission/",
+    "ru": "http://127.0.0.1:3100/ru/mission/",
+    "x-default": "http://127.0.0.1:3100/fa/mission/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 51
+}

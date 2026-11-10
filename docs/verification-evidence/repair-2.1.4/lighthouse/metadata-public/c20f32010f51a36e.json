@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/faq/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "a2067131e27ab23e5b8ce615937d37d51455931c993b0477c5b2e3dcf50ac9f4",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "الأسئلة الشائعة | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "أضف المنتجات لقائمة الاستفسارات وأكمل النموذج."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/faq/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/faq/",
+    "en": "http://127.0.0.1:3100/en/faq/",
+    "tr": "http://127.0.0.1:3100/tr/faq/",
+    "ar": "http://127.0.0.1:3100/ar/faq/",
+    "ru": "http://127.0.0.1:3100/ru/faq/",
+    "x-default": "http://127.0.0.1:3100/fa/faq/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 121
+}

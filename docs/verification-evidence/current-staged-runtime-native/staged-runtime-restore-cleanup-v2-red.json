@@ -1,0 +1,30 @@
+{
+  "format": "idealmakoo.staged-runtime-restore-cleanup-fixtures",
+  "version": 1,
+  "phase": "red",
+  "startedAt": "2026-10-20T23:37:27.667768+00:00",
+  "finishedAt": "2026-10-20T23:37:29.492487+00:00",
+  "elapsedSeconds": 1.825,
+  "exitCode": 1,
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "/tmp/idealmakoo-production-repair-20261020/fixture-sources/staged-runtime-restore-cleanup-v2-red/tests/deployment_pending_restore_test.py",
+    "RestoreCleanupStatusTests",
+    "RestoreRetryLifecycleTests.test_real_restore_term_and_failed_temp_cleanup_keep_committed_checkpoint",
+    "-v"
+  ],
+  "overlay": "/tmp/idealmakoo-production-repair-20261020/fixture-sources/staged-runtime-restore-cleanup-v2-red",
+  "selectedInputs": {
+    "scripts/restore.sh": "d314161468006557c77f450e4012dd748cee16ca45bc2400beaee02c917dc380",
+    "tests/deployment_pending_restore_test.py": "f040be97aea845405ed26a5d6c9a2f0e8bb3279f6cec2305fa574819edd711f3"
+  },
+  "inputsUnchanged": true,
+  "log": {
+    "path": "/tmp/idealmakoo-production-repair-20261020/evidence/staged-runtime-restore-cleanup-v2-red.log",
+    "sha256": "6b1fa941f731da232fdc36bb9792f7879e5bb7e5e04c5cdd4736cff1cea3ffcd",
+    "bytes": 14024
+  },
+  "original40PassProofRetained": true,
+  "mainSourceModified": false,
+  "actualDockerDatabaseNetworkOrVm": false
+}

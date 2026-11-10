@@ -1,0 +1,111 @@
+{
+  "format": "public-lighthouse-private-safe-evidence-v1-export-proof",
+  "pass": true,
+  "exportedAt": "2026-10-20T17:42:38.627Z",
+  "scope": {
+    "kind": "representative-public-pilot",
+    "expectedViews": 4,
+    "measuredViews": 4,
+    "roles": [
+      "anonymous"
+    ],
+    "locales": [
+      "en",
+      "fa"
+    ],
+    "devices": [
+      "mobile"
+    ],
+    "fullPublicRouteSweep": false,
+    "fullWebsitePerformanceGate": false,
+    "workflowActionsMeasured": false,
+    "limitation": "Four listed anonymous mobile navigations only. Completion is not a performance pass. Lighthouse internal load-limit warnings remain material even when the runner completes."
+  },
+  "expected": 4,
+  "attempted": 4,
+  "completed": 4,
+  "errors": 0,
+  "timeouts": 0,
+  "pending": 0,
+  "coverageComplete": true,
+  "buildId": "gb91X0rgCFfgonVlsqBqC",
+  "applicationSha256": "96c9bd3fd90d72c42ac6794327b42a729cb77b8457f7cf6057eef0f7958e8623",
+  "applicationFiles": 658,
+  "buildStatusSha256": "3a4676802600117441fad74dcf945a2c75aee73b16db1a116786d904d2f9d1f4",
+  "applicationManifestSha256": "80f81408049b1d95e0f0af1efd8124a6d1189bf8fff27411ab923223bca12bdb",
+  "configurationHash": "0e5b9d14f87e6481f8aa9f54b30c5f284341745dc33d00644d048958cbce3b48",
+  "supervisor": {
+    "state": "completed",
+    "exitCode": 0,
+    "startedAt": "2026-10-20T17:25:15.754964+00:00",
+    "finishedAt": "2026-10-20T17:28:49.218485+00:00",
+    "rawStatusSha256": "812b1b75acd488b10995ce1a831e6882b7d566f107f5718a19d280ec9bb22fd7"
+  },
+  "inputManifestSha256": "c081a472719f61faad509b5ef3c76cafc4e82765b88f720c25f0b9bd749bfdc6",
+  "inputInventorySha256": "6098633b7ef6874d1cba4eb011183625e6a4750f190ccd4fe313e709cffde225",
+  "inputSummarySha256": "8da5a9dec4a267d68d5144953ab1e5e7178a713ee1595030ef93ae2f9a142230",
+  "helperSha256": "3ce671cd9c5872a2595eb04c4d9a7f3952884b773c04398d89201558cedd634d",
+  "sanitizerSha256": "00bc1afc6345bb765b518c19fda4f6bd154744b99a56fc9f96b55c5fc6509381",
+  "allInputsUnchanged": true,
+  "auditOutcomes": 620,
+  "rawReports": 4,
+  "resultBindings": [
+    {
+      "id": "2d3542e754aa45b5",
+      "resultFile": "2d3542e754aa45b5.attempt-1.result.json",
+      "resultSha256": "807f3e01eb36d75b0023cff1a32bb4129e1698dd04dd25a42ff513cb7a1add54",
+      "rawReportFile": "2d3542e754aa45b5.attempt-1.lhr.json",
+      "rawReportSha256": "676d32651a369c4f3359a8e282ebde8bea8289b904d4834576f12300cd34ace0"
+    },
+    {
+      "id": "f24cd142b15424bd",
+      "resultFile": "f24cd142b15424bd.attempt-1.result.json",
+      "resultSha256": "5fc5d19ca86ffddb1f547b4d8bb7097afb2d9f2681ba31dbb9511fbdf964054b",
+      "rawReportFile": "f24cd142b15424bd.attempt-1.lhr.json",
+      "rawReportSha256": "0ff62831a1a8247a6fa94c960832d038877b44ff79753b2e7d535855b890a442"
+    },
+    {
+      "id": "74f11c38819ac33d",
+      "resultFile": "74f11c38819ac33d.attempt-1.result.json",
+      "resultSha256": "c54d437f07c376670a7c18fa085ec68aff7013e08daca8b94a6e383f5613f7e3",
+      "rawReportFile": "74f11c38819ac33d.attempt-1.lhr.json",
+      "rawReportSha256": "9f63269e3a7886187639113062556bdb43e18d4342709b35f9dadf6ba17c6247"
+    },
+    {
+      "id": "b68ebf79b25cc6d0",
+      "resultFile": "b68ebf79b25cc6d0.attempt-1.result.json",
+      "resultSha256": "16378f79dd08dee11cb08d67f402101e9fc9ce69a8407937a8647539c23f45bc",
+      "rawReportFile": "b68ebf79b25cc6d0.attempt-1.lhr.json",
+      "rawReportSha256": "5b1878428b702c341495c65e0d9d8bf239d74f031929bc085e22b35d3c6321e5"
+    }
+  ],
+  "runWarningCount": 1,
+  "reportsWithPossibleIncompleteResults": 1,
+  "maximumPartBytes": 33554432,
+  "parts": [
+    {
+      "filename": "audit-part-0001.json",
+      "bytes": 791376,
+      "sha256": "df8a7b4fdd4d84b1a3094a77b783310b54f8e3739dd39a25904f37dc955d5969"
+    }
+  ],
+  "omissions": {
+    "rawLighthouseReports": true,
+    "screenshotsAndBinaryPayloads": true,
+    "rawUrlsAndQueryIdentifiers": true,
+    "cookiesHeadersCredentialsAndSessionIdentifiers": true,
+    "domTextLabelsSnippetsAndAttributes": true,
+    "arbitraryTitlesDescriptionsDisplayValuesAndErrorText": true,
+    "networkResourceIdentifiers": true,
+    "safeSelectorPolicy": "Standard element names, combinators and positional pseudo-classes only; IDs, classes and attributes removed.",
+    "auditOutcomes": "Every audit outcome is retained. Unknown audit IDs receive an opaque alias. Image audits retain outcome metadata only.",
+    "errors": "Known Lighthouse or runner error codes and presence/counts are retained. Free-form error and warning text is omitted explicitly.",
+    "details": "Only allowlisted numeric measurements, structural containers and simplified selectors are retained.",
+    "authentication": "Anonymous public navigation; no authentication evidence is claimed.",
+    "detailMaximumArrayItems": 20,
+    "detailMaximumDepth": 8,
+    "detailMaximumNodesPerAudit": 2000,
+    "note": "A privacy-filtered derivative, not a raw Lighthouse report. Consult the separately protected raw report by its SHA-256 for omitted private details.",
+    "publicRouteAllowlistOnly": true
+  }
+}

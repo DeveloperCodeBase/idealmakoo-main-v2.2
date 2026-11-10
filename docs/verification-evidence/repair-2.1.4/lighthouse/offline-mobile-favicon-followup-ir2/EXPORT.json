@@ -1,0 +1,116 @@
+{
+  "format": "sanitized-public-lighthouse-evidence-v1",
+  "exportedAt": "2026-10-26T01:14:09.675Z",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "configurationHash": "1114278e17bbe100e9b4ca63272766d9b6547bff18f5814dc2f015dedfc3e716",
+  "expected": 5,
+  "attempts": 5,
+  "coverageComplete": true,
+  "originalReportsRetainedInScratch": true,
+  "rawReportsDelivered": false,
+  "browserScreenshotsDelivered": false,
+  "reportBytes": 1290565,
+  "sourceHashes": {
+    "manifest.json": "44b8ce904a34bd22270c03eda236693119035dbc4222bcd18711d56ad59b047a",
+    "inventory.json": "f4283496032145c931bde3d4ee62fbe270e86678f9308599a4c3086ed2c8060e",
+    "summary.json": "7b753500f346f747acf97802036ebc4fa1b6dd8e11e93456493fdcc9dca02215"
+  },
+  "reports": [
+    {
+      "id": "8f0a38030ebcee31",
+      "attempt": 1,
+      "filename": "8f0a38030ebcee31.attempt-1.sanitized-lhr.json",
+      "rawReportSha256": "5f61a5851762aaab66259a81a0e4daeaa3ec42fee8cd73b7ea44f5c0e2e9f059",
+      "rawBytes": 311996,
+      "bytes": 257375,
+      "sha256": "de8f889e8f582f9bfd4f62c9a4840e8537d9d0771b39f98c21a621b0b8420fd6",
+      "removedImagePaths": [
+        {
+          "path": "/audits/screenshot-thumbnails/details",
+          "reason": "screenshot-audit-payload"
+        },
+        {
+          "path": "/audits/final-screenshot/details",
+          "reason": "screenshot-audit-payload"
+        }
+      ]
+    },
+    {
+      "id": "df1e6a22c45841a9",
+      "attempt": 1,
+      "filename": "df1e6a22c45841a9.attempt-1.sanitized-lhr.json",
+      "rawReportSha256": "073fc4b220720e10ef410d86755f8a570853d7e35aacf1d9901fa4a2dc4793f7",
+      "rawBytes": 323969,
+      "bytes": 258340,
+      "sha256": "15560419da4247e28d60f482648a33157466ad5f7b388dfd60a173c9be43a269",
+      "removedImagePaths": [
+        {
+          "path": "/audits/screenshot-thumbnails/details",
+          "reason": "screenshot-audit-payload"
+        },
+        {
+          "path": "/audits/final-screenshot/details",
+          "reason": "screenshot-audit-payload"
+        }
+      ]
+    },
+    {
+      "id": "1e8a050247ea4ab6",
+      "attempt": 1,
+      "filename": "1e8a050247ea4ab6.attempt-1.sanitized-lhr.json",
+      "rawReportSha256": "111c31f5e7de51ee06b7b65e0984bd51525339f3e3e0ebfb0d0c5b6be4224bf0",
+      "rawBytes": 313641,
+      "bytes": 258596,
+      "sha256": "6d7b1bb290a8e68ba7474bbf6e72dee0497dda323cf4b66b87d547a53cfa64e5",
+      "removedImagePaths": [
+        {
+          "path": "/audits/screenshot-thumbnails/details",
+          "reason": "screenshot-audit-payload"
+        },
+        {
+          "path": "/audits/final-screenshot/details",
+          "reason": "screenshot-audit-payload"
+        }
+      ]
+    },
+    {
+      "id": "0abdec68d0f5e3e6",
+      "attempt": 1,
+      "filename": "0abdec68d0f5e3e6.attempt-1.sanitized-lhr.json",
+      "rawReportSha256": "cc709000463b0825cda47f8d9f3b49e23bcc52aa117785f784c806e7ab3d2885",
+      "rawBytes": 352605,
+      "bytes": 257706,
+      "sha256": "8cbdd14ff9a38dbc8f37ea561007c3bb27e8131c5c00c7f41bd33c8637df8082",
+      "removedImagePaths": [
+        {
+          "path": "/audits/screenshot-thumbnails/details",
+          "reason": "screenshot-audit-payload"
+        },
+        {
+          "path": "/audits/final-screenshot/details",
+          "reason": "screenshot-audit-payload"
+        }
+      ]
+    },
+    {
+      "id": "4ba908b555be52c0",
+      "attempt": 1,
+      "filename": "4ba908b555be52c0.attempt-1.sanitized-lhr.json",
+      "rawReportSha256": "fb837e00943bc046cecea100ed633eb8e2a61e564365ad341aad9d44e6f0d041",
+      "rawBytes": 338959,
+      "bytes": 258548,
+      "sha256": "ec861d20129fcc289d6a53e6a1580bd8adc791ffb47c3ad26af272e9d8a6abba",
+      "removedImagePaths": [
+        {
+          "path": "/audits/screenshot-thumbnails/details",
+          "reason": "screenshot-audit-payload"
+        },
+        {
+          "path": "/audits/final-screenshot/details",
+          "reason": "screenshot-audit-payload"
+        }
+      ]
+    }
+  ],
+  "note": "Explicitly sanitized derivative, not a raw Lighthouse report. Original raw reports remain in scratch and are identified by SHA256. Screenshot/image payloads are omitted at the exact JSON pointers recorded; scores, metrics, nonimage audit results and failed attempts are retained. Browser logs, input files, cookies and private raw reports are not included."
+}

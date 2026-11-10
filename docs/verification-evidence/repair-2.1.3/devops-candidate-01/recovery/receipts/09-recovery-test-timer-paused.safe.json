@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "kind": "isolated-test-timer-paused",
+  "status": "passed",
+  "completedAt": "2026-10-25T06:16:19.900011+00:00",
+  "normalTimerPreviouslyActive": true,
+  "onlyTestTimerStopped": true,
+  "scheduledBackupService": {
+    "Result": "success",
+    "ExecMainStatus": "0",
+    "ActiveState": "inactive",
+    "SubState": "dead"
+  },
+  "noRunningBackupKilled": true,
+  "actualScannerDaemonVersion": "ClamAV 1.5.4/28163/Sat Oct 24 06:26:10 2026",
+  "sshExitCode": 0,
+  "sshActualWaitConsumed": true
+}

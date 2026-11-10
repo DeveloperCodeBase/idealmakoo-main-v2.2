@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "deliveryBuildId": "fIFLzhRg6HZ_mfSabbL8J",
+  "buildInputSha256": "a9337f54dad49cdd79a8498cd575b05349887860dded6e5fabb5c10b6ca9ebce",
+  "route": "/ar/admin/ai/",
+  "device": "mobile",
+  "before": {
+    "buildId": "HSeZD37BGY1jy6cC01AzB",
+    "cls": 0.22003320215189343,
+    "rawReportSha256": "5411f202ead8f4212f827f380c2be104bacbd6e6620d0e25d5e03cc8bb301217"
+  },
+  "after": {
+    "buildId": "fIFLzhRg6HZ_mfSabbL8J",
+    "cls": 0.04706909365451993,
+    "rawReportSha256": "5bb64330b2a4bd4d990cc32f84fa227f8f70360483a1706416bc404219a19077",
+    "scores": {
+      "performance": 51,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 54
+    },
+    "metrics": {
+      "first-contentful-paint": 2308.3068749999998,
+      "largest-contentful-paint": 7759.6137499999995,
+      "speed-index": 3260.747764003533,
+      "total-blocking-time": 904.4158750000001,
+      "cumulative-layout-shift": 0.04706909365451993,
+      "interactive": 7767.1137499999995
+    },
+    "authVerified": true,
+    "strictPrivateExportPassed": true,
+    "failedWeightedSeoAudits": [
+      {
+        "id": "is-crawlable",
+        "weight": 4.043478260869565,
+        "score": 0
+      },
+      {
+        "id": "meta-description",
+        "weight": 1,
+        "score": 0
+      }
+    ]
+  },
+  "removedProviderParagraphContribution": 0.1729641084973735,
+  "remainingLoadingFooterContribution": 0.04706909365451993,
+  "changedSourceFile": "src/components/workspace/AiStudio.tsx",
+  "changedSourceSha256": "5a1aaeb85f033477fd78b442b8792445c930724df140ba0259629ff440f948bb",
+  "sharedWorkspaceCssOrSceneChanged": false,
+  "allRoutesReaudited": false,
+  "invocation": {
+    "schemaVersion": 1,
+    "kind": "single-private-mobile-lighthouse",
+    "startedAt": "2026-10-23T11:13:15.595124+00:00",
+    "finishedAt": "2026-10-23T11:13:33.299628+00:00",
+    "wallSeconds": 17.70453,
+    "exitCode": 0,
+    "buildId": "fIFLzhRg6HZ_mfSabbL8J",
+    "buildUnchanged": true,
+    "route": "/ar/admin/ai/",
+    "device": "mobile",
+    "rawLogsExcluded": true
+  }
+}

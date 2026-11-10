@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "kind": "isolated-readiness-inspect-focused-tests",
+  "label": "baseline",
+  "startedAt": "2026-10-24T19:21:43.222255+00:00",
+  "completedAt": "2026-10-24T19:21:43.387404+00:00",
+  "elapsedSeconds": 0.1651606859959429,
+  "exitCode": 1,
+  "actualChildWaitConsumed": true,
+  "selectedTestMethods": [
+    "test_readiness_post_up_timeout_reuses_exact_ids_without_repeating_list_or_mutation"
+  ],
+  "inputHashesBefore": {
+    "deploy/service-lifecycle.py": "e55a73f32d8ff06b3699ce86e8e139b385b6e05be6c873216cfc024363fa92b5",
+    "deploy/docker-inspect.py": "87593e909e0e3c40a37b2f0230f4ca21bc9d5348dfc8969d1bc2d4800f81c8e8",
+    "deploy/compose.py": "27c5f7ad14d8386575f041a3755990e8aec1102e6d407d39224f56f94583f550",
+    "deploy/env-file.py": "941ee4a0087a7617233d10f8929e063949ba18f6c4f8a33a6d9fcc741a6985da",
+    "tests/deployment_service_lifecycle_test.py": "8e9c35773b32a80c4ff27cedbbe169b9be24a3a6d8cf160e16afe02861cda967"
+  },
+  "inputHashesAfter": {
+    "deploy/service-lifecycle.py": "e55a73f32d8ff06b3699ce86e8e139b385b6e05be6c873216cfc024363fa92b5",
+    "deploy/docker-inspect.py": "87593e909e0e3c40a37b2f0230f4ca21bc9d5348dfc8969d1bc2d4800f81c8e8",
+    "deploy/compose.py": "27c5f7ad14d8386575f041a3755990e8aec1102e6d407d39224f56f94583f550",
+    "deploy/env-file.py": "941ee4a0087a7617233d10f8929e063949ba18f6c4f8a33a6d9fcc741a6985da",
+    "tests/deployment_service_lifecycle_test.py": "8e9c35773b32a80c4ff27cedbbe169b9be24a3a6d8cf160e16afe02861cda967"
+  },
+  "inputsUnchanged": true,
+  "productHashesBefore": {
+    "deploy/service-lifecycle.py": "e55a73f32d8ff06b3699ce86e8e139b385b6e05be6c873216cfc024363fa92b5",
+    "deploy/docker-inspect.py": "87593e909e0e3c40a37b2f0230f4ca21bc9d5348dfc8969d1bc2d4800f81c8e8",
+    "deploy/compose.py": "27c5f7ad14d8386575f041a3755990e8aec1102e6d407d39224f56f94583f550",
+    "deploy/env-file.py": "941ee4a0087a7617233d10f8929e063949ba18f6c4f8a33a6d9fcc741a6985da",
+    "tests/deployment_service_lifecycle_test.py": "3930902b45708f78e43f4cc7efbb57b9e32151be0cbd1a02dea4afd46bf6e666"
+  },
+  "productHashesAfter": {
+    "deploy/service-lifecycle.py": "e55a73f32d8ff06b3699ce86e8e139b385b6e05be6c873216cfc024363fa92b5",
+    "deploy/docker-inspect.py": "87593e909e0e3c40a37b2f0230f4ca21bc9d5348dfc8969d1bc2d4800f81c8e8",
+    "deploy/compose.py": "27c5f7ad14d8386575f041a3755990e8aec1102e6d407d39224f56f94583f550",
+    "deploy/env-file.py": "941ee4a0087a7617233d10f8929e063949ba18f6c4f8a33a6d9fcc741a6985da",
+    "tests/deployment_service_lifecycle_test.py": "3930902b45708f78e43f4cc7efbb57b9e32151be0cbd1a02dea4afd46bf6e666"
+  },
+  "productUnchanged": true,
+  "result": {
+    "testsRun": 1,
+    "failures": 1,
+    "errors": 0,
+    "skipped": 0,
+    "expectedFailures": 0,
+    "unexpectedSuccesses": 0,
+    "durationSeconds": 0.011208515999896917,
+    "failureTestIds": [
+      "selected_readiness_lifecycle_tests.LifecycleTests.test_readiness_post_up_timeout_reuses_exact_ids_without_repeating_list_or_mutation"
+    ],
+    "errorTestIds": [],
+    "successful": false
+  },
+  "noDockerDaemonNetworkDatabaseOrVMAction": true,
+  "fullOperationsSuiteRun": false
+}

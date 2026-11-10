@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/resources/acrylic-composite-resin-bond-cover/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "1e245877ef60f35e2cf7c843b93d4e921ccd33893232573c8fdf0fe92e499bc0",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "صورة مرجعية للبحث — ارتباط الأسنان الأكريليكية والكومبوزيت براتنج القاعدة | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "ارتباط الأسنان الأكريليكية والكومبوزيت براتنج القاعدة — وثائق المصنع المصوّرة الأصلية"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/resources/acrylic-composite-resin-bond-cover/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/acrylic-composite-resin-bond-cover/",
+    "en": "http://127.0.0.1:3100/en/resources/acrylic-composite-resin-bond-cover/",
+    "tr": "http://127.0.0.1:3100/tr/resources/acrylic-composite-resin-bond-cover/",
+    "ar": "http://127.0.0.1:3100/ar/resources/acrylic-composite-resin-bond-cover/",
+    "ru": "http://127.0.0.1:3100/ru/resources/acrylic-composite-resin-bond-cover/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/acrylic-composite-resin-bond-cover/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 67
+}

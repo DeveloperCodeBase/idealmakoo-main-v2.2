@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "kind": "qualified-local-docker-inspect-candidate-completion",
+  "createdAt": "2026-10-24T17:39:47.387553+00:00",
+  "status": "focused-gates-passed-awaiting-independent-review-and-full-suite",
+  "productFiles": {
+    "deploy/service-lifecycle.py": {
+      "sha256": "e55a73f32d8ff06b3699ce86e8e139b385b6e05be6c873216cfc024363fa92b5",
+      "bytes": 31933,
+      "beforeSha256": "3db80a9bd1d81e661a9204b8cd5e52dbc7c9503949770a37d870a2d4e53c897d"
+    },
+    "deploy/docker-inspect.py": {
+      "sha256": "87593e909e0e3c40a37b2f0230f4ca21bc9d5348dfc8969d1bc2d4800f81c8e8",
+      "bytes": 11046,
+      "beforeSha256": null
+    },
+    "tests/deployment_service_lifecycle_test.py": {
+      "sha256": "3930902b45708f78e43f4cc7efbb57b9e32151be0cbd1a02dea4afd46bf6e666",
+      "bytes": 60518,
+      "beforeSha256": "3fca706c7275a7b8fc655091e3284555360d989bdc47cb8cd65e3b22d45aec67"
+    },
+    "tests/deployment_discovery_contract_test.py": {
+      "sha256": "9d77ac987d83286cd7514559fad3a4f87ced9ea998f3898b53034fabd7ec4d65",
+      "bytes": 17783,
+      "beforeSha256": "6bdbadfe8df9f5d32eedba25a20d603e3a767c68d57b5d2b15b3cc75a0b7a753"
+    },
+    "tests/deployment_docker_inspect_test.py": {
+      "sha256": "387a832ca75e20911c3290f3972696b6411d6841b03763a6799b624932b24d90",
+      "bytes": 22994,
+      "beforeSha256": null
+    }
+  },
+  "runtimePatchSha256": "be66636357c7e600ec445e597f111d51d5d9c1a0d1ea8f28463a07d2b4b354e3",
+  "candidatePatchSha256": "1e7ee1d21bab9fbe0113c1113a8219a3fec514a0b9cdfc9f95fcaf7ab24290b3",
+  "testsPatchSha256": "b88b6de0e779f270c11960a2e777ab8b58ccd0f82890c16cd51da3e2d89cc0ff",
+  "baseline": {
+    "receipt": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261024/backend/docker-local-inspect-preparation-01/baseline-02/result.safe.json",
+    "sha256": "66c747bc711e50268dabb646448233a498c6a85933ca68a70fec32e64d6c409d",
+    "oldLifecycleSha256": "3db80a9bd1d81e661a9204b8cd5e52dbc7c9503949770a37d870a2d4e53c897d",
+    "sameSyntheticCliStall": true,
+    "sharedParentBudgetSeconds": 2,
+    "perInspectCapSeconds": 15,
+    "testExitCode": 1,
+    "expectedFailure": true,
+    "durationSeconds": 2.074713
+  },
+  "focused": {
+    "receipt": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261024/backend/docker-local-inspect-preparation-01/candidate-02/result.safe.json",
+    "sha256": "03e554d56d71b0660055ee5258d60d826a7b2084f3b72cac742da842436a9783",
+    "newMethods": 14,
+    "lifecycleMethods": 39,
+    "discoveryMethods": 12,
+    "testsRun": 65,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "expectedFailures": 0,
+    "durationSeconds": 27.228704,
+    "actualWaitConsumed": true,
+    "sourceChangedDuringTests": []
+  },
+  "fixtureCompatibility": {
+    "changedWrappers": 2,
+    "importSafeMainGuard": true,
+    "assertionsWeakened": false,
+    "originalFailureReceipt": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261024/backend/docker-local-inspect-preparation-01/candidate-01/result.safe.json"
+  },
+  "python310AstPassed": true,
+  "existingInspectFormatPreserved": true,
+  "unchangedSiblings": [
+    "deploy/compose.py",
+    "deploy/env-file.py"
+  ],
+  "localFixturesOnly": true,
+  "realDockerDaemonUsed": false,
+  "vmCalls": false,
+  "fullDeploymentSuiteRun": false,
+  "nativeBuildRun": false,
+  "limitations": [
+    "API qualification and wire behavior used isolated fixtures; actual guest eligibility and loaded-daemon startup remain untested.",
+    "Synthetic CLI delay proof does not identify daemon latency or application startup cause.",
+    "Custom contexts, TLS, headers, Docker config overrides and unproven executables retain original CLI before any request."
+  ]
+}

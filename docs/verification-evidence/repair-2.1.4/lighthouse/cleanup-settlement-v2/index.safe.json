@@ -1,0 +1,36 @@
+{
+  "format": "cleanup-settlement-public-evidence-index-v1",
+  "files": [
+    {
+      "file": "proof-attempt-01.safe.json",
+      "sha256": "99a358a41bb8b0311d4443601f19aa3f5dfa3a64c72a34b920df6cf3f29632b3",
+      "bytes": 10159
+    },
+    {
+      "file": "proof-attempt-02.safe.json",
+      "sha256": "225cc3fd25e27b6507e4f5bea66645e1a8b1ebb7e836ceda536a7a12674b1160",
+      "bytes": 15626
+    },
+    {
+      "file": "diagnostic.stop-refusal-attempt01.safe.json",
+      "sha256": "200978aa545e4f37fee0d2d579b396cba5b371acd30c43eb99e72aca4ae20705",
+      "bytes": 749
+    },
+    {
+      "file": "final4f-before-tool-change.closure.safe.json",
+      "sha256": "4df0128a3e0d7076664f1b5f458010c6f970a6fe3a5feda8b5df5290ce032b78",
+      "bytes": 838
+    },
+    {
+      "file": "final4f-runtime-closure.safe.json",
+      "sha256": "03989cded99df3fafb208551e0166fa520732461026a68fa764ee12594a4e58a",
+      "bytes": 1153
+    },
+    {
+      "file": "FLOW.safe.json",
+      "sha256": "afd2e3e6465946fe2a7f7635cfa880d7c9805d22810d37ef6eae69437364a369",
+      "bytes": 2016
+    }
+  ],
+  "status": "Controlled proof closed; final new full Lighthouse run remains pending."
+}

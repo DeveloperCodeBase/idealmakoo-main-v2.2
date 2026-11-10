@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/verify-product/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "75b005897ac79bbe82714681fbb91b580f7e975fe613f772bc0c5066fda34d4d",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Проверить номер партии | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Проверка точного серийного номера или кода партии в реестре завода, записанный статус и связь с поддержкой."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/verify-product/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/verify-product/",
+    "en": "http://127.0.0.1:3100/en/verify-product/",
+    "tr": "http://127.0.0.1:3100/tr/verify-product/",
+    "ar": "http://127.0.0.1:3100/ar/verify-product/",
+    "ru": "http://127.0.0.1:3100/ru/verify-product/",
+    "x-default": "http://127.0.0.1:3100/fa/verify-product/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 48
+}

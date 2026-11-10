@@ -1,0 +1,11 @@
+{
+  "version": "6.1.4",
+  "sourceFileCount": 38,
+  "builtFileCount": 21,
+  "selectorCount": 5056,
+  "sourceHash": "711414d4dfeba23e8dad76d164212c46e926ea0fb0f238dd8967a3e3abeceebd",
+  "selectorAstHash": "105bf693db7e352557d64eba20e7d20fe1f44237bb4aaae24af2dd41f249df5d",
+  "compiledCssHash": "26a14219f411a2a1602ecc09bc43a763b4fc2deaff91770dd238c671e78b681f",
+  "compiledCssBytes": 525579,
+  "warnings": []
+}

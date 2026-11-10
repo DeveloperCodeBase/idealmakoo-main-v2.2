@@ -1,0 +1,196 @@
+{
+  "url": "http://127.0.0.1:3100/fa/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "expectedNoindex": false,
+  "device": "mobile",
+  "attempt": 1,
+  "id": "5635c36b9d10e469",
+  "startedAt": "2026-10-25T23:29:37.907Z",
+  "status": "completed",
+  "scores": {
+    "performance": 79,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  "metrics": {
+    "first-contentful-paint": 2121.09465,
+    "largest-contentful-paint": 4078.1262,
+    "speed-index": 2400.095601264858,
+    "total-blocking-time": 287.99999999999955,
+    "cumulative-layout-shift": 0,
+    "interactive": 6626.139300000001
+  },
+  "lighthouseVersion": "13.5.0",
+  "fetchTime": "2026-10-25T23:29:39.905Z",
+  "finalDisplayedUrl": "http://127.0.0.1:3100/fa/",
+  "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+  "environment": {
+    "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+    "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "benchmarkIndex": 2516.5,
+    "credits": {
+      "axe-core": "4.14.0"
+    }
+  },
+  "configSettings": {
+    "output": "json",
+    "maxWaitForFcp": 30000,
+    "maxWaitForLoad": 45000,
+    "pauseAfterFcpMs": 1000,
+    "pauseAfterLoadMs": 1000,
+    "networkQuietThresholdMs": 1000,
+    "cpuQuietThresholdMs": 1000,
+    "formFactor": "mobile",
+    "throttling": {
+      "rttMs": 150,
+      "throughputKbps": 1638.4,
+      "requestLatencyMs": 562.5,
+      "downloadThroughputKbps": 1474.5600000000002,
+      "uploadThroughputKbps": 675,
+      "cpuSlowdownMultiplier": 4
+    },
+    "throttlingMethod": "simulate",
+    "screenEmulation": {
+      "mobile": true,
+      "width": 412,
+      "height": 823,
+      "deviceScaleFactor": 1.75,
+      "disabled": false
+    },
+    "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+    "auditMode": false,
+    "gatherMode": false,
+    "clearStorageTypes": [
+      "file_systems",
+      "shader_cache",
+      "service_workers",
+      "cache_storage"
+    ],
+    "disableStorageReset": false,
+    "debugNavigation": false,
+    "channel": "node",
+    "usePassiveGathering": false,
+    "disableFullPageScreenshot": true,
+    "skipAboutBlank": false,
+    "blankPage": "about:blank",
+    "ignoreStatusCode": false,
+    "locale": "en-US",
+    "blockedUrlPatterns": null,
+    "additionalTraceCategories": null,
+    "extraHeaders": null,
+    "precomputedLanternData": null,
+    "onlyAudits": null,
+    "onlyCategories": [
+      "performance",
+      "accessibility",
+      "best-practices",
+      "seo"
+    ],
+    "skipAudits": null
+  },
+  "runWarnings": [],
+  "failedAudits": [
+    {
+      "id": "first-contentful-paint",
+      "title": "First Contentful Paint",
+      "score": 0.8,
+      "displayValue": "2.1 s"
+    },
+    {
+      "id": "largest-contentful-paint",
+      "title": "Largest Contentful Paint",
+      "score": 0.47,
+      "displayValue": "4.1 s"
+    },
+    {
+      "id": "speed-index",
+      "title": "Speed Index",
+      "score": 0.98,
+      "displayValue": "2.4 s"
+    },
+    {
+      "id": "total-blocking-time",
+      "title": "Total Blocking Time",
+      "score": 0.8,
+      "displayValue": "290 ms"
+    },
+    {
+      "id": "max-potential-fid",
+      "title": "Max Potential First Input Delay",
+      "score": 0.47,
+      "displayValue": "260 ms"
+    },
+    {
+      "id": "interactive",
+      "title": "Time to Interactive",
+      "score": 0.57,
+      "displayValue": "6.6 s"
+    },
+    {
+      "id": "mainthread-work-breakdown",
+      "title": "Minimize main-thread work",
+      "score": 0,
+      "displayValue": "3.7 s"
+    },
+    {
+      "id": "unused-css-rules",
+      "title": "Reduce unused CSS",
+      "score": 0,
+      "displayValue": "Est savings of 13 KiB"
+    },
+    {
+      "id": "unused-javascript",
+      "title": "Reduce unused JavaScript",
+      "score": 0,
+      "displayValue": "Est savings of 115 KiB"
+    },
+    {
+      "id": "bf-cache",
+      "title": "Page prevented back/forward cache restoration",
+      "score": 0,
+      "displayValue": "3 failure reasons"
+    },
+    {
+      "id": "forced-reflow-insight",
+      "title": "Forced reflow",
+      "score": 0
+    },
+    {
+      "id": "image-delivery-insight",
+      "title": "Improve image delivery",
+      "score": 0.5,
+      "displayValue": "Est savings of 30 KiB"
+    },
+    {
+      "id": "legacy-javascript-insight",
+      "title": "Legacy JavaScript",
+      "score": 0,
+      "displayValue": "Est savings of 12 KiB"
+    },
+    {
+      "id": "network-dependency-tree-insight",
+      "title": "Network dependency tree",
+      "score": 0
+    },
+    {
+      "id": "render-blocking-insight",
+      "title": "Render-blocking requests",
+      "score": 0,
+      "displayValue": "Est savings of 1,270 ms"
+    }
+  ],
+  "report": "5635c36b9d10e469.attempt-1.sanitized-lhr.json",
+  "httpStatus": 200,
+  "httpUrl": "http://127.0.0.1:3100/fa/",
+  "expectedHttpVerified": true,
+  "identityErrors": [],
+  "urlIdentityVerified": true,
+  "durationMs": 10484,
+  "finishedAt": "2026-10-25T23:29:48.391Z",
+  "format": "sanitized-public-lighthouse-evidence-v1",
+  "rawReportSha256": "a09df8fc33cf10cd2d1f796b3ee38fb577154c089f51349976adc88abbe38353",
+  "reportIsSanitized": true
+}

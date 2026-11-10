@@ -1,0 +1,452 @@
+{
+  "schemaVersion": 1,
+  "kind": "lighthouse-current-production-pilot",
+  "observedAt": "2026-10-25T03:40:41.184357+00:00",
+  "applicationVersion": "2.1.3",
+  "buildId": "fztGyySqMaBbes8--JQKs",
+  "chromeVersion": "156.0.8078.4",
+  "lighthouseVersion": "13.5.0",
+  "graphicsMode": "swiftshader-driver",
+  "originalDesignAndEffectsPreserved": true,
+  "disableFullPageScreenshot": true,
+  "allScoredAuditsRetained": true,
+  "expectedTargetStates": 2300,
+  "attemptedTargetStates": 12,
+  "scoredReports": 10,
+  "expected404Contracts": 2,
+  "pendingTargetStates": 2288,
+  "errors": 0,
+  "timeouts": 0,
+  "coverageComplete": false,
+  "scopes": [
+    {
+      "scope": "public",
+      "expected": 1240,
+      "attempted": 6,
+      "scored": 4,
+      "expected404": 2,
+      "errors": 0,
+      "timeouts": 0,
+      "pending": 1234,
+      "coverageComplete": false,
+      "manifestSha256": "f22b02a07aa586af42acda96dd04d55ceb341bf3a1ac2dcfa71e7a4c03905131",
+      "summarySha256": "3055dcb0e5a02e0409cccedf796a4ea764a0f7293cfd31cd2b69c7821a38abc0",
+      "ranges": {
+        "performance": {
+          "min": 44,
+          "median": 67.5,
+          "max": 87
+        },
+        "accessibility": {
+          "min": 100,
+          "median": 100.0,
+          "max": 100
+        },
+        "best-practices": {
+          "min": 100,
+          "median": 100.0,
+          "max": 100
+        },
+        "seo": {
+          "min": 100,
+          "median": 100.0,
+          "max": 100
+        }
+      }
+    },
+    {
+      "scope": "private-mobile",
+      "expected": 530,
+      "attempted": 3,
+      "scored": 3,
+      "expected404": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "pending": 527,
+      "coverageComplete": false,
+      "manifestSha256": "bb3cee615d2645b6108e8c32edc8dfb925b375aab46b18404ea5f47785eef316",
+      "summarySha256": "0f88c9c70f768cae39790fcb067fb641687d242befa10b14d8d769547255656c",
+      "ranges": {
+        "performance": {
+          "min": 44,
+          "median": 62,
+          "max": 65
+        },
+        "accessibility": {
+          "min": 100,
+          "median": 100,
+          "max": 100
+        },
+        "best-practices": {
+          "min": 100,
+          "median": 100,
+          "max": 100
+        },
+        "seo": {
+          "min": 54,
+          "median": 54,
+          "max": 54
+        }
+      }
+    },
+    {
+      "scope": "private-desktop",
+      "expected": 530,
+      "attempted": 3,
+      "scored": 3,
+      "expected404": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "pending": 527,
+      "coverageComplete": false,
+      "manifestSha256": "9d2aae9de04d445df8a1f84298792b0a6551ce682aa75dee0a00616a4ec6518f",
+      "summarySha256": "ae226821ca7a2f437ed635ecbdc8592ff1875b499c4277a18f075cf935f09196",
+      "ranges": {
+        "performance": {
+          "min": 61,
+          "median": 86,
+          "max": 91
+        },
+        "accessibility": {
+          "min": 100,
+          "median": 100,
+          "max": 100
+        },
+        "best-practices": {
+          "min": 100,
+          "median": 100,
+          "max": 100
+        },
+        "seo": {
+          "min": 58,
+          "median": 58,
+          "max": 58
+        }
+      }
+    }
+  ],
+  "records": [
+    {
+      "scope": "public",
+      "route": "/ar/",
+      "locale": "ar",
+      "device": "mobile",
+      "status": "completed",
+      "scores": {
+        "performance": 44,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1821.3208,
+        "largest-contentful-paint": 7457.292600000001,
+        "speed-index": 4249.07209015033,
+        "total-blocking-time": 2176.8396,
+        "cumulative-layout-shift": 0,
+        "interactive": 7556.438840000001
+      },
+      "durationMs": 13636,
+      "rawReportSha256": "7437ef6ec93828b9febaf3fd0e5179c6b793a8a59c71013a794e2651019bfe8f"
+    },
+    {
+      "scope": "public",
+      "route": "/ar/",
+      "locale": "ar",
+      "device": "desktop",
+      "status": "completed",
+      "scores": {
+        "performance": 77,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 459.88750000000005,
+        "largest-contentful-paint": 1419.1062500000003,
+        "speed-index": 1322.404377066246,
+        "total-blocking-time": 408.0562500000001,
+        "cumulative-layout-shift": 9.292561921313396e-06,
+        "interactive": 1427.0506250000003
+      },
+      "durationMs": 9648,
+      "rawReportSha256": "6e90662baef3774db567b88d3838357aa72bfcae8895398c2bfd462144b19ded"
+    },
+    {
+      "scope": "public",
+      "route": "/ar/__lighthouse_missing_page__/",
+      "locale": "ar",
+      "device": "mobile",
+      "status": "expected-http-response",
+      "scores": {
+        "performance": null,
+        "accessibility": null,
+        "best-practices": null,
+        "seo": null
+      },
+      "metrics": {},
+      "durationMs": 5528,
+      "rawReportSha256": "547265661130fd1f9c1c3a0756a5c68a9677a32d22d471c5da5dc5d800566d0d"
+    },
+    {
+      "scope": "public",
+      "route": "/ar/__lighthouse_missing_page__/",
+      "locale": "ar",
+      "device": "desktop",
+      "status": "expected-http-response",
+      "scores": {
+        "performance": null,
+        "accessibility": null,
+        "best-practices": null,
+        "seo": null
+      },
+      "metrics": {},
+      "durationMs": 5462,
+      "rawReportSha256": "80f70b66cd5fb96eb3f8435b29fe68b3f48b1be122cdde0b2adbb98c19143637"
+    },
+    {
+      "scope": "public",
+      "route": "/ar/about/",
+      "locale": "ar",
+      "device": "mobile",
+      "status": "completed",
+      "scores": {
+        "performance": 58,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1370.1553,
+        "largest-contentful-paint": 6876.465900000002,
+        "speed-index": 2302.0219120005418,
+        "total-blocking-time": 749.4223499999998,
+        "cumulative-layout-shift": 0,
+        "interactive": 6895.358607500002
+      },
+      "durationMs": 7920,
+      "rawReportSha256": "f715ed6cbec8f84ddd2581299f7c7b6b18bcb1a9bde32c536ad477e763662b57"
+    },
+    {
+      "scope": "public",
+      "route": "/ar/about/",
+      "locale": "ar",
+      "device": "desktop",
+      "status": "completed",
+      "scores": {
+        "performance": 87,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 338.626,
+        "largest-contentful-paint": 1346.8779999999997,
+        "speed-index": 1024.4819759382526,
+        "total-blocking-time": 250.6869999999999,
+        "cumulative-layout-shift": 0,
+        "interactive": 1348.878
+      },
+      "durationMs": 7880,
+      "rawReportSha256": "26595d3e15bb4d6fd1d8e44f799cd9e533b400929ffb2243e331afedc4f441a9"
+    },
+    {
+      "scope": "private-mobile",
+      "route": "admin",
+      "locale": "ar",
+      "device": "mobile",
+      "status": "completed",
+      "scores": {
+        "performance": 44,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 1816.6697,
+        "largest-contentful-paint": 7836.509099999999,
+        "speed-index": 2944.0684219996156,
+        "total-blocking-time": 3345.6651499999994,
+        "cumulative-layout-shift": 0.04706909365451993,
+        "interactive": 7841.392585
+      },
+      "durationMs": 8563,
+      "rawReportSha256": "8af88e002c73af380389dde5c3c789cadd783980cca4c84d5fc3fa1f675d5a37",
+      "authVerified": true,
+      "roleVerified": true,
+      "mfaVerified": true,
+      "noindex": true,
+      "editorCleanupSuccess": true
+    },
+    {
+      "scope": "private-mobile",
+      "route": "admin/ai",
+      "locale": "ar",
+      "device": "mobile",
+      "status": "completed",
+      "scores": {
+        "performance": 65,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 2291.323875,
+        "largest-contentful-paint": 7737.64775,
+        "speed-index": 2291.323875,
+        "total-blocking-time": 344,
+        "cumulative-layout-shift": 0.04706909365451993,
+        "interactive": 7745.147750000001
+      },
+      "durationMs": 6786,
+      "rawReportSha256": "bdd98e3de35536b640bcb0c5d4c314758e2a4ec9661ee2fc913b9e25eb1ecdbb",
+      "authVerified": true,
+      "roleVerified": true,
+      "mfaVerified": true,
+      "noindex": true,
+      "editorCleanupSuccess": true
+    },
+    {
+      "scope": "private-mobile",
+      "route": "admin/ai/audio",
+      "locale": "ar",
+      "device": "mobile",
+      "status": "completed",
+      "scores": {
+        "performance": 62,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 2299.046,
+        "largest-contentful-paint": 7837.592,
+        "speed-index": 2299.046,
+        "total-blocking-time": 422,
+        "cumulative-layout-shift": 0.04706909365451993,
+        "interactive": 7839.0419999999995
+      },
+      "durationMs": 7008,
+      "rawReportSha256": "88fccab04f1014bc89747a6ec83d74d97049d319ab137158931022cbe186c08c",
+      "authVerified": true,
+      "roleVerified": true,
+      "mfaVerified": true,
+      "noindex": true,
+      "editorCleanupSuccess": true
+    },
+    {
+      "scope": "private-desktop",
+      "route": "admin",
+      "locale": "ar",
+      "device": "desktop",
+      "status": "completed",
+      "scores": {
+        "performance": 61,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 58
+      },
+      "metrics": {
+        "first-contentful-paint": 420.971,
+        "largest-contentful-paint": 1679.3985,
+        "speed-index": 1637.4742418334952,
+        "total-blocking-time": 1741.0144999999998,
+        "cumulative-layout-shift": 0.027868204474498254,
+        "interactive": 2247.1855
+      },
+      "durationMs": 9587,
+      "rawReportSha256": "5dde6a02f585e6e8722eef86a08be45f609d65f2572bd0abe69bf57ddca513f1",
+      "authVerified": true,
+      "roleVerified": true,
+      "mfaVerified": true,
+      "noindex": true,
+      "editorCleanupSuccess": true
+    },
+    {
+      "scope": "private-desktop",
+      "route": "admin/ai",
+      "locale": "ar",
+      "device": "desktop",
+      "status": "completed",
+      "scores": {
+        "performance": 91,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 58
+      },
+      "metrics": {
+        "first-contentful-paint": 537.7915,
+        "largest-contentful-paint": 1827.8162000000004,
+        "speed-index": 1023.1260162503643,
+        "total-blocking-time": 86.44170000000003,
+        "cumulative-layout-shift": 0.04657364459864978,
+        "interactive": 1827.8162000000007
+      },
+      "durationMs": 7427,
+      "rawReportSha256": "5fd7de201c83d54a6df01a62d55c3428fceccae552d57fab0b3d92e555d9cf31",
+      "authVerified": true,
+      "roleVerified": true,
+      "mfaVerified": true,
+      "noindex": true,
+      "editorCleanupSuccess": true
+    },
+    {
+      "scope": "private-desktop",
+      "route": "admin/ai/audio",
+      "locale": "ar",
+      "device": "desktop",
+      "status": "completed",
+      "scores": {
+        "performance": 86,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 58
+      },
+      "metrics": {
+        "first-contentful-paint": 515.2048749999999,
+        "largest-contentful-paint": 1727.373649999999,
+        "speed-index": 946.2223199167132,
+        "total-blocking-time": 210.27707500000002,
+        "cumulative-layout-shift": 0.04657364459864978,
+        "interactive": 1727.373649999999
+      },
+      "durationMs": 7044,
+      "rawReportSha256": "87e7f5d4bec240f3a912412b8379e643bc2af9763eb97ab3f97c2cf81941952b",
+      "authVerified": true,
+      "roleVerified": true,
+      "mfaVerified": true,
+      "noindex": true,
+      "editorCleanupSuccess": true
+    }
+  ],
+  "actualOuterInvocations": [
+    {
+      "scope": "public",
+      "session": 17177,
+      "exitCode": 0,
+      "actualWaitConsumed": true,
+      "shippedChildExitCode": 2
+    },
+    {
+      "scope": "private-mobile",
+      "session": 34988,
+      "exitCode": 0,
+      "actualWaitConsumed": true,
+      "shippedChildExitCode": 2
+    },
+    {
+      "scope": "private-desktop",
+      "session": 94344,
+      "exitCode": 0,
+      "actualWaitConsumed": true,
+      "shippedChildExitCode": 2
+    }
+  ],
+  "limits": [
+    "This pilot is12target states of2300, not all-pages Lighthouse completion.",
+    "The ten intentional404 states in the full matrix are HTTP contracts and do not receive Lighthouse scores.",
+    "Private noindex is preserved; private SEO54\u201358 must not be presented as a public indexing score.",
+    "Performance scores are measured values44\u201391; no performance100 or Google ranking guarantee is made.",
+    "Shipped child exit2 denotes the deliberately pending full matrices; all attempted targets completed with expected outcomes."
+  ]
+}

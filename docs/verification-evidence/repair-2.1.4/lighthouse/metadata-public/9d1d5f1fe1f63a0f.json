@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/mission/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "1a9b86fc5f31f5d58a0d305215a22d770f93d084754a929e49d3ad3f0510adb7",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "الرسالة والمبادئ | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "التركيز على النزاهة والجودة ورضا المستخدم والتعاون مع مجتمع طب الأسنان."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/mission/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/mission/",
+    "en": "http://127.0.0.1:3100/en/mission/",
+    "tr": "http://127.0.0.1:3100/tr/mission/",
+    "ar": "http://127.0.0.1:3100/ar/mission/",
+    "ru": "http://127.0.0.1:3100/ru/mission/",
+    "x-default": "http://127.0.0.1:3100/fa/mission/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 74
+}

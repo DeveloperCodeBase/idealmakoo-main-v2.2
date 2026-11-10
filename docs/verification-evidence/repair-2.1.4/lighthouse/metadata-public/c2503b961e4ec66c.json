@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/resources/three-teeth-denture-base-bond-cover/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "0cbb3133acf11d541dd7f36fd597167b045bba3f171e815206f3b0aaa0c04742",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "تصویر مرجع پژوهش — اتصال اپل، گلامور و بی‌استار به اکریل بیس دنچر | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "اتصال اپل، گلامور و بی‌استار به اکریل بیس دنچر — اسناد تصویری اصلی کارخانه"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/resources/three-teeth-denture-base-bond-cover/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/three-teeth-denture-base-bond-cover/",
+    "en": "http://127.0.0.1:3100/en/resources/three-teeth-denture-base-bond-cover/",
+    "tr": "http://127.0.0.1:3100/tr/resources/three-teeth-denture-base-bond-cover/",
+    "ar": "http://127.0.0.1:3100/ar/resources/three-teeth-denture-base-bond-cover/",
+    "ru": "http://127.0.0.1:3100/ru/resources/three-teeth-denture-base-bond-cover/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/three-teeth-denture-base-bond-cover/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 76
+}

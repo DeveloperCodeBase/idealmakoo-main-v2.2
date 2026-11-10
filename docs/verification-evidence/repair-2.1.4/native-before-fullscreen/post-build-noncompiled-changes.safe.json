@@ -1,0 +1,16 @@
+{
+  "format": 1,
+  "buildId": "mYkzU-dUdrd8P8urIq-YU",
+  "changes": [
+    {
+      "path": "scripts/package-production.mjs",
+      "sha256": "e65c81ae0a75eefd9bbf769fb1a2a18b4a4e2ae2314a77fa3179e1f494505e5c",
+      "bytes": 12242,
+      "purpose": "Require and permit exactly the five reviewed public offline HTML documents in the source release archive.",
+      "compiledApplicationInput": false,
+      "validation": "Real source package --check exited0; exact final ZIP verification is a separate gate."
+    }
+  ],
+  "applicationSourceOrRuntimeAssetsChanged": false,
+  "note": "Documentation and sanitized verification receipts are updated after gates and are excluded from application compilation."
+}

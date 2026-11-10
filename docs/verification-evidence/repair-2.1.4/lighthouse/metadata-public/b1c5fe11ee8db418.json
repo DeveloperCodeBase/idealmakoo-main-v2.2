@@ -1,0 +1,71 @@
+{
+  "url": "http://127.0.0.1:3100/en/products/antic/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "33a6a1e41eb204fc88a6f0033180350e7bb41e95ed63fff5b10f16cb2ece319b",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Antic denture teeth | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Antic is a five-layer, six-cycle nano composite range; the official page states German raw materials."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/products/antic/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/antic/",
+    "en": "http://127.0.0.1:3100/en/products/antic/",
+    "tr": "http://127.0.0.1:3100/tr/products/antic/",
+    "ar": "http://127.0.0.1:3100/ar/products/antic/",
+    "ru": "http://127.0.0.1:3100/ru/products/antic/",
+    "x-default": "http://127.0.0.1:3100/fa/products/antic/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Antic denture teeth",
+      "description": "Antic is a five-layer, six-cycle nano composite range; the official page states German raw materials.",
+      "image": "http://127.0.0.1:3100/media/official/1726467544.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "ANTIC"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/en/products/antic/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 69
+}

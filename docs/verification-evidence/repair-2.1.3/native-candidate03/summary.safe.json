@@ -1,0 +1,121 @@
+{
+  "kind": "independently-verified-candidate03-native-evidence",
+  "version": "2.1.3",
+  "buildId": "DuF4NV2a3keq3h3H5T3Dr",
+  "sourceInputSha256": "79cbbf107e4886e03ade1119ab48d3a57e8a7385a64ba125322d3f4e1b923f94",
+  "canonicalInputs": 994,
+  "changedInputsFromC2": 3,
+  "unchangedInputsFromC2": 991,
+  "unit": {
+    "tests": 820,
+    "suites": 0,
+    "pass": 820,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "duration_ms": 31700.735172
+  },
+  "typecheckExitCode": 0,
+  "buildExitCode": 0,
+  "baseline": {
+    "failedAttempt01": {
+      "childExitCode": 1,
+      "outerExitCode": 1,
+      "actualOuterWaitConsumed": true
+    },
+    "acceptedObservation02": {
+      "cases": 10,
+      "childExitCode": 0,
+      "outerExitCode": 0,
+      "actualOuterWaitConsumed": true
+    },
+    "failureWasRelabeledAsSuccess": false
+  },
+  "postFixTransitions": {
+    "cases": 10,
+    "locales": [
+      "fa",
+      "en",
+      "tr",
+      "ar",
+      "ru"
+    ],
+    "viewports": [
+      "mobile",
+      "desktop"
+    ],
+    "allObservedPendingToReadyGeometryDeltasPx": 0,
+    "allFinalReadyDomHashesEqualToC2": true,
+    "prematureResourceRequests": 0,
+    "checkedPageErrors": 0,
+    "actualChildExitCode": 0,
+    "actualOuterExitCode": 0,
+    "actualOuterWaitConsumed": true,
+    "fixtureWrites": 0,
+    "explicitAbortedNextRscPrefetches": {
+      "baseline02": 45,
+      "postFix01": 44
+    },
+    "scope": "Anonymous empty directory after fonts; held session and resource responses. No populated/error-state geometry claim."
+  },
+  "metadata": {
+    "createdAt": "2026-10-25T10:10:02.711Z",
+    "buildId": "DuF4NV2a3keq3h3H5T3Dr",
+    "publicContentHash": "c81fb2b40e486f8608c7c7da584d76197bef191244fad9d1b45128ddbb7e8e74",
+    "inventoryHash": "5d64b4b3f9bc22e0e2105ebb0ce0e6b6a54c56eba3cbaef681973c4332bda11f",
+    "expected": 620,
+    "checked": 620,
+    "passed": 620,
+    "errors": 0,
+    "warnings": 0,
+    "coverageComplete": true
+  },
+  "finalInventory": {
+    "directories": 25,
+    "targetStates": 1223,
+    "plannedScoredLhrs": 1218,
+    "plannedHttp404Contracts": 5,
+    "scoredLhrs": 0,
+    "completedHttp404Contracts": 0,
+    "pending": 1223,
+    "groups": {
+      "mobile/indexable-public": 590,
+      "mobile/http404-contract": 5,
+      "mobile/intentional-noindex-auth": 25,
+      "mobile/protected-private": 530,
+      "desktop/indexable-public": 46,
+      "desktop/intentional-noindex-auth": 5,
+      "desktop/protected-private": 22
+    },
+    "desktopStatesOutsideScope": 1077
+  },
+  "separateDiagnostic": {
+    "attempts": 1,
+    "scoredLhrs": 1,
+    "errors": 0,
+    "timeouts": 0,
+    "includedInFinalAudit": false
+  },
+  "historicalC2Prefix": {
+    "targetStates": 200,
+    "scoredLhrs": 198,
+    "expected404": 2,
+    "errors": 0,
+    "timeouts": 0,
+    "includedInCandidate03FinalCoverage": false
+  },
+  "unknownOuterWaits": [],
+  "servicesAndPreservedPgRemainRunningAtSnapshot": {
+    "appOuterSessionId": 26473,
+    "workerOuterSessionId": 40360,
+    "caddyOuterSessionId": 11867,
+    "postgresOwner": "/root/source_compare",
+    "postgresOuterSessionId": 92828
+  },
+  "fullE2eOrBackendRerunClaimedForC3": false,
+  "fullC3LighthouseCoverageClaimed": false,
+  "rawPrivateBodiesCookiesMfaEnvLogsScreenshotsAndReportsIncluded": false,
+  "originalHandoffSha256": "ce0ffb4b3699d9000110b64d5de027fd82318262c7decbab784193d089d2e841",
+  "closedAt": "2026-10-25T10:11:12.160756+00:00"
+}

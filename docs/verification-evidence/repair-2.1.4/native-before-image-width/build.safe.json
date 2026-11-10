@@ -1,0 +1,16 @@
+{
+  "gate": "build-release",
+  "command": [
+    "npm",
+    "run",
+    "build"
+  ],
+  "startedAt": "2026-10-25T11:16:03Z",
+  "finishedAt": "2026-10-25T11:17:03Z",
+  "durationSeconds": 60.269,
+  "exitCode": 0,
+  "logSha256": "34c0a23e975a5ecd46f29ceda42b8a110985ef96e1af17a06620b5f04b381416",
+  "buildId": "OruFAGBKnBw7jMP-nT3JJ",
+  "version": "2.1.4",
+  "successfulCompilerTypecheckAndRouteFooter": true
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "kind": "focused-original-helper-regression-demonstration",
+  "startedAt": "2026-10-24T11:40:22.459345+00:00",
+  "durationSeconds": 30.074187,
+  "testsRun": 1,
+  "failures": 1,
+  "errors": 0,
+  "skipped": 0,
+  "exitCode": 1,
+  "accepted": false,
+  "expectedRegressionFailureObserved": true,
+  "sourceRoot": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261024/native-build05/operations-03/before",
+  "realDockerDaemonUsed": false,
+  "externalNetworkCalls": false,
+  "testNames": [
+    "deployment_discovery_contract_test.ExistingDiscoveryContracts.test_snapshot_avoids_stalled_compose_ps_with_original_thirty_second_budget"
+  ],
+  "sourceHashes": {
+    "deploy/compose.py": "eb0fc779d736b33c1ab6b132fdd9634ec602b4c04f14c0be17001e09f298742f",
+    "deploy/service-lifecycle.py": "41c35c535a685206dbbd22322aa5c3a95ed381ca7e36214ecf721719dbb3f1e6"
+  },
+  "testSha256": "6bdbadfe8df9f5d32eedba25a20d603e3a767c68d57b5d2b15b3cc75a0b7a753",
+  "log": {
+    "file": "discovery-baseline.private.log",
+    "bytes": 1195,
+    "sha256": "07c56e6a8d5dad042ea20bd8c5a42a7f644b6e1d7e4d4749ce81bb56f8eabf7a"
+  }
+}

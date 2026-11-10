@@ -1,0 +1,363 @@
+{
+  "schema": 1,
+  "kind": "public-safe-candidate02-original-updater-acceptance",
+  "status": "passed",
+  "createdAt": "2026-10-25T09:03:26.420854+00:00",
+  "sourceScope": {
+    "candidate": "2.1.3 candidate-02",
+    "sourceZipSha256": "05f9fada3a33e7df149012e0eeae0824e9fb3dda93b4387a70278626dd767578",
+    "archiveBytes": 69150185,
+    "zipEntries": 3537,
+    "externalManifestSha256": "35ccdd6c16739c94d62f94f54446a461073296403103a0214b2e0dbadff5998b",
+    "embeddedReleaseManifestSha256": "45e93bf57a3113881d10052dd61d9ac831a36af0328a7eb584bb43aa14a73e92",
+    "releaseSourceFilesVerified": 3535,
+    "unchangedCriticalOperationsAndMigrationFilesComparedToAcceptedRecovery": 75,
+    "criticalComparisonIncludesDockerfileAndDockerCompose": true,
+    "runtimeImageSourceFilesVerified": 668,
+    "appAndWorkerImageId": "sha256:0d728ec4c80dfb990da49ee82c540b9f33404c3b95ec3bea919cf5670aac45a3",
+    "nativeTestedBuildId": "JUTCtkNIJ8CT540y_qNL_",
+    "nativeTested994InputSha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+    "nativeBuildIdentityIsNotClaimedAsDockerBuildId": true,
+    "productSourceModifiedByDevOpsAgent": false
+  },
+  "sameAcceptedRecoveredFixture": {
+    "independentFreshRecoveryPreviouslyPassed": true,
+    "noNewOverlayOrFixtureReseed": true,
+    "priorSourceZipSha256": "2deb94d17e0852d75102461fa566555c973f632320729a366a73b86ae9381574",
+    "priorReleaseDirectory": "/var/www/idealmakoo-acceptance-recovery/releases/20261025T052814Z-0539a9c2",
+    "updatedReleaseDirectory": "/var/www/idealmakoo-acceptance-recovery/releases/20261025T080810Z-c1af535f",
+    "guestMemoryMiB": 6144,
+    "virtualCpus": 4,
+    "acceleration": "TCG multi",
+    "fullAntivirus": true,
+    "resourceGuardBypass": false,
+    "unchangedHostPrebootFloorBytes": 12884901888,
+    "actualPrebootFreeBytes": 12995964928,
+    "unchangedHostRunningFloorBytes": 2147483648
+  },
+  "preservedAttemptBoundaries": {
+    "preProductMetadataPreflight": {
+      "exitCode": 1,
+      "stage": "before VM or guest stage",
+      "cause": "Acceptance preflight compared the adjacent extended manifest hash with the embedded manifest hash.",
+      "sourceZipAndPayloadVerificationPassedBeforeThatAssertion": true,
+      "resolution": "Verify the provided adjacent hash, both archive identity fields, and equality of the remaining manifest body to the embedded manifest.",
+      "productOrReviewedHelperChanged": false
+    },
+    "originalUpdaterInvocations": 1,
+    "guestUpdaterRetry": false,
+    "sourceOrReviewedLifecycleHelperChangedAfterStart": false
+  },
+  "originalUpdater": {
+    "script": "accepted recovered release/scripts/update.sh --source verified-candidate02-source",
+    "startedAt": "2026-10-25T08:06:17.154377+00:00",
+    "completedAt": "2026-10-25T08:57:25.300450+00:00",
+    "elapsedSeconds": 3068.150717,
+    "exitCode": 0,
+    "actualWaitConsumed": true,
+    "timedOut": false,
+    "forcedProcessTermination": false,
+    "completedLogBoundaryCounts": {
+      "preUpgradeBackup": 1,
+      "consistentSnapshot": 2,
+      "encryptedBackupSaved": 2,
+      "releaseIsRunning": 1
+    },
+    "bothNormalMandatoryEncryptedBackupsAndResumptionIncluded": true,
+    "noStandaloneExtraBackupOrRestoreAddedInThisUpdateCycle": true
+  },
+  "updatedRuntime": {
+    "outcome": {
+      "startedAt": "2026-10-25T08:57:46.011011+00:00",
+      "completedAt": "2026-10-25T08:59:32.696847+00:00",
+      "elapsedSeconds": 106.689703,
+      "exitCode": 0,
+      "actualWaitConsumed": true,
+      "timedOut": false,
+      "forcedProcessTermination": false
+    },
+    "os": {
+      "PRETTY_NAME": "Ubuntu 22.04.5 LTS",
+      "VERSION_ID": "22.04",
+      "ID": "ubuntu"
+    },
+    "databaseInventory": {
+      "usersTotal": 3,
+      "usersByRole": {
+        "customer": 1,
+        "superAdmin": 1,
+        "contentEditor": 1
+      },
+      "workspaceLiveEntities": 211,
+      "pages": 120,
+      "records": 73,
+      "media": 17,
+      "pagesByLocale": {
+        "ru": 24,
+        "ar": 24,
+        "tr": 24,
+        "en": 24,
+        "fa": 24
+      },
+      "publishedLocaleReleases": 0,
+      "crmRequests": 0,
+      "migrationCount": 41,
+      "everyMigrationChecksumMatchesFrozenSource": true
+    },
+    "actualRuntimeDatabaseRole": {
+      "role": "idealmakoo_app",
+      "rolcanlogin": true,
+      "rolsuper": false,
+      "rolcreatedb": false,
+      "rolcreaterole": false,
+      "rolreplication": false
+    },
+    "services": {
+      "app": {
+        "status": "running",
+        "health": "healthy",
+        "oomKilled": false
+      },
+      "worker": {
+        "status": "running",
+        "health": "healthy",
+        "oomKilled": false
+      },
+      "db": {
+        "status": "running",
+        "health": "healthy",
+        "oomKilled": false
+      },
+      "proxy": {
+        "status": "running",
+        "health": null,
+        "oomKilled": false
+      },
+      "clamav": {
+        "status": "running",
+        "health": "healthy",
+        "oomKilled": false
+      }
+    },
+    "doctorExitCode": 0,
+    "publicProxyHealth": {
+      "httpStatus": 200,
+      "body": {
+        "status": "ok",
+        "database": "ok",
+        "privacy": "ready",
+        "timestamp": "2026-10-25T08:59:22.756Z",
+        "version": "20261025T080810Z-c1af535f",
+        "applicationVersion": "2.1.3"
+      }
+    },
+    "normalDailyBackupTimer": {
+      "NextElapseUSecRealtime": "Mon 2026-10-26 00:09:55 UTC",
+      "LastTriggerUSec": "Sun 2026-10-25 06:06:34 UTC",
+      "ActiveState": "active",
+      "SubState": "waiting"
+    },
+    "actualScannerDaemonVersion": "ClamAV 1.5.4/28163/Sat Oct 24 06:26:10 2026",
+    "updatePreservation": {
+      "status": "passed",
+      "originalUpdaterUsedSameInstalledFixture": true,
+      "samePackageVersionNewTimestampedRelease": true,
+      "previousSymlinkMatchesAcceptedRecoveryRelease": true,
+      "protectedEnvironmentBytesUnchanged": true,
+      "existingArchiveFilesPreserved": 1,
+      "newEncryptedBackupFiles": 2,
+      "newEncryptedBackupNames": [
+        "idealmakoo-20261025T083900Z-51a8ff88.tar.age",
+        "idealmakoo-20261025T085022Z-278fdf4c.tar.age"
+      ],
+      "newBackupsAreAgeEncryptedRegularFiles": true,
+      "normalServiceResumptionVerified": true,
+      "latestSignedPrivacyLedgerHeadUnchanged": {
+        "format": 1,
+        "fingerprint": "ccd57c3aded2927085e5ee3d8a88aac07bc55733008f2749a1fe769e885fb6c3",
+        "sequence": 1,
+        "hash": "f26601fa50bd6e560e522dda46e1933ea8444a81826fe86acd76c8cc53d4e8c0"
+      }
+    },
+    "databaseInventoryExactlyMatchesAcceptedRecoveredFixture": true,
+    "newBackupVerificationScope": "Original updater exit 0, exactly two new regular age-encrypted files and normal service resumption; no separate off-host decrypt of these two updater archives.",
+    "onlyDisposableTestTimerPausedAfterNormalReadback": true,
+    "noRunningScheduledBackupKilled": true
+  },
+  "realCanonicalApiVerificationAfterUpdate": {
+    "startedAt": "2026-10-25T09:01:22.918221+00:00",
+    "completedAt": "2026-10-25T09:01:49.283534+00:00",
+    "elapsedSeconds": 26.369771,
+    "exitCode": 0,
+    "actualWaitConsumed": true,
+    "timedOut": false,
+    "forcedProcessTermination": false,
+    "driverPhase": "verify-fresh",
+    "checkCount": 19,
+    "checks": [
+      "pre-backup session remains revoked owner",
+      "pre-backup session remains revoked customer",
+      "pre-backup session remains revoked staff",
+      "pre-backup session remains revoked erased",
+      "authenticated superAdmin",
+      "authenticated customer",
+      "restored customer profile matches backup",
+      "restored editable page matches backup",
+      "restored media bytes and checksum match backup",
+      "restored EICAR attachment retains the blocked scan verdict",
+      "restored blocked EICAR attachment remains unavailable to its owner",
+      "fresh host restores archived staff active state without inventing absent later security state",
+      "fresh host preserves staff MFA enrollment",
+      "archived staff password grants only an MFA challenge",
+      "password alone cannot establish archived staff session",
+      "restore invalidates archived staff recovery codes",
+      "archived recovery code cannot establish staff session",
+      "post-backup erasure survives restore",
+      "retired login remains denied erased"
+    ],
+    "sameChecksAsAcceptedFreshRecovery": true,
+    "samePrivateFixtureStateAndUnchangedDriver": true,
+    "clientUsesCurrentImmutableAppImageAndRealProxyUrl": true,
+    "thisIsExistingFixtureReverificationAfterUpdateNotAnotherRestore": true
+  },
+  "normalShutdownAndRetention": {
+    "completedAt": "2026-10-25T09:02:57.913729+00:00",
+    "qemuExitCode": 0,
+    "actualQemuWaitConsumed": true,
+    "originalSupervisorToolSession": 32267,
+    "originalSupervisorToolActualExitCode": 0,
+    "originalSupervisorToolWaitConsumed": true,
+    "sshPoweroffExitCode": 0,
+    "forcedProcessTermination": false,
+    "stopRequests": [],
+    "retainedRuntimeDisk": "/tmp/idealmakoo-acceptance-recovery-20261025-fo9a_2ry/disk.qcow2",
+    "retainedMatchingBeforeDuringAfterIdentity": true,
+    "guardianHeldUntilRetainedPathVerification": true,
+    "retentionCopyRequired": false,
+    "diskDevice": 27,
+    "diskInode": 1572886,
+    "diskLinks": 1,
+    "diskIsSymlink": false,
+    "diskFreeBytesAtEnd": 9889783808,
+    "nativeRamLaneReleased": true
+  },
+  "testEnvironmentAndLimits": {
+    "applicationTransport": "Explicit HTTP test mode behind host loopback NAT; public ACME/TLS is not exercised.",
+    "healthTimeoutsSeconds": {
+      "app": 90,
+      "worker": 90,
+      "appStart": 600,
+      "workerStart": 600
+    },
+    "healthOverrideReason": "Slow QEMU TCG emulation; documented settings only; product defaults unchanged.",
+    "testNetworkTrustOverride": true,
+    "tlsVerificationDisabled": false,
+    "aptSignatureVerificationDisabled": false,
+    "publicAcmeTlsExercised": false,
+    "realEmailSmsAiOrPushProviderDeliveryExercised": false,
+    "lighthouseCoveredByThisReceipt": false,
+    "noCredentialsKeysCookiesMfaSecretsOrUserSessionIdsPublished": true
+  },
+  "safeReceiptReferences": [
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/fresh-recovery-acceptance-public.safe.json",
+      "sha256": "154c0b567361578097c2ea1dd711e76804552f3002bdd173800b5b586b71d32f",
+      "bytes": 14365
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/candidate02-lifecycle-preparation.safe.json",
+      "sha256": "b7a011ff0422eeac3a4861bacbb91a4bb820b9d20b4f055befcb9281c71cbe63",
+      "bytes": 3899
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/candidate02-preboot.safe.json",
+      "sha256": "ece0af8d1a2788bb8e399efbda409a0b47ff89a279cf3e05c983262b4fc17e9a",
+      "bytes": 1503
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/candidate-02/source-acceptance.safe.json",
+      "sha256": "86c1a2bb20cd4545746dd9bce812426b1a53f653bd045d7e44f2a0e0153afa66",
+      "bytes": 1044
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/candidate02-stage/local-source-verification.safe.json",
+      "sha256": "905bbd327251bc755e1e002c1e70a6e75c690d0cef6f11b4d3bcc803daad7742",
+      "bytes": 338
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/candidate02-stage/configuration.safe.json",
+      "sha256": "dd718ec7d32f82f559749c4d5d01d59ccfaec6fd3179c42c0a06e7f1a096203c",
+      "bytes": 1271
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/candidate02-readiness.safe.json",
+      "sha256": "e8050113b201bd8d78323205cce4d0e3ba122a6937eb094bcca91bfbd99f8748",
+      "bytes": 333
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/candidate02-preparation.safe.json",
+      "sha256": "f6df6ce6b2602f9fe447444f9f6233e7cfb40e1a01aae4a0ded3c7d41de14e7f",
+      "bytes": 1246
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/candidate02-updater-start.safe.json",
+      "sha256": "caa613b380780f4df7db8b6bd126f0afb2a11d710ba50435d7d28aaf15fa2d2d",
+      "bytes": 792
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/c2-runtime/start.safe.json",
+      "sha256": "49a7adc5e5fcb116bb10fb6cb4d03fecfefadb4cb0ccfd00897bc733c315e504",
+      "bytes": 2598
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/c2-runtime/prior-retained-fixture-binding.safe.json",
+      "sha256": "4c35c2c3b18d93756fc280ee33777a0ed4d64f89ab22c30b4feb1181a34e73a7",
+      "bytes": 542
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/collected/candidate02-original-update/collection.safe.json",
+      "sha256": "00ded156a53c36d79f1318d1b744eddf7a46c2979c8ec44fefc0852f01869963",
+      "bytes": 1143
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/collected/candidate02-runtime/collection.safe.json",
+      "sha256": "1312685f4689a8598a5b5dece5b6a0a5d1cd28f5da03438295496041ba36a636",
+      "bytes": 1130
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/candidate02-runtime-result.safe.json",
+      "sha256": "9e06074fcb65d238e944984768c2fe7e98f889127343caa611cfa1c3fedf25c3",
+      "bytes": 5283
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/candidate02-test-timer-paused.safe.json",
+      "sha256": "42ade5ded6ed5da394799d41de11fbadfb8e6086cd7137fe86ae835669f658d1",
+      "bytes": 522
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/collected/api-verify-candidate02/collection.safe.json",
+      "sha256": "a222003f5a79d1663a7cd68ce36052d9f501daabcfe67367b4c901313a6fa2dc",
+      "bytes": 2247
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/candidate02-pre-shutdown.safe.json",
+      "sha256": "b2dbe65bd5d4c0d4f57c8fa0bfdb335645dc838f886495de0874c149293b6422",
+      "bytes": 1085
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/commands/candidate02-normal-poweroff.safe.json",
+      "sha256": "306969e1357b51ff76ff3f3e87ce83c28c329658270f6775651e517469d50f4d",
+      "bytes": 323
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/c2-runtime/outcome.safe.json",
+      "sha256": "174005cde6d9597f6fefa1ab934a3c1cc27ba40bd239d7d2dfd79e3d58453712",
+      "bytes": 1990
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/c2-runtime/supervisor-tool-wait.safe.json",
+      "sha256": "06a97a3b1b3f95d3c4eec07b9503992b04b0406d06fc5d6b1ed2eb5d0d9245ee",
+      "bytes": 614
+    }
+  ]
+}

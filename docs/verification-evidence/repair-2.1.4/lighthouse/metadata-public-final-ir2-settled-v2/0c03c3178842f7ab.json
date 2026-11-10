@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/research/iranian-swiss-shear-bond/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "5ff1bb685b4b62c7a969c555fb0aa3326339200973f27ab05d02b72b54f96047",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Соединение на сдвиг иранского и швейцарского композитов | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Лабораторный отчёт Йездского университета медицинских наук по 30 премолярам."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/research/iranian-swiss-shear-bond/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/iranian-swiss-shear-bond/",
+    "en": "http://127.0.0.1:3100/en/research/iranian-swiss-shear-bond/",
+    "tr": "http://127.0.0.1:3100/tr/research/iranian-swiss-shear-bond/",
+    "ar": "http://127.0.0.1:3100/ar/research/iranian-swiss-shear-bond/",
+    "ru": "http://127.0.0.1:3100/ru/research/iranian-swiss-shear-bond/",
+    "x-default": "http://127.0.0.1:3100/fa/research/iranian-swiss-shear-bond/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 36
+}

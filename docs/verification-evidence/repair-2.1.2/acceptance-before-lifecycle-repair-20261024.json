@@ -1,0 +1,147 @@
+{
+  "schema": 1,
+  "version": "2.1.2",
+  "status": "delivered-with-incomplete-acceptance",
+  "updatedAt": "2026-10-23T12:24:55.924589+00:00",
+  "nativeBuildId": "fIFLzhRg6HZ_mfSabbL8J",
+  "applicationInputManifest": "application-inputs.json",
+  "gates": {
+    "unit": {
+      "status": "passed",
+      "tests": 815,
+      "receipt": "unit.json",
+      "buildId": "fIFLzhRg6HZ_mfSabbL8J"
+    },
+    "typecheck": {
+      "status": "passed",
+      "receipt": "typecheck.json",
+      "buildId": "fIFLzhRg6HZ_mfSabbL8J"
+    },
+    "postgres": {
+      "status": "passed",
+      "tests": 542,
+      "receipt": "backend.json"
+    },
+    "api": {
+      "status": "passed",
+      "tests": 20,
+      "receipt": "backend.json"
+    },
+    "build": {
+      "status": "passed",
+      "receipt": "build.json",
+      "buildId": "fIFLzhRg6HZ_mfSabbL8J"
+    },
+    "browser": {
+      "status": "passed",
+      "tests": 56,
+      "retries": 0,
+      "receipt": "browser-e2e.json",
+      "buildId": "OOhw3Eok1VmYVX1q38dyK",
+      "scope": "Complete 56-test suite on build02. Later changes comprise three public-copy files in build03 and one AiStudio copy file in build04; the full suite was not rerun on build04. Exact diffs are recorded."
+    },
+    "operations": {
+      "status": "passed",
+      "tests": 200,
+      "receipt": "operations-tests.json"
+    },
+    "ubuntuDockerAndRecovery": {
+      "status": "interrupted",
+      "receipt": "ubuntu-docker.json",
+      "sourceZipSha256": "21937e869ae27c462b2a12037256e021c94e521956f110288b6e2b3bf4e8ac3a",
+      "dockerImageBuildCompleted": true,
+      "imageConfig": "sha256:73f1e2ae0fe9bcf7bbbdf5fe07a02a6ea1a318d5ef3d92b704d9ade485a3430f",
+      "migrationSeedContainerObservedExitCode": 0,
+      "originalInstallerExitCode": null,
+      "originalInstallerSuccessfulCompletionProven": false,
+      "scannerReadinessProven": false,
+      "realCleanAndEicarUploadScans": "not-run",
+      "encryptedBackupAndDownload": "not-run",
+      "sameHostRestore": "not-run",
+      "freshHostRecovery": "not-run",
+      "guestKernelPanicObserved": true,
+      "kernelPanicCauseEstablished": false,
+      "diagnosticReboot": "booted; bounded Docker read-only state commands did not return container state",
+      "productSourceChangedForDiagnosis": false,
+      "tlsVerificationDisabled": false,
+      "productResourceGuardsBypassed": false,
+      "independentRuntimeImageFileReadback": "not-reached",
+      "independentDockerDatabaseMigrationAndSeedCounts": "not-reached",
+      "appHealthProbeDuringDiagnostic": "not-reached-after-docker-ps-timeout",
+      "diagnosticGuestPoweredOffNormally": true,
+      "bothVmsStopped": true,
+      "diagnosticActualQemuWaitConsumed": true
+    },
+    "allPageLighthouse": {
+      "status": "incomplete",
+      "targets": 2300,
+      "latestBuildFocusedScores": 1,
+      "completeMatrixRunOnLatestBuild": false,
+      "report": "../../LIGHTHOUSE-2.1.2-RESULTS.fa.md",
+      "inventoryBuildId": "HSeZD37BGY1jy6cC01AzB",
+      "inventoryRecreatedOnLatestBuild": false,
+      "historicalFullMatrixCompleted": 3,
+      "historicalFullMatrixPending": 2297,
+      "separatePilotResultsMergedIntoMatrix": false
+    },
+    "browserFinalCopy": {
+      "status": "passed",
+      "tests": 7,
+      "retries": 0,
+      "buildId": "HSeZD37BGY1jy6cC01AzB",
+      "receipt": "browser-final-copy.json",
+      "scope": "Targeted shipped hero/cube/CSP/image/hydration specifications after public-copy-only change"
+    },
+    "publicCopyAndLayout": {
+      "status": "passed",
+      "observations": 60,
+      "locales": 5,
+      "viewports": 2,
+      "buildId": "HSeZD37BGY1jy6cC01AzB",
+      "receipt": "public-copy-viewports.json",
+      "manuallyReviewedScreenshots": 20,
+      "manualReviewReceipt": "public-copy-visual-review.json"
+    },
+    "browserStaticSecretScan": {
+      "status": "passed",
+      "files": 216,
+      "bytes": 5722529,
+      "knownValues": 70,
+      "patternFamilies": 8,
+      "findings": 0,
+      "buildId": "fIFLzhRg6HZ_mfSabbL8J",
+      "receipt": "browser-static-secret-scan.json"
+    },
+    "nativeFinalHealth": {
+      "status": "passed",
+      "receipt": "native-final-health.json",
+      "buildId": "fIFLzhRg6HZ_mfSabbL8J"
+    },
+    "privateStudioCopy": {
+      "status": "passed",
+      "observations": 5,
+      "authVerified": true,
+      "buildId": "fIFLzhRg6HZ_mfSabbL8J",
+      "receipt": "private-studio-copy.json"
+    },
+    "focusedPrivateLighthouse": {
+      "status": "completed",
+      "buildId": "fIFLzhRg6HZ_mfSabbL8J",
+      "targets": 1,
+      "receipt": "lighthouse/private-ai-cls-build04.json",
+      "performance": 51,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 54,
+      "cls": 0.04706909365451993
+    }
+  },
+  "noPublicDeploymentOrLivePaidProviderClaim": true,
+  "currentApplicationInputSha256": "a9337f54dad49cdd79a8498cd575b05349887860dded6e5fabb5c10b6ca9ebce",
+  "earlierBuildEvidencePreserved": true,
+  "finalUiCopyDiffReceipt": "final-ai-copy-diff.json",
+  "deliveryScope": "Source delivery with successful recorded local application gates and a completed Docker image build. The original Ubuntu installer was interrupted by a guest kernel panic; one diagnostic reboot did not establish responsive Docker services. Full installation, antivirus upload scans, backup/download/restore/fresh-host recovery and all-target Lighthouse remain unaccepted.",
+  "unconditionalProductionReadinessClaim": false,
+  "testedVmCandidateSourceZipSha256": "21937e869ae27c462b2a12037256e021c94e521956f110288b6e2b3bf4e8ac3a",
+  "packagingNotes": "Final delivery documentation and safe receipts may differ from the VM candidate. Application/runtime and operational inputs must remain identical; delivery-runtime-input-provenance.json records the comparison."
+}

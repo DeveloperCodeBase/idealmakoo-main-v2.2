@@ -1,0 +1,81 @@
+{
+  "format": "portable-native-proxy-tools-export-v1",
+  "createdAt": "2026-10-25T19:06:04.153447+00:00",
+  "status": "safe-code-protocol-and-synthetic-evidence-exported",
+  "files": [
+    {
+      "file": "INDEPENDENT-REVIEW.safe.json",
+      "bytes": 1936,
+      "sha256": "970502ed15c460d9ed52447b4c5b17a3a77df9c97b8c35cfbbd377ee59a243f2"
+    },
+    {
+      "file": "README.fa.md",
+      "bytes": 18226,
+      "sha256": "eee526988ab0a2a9003cfd56910640386226bbf5bcdd4b6e6602eaf55d2ffc49"
+    },
+    {
+      "file": "native-proxy-guard-verification-final.safe.json",
+      "bytes": 3434,
+      "sha256": "0f8ce3b86aef380977a53b5a44f949e566df3cb41c48ebbb2811f2f74f56fac6"
+    },
+    {
+      "file": "native-proxy-guard-verification-revised.safe.json",
+      "bytes": 4264,
+      "sha256": "76284b254b3caa4547ac9c1bd180e42368c287f3849ab39f4c1dafd5663e06d9"
+    },
+    {
+      "file": "native-proxy-guard.py",
+      "bytes": 44472,
+      "sha256": "529320485df3347acfed3fffa77a558199240654083746c975a4ea0c96f6e76f"
+    },
+    {
+      "file": "native-proxy-proof-lifecycle-verification.safe.json",
+      "bytes": 2182,
+      "sha256": "f34c0b652f1774e8ab53f894f986efe26ba8e027340e50fee43eed6342441d84"
+    },
+    {
+      "file": "native-proxy-proof-receipt-attempt-01.safe.json",
+      "bytes": 584,
+      "sha256": "a978a3d335a9156449be4c2acb729223a53f3fdc7d02f044a2ed3b33096e0acd"
+    },
+    {
+      "file": "prove-native-proxy.mjs",
+      "bytes": 16381,
+      "sha256": "b4e115decfb56a2c6451d0e2b9385efcede23c46ee8f3d019becd0fd9083ba9a"
+    },
+    {
+      "file": "proxy-proof-lifecycle.mjs",
+      "bytes": 2326,
+      "sha256": "1471bbbe0a020b98da49be81279f0cc69ab58d52908c6387094e72a828e02064"
+    },
+    {
+      "file": "test-proxy-proof-lifecycle.mjs",
+      "bytes": 3671,
+      "sha256": "5f38388a6618567b3e02e7c20f3fcbb5e266d5a2f437d64b9f22b07516ba7378"
+    },
+    {
+      "file": "test_native_proxy_guard.py",
+      "bytes": 22005,
+      "sha256": "bb2d7b4fe22736e696b748a470ea6d5b5de5e4ccf5bdbc7c4413c5c2d69d8a32"
+    }
+  ],
+  "fileCount": 11,
+  "totalBytes": 119481,
+  "byteIdenticalSourceCopies": 9,
+  "scope": "Documentation utilities only; no production runtime inputs or audit scoring sources modified.",
+  "safety": {
+    "knownPrivateValueScanFindings": 0,
+    "hardcodedPrivateWorkspacePathFindings": 0,
+    "actualEnvPlansLogsCookiesDomOrBrowserImagesIncluded": false,
+    "secretValuesOrCredentialHashesIncluded": false,
+    "syntheticCredentialFixturesExplicitlyLabeled": true
+  },
+  "portabilityLimits": [
+    "Linux/proc/native PID namespace and authorized root/same-UID observation for full guard witness.",
+    "Caddy production UID/GID10002 and ELF64/x86_64; exact retained binary/receipt required.",
+    "Node plus existing project dependencies; exact project routes/API/assets/fixture helper contracts.",
+    "Explicit IPv4 loopback HTTP and named disposable database scope.",
+    "No service launcher; no TLS/H2/WAN/general-proxy compatibility claim."
+  ],
+  "realRuntimeActivationOrFinalLighthouseCoverageClaimed": false
+}

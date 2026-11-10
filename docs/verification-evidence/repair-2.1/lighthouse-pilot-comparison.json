@@ -1,0 +1,187 @@
+{
+  "scope": "Four representative public pages on Lighthouse simulated mobile; one sample per build per URL. This is not full site coverage or a statistically controlled performance experiment.",
+  "baselineBuildId": "sPTh26GaGouK6nn5b3u7H",
+  "finalBuildId": "ZExXgIfF-M2np679FYhoQ",
+  "sameContent": true,
+  "sameInventory": true,
+  "comparisons": [
+    {
+      "url": "http://127.0.0.1:3090/en/contact/",
+      "device": "mobile",
+      "baseline": {
+        "status": "completed",
+        "scores": {
+          "performance": 88,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "first-contentful-paint": 1856.73195,
+          "largest-contentful-paint": 2717.7319500000003,
+          "speed-index": 1856.73195,
+          "total-blocking-time": 307,
+          "cumulative-layout-shift": 0.0001380422217268122,
+          "interactive": 5454.043457500001
+        },
+        "durationMs": 8301,
+        "runWarnings": []
+      },
+      "final": {
+        "status": "completed",
+        "scores": {
+          "performance": 86,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "first-contentful-paint": 1235.3874999999998,
+          "largest-contentful-paint": 3054.7749999999996,
+          "speed-index": 1235.3874999999998,
+          "total-blocking-time": 348.00000000000045,
+          "cumulative-layout-shift": 0,
+          "interactive": 5556.144375
+        },
+        "durationMs": 8411,
+        "runWarnings": []
+      }
+    },
+    {
+      "url": "http://127.0.0.1:3090/fa/",
+      "device": "mobile",
+      "baseline": {
+        "status": "completed",
+        "scores": {
+          "performance": 43,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "first-contentful-paint": 2731.2190499999997,
+          "largest-contentful-paint": 4006.2190499999997,
+          "speed-index": 28185.832284022734,
+          "total-blocking-time": 155635.48412500002,
+          "cumulative-layout-shift": 0.007545552663279595,
+          "interactive": 166366.69286250003
+        },
+        "durationMs": 161765,
+        "runWarnings": [
+          "The page loaded too slowly to finish within the time limit. Results may be incomplete."
+        ]
+      },
+      "final": {
+        "status": "completed",
+        "scores": {
+          "performance": 47,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "first-contentful-paint": 1825.4162999999999,
+          "largest-contentful-paint": 3850.4163,
+          "speed-index": 28160.818828161486,
+          "total-blocking-time": 158195.72962499998,
+          "cumulative-layout-shift": 0.0002400876460962375,
+          "interactive": 168570.8591975
+        },
+        "durationMs": 153253,
+        "runWarnings": [
+          "The page loaded too slowly to finish within the time limit. Results may be incomplete."
+        ]
+      }
+    },
+    {
+      "url": "http://127.0.0.1:3090/fa/products/",
+      "device": "mobile",
+      "baseline": {
+        "status": "completed",
+        "scores": {
+          "performance": 84,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "first-contentful-paint": 1372.8305,
+          "largest-contentful-paint": 2848.24575,
+          "speed-index": 1372.8305,
+          "total-blocking-time": 447,
+          "cumulative-layout-shift": 0.0023129283861665247,
+          "interactive": 6883.2614125
+        },
+        "durationMs": 9499,
+        "runWarnings": []
+      },
+      "final": {
+        "status": "completed",
+        "scores": {
+          "performance": 85,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "first-contentful-paint": 1672.4845999999998,
+          "largest-contentful-paint": 3472.4846,
+          "speed-index": 1672.4845999999998,
+          "total-blocking-time": 287.5,
+          "cumulative-layout-shift": 0,
+          "interactive": 6708.502465
+        },
+        "durationMs": 9821,
+        "runWarnings": []
+      }
+    },
+    {
+      "url": "http://127.0.0.1:3090/fa/quality/",
+      "device": "mobile",
+      "baseline": {
+        "status": "completed",
+        "scores": {
+          "performance": 82,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "first-contentful-paint": 2281.834,
+          "largest-contentful-paint": 3181.834,
+          "speed-index": 2281.834,
+          "total-blocking-time": 335.5,
+          "cumulative-layout-shift": 0.07189574076811377,
+          "interactive": 6616.565525
+        },
+        "durationMs": 8381,
+        "runWarnings": []
+      },
+      "final": {
+        "status": "completed",
+        "scores": {
+          "performance": 85,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "first-contentful-paint": 1370.0983,
+          "largest-contentful-paint": 3095.0983000000006,
+          "speed-index": 1370.0983,
+          "total-blocking-time": 353,
+          "cumulative-layout-shift": 0,
+          "interactive": 6608.7776975
+        },
+        "durationMs": 8389,
+        "runWarnings": []
+      }
+    }
+  ],
+  "limitations": [
+    "Chrome software WebGL fallback was enabled; all scene and page features remained enabled.",
+    "Both home page samples include an explicit slow-load/incomplete-results warning.",
+    "Do not treat score changes of a few points as proof of a stable performance gain.",
+    "Metadata and layout-shift improvements do not resolve the sustained home rendering cost."
+  ]
+}

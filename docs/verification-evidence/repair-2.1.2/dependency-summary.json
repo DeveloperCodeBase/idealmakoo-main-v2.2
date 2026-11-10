@@ -1,0 +1,111 @@
+{
+  "generatedAt": "2026-10-23T09:32:42.499946+00:00",
+  "executed": "npm audit --package-lock-only --json",
+  "exitCode": 1,
+  "completeAudit": {
+    "info": 0,
+    "low": 0,
+    "moderate": 2,
+    "high": 5,
+    "critical": 0,
+    "total": 7
+  },
+  "classifiedRuntimeFindings": 0,
+  "classificationMethod": "Classify every finding node from the complete successful npm audit response against exact package-lock dev:true; separate production-only audit was not executed successfully.",
+  "sourceLockSha256": "c0f874cca4df5654937431e5c1eb7f1b993c8bc95872ad2bf0e78bf684ffbc2a",
+  "auditedLockSha256": "37c02964d48149fdb3bd548b211bf7f45faaf828053e976c6864f57c006d3535",
+  "dependenciesUnchangedAfterRootVersionBump": true,
+  "dependencyGraphSha256": "34ccb1975695bda730ddfbbf76a2175f722e9176837a0cf1f43acbb9aa3b273d",
+  "findings": [
+    {
+      "name": "braces",
+      "severity": "high",
+      "nodes": [
+        "node_modules/braces"
+      ],
+      "allNodesDevOnly": true,
+      "direct": false,
+      "fixAvailable": {
+        "name": "tailwindcss",
+        "version": "4.3.3",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "chokidar",
+      "severity": "high",
+      "nodes": [
+        "node_modules/chokidar"
+      ],
+      "allNodesDevOnly": true,
+      "direct": false,
+      "fixAvailable": {
+        "name": "tailwindcss",
+        "version": "4.3.3",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "fast-glob",
+      "severity": "high",
+      "nodes": [
+        "node_modules/fast-glob"
+      ],
+      "allNodesDevOnly": true,
+      "direct": false,
+      "fixAvailable": true
+    },
+    {
+      "name": "micromatch",
+      "severity": "high",
+      "nodes": [
+        "node_modules/micromatch"
+      ],
+      "allNodesDevOnly": true,
+      "direct": false,
+      "fixAvailable": {
+        "name": "tailwindcss",
+        "version": "4.3.3",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "postcss-nested",
+      "severity": "moderate",
+      "nodes": [
+        "node_modules/postcss-nested"
+      ],
+      "allNodesDevOnly": true,
+      "direct": false,
+      "fixAvailable": true
+    },
+    {
+      "name": "postcss-selector-parser",
+      "severity": "moderate",
+      "nodes": [
+        "node_modules/postcss-selector-parser"
+      ],
+      "allNodesDevOnly": true,
+      "direct": false,
+      "fixAvailable": {
+        "name": "tailwindcss",
+        "version": "4.3.3",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "tailwindcss",
+      "severity": "high",
+      "nodes": [
+        "node_modules/tailwindcss"
+      ],
+      "allNodesDevOnly": true,
+      "direct": true,
+      "fixAvailable": {
+        "name": "tailwindcss",
+        "version": "4.3.3",
+        "isSemVerMajor": true
+      }
+    }
+  ]
+}

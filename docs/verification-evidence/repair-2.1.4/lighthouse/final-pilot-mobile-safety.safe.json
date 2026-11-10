@@ -1,0 +1,79 @@
+{
+  "checkedAt": "2026-10-25T13:03:08.507Z",
+  "buildId": "NWcRPAySX3HCzbpKSDJNf",
+  "scope": "representative",
+  "files": 13,
+  "totalBytes": 1511048,
+  "runtimeSecretPatternsChecked": 5,
+  "privateFixturePatternsChecked": 1,
+  "findings": [],
+  "passed": true,
+  "note": "Public anonymous-query-free inventory and delivery-candidate JSON/CSV files only. Exact known runtime secrets/fixture identifiers and nonempty header/cookie/credential fields are checked without exporting their values. This does not license private raw reports. No file has been altered or copied by this scan.",
+  "fileIndex": [
+    {
+      "file": "5635c36b9d10e469.attempt-1.result.json",
+      "bytes": 5606,
+      "sha256": "30895f08e09e50c40c72a6b9ce30813c823db0af3bd707e98c4d5876815c8569"
+    },
+    {
+      "file": "5635c36b9d10e469.attempt-1.sanitized-lhr.json",
+      "bytes": 389438,
+      "sha256": "93fdba1570fc1023a06239967b4fd76c665dcddbe25366ff03a3e795a38487d3"
+    },
+    {
+      "file": "75fa919f9c3c8534.attempt-1.result.json",
+      "bytes": 4971,
+      "sha256": "3eac4ae3717549be2640e7417b82bddafaa503dd18deb79925bef97468d27e22"
+    },
+    {
+      "file": "75fa919f9c3c8534.attempt-1.sanitized-lhr.json",
+      "bytes": 329917,
+      "sha256": "3025c743277cb5b9605351576f476de3e628ecbb3cfc45e528d5d986e1045ea9"
+    },
+    {
+      "file": "EXPORT.json",
+      "bytes": 3687,
+      "sha256": "ed9f7e17dd47c2c42eb7d076d9cb952d37a1bfe56856f05816cca060e2d5b131"
+    },
+    {
+      "file": "bf146a5a90197d4a.attempt-1.result.json",
+      "bytes": 5251,
+      "sha256": "57aaed62488a77e6378a88121ff3f16c9cc9d0be3a41e3d5d95ba8f0867b92a9"
+    },
+    {
+      "file": "bf146a5a90197d4a.attempt-1.sanitized-lhr.json",
+      "bytes": 359637,
+      "sha256": "398fb2a055b10bdbe39a442af6bccd48980eefb3c0ac37d743cd7df045854f27"
+    },
+    {
+      "file": "f5632d87f13791d2.attempt-1.result.json",
+      "bytes": 5411,
+      "sha256": "24a53c34afeb198feebc3c173736396be8920c39f58fb0919f5b7aa76658bf50"
+    },
+    {
+      "file": "f5632d87f13791d2.attempt-1.sanitized-lhr.json",
+      "bytes": 377025,
+      "sha256": "e05f3673415fc80bf9d047deb0875a977ce31089c68316ce27e00fba4864892d"
+    },
+    {
+      "file": "inventory.json",
+      "bytes": 708,
+      "sha256": "d274c594fe43c33148cb8cad16da144f8cf05aaa5d61691c504b42f8e28f17c4"
+    },
+    {
+      "file": "manifest.json",
+      "bytes": 2751,
+      "sha256": "1878d931af270e0629d218efd918e8e5d144b3c3ab6bb75d0c711303527156f6"
+    },
+    {
+      "file": "summary.csv",
+      "bytes": 829,
+      "sha256": "927126ddf9553100e3b22869cc4855ecb2993632c31361471ea45630b471e6f0"
+    },
+    {
+      "file": "summary.json",
+      "bytes": 25817,
+      "sha256": "1a1fb553da17406400dea079efb5ec4ae104e28a505535ba2ab5f9fc44050c12"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "idealmakoo-platform",
+  "version": "2.2.0",
+  "private": true,
+  "description": "Ideal Makoo production CMS, CRM and multilingual factory platform",
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0",
+    "build": "next build --webpack",
+    "start": "node --env-file-if-exists=.env.local scripts/start-production.mjs",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run typecheck",
+    "test": "node scripts/run-unit.mjs",
+    "package:source": "node scripts/package-production.mjs",
+    "db:migrate": "tsx scripts/db-migrate.ts",
+    "db:seed": "tsx scripts/db-seed.ts",
+    "staff:provision": "tsx scripts/provision-staff.ts",
+    "worker": "tsx scripts/worker.ts",
+    "worker:health": "tsx scripts/worker-health.ts",
+    "test:unit": "node scripts/run-unit.mjs",
+    "test:integration": "node --import tsx --test --test-concurrency=1 --test-reporter=tap tests/*.pg.mjs && vitest run --config vitest.config.ts",
+    "test:e2e": "playwright test",
+    "verify:production": "npm run typecheck && npm run test:unit && npm run test:integration && npm run build",
+    "prebuild": "node scripts/build-service-worker.mjs",
+    "audit:lighthouse": "node --import tsx scripts/audit-lighthouse.mjs"
+  },
+  "dependencies": {
+    "bidi-js": "1.1.0",
+    "fflate": "0.8.3",
+    "lucide-react": "1.59.0",
+    "next": "16.4.2",
+    "nodemailer": "10.1.7",
+    "pdfkit": "0.20.2",
+    "pg": "8.23.1",
+    "qrcode": "1.5.4",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "sharp": "0.35.5",
+    "three": "0.180.0",
+    "tsx": "4.23.15",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
+    "@playwright/test": "1.64.1",
+    "@types/node": "^24.0.0",
+    "@types/nodemailer": "8.0.2",
+    "@types/pdfkit": "0.17.6",
+    "@types/pg": "8.23.1",
+    "@types/qrcode": "1.5.6",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/three": "0.180.0",
+    "autoprefixer": "^10.4.21",
+    "chrome-launcher": "1.2.0",
+    "lighthouse": "13.5.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "3.4.17",
+    "typescript": "5.9.3",
+    "vitest": "5.0.5"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "overrides": {
+    "postcss-selector-parser": "7.1.6"
+  }
+}

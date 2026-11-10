@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/resources/berelian-official-image/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "4175127aad6a143b3f3a7d3f164ee7e4144c41030f39a7f7d3255f14c643216c",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "أسنان بريليان الصناعية — صورة رسمية | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "أسنان بريليان الصناعية — صورة رسمية — وثائق المصنع المصوّرة الأصلية"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/resources/berelian-official-image/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/berelian-official-image/",
+    "en": "http://127.0.0.1:3100/en/resources/berelian-official-image/",
+    "tr": "http://127.0.0.1:3100/tr/resources/berelian-official-image/",
+    "ar": "http://127.0.0.1:3100/ar/resources/berelian-official-image/",
+    "ru": "http://127.0.0.1:3100/ru/resources/berelian-official-image/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/berelian-official-image/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 68
+}

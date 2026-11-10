@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/cooperation/investment/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "a89cdaae88fed86ed2d0a9b74aa6f1037153910af2120e6b70a6e9078f3ab002",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Yatırım iş birliği | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Yatırım iş birliğine ilginizi bildirin; teklif değerlendirmesi veya yetkili belge erişimi için fabrikayla iletişime geçin."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/cooperation/investment/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/cooperation/investment/",
+    "en": "http://127.0.0.1:3100/en/cooperation/investment/",
+    "tr": "http://127.0.0.1:3100/tr/cooperation/investment/",
+    "ar": "http://127.0.0.1:3100/ar/cooperation/investment/",
+    "ru": "http://127.0.0.1:3100/ru/cooperation/investment/",
+    "x-default": "http://127.0.0.1:3100/fa/cooperation/investment/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 56
+}

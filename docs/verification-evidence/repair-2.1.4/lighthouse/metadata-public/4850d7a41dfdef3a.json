@@ -1,0 +1,70 @@
+{
+  "url": "http://127.0.0.1:3100/ar/products/berelian/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "9146c19c3f422b5d96ac302035068cccedeba1a6de915754dae6aab600c8947e",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "أسنان بريليان الصناعية | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "بريليان ببنية أكريليكية من طبقتين وثلاث دورات معالجة للتعويضات الكاملة والجزئية."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/products/berelian/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/berelian/",
+    "en": "http://127.0.0.1:3100/en/products/berelian/",
+    "tr": "http://127.0.0.1:3100/tr/products/berelian/",
+    "ar": "http://127.0.0.1:3100/ar/products/berelian/",
+    "ru": "http://127.0.0.1:3100/ru/products/berelian/",
+    "x-default": "http://127.0.0.1:3100/fa/products/berelian/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "أسنان بريليان الصناعية",
+      "description": "بريليان ببنية أكريليكية من طبقتين وثلاث دورات معالجة للتعويضات الكاملة والجزئية.",
+      "image": "http://127.0.0.1:3100/media/official/1686482280.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "BERELIAN"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/ar/products/berelian/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 67
+}

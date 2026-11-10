@@ -1,0 +1,44 @@
+{
+  "incident": "External interruption observed during acceptance; original QEMU process and supervisor were unavailable and the historical bottom image path was missing",
+  "originalTerminationCauseKnown": false,
+  "originalNormalExitAvailable": false,
+  "lastCompletedProductStage": "isolated restore drill",
+  "guardedInPlaceRestoreHadStarted": false,
+  "exactImageRecovery": {
+    "startedAt": "2026-10-25T15:52:27.695218+00:00",
+    "completedAt": "2026-10-25T15:52:40.358195+00:00",
+    "elapsedSeconds": 12.663,
+    "status": "passed",
+    "downloadUrl": "https://cloud-images.ubuntu.com/jammy/20261020/jammy-server-cloudimg-amd64.img",
+    "tlsVerificationEnabled": true,
+    "actualBytes": 730529792,
+    "actualSha256": "2099e63da0b822ef8e05e3d596c1b402eaaae658fc08ab919cb8495bfcdc488b",
+    "matchesRetainedHistoricalSha256": true,
+    "matchesRetainedHistoricalByteLength": true,
+    "originalMissingPathRecreatedWithoutOverwrite": true,
+    "recreatedPathIsHardlinkToPreservedCurrentCopy": true,
+    "middleAndTopInodeSizeMtimeUnchanged": true,
+    "originalQemuProcessAbsent": true,
+    "originalSupervisorUnavailable": true,
+    "originalNormalExitUnavailable": true
+  },
+  "readOnlyQcow2CheckExitCodes": [
+    0,
+    0,
+    0
+  ],
+  "readOnlyQcow2CheckErrorCounts": [
+    0,
+    0,
+    0
+  ],
+  "backingChainLayers": 3,
+  "backingVirtualSizes": [
+    68719476736,
+    68719476736,
+    2361393152
+  ],
+  "sameOverlayResumed": true,
+  "productSourceChanged": false,
+  "environmentRecoveryDoesNotRerunOrReplacePreviouslyClosedProductEvidence": true
+}

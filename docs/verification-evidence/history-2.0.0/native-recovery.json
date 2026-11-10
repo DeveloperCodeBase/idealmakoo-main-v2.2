@@ -1,0 +1,1672 @@
+{
+  "postgresql": "16.15 (Ubuntu 16.15-1.pgdg24.04+2)",
+  "appliedMigrations": [
+    "001_core.sql",
+    "002_workspace.sql",
+    "003_requests_operations.sql",
+    "004_organizations.sql",
+    "006_crm_automation.sql",
+    "007_crm_scopes.sql",
+    "008_events.sql",
+    "009_resources.sql",
+    "010_notification_policy.sql",
+    "011_crm_commercial.sql",
+    "012_privacy.sql",
+    "013_crm_routing.sql",
+    "014_crm_pipelines.sql",
+    "015_storage.sql",
+    "016_content_collaboration.sql",
+    "017_crm_campaigns.sql",
+    "018_crm_domains.sql",
+    "019_crm_operations.sql",
+    "020_crm_io.sql",
+    "021_shared_blocks.sql",
+    "022_media_provenance.sql",
+    "023_quote_artifacts.sql",
+    "024_crm_request_selector.sql",
+    "025_staff_lifecycle.sql",
+    "026_portal_crm_accounts.sql",
+    "027_wishlists.sql",
+    "028_operations_monitoring.sql",
+    "029_media_processing.sql",
+    "030_semantic_knowledge.sql",
+    "031_partner_public_profiles.sql",
+    "032_tender_envelopes.sql",
+    "033_inquiry_merge.sql",
+    "034_contact_campaigns.sql",
+    "035_company_certificates.sql",
+    "036_crm_task_reminder_policy.sql",
+    "037_notification_templates.sql",
+    "038_editor_workflows.sql"
+  ],
+  "backupFormat": 2,
+  "privacyAnchorBoundToExternalLedger": "passed",
+  "mandatoryPrivacyReplay": "passed",
+  "privacyReplaySequence": 0,
+  "restoredPrivacyReadiness": "passed",
+  "encryptedRoundtrip": "passed",
+  "manifestChecksums": "passed",
+  "realDatabaseRestore": "passed",
+  "restoredPublicRelations": 184,
+  "restoredPublicTables": 183,
+  "restoredPublicViews": 1,
+  "configuredStorageCopied": true,
+  "configuredStorageFiles": 0,
+  "restoredFiles": 5,
+  "controlledPlainFiles": 2,
+  "controlledDamImages": 3,
+  "privateAndPublicFileRestore": "passed",
+  "damProof": {
+    "assetMetadataAndBytes": true,
+    "retainedOriginalLineage": true,
+    "privateOriginalNotPublishable": true,
+    "publicDerivativesAvailable": true,
+    "immutableProvenance": true
+  },
+  "recoveryEvidenceRecorded": true,
+  "nativeOnly": true,
+  "structuralFingerprintCount": 1186,
+  "structuralFingerprintMethod": "Actual pg_dump schema object blocks, full relation row hashes, version-column hashes and sequence states; comparison before privacy replay",
+  "sqlObjectFingerprintsMatch": true,
+  "relationDataAndVersionsMatch": true,
+  "sequenceStatesMatch": true,
+  "migrationChecksumsVerified": 37,
+  "limitedRoleGrantProof": {
+    "passed": true,
+    "role": {
+      "name": "idealmakoo_app",
+      "rolsuper": false,
+      "rolcreatedb": false,
+      "rolcreaterole": false,
+      "rolbypassrls": false,
+      "schema_create": false
+    },
+    "relationsVerified": 184,
+    "sequencesVerified": 10,
+    "relations": [
+      {
+        "name": "access_grants",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "ai_jobs",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "ai_usage",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "asset_image_derivatives",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "asset_image_sources",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "asset_media_derivatives",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "asset_usage_policies",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "assets",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "audit_events",
+        "select": true,
+        "insert": true,
+        "update": false,
+        "delete": false,
+        "truncate": false
+      },
+      {
+        "name": "auth_challenges",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "communication_binding_challenges",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "communication_binding_consents",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "communication_bindings",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "communication_preference_tokens",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "communication_recipients",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "company_certificate_alerts",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "company_certificate_drafts",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "company_certificate_releases",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "company_certificate_reviews",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "company_certificate_revisions",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "company_certificates",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "consent_events",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "content_approvals",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "content_edit_leases",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "content_previews",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "content_revisions",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "content_translation_acknowledgements",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_account_branches",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_account_memberships",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_account_profiles",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_activity_reminder_deliveries",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_activity_reminders",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_automation_batches",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_automation_events",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_automation_origins",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_automation_runs",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_calendar_revisions",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_campaign_deliveries",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_campaign_enrollments",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_campaign_revisions",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_campaign_suppressions",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_campaigns",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_commercial_policies",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_contact_affiliations",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_contact_endpoints",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_contact_profiles",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_domain_asset_refs",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_domain_events",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_endpoint_challenges",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_endpoint_consent_events",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_endpoint_preferences",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_import_external_keys",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_inbox_connectors",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_inbox_items",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_lead_conversions",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_lead_origins",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_lead_qualifications",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_merge_operations",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_opportunity_contacts",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_opportunity_details",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_opportunity_items",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_opportunity_positions",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_opportunity_requests",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_order_handoffs",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_partner_agreements",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_pipeline_events",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_pipeline_revisions",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_pipeline_stages",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_pipelines",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_price_entries",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_pricebook_heads",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_pricebook_revisions",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_quote_approvals",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_quote_envelopes",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_report_snapshots",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_routing_cursors",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_routing_decisions",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_routing_rule_revisions",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_routing_rules",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_sample_cases",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_segment_revisions",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_segment_snapshot_members",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_segment_snapshots",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_segments",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_success_plans",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_survey_invitations",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_survey_responses",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_task_occurrences",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_task_series",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_team_memberships",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_teams",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_territories",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_territory_memberships",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_timeline_entries",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_transfer_jobs",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_transfer_rows",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "crm_work_calendars",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "customer_organizations",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "data_rooms",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "delivery_events",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "event_registrations",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "event_sessions",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "idempotency_keys",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "inquiry_merge_receipts",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "knowledge_chunks",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "knowledge_ingestion_jobs",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "knowledge_sources",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "locale_releases",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "media_processing_events",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "media_processing_jobs",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "media_processing_lease",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "notification_digest_items",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "notification_preferences",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "notification_publication_events",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "notification_template_releases",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "notification_template_render_events",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "notification_template_reviews",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "notification_template_revisions",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "notification_template_uses",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "notification_templates",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "notification_unsubscribe_tokens",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "notifications",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "ops_browser_samples",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "ops_http_samples",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "ops_http_totals",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "ops_incident_transitions",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "ops_incidents",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "ops_monitoring_lease",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "ops_probe_samples",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "ops_recovery_evidence",
+        "select": true,
+        "insert": false,
+        "update": false,
+        "delete": false,
+        "truncate": false
+      },
+      {
+        "name": "ops_slo_observations",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "ops_slo_revisions",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "ops_slos",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "ops_telemetry_capacity",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "organization_crm_link_events",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "organization_invitations",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "organization_memberships",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "outbox",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "partner_public_approvals",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "partner_public_profiles",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "partner_public_revisions",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "privacy_holds",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "privacy_ledger_state",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "privacy_requests",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "privacy_tombstones",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "quote_revision_files",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "quote_snapshots",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "rate_limits",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "request_messages",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "request_shares",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "requests",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "resource_publications",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "resource_reviews",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "resource_versions",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "resources",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "schema_migrations",
+        "select": false,
+        "insert": false,
+        "update": false,
+        "delete": false,
+        "truncate": false
+      },
+      {
+        "name": "sessions",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "shared_block_asset_refs",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "shared_block_revisions",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "shared_blocks",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "staff_handover_events",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "staff_invitations",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "storage_reservations",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "tender_asset_bindings",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "tender_asset_refs",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "tender_bid_events",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "tender_bid_revisions",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "tender_bids",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "tender_call_reviews",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "tender_call_revisions",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "tender_calls",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "tender_envelopes",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "tender_reviewer_grants",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "user_settings",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "users",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "webhook_events",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "wishlist_items",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "wishlist_shares",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "wishlists",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "worker_heartbeats",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "workspace_audit",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "workspace_entities",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "workspace_meta",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      },
+      {
+        "name": "workspace_publish_jobs",
+        "select": true,
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": false
+      }
+    ],
+    "sequences": [
+      {
+        "name": "audit_events_id_seq",
+        "select": true,
+        "usage": true,
+        "update": false
+      },
+      {
+        "name": "communication_binding_consents_id_seq",
+        "select": true,
+        "usage": true,
+        "update": false
+      },
+      {
+        "name": "company_certificate_reviews_id_seq",
+        "select": true,
+        "usage": true,
+        "update": false
+      },
+      {
+        "name": "consent_events_id_seq",
+        "select": true,
+        "usage": true,
+        "update": false
+      },
+      {
+        "name": "crm_commercial_policies_version_seq",
+        "select": true,
+        "usage": true,
+        "update": false
+      },
+      {
+        "name": "crm_endpoint_consent_events_id_seq",
+        "select": true,
+        "usage": true,
+        "update": false
+      },
+      {
+        "name": "delivery_events_id_seq",
+        "select": true,
+        "usage": true,
+        "update": false
+      },
+      {
+        "name": "notification_template_render_events_id_seq",
+        "select": true,
+        "usage": true,
+        "update": false
+      },
+      {
+        "name": "quote_revision_files_issuance_sequence_seq",
+        "select": true,
+        "usage": true,
+        "update": false
+      },
+      {
+        "name": "workspace_audit_id_seq",
+        "select": true,
+        "usage": true,
+        "update": false
+      }
+    ],
+    "negativeSqlChecks": [
+      {
+        "name": "schema-create",
+        "sqlState": "42501",
+        "passed": true
+      },
+      {
+        "name": "migration-read",
+        "sqlState": "42501",
+        "passed": true
+      },
+      {
+        "name": "audit-update",
+        "sqlState": "42501",
+        "passed": true
+      },
+      {
+        "name": "audit-delete",
+        "sqlState": "42501",
+        "passed": true
+      },
+      {
+        "name": "audit-truncate",
+        "sqlState": "42501",
+        "passed": true
+      },
+      {
+        "name": "evidence-insert",
+        "sqlState": "42501",
+        "passed": true
+      },
+      {
+        "name": "evidence-update",
+        "sqlState": "42501",
+        "passed": true
+      },
+      {
+        "name": "evidence-delete",
+        "sqlState": "42501",
+        "passed": true
+      }
+    ]
+  },
+  "perObjectVersionManifest": "native-recovery-object-manifest.json",
+  "sharedFixtureAssets": 0,
+  "sharedStorageUnchanged": true,
+  "disposableDatabasesRemoved": true,
+  "temporaryPlaintextRemoved": true,
+  "protectedEnvironmentUnchanged": true,
+  "checkedAt": "2026-10-20T07:55:38.298644+00:00"
+}

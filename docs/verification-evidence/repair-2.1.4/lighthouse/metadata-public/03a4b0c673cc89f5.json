@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/resources/bstar-nano-base-official-image/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "ba4a013fc711af6c1cfcbc43a8ec37673c6b79b6ba929bf85ea82ed05eb9143d",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "بی‌استار نانو بیس — تصویر رسمی | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "بی‌استار نانو بیس — تصویر رسمی — اسناد تصویری اصلی کارخانه"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/resources/bstar-nano-base-official-image/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/bstar-nano-base-official-image/",
+    "en": "http://127.0.0.1:3100/en/resources/bstar-nano-base-official-image/",
+    "tr": "http://127.0.0.1:3100/tr/resources/bstar-nano-base-official-image/",
+    "ar": "http://127.0.0.1:3100/ar/resources/bstar-nano-base-official-image/",
+    "ru": "http://127.0.0.1:3100/ru/resources/bstar-nano-base-official-image/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/bstar-nano-base-official-image/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 80
+}

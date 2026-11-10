@@ -1,0 +1,63 @@
+{
+  "scope": "Private acceptance helper correction and pre-restore evidence; not an application source change",
+  "originalAttempt": {
+    "name": "restore-marker",
+    "startedAt": "2026-10-25T14:51:57.543054+00:00",
+    "completed": true,
+    "completedAt": "2026-10-25T14:52:01.636482+00:00",
+    "elapsedSeconds": 4.097,
+    "exitCode": 1
+  },
+  "originalFailure": "First assertion expected200 from GET /api/v1/me/profile, whose supported method is PATCH; the helper did not retain the original response status",
+  "actualEndpointControlAfterCorrection": {
+    "unsupportedGetProfile": 404,
+    "supportedAuthenticatedGetSettings": 200
+  },
+  "correctedAttempt": {
+    "name": "restore-marker-resumed",
+    "startedAt": "2026-10-25T15:56:59.051122+00:00",
+    "completed": true,
+    "completedAt": "2026-10-25T15:57:12.394308+00:00",
+    "elapsedSeconds": 13.347,
+    "exitCode": 0
+  },
+  "proof": {
+    "operation": "marker",
+    "mode": "primary",
+    "startedAt": "2026-10-25T15:57:01.405687+00:00",
+    "transport": "real Caddy HTTP -> application -> worker -> local ClamAV",
+    "externalProviderActionsRequested": false,
+    "historicalSnapshotSessionStatusBeforeRestore": 401,
+    "historicalSnapshotSessionIsNotUsedAsActiveRevocationProof": true,
+    "unsupportedOldHelperEndpointStatus": 404,
+    "authenticatedReadEndpoint": "/api/v1/me/settings",
+    "activeSessionStatusesBeforeRestore": [
+      200,
+      200
+    ],
+    "bothCurrentSessionsCreatedAfterVerifiedBackup": true,
+    "postBackupCaseCreatedThroughHttp": true,
+    "restoredHistoricalSessionRevocationProvenSeparatelyBySuccessfulDrill": true,
+    "status": "passed",
+    "completedAt": "2026-10-25T15:57:12.292866+00:00"
+  },
+  "beforeRestoreDatabaseWitness": {
+    "mode": "before",
+    "observedAt": "2026-10-25T15:57:33.753017+00:00",
+    "archivedSessionPresent": true,
+    "snapshotSessionCreatedBeforeVerifiedBackup": true,
+    "idleMinutes": 60,
+    "snapshotSessionIdleExpiredAtObservation": true,
+    "snapshotSessionRevokedAt": null,
+    "identifiersExported": false,
+    "historicalSessionNotRevokedByPriorDrill": true,
+    "bothNewCurrentSessionsPresentAndActive": true,
+    "snapshotIdleExpiryNotCountedAsRestoreRevocation": true,
+    "status": "passed"
+  },
+  "productSourceChanged": false,
+  "originalFailureAndPrivateLogsRetained": true,
+  "expiredCookieNotCreditedAsRevocation": true,
+  "inPlaceRestoreResultNotYetClaimed": true,
+  "keysCookiesFixtureIdentifiersAndPrivatePathsExported": false
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "native-browser-and-public-metadata-completion",
+  "observedAt": "2026-10-25T03:28:02.530852+00:00",
+  "buildId": "fztGyySqMaBbes8--JQKs",
+  "applicationVersion": "2.1.3",
+  "browser": {
+    "receiptSha256": "385535653eb147c7fc9ab62e0fa794d057adbc874e62084fc5a810e84473cc74",
+    "exitCode": 0,
+    "outerToolSession": 69843,
+    "outerWaitConsumed": true,
+    "tests": 56,
+    "attempts": 56,
+    "stats": {
+      "startTime": "2026-10-25T03:22:18.402Z",
+      "duration": 224936.699,
+      "expected": 56,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "durationSeconds": 225.456
+  },
+  "publicMetadata": {
+    "summarySha256": "aa17e93c1005a6231fbb367649d5b222dc78098df2846b391140e43924cdf1df",
+    "outerToolSession": 82453,
+    "outerExitCode": 0,
+    "outerWaitConsumed": true,
+    "expected": 620,
+    "records": 620,
+    "errors": 0,
+    "warnings": 0,
+    "coverageComplete": true
+  },
+  "lighthouseScoresMeasured": 0,
+  "lighthouseScoreCoverageComplete": false,
+  "servicesStillRunning": true
+}

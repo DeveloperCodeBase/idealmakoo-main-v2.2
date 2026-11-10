@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/contact/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "362c05495a2e33a806eee0c5a76a4dc73248b23829171670be33436edd982eec",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Ideal Makoo ile iletişim | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Tahran ofisi: Veliasr Meydanı, Keşaverz Bulvarı başlangıcının güney tarafı, No. 22, 5. kat."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/contact/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/contact/",
+    "en": "http://127.0.0.1:3100/en/contact/",
+    "tr": "http://127.0.0.1:3100/tr/contact/",
+    "ar": "http://127.0.0.1:3100/ar/contact/",
+    "ru": "http://127.0.0.1:3100/ru/contact/",
+    "x-default": "http://127.0.0.1:3100/fa/contact/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 52
+}

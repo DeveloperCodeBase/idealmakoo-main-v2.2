@@ -1,0 +1,287 @@
+{
+  "format": "sanitized-public-lighthouse-evidence-v1",
+  "exportedAt": "2026-10-26T00:48:53.096Z",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "configurationHash": "99d9518a73248ff8be3846384e71f32b6c400f3220ac752fb863f098dc4d47fe",
+  "expected": 14,
+  "attempts": 14,
+  "coverageComplete": true,
+  "originalReportsRetainedInScratch": true,
+  "rawReportsDelivered": false,
+  "browserScreenshotsDelivered": false,
+  "reportBytes": 5056400,
+  "sourceHashes": {
+    "manifest.json": "5f8b0310086d33d91b803b4a08785aedffdb79f64cf1e1914cbac3eba52db2a3",
+    "inventory.json": "eb70acc544f036a6bf07c014288e4f63522a7aa5585315a537542cfc6c0f216b",
+    "summary.json": "1d66bec5be58c45864d1d4f7c9d391615d1d9255456d20e14280c47cbc727912"
+  },
+  "reports": [
+    {
+      "id": "964c50075cc32604",
+      "attempt": 1,
+      "filename": "964c50075cc32604.attempt-1.sanitized-lhr.json",
+      "rawReportSha256": "a019468b8c32c626eb850bbe5d4cb85954bf90d8b3af989881550fb40ccc29e0",
+      "rawBytes": 410765,
+      "bytes": 382891,
+      "sha256": "e326eb20676960cdcc4fa92e5bb8523907ca84a353195779fa6b412f3575799e",
+      "removedImagePaths": [
+        {
+          "path": "/audits/screenshot-thumbnails/details",
+          "reason": "screenshot-audit-payload"
+        },
+        {
+          "path": "/audits/final-screenshot/details",
+          "reason": "screenshot-audit-payload"
+        }
+      ]
+    },
+    {
+      "id": "0edbe2fe56962f3a",
+      "attempt": 1,
+      "filename": "0edbe2fe56962f3a.attempt-1.sanitized-lhr.json",
+      "rawReportSha256": "e8a54302b60572a1e5bcda70f97b1942991358ba904fb473f46efb94a089760e",
+      "rawBytes": 364273,
+      "bytes": 334098,
+      "sha256": "01f6787c75c782497396090fc75234e4fad3edf4fcc56bb35704b5356b161af2",
+      "removedImagePaths": [
+        {
+          "path": "/audits/screenshot-thumbnails/details",
+          "reason": "screenshot-audit-payload"
+        },
+        {
+          "path": "/audits/final-screenshot/details",
+          "reason": "screenshot-audit-payload"
+        }
+      ]
+    },
+    {
+      "id": "c151f84454399c24",
+      "attempt": 1,
+      "filename": "c151f84454399c24.attempt-1.sanitized-lhr.json",
+      "rawReportSha256": "9c36f59d7285245904adb7a0a116aef7fc90e5d06ceb3db8edb69a32d71d9495",
+      "rawBytes": 437661,
+      "bytes": 377646,
+      "sha256": "632b0b6c7595b8e2082a71a5d0fff4786d17efef936615df1bb9be54bc1185c9",
+      "removedImagePaths": [
+        {
+          "path": "/audits/screenshot-thumbnails/details",
+          "reason": "screenshot-audit-payload"
+        },
+        {
+          "path": "/audits/final-screenshot/details",
+          "reason": "screenshot-audit-payload"
+        }
+      ]
+    },
+    {
+      "id": "474c8f3816fa4057",
+      "attempt": 1,
+      "filename": "474c8f3816fa4057.attempt-1.sanitized-lhr.json",
+      "rawReportSha256": "7155bbe8481676657c7d0b254ab1369cc00e1084c5dd2a8401c22370e28517f6",
+      "rawBytes": 398359,
+      "bytes": 330446,
+      "sha256": "cec7ad986c4c07ad688d847a13d59702a00b3637395d22fd4685ca2afd633015",
+      "removedImagePaths": [
+        {
+          "path": "/audits/screenshot-thumbnails/details",
+          "reason": "screenshot-audit-payload"
+        },
+        {
+          "path": "/audits/final-screenshot/details",
+          "reason": "screenshot-audit-payload"
+        }
+      ]
+    },
+    {
+      "id": "18faec6cf37f610d",
+      "attempt": 1,
+      "filename": "18faec6cf37f610d.attempt-1.sanitized-lhr.json",
+      "rawReportSha256": "edd5b6c6da71cf9d30e3c976abf850a4921d440488bfcdbc639db1eff5260814",
+      "rawBytes": 434668,
+      "bytes": 326888,
+      "sha256": "858b6aed0bdf4d3b995bbcea572c8aa1a4355f8128944736aa668b78375855bc",
+      "removedImagePaths": [
+        {
+          "path": "/audits/screenshot-thumbnails/details",
+          "reason": "screenshot-audit-payload"
+        },
+        {
+          "path": "/audits/final-screenshot/details",
+          "reason": "screenshot-audit-payload"
+        }
+      ]
+    },
+    {
+      "id": "711ba1e64f939093",
+      "attempt": 1,
+      "filename": "711ba1e64f939093.attempt-1.sanitized-lhr.json",
+      "rawReportSha256": "d0d1ace9d1a96ea9edff1f301702beb3a85b044dd4c8d7e7457943834e6d8e26",
+      "rawBytes": 474714,
+      "bytes": 401367,
+      "sha256": "96f037e6adb18461d92aaefc1f16de396dae3d1fccdce6f995146a71c7a5d1c2",
+      "removedImagePaths": [
+        {
+          "path": "/audits/screenshot-thumbnails/details",
+          "reason": "screenshot-audit-payload"
+        },
+        {
+          "path": "/audits/final-screenshot/details",
+          "reason": "screenshot-audit-payload"
+        }
+      ]
+    },
+    {
+      "id": "be0bea6bf4f9abff",
+      "attempt": 1,
+      "filename": "be0bea6bf4f9abff.attempt-1.sanitized-lhr.json",
+      "rawReportSha256": "8809698ca02b42df758bda2adce78a24d413a18ebfbb4eb6e16c0f6b535fa4a7",
+      "rawBytes": 470008,
+      "bytes": 361949,
+      "sha256": "6daa1e5a4a3bb310b3f368aa50959633676c73788be486da48938a58962a4819",
+      "removedImagePaths": [
+        {
+          "path": "/audits/screenshot-thumbnails/details",
+          "reason": "screenshot-audit-payload"
+        },
+        {
+          "path": "/audits/final-screenshot/details",
+          "reason": "screenshot-audit-payload"
+        }
+      ]
+    },
+    {
+      "id": "b042d92824a7795f",
+      "attempt": 1,
+      "filename": "b042d92824a7795f.attempt-1.sanitized-lhr.json",
+      "rawReportSha256": "42be8a67fe47a0a5110a3df93093e4d8832e13e4f407741757b12d0d56c01b5a",
+      "rawBytes": 417617,
+      "bytes": 384486,
+      "sha256": "2d24c9ae5dd53158121951abe5903e2b799e5194214d483e7d0cf6a0deb56176",
+      "removedImagePaths": [
+        {
+          "path": "/audits/screenshot-thumbnails/details",
+          "reason": "screenshot-audit-payload"
+        },
+        {
+          "path": "/audits/final-screenshot/details",
+          "reason": "screenshot-audit-payload"
+        }
+      ]
+    },
+    {
+      "id": "8b6fc9f776e655e2",
+      "attempt": 1,
+      "filename": "8b6fc9f776e655e2.attempt-1.sanitized-lhr.json",
+      "rawReportSha256": "42c67845598f2e24f5d3515a73055357a467eea3d507730660d9626269cfd60c",
+      "rawBytes": 538894,
+      "bytes": 369998,
+      "sha256": "0a1b4f99560864bee403862e33d0a42e8b1785283f860fe5caddcff1f50706f5",
+      "removedImagePaths": [
+        {
+          "path": "/audits/screenshot-thumbnails/details",
+          "reason": "screenshot-audit-payload"
+        },
+        {
+          "path": "/audits/final-screenshot/details",
+          "reason": "screenshot-audit-payload"
+        }
+      ]
+    },
+    {
+      "id": "c360cc9dac4cf2f9",
+      "attempt": 1,
+      "filename": "c360cc9dac4cf2f9.attempt-1.sanitized-lhr.json",
+      "rawReportSha256": "77aa1213e2968c2c79d749491c9a6b17da3f45b040663e93e7cc2ec5e4eb4c6f",
+      "rawBytes": 459982,
+      "bytes": 343541,
+      "sha256": "01e0e6bda83cc9bde1e77a87b118e700d79c75fbd0053fbe0da5fc2123cad9ec",
+      "removedImagePaths": [
+        {
+          "path": "/audits/screenshot-thumbnails/details",
+          "reason": "screenshot-audit-payload"
+        },
+        {
+          "path": "/audits/final-screenshot/details",
+          "reason": "screenshot-audit-payload"
+        }
+      ]
+    },
+    {
+      "id": "56cff3b25abacbca",
+      "attempt": 1,
+      "filename": "56cff3b25abacbca.attempt-1.sanitized-lhr.json",
+      "rawReportSha256": "1d29720b6a1e24b9f698bff94b1c58d06f80cbe78016d3002039e70c691ab473",
+      "rawBytes": 462300,
+      "bytes": 378917,
+      "sha256": "927e492adc5893684006e0d2e8e2ba9b6901c23c79771cf2a5de6ff69ff58416",
+      "removedImagePaths": [
+        {
+          "path": "/audits/screenshot-thumbnails/details",
+          "reason": "screenshot-audit-payload"
+        },
+        {
+          "path": "/audits/final-screenshot/details",
+          "reason": "screenshot-audit-payload"
+        }
+      ]
+    },
+    {
+      "id": "f27af5cdbf89e5b3",
+      "attempt": 1,
+      "filename": "f27af5cdbf89e5b3.attempt-1.sanitized-lhr.json",
+      "rawReportSha256": "05103e59f6de63f59789eab96ec2608dc38514c4ad77f83c9cfa76dee0bcbad0",
+      "rawBytes": 403478,
+      "bytes": 327856,
+      "sha256": "90bfbceaa4e36c131c8ed16dfe90a703eeaefa4733aea13358449ad64188e0f0",
+      "removedImagePaths": [
+        {
+          "path": "/audits/screenshot-thumbnails/details",
+          "reason": "screenshot-audit-payload"
+        },
+        {
+          "path": "/audits/final-screenshot/details",
+          "reason": "screenshot-audit-payload"
+        }
+      ]
+    },
+    {
+      "id": "548c32bee2a6e2ff",
+      "attempt": 1,
+      "filename": "548c32bee2a6e2ff.attempt-1.sanitized-lhr.json",
+      "rawReportSha256": "85f511a2ba89a41deaf7858d873acdebdf1a8232aef33ff695bdc1acd32cd663",
+      "rawBytes": 433355,
+      "bytes": 378915,
+      "sha256": "b5af8fdf855d3e832a2cac370cdc484cd7fbc3ba762f7787d6fd3dcc3f7f6b48",
+      "removedImagePaths": [
+        {
+          "path": "/audits/screenshot-thumbnails/details",
+          "reason": "screenshot-audit-payload"
+        },
+        {
+          "path": "/audits/final-screenshot/details",
+          "reason": "screenshot-audit-payload"
+        }
+      ]
+    },
+    {
+      "id": "d3ba50938adbf340",
+      "attempt": 1,
+      "filename": "d3ba50938adbf340.attempt-1.sanitized-lhr.json",
+      "rawReportSha256": "aef62aa72477733cc19b344422ff7becfd5a0b39397c70f1a8faa18199f42cd9",
+      "rawBytes": 515949,
+      "bytes": 357402,
+      "sha256": "d7df1b70ef0cbc854d25ed85d2364df4e8b5f11714a5189ec7db934763ca4e57",
+      "removedImagePaths": [
+        {
+          "path": "/audits/screenshot-thumbnails/details",
+          "reason": "screenshot-audit-payload"
+        },
+        {
+          "path": "/audits/final-screenshot/details",
+          "reason": "screenshot-audit-payload"
+        }
+      ]
+    }
+  ],
+  "note": "Explicitly sanitized derivative, not a raw Lighthouse report. Original raw reports remain in scratch and are identified by SHA256. Screenshot/image payloads are omitted at the exact JSON pointers recorded; scores, metrics, nonimage audit results and failed attempts are retained. Browser logs, input files, cookies and private raw reports are not included."
+}

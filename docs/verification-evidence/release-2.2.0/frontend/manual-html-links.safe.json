@@ -1,0 +1,186 @@
+{
+  "checkedAt": "2026-10-26T14:32:20.318004+00:00",
+  "scope": "Read-only audit of every href in all generated and actually served public manual HTML pages. No account fixtures or mutations.",
+  "status": "pass",
+  "htmlPages": 13,
+  "hrefOccurrences": 49,
+  "uniqueTargets": 15,
+  "markdownOrDocsLinksOffered": 0,
+  "brokenTargets": 0,
+  "servedHtmlMatchesSource": true,
+  "generatorBehavior": "The HTML generator removes the related technical-document section. The source-package Markdown references are not offered as links in public HTML. Public HTML navigation links only to the manual index, individual role manuals and the site home.",
+  "html": [
+    {
+      "file": "admin.html",
+      "sha256": "05a0fdf5b9101c05c1c798ba248105aa7fce581a71b5d395ed30a31af18ae4bd",
+      "hrefCount": 3
+    },
+    {
+      "file": "analyst.html",
+      "sha256": "bc02a382f9d15fb62071f28781f869dd5e98630675f9cce82b6ce5902d771ea7",
+      "hrefCount": 3
+    },
+    {
+      "file": "business.html",
+      "sha256": "860db961ab817b87240fd206a0f3df727a7706cc18b1f3e3838118edffd56df0",
+      "hrefCount": 3
+    },
+    {
+      "file": "contentEditor.html",
+      "sha256": "bb22236c178d65e32517a781bcba01414ba038a19c2e2f0c42d0dcebcd2a7290",
+      "hrefCount": 3
+    },
+    {
+      "file": "customer.html",
+      "sha256": "15af2bd286b752c677e89763992e8d17bfd3fc49925c4867a9f5346ca8da5a0a",
+      "hrefCount": 3
+    },
+    {
+      "file": "hr.html",
+      "sha256": "b75fbe40751ae75c013b1849b149a06f3370a2104bf837a340b1364ddf45ecb9",
+      "hrefCount": 3
+    },
+    {
+      "file": "index.html",
+      "sha256": "c22cde20b47f2743a37e36e08f3f16687e1b2bf12ab88e38bceba242176854c0",
+      "hrefCount": 13
+    },
+    {
+      "file": "productManager.html",
+      "sha256": "ebcdaa85799d58c19006216a60e02367c6b6f2ef78dadd84753f7749cc9f0e98",
+      "hrefCount": 3
+    },
+    {
+      "file": "publisher.html",
+      "sha256": "9ef3750679b16a0005e7d4ee568f4d9f5c7cb97ed49ae0eeb726197ff323b069",
+      "hrefCount": 3
+    },
+    {
+      "file": "scientificReviewer.html",
+      "sha256": "ee371c988b145e936a8ea1fc6b7b3b7d26e77f8d95d0a9cdfa20655fce4d35b4",
+      "hrefCount": 3
+    },
+    {
+      "file": "superAdmin.html",
+      "sha256": "7a7de9a27b8187364c8bdb7b5c5f41a058a142ea0795e746e0526c23f7d15021",
+      "hrefCount": 3
+    },
+    {
+      "file": "support.html",
+      "sha256": "e1c9066b0880e3f674c89977fc73bf9821595f078d69328dde78aad029f441fa",
+      "hrefCount": 3
+    },
+    {
+      "file": "translator.html",
+      "sha256": "227ff9c3cf31d7a5e1e8166505166437a1f0e72f43dc4e70095fab356ebfa258",
+      "hrefCount": 3
+    }
+  ],
+  "targets": [
+    {
+      "path": "/fa/",
+      "status": 200,
+      "finalPath": "/fa/",
+      "contentType": "text/html",
+      "matchesLocalPublicResource": null
+    },
+    {
+      "path": "/manuals/admin.html",
+      "status": 200,
+      "finalPath": "/manuals/admin.html",
+      "contentType": "text/html",
+      "matchesLocalPublicResource": true
+    },
+    {
+      "path": "/manuals/analyst.html",
+      "status": 200,
+      "finalPath": "/manuals/analyst.html",
+      "contentType": "text/html",
+      "matchesLocalPublicResource": true
+    },
+    {
+      "path": "/manuals/business.html",
+      "status": 200,
+      "finalPath": "/manuals/business.html",
+      "contentType": "text/html",
+      "matchesLocalPublicResource": true
+    },
+    {
+      "path": "/manuals/contentEditor.html",
+      "status": 200,
+      "finalPath": "/manuals/contentEditor.html",
+      "contentType": "text/html",
+      "matchesLocalPublicResource": true
+    },
+    {
+      "path": "/manuals/customer.html",
+      "status": 200,
+      "finalPath": "/manuals/customer.html",
+      "contentType": "text/html",
+      "matchesLocalPublicResource": true
+    },
+    {
+      "path": "/manuals/hr.html",
+      "status": 200,
+      "finalPath": "/manuals/hr.html",
+      "contentType": "text/html",
+      "matchesLocalPublicResource": true
+    },
+    {
+      "path": "/manuals/index.html",
+      "status": 200,
+      "finalPath": "/manuals/index.html",
+      "contentType": "text/html",
+      "matchesLocalPublicResource": true
+    },
+    {
+      "path": "/manuals/productManager.html",
+      "status": 200,
+      "finalPath": "/manuals/productManager.html",
+      "contentType": "text/html",
+      "matchesLocalPublicResource": true
+    },
+    {
+      "path": "/manuals/publisher.html",
+      "status": 200,
+      "finalPath": "/manuals/publisher.html",
+      "contentType": "text/html",
+      "matchesLocalPublicResource": true
+    },
+    {
+      "path": "/manuals/scientificReviewer.html",
+      "status": 200,
+      "finalPath": "/manuals/scientificReviewer.html",
+      "contentType": "text/html",
+      "matchesLocalPublicResource": true
+    },
+    {
+      "path": "/manuals/style.css",
+      "status": 200,
+      "finalPath": "/manuals/style.css",
+      "contentType": "text/css",
+      "matchesLocalPublicResource": true
+    },
+    {
+      "path": "/manuals/superAdmin.html",
+      "status": 200,
+      "finalPath": "/manuals/superAdmin.html",
+      "contentType": "text/html",
+      "matchesLocalPublicResource": true
+    },
+    {
+      "path": "/manuals/support.html",
+      "status": 200,
+      "finalPath": "/manuals/support.html",
+      "contentType": "text/html",
+      "matchesLocalPublicResource": true
+    },
+    {
+      "path": "/manuals/translator.html",
+      "status": 200,
+      "finalPath": "/manuals/translator.html",
+      "contentType": "text/html",
+      "matchesLocalPublicResource": true
+    }
+  ]
+}

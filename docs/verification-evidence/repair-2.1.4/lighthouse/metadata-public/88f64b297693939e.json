@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/resources/resin-base-bond-four-teeth-cover/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "9047e02872b11567245fad5d5f805147e96123de2757b6f149cd2d2180a26295",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Araştırma kaynak görseli — Glamour, Yaghoot, Apple ve Ivoclar dişlerde rezin kaide bağlantısı | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Glamour, Yaghoot, Apple ve Ivoclar dişlerde rezin kaide bağlantısı — Fabrikanın orijinal görsel belgeleri"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/resources/resin-base-bond-four-teeth-cover/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/resin-base-bond-four-teeth-cover/",
+    "en": "http://127.0.0.1:3100/en/resources/resin-base-bond-four-teeth-cover/",
+    "tr": "http://127.0.0.1:3100/tr/resources/resin-base-bond-four-teeth-cover/",
+    "ar": "http://127.0.0.1:3100/ar/resources/resin-base-bond-four-teeth-cover/",
+    "ru": "http://127.0.0.1:3100/ru/resources/resin-base-bond-four-teeth-cover/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/resin-base-bond-four-teeth-cover/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 53
+}

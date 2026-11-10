@@ -1,0 +1,20 @@
+{
+  "observedAt": "2026-10-25T12:18:13.114Z",
+  "readyStatus": 200,
+  "readiness": {
+    "status": "ok",
+    "database": "ok",
+    "privacy": "ready",
+    "timestamp": "2026-10-25T12:18:13.085Z",
+    "version": "2.1.4",
+    "applicationVersion": "2.1.4"
+  },
+  "workerHealthExit": 0,
+  "restoredFileLimit": 20971520,
+  "restoredDocumentLimit": 20971520,
+  "counts": {
+    "requests": 0,
+    "active_reservations": 0
+  },
+  "buildId": "mYkzU-dUdrd8P8urIq-YU"
+}

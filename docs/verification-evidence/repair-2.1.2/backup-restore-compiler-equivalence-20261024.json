@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "kind": "published-docker-compiler-input-equivalence-projection",
+  "comparedSourceZipSha256": "1b2dd59c60a97bd1c113f6fdf7faaa330d6ca3157ccf3187b94f37eb4cecb806",
+  "correctedSourceZipSha256": "3552e3d8f65388794e2cf0c1df3277694cc6be99b8b0e9dde849d270141730cb",
+  "files": 727,
+  "canonicalItemsSha256": "9e2914460b7db6ecd1156bf9e9de79ea38271b860f161f5be47b4c58ebf9e680",
+  "changed": [],
+  "selection": "Dependency lock/package, Dockerfile/ignore, root builder configs, complete src/public/worker/tests-e2e, scripts/*.ts, tests/*.ts and build-service-worker.mjs",
+  "scope": "Source-byte equivalence only. No new image build/cache hit/native build is inferred.",
+  "nativeBuildClaimed": false,
+  "originalKind": "docker-compiler-source-input-equivalence-after-subset-repair",
+  "publishedAt": "2026-10-24T09:54:37.912911+00:00",
+  "entryCountVerified": 727,
+  "originalReceiptProvenance": {
+    "workspaceRelativePath": "acceptance/continuation-20261024/devops/trusted-operations-transfer-02/compiler-input-equivalence.safe.json",
+    "sha256": "acb3c4e01d099ddfcf9e9187f44841452fd073864fe7d53690ab5ee555c6b1e6",
+    "bytes": 115898,
+    "fullEntryListIncluded": false,
+    "pathIsExternalAcceptanceProvenanceNotPackageLink": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "finishedAt": "2026-10-21T07:45:11.770285+00:00",
+  "environment": "isolated local PostgreSQL; fresh source migrations; no live AI/notification provider",
+  "result": {
+    "tests": 82,
+    "pass": 82,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0
+  },
+  "exitCode": 0,
+  "scope": [
+    "credential races and KDF admission",
+    "environment staff provisioning and explicit MFA recovery",
+    "administrator upload limits and atomic quotas",
+    "user directory and additive migration idempotency",
+    "streamed media integrity/HTTP validators/ranges/private authorization",
+    "resource publication and approved locale metadata"
+  ],
+  "logSha256": "da2feba338e887335e4b27e0554a4145708fe9843f20f293732b5f72920370e3",
+  "source": {
+    "src/server/asset-content.ts": "7de06f4a20b174d69cbe26067484bf4b876d628365aa48d5bb51be2b142b0413",
+    "src/server/media.ts": "953a15cf3a29e941613a54b777822f901d20ac46eda0beb678215aeb7635df92",
+    "src/server/router.ts": "6c55663c342040b794021371f718719d80f502c0db08eaa4ff681387dff788de",
+    "src/app/api/v1/[...path]/route.ts": "5ffeab6baecb43506255ac5f66e1fe1b959559f51ac093639ea6151580f14636",
+    "src/server/resources.ts": "949270cc5c17b44f021812a15bc77d3acf71ee8724908995816b696ef5737f21",
+    "tests/server-media-response.pg.mjs": "aa327535bcd0997b8f8a0ea803a7b6bce7bfe1e68dcc9d6cf4f6f6860ee032f8",
+    "tests/server-media-authorization.pg.mjs": "6633d135529be4475daed85ada42574f95200e3d2a70d4296d72822bb87d9763",
+    "tests/server-resource-pages.pg.mjs": "ef8c1ccad6e6e6b0e5dd2d1209b63e481271b843b56992e95f9504b83aebc5ab"
+  }
+}

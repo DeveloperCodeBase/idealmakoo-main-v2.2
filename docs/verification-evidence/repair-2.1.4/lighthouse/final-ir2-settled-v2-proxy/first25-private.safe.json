@@ -1,0 +1,102 @@
+{
+  "format": "final-authenticated-first25-scalar-v2",
+  "observedAt": "2026-10-25T21:30:05.263079+00:00",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "compiledBuildInputFingerprint": "4fcec50f5846b0affccc59e43798613ba134a3f93559ea5ddba9705e1f38cc58",
+  "currentAuditInclusiveFingerprint": "64a14915618ac34a4daee3aa64eb82d44438b993096491966afc487be9f67b12",
+  "topologySha256": "d0c85e36be10862b020361b4179ad2add3a02848966239cb01fd7b6a92837bf4",
+  "sampleCount": 25,
+  "completed": 25,
+  "errors": 0,
+  "timeouts": 0,
+  "roles": [
+    "superAdmin"
+  ],
+  "observedSpanSeconds": 184.347,
+  "secondsPerOutcome": 7.373880000000001,
+  "projected530SecondsAtSampleRate": 3908.1564000000003,
+  "scores": {
+    "performance": {
+      "count": 25,
+      "min": 59,
+      "median": 64,
+      "max": 68,
+      "below90": 25
+    },
+    "accessibility": {
+      "count": 25,
+      "min": 100,
+      "median": 100,
+      "max": 100,
+      "below90": 0
+    },
+    "best-practices": {
+      "count": 25,
+      "min": 100,
+      "median": 100,
+      "max": 100,
+      "below90": 0
+    },
+    "seo": {
+      "count": 25,
+      "min": 54,
+      "median": 54,
+      "max": 58,
+      "below90": 25
+    }
+  },
+  "metrics": {
+    "first-contentful-paint": {
+      "count": 25,
+      "min": 1965.7545,
+      "median": 2118.0846,
+      "max": 2126.42265
+    },
+    "largest-contentful-paint": {
+      "count": 25,
+      "min": 6017.4198,
+      "median": 7195.947900000001,
+      "max": 8035.97885
+    },
+    "speed-index": {
+      "count": 25,
+      "min": 1965.7545,
+      "median": 2118.0846,
+      "max": 2126.42265
+    },
+    "total-blocking-time": {
+      "count": 25,
+      "min": 307,
+      "median": 419,
+      "max": 586
+    },
+    "cumulative-layout-shift": {
+      "count": 25,
+      "min": 0,
+      "median": 0.04706909365451993,
+      "max": 0.13100861272089498
+    },
+    "interactive": {
+      "count": 25,
+      "min": 6082.9847,
+      "median": 7195.947900000001,
+      "max": 8217.767165000001
+    }
+  },
+  "apiFailures": 0,
+  "pageErrors": 0,
+  "rawReportBytesFirst25": 10234714,
+  "rawReportBytesProjected530": 216975936.8,
+  "allRunFileBytesAtObservation": 11331768,
+  "allRunFileCountAtObservation": 491,
+  "safeExportNotRunDuringScoring": true,
+  "safeExportProjectionBasis": {
+    "historicalFirstIr2SafeBytes": 32135130,
+    "historicalOutcomes": 388,
+    "projected530Bytes": 43895925.0,
+    "qualification": "Estimate from prior strict-safe export; current v2 schema may add bytes. Exact new export only after this phase closes."
+  },
+  "timingQualification": "Span begins first task and ends25th result; initial fixture/auth/startup excluded. Future role/MFA renewal and errors can extend the projection; no TTL or cleanup budget changed.",
+  "privateSeoIntentionalNoindex": true,
+  "rawPrivateReportsRetainedOutsideDeliverable": true
+}

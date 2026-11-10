@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "kind": "off-host-complete-backup-authentication",
+  "status": "passed",
+  "startedAt": "2026-10-25T05:00:36.148971+00:00",
+  "completedAt": "2026-10-25T05:00:38.254167+00:00",
+  "archiveSha256": "16241e3721301550c7cc006f876dfc5df60773e47b94ab2b06a5b4681160a35c",
+  "archiveBytes": 178578184,
+  "sourceZipSha256": "2deb94d17e0852d75102461fa566555c973f632320729a366a73b86ae9381574",
+  "format": 3,
+  "project": "idealmakoo_acceptance_primary",
+  "release": "20261025T035311Z-ed856260",
+  "schemaInventory": {
+    "migrationCount": 41,
+    "publicRelations": 187
+  },
+  "sourceFilesVerified": 3456,
+  "allArchivedSourceFilesMatchFrozenCandidate": true,
+  "ageAuthenticatedDecryption": true,
+  "completeManifestAuthentication": true,
+  "restorePolicyRequiresFormat3": true,
+  "databaseMediaConfigurationLedgerAndProxyPayloadsValidated": true,
+  "backupPrivacyAnchorSequence": 0,
+  "backupPrivacyAnchor": {
+    "format": 1,
+    "fingerprint": "ccd57c3aded2927085e5ee3d8a88aac07bc55733008f2749a1fe769e885fb6c3",
+    "sequence": 0,
+    "hash": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "recoveryIdentitySha256": "8d30c262212929547245320f2820d660070b8cdb8eec2d1ead97126bcbd3eeb4",
+  "separatePrivateRecoveryIdentity": true,
+  "plaintextRemovedAfterValidation": true
+}

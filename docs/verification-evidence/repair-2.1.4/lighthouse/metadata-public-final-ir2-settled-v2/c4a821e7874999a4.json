@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/development/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "b65594b08f36a8223cb0c7dc7001c33c14a15d97a7e6ba6f2cadaff54cd21b08",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "البحث وتطوير المنتجات | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "التطور من الأسنان الأكريليكية إلى المنتجات المركبة بالاستناد إلى البحث وآراء السوق."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/development/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/development/",
+    "en": "http://127.0.0.1:3100/en/development/",
+    "tr": "http://127.0.0.1:3100/tr/development/",
+    "ar": "http://127.0.0.1:3100/ar/development/",
+    "ru": "http://127.0.0.1:3100/ru/development/",
+    "x-default": "http://127.0.0.1:3100/fa/development/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 81
+}

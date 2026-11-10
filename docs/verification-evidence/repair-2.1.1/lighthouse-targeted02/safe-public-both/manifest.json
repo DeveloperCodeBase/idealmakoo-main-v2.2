@@ -1,0 +1,62 @@
+{
+  "createdAt": "2026-10-23T07:37:56.350Z",
+  "configurationHash": "43dc2e1f6a8a49536ca4e1eba060a03507d94b7aa90612c229e143f82f08be7e",
+  "config": {
+    "schemaVersion": 3,
+    "baseUrl": "http://127.0.0.1:3094",
+    "devices": [
+      "mobile",
+      "desktop"
+    ],
+    "categories": [
+      "performance",
+      "accessibility",
+      "best-practices",
+      "seo"
+    ],
+    "chromeFlags": [
+      "--headless=new",
+      "--disable-dev-shm-usage",
+      "--no-sandbox",
+      "--enable-unsafe-swiftshader",
+      "--use-gl=angle",
+      "--use-angle=swiftshader"
+    ],
+    "graphicsMode": "swiftshader-driver",
+    "chromePath": "/workspace/scratch/5ebaf3fb0d91/acceptance-20261023b/tools/chrome/chrome-linux64/chrome",
+    "chromeVersion": "Google Chrome for Testing 156.0.8078.4",
+    "deadlineSeconds": 300,
+    "maxWaitForLoad": 45000,
+    "lighthouseVersion": "13.5.0",
+    "chromeLauncherVersion": "1.2.0",
+    "applicationVersion": "2.1.1",
+    "buildId": "i2FywRVMQcWLcBXtSt9h7",
+    "servedAssetsHash": "5565a54cf71f8c1a663ff41d2f3c1fbbc7c74ab83c0a474a9e3b4a51138345d8",
+    "staticAssets": [
+      "/_next/static/chunks/3794-9f866eb1b07be87c.js",
+      "/_next/static/chunks/4bd1b696-8cd12253b448cc13.js",
+      "/_next/static/chunks/8488.49065f393d1ebae6.js",
+      "/_next/static/chunks/main-app-4a3cd17528f71305.js",
+      "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "/_next/static/chunks/webpack-f89b0aca42300c35.js",
+      "/_next/static/css/62b6680ce98576a2.css /_next/static/css/a8aa5802b60669e4.css /_next/static/css/868cca9060d35dea.css /_next/static/css/84397fae94acf730.css /_next/static/css/80fccfd76ea5bd0a.css /_next/static/css/dc926db41d8d4e30.css /_next/static/css/c2c8f7ce724c4cd0.css",
+      "/_next/static/css/8fcd9aea4312038e.css"
+    ],
+    "publicContentHash": "c81fb2b40e486f8608c7c7da584d76197bef191244fad9d1b45128ddbb7e8e74",
+    "inventoryHash": "5942de8320f161d5a95831d225f8d325c3f2fb4cde8701601c5ed7333a01176c"
+  },
+  "expected": 2,
+  "sourceUrls": 1,
+  "scope": "representative",
+  "host": {
+    "platform": "linux",
+    "release": "6.18.55",
+    "architecture": "x64",
+    "node": "v24.19.0",
+    "cpu": "AMD EPYC 9V74 80-Core Processor",
+    "availableCpus": 8,
+    "memoryBytes": 10451439616,
+    "cpuQuota": "800000 100000",
+    "memoryLimit": "8589934592"
+  }
+}

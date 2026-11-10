@@ -1,0 +1,169 @@
+{
+  "format": "final-pilot-observations-v1",
+  "buildId": "NWcRPAySX3HCzbpKSDJNf",
+  "scope": "four-public-mobile-pilot-urls-only",
+  "fullPageAcceptance": false,
+  "note": "Observed browser times and simulated Lighthouse metrics are distinct; no causal overall score improvement is claimed. All-page clean-seed audits remain pending.",
+  "records": [
+    {
+      "path": "/ar/research/",
+      "scores": {
+        "performance": 69,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "simulated": {
+        "first-contentful-paint": 1518.2080999999998,
+        "largest-contentful-paint": 5841.176325,
+        "speed-index": 3365.00540679036,
+        "total-blocking-time": 345.5,
+        "cumulative-layout-shift": 0.01387603032310509,
+        "interactive": 8830.452337499999
+      },
+      "observedLcpMs": 265,
+      "observedFcpMs": 265,
+      "benchmarkIndex": 2366,
+      "report": "f5632d87f13791d2.attempt-1.sanitized-lhr.json",
+      "rawReportSha256": "eb035faa1cb367ec2b7cc67978ee2dcde00beb829ff6e93f74d62052c59599e2",
+      "protocols": [
+        "http/1.1"
+      ],
+      "remainingInsights": {
+        "estimatedUnusedJavascriptBytes": 96348,
+        "renderBlockingEstimate": "Est savings of 670 ms",
+        "renderBlockingMetricSavingsMs": {
+          "FCP": 650,
+          "LCP": 0
+        },
+        "stylesheetRequests": 10,
+        "note": "Lighthouse estimates for this navigation, not guaranteed achievable savings, redundant-code proof or a forecast of customer-server scores."
+      }
+    },
+    {
+      "path": "/ar/resources/",
+      "scores": {
+        "performance": 82,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "simulated": {
+        "first-contentful-paint": 1524.69825,
+        "largest-contentful-paint": 3699.69825,
+        "speed-index": 1601.9755140506468,
+        "total-blocking-time": 304.5,
+        "cumulative-layout-shift": 0,
+        "interactive": 6461.241762500002
+      },
+      "observedLcpMs": 223,
+      "observedFcpMs": 223,
+      "benchmarkIndex": 2390,
+      "report": "bf146a5a90197d4a.attempt-1.sanitized-lhr.json",
+      "rawReportSha256": "4eff36c7925d6b4cb3f3b75780d0404ddc0be3fadea1272e97c8e6798f51c231",
+      "protocols": [
+        "http/1.1"
+      ],
+      "remainingInsights": {
+        "estimatedUnusedJavascriptBytes": 95064,
+        "renderBlockingEstimate": "Est savings of 740 ms",
+        "renderBlockingMetricSavingsMs": {
+          "FCP": 750,
+          "LCP": 750
+        },
+        "stylesheetRequests": 11,
+        "note": "Lighthouse estimates for this navigation, not guaranteed achievable savings, redundant-code proof or a forecast of customer-server scores."
+      }
+    },
+    {
+      "path": "/en/contact/",
+      "scores": {
+        "performance": 84,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "simulated": {
+        "first-contentful-paint": 1516.1592999999998,
+        "largest-contentful-paint": 3313.39825,
+        "speed-index": 1516.1592999999998,
+        "total-blocking-time": 344.96017500000016,
+        "cumulative-layout-shift": 0,
+        "interactive": 5135.7624075
+      },
+      "observedLcpMs": 212,
+      "observedFcpMs": 212,
+      "benchmarkIndex": 2332.5,
+      "report": "75fa919f9c3c8534.attempt-1.sanitized-lhr.json",
+      "rawReportSha256": "b7a07120ced2bdc793b18769fded377379468d3982caeb3f8370288bdc610ffa",
+      "protocols": [
+        "http/1.1"
+      ],
+      "remainingInsights": {
+        "estimatedUnusedJavascriptBytes": 100008,
+        "renderBlockingEstimate": "Est savings of 750 ms",
+        "renderBlockingMetricSavingsMs": {
+          "FCP": 750,
+          "LCP": 750
+        },
+        "stylesheetRequests": 7,
+        "note": "Lighthouse estimates for this navigation, not guaranteed achievable savings, redundant-code proof or a forecast of customer-server scores."
+      }
+    },
+    {
+      "path": "/fa/",
+      "scores": {
+        "performance": 76,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "simulated": {
+        "first-contentful-paint": 2134.28655,
+        "largest-contentful-paint": 4020.7154000000005,
+        "speed-index": 2571.1068415902455,
+        "total-blocking-time": 364.5,
+        "cumulative-layout-shift": 0,
+        "interactive": 6529.823002500001
+      },
+      "observedLcpMs": 298,
+      "observedFcpMs": 298,
+      "benchmarkIndex": 2426.5,
+      "report": "5635c36b9d10e469.attempt-1.sanitized-lhr.json",
+      "rawReportSha256": "3784ca7a85241c7880597a66bf24d0d093feb2d5dff6e3cf1a100f2fe7202f6f",
+      "protocols": [
+        "http/1.1"
+      ],
+      "remainingInsights": {
+        "estimatedUnusedJavascriptBytes": 95637,
+        "renderBlockingEstimate": "Est savings of 1,240 ms",
+        "renderBlockingMetricSavingsMs": {
+          "FCP": 1250,
+          "LCP": 1250
+        },
+        "stylesheetRequests": 8,
+        "note": "Lighthouse estimates for this navigation, not guaranteed achievable savings, redundant-code proof or a forecast of customer-server scores."
+      }
+    }
+  ],
+  "measurementConditions": {
+    "origin": "http://127.0.0.1:3100",
+    "transport": "direct native Next production server; no TLS or Caddy in this browser measurement",
+    "throttlingMethod": "simulate",
+    "throttling": {
+      "rttMs": 150,
+      "throughputKbps": 1638.4,
+      "requestLatencyMs": 562.5,
+      "downloadThroughputKbps": 1474.5600000000002,
+      "uploadThroughputKbps": 675,
+      "cpuSlowdownMultiplier": 4
+    },
+    "screenEmulation": {
+      "mobile": true,
+      "width": 412,
+      "height": 823,
+      "deviceScaleFactor": 1.75,
+      "disabled": false
+    }
+  }
+}

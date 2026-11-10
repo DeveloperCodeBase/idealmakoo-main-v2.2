@@ -1,0 +1,12 @@
+{
+  "gate": "typecheck-width-final",
+  "command": [
+    "npm",
+    "run",
+    "typecheck"
+  ],
+  "exitCode": 0,
+  "durationSeconds": 23.77,
+  "startedAt": "2026-10-25T11:43:25Z",
+  "finishedAt": "2026-10-25T11:43:49Z"
+}

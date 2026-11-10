@@ -1,0 +1,174 @@
+{
+  "format": "idealmakoo.public-two-file-source-application-bridge.v1",
+  "recordedAt": "2026-10-22T13:56:46.038403+00:00",
+  "cohort": "link-text-seo-06",
+  "finalRelease": false,
+  "from": {
+    "source": {
+      "sha256": "19044d087929a9edfe8c2a16c786915567edd87a9bd48caa009a2e1da6ea64f4",
+      "files": 834
+    },
+    "application": {
+      "sha256": "30a8ab7365218e8ee4ace5c814ae3deeeea4b36c7d0950a9fb1d3407cf8a2264",
+      "files": 685
+    },
+    "buildId": "6zYPGs6att2TeUwSprugE"
+  },
+  "to": {
+    "source": {
+      "sha256": "6336b75dca94f039fdcb3c5f5433785507591fc89ea627d2e8592a760c177d5b",
+      "files": 834
+    },
+    "application": {
+      "sha256": "7c7f4f01035ba9aa4c6fa63abfb1927fd877895f41aafa3f97de8ae70a199389",
+      "files": 685
+    },
+    "buildId": "yYjrbjXGc-JUKXS2hIubP"
+  },
+  "sourceComparison": {
+    "exactNameSet": true,
+    "total": 834,
+    "changedCount": 2,
+    "unchangedCount": 832,
+    "added": [],
+    "removed": [],
+    "changes": [
+      {
+        "path": "src/components/content/CompanyContent.tsx",
+        "before": {
+          "sha256": "d21757e5c058b960c07b2f1b179c83afaefd2d4557bb0c21bff07a91b0232054",
+          "bytes": 8609
+        },
+        "after": {
+          "sha256": "c4637d7dd6905bb6d51311203b0e24999c0447df12de994f36697e4aae3a1a0b",
+          "bytes": 8670
+        }
+      },
+      {
+        "path": "src/components/site/Products.tsx",
+        "before": {
+          "sha256": "c3eda87586a1b130e19203fed5d326aad49c551855ec478d9d0d5730af4aefbe",
+          "bytes": 33028
+        },
+        "after": {
+          "sha256": "d595167ac47c9e39f94664f8af2656708d4553704914889a36b49cab2f42cc6e",
+          "bytes": 33156
+        }
+      }
+    ],
+    "allOutsideApprovedTwoFilesUnchanged": true
+  },
+  "applicationComparison": {
+    "exactNameSet": true,
+    "total": 685,
+    "changedCount": 2,
+    "unchangedCount": 683,
+    "added": [],
+    "removed": [],
+    "changes": [
+      {
+        "path": "src/components/content/CompanyContent.tsx",
+        "before": {
+          "sha256": "d21757e5c058b960c07b2f1b179c83afaefd2d4557bb0c21bff07a91b0232054",
+          "bytes": 8609
+        },
+        "after": {
+          "sha256": "c4637d7dd6905bb6d51311203b0e24999c0447df12de994f36697e4aae3a1a0b",
+          "bytes": 8670
+        }
+      },
+      {
+        "path": "src/components/site/Products.tsx",
+        "before": {
+          "sha256": "c3eda87586a1b130e19203fed5d326aad49c551855ec478d9d0d5730af4aefbe",
+          "bytes": 33028
+        },
+        "after": {
+          "sha256": "d595167ac47c9e39f94664f8af2656708d4553704914889a36b49cab2f42cc6e",
+          "bytes": 33156
+        }
+      }
+    ],
+    "allOutsideApprovedTwoFilesUnchanged": true
+  },
+  "currentNativeGates": {
+    "unit": {
+      "status": "passed",
+      "executionCohort": "link-text-seo-06",
+      "startedAt": "2026-10-22T13:49:51.560Z",
+      "finishedAt": "2026-10-22T13:50:26.188Z",
+      "exitCode": 0,
+      "sourceUnchanged": true,
+      "environmentFingerprintRecorded": false,
+      "environmentUnchanged": null,
+      "counts": {
+        "tests": 760,
+        "passed": 760,
+        "failed": 0,
+        "skipped": 0,
+        "cancelled": 0
+      }
+    },
+    "typecheck": {
+      "status": "passed",
+      "executionCohort": "link-text-seo-06",
+      "startedAt": "2026-10-22T13:50:26.406Z",
+      "finishedAt": "2026-10-22T13:50:57.526Z",
+      "exitCode": 0,
+      "sourceUnchanged": true,
+      "environmentFingerprintRecorded": false,
+      "environmentUnchanged": null
+    },
+    "build": {
+      "status": "passed",
+      "executionCohort": "link-text-seo-06",
+      "startedAt": "2026-10-22T13:50:57.780Z",
+      "finishedAt": "2026-10-22T13:52:26.935Z",
+      "exitCode": 0,
+      "sourceUnchanged": true,
+      "environmentFingerprintRecorded": true,
+      "environmentUnchanged": true
+    }
+  },
+  "currentKnownBuildValuesScan": {
+    "recordedAt": "2026-10-22T13:52:28.554Z",
+    "buildId": "yYjrbjXGc-JUKXS2hIubP",
+    "filesScanned": 3077,
+    "bytesScanned": 172702629,
+    "privateValuesChecked": 5,
+    "findings": 0,
+    "scope": "exact-known-values-supplied-to-this-local-build",
+    "finalArchiveScan": false,
+    "completeSecurityAcceptanceInferred": false
+  },
+  "baseline05EvidenceApplicability": {
+    "executionCohort": "staff-mfa-recovery-05-r4",
+    "postgresTests": 526,
+    "apiTests": 20,
+    "browserRegressionTests": 46,
+    "privateFastAxeCases": 122,
+    "publicMetadataCases": 620,
+    "publicLighthouseAttempts": 620,
+    "publicLighthouseScoredHttp200": 615,
+    "publicLighthouseExpectedHttp404": 5,
+    "rerunOn06": false,
+    "sourceBasis": "All source and application inputs outside the two named public leaf components are byte-identical; this is an input-scope statement, not a new execution or a guarantee of equal rendered output."
+  },
+  "scope": {
+    "codeOrProductModifiedByThisProjection": false,
+    "currentBrowserOrLighthousePassClaimed": false,
+    "laterRuntimeResultsRequireSeparateEvidence": true,
+    "currentFullPublic620RerunClaimed": false,
+    "currentFullPrivate530RerunClaimed": false,
+    "pixelOrPerformanceEquivalenceClaimed": false,
+    "originalDockerfileBuildClaimed": false,
+    "freshHostRestoreClaimed": false,
+    "finalArchiveScanClaimed": false
+  },
+  "limitations": [
+    "The native build does not execute the original Dockerfile or validate a fresh-host restore.",
+    "The 05 public baseline retains its original scores, warnings and failures; it is not relabeled as a current 06 run.",
+    "A targeted check of affected public pages requires its own actual execution evidence; unaffected pages have not been rescored on 06.",
+    "Only public code paths, public code hashes, input counts and selected result fields are included; private input paths and environment fingerprints are omitted."
+  ]
+}

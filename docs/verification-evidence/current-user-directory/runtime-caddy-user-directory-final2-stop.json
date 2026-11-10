@@ -1,0 +1,14 @@
+{
+  "format": "idealmakoo.native-caddy-stop",
+  "version": 1,
+  "label": "user-directory-final2",
+  "pid": 11583,
+  "processStartTicks": "362309",
+  "bootId": "3ab77156-0a38-40f2-9fa8-b4363b54202e",
+  "launchRecordSha256": "8597973d708da1cb61fe57a30286c197ee5d385b46a341031af91da167202297",
+  "startedAt": "2026-10-21T06:34:41.262Z",
+  "signalSent": true,
+  "exitObserved": true,
+  "gracefulStopObserved": true,
+  "finishedAt": "2026-10-21T06:34:41.468Z"
+}

@@ -1,0 +1,20 @@
+{
+  "jobs": [
+    {
+      "url": "http://127.0.0.1:3094/fa/",
+      "kind": "representative",
+      "indexed": true,
+      "expectedStatus": 200,
+      "device": "mobile"
+    },
+    {
+      "url": "http://127.0.0.1:3094/fa/",
+      "kind": "representative",
+      "indexed": true,
+      "expectedStatus": 200,
+      "device": "desktop"
+    }
+  ],
+  "excluded": [],
+  "sourceUrls": 1
+}

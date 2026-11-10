@@ -1,0 +1,71 @@
+{
+  "url": "http://127.0.0.1:3100/tr/products/light-cure-composite/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "9ea84b91326373debf1604cc40a7464f937f3e9edf85cfbe8fb4180861a800e0",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Işıkla sertleşen kompozit | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Fabrikanın belirttiği opak ve yaygın renk seçeneklerine sahip, 4 g şırıngada ışıkla sertleşen restoratif kompozit."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/products/light-cure-composite/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/light-cure-composite/",
+    "en": "http://127.0.0.1:3100/en/products/light-cure-composite/",
+    "tr": "http://127.0.0.1:3100/tr/products/light-cure-composite/",
+    "ar": "http://127.0.0.1:3100/ar/products/light-cure-composite/",
+    "ru": "http://127.0.0.1:3100/ru/products/light-cure-composite/",
+    "x-default": "http://127.0.0.1:3100/fa/products/light-cure-composite/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Işıkla sertleşen kompozit",
+      "description": "Fabrikanın belirttiği opak ve yaygın renk seçeneklerine sahip, 4 g şırıngada ışıkla sertleşen restoratif kompozit.",
+      "image": "http://127.0.0.1:3100/media/official/1726468061.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "B.STAR"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/tr/products/light-cure-composite/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 71
+}

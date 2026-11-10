@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/technical-selection/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "17e40306a9e3d36cecc41adcafa66ee26484aeeb384773af8f323012b64a740b",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Технический выбор / CSV | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Выберите продукты, количество, оттенки и формы либо просмотрите и импортируйте CSV, затем добавьте позиции в технический запрос."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/technical-selection/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/technical-selection/",
+    "en": "http://127.0.0.1:3100/en/technical-selection/",
+    "tr": "http://127.0.0.1:3100/tr/technical-selection/",
+    "ar": "http://127.0.0.1:3100/ar/technical-selection/",
+    "ru": "http://127.0.0.1:3100/ru/technical-selection/",
+    "x-default": "http://127.0.0.1:3100/fa/technical-selection/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 42
+}

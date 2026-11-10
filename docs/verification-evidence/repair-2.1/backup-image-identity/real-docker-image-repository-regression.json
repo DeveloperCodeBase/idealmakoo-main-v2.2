@@ -1,0 +1,230 @@
+{
+  "format": "idealmakoo.actual-docker-backup-image-repository-regression",
+  "startedAt": "2026-10-21T15:08:59.110741+00:00",
+  "instanceId": "idealmakoo-user-directory-final-install-13b6943b742546bcabc0b2da5ed395d6",
+  "productFiles": [
+    {
+      "name": "scripts/backup.sh",
+      "sha256": "133184b04d86d5be91fe75f83acba2035823e668e95c4186da42e61a4835e596"
+    },
+    {
+      "name": "deploy/compose.py",
+      "sha256": "eb0fc779d736b33c1ab6b132fdd9634ec602b4c04f14c0be17001e09f298742f"
+    },
+    {
+      "name": "deploy/env-file.py",
+      "sha256": "941ee4a0087a7617233d10f8929e063949ba18f6c4f8a33a6d9fcc741a6985da"
+    },
+    {
+      "name": "deploy/backup-image-reference.py",
+      "sha256": "5252657e12853dc860015682d59d5dab2e0f4dec6841cb96425c5d9497419a10"
+    }
+  ],
+  "extractedObservationFunctionSha256": "ea4f4d67e86990a3a716df4f46a13c0264cca9f07e5536d27c186c6eb75e3ef4",
+  "extractedDigestPolicySha256": "55b9e9d355ca42d0058510b1a4e893c78b67ab6350fb03fb09bc5b772f379b06",
+  "scope": "Immutable-ID observation on private observer containers, plus original deployed database repository selection from actual image metadata and full shipped run-existing; no assertion that local metadata proves registry publication; complete backup pre-stop ordering tested separately",
+  "originalDatabaseReference": "pgvector/pgvector:pg16",
+  "operationalSourceSha256": "458f175a29b8bce25c5b45592c10952b57202b894e3aac65e244b7863c726be1",
+  "cases": [
+    {
+      "case": "private-tags-retargeted",
+      "actualOriginalAppImage": "sha256:f9eb6ed57f237a75b8845a4a01ebd295925d99beec78de7fa7ad5d21f45c182d",
+      "actualOriginalDatabaseImage": "sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a",
+      "originalRegistryDigestRetained": true,
+      "databaseRegistryDigest": "pgvector/pgvector@sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a",
+      "actualRunExistingExitCode": 0,
+      "actualRunExistingNodeVersion": "24.22.0"
+    },
+    {
+      "case": "private-tags-removed",
+      "actualOriginalAppImage": "sha256:f9eb6ed57f237a75b8845a4a01ebd295925d99beec78de7fa7ad5d21f45c182d",
+      "actualOriginalDatabaseImage": "sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a",
+      "originalRegistryDigestRetained": true,
+      "databaseRegistryDigest": "pgvector/pgvector@sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a",
+      "actualRunExistingExitCode": 0,
+      "actualRunExistingNodeVersion": "24.22.0"
+    }
+  ],
+  "digestMetadataPhases": [
+    {
+      "phase": "before-private-aliases",
+      "images": [
+        {
+          "Id": "sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a",
+          "RepoTags": [
+            "pgvector/pgvector:pg16"
+          ],
+          "RepoDigests": [
+            "pgvector/pgvector@sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a"
+          ],
+          "Descriptor": {
+            "mediaType": "application/vnd.oci.image.index.v1+json",
+            "digest": "sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a",
+            "size": 1609
+          }
+        },
+        {
+          "Id": "sha256:f9eb6ed57f237a75b8845a4a01ebd295925d99beec78de7fa7ad5d21f45c182d",
+          "RepoTags": [
+            "idealmakoo-app:20261021T135944Z-547a4641"
+          ],
+          "RepoDigests": [
+            "idealmakoo-app@sha256:f9eb6ed57f237a75b8845a4a01ebd295925d99beec78de7fa7ad5d21f45c182d"
+          ],
+          "Descriptor": {
+            "mediaType": "application/vnd.oci.image.index.v1+json",
+            "digest": "sha256:f9eb6ed57f237a75b8845a4a01ebd295925d99beec78de7fa7ad5d21f45c182d",
+            "size": 856
+          }
+        }
+      ]
+    },
+    {
+      "phase": "unrelated-private-aliases-present",
+      "images": [
+        {
+          "Id": "sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a",
+          "RepoTags": [
+            "idealmakoo-image-repo-133184b04d86:db",
+            "pgvector/pgvector:pg16"
+          ],
+          "RepoDigests": [
+            "idealmakoo-image-repo-133184b04d86@sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a",
+            "pgvector/pgvector@sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a"
+          ],
+          "Descriptor": {
+            "mediaType": "application/vnd.oci.image.index.v1+json",
+            "digest": "sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a",
+            "size": 1609
+          }
+        },
+        {
+          "Id": "sha256:f9eb6ed57f237a75b8845a4a01ebd295925d99beec78de7fa7ad5d21f45c182d",
+          "RepoTags": [
+            "idealmakoo-app:20261021T135944Z-547a4641",
+            "idealmakoo-image-repo-133184b04d86:app"
+          ],
+          "RepoDigests": [
+            "idealmakoo-app@sha256:f9eb6ed57f237a75b8845a4a01ebd295925d99beec78de7fa7ad5d21f45c182d",
+            "idealmakoo-image-repo-133184b04d86@sha256:f9eb6ed57f237a75b8845a4a01ebd295925d99beec78de7fa7ad5d21f45c182d"
+          ],
+          "Descriptor": {
+            "mediaType": "application/vnd.oci.image.index.v1+json",
+            "digest": "sha256:f9eb6ed57f237a75b8845a4a01ebd295925d99beec78de7fa7ad5d21f45c182d",
+            "size": 856
+          }
+        }
+      ]
+    },
+    {
+      "phase": "private-tags-retargeted",
+      "images": [
+        {
+          "Id": "sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a",
+          "RepoTags": [
+            "pgvector/pgvector:pg16"
+          ],
+          "RepoDigests": [
+            "pgvector/pgvector@sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a"
+          ],
+          "Descriptor": {
+            "mediaType": "application/vnd.oci.image.index.v1+json",
+            "digest": "sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a",
+            "size": 1609
+          }
+        },
+        {
+          "Id": "sha256:f9eb6ed57f237a75b8845a4a01ebd295925d99beec78de7fa7ad5d21f45c182d",
+          "RepoTags": [
+            "idealmakoo-app:20261021T135944Z-547a4641"
+          ],
+          "RepoDigests": [
+            "idealmakoo-app@sha256:f9eb6ed57f237a75b8845a4a01ebd295925d99beec78de7fa7ad5d21f45c182d"
+          ],
+          "Descriptor": {
+            "mediaType": "application/vnd.oci.image.index.v1+json",
+            "digest": "sha256:f9eb6ed57f237a75b8845a4a01ebd295925d99beec78de7fa7ad5d21f45c182d",
+            "size": 856
+          }
+        }
+      ]
+    },
+    {
+      "phase": "private-tags-removed",
+      "images": [
+        {
+          "Id": "sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a",
+          "RepoTags": [
+            "pgvector/pgvector:pg16"
+          ],
+          "RepoDigests": [
+            "pgvector/pgvector@sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a"
+          ],
+          "Descriptor": {
+            "mediaType": "application/vnd.oci.image.index.v1+json",
+            "digest": "sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a",
+            "size": 1609
+          }
+        },
+        {
+          "Id": "sha256:f9eb6ed57f237a75b8845a4a01ebd295925d99beec78de7fa7ad5d21f45c182d",
+          "RepoTags": [
+            "idealmakoo-app:20261021T135944Z-547a4641"
+          ],
+          "RepoDigests": [
+            "idealmakoo-app@sha256:f9eb6ed57f237a75b8845a4a01ebd295925d99beec78de7fa7ad5d21f45c182d"
+          ],
+          "Descriptor": {
+            "mediaType": "application/vnd.oci.image.index.v1+json",
+            "digest": "sha256:f9eb6ed57f237a75b8845a4a01ebd295925d99beec78de7fa7ad5d21f45c182d",
+            "size": 856
+          }
+        }
+      ]
+    }
+  ],
+  "unrelatedLocalAliasIgnoredBeforeRetarget": true,
+  "UnrelatedSynthesizedRepositoryRejected": {
+    "exitCode": 1,
+    "actualLocallyBuiltImage": "sha256:f9eb6ed57f237a75b8845a4a01ebd295925d99beec78de7fa7ad5d21f45c182d",
+    "requiredRepositoryReference": "pgvector/pgvector:pg16",
+    "noMutableTagFallback": true,
+    "scope": "A locally built image has nonempty synthesized RepoDigests, but none matches the actual deployed database repository; publication is not inferred."
+  },
+  "actualRunTraces": [
+    {
+      "selectedImage": "sha256:f9eb6ed57f237a75b8845a4a01ebd295925d99beec78de7fa7ad5d21f45c182d",
+      "allBuildsAbsent": true,
+      "allPullNever": true
+    },
+    {
+      "selectedImage": "sha256:f9eb6ed57f237a75b8845a4a01ebd295925d99beec78de7fa7ad5d21f45c182d",
+      "allBuildsAbsent": true,
+      "allPullNever": true
+    }
+  ],
+  "cleanup": [
+    {
+      "containerId": "8b7a1eab0af21256315d41e4235deeb5d1fa33c4fd74e1be2e6ecc3e50bbfed1",
+      "stopRequired": true,
+      "stopExitCode": 0,
+      "removeExitCode": 0
+    },
+    {
+      "containerId": "c9b4f2dd2ee3afbd4f30afe0a657e2774db8758e9bed1271376162a0bce0f90d",
+      "stopRequired": true,
+      "stopExitCode": 0,
+      "removeExitCode": 0
+    }
+  ],
+  "applicationProjectContainersImagesAndRunningStateUnchanged": true,
+  "applicationEnvironmentAndInstallLogUnchanged": true,
+  "testContainersRemaining": 0,
+  "privateTemporaryModelsRemaining": 0,
+  "passResult": true,
+  "finishedAt": "2026-10-21T15:13:58.476120+00:00",
+  "composeVersion": "5.6.0",
+  "runtimeRecordSha256": "e020132a3d2baad20fa9203ba5d596a96df00b17c01a6b569f9f2e9ccad21d8d",
+  "helperSha256": "ef2c39cb740af5b60c99a1ea3572e4124567709fe574ec2d78fead1c51bf19fe",
+  "transportLogSha256": "28eb0338161700d8c6f4c0462538b1123b00a05cd992ab8d4da65c8a8c7c978e"
+}

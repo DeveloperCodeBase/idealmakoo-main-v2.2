@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/for/dealer/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "618506b1fd581fdcdd10e4e34a05a93490d4ed6a11ab7556fe110baab3e004f5",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Дистрибьюторы и партнёры | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Для дистрибьюторов и дилеров: знакомство с продукцией, справочные файлы и заявки на связь или дистрибуцию."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/for/dealer/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/for/dealer/",
+    "en": "http://127.0.0.1:3100/en/for/dealer/",
+    "tr": "http://127.0.0.1:3100/tr/for/dealer/",
+    "ar": "http://127.0.0.1:3100/ar/for/dealer/",
+    "ru": "http://127.0.0.1:3100/ru/for/dealer/",
+    "x-default": "http://127.0.0.1:3100/fa/for/dealer/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 57
+}

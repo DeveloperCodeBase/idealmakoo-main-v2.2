@@ -1,0 +1,10 @@
+{
+  "format": "topology-evidence-export-attempt-v1",
+  "recordedAt": "2026-10-25T20:11:30.361150+00:00",
+  "actualExitCode": 72,
+  "errorCode": "TOPOLOGY_OBSERVATION_FAILED",
+  "confirmedMissingOutputParentDirectory": true,
+  "scope": "Evidence-file export attempt only; no live service verification or scoring command was executed by this command.",
+  "measurementChanged": false,
+  "retryUsesSamePrivateContractAndHelper": true
+}

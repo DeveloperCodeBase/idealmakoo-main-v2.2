@@ -1,0 +1,17 @@
+{
+  "command": "npm run test:unit",
+  "exitCode": 0,
+  "counts": {
+    "tests": 885,
+    "suites": 0,
+    "pass": 885,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0
+  },
+  "seconds": 42.310365581,
+  "logSha256": "d5a236730101e174fae9086a61aa2b5ac389d6b5ff981c465960be0874ac1213",
+  "passed": true,
+  "scope": "Full current unit suite; Node uses tsx loader including provider adapter tests; no name filters"
+}

@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-10-21T08:54:07.800Z",
+  "exitCode": 0,
+  "summaryComplete": true,
+  "counts": {
+    "tests": 3,
+    "passed": 3,
+    "failed": 0,
+    "skipped": 0,
+    "cancelled": 0
+  },
+  "scope": "Existing private fixture policy tests; no database or Chrome. Translator locales match production;530 inventory preserved.",
+  "buildId": "ZExXgIfF-M2np679FYhoQ",
+  "auditOnlyPostBuildChange": true,
+  "auditFilesSha256": {
+    "scripts/lib/private-audit-policy.mjs": "0a56dca65680cd597202703f24c42830c4ea96af5894ae566590ccb4e75487d2",
+    "scripts/lib/private-audit-runtime.mjs": "6f3b34c44d01133dd1b0cf289d692b0debde2d8f94eff643c0994028ebae8a86",
+    "scripts/audit-private-lighthouse.mjs": "3037583e082c8ff24da174e2d2c06bd6518261e1d28f45c7ce1c5f6ccfcaee1a",
+    "tests/private-audit-policy.test.mjs": "af056cff0c0852f7429f90007214fe318530b073b7326d17f0d912407dbd25f7"
+  },
+  "existingBackendWitnessFilesUnchanged": 147
+}

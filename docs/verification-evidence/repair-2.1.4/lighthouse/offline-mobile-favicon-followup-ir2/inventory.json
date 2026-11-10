@@ -1,0 +1,41 @@
+{
+  "jobs": [
+    {
+      "url": "http://127.0.0.1:3100/offline/ar.html",
+      "kind": "public-offline-document",
+      "indexed": false,
+      "expectedStatus": 200,
+      "device": "mobile"
+    },
+    {
+      "url": "http://127.0.0.1:3100/offline/en.html",
+      "kind": "public-offline-document",
+      "indexed": false,
+      "expectedStatus": 200,
+      "device": "mobile"
+    },
+    {
+      "url": "http://127.0.0.1:3100/offline/fa.html",
+      "kind": "public-offline-document",
+      "indexed": false,
+      "expectedStatus": 200,
+      "device": "mobile"
+    },
+    {
+      "url": "http://127.0.0.1:3100/offline/ru.html",
+      "kind": "public-offline-document",
+      "indexed": false,
+      "expectedStatus": 200,
+      "device": "mobile"
+    },
+    {
+      "url": "http://127.0.0.1:3100/offline/tr.html",
+      "kind": "public-offline-document",
+      "indexed": false,
+      "expectedStatus": 200,
+      "device": "mobile"
+    }
+  ],
+  "excluded": [],
+  "sourceUrls": 5
+}

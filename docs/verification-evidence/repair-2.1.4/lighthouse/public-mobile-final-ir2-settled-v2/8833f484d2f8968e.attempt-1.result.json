@@ -1,0 +1,179 @@
+{
+  "url": "http://127.0.0.1:3100/tr/marketing-training/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "expectedNoindex": false,
+  "device": "mobile",
+  "attempt": 1,
+  "id": "8833f484d2f8968e",
+  "startedAt": "2026-10-26T00:22:23.071Z",
+  "status": "completed",
+  "scores": {
+    "performance": 80,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  "metrics": {
+    "first-contentful-paint": 2426.67135,
+    "largest-contentful-paint": 3776.6713499999996,
+    "speed-index": 2426.67135,
+    "total-blocking-time": 280,
+    "cumulative-layout-shift": 0,
+    "interactive": 6462.7619425
+  },
+  "lighthouseVersion": "13.5.0",
+  "fetchTime": "2026-10-26T00:22:25.082Z",
+  "finalDisplayedUrl": "http://127.0.0.1:3100/tr/marketing-training/",
+  "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+  "environment": {
+    "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+    "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "benchmarkIndex": 2506.5,
+    "credits": {
+      "axe-core": "4.14.0"
+    }
+  },
+  "configSettings": {
+    "output": "json",
+    "maxWaitForFcp": 30000,
+    "maxWaitForLoad": 45000,
+    "pauseAfterFcpMs": 1000,
+    "pauseAfterLoadMs": 1000,
+    "networkQuietThresholdMs": 1000,
+    "cpuQuietThresholdMs": 1000,
+    "formFactor": "mobile",
+    "throttling": {
+      "rttMs": 150,
+      "throughputKbps": 1638.4,
+      "requestLatencyMs": 562.5,
+      "downloadThroughputKbps": 1474.5600000000002,
+      "uploadThroughputKbps": 675,
+      "cpuSlowdownMultiplier": 4
+    },
+    "throttlingMethod": "simulate",
+    "screenEmulation": {
+      "mobile": true,
+      "width": 412,
+      "height": 823,
+      "deviceScaleFactor": 1.75,
+      "disabled": false
+    },
+    "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+    "auditMode": false,
+    "gatherMode": false,
+    "clearStorageTypes": [
+      "file_systems",
+      "shader_cache",
+      "service_workers",
+      "cache_storage"
+    ],
+    "disableStorageReset": false,
+    "debugNavigation": false,
+    "channel": "node",
+    "usePassiveGathering": false,
+    "disableFullPageScreenshot": true,
+    "skipAboutBlank": false,
+    "blankPage": "about:blank",
+    "ignoreStatusCode": false,
+    "locale": "en-US",
+    "blockedUrlPatterns": null,
+    "additionalTraceCategories": null,
+    "extraHeaders": null,
+    "precomputedLanternData": null,
+    "onlyAudits": null,
+    "onlyCategories": [
+      "performance",
+      "accessibility",
+      "best-practices",
+      "seo"
+    ],
+    "skipAudits": null
+  },
+  "runWarnings": [],
+  "failedAudits": [
+    {
+      "id": "first-contentful-paint",
+      "title": "First Contentful Paint",
+      "score": 0.7,
+      "displayValue": "2.4 s"
+    },
+    {
+      "id": "largest-contentful-paint",
+      "title": "Largest Contentful Paint",
+      "score": 0.56,
+      "displayValue": "3.8 s"
+    },
+    {
+      "id": "speed-index",
+      "title": "Speed Index",
+      "score": 0.98,
+      "displayValue": "2.4 s"
+    },
+    {
+      "id": "total-blocking-time",
+      "title": "Total Blocking Time",
+      "score": 0.81,
+      "displayValue": "280 ms"
+    },
+    {
+      "id": "max-potential-fid",
+      "title": "Max Potential First Input Delay",
+      "score": 0.48,
+      "displayValue": "260 ms"
+    },
+    {
+      "id": "interactive",
+      "title": "Time to Interactive",
+      "score": 0.59,
+      "displayValue": "6.5 s"
+    },
+    {
+      "id": "unused-css-rules",
+      "title": "Reduce unused CSS",
+      "score": 0,
+      "displayValue": "Est savings of 16 KiB"
+    },
+    {
+      "id": "unused-javascript",
+      "title": "Reduce unused JavaScript",
+      "score": 0,
+      "displayValue": "Est savings of 124 KiB"
+    },
+    {
+      "id": "bf-cache",
+      "title": "Page prevented back/forward cache restoration",
+      "score": 0,
+      "displayValue": "3 failure reasons"
+    },
+    {
+      "id": "legacy-javascript-insight",
+      "title": "Legacy JavaScript",
+      "score": 0,
+      "displayValue": "Est savings of 12 KiB"
+    },
+    {
+      "id": "network-dependency-tree-insight",
+      "title": "Network dependency tree",
+      "score": 0
+    },
+    {
+      "id": "render-blocking-insight",
+      "title": "Render-blocking requests",
+      "score": 0,
+      "displayValue": "Est savings of 1,660 ms"
+    }
+  ],
+  "report": "8833f484d2f8968e.attempt-1.sanitized-lhr.json",
+  "httpStatus": 200,
+  "httpUrl": "http://127.0.0.1:3100/tr/marketing-training/",
+  "expectedHttpVerified": true,
+  "identityErrors": [],
+  "urlIdentityVerified": true,
+  "durationMs": 6879,
+  "finishedAt": "2026-10-26T00:22:29.950Z",
+  "format": "sanitized-public-lighthouse-evidence-v1",
+  "rawReportSha256": "c0c1fafe0453c61e0cd5a3ae3a119494aaef509ca9df5abeded5c4c5d42f9d28",
+  "reportIsSanitized": true
+}

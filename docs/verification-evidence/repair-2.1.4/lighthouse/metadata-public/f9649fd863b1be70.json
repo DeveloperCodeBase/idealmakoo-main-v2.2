@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/sustainability/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "124daf4e14bf1311d3627b22b899815ae1fdba92c42f4f0642f8652e09a9d05a",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Отчётность об устойчивом развитии | Ideal Makoo"
+  ],
+  "descriptions": [
+    "В этой версии не опубликованы официальный отчёт об устойчивом развитии, показатели энергопотребления или документированные данные выбросов. Уточните информацию у фабрики."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/sustainability/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/sustainability/",
+    "en": "http://127.0.0.1:3100/en/sustainability/",
+    "tr": "http://127.0.0.1:3100/tr/sustainability/",
+    "ar": "http://127.0.0.1:3100/ar/sustainability/",
+    "ru": "http://127.0.0.1:3100/ru/sustainability/",
+    "x-default": "http://127.0.0.1:3100/fa/sustainability/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 53
+}

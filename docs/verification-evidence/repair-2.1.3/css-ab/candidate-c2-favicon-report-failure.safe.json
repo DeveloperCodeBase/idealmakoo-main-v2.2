@@ -1,0 +1,11 @@
+{
+  "kind": "favicon-compilation-report-failure",
+  "observedAt": "2026-10-25T07:15:43.614710+00:00",
+  "actualExitCode": 1,
+  "actualToolChunk": "2a6c86",
+  "actualWaitConsumed": true,
+  "errorCode": "ERR_PACKAGE_PATH_NOT_EXPORTED",
+  "phase": "receipt-sharp-package-version",
+  "assetAndLinksHadAlreadyBeenWritten": true,
+  "helperSha256": "8e4161afc136656447af515a1eafe6bd10955897f1af2c7bf89d4ac598a0a4eb"
+}

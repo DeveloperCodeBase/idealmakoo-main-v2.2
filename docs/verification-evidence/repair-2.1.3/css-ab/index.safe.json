@@ -1,0 +1,62 @@
+{
+  "kind": "public-safe-css-comparison-evidence-bundle",
+  "scope": "Candidate A versus config-only B, plus explicitly separate C2 favicon compilation evidence.",
+  "rawAuthenticatedArtifactsIncluded": false,
+  "files": [
+    {
+      "path": "comparison.safe.json",
+      "sha256": "2074df38829310cb4da0fa5133f15e44d3c0c0eeb118f6e938fbfa64f2142735",
+      "bytes": 90685
+    },
+    {
+      "path": "source-build-scope.safe.json",
+      "sha256": "5b4a74078f7da6c7e64daec0ac0fa48740029c53803fefbfaffc5a21506bb666",
+      "bytes": 1751
+    },
+    {
+      "path": "execution-exceptions.safe.json",
+      "sha256": "316d376575d106b9c719719fc6f7569f9d4d5138148800ece6aad3054bb3aa16",
+      "bytes": 12588
+    },
+    {
+      "path": "integrity-review.safe.json",
+      "sha256": "638c4ed20e7ac41fdfd791538e46e21e309078d78c33eb852d82ca0997b48be9",
+      "bytes": 1384
+    },
+    {
+      "path": "emitted-css.safe.json",
+      "sha256": "d3a398cd1de9a302dea65b915e82a211145c320bde43cebf7f3570cd12e88043",
+      "bytes": 4832
+    },
+    {
+      "path": "css-membership-order.safe.json",
+      "sha256": "0faea469f6b8e5970a5094415885055e1e9ce53c1abe44bbe418984a6024bf7b",
+      "bytes": 66351
+    },
+    {
+      "path": "css-document-duplication.safe.json",
+      "sha256": "1dc5d88bdab38c8ad8270bdfdc5bbf75265012858bb6e0ae8fa886db7468b831",
+      "bytes": 7424
+    },
+    {
+      "path": "warm-geometry-comparison.safe.json",
+      "sha256": "e64609f85bb79c2a737be6ed80bcd12ffd589655911e941e6508d5630fa98464",
+      "bytes": 1613
+    },
+    {
+      "path": "html-payloads.safe.json",
+      "sha256": "76aa6fbc45cd5ee8c4fe08c4fd38bcb77c6f401ef5ba950c532efd6c9478d62d",
+      "bytes": 3766
+    },
+    {
+      "path": "candidate-c2-favicon.safe.json",
+      "sha256": "2da4c2c1b5f33c33d9c7ba39e99ffc2aaab28d569d7a918177680c55cbc59e18",
+      "bytes": 2205
+    },
+    {
+      "path": "candidate-c2-favicon-report-failure.safe.json",
+      "sha256": "545fc3be811d8bcb6460e1c8741692a761d8b87ea1a3051bbcea83dbaaeda6ff",
+      "bytes": 411
+    }
+  ]
+}

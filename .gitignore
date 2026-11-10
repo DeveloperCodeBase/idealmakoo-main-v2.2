@@ -1,0 +1,27 @@
+node_modules/
+.next/
+out/
+dist/
+.sites-runtime/
+*.tsbuildinfo
+.env*
+!.env.example
+*.log
+
+# Regenerated portable source download
+/public/downloads/idealmakoo-source.zip
+
+# Production runtime and private verification data
+storage/
+backups/
+shared/
+releases/
+tmp/
+coverage/
+test-results/
+playwright-report/
+*.age
+*.dump
+*.pem
+*.key
+backup-identity.txt

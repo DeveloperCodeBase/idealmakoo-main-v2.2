@@ -1,0 +1,836 @@
+{
+  "format": "idealmakoo.readonly-native-proof",
+  "schemaVersion": 1,
+  "kind": "proxy",
+  "label": "credential-startup-final",
+  "buildGateLabel": "credential-startup-final",
+  "startedAt": "2026-10-20T20:50:21.704Z",
+  "finishedAt": "2026-10-20T20:50:25.355Z",
+  "applicationSha256": "36eb4aa33a1b192622c4a9e500b00c86348524d3e49813af951db6830dde9338",
+  "runtimeSha256": "4835ce50923c5fbea4f84a67fba32f0d47a3ea74fe097d81e9294a4613ede9c1",
+  "buildId": "OWySC3_X3kR5uD-ExxkAJ",
+  "sourceBuildGate": {
+    "label": "credential-startup-final",
+    "statusFile": "/tmp/idealmakoo-production-repair-20261020/evidence/build-credential-startup-final-status.json",
+    "statusSha256": "34d2f23cf8302f405fccb7c7503b685c6b1565fad9c5030e4bcfaeee5efe5a90",
+    "applicationManifestFile": "/tmp/idealmakoo-production-repair-20261020/evidence/build-credential-startup-final-application-after.json",
+    "applicationManifestSha256": "32de450803d5510d601232988ca4a4bbb63f808e350f50246aa62fe0dc5c8a2e",
+    "finishedAt": "2026-10-20T20:42:45.657Z",
+    "exitCode": 0,
+    "commandExitCode": 0,
+    "applicationSha256": "36eb4aa33a1b192622c4a9e500b00c86348524d3e49813af951db6830dde9338",
+    "runtimeSha256": "4835ce50923c5fbea4f84a67fba32f0d47a3ea74fe097d81e9294a4613ede9c1",
+    "buildAfter": {
+      "buildId": "OWySC3_X3kR5uD-ExxkAJ",
+      "standaloneBuildId": "OWySC3_X3kR5uD-ExxkAJ"
+    }
+  },
+  "helperFile": "/tmp/idealmakoo-production-repair-20261020/tools/verify-repair-proxy.mjs",
+  "helperSha256": "cf46a458db8cd988acdf170fc348a1abd384a6b2cc8726316f30d41b1d18f4d0",
+  "runnerFile": "/tmp/idealmakoo-production-repair-20261020/tools/run-readonly-native-proof-v4.mjs",
+  "runnerSha256": "796ed15363cc9d7a271f4d8695f2bad864d777cdddd8fc1f80776672682278bc",
+  "provenanceFile": "/tmp/idealmakoo-source-recovery/tools/gate-provenance.mjs",
+  "provenanceSha256": "5914d86adf7e3d47bd3133048e35b8e7ffb17852f2820fa4661dc24d3058efa5",
+  "before": {
+    "application": {
+      "sha256": "36eb4aa33a1b192622c4a9e500b00c86348524d3e49813af951db6830dde9338",
+      "files": 668,
+      "bytes": 48397437
+    },
+    "runtimeSource": {
+      "algorithm": "sha256",
+      "scope": "runtime-v1",
+      "sha256": "4835ce50923c5fbea4f84a67fba32f0d47a3ea74fe097d81e9294a4613ede9c1",
+      "fileCount": 777,
+      "byteCount": 49064815,
+      "entrypoints": []
+    },
+    "build": {
+      "buildId": "OWySC3_X3kR5uD-ExxkAJ",
+      "standaloneBuildId": "OWySC3_X3kR5uD-ExxkAJ",
+      "files": [
+        {
+          "file": ".next/BUILD_ID",
+          "buildId": "OWySC3_X3kR5uD-ExxkAJ",
+          "sha256": "7825c268c24fc954c30440d29d165942bfdff1e36a3a678ddd55eee8a9106dbc",
+          "identity": {
+            "dev": "27",
+            "ino": "1862592",
+            "size": "21",
+            "mtimeNs": "1792528930703071545",
+            "ctimeNs": "1792528930703071545",
+            "mode": "33188",
+            "uid": "0",
+            "nlink": "1"
+          }
+        },
+        {
+          "file": ".next/standalone/.next/BUILD_ID",
+          "buildId": "OWySC3_X3kR5uD-ExxkAJ",
+          "sha256": "7825c268c24fc954c30440d29d165942bfdff1e36a3a678ddd55eee8a9106dbc",
+          "identity": {
+            "dev": "27",
+            "ino": "409401",
+            "size": "21",
+            "mtimeNs": "1792528964254378208",
+            "ctimeNs": "1792528964254378208",
+            "mode": "33188",
+            "uid": "0",
+            "nlink": "1"
+          }
+        }
+      ]
+    },
+    "helperSha256": "cf46a458db8cd988acdf170fc348a1abd384a6b2cc8726316f30d41b1d18f4d0",
+    "runnerSha256": "796ed15363cc9d7a271f4d8695f2bad864d777cdddd8fc1f80776672682278bc",
+    "helperIdentity": {
+      "dev": "27",
+      "ino": "1742439",
+      "size": "13918",
+      "mtimeNs": "1792497341984101402",
+      "ctimeNs": "1792497341984101402",
+      "mode": "33188",
+      "uid": "0",
+      "nlink": "1"
+    },
+    "runnerIdentity": {
+      "dev": "27",
+      "ino": "1746416",
+      "size": "28952",
+      "mtimeNs": "1792529261681563229",
+      "ctimeNs": "1792529261681563229",
+      "mode": "33188",
+      "uid": "0",
+      "nlink": "1"
+    },
+    "runtime": {
+      "phase": "delivery",
+      "buildId": "OWySC3_X3kR5uD-ExxkAJ",
+      "startedAt": "2026-10-20T20:50:03.019Z",
+      "web": {
+        "pid": 159666,
+        "startTicks": "4970261",
+        "metadataFile": "/tmp/idealmakoo-production-repair-20261020/evidence/runtime-delivery-web-process.json",
+        "metadataSha256": "84e487e7e647c79b22acc3f69776d9deab0e92f9ab6432a84f9d95d615cdb103",
+        "metadataIdentity": {
+          "dev": "27",
+          "ino": "1746429",
+          "size": "211",
+          "mtimeNs": "1792529403015917831",
+          "ctimeNs": "1792529403015917831",
+          "mode": "33152",
+          "uid": "0",
+          "nlink": "1"
+        }
+      },
+      "proxy": {
+        "pid": 58223,
+        "startTicks": "1676974",
+        "metadataFile": "/tmp/idealmakoo-production-repair-20261020/evidence/runtime-proxy-process.json",
+        "metadataSha256": "05e448d0379ad1cddc047d58c664fb968fa6fc0375bdea3c0ad65e61f2711499",
+        "metadataIdentity": {
+          "dev": "27",
+          "ino": "1745185",
+          "size": "264",
+          "mtimeNs": "1792496470148540604",
+          "ctimeNs": "1792496470148540604",
+          "mode": "33152",
+          "uid": "0",
+          "nlink": "1"
+        },
+        "configFile": "/tmp/idealmakoo-production-repair-20261020/evidence/repair.Caddyfile",
+        "configSha256": "25106f004f3f8d639ffed23c0fbad242df3973286e6f6b49b9ef96d89ed1f8b9",
+        "configIdentity": {
+          "dev": "27",
+          "ino": "1745204",
+          "size": "968",
+          "mtimeNs": "1792496423934102361",
+          "ctimeNs": "1792496423934102361",
+          "mode": "33152",
+          "uid": "0",
+          "nlink": "1"
+        }
+      }
+    }
+  },
+  "after": {
+    "application": {
+      "sha256": "36eb4aa33a1b192622c4a9e500b00c86348524d3e49813af951db6830dde9338",
+      "files": 668,
+      "bytes": 48397437
+    },
+    "runtimeSource": {
+      "algorithm": "sha256",
+      "scope": "runtime-v1",
+      "sha256": "4835ce50923c5fbea4f84a67fba32f0d47a3ea74fe097d81e9294a4613ede9c1",
+      "fileCount": 777,
+      "byteCount": 49064815,
+      "entrypoints": []
+    },
+    "build": {
+      "buildId": "OWySC3_X3kR5uD-ExxkAJ",
+      "standaloneBuildId": "OWySC3_X3kR5uD-ExxkAJ",
+      "files": [
+        {
+          "file": ".next/BUILD_ID",
+          "buildId": "OWySC3_X3kR5uD-ExxkAJ",
+          "sha256": "7825c268c24fc954c30440d29d165942bfdff1e36a3a678ddd55eee8a9106dbc",
+          "identity": {
+            "dev": "27",
+            "ino": "1862592",
+            "size": "21",
+            "mtimeNs": "1792528930703071545",
+            "ctimeNs": "1792528930703071545",
+            "mode": "33188",
+            "uid": "0",
+            "nlink": "1"
+          }
+        },
+        {
+          "file": ".next/standalone/.next/BUILD_ID",
+          "buildId": "OWySC3_X3kR5uD-ExxkAJ",
+          "sha256": "7825c268c24fc954c30440d29d165942bfdff1e36a3a678ddd55eee8a9106dbc",
+          "identity": {
+            "dev": "27",
+            "ino": "409401",
+            "size": "21",
+            "mtimeNs": "1792528964254378208",
+            "ctimeNs": "1792528964254378208",
+            "mode": "33188",
+            "uid": "0",
+            "nlink": "1"
+          }
+        }
+      ]
+    },
+    "helperSha256": "cf46a458db8cd988acdf170fc348a1abd384a6b2cc8726316f30d41b1d18f4d0",
+    "runnerSha256": "796ed15363cc9d7a271f4d8695f2bad864d777cdddd8fc1f80776672682278bc",
+    "helperIdentity": {
+      "dev": "27",
+      "ino": "1742439",
+      "size": "13918",
+      "mtimeNs": "1792497341984101402",
+      "ctimeNs": "1792497341984101402",
+      "mode": "33188",
+      "uid": "0",
+      "nlink": "1"
+    },
+    "runnerIdentity": {
+      "dev": "27",
+      "ino": "1746416",
+      "size": "28952",
+      "mtimeNs": "1792529261681563229",
+      "ctimeNs": "1792529261681563229",
+      "mode": "33188",
+      "uid": "0",
+      "nlink": "1"
+    },
+    "runtime": {
+      "phase": "delivery",
+      "buildId": "OWySC3_X3kR5uD-ExxkAJ",
+      "startedAt": "2026-10-20T20:50:03.019Z",
+      "web": {
+        "pid": 159666,
+        "startTicks": "4970261",
+        "metadataFile": "/tmp/idealmakoo-production-repair-20261020/evidence/runtime-delivery-web-process.json",
+        "metadataSha256": "84e487e7e647c79b22acc3f69776d9deab0e92f9ab6432a84f9d95d615cdb103",
+        "metadataIdentity": {
+          "dev": "27",
+          "ino": "1746429",
+          "size": "211",
+          "mtimeNs": "1792529403015917831",
+          "ctimeNs": "1792529403015917831",
+          "mode": "33152",
+          "uid": "0",
+          "nlink": "1"
+        }
+      },
+      "proxy": {
+        "pid": 58223,
+        "startTicks": "1676974",
+        "metadataFile": "/tmp/idealmakoo-production-repair-20261020/evidence/runtime-proxy-process.json",
+        "metadataSha256": "05e448d0379ad1cddc047d58c664fb968fa6fc0375bdea3c0ad65e61f2711499",
+        "metadataIdentity": {
+          "dev": "27",
+          "ino": "1745185",
+          "size": "264",
+          "mtimeNs": "1792496470148540604",
+          "ctimeNs": "1792496470148540604",
+          "mode": "33152",
+          "uid": "0",
+          "nlink": "1"
+        },
+        "configFile": "/tmp/idealmakoo-production-repair-20261020/evidence/repair.Caddyfile",
+        "configSha256": "25106f004f3f8d639ffed23c0fbad242df3973286e6f6b49b9ef96d89ed1f8b9",
+        "configIdentity": {
+          "dev": "27",
+          "ino": "1745204",
+          "size": "968",
+          "mtimeNs": "1792496423934102361",
+          "ctimeNs": "1792496423934102361",
+          "mode": "33152",
+          "uid": "0",
+          "nlink": "1"
+        }
+      }
+    }
+  },
+  "applicationUnchanged": true,
+  "runtimeUnchanged": true,
+  "buildUnchanged": true,
+  "helperUnchanged": true,
+  "runnerUnchanged": true,
+  "inputBindingsUnchanged": true,
+  "commandExitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "interrupted": false,
+  "rawReportFile": "/tmp/idealmakoo-production-repair-20261020/evidence/readonly-proxy-credential-startup-final/raw-report.json",
+  "rawEvidenceSha256": "b79220919f7b8ad7ea36523ada13b8b1b68288d0e54968e6db096f8fa6b53217",
+  "rawLogFile": "/tmp/idealmakoo-production-repair-20261020/evidence/readonly-proxy-credential-startup-final/raw.log",
+  "rawLogSha256": "53508880031116acb3ffdbc7c9cd84e1a2abb8b6c8cb8d09cd521def6dbdf889",
+  "rawReport": {
+    "schemaVersion": 2,
+    "startedAt": "2026-10-20T20:50:23.388Z",
+    "completedAt": "2026-10-20T20:50:24.350Z",
+    "sourceEvidence": [
+      "tests/e2e/runtime-contracts.spec.ts",
+      "tests/e2e/editor-workflows.spec.ts",
+      "src/server/router.ts",
+      "src/proxy.ts",
+      "next.config.ts"
+    ],
+    "scope": "Twelve direct/proxy GET pairs; anonymous pages and invalid nonsecret capability fixtures. CSP comparison normalizes only the unpredictable per-request nonce, and independently verifies matching HTML script nonces, freshness and strict execution. Also probes private/external image optimizer targets. This does not replace valid capability/session E2E coverage.",
+    "expectedComparisons": 12,
+    "comparisons": [
+      {
+        "id": "public-home",
+        "path": "/en/",
+        "kind": "public",
+        "directStatus": 200,
+        "proxyStatus": 200,
+        "headers": {
+          "content-security-policy": {
+            "direct": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'nonce-[per-request]' 'strict-dynamic'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: https:; frame-src 'self' blob:; worker-src 'self'",
+            "proxy": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'nonce-[per-request]' 'strict-dynamic'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: https:; frame-src 'self' blob:; worker-src 'self'",
+            "equal": true
+          },
+          "cache-control": {
+            "direct": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "proxy": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "equal": true
+          },
+          "referrer-policy": {
+            "direct": "strict-origin-when-cross-origin",
+            "proxy": "strict-origin-when-cross-origin",
+            "equal": true
+          },
+          "x-robots-tag": {
+            "direct": null,
+            "proxy": null,
+            "equal": true
+          }
+        },
+        "checks": {
+          "statusEqual": true,
+          "statusExpected": true,
+          "headersEqual": true,
+          "baseCsp": true,
+          "nonceCsp": true,
+          "uniqueNonces": true
+        },
+        "pass": true
+      },
+      {
+        "id": "public-login",
+        "path": "/en/auth/login/",
+        "kind": "public",
+        "directStatus": 200,
+        "proxyStatus": 200,
+        "headers": {
+          "content-security-policy": {
+            "direct": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'nonce-[per-request]' 'strict-dynamic'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: https:; frame-src 'self' blob:; worker-src 'self'",
+            "proxy": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'nonce-[per-request]' 'strict-dynamic'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: https:; frame-src 'self' blob:; worker-src 'self'",
+            "equal": true
+          },
+          "cache-control": {
+            "direct": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "proxy": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "equal": true
+          },
+          "referrer-policy": {
+            "direct": "strict-origin-when-cross-origin",
+            "proxy": "strict-origin-when-cross-origin",
+            "equal": true
+          },
+          "x-robots-tag": {
+            "direct": null,
+            "proxy": null,
+            "equal": true
+          }
+        },
+        "checks": {
+          "statusEqual": true,
+          "statusExpected": true,
+          "headersEqual": true,
+          "baseCsp": true,
+          "nonceCsp": true,
+          "uniqueNonces": true
+        },
+        "pass": true
+      },
+      {
+        "id": "private-account",
+        "path": "/en/account/security/",
+        "kind": "private",
+        "directStatus": 200,
+        "proxyStatus": 200,
+        "headers": {
+          "content-security-policy": {
+            "direct": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'nonce-[per-request]' 'strict-dynamic'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: https:; frame-src 'self' blob:; worker-src 'self'",
+            "proxy": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'nonce-[per-request]' 'strict-dynamic'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: https:; frame-src 'self' blob:; worker-src 'self'",
+            "equal": true
+          },
+          "cache-control": {
+            "direct": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "proxy": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "equal": true
+          },
+          "referrer-policy": {
+            "direct": "strict-origin-when-cross-origin",
+            "proxy": "strict-origin-when-cross-origin",
+            "equal": true
+          },
+          "x-robots-tag": {
+            "direct": null,
+            "proxy": null,
+            "equal": true
+          }
+        },
+        "checks": {
+          "statusEqual": true,
+          "statusExpected": true,
+          "headersEqual": true,
+          "baseCsp": true,
+          "nonceCsp": true,
+          "uniqueNonces": true
+        },
+        "pass": true
+      },
+      {
+        "id": "private-workspace",
+        "path": "/en/admin/forms/",
+        "kind": "private",
+        "directStatus": 200,
+        "proxyStatus": 200,
+        "headers": {
+          "content-security-policy": {
+            "direct": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'nonce-[per-request]' 'strict-dynamic'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: https:; frame-src 'self' blob:; worker-src 'self'",
+            "proxy": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'nonce-[per-request]' 'strict-dynamic'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: https:; frame-src 'self' blob:; worker-src 'self'",
+            "equal": true
+          },
+          "cache-control": {
+            "direct": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "proxy": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "equal": true
+          },
+          "referrer-policy": {
+            "direct": "strict-origin-when-cross-origin",
+            "proxy": "strict-origin-when-cross-origin",
+            "equal": true
+          },
+          "x-robots-tag": {
+            "direct": null,
+            "proxy": null,
+            "equal": true
+          }
+        },
+        "checks": {
+          "statusEqual": true,
+          "statusExpected": true,
+          "headersEqual": true,
+          "baseCsp": true,
+          "nonceCsp": true,
+          "uniqueNonces": true
+        },
+        "pass": true
+      },
+      {
+        "id": "capability-document-feedback",
+        "path": "/en/feedback/[redacted]/",
+        "kind": "capability",
+        "directStatus": 404,
+        "proxyStatus": 404,
+        "headers": {
+          "content-security-policy": {
+            "direct": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'nonce-[per-request]' 'strict-dynamic'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: https:; frame-src 'self' blob:; worker-src 'self'",
+            "proxy": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'nonce-[per-request]' 'strict-dynamic'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: https:; frame-src 'self' blob:; worker-src 'self'",
+            "equal": true
+          },
+          "cache-control": {
+            "direct": "private, no-store, max-age=0",
+            "proxy": "private, no-store, max-age=0",
+            "equal": true
+          },
+          "referrer-policy": {
+            "direct": "no-referrer",
+            "proxy": "no-referrer",
+            "equal": true
+          },
+          "x-robots-tag": {
+            "direct": "noindex, nofollow, noarchive",
+            "proxy": "noindex, nofollow, noarchive",
+            "equal": true
+          }
+        },
+        "checks": {
+          "statusEqual": true,
+          "statusExpected": true,
+          "headersEqual": true,
+          "baseCsp": true,
+          "nonceCsp": true,
+          "uniqueNonces": true,
+          "privateNoStore": true,
+          "noReferrer": true,
+          "noIndex": true,
+          "noCookie": true,
+          "noRedirect": true
+        },
+        "pass": true
+      },
+      {
+        "id": "capability-document-saved-share",
+        "path": "/en/saved-share/[redacted]/",
+        "kind": "capability",
+        "directStatus": 404,
+        "proxyStatus": 404,
+        "headers": {
+          "content-security-policy": {
+            "direct": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'nonce-[per-request]' 'strict-dynamic'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: https:; frame-src 'self' blob:; worker-src 'self'",
+            "proxy": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'nonce-[per-request]' 'strict-dynamic'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: https:; frame-src 'self' blob:; worker-src 'self'",
+            "equal": true
+          },
+          "cache-control": {
+            "direct": "private, no-store, max-age=0",
+            "proxy": "private, no-store, max-age=0",
+            "equal": true
+          },
+          "referrer-policy": {
+            "direct": "no-referrer",
+            "proxy": "no-referrer",
+            "equal": true
+          },
+          "x-robots-tag": {
+            "direct": "noindex, nofollow, noarchive",
+            "proxy": "noindex, nofollow, noarchive",
+            "equal": true
+          }
+        },
+        "checks": {
+          "statusEqual": true,
+          "statusExpected": true,
+          "headersEqual": true,
+          "baseCsp": true,
+          "nonceCsp": true,
+          "uniqueNonces": true,
+          "privateNoStore": true,
+          "noReferrer": true,
+          "noIndex": true,
+          "noCookie": true,
+          "noRedirect": true
+        },
+        "pass": true
+      },
+      {
+        "id": "capability-document-communication-preferences",
+        "path": "/en/communication-preferences/[redacted]/",
+        "kind": "capability",
+        "directStatus": 404,
+        "proxyStatus": 404,
+        "headers": {
+          "content-security-policy": {
+            "direct": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'nonce-[per-request]' 'strict-dynamic'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: https:; frame-src 'self' blob:; worker-src 'self'",
+            "proxy": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'nonce-[per-request]' 'strict-dynamic'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: https:; frame-src 'self' blob:; worker-src 'self'",
+            "equal": true
+          },
+          "cache-control": {
+            "direct": "private, no-store, max-age=0",
+            "proxy": "private, no-store, max-age=0",
+            "equal": true
+          },
+          "referrer-policy": {
+            "direct": "no-referrer",
+            "proxy": "no-referrer",
+            "equal": true
+          },
+          "x-robots-tag": {
+            "direct": "noindex, nofollow, noarchive",
+            "proxy": "noindex, nofollow, noarchive",
+            "equal": true
+          }
+        },
+        "checks": {
+          "statusEqual": true,
+          "statusExpected": true,
+          "headersEqual": true,
+          "baseCsp": true,
+          "nonceCsp": true,
+          "uniqueNonces": true,
+          "privateNoStore": true,
+          "noReferrer": true,
+          "noIndex": true,
+          "noCookie": true,
+          "noRedirect": true
+        },
+        "pass": true
+      },
+      {
+        "id": "capability-document-communication-verification",
+        "path": "/en/communication-verification/[redacted]/",
+        "kind": "capability",
+        "directStatus": 404,
+        "proxyStatus": 404,
+        "headers": {
+          "content-security-policy": {
+            "direct": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'nonce-[per-request]' 'strict-dynamic'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: https:; frame-src 'self' blob:; worker-src 'self'",
+            "proxy": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'nonce-[per-request]' 'strict-dynamic'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: https:; frame-src 'self' blob:; worker-src 'self'",
+            "equal": true
+          },
+          "cache-control": {
+            "direct": "private, no-store, max-age=0",
+            "proxy": "private, no-store, max-age=0",
+            "equal": true
+          },
+          "referrer-policy": {
+            "direct": "no-referrer",
+            "proxy": "no-referrer",
+            "equal": true
+          },
+          "x-robots-tag": {
+            "direct": "noindex, nofollow, noarchive",
+            "proxy": "noindex, nofollow, noarchive",
+            "equal": true
+          }
+        },
+        "checks": {
+          "statusEqual": true,
+          "statusExpected": true,
+          "headersEqual": true,
+          "baseCsp": true,
+          "nonceCsp": true,
+          "uniqueNonces": true,
+          "privateNoStore": true,
+          "noReferrer": true,
+          "noIndex": true,
+          "noCookie": true,
+          "noRedirect": true
+        },
+        "pass": true
+      },
+      {
+        "id": "capability-preview-api",
+        "path": "/api/v1/content-previews/[redacted]",
+        "kind": "capability",
+        "directStatus": 404,
+        "proxyStatus": 404,
+        "headers": {
+          "content-security-policy": {
+            "direct": "default-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; sandbox",
+            "proxy": "default-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; sandbox",
+            "equal": true
+          },
+          "cache-control": {
+            "direct": "private, no-store, max-age=0",
+            "proxy": "private, no-store, max-age=0",
+            "equal": true
+          },
+          "referrer-policy": {
+            "direct": "no-referrer",
+            "proxy": "no-referrer",
+            "equal": true
+          },
+          "x-robots-tag": {
+            "direct": "noindex, nofollow, noarchive",
+            "proxy": "noindex, nofollow, noarchive",
+            "equal": true
+          }
+        },
+        "checks": {
+          "statusEqual": true,
+          "statusExpected": true,
+          "headersEqual": true,
+          "privateNoStore": true,
+          "noReferrer": true,
+          "noIndex": true,
+          "noCookie": true,
+          "noRedirect": true
+        },
+        "pass": true
+      },
+      {
+        "id": "capability-wishlist-api",
+        "path": "/api/v1/wishlist-shares/[redacted]",
+        "kind": "capability",
+        "directStatus": 404,
+        "proxyStatus": 404,
+        "headers": {
+          "content-security-policy": {
+            "direct": "default-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; sandbox",
+            "proxy": "default-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; sandbox",
+            "equal": true
+          },
+          "cache-control": {
+            "direct": "private, no-store, max-age=0",
+            "proxy": "private, no-store, max-age=0",
+            "equal": true
+          },
+          "referrer-policy": {
+            "direct": "no-referrer",
+            "proxy": "no-referrer",
+            "equal": true
+          },
+          "x-robots-tag": {
+            "direct": "noindex, nofollow, noarchive",
+            "proxy": "noindex, nofollow, noarchive",
+            "equal": true
+          }
+        },
+        "checks": {
+          "statusEqual": true,
+          "statusExpected": true,
+          "headersEqual": true,
+          "privateNoStore": true,
+          "noReferrer": true,
+          "noIndex": true,
+          "noCookie": true,
+          "noRedirect": true
+        },
+        "pass": true
+      },
+      {
+        "id": "capability-survey-api",
+        "path": "/api/v1/surveys/forms/[redacted]",
+        "kind": "capability",
+        "directStatus": 404,
+        "proxyStatus": 404,
+        "headers": {
+          "content-security-policy": {
+            "direct": "default-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; sandbox",
+            "proxy": "default-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; sandbox",
+            "equal": true
+          },
+          "cache-control": {
+            "direct": "private, no-store, max-age=0",
+            "proxy": "private, no-store, max-age=0",
+            "equal": true
+          },
+          "referrer-policy": {
+            "direct": "no-referrer",
+            "proxy": "no-referrer",
+            "equal": true
+          },
+          "x-robots-tag": {
+            "direct": "noindex, nofollow, noarchive",
+            "proxy": "noindex, nofollow, noarchive",
+            "equal": true
+          }
+        },
+        "checks": {
+          "statusEqual": true,
+          "statusExpected": true,
+          "headersEqual": true,
+          "privateNoStore": true,
+          "noReferrer": true,
+          "noIndex": true,
+          "noCookie": true,
+          "noRedirect": true
+        },
+        "pass": true
+      },
+      {
+        "id": "readiness",
+        "path": "/api/v1/health/ready",
+        "kind": "readiness",
+        "directStatus": 200,
+        "proxyStatus": 200,
+        "headers": {
+          "content-security-policy": {
+            "direct": "default-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; sandbox",
+            "proxy": "default-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; sandbox",
+            "equal": true
+          },
+          "cache-control": {
+            "direct": "private, no-store",
+            "proxy": "private, no-store",
+            "equal": true
+          },
+          "referrer-policy": {
+            "direct": "strict-origin-when-cross-origin",
+            "proxy": "strict-origin-when-cross-origin",
+            "equal": true
+          },
+          "x-robots-tag": {
+            "direct": null,
+            "proxy": null,
+            "equal": true
+          }
+        },
+        "checks": {
+          "statusEqual": true,
+          "statusExpected": true,
+          "headersEqual": true,
+          "ready": true,
+          "noStore": true
+        },
+        "pass": true
+      }
+    ],
+    "imageOptimizer": {
+      "checks": [
+        {
+          "target": "/api/v1/files/private-fixture",
+          "status": 400,
+          "pass": true
+        },
+        {
+          "target": "%2Fapi%2Fv1%2Ffiles%2Fprivate-fixture",
+          "status": 400,
+          "pass": true
+        },
+        {
+          "target": "/downloads/private-fixture",
+          "status": 400,
+          "pass": true
+        },
+        {
+          "target": "https://outside.example.invalid/private-fixture",
+          "status": 400,
+          "pass": true
+        },
+        {
+          "target": "/images/not-in-the-bundled-manifest.png",
+          "status": 400,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    "accessLog": {
+      "appendedBytes": 20687,
+      "correlatedResponses": 3,
+      "correlatedAccessEntries": 3,
+      "refererMarkerRetained": false,
+      "csrfMarkerRetained": false,
+      "requestHeadersRemoved": true,
+      "requestUriRedacted": true,
+      "responseCookieRemoved": true,
+      "responseLocationRemoved": true,
+      "pass": true
+    },
+    "pass": true
+  },
+  "pass": true,
+  "error": null,
+  "spawnFailed": false,
+  "pid": 159791
+}

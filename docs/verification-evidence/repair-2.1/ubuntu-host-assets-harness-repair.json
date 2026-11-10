@@ -1,0 +1,80 @@
+{
+  "format": "idealmakoo.external-acceptance-harness-repair",
+  "recordedAt": "2026-10-21T18:29:07.440057+00:00",
+  "status": "retry-completed",
+  "scope": "External test harness only; no application, deployment source or test input change",
+  "originalFailure": {
+    "phase": "host-assets",
+    "phaseRecordSha256": "f6970d73f8cf90c0b64f55424008a45aaf2a1ce98ac8b0b3ebbc6d2fac747830",
+    "guestExitCode": 1,
+    "stderrSha256": "69161916570b371ec8c25ff942c74625e7c53070833e20d5aee1bc52d595d4e7",
+    "stderrBytes": 25,
+    "cause": "External helper still used unsupported docker compose run --no-build; product callers already use run-existing",
+    "startedAt": "2026-10-21T18:03:13.724941+00:00",
+    "finishedAt": "2026-10-21T18:04:07.750587+00:00",
+    "retained": true
+  },
+  "preRetryReconciliation": {
+    "recordSha256": "f4dfdf56635f8cba2a5068c6e04b7dce8310259e8489db435d232ffc33208e7f",
+    "finishedAt": "2026-10-21T18:15:06.027132+00:00",
+    "guestFinishedAt": "2026-10-21T18:15:04.743687+00:00",
+    "exitCode": 0,
+    "hostAndGuestHelperBytesMatched": true,
+    "previousHelperSha256": "4303e40fe622b4f5b06ec02b3968a83876dbc08468172343a7db8cbed2a31c5c",
+    "newHelperSha256": "68b5eba95fcafbdf70d14dc3cfe95eafda239e96f2a506d7781a8cd375860d08",
+    "preservedGuestFileCount": 5,
+    "removedOnlyHashAndMetadataGuardedInertIntegration": true,
+    "integrationBytes": 132,
+    "environmentUnchangedSha256": "bfbb63410e625d46557a5d555a4641c17f0e2a34b1da49cbe627830fe00263a1",
+    "caddyPathsWereAbsent": true,
+    "productFilesChanged": false
+  },
+  "reviewedContinuation": {
+    "preparationSha256": "b67ae7a023cd11166c8cf05b71a15c2e40bebae6eb26fcd0764e46f8b4d8ef5e",
+    "helpers": [
+      {
+        "name": "run-host-assets-retry-phase.py",
+        "sha256": "ce26998885352dc3fa09f8d373d1c631cf5baebfcaa685b6be4c312333cce43d",
+        "diffSha256": "b31c2df8bd668fd3e27080b95c6407c3766a370ec9835847f9249b37485d4512"
+      },
+      {
+        "name": "continue-post-upgrade-after-host-assets-repair.py",
+        "sha256": "e2a5f656e5900178aee29beb1ceecdcb6f93008e79860318962c46fb159dc7f8",
+        "diffSha256": "d404d6ebbf8470bf005a656e65b6d51d987d77052b432171a65311b51660820a"
+      }
+    ],
+    "independentRetryName": "host-assets-retry1",
+    "acceptedPredecessorsToRetainWithoutRerun": 5,
+    "failureHistoryRetained": true
+  },
+  "limitations": [
+    "The external host-assets retry succeeded. This result does not establish real AV detection, authenticated backup download, same-host restore, fresh-host recovery or public ACME issuance.",
+    "A read-only proxy label guard failed before any guest mutation; corrected identity binding uses previously accepted immutable container/image IDs, Config.Image release and Compose working directory.",
+    "Initial automatic approval review rejected continuation before process creation; the same reviewed command was accepted after disposable-VM and synthetic-data provenance was supplied. No splitting or indirect execution was used."
+  ],
+  "automaticApprovalReview": {
+    "initialAttemptRejectedBeforeLaunch": true,
+    "isolatedVmAndSyntheticDataEvidenceSubmitted": true,
+    "sameReviewedCommandAccepted": true,
+    "continuationStartedAt": "2026-10-21T18:25:42.622800+00:00",
+    "originalVmAcceptanceStateReused": true,
+    "archiveAndRecoveryIdentityContainPrivateTestSecrets": true,
+    "noPublicProductionServerOperation": true
+  },
+  "retryResult": {
+    "phaseRecordSha256": "ba4985501ac578b5ed8baac68570e00de4ab255447b7b55c3a6cbdd18a419b9e",
+    "phase": "host-assets",
+    "invocation": "host-assets-retry1",
+    "state": "completed",
+    "startedAt": "2026-10-21T18:25:42.650606+00:00",
+    "finishedAt": "2026-10-21T18:28:23.160571+00:00",
+    "guestStartedAt": "2026-10-21T18:26:08.252076+00:00",
+    "guestFinishedAt": "2026-10-21T18:28:11.055862+00:00",
+    "guestExitCode": 0,
+    "transportExitCode": 0,
+    "privateLogBytes": 813,
+    "privateLogSha256": "8a67cb13fedf15260f09209a9e7ac5b4beaeac11ac959d7a086b7743dbf2e610",
+    "environmentUnchangedSha256": "bfbb63410e625d46557a5d555a4641c17f0e2a34b1da49cbe627830fe00263a1",
+    "productFilesChanged": false
+  }
+}

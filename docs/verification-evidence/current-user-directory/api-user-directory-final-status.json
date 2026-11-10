@@ -1,0 +1,55 @@
+{
+  "gate": "api",
+  "label": "user-directory-final",
+  "selected": [],
+  "startedAt": "2026-10-21T05:50:38.364Z",
+  "state": "completed",
+  "exitCode": 1,
+  "applicationBefore": "1a7fd8f6293196e45e78a52aa765b0c4039f512fdb26cbbd5724367288ac5388",
+  "runtimeBefore": {
+    "algorithm": "sha256",
+    "scope": "runtime-v1",
+    "sha256": "6587dcce45884cac27275e42f6044fe4634e04b193829bd23260dcf76a5cdc4d",
+    "fileCount": 780,
+    "byteCount": 49114999,
+    "entrypoints": []
+  },
+  "testInputsBefore": {
+    "algorithm": "sha256",
+    "scope": "test-inputs-api-v1",
+    "sha256": "4dba30bb5bbc5f8b5a0debe88e6b47749505588ce015b901e396bd30eb7e5c61",
+    "fileCount": 7,
+    "byteCount": 59417,
+    "entrypoints": [
+      "tests/server-api.integration.test.ts"
+    ]
+  },
+  "nodeVersion": "v24.19.0",
+  "pid": 8040,
+  "applicationAfter": "1a7fd8f6293196e45e78a52aa765b0c4039f512fdb26cbbd5724367288ac5388",
+  "applicationUnchanged": true,
+  "runtimeAfter": {
+    "algorithm": "sha256",
+    "scope": "runtime-v1",
+    "sha256": "6587dcce45884cac27275e42f6044fe4634e04b193829bd23260dcf76a5cdc4d",
+    "fileCount": 780,
+    "byteCount": 49114999,
+    "entrypoints": []
+  },
+  "runtimeUnchanged": true,
+  "testInputsAfter": {
+    "algorithm": "sha256",
+    "scope": "test-inputs-api-v1",
+    "sha256": "4dba30bb5bbc5f8b5a0debe88e6b47749505588ce015b901e396bd30eb7e5c61",
+    "fileCount": 7,
+    "byteCount": 59417,
+    "entrypoints": [
+      "tests/server-api.integration.test.ts"
+    ]
+  },
+  "testInputsUnchanged": true,
+  "commandExitCode": 1,
+  "signal": null,
+  "error": "COMMAND_FAILED",
+  "finishedAt": "2026-10-21T05:50:51.088Z"
+}

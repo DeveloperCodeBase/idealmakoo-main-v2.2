@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "kind": "actual-read-only-combined-post-staged02-execution",
+  "recordedAt": "2026-10-24T18:03:55.247437+00:00",
+  "helperSha256": "049110f11a76b8e2f31179743b81eba1ad3cc841f872871498adce6905af6f3c",
+  "hostGuardSha256": "1752723a7653075374afbf4318b39e14caec1e7dfce582ce1f5d0419659af466",
+  "outerSessionId": 74049,
+  "outerExitCode": 0,
+  "outerWaitConsumed": true,
+  "sshExitCode": 0,
+  "payloadStatus": "captured",
+  "payloadSha256": "dd0857da79b80212cbf34c044a9879128d5db83bed945381ae17e0768173d461",
+  "payloadCanonicalSha256": "0876d6fd1c498fbdafbc92609591ca6b8e282a000769eb0a9374a0ce17b92609",
+  "actualStageOutcomeSha256": "4c524975901a7a44f992d815dedd6d5cf7036335a2b29608bd65e546a17f55af",
+  "originalSupportedUpdate02StillFailed124": true,
+  "noFurtherOperationalStepStarted": true
+}

@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/news/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "9548fd80f73cd9a14b60a8fd1c9a2d64066cfd5e4fcea6faffa6ed9ba4df08b6",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Голос фабрики. Истории развития. | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Новости, объявления и истории Ideal Makoo в одном месте."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/news/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/news/",
+    "en": "http://127.0.0.1:3100/en/news/",
+    "tr": "http://127.0.0.1:3100/tr/news/",
+    "ar": "http://127.0.0.1:3100/ar/news/",
+    "ru": "http://127.0.0.1:3100/ru/news/",
+    "x-default": "http://127.0.0.1:3100/fa/news/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 49
+}

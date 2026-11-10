@@ -1,0 +1,24 @@
+{
+  "gate": "unit-fullscreen-final",
+  "command": [
+    "npm",
+    "test"
+  ],
+  "exitCode": 0,
+  "durationSeconds": 31.575,
+  "startedAt": "2026-10-25T12:37:32.929301+00:00",
+  "finishedAt": "2026-10-25T12:38:04.504642+00:00",
+  "format": 1,
+  "buildId": "NWcRPAySX3HCzbpKSDJNf",
+  "logSha256": "cf9b6d74e44d7ebb9c3061e609bb5993c3dc6f16e15fb5ef169fd62e0c6b6e9e",
+  "logBytes": 94697,
+  "counts": {
+    "tests": 857,
+    "suites": 0,
+    "pass": 857,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "kind": "corrected-installer-retained-build-and-migration-evidence",
+  "observedAt": "2026-10-24T08:17:10.835781+00:00",
+  "sourceZipSha256": "1b2dd59c60a97bd1c113f6fdf7faaa330d6ca3157ccf3187b94f37eb4cecb806",
+  "release": "20261024T080908Z-eaef1a71",
+  "compilerSteps": [
+    {
+      "step": 39,
+      "instruction": "RUN npm run build",
+      "cached": true
+    }
+  ],
+  "newCompilerExecutionClaimed": false,
+  "exportedApplicationImageDigests": {
+    "manifest": "sha256:f3fc0e965e4e6fcdd0ed30555eaf0dda34ad53f5f997610defac056f73a1fd70",
+    "config": "sha256:21475ba1784c6b44563367465ab1aa387ac127d760156ed6838dbcbb6f1fc722",
+    "attestation manifest": "sha256:189ac0a3d9b5d2bcc2c57b338e9de6163dfbeba0f51681d497bef735099f6eb0",
+    "manifest list": "sha256:4974f775daabed633a6767bc5d8dc4f85b739dbd35c2fbe74695aef87a3fdd94"
+  },
+  "actualMigrationExitCode": 0,
+  "lastLoggedContainerProgress": {
+    "service": "clamav",
+    "phase": "Started"
+  },
+  "serviceHealthNotInferredFromStarted": true,
+  "readinessAccepted": false,
+  "installerOutcomePending": true,
+  "rawLogSnapshot": {
+    "sha256": "e0e126694a979b7d3f2e86f648b43408ae8530416cf48d3c6a47288dc95b5ce6",
+    "bytes": 14845,
+    "included": false
+  },
+  "newDockerProbePerformed": false
+}

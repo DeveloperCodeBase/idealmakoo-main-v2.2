@@ -1,0 +1,39 @@
+{
+  "verifiedAt": "2026-10-20T16:40:32.139192+00:00",
+  "buildId": "zTyFzGk88zFYZzMkC8On8",
+  "pilotOnly": true,
+  "attemptsVerified": 3,
+  "completed": 2,
+  "errors": 1,
+  "timeouts": 0,
+  "pending": 0,
+  "retainedErrorCodes": [
+    "AUDIT_PROTECTED_PAGE_CHECK_FAILED"
+  ],
+  "rawReportsHashed": 3,
+  "auditOutcomesVerified": 465,
+  "scoreDisplayModeCounts": {
+    "binary": 137,
+    "notApplicable": 147,
+    "numeric": 36,
+    "informative": 57,
+    "metricSavings": 55,
+    "manual": 33
+  },
+  "privateIdentifierCandidatesChecked": 3,
+  "scoresMetricsTimesChecksAndPreflightMatch": true,
+  "embeddedImagesAndAudioAbsent": true,
+  "credentialAndIdentityFieldsAbsent": true,
+  "partCount": 1,
+  "maximumPartBytes": 282702,
+  "inputSummarySha256": "5048a77438a5e5da9a59e30d1b57cdf9cbb56b8113d97439009f7b46c670eeed",
+  "exportFilesSha256": {
+    "EXPORT.json": "1f0ecd7a1372fbe69e0d27c7ce7074363b3fed389429cfe1c7c4e1428adc5c3e",
+    "audit-part-0001.json": "897d738ac01cc34791fb9e846272fd4b9eb47d9db4b982bd9ae014747c4513a1",
+    "inventory.json": "5219c91f2bbd33e38c9c033dd7fae6123f848151b34c1037a4ea31709027b60e",
+    "manifest.json": "cc95c86d2ce011df4a1e41c7bd2d3019317c24ac81f59c25c7545d7926658317",
+    "summary.csv": "974fb13b80516b0f79386bd1c7d7a47f1c737fd2cc25cb0033a01f387aab3bec",
+    "summary.json": "89e596f2ddfc7dfa3176df624efd1e593edddad07c3b5e78c57deafc7ca8f046"
+  },
+  "limitation": "Three-scenario failed diagnostic pilot. This verifies the privacy-filtered evidence derivative, not release acceptance or the pending 530-view audit."
+}

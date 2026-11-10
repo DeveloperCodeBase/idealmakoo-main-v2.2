@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "kind": "independent-read-only-candidate03-three-path-source-delta",
+  "status": "verified-source-only",
+  "createdAt": "2026-10-25T10:08:22.330766+00:00",
+  "frozenCandidate02": {
+    "archiveSha256": "05f9fada3a33e7df149012e0eeae0824e9fb3dda93b4387a70278626dd767578",
+    "archiveBytes": 69150185,
+    "archiveEntries": 3537,
+    "externalManifestSha256": "35ccdd6c16739c94d62f94f54446a461073296403103a0214b2e0dbadff5998b",
+    "embeddedManifestSha256": "45e93bf57a3113881d10052dd61d9ac831a36af0328a7eb584bb43aa14a73e92",
+    "manifestFiles": 3535,
+    "sourceInputSha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271"
+  },
+  "currentCandidate03": {
+    "sourceInputSha256": "79cbbf107e4886e03ade1119ab48d3a57e8a7385a64ba125322d3f4e1b923f94",
+    "canonicalFiles": 994,
+    "canonicalDigestRecomputedWithExistingMethod": true,
+    "sameCanonicalPathSet": true,
+    "changedCanonicalFiles": 3,
+    "otherCanonicalFilesByteIdentical": 991,
+    "additionalPackagedNonDocumentationFilesChecked": 9,
+    "packagedNonDocumentationFilesChecked": 1003,
+    "onlyThreeDifferencesAcrossThatSuperset": true,
+    "packageVersion": "2.1.3",
+    "buildOrRuntimePassClaimed": false
+  },
+  "changed": [
+    {
+      "path": "src/components/controlled/controlled.module.css",
+      "beforeSha256": "75f1b4980e4965e9a483f6446a301c8b540d69a1b2bc9be9c391c411c97ab9e7",
+      "afterSha256": "84b8084081abf10f007cff905a98fba5849f14c3584fcf06142927efd5d4c239"
+    },
+    {
+      "path": "src/components/resources/ControlledResources.tsx",
+      "beforeSha256": "669c22b88a5ec573100b5ad68d9fa6b9a97d2c9a206b5a32e935a77fa6343ccf",
+      "afterSha256": "9e9bbf526ad35bc6596a96ac7d47ea8f9c561358d4e0dd7c2e3bd0add81f4333"
+    },
+    {
+      "path": "tests/public-hydration.test.mjs",
+      "beforeSha256": "a65398314de708e5419146fdf208bab6ba9571f6e2ebc1dd22aaff49c0701fde",
+      "afterSha256": "eb4abff1549391d262f246a360d186f79c83e226bbd314dbf41c3e51d0a3bed9"
+    }
+  ],
+  "approvedPatches": [
+    {
+      "path": "acceptance/continuation-20261025/source-compare/resources-loading-shell-proposal-01/resources-loading-shell.patch",
+      "sha256": "2150015f03ce32651423d124c863873e1baa843478e69cd826bf8fca2f373c2a",
+      "exactDeltaFromFrozenZipToCurrentBytes": true
+    },
+    {
+      "path": "acceptance/continuation-20261025/source-compare/resources-hydration-test-proposal-01/public-hydration-shell-compatibility.patch",
+      "sha256": "6ce4d96715a1a55e12fa813b0e69b6706f062f9c3f7311eb9e9a9349568bb67a",
+      "exactDeltaFromFrozenZipToCurrentBytes": true
+    }
+  ],
+  "unchangedGroups": {
+    "serverAndApi": {
+      "files": 98,
+      "allByteIdenticalToFrozenCandidate02": true
+    },
+    "operationScriptsDeploymentAndWorker": {
+      "files": 80,
+      "allByteIdenticalToFrozenCandidate02": true
+    },
+    "databaseAndMigrations": {
+      "files": 41,
+      "allByteIdenticalToFrozenCandidate02": true
+    },
+    "packageAndLock": {
+      "files": 2,
+      "allByteIdenticalToFrozenCandidate02": true
+    },
+    "originalPublicAssets": {
+      "files": 134,
+      "allByteIdenticalToFrozenCandidate02": true
+    },
+    "otherRootBuildConfiguration": {
+      "files": 4,
+      "allByteIdenticalToFrozenCandidate02": true
+    },
+    "continuousIntegration": {
+      "files": 2,
+      "allByteIdenticalToFrozenCandidate02": true
+    }
+  },
+  "sourceLevelPreservation": {
+    "directoryMountStillGatedBySessionReady": true,
+    "accountRoleLocaleSlugRoomKeyExpressionUnchanged": true,
+    "allDirectoryStateDataActionAndEffectCodeUnchangedExceptPresentationalTitleMoved": true,
+    "unchangedDataAndEffectsSourceSha256": "915eb56cd999913d3e6ff89c5db3405b6db56386ac6fd3da47b8c882db9d0de1",
+    "sixExistingReadyErrorGridActionPreviewBranchesByteIdentical": true,
+    "finalReadySectionHeaderAndDirectNoticeMarkupPreservedAtSourceLevel": true,
+    "refreshHandlerExpressionUnchanged": true,
+    "onlyAppendedCssRules": "position:relative; visibility:hidden; position:absolute/inset:0 on three new loading-only classes",
+    "existingCssBytesUnchanged": true,
+    "allFiveExistingLocalizedTitleAndDescriptionStringsUnchanged": true,
+    "existingUnitTestNamesAndCountUnchanged": true,
+    "existingUnitTestsInTouchedFile": 6,
+    "otherFiveTestBodiesByteIdentical": true,
+    "visualGeometryCompilationAndBrowserProofNotPerformedByThisReview": true
+  },
+  "provenance": {
+    "integrationReceiptSha256": "c280bc4c62bfa22e23885fef3c7086a91c32cd0d0c0f2a7d95da41449d0eba07",
+    "beforeMapFileSha256": "0d0f691c53e730e2674afc256ce73651d956bd591182c7d87846ac462c584cc9",
+    "afterMapFileSha256": "b201b31367b6beea4d9706903affbe0c36fb142822181a1581da326b8eae4ff8",
+    "canonicalMethodSource": "acceptance/continuation-20261025/run_gate.py: source()",
+    "canonicalMethodSourceSha256": "269f82afd11c0dbd5dcd70c47d7e0dc2139499d30b64f8d2b7d4e35e536c76d2"
+  },
+  "limits": [
+    "Root-owned Markdown and docs evidence were excluded from code-delta claims; they continue to evolve independently.",
+    "This receipt verifies exact bytes and static code preservation, not runtime behavior or measured CLS improvement.",
+    "Private environment/key material was not opened or copied."
+  ],
+  "performed": {
+    "productOrProseFilesEdited": false,
+    "testsExecuted": false,
+    "buildExecuted": false,
+    "vmStarted": false,
+    "browserStarted": false,
+    "servicesChanged": false,
+    "postgresSupervisorUnchanged": 92828
+  }
+}

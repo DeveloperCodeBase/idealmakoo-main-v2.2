@@ -1,0 +1,497 @@
+{
+  "createdAt": "2026-10-21T10:45:14.207139+00:00",
+  "format": "public-lighthouse-pilot-comparison-v1",
+  "scope": "Four public pages, mobile simulated throttling; single run per page per build. Historical two-page driver probe is retained separately because graphics flags differ. This is not the pending full620 route score sweep.",
+  "runs": [
+    {
+      "directory": "lighthouse-pilot-baseline",
+      "buildId": "sPTh26GaGouK6nn5b3u7H",
+      "graphicsMode": "webgl-software-fallback",
+      "chromeFlags": [
+        "--headless=new",
+        "--disable-dev-shm-usage",
+        "--no-sandbox",
+        "--enable-unsafe-swiftshader"
+      ],
+      "chromeVersion": "Google Chrome for Testing 156.0.8078.4",
+      "lighthouseVersion": "13.5.0",
+      "publicContentHash": "c81fb2b40e486f8608c7c7da584d76197bef191244fad9d1b45128ddbb7e8e74",
+      "inventoryHash": "eca49e91040b6579ca2b12322558ea651cac410df40dc3b998f746e8d63ee1db",
+      "configurationHash": "3c207cc8d828d1d88c22ee93fdafa52389b43c1f35c3ff74d67cacc28166c539",
+      "expected": 4,
+      "completed": 4,
+      "errors": 0,
+      "timeouts": 0,
+      "coverageComplete": true,
+      "summarySha256": "a710e9aa4e1ec82e38e74419db936233aff54c226f6c60d7ddf2153157e5d0ed",
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3090/en/contact/",
+          "id": "0b486fb954ef8363",
+          "attempt": 1,
+          "status": "completed",
+          "scores": {
+            "performance": 88,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "metrics": {
+            "first-contentful-paint": 1856.73195,
+            "largest-contentful-paint": 2717.7319500000003,
+            "speed-index": 1856.73195,
+            "total-blocking-time": 307,
+            "cumulative-layout-shift": 0.0001380422217268122,
+            "interactive": 5454.043457500001
+          },
+          "durationMs": 8301,
+          "startedAt": "2026-10-21T08:19:05.368Z",
+          "finishedAt": "2026-10-21T08:19:13.669Z",
+          "runWarnings": [],
+          "rawReportSha256": "13315a6abcc5bb1d76a90c982a4a5993d48580fdde52efd00780fe7164ac9dce",
+          "runtimeError": null,
+          "benchmarkIndex": 2071
+        },
+        {
+          "url": "http://127.0.0.1:3090/fa/",
+          "id": "e26b23ba6276cf86",
+          "attempt": 1,
+          "status": "completed",
+          "scores": {
+            "performance": 43,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "metrics": {
+            "first-contentful-paint": 2731.2190499999997,
+            "largest-contentful-paint": 4006.2190499999997,
+            "speed-index": 28185.832284022734,
+            "total-blocking-time": 155635.48412500002,
+            "cumulative-layout-shift": 0.007545552663279595,
+            "interactive": 166366.69286250003
+          },
+          "durationMs": 161765,
+          "startedAt": "2026-10-21T08:19:17.162Z",
+          "finishedAt": "2026-10-21T08:21:58.927Z",
+          "runWarnings": [
+            "The page loaded too slowly to finish within the time limit. Results may be incomplete."
+          ],
+          "rawReportSha256": "38c07a27195b8ba849d9d43d3f4642f4e4745ed6acfbe8f2f0d69ab6ab8f5bf0",
+          "runtimeError": null,
+          "benchmarkIndex": 2216.5
+        },
+        {
+          "url": "http://127.0.0.1:3090/fa/products/",
+          "id": "93f0614dd8afcfb2",
+          "attempt": 1,
+          "status": "completed",
+          "scores": {
+            "performance": 84,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "metrics": {
+            "first-contentful-paint": 1372.8305,
+            "largest-contentful-paint": 2848.24575,
+            "speed-index": 1372.8305,
+            "total-blocking-time": 447,
+            "cumulative-layout-shift": 0.0023129283861665247,
+            "interactive": 6883.2614125
+          },
+          "durationMs": 9499,
+          "startedAt": "2026-10-21T08:21:59.478Z",
+          "finishedAt": "2026-10-21T08:22:08.977Z",
+          "runWarnings": [],
+          "rawReportSha256": "cbb7e99b7660347fe2560a4600e2231b8cef4889cc332ca59f09ea027034db89",
+          "runtimeError": null,
+          "benchmarkIndex": 2521.5
+        },
+        {
+          "url": "http://127.0.0.1:3090/fa/quality/",
+          "id": "6a719334f3830726",
+          "attempt": 1,
+          "status": "completed",
+          "scores": {
+            "performance": 82,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "metrics": {
+            "first-contentful-paint": 2281.834,
+            "largest-contentful-paint": 3181.834,
+            "speed-index": 2281.834,
+            "total-blocking-time": 335.5,
+            "cumulative-layout-shift": 0.07189574076811377,
+            "interactive": 6616.565525
+          },
+          "durationMs": 8381,
+          "startedAt": "2026-10-21T08:22:11.855Z",
+          "finishedAt": "2026-10-21T08:22:20.236Z",
+          "runWarnings": [],
+          "rawReportSha256": "e736c9124bb39b0da39b2ca8eef370e667b18403552c442221fab528b7d796aa",
+          "runtimeError": null,
+          "benchmarkIndex": 2465.5
+        }
+      ]
+    },
+    {
+      "directory": "lighthouse-pilot-final",
+      "buildId": "ZExXgIfF-M2np679FYhoQ",
+      "graphicsMode": "webgl-software-fallback",
+      "chromeFlags": [
+        "--headless=new",
+        "--disable-dev-shm-usage",
+        "--no-sandbox",
+        "--enable-unsafe-swiftshader"
+      ],
+      "chromeVersion": "Google Chrome for Testing 156.0.8078.4",
+      "lighthouseVersion": "13.5.0",
+      "publicContentHash": "c81fb2b40e486f8608c7c7da584d76197bef191244fad9d1b45128ddbb7e8e74",
+      "inventoryHash": "eca49e91040b6579ca2b12322558ea651cac410df40dc3b998f746e8d63ee1db",
+      "configurationHash": "565afa0f96d4bb0b50f63bccc9f522d8271481fe226c23fadfe237da046917b0",
+      "expected": 4,
+      "completed": 4,
+      "errors": 0,
+      "timeouts": 0,
+      "coverageComplete": true,
+      "summarySha256": "874515638e94160f89dbbd4a170a5fb5a28ec0226c35460d3013f09cb22e6480",
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3090/en/contact/",
+          "id": "0b486fb954ef8363",
+          "attempt": 1,
+          "status": "completed",
+          "scores": {
+            "performance": 86,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "metrics": {
+            "first-contentful-paint": 1235.3874999999998,
+            "largest-contentful-paint": 3054.7749999999996,
+            "speed-index": 1235.3874999999998,
+            "total-blocking-time": 348.00000000000045,
+            "cumulative-layout-shift": 0,
+            "interactive": 5556.144375
+          },
+          "durationMs": 8411,
+          "startedAt": "2026-10-21T08:53:39.605Z",
+          "finishedAt": "2026-10-21T08:53:48.016Z",
+          "runWarnings": [],
+          "rawReportSha256": "732b80eb382496e50272cfa50b2b75d33912c542bc9ee17c8a391fce1303c7ec",
+          "runtimeError": null,
+          "benchmarkIndex": 2164.5
+        },
+        {
+          "url": "http://127.0.0.1:3090/fa/",
+          "id": "e26b23ba6276cf86",
+          "attempt": 1,
+          "status": "completed",
+          "scores": {
+            "performance": 47,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "metrics": {
+            "first-contentful-paint": 1825.4162999999999,
+            "largest-contentful-paint": 3850.4163,
+            "speed-index": 28160.818828161486,
+            "total-blocking-time": 158195.72962499998,
+            "cumulative-layout-shift": 0.0002400876460962375,
+            "interactive": 168570.8591975
+          },
+          "durationMs": 153253,
+          "startedAt": "2026-10-21T08:53:51.479Z",
+          "finishedAt": "2026-10-21T08:56:24.732Z",
+          "runWarnings": [
+            "The page loaded too slowly to finish within the time limit. Results may be incomplete."
+          ],
+          "rawReportSha256": "b959c05a46a565a86b513bb5672222670c43cbfa599877913221d055f642bc85",
+          "runtimeError": null,
+          "benchmarkIndex": 2327.5
+        },
+        {
+          "url": "http://127.0.0.1:3090/fa/products/",
+          "id": "93f0614dd8afcfb2",
+          "attempt": 1,
+          "status": "completed",
+          "scores": {
+            "performance": 85,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "metrics": {
+            "first-contentful-paint": 1672.4845999999998,
+            "largest-contentful-paint": 3472.4846,
+            "speed-index": 1672.4845999999998,
+            "total-blocking-time": 287.5,
+            "cumulative-layout-shift": 0,
+            "interactive": 6708.502465
+          },
+          "durationMs": 9821,
+          "startedAt": "2026-10-21T08:56:25.308Z",
+          "finishedAt": "2026-10-21T08:56:35.129Z",
+          "runWarnings": [],
+          "rawReportSha256": "65ccf03d79871e836a2161efe5d433a877822873ae5146d52d5a1f908c3de347",
+          "runtimeError": null,
+          "benchmarkIndex": 2399.5
+        },
+        {
+          "url": "http://127.0.0.1:3090/fa/quality/",
+          "id": "6a719334f3830726",
+          "attempt": 1,
+          "status": "completed",
+          "scores": {
+            "performance": 85,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "metrics": {
+            "first-contentful-paint": 1370.0983,
+            "largest-contentful-paint": 3095.0983000000006,
+            "speed-index": 1370.0983,
+            "total-blocking-time": 353,
+            "cumulative-layout-shift": 0,
+            "interactive": 6608.7776975
+          },
+          "durationMs": 8389,
+          "startedAt": "2026-10-21T08:56:37.822Z",
+          "finishedAt": "2026-10-21T08:56:46.211Z",
+          "runWarnings": [],
+          "rawReportSha256": "fadbaecd03c6c7b35dc2308d02acc497292b8e644e419537ab25b117bbd5e7cb",
+          "runtimeError": null,
+          "benchmarkIndex": 2331
+        }
+      ]
+    },
+    {
+      "directory": "lighthouse-pilot-worker-final",
+      "buildId": "-Q7Ffy3JmwVExwxk-Ymk-",
+      "graphicsMode": "webgl-software-fallback",
+      "chromeFlags": [
+        "--headless=new",
+        "--disable-dev-shm-usage",
+        "--no-sandbox",
+        "--enable-unsafe-swiftshader"
+      ],
+      "chromeVersion": "Google Chrome for Testing 156.0.8078.4",
+      "lighthouseVersion": "13.5.0",
+      "publicContentHash": "c81fb2b40e486f8608c7c7da584d76197bef191244fad9d1b45128ddbb7e8e74",
+      "inventoryHash": "eca49e91040b6579ca2b12322558ea651cac410df40dc3b998f746e8d63ee1db",
+      "configurationHash": "45adde0a5772448666a3ec32bb98c4a7d4c54b375c296b44b93f192d8294acd3",
+      "expected": 4,
+      "completed": 4,
+      "errors": 0,
+      "timeouts": 0,
+      "coverageComplete": true,
+      "summarySha256": "4d9bf1b65783ca46caebb8be54dea30ff3ee1a35af1b352a9bfa8eaae596e87d",
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3090/en/contact/",
+          "id": "0b486fb954ef8363",
+          "attempt": 1,
+          "status": "completed",
+          "scores": {
+            "performance": 87,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "metrics": {
+            "first-contentful-paint": 1232.0308999999997,
+            "largest-contentful-paint": 2893.0463499999996,
+            "speed-index": 1232.0308999999997,
+            "total-blocking-time": 362,
+            "cumulative-layout-shift": 0,
+            "interactive": 5669.59635
+          },
+          "durationMs": 8236,
+          "startedAt": "2026-10-21T10:38:23.430Z",
+          "finishedAt": "2026-10-21T10:38:31.666Z",
+          "runWarnings": [],
+          "rawReportSha256": "2a08440f4bd4011f7fe95fe2a7ce05d73b03c54198daf7439a8b0f26916f04c1",
+          "runtimeError": null,
+          "benchmarkIndex": 2333.5
+        },
+        {
+          "url": "http://127.0.0.1:3090/fa/",
+          "id": "e26b23ba6276cf86",
+          "attempt": 1,
+          "status": "completed",
+          "scores": {
+            "performance": 76,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "metrics": {
+            "first-contentful-paint": 1823.3557,
+            "largest-contentful-paint": 3923.3557,
+            "speed-index": 2394.7948092527627,
+            "total-blocking-time": 425.82214999999997,
+            "cumulative-layout-shift": 0,
+            "interactive": 7370.024820000001
+          },
+          "durationMs": 27280,
+          "startedAt": "2026-10-21T10:38:35.192Z",
+          "finishedAt": "2026-10-21T10:39:02.472Z",
+          "runWarnings": [],
+          "rawReportSha256": "73aad99f3460a78af1ee84e8a7f481b45a61dab59dd55a31f893943611f565fe",
+          "runtimeError": null,
+          "benchmarkIndex": 2353
+        },
+        {
+          "url": "http://127.0.0.1:3090/fa/products/",
+          "id": "93f0614dd8afcfb2",
+          "attempt": 1,
+          "status": "completed",
+          "scores": {
+            "performance": 86,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "metrics": {
+            "first-contentful-paint": 1220.2074000000002,
+            "largest-contentful-paint": 3020.2074000000002,
+            "speed-index": 1220.2074000000002,
+            "total-blocking-time": 343,
+            "cumulative-layout-shift": 0,
+            "interactive": 6731.321835
+          },
+          "durationMs": 10011,
+          "startedAt": "2026-10-21T10:39:03.125Z",
+          "finishedAt": "2026-10-21T10:39:13.136Z",
+          "runWarnings": [],
+          "rawReportSha256": "d534a429b88078762fb0cc6adf5415f1b51e6d8171eaf4d92ea9bbcb4bbfe16c",
+          "runtimeError": null,
+          "benchmarkIndex": 2231.5
+        },
+        {
+          "url": "http://127.0.0.1:3090/fa/quality/",
+          "id": "6a719334f3830726",
+          "attempt": 1,
+          "status": "completed",
+          "scores": {
+            "performance": 83,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "metrics": {
+            "first-contentful-paint": 1364.81,
+            "largest-contentful-paint": 3164.81,
+            "speed-index": 1364.81,
+            "total-blocking-time": 410.00000000000045,
+            "cumulative-layout-shift": 0,
+            "interactive": 6628.905999999999
+          },
+          "durationMs": 8682,
+          "startedAt": "2026-10-21T10:39:15.855Z",
+          "finishedAt": "2026-10-21T10:39:24.537Z",
+          "runWarnings": [],
+          "rawReportSha256": "b9937408ee40b78ce178698dbcf0de3611e23029e89339867821ffc717b01b72",
+          "runtimeError": null,
+          "benchmarkIndex": 2324.5
+        }
+      ]
+    },
+    {
+      "directory": "lighthouse-driver-pilot-release",
+      "buildId": "qZolvXUvxRIPRoRpYcOE2",
+      "graphicsMode": "swiftshader-driver",
+      "chromeFlags": [
+        "--headless=new",
+        "--disable-dev-shm-usage",
+        "--no-sandbox",
+        "--enable-unsafe-swiftshader",
+        "--use-gl=angle",
+        "--use-angle=swiftshader"
+      ],
+      "chromeVersion": "Google Chrome for Testing 156.0.8078.4",
+      "lighthouseVersion": "13.5.0",
+      "publicContentHash": "c81fb2b40e486f8608c7c7da584d76197bef191244fad9d1b45128ddbb7e8e74",
+      "inventoryHash": "4b9fc0361b3ee004ad822d6f5205924593c756e060f3663614bc13d56f86f9d8",
+      "configurationHash": "77ddce8c9a86bc8779807fd8187710994fae87cbeb5414d572cbfca1d91f89ab",
+      "expected": 2,
+      "completed": 2,
+      "errors": 0,
+      "timeouts": 0,
+      "coverageComplete": true,
+      "summarySha256": "f502bca5561246dc3f7c2cc9aa9b40580a0c537d8a53266776c1106ef690414b",
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3090/en/contact/",
+          "id": "0b486fb954ef8363",
+          "attempt": 1,
+          "status": "completed",
+          "scores": {
+            "performance": 52,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "metrics": {
+            "first-contentful-paint": 1236.7785,
+            "largest-contentful-paint": 5721.3355,
+            "speed-index": 2316.81663399895,
+            "total-blocking-time": 1659.9999999999993,
+            "cumulative-layout-shift": 0,
+            "interactive": 5721.335500000001
+          },
+          "durationMs": 10334,
+          "startedAt": "2026-10-21T09:14:28.330Z",
+          "finishedAt": "2026-10-21T09:14:38.664Z",
+          "runWarnings": [],
+          "rawReportSha256": "8d67eeea0cfb498dd465918dcaf8c41f3572771a562f17e85771d526b9037bfc",
+          "runtimeError": null,
+          "benchmarkIndex": 2389.5
+        },
+        {
+          "url": "http://127.0.0.1:3090/fa/",
+          "id": "e26b23ba6276cf86",
+          "attempt": 1,
+          "status": "completed",
+          "scores": {
+            "performance": 29,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "metrics": {
+            "first-contentful-paint": 1819.4611999999997,
+            "largest-contentful-paint": 7523.114199999998,
+            "speed-index": 5793.80607347184,
+            "total-blocking-time": 7687.173499999999,
+            "cumulative-layout-shift": 0.2141315831719902,
+            "interactive": 12805.158489999998
+          },
+          "durationMs": 33958,
+          "startedAt": "2026-10-21T09:14:41.150Z",
+          "finishedAt": "2026-10-21T09:15:15.108Z",
+          "runWarnings": [],
+          "rawReportSha256": "b30be9fb38ce2a5f131b965e682c42121dc13208f0ec9051166af311030ff1c9",
+          "runtimeError": null,
+          "benchmarkIndex": 2285
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "All scores are the recorded Lighthouse outputs, not estimates. Single samples have lab variability.",
+    "The original and pre-worker home reports contain incomplete-run warnings; those warnings are retained and limit quantitative baseline precision.",
+    "The worker shifts native software canvas readback away from the main thread; it does not remove GPU cost or prove real-device frame rate.",
+    "The driver-mode experiment used different Chrome graphics flags and is not a like-for-like application improvement.",
+    "No full620 public Lighthouse coverage is claimed here."
+  ],
+  "defaultModeSameFlags": true,
+  "defaultModeSameContent": true,
+  "defaultModeSameInventory": true
+}

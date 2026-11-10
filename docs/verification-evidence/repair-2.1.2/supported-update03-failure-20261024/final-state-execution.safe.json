@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "kind": "one-readonly-update03-final-state-execution",
+  "status": "captured",
+  "actualOuterExitCode": 0,
+  "actualRemoteExitCode": 0,
+  "outerSession": 21044,
+  "actualOuterWaitConsumed": true,
+  "payloadStatus": "captured",
+  "receiptSha256": "0dccc9f950b00b55c16eda23b196d2c507b27db1e5a43064545c4264fe992a0d",
+  "canonicalSha256": "c7766ac3242b0541fa93cc8b79f5125ef66695b98b5b996fae159dd2f2412ca0",
+  "originalUpdateExitCode": 124,
+  "noRetryPerformed": true
+}

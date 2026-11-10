@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/faq/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "ecfdaa23c66d6b0ffb7c7e6e808ee917cb5f9230f3c305259f36412967c066bf",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Частые вопросы | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Добавьте продукты в список запросов и заполните форму."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/faq/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/faq/",
+    "en": "http://127.0.0.1:3100/en/faq/",
+    "tr": "http://127.0.0.1:3100/tr/faq/",
+    "ar": "http://127.0.0.1:3100/ar/faq/",
+    "ru": "http://127.0.0.1:3100/ru/faq/",
+    "x-default": "http://127.0.0.1:3100/fa/faq/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 58
+}

@@ -1,0 +1,48 @@
+/* The existing native dialog owns focus, backdrop, scroll locking and top layer.
+   Only its viewport-aligned presentation differs from a centred popup. */
+.drawer:global(.app-dialog.liquid-dialog)[data-viewport-dialog] {
+  --drawer-width: min(360px, calc(var(--dialog-viewport-width, 100vw) - 24px));
+  --drawer-enter-x: -16px;
+  left: var(--dialog-viewport-left, 0px);
+  top: var(--dialog-viewport-top, 0px);
+  right: auto;
+  bottom: auto;
+  transform: none;
+  margin: 0;
+  width: var(--drawer-width);
+  max-width: var(--drawer-width);
+  min-width: 0;
+  height: var(--dialog-viewport-height, 100dvh);
+  max-height: var(--dialog-viewport-height, 100dvh);
+  border-radius: 0;
+  border-start-end-radius: 24px;
+  border-end-end-radius: 24px;
+  overflow: hidden;
+  scrollbar-gutter: auto;
+}
+.drawer:global(.app-dialog.liquid-dialog)[data-viewport-dialog][open] { animation: drawerEnter .22s ease both; }
+.drawer:global(.app-dialog)[data-viewport-dialog][dir='rtl'] {
+  --drawer-enter-x: 16px;
+  left: calc(var(--dialog-viewport-left, 0px) + var(--dialog-viewport-width, 100vw) - var(--drawer-width));
+}
+.drawer:global(.app-dialog)[data-viewport-dialog] > :global(.dialog-body) {
+  padding: 20px 18px max(24px, env(safe-area-inset-bottom));
+  padding-left: max(18px, env(safe-area-inset-left));
+  padding-right: max(18px, env(safe-area-inset-right));
+}
+.drawer:global(.app-dialog)[data-viewport-dialog] > :global(.dialog-heading) {
+  margin: 0;
+  padding: max(16px, env(safe-area-inset-top)) 18px 14px;
+  padding-left: max(18px, env(safe-area-inset-left));
+  padding-right: max(18px, env(safe-area-inset-right));
+  align-items: center;
+  gap: 12px;
+}
+.drawer:global(.app-dialog)[data-viewport-dialog] > :global(.dialog-heading) h2 {
+  font-size: 18px;
+}
+@keyframes drawerEnter {
+  from { opacity: .4; translate: var(--drawer-enter-x) 0; }
+  to { opacity: 1; translate: 0 0; }
+}
+@media (prefers-reduced-motion: reduce) { .drawer:global(.app-dialog.liquid-dialog)[data-viewport-dialog][open] { animation: none; } }

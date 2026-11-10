@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/technical-selection/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "d3b829c611cdbabeb62d1174f4a24aab9385373765848692bbe9dd114425fd40",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Teknik seçim / CSV | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Ürün, miktar, renk ve kalıp seçin ya da CSV listesini önizleyip içe aktarın; kalemleri teknik talebinize ekleyin."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/technical-selection/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/technical-selection/",
+    "en": "http://127.0.0.1:3100/en/technical-selection/",
+    "tr": "http://127.0.0.1:3100/tr/technical-selection/",
+    "ar": "http://127.0.0.1:3100/ar/technical-selection/",
+    "ru": "http://127.0.0.1:3100/ru/technical-selection/",
+    "x-default": "http://127.0.0.1:3100/fa/technical-selection/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 50
+}

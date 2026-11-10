@@ -1,0 +1,14 @@
+{
+  "format": "offline-static-input-snapshot-command-v1",
+  "startedAt": "2026-10-26T01:06:17.549947+00:00",
+  "finishedAt": "2026-10-26T01:06:18.011404+00:00",
+  "actualExitCode": 0,
+  "durationSeconds": 0.461,
+  "outputCreated": true,
+  "scriptSha256": "ba24d9d60926a2b529993b351d3a5d2915f2a2598ea243801bcadf93e4054c9c",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "inputFingerprint": "7453e88d3e56fbe65ef319c3b0a770bd48fef216505e49e7d3e5955f829655ee",
+  "afterFiles": 834,
+  "unchangedMigrations": 41,
+  "outputSha256": "5f4cfcabf5195aece853146298a1b88ab3488f83a9342fefe3b9185972d2601e"
+}

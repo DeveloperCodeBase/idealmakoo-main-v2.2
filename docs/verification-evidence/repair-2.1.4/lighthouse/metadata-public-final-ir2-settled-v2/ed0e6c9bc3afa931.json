@@ -1,0 +1,71 @@
+{
+  "url": "http://127.0.0.1:3100/en/products/president/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "22c8286f25297c58604af387db3706e803d8a138b0d54aca7e1bcce56ca33e71",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "President denture teeth | Ideal Makoo"
+  ],
+  "descriptions": [
+    "President combines nano composite, five layers and six curing cycles in an anterior and posterior tooth range."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/products/president/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/president/",
+    "en": "http://127.0.0.1:3100/en/products/president/",
+    "tr": "http://127.0.0.1:3100/tr/products/president/",
+    "ar": "http://127.0.0.1:3100/ar/products/president/",
+    "ru": "http://127.0.0.1:3100/ru/products/president/",
+    "x-default": "http://127.0.0.1:3100/fa/products/president/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "President denture teeth",
+      "description": "President combines nano composite, five layers and six curing cycles in an anterior and posterior tooth range.",
+      "image": "http://127.0.0.1:3100/media/official/1686482269.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "PRESIDENT"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/en/products/president/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 63
+}

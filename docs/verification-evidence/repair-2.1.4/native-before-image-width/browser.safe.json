@@ -1,0 +1,99 @@
+{
+  "schema": "idealmakoo.browser-acceptance.v1",
+  "version": "2.1.4",
+  "recorded_at": "2026-10-25T11:26:05.323525+00:00",
+  "production_build": "OruFAGBKnBw7jMP-nT3JJ",
+  "browser_suite": {
+    "exit_code": 0,
+    "executed_tests": 61,
+    "passed": 61,
+    "failed": 0,
+    "skipped": 0,
+    "retries": 0,
+    "workers": 1,
+    "ci_unset": true,
+    "duration_reported": "3.8m",
+    "footer": "61 passed (3.8m)",
+    "log_sha256": "fd28c496e38fea3cc2d540dbd1e911e5859d928c20abce82f50dd0230a9d72af",
+    "runner_warnings": [
+      "npm: Unknown env config http-proxy.",
+      "Node: NO_COLOR ignored because FORCE_COLOR is set."
+    ]
+  },
+  "visual_review": {
+    "exit_code": 0,
+    "captured_views": 16,
+    "manually_reviewed_views": 16,
+    "locales": [
+      "fa",
+      "en"
+    ],
+    "themes": [
+      "dark",
+      "light"
+    ],
+    "viewports": {
+      "desktop": {
+        "width": 1440,
+        "height": 1000
+      },
+      "mobile": {
+        "width": 390,
+        "height": 844,
+        "touch": true
+      }
+    },
+    "scope": {
+      "home": 8,
+      "mobile_account": 4,
+      "mobile_footer": 4
+    },
+    "home_scenes_ready": 8,
+    "document_horizontal_overflows": 0,
+    "page_errors": 0,
+    "failed_requests": 0,
+    "mobile_footer_install_links_visible": 4,
+    "manual_finding": "Brand identity, 3D hero, typography, RTL/LTR placement, account guidance and footer utility row appear consistent; no unintended layout change detected in the inspected views. No pixel-by-pixel baseline comparison was performed.",
+    "browser_warnings": [
+      {
+        "message": "Service Worker registration blocked by Playwright",
+        "context": "Intentional serviceWorkers:block in isolated screenshot contexts; separate real offline/cache acceptance passed with service workers enabled."
+      },
+      {
+        "message": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported.",
+        "context": "Test graphics environment lacks this optional extension; all eight home scenes rendered ready."
+      }
+    ]
+  },
+  "prior_attempts": [
+    {
+      "kind": "environment-preflight",
+      "executed_tests": 0,
+      "exit_code": 1,
+      "resolved": "Corrected the disposable database target naming without weakening the guard."
+    },
+    {
+      "kind": "initial-full-suite",
+      "executed_tests": 61,
+      "passed": 57,
+      "failed": 4,
+      "exit_code": 1,
+      "resolved": [
+        "Corrected an accessible-name test locator and request teardown.",
+        "Corrected an optional response-header test assertion.",
+        "Added the missing localized install-guide footer link.",
+        "Repaired native malformed legacy-percent URL handling before the successful full rerun."
+      ]
+    }
+  ],
+  "capability_document": "docs/CMS-CAPABILITIES.fa.md",
+  "limits": [
+    "Browser tests are Chromium acceptance, not an exhaustive proof of every browser/device or every possible input.",
+    "Visual review samples sixteen views; no pixel-by-pixel baseline diff.",
+    "PWA prompt/offline tests do not claim an OS installation.",
+    "No live owner AI/SMTP credentials were used.",
+    "PageBuilder anchor guard does not intercept Back/Forward or direct programmatic routing.",
+    "Fixed twelve roles and twenty-eight block types; no arbitrary no-code theme/plugin/custom-role builder."
+  ],
+  "private_material_included": false
+}

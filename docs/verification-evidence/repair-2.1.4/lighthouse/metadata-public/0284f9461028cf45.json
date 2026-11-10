@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/news/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "716d46bc92d9488bea7363df01779d80638d39c8ea1c6e7e7402ba5c3a14123d",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Fabrikanın sesi. İlerlemenin hikâyeleri. | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Ideal Makoo haberleri, duyuruları ve hikâyeleri tek yerde."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/news/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/news/",
+    "en": "http://127.0.0.1:3100/en/news/",
+    "tr": "http://127.0.0.1:3100/tr/news/",
+    "ar": "http://127.0.0.1:3100/ar/news/",
+    "ru": "http://127.0.0.1:3100/ru/news/",
+    "x-default": "http://127.0.0.1:3100/fa/news/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 38
+}

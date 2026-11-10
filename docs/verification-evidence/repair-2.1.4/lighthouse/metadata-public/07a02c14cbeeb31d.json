@@ -1,0 +1,61 @@
+{
+  "url": "http://127.0.0.1:3100/ru/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "686cc53054ecb580185c1781637b0b5c2e866b19c535fdf71d596e641f052d62",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Главная | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Искусственные зубы и стоматологические материалы. Более сорока лет опыта — в коллекциях Ideal Makoo."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/",
+    "en": "http://127.0.0.1:3100/en/",
+    "tr": "http://127.0.0.1:3100/tr/",
+    "ar": "http://127.0.0.1:3100/ar/",
+    "ru": "http://127.0.0.1:3100/ru/",
+    "x-default": "http://127.0.0.1:3100/fa/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Ideal Makoo",
+      "url": "http://127.0.0.1:3100",
+      "logo": "http://127.0.0.1:3100/media/brand/logo-transparent.png",
+      "telephone": "02188899776"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 62
+}

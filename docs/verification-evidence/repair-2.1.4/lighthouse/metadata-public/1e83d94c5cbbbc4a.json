@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/distributors/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "3a2f8697714cd3d12373aaa6c71dd85fd8669e3273ece310dad272a2b3e4ca0e",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "شبكة الموزعين | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "تواصل مع المصنع للاستفسار عن توزيع المنتجات في بلدك أو قدّم طلب تعاون في التوزيع."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/distributors/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/distributors/",
+    "en": "http://127.0.0.1:3100/en/distributors/",
+    "tr": "http://127.0.0.1:3100/tr/distributors/",
+    "ar": "http://127.0.0.1:3100/ar/distributors/",
+    "ru": "http://127.0.0.1:3100/ru/distributors/",
+    "x-default": "http://127.0.0.1:3100/fa/distributors/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 76
+}

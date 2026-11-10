@@ -1,0 +1,184 @@
+{
+  "format": "idealmakoo.public-palette-scroll-observation-v1",
+  "evidenceKind": "Allowlisted derivative of one completed diagnostic run",
+  "finalRelease": false,
+  "releaseAcceptanceClaimed": false,
+  "source": {
+    "sha256": "981c8a90b315e4ae01de066365c3a08ae287b9afaf9202460bcf2db01161898e",
+    "files": 832
+  },
+  "applicationSha256": "0045597565fe76bf449866d397a7eee2c5927a85cda40512044de2673f583807",
+  "buildId": "UFNFFG64Vx2uruUMUuU9z",
+  "scope": {
+    "page": "CMS palette",
+    "locale": "fa",
+    "role": "superAdmin",
+    "pageCount": 1,
+    "nativeKey": "PageDown",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "normalMotion": true,
+    "comprehensiveAccessibilityAudit": false
+  },
+  "timing": {
+    "startedAt": "2026-10-22T08:01:37.643Z",
+    "finishedAt": "2026-10-22T08:01:42.460Z",
+    "durationMs": 4817
+  },
+  "overallOutcome": {
+    "state": "completed",
+    "passed": false,
+    "exitCode": 2,
+    "failureCode": "AUDIT_PALETTE_BROWSER_ERROR",
+    "interrupted": false,
+    "deadlineReached": false
+  },
+  "targetedObservation": {
+    "checks": {
+      "normalMotion": true,
+      "focusVerified": true,
+      "scrollable": true,
+      "scrollAdvanced": true,
+      "keyboardMotionSettled": true,
+      "savedPositionsRestored": true,
+      "restorationSettled": true,
+      "focusRestored": true
+    },
+    "checkCounts": {
+      "passed": 8,
+      "failed": 0
+    },
+    "allTargetedChecksPassed": true,
+    "policy": {
+      "reducedMotion": false,
+      "nodeScrollBehavior": "auto",
+      "documentScrollBehavior": "smooth",
+      "visibility": "visible"
+    },
+    "beforePageDown": {
+      "focused": true,
+      "top": 0,
+      "clientHeight": 195,
+      "scrollHeight": 675
+    },
+    "afterPageDown": {
+      "focused": true,
+      "top": 170
+    },
+    "positions": {
+      "saved": {
+        "top": 0,
+        "left": 0,
+        "windowX": 0,
+        "windowY": 0
+      },
+      "restoredImmediate": {
+        "top": 0,
+        "left": 0,
+        "windowX": 0,
+        "windowY": 0
+      },
+      "restoredAfterSettle": {
+        "top": 0,
+        "left": 0,
+        "windowX": 0,
+        "windowY": 0
+      }
+    },
+    "focusRestored": true,
+    "restorationSettled": true,
+    "phases": [
+      {
+        "phase": "initial-settle",
+        "durationMs": 254,
+        "timedOut": false,
+        "settled": true,
+        "movementObserved": false,
+        "nativeScrollEndSupported": true,
+        "nativeNodeEndObserved": false,
+        "quietWindowMs": 254,
+        "completionBasis": "250ms-position-stability",
+        "overflow": false
+      },
+      {
+        "phase": "focus-at-top",
+        "durationMs": 250.80000000074506,
+        "timedOut": false,
+        "settled": true,
+        "movementObserved": false,
+        "nativeScrollEndSupported": true,
+        "nativeNodeEndObserved": false,
+        "quietWindowMs": 250.80000000074506,
+        "completionBasis": "250ms-position-stability",
+        "overflow": false
+      },
+      {
+        "phase": "native-PageDown",
+        "durationMs": 417.1000000014901,
+        "timedOut": false,
+        "settled": true,
+        "movementObserved": true,
+        "nativeScrollEndSupported": true,
+        "nativeNodeEndObserved": true,
+        "quietWindowMs": 266.80000000074506,
+        "completionBasis": "native-node-scrollend-and-250ms-position-stability",
+        "overflow": false
+      },
+      {
+        "phase": "restore-saved-positions",
+        "durationMs": 271,
+        "timedOut": false,
+        "settled": true,
+        "movementObserved": true,
+        "nativeScrollEndSupported": true,
+        "nativeNodeEndObserved": true,
+        "quietWindowMs": 250.90000000037253,
+        "completionBasis": "250ms-position-stability",
+        "overflow": false
+      }
+    ]
+  },
+  "requestAndPageObservation": {
+    "blockedMutationRequests": 1,
+    "blockedExternalRequests": 0,
+    "pageErrors": 0,
+    "blockedRequestMethodAndPathRecorded": false,
+    "blockedRequestCauseEstablished": false,
+    "interpretation": "One request outside the helper allowlist was blocked. Its method, path and cause were not recorded; this does not establish which application action attempted it."
+  },
+  "cleanupAndIntegrity": {
+    "authenticatedRoleVerified": true,
+    "expectedPageVerified": true,
+    "ownedBrowserClosed": true,
+    "ownedProcessGroupRemainingMembers": 0,
+    "expectedOwnedActors": 12,
+    "inactiveOwnedActors": 12,
+    "unrevokedOwnedSessions": 0,
+    "fixtureCleanupPassed": true,
+    "sourceUnchanged": true,
+    "workloadUnchanged": true,
+    "normalMotionAltered": false
+  },
+  "historicalFastRun": {
+    "expected": 122,
+    "attempted": 122,
+    "completed": 121,
+    "errors": 1,
+    "timeouts": 0,
+    "pending": 0,
+    "exitCode": 2,
+    "outcomesReclassified": false,
+    "acceptedByThisObservation": false,
+    "remainingError": "The earlier immediate scroll-restoration assertion remains failed."
+  },
+  "limitations": [
+    "This is one targeted observation, not a successful overall diagnostic run: the actual exit code remains 2.",
+    "Native PageDown moved the focused palette from 0 to 170 pixels. A native node scrollend and at least 250 ms of position stability were observed.",
+    "All saved, immediate-restored and settled-restored node/window coordinates were zero in this run. The earlier failing run did not retain those restored coordinates, so its exact mismatch and cause cannot be reconstructed from this observation.",
+    "The eight successful target checks do not resolve the unrecorded blocked request, establish comprehensive keyboard/Tab-order accessibility, or change the historical fast-run error.",
+    "Owned authentication/session activity occurred. Post-run additive secret-marker collection is a separate operation and is not asserted by this summary.",
+    "Raw event/sample timelines, DOM, actor identifiers, session identifiers, private paths and private input hashes are omitted. This public derivative is not a byte-identical forensic copy."
+  ]
+}

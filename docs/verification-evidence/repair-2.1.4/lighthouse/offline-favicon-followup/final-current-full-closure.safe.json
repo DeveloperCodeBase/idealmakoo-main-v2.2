@@ -1,0 +1,19 @@
+{
+  "format": "offline-favicon-final-current-continuity-v1",
+  "startedAt": "2026-10-26T01:16:50.487262+00:00",
+  "finishedAt": "2026-10-26T01:16:50.824560+00:00",
+  "actualExitCode": 0,
+  "durationSeconds": 0.337,
+  "fullCheck": true,
+  "passed": true,
+  "topologySha256": "9423dd71d0172fd02d0249dba41d3f0ad5332ec9da3d8dfb1b26c4c6429c4c53",
+  "currentInputFingerprint": "7453e88d3e56fbe65ef319c3b0a770bd48fef216505e49e7d3e5955f829655ee",
+  "compiledBuildId": "ir2DFJg8r5YdpbVQubUqF",
+  "compiledBuildInputFingerprint": "4fcec50f5846b0affccc59e43798613ba134a3f93559ea5ddba9705e1f38cc58",
+  "focusedPwaTwoCasesClosedActual0": true,
+  "separateOfflineFiveClosedActual0": true,
+  "guardedSafeExportAndRollupClosedActual0": true,
+  "originalPrimary1169OutcomesUnchanged": true,
+  "runtimeShutdownNotYetPerformed": true,
+  "privateEnvironmentValuesHashesAndProcessIdsExported": false
+}

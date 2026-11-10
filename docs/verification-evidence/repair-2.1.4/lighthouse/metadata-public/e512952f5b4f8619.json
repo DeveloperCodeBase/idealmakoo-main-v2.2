@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/resources/super-newclar-official-image/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "4cdf9fdd516360dc02c636b9ace12f614e146d404587c17eb0a9f7ca504606d4",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Искусственные зубы Super Newclar — официальное изображение | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Искусственные зубы Super Newclar — официальное изображение — Оригинальные графические документы завода"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/resources/super-newclar-official-image/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/super-newclar-official-image/",
+    "en": "http://127.0.0.1:3100/en/resources/super-newclar-official-image/",
+    "tr": "http://127.0.0.1:3100/tr/resources/super-newclar-official-image/",
+    "ar": "http://127.0.0.1:3100/ar/resources/super-newclar-official-image/",
+    "ru": "http://127.0.0.1:3100/ru/resources/super-newclar-official-image/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/super-newclar-official-image/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 63
+}

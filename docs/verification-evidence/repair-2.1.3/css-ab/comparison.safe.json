@@ -1,0 +1,2947 @@
+{
+  "schemaVersion": 1,
+  "kind": "complete-bounded-css-delivery-comparison",
+  "finishedAt": "2026-10-25T07:02:38.770925+00:00",
+  "candidateBuilds": {
+    "A": "fztGyySqMaBbes8--JQKs",
+    "B": "G0D50qevp3Md82gIM2grZ"
+  },
+  "counterbalancedOrder": [
+    "A",
+    "B",
+    "B",
+    "A",
+    "A",
+    "B"
+  ],
+  "scoredNavigations": 48,
+  "samplesPerCandidatePerCell": 3,
+  "successfulCells": 8,
+  "scoredReruns": 0,
+  "rawTraceCollected": false,
+  "failedInitialBrowserStartsWithoutLhr": 4,
+  "firstBlockWrapperExceptionsPreserved": true,
+  "firstPrivateInvocationOuterNodeExitUnknown": true,
+  "measurementRecordsAffected": 2,
+  "comparisonOnlyExceptionNotPermittedForFinalAudit": true,
+  "scopeReceipts": [
+    {
+      "block": 1,
+      "candidate": "A",
+      "scope": "public",
+      "summarySha256": "befb8f9f382dc6b311c6b5820a190ce769f89868c3c137b1924fc76e6c7ea8ef",
+      "manifestSha256": "5a4acb3eb0f1117889b87f05475cfa37f86bf5a1d04848ff8376bf0592731cd0",
+      "inventorySha256": "fd9f186afcccf32be210e58b3c3a2c9a6e239507d6b9f03650dbef164390f9a6",
+      "retainedFirstBlockWrapperException": true,
+      "originalOuterNodeExitKnown": true,
+      "scoredLhrs": 4,
+      "fullPrivateCoverageClaimed": false
+    },
+    {
+      "block": 1,
+      "candidate": "A",
+      "scope": "private-mobile",
+      "summarySha256": "923cfa7e7204d421d6b6d637948c80e2ead27068c85321500059f4a54e3770ec",
+      "manifestSha256": "ee3d31029cbe71ffa7e729a3d266218be58562a94e8dcf6ef141d6a7b6d39d34",
+      "inventorySha256": "9487eda187485e187b3f54e0b98dd68cb791d85f98a7b62afaf8307f14e9f68d",
+      "retainedFirstBlockWrapperException": true,
+      "originalOuterNodeExitKnown": false,
+      "scoredLhrs": 2,
+      "fullPrivateCoverageClaimed": false
+    },
+    {
+      "block": 1,
+      "candidate": "A",
+      "scope": "private-desktop",
+      "summarySha256": "b656bd124c0372415829c19b72247fb80dc9710ce2bc627c046808a4274a658e",
+      "manifestSha256": "39883bc8516fa6a11d0d4b56178f759560c67a0510d7244e69ec076aed6df74a",
+      "inventorySha256": "2d9bf64f2554eb476ccdd30f651a647222e25df4db21977a579212c509f9b3e8",
+      "retainedFirstBlockWrapperException": false,
+      "originalOuterNodeExitKnown": true,
+      "scoredLhrs": 2,
+      "fullPrivateCoverageClaimed": false
+    },
+    {
+      "block": 2,
+      "candidate": "B",
+      "scope": "public",
+      "summarySha256": "736048189a27dd4e1990dc905e2af6572d5c8a6ece639cbb0d55046e628ddf64",
+      "manifestSha256": "22b2c1550b90a77f7642fb70f0c87634ff5ff0deb42886e535ded28a9d9d7f93",
+      "inventorySha256": "fd9f186afcccf32be210e58b3c3a2c9a6e239507d6b9f03650dbef164390f9a6",
+      "retainedFirstBlockWrapperException": false,
+      "originalOuterNodeExitKnown": true,
+      "scoredLhrs": 4,
+      "fullPrivateCoverageClaimed": false
+    },
+    {
+      "block": 2,
+      "candidate": "B",
+      "scope": "private-mobile",
+      "summarySha256": "a3956a7aace1ba34289c0249a3c05a45702c08ce0992ec3b99db05b9e5f9ca2c",
+      "manifestSha256": "3df8b4385f78d6e4778eb7be9e648354f291076abaa079584f940bfda869b865",
+      "inventorySha256": "9487eda187485e187b3f54e0b98dd68cb791d85f98a7b62afaf8307f14e9f68d",
+      "retainedFirstBlockWrapperException": false,
+      "originalOuterNodeExitKnown": true,
+      "scoredLhrs": 2,
+      "fullPrivateCoverageClaimed": false
+    },
+    {
+      "block": 2,
+      "candidate": "B",
+      "scope": "private-desktop",
+      "summarySha256": "e9fc51fa1cc31453a26f1156efc7b1550f4c78bb252d46b50eeea1abf3ca93e9",
+      "manifestSha256": "684529eb9b7fea5721ae590c9ceac8c4d7b121ba269d9964277b9090ca858810",
+      "inventorySha256": "2d9bf64f2554eb476ccdd30f651a647222e25df4db21977a579212c509f9b3e8",
+      "retainedFirstBlockWrapperException": false,
+      "originalOuterNodeExitKnown": true,
+      "scoredLhrs": 2,
+      "fullPrivateCoverageClaimed": false
+    },
+    {
+      "block": 3,
+      "candidate": "B",
+      "scope": "public",
+      "summarySha256": "6891921cd7dc95fa250876e0a3d6e1cc299038194c1a2c36dcf0a320ea1ef625",
+      "manifestSha256": "97506eda413054d797ec66251d2a5a7c71cd7324a1dc54e0ba85415a1b2e958b",
+      "inventorySha256": "fd9f186afcccf32be210e58b3c3a2c9a6e239507d6b9f03650dbef164390f9a6",
+      "retainedFirstBlockWrapperException": false,
+      "originalOuterNodeExitKnown": true,
+      "scoredLhrs": 4,
+      "fullPrivateCoverageClaimed": false
+    },
+    {
+      "block": 3,
+      "candidate": "B",
+      "scope": "private-mobile",
+      "summarySha256": "63a8184cfabb3147340e9291df90c70d4f7ecfa0cbfe56c73696db507cbac660",
+      "manifestSha256": "8ec356d664afdbeb37b8ee68c6173848491cf166eae8e2239a458ff364966006",
+      "inventorySha256": "9487eda187485e187b3f54e0b98dd68cb791d85f98a7b62afaf8307f14e9f68d",
+      "retainedFirstBlockWrapperException": false,
+      "originalOuterNodeExitKnown": true,
+      "scoredLhrs": 2,
+      "fullPrivateCoverageClaimed": false
+    },
+    {
+      "block": 3,
+      "candidate": "B",
+      "scope": "private-desktop",
+      "summarySha256": "8ef47249edb1cfd481bb76c45b106b05ad762fb649ad9e79f00385157880860c",
+      "manifestSha256": "19669899492a1d30bc5b77b8b46950902c2bcb2bac799dc65127796867fff9ac",
+      "inventorySha256": "2d9bf64f2554eb476ccdd30f651a647222e25df4db21977a579212c509f9b3e8",
+      "retainedFirstBlockWrapperException": false,
+      "originalOuterNodeExitKnown": true,
+      "scoredLhrs": 2,
+      "fullPrivateCoverageClaimed": false
+    },
+    {
+      "block": 4,
+      "candidate": "A",
+      "scope": "public",
+      "summarySha256": "1112b5973e3ddc4839123e8effc977c8a4af373420a803e8901be8f7a246c459",
+      "manifestSha256": "a42d8bf3452e38a474f5a65aae4fa3af29a7b4e88c77f81687d371494f55b91b",
+      "inventorySha256": "fd9f186afcccf32be210e58b3c3a2c9a6e239507d6b9f03650dbef164390f9a6",
+      "retainedFirstBlockWrapperException": false,
+      "originalOuterNodeExitKnown": true,
+      "scoredLhrs": 4,
+      "fullPrivateCoverageClaimed": false
+    },
+    {
+      "block": 4,
+      "candidate": "A",
+      "scope": "private-mobile",
+      "summarySha256": "d4d59b739909e076c9bc5becbf79db3f17b1a074e95964460be3b2fbec4f7297",
+      "manifestSha256": "de490f4d8a0a6c0401d6ef63764fe9b61223b172620d87c0b67373a003875d5a",
+      "inventorySha256": "9487eda187485e187b3f54e0b98dd68cb791d85f98a7b62afaf8307f14e9f68d",
+      "retainedFirstBlockWrapperException": false,
+      "originalOuterNodeExitKnown": true,
+      "scoredLhrs": 2,
+      "fullPrivateCoverageClaimed": false
+    },
+    {
+      "block": 4,
+      "candidate": "A",
+      "scope": "private-desktop",
+      "summarySha256": "dee6aa0c407aacc78be42df8fc4952296a77ff237700e3d773d75b64a7a7cede",
+      "manifestSha256": "5e2cbc5f64075daed020866c8630f64fa93240c25dd6bf5f6bc4e08268dfa53a",
+      "inventorySha256": "2d9bf64f2554eb476ccdd30f651a647222e25df4db21977a579212c509f9b3e8",
+      "retainedFirstBlockWrapperException": false,
+      "originalOuterNodeExitKnown": true,
+      "scoredLhrs": 2,
+      "fullPrivateCoverageClaimed": false
+    },
+    {
+      "block": 5,
+      "candidate": "A",
+      "scope": "public",
+      "summarySha256": "16d553aae94c245bedf85a61a253de80681065bf5eba0252f7c63440934a3ef6",
+      "manifestSha256": "50ecce2018f4f9699c5aa72bb0499a3321a1c3799d2a86bd91648cd9565c4e57",
+      "inventorySha256": "fd9f186afcccf32be210e58b3c3a2c9a6e239507d6b9f03650dbef164390f9a6",
+      "retainedFirstBlockWrapperException": false,
+      "originalOuterNodeExitKnown": true,
+      "scoredLhrs": 4,
+      "fullPrivateCoverageClaimed": false
+    },
+    {
+      "block": 5,
+      "candidate": "A",
+      "scope": "private-mobile",
+      "summarySha256": "82e8b8126e8356a74e4d84d393a7683bcf71c3a623307142ce5709bd5e82074a",
+      "manifestSha256": "94cb21c8acd7a358cff21baffa6da56c8f6f5f6d1a882c684a5385684d7e9328",
+      "inventorySha256": "9487eda187485e187b3f54e0b98dd68cb791d85f98a7b62afaf8307f14e9f68d",
+      "retainedFirstBlockWrapperException": false,
+      "originalOuterNodeExitKnown": true,
+      "scoredLhrs": 2,
+      "fullPrivateCoverageClaimed": false
+    },
+    {
+      "block": 5,
+      "candidate": "A",
+      "scope": "private-desktop",
+      "summarySha256": "3301b1efaba8e56d683436fd3844ae549de2dabe9788878fa6ded2889f38ee53",
+      "manifestSha256": "1703d5bbbaa5497f043356bca775aca0d83a350d421855ce8ea235971344e8d2",
+      "inventorySha256": "2d9bf64f2554eb476ccdd30f651a647222e25df4db21977a579212c509f9b3e8",
+      "retainedFirstBlockWrapperException": false,
+      "originalOuterNodeExitKnown": true,
+      "scoredLhrs": 2,
+      "fullPrivateCoverageClaimed": false
+    },
+    {
+      "block": 6,
+      "candidate": "B",
+      "scope": "public",
+      "summarySha256": "3ac1fe2f63ccb46afeb028e90b9dd2d556012fe389205737de8bb00e45e325ce",
+      "manifestSha256": "5b4ab4935662568647dddc957f6e35caf6383af031a483e9bd3201812937d75d",
+      "inventorySha256": "fd9f186afcccf32be210e58b3c3a2c9a6e239507d6b9f03650dbef164390f9a6",
+      "retainedFirstBlockWrapperException": false,
+      "originalOuterNodeExitKnown": true,
+      "scoredLhrs": 4,
+      "fullPrivateCoverageClaimed": false
+    },
+    {
+      "block": 6,
+      "candidate": "B",
+      "scope": "private-mobile",
+      "summarySha256": "8ddece760610cae8b6c14590a00d8e31107aed4a7c37295a76159e788f29fefb",
+      "manifestSha256": "c5b91e54c7ae521762c7cc9eef5d7cd65308241d37dff52f4673d30425cd5196",
+      "inventorySha256": "9487eda187485e187b3f54e0b98dd68cb791d85f98a7b62afaf8307f14e9f68d",
+      "retainedFirstBlockWrapperException": false,
+      "originalOuterNodeExitKnown": true,
+      "scoredLhrs": 2,
+      "fullPrivateCoverageClaimed": false
+    },
+    {
+      "block": 6,
+      "candidate": "B",
+      "scope": "private-desktop",
+      "summarySha256": "f4c6f3e6b206b10c6ce77265fd2409a9cf2bcbf17330d3ed1a97282bf8fd1da3",
+      "manifestSha256": "e9191135e0bf3820424236d3af95f02d06ad79f4da4c63d5aa4b9a272db561a7",
+      "inventorySha256": "2d9bf64f2554eb476ccdd30f651a647222e25df4db21977a579212c509f9b3e8",
+      "retainedFirstBlockWrapperException": false,
+      "originalOuterNodeExitKnown": true,
+      "scoredLhrs": 2,
+      "fullPrivateCoverageClaimed": false
+    }
+  ],
+  "settings": {
+    "public-mobile": {
+      "sha256": "e8b5f80bb53bf245590dd31392137c8a269f771c3bc1187ed5c7efd1c83b43ca",
+      "settings": {
+        "formFactor": "mobile",
+        "throttlingMethod": "simulate",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ],
+        "skipAudits": null,
+        "disableFullPageScreenshot": true
+      }
+    },
+    "public-desktop": {
+      "sha256": "f063dddcd449ac537f73ce406fba34608ee91970489b12cf46a7a8b7c61ca1cd",
+      "settings": {
+        "formFactor": "desktop",
+        "throttlingMethod": "simulate",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ],
+        "skipAudits": [
+          "modern-http-insight",
+          "bf-cache"
+        ],
+        "disableFullPageScreenshot": true
+      }
+    },
+    "private-mobile": {
+      "sha256": "e8b5f80bb53bf245590dd31392137c8a269f771c3bc1187ed5c7efd1c83b43ca",
+      "settings": {
+        "formFactor": "mobile",
+        "throttlingMethod": "simulate",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ],
+        "skipAudits": null,
+        "disableFullPageScreenshot": true
+      }
+    },
+    "private-desktop": {
+      "sha256": "f063dddcd449ac537f73ce406fba34608ee91970489b12cf46a7a8b7c61ca1cd",
+      "settings": {
+        "formFactor": "desktop",
+        "throttlingMethod": "simulate",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ],
+        "skipAudits": [
+          "modern-http-insight",
+          "bf-cache"
+        ],
+        "disableFullPageScreenshot": true
+      }
+    }
+  },
+  "cells": [
+    {
+      "scope": "private",
+      "path": "/ar/admin/",
+      "device": "desktop",
+      "A": {
+        "performance": {
+          "n": 3,
+          "minimum": 60,
+          "median": 61,
+          "maximum": 61
+        },
+        "modeledFcpMs": {
+          "n": 3,
+          "minimum": 418.04410000000007,
+          "median": 420.6114,
+          "maximum": 421.9403
+        },
+        "modeledLcpMs": {
+          "n": 3,
+          "minimum": 1698.8341999999993,
+          "median": 1738.0882000000004,
+          "maximum": 1745.880599999999
+        },
+        "modeledTbtMs": {
+          "n": 3,
+          "minimum": 1850.6942999999999,
+          "median": 1894.4779500000002,
+          "maximum": 1903.0298500000001
+        },
+        "observedFcpMs": {
+          "n": 3,
+          "minimum": 2219,
+          "median": 2235,
+          "maximum": 2843
+        },
+        "observedLcpMs": {
+          "n": 3,
+          "minimum": 2843,
+          "median": 3035,
+          "maximum": 3038
+        },
+        "traceTaskTimeMs": {
+          "n": 3,
+          "minimum": 2392.7720000000013,
+          "median": 2417.5270000000014,
+          "maximum": 2427.9070000000006
+        },
+        "transferBytes": {
+          "n": 3,
+          "minimum": 1059045,
+          "median": 1059156,
+          "maximum": 1059591
+        },
+        "benchmarkIndex": {
+          "n": 3,
+          "minimum": 2366,
+          "median": 2430,
+          "maximum": 2435
+        }
+      },
+      "B": {
+        "performance": {
+          "n": 3,
+          "minimum": 59,
+          "median": 61,
+          "maximum": 62
+        },
+        "modeledFcpMs": {
+          "n": 3,
+          "minimum": 463.4207,
+          "median": 466.74019999999996,
+          "maximum": 481.53754999999995
+        },
+        "modeledLcpMs": {
+          "n": 3,
+          "minimum": 1693.2621000000004,
+          "median": 1696.2205999999978,
+          "maximum": 1748.2292499999992
+        },
+        "modeledTbtMs": {
+          "n": 3,
+          "minimum": 1033.1732,
+          "median": 1642.3862,
+          "maximum": 1651.3082999999997
+        },
+        "observedFcpMs": {
+          "n": 3,
+          "minimum": 2174,
+          "median": 2207,
+          "maximum": 3002
+        },
+        "observedLcpMs": {
+          "n": 3,
+          "minimum": 2988,
+          "median": 3002,
+          "maximum": 3005
+        },
+        "traceTaskTimeMs": {
+          "n": 3,
+          "minimum": 1758.0299999999947,
+          "median": 2381.2690000000025,
+          "maximum": 2477.6729999999993
+        },
+        "transferBytes": {
+          "n": 3,
+          "minimum": 1000520,
+          "median": 1000866,
+          "maximum": 1001390
+        },
+        "benchmarkIndex": {
+          "n": 3,
+          "minimum": 2467,
+          "median": 2540.5,
+          "maximum": 2613.5
+        }
+      },
+      "medianBminusA": {
+        "performance": 0,
+        "modeledFcpMs": 46.128799999999956,
+        "modeledLcpMs": -41.86760000000254,
+        "modeledTbtMs": -252.09175000000027,
+        "observedFcpMs": -28,
+        "observedLcpMs": -33,
+        "traceTaskTimeMs": -36.2579999999989,
+        "transferBytes": -58290,
+        "benchmarkIndex": 110.5
+      }
+    },
+    {
+      "scope": "private",
+      "path": "/ar/admin/",
+      "device": "mobile",
+      "A": {
+        "performance": {
+          "n": 3,
+          "minimum": 44,
+          "median": 45,
+          "maximum": 45
+        },
+        "modeledFcpMs": {
+          "n": 3,
+          "minimum": 1814.0775,
+          "median": 1818.056,
+          "maximum": 1819.8102
+        },
+        "modeledLcpMs": {
+          "n": 3,
+          "minimum": 7627.9306,
+          "median": 7712.1680000000015,
+          "maximum": 7758.732499999997
+        },
+        "modeledTbtMs": {
+          "n": 3,
+          "minimum": 2458.9720000000007,
+          "median": 2684.9612499999985,
+          "maximum": 4039
+        },
+        "observedFcpMs": {
+          "n": 3,
+          "minimum": 1208,
+          "median": 1466,
+          "maximum": 1638
+        },
+        "observedLcpMs": {
+          "n": 3,
+          "minimum": 1638,
+          "median": 1714,
+          "maximum": 2036
+        },
+        "traceTaskTimeMs": {
+          "n": 3,
+          "minimum": 1004.0519999999975,
+          "median": 1029.5839999999976,
+          "maximum": 1429.6649999999952
+        },
+        "transferBytes": {
+          "n": 3,
+          "minimum": 1034851,
+          "median": 1034908,
+          "maximum": 1035266
+        },
+        "benchmarkIndex": {
+          "n": 3,
+          "minimum": 2489.5,
+          "median": 2517,
+          "maximum": 2522
+        }
+      },
+      "B": {
+        "performance": {
+          "n": 3,
+          "minimum": 44,
+          "median": 45,
+          "maximum": 46
+        },
+        "modeledFcpMs": {
+          "n": 3,
+          "minimum": 1974.4269,
+          "median": 2130.72525,
+          "maximum": 2134.95885
+        },
+        "modeledLcpMs": {
+          "n": 3,
+          "minimum": 7618.996100000003,
+          "median": 7647.192250000003,
+          "maximum": 7662.070650000001
+        },
+        "modeledTbtMs": {
+          "n": 3,
+          "minimum": 1935.715400000001,
+          "median": 2094.5164999999997,
+          "maximum": 2365.694099999999
+        },
+        "observedFcpMs": {
+          "n": 3,
+          "minimum": 1223,
+          "median": 1781,
+          "maximum": 1789
+        },
+        "observedLcpMs": {
+          "n": 3,
+          "minimum": 1768,
+          "median": 1781,
+          "maximum": 1789
+        },
+        "traceTaskTimeMs": {
+          "n": 3,
+          "minimum": 1098.8559999999975,
+          "median": 1192.0189999999943,
+          "maximum": 1251.8709999999958
+        },
+        "transferBytes": {
+          "n": 3,
+          "minimum": 974816,
+          "median": 976127,
+          "maximum": 976569
+        },
+        "benchmarkIndex": {
+          "n": 3,
+          "minimum": 2239,
+          "median": 2444.5,
+          "maximum": 2463
+        }
+      },
+      "medianBminusA": {
+        "performance": 0,
+        "modeledFcpMs": 312.6692499999999,
+        "modeledLcpMs": -64.9757499999987,
+        "modeledTbtMs": -590.4447499999987,
+        "observedFcpMs": 315,
+        "observedLcpMs": 67,
+        "traceTaskTimeMs": 162.43499999999676,
+        "transferBytes": -58781,
+        "benchmarkIndex": -72.5
+      }
+    },
+    {
+      "scope": "private",
+      "path": "/ar/admin/ai/",
+      "device": "desktop",
+      "A": {
+        "performance": {
+          "n": 3,
+          "minimum": 79,
+          "median": 92,
+          "maximum": 92
+        },
+        "modeledFcpMs": {
+          "n": 3,
+          "minimum": 494.94062499999995,
+          "median": 505.39675,
+          "maximum": 506.0798749999999
+        },
+        "modeledLcpMs": {
+          "n": 3,
+          "minimum": 1769.4236499999997,
+          "median": 1775.1108999999992,
+          "maximum": 1789.7049999999997
+        },
+        "modeledTbtMs": {
+          "n": 3,
+          "minimum": 18.420649999999995,
+          "median": 27.5,
+          "maximum": 316.55207499999995
+        },
+        "observedFcpMs": {
+          "n": 3,
+          "minimum": 950,
+          "median": 986,
+          "maximum": 1089
+        },
+        "observedLcpMs": {
+          "n": 3,
+          "minimum": 1514,
+          "median": 1600,
+          "maximum": 1608
+        },
+        "traceTaskTimeMs": {
+          "n": 3,
+          "minimum": 1633.7699999999734,
+          "median": 1677.264999999981,
+          "maximum": 1990.6649999999618
+        },
+        "transferBytes": {
+          "n": 3,
+          "minimum": 1106052,
+          "median": 1106997,
+          "maximum": 1107881
+        },
+        "benchmarkIndex": {
+          "n": 3,
+          "minimum": 2416.5,
+          "median": 2424.5,
+          "maximum": 2488
+        }
+      },
+      "B": {
+        "performance": {
+          "n": 3,
+          "minimum": 92,
+          "median": 92,
+          "maximum": 92
+        },
+        "modeledFcpMs": {
+          "n": 3,
+          "minimum": 503.303175,
+          "median": 527.260625,
+          "maximum": 529.4245000000001
+        },
+        "modeledLcpMs": {
+          "n": 3,
+          "minimum": 1668.5805,
+          "median": 1740.0987500000006,
+          "maximum": 1743.6629999999993
+        },
+        "modeledTbtMs": {
+          "n": 3,
+          "minimum": 24.000000000000114,
+          "median": 29.00000000000034,
+          "maximum": 93.35487499999999
+        },
+        "observedFcpMs": {
+          "n": 3,
+          "minimum": 903,
+          "median": 1007,
+          "maximum": 1116
+        },
+        "observedLcpMs": {
+          "n": 3,
+          "minimum": 1480,
+          "median": 1678,
+          "maximum": 1869
+        },
+        "traceTaskTimeMs": {
+          "n": 3,
+          "minimum": 600.1599999999984,
+          "median": 1776.9569999999717,
+          "maximum": 1937.1039999999764
+        },
+        "transferBytes": {
+          "n": 3,
+          "minimum": 1048462,
+          "median": 1048587,
+          "maximum": 1049547
+        },
+        "benchmarkIndex": {
+          "n": 3,
+          "minimum": 2300.5,
+          "median": 2409,
+          "maximum": 2464.5
+        }
+      },
+      "medianBminusA": {
+        "performance": 0,
+        "modeledFcpMs": 21.863875000000007,
+        "modeledLcpMs": -35.012149999998655,
+        "modeledTbtMs": 1.500000000000341,
+        "observedFcpMs": 21,
+        "observedLcpMs": 78,
+        "traceTaskTimeMs": 99.69199999999068,
+        "transferBytes": -58410,
+        "benchmarkIndex": -15.5
+      }
+    },
+    {
+      "scope": "private",
+      "path": "/ar/admin/ai/",
+      "device": "mobile",
+      "A": {
+        "performance": {
+          "n": 3,
+          "minimum": 62,
+          "median": 63,
+          "maximum": 63
+        },
+        "modeledFcpMs": {
+          "n": 3,
+          "minimum": 2060.506875,
+          "median": 2297.3322500000004,
+          "maximum": 2298.911875
+        },
+        "modeledLcpMs": {
+          "n": 3,
+          "minimum": 7630.6645,
+          "median": 7809.01375,
+          "maximum": 7870.32375
+        },
+        "modeledTbtMs": {
+          "n": 3,
+          "minimum": 408,
+          "median": 412,
+          "maximum": 430
+        },
+        "observedFcpMs": {
+          "n": 3,
+          "minimum": 545,
+          "median": 558,
+          "maximum": 643
+        },
+        "observedLcpMs": {
+          "n": 3,
+          "minimum": 886,
+          "median": 947,
+          "maximum": 980
+        },
+        "traceTaskTimeMs": {
+          "n": 3,
+          "minimum": 434.14899999999983,
+          "median": 447.7859999999989,
+          "maximum": 458.315000000001
+        },
+        "transferBytes": {
+          "n": 3,
+          "minimum": 1074417,
+          "median": 1074428,
+          "maximum": 1074430
+        },
+        "benchmarkIndex": {
+          "n": 3,
+          "minimum": 2391.5,
+          "median": 2465.5,
+          "maximum": 2497.5
+        }
+      },
+      "B": {
+        "performance": {
+          "n": 3,
+          "minimum": 59,
+          "median": 64,
+          "maximum": 65
+        },
+        "modeledFcpMs": {
+          "n": 3,
+          "minimum": 2265.0844500000003,
+          "median": 2342.50805,
+          "maximum": 2346.8099
+        },
+        "modeledLcpMs": {
+          "n": 3,
+          "minimum": 7628.225200000001,
+          "median": 7705.851199999999,
+          "maximum": 7798.0184
+        },
+        "modeledTbtMs": {
+          "n": 3,
+          "minimum": 352.00000000000045,
+          "median": 368.00000000000045,
+          "maximum": 537.9999999999995
+        },
+        "observedFcpMs": {
+          "n": 3,
+          "minimum": 474,
+          "median": 496,
+          "maximum": 670
+        },
+        "observedLcpMs": {
+          "n": 3,
+          "minimum": 847,
+          "median": 881,
+          "maximum": 961
+        },
+        "traceTaskTimeMs": {
+          "n": 3,
+          "minimum": 380.7639999999991,
+          "median": 399.42899999999906,
+          "maximum": 509.30099999999857
+        },
+        "transferBytes": {
+          "n": 3,
+          "minimum": 1015232,
+          "median": 1015235,
+          "maximum": 1015254
+        },
+        "benchmarkIndex": {
+          "n": 3,
+          "minimum": 2252.5,
+          "median": 2312.5,
+          "maximum": 2337
+        }
+      },
+      "medianBminusA": {
+        "performance": 1,
+        "modeledFcpMs": 45.175799999999526,
+        "modeledLcpMs": -103.16255000000092,
+        "modeledTbtMs": -43.999999999999545,
+        "observedFcpMs": -62,
+        "observedLcpMs": -66,
+        "traceTaskTimeMs": -48.35699999999986,
+        "transferBytes": -59193,
+        "benchmarkIndex": -153.0
+      }
+    },
+    {
+      "scope": "public",
+      "path": "/ar/",
+      "device": "desktop",
+      "A": {
+        "performance": {
+          "n": 3,
+          "minimum": 85,
+          "median": 86,
+          "maximum": 89
+        },
+        "modeledFcpMs": {
+          "n": 3,
+          "minimum": 450.46410000000003,
+          "median": 453.1041,
+          "maximum": 459.5602
+        },
+        "modeledLcpMs": {
+          "n": 3,
+          "minimum": 1386.36435,
+          "median": 1405.4606999999999,
+          "maximum": 1406.62435
+        },
+        "modeledTbtMs": {
+          "n": 3,
+          "minimum": 197.44795,
+          "median": 234.76794999999993,
+          "maximum": 254.21990000000005
+        },
+        "observedFcpMs": {
+          "n": 3,
+          "minimum": 1304,
+          "median": 1351,
+          "maximum": 1451
+        },
+        "observedLcpMs": {
+          "n": 3,
+          "minimum": 1304,
+          "median": 1351,
+          "maximum": 1451
+        },
+        "traceTaskTimeMs": {
+          "n": 3,
+          "minimum": 917.9929999999898,
+          "median": 981.6169999999967,
+          "maximum": 1002.0009999999976
+        },
+        "transferBytes": {
+          "n": 3,
+          "minimum": 1219009,
+          "median": 1219426,
+          "maximum": 1219601
+        },
+        "benchmarkIndex": {
+          "n": 3,
+          "minimum": 2385.5,
+          "median": 2457,
+          "maximum": 2518.5
+        }
+      },
+      "B": {
+        "performance": {
+          "n": 3,
+          "minimum": 86,
+          "median": 89,
+          "maximum": 94
+        },
+        "modeledFcpMs": {
+          "n": 3,
+          "minimum": 500.86485,
+          "median": 503.35035,
+          "maximum": 510.7761
+        },
+        "modeledLcpMs": {
+          "n": 3,
+          "minimum": 1378.6396,
+          "median": 1399.2676,
+          "maximum": 1422.5695999999998
+        },
+        "modeledTbtMs": {
+          "n": 3,
+          "minimum": 76.48259999999988,
+          "median": 202.43310000000014,
+          "maximum": 236.09010000000006
+        },
+        "observedFcpMs": {
+          "n": 3,
+          "minimum": 1359,
+          "median": 1371,
+          "maximum": 1407
+        },
+        "observedLcpMs": {
+          "n": 3,
+          "minimum": 1359,
+          "median": 1371,
+          "maximum": 1407
+        },
+        "traceTaskTimeMs": {
+          "n": 3,
+          "minimum": 922.5899999999963,
+          "median": 1077.0339999999967,
+          "maximum": 1108.5959999999957
+        },
+        "transferBytes": {
+          "n": 3,
+          "minimum": 1179304,
+          "median": 1179330,
+          "maximum": 1179749
+        },
+        "benchmarkIndex": {
+          "n": 3,
+          "minimum": 2391,
+          "median": 2402.5,
+          "maximum": 2429
+        }
+      },
+      "medianBminusA": {
+        "performance": 3,
+        "modeledFcpMs": 50.246249999999975,
+        "modeledLcpMs": -6.1930999999999585,
+        "modeledTbtMs": -32.33484999999979,
+        "observedFcpMs": 20,
+        "observedLcpMs": 20,
+        "traceTaskTimeMs": 95.41700000000003,
+        "transferBytes": -40096,
+        "benchmarkIndex": -54.5
+      }
+    },
+    {
+      "scope": "public",
+      "path": "/ar/",
+      "device": "mobile",
+      "A": {
+        "performance": {
+          "n": 3,
+          "minimum": 45,
+          "median": 51,
+          "maximum": 52
+        },
+        "modeledFcpMs": {
+          "n": 3,
+          "minimum": 1813.4823,
+          "median": 1816.3766,
+          "maximum": 1821.6857
+        },
+        "modeledLcpMs": {
+          "n": 3,
+          "minimum": 7426.72395,
+          "median": 7449.478525,
+          "maximum": 7593.188049999999
+        },
+        "modeledTbtMs": {
+          "n": 3,
+          "minimum": 910.2588499999999,
+          "median": 1054.15715,
+          "maximum": 1912.8116999999997
+        },
+        "observedFcpMs": {
+          "n": 3,
+          "minimum": 1184,
+          "median": 1204,
+          "maximum": 1246
+        },
+        "observedLcpMs": {
+          "n": 3,
+          "minimum": 1184,
+          "median": 1204,
+          "maximum": 1246
+        },
+        "traceTaskTimeMs": {
+          "n": 3,
+          "minimum": 901.8289999999919,
+          "median": 979.3439999999882,
+          "maximum": 1199.8219999999899
+        },
+        "transferBytes": {
+          "n": 3,
+          "minimum": 1270143,
+          "median": 1270146,
+          "maximum": 1270451
+        },
+        "benchmarkIndex": {
+          "n": 3,
+          "minimum": 2279.5,
+          "median": 2327,
+          "maximum": 2360
+        }
+      },
+      "B": {
+        "performance": {
+          "n": 3,
+          "minimum": 47,
+          "median": 58,
+          "maximum": 61
+        },
+        "modeledFcpMs": {
+          "n": 3,
+          "minimum": 2118.92415,
+          "median": 2125.32645,
+          "maximum": 2127.38055
+        },
+        "modeledLcpMs": {
+          "n": 3,
+          "minimum": 7315.156349999999,
+          "median": 7355.38795,
+          "maximum": 7393.595049999998
+        },
+        "modeledTbtMs": {
+          "n": 3,
+          "minimum": 441.7463000000007,
+          "median": 548.3839000000003,
+          "maximum": 1227.6156999999994
+        },
+        "observedFcpMs": {
+          "n": 3,
+          "minimum": 1158,
+          "median": 1161,
+          "maximum": 1413
+        },
+        "observedLcpMs": {
+          "n": 3,
+          "minimum": 1158,
+          "median": 1161,
+          "maximum": 1413
+        },
+        "traceTaskTimeMs": {
+          "n": 3,
+          "minimum": 996.0399999999917,
+          "median": 999.4179999999922,
+          "maximum": 1223.021999999987
+        },
+        "transferBytes": {
+          "n": 3,
+          "minimum": 1229951,
+          "median": 1230163,
+          "maximum": 1230174
+        },
+        "benchmarkIndex": {
+          "n": 3,
+          "minimum": 2310,
+          "median": 2394.5,
+          "maximum": 2477.5
+        }
+      },
+      "medianBminusA": {
+        "performance": 7,
+        "modeledFcpMs": 308.94984999999997,
+        "modeledLcpMs": -94.09057500000017,
+        "modeledTbtMs": -505.77324999999973,
+        "observedFcpMs": -43,
+        "observedLcpMs": -43,
+        "traceTaskTimeMs": 20.074000000003934,
+        "transferBytes": -39983,
+        "benchmarkIndex": 67.5
+      }
+    },
+    {
+      "scope": "public",
+      "path": "/ar/about/",
+      "device": "desktop",
+      "A": {
+        "performance": {
+          "n": 3,
+          "minimum": 81,
+          "median": 82,
+          "maximum": 90
+        },
+        "modeledFcpMs": {
+          "n": 3,
+          "minimum": 336.4188,
+          "median": 342.7966,
+          "maximum": 353.7984
+        },
+        "modeledLcpMs": {
+          "n": 3,
+          "minimum": 1333.2564,
+          "median": 1370.7880999999998,
+          "maximum": 1538.2944000000002
+        },
+        "modeledTbtMs": {
+          "n": 3,
+          "minimum": 199,
+          "median": 293.99999999999994,
+          "maximum": 338.99999999999994
+        },
+        "observedFcpMs": {
+          "n": 3,
+          "minimum": 1228,
+          "median": 1367,
+          "maximum": 1376
+        },
+        "observedLcpMs": {
+          "n": 3,
+          "minimum": 1228,
+          "median": 1367,
+          "maximum": 1376
+        },
+        "traceTaskTimeMs": {
+          "n": 3,
+          "minimum": 662.5369999999963,
+          "median": 814.3159999999999,
+          "maximum": 862.7649999999916
+        },
+        "transferBytes": {
+          "n": 3,
+          "minimum": 975041,
+          "median": 976182,
+          "maximum": 977008
+        },
+        "benchmarkIndex": {
+          "n": 3,
+          "minimum": 2379.5,
+          "median": 2489.5,
+          "maximum": 2569
+        }
+      },
+      "B": {
+        "performance": {
+          "n": 3,
+          "minimum": 85,
+          "median": 85,
+          "maximum": 93
+        },
+        "modeledFcpMs": {
+          "n": 3,
+          "minimum": 383.96175,
+          "median": 385.8492,
+          "maximum": 393.17955
+        },
+        "modeledLcpMs": {
+          "n": 3,
+          "minimum": 1350.91075,
+          "median": 1351.3147999999999,
+          "maximum": 1373.4189500000002
+        },
+        "modeledTbtMs": {
+          "n": 3,
+          "minimum": 139.7672,
+          "median": 269.02550000000014,
+          "maximum": 270.88029999999986
+        },
+        "observedFcpMs": {
+          "n": 3,
+          "minimum": 1258,
+          "median": 1292,
+          "maximum": 1301
+        },
+        "observedLcpMs": {
+          "n": 3,
+          "minimum": 1258,
+          "median": 1292,
+          "maximum": 1301
+        },
+        "traceTaskTimeMs": {
+          "n": 3,
+          "minimum": 719.9459999999962,
+          "median": 889.4229999999952,
+          "maximum": 889.6349999999987
+        },
+        "transferBytes": {
+          "n": 3,
+          "minimum": 934271,
+          "median": 934293,
+          "maximum": 934630
+        },
+        "benchmarkIndex": {
+          "n": 3,
+          "minimum": 2331,
+          "median": 2397,
+          "maximum": 2445.5
+        }
+      },
+      "medianBminusA": {
+        "performance": 3,
+        "modeledFcpMs": 43.052599999999984,
+        "modeledLcpMs": -19.47329999999988,
+        "modeledTbtMs": -24.974499999999807,
+        "observedFcpMs": -75,
+        "observedLcpMs": -75,
+        "traceTaskTimeMs": 75.10699999999531,
+        "transferBytes": -41889,
+        "benchmarkIndex": -92.5
+      }
+    },
+    {
+      "scope": "public",
+      "path": "/ar/about/",
+      "device": "mobile",
+      "A": {
+        "performance": {
+          "n": 3,
+          "minimum": 47,
+          "median": 49,
+          "maximum": 53
+        },
+        "modeledFcpMs": {
+          "n": 3,
+          "minimum": 1363.9018,
+          "median": 1369.7592,
+          "maximum": 1373.2239
+        },
+        "modeledLcpMs": {
+          "n": 3,
+          "minimum": 6775.157200000001,
+          "median": 6827.656299999999,
+          "maximum": 6861.671700000001
+        },
+        "modeledTbtMs": {
+          "n": 3,
+          "minimum": 1149.0245500000003,
+          "median": 1811.9999999999998,
+          "maximum": 2992.0000000000005
+        },
+        "observedFcpMs": {
+          "n": 3,
+          "minimum": 1223,
+          "median": 1288,
+          "maximum": 1390
+        },
+        "observedLcpMs": {
+          "n": 3,
+          "minimum": 1223,
+          "median": 1288,
+          "maximum": 1390
+        },
+        "traceTaskTimeMs": {
+          "n": 3,
+          "minimum": 645.7549999999976,
+          "median": 800.4259999999989,
+          "maximum": 1059.430999999999
+        },
+        "transferBytes": {
+          "n": 3,
+          "minimum": 974711,
+          "median": 974845,
+          "maximum": 975304
+        },
+        "benchmarkIndex": {
+          "n": 3,
+          "minimum": 2357.5,
+          "median": 2438.5,
+          "maximum": 2545
+        }
+      },
+      "B": {
+        "performance": {
+          "n": 3,
+          "minimum": 54,
+          "median": 54,
+          "maximum": 55
+        },
+        "modeledFcpMs": {
+          "n": 3,
+          "minimum": 1514.5708,
+          "median": 1516.2786,
+          "maximum": 1516.28
+        },
+        "modeledLcpMs": {
+          "n": 3,
+          "minimum": 6843.9800000000005,
+          "median": 6886.614399999999,
+          "maximum": 6907.283199999999
+        },
+        "modeledTbtMs": {
+          "n": 3,
+          "minimum": 917.8606999999997,
+          "median": 975.7146000000007,
+          "maximum": 982.8599999999999
+        },
+        "observedFcpMs": {
+          "n": 3,
+          "minimum": 1215,
+          "median": 1216,
+          "maximum": 1264
+        },
+        "observedLcpMs": {
+          "n": 3,
+          "minimum": 1215,
+          "median": 1216,
+          "maximum": 1264
+        },
+        "traceTaskTimeMs": {
+          "n": 3,
+          "minimum": 712.9959999999859,
+          "median": 714.3449999999993,
+          "maximum": 732.7229999999981
+        },
+        "transferBytes": {
+          "n": 3,
+          "minimum": 934803,
+          "median": 935129,
+          "maximum": 935307
+        },
+        "benchmarkIndex": {
+          "n": 3,
+          "minimum": 2489,
+          "median": 2501.5,
+          "maximum": 2507.5
+        }
+      },
+      "medianBminusA": {
+        "performance": 5,
+        "modeledFcpMs": 146.51940000000013,
+        "modeledLcpMs": 58.95809999999983,
+        "modeledTbtMs": -836.2853999999991,
+        "observedFcpMs": -72,
+        "observedLcpMs": -72,
+        "traceTaskTimeMs": -86.08099999999956,
+        "transferBytes": -39716,
+        "benchmarkIndex": 63.0
+      }
+    }
+  ],
+  "runWarnings": [],
+  "cssLiteralProofSha256": "1dc5d88bdab38c8ad8270bdfdc5bbf75265012858bb6e0ae8fa886db7468b831",
+  "cssFileEquivalenceSha256": "d3a398cd1de9a302dea65b915e82a211145c320bde43cebf7f3570cd12e88043",
+  "cssMembershipOrderSha256": "0faea469f6b8e5970a5094415885055e1e9ce53c1abe44bbe418984a6024bf7b",
+  "warmGeometryProofSha256": "e64609f85bb79c2a737be6ed80bcd12ffd589655911e941e6508d5630fa98464",
+  "warmReports": {
+    "A": "451e1267a6e51307ee4f5a502684348acd02ce48a62648e8b373dab77925223f",
+    "B": "1ba6ed37ff07793ded6495af54fbea73c6e7111457084fa86604357cea709778"
+  },
+  "measurements": [
+    {
+      "block": 1,
+      "candidate": "A",
+      "buildId": "fztGyySqMaBbes8--JQKs",
+      "scope": "public",
+      "device": "mobile",
+      "path": "/ar/",
+      "role": null,
+      "scores": {
+        "performance": 51,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performance": 51,
+      "modeledFcpMs": 1821.6857,
+      "modeledLcpMs": 7449.478525,
+      "modeledTbtMs": 1054.15715,
+      "observedFcpMs": 1184,
+      "observedLcpMs": 1184,
+      "traceTaskTimeMs": 979.3439999999882,
+      "transferBytes": 1270451,
+      "benchmarkIndex": 2279.5,
+      "warnings": [],
+      "rawReportSha256": "5ef6d5e77e77de70906d857f159b834a8f2bfddf180866ea6e2bc2ed80ae30ca",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-01-A-recovery02/public/8001d896ff15870b.attempt-1.lhr.json",
+      "resultSha256": "49bf747e03c67e4b71d1e6cb2d65cc421a786b7c9b5dfb4a91e1a4abf067b409"
+    },
+    {
+      "block": 1,
+      "candidate": "A",
+      "buildId": "fztGyySqMaBbes8--JQKs",
+      "scope": "public",
+      "device": "desktop",
+      "path": "/ar/",
+      "role": null,
+      "scores": {
+        "performance": 89,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performance": 89,
+      "modeledFcpMs": 453.1041,
+      "modeledLcpMs": 1386.36435,
+      "modeledTbtMs": 197.44795,
+      "observedFcpMs": 1304,
+      "observedLcpMs": 1304,
+      "traceTaskTimeMs": 917.9929999999898,
+      "transferBytes": 1219601,
+      "benchmarkIndex": 2457,
+      "warnings": [],
+      "rawReportSha256": "38c6c3d4f8d105dcbff46ca812d1a6ccc77c60f841d0cdef8e37ac03b584cddf",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-01-A-recovery02/public/6c7d06e5d21a8682.attempt-1.lhr.json",
+      "resultSha256": "f5917554a5a426fca122e4ffd6a06c9ec609ace23d243048989be0e3bbd4e7bd"
+    },
+    {
+      "block": 1,
+      "candidate": "A",
+      "buildId": "fztGyySqMaBbes8--JQKs",
+      "scope": "public",
+      "device": "mobile",
+      "path": "/ar/about/",
+      "role": null,
+      "scores": {
+        "performance": 47,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performance": 47,
+      "modeledFcpMs": 1373.2239,
+      "modeledLcpMs": 6861.671700000001,
+      "modeledTbtMs": 2992.0000000000005,
+      "observedFcpMs": 1390,
+      "observedLcpMs": 1390,
+      "traceTaskTimeMs": 1059.430999999999,
+      "transferBytes": 975304,
+      "benchmarkIndex": 2438.5,
+      "warnings": [],
+      "rawReportSha256": "2589d6254d2fad9461b674191fce7254a9f567fc201d03a316c86821a7bc3f66",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-01-A-recovery02/public/30a1127a620555fc.attempt-1.lhr.json",
+      "resultSha256": "fa33ff9cd80fabba6fd3aa17d513337dd26b1e814d20452d4200b7fe189a36b9"
+    },
+    {
+      "block": 1,
+      "candidate": "A",
+      "buildId": "fztGyySqMaBbes8--JQKs",
+      "scope": "public",
+      "device": "desktop",
+      "path": "/ar/about/",
+      "role": null,
+      "scores": {
+        "performance": 90,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performance": 90,
+      "modeledFcpMs": 336.4188,
+      "modeledLcpMs": 1333.2564,
+      "modeledTbtMs": 199,
+      "observedFcpMs": 1228,
+      "observedLcpMs": 1228,
+      "traceTaskTimeMs": 662.5369999999963,
+      "transferBytes": 976182,
+      "benchmarkIndex": 2569,
+      "warnings": [],
+      "rawReportSha256": "20758df64bad47ad6f08fc606c4c788563f1879915d960ff4ca57d1692068763",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-01-A-recovery02/public/db1e804a6aa8fa10.attempt-1.lhr.json",
+      "resultSha256": "736d01e5876cef49869171dd5defb49b448bd0ab72784359b9089740471593c4"
+    },
+    {
+      "block": 1,
+      "candidate": "A",
+      "buildId": "fztGyySqMaBbes8--JQKs",
+      "scope": "private",
+      "device": "mobile",
+      "path": "/ar/admin/",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 45,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "performance": 45,
+      "modeledFcpMs": 1818.056,
+      "modeledLcpMs": 7712.1680000000015,
+      "modeledTbtMs": 2458.9720000000007,
+      "observedFcpMs": 1638,
+      "observedLcpMs": 1638,
+      "traceTaskTimeMs": 1004.0519999999975,
+      "transferBytes": 1034851,
+      "benchmarkIndex": 2522,
+      "warnings": [],
+      "rawReportSha256": "ae351508d64cb9cb598170c172ff425db03e1dabe238f92ccc36170102fdb5cd",
+      "originalOuterNodeExitKnown": false,
+      "rawReportEvidenceId": "evidence/ab/block-01-A-recovery02/private-mobile/cf93e9ca841533b4.attempt-1.lhr.json",
+      "resultSha256": "0adc5170c6369db54f37249be39381e4cbcc90e334eefbe2cc3659b79abe69dd"
+    },
+    {
+      "block": 1,
+      "candidate": "A",
+      "buildId": "fztGyySqMaBbes8--JQKs",
+      "scope": "private",
+      "device": "mobile",
+      "path": "/ar/admin/ai/",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 63,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "performance": 63,
+      "modeledFcpMs": 2060.506875,
+      "modeledLcpMs": 7809.01375,
+      "modeledTbtMs": 412,
+      "observedFcpMs": 558,
+      "observedLcpMs": 886,
+      "traceTaskTimeMs": 434.14899999999983,
+      "transferBytes": 1074428,
+      "benchmarkIndex": 2465.5,
+      "warnings": [],
+      "rawReportSha256": "ce884c719b8c1cb9410e8b9c7e5de77a93844f35dc6eb32c21261655197813f3",
+      "originalOuterNodeExitKnown": false,
+      "rawReportEvidenceId": "evidence/ab/block-01-A-recovery02/private-mobile/d81a0b9949b39045.attempt-1.lhr.json",
+      "resultSha256": "c4501d0b2908cb2712cb27be590ce7cea7729da4fdd89770ab8cfca1ad8f3f75"
+    },
+    {
+      "block": 1,
+      "candidate": "A",
+      "buildId": "fztGyySqMaBbes8--JQKs",
+      "scope": "private",
+      "device": "desktop",
+      "path": "/ar/admin/",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 61,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 58
+      },
+      "performance": 61,
+      "modeledFcpMs": 418.04410000000007,
+      "modeledLcpMs": 1738.0882000000004,
+      "modeledTbtMs": 1894.4779500000002,
+      "observedFcpMs": 2235,
+      "observedLcpMs": 3035,
+      "traceTaskTimeMs": 2417.5270000000014,
+      "transferBytes": 1059156,
+      "benchmarkIndex": 2366,
+      "warnings": [],
+      "rawReportSha256": "436246cad595f1166917839dd15bcc284cef33de0a64c457b9558eba0e80f24a",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-01-A-recovery02/private-desktop/5da1918d0614fa4d.attempt-1.lhr.json",
+      "resultSha256": "2d1e3f818b859e9c017c1e7cea8045e4a4fb92446ba048a19e27fdd0bb1575d4"
+    },
+    {
+      "block": 1,
+      "candidate": "A",
+      "buildId": "fztGyySqMaBbes8--JQKs",
+      "scope": "private",
+      "device": "desktop",
+      "path": "/ar/admin/ai/",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 92,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 58
+      },
+      "performance": 92,
+      "modeledFcpMs": 505.39675,
+      "modeledLcpMs": 1775.1108999999992,
+      "modeledTbtMs": 18.420649999999995,
+      "observedFcpMs": 950,
+      "observedLcpMs": 1600,
+      "traceTaskTimeMs": 1633.7699999999734,
+      "transferBytes": 1107881,
+      "benchmarkIndex": 2424.5,
+      "warnings": [],
+      "rawReportSha256": "3b653eb6eb2c77ca9b0da88330759f4b9ff288433cdd43d0f097d15db1c43689",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-01-A-recovery02/private-desktop/44628c8be4645b13.attempt-1.lhr.json",
+      "resultSha256": "c324b26a0ea2936f0440875a6efcee3c92be91cb7f6e897633a28e105cc81095"
+    },
+    {
+      "block": 2,
+      "candidate": "B",
+      "buildId": "G0D50qevp3Md82gIM2grZ",
+      "scope": "public",
+      "device": "mobile",
+      "path": "/ar/",
+      "role": null,
+      "scores": {
+        "performance": 61,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performance": 61,
+      "modeledFcpMs": 2127.38055,
+      "modeledLcpMs": 7355.38795,
+      "modeledTbtMs": 441.7463000000007,
+      "observedFcpMs": 1161,
+      "observedLcpMs": 1161,
+      "traceTaskTimeMs": 996.0399999999917,
+      "transferBytes": 1229951,
+      "benchmarkIndex": 2394.5,
+      "warnings": [],
+      "rawReportSha256": "12be972d2ffb912a6019388ca630f42820475fc16ad9399f4cf48be84233e38d",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-02-B/public/8001d896ff15870b.attempt-1.lhr.json",
+      "resultSha256": "175c6084adb7ac87affa541394b7286c7f034b39304ba3c75ee36296e825fcab"
+    },
+    {
+      "block": 2,
+      "candidate": "B",
+      "buildId": "G0D50qevp3Md82gIM2grZ",
+      "scope": "public",
+      "device": "desktop",
+      "path": "/ar/",
+      "role": null,
+      "scores": {
+        "performance": 89,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performance": 89,
+      "modeledFcpMs": 503.35035,
+      "modeledLcpMs": 1399.2676,
+      "modeledTbtMs": 202.43310000000014,
+      "observedFcpMs": 1371,
+      "observedLcpMs": 1371,
+      "traceTaskTimeMs": 1077.0339999999967,
+      "transferBytes": 1179330,
+      "benchmarkIndex": 2402.5,
+      "warnings": [],
+      "rawReportSha256": "1e1c7e44ee38e0f582b6bc3c5960472f2b70011f7c7494acb2d96f08eee7e223",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-02-B/public/6c7d06e5d21a8682.attempt-1.lhr.json",
+      "resultSha256": "ded0cb175c18aafec94a787b4c8f9738544fc1d7afa5fde932aeb5678102d883"
+    },
+    {
+      "block": 2,
+      "candidate": "B",
+      "buildId": "G0D50qevp3Md82gIM2grZ",
+      "scope": "public",
+      "device": "mobile",
+      "path": "/ar/about/",
+      "role": null,
+      "scores": {
+        "performance": 54,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performance": 54,
+      "modeledFcpMs": 1514.5708,
+      "modeledLcpMs": 6907.283199999999,
+      "modeledTbtMs": 975.7146000000007,
+      "observedFcpMs": 1215,
+      "observedLcpMs": 1215,
+      "traceTaskTimeMs": 732.7229999999981,
+      "transferBytes": 935129,
+      "benchmarkIndex": 2489,
+      "warnings": [],
+      "rawReportSha256": "ce702fbd5e9899c72ba209a7a1224b4275d913df7ef61f46c8b842fde7d34c5e",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-02-B/public/30a1127a620555fc.attempt-1.lhr.json",
+      "resultSha256": "be68b591f66007e6b43499bcf39c28e7a849e6af47846d138baa09ccb6f073f4"
+    },
+    {
+      "block": 2,
+      "candidate": "B",
+      "buildId": "G0D50qevp3Md82gIM2grZ",
+      "scope": "public",
+      "device": "desktop",
+      "path": "/ar/about/",
+      "role": null,
+      "scores": {
+        "performance": 85,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performance": 85,
+      "modeledFcpMs": 383.96175,
+      "modeledLcpMs": 1350.91075,
+      "modeledTbtMs": 269.02550000000014,
+      "observedFcpMs": 1301,
+      "observedLcpMs": 1301,
+      "traceTaskTimeMs": 889.6349999999987,
+      "transferBytes": 934630,
+      "benchmarkIndex": 2445.5,
+      "warnings": [],
+      "rawReportSha256": "409fff7dfe2c96943495a229f162e84c7a0624c9a5544daa43ed3e1728fc3e5d",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-02-B/public/db1e804a6aa8fa10.attempt-1.lhr.json",
+      "resultSha256": "c6ab5036728992d05f4b0b373477d951744e6a00d6a4e482b2900de8ab348df1"
+    },
+    {
+      "block": 2,
+      "candidate": "B",
+      "buildId": "G0D50qevp3Md82gIM2grZ",
+      "scope": "private",
+      "device": "mobile",
+      "path": "/ar/admin/",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 46,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "performance": 46,
+      "modeledFcpMs": 1974.4269,
+      "modeledLcpMs": 7618.996100000003,
+      "modeledTbtMs": 1935.715400000001,
+      "observedFcpMs": 1223,
+      "observedLcpMs": 1768,
+      "traceTaskTimeMs": 1098.8559999999975,
+      "transferBytes": 976127,
+      "benchmarkIndex": 2463,
+      "warnings": [],
+      "rawReportSha256": "2b8ea3dd7d45ad93a25679f30095b013f147a37715f9912992dc564078e4ea20",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-02-B/private-mobile/cf93e9ca841533b4.attempt-1.lhr.json",
+      "resultSha256": "8eee5319dd47fdc76b218f9e103f576f3117db6d5d01f69aae89dcc1ed4d2cf2"
+    },
+    {
+      "block": 2,
+      "candidate": "B",
+      "buildId": "G0D50qevp3Md82gIM2grZ",
+      "scope": "private",
+      "device": "mobile",
+      "path": "/ar/admin/ai/",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 64,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "performance": 64,
+      "modeledFcpMs": 2346.8099,
+      "modeledLcpMs": 7705.851199999999,
+      "modeledTbtMs": 368.00000000000045,
+      "observedFcpMs": 496,
+      "observedLcpMs": 881,
+      "traceTaskTimeMs": 399.42899999999906,
+      "transferBytes": 1015232,
+      "benchmarkIndex": 2337,
+      "warnings": [],
+      "rawReportSha256": "0ba258672c62c77a0c46b19078669ad2e75397d66fe1143fbc33639af25a74de",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-02-B/private-mobile/d81a0b9949b39045.attempt-1.lhr.json",
+      "resultSha256": "f439f97a5d2e8f94694f944549ee366888637b5dbfacb3315c225adf8b659399"
+    },
+    {
+      "block": 2,
+      "candidate": "B",
+      "buildId": "G0D50qevp3Md82gIM2grZ",
+      "scope": "private",
+      "device": "desktop",
+      "path": "/ar/admin/",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 61,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 58
+      },
+      "performance": 61,
+      "modeledFcpMs": 463.4207,
+      "modeledLcpMs": 1693.2621000000004,
+      "modeledTbtMs": 1642.3862,
+      "observedFcpMs": 2174,
+      "observedLcpMs": 2988,
+      "traceTaskTimeMs": 2381.2690000000025,
+      "transferBytes": 1001390,
+      "benchmarkIndex": 2613.5,
+      "warnings": [],
+      "rawReportSha256": "d64475c26e51523c3c667f16ed864e6c60af7e151248ffebe8aed4c669b4cec6",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-02-B/private-desktop/5da1918d0614fa4d.attempt-1.lhr.json",
+      "resultSha256": "5a5a5173aa5e9aa29a207a173ee4f2125522fe4b6e4cbe37180345c58a2dc462"
+    },
+    {
+      "block": 2,
+      "candidate": "B",
+      "buildId": "G0D50qevp3Md82gIM2grZ",
+      "scope": "private",
+      "device": "desktop",
+      "path": "/ar/admin/ai/",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 92,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 58
+      },
+      "performance": 92,
+      "modeledFcpMs": 529.4245000000001,
+      "modeledLcpMs": 1743.6629999999993,
+      "modeledTbtMs": 29.00000000000034,
+      "observedFcpMs": 1007,
+      "observedLcpMs": 1678,
+      "traceTaskTimeMs": 1776.9569999999717,
+      "transferBytes": 1049547,
+      "benchmarkIndex": 2409,
+      "warnings": [],
+      "rawReportSha256": "d09c8dd04bad5f09969130243f237bd36c99805796f8ab0959d13229237a892a",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-02-B/private-desktop/44628c8be4645b13.attempt-1.lhr.json",
+      "resultSha256": "0dff4d874cac3debed3e0c60fa208fea86273887ab32c22f92e490c7a3625cc1"
+    },
+    {
+      "block": 3,
+      "candidate": "B",
+      "buildId": "G0D50qevp3Md82gIM2grZ",
+      "scope": "public",
+      "device": "mobile",
+      "path": "/ar/",
+      "role": null,
+      "scores": {
+        "performance": 58,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performance": 58,
+      "modeledFcpMs": 2118.92415,
+      "modeledLcpMs": 7315.156349999999,
+      "modeledTbtMs": 548.3839000000003,
+      "observedFcpMs": 1158,
+      "observedLcpMs": 1158,
+      "traceTaskTimeMs": 999.4179999999922,
+      "transferBytes": 1230163,
+      "benchmarkIndex": 2477.5,
+      "warnings": [],
+      "rawReportSha256": "753c30728c936849e3928c01cbde3b47ab242105077d11be7e3c127310c5c466",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-03-B/public/8001d896ff15870b.attempt-1.lhr.json",
+      "resultSha256": "dcd75ab9b6298633b0482b70d4e3e0eba9f7e1c0f9076947b6f965fdfaf7007e"
+    },
+    {
+      "block": 3,
+      "candidate": "B",
+      "buildId": "G0D50qevp3Md82gIM2grZ",
+      "scope": "public",
+      "device": "desktop",
+      "path": "/ar/",
+      "role": null,
+      "scores": {
+        "performance": 86,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performance": 86,
+      "modeledFcpMs": 500.86485,
+      "modeledLcpMs": 1378.6396,
+      "modeledTbtMs": 236.09010000000006,
+      "observedFcpMs": 1407,
+      "observedLcpMs": 1407,
+      "traceTaskTimeMs": 1108.5959999999957,
+      "transferBytes": 1179304,
+      "benchmarkIndex": 2391,
+      "warnings": [],
+      "rawReportSha256": "c1045f5919b58b6c0a66ebd28eb94549e1ed6144b6657914d025dff3974f3e89",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-03-B/public/6c7d06e5d21a8682.attempt-1.lhr.json",
+      "resultSha256": "9b6eb277e8fb0a6ece7fe5b1860bd7d7cdf510729dc176798dbd2238e7b51e90"
+    },
+    {
+      "block": 3,
+      "candidate": "B",
+      "buildId": "G0D50qevp3Md82gIM2grZ",
+      "scope": "public",
+      "device": "mobile",
+      "path": "/ar/about/",
+      "role": null,
+      "scores": {
+        "performance": 55,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performance": 55,
+      "modeledFcpMs": 1516.2786,
+      "modeledLcpMs": 6886.614399999999,
+      "modeledTbtMs": 917.8606999999997,
+      "observedFcpMs": 1264,
+      "observedLcpMs": 1264,
+      "traceTaskTimeMs": 712.9959999999859,
+      "transferBytes": 934803,
+      "benchmarkIndex": 2501.5,
+      "warnings": [],
+      "rawReportSha256": "7ca62f123fe7e2d9f2b04df94d41f60ebaae364ad6b736795bc3dd2f4e805280",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-03-B/public/30a1127a620555fc.attempt-1.lhr.json",
+      "resultSha256": "9bc3faaac40aef46894367b1395feb50b85b2e3fa906ad4d68980052412adeea"
+    },
+    {
+      "block": 3,
+      "candidate": "B",
+      "buildId": "G0D50qevp3Md82gIM2grZ",
+      "scope": "public",
+      "device": "desktop",
+      "path": "/ar/about/",
+      "role": null,
+      "scores": {
+        "performance": 85,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performance": 85,
+      "modeledFcpMs": 393.17955,
+      "modeledLcpMs": 1373.4189500000002,
+      "modeledTbtMs": 270.88029999999986,
+      "observedFcpMs": 1292,
+      "observedLcpMs": 1292,
+      "traceTaskTimeMs": 889.4229999999952,
+      "transferBytes": 934271,
+      "benchmarkIndex": 2331,
+      "warnings": [],
+      "rawReportSha256": "182b23001d963491a0b2149593e657ffe33893feaf55b58f61f02b7e9d45c6a6",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-03-B/public/db1e804a6aa8fa10.attempt-1.lhr.json",
+      "resultSha256": "edb49c0f890876b988ec2869dd143e012c8cc3ce9d0852bf4afe287c08ee481a"
+    },
+    {
+      "block": 3,
+      "candidate": "B",
+      "buildId": "G0D50qevp3Md82gIM2grZ",
+      "scope": "private",
+      "device": "mobile",
+      "path": "/ar/admin/",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 45,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "performance": 45,
+      "modeledFcpMs": 2130.72525,
+      "modeledLcpMs": 7647.192250000003,
+      "modeledTbtMs": 2094.5164999999997,
+      "observedFcpMs": 1789,
+      "observedLcpMs": 1789,
+      "traceTaskTimeMs": 1192.0189999999943,
+      "transferBytes": 976569,
+      "benchmarkIndex": 2444.5,
+      "warnings": [],
+      "rawReportSha256": "1899824d4dcd09449ab3647bf4b43f039fec49d7eada3c57fe52416271ef8d16",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-03-B/private-mobile/cf93e9ca841533b4.attempt-1.lhr.json",
+      "resultSha256": "24a77ad3a681b34895835a1a7ab1fc286bbefe9b63eb408f59b95fecba6b3d0c"
+    },
+    {
+      "block": 3,
+      "candidate": "B",
+      "buildId": "G0D50qevp3Md82gIM2grZ",
+      "scope": "private",
+      "device": "mobile",
+      "path": "/ar/admin/ai/",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 65,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "performance": 65,
+      "modeledFcpMs": 2265.0844500000003,
+      "modeledLcpMs": 7628.225200000001,
+      "modeledTbtMs": 352.00000000000045,
+      "observedFcpMs": 474,
+      "observedLcpMs": 847,
+      "traceTaskTimeMs": 380.7639999999991,
+      "transferBytes": 1015235,
+      "benchmarkIndex": 2252.5,
+      "warnings": [],
+      "rawReportSha256": "00abf287d869818da790077081330e39a789b05f2ff68586f20917a208f2aa66",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-03-B/private-mobile/d81a0b9949b39045.attempt-1.lhr.json",
+      "resultSha256": "7a50c35a28d216c10e832aec93c67898fc014c692f0e987987c06d7642825c4f"
+    },
+    {
+      "block": 3,
+      "candidate": "B",
+      "buildId": "G0D50qevp3Md82gIM2grZ",
+      "scope": "private",
+      "device": "desktop",
+      "path": "/ar/admin/",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 59,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 58
+      },
+      "performance": 59,
+      "modeledFcpMs": 481.53754999999995,
+      "modeledLcpMs": 1748.2292499999992,
+      "modeledTbtMs": 1651.3082999999997,
+      "observedFcpMs": 3002,
+      "observedLcpMs": 3002,
+      "traceTaskTimeMs": 2477.6729999999993,
+      "transferBytes": 1000866,
+      "benchmarkIndex": 2467,
+      "warnings": [],
+      "rawReportSha256": "f963ac601e0f4911b385d57d6547d4991cfd6a6339c2a964dfc9721f4d3c3ef9",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-03-B/private-desktop/5da1918d0614fa4d.attempt-1.lhr.json",
+      "resultSha256": "ff3553e9c2fb3f293771bea06a00fe56bae358ab5c16976a207a2732c67a8545"
+    },
+    {
+      "block": 3,
+      "candidate": "B",
+      "buildId": "G0D50qevp3Md82gIM2grZ",
+      "scope": "private",
+      "device": "desktop",
+      "path": "/ar/admin/ai/",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 92,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 58
+      },
+      "performance": 92,
+      "modeledFcpMs": 503.303175,
+      "modeledLcpMs": 1668.5805,
+      "modeledTbtMs": 93.35487499999999,
+      "observedFcpMs": 903,
+      "observedLcpMs": 1480,
+      "traceTaskTimeMs": 1937.1039999999764,
+      "transferBytes": 1048587,
+      "benchmarkIndex": 2464.5,
+      "warnings": [],
+      "rawReportSha256": "8993f56b84af5f30bee16775b3859c85f70dbbbfa853561d5b38c14823db227b",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-03-B/private-desktop/44628c8be4645b13.attempt-1.lhr.json",
+      "resultSha256": "bd87990653f99790bf1157d45cd8b1c37198d991d97fee4f555c0d65f3d8379e"
+    },
+    {
+      "block": 4,
+      "candidate": "A",
+      "buildId": "fztGyySqMaBbes8--JQKs",
+      "scope": "public",
+      "device": "mobile",
+      "path": "/ar/",
+      "role": null,
+      "scores": {
+        "performance": 45,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performance": 45,
+      "modeledFcpMs": 1816.3766,
+      "modeledLcpMs": 7426.72395,
+      "modeledTbtMs": 1912.8116999999997,
+      "observedFcpMs": 1246,
+      "observedLcpMs": 1246,
+      "traceTaskTimeMs": 1199.8219999999899,
+      "transferBytes": 1270143,
+      "benchmarkIndex": 2360,
+      "warnings": [],
+      "rawReportSha256": "afc1a3ac4231a129a9d51bdc58e5d6940e816eb0d14c7144c16a0ba2a99c71fb",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-04-A/public/8001d896ff15870b.attempt-1.lhr.json",
+      "resultSha256": "4da6614adbdc70c6426c7fb591ad8e73598b26e05cede1c8b7331cf71a5063ed"
+    },
+    {
+      "block": 4,
+      "candidate": "A",
+      "buildId": "fztGyySqMaBbes8--JQKs",
+      "scope": "public",
+      "device": "desktop",
+      "path": "/ar/",
+      "role": null,
+      "scores": {
+        "performance": 85,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performance": 85,
+      "modeledFcpMs": 459.5602,
+      "modeledLcpMs": 1405.4606999999999,
+      "modeledTbtMs": 254.21990000000005,
+      "observedFcpMs": 1451,
+      "observedLcpMs": 1451,
+      "traceTaskTimeMs": 1002.0009999999976,
+      "transferBytes": 1219426,
+      "benchmarkIndex": 2385.5,
+      "warnings": [],
+      "rawReportSha256": "541deea3b4c08a4eddae7374bd129270e2b800ba06450093ccccb2ce9e30c244",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-04-A/public/6c7d06e5d21a8682.attempt-1.lhr.json",
+      "resultSha256": "0c616710b73e8beb4c70be5e3d67336ca23555811f4792d6235ed45b68a0abcb"
+    },
+    {
+      "block": 4,
+      "candidate": "A",
+      "buildId": "fztGyySqMaBbes8--JQKs",
+      "scope": "public",
+      "device": "mobile",
+      "path": "/ar/about/",
+      "role": null,
+      "scores": {
+        "performance": 49,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performance": 49,
+      "modeledFcpMs": 1369.7592,
+      "modeledLcpMs": 6775.157200000001,
+      "modeledTbtMs": 1811.9999999999998,
+      "observedFcpMs": 1223,
+      "observedLcpMs": 1223,
+      "traceTaskTimeMs": 800.4259999999989,
+      "transferBytes": 974711,
+      "benchmarkIndex": 2545,
+      "warnings": [],
+      "rawReportSha256": "ebdd9d6aea6d2e0c1f5db489b962fd61cf12431338bed5259621668fa3f63d44",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-04-A/public/30a1127a620555fc.attempt-1.lhr.json",
+      "resultSha256": "cef1b65aec3910dde9c1c56ccc3ddf9edef9db80bccffe4fe4c6d6d04bed4ab4"
+    },
+    {
+      "block": 4,
+      "candidate": "A",
+      "buildId": "fztGyySqMaBbes8--JQKs",
+      "scope": "public",
+      "device": "desktop",
+      "path": "/ar/about/",
+      "role": null,
+      "scores": {
+        "performance": 82,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performance": 82,
+      "modeledFcpMs": 353.7984,
+      "modeledLcpMs": 1538.2944000000002,
+      "modeledTbtMs": 293.99999999999994,
+      "observedFcpMs": 1376,
+      "observedLcpMs": 1376,
+      "traceTaskTimeMs": 814.3159999999999,
+      "transferBytes": 977008,
+      "benchmarkIndex": 2489.5,
+      "warnings": [],
+      "rawReportSha256": "0e3bf231b46a588aad4948dc840e7a323f9d4cc67764a145ea2b68ab5b7a3e65",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-04-A/public/db1e804a6aa8fa10.attempt-1.lhr.json",
+      "resultSha256": "ccf1cd399f1720a57428015366b1ffdd2f105584fb0b240acb9dc19213334869"
+    },
+    {
+      "block": 4,
+      "candidate": "A",
+      "buildId": "fztGyySqMaBbes8--JQKs",
+      "scope": "private",
+      "device": "mobile",
+      "path": "/ar/admin/",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 45,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "performance": 45,
+      "modeledFcpMs": 1814.0775,
+      "modeledLcpMs": 7758.732499999997,
+      "modeledTbtMs": 2684.9612499999985,
+      "observedFcpMs": 1208,
+      "observedLcpMs": 1714,
+      "traceTaskTimeMs": 1029.5839999999976,
+      "transferBytes": 1034908,
+      "benchmarkIndex": 2517,
+      "warnings": [],
+      "rawReportSha256": "2f775cffb46d5ab36f50d46095cd9704a23a36f9408885bc92a99f0afece42ff",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-04-A/private-mobile/cf93e9ca841533b4.attempt-1.lhr.json",
+      "resultSha256": "775e8549f03563e3c5e01b27dd64317e7c75add6ea5c1bbe7edc7e22e1e23023"
+    },
+    {
+      "block": 4,
+      "candidate": "A",
+      "buildId": "fztGyySqMaBbes8--JQKs",
+      "scope": "private",
+      "device": "mobile",
+      "path": "/ar/admin/ai/",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 62,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "performance": 62,
+      "modeledFcpMs": 2298.911875,
+      "modeledLcpMs": 7870.32375,
+      "modeledTbtMs": 430,
+      "observedFcpMs": 545,
+      "observedLcpMs": 947,
+      "traceTaskTimeMs": 458.315000000001,
+      "transferBytes": 1074417,
+      "benchmarkIndex": 2497.5,
+      "warnings": [],
+      "rawReportSha256": "1167445c20d0024719dc4ad479ca3da4503d55c018f108daf68ecc1ed9455282",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-04-A/private-mobile/d81a0b9949b39045.attempt-1.lhr.json",
+      "resultSha256": "3e6c652133ae9b316490a75b6ccfeb6a7aa952912d4ba09a9fafa55a1ec695f4"
+    },
+    {
+      "block": 4,
+      "candidate": "A",
+      "buildId": "fztGyySqMaBbes8--JQKs",
+      "scope": "private",
+      "device": "desktop",
+      "path": "/ar/admin/",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 60,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 58
+      },
+      "performance": 60,
+      "modeledFcpMs": 420.6114,
+      "modeledLcpMs": 1698.8341999999993,
+      "modeledTbtMs": 1850.6942999999999,
+      "observedFcpMs": 2843,
+      "observedLcpMs": 2843,
+      "traceTaskTimeMs": 2392.7720000000013,
+      "transferBytes": 1059045,
+      "benchmarkIndex": 2435,
+      "warnings": [],
+      "rawReportSha256": "6e11e6a223b51fa1b783232bc5b560cb3f1cfb2a3235b6ae6d471c594052bbce",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-04-A/private-desktop/5da1918d0614fa4d.attempt-1.lhr.json",
+      "resultSha256": "370bb666b1c905507fa058d3e47500f54e3c30d9c919cbbbb72ebf266b24a16a"
+    },
+    {
+      "block": 4,
+      "candidate": "A",
+      "buildId": "fztGyySqMaBbes8--JQKs",
+      "scope": "private",
+      "device": "desktop",
+      "path": "/ar/admin/ai/",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 92,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 58
+      },
+      "performance": 92,
+      "modeledFcpMs": 494.94062499999995,
+      "modeledLcpMs": 1789.7049999999997,
+      "modeledTbtMs": 27.5,
+      "observedFcpMs": 1089,
+      "observedLcpMs": 1608,
+      "traceTaskTimeMs": 1677.264999999981,
+      "transferBytes": 1106052,
+      "benchmarkIndex": 2416.5,
+      "warnings": [],
+      "rawReportSha256": "aead7126389c71959355b62d97a2e7f58779a68e620776c6b1daf0a143ec91b4",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-04-A/private-desktop/44628c8be4645b13.attempt-1.lhr.json",
+      "resultSha256": "b9dc515a91ca2b285f4464ed2ece02cbbe211aa43519b9f35892c7f95216e2c4"
+    },
+    {
+      "block": 5,
+      "candidate": "A",
+      "buildId": "fztGyySqMaBbes8--JQKs",
+      "scope": "public",
+      "device": "mobile",
+      "path": "/ar/",
+      "role": null,
+      "scores": {
+        "performance": 52,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performance": 52,
+      "modeledFcpMs": 1813.4823,
+      "modeledLcpMs": 7593.188049999999,
+      "modeledTbtMs": 910.2588499999999,
+      "observedFcpMs": 1204,
+      "observedLcpMs": 1204,
+      "traceTaskTimeMs": 901.8289999999919,
+      "transferBytes": 1270146,
+      "benchmarkIndex": 2327,
+      "warnings": [],
+      "rawReportSha256": "ce758139c33f16e637512e74bed67b474c21ce019cd1bac62841d04a8d82bb1b",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-05-A/public/8001d896ff15870b.attempt-1.lhr.json",
+      "resultSha256": "c97aeee32167ba2d99e1fccea1e8e502b78dc62107a8c0bbae33cabc8ec087dc"
+    },
+    {
+      "block": 5,
+      "candidate": "A",
+      "buildId": "fztGyySqMaBbes8--JQKs",
+      "scope": "public",
+      "device": "desktop",
+      "path": "/ar/",
+      "role": null,
+      "scores": {
+        "performance": 86,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performance": 86,
+      "modeledFcpMs": 450.46410000000003,
+      "modeledLcpMs": 1406.62435,
+      "modeledTbtMs": 234.76794999999993,
+      "observedFcpMs": 1351,
+      "observedLcpMs": 1351,
+      "traceTaskTimeMs": 981.6169999999967,
+      "transferBytes": 1219009,
+      "benchmarkIndex": 2518.5,
+      "warnings": [],
+      "rawReportSha256": "d2af38826ad89a73365c84b0b6a299b6638f18bed664896f242eb975c71c2c1a",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-05-A/public/6c7d06e5d21a8682.attempt-1.lhr.json",
+      "resultSha256": "0479dc3af0b7c36d52b0aeacfa39e309d9aab6470f049edef06f5a29f8b98b7f"
+    },
+    {
+      "block": 5,
+      "candidate": "A",
+      "buildId": "fztGyySqMaBbes8--JQKs",
+      "scope": "public",
+      "device": "mobile",
+      "path": "/ar/about/",
+      "role": null,
+      "scores": {
+        "performance": 53,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performance": 53,
+      "modeledFcpMs": 1363.9018,
+      "modeledLcpMs": 6827.656299999999,
+      "modeledTbtMs": 1149.0245500000003,
+      "observedFcpMs": 1288,
+      "observedLcpMs": 1288,
+      "traceTaskTimeMs": 645.7549999999976,
+      "transferBytes": 974845,
+      "benchmarkIndex": 2357.5,
+      "warnings": [],
+      "rawReportSha256": "a47add153ab3c5c54ae5e691f0af04c2fe8e72cc6026894d0fe185fd5451be1f",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-05-A/public/30a1127a620555fc.attempt-1.lhr.json",
+      "resultSha256": "0e1e7034178ea21ef26fcb1cefecec0e516973a2b413e2155023fde8fbe4f196"
+    },
+    {
+      "block": 5,
+      "candidate": "A",
+      "buildId": "fztGyySqMaBbes8--JQKs",
+      "scope": "public",
+      "device": "desktop",
+      "path": "/ar/about/",
+      "role": null,
+      "scores": {
+        "performance": 81,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performance": 81,
+      "modeledFcpMs": 342.7966,
+      "modeledLcpMs": 1370.7880999999998,
+      "modeledTbtMs": 338.99999999999994,
+      "observedFcpMs": 1367,
+      "observedLcpMs": 1367,
+      "traceTaskTimeMs": 862.7649999999916,
+      "transferBytes": 975041,
+      "benchmarkIndex": 2379.5,
+      "warnings": [],
+      "rawReportSha256": "a3451782b8cb7e26b353e014a01e840e7269313c4aadbcd58794817c090cce7e",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-05-A/public/db1e804a6aa8fa10.attempt-1.lhr.json",
+      "resultSha256": "8ff6eb5caa4da87529a2e588ec5401cadf2613b7df259b712001f28b568314cb"
+    },
+    {
+      "block": 5,
+      "candidate": "A",
+      "buildId": "fztGyySqMaBbes8--JQKs",
+      "scope": "private",
+      "device": "mobile",
+      "path": "/ar/admin/",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 44,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "performance": 44,
+      "modeledFcpMs": 1819.8102,
+      "modeledLcpMs": 7627.9306,
+      "modeledTbtMs": 4039,
+      "observedFcpMs": 1466,
+      "observedLcpMs": 2036,
+      "traceTaskTimeMs": 1429.6649999999952,
+      "transferBytes": 1035266,
+      "benchmarkIndex": 2489.5,
+      "warnings": [],
+      "rawReportSha256": "d3f4621ac5ec34eb4aa2e9a0bc78913cb662b4a4379bc5eca50ef35393a60dac",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-05-A/private-mobile/cf93e9ca841533b4.attempt-1.lhr.json",
+      "resultSha256": "dce696bb4afde112a75b0e58da67dbf9beb80251a49d6f5f5ac366cf7b7f0684"
+    },
+    {
+      "block": 5,
+      "candidate": "A",
+      "buildId": "fztGyySqMaBbes8--JQKs",
+      "scope": "private",
+      "device": "mobile",
+      "path": "/ar/admin/ai/",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 63,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "performance": 63,
+      "modeledFcpMs": 2297.3322500000004,
+      "modeledLcpMs": 7630.6645,
+      "modeledTbtMs": 408,
+      "observedFcpMs": 643,
+      "observedLcpMs": 980,
+      "traceTaskTimeMs": 447.7859999999989,
+      "transferBytes": 1074430,
+      "benchmarkIndex": 2391.5,
+      "warnings": [],
+      "rawReportSha256": "c2aab938a72498f566b1ce9e414d82a6911030ce5da8859f5f2d1098fd4480f9",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-05-A/private-mobile/d81a0b9949b39045.attempt-1.lhr.json",
+      "resultSha256": "4202aec01e448e181c7b213c595187167fa9a2c9d4fda8fc494b515be41563c1"
+    },
+    {
+      "block": 5,
+      "candidate": "A",
+      "buildId": "fztGyySqMaBbes8--JQKs",
+      "scope": "private",
+      "device": "desktop",
+      "path": "/ar/admin/",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 61,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 58
+      },
+      "performance": 61,
+      "modeledFcpMs": 421.9403,
+      "modeledLcpMs": 1745.880599999999,
+      "modeledTbtMs": 1903.0298500000001,
+      "observedFcpMs": 2219,
+      "observedLcpMs": 3038,
+      "traceTaskTimeMs": 2427.9070000000006,
+      "transferBytes": 1059591,
+      "benchmarkIndex": 2430,
+      "warnings": [],
+      "rawReportSha256": "361250d02b1ce97f668e01d1b4ff6b4384cd3be3bff525df93f715b077b2019c",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-05-A/private-desktop/5da1918d0614fa4d.attempt-1.lhr.json",
+      "resultSha256": "311216b7581ef07507e52830fa37611b2d13cc60664794d103780e4d212104e6"
+    },
+    {
+      "block": 5,
+      "candidate": "A",
+      "buildId": "fztGyySqMaBbes8--JQKs",
+      "scope": "private",
+      "device": "desktop",
+      "path": "/ar/admin/ai/",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 79,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 58
+      },
+      "performance": 79,
+      "modeledFcpMs": 506.0798749999999,
+      "modeledLcpMs": 1769.4236499999997,
+      "modeledTbtMs": 316.55207499999995,
+      "observedFcpMs": 986,
+      "observedLcpMs": 1514,
+      "traceTaskTimeMs": 1990.6649999999618,
+      "transferBytes": 1106997,
+      "benchmarkIndex": 2488,
+      "warnings": [],
+      "rawReportSha256": "3a4eb7ae714c902b295f01131135e27def157fd7eb3ef8529abb138f0a8b9318",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-05-A/private-desktop/44628c8be4645b13.attempt-1.lhr.json",
+      "resultSha256": "254f956711bad7aeed8eec2523a04a3426490605038532df6dc4ae3d1ee9229f"
+    },
+    {
+      "block": 6,
+      "candidate": "B",
+      "buildId": "G0D50qevp3Md82gIM2grZ",
+      "scope": "public",
+      "device": "mobile",
+      "path": "/ar/",
+      "role": null,
+      "scores": {
+        "performance": 47,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performance": 47,
+      "modeledFcpMs": 2125.32645,
+      "modeledLcpMs": 7393.595049999998,
+      "modeledTbtMs": 1227.6156999999994,
+      "observedFcpMs": 1413,
+      "observedLcpMs": 1413,
+      "traceTaskTimeMs": 1223.021999999987,
+      "transferBytes": 1230174,
+      "benchmarkIndex": 2310,
+      "warnings": [],
+      "rawReportSha256": "1a3dd45f71d9c9874a49b235d53f92740f679c82acf7b052facccaf13365713d",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-06-B/public/8001d896ff15870b.attempt-1.lhr.json",
+      "resultSha256": "c5b111e5318b94839124605f038e62aabd30727c8f9929d1cb2f76eff0450880"
+    },
+    {
+      "block": 6,
+      "candidate": "B",
+      "buildId": "G0D50qevp3Md82gIM2grZ",
+      "scope": "public",
+      "device": "desktop",
+      "path": "/ar/",
+      "role": null,
+      "scores": {
+        "performance": 94,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performance": 94,
+      "modeledFcpMs": 510.7761,
+      "modeledLcpMs": 1422.5695999999998,
+      "modeledTbtMs": 76.48259999999988,
+      "observedFcpMs": 1359,
+      "observedLcpMs": 1359,
+      "traceTaskTimeMs": 922.5899999999963,
+      "transferBytes": 1179749,
+      "benchmarkIndex": 2429,
+      "warnings": [],
+      "rawReportSha256": "36ae0eb951a4dfe3d289aba012160dffffd58c587a530395e2ed3c131b8dacb9",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-06-B/public/6c7d06e5d21a8682.attempt-1.lhr.json",
+      "resultSha256": "eaaf1bf33f7106660b2e11f00d2b66594d36ea934b7430d0f03c65eec92a6993"
+    },
+    {
+      "block": 6,
+      "candidate": "B",
+      "buildId": "G0D50qevp3Md82gIM2grZ",
+      "scope": "public",
+      "device": "mobile",
+      "path": "/ar/about/",
+      "role": null,
+      "scores": {
+        "performance": 54,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performance": 54,
+      "modeledFcpMs": 1516.28,
+      "modeledLcpMs": 6843.9800000000005,
+      "modeledTbtMs": 982.8599999999999,
+      "observedFcpMs": 1216,
+      "observedLcpMs": 1216,
+      "traceTaskTimeMs": 714.3449999999993,
+      "transferBytes": 935307,
+      "benchmarkIndex": 2507.5,
+      "warnings": [],
+      "rawReportSha256": "ec1d7cd5bf0d13630b63169d4aff0085194c2f7261482614a92ca9c1db33744f",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-06-B/public/30a1127a620555fc.attempt-1.lhr.json",
+      "resultSha256": "1372542a2229db489e747ecc0cb99bd0591a115bdb058312cee09ff5738631fb"
+    },
+    {
+      "block": 6,
+      "candidate": "B",
+      "buildId": "G0D50qevp3Md82gIM2grZ",
+      "scope": "public",
+      "device": "desktop",
+      "path": "/ar/about/",
+      "role": null,
+      "scores": {
+        "performance": 93,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performance": 93,
+      "modeledFcpMs": 385.8492,
+      "modeledLcpMs": 1351.3147999999999,
+      "modeledTbtMs": 139.7672,
+      "observedFcpMs": 1258,
+      "observedLcpMs": 1258,
+      "traceTaskTimeMs": 719.9459999999962,
+      "transferBytes": 934293,
+      "benchmarkIndex": 2397,
+      "warnings": [],
+      "rawReportSha256": "1d9b2b8730effb8b23938efe9492f50067492a5bc74629f4463deca250e0d32e",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-06-B/public/db1e804a6aa8fa10.attempt-1.lhr.json",
+      "resultSha256": "03ed9fc7cead935fb3b6e86350c3e0fdabf35e344d06ca76492edae49d04ddae"
+    },
+    {
+      "block": 6,
+      "candidate": "B",
+      "buildId": "G0D50qevp3Md82gIM2grZ",
+      "scope": "private",
+      "device": "mobile",
+      "path": "/ar/admin/",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 44,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "performance": 44,
+      "modeledFcpMs": 2134.95885,
+      "modeledLcpMs": 7662.070650000001,
+      "modeledTbtMs": 2365.694099999999,
+      "observedFcpMs": 1781,
+      "observedLcpMs": 1781,
+      "traceTaskTimeMs": 1251.8709999999958,
+      "transferBytes": 974816,
+      "benchmarkIndex": 2239,
+      "warnings": [],
+      "rawReportSha256": "f0f16f9287c2f8364a99b56f7300f19633b87cd206c60f8e98b3ba3b5224b765",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-06-B/private-mobile/cf93e9ca841533b4.attempt-1.lhr.json",
+      "resultSha256": "dde0cd05c0b853609db342fe7cad001b704023576f878e9f623c5cb2d108731a"
+    },
+    {
+      "block": 6,
+      "candidate": "B",
+      "buildId": "G0D50qevp3Md82gIM2grZ",
+      "scope": "private",
+      "device": "mobile",
+      "path": "/ar/admin/ai/",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 59,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "performance": 59,
+      "modeledFcpMs": 2342.50805,
+      "modeledLcpMs": 7798.0184,
+      "modeledTbtMs": 537.9999999999995,
+      "observedFcpMs": 670,
+      "observedLcpMs": 961,
+      "traceTaskTimeMs": 509.30099999999857,
+      "transferBytes": 1015254,
+      "benchmarkIndex": 2312.5,
+      "warnings": [],
+      "rawReportSha256": "f5d418ccde31d3d3d49989cfb2a2315c0b408943b6cc6115ea4144b6d820f3bf",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-06-B/private-mobile/d81a0b9949b39045.attempt-1.lhr.json",
+      "resultSha256": "39d48b7f7e63200fad28bad0873c63c3ab8854af31826b7476bf5cea7bcbf90e"
+    },
+    {
+      "block": 6,
+      "candidate": "B",
+      "buildId": "G0D50qevp3Md82gIM2grZ",
+      "scope": "private",
+      "device": "desktop",
+      "path": "/ar/admin/",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 62,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 58
+      },
+      "performance": 62,
+      "modeledFcpMs": 466.74019999999996,
+      "modeledLcpMs": 1696.2205999999978,
+      "modeledTbtMs": 1033.1732,
+      "observedFcpMs": 2207,
+      "observedLcpMs": 3005,
+      "traceTaskTimeMs": 1758.0299999999947,
+      "transferBytes": 1000520,
+      "benchmarkIndex": 2540.5,
+      "warnings": [],
+      "rawReportSha256": "1a67624a628453aa69bc6c2208cd61b86ecba29b0a8a1389e810fdf4f196b0a8",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-06-B/private-desktop/5da1918d0614fa4d.attempt-1.lhr.json",
+      "resultSha256": "36c1d0c2a489f9b419b5d11767176d09cf37a8fc9bfcccdd0d31f4769f5397dd"
+    },
+    {
+      "block": 6,
+      "candidate": "B",
+      "buildId": "G0D50qevp3Md82gIM2grZ",
+      "scope": "private",
+      "device": "desktop",
+      "path": "/ar/admin/ai/",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 92,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 58
+      },
+      "performance": 92,
+      "modeledFcpMs": 527.260625,
+      "modeledLcpMs": 1740.0987500000006,
+      "modeledTbtMs": 24.000000000000114,
+      "observedFcpMs": 1116,
+      "observedLcpMs": 1869,
+      "traceTaskTimeMs": 600.1599999999984,
+      "transferBytes": 1048462,
+      "benchmarkIndex": 2300.5,
+      "warnings": [],
+      "rawReportSha256": "bcbc5bddbedfb204b0a01d0d8a2a225fe992e28c259d7d85d515212c34a199f9",
+      "originalOuterNodeExitKnown": true,
+      "rawReportEvidenceId": "evidence/ab/block-06-B/private-desktop/44628c8be4645b13.attempt-1.lhr.json",
+      "resultSha256": "61519e8cafdee88f3313d29698c4c9e5539ec07186f65f9a2fe95ae9b91fe701"
+    }
+  ],
+  "categoryScoreMedians": [
+    {
+      "scope": "private",
+      "path": "/ar/admin/",
+      "device": "desktop",
+      "A": {
+        "performance": 61,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 58
+      },
+      "B": {
+        "performance": 61,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 58
+      }
+    },
+    {
+      "scope": "private",
+      "path": "/ar/admin/",
+      "device": "mobile",
+      "A": {
+        "performance": 45,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "B": {
+        "performance": 45,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      }
+    },
+    {
+      "scope": "private",
+      "path": "/ar/admin/ai/",
+      "device": "desktop",
+      "A": {
+        "performance": 92,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 58
+      },
+      "B": {
+        "performance": 92,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 58
+      }
+    },
+    {
+      "scope": "private",
+      "path": "/ar/admin/ai/",
+      "device": "mobile",
+      "A": {
+        "performance": 63,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "B": {
+        "performance": 64,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      }
+    },
+    {
+      "scope": "public",
+      "path": "/ar/",
+      "device": "desktop",
+      "A": {
+        "performance": 86,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "B": {
+        "performance": 89,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      }
+    },
+    {
+      "scope": "public",
+      "path": "/ar/",
+      "device": "mobile",
+      "A": {
+        "performance": 51,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "B": {
+        "performance": 58,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      }
+    },
+    {
+      "scope": "public",
+      "path": "/ar/about/",
+      "device": "desktop",
+      "A": {
+        "performance": 82,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "B": {
+        "performance": 85,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      }
+    },
+    {
+      "scope": "public",
+      "path": "/ar/about/",
+      "device": "mobile",
+      "A": {
+        "performance": 49,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "B": {
+        "performance": 54,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      }
+    }
+  ],
+  "sourceAggregateSha256": "74b090edf79138cd24e87bc1cf18f8cad454b301d156c67653c23b437d010ebc",
+  "rawAuthenticatedArtifactsIncluded": false,
+  "measuredFinalCandidateC2": false
+}

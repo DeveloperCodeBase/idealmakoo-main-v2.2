@@ -1,0 +1,934 @@
+{
+  "observedAt": "2026-10-20T15:50:37.169638+00:00",
+  "scope": "Two unchanged bounded native mobile-viewport diagnostics; not Lighthouse. Sampled CPU time is separate from PerformanceObserver long tasks.",
+  "reports": [
+    {
+      "label": "SEGX",
+      "file": "home-startup-cpu-fixed.json",
+      "sha256": "9e9c3159dabee2a525c8cbf05a95fff3e74fec059c410df2a2a06057b68b53b3",
+      "buildId": "SEGX-S68AwFNAKa-yMEjI",
+      "helperSha256": "063ef3edc4b0700beed16129bdc8886475e5cd9fb89b8e3d084b5c26edffb6de",
+      "startedAt": "2026-10-20T15:09:17.898Z",
+      "finishedAt": "2026-10-20T15:09:38.218Z",
+      "durationMs": 20320.0,
+      "httpStatus": 200,
+      "error": null,
+      "deadlineExceeded": false,
+      "pageErrors": [],
+      "consoleErrors": [],
+      "headingCount": 1,
+      "pageLoaderCount": 0,
+      "scenes": [
+        "ready",
+        "loading"
+      ],
+      "lcpEvents": [
+        {
+          "type": "largest-contentful-paint",
+          "at": 2120,
+          "duration": 0,
+          "size": 43000
+        }
+      ],
+      "longTasks": [
+        {
+          "type": "longtask",
+          "at": 11097.5,
+          "duration": 5991
+        },
+        {
+          "type": "longtask",
+          "at": 8449.60000000149,
+          "duration": 2565
+        },
+        {
+          "type": "longtask",
+          "at": 7369.10000000149,
+          "duration": 1014
+        },
+        {
+          "type": "longtask",
+          "at": 3259.5,
+          "duration": 498
+        },
+        {
+          "type": "longtask",
+          "at": 2324.199999999255,
+          "duration": 360
+        },
+        {
+          "type": "longtask",
+          "at": 2215.199999999255,
+          "duration": 108
+        },
+        {
+          "type": "longtask",
+          "at": 3132,
+          "duration": 103
+        },
+        {
+          "type": "longtask",
+          "at": 3889.900000002235,
+          "duration": 97
+        },
+        {
+          "type": "longtask",
+          "at": 2831.199999999255,
+          "duration": 93
+        },
+        {
+          "type": "longtask",
+          "at": 2713.300000000745,
+          "duration": 92
+        },
+        {
+          "type": "longtask",
+          "at": 4397.5,
+          "duration": 72
+        }
+      ],
+      "topSelf": [
+        {
+          "function": "(program)",
+          "script": "",
+          "line": -1,
+          "column": -1,
+          "selfMs": 3073.63,
+          "inclusiveMs": 3073.63
+        },
+        {
+          "function": "(idle)",
+          "script": "",
+          "line": -1,
+          "column": -1,
+          "selfMs": 2463.727,
+          "inclusiveMs": 2463.727
+        },
+        {
+          "function": "P",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 172,
+          "column": 941,
+          "selfMs": 1047.401,
+          "inclusiveMs": 1048.777
+        },
+        {
+          "function": "P",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 172,
+          "column": 941,
+          "selfMs": 957.946,
+          "inclusiveMs": 957.946
+        },
+        {
+          "function": "P",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 172,
+          "column": 941,
+          "selfMs": 262.652,
+          "inclusiveMs": 262.652
+        },
+        {
+          "function": "P",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 172,
+          "column": 941,
+          "selfMs": 191.101,
+          "inclusiveMs": 191.101
+        },
+        {
+          "function": "i",
+          "script": "page-2154674288496011.js",
+          "line": 0,
+          "column": 379812,
+          "selfMs": 178.331,
+          "inclusiveMs": 178.331
+        },
+        {
+          "function": "(garbage collector)",
+          "script": "",
+          "line": -1,
+          "column": -1,
+          "selfMs": 118.162,
+          "inclusiveMs": 118.162
+        },
+        {
+          "function": "eN",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 196,
+          "column": 19851,
+          "selfMs": 99.577,
+          "inclusiveMs": 99.577
+        },
+        {
+          "function": "setSize",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 196,
+          "column": 22398,
+          "selfMs": 58.975,
+          "inclusiveMs": 58.975
+        },
+        {
+          "function": "i",
+          "script": "page-2154674288496011.js",
+          "line": 0,
+          "column": 379812,
+          "selfMs": 53.946,
+          "inclusiveMs": 58.242
+        },
+        {
+          "function": "u",
+          "script": "webpack-2bdc1429921f9723.js",
+          "line": 0,
+          "column": 61,
+          "selfMs": 48.191,
+          "inclusiveMs": 63.957
+        },
+        {
+          "function": "g",
+          "script": "7564.3ac74ccbee9edf2c.js",
+          "line": 0,
+          "column": 552,
+          "selfMs": 46.883,
+          "inclusiveMs": 924.595
+        },
+        {
+          "function": "u",
+          "script": "webpack-2bdc1429921f9723.js",
+          "line": 0,
+          "column": 61,
+          "selfMs": 35.998,
+          "inclusiveMs": 47.854
+        },
+        {
+          "function": "P",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 172,
+          "column": 941,
+          "selfMs": 34.332,
+          "inclusiveMs": 36.915
+        },
+        {
+          "function": "eq",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 196,
+          "column": 32217,
+          "selfMs": 33.313,
+          "inclusiveMs": 38.674
+        },
+        {
+          "function": "nC",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 196,
+          "column": 18505,
+          "selfMs": 31.919,
+          "inclusiveMs": 202.766
+        },
+        {
+          "function": "P",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 172,
+          "column": 941,
+          "selfMs": 26.99,
+          "inclusiveMs": 26.99
+        },
+        {
+          "function": "ug",
+          "script": "4bd1b696-8cd12253b448cc13.js",
+          "line": 0,
+          "column": 110302,
+          "selfMs": 25.658,
+          "inclusiveMs": 68.607
+        },
+        {
+          "function": "u",
+          "script": "webpack-2bdc1429921f9723.js",
+          "line": 0,
+          "column": 61,
+          "selfMs": 20.902,
+          "inclusiveMs": 222.569
+        }
+      ],
+      "topInclusive": [
+        {
+          "function": "(root)",
+          "script": "",
+          "line": -1,
+          "column": -1,
+          "selfMs": 0.0,
+          "inclusiveMs": 10749.569
+        },
+        {
+          "function": "(program)",
+          "script": "",
+          "line": -1,
+          "column": -1,
+          "selfMs": 3073.63,
+          "inclusiveMs": 3073.63
+        },
+        {
+          "function": "update",
+          "script": "7564.3ac74ccbee9edf2c.js",
+          "line": 105,
+          "column": 10867,
+          "selfMs": 6.178,
+          "inclusiveMs": 2551.112
+        },
+        {
+          "function": "j",
+          "script": "page-2154674288496011.js",
+          "line": 0,
+          "column": 674579,
+          "selfMs": 0.0,
+          "inclusiveMs": 2551.112
+        },
+        {
+          "function": "render",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 196,
+          "column": 38628,
+          "selfMs": 0.0,
+          "inclusiveMs": 2515.459
+        },
+        {
+          "function": "(idle)",
+          "script": "",
+          "line": -1,
+          "column": -1,
+          "selfMs": 2463.727,
+          "inclusiveMs": 2463.727
+        },
+        {
+          "function": "e$",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 196,
+          "column": 35282,
+          "selfMs": 0.0,
+          "inclusiveMs": 2012.33
+        },
+        {
+          "function": "eZ",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 196,
+          "column": 35048,
+          "selfMs": 0.0,
+          "inclusiveMs": 2012.33
+        },
+        {
+          "function": "ej",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 196,
+          "column": 33241,
+          "selfMs": 0.0,
+          "inclusiveMs": 2012.33
+        },
+        {
+          "function": "onBeforeRender",
+          "script": "2900.9ace30e6e36b8a03.js",
+          "line": 0,
+          "column": 4307,
+          "selfMs": 4.489,
+          "inclusiveMs": 1054.384
+        },
+        {
+          "function": "p.onBeforeRender",
+          "script": "7564.3ac74ccbee9edf2c.js",
+          "line": 105,
+          "column": 561,
+          "selfMs": 0.0,
+          "inclusiveMs": 1054.384
+        },
+        {
+          "function": "",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 196,
+          "column": 24947,
+          "selfMs": 0.0,
+          "inclusiveMs": 1049.895
+        },
+        {
+          "function": "renderBufferDirect",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 196,
+          "column": 24854,
+          "selfMs": 0.0,
+          "inclusiveMs": 1049.895
+        },
+        {
+          "function": "e$",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 196,
+          "column": 35282,
+          "selfMs": 0.0,
+          "inclusiveMs": 1049.895
+        },
+        {
+          "function": "eZ",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 196,
+          "column": 35048,
+          "selfMs": 0.0,
+          "inclusiveMs": 1049.895
+        },
+        {
+          "function": "ej",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 196,
+          "column": 33241,
+          "selfMs": 0.0,
+          "inclusiveMs": 1049.895
+        },
+        {
+          "function": "render",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 196,
+          "column": 38628,
+          "selfMs": 0.0,
+          "inclusiveMs": 1049.895
+        },
+        {
+          "function": "P",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 172,
+          "column": 941,
+          "selfMs": 1047.401,
+          "inclusiveMs": 1048.777
+        },
+        {
+          "function": "getUniforms",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 172,
+          "column": 2282,
+          "selfMs": 0.0,
+          "inclusiveMs": 1048.777
+        },
+        {
+          "function": "L",
+          "script": "page-2154674288496011.js",
+          "line": 0,
+          "column": 674902,
+          "selfMs": 5.465,
+          "inclusiveMs": 963.388
+        },
+        {
+          "function": "P",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 172,
+          "column": 941,
+          "selfMs": 957.946,
+          "inclusiveMs": 957.946
+        },
+        {
+          "function": "getUniforms",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 172,
+          "column": 2282,
+          "selfMs": 0.0,
+          "inclusiveMs": 957.946
+        },
+        {
+          "function": "",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 196,
+          "column": 24947,
+          "selfMs": 0.0,
+          "inclusiveMs": 957.946
+        },
+        {
+          "function": "renderBufferDirect",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 196,
+          "column": 24854,
+          "selfMs": 0.0,
+          "inclusiveMs": 957.946
+        },
+        {
+          "function": "g",
+          "script": "7564.3ac74ccbee9edf2c.js",
+          "line": 0,
+          "column": 552,
+          "selfMs": 46.883,
+          "inclusiveMs": 924.595
+        }
+      ],
+      "memoryBytesRange": [
+        2634207232,
+        3113377792
+      ],
+      "threadRange": [
+        111,
+        142
+      ],
+      "cpuStatDelta": {
+        "usage_usec": 76057962,
+        "user_usec": 59727329,
+        "system_usec": 16330632,
+        "nice_usec": 3429,
+        "nr_periods": 89,
+        "nr_throttled": 9,
+        "throttled_usec": 1018317,
+        "nr_bursts": 0,
+        "burst_usec": 0
+      }
+    },
+    {
+      "label": "zTyF",
+      "file": "home-startup-cpu-variants.json",
+      "sha256": "b03b4f83190d9dd79e7f71c3631dd00b5eb438656e3c72eae95775a6a5820772",
+      "buildId": "zTyFzGk88zFYZzMkC8On8",
+      "helperSha256": "063ef3edc4b0700beed16129bdc8886475e5cd9fb89b8e3d084b5c26edffb6de",
+      "startedAt": "2026-10-20T15:48:48.192Z",
+      "finishedAt": "2026-10-20T15:49:37.038Z",
+      "durationMs": 48846.0,
+      "httpStatus": 200,
+      "error": null,
+      "deadlineExceeded": false,
+      "pageErrors": [],
+      "consoleErrors": [],
+      "headingCount": 1,
+      "pageLoaderCount": 0,
+      "scenes": [
+        "ready",
+        "loading"
+      ],
+      "lcpEvents": [
+        {
+          "type": "largest-contentful-paint",
+          "at": 912,
+          "duration": 0,
+          "size": 43000
+        }
+      ],
+      "longTasks": [
+        {
+          "type": "longtask",
+          "at": 7492.599999997765,
+          "duration": 24186
+        },
+        {
+          "type": "longtask",
+          "at": 6279.5,
+          "duration": 997
+        },
+        {
+          "type": "longtask",
+          "at": 1182,
+          "duration": 301
+        },
+        {
+          "type": "longtask",
+          "at": 1852.8999999985099,
+          "duration": 197
+        },
+        {
+          "type": "longtask",
+          "at": 1054.3999999985099,
+          "duration": 127
+        },
+        {
+          "type": "longtask",
+          "at": 2569.89999999851,
+          "duration": 102
+        },
+        {
+          "type": "longtask",
+          "at": 2054.39999999851,
+          "duration": 73
+        },
+        {
+          "type": "longtask",
+          "at": 1519.2999999970198,
+          "duration": 62
+        },
+        {
+          "type": "longtask",
+          "at": 7419.39999999851,
+          "duration": 50
+        }
+      ],
+      "topSelf": [
+        {
+          "function": "(program)",
+          "script": "",
+          "line": -1,
+          "column": -1,
+          "selfMs": 18056.719,
+          "inclusiveMs": 18056.719
+        },
+        {
+          "function": "P",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 172,
+          "column": 941,
+          "selfMs": 6963.723,
+          "inclusiveMs": 6965.04
+        },
+        {
+          "function": "(idle)",
+          "script": "",
+          "line": -1,
+          "column": -1,
+          "selfMs": 2665.419,
+          "inclusiveMs": 2665.419
+        },
+        {
+          "function": "P",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 172,
+          "column": 941,
+          "selfMs": 875.157,
+          "inclusiveMs": 877.325
+        },
+        {
+          "function": "P",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 172,
+          "column": 941,
+          "selfMs": 327.751,
+          "inclusiveMs": 349.76
+        },
+        {
+          "function": "P",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 172,
+          "column": 941,
+          "selfMs": 200.298,
+          "inclusiveMs": 200.298
+        },
+        {
+          "function": "(garbage collector)",
+          "script": "",
+          "line": -1,
+          "column": -1,
+          "selfMs": 165.277,
+          "inclusiveMs": 165.277
+        },
+        {
+          "function": "P",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 172,
+          "column": 941,
+          "selfMs": 69.57,
+          "inclusiveMs": 73.012
+        },
+        {
+          "function": "s",
+          "script": "webpack-54b929567ff44d1c.js",
+          "line": 0,
+          "column": 61,
+          "selfMs": 59.25,
+          "inclusiveMs": 83.27
+        },
+        {
+          "function": "eN",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 196,
+          "column": 19851,
+          "selfMs": 49.601,
+          "inclusiveMs": 49.601
+        },
+        {
+          "function": "t",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 150,
+          "column": 942,
+          "selfMs": 49.106,
+          "inclusiveMs": 49.106
+        },
+        {
+          "function": "setSize",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 196,
+          "column": 22398,
+          "selfMs": 45.224,
+          "inclusiveMs": 45.224
+        },
+        {
+          "function": "uc",
+          "script": "4bd1b696-8cd12253b448cc13.js",
+          "line": 0,
+          "column": 107916,
+          "selfMs": 34.162,
+          "inclusiveMs": 34.162
+        },
+        {
+          "function": "an",
+          "script": "bd904a5c.8529b1cfb1c1b6ab.js",
+          "line": 35,
+          "column": 34136,
+          "selfMs": 31.064,
+          "inclusiveMs": 47.033
+        },
+        {
+          "function": "resize",
+          "script": "7564.1a6f6915cdaf4741.js",
+          "line": 105,
+          "column": 1307,
+          "selfMs": 30.74,
+          "inclusiveMs": 38.07
+        },
+        {
+          "function": "a",
+          "script": "159-32014ceda3c43ae4.js",
+          "line": 0,
+          "column": 139163,
+          "selfMs": 29.972,
+          "inclusiveMs": 29.972
+        },
+        {
+          "function": "s",
+          "script": "webpack-54b929567ff44d1c.js",
+          "line": 0,
+          "column": 61,
+          "selfMs": 29.883,
+          "inclusiveMs": 44.17
+        },
+        {
+          "function": "c",
+          "script": "3254-417c5b2d403301f5.js",
+          "line": 0,
+          "column": 1793,
+          "selfMs": 24.381,
+          "inclusiveMs": 24.381
+        },
+        {
+          "function": "a",
+          "script": "159-32014ceda3c43ae4.js",
+          "line": 0,
+          "column": 139163,
+          "selfMs": 23.938,
+          "inclusiveMs": 25.43
+        },
+        {
+          "function": "",
+          "script": "2294-6060afd7efa3615a.js",
+          "line": 0,
+          "column": 14440,
+          "selfMs": 23.082,
+          "inclusiveMs": 23.816
+        }
+      ],
+      "topInclusive": [
+        {
+          "function": "(root)",
+          "script": "",
+          "line": -1,
+          "column": -1,
+          "selfMs": 0.0,
+          "inclusiveMs": 31466.106
+        },
+        {
+          "function": "(program)",
+          "script": "",
+          "line": -1,
+          "column": -1,
+          "selfMs": 18056.719,
+          "inclusiveMs": 18056.719
+        },
+        {
+          "function": "C",
+          "script": "3254-417c5b2d403301f5.js",
+          "line": 0,
+          "column": 7570,
+          "selfMs": 5.999,
+          "inclusiveMs": 8469.039
+        },
+        {
+          "function": "update",
+          "script": "7564.1a6f6915cdaf4741.js",
+          "line": 105,
+          "column": 10953,
+          "selfMs": 5.153,
+          "inclusiveMs": 8463.04
+        },
+        {
+          "function": "render",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 196,
+          "column": 38628,
+          "selfMs": 0.0,
+          "inclusiveMs": 8447.641
+        },
+        {
+          "function": "e$",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 196,
+          "column": 35282,
+          "selfMs": 1.492,
+          "inclusiveMs": 7339.512
+        },
+        {
+          "function": "eZ",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 196,
+          "column": 35048,
+          "selfMs": 0.0,
+          "inclusiveMs": 7339.512
+        },
+        {
+          "function": "ej",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 196,
+          "column": 33241,
+          "selfMs": 0.0,
+          "inclusiveMs": 7339.512
+        },
+        {
+          "function": "onBeforeRender",
+          "script": "2900.9ace30e6e36b8a03.js",
+          "line": 0,
+          "column": 4307,
+          "selfMs": 0.0,
+          "inclusiveMs": 6981.726
+        },
+        {
+          "function": "p.onBeforeRender",
+          "script": "7564.1a6f6915cdaf4741.js",
+          "line": 105,
+          "column": 561,
+          "selfMs": 0.0,
+          "inclusiveMs": 6981.726
+        },
+        {
+          "function": "render",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 196,
+          "column": 38628,
+          "selfMs": 0.0,
+          "inclusiveMs": 6980.003
+        },
+        {
+          "function": "renderBufferDirect",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 196,
+          "column": 24854,
+          "selfMs": 0.0,
+          "inclusiveMs": 6975.406
+        },
+        {
+          "function": "e$",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 196,
+          "column": 35282,
+          "selfMs": 0.0,
+          "inclusiveMs": 6975.406
+        },
+        {
+          "function": "eZ",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 196,
+          "column": 35048,
+          "selfMs": 0.0,
+          "inclusiveMs": 6975.406
+        },
+        {
+          "function": "ej",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 196,
+          "column": 33241,
+          "selfMs": 0.0,
+          "inclusiveMs": 6975.406
+        },
+        {
+          "function": "",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 196,
+          "column": 24947,
+          "selfMs": 1.164,
+          "inclusiveMs": 6966.204
+        },
+        {
+          "function": "P",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 172,
+          "column": 941,
+          "selfMs": 6963.723,
+          "inclusiveMs": 6965.04
+        },
+        {
+          "function": "getUniforms",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 172,
+          "column": 2282,
+          "selfMs": 0.0,
+          "inclusiveMs": 6965.04
+        },
+        {
+          "function": "(idle)",
+          "script": "",
+          "line": -1,
+          "column": -1,
+          "selfMs": 2665.419,
+          "inclusiveMs": 2665.419
+        },
+        {
+          "function": "P",
+          "script": "3254-417c5b2d403301f5.js",
+          "line": 0,
+          "column": 7916,
+          "selfMs": 19.307,
+          "inclusiveMs": 969.316
+        },
+        {
+          "function": "x",
+          "script": "7564.1a6f6915cdaf4741.js",
+          "line": 0,
+          "column": 563,
+          "selfMs": 21.624,
+          "inclusiveMs": 897.347
+        },
+        {
+          "function": "render",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 172,
+          "column": 25176,
+          "selfMs": 1.157,
+          "inclusiveMs": 882.237
+        },
+        {
+          "function": "t",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 172,
+          "column": 26417,
+          "selfMs": 1.373,
+          "inclusiveMs": 881.08
+        },
+        {
+          "function": "t",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 172,
+          "column": 26417,
+          "selfMs": 0.0,
+          "inclusiveMs": 881.08
+        },
+        {
+          "function": "t",
+          "script": "b536a0f1.5a2107dd6309b288.js",
+          "line": 172,
+          "column": 26417,
+          "selfMs": 0.0,
+          "inclusiveMs": 881.08
+        }
+      ],
+      "memoryBytesRange": [
+        2940694528,
+        3445661696
+      ],
+      "threadRange": [
+        111,
+        146
+      ],
+      "cpuStatDelta": {
+        "usage_usec": 247586928,
+        "user_usec": 203980762,
+        "system_usec": 43606167,
+        "nice_usec": 850,
+        "nr_periods": 236,
+        "nr_throttled": 41,
+        "throttled_usec": 6018193,
+        "nr_bursts": 0,
+        "burst_usec": 0
+      }
+    }
+  ]
+}

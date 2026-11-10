@@ -1,0 +1,10 @@
+{
+  "kind": "postgres-full-02-review",
+  "reviewedAt": "2026-10-25T03:30:46.045629+00:00",
+  "receiptSha256": "faeca4e6536a750c5d047bcbd349f877efe276779a6bd1446fd5ffc024be9809",
+  "observedProcessExitCode": 0,
+  "accepted": false,
+  "reason": "No terminal test summary; log stops during staff provisioning. Actual exit 0 alone is insufficient.",
+  "rootCause": "Unconfirmed",
+  "replacementGate": "postgres-isolated-01"
+}

@@ -1,0 +1,29 @@
+{
+  "gate": "unit",
+  "label": "worker-final",
+  "startedAt": "2026-10-21T10:25:29.234Z",
+  "finishedAt": "2026-10-21T10:26:04.246Z",
+  "exitCode": 0,
+  "childSignal": null,
+  "spawnError": null,
+  "sourceBefore": {
+    "sha256": "7f3ce91bb62edb78824310083b185f1854fa0d98458b04dea167078a24c4155d",
+    "files": 819
+  },
+  "sourceAfter": {
+    "sha256": "7f3ce91bb62edb78824310083b185f1854fa0d98458b04dea167078a24c4155d",
+    "files": 819
+  },
+  "sourceUnchanged": true,
+  "node": "v24.19.0",
+  "counts": {
+    "tests": 0,
+    "passed": 0,
+    "failed": 0,
+    "skipped": 0,
+    "cancelled": 0
+  },
+  "accepted": false,
+  "reason": "Exited zero after 478 passing lines without a complete Node test-runner summary; the cause was not established. The unchanged elevated rerun completed all 687 tests and is the accepted gate.",
+  "rawLogSha256": "90b87e1f013d407fc6b10baf25582da8879c76a2c234170009c645c4b9e12eaf"
+}

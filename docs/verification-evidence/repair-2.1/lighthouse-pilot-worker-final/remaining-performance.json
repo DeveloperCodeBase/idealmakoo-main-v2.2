@@ -1,0 +1,2615 @@
+{
+  "createdAt": "2026-10-21T10:46:23.682210+00:00",
+  "scope": "Read-only diagnosis of the four final-build mobile Lighthouse reports. No extra browser run or application change.",
+  "buildId": "-Q7Ffy3JmwVExwxk-Ymk-",
+  "runtimeApplicationSourceHash": "12da2b69abf2fa85cf0655bc0b4ec7df9244ea0b50a29cc8c3be1157851b6e1c",
+  "reports": [
+    {
+      "url": "http://127.0.0.1:3090/en/contact/",
+      "rawReportSha256": "2a08440f4bd4011f7fe95fe2a7ce05d73b03c54198daf7439a8b0f26916f04c1",
+      "runWarnings": [],
+      "scores": {
+        "performance": 0.87,
+        "accessibility": 1,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "metrics": {
+        "first-contentful-paint": 1232.0308999999997,
+        "largest-contentful-paint": 2893.0463499999996,
+        "speed-index": 1232.0308999999997,
+        "total-blocking-time": 362,
+        "cumulative-layout-shift": 0,
+        "interactive": 5669.59635
+      },
+      "findings": {
+        "lcp-breakdown-insight": {
+          "score": 1,
+          "metricSavings": {
+            "LCP": 0
+          },
+          "details": {
+            "type": "list",
+            "items": [
+              {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "label",
+                    "valueType": "text",
+                    "label": "Subpart"
+                  },
+                  {
+                    "key": "duration",
+                    "valueType": "ms",
+                    "label": "Duration"
+                  }
+                ],
+                "items": [
+                  {
+                    "subpart": "timeToFirstByte",
+                    "label": "Time to first byte",
+                    "duration": 35.995000003814695
+                  },
+                  {
+                    "subpart": "elementRenderDelay",
+                    "label": "Element render delay",
+                    "duration": 238.1809999961853
+                  }
+                ]
+              },
+              {
+                "type": "node",
+                "lhId": "page-0-P",
+                "path": "1,HTML,1,BODY,4,MAIN,0,DIV,0,DIV,2,P",
+                "selector": "main#main-content > div.container > div.page-intro > p",
+                "boundingRect": {
+                  "top": 204,
+                  "bottom": 258,
+                  "left": 20,
+                  "right": 392,
+                  "width": 372,
+                  "height": 55
+                },
+                "snippet": "<p>",
+                "nodeLabel": "Start a conversation about product selection, documentation or a business partn…"
+              }
+            ]
+          }
+        },
+        "render-blocking-insight": {
+          "score": 0,
+          "displayValue": "Est savings of 150 ms",
+          "metricSavings": {
+            "FCP": 150,
+            "LCP": 150
+          },
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "label": "Transfer Size"
+              },
+              {
+                "key": "wastedMs",
+                "valueType": "timespanMs",
+                "label": "Duration"
+              }
+            ],
+            "items": [
+              {
+                "url": "http://127.0.0.1:3090/_next/static/css/8fcd9aea4312038e.css",
+                "totalBytes": 2634,
+                "wastedMs": 166
+              }
+            ]
+          }
+        },
+        "mainthread-work-breakdown": {
+          "score": 1,
+          "displayValue": "1.8 s",
+          "numericValue": 1795.9680000000055,
+          "metricSavings": {
+            "TBT": 350
+          },
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "groupLabel",
+                "valueType": "text",
+                "label": "Category"
+              },
+              {
+                "key": "duration",
+                "valueType": "ms",
+                "granularity": 1,
+                "label": "Time Spent"
+              }
+            ],
+            "items": [
+              {
+                "group": "scriptEvaluation",
+                "groupLabel": "Script Evaluation",
+                "duration": 874.5120000000064
+              },
+              {
+                "group": "other",
+                "groupLabel": "Other",
+                "duration": 560.4719999999995
+              },
+              {
+                "group": "styleLayout",
+                "groupLabel": "Style & Layout",
+                "duration": 139.472
+              },
+              {
+                "group": "scriptParseCompile",
+                "groupLabel": "Script Parsing & Compilation",
+                "duration": 137.40399999999997
+              },
+              {
+                "group": "parseHTML",
+                "groupLabel": "Parse HTML & CSS",
+                "duration": 45.128
+              },
+              {
+                "group": "paintCompositeRender",
+                "groupLabel": "Rendering",
+                "duration": 21.85999999999999
+              },
+              {
+                "group": "garbageCollection",
+                "groupLabel": "Garbage Collection",
+                "duration": 17.11999999999998
+              }
+            ],
+            "sortedBy": [
+              "duration"
+            ]
+          }
+        },
+        "bootup-time": {
+          "score": 1,
+          "displayValue": "1.0 s",
+          "numericValue": 961.9440000000012,
+          "metricSavings": {
+            "TBT": 350
+          },
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "total",
+                "granularity": 1,
+                "valueType": "ms",
+                "label": "Total CPU Time"
+              },
+              {
+                "key": "scripting",
+                "granularity": 1,
+                "valueType": "ms",
+                "label": "Script Evaluation"
+              },
+              {
+                "key": "scriptParseCompile",
+                "granularity": 1,
+                "valueType": "ms",
+                "label": "Script Parse"
+              }
+            ],
+            "items": [
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/3794-9f866eb1b07be87c.js",
+                "total": 457.72000000000094,
+                "scripting": 393.9640000000009,
+                "scriptParseCompile": 27.292
+              },
+              {
+                "url": "Unattributable",
+                "total": 446.9560000000004,
+                "scripting": 14.015999999999998,
+                "scriptParseCompile": 0
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/4bd1b696-8cd12253b448cc13.js",
+                "total": 324.9440000000001,
+                "scripting": 268.6480000000001,
+                "scriptParseCompile": 17.828
+              },
+              {
+                "url": "http://127.0.0.1:3090/en/contact/",
+                "total": 300.22,
+                "scripting": 20.395999999999997,
+                "scriptParseCompile": 35.111999999999995
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/9716-8354333f1aaa798b.js",
+                "total": 118.71600000000024,
+                "scripting": 91.88000000000024,
+                "scriptParseCompile": 21.74
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/159-791511f7dbb3ad84.js",
+                "total": 74.53999999999996,
+                "scripting": 52.495999999999974,
+                "scriptParseCompile": 18.571999999999996
+              }
+            ],
+            "summary": {
+              "wastedMs": 961.9440000000012
+            },
+            "sortedBy": [
+              "total"
+            ]
+          }
+        },
+        "long-tasks": {
+          "score": 1,
+          "displayValue": "8 long tasks found",
+          "metricSavings": {
+            "TBT": 350
+          },
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "startTime",
+                "valueType": "ms",
+                "granularity": 1,
+                "label": "Start Time"
+              },
+              {
+                "key": "duration",
+                "valueType": "ms",
+                "granularity": 1,
+                "label": "Duration"
+              }
+            ],
+            "items": [
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/4bd1b696-8cd12253b448cc13.js",
+                "duration": 295,
+                "startTime": 3498.0463499999996
+              },
+              {
+                "url": "Unattributable",
+                "duration": 149,
+                "startTime": 1108.0154499999999
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/9716-8354333f1aaa798b.js",
+                "duration": 118,
+                "startTime": 5523.04635
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/3794-9f866eb1b07be87c.js",
+                "duration": 110,
+                "startTime": 5641.04635
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/159-791511f7dbb3ad84.js",
+                "duration": 75,
+                "startTime": 5448.04635
+              },
+              {
+                "url": "http://127.0.0.1:3090/en/contact/",
+                "duration": 66,
+                "startTime": 1326.0154499999999
+              },
+              {
+                "url": "http://127.0.0.1:3090/en/contact/",
+                "duration": 62,
+                "startTime": 1392.0154499999999
+              },
+              {
+                "url": "Unattributable",
+                "duration": 50,
+                "startTime": 1257.0154499999999
+              }
+            ],
+            "sortedBy": [
+              "duration"
+            ],
+            "skipSumming": [
+              "startTime"
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "urls": [
+                "http://127.0.0.1:3090/_next/static/chunks/4bd1b696-8cd12253b448cc13.js",
+                "Unattributable",
+                "http://127.0.0.1:3090/_next/static/chunks/9716-8354333f1aaa798b.js",
+                "http://127.0.0.1:3090/_next/static/chunks/3794-9f866eb1b07be87c.js",
+                "http://127.0.0.1:3090/_next/static/chunks/159-791511f7dbb3ad84.js",
+                "http://127.0.0.1:3090/en/contact/"
+              ],
+              "tasks": [
+                {
+                  "urlIndex": 0,
+                  "startTime": 3498,
+                  "duration": 295,
+                  "other": 295,
+                  "scriptEvaluation": 0
+                },
+                {
+                  "urlIndex": 1,
+                  "startTime": 1108,
+                  "duration": 149,
+                  "other": 149
+                },
+                {
+                  "urlIndex": 2,
+                  "startTime": 5523,
+                  "duration": 118,
+                  "other": 118,
+                  "scriptEvaluation": 0
+                },
+                {
+                  "urlIndex": 3,
+                  "startTime": 5641,
+                  "duration": 110,
+                  "other": 110
+                },
+                {
+                  "urlIndex": 4,
+                  "startTime": 5448,
+                  "duration": 75,
+                  "other": 75,
+                  "scriptEvaluation": 0
+                },
+                {
+                  "urlIndex": 5,
+                  "startTime": 1326,
+                  "duration": 66,
+                  "other": 66,
+                  "parseHTML": 0
+                },
+                {
+                  "urlIndex": 5,
+                  "startTime": 1392,
+                  "duration": 62,
+                  "other": 62,
+                  "parseHTML": 0,
+                  "scriptEvaluation": 0,
+                  "styleLayout": 0
+                },
+                {
+                  "urlIndex": 1,
+                  "startTime": 1257,
+                  "duration": 50,
+                  "other": 50,
+                  "scriptEvaluation": 0
+                }
+              ]
+            }
+          }
+        },
+        "unused-javascript": {
+          "score": 0,
+          "displayValue": "Est savings of 115 KiB",
+          "numericValue": 300,
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 300
+          },
+          "details": {
+            "type": "opportunity",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "subItemsHeading": {
+                  "key": "source",
+                  "valueType": "code"
+                },
+                "label": "URL"
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "subItemsHeading": {
+                  "key": "sourceBytes"
+                },
+                "label": "Transfer Size"
+              },
+              {
+                "key": "wastedBytes",
+                "valueType": "bytes",
+                "subItemsHeading": {
+                  "key": "sourceWastedBytes"
+                },
+                "label": "Est Savings"
+              }
+            ],
+            "items": [
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/159-791511f7dbb3ad84.js",
+                "totalBytes": 71408,
+                "wastedBytes": 30309,
+                "wastedPercent": 42.44406094954209
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/3794-9f866eb1b07be87c.js",
+                "totalBytes": 67163,
+                "wastedBytes": 24047,
+                "wastedPercent": 35.803124370003744
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/9716-8354333f1aaa798b.js",
+                "totalBytes": 76599,
+                "wastedBytes": 21806,
+                "wastedPercent": 28.467328667031673
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/4bd1b696-8cd12253b448cc13.js",
+                "totalBytes": 64118,
+                "wastedBytes": 21291,
+                "wastedPercent": 33.20571156498648
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/1074-135366284b7f20c6.js",
+                "totalBytes": 26121,
+                "wastedBytes": 20584,
+                "wastedPercent": 78.80177646848777
+              }
+            ],
+            "overallSavingsMs": 300,
+            "overallSavingsBytes": 118037,
+            "sortedBy": [
+              "wastedBytes"
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "metricSavings": {
+                "FCP": 0,
+                "LCP": 300
+              }
+            }
+          }
+        },
+        "font-display-insight": {
+          "score": 1,
+          "metricSavings": {
+            "INP": 0
+          },
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "wastedMs",
+                "valueType": "ms",
+                "label": "Est Savings"
+              }
+            ],
+            "items": [],
+            "skipSumming": [
+              "wastedMs"
+            ]
+          }
+        },
+        "forced-reflow-insight": {
+          "score": 1,
+          "details": {
+            "type": "list",
+            "items": [
+              {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "source",
+                    "valueType": "source-location",
+                    "label": "Source"
+                  },
+                  {
+                    "key": "reflowTime",
+                    "valueType": "ms",
+                    "granularity": 1,
+                    "label": "Total reflow time"
+                  }
+                ],
+                "items": []
+              }
+            ]
+          }
+        },
+        "image-delivery-insight": {
+          "score": 1,
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 0
+          },
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "label": ""
+              },
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL",
+                "subItemsHeading": {
+                  "key": "reason",
+                  "valueType": "text"
+                }
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "label": "Resource Size"
+              },
+              {
+                "key": "wastedBytes",
+                "valueType": "bytes",
+                "label": "Est Savings",
+                "subItemsHeading": {
+                  "key": "wastedBytes",
+                  "valueType": "bytes"
+                }
+              }
+            ],
+            "items": [],
+            "debugData": {
+              "type": "debugdata",
+              "wastedBytes": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "url": "http://127.0.0.1:3090/fa/quality/",
+      "rawReportSha256": "b9937408ee40b78ce178698dbcf0de3611e23029e89339867821ffc717b01b72",
+      "runWarnings": [],
+      "scores": {
+        "performance": 0.83,
+        "accessibility": 1,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "metrics": {
+        "first-contentful-paint": 1364.81,
+        "largest-contentful-paint": 3164.81,
+        "speed-index": 1364.81,
+        "total-blocking-time": 410.00000000000045,
+        "cumulative-layout-shift": 0,
+        "interactive": 6628.905999999999
+      },
+      "findings": {
+        "lcp-breakdown-insight": {
+          "score": 1,
+          "metricSavings": {
+            "LCP": 0
+          },
+          "details": {
+            "type": "list",
+            "items": [
+              {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "label",
+                    "valueType": "text",
+                    "label": "Subpart"
+                  },
+                  {
+                    "key": "duration",
+                    "valueType": "ms",
+                    "label": "Duration"
+                  }
+                ],
+                "items": [
+                  {
+                    "subpart": "timeToFirstByte",
+                    "label": "Time to first byte",
+                    "duration": 36.468
+                  },
+                  {
+                    "subpart": "elementRenderDelay",
+                    "label": "Element render delay",
+                    "duration": 166.588
+                  }
+                ]
+              },
+              {
+                "type": "node",
+                "lhId": "page-0-P",
+                "path": "1,HTML,1,BODY,4,MAIN,0,SECTION,0,HEADER,2,P",
+                "selector": "main#main-content > section.container > header.page-intro > p",
+                "boundingRect": {
+                  "top": 215,
+                  "bottom": 268,
+                  "left": 20,
+                  "right": 392,
+                  "width": 372,
+                  "height": 53
+                },
+                "snippet": "<p>",
+                "nodeLabel": "مشخصات محصول، منابع پژوهشی و مستندات رسمی را کنار هم ببینید و پرسش‌های تخصصی خود…"
+              }
+            ]
+          }
+        },
+        "render-blocking-insight": {
+          "score": 0,
+          "displayValue": "Est savings of 100 ms",
+          "metricSavings": {
+            "FCP": 100,
+            "LCP": 100
+          },
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "label": "Transfer Size"
+              },
+              {
+                "key": "wastedMs",
+                "valueType": "timespanMs",
+                "label": "Duration"
+              }
+            ],
+            "items": [
+              {
+                "url": "http://127.0.0.1:3090/_next/static/css/8fcd9aea4312038e.css",
+                "totalBytes": 2629,
+                "wastedMs": 157
+              }
+            ]
+          }
+        },
+        "mainthread-work-breakdown": {
+          "score": 1,
+          "displayValue": "1.8 s",
+          "numericValue": 1803.4200000000103,
+          "metricSavings": {
+            "TBT": 400
+          },
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "groupLabel",
+                "valueType": "text",
+                "label": "Category"
+              },
+              {
+                "key": "duration",
+                "valueType": "ms",
+                "granularity": 1,
+                "label": "Time Spent"
+              }
+            ],
+            "items": [
+              {
+                "group": "scriptEvaluation",
+                "groupLabel": "Script Evaluation",
+                "duration": 1044.5040000000097
+              },
+              {
+                "group": "other",
+                "groupLabel": "Other",
+                "duration": 400.14400000000063
+              },
+              {
+                "group": "scriptParseCompile",
+                "groupLabel": "Script Parsing & Compilation",
+                "duration": 181.67600000000002
+              },
+              {
+                "group": "styleLayout",
+                "groupLabel": "Style & Layout",
+                "duration": 92.33600000000001
+              },
+              {
+                "group": "parseHTML",
+                "groupLabel": "Parse HTML & CSS",
+                "duration": 45.06799999999999
+              },
+              {
+                "group": "paintCompositeRender",
+                "groupLabel": "Rendering",
+                "duration": 26.623999999999995
+              },
+              {
+                "group": "garbageCollection",
+                "groupLabel": "Garbage Collection",
+                "duration": 13.067999999999993
+              }
+            ],
+            "sortedBy": [
+              "duration"
+            ]
+          }
+        },
+        "bootup-time": {
+          "score": 1,
+          "displayValue": "1.1 s",
+          "numericValue": 1147.6760000000045,
+          "metricSavings": {
+            "TBT": 500
+          },
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "total",
+                "granularity": 1,
+                "valueType": "ms",
+                "label": "Total CPU Time"
+              },
+              {
+                "key": "scripting",
+                "granularity": 1,
+                "valueType": "ms",
+                "label": "Script Evaluation"
+              },
+              {
+                "key": "scriptParseCompile",
+                "granularity": 1,
+                "valueType": "ms",
+                "label": "Script Parse"
+              }
+            ],
+            "items": [
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/3794-9f866eb1b07be87c.js",
+                "total": 513.6000000000038,
+                "scripting": 454.48800000000375,
+                "scriptParseCompile": 24.836
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/4bd1b696-8cd12253b448cc13.js",
+                "total": 380.4920000000007,
+                "scripting": 339.2680000000007,
+                "scriptParseCompile": 20.32
+              },
+              {
+                "url": "Unattributable",
+                "total": 332.1400000000015,
+                "scripting": 25.120000000000005,
+                "scriptParseCompile": 0
+              },
+              {
+                "url": "http://127.0.0.1:3090/fa/quality/",
+                "total": 247.26,
+                "scripting": 18.003999999999994,
+                "scriptParseCompile": 36.604000000000006
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/9716-8354333f1aaa798b.js",
+                "total": 121.42400000000016,
+                "scripting": 89.06400000000016,
+                "scriptParseCompile": 24.596
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/7817-0648e16bdb446294.js",
+                "total": 120.78400000000003,
+                "scripting": 82.38800000000003,
+                "scriptParseCompile": 32.988
+              }
+            ],
+            "summary": {
+              "wastedMs": 1147.6760000000045
+            },
+            "sortedBy": [
+              "total"
+            ]
+          }
+        },
+        "long-tasks": {
+          "score": 1,
+          "displayValue": "6 long tasks found",
+          "metricSavings": {
+            "TBT": 400
+          },
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "startTime",
+                "valueType": "ms",
+                "granularity": 1,
+                "label": "Start Time"
+              },
+              {
+                "key": "duration",
+                "valueType": "ms",
+                "granularity": 1,
+                "label": "Duration"
+              }
+            ],
+            "items": [
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/4bd1b696-8cd12253b448cc13.js",
+                "duration": 355.00000000000045,
+                "startTime": 3622.2149999999992
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/7817-0648e16bdb446294.js",
+                "duration": 121,
+                "startTime": 6621.834999999999
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/9716-8354333f1aaa798b.js",
+                "duration": 120,
+                "startTime": 6501.834999999999
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/3794-9f866eb1b07be87c.js",
+                "duration": 119,
+                "startTime": 6742.834999999999
+              },
+              {
+                "url": "http://127.0.0.1:3090/fa/quality/",
+                "duration": 68,
+                "startTime": 1282.405
+              },
+              {
+                "url": "Unattributable",
+                "duration": 57,
+                "startTime": 1207.405
+              }
+            ],
+            "sortedBy": [
+              "duration"
+            ],
+            "skipSumming": [
+              "startTime"
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "urls": [
+                "http://127.0.0.1:3090/_next/static/chunks/4bd1b696-8cd12253b448cc13.js",
+                "http://127.0.0.1:3090/_next/static/chunks/7817-0648e16bdb446294.js",
+                "http://127.0.0.1:3090/_next/static/chunks/9716-8354333f1aaa798b.js",
+                "http://127.0.0.1:3090/_next/static/chunks/3794-9f866eb1b07be87c.js",
+                "http://127.0.0.1:3090/fa/quality/",
+                "Unattributable"
+              ],
+              "tasks": [
+                {
+                  "urlIndex": 0,
+                  "startTime": 3622.2,
+                  "duration": 355,
+                  "other": 355,
+                  "scriptEvaluation": 0
+                },
+                {
+                  "urlIndex": 1,
+                  "startTime": 6621.8,
+                  "duration": 121,
+                  "other": 121,
+                  "scriptEvaluation": 0
+                },
+                {
+                  "urlIndex": 2,
+                  "startTime": 6501.8,
+                  "duration": 120,
+                  "other": 120,
+                  "scriptEvaluation": 0
+                },
+                {
+                  "urlIndex": 3,
+                  "startTime": 6742.8,
+                  "duration": 119,
+                  "other": 119
+                },
+                {
+                  "urlIndex": 4,
+                  "startTime": 1282.4,
+                  "duration": 68,
+                  "other": 68,
+                  "parseHTML": 0
+                },
+                {
+                  "urlIndex": 5,
+                  "startTime": 1207.4,
+                  "duration": 57,
+                  "other": 57,
+                  "scriptEvaluation": 0
+                }
+              ]
+            }
+          }
+        },
+        "unused-javascript": {
+          "score": 0,
+          "displayValue": "Est savings of 118 KiB",
+          "numericValue": 300,
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 300
+          },
+          "details": {
+            "type": "opportunity",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "subItemsHeading": {
+                  "key": "source",
+                  "valueType": "code"
+                },
+                "label": "URL"
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "subItemsHeading": {
+                  "key": "sourceBytes"
+                },
+                "label": "Transfer Size"
+              },
+              {
+                "key": "wastedBytes",
+                "valueType": "bytes",
+                "subItemsHeading": {
+                  "key": "sourceWastedBytes"
+                },
+                "label": "Est Savings"
+              }
+            ],
+            "items": [
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/159-791511f7dbb3ad84.js",
+                "totalBytes": 71408,
+                "wastedBytes": 32749,
+                "wastedPercent": 45.86168689820171
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/3794-9f866eb1b07be87c.js",
+                "totalBytes": 67163,
+                "wastedBytes": 24041,
+                "wastedPercent": 35.794895847476106
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/4bd1b696-8cd12253b448cc13.js",
+                "totalBytes": 64118,
+                "wastedBytes": 21922,
+                "wastedPercent": 34.190853446033174
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/9716-8354333f1aaa798b.js",
+                "totalBytes": 76599,
+                "wastedBytes": 21901,
+                "wastedPercent": 28.592192282089357
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/1074-135366284b7f20c6.js",
+                "totalBytes": 26121,
+                "wastedBytes": 20584,
+                "wastedPercent": 78.80177646848777
+              }
+            ],
+            "overallSavingsMs": 300,
+            "overallSavingsBytes": 121197,
+            "sortedBy": [
+              "wastedBytes"
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "metricSavings": {
+                "FCP": 0,
+                "LCP": 300
+              }
+            }
+          }
+        },
+        "font-display-insight": {
+          "score": 1,
+          "metricSavings": {
+            "INP": 0
+          },
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "wastedMs",
+                "valueType": "ms",
+                "label": "Est Savings"
+              }
+            ],
+            "items": [],
+            "skipSumming": [
+              "wastedMs"
+            ]
+          }
+        },
+        "forced-reflow-insight": {
+          "score": 1,
+          "details": {
+            "type": "list",
+            "items": [
+              {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "source",
+                    "valueType": "source-location",
+                    "label": "Source"
+                  },
+                  {
+                    "key": "reflowTime",
+                    "valueType": "ms",
+                    "granularity": 1,
+                    "label": "Total reflow time"
+                  }
+                ],
+                "items": []
+              }
+            ]
+          }
+        },
+        "image-delivery-insight": {
+          "score": 1,
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 0
+          },
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "label": ""
+              },
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL",
+                "subItemsHeading": {
+                  "key": "reason",
+                  "valueType": "text"
+                }
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "label": "Resource Size"
+              },
+              {
+                "key": "wastedBytes",
+                "valueType": "bytes",
+                "label": "Est Savings",
+                "subItemsHeading": {
+                  "key": "wastedBytes",
+                  "valueType": "bytes"
+                }
+              }
+            ],
+            "items": [],
+            "debugData": {
+              "type": "debugdata",
+              "wastedBytes": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "url": "http://127.0.0.1:3090/fa/products/",
+      "rawReportSha256": "d534a429b88078762fb0cc6adf5415f1b51e6d8171eaf4d92ea9bbcb4bbfe16c",
+      "runWarnings": [],
+      "scores": {
+        "performance": 0.86,
+        "accessibility": 1,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "metrics": {
+        "first-contentful-paint": 1220.2074000000002,
+        "largest-contentful-paint": 3020.2074000000002,
+        "speed-index": 1220.2074000000002,
+        "total-blocking-time": 343,
+        "cumulative-layout-shift": 0,
+        "interactive": 6731.321835
+      },
+      "findings": {
+        "lcp-breakdown-insight": {
+          "score": 1,
+          "metricSavings": {
+            "LCP": 0
+          },
+          "details": {
+            "type": "list",
+            "items": [
+              {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "label",
+                    "valueType": "text",
+                    "label": "Subpart"
+                  },
+                  {
+                    "key": "duration",
+                    "valueType": "ms",
+                    "label": "Duration"
+                  }
+                ],
+                "items": [
+                  {
+                    "subpart": "timeToFirstByte",
+                    "label": "Time to first byte",
+                    "duration": 31.263000003814696
+                  },
+                  {
+                    "subpart": "elementRenderDelay",
+                    "label": "Element render delay",
+                    "duration": 188.4989999961853
+                  }
+                ]
+              },
+              {
+                "type": "node",
+                "lhId": "page-0-P",
+                "path": "1,HTML,1,BODY,4,MAIN,0,DIV,0,DIV,2,P",
+                "selector": "main#main-content > div.container > div.page-intro > p",
+                "boundingRect": {
+                  "top": 204,
+                  "bottom": 257,
+                  "left": 20,
+                  "right": 392,
+                  "width": 372,
+                  "height": 53
+                },
+                "snippet": "<p>",
+                "nodeLabel": "مسیر مناسب حرفه‌تان را انتخاب کنید و مشخصات مستند هر محصول را ببینید."
+              }
+            ]
+          }
+        },
+        "render-blocking-insight": {
+          "score": 0,
+          "displayValue": "Est savings of 80 ms",
+          "metricSavings": {
+            "FCP": 100,
+            "LCP": 100
+          },
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "label": "Transfer Size"
+              },
+              {
+                "key": "wastedMs",
+                "valueType": "timespanMs",
+                "label": "Duration"
+              }
+            ],
+            "items": [
+              {
+                "url": "http://127.0.0.1:3090/_next/static/css/8fcd9aea4312038e.css",
+                "totalBytes": 2634,
+                "wastedMs": 160
+              }
+            ]
+          }
+        },
+        "mainthread-work-breakdown": {
+          "score": 1,
+          "displayValue": "1.9 s",
+          "numericValue": 1902.3520000000133,
+          "metricSavings": {
+            "TBT": 350
+          },
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "groupLabel",
+                "valueType": "text",
+                "label": "Category"
+              },
+              {
+                "key": "duration",
+                "valueType": "ms",
+                "granularity": 1,
+                "label": "Time Spent"
+              }
+            ],
+            "items": [
+              {
+                "group": "scriptEvaluation",
+                "groupLabel": "Script Evaluation",
+                "duration": 1041.148000000012
+              },
+              {
+                "group": "other",
+                "groupLabel": "Other",
+                "duration": 421.42400000000146
+              },
+              {
+                "group": "styleLayout",
+                "groupLabel": "Style & Layout",
+                "duration": 167.97199999999998
+              },
+              {
+                "group": "scriptParseCompile",
+                "groupLabel": "Script Parsing & Compilation",
+                "duration": 164.13599999999997
+              },
+              {
+                "group": "parseHTML",
+                "groupLabel": "Parse HTML & CSS",
+                "duration": 52.087999999999994
+              },
+              {
+                "group": "paintCompositeRender",
+                "groupLabel": "Rendering",
+                "duration": 35.97600000000001
+              },
+              {
+                "group": "garbageCollection",
+                "groupLabel": "Garbage Collection",
+                "duration": 19.607999999999983
+              }
+            ],
+            "sortedBy": [
+              "duration"
+            ]
+          }
+        },
+        "bootup-time": {
+          "score": 1,
+          "displayValue": "1.1 s",
+          "numericValue": 1146.5120000000045,
+          "metricSavings": {
+            "TBT": 450
+          },
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "total",
+                "granularity": 1,
+                "valueType": "ms",
+                "label": "Total CPU Time"
+              },
+              {
+                "key": "scripting",
+                "granularity": 1,
+                "valueType": "ms",
+                "label": "Script Evaluation"
+              },
+              {
+                "key": "scriptParseCompile",
+                "granularity": 1,
+                "valueType": "ms",
+                "label": "Script Parse"
+              }
+            ],
+            "items": [
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/3794-9f866eb1b07be87c.js",
+                "total": 629.5160000000042,
+                "scripting": 552.0040000000042,
+                "scriptParseCompile": 32.348
+              },
+              {
+                "url": "http://127.0.0.1:3090/fa/products/",
+                "total": 357.892,
+                "scripting": 21.29999999999999,
+                "scriptParseCompile": 32.85199999999999
+              },
+              {
+                "url": "Unattributable",
+                "total": 327.79600000000164,
+                "scripting": 12.671999999999995,
+                "scriptParseCompile": 0
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/4bd1b696-8cd12253b448cc13.js",
+                "total": 294.956,
+                "scripting": 257.00800000000004,
+                "scriptParseCompile": 23.116
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/9716-8354333f1aaa798b.js",
+                "total": 120.94800000000023,
+                "scripting": 90.94400000000024,
+                "scriptParseCompile": 24.136
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/159-791511f7dbb3ad84.js",
+                "total": 103.57200000000003,
+                "scripting": 69.90400000000004,
+                "scriptParseCompile": 30.227999999999998
+              }
+            ],
+            "summary": {
+              "wastedMs": 1146.5120000000045
+            },
+            "sortedBy": [
+              "total"
+            ]
+          }
+        },
+        "long-tasks": {
+          "score": 1,
+          "displayValue": "8 long tasks found",
+          "metricSavings": {
+            "TBT": 350
+          },
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "startTime",
+                "valueType": "ms",
+                "granularity": 1,
+                "label": "Start Time"
+              },
+              {
+                "key": "duration",
+                "valueType": "ms",
+                "granularity": 1,
+                "label": "Duration"
+              }
+            ],
+            "items": [
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/4bd1b696-8cd12253b448cc13.js",
+                "duration": 257,
+                "startTime": 4400.5185
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/3794-9f866eb1b07be87c.js",
+                "duration": 160,
+                "startTime": 7024.518499999998
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/9716-8354333f1aaa798b.js",
+                "duration": 120,
+                "startTime": 6800.518499999998
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/159-791511f7dbb3ad84.js",
+                "duration": 104,
+                "startTime": 6920.518499999998
+              },
+              {
+                "url": "http://127.0.0.1:3090/fa/products/",
+                "duration": 72,
+                "startTime": 1192.1037000000001
+              },
+              {
+                "url": "http://127.0.0.1:3090/fa/products/",
+                "duration": 69,
+                "startTime": 1264.1037000000001
+              },
+              {
+                "url": "Unattributable",
+                "duration": 68,
+                "startTime": 1060.1037000000001
+              },
+              {
+                "url": "Unattributable",
+                "duration": 50,
+                "startTime": 1128.1037000000001
+              }
+            ],
+            "sortedBy": [
+              "duration"
+            ],
+            "skipSumming": [
+              "startTime"
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "urls": [
+                "http://127.0.0.1:3090/_next/static/chunks/4bd1b696-8cd12253b448cc13.js",
+                "http://127.0.0.1:3090/_next/static/chunks/3794-9f866eb1b07be87c.js",
+                "http://127.0.0.1:3090/_next/static/chunks/9716-8354333f1aaa798b.js",
+                "http://127.0.0.1:3090/_next/static/chunks/159-791511f7dbb3ad84.js",
+                "http://127.0.0.1:3090/fa/products/",
+                "Unattributable"
+              ],
+              "tasks": [
+                {
+                  "urlIndex": 0,
+                  "startTime": 4400.5,
+                  "duration": 257,
+                  "other": 257,
+                  "scriptEvaluation": 0
+                },
+                {
+                  "urlIndex": 1,
+                  "startTime": 7024.5,
+                  "duration": 160,
+                  "other": 160
+                },
+                {
+                  "urlIndex": 2,
+                  "startTime": 6800.5,
+                  "duration": 120,
+                  "other": 120,
+                  "scriptEvaluation": 0
+                },
+                {
+                  "urlIndex": 3,
+                  "startTime": 6920.5,
+                  "duration": 104,
+                  "other": 104,
+                  "scriptEvaluation": 0
+                },
+                {
+                  "urlIndex": 4,
+                  "startTime": 1192.1,
+                  "duration": 72,
+                  "other": 72,
+                  "parseHTML": 0
+                },
+                {
+                  "urlIndex": 4,
+                  "startTime": 1264.1,
+                  "duration": 69,
+                  "other": 69,
+                  "paintCompositeRender": 0,
+                  "scriptEvaluation": 0,
+                  "styleLayout": 0
+                },
+                {
+                  "urlIndex": 5,
+                  "startTime": 1060.1,
+                  "duration": 68,
+                  "other": 68
+                },
+                {
+                  "urlIndex": 5,
+                  "startTime": 1128.1,
+                  "duration": 50,
+                  "other": 50,
+                  "scriptEvaluation": 0
+                }
+              ]
+            }
+          }
+        },
+        "unused-javascript": {
+          "score": 0,
+          "displayValue": "Est savings of 117 KiB",
+          "numericValue": 300,
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 300
+          },
+          "details": {
+            "type": "opportunity",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "subItemsHeading": {
+                  "key": "source",
+                  "valueType": "code"
+                },
+                "label": "URL"
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "subItemsHeading": {
+                  "key": "sourceBytes"
+                },
+                "label": "Transfer Size"
+              },
+              {
+                "key": "wastedBytes",
+                "valueType": "bytes",
+                "subItemsHeading": {
+                  "key": "sourceWastedBytes"
+                },
+                "label": "Est Savings"
+              }
+            ],
+            "items": [
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/159-791511f7dbb3ad84.js",
+                "totalBytes": 71402,
+                "wastedBytes": 31944,
+                "wastedPercent": 44.73849351871825
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/3794-9f866eb1b07be87c.js",
+                "totalBytes": 67163,
+                "wastedBytes": 23890,
+                "wastedPercent": 35.57025718247161
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/9716-8354333f1aaa798b.js",
+                "totalBytes": 76596,
+                "wastedBytes": 21878,
+                "wastedPercent": 28.563438200388376
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/4bd1b696-8cd12253b448cc13.js",
+                "totalBytes": 64118,
+                "wastedBytes": 21384,
+                "wastedPercent": 33.351494892675
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/1074-135366284b7f20c6.js",
+                "totalBytes": 26109,
+                "wastedBytes": 20573,
+                "wastedPercent": 78.79619710765935
+              }
+            ],
+            "overallSavingsMs": 300,
+            "overallSavingsBytes": 119669,
+            "sortedBy": [
+              "wastedBytes"
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "metricSavings": {
+                "FCP": 0,
+                "LCP": 300
+              }
+            }
+          }
+        },
+        "font-display-insight": {
+          "score": 1,
+          "metricSavings": {
+            "INP": 0
+          },
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "wastedMs",
+                "valueType": "ms",
+                "label": "Est Savings"
+              }
+            ],
+            "items": [],
+            "skipSumming": [
+              "wastedMs"
+            ]
+          }
+        },
+        "forced-reflow-insight": {
+          "score": 1,
+          "details": {
+            "type": "list",
+            "items": [
+              {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "source",
+                    "valueType": "source-location",
+                    "label": "Source"
+                  },
+                  {
+                    "key": "reflowTime",
+                    "valueType": "ms",
+                    "granularity": 1,
+                    "label": "Total reflow time"
+                  }
+                ],
+                "items": []
+              }
+            ]
+          }
+        },
+        "image-delivery-insight": {
+          "score": 1,
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 0
+          },
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "label": ""
+              },
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL",
+                "subItemsHeading": {
+                  "key": "reason",
+                  "valueType": "text"
+                }
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "label": "Resource Size"
+              },
+              {
+                "key": "wastedBytes",
+                "valueType": "bytes",
+                "label": "Est Savings",
+                "subItemsHeading": {
+                  "key": "wastedBytes",
+                  "valueType": "bytes"
+                }
+              }
+            ],
+            "items": [],
+            "debugData": {
+              "type": "debugdata",
+              "wastedBytes": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "url": "http://127.0.0.1:3090/fa/",
+      "rawReportSha256": "73aad99f3460a78af1ee84e8a7f481b45a61dab59dd55a31f893943611f565fe",
+      "runWarnings": [],
+      "scores": {
+        "performance": 0.76,
+        "accessibility": 1,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "metrics": {
+        "first-contentful-paint": 1823.3557,
+        "largest-contentful-paint": 3923.3557,
+        "speed-index": 2394.7948092527627,
+        "total-blocking-time": 425.82214999999997,
+        "cumulative-layout-shift": 0,
+        "interactive": 7370.024820000001
+      },
+      "findings": {
+        "lcp-breakdown-insight": {
+          "score": 1,
+          "metricSavings": {
+            "LCP": 0
+          },
+          "details": {
+            "type": "list",
+            "items": [
+              {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "label",
+                    "valueType": "text",
+                    "label": "Subpart"
+                  },
+                  {
+                    "key": "duration",
+                    "valueType": "ms",
+                    "label": "Duration"
+                  }
+                ],
+                "items": [
+                  {
+                    "subpart": "timeToFirstByte",
+                    "label": "Time to first byte",
+                    "duration": 39.279
+                  },
+                  {
+                    "subpart": "elementRenderDelay",
+                    "label": "Element render delay",
+                    "duration": 255.038
+                  }
+                ]
+              },
+              {
+                "type": "node",
+                "lhId": "page-0-SPAN",
+                "path": "1,HTML,1,BODY,5,MAIN,0,DIV,0,DIV,0,SECTION,0,DIV,3,DIV,0,DIV,1,DIV,0,H1,1,SPAN,0,SPAN",
+                "selector": "div.hero-headline > h1 > span.hero-line-mask > span.hero-line",
+                "boundingRect": {
+                  "top": 189,
+                  "bottom": 244,
+                  "left": 20,
+                  "right": 392,
+                  "width": 372,
+                  "height": 56
+                },
+                "snippet": "<span class=\"hero-line hero-line-accent\" style=\"--line-delay:250ms\">",
+                "nodeLabel": "مهندسیِ دقیق."
+              }
+            ]
+          }
+        },
+        "render-blocking-insight": {
+          "score": 0,
+          "displayValue": "Est savings of 150 ms",
+          "metricSavings": {
+            "FCP": 150,
+            "LCP": 150
+          },
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "label": "Transfer Size"
+              },
+              {
+                "key": "wastedMs",
+                "valueType": "timespanMs",
+                "label": "Duration"
+              }
+            ],
+            "items": [
+              {
+                "url": "http://127.0.0.1:3090/_next/static/css/8fcd9aea4312038e.css",
+                "totalBytes": 2634,
+                "wastedMs": 162
+              }
+            ]
+          }
+        },
+        "mainthread-work-breakdown": {
+          "score": 0,
+          "displayValue": "4.3 s",
+          "numericValue": 4308.160000000015,
+          "metricSavings": {
+            "TBT": 450
+          },
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "groupLabel",
+                "valueType": "text",
+                "label": "Category"
+              },
+              {
+                "key": "duration",
+                "valueType": "ms",
+                "granularity": 1,
+                "label": "Time Spent"
+              }
+            ],
+            "items": [
+              {
+                "group": "other",
+                "groupLabel": "Other",
+                "duration": 1642.511999999988
+              },
+              {
+                "group": "scriptEvaluation",
+                "groupLabel": "Script Evaluation",
+                "duration": 1129.4560000000017
+              },
+              {
+                "group": "styleLayout",
+                "groupLabel": "Style & Layout",
+                "duration": 742.4600000000002
+              },
+              {
+                "group": "paintCompositeRender",
+                "groupLabel": "Rendering",
+                "duration": 347.64000000002517
+              },
+              {
+                "group": "scriptParseCompile",
+                "groupLabel": "Script Parsing & Compilation",
+                "duration": 268.74399999999997
+              },
+              {
+                "group": "garbageCollection",
+                "groupLabel": "Garbage Collection",
+                "duration": 109.8360000000001
+              },
+              {
+                "group": "parseHTML",
+                "groupLabel": "Parse HTML & CSS",
+                "duration": 67.512
+              }
+            ],
+            "sortedBy": [
+              "duration"
+            ]
+          }
+        },
+        "bootup-time": {
+          "score": 0,
+          "displayValue": "1.3 s",
+          "numericValue": 1345.3120000000054,
+          "metricSavings": {
+            "TBT": 450
+          },
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "total",
+                "granularity": 1,
+                "valueType": "ms",
+                "label": "Total CPU Time"
+              },
+              {
+                "key": "scripting",
+                "granularity": 1,
+                "valueType": "ms",
+                "label": "Script Evaluation"
+              },
+              {
+                "key": "scriptParseCompile",
+                "granularity": 1,
+                "valueType": "ms",
+                "label": "Script Parse"
+              }
+            ],
+            "items": [
+              {
+                "url": "http://127.0.0.1:3090/fa/",
+                "total": 1847.000000000001,
+                "scripting": 24.235999999999994,
+                "scriptParseCompile": 31.656000000000002
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/3794-9f866eb1b07be87c.js",
+                "total": 900.7880000000043,
+                "scripting": 636.6960000000042,
+                "scriptParseCompile": 147.148
+              },
+              {
+                "url": "Unattributable",
+                "total": 713.5239999999947,
+                "scripting": 13.719999999999997,
+                "scriptParseCompile": 0
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/4bd1b696-8cd12253b448cc13.js",
+                "total": 489.060000000001,
+                "scripting": 265.8840000000008,
+                "scriptParseCompile": 21.02
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/9716-8354333f1aaa798b.js",
+                "total": 116.72000000000014,
+                "scripting": 90.72800000000014,
+                "scriptParseCompile": 20.912
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/159-791511f7dbb3ad84.js",
+                "total": 103.03199999999997,
+                "scripting": 8.535999999999994,
+                "scriptParseCompile": 18.636
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/2294-801b3939d054a3ed.js",
+                "total": 70.448,
+                "scripting": 61.599999999999994,
+                "scriptParseCompile": 4.54
+              }
+            ],
+            "summary": {
+              "wastedMs": 1345.3120000000054
+            },
+            "sortedBy": [
+              "total"
+            ]
+          }
+        },
+        "long-tasks": {
+          "score": 1,
+          "displayValue": "13 long tasks found",
+          "metricSavings": {
+            "TBT": 450
+          },
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "startTime",
+                "valueType": "ms",
+                "granularity": 1,
+                "label": "Start Time"
+              },
+              {
+                "key": "duration",
+                "valueType": "ms",
+                "granularity": 1,
+                "label": "Duration"
+              }
+            ],
+            "items": [
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/4bd1b696-8cd12253b448cc13.js",
+                "duration": 250,
+                "startTime": 4400.7114
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/3794-9f866eb1b07be87c.js",
+                "duration": 154,
+                "startTime": 4246.7114
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/3794-9f866eb1b07be87c.js",
+                "duration": 146,
+                "startTime": 7697.74495
+              },
+              {
+                "url": "http://127.0.0.1:3090/fa/",
+                "duration": 135,
+                "startTime": 1554.67785
+              },
+              {
+                "url": "Unattributable",
+                "duration": 131,
+                "startTime": 1259.67785
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/9716-8354333f1aaa798b.js",
+                "duration": 116,
+                "startTime": 7581.74495
+              },
+              {
+                "url": "Unattributable",
+                "duration": 106,
+                "startTime": 1778.67785
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/2294-801b3939d054a3ed.js",
+                "duration": 69,
+                "startTime": 6993.4228
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/3794-9f866eb1b07be87c.js",
+                "duration": 64,
+                "startTime": 6485.03355
+              },
+              {
+                "url": "Unattributable",
+                "duration": 62,
+                "startTime": 1390.67785
+              },
+              {
+                "url": "http://127.0.0.1:3090/fa/",
+                "duration": 57,
+                "startTime": 1721.67785
+              },
+              {
+                "url": "Unattributable",
+                "duration": 54,
+                "startTime": 1936.67785
+              },
+              {
+                "url": "http://127.0.0.1:3090/fa/",
+                "duration": 52,
+                "startTime": 1884.67785
+              }
+            ],
+            "sortedBy": [
+              "duration"
+            ],
+            "skipSumming": [
+              "startTime"
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "urls": [
+                "http://127.0.0.1:3090/_next/static/chunks/4bd1b696-8cd12253b448cc13.js",
+                "http://127.0.0.1:3090/_next/static/chunks/3794-9f866eb1b07be87c.js",
+                "http://127.0.0.1:3090/fa/",
+                "Unattributable",
+                "http://127.0.0.1:3090/_next/static/chunks/9716-8354333f1aaa798b.js",
+                "http://127.0.0.1:3090/_next/static/chunks/2294-801b3939d054a3ed.js"
+              ],
+              "tasks": [
+                {
+                  "urlIndex": 0,
+                  "startTime": 4400.7,
+                  "duration": 250,
+                  "other": 250,
+                  "scriptEvaluation": 0
+                },
+                {
+                  "urlIndex": 1,
+                  "startTime": 4246.7,
+                  "duration": 154,
+                  "other": 154,
+                  "scriptEvaluation": 0
+                },
+                {
+                  "urlIndex": 1,
+                  "startTime": 7697.7,
+                  "duration": 146,
+                  "other": 146
+                },
+                {
+                  "urlIndex": 2,
+                  "startTime": 1554.7,
+                  "duration": 135,
+                  "other": 135,
+                  "paintCompositeRender": 0,
+                  "scriptEvaluation": 0,
+                  "styleLayout": 0
+                },
+                {
+                  "urlIndex": 3,
+                  "startTime": 1259.7,
+                  "duration": 131,
+                  "other": 131
+                },
+                {
+                  "urlIndex": 4,
+                  "startTime": 7581.7,
+                  "duration": 116,
+                  "other": 116,
+                  "scriptEvaluation": 0
+                },
+                {
+                  "urlIndex": 3,
+                  "startTime": 1778.7,
+                  "duration": 106,
+                  "garbageCollection": 0,
+                  "other": 106
+                },
+                {
+                  "urlIndex": 5,
+                  "startTime": 6993.4,
+                  "duration": 69,
+                  "other": 69,
+                  "scriptEvaluation": 0
+                },
+                {
+                  "urlIndex": 1,
+                  "startTime": 6485,
+                  "duration": 64,
+                  "other": 64
+                },
+                {
+                  "urlIndex": 3,
+                  "startTime": 1390.7,
+                  "duration": 62,
+                  "other": 62,
+                  "scriptEvaluation": 0
+                },
+                {
+                  "urlIndex": 2,
+                  "startTime": 1721.7,
+                  "duration": 57,
+                  "other": 57,
+                  "paintCompositeRender": 0,
+                  "styleLayout": 0
+                },
+                {
+                  "urlIndex": 3,
+                  "startTime": 1936.7,
+                  "duration": 54,
+                  "other": 54
+                },
+                {
+                  "urlIndex": 2,
+                  "startTime": 1884.7,
+                  "duration": 52,
+                  "other": 52,
+                  "paintCompositeRender": 0,
+                  "styleLayout": 0
+                }
+              ]
+            }
+          }
+        },
+        "unused-javascript": {
+          "score": 0,
+          "displayValue": "Est savings of 112 KiB",
+          "numericValue": 300,
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 300
+          },
+          "details": {
+            "type": "opportunity",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "subItemsHeading": {
+                  "key": "source",
+                  "valueType": "code"
+                },
+                "label": "URL"
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "subItemsHeading": {
+                  "key": "sourceBytes"
+                },
+                "label": "Transfer Size"
+              },
+              {
+                "key": "wastedBytes",
+                "valueType": "bytes",
+                "subItemsHeading": {
+                  "key": "sourceWastedBytes"
+                },
+                "label": "Est Savings"
+              }
+            ],
+            "items": [
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/159-791511f7dbb3ad84.js",
+                "totalBytes": 71402,
+                "wastedBytes": 26840,
+                "wastedPercent": 37.590453591669444
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/3794-9f866eb1b07be87c.js",
+                "totalBytes": 67163,
+                "wastedBytes": 23622,
+                "wastedPercent": 35.17035098762842
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/9716-8354333f1aaa798b.js",
+                "totalBytes": 76599,
+                "wastedBytes": 21901,
+                "wastedPercent": 28.592192282089357
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/4bd1b696-8cd12253b448cc13.js",
+                "totalBytes": 64118,
+                "wastedBytes": 21659,
+                "wastedPercent": 33.78000952254733
+              },
+              {
+                "url": "http://127.0.0.1:3090/_next/static/chunks/1074-135366284b7f20c6.js",
+                "totalBytes": 26121,
+                "wastedBytes": 20584,
+                "wastedPercent": 78.80177646848777
+              }
+            ],
+            "overallSavingsMs": 300,
+            "overallSavingsBytes": 114606,
+            "sortedBy": [
+              "wastedBytes"
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "metricSavings": {
+                "FCP": 0,
+                "LCP": 300
+              }
+            }
+          }
+        },
+        "font-display-insight": {
+          "score": 1,
+          "metricSavings": {
+            "INP": 0
+          },
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "wastedMs",
+                "valueType": "ms",
+                "label": "Est Savings"
+              }
+            ],
+            "items": [],
+            "skipSumming": [
+              "wastedMs"
+            ]
+          }
+        },
+        "forced-reflow-insight": {
+          "score": 0,
+          "details": {
+            "type": "list",
+            "items": [
+              {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "source",
+                    "valueType": "source-location",
+                    "label": "Top function call"
+                  },
+                  {
+                    "key": "reflowTime",
+                    "valueType": "ms",
+                    "granularity": 1,
+                    "label": "Total reflow time"
+                  }
+                ],
+                "items": [
+                  {
+                    "source": {
+                      "type": "source-location",
+                      "url": "http://127.0.0.1:3090/_next/static/chunks/3794-9f866eb1b07be87c.js",
+                      "urlProvider": "network",
+                      "line": 1,
+                      "column": 45654
+                    },
+                    "reflowTime": 19.014
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "source",
+                    "valueType": "source-location",
+                    "label": "Source"
+                  },
+                  {
+                    "key": "reflowTime",
+                    "valueType": "ms",
+                    "granularity": 1,
+                    "label": "Total reflow time"
+                  }
+                ],
+                "items": [
+                  {
+                    "source": {
+                      "type": "source-location",
+                      "url": "http://127.0.0.1:3090/_next/static/chunks/2294-801b3939d054a3ed.js",
+                      "urlProvider": "network",
+                      "line": 0,
+                      "column": 37878
+                    },
+                    "reflowTime": 0.508
+                  },
+                  {
+                    "source": {
+                      "type": "source-location",
+                      "url": "http://127.0.0.1:3090/_next/static/chunks/159-791511f7dbb3ad84.js",
+                      "urlProvider": "network",
+                      "line": 0,
+                      "column": 111802
+                    },
+                    "reflowTime": 31.246
+                  },
+                  {
+                    "source": {
+                      "type": "source-location",
+                      "url": "http://127.0.0.1:3090/_next/static/chunks/3615.e455cec07b9e02b2.js",
+                      "urlProvider": "network",
+                      "line": 0,
+                      "column": 686
+                    },
+                    "reflowTime": 1.396
+                  },
+                  {
+                    "source": {
+                      "type": "text",
+                      "value": "[unattributed]"
+                    },
+                    "reflowTime": 72.76
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "image-delivery-insight": {
+          "score": 0.5,
+          "displayValue": "Est savings of 61 KiB",
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 0
+          },
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "label": ""
+              },
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL",
+                "subItemsHeading": {
+                  "key": "reason",
+                  "valueType": "text"
+                }
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "label": "Resource Size"
+              },
+              {
+                "key": "wastedBytes",
+                "valueType": "bytes",
+                "label": "Est Savings",
+                "subItemsHeading": {
+                  "key": "wastedBytes",
+                  "valueType": "bytes"
+                }
+              }
+            ],
+            "items": [
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "page-2-IMG",
+                  "path": "1,HTML,1,BODY,5,MAIN,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,3,DIV,0,DIV,5,ARTICLE,0,BUTTON,0,SPAN,0,IMG",
+                  "selector": "article.gc-card > button.gc-card-button > span.gc-poster > img",
+                  "boundingRect": {
+                    "top": 2013,
+                    "bottom": 2145,
+                    "left": -157,
+                    "right": -21,
+                    "width": 136,
+                    "height": 132
+                  },
+                  "snippet": "<img alt=\"\" draggable=\"false\" loading=\"lazy\" width=\"629\" height=\"629\" decoding=\"async\" data-nimg=\"1\" style=\"color:transparent\" sizes=\"(max-width: 700px) 58vw, (max-width: 1100px) 36vw, 360px\" srcset=\"/_next/image/?url=%2Fmedia%2Fofficial%2F1726468061.jpg&amp;w=256&amp;q=75 256w, /_…\" src=\"http://127.0.0.1:3090/_next/image/?url=%2Fmedia%2Fofficial%2F1726468061.jp…\">",
+                  "nodeLabel": "article.gc-card > button.gc-card-button > span.gc-poster > img"
+                },
+                "url": "http://127.0.0.1:3090/_next/image/?url=%2Fmedia%2Fofficial%2F1726468061.jpg&w=750&q=75",
+                "totalBytes": 27952,
+                "wastedBytes": 17936,
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "reason": "This image file is larger than it needs to be (629x629) for its displayed dimensions (377x377). Use responsive images to reduce the image download size.",
+                      "wastedBytes": 17936
+                    }
+                  ]
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "page-2-IMG",
+                  "path": "1,HTML,1,BODY,5,MAIN,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,3,DIV,0,DIV,5,ARTICLE,0,BUTTON,0,SPAN,0,IMG",
+                  "selector": "article.gc-card > button.gc-card-button > span.gc-poster > img",
+                  "boundingRect": {
+                    "top": 2013,
+                    "bottom": 2145,
+                    "left": -157,
+                    "right": -21,
+                    "width": 136,
+                    "height": 132
+                  },
+                  "snippet": "<img alt=\"\" draggable=\"false\" loading=\"lazy\" width=\"629\" height=\"629\" decoding=\"async\" data-nimg=\"1\" style=\"color:transparent\" sizes=\"(max-width: 700px) 58vw, (max-width: 1100px) 36vw, 360px\" srcset=\"/_next/image/?url=%2Fmedia%2Fofficial%2F1726468061.jpg&amp;w=256&amp;q=75 256w, /_…\" src=\"http://127.0.0.1:3090/_next/image/?url=%2Fmedia%2Fofficial%2F1726468061.jp…\">",
+                  "nodeLabel": "article.gc-card > button.gc-card-button > span.gc-poster > img"
+                },
+                "url": "http://127.0.0.1:3090/_next/image/?url=%2Fmedia%2Fofficial%2F1726468061.jpg&w=640&q=75",
+                "totalBytes": 27952,
+                "wastedBytes": 17936,
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "reason": "This image file is larger than it needs to be (629x629) for its displayed dimensions (377x377). Use responsive images to reduce the image download size.",
+                      "wastedBytes": 17936
+                    }
+                  ]
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "page-3-IMG",
+                  "path": "1,HTML,1,BODY,5,MAIN,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,3,DIV,0,DIV,4,ARTICLE,0,BUTTON,0,SPAN,0,IMG",
+                  "selector": "article.gc-card > button.gc-card-button > span.gc-poster > img",
+                  "boundingRect": {
+                    "top": 1991,
+                    "bottom": 2150,
+                    "left": -99,
+                    "right": 60,
+                    "width": 160,
+                    "height": 159
+                  },
+                  "snippet": "<img alt=\"\" draggable=\"false\" loading=\"lazy\" width=\"1600\" height=\"998\" decoding=\"async\" data-nimg=\"1\" style=\"color:transparent\" sizes=\"(max-width: 700px) 58vw, (max-width: 1100px) 36vw, 360px\" srcset=\"/_next/image/?url=%2Fmedia%2Fofficial%2F1726467544.jpg&amp;w=256&amp;q=75 256w, /_…\" src=\"http://127.0.0.1:3090/_next/image/?url=%2Fmedia%2Fofficial%2F1726467544.jp…\">",
+                  "nodeLabel": "article.gc-card > button.gc-card-button > span.gc-poster > img"
+                },
+                "url": "http://127.0.0.1:3090/_next/image/?url=%2Fmedia%2Fofficial%2F1726467544.jpg&w=640&q=75",
+                "totalBytes": 23032,
+                "wastedBytes": 14174,
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "reason": "This image file is larger than it needs to be (640x399) for its displayed dimensions (397x247). Use responsive images to reduce the image download size.",
+                      "wastedBytes": 14174
+                    }
+                  ]
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "page-4-IMG",
+                  "path": "1,HTML,1,BODY,5,MAIN,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,3,DIV,0,DIV,0,ARTICLE,0,BUTTON,0,SPAN,0,IMG",
+                  "selector": "article.gc-card > button.gc-card-button > span.gc-poster > img",
+                  "boundingRect": {
+                    "top": 1991,
+                    "bottom": 2150,
+                    "left": 352,
+                    "right": 511,
+                    "width": 160,
+                    "height": 159
+                  },
+                  "snippet": "<img alt=\"\" draggable=\"false\" loading=\"lazy\" width=\"1280\" height=\"853\" decoding=\"async\" data-nimg=\"1\" style=\"color:transparent\" sizes=\"(max-width: 700px) 58vw, (max-width: 1100px) 36vw, 360px\" srcset=\"/_next/image/?url=%2Fmedia%2Fofficial%2F1686482269.jpg&amp;w=256&amp;q=75 256w, /_…\" src=\"http://127.0.0.1:3090/_next/image/?url=%2Fmedia%2Fofficial%2F1686482269.jp…\">",
+                  "nodeLabel": "article.gc-card > button.gc-card-button > span.gc-poster > img"
+                },
+                "url": "http://127.0.0.1:3090/_next/image/?url=%2Fmedia%2Fofficial%2F1686482269.jpg&w=750&q=75",
+                "totalBytes": 17824,
+                "wastedBytes": 12833,
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "reason": "This image file is larger than it needs to be (750x500) for its displayed dimensions (397x265). Use responsive images to reduce the image download size.",
+                      "wastedBytes": 12833
+                    }
+                  ]
+                }
+              }
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "wastedBytes": 62879
+            }
+          }
+        }
+      }
+    }
+  ],
+  "interpretation": [
+    "LCP is text on home/contact/quality. It is not a delayed hero-image request.",
+    "The font-display insight has no estimated savings.",
+    "Reported scoring metrics use simulated throttling. Insight subpart durations are trace-derived and must not be added directly to simulated LCP or treated as a physical-device latency measurement.",
+    "The remaining blocking assistant stylesheet has100–150ms estimated LCP saving in these pages. This opportunity does not explain private-page startup.",
+    "Shared client runtime, hydration, localization/publication parsing and page content remain measurable costs. Coverage-reported unused bytes include legitimate later interactions; deleting them would be incorrect.",
+    "No score above the actual measured result is predicted. No further app-source change was made after the accepted build."
+  ],
+  "deferredOptions": [
+    {
+      "option": "Split assistant launcher from dialog and load the dialog on first open.",
+      "evidence": "Application unconditionally mounts dynamic Assistant on public/account pages; Assistant imports assistant.css and AiMarkdown before open=true.",
+      "estimatedPotential": "Lighthouse estimates100–150ms from the CSS request; net score/CPU benefit unmeasured.",
+      "constraints": "Preserve identical launcher, all five labels, dialog/history, close/focus/abort behavior and CSP. Admin pages do not render this assistant."
+    },
+    {
+      "option": "Extract AppProvider core account labels from account-copy.",
+      "evidence": "Provider imports the complete five-language32KB source table for guest/storageError/demo-role labels.",
+      "estimatedPotential": "Small transfer/parse reduction, unmeasured; private account modules still need full account copy.",
+      "constraints": "Preserve fallback priorities, demo-role names, all locales and errors."
+    },
+    {
+      "option": "Scope client localization/publication snapshot and provider responsibilities.",
+      "evidence": "i18n44KB source, live-copy10KB, account-copy32KB, catalog173KB; shared9716 chunk306595 decodedbytes; shared1074 chunk89616 decodedbytes includes Zod validation.",
+      "estimatedPotential": "Potentially larger but no measured implementation result.",
+      "constraints": "Broader SSR/hydration, locale switching, data refresh, editability and auth-state refactor. Validation cannot simply be removed."
+    }
+  ],
+  "inspectedSource": [
+    {
+      "path": "src/components/Application.tsx",
+      "sha256": "66970ceff2b33d14076b242be24858fe6a61aa8bc1145b94cc599bc4f382b44c"
+    },
+    {
+      "path": "src/components/site/Assistant.tsx",
+      "sha256": "84b202e2dc73050ed125afa6712578d2c758810941426aa64c38e0f655a1aa9c"
+    },
+    {
+      "path": "src/components/providers/AppProvider.tsx",
+      "sha256": "f48a0ca6b6ceae2fe3bb0c9a88da36eb77ff8190b81383e62f55f947619058f8"
+    },
+    {
+      "path": "src/lib/i18n.ts",
+      "sha256": "f8a8935279f3d2ca5b38bca7f79b0e26128cddfe99badb0d5b24bcc3d48a99fb"
+    },
+    {
+      "path": "src/lib/live-copy.ts",
+      "sha256": "a0bf617344239e87409b246f4e19db6d4b12649a32ebb1f8ed767f2a81d40d09"
+    },
+    {
+      "path": "src/components/account/account-copy.ts",
+      "sha256": "1ecb725819329c58e884bd5655a61764d2a1666691f179f9d2608ac9c4ec8d1c"
+    },
+    {
+      "path": "src/lib/publications.ts",
+      "sha256": "de6c5c320f322f38ad47b20f1c0b1489289de944080c68a846c59418bae6aec6"
+    },
+    {
+      "path": "src/lib/editorial-seo.ts",
+      "sha256": "0af623b6f34599d753de7b4815e5563de87265df52ac3a98c5922bf772230e01"
+    },
+    {
+      "path": "src/data/catalog.ts",
+      "sha256": "9c944f8cc0d63fca8cdb63a3a02e7a6faa31c37cb5822f23ce9e9666a20991ad"
+    }
+  ]
+}

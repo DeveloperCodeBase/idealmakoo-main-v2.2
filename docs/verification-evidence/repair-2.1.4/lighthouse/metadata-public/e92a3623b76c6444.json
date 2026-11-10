@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/research/six-teeth-wear-rate/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "ce803d54b991f3c482e0b45b36122f4f8f194be733c0f4e27bf85d297da50287",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "مقایسه نرخ سایش ۶ نوع دندان مصنوعی | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "مقایسه شش گروه با دیسک آلومینایی، بزاق مصنوعی و اندازه‌گیری تغییر وزن."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/research/six-teeth-wear-rate/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/six-teeth-wear-rate/",
+    "en": "http://127.0.0.1:3100/en/research/six-teeth-wear-rate/",
+    "tr": "http://127.0.0.1:3100/tr/research/six-teeth-wear-rate/",
+    "ar": "http://127.0.0.1:3100/ar/research/six-teeth-wear-rate/",
+    "ru": "http://127.0.0.1:3100/ru/research/six-teeth-wear-rate/",
+    "x-default": "http://127.0.0.1:3100/fa/research/six-teeth-wear-rate/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 45
+}

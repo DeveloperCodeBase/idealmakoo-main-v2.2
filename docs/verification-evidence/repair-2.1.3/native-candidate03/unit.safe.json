@@ -1,0 +1,76 @@
+{
+  "kind": "verified-candidate03-unit-terminal-summary",
+  "sourceInputSha256": "79cbbf107e4886e03ade1119ab48d3a57e8a7385a64ba125322d3f4e1b923f94",
+  "counts": {
+    "tests": 820,
+    "suites": 0,
+    "pass": 820,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "duration_ms": 31700.735172
+  },
+  "originalLogSha256": "f9b0a4fa103988a58e51ed25c208e5a54e6f6e3330d4a6b0adcf28992ce65233",
+  "rawLogIncluded": false,
+  "sourceReceiptSha256": "827f5dfde7f6163bef7d48a74833db5bae126afc76a69ffe3d4044a2763438af",
+  "child": {
+    "name": "unit-candidate03-01",
+    "startedAt": "2026-10-25T10:04:34.297302+00:00",
+    "finishedAt": "2026-10-25T10:05:06.268829+00:00",
+    "durationSeconds": 31.971527,
+    "exitCode": 0,
+    "waitConsumed": true,
+    "timedOut": false,
+    "cancelled": false,
+    "sourceBefore": {
+      "sha256": "79cbbf107e4886e03ade1119ab48d3a57e8a7385a64ba125322d3f4e1b923f94",
+      "files": 994
+    },
+    "sourceAfter": {
+      "sha256": "79cbbf107e4886e03ade1119ab48d3a57e8a7385a64ba125322d3f4e1b923f94",
+      "files": 994
+    },
+    "sourceChanged": [],
+    "accepted": true
+  },
+  "actualOuterTool": {
+    "sessionId": 22280,
+    "exitCode": 0,
+    "actualWaitConsumed": true,
+    "launchJournal": {
+      "file": "tool-journal/entries/20261025T100435403000Z-exec_command-f0b8e9.json",
+      "sha256": "9146ba11a8c9e78f53a384ae3311cb8ea270ee99580d9d07451a2e4873cf635e",
+      "metadata": {
+        "actualReturnedToolMetadata": true,
+        "chunk_id": "f0b8e9",
+        "exit_code": null,
+        "operation": "exec_command",
+        "planSha256": "04208bda3940d319e6598c0fd77a70251a35c71b514a6d78eb444585094a3d4d",
+        "requestedSessionId": null,
+        "schemaVersion": 1,
+        "session_id": 22280,
+        "step": "c3-unit",
+        "time": "2026-10-25T10:04:35.403Z",
+        "wall_time_seconds": 1.000483864
+      }
+    },
+    "terminalJournal": {
+      "file": "tool-journal/entries/20261025T100511530000Z-write_stdin-9ccacb.json",
+      "sha256": "bcd5248e45043ff29bade9ddead6a200636ec3256e4a49ecdc5c64a8f5fc3683",
+      "metadata": {
+        "actualReturnedToolMetadata": true,
+        "chunk_id": "9ccacb",
+        "exit_code": 0,
+        "operation": "write_stdin",
+        "planSha256": "04208bda3940d319e6598c0fd77a70251a35c71b514a6d78eb444585094a3d4d",
+        "requestedSessionId": 22280,
+        "schemaVersion": 1,
+        "session_id": null,
+        "step": "c3-unit",
+        "time": "2026-10-25T10:05:11.530Z",
+        "wall_time_seconds": 3.3263e-05
+      }
+    }
+  }
+}

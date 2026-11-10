@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "kind": "changed-installer-syntax-and-shellcheck",
+  "completedAt": "2026-10-24T07:58:41.655314+00:00",
+  "script": "scripts/install-ubuntu.sh",
+  "scriptSha256": "8fc935c9b0fddcb47508699a5bb670d842ffb92d831cd1b537ff0611b2a205aa",
+  "checks": [
+    {
+      "name": "bash-syntax",
+      "command": [
+        "bash",
+        "-n",
+        "scripts/install-ubuntu.sh"
+      ],
+      "startedAt": "2026-10-24T07:58:40.821635+00:00",
+      "durationSeconds": 0.002493,
+      "exitCode": 0,
+      "outputBytes": 0,
+      "outputSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "shellcheck",
+      "command": [
+        "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261024/validation-tools/tools/shellcheck-root/usr/bin/shellcheck",
+        "--external-sources",
+        "--source-path=/workspace/scratch/6682bce41bc7/work/idealmakoo-production-2.1.1",
+        "scripts/install-ubuntu.sh"
+      ],
+      "startedAt": "2026-10-24T07:58:40.824159+00:00",
+      "durationSeconds": 0.831128,
+      "exitCode": 0,
+      "outputBytes": 0,
+      "outputSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "shellcheckVersion": "0.9.0",
+  "binaryHashReverified": true,
+  "accepted": true,
+  "onlyChangedScriptRequested": true,
+  "sourcePath": "/workspace/scratch/6682bce41bc7/work/idealmakoo-production-2.1.1",
+  "productFilesChanged": false,
+  "newBuildExecuted": false
+}

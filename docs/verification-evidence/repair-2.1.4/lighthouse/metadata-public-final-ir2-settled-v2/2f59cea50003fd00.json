@@ -1,0 +1,71 @@
+{
+  "url": "http://127.0.0.1:3100/ru/products/laboratory-putty/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "48a52c15b2653c3a6cc01815b09de191af139418c2b9754bc545319dd75dd623",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Лабораторная масса Putty | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Масса для лабораторной кюветизации, описанная для защиты воскового моделирования и упрощения очистки."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/products/laboratory-putty/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/laboratory-putty/",
+    "en": "http://127.0.0.1:3100/en/products/laboratory-putty/",
+    "tr": "http://127.0.0.1:3100/tr/products/laboratory-putty/",
+    "ar": "http://127.0.0.1:3100/ar/products/laboratory-putty/",
+    "ru": "http://127.0.0.1:3100/ru/products/laboratory-putty/",
+    "x-default": "http://127.0.0.1:3100/fa/products/laboratory-putty/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Лабораторная масса Putty",
+      "description": "Масса для лабораторной кюветизации, описанная для защиты воскового моделирования и упрощения очистки.",
+      "image": "http://127.0.0.1:3100/media/official/1722930683.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "IDEAL MAKOO"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/ru/products/laboratory-putty/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 61
+}

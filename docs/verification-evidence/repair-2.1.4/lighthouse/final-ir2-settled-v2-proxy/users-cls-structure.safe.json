@@ -1,0 +1,276 @@
+{
+  "format": "bounded-users-layout-shift-existing-lhr-v1",
+  "observedAt": "2026-10-25T22:37:19.182293+00:00",
+  "registeredRoute": "admin/users",
+  "locale": "tr",
+  "role": "superAdmin",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "originalReportSha256": "c65eea9cf465bc12c40780570ebe3603a9117ebab3cd5b71afe1e26f2ad5e6cd",
+  "originalResultScores": {
+    "performance": 42,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 54
+  },
+  "metrics": {
+    "first-contentful-paint": 2131.0478000000003,
+    "largest-contentful-paint": 6966.5717,
+    "speed-index": 2131.0478000000003,
+    "total-blocking-time": 431,
+    "cumulative-layout-shift": 0.537036469273576,
+    "interactive": 6971.171700000001
+  },
+  "selectedAuditStructure": {
+    "layout-shifts": {
+      "id": "[text-omitted]",
+      "score": 0,
+      "scoreDisplayMode": "[text-omitted]",
+      "displayValue": "[text-omitted]",
+      "metricSavings": {
+        "CLS": 0.537
+      },
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "node",
+            "valueType": "node",
+            "subItemsHeading": {
+              "key": "[text-omitted]"
+            },
+            "label": "[text-omitted]"
+          },
+          {
+            "key": "[text-omitted]",
+            "valueType": "numeric",
+            "subItemsHeading": {
+              "key": "[text-omitted]",
+              "valueType": "text"
+            },
+            "granularity": 0.001,
+            "label": "[text-omitted]"
+          }
+        ],
+        "items": [
+          {
+            "node": {
+              "tag": "div",
+              "category": "text-or-interface",
+              "boundingRect": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0
+              },
+              "structuralSelector": "div.ws-card"
+            },
+            "score": 0.3783970151058942
+          },
+          {
+            "node": {
+              "tag": "div",
+              "category": "text-or-interface",
+              "boundingRect": {
+                "top": 519,
+                "bottom": 1532,
+                "left": 12,
+                "right": 400,
+                "width": 388,
+                "height": 1014
+              },
+              "structuralSelector": "[selector-omitted]"
+            },
+            "score": 0.1511275950859062
+          },
+          {
+            "node": {
+              "tag": "div",
+              "category": "text-or-interface",
+              "boundingRect": {
+                "top": 519,
+                "bottom": 1532,
+                "left": 12,
+                "right": 400,
+                "width": 388,
+                "height": 1014
+              },
+              "structuralSelector": "[selector-omitted]"
+            },
+            "score": 0.00751185908177562
+          }
+        ]
+      },
+      "guidanceLevel": 2
+    },
+    "cls-culprits-insight": {
+      "id": "[text-omitted]",
+      "score": 0,
+      "scoreDisplayMode": "numeric",
+      "metricSavings": {
+        "CLS": 0
+      },
+      "details": {
+        "type": "list",
+        "items": [
+          {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "subItemsHeading": {
+                  "key": "[text-omitted]"
+                },
+                "label": "[text-omitted]"
+              },
+              {
+                "key": "[text-omitted]",
+                "valueType": "numeric",
+                "subItemsHeading": {
+                  "key": "[text-omitted]",
+                  "valueType": "text"
+                },
+                "granularity": 0.001,
+                "label": "[text-omitted]"
+              }
+            ],
+            "items": [
+              {
+                "node": {
+                  "type": "text",
+                  "value": "[text-omitted]"
+                },
+                "score": 0.537036469273576
+              },
+              {
+                "node": {
+                  "tag": "div",
+                  "category": "text-or-interface",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "structuralSelector": "div.ws-card"
+                },
+                "score": 0.3783970151058942
+              },
+              {
+                "node": {
+                  "tag": "div",
+                  "category": "text-or-interface",
+                  "boundingRect": {
+                    "top": 519,
+                    "bottom": 1532,
+                    "left": 12,
+                    "right": 400,
+                    "width": 388,
+                    "height": 1014
+                  },
+                  "structuralSelector": "[selector-omitted]"
+                },
+                "score": 0.1511275950859062
+              },
+              {
+                "node": {
+                  "tag": "div",
+                  "category": "text-or-interface",
+                  "boundingRect": {
+                    "top": 519,
+                    "bottom": 1532,
+                    "left": 12,
+                    "right": 400,
+                    "width": 388,
+                    "height": 1014
+                  },
+                  "structuralSelector": "[selector-omitted]"
+                },
+                "score": 0.00751185908177562
+              }
+            ]
+          }
+        ]
+      },
+      "guidanceLevel": 3
+    },
+    "unsized-images": {
+      "id": "[text-omitted]",
+      "score": 1,
+      "scoreDisplayMode": "[text-omitted]",
+      "metricSavings": {
+        "CLS": 0
+      },
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "node",
+            "valueType": "node",
+            "label": "[text-omitted]"
+          },
+          {
+            "key": "[text-omitted]",
+            "valueType": "[text-omitted]",
+            "label": "[text-omitted]"
+          }
+        ],
+        "items": []
+      },
+      "guidanceLevel": 4
+    },
+    "cumulative-layout-shift": {
+      "id": "[text-omitted]",
+      "score": 0.14,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 0.537036469273576,
+      "numericUnit": "[text-omitted]",
+      "displayValue": "[text-omitted]",
+      "scoringOptions": {
+        "p10": 0.1,
+        "median": 0.25
+      },
+      "details": {
+        "type": "debugdata",
+        "items": [
+          {
+            "cumulativeLayoutShiftMainFrame": 0.537036469273576,
+            "newEngineResultDiffered": false
+          }
+        ]
+      }
+    }
+  },
+  "additionalBrowserOrRequests": 0,
+  "privateTextAndImagesExported": false,
+  "attribution": "Measured shifted elements and geometric movement only. These data alone do not establish the triggering source-level defect; no new code/fix/score-gain claim.",
+  "additionalStructuralSelectors": [
+    {
+      "score": 0.3783970151058942,
+      "interfaceClassTokens": [
+        "ws-card"
+      ],
+      "selectorWithIdsAttributesRedacted": "div.ws-card"
+    },
+    {
+      "score": 0.1511275950859062,
+      "interfaceClassTokens": [
+        "ws-card",
+        "ws-table-wrap"
+      ],
+      "selectorWithIdsAttributesRedacted": "main#id-redacted > div.ws-page-content > section > div.ws-card"
+    },
+    {
+      "score": 0.00751185908177562,
+      "interfaceClassTokens": [
+        "ws-card",
+        "ws-table-wrap"
+      ],
+      "selectorWithIdsAttributesRedacted": "main#id-redacted > div.ws-page-content > section > div.ws-card"
+    }
+  ]
+}

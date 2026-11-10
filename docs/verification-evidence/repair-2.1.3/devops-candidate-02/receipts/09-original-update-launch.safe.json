@@ -1,0 +1,26 @@
+{
+  "start": {
+    "schema": 1,
+    "kind": "owned-guest-acceptance-job",
+    "job": "candidate02-original-update",
+    "startedAt": "2026-10-25T08:06:17.154377+00:00",
+    "pid": 3703,
+    "startTicks": 21837,
+    "cwd": "/var/www/idealmakoo-acceptance-recovery/releases/20261025T052814Z-0539a9c2",
+    "executable": "/bin/bash",
+    "automaticRetry": false,
+    "timeoutSeconds": 9000,
+    "privateStdinProvided": false
+  },
+  "actualOriginalUpdaterArgv": [
+    "/bin/bash",
+    "/var/www/idealmakoo-acceptance-recovery/releases/20261025T052814Z-0539a9c2/scripts/update.sh",
+    "--source",
+    "/home/ubuntu/acceptance-input/candidate02/source"
+  ],
+  "timeoutSeconds": 9000,
+  "automaticRetry": false,
+  "actualOutcomePending": true,
+  "sshExitCode": 0,
+  "sshActualWaitConsumed": true
+}

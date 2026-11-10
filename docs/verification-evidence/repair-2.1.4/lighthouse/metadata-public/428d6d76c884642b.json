@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/research/six-teeth-wear-rate/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "a22ecc54a1decdfe721e7409fae395de3b9e1c04281ce4c0d1522a083cda149b",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Altı protez diş türünün aşınma hızı karşılaştırması | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Alümina disk, yapay tükürük ve ağırlık değişimiyle altı grubun karşılaştırılması."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/research/six-teeth-wear-rate/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/six-teeth-wear-rate/",
+    "en": "http://127.0.0.1:3100/en/research/six-teeth-wear-rate/",
+    "tr": "http://127.0.0.1:3100/tr/research/six-teeth-wear-rate/",
+    "ar": "http://127.0.0.1:3100/ar/research/six-teeth-wear-rate/",
+    "ru": "http://127.0.0.1:3100/ru/research/six-teeth-wear-rate/",
+    "x-default": "http://127.0.0.1:3100/fa/research/six-teeth-wear-rate/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 48
+}

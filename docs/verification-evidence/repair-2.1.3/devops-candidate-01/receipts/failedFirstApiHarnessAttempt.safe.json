@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "kind": "collected-owned-guest-outcome",
+  "guest": "primary",
+  "job": "api-seed",
+  "status": "failed",
+  "exitCode": 1,
+  "actualGuestWaitConsumed": true,
+  "startedAt": "2026-10-25T04:41:36.552277+00:00",
+  "completedAt": "2026-10-25T04:41:39.997237+00:00",
+  "elapsedSeconds": 3.448522,
+  "files": {
+    "outcome.safe.json": {
+      "bytes": 388,
+      "sha256": "d3e8d6e6c64a220dfe2089739404cdc2b8acd4fe72d02bebbbcafd6cbfabdf58",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "start.safe.json": {
+      "bytes": 376,
+      "sha256": "5348be911ad5531d43c3a84c60aa0cb9a479323c89ac55079520ded9b34b5070",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "stdout.private": {
+      "bytes": 347,
+      "sha256": "599b123a6ff04ca352f8bc156219050be9b97b45e891119edc75a77c62d0e777",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "stderr.private.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    }
+  },
+  "apiStatus": "failed",
+  "apiPhase": "seed",
+  "checks": [],
+  "checkCount": 0,
+  "failure": "Unexpected end of JSON input"
+}

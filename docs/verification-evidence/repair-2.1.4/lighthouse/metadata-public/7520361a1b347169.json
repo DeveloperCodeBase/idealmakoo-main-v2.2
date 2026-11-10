@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/knowledge/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "74d784e6d9fd7fe6a03c297b3172476ec98faabc7656a0b0ce417d391317d593",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Bilgi ve deneyim için bir yer. | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Dental sektörde ürünler, malzemeler ve mesleki deneyim üzerine uzman içerik."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/knowledge/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/knowledge/",
+    "en": "http://127.0.0.1:3100/en/knowledge/",
+    "tr": "http://127.0.0.1:3100/tr/knowledge/",
+    "ar": "http://127.0.0.1:3100/ar/knowledge/",
+    "ru": "http://127.0.0.1:3100/ru/knowledge/",
+    "x-default": "http://127.0.0.1:3100/fa/knowledge/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 40
+}

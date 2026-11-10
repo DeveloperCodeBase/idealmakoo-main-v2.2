@@ -1,0 +1,61 @@
+{
+  "url": "http://127.0.0.1:3100/tr/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "2be3aa37954cfd513821a9fc733af119f4cb227863fd35e119498028673a9f82",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Ana sayfa | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Kırk yılı aşkın deneyimle üretilen yapay dişler ve dental malzemeler. Ideal Makoo koleksiyonunu keşfedin."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/",
+    "en": "http://127.0.0.1:3100/en/",
+    "tr": "http://127.0.0.1:3100/tr/",
+    "ar": "http://127.0.0.1:3100/ar/",
+    "ru": "http://127.0.0.1:3100/ru/",
+    "x-default": "http://127.0.0.1:3100/fa/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Ideal Makoo",
+      "url": "http://127.0.0.1:3100",
+      "logo": "http://127.0.0.1:3100/media/brand/logo-transparent.png",
+      "telephone": "02188899776"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 61
+}

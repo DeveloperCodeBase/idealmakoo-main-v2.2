@@ -1,0 +1,71 @@
+{
+  "url": "http://127.0.0.1:3100/ru/products/super-newclar/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "7303f989e3fd56d032ede8866663d2b149804c432fd03f8e455ab05f12a513a9",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Искусственные зубы Super Newclar | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Двухслойная серия Super Newclar со сшитой структурой для полных и частичных протезов."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/products/super-newclar/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/super-newclar/",
+    "en": "http://127.0.0.1:3100/en/products/super-newclar/",
+    "tr": "http://127.0.0.1:3100/tr/products/super-newclar/",
+    "ar": "http://127.0.0.1:3100/ar/products/super-newclar/",
+    "ru": "http://127.0.0.1:3100/ru/products/super-newclar/",
+    "x-default": "http://127.0.0.1:3100/fa/products/super-newclar/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Искусственные зубы Super Newclar",
+      "description": "Двухслойная серия Super Newclar со сшитой структурой для полных и частичных протезов.",
+      "image": "http://127.0.0.1:3100/media/official/1686378486.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "SUPER NEWCLAR"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/ru/products/super-newclar/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 57
+}

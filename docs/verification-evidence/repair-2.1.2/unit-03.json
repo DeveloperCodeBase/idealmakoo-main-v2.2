@@ -1,0 +1,32 @@
+{
+  "name": "unit-2.1.2-public-copy-complete",
+  "command": [
+    "npm",
+    "run",
+    "test:unit"
+  ],
+  "startedAt": "2026-10-23T10:36:01.793158+00:00",
+  "finishedAt": "2026-10-23T10:36:37.454066+00:00",
+  "durationSeconds": 35.551,
+  "exitCode": 0,
+  "sourceBefore": {
+    "sha256": "499c0bc34043d69e34cd7559f59b45ac1414cf4ae25f94f1dde5025328f3f05e",
+    "files": 986
+  },
+  "sourceAfter": {
+    "sha256": "499c0bc34043d69e34cd7559f59b45ac1414cf4ae25f94f1dde5025328f3f05e",
+    "files": 986
+  },
+  "sourceChanged": [],
+  "accepted": true,
+  "logSha256": "919495e2ce24de761e53053389957feedd081ac7a07b5f6fb13d9648ac35c79f",
+  "version": "2.1.2",
+  "tests": {
+    "total": 815,
+    "passed": 815,
+    "failed": 0,
+    "skipped": 0,
+    "cancelled": 0,
+    "todo": 0
+  }
+}

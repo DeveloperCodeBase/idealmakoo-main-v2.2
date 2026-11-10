@@ -1,0 +1,1425 @@
+{
+  "kind": "candidate03-closed-native-handoff",
+  "status": "ready-for-root-candidate-decision",
+  "version": "2.1.3",
+  "buildId": "DuF4NV2a3keq3h3H5T3Dr",
+  "sourceInputSha256": "79cbbf107e4886e03ade1119ab48d3a57e8a7385a64ba125322d3f4e1b923f94",
+  "canonicalInputs": 994,
+  "approvedChangedPaths": 3,
+  "unchangedOtherCanonicalInputs": 991,
+  "gates": {
+    "unit": {
+      "receiptFile": "/tmp/idealmakoo-frontend-candidate02-20261025/unit-candidate03-01/receipt.safe.json",
+      "receiptSha256": "827f5dfde7f6163bef7d48a74833db5bae126afc76a69ffe3d4044a2763438af",
+      "name": "unit-candidate03-01",
+      "startedAt": "2026-10-25T10:04:34.297302+00:00",
+      "finishedAt": "2026-10-25T10:05:06.268829+00:00",
+      "durationSeconds": 31.971527,
+      "exitCode": 0,
+      "waitConsumed": true,
+      "accepted": true,
+      "timedOut": false,
+      "cancelled": false,
+      "sourceBefore": {
+        "sha256": "79cbbf107e4886e03ade1119ab48d3a57e8a7385a64ba125322d3f4e1b923f94",
+        "files": 994
+      },
+      "sourceAfter": {
+        "sha256": "79cbbf107e4886e03ade1119ab48d3a57e8a7385a64ba125322d3f4e1b923f94",
+        "files": 994
+      },
+      "sourceChanged": [],
+      "outerTool": {
+        "sessionId": 22280,
+        "exitCode": 0,
+        "actualWaitConsumed": true,
+        "launchJournal": {
+          "file": "tool-journal/entries/20261025T100435403000Z-exec_command-f0b8e9.json",
+          "sha256": "9146ba11a8c9e78f53a384ae3311cb8ea270ee99580d9d07451a2e4873cf635e",
+          "metadata": {
+            "actualReturnedToolMetadata": true,
+            "chunk_id": "f0b8e9",
+            "exit_code": null,
+            "operation": "exec_command",
+            "planSha256": "04208bda3940d319e6598c0fd77a70251a35c71b514a6d78eb444585094a3d4d",
+            "requestedSessionId": null,
+            "schemaVersion": 1,
+            "session_id": 22280,
+            "step": "c3-unit",
+            "time": "2026-10-25T10:04:35.403Z",
+            "wall_time_seconds": 1.000483864
+          }
+        },
+        "terminalJournal": {
+          "file": "tool-journal/entries/20261025T100511530000Z-write_stdin-9ccacb.json",
+          "sha256": "bcd5248e45043ff29bade9ddead6a200636ec3256e4a49ecdc5c64a8f5fc3683",
+          "metadata": {
+            "actualReturnedToolMetadata": true,
+            "chunk_id": "9ccacb",
+            "exit_code": 0,
+            "operation": "write_stdin",
+            "planSha256": "04208bda3940d319e6598c0fd77a70251a35c71b514a6d78eb444585094a3d4d",
+            "requestedSessionId": 22280,
+            "schemaVersion": 1,
+            "session_id": null,
+            "step": "c3-unit",
+            "time": "2026-10-25T10:05:11.530Z",
+            "wall_time_seconds": 3.3263e-05
+          }
+        }
+      },
+      "terminalCounts": {
+        "tests": 820,
+        "pass": 820,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0
+      },
+      "terminalLogSha256": "f9b0a4fa103988a58e51ed25c208e5a54e6f6e3330d4a6b0adcf28992ce65233"
+    },
+    "typecheck": {
+      "receiptFile": "/tmp/idealmakoo-frontend-candidate02-20261025/typecheck-candidate03-01/receipt.safe.json",
+      "receiptSha256": "81d807dc6c41e121463e1027372e847026e5092a2b9b22d8a61c9f61d03ae780",
+      "name": "typecheck-candidate03-01",
+      "startedAt": "2026-10-25T10:05:17.244872+00:00",
+      "finishedAt": "2026-10-25T10:05:20.665364+00:00",
+      "durationSeconds": 3.420492,
+      "exitCode": 0,
+      "waitConsumed": true,
+      "accepted": true,
+      "timedOut": false,
+      "cancelled": false,
+      "sourceBefore": {
+        "sha256": "79cbbf107e4886e03ade1119ab48d3a57e8a7385a64ba125322d3f4e1b923f94",
+        "files": 994
+      },
+      "sourceAfter": {
+        "sha256": "79cbbf107e4886e03ade1119ab48d3a57e8a7385a64ba125322d3f4e1b923f94",
+        "files": 994
+      },
+      "sourceChanged": [],
+      "outerTool": {
+        "sessionId": 57960,
+        "exitCode": 0,
+        "actualWaitConsumed": true,
+        "launchJournal": {
+          "file": "tool-journal/entries/20261025T100518362000Z-exec_command-dcfa65.json",
+          "sha256": "7ff1d20bd2d253ca7ac4c8dbc049f2b9829fe858a6fd379f008ebf955c8ea2ee",
+          "metadata": {
+            "actualReturnedToolMetadata": true,
+            "chunk_id": "dcfa65",
+            "exit_code": null,
+            "operation": "exec_command",
+            "planSha256": "04208bda3940d319e6598c0fd77a70251a35c71b514a6d78eb444585094a3d4d",
+            "requestedSessionId": null,
+            "schemaVersion": 1,
+            "session_id": 57960,
+            "step": "c3-typecheck",
+            "time": "2026-10-25T10:05:18.362Z",
+            "wall_time_seconds": 1.001101752
+          }
+        },
+        "terminalJournal": {
+          "file": "tool-journal/entries/20261025T100525254000Z-write_stdin-ad8a36.json",
+          "sha256": "5b9f75ecfff270c7cfc9b3249c7bb861f2a52abc3da43f51932fee65659eaec1",
+          "metadata": {
+            "actualReturnedToolMetadata": true,
+            "chunk_id": "ad8a36",
+            "exit_code": 0,
+            "operation": "write_stdin",
+            "planSha256": "04208bda3940d319e6598c0fd77a70251a35c71b514a6d78eb444585094a3d4d",
+            "requestedSessionId": 57960,
+            "schemaVersion": 1,
+            "session_id": null,
+            "step": "c3-typecheck",
+            "time": "2026-10-25T10:05:25.254Z",
+            "wall_time_seconds": 3.7779e-05
+          }
+        }
+      }
+    },
+    "build": {
+      "receiptFile": "/tmp/idealmakoo-frontend-candidate02-20261025/build-candidate03-01/receipt.safe.json",
+      "receiptSha256": "307fd8ece961fcb8b3563cccac5ce5c5aa7acf6c3df6d7376ce678e6d508d65d",
+      "name": "build-candidate03-01",
+      "startedAt": "2026-10-25T10:05:30.647902+00:00",
+      "finishedAt": "2026-10-25T10:06:46.347959+00:00",
+      "durationSeconds": 75.700058,
+      "exitCode": 0,
+      "waitConsumed": true,
+      "accepted": true,
+      "timedOut": false,
+      "cancelled": false,
+      "sourceBefore": {
+        "sha256": "79cbbf107e4886e03ade1119ab48d3a57e8a7385a64ba125322d3f4e1b923f94",
+        "files": 994
+      },
+      "sourceAfter": {
+        "sha256": "79cbbf107e4886e03ade1119ab48d3a57e8a7385a64ba125322d3f4e1b923f94",
+        "files": 994
+      },
+      "sourceChanged": [],
+      "outerTool": {
+        "sessionId": 29972,
+        "exitCode": 0,
+        "actualWaitConsumed": true,
+        "launchJournal": {
+          "file": "tool-journal/entries/20261025T100531768000Z-exec_command-e8ab03.json",
+          "sha256": "a32cdd51e104f66bca37dc83c2160abcdd5a50d3060d97b83ffd65270a74592b",
+          "metadata": {
+            "actualReturnedToolMetadata": true,
+            "chunk_id": "e8ab03",
+            "exit_code": null,
+            "operation": "exec_command",
+            "planSha256": "04208bda3940d319e6598c0fd77a70251a35c71b514a6d78eb444585094a3d4d",
+            "requestedSessionId": null,
+            "schemaVersion": 1,
+            "session_id": 29972,
+            "step": "c3-build",
+            "time": "2026-10-25T10:05:31.768Z",
+            "wall_time_seconds": 1.000435545
+          }
+        },
+        "terminalJournal": {
+          "file": "tool-journal/entries/20261025T100701876000Z-write_stdin-4ca2bb.json",
+          "sha256": "0418032ef18eb36c031157e9425bde4e5d9f5ac33df685a83ec9cf5a2fc5d7ad",
+          "metadata": {
+            "actualReturnedToolMetadata": true,
+            "chunk_id": "4ca2bb",
+            "exit_code": 0,
+            "operation": "write_stdin",
+            "planSha256": "04208bda3940d319e6598c0fd77a70251a35c71b514a6d78eb444585094a3d4d",
+            "requestedSessionId": 29972,
+            "schemaVersion": 1,
+            "session_id": null,
+            "step": "c3-build",
+            "time": "2026-10-25T10:07:01.876Z",
+            "wall_time_seconds": 4.0303e-05
+          }
+        }
+      }
+    },
+    "baselineFailed01": {
+      "receiptFile": "/tmp/idealmakoo-frontend-candidate02-20261025/resources-transition-baseline-gate-01/receipt.safe.json",
+      "receiptSha256": "6f1b8c0f31fad136dd486fe04ccfd66e0ecf3521714e8239e16b93f17dcb53b0",
+      "name": "resources-transition-baseline-c2",
+      "startedAt": "2026-10-25T10:02:32.352803+00:00",
+      "finishedAt": "2026-10-25T10:02:36.184679+00:00",
+      "durationSeconds": 3.831878,
+      "exitCode": 1,
+      "waitConsumed": true,
+      "accepted": false,
+      "timedOut": false,
+      "cancelled": false,
+      "sourceBefore": {
+        "sha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+        "files": 994
+      },
+      "sourceAfter": {
+        "sha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+        "files": 994
+      },
+      "sourceChanged": [],
+      "outerTool": {
+        "sessionId": 85593,
+        "exitCode": 1,
+        "actualWaitConsumed": true,
+        "launchJournal": {
+          "file": "tool-journal/entries/20261025T100233468000Z-exec_command-433818.json",
+          "sha256": "04fcca4fbb73e48e27b05a50a49b8801f0b40dbcc6145b0b43c059ee4c212fd3",
+          "metadata": {
+            "actualReturnedToolMetadata": true,
+            "chunk_id": "433818",
+            "exit_code": null,
+            "operation": "exec_command",
+            "planSha256": "04208bda3940d319e6598c0fd77a70251a35c71b514a6d78eb444585094a3d4d",
+            "requestedSessionId": null,
+            "schemaVersion": 1,
+            "session_id": 85593,
+            "step": "baseline-resources-transitions",
+            "time": "2026-10-25T10:02:33.468Z",
+            "wall_time_seconds": 1.000390767
+          }
+        },
+        "terminalJournal": {
+          "file": "tool-journal/entries/20261025T100240110000Z-write_stdin-1bbc5e.json",
+          "sha256": "e77c275bb1479fc61790a1c8099d3f7bdb30d9f9c062569dc506e7311b0921b1",
+          "metadata": {
+            "actualReturnedToolMetadata": true,
+            "chunk_id": "1bbc5e",
+            "exit_code": 1,
+            "operation": "write_stdin",
+            "planSha256": "04208bda3940d319e6598c0fd77a70251a35c71b514a6d78eb444585094a3d4d",
+            "requestedSessionId": 85593,
+            "schemaVersion": 1,
+            "session_id": null,
+            "step": "baseline-resources-transitions",
+            "time": "2026-10-25T10:02:40.110Z",
+            "wall_time_seconds": 3.7888e-05
+          }
+        }
+      }
+    },
+    "baselineAccepted02": {
+      "receiptFile": "/tmp/idealmakoo-frontend-candidate02-20261025/resources-transition-baseline-gate-02/receipt.safe.json",
+      "receiptSha256": "f0a7c3abed6be232105bee3ec4e5c52ddd5c90ae2575c799e1c9bc5c0671697f",
+      "name": "resources-transition-baseline-c2",
+      "startedAt": "2026-10-25T10:03:08.713117+00:00",
+      "finishedAt": "2026-10-25T10:03:32.467768+00:00",
+      "durationSeconds": 23.75465,
+      "exitCode": 0,
+      "waitConsumed": true,
+      "accepted": true,
+      "timedOut": false,
+      "cancelled": false,
+      "sourceBefore": {
+        "sha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+        "files": 994
+      },
+      "sourceAfter": {
+        "sha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+        "files": 994
+      },
+      "sourceChanged": [],
+      "outerTool": {
+        "sessionId": 21185,
+        "exitCode": 0,
+        "actualWaitConsumed": true,
+        "launchJournal": {
+          "file": "tool-journal/entries/20261025T100309839000Z-exec_command-37af6b.json",
+          "sha256": "c4c6f3144a006f20fa570252fb43f9fa17c983fdc31c79e5283b34b00c1ffa7b",
+          "metadata": {
+            "actualReturnedToolMetadata": true,
+            "chunk_id": "37af6b",
+            "exit_code": null,
+            "operation": "exec_command",
+            "planSha256": "04208bda3940d319e6598c0fd77a70251a35c71b514a6d78eb444585094a3d4d",
+            "requestedSessionId": null,
+            "schemaVersion": 1,
+            "session_id": 21185,
+            "step": "baseline-resources-transitions",
+            "time": "2026-10-25T10:03:09.839Z",
+            "wall_time_seconds": 1.000385763
+          }
+        },
+        "terminalJournal": {
+          "file": "tool-journal/entries/20261025T100338400000Z-write_stdin-ff8745.json",
+          "sha256": "88256ce495fd7afdd379103a542cc874843f788b89660d3ba5e66944f64b1b5f",
+          "metadata": {
+            "actualReturnedToolMetadata": true,
+            "chunk_id": "ff8745",
+            "exit_code": 0,
+            "operation": "write_stdin",
+            "planSha256": "04208bda3940d319e6598c0fd77a70251a35c71b514a6d78eb444585094a3d4d",
+            "requestedSessionId": 21185,
+            "schemaVersion": 1,
+            "session_id": null,
+            "step": "baseline-resources-transitions",
+            "time": "2026-10-25T10:03:38.400Z",
+            "wall_time_seconds": 2.4593e-05
+          }
+        }
+      }
+    },
+    "postFixTransitions": {
+      "receiptFile": "/tmp/idealmakoo-frontend-candidate02-20261025/resources-transition-candidate03-gate-01/receipt.safe.json",
+      "receiptSha256": "f4b00fb9e3a53dfc86d88f61dc200951e8c54e85dddc1c52ba1b7ace1850952f",
+      "name": "resources-transition-candidate03",
+      "startedAt": "2026-10-25T10:07:45.730337+00:00",
+      "finishedAt": "2026-10-25T10:08:07.652751+00:00",
+      "durationSeconds": 21.922416,
+      "exitCode": 0,
+      "waitConsumed": true,
+      "accepted": true,
+      "timedOut": false,
+      "cancelled": false,
+      "sourceBefore": {
+        "sha256": "79cbbf107e4886e03ade1119ab48d3a57e8a7385a64ba125322d3f4e1b923f94",
+        "files": 994
+      },
+      "sourceAfter": {
+        "sha256": "79cbbf107e4886e03ade1119ab48d3a57e8a7385a64ba125322d3f4e1b923f94",
+        "files": 994
+      },
+      "sourceChanged": [],
+      "outerTool": {
+        "sessionId": 30046,
+        "exitCode": 0,
+        "actualWaitConsumed": true,
+        "launchJournal": {
+          "file": "tool-journal/entries/20261025T100746844000Z-exec_command-47139b.json",
+          "sha256": "8919992ece2c7880f7bc28f50aa222c44d202a09f79e729fa3f5bcab4fe06c66",
+          "metadata": {
+            "actualReturnedToolMetadata": true,
+            "chunk_id": "47139b",
+            "exit_code": null,
+            "operation": "exec_command",
+            "planSha256": "04208bda3940d319e6598c0fd77a70251a35c71b514a6d78eb444585094a3d4d",
+            "requestedSessionId": null,
+            "schemaVersion": 1,
+            "session_id": 30046,
+            "step": "c3-resources-transitions",
+            "time": "2026-10-25T10:07:46.844Z",
+            "wall_time_seconds": 1.001044335
+          }
+        },
+        "terminalJournal": {
+          "file": "tool-journal/entries/20261025T100807756000Z-write_stdin-5abff6.json",
+          "sha256": "6f4c11243b188ec0616d68d85648f0be2be4af0fcf06479d2b52c9c0c4bdec08",
+          "metadata": {
+            "actualReturnedToolMetadata": true,
+            "chunk_id": "5abff6",
+            "exit_code": 0,
+            "operation": "write_stdin",
+            "planSha256": "04208bda3940d319e6598c0fd77a70251a35c71b514a6d78eb444585094a3d4d",
+            "requestedSessionId": 30046,
+            "schemaVersion": 1,
+            "session_id": null,
+            "step": "c3-resources-transitions",
+            "time": "2026-10-25T10:08:07.756Z",
+            "wall_time_seconds": 1.195359493
+          }
+        }
+      }
+    },
+    "metadata": {
+      "receiptFile": "/tmp/idealmakoo-frontend-candidate02-20261025/metadata-candidate03-gate-01/receipt.safe.json",
+      "receiptSha256": "602a4d950cfe65999ecd5a4105e879829b68f6a563f3e430e40c29f7019040e1",
+      "name": "metadata-candidate03",
+      "startedAt": "2026-10-25T10:09:50.967449+00:00",
+      "finishedAt": "2026-10-25T10:10:02.860049+00:00",
+      "durationSeconds": 11.892595,
+      "exitCode": 0,
+      "waitConsumed": true,
+      "accepted": true,
+      "timedOut": false,
+      "cancelled": false,
+      "sourceBefore": {
+        "sha256": "79cbbf107e4886e03ade1119ab48d3a57e8a7385a64ba125322d3f4e1b923f94",
+        "files": 994
+      },
+      "sourceAfter": {
+        "sha256": "79cbbf107e4886e03ade1119ab48d3a57e8a7385a64ba125322d3f4e1b923f94",
+        "files": 994
+      },
+      "sourceChanged": [],
+      "outerTool": {
+        "sessionId": 88892,
+        "exitCode": 0,
+        "actualWaitConsumed": true,
+        "launchJournal": {
+          "file": "tool-journal/entries/20261025T100952096000Z-exec_command-0718d0.json",
+          "sha256": "e9431bb20c877e8df3f8ab8d5d3ba0bb1e16c0f881f9fdc1754cc5206a0cca29",
+          "metadata": {
+            "actualReturnedToolMetadata": true,
+            "chunk_id": "0718d0",
+            "exit_code": null,
+            "operation": "exec_command",
+            "planSha256": "04208bda3940d319e6598c0fd77a70251a35c71b514a6d78eb444585094a3d4d",
+            "requestedSessionId": null,
+            "schemaVersion": 1,
+            "session_id": 88892,
+            "step": "c3-metadata",
+            "time": "2026-10-25T10:09:52.096Z",
+            "wall_time_seconds": 1.000763123
+          }
+        },
+        "terminalJournal": {
+          "file": "tool-journal/entries/20261025T101013450000Z-write_stdin-6db3cf.json",
+          "sha256": "4550724381d208fbca74b496adb1ed345b4897b4ffb79cce2c54d3e729251510",
+          "metadata": {
+            "actualReturnedToolMetadata": true,
+            "chunk_id": "6db3cf",
+            "exit_code": 0,
+            "operation": "write_stdin",
+            "planSha256": "04208bda3940d319e6598c0fd77a70251a35c71b514a6d78eb444585094a3d4d",
+            "requestedSessionId": 88892,
+            "schemaVersion": 1,
+            "session_id": null,
+            "step": "c3-metadata",
+            "time": "2026-10-25T10:10:13.450Z",
+            "wall_time_seconds": 2.4337e-05
+          }
+        }
+      }
+    }
+  },
+  "baselineSafeSha256": "87e431315350c5fac6b63f1d9ae875be3d7b4c123efc47fa82d61bb71563615e",
+  "transitionComparisonSha256": "90b798c43c6c6212f97f73e0fe800d9cb099b9d94ee78184fb08723873f22d43",
+  "targetedComparisonSha256": "c8bb7ca87066e1e2c4b74f8e88fdf5a9c2a616ddf9f44840869c7ce9e87b6685",
+  "metadata": {
+    "createdAt": "2026-10-25T10:10:02.711Z",
+    "buildId": "DuF4NV2a3keq3h3H5T3Dr",
+    "publicContentHash": "c81fb2b40e486f8608c7c7da584d76197bef191244fad9d1b45128ddbb7e8e74",
+    "inventoryHash": "5d64b4b3f9bc22e0e2105ebb0ce0e6b6a54c56eba3cbaef681973c4332bda11f",
+    "expected": 620,
+    "checked": 620,
+    "passed": 620,
+    "errors": 0,
+    "warnings": 0,
+    "coverageComplete": true
+  },
+  "metadataSummarySha256": "a5011790247a096a5ba18b71947920a6bc82dd0e21072a1a98c4e414323a1c62",
+  "inventoryExecution": {
+    "receiptSha256": "2d3e3d393ba02f5b409d006610687b60a8fd8b4b7f0955890dc2f46301122bc0",
+    "actualOuterTool": {
+      "sessionId": 58354,
+      "exitCode": 0,
+      "actualWaitConsumed": true,
+      "launchJournal": {
+        "file": "tool-journal/entries/20261025T100908450000Z-exec_command-c51f58.json",
+        "sha256": "eab5b3beb2cda9cd2e45c9b1316e55e8511186ccb9c4916d88b718351c9120a2",
+        "metadata": {
+          "actualReturnedToolMetadata": true,
+          "chunk_id": "c51f58",
+          "exit_code": null,
+          "operation": "exec_command",
+          "planSha256": "04208bda3940d319e6598c0fd77a70251a35c71b514a6d78eb444585094a3d4d",
+          "requestedSessionId": null,
+          "schemaVersion": 1,
+          "session_id": 58354,
+          "step": "c3-inventory-bindings",
+          "time": "2026-10-25T10:09:08.450Z",
+          "wall_time_seconds": 1.001367092
+        }
+      },
+      "terminalJournal": {
+        "file": "tool-journal/entries/20261025T101030933000Z-write_stdin-5f54d2.json",
+        "sha256": "6dd1589127476d2ded6376195f7a0e3108c041950a8d8e31fb99a5c1c5abe333",
+        "metadata": {
+          "actualReturnedToolMetadata": true,
+          "chunk_id": "5f54d2",
+          "exit_code": 0,
+          "operation": "write_stdin",
+          "planSha256": "04208bda3940d319e6598c0fd77a70251a35c71b514a6d78eb444585094a3d4d",
+          "requestedSessionId": 58354,
+          "schemaVersion": 1,
+          "session_id": null,
+          "step": "c3-inventory-bindings",
+          "time": "2026-10-25T10:10:30.933Z",
+          "wall_time_seconds": 3.8946e-05
+        }
+      }
+    },
+    "invocations": 25,
+    "targetStates": 1223,
+    "attempted": 0,
+    "scoredLhrs": 0,
+    "expected404Completed": 0,
+    "pending": 1223,
+    "groups": {
+      "mobile/indexable-public": 590,
+      "mobile/http404-contract": 5,
+      "mobile/intentional-noindex-auth": 25,
+      "mobile/protected-private": 530,
+      "desktop/indexable-public": 46,
+      "desktop/intentional-noindex-auth": 5,
+      "desktop/protected-private": 22
+    },
+    "inventories": [
+      {
+        "label": "candidate03/public-mobile-inventory",
+        "scope": "public",
+        "device": "mobile",
+        "targetStates": 620,
+        "identicalJobListToC2": true,
+        "attempted": 0,
+        "pending": 620,
+        "manifestSha256": "143f74062e59c39799d75c9387c9ed09590f1bb461566676883bba2db1d9b028",
+        "inventorySha256": "4a32441fac5566fcf1e98f41ec0783cc673bb281951d13b8c8ad6d38ac73c849",
+        "summarySha256": "63b46c95dcefd5c130b1db10be15a57b0cefd1deb2bd6c32575471005599f820",
+        "runnerReceiptFile": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/public-mobile/invocation-inventory-3472d088cbf6/completion.safe.json",
+        "runnerReceiptSha256": "391994d74add467b4ef82198fbf25c61db6083ce621e4da4114340bcead67190",
+        "actualRunnerExitCode": 0,
+        "actualRunnerWaitConsumed": true,
+        "actualWrapperExitCode": 0,
+        "actualWrapperWaitConsumed": true,
+        "terminal": {
+          "event": "finite-audit-step",
+          "status": "specified-batch-completed",
+          "receipt": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/public-mobile/invocation-inventory-3472d088cbf6/completion.safe.json",
+          "exitCode": 0,
+          "actualWaitConsumed": true,
+          "summary": {
+            "expected": 620,
+            "attempted": 0,
+            "completed": 0,
+            "expectedHttpResponses": 0,
+            "errors": 0,
+            "timeouts": 0,
+            "pending": 620,
+            "coverageComplete": false
+          }
+        }
+      },
+      {
+        "label": "candidate03/private-mobile-inventory",
+        "scope": "private",
+        "device": "mobile",
+        "targetStates": 530,
+        "identicalJobListToC2": true,
+        "attempted": 0,
+        "pending": 530,
+        "manifestSha256": "6f51ed77705c4f75729c7e5d1f737dc2e64dc5317f8c89ec73efe84236b21dfb",
+        "inventorySha256": "9487eda187485e187b3f54e0b98dd68cb791d85f98a7b62afaf8307f14e9f68d",
+        "summarySha256": "79579521ef059d716cf8300039d96f4f1e5bac562d95196ffd05fef5c5d07c9b",
+        "runnerReceiptFile": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-mobile/invocation-inventory-cebbbe85d5f4/completion.safe.json",
+        "runnerReceiptSha256": "d0d356d6b738d07d5e4f2af992ee67cff9a8e63008c64862a92c531d158bda02",
+        "actualRunnerExitCode": 0,
+        "actualRunnerWaitConsumed": true,
+        "actualWrapperExitCode": 0,
+        "actualWrapperWaitConsumed": true,
+        "terminal": {
+          "event": "finite-audit-step",
+          "status": "specified-batch-completed",
+          "receipt": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-mobile/invocation-inventory-cebbbe85d5f4/completion.safe.json",
+          "exitCode": 0,
+          "actualWaitConsumed": true,
+          "summary": {
+            "expected": 530,
+            "attempted": 0,
+            "completed": 0,
+            "expectedHttpResponses": 0,
+            "errors": 0,
+            "timeouts": 0,
+            "pending": 530,
+            "coverageComplete": false
+          }
+        }
+      },
+      {
+        "label": "candidate03/public-desktop-inventory",
+        "scope": "public",
+        "device": "desktop",
+        "targetStates": 51,
+        "identicalJobListToC2": true,
+        "attempted": 0,
+        "pending": 51,
+        "manifestSha256": "83eeffe3271bc818233c66d4be3387fb3be7e79684413abcf1ec1c3245882957",
+        "inventorySha256": "003d335e1357692ccb068d976be340d85225baa5be594b0115c076991961ed51",
+        "summarySha256": "8f88796dede19796895419475c1a480614cbfef2fb0f2744c0c920648e06c575",
+        "runnerReceiptFile": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/public-desktop/invocation-inventory-d590803a522d/completion.safe.json",
+        "runnerReceiptSha256": "3b05e7b8fc9c89313b1412007e87d51c7116610b3fdca95a0b689090759b9138",
+        "actualRunnerExitCode": 0,
+        "actualRunnerWaitConsumed": true,
+        "actualWrapperExitCode": 0,
+        "actualWrapperWaitConsumed": true,
+        "terminal": {
+          "event": "finite-audit-step",
+          "status": "specified-batch-completed",
+          "receipt": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/public-desktop/invocation-inventory-d590803a522d/completion.safe.json",
+          "exitCode": 0,
+          "actualWaitConsumed": true,
+          "summary": {
+            "expected": 51,
+            "attempted": 0,
+            "completed": 0,
+            "expectedHttpResponses": 0,
+            "errors": 0,
+            "timeouts": 0,
+            "pending": 51,
+            "coverageComplete": false
+          }
+        }
+      },
+      {
+        "label": "candidate03/private-desktop/01-fa-admin-inventory",
+        "scope": "private",
+        "device": "desktop",
+        "targetStates": 1,
+        "identicalJobListToC2": true,
+        "attempted": 0,
+        "pending": 1,
+        "manifestSha256": "ada662fe3303d7c66326de1f473e67938b666475a5c3912955a536c2211023f0",
+        "inventorySha256": "7858dbfa25219f3b57dd1b3db110728f1b72c29ba4e19572db77ed0dd715fbaa",
+        "summarySha256": "db44e84c6951aa022bf3330c6610ee51bbcd0cd1bdee80d1a5902bd1015260b5",
+        "runnerReceiptFile": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/01-fa-admin/invocation-inventory-0a3781f47103/completion.safe.json",
+        "runnerReceiptSha256": "a6e83baf55e4eed9d202bb3ba764d09e27dce4a12f46dc5a75fd33466f0620d1",
+        "actualRunnerExitCode": 0,
+        "actualRunnerWaitConsumed": true,
+        "actualWrapperExitCode": 0,
+        "actualWrapperWaitConsumed": true,
+        "terminal": {
+          "event": "finite-audit-step",
+          "status": "specified-batch-completed",
+          "receipt": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/01-fa-admin/invocation-inventory-0a3781f47103/completion.safe.json",
+          "exitCode": 0,
+          "actualWaitConsumed": true,
+          "summary": {
+            "expected": 1,
+            "attempted": 0,
+            "completed": 0,
+            "expectedHttpResponses": 0,
+            "errors": 0,
+            "timeouts": 0,
+            "pending": 1,
+            "coverageComplete": false
+          }
+        }
+      },
+      {
+        "label": "candidate03/private-desktop/02-en-admin-inventory",
+        "scope": "private",
+        "device": "desktop",
+        "targetStates": 1,
+        "identicalJobListToC2": true,
+        "attempted": 0,
+        "pending": 1,
+        "manifestSha256": "b473f34e88f2e2f0010376b8257e632dca7748cece23edc8e9cd74e2ee1c8782",
+        "inventorySha256": "5af3650e9422ab658b58a4124bc34e68fcb242354e3f6d411e3f0388bd5b25ae",
+        "summarySha256": "e21c51151365e0aa3046ad9562f893650885961bcab98772afe888e076f3d292",
+        "runnerReceiptFile": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/02-en-admin/invocation-inventory-7a2947e94c03/completion.safe.json",
+        "runnerReceiptSha256": "2ce637dbc092730ae7aac54930837a77e944d165a05d3c7df5e5ac40413a4f9b",
+        "actualRunnerExitCode": 0,
+        "actualRunnerWaitConsumed": true,
+        "actualWrapperExitCode": 0,
+        "actualWrapperWaitConsumed": true,
+        "terminal": {
+          "event": "finite-audit-step",
+          "status": "specified-batch-completed",
+          "receipt": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/02-en-admin/invocation-inventory-7a2947e94c03/completion.safe.json",
+          "exitCode": 0,
+          "actualWaitConsumed": true,
+          "summary": {
+            "expected": 1,
+            "attempted": 0,
+            "completed": 0,
+            "expectedHttpResponses": 0,
+            "errors": 0,
+            "timeouts": 0,
+            "pending": 1,
+            "coverageComplete": false
+          }
+        }
+      },
+      {
+        "label": "candidate03/private-desktop/03-tr-admin-inventory",
+        "scope": "private",
+        "device": "desktop",
+        "targetStates": 1,
+        "identicalJobListToC2": true,
+        "attempted": 0,
+        "pending": 1,
+        "manifestSha256": "18a3730764bf957545e305e321cd764fbc14d8207df4f6bcde56ae50654e1355",
+        "inventorySha256": "78e56c789696e817a8a677b2fc080f058850b31548bf1f1c8534a8d7d974a9ff",
+        "summarySha256": "725f95bdb5ca0f65fdadb8f9b5f5df7a44f4898db9dc81318430248a84169fb6",
+        "runnerReceiptFile": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/03-tr-admin/invocation-inventory-2a3c5c54ac0d/completion.safe.json",
+        "runnerReceiptSha256": "d79287976de7b90823fc44149b0332edc71ade794cf9736e94906945dcd3940f",
+        "actualRunnerExitCode": 0,
+        "actualRunnerWaitConsumed": true,
+        "actualWrapperExitCode": 0,
+        "actualWrapperWaitConsumed": true,
+        "terminal": {
+          "event": "finite-audit-step",
+          "status": "specified-batch-completed",
+          "receipt": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/03-tr-admin/invocation-inventory-2a3c5c54ac0d/completion.safe.json",
+          "exitCode": 0,
+          "actualWaitConsumed": true,
+          "summary": {
+            "expected": 1,
+            "attempted": 0,
+            "completed": 0,
+            "expectedHttpResponses": 0,
+            "errors": 0,
+            "timeouts": 0,
+            "pending": 1,
+            "coverageComplete": false
+          }
+        }
+      },
+      {
+        "label": "candidate03/private-desktop/04-ar-admin-inventory",
+        "scope": "private",
+        "device": "desktop",
+        "targetStates": 1,
+        "identicalJobListToC2": true,
+        "attempted": 0,
+        "pending": 1,
+        "manifestSha256": "f113d8531d1c0dd52b556ce0d264f7902cca37a51a19e874840f8f7c23871d98",
+        "inventorySha256": "dbf66a5bc4436aef216f7dc0d46490fea8ed248538dcc47e433b74d0580de633",
+        "summarySha256": "ca25208801ed6084e813914681e01749f4bc7bd8cf1ec8eff0e3f98425a16828",
+        "runnerReceiptFile": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/04-ar-admin/invocation-inventory-af36753b369e/completion.safe.json",
+        "runnerReceiptSha256": "383a8d96418168042f3f41a74e91ac7e3a418c5824b664a8d3b7830f1806f80a",
+        "actualRunnerExitCode": 0,
+        "actualRunnerWaitConsumed": true,
+        "actualWrapperExitCode": 0,
+        "actualWrapperWaitConsumed": true,
+        "terminal": {
+          "event": "finite-audit-step",
+          "status": "specified-batch-completed",
+          "receipt": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/04-ar-admin/invocation-inventory-af36753b369e/completion.safe.json",
+          "exitCode": 0,
+          "actualWaitConsumed": true,
+          "summary": {
+            "expected": 1,
+            "attempted": 0,
+            "completed": 0,
+            "expectedHttpResponses": 0,
+            "errors": 0,
+            "timeouts": 0,
+            "pending": 1,
+            "coverageComplete": false
+          }
+        }
+      },
+      {
+        "label": "candidate03/private-desktop/05-ru-admin-inventory",
+        "scope": "private",
+        "device": "desktop",
+        "targetStates": 1,
+        "identicalJobListToC2": true,
+        "attempted": 0,
+        "pending": 1,
+        "manifestSha256": "36ee12b76026b4d14c620408e04f3a9f3b22a2d4c3ebccdaef19a69ae1a3f7e2",
+        "inventorySha256": "a0ba54b133ac7778547ead8999970f7f6db1e7a239a6c1e225ff4d4f8e89b5b4",
+        "summarySha256": "9b6ae27bec47a0d611b8a19c1e1ca0a4e33913567aa983bcbdae0d8c40f569a1",
+        "runnerReceiptFile": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/05-ru-admin/invocation-inventory-0894c9fbb4d2/completion.safe.json",
+        "runnerReceiptSha256": "c100bca7b7e12435c3ce67301e1fde27eb8119e7fa4292a5adadf56f0d47fa47",
+        "actualRunnerExitCode": 0,
+        "actualRunnerWaitConsumed": true,
+        "actualWrapperExitCode": 0,
+        "actualWrapperWaitConsumed": true,
+        "terminal": {
+          "event": "finite-audit-step",
+          "status": "specified-batch-completed",
+          "receipt": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/05-ru-admin/invocation-inventory-0894c9fbb4d2/completion.safe.json",
+          "exitCode": 0,
+          "actualWaitConsumed": true,
+          "summary": {
+            "expected": 1,
+            "attempted": 0,
+            "completed": 0,
+            "expectedHttpResponses": 0,
+            "errors": 0,
+            "timeouts": 0,
+            "pending": 1,
+            "coverageComplete": false
+          }
+        }
+      },
+      {
+        "label": "candidate03/private-desktop/06-fa-account-inventory",
+        "scope": "private",
+        "device": "desktop",
+        "targetStates": 1,
+        "identicalJobListToC2": true,
+        "attempted": 0,
+        "pending": 1,
+        "manifestSha256": "021407d1afa9f10bbab24c4aa280bf3d1ee56a9aca2d393ad2a8d0c7e4456b3a",
+        "inventorySha256": "6a154c67e0502bfc04e9457bf76ddfe5e9aac5190d2d697fe0b59bd35cad914b",
+        "summarySha256": "ae317691635a2913ccb1c5e5b988ef87af79e31f4fa197dedd0778afdecf111d",
+        "runnerReceiptFile": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/06-fa-account/invocation-inventory-5d5a46c98bc6/completion.safe.json",
+        "runnerReceiptSha256": "085f97c3dd1f799e83298f38980a8945da91a70cb66fadc7ee7bb8853998e39c",
+        "actualRunnerExitCode": 0,
+        "actualRunnerWaitConsumed": true,
+        "actualWrapperExitCode": 0,
+        "actualWrapperWaitConsumed": true,
+        "terminal": {
+          "event": "finite-audit-step",
+          "status": "specified-batch-completed",
+          "receipt": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/06-fa-account/invocation-inventory-5d5a46c98bc6/completion.safe.json",
+          "exitCode": 0,
+          "actualWaitConsumed": true,
+          "summary": {
+            "expected": 1,
+            "attempted": 0,
+            "completed": 0,
+            "expectedHttpResponses": 0,
+            "errors": 0,
+            "timeouts": 0,
+            "pending": 1,
+            "coverageComplete": false
+          }
+        }
+      },
+      {
+        "label": "candidate03/private-desktop/07-fa-account-profile-inventory",
+        "scope": "private",
+        "device": "desktop",
+        "targetStates": 1,
+        "identicalJobListToC2": true,
+        "attempted": 0,
+        "pending": 1,
+        "manifestSha256": "641b5847ed1b46626f06f6f5c9d06db33eba8a96eca90db02aebe1727f3a5fec",
+        "inventorySha256": "28bad2feed201fe2efda99bbc1fe7c9a96f1f348aea66b40e3e074317ec6f27a",
+        "summarySha256": "ea002b0250d1b0cce658b4a289ec7b74c9106e6efe854fa2af169b3c3ebd53d2",
+        "runnerReceiptFile": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/07-fa-account-profile/invocation-inventory-adac73fe15f3/completion.safe.json",
+        "runnerReceiptSha256": "4a4860210173a10e5028923eedbfe029b3b2cf5ab7b3cf9ca0e790acd90d0197",
+        "actualRunnerExitCode": 0,
+        "actualRunnerWaitConsumed": true,
+        "actualWrapperExitCode": 0,
+        "actualWrapperWaitConsumed": true,
+        "terminal": {
+          "event": "finite-audit-step",
+          "status": "specified-batch-completed",
+          "receipt": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/07-fa-account-profile/invocation-inventory-adac73fe15f3/completion.safe.json",
+          "exitCode": 0,
+          "actualWaitConsumed": true,
+          "summary": {
+            "expected": 1,
+            "attempted": 0,
+            "completed": 0,
+            "expectedHttpResponses": 0,
+            "errors": 0,
+            "timeouts": 0,
+            "pending": 1,
+            "coverageComplete": false
+          }
+        }
+      },
+      {
+        "label": "candidate03/private-desktop/08-fa-account-requests-inventory",
+        "scope": "private",
+        "device": "desktop",
+        "targetStates": 1,
+        "identicalJobListToC2": true,
+        "attempted": 0,
+        "pending": 1,
+        "manifestSha256": "4ec8cec179b023566e1584d424a40f53a51eb8ea05169ad256f821b7c67a9341",
+        "inventorySha256": "c6c2f42ce9dd0e9b9cd0baf700430d8c19c3b043df52d00e1099dddea4f1c199",
+        "summarySha256": "bf890f7c1878a41ddc4a28128d70080ebe6ec1e5c219e51a71dd0bc786356afa",
+        "runnerReceiptFile": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/08-fa-account-requests/invocation-inventory-d0cb59528059/completion.safe.json",
+        "runnerReceiptSha256": "c4167e485de3322aece6e08676166b8e97fe13541f4c6604cbf7b269a9340836",
+        "actualRunnerExitCode": 0,
+        "actualRunnerWaitConsumed": true,
+        "actualWrapperExitCode": 0,
+        "actualWrapperWaitConsumed": true,
+        "terminal": {
+          "event": "finite-audit-step",
+          "status": "specified-batch-completed",
+          "receipt": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/08-fa-account-requests/invocation-inventory-d0cb59528059/completion.safe.json",
+          "exitCode": 0,
+          "actualWaitConsumed": true,
+          "summary": {
+            "expected": 1,
+            "attempted": 0,
+            "completed": 0,
+            "expectedHttpResponses": 0,
+            "errors": 0,
+            "timeouts": 0,
+            "pending": 1,
+            "coverageComplete": false
+          }
+        }
+      },
+      {
+        "label": "candidate03/private-desktop/09-fa-account-security-inventory",
+        "scope": "private",
+        "device": "desktop",
+        "targetStates": 1,
+        "identicalJobListToC2": true,
+        "attempted": 0,
+        "pending": 1,
+        "manifestSha256": "30f53ded709918be69aa20b0b30a7378746071f658d05ba949796ec3bf98dd65",
+        "inventorySha256": "3cdb8d25e4fa34034e6ea5a099edd19bd065d3a3308179f8099a453f25d9da07",
+        "summarySha256": "2b4894cb4971a61fa09a9b55ed2aa0d29f8ade42455586de923684096b07667a",
+        "runnerReceiptFile": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/09-fa-account-security/invocation-inventory-947ecb0584c0/completion.safe.json",
+        "runnerReceiptSha256": "77055a53767b3710391c03df9f30129a261aa0df42033474f8bff12b56a5cc90",
+        "actualRunnerExitCode": 0,
+        "actualRunnerWaitConsumed": true,
+        "actualWrapperExitCode": 0,
+        "actualWrapperWaitConsumed": true,
+        "terminal": {
+          "event": "finite-audit-step",
+          "status": "specified-batch-completed",
+          "receipt": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/09-fa-account-security/invocation-inventory-947ecb0584c0/completion.safe.json",
+          "exitCode": 0,
+          "actualWaitConsumed": true,
+          "summary": {
+            "expected": 1,
+            "attempted": 0,
+            "completed": 0,
+            "expectedHttpResponses": 0,
+            "errors": 0,
+            "timeouts": 0,
+            "pending": 1,
+            "coverageComplete": false
+          }
+        }
+      },
+      {
+        "label": "candidate03/private-desktop/10-fa-account-quick-matrix-inventory",
+        "scope": "private",
+        "device": "desktop",
+        "targetStates": 1,
+        "identicalJobListToC2": true,
+        "attempted": 0,
+        "pending": 1,
+        "manifestSha256": "7984a354dc1e3756127314cb7bd12f01a229e80a905ee7cd637c6e5ea50eb548",
+        "inventorySha256": "f31463b87b303ce70298e92c0cfaf654b0c2e54dfa4c37639f00a7bed30e7f45",
+        "summarySha256": "c61438876096d5abe4179b17aba283fbb52f4732634fe95528c753cfdebb5dc4",
+        "runnerReceiptFile": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/10-fa-account-quick-matrix/invocation-inventory-bcbc4d661a99/completion.safe.json",
+        "runnerReceiptSha256": "0327ccc13716ee0c58146c2b7a17354a52a5899051ee0da9c0d5fdb2963b4a1e",
+        "actualRunnerExitCode": 0,
+        "actualRunnerWaitConsumed": true,
+        "actualWrapperExitCode": 0,
+        "actualWrapperWaitConsumed": true,
+        "terminal": {
+          "event": "finite-audit-step",
+          "status": "specified-batch-completed",
+          "receipt": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/10-fa-account-quick-matrix/invocation-inventory-bcbc4d661a99/completion.safe.json",
+          "exitCode": 0,
+          "actualWaitConsumed": true,
+          "summary": {
+            "expected": 1,
+            "attempted": 0,
+            "completed": 0,
+            "expectedHttpResponses": 0,
+            "errors": 0,
+            "timeouts": 0,
+            "pending": 1,
+            "coverageComplete": false
+          }
+        }
+      },
+      {
+        "label": "candidate03/private-desktop/11-fa-admin-pages-inventory",
+        "scope": "private",
+        "device": "desktop",
+        "targetStates": 1,
+        "identicalJobListToC2": true,
+        "attempted": 0,
+        "pending": 1,
+        "manifestSha256": "07aef82f7b99a748d1de22033dfd805d01e6b9084ddf4a3a78836d3b18899412",
+        "inventorySha256": "c7b8146292c7f536b4b396c58ded3dc96669ea8588cdbf8448970ebb5490600d",
+        "summarySha256": "667746af2eed473834786aa6e461e79fe619c4fe32b941c185cab1b3e5e2209c",
+        "runnerReceiptFile": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/11-fa-admin-pages/invocation-inventory-a6aebd4eaf45/completion.safe.json",
+        "runnerReceiptSha256": "f2e238d10c787b4959670c2be0e8f9cf04e6f5e7225531a4b3196df90f2200b5",
+        "actualRunnerExitCode": 0,
+        "actualRunnerWaitConsumed": true,
+        "actualWrapperExitCode": 0,
+        "actualWrapperWaitConsumed": true,
+        "terminal": {
+          "event": "finite-audit-step",
+          "status": "specified-batch-completed",
+          "receipt": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/11-fa-admin-pages/invocation-inventory-a6aebd4eaf45/completion.safe.json",
+          "exitCode": 0,
+          "actualWaitConsumed": true,
+          "summary": {
+            "expected": 1,
+            "attempted": 0,
+            "completed": 0,
+            "expectedHttpResponses": 0,
+            "errors": 0,
+            "timeouts": 0,
+            "pending": 1,
+            "coverageComplete": false
+          }
+        }
+      },
+      {
+        "label": "candidate03/private-desktop/12-fa-admin-products-inventory",
+        "scope": "private",
+        "device": "desktop",
+        "targetStates": 1,
+        "identicalJobListToC2": true,
+        "attempted": 0,
+        "pending": 1,
+        "manifestSha256": "b71c5c8de082fdb2fbe955532b598afadec398dc973d2d1488011224aa00ed8e",
+        "inventorySha256": "c0731beb4c38144db9ca4cc392c8026255f7fffe74748cddfd055bb8094b9a35",
+        "summarySha256": "16b0f085986d80f7b6e5591ff728cf7e090b89a7e085fc4a5194372342c4c92c",
+        "runnerReceiptFile": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/12-fa-admin-products/invocation-inventory-6143eaf79c07/completion.safe.json",
+        "runnerReceiptSha256": "1816f44bb250cc5abf3b956aecf5aeac010b8f3bd80ec1f4dda94ece0bb6ad35",
+        "actualRunnerExitCode": 0,
+        "actualRunnerWaitConsumed": true,
+        "actualWrapperExitCode": 0,
+        "actualWrapperWaitConsumed": true,
+        "terminal": {
+          "event": "finite-audit-step",
+          "status": "specified-batch-completed",
+          "receipt": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/12-fa-admin-products/invocation-inventory-6143eaf79c07/completion.safe.json",
+          "exitCode": 0,
+          "actualWaitConsumed": true,
+          "summary": {
+            "expected": 1,
+            "attempted": 0,
+            "completed": 0,
+            "expectedHttpResponses": 0,
+            "errors": 0,
+            "timeouts": 0,
+            "pending": 1,
+            "coverageComplete": false
+          }
+        }
+      },
+      {
+        "label": "candidate03/private-desktop/13-fa-admin-forms-inventory",
+        "scope": "private",
+        "device": "desktop",
+        "targetStates": 1,
+        "identicalJobListToC2": true,
+        "attempted": 0,
+        "pending": 1,
+        "manifestSha256": "0bb7f5993fdafacb62503fc32b261b19c22e6f81e77fb16cc9fe4985d6e0aa60",
+        "inventorySha256": "100e5860b3a60a9330ee062b559f3ac0577abe7226af9631ba52799247d78e9a",
+        "summarySha256": "46b639393e31ff4d156cc81127be4047209d936b69cfd37172eb22e6559fc684",
+        "runnerReceiptFile": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/13-fa-admin-forms/invocation-inventory-0e17e77dd33f/completion.safe.json",
+        "runnerReceiptSha256": "91d2b25391c36a86a07195798fdfec0a56de6437ca10e6d0d96189f257756975",
+        "actualRunnerExitCode": 0,
+        "actualRunnerWaitConsumed": true,
+        "actualWrapperExitCode": 0,
+        "actualWrapperWaitConsumed": true,
+        "terminal": {
+          "event": "finite-audit-step",
+          "status": "specified-batch-completed",
+          "receipt": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/13-fa-admin-forms/invocation-inventory-0e17e77dd33f/completion.safe.json",
+          "exitCode": 0,
+          "actualWaitConsumed": true,
+          "summary": {
+            "expected": 1,
+            "attempted": 0,
+            "completed": 0,
+            "expectedHttpResponses": 0,
+            "errors": 0,
+            "timeouts": 0,
+            "pending": 1,
+            "coverageComplete": false
+          }
+        }
+      },
+      {
+        "label": "candidate03/private-desktop/14-fa-admin-media-inventory",
+        "scope": "private",
+        "device": "desktop",
+        "targetStates": 1,
+        "identicalJobListToC2": true,
+        "attempted": 0,
+        "pending": 1,
+        "manifestSha256": "7a33726d3783ecd4a57543eb4cb513a47225d97d205f1835538f6f416dadba9b",
+        "inventorySha256": "64d45ecc31b41ab363490af53fe2210bb48fd169d1d040c90b186b28685cac60",
+        "summarySha256": "d6d2474f0308bcaca99a489385ce501888bddd4592dca2d0e218d994d42fd6f5",
+        "runnerReceiptFile": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/14-fa-admin-media/invocation-inventory-222a2780097a/completion.safe.json",
+        "runnerReceiptSha256": "5c7a0592b3ec8950459d14a4f14b0e36351aceb7261502f51ddc3d8e286c8362",
+        "actualRunnerExitCode": 0,
+        "actualRunnerWaitConsumed": true,
+        "actualWrapperExitCode": 0,
+        "actualWrapperWaitConsumed": true,
+        "terminal": {
+          "event": "finite-audit-step",
+          "status": "specified-batch-completed",
+          "receipt": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/14-fa-admin-media/invocation-inventory-222a2780097a/completion.safe.json",
+          "exitCode": 0,
+          "actualWaitConsumed": true,
+          "summary": {
+            "expected": 1,
+            "attempted": 0,
+            "completed": 0,
+            "expectedHttpResponses": 0,
+            "errors": 0,
+            "timeouts": 0,
+            "pending": 1,
+            "coverageComplete": false
+          }
+        }
+      },
+      {
+        "label": "candidate03/private-desktop/15-fa-admin-users-inventory",
+        "scope": "private",
+        "device": "desktop",
+        "targetStates": 1,
+        "identicalJobListToC2": true,
+        "attempted": 0,
+        "pending": 1,
+        "manifestSha256": "a798cb2a1a7179d68e9cc8d10d6fa7c58dff31a1b8b286726eb6f3d647984b80",
+        "inventorySha256": "665b12244e2bf7b5d4cb241d4a6fe2272592d3dcdd8574f4ecec78ee671bc358",
+        "summarySha256": "0bd03008431336cdc9847e8c443c774ae14d7dbcdc8a9eeabe0a66dc12256f24",
+        "runnerReceiptFile": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/15-fa-admin-users/invocation-inventory-f7d17295e562/completion.safe.json",
+        "runnerReceiptSha256": "87aa5a3b493a29cdc6fa31b38fdd536f64b45cc944867302a01d4c2dcc5977bc",
+        "actualRunnerExitCode": 0,
+        "actualRunnerWaitConsumed": true,
+        "actualWrapperExitCode": 0,
+        "actualWrapperWaitConsumed": true,
+        "terminal": {
+          "event": "finite-audit-step",
+          "status": "specified-batch-completed",
+          "receipt": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/15-fa-admin-users/invocation-inventory-f7d17295e562/completion.safe.json",
+          "exitCode": 0,
+          "actualWaitConsumed": true,
+          "summary": {
+            "expected": 1,
+            "attempted": 0,
+            "completed": 0,
+            "expectedHttpResponses": 0,
+            "errors": 0,
+            "timeouts": 0,
+            "pending": 1,
+            "coverageComplete": false
+          }
+        }
+      },
+      {
+        "label": "candidate03/private-desktop/16-fa-admin-roles-inventory",
+        "scope": "private",
+        "device": "desktop",
+        "targetStates": 1,
+        "identicalJobListToC2": true,
+        "attempted": 0,
+        "pending": 1,
+        "manifestSha256": "6cdf46c6f5d4c9af1ebab0540e8977015294cd68d977b96ea7a5a4b450be0822",
+        "inventorySha256": "425e19d182574eb38ceffc735953e99cb45692bb5a5cbd4aab772675ad6e7e66",
+        "summarySha256": "113c48011ef1e0dd9a1c2b9fba8d94d5f0f0069f8d6aabfe04730f591757dd6a",
+        "runnerReceiptFile": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/16-fa-admin-roles/invocation-inventory-1ce63c76f8bb/completion.safe.json",
+        "runnerReceiptSha256": "70617952f6e3631931f983318c324c2ce37100c1d01be0e633c9f9e4c9b39245",
+        "actualRunnerExitCode": 0,
+        "actualRunnerWaitConsumed": true,
+        "actualWrapperExitCode": 0,
+        "actualWrapperWaitConsumed": true,
+        "terminal": {
+          "event": "finite-audit-step",
+          "status": "specified-batch-completed",
+          "receipt": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/16-fa-admin-roles/invocation-inventory-1ce63c76f8bb/completion.safe.json",
+          "exitCode": 0,
+          "actualWaitConsumed": true,
+          "summary": {
+            "expected": 1,
+            "attempted": 0,
+            "completed": 0,
+            "expectedHttpResponses": 0,
+            "errors": 0,
+            "timeouts": 0,
+            "pending": 1,
+            "coverageComplete": false
+          }
+        }
+      },
+      {
+        "label": "candidate03/private-desktop/17-fa-admin-ai-inventory",
+        "scope": "private",
+        "device": "desktop",
+        "targetStates": 1,
+        "identicalJobListToC2": true,
+        "attempted": 0,
+        "pending": 1,
+        "manifestSha256": "bf5847baf6fcf43b14f639c7b4e5af43e2caacdfffd3d6e1c7d33941f3279e90",
+        "inventorySha256": "544ffbf9b91f724fdcc50860a65a6ddd55b11593dde1585d86e89f0dd525c66b",
+        "summarySha256": "62bddde8033e477024e7d02fe502af479aa816f105bcda9a9e0f1cfb3b033bff",
+        "runnerReceiptFile": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/17-fa-admin-ai/invocation-inventory-8dfd1cb3047c/completion.safe.json",
+        "runnerReceiptSha256": "fb92c3dbb77abfa524d892170b0a1e93ccd66632136dfea679c54f8187cdf2fe",
+        "actualRunnerExitCode": 0,
+        "actualRunnerWaitConsumed": true,
+        "actualWrapperExitCode": 0,
+        "actualWrapperWaitConsumed": true,
+        "terminal": {
+          "event": "finite-audit-step",
+          "status": "specified-batch-completed",
+          "receipt": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/17-fa-admin-ai/invocation-inventory-8dfd1cb3047c/completion.safe.json",
+          "exitCode": 0,
+          "actualWaitConsumed": true,
+          "summary": {
+            "expected": 1,
+            "attempted": 0,
+            "completed": 0,
+            "expectedHttpResponses": 0,
+            "errors": 0,
+            "timeouts": 0,
+            "pending": 1,
+            "coverageComplete": false
+          }
+        }
+      },
+      {
+        "label": "candidate03/private-desktop/18-fa-admin-translations-inventory",
+        "scope": "private",
+        "device": "desktop",
+        "targetStates": 1,
+        "identicalJobListToC2": true,
+        "attempted": 0,
+        "pending": 1,
+        "manifestSha256": "3d3313629927ef7718be6ed56bc84f33de6761d6407f4f51eefc589015230a83",
+        "inventorySha256": "2788ecd81a60bd9dbe81cc7c3a185d61a0e169a3ff755232febc44a248642429",
+        "summarySha256": "9e361f0a5de7e6f01e7563e6ce515859968c485da86ddc2f7c39275f41c6bd92",
+        "runnerReceiptFile": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/18-fa-admin-translations/invocation-inventory-c1f748f379f1/completion.safe.json",
+        "runnerReceiptSha256": "f45cc69092c1231f2710ab8e96b118ceb761854123c3b2fc553d8dce691be7e1",
+        "actualRunnerExitCode": 0,
+        "actualRunnerWaitConsumed": true,
+        "actualWrapperExitCode": 0,
+        "actualWrapperWaitConsumed": true,
+        "terminal": {
+          "event": "finite-audit-step",
+          "status": "specified-batch-completed",
+          "receipt": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/18-fa-admin-translations/invocation-inventory-c1f748f379f1/completion.safe.json",
+          "exitCode": 0,
+          "actualWaitConsumed": true,
+          "summary": {
+            "expected": 1,
+            "attempted": 0,
+            "completed": 0,
+            "expectedHttpResponses": 0,
+            "errors": 0,
+            "timeouts": 0,
+            "pending": 1,
+            "coverageComplete": false
+          }
+        }
+      },
+      {
+        "label": "candidate03/private-desktop/19-fa-admin-settings-inventory",
+        "scope": "private",
+        "device": "desktop",
+        "targetStates": 1,
+        "identicalJobListToC2": true,
+        "attempted": 0,
+        "pending": 1,
+        "manifestSha256": "f71f2ec21a75fc128ba2430a5498e3b2f42bdbf74383f2d4ae3769884c1de174",
+        "inventorySha256": "c88ff6a5e9d0db01c8a03d9677692a57d24048fba8103f7bf643ea5394c552c0",
+        "summarySha256": "c4c452bf1fb2858268577685734e13ae5de0af944f6c13557544bbee22a7e335",
+        "runnerReceiptFile": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/19-fa-admin-settings/invocation-inventory-6118d678671b/completion.safe.json",
+        "runnerReceiptSha256": "79516ebc92667144f27f715b68b10cbd26e1d2157bffd55ec75ac8425830d788",
+        "actualRunnerExitCode": 0,
+        "actualRunnerWaitConsumed": true,
+        "actualWrapperExitCode": 0,
+        "actualWrapperWaitConsumed": true,
+        "terminal": {
+          "event": "finite-audit-step",
+          "status": "specified-batch-completed",
+          "receipt": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/19-fa-admin-settings/invocation-inventory-6118d678671b/completion.safe.json",
+          "exitCode": 0,
+          "actualWaitConsumed": true,
+          "summary": {
+            "expected": 1,
+            "attempted": 0,
+            "completed": 0,
+            "expectedHttpResponses": 0,
+            "errors": 0,
+            "timeouts": 0,
+            "pending": 1,
+            "coverageComplete": false
+          }
+        }
+      },
+      {
+        "label": "candidate03/private-desktop/20-fa-admin-crm-inventory",
+        "scope": "private",
+        "device": "desktop",
+        "targetStates": 1,
+        "identicalJobListToC2": true,
+        "attempted": 0,
+        "pending": 1,
+        "manifestSha256": "4e078b102c02c622e6086cf8d1b1648650666ec2ed65211712454f44f44b0b8d",
+        "inventorySha256": "6fe731e1b34597b21394e03ca3be2da7a7eb8400010142715e2be7cccf8deb59",
+        "summarySha256": "9d5430bd0c722c5fb2b5fc13de419f709193e302a4f319566510e0f445e280aa",
+        "runnerReceiptFile": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/20-fa-admin-crm/invocation-inventory-cd8260809cb1/completion.safe.json",
+        "runnerReceiptSha256": "e56d191ba883430aba9b8c294eb2c5492b50572bb35d3dbae154e62f12a2f619",
+        "actualRunnerExitCode": 0,
+        "actualRunnerWaitConsumed": true,
+        "actualWrapperExitCode": 0,
+        "actualWrapperWaitConsumed": true,
+        "terminal": {
+          "event": "finite-audit-step",
+          "status": "specified-batch-completed",
+          "receipt": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/20-fa-admin-crm/invocation-inventory-cd8260809cb1/completion.safe.json",
+          "exitCode": 0,
+          "actualWaitConsumed": true,
+          "summary": {
+            "expected": 1,
+            "attempted": 0,
+            "completed": 0,
+            "expectedHttpResponses": 0,
+            "errors": 0,
+            "timeouts": 0,
+            "pending": 1,
+            "coverageComplete": false
+          }
+        }
+      },
+      {
+        "label": "candidate03/private-desktop/21-fa-admin-crm-quotes-inventory",
+        "scope": "private",
+        "device": "desktop",
+        "targetStates": 1,
+        "identicalJobListToC2": true,
+        "attempted": 0,
+        "pending": 1,
+        "manifestSha256": "881b05d877f30b7037f177d6b7d9ff52e05f750196a7ac9335ba3b4f4094846d",
+        "inventorySha256": "ac492d6e776ff638c3bcd2353575aa5eeac6e40f41d1f5bf5478df24d9771c62",
+        "summarySha256": "76476a87ea6d4c2904de30445a79c4f22c15aebc4c341d1c5995f6e088a8457e",
+        "runnerReceiptFile": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/21-fa-admin-crm-quotes/invocation-inventory-75961233307d/completion.safe.json",
+        "runnerReceiptSha256": "4727713b059d94cf316d627f80014d091b788aa250912fd1fbe87d80f7a58323",
+        "actualRunnerExitCode": 0,
+        "actualRunnerWaitConsumed": true,
+        "actualWrapperExitCode": 0,
+        "actualWrapperWaitConsumed": true,
+        "terminal": {
+          "event": "finite-audit-step",
+          "status": "specified-batch-completed",
+          "receipt": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/21-fa-admin-crm-quotes/invocation-inventory-75961233307d/completion.safe.json",
+          "exitCode": 0,
+          "actualWaitConsumed": true,
+          "summary": {
+            "expected": 1,
+            "attempted": 0,
+            "completed": 0,
+            "expectedHttpResponses": 0,
+            "errors": 0,
+            "timeouts": 0,
+            "pending": 1,
+            "coverageComplete": false
+          }
+        }
+      },
+      {
+        "label": "candidate03/private-desktop/22-fa-admin-monitoring-recovery-inventory",
+        "scope": "private",
+        "device": "desktop",
+        "targetStates": 1,
+        "identicalJobListToC2": true,
+        "attempted": 0,
+        "pending": 1,
+        "manifestSha256": "9881827b3c49817f116709bd836b76430f2c6305c3e172a4a91f43bbe66add76",
+        "inventorySha256": "a479057a2372cc9e46f8426b747c201e61b6b0bbc29a3f561aab83258a994658",
+        "summarySha256": "21b03ef887397be1a2399c8fe7a813eb5e3d1a7a13b468650aa3f03217f95a25",
+        "runnerReceiptFile": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/22-fa-admin-monitoring-recovery/invocation-inventory-94b83675423b/completion.safe.json",
+        "runnerReceiptSha256": "f295eb052a742de60614460806e1e19f17e3b4a9d6bac63e1fd5221d1554b6c3",
+        "actualRunnerExitCode": 0,
+        "actualRunnerWaitConsumed": true,
+        "actualWrapperExitCode": 0,
+        "actualWrapperWaitConsumed": true,
+        "terminal": {
+          "event": "finite-audit-step",
+          "status": "specified-batch-completed",
+          "receipt": "/tmp/idealmakoo-frontend-candidate02-20261025/evidence/candidate03/private-desktop/22-fa-admin-monitoring-recovery/invocation-inventory-94b83675423b/completion.safe.json",
+          "exitCode": 0,
+          "actualWaitConsumed": true,
+          "summary": {
+            "expected": 1,
+            "attempted": 0,
+            "completed": 0,
+            "expectedHttpResponses": 0,
+            "errors": 0,
+            "timeouts": 0,
+            "pending": 1,
+            "coverageComplete": false
+          }
+        }
+      }
+    ],
+    "groupingSource": "Each public URL joins the full shipped mobile inventory kind/indexed/expectedStatus; custom desktop indexed=false flags describe URL selection and are not interpreted as a robots directive."
+  },
+  "freshPlanSha256": "6e18d6dcbec6fe75928d596e7f195b0ee26e9ed1630f51c6cb88c097f8cd1e7e",
+  "finalScoringHeld": true,
+  "desktopStatesOutsideScope": 1077,
+  "separateDiagnostic": {
+    "attempts": 1,
+    "scoredLhrs": 1,
+    "errors": 0,
+    "timeouts": 0,
+    "includedInFinalAudit": false
+  },
+  "historicalC2Prefix": {
+    "targetStates": 200,
+    "scoredLhrs": 198,
+    "expected404": 2,
+    "errors": 0,
+    "timeouts": 0,
+    "includedInCandidate03FinalCoverage": false
+  },
+  "ownedRunningServices": {
+    "appOuterSessionId": 26473,
+    "workerOuterSessionId": 40360,
+    "caddyOuterSessionId": 11867,
+    "postgresOwner": "/root/source_compare",
+    "postgresOuterSessionId": 92828
+  },
+  "noFullE2eOrBackendRerunClaimedForC3": true,
+  "closedAt": "2026-10-25T10:11:12.160756+00:00"
+}

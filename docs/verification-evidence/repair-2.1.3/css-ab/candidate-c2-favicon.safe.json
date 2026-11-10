@@ -1,0 +1,87 @@
+{
+  "kind": "unchanged-artwork-favicon-compilation",
+  "finishedAt": "2026-10-25T07:15:43.964Z",
+  "original": {
+    "path": "public/media/brand/logo-transparent.png",
+    "sha256": "e1c3bdfd2d7718eaae55965f62a5cc22cf69feec550cfde8a089f0874dce35c9",
+    "bytes": 109018,
+    "geometry": {
+      "width": 256,
+      "height": 235,
+      "channels": 4,
+      "transparentPixels": 25942,
+      "opaquePixels": 610,
+      "alphaBounds": {
+        "x": 3,
+        "y": 1,
+        "width": 240,
+        "height": 231
+      },
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "generated": {
+    "path": "public/icons/idealmakoo-favicon-48.png",
+    "sha256": "1c715c272d59df0eceef288dc2effe527a97a9b32d80382acd88ff1a4e9dbc02",
+    "bytes": 4791,
+    "geometry": {
+      "width": 48,
+      "height": 48,
+      "channels": 4,
+      "transparentPixels": 911,
+      "opaquePixels": 95,
+      "alphaBounds": {
+        "x": 1,
+        "y": 2,
+        "width": 46,
+        "height": 44
+      },
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "byteSavings": 104227,
+  "byteSavingsPercent": 95.60531288411089,
+  "compilation": {
+    "sharpVersion": "0.35.5",
+    "canvas": {
+      "width": 48,
+      "height": 48
+    },
+    "fit": "contain",
+    "position": "centre",
+    "backgroundAlpha": 0,
+    "kernel": "lanczos3",
+    "uniformScale": 0.1875,
+    "resizedArtworkBox": {
+      "width": 48,
+      "height": 44
+    },
+    "originalArtworkChanged": false
+  },
+  "links": [
+    {
+      "path": "src/app/[locale]/layout.tsx",
+      "beforeSha256": "a2f569b617e6152db0f0ddc5a62f1489f8bee5e5088947ed918c5a61ae4b44bc",
+      "afterSha256": "1b4d2ef2d10789f35d05023e0f96c3710a976a780bd3aee2e9773b89cc973707"
+    },
+    {
+      "path": "src/app/global-not-found.tsx",
+      "beforeSha256": "440d3fcd7e06487266d70bbda687e028a92a11298274e52fb7f0a2f0394db506",
+      "afterSha256": "6af2882bbe4d545b1ffa197e654b39bb62fb1353c122ecc983e021213a131b37"
+    }
+  ],
+  "lcpTbtImprovementClaimed": false,
+  "existingAssetExactlyReproduced": true,
+  "readbackOnlyAfterPriorReceiptFailure": true,
+  "priorFailedAttempt": "favicon-compile-01/failure.safe.json"
+}

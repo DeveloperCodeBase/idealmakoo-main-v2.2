@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "kind": "supported-update-failure-public-safe-evidence",
+  "recordedAt": "2026-10-24T15:39:13.881705+00:00",
+  "status": "original-update-failed-independent-state-and-retained-health-captured",
+  "files": {
+    "failure-log-classification.safe.json": {
+      "bytes": 5186,
+      "sha256": "d316e305d27f2d8032c47eff8593805c58c0e538f191cbdbf755c8756ada8bfb"
+    },
+    "retained-image-state-projection.safe.json": {
+      "bytes": 4161,
+      "sha256": "1a0f01aa03eaffc390fece16822f75816cdab7513ffc0b21cb685fbf918076d0"
+    },
+    "final-state.safe.json": {
+      "bytes": 10186,
+      "sha256": "55ba1b7209ef01063cb354b57e934ae420b115617917d5c249c2597ee61d3692"
+    },
+    "final-state-execution.safe.json": {
+      "bytes": 544,
+      "sha256": "09bb2a3d5a3192332cb544be40936e410d1ee283870696d50e9c112fdd5baaa8"
+    },
+    "stopped-app-health.safe.json": {
+      "bytes": 3235,
+      "sha256": "fa1c5f423835940e53c54c64c62a1f79a9afff4ccaabaf0d7b50f847d64abb31"
+    },
+    "stopped-app-health-execution.safe.json": {
+      "bytes": 562,
+      "sha256": "1b9a0ddfdabf75fccadc705de7195475e02951c1348a89877df251f88b4f91ac"
+    }
+  },
+  "copiesAreExactAcceptedSafeReceipts": true,
+  "originalExitCode": 124,
+  "originalElapsedSeconds": 3065.003689,
+  "exactTimedOutChildOrEffectiveCapEstablished": false,
+  "currentPromotionOrRuntimeIdentityAccepted": false,
+  "independentFinalStateReadback": "completed-read-only-exit0",
+  "privateRawLogsOrSecretsIncluded": false,
+  "currentPromotionOrRuntimeIdentityAcceptedScope": "Current link and container images are separately observed; promotion/serving readiness and image source bytes/BUILD_ID remain unaccepted."
+}

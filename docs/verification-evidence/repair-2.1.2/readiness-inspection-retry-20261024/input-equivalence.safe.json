@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "kind": "package11-parent-input-map-equivalence",
+  "applicationInputMap": {
+    "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261024/native-build05/operations-06/inputs-before-tests.json",
+    "fileSha256": "435d7e6bddd8b7d3f66928705fac2e343d50e7a4d36465ab55c9b6973015c247",
+    "files": 989,
+    "sha256": "9c9562abb591401e6ee8911422bb06c5463f297bc414304fde8b813a8fb4f434"
+  },
+  "executionInputMap": {
+    "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261024/native-build05/operations-06/execution-inputs-after-apply.json",
+    "fileSha256": "1248423230183d39e4feaa9f5c4a56d5ae8bc100efa221e312573ec47e6eb191",
+    "files": 998,
+    "sha256": "226e5cfda51089ab191cc1c7a669f82ab78772490279b52cfcae423f3debf466"
+  },
+  "applicationDeltaFromActual09": [
+    "deploy/service-lifecycle.py",
+    "tests/deployment_service_lifecycle_test.py"
+  ],
+  "executionDeltaFromActual09": [
+    "deploy/service-lifecycle.py",
+    "tests/deployment_service_lifecycle_test.py"
+  ],
+  "compilerMap": {
+    "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261024/corrected-package-02/compiler-input-equivalence.safe.json",
+    "files": 727,
+    "sha256": "9e2914460b7db6ecd1156bf9e9de79ea38271b860f161f5be47b4c58ebf9e680",
+    "allCompilerBytesAndHashesMatchCurrentParentExecutionMap": true,
+    "overlappingApplicationHashesMatch": true,
+    "compilerPathsOutsideApplicationMapScope": [
+      ".dockerignore",
+      "next-env.d.ts",
+      "playwright.config.ts",
+      "vitest.config.ts"
+    ]
+  },
+  "newFileSystemInputSweepPerformed": false,
+  "futurePackagerRehashesActualSource": true
+}

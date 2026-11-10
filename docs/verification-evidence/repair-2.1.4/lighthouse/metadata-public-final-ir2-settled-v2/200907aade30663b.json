@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/quality/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "f0cee700c428331fe925762f47dd6323c9e9a54db4a60a5670f764d40ecf48ed",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "کیفیت، قابل بررسی. | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "مشخصات محصول، منابع پژوهشی و مستندات رسمی را کنار هم ببینید و پرسش‌های تخصصی خود را پیگیری کنید."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/quality/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/quality/",
+    "en": "http://127.0.0.1:3100/en/quality/",
+    "tr": "http://127.0.0.1:3100/tr/quality/",
+    "ar": "http://127.0.0.1:3100/ar/quality/",
+    "ru": "http://127.0.0.1:3100/ru/quality/",
+    "x-default": "http://127.0.0.1:3100/fa/quality/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 46
+}

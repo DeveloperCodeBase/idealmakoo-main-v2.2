@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/products/category/materials/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "7b96f483b56ace9f7f9ace1d2f09eef8536f4317299109eeec5233fb07040c7b",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "مواد طب الأسنان | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "استكشف مواد إيدآل ماكو السنية والمخبرية واستخداماتها الموثقة ومواصفات المصدر وطلبات معلومات المنتجات."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/products/category/materials/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/category/materials/",
+    "en": "http://127.0.0.1:3100/en/products/category/materials/",
+    "tr": "http://127.0.0.1:3100/tr/products/category/materials/",
+    "ar": "http://127.0.0.1:3100/ar/products/category/materials/",
+    "ru": "http://127.0.0.1:3100/ru/products/category/materials/",
+    "x-default": "http://127.0.0.1:3100/fa/products/category/materials/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 83
+}

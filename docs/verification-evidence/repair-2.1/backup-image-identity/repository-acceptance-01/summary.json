@@ -1,0 +1,22 @@
+{
+  "completedAt": "2026-10-21T15:07:22.984278+00:00",
+  "sourceSha256": "458f175a29b8bce25c5b45592c10952b57202b894e3aac65e244b7863c726be1",
+  "applicationSha256": "12da2b69abf2fa85cf0655bc0b4ec7df9244ea0b50a29cc8c3be1157851b6e1c",
+  "applicationBuildId": "-Q7Ffy3JmwVExwxk-Ymk-",
+  "applicationFilesBound": 678,
+  "fullOperationsPassed": 194,
+  "shellcheckFilesPassed": 14,
+  "realDockerAcceptanceIncluded": false,
+  "newReleaseRuntimeAcceptanceIncluded": false,
+  "inspectionScriptSha256": "51c56e0c42bc01f4916808d221f5625bdc20ad3b776fedcda3ff48e946ab2261",
+  "reports": {
+    "full": {
+      "file": "full-gate.json",
+      "sha256": "7b2d9a1cd7c9ec0d2a77957a10cb150b241877a6cb4e2fdf4d29b72b1d37e4ba"
+    },
+    "shellcheck": {
+      "file": "shellcheck-gate.json",
+      "sha256": "5685360384d26705e8945a05e8097e4ee42f75a2992a4463f765532d20a10485"
+    }
+  }
+}

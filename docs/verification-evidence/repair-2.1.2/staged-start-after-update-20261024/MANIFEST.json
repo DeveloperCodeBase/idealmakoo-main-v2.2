@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "kind": "distinct-staged-start-public-safe-evidence",
+  "recordedAt": "2026-10-24T16:04:28.675819+00:00",
+  "status": "staged-start-and-independent-poststate-passed-in-stated-scope",
+  "files": {
+    "acceptance.safe.json": {
+      "bytes": 4943,
+      "sha256": "00e4004fa7b1a8d1725f31ed15415249ae809d283ef7cdba880db7bb5955dc06"
+    },
+    "app-process-classes.safe.json": {
+      "bytes": 1611,
+      "sha256": "5fb5b509589f9db539674506fec9970fec7501c62c08f13965869d47bfa5e48e"
+    },
+    "final-state.safe.json": {
+      "bytes": 7770,
+      "sha256": "94914337eeb82fd7b44b9daddb77608cbd9c7e18bbe5f8d0fbfa5269309ae240"
+    },
+    "final-state-execution.safe.json": {
+      "bytes": 618,
+      "sha256": "1b4630d0408fa3c60778e0779ae786dd339d7b458c92c2434a6e5ce70d7be258"
+    }
+  },
+  "copiesAreExactAcceptedSafeBytes": true,
+  "stagedExitCode": 0,
+  "actualOwnedAndCollectorWaitsConsumed": true,
+  "originalSupportedUpdateExitCode": 124,
+  "originalUpdateRelabelled": false,
+  "managedSourceE995AndDiagnosticCaller3dbSeparate": true,
+  "currentPromoted": false,
+  "fullUpdateNewSourceBackupImageBuildOrNativeAcceptanceClaimed": false,
+  "rawPrivateLogsArgumentsCredentialsOrDatabaseValuesIncluded": false
+}

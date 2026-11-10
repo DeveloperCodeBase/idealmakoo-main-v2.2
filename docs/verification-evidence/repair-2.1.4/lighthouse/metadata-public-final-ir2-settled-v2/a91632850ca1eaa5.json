@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/goals/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "4781a895ec916d266f7615c1829fa4a1a6efb24f3979042151ad7373a1fc1af1",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Goals and vision | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Expanding product variety, serving diverse customer groups and developing international market presence."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/goals/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/goals/",
+    "en": "http://127.0.0.1:3100/en/goals/",
+    "tr": "http://127.0.0.1:3100/tr/goals/",
+    "ar": "http://127.0.0.1:3100/ar/goals/",
+    "ru": "http://127.0.0.1:3100/ru/goals/",
+    "x-default": "http://127.0.0.1:3100/fa/goals/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 67
+}

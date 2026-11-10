@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/resources/three-teeth-heat-cured-resin-cover/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "6ba92186b69f9d567f9438f18280d53e78aceb54a8da46657f3aa63bf54a9828",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "صورة مرجعية للبحث — ارتباط بريليان وسوبر بريليان وإيفوكلار بالراتنج الحراري | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "ارتباط بريليان وسوبر بريليان وإيفوكلار بالراتنج الحراري — وثائق المصنع المصوّرة الأصلية"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/resources/three-teeth-heat-cured-resin-cover/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/three-teeth-heat-cured-resin-cover/",
+    "en": "http://127.0.0.1:3100/en/resources/three-teeth-heat-cured-resin-cover/",
+    "tr": "http://127.0.0.1:3100/tr/resources/three-teeth-heat-cured-resin-cover/",
+    "ar": "http://127.0.0.1:3100/ar/resources/three-teeth-heat-cured-resin-cover/",
+    "ru": "http://127.0.0.1:3100/ru/resources/three-teeth-heat-cured-resin-cover/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/three-teeth-heat-cured-resin-cover/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 57
+}

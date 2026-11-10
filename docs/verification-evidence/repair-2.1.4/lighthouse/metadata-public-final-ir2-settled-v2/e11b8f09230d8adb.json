@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/development/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "b0ffccf61fd26afb7537c94435184719b15512870abc36db835675024282ea95",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Araştırma ve ürün geliştirme | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Pazar geri bildirimi ve araştırmalarla akrilik dişlerden kompozit ürünlere gelişim."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/development/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/development/",
+    "en": "http://127.0.0.1:3100/en/development/",
+    "tr": "http://127.0.0.1:3100/tr/development/",
+    "ar": "http://127.0.0.1:3100/ar/development/",
+    "ru": "http://127.0.0.1:3100/ru/development/",
+    "x-default": "http://127.0.0.1:3100/fa/development/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 46
+}

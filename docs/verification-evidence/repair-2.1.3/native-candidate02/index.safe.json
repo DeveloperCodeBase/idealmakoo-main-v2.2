@@ -1,0 +1,96 @@
+{
+  "kind": "frozen-public-safe-native-candidate02-bundle",
+  "frozenAt": "2026-10-25T07:57:38.506766+00:00",
+  "buildId": "JUTCtkNIJ8CT540y_qNL_",
+  "sourceInputSha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+  "sourceInputFiles": 994,
+  "scope": "Closed native validation and unscored inventory evidence before the original updater VM gate.",
+  "rawPrivateArtifactsIncluded": false,
+  "files": [
+    {
+      "path": "summary.safe.json",
+      "bytes": 1699,
+      "sha256": "94f4660b9ab8b9578e946eff5217d81a803094753940ad6ea31850e9725027a1"
+    },
+    {
+      "path": "final-source-inputs.safe.json",
+      "bytes": 111494,
+      "sha256": "0d0f691c53e730e2674afc256ce73651d956bd591182c7d87846ac462c584cc9"
+    },
+    {
+      "path": "gate-receipts.safe.json",
+      "bytes": 6265,
+      "sha256": "f37ca9c05e7644daafced0251b48249c40701c37b7209059764a471f6785a020"
+    },
+    {
+      "path": "unit.safe.json",
+      "bytes": 1292,
+      "sha256": "de924d3ad977d0c50829bdcddbcc37fc29fe5660a01577a33eac5305f3be937d"
+    },
+    {
+      "path": "browser-suite.safe.json",
+      "bytes": 1520,
+      "sha256": "4f3cfd0546a66de5a996d4907af3c0298f5b2a000b13deef5013179bfd7741eb"
+    },
+    {
+      "path": "gallery-final.safe.json",
+      "bytes": 6168,
+      "sha256": "ea857ca40bbcba0987104d33badf581362b60651b92e0990e24ad0a30f278e35"
+    },
+    {
+      "path": "gallery-history.safe.json",
+      "bytes": 10083,
+      "sha256": "b8c036a52d6e0dc4dfcaf83068a88d5221810b0a64a0db69aac7ab6a0be9bb9e"
+    },
+    {
+      "path": "gallery-attempt02-outer-limitation.safe.json",
+      "bytes": 554,
+      "sha256": "97178faf307309bb9f812ed30ccec2c91de3bd0223bf5bb57248d98daac41dcb"
+    },
+    {
+      "path": "gallery-final-outer.safe.json",
+      "bytes": 275,
+      "sha256": "5cd4de53654fa75a5d3596f9a6b7d0232f986835c082c70463424c1da2993297"
+    },
+    {
+      "path": "metadata.safe.json",
+      "bytes": 1735,
+      "sha256": "aafca00ae20929fbbb21f816eed9d2201aa00fa3d14b8e4e2e615cae02d254a0"
+    },
+    {
+      "path": "metadata-and-inventories.safe.json",
+      "bytes": 41353,
+      "sha256": "6b152005aa9125c3778c6cd4d34d658ddb4f9fa79d3e4ce399895d960f44fc62"
+    },
+    {
+      "path": "outer-tool-outcomes.safe.json",
+      "bytes": 1970,
+      "sha256": "7d3f9bee110b20c285315b7d4ba78f9e8a0268bf11ddd24dde71695dd2bb1bac"
+    },
+    {
+      "path": "native-health.safe.json",
+      "bytes": 1478,
+      "sha256": "dba80fcb89d6f48d44e93a6c1538b72b6001e3754a220def366bdadc0e191874"
+    },
+    {
+      "path": "postgres-lifecycle.safe.json",
+      "bytes": 929,
+      "sha256": "6fa58c0c0536f200d56f88f6614aa6713841fa98e574102e79db4680c940a4d5"
+    },
+    {
+      "path": "integrity-review.safe.json",
+      "bytes": 1337,
+      "sha256": "87d722f03f4d568b9f2554af0b39f1c72ddaed46fb686939c301e995e63de386"
+    },
+    {
+      "path": "native-services-outer-waits.safe.json",
+      "bytes": 1135,
+      "sha256": "4015ea2f64d553361353a84e35a6e5c4f98079c003cbcd804afe088e37f762f3"
+    },
+    {
+      "path": "frontend-handoff.safe.json",
+      "bytes": 1515,
+      "sha256": "f95c061048c9429f3bd849195c2d3af58b2b0afd7397db8bfb9b4604b27f0a20"
+    }
+  ]
+}

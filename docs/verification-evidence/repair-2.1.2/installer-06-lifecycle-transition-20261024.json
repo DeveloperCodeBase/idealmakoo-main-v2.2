@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "kind": "corrected-installer-existing-log-delta",
+  "observedAt": "2026-10-24T08:30:44.145691+00:00",
+  "previousBytes": 14845,
+  "logBytes": 15617,
+  "deltaBytes": 772,
+  "structuredLifecycleResults": [
+    {
+      "operation": "snapshot",
+      "code": "DEADLINE_EXCEEDED",
+      "exitCode": 124,
+      "cleanupAttempted": false,
+      "cleanupVerified": null,
+      "clientProcessTerminationVerified": true
+    }
+  ],
+  "safeProgressLines": [
+    "Created symlink /etc/systemd/system/timers.target.wants/idealmakoo-idealmakoo_212_primary-backup.timer \u2192 /etc/systemd/system/idealmakoo-idealmakoo_212_primary-backup.timer.",
+    "[sensitive log line omitted]",
+    "[idealmakoo] This project's app and worker are stopped. Resolve the error before starting writers; the database and persistent volumes were retained.",
+    "[idealmakoo] Read-only diagnosis: sudo bash /var/www/idealmakoo-212-primary/releases/20261024T080908Z-eaef1a71/scripts/doctor.sh"
+  ],
+  "outcomeExists": false,
+  "rawLogSnapshot": {
+    "bytes": 15617,
+    "sha256": "6347b22c3aaa58326dec190dc9963b2246e8e0fa13e678f9aaf73ecb6efe5c2e",
+    "included": false
+  },
+  "newDockerProbePerformed": false
+}

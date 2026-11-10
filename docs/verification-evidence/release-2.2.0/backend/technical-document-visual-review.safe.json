@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "recordedAt": "2026-10-26T13:52:03.851635+00:00",
+  "document": "IdealMakoo-2.2-Technical-Spec.fa.docx",
+  "documentSha256": "b2106c07a4730176d0fcccb35fd3e96d3ff1eade33668d92b44fcf1e654772f3",
+  "pageCount": 9,
+  "pages": [
+    {
+      "page": 1,
+      "renderSha256": "4e73e60b27691fdf2c3f5ea3e8fdd5a20a7db4a23cea2e5c71761d3674499baf",
+      "inspectedWith": "view_image detail=original",
+      "result": "pass"
+    },
+    {
+      "page": 2,
+      "renderSha256": "ca1ed87601f93dbb72d8abb8b9af001aafc9c59dc3e4c8c8f976e62a1305d171",
+      "inspectedWith": "view_image detail=original",
+      "result": "pass"
+    },
+    {
+      "page": 3,
+      "renderSha256": "72d098b5e8806cbed11ab2749dd3c9629312be5be59d7f0b09c54a1a6e84b507",
+      "inspectedWith": "view_image detail=original",
+      "result": "pass"
+    },
+    {
+      "page": 4,
+      "renderSha256": "0cedde5f5dc2879232630d9a9d43d516a8a69472f6767c750725b2646f00512e",
+      "inspectedWith": "view_image detail=original",
+      "result": "pass"
+    },
+    {
+      "page": 5,
+      "renderSha256": "1eda83cc1a20d14cfb2d4a9bc48ca46155640c4c61bc75aa75bbd78b16ce9cae",
+      "inspectedWith": "view_image detail=original",
+      "result": "pass"
+    },
+    {
+      "page": 6,
+      "renderSha256": "e0d1828e9e8ce934b7adcc4a448752e5d196313b327b5b0d2775ee1c24e508fe",
+      "inspectedWith": "view_image detail=original",
+      "result": "pass"
+    },
+    {
+      "page": 7,
+      "renderSha256": "2136b7aa718bb96c83fb0f45224f0260f00543d7bfb0f64f31b8c99ed5bbd824",
+      "inspectedWith": "view_image detail=original",
+      "result": "pass"
+    },
+    {
+      "page": 8,
+      "renderSha256": "90df6eacf202e6e051b1fbab545072cd3270bd3b82b8e3360c5173f0bead6c6c",
+      "inspectedWith": "view_image detail=original",
+      "result": "pass"
+    },
+    {
+      "page": 9,
+      "renderSha256": "d5a989963ef97542e8b75806251b5337719f9fed357edb02acd1b0b1625ea02f",
+      "inspectedWith": "view_image detail=original",
+      "result": "pass"
+    }
+  ],
+  "checks": [
+    "All nine rendered pages were visually opened at original detail, not inferred from extracted text.",
+    "Persian RTL shaping and mixed Latin text readable; no missing glyphs observed.",
+    "No clipped or overlapping text; table cells wrap within borders with repeated continuation headers.",
+    "No stranded headings; page numbers and margins consistent.",
+    "Final flat-comment, API cost/analytics, phone/PBX and managed-resource publication boundaries are present.",
+    "The appended four-stage implementation plan is present."
+  ],
+  "blockingIssues": [],
+  "note": "The final page contains LTR arrows within RTL workflow prose; wording remains readable and no change was required. This review does not claim live service or deployment acceptance."
+}

@@ -1,0 +1,127 @@
+{
+  "format": "idealmakoo.public-audit-identity-draft",
+  "version": 1,
+  "createdAt": "2026-10-21T06:46:35.288636+00:00",
+  "mainRoot": "/tmp/idealmakoo-source-recovery/work/idealmakoo",
+  "sourceFiles": [
+    {
+      "path": "scripts/audit-public-metadata.mjs",
+      "operation": "modify",
+      "beforeSha256": "4c3a5ac76d59ebd4c9c379e88f14de59e4171e2cc24718fd575f9305ed072e30",
+      "afterSha256": "3bb825b848013ae0bde7a8dd5769313e7e141d18462416ad969eacb70ff8fef5",
+      "beforeBytes": 11150,
+      "afterBytes": 10763,
+      "beforeMode": "0o644",
+      "afterMode": "0o644"
+    },
+    {
+      "path": "scripts/lighthouse-child.mjs",
+      "operation": "modify",
+      "beforeSha256": "38771e1ccb63283e7c5d2a6f9d9f5659bfba2684f9a899f41e1fbccee9b4698c",
+      "afterSha256": "c5b86133a6325195cf80ed977813cabafc7bea816c1d67af21a31269e3160a25",
+      "beforeBytes": 4366,
+      "afterBytes": 4708,
+      "beforeMode": "0o644",
+      "afterMode": "0o644"
+    },
+    {
+      "path": "scripts/lib/public-audit-identity.mjs",
+      "operation": "add",
+      "beforeSha256": null,
+      "afterSha256": "8f51831afb36d245276f240c41d43dbcd9284efc219367ad60231b2eb1e326fa",
+      "beforeBytes": null,
+      "afterBytes": 3804,
+      "beforeMode": null,
+      "afterMode": "0o644"
+    },
+    {
+      "path": "tests/public-audit-identity.test.mjs",
+      "operation": "add",
+      "beforeSha256": null,
+      "afterSha256": "0d7a8e3efaa07bc691c22a67b45657224abdde8eb40d1e046770803c6d8fa86b",
+      "beforeBytes": null,
+      "afterBytes": 20122,
+      "beforeMode": null,
+      "afterMode": "0o644"
+    }
+  ],
+  "documentationBase": "/tmp/idealmakoo-production-repair-20261020/doc-drafts/user-directory-final/after",
+  "documentationFiles": [
+    {
+      "path": "docs/LIGHTHOUSE.fa.md",
+      "operation": "modify",
+      "beforeSha256": "09a7ff509260c3502ade343e00abdcc3424f627589f1093b8cf7fbdb8a1a33e3",
+      "afterSha256": "cfd281de11dd18555bbba4b88eec39ae262caa791f88cc6a5bc8d0899f7f0eb9",
+      "beforeBytes": 21379,
+      "afterBytes": 23863,
+      "beforeMode": "0o644",
+      "afterMode": "0o644"
+    }
+  ],
+  "patches": {
+    "source.patch": {
+      "sha256": "59883d53ab18363447ad98d08a83d271af27120678b982559d05160f149726d0",
+      "bytes": 32017
+    },
+    "docs.patch": {
+      "sha256": "3c4da76515952f51f031f2f940136a753f5943621c26c670faf59227ae050f5d",
+      "bytes": 4595
+    }
+  },
+  "verification": {
+    "baseline": {
+      "tests": 29,
+      "pass": 8,
+      "fail": 21,
+      "cancelled": 0,
+      "skipped": 0,
+      "durationMs": 4322.997204,
+      "exitCode": 1,
+      "path": "evidence/baseline.tap",
+      "sha256": "782515df78ff6da7a57dd9c12cf4409ff8bbe3df9f1a21543bf078477e36b481"
+    },
+    "fixed": {
+      "tests": 29,
+      "pass": 29,
+      "fail": 0,
+      "cancelled": 0,
+      "skipped": 0,
+      "durationMs": 4424.021277,
+      "exitCode": 0,
+      "path": "evidence/fixed.tap",
+      "sha256": "74538c530cfd538bcc301aadfd71025f602148307f35c391e98e77487d9ae128"
+    },
+    "syntaxChecks": [
+      {
+        "command": "node --check scripts/audit-public-metadata.mjs",
+        "exitCode": 0
+      },
+      {
+        "command": "node --check scripts/lighthouse-child.mjs",
+        "exitCode": 0
+      },
+      {
+        "command": "node --check scripts/lib/public-audit-identity.mjs",
+        "exitCode": 0
+      },
+      {
+        "command": "node --check tests/public-audit-identity.test.mjs",
+        "exitCode": 0
+      }
+    ],
+    "testCommand": "node --test --test-reporter=tap --test-concurrency=1 tests/public-audit-identity.test.mjs",
+    "isolatedCommands": {
+      "baseline": "PUBLIC_AUDIT_TEST_SOURCE_ROOT=/tmp/idealmakoo-source-recovery/work/idealmakoo node --test --test-reporter=tap --test-concurrency=1 /tmp/idealmakoo-production-repair-20261020/source-drafts/public-audit-identity/after/tests/public-audit-identity.test.mjs",
+      "fixed": "PUBLIC_AUDIT_TEST_SOURCE_ROOT=/tmp/idealmakoo-production-repair-20261020/source-drafts/public-audit-identity/test-source node --test --test-reporter=tap --test-concurrency=1 /tmp/idealmakoo-production-repair-20261020/source-drafts/public-audit-identity/after/tests/public-audit-identity.test.mjs"
+    },
+    "unchangedFixtureDependency": {
+      "path": "scripts/lib/audit-streamed-html.mjs",
+      "sha256": "a0cf6b67533a22e11a5d00630f4926c846831ac9f94b0a7efc2a0348940ff5fa"
+    },
+    "network": "Owned ephemeral loopback HTTP fixtures only.",
+    "lighthouse": "Actual child runner with explicit synthetic external Lighthouse/Chrome modules; no real browser or score measurement.",
+    "mainSourceUntouched": true,
+    "frozenHelpersUntouched": true,
+    "peerReview": "directory_backend: final read-only review approved; no remaining blocker within assigned scope."
+  }
+}

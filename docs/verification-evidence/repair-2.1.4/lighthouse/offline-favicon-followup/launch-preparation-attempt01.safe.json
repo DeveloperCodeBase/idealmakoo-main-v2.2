@@ -1,0 +1,17 @@
+{
+  "format": "offline-static-launch-preparation-attempt-v1",
+  "observedAt": "2026-10-26T01:08:27.370309+00:00",
+  "attempt": 1,
+  "actualExitCode": 1,
+  "status": "preparation-assertion-refused-before-launch",
+  "reasonCode": "PRIOR_APPROVED_LAUNCH_PARSER_HASH_DIFFERS_FROM_CURRENT_TOPOLOGY_GUARD",
+  "expectedCurrentTopologyGuardSha256": "22690e970b374366047bddd78deada4201492f479843d2e2ea74b8a3bdf30512",
+  "recordedPriorLaunchParserSha256": "529320485df3347acfed3fffa77a558199240654083746c975a4ea0c96f6e76f",
+  "actualPriorLaunchParserSha256": "22690e970b374366047bddd78deada4201492f479843d2e2ea74b8a3bdf30512",
+  "priorLaunchParserMatchesItsRecordedHash": false,
+  "newSupervisionDirectoryCreated": true,
+  "newSupervisionDirectoryEmpty": true,
+  "serviceLaunchAttempted": false,
+  "currentWorkerOrCaddyChanged": false,
+  "runtimeSourceOrEnvironmentChanged": false
+}

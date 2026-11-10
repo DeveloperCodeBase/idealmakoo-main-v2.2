@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/resources/antic-official-image/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "8c80ea6edc23a02d3005b76c3998247b062e544d2227a7e10692e180e106e7ba",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Antic protez dişler — resmî görsel | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Antic protez dişler — resmî görsel — Fabrikanın orijinal görsel belgeleri"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/resources/antic-official-image/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/antic-official-image/",
+    "en": "http://127.0.0.1:3100/en/resources/antic-official-image/",
+    "tr": "http://127.0.0.1:3100/tr/resources/antic-official-image/",
+    "ar": "http://127.0.0.1:3100/ar/resources/antic-official-image/",
+    "ru": "http://127.0.0.1:3100/ru/resources/antic-official-image/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/antic-official-image/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 48
+}

@@ -1,0 +1,163 @@
+{
+  "schema": 1,
+  "kind": "collected-owned-guest-outcome",
+  "guest": "recovery",
+  "job": "runtime",
+  "status": "passed",
+  "exitCode": 0,
+  "actualGuestWaitConsumed": true,
+  "startedAt": "2026-10-25T06:13:11.004291+00:00",
+  "completedAt": "2026-10-25T06:14:41.540075+00:00",
+  "elapsedSeconds": 90.539823,
+  "files": {
+    "outcome.safe.json": {
+      "bytes": 388,
+      "sha256": "8d72f6475f4b6366e9c9605e85635b1faa92478183f4a383d8247fd818a1e0fc",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "start.safe.json": {
+      "bytes": 378,
+      "sha256": "c531e567d91365cf702ddbaac640c724981a89ee08b95243972059e10cddf4c7",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "stdout.private": {
+      "bytes": 3675,
+      "sha256": "c92107591bba2e6209923330982f3f2a58eaad06c68cd70a5042d6fc9236d4e6",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "stderr.private.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    }
+  },
+  "result": {
+    "schema": 1,
+    "kind": "actual-docker-runtime-identity-and-readiness",
+    "status": "passed",
+    "completedAt": "2026-10-25T06:14:41.388380+00:00",
+    "version": "2.1.3",
+    "releaseDirectory": "/var/www/idealmakoo-acceptance-recovery/releases/20261025T052814Z-0539a9c2",
+    "candidateReleaseManifestSha256": "4438262db82057efa1c2c81d96ec05021c01ee191a890ffce611db116f3f48e9",
+    "candidateSourceZipSha256": "2deb94d17e0852d75102461fa566555c973f632320729a366a73b86ae9381574",
+    "releaseSourceFilesVerified": 3456,
+    "packagingManifestPresentInRelease": false,
+    "os": {
+      "PRETTY_NAME": "Ubuntu 22.04.5 LTS",
+      "VERSION_ID": "22.04",
+      "ID": "ubuntu"
+    },
+    "containers": {
+      "app": {
+        "id": "1ad08b5ce1a733998dc4a2206c5dd15e06592d79f9eb32088b2866009ecc4e60",
+        "imageId": "sha256:9af4468d1f0c2180e232afc868338c452375d4edab4fabaffa41f469135892c5",
+        "status": "running",
+        "health": "healthy",
+        "running": true,
+        "oomKilled": false,
+        "startedAt": "2026-10-25T06:10:00.01870918Z",
+        "workingDirectory": "/var/www/idealmakoo-acceptance-recovery/releases/20261025T052814Z-0539a9c2"
+      },
+      "worker": {
+        "id": "5be64a8682e5a0c65ee884e17608264719b0b8c8a466ea572aeec8cbf82728f3",
+        "imageId": "sha256:9af4468d1f0c2180e232afc868338c452375d4edab4fabaffa41f469135892c5",
+        "status": "running",
+        "health": "healthy",
+        "running": true,
+        "oomKilled": false,
+        "startedAt": "2026-10-25T06:10:47.13692702Z",
+        "workingDirectory": "/var/www/idealmakoo-acceptance-recovery/releases/20261025T052814Z-0539a9c2"
+      },
+      "db": {
+        "id": "350047f758fb66a2e0720aa1623b7fc1a916ba21b930c82bfb8fb2ab790ef489",
+        "imageId": "sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a",
+        "status": "running",
+        "health": "healthy",
+        "running": true,
+        "oomKilled": false,
+        "startedAt": "2026-10-25T05:57:53.16982152Z",
+        "workingDirectory": "/var/www/idealmakoo-acceptance-recovery/releases/20261025T052814Z-0539a9c2"
+      },
+      "proxy": {
+        "id": "ebb0f2f7dbf3b1f2c80dac0db19765f7ae4ded652beeeef68cd0c17d935824d6",
+        "imageId": "sha256:675cffb6ea32162085bec9090c008b588ff1d67fc6ca0e6f8176175ff0e5428d",
+        "status": "running",
+        "health": null,
+        "running": true,
+        "oomKilled": false,
+        "startedAt": "2026-10-25T06:11:41.31806818Z",
+        "workingDirectory": "/var/www/idealmakoo-acceptance-recovery/releases/20261025T052814Z-0539a9c2"
+      },
+      "clamav": {
+        "id": "4fe8c0545b9003dec338c9d41318a56683202f7e4d01e043cc686ed8fdf2f901",
+        "imageId": "sha256:25dd54757ce9b037ccb3f023ff05bc5d8a23aeec0e416522634ce28b18084274",
+        "status": "running",
+        "health": "healthy",
+        "running": true,
+        "oomKilled": false,
+        "startedAt": "2026-10-25T06:02:41.56155817Z",
+        "workingDirectory": "/var/www/idealmakoo-acceptance-recovery/releases/20261025T052814Z-0539a9c2"
+      }
+    },
+    "migrationSeedService": null,
+    "databaseInventory": {
+      "usersTotal": 3,
+      "usersByRole": {
+        "customer": 1,
+        "superAdmin": 1,
+        "contentEditor": 1
+      },
+      "workspaceLiveEntities": 211,
+      "pages": 120,
+      "records": 73,
+      "media": 17,
+      "pagesByLocale": {
+        "ru": 24,
+        "ar": 24,
+        "tr": 24,
+        "en": 24,
+        "fa": 24
+      },
+      "publishedLocaleReleases": 0,
+      "crmRequests": 0,
+      "migrationCount": 41,
+      "everyMigrationChecksumMatchesFrozenSource": true
+    },
+    "runtimeImageSource": {
+      "status": "passed",
+      "filesVerified": 666,
+      "version": "2.1.3"
+    },
+    "actualRuntimeDatabaseRole": {
+      "role": "idealmakoo_app",
+      "rolcanlogin": true,
+      "rolsuper": false,
+      "rolcreatedb": false,
+      "rolcreaterole": false,
+      "rolreplication": false
+    },
+    "doctorExitCode": 0,
+    "doctorOutputPublished": false,
+    "publicProxyHealth": {
+      "httpStatus": 200,
+      "body": {
+        "status": "ok",
+        "database": "ok",
+        "privacy": "ready",
+        "timestamp": "2026-10-25T06:14:41.042Z",
+        "version": "20261025T052814Z-0539a9c2",
+        "applicationVersion": "2.1.3"
+      }
+    },
+    "dailyBackupTimer": {
+      "NextElapseUSecRealtime": "Mon 2026-10-26 00:07:40 UTC",
+      "LastTriggerUSec": "",
+      "ActiveState": "active",
+      "SubState": "waiting"
+    }
+  }
+}

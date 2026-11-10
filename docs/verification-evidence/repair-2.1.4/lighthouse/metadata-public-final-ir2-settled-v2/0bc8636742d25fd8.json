@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/research/president-ivoclar-3d-wear/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "40f149fdbc0583cba1021b0436225246c9ba350515714e4b8cc69f178ae92302",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "مقارنة تآكل بريزيدنت وإيفوكلار بالمسح ثلاثي الأبعاد | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "تعريف بدراسة التآكل مقابل الأسنان الطبيعية باستخدام المسح ثلاثي الأبعاد."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/research/president-ivoclar-3d-wear/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/president-ivoclar-3d-wear/",
+    "en": "http://127.0.0.1:3100/en/research/president-ivoclar-3d-wear/",
+    "tr": "http://127.0.0.1:3100/tr/research/president-ivoclar-3d-wear/",
+    "ar": "http://127.0.0.1:3100/ar/research/president-ivoclar-3d-wear/",
+    "ru": "http://127.0.0.1:3100/ru/research/president-ivoclar-3d-wear/",
+    "x-default": "http://127.0.0.1:3100/fa/research/president-ivoclar-3d-wear/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 66
+}

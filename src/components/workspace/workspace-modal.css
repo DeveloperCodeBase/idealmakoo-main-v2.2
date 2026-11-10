@@ -1,0 +1,148 @@
+/* Workspace dialogs delegate shell geometry, focus and optics to SharedModal.
+   Do not use the legacy .ws-modal class: its !important page-era frame would
+   flatten the shared liquid surface and reintroduce conflicting scroll boxes. */
+.app-dialog.ws-viewport-modal[data-viewport-dialog] {
+  --dialog-preferred-width: 550px;
+}
+.app-dialog.ws-viewport-modal[data-viewport-dialog].ws-viewport-modal-wide {
+  --dialog-preferred-width: 910px;
+}
+.ws-viewport-modal[data-viewport-dialog] > .dialog-body.ws-modal-body {
+  /* Editors supply their own padded sections; the shared body remains the only
+     vertical scrolling container, including when a mobile keyboard is open.
+     Role typography belongs here, not on the native shell: .ws-root also has
+     full-page grids/sizes which must not participate in dialog placement. */
+  display: block;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+  grid-template-columns: none;
+  gap: 0;
+  font-size: 14px;
+  line-height: 1.8;
+  text-align: start;
+  transition: none;
+  overflow-wrap: anywhere;
+}
+.ws-viewport-modal[data-viewport-dialog] .ws-modal-body > * {
+  min-width: 0;
+  max-width: 100%;
+}
+.ws-viewport-modal[data-viewport-dialog] :is(input, textarea, select, img, video, audio, iframe) {
+  max-width: 100%;
+}
+.ws-viewport-modal[data-viewport-dialog] :is(.ws-form-grid, .ws-diff-grid) {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.ws-viewport-modal[data-viewport-dialog] :is(.ws-asset-editor, .ws-form-grid, .ws-diff-grid, .crm-merge-selectors, .crm-commercial-metadata, .crm-commercial-footer) > * {
+  min-width: 0;
+}
+.ws-viewport-modal[data-viewport-dialog] .ws-asset-editor {
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+}
+.ws-viewport-modal[data-viewport-dialog] .ws-diff-grid { direction: inherit; }
+.ws-viewport-modal[data-viewport-dialog] .ws-diff-grid pre {
+  direction: ltr;
+  text-align: left;
+  unicode-bidi: isolate;
+}
+.ws-viewport-modal[data-viewport-dialog] :is(.ws-dialog-actions, .ws-detail-actions, .crm-section-heading) {
+  flex-wrap: wrap;
+}
+.ws-viewport-modal[data-viewport-dialog] .ws-command-results :is(a, button) > span,
+.ws-viewport-modal[data-viewport-dialog] .ws-notifications p { min-width: 0; }
+.ws-viewport-modal[data-viewport-dialog] .ws-command-results :is(a, button) > svg,
+.ws-viewport-modal[data-viewport-dialog] .ws-notifications > div > span { flex-shrink: 0; }
+.ws-viewport-modal[data-viewport-dialog] .ws-modal-body .btn {
+  max-width: 100%;
+  min-height: 44px;
+  white-space: normal;
+}
+@media (max-width: 700px) {
+  .ws-viewport-modal[data-viewport-dialog] :is(.ws-form-grid, .ws-diff-grid, .ws-asset-editor) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .ws-viewport-modal[data-viewport-dialog] .ws-site-asset-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .ws-viewport-modal[data-viewport-dialog] .ws-asset-preview {
+    min-height: 0;
+    max-height: min(320px, 45dvh);
+  }
+  .ws-viewport-modal[data-viewport-dialog] .ws-asset-preview > img {
+    height: min(280px, 40dvh);
+    object-fit: contain;
+  }
+  .ws-viewport-modal[data-viewport-dialog] .ws-root :is(input:not([type="checkbox"]):not([type="range"]), select, textarea) {
+    font-size: 16px !important;
+  }
+  .ws-viewport-modal[data-viewport-dialog] > .dialog-body.ws-modal-body {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+}
+@media print {
+  html:has(dialog.ws-viewport-modal[open]), body:has(dialog.ws-viewport-modal[open]) { overflow: visible !important; }
+  body:has(dialog.ws-viewport-modal[open]) {
+    position: static !important;
+    inset: auto !important;
+    width: auto !important;
+    padding-right: 0 !important;
+  }
+  /* Keep only the portal branch, including a portal inside fullscreen content. */
+  body:has(dialog.ws-viewport-modal[open]) > :not(dialog.ws-viewport-modal[open]):not(:has(dialog.ws-viewport-modal[open])),
+  body:has(dialog.ws-viewport-modal[open]) :has(dialog.ws-viewport-modal[open]) > :not(dialog.ws-viewport-modal[open]):not(:has(dialog.ws-viewport-modal[open])) { display: none !important; }
+  body:has(dialog.ws-viewport-modal[open]) :has(dialog.ws-viewport-modal[open]) {
+    display: block !important;
+    position: static !important;
+    inset: auto !important;
+    transform: none !important;
+    width: 100% !important;
+    max-width: none !important;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    overflow: visible !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .app-dialog.ws-viewport-modal[data-viewport-dialog][open] {
+    display: block !important;
+    position: static !important;
+    inset: auto !important;
+    transform: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    max-width: none !important;
+    height: auto !important;
+    max-height: none !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background: #fff !important;
+    color: #142033 !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+  .app-dialog.ws-viewport-modal[data-viewport-dialog][open]:has(~ dialog.ws-viewport-modal[open]) { display: none !important; }
+  .ws-viewport-modal[data-viewport-dialog]::backdrop,
+  .ws-viewport-modal[data-viewport-dialog]::before,
+  .ws-viewport-modal[data-viewport-dialog]::after { display: none !important; }
+  .ws-viewport-modal[data-viewport-dialog] > .ws-modal-heading { background: #fff !important; }
+  .ws-viewport-modal[data-viewport-dialog] > .ws-modal-heading h2 { max-height: none; overflow: visible; }
+  .ws-viewport-modal[data-viewport-dialog] > .ws-modal-heading .ws-icon-button { display: none; }
+  .ws-viewport-modal[data-viewport-dialog] > .dialog-body.ws-modal-body {
+    display: block;
+    height: auto;
+    max-height: none;
+    overflow: visible;
+    padding: 0;
+    scrollbar-gutter: auto;
+  }
+}

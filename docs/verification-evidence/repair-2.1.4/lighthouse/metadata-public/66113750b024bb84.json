@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/media/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "8907021f5ceb132a95db3e3915c8edceba365ab9d5288d4637b4499219346aee",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Fabrika multimedya arşivi | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Ideal Makoo multimedya arşivini inceleyin; fabrika ve ürünleri hakkında yayınlanan medya kayıtlarını arayın."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/media/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/media/",
+    "en": "http://127.0.0.1:3100/en/media/",
+    "tr": "http://127.0.0.1:3100/tr/media/",
+    "ar": "http://127.0.0.1:3100/ar/media/",
+    "ru": "http://127.0.0.1:3100/ru/media/",
+    "x-default": "http://127.0.0.1:3100/fa/media/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 42
+}

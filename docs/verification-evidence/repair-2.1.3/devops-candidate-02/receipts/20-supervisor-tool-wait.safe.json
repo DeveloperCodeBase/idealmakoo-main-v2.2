@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "kind": "original-host-supervisor-tool-terminal-wait",
+  "recordedAt": "2026-10-25 09:03:20 UTC",
+  "sessionId": 32267,
+  "actualExitCode": 0,
+  "actualWaitConsumed": true,
+  "originalToolChunkId": "4bee9a",
+  "toolWaitWallTimeSeconds": 1.969506225,
+  "reportedRunningSession": false,
+  "vmOutcomeSha256": "174005cde6d9597f6fefa1ab934a3c1cc27ba40bd239d7d2dfd79e3d58453712",
+  "vmOutcomeBytes": 1990,
+  "qemuExitCode": 0,
+  "qemuCompletedAt": "2026-10-25T09:02:57.913729+00:00",
+  "forcedProcessTermination": false,
+  "stopRequests": [],
+  "terminalOutputExactlyMatchesRetainedVmOutcome": true
+}

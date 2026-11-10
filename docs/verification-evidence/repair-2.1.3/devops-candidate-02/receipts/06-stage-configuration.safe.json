@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "version": "2.1.3",
+  "sourceZipSha256": "05f9fada3a33e7df149012e0eeae0824e9fb3dda93b4387a70278626dd767578",
+  "releaseManifestSha256": "45e93bf57a3113881d10052dd61d9ac831a36af0328a7eb584bb43aa14a73e92",
+  "priorSourceZipSha256": "2deb94d17e0852d75102461fa566555c973f632320729a366a73b86ae9381574",
+  "priorReleaseDirectory": "/var/www/idealmakoo-acceptance-recovery/releases/20261025T052814Z-0539a9c2",
+  "priorAppImageId": "sha256:9af4468d1f0c2180e232afc868338c452375d4edab4fabaffa41f469135892c5",
+  "previousApiStateSha256": "892713770dee24868396e7b5c087f22e508dec71b61c418d52d509690e7a2a3a",
+  "unchangedApiDriverSha256": "ea1a687f7706df4afa16988884c03bd16cbdfb82812e6ccca2b84073f40be09b",
+  "latestPrivacyLedgerHead": {
+    "format": 1,
+    "fingerprint": "ccd57c3aded2927085e5ee3d8a88aac07bc55733008f2749a1fe769e885fb6c3",
+    "sequence": 1,
+    "hash": "f26601fa50bd6e560e522dda46e1933ea8444a81826fe86acd76c8cc53d4e8c0"
+  },
+  "helpers": {
+    "candidate02_archive.py": "5bcec0f5d4abbedd6bd71574adaf896602c448375c5fe553eb75bbfd6a002bd1",
+    "candidate02_guest.py": "30f44ec650c5d205fba899fd4d4c20771607c6b0a990a119c9945a804d1428d3",
+    "candidate02_runtime_readback.py": "295f134c9ff4ba88926e8359b6f268281d2b261c1fe871cfab83e2d1bcf4d55f"
+  }
+}

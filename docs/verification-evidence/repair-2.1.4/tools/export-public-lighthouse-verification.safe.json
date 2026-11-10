@@ -1,0 +1,148 @@
+{
+  "format": "portable-public-evidence-utility-verification-v2",
+  "status": "passed",
+  "verifiedAt": "2026-10-25T15:53:55.017Z",
+  "utility": "docs/verification-evidence/repair-2.1.4/tools/export-public-lighthouse-without-images.mjs",
+  "utilitySha256": "665a6b386eddf3091c2b628eb9cef16259e126b6b62aba87b824b0690b9b2dd0",
+  "runtimeDependency": "Existing project tsx loader and public URL policy; Node built-ins for evidence I/O",
+  "explicitPaths": [
+    "--project",
+    "--run",
+    "--output"
+  ],
+  "positive": {
+    "exitCode": 0,
+    "byteIdenticalFiles": 12,
+    "reports": 4,
+    "removedImagePaths": 8,
+    "sourceAndReportHashesIdentical": true
+  },
+  "existingOutputRefused": true,
+  "negativeCases": [
+    {
+      "case": "result-private-final",
+      "exitCode": 2,
+      "sourceStatus": "completed",
+      "attemptsRetained": 1,
+      "exportValidationRefusals": 1,
+      "scoresQuarantined": true,
+      "privateCanaryExported": false,
+      "originalBytesUnchanged": true
+    },
+    {
+      "case": "result-private-http",
+      "exitCode": 2,
+      "sourceStatus": "completed",
+      "attemptsRetained": 1,
+      "exportValidationRefusals": 1,
+      "scoresQuarantined": true,
+      "privateCanaryExported": false,
+      "originalBytesUnchanged": true
+    },
+    {
+      "case": "report-private-final",
+      "exitCode": 2,
+      "sourceStatus": "completed",
+      "attemptsRetained": 1,
+      "exportValidationRefusals": 1,
+      "scoresQuarantined": true,
+      "privateCanaryExported": false,
+      "originalBytesUnchanged": true
+    },
+    {
+      "case": "report-token-final",
+      "exitCode": 2,
+      "sourceStatus": "completed",
+      "attemptsRetained": 1,
+      "exportValidationRefusals": 1,
+      "scoresQuarantined": true,
+      "privateCanaryExported": false,
+      "originalBytesUnchanged": true
+    },
+    {
+      "case": "report-foreign-document",
+      "exitCode": 2,
+      "sourceStatus": "completed",
+      "attemptsRetained": 1,
+      "exportValidationRefusals": 1,
+      "scoresQuarantined": true,
+      "privateCanaryExported": false,
+      "originalBytesUnchanged": true
+    },
+    {
+      "case": "report-request-mismatch",
+      "exitCode": 2,
+      "sourceStatus": "completed",
+      "attemptsRetained": 1,
+      "exportValidationRefusals": 1,
+      "scoresQuarantined": true,
+      "privateCanaryExported": false,
+      "originalBytesUnchanged": true
+    },
+    {
+      "case": "result-request-mismatch",
+      "exitCode": 2,
+      "sourceStatus": "completed",
+      "attemptsRetained": 1,
+      "exportValidationRefusals": 1,
+      "scoresQuarantined": true,
+      "privateCanaryExported": false,
+      "originalBytesUnchanged": true
+    },
+    {
+      "case": "report-null-document",
+      "exitCode": 2,
+      "sourceStatus": "completed",
+      "attemptsRetained": 1,
+      "exportValidationRefusals": 1,
+      "scoresQuarantined": true,
+      "privateCanaryExported": false,
+      "originalBytesUnchanged": true
+    },
+    {
+      "case": "report-missing-request",
+      "exitCode": 2,
+      "sourceStatus": "completed",
+      "attemptsRetained": 1,
+      "exportValidationRefusals": 1,
+      "scoresQuarantined": true,
+      "privateCanaryExported": false,
+      "originalBytesUnchanged": true
+    },
+    {
+      "case": "result-token-final-source-error",
+      "exitCode": 2,
+      "sourceStatus": "error",
+      "attemptsRetained": 1,
+      "exportValidationRefusals": 1,
+      "scoresQuarantined": true,
+      "privateCanaryExported": false,
+      "originalBytesUnchanged": true
+    },
+    {
+      "case": "report-private-final-source-timeout",
+      "exitCode": 2,
+      "sourceStatus": "timeout",
+      "attemptsRetained": 1,
+      "exportValidationRefusals": 1,
+      "scoresQuarantined": true,
+      "privateCanaryExported": false,
+      "originalBytesUnchanged": true
+    }
+  ],
+  "applicationOrBrowserChanged": false,
+  "note": "Synthetic export/privacy regressions only. They make no HTTP request or Lighthouse/browser run. Export refusals retain source process status, have separate counts, omit refused scores and keep all original raw hashes/bytes in restricted scratch.",
+  "actualHarnessExitCode": 0,
+  "actualHarnessDurationSeconds": 2.421973823,
+  "toolChunk": "a3bcdd",
+  "harnessSha256": "25851a376ed0f9909e668571d5d826a2585d4ec184c8717b7bbde4dc13cce7ae",
+  "initialPositiveReproduction": "export-public-lighthouse-verification.initial.safe.json",
+  "priorHarnessAttempt": {
+    "receipt": "export-public-lighthouse-guard-attempt-01.safe.json",
+    "actualExitCode": 1,
+    "classification": "test-harness-output-capture",
+    "retained": true,
+    "applicationFailure": false,
+    "correction": "Read the existing rollup helper explicit output file; exporter implementation unchanged."
+  }
+}

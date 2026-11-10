@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-24T11:40:14.853096+00:00",
+  "files": [
+    {
+      "file": "tests/deployment_service_lifecycle_test.py",
+      "beforeSha256": "4986ea1d7d490b71c631a34e27e0204bea80277acc201f4a393b4c28b97d7e28",
+      "afterSha256": "4840f2b77fdc0fbd65e727d1e9c456633fcbc21ebade7a8a1af10b054a4776c4",
+      "bytes": 50628
+    },
+    {
+      "file": "tests/deployment_discovery_contract_test.py",
+      "beforeSha256": null,
+      "afterSha256": "6bdbadfe8df9f5d32eedba25a20d603e3a767c68d57b5d2b15b3cc75a0b7a753",
+      "bytes": 17762
+    }
+  ],
+  "patchSha256": "6e1e75d0edad79f59238cd0c20895308c9951d0a1492f9714274526c60ceed09",
+  "realDockerDaemonRequired": false
+}

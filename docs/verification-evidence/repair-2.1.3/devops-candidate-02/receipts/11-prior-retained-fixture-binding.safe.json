@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "kind": "candidate02-resume-of-accepted-recovery-fixture",
+  "priorOutcomeSha256": "1b8b7dd89d344e89874c2e971aab006830e0b41309cf1a356bec0189e314bf61",
+  "priorOutcomePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/runtime/outcome.safe.json",
+  "sameRecordedDiskDeviceAndInode": true,
+  "newOverlayCreated": false,
+  "priorSourceAndReceiptsModified": false,
+  "hostPreBootFloorBytes": 12884901888,
+  "hostRunningFloorBytes": 2147483648,
+  "sourceCandidate02NotYetStaged": true
+}

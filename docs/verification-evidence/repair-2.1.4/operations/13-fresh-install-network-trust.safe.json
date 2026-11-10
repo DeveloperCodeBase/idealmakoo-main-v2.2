@@ -1,0 +1,66 @@
+{
+  "scope": "First attempt of one initially-empty application installation on the existing Ubuntu/Docker host",
+  "originalInstallerOperation": {
+    "name": "fresh-install",
+    "startedAt": "2026-10-25T16:18:45.791886+00:00",
+    "completed": true,
+    "completedAt": "2026-10-25T16:27:14.365931+00:00",
+    "elapsedSeconds": 508.58,
+    "exitCode": 1
+  },
+  "originalLifecycleFailure": {
+    "operation": "check",
+    "code": "SERVICE_UNHEALTHY",
+    "exitCode": 1,
+    "cleanupAttempted": false,
+    "cleanupVerified": null,
+    "clientProcessTerminationVerified": true
+  },
+  "failedStage": "application, worker, scanner and public endpoint readiness",
+  "scannerFailure": "Freshclam HTTPS certificate verification failed with curl error60 because the isolated intercepted network trust was absent from the scanner runtime",
+  "defaultAntivirusWasEnabled": true,
+  "firstAttemptGeneratedEnvironmentAndSixVolumesRetained": true,
+  "operatorSignalSent": false,
+  "laterStopHelperRefusedAlreadyCompletedOperation": {
+    "exitCode": 1,
+    "reason": "Completed-status precondition",
+    "signalSent": false,
+    "productFilesOrStateChanged": false
+  },
+  "networkTrustCorrection": {
+    "observedAt": "2026-10-25T16:32:18.685936+00:00",
+    "status": "passed",
+    "method": "Separate operator override with documented CURL_CA_BUNDLE and readonly CA bundle bind",
+    "officialDocumentation": "https://docs.clamav.net/faq/faq-freshclam.html",
+    "caBundleContainsOnlyExistingSystemAndReviewedBuildTrust": true,
+    "certificateCount": 128,
+    "bundleSyntaxVerified": true,
+    "frozenBuildCaOverrideUnchanged": true,
+    "onlyResolvedServiceChanges": [
+      "clamav.environment.CURL_CA_BUNDLE",
+      "clamav.readonlyCAFileMount"
+    ],
+    "allOtherResolvedComposeFieldsUnchanged": true,
+    "defaultAntivirusProfileRetained": true,
+    "tlsPeerVerificationRetained": true,
+    "officialFreshclamDownloadAndSignatureVerificationRetained": true,
+    "priorSignaturesNotCopied": true,
+    "generatedSixSecretsSnapshotRetainedPrivately": true,
+    "existingVolumeCountBeforeContinuation": 6,
+    "originalFreshInstallerExitCode": 1,
+    "sourceChanged": false
+  },
+  "retryIsContinuationOfSameInitiallyEmptyInstallation": true,
+  "retryResultNotYetClaimed": true,
+  "originalPrivateLogDigests": {
+    "installer": {
+      "bytes": 17177,
+      "sha256": "e369eb289189aac44c5437970375c93e3a42efe6eaa7bc38d1acacc3950d223e"
+    },
+    "scanner": {
+      "bytes": 7419,
+      "sha256": "02ef80fcea7eeb5cf917b198cce52adb8a2e20eac2a4cdf53259ec9d2aba0574"
+    }
+  },
+  "keysCookiesCredentialsFixtureIdentifiersAndPrivatePathsExported": false
+}

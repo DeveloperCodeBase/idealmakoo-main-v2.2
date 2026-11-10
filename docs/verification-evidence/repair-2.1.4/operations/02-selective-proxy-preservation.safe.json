@@ -1,0 +1,19 @@
+{
+  "startedAt": "2026-10-25T13:13:03.065088+00:00",
+  "completedAt": "2026-10-25T13:13:07.935001+00:00",
+  "selectiveSudoPreservationExitCode": 0,
+  "sudoPolicyChanged": false,
+  "proxyValuesInArgumentVector": false,
+  "tlsVerificationEnabled": true,
+  "registryProbe": {
+    "selectedNamesPresent": [
+      "HTTP_PROXY",
+      "HTTPS_PROXY",
+      "NO_PROXY",
+      "IDEALMAKOO_COMPOSE_OVERRIDE"
+    ],
+    "exitCode": 0,
+    "manifestBytes": 9078,
+    "manifestSha256": "4edf897a3ffa55b89f906fc8cc78afdb3f1834cc9c7083565e611a8a7d5fe99e"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "idealmakoo.carousel-fullscreen-regression.v1",
+  "phase": "After correction",
+  "version": "2.1.4",
+  "production_build": "NWcRPAySX3HCzbpKSDJNf",
+  "database_identity_sha256": "7f922c99efc2a891e6db78c05b8df38441268f0604607d2954ef54ca86c4b1ec",
+  "recorded_at": "2026-10-25T12:43:27.332135+00:00",
+  "exit_code": 0,
+  "executed_tests": 2,
+  "passed": 2,
+  "failed": 0,
+  "skipped": 0,
+  "retries": 0,
+  "workers": 1,
+  "ci_unset": true,
+  "footer": "2 passed (4.8s)",
+  "duration_reported": "4.8s",
+  "log_sha256": "adaf12ae3f773ab439c29f895754838050d2ce939fde62460fcfb293293fd076",
+  "native_path": {
+    "normal_button_click": true,
+    "document_fullscreen_element_is_carousel": true,
+    "expanded_state": true,
+    "explicit_exit_visible": true,
+    "detail_dialog_inside_fullscreen_element": true,
+    "normal_exit_clears_native_and_expanded_state": true
+  },
+  "denied_native_path": {
+    "policy": "fullscreen=()",
+    "browser_fullscreen_enabled": false,
+    "fallback_dialog": "passed",
+    "detail_dialog": "passed",
+    "normal_exit_and_focus_restore": "passed"
+  },
+  "private_material_included": false
+}

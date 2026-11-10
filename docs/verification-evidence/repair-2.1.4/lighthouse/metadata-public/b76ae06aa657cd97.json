@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/research/iranian-swiss-dentin-bond/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "e560f0668a50f90e507c1a9fe8754b0ea6bfc64fb0546cdce742ade909906304",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "ارتباط كومبوزيت إيدآل ماكو وسينرجي بالعاج | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "مقارنة مخبرية لمقاومة الارتباط القصية لكومبوزيتين ضوئيي التصلب."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/research/iranian-swiss-dentin-bond/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/iranian-swiss-dentin-bond/",
+    "en": "http://127.0.0.1:3100/en/research/iranian-swiss-dentin-bond/",
+    "tr": "http://127.0.0.1:3100/tr/research/iranian-swiss-dentin-bond/",
+    "ar": "http://127.0.0.1:3100/ar/research/iranian-swiss-dentin-bond/",
+    "ru": "http://127.0.0.1:3100/ru/research/iranian-swiss-dentin-bond/",
+    "x-default": "http://127.0.0.1:3100/fa/research/iranian-swiss-dentin-bond/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 55
+}

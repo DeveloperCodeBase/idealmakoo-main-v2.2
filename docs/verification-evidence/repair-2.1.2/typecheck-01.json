@@ -1,0 +1,24 @@
+{
+  "name": "typecheck-2.1.2",
+  "command": [
+    "npm",
+    "run",
+    "typecheck"
+  ],
+  "startedAt": "2026-10-23T09:53:19.409657+00:00",
+  "finishedAt": "2026-10-23T09:53:44.067102+00:00",
+  "durationSeconds": 24.561,
+  "exitCode": 0,
+  "sourceBefore": {
+    "sha256": "60db14c8a2caca09a86316f53ec542560ded54a1f65b5d49c42f97ca36357fe2",
+    "files": 986
+  },
+  "sourceAfter": {
+    "sha256": "60db14c8a2caca09a86316f53ec542560ded54a1f65b5d49c42f97ca36357fe2",
+    "files": 986
+  },
+  "sourceChanged": [],
+  "accepted": true,
+  "logSha256": "dfeaa4bbb50e2c3b838a00b5ccb7176905e40419b14347f8367584b856f7d840",
+  "version": "2.1.2"
+}

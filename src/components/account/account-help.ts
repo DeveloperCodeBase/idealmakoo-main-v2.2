@@ -1,0 +1,84 @@
+import {localized as L,type Localized} from '@/lib/i18n';
+
+export interface AccountGuideData {steps:Localized[];related:{path:string;label:string}[]}
+const related={requests:{path:'account/requests',label:'requests'},security:{path:'account/security',label:'security'},profile:{path:'account/profile',label:'profile'},products:{path:'products',label:'products'},inquiry:{path:'inquiry-list',label:'inquiry'},notifications:{path:'account/notifications',label:'notifications'}};
+const guides:Record<string,AccountGuideData>={
+ overview:{steps:[L(
+  'این پورتال برای پیگیری کارهای حساب شماست. برای نگهداری درخواست‌ها و استفاده از بخش‌های خصوصی وارد حساب شوید یا از صفحهٔ ثبت‌نام، حساب مشتری بسازید. ثبت‌نام عمومی دسترسی کارکنان ایجاد نمی‌کند.',
+  'This portal tracks your account activity. Sign in or register a customer account to retain requests and use private sections. Public registration does not grant staff access.',
+  'Bu portal hesap işlemlerinizi izler. Talepleri saklamak ve özel bölümleri kullanmak için giriş yapın veya müşteri hesabı oluşturun. Genel kayıt personel yetkisi vermez.',
+  'تتابع هذه البوابة أنشطة حسابك. ادخل أو أنشئ حساب عميل للاحتفاظ بالطلبات واستخدام الأقسام الخاصة. لا يمنح التسجيل العام صلاحيات الموظفين.',
+  'Кабинет показывает действия вашего аккаунта. Войдите или зарегистрируйте аккаунт клиента для хранения запросов и доступа к личным разделам. Публичная регистрация не даёт прав сотрудника.'),L(
+  'محصول را از کاتالوگ به فهرست استعلام اضافه و درخواست را جداگانه ارسال کنید. کد پیگیری، پاسخ کارشناسان و پیش‌فاکتورهای اشتراک‌گذاری‌شده در درخواست‌های من دیده می‌شوند. استعلام، پرداخت یا سفارش قطعی ایجاد نمی‌کند.',
+  'Add products from the catalogue to your inquiry list, then submit the request separately. My requests shows tracking codes, staff replies and shared quotations. An inquiry does not create a payment or confirmed order.',
+  'Katalogdan ürünleri talep listesine ekleyip talebi ayrıca gönderin. Taleplerim takip kodlarını, uzman yanıtlarını ve paylaşılan teklifleri gösterir. Talep ödeme veya kesin sipariş oluşturmaz.',
+  'أضف المنتجات من الكتالوج إلى قائمة الاستفسار ثم أرسل الطلب منفصلاً. تعرض طلباتي رموز المتابعة وردود المختصين وعروض الأسعار المشتركة. لا ينشئ الاستفسار دفعة أو طلب شراء مؤكدًا.',
+  'Добавьте продукты из каталога в список запроса, затем отдельно отправьте запрос. В моих запросах видны коды отслеживания, ответы сотрудников и предложения. Запрос не создаёт оплату или подтверждённый заказ.')],related:[related.products,related.requests,related.security]},
+ profile:{steps:[L(
+  'نام، اطلاعات حرفه‌ای و تماس و تصویر حساب را ویرایش و ذخیره کنید. ایمیل تماس پروفایل با ایمیل ورود تفاوت دارد؛ تغییر ایمیل ورود و رمز از بخش امنیت انجام می‌شود. پیش از ترک صفحه، موفقیت ذخیره را بررسی کنید.',
+  'Edit and save your name, professional and contact details and account image. The profile contact email differs from your sign-in email; change sign-in email and password in Security. Check that saving succeeded before leaving.',
+  'Adınızı, mesleki ve iletişim bilgilerinizi ve hesap görselini düzenleyip kaydedin. Profil iletişim e-postası giriş e-postasından farklıdır; giriş e-postası ve parolayı Güvenlik bölümünde değiştirin. Ayrılmadan önce kaydı doğrulayın.',
+  'عدّل واحفظ الاسم والمعلومات المهنية وبيانات الاتصال وصورة الحساب. يختلف بريد الاتصال في الملف عن بريد الدخول؛ غيّر بريد الدخول وكلمة المرور من الأمان. تحقق من نجاح الحفظ قبل المغادرة.',
+  'Измените и сохраните имя, профессиональные и контактные данные и изображение аккаунта. Контактная почта профиля отличается от почты входа; почту входа и пароль меняйте в безопасности. Перед уходом убедитесь в сохранении.')],related:[related.security]},
+ preferences:{steps:[L(
+  'زبان، منطقهٔ زمانی، پوسته و تراکم نمایش را مطابق نیاز خود تنظیم و ذخیره کنید. برای دستگاه کند یا حساسیت به حرکت، کاهش حرکت و خاموش‌کردن جلوه‌ها در دسترس است. این ترجیح‌ها فقط حساب شما را تغییر می‌دهند و محتوای عمومی یا حساب همکاران را عوض نمی‌کنند.',
+  'Set and save your language, time zone, theme and display density. Reduced motion and disabled effects are available for slower devices or motion sensitivity. These preferences affect your account, not public content or colleagues’ accounts.',
+  'Dil, saat dilimi, tema ve görünüm yoğunluğunu ayarlayıp kaydedin. Yavaş cihazlar veya hareket hassasiyeti için azaltılmış hareket ve efekt kapatma seçenekleri vardır. Tercihler yalnız hesabınızı etkiler; genel içeriği veya başkalarının hesabını değiştirmez.',
+  'اضبط واحفظ اللغة والمنطقة الزمنية والمظهر وكثافة العرض. يتوفر تقليل الحركة وتعطيل التأثيرات للأجهزة الأبطأ أو الحساسية للحركة. تخص هذه التفضيلات حسابك ولا تغير المحتوى العام أو حسابات الزملاء.',
+  'Выберите и сохраните язык, часовой пояс, тему и плотность интерфейса. Для медленных устройств или чувствительности к движению доступны сокращение анимации и отключение эффектов. Настройки действуют только для вашего аккаунта.')],related:[related.profile]},
+ organizations:{steps:[L(
+  'سازمان مجاز را انتخاب کنید و فقط پرونده‌هایی را ببینید که صریحاً با آن به اشتراک گذاشته شده‌اند. مدیریت اعضا و دعوت همکار به اختیار شما در همان سازمان وابسته است. عضویت در سازمان، دسترسی به همهٔ درخواست‌های شخصی اعضا نمی‌دهد؛ پیش از اشتراک‌گذاری دامنهٔ آن را بررسی کنید.',
+  'Select an organization you can access and view requests explicitly shared with it. Managing members and inviting colleagues depends on your authority in that organization. Membership does not expose every member’s personal requests; inspect the scope before sharing.',
+  'Erişebildiğiniz kuruluşu seçip onunla açıkça paylaşılan talepleri görün. Üye yönetimi ve davet yetkinize bağlıdır. Üyelik diğer üyelerin tüm kişisel taleplerini açmaz; paylaşmadan önce kapsamı inceleyin.',
+  'اختر مؤسسة مسموحة واعرض الطلبات المشتركة معها صراحة. تعتمد إدارة الأعضاء ودعوة الزملاء على صلاحيتك في المؤسسة. لا تكشف العضوية جميع طلبات الأعضاء الشخصية؛ راجع نطاق المشاركة أولاً.',
+  'Выберите доступную организацию и просматривайте только явно предоставленные ей запросы. Управление участниками и приглашения зависят от вашей роли в организации. Членство не открывает все личные запросы участников; проверяйте область доступа до отправки.')],related:[related.requests,related.profile]},
+ requests:{steps:[L(
+  'درخواست را با کد پیگیری باز و وضعیت و گفت‌وگوی عمومی آن را بررسی کنید. پاسخ را در همان پرونده ارسال کنید؛ یادداشت داخلی کارکنان نمایش داده نمی‌شود. انصراف فقط در وضعیت مجاز در دسترس است. اعلام تمایل یا درخواست اصلاح پیش‌فاکتور برای پیگیری تجاری است و پرداخت آنلاین ایجاد نمی‌کند.',
+  'Open a request by tracking code and inspect its status and public conversation. Reply in that request; internal staff notes are not displayed. Withdrawal is available only in permitted states. Expressing interest in a quotation or requesting changes supports follow-up and does not create online payment.',
+  'Takip koduyla talebi açıp durumunu ve genel konuşmasını inceleyin. Aynı talebe yanıt verin; personelin iç notları gösterilmez. Geri çekme yalnız izinli durumlarda mümkündür. Teklife ilgi bildirmek veya düzeltme istemek ticari takip içindir, çevrim içi ödeme oluşturmaz.',
+  'افتح الطلب برمز المتابعة وافحص حالته والمحادثة العامة. أرسل الرد في الطلب نفسه؛ لا تظهر ملاحظات الموظفين الداخلية. يتاح السحب في الحالات المسموحة فقط. إبداء الاهتمام بعرض السعر أو طلب تعديله للمتابعة التجارية ولا ينشئ دفعاً إلكترونياً.',
+  'Откройте запрос по коду отслеживания, проверьте статус и публичную переписку. Отвечайте в том же запросе; внутренние заметки сотрудников не показываются. Отзыв доступен только на разрешённых этапах. Интерес к предложению или просьба изменить его не создаёт онлайн-оплату.')],related:[related.inquiry,related.notifications]},
+ 'quick-matrix':{steps:[L(
+  'محصول، کد قالب و شید را بررسی و تعدادهای موردنیاز را در جدول وارد کنید. افزودن جدول فقط فهرست استعلام را تکمیل می‌کند؛ برای ارسال نهایی آن فهرست را باز کنید. برای ورود CSV ابتدا نمونهٔ قالب را دریافت کنید و کدهای فنی را بدون تغییر نگه دارید.',
+  'Check the product, mould and shade codes, then enter quantities in the matrix. Adding the matrix only fills your inquiry list; open the list to submit it. Download the CSV template before importing and preserve technical codes exactly.',
+  'Ürün, kalıp ve renk kodlarını kontrol edip miktarları tabloya girin. Tabloyu eklemek yalnız talep listesini doldurur; göndermek için listeyi açın. CSV aktarımı öncesi şablonu indirin ve teknik kodları aynen koruyun.',
+  'راجع المنتج ورموز القالب واللون وأدخل الكميات في الجدول. إضافة الجدول تملأ قائمة الاستفسار فقط؛ افتح القائمة للإرسال النهائي. نزّل قالب CSV قبل الاستيراد واحفظ الرموز التقنية كما هي.',
+  'Проверьте продукт, коды формы и оттенка и введите количества в таблицу. Добавление таблицы только заполняет список запроса; откройте его для отправки. Перед импортом скачайте шаблон CSV и сохраняйте технические коды точно.')],related:[related.inquiry,related.products]},
+ saved:{steps:[L(
+  'محصول یا محتوای موردعلاقه را ذخیره و از این بخش دوباره باز کنید. در حساب واردشده، فهرست‌ها و پیوندهای اشتراک را با محدوده و زمان اعتبار مشخص مدیریت کنید. حذف از علاقه‌مندی، محتوای اصلی سایت را حذف نمی‌کند. اطلاعات عمومی را با اطلاعات خصوصی پرونده اشتباه نگیرید.',
+  'Save products or content and reopen them here. When signed in, manage lists and sharing links with explicit scope and expiry. Removing a favourite does not delete the original website content. Keep public content distinct from private request information.',
+  'Ürünleri veya içeriği kaydedip buradan yeniden açın. Giriş yaptıktan sonra listeleri ve paylaşım bağlantılarını belirli kapsam ve süreyle yönetin. Favoriden çıkarmak asıl site içeriğini silmez. Genel içeriği özel talep bilgilerinden ayırın.',
+  'احفظ المنتجات أو المحتوى وافتحها مجدداً هنا. بعد الدخول أدر القوائم وروابط المشاركة بنطاق ومدة محددين. حذف المفضلة لا يحذف محتوى الموقع الأصلي. ميّز المحتوى العام عن معلومات الطلب الخاصة.',
+  'Сохраняйте продукты и материалы и открывайте их здесь. После входа управляйте списками и ссылками с заданным охватом и сроком. Удаление из избранного не удаляет исходный материал сайта. Различайте общедоступный контент и личные сведения запроса.')],related:[related.products]},
+ bookings:{steps:[L(
+  'رسید رزرو را باز و وضعیت تأیید یا انتظار، تاریخ و منطقهٔ زمانی را بررسی کنید. حضور در صف انتظار به معنی رزرو تأییدشده نیست. وضعیت جاری را پیش از مراجعه بازخوانی کنید؛ گزینه‌های تغییر یا لغو فقط وقتی مجاز باشند نمایش داده می‌شوند.',
+  'Open the booking receipt and check confirmation or wait-list status, date and time zone. A wait-list entry is not a confirmed booking. Refresh the current status before attending; change or cancel controls appear only when permitted.',
+  'Rezervasyon makbuzunu açıp onay/bekleme durumunu, tarihi ve saat dilimini kontrol edin. Bekleme kaydı onaylanmış rezervasyon değildir. Katılmadan önce durumu yenileyin; değiştirme veya iptal yalnız izinliyse görünür.',
+  'افتح إيصال الحجز وراجع التأكيد أو الانتظار والتاريخ والمنطقة الزمنية. التسجيل في الانتظار ليس حجزاً مؤكداً. حدّث الحالة قبل الحضور؛ لا تظهر خيارات التغيير أو الإلغاء إلا عند السماح.',
+  'Откройте квитанцию бронирования, проверьте подтверждение или очередь, дату и часовой пояс. Место в очереди не является подтверждённой бронью. Перед посещением обновите статус; изменение или отмена доступны только при разрешении.')],related:[related.requests,related.notifications]},
+ 'data-rooms':{steps:[L(
+  'فقط اتاق‌های اسنادی که به حساب شما دسترسی داده شده‌اند نمایش داده می‌شوند. اتاق را انتخاب و سند و نسخهٔ آن را بررسی کنید؛ مشاهده و دانلود ممکن است مجوز متفاوت داشته باشند. نشانی یک فایل خصوصی را در کانال عمومی بازنشر نکنید و برای دسترسی تازه با مسئول پرونده تماس بگیرید.',
+  'Only data rooms granted to your account appear. Select a room and inspect the document and version; viewing and downloading may have different permissions. Do not repost private file links publicly. Contact the request owner when additional access is needed.',
+  'Yalnız hesabınıza açılmış belge odaları görünür. Odayı seçip belge ve sürümü inceleyin; görüntüleme ve indirme izinleri farklı olabilir. Özel dosya bağlantılarını herkese açık paylaşmayın. Ek erişim için talep sorumlusuna başvurun.',
+  'تظهر غرف المستندات الممنوحة لحسابك فقط. اختر غرفة وافحص المستند وإصداره؛ قد تختلف صلاحية العرض عن التنزيل. لا تعِد نشر روابط الملفات الخاصة علناً. اطلب الوصول الإضافي من مسؤول الطلب.',
+  'Показываются только комнаты данных, открытые вашему аккаунту. Выберите комнату, документ и версию; права просмотра и скачивания могут различаться. Не публикуйте ссылки на личные файлы. Дополнительный доступ запрашивайте у ответственного за запрос.')],related:[related.requests]},
+ tenders:{steps:[L(
+  'پیشنهاد ثبت‌شدهٔ خود را باز و رسید، مهلت و وضعیت آن را بررسی کنید. برای پیشنهاد تازه از فراخوان باز شروع کنید؛ ایمیل تأییدشده و فایل‌های مجاز لازم‌اند. امکان اصلاح یا انصراف به مهلت و مرحلهٔ فراخوان وابسته است. فایل‌های فنی و مالی را در بخش درست قرار دهید.',
+  'Open your submitted bid and inspect its receipt, deadline and status. Start a new bid from an open call; a verified email and eligible files are required. Revision or withdrawal depends on deadline and call stage. Place technical and financial documents in their correct sections.',
+  'Gönderdiğiniz teklifi açıp makbuz, son tarih ve durumu inceleyin. Yeni teklif için açık çağrıdan başlayın; doğrulanmış e-posta ve uygun dosyalar gerekir. Düzeltme veya geri çekme süreye ve aşamaya bağlıdır. Teknik ve mali belgeleri doğru bölüme koyun.',
+  'افتح عرضك المسجل وافحص الإيصال والموعد والحالة. ابدأ العرض الجديد من دعوة مفتوحة؛ يلزم بريد مؤكد وملفات مسموحة. تعتمد المراجعة أو الانسحاب على الموعد ومرحلة الدعوة. ضع المستندات التقنية والمالية في أقسامها الصحيحة.',
+  'Откройте своё предложение и проверьте квитанцию, срок и статус. Новое предложение начинается с открытого конкурса; нужны подтверждённая почта и допустимые файлы. Изменение или отзыв зависят от срока и этапа. Размещайте технические и финансовые документы в соответствующих разделах.')],related:[related.security,related.requests]},
+ notifications:{steps:[L(
+  'اعلان را باز کنید و در صورت نیاز به پروندهٔ مربوط بروید. موضوع، کانال، تناوب و ساعات سکوت را در ترجیح‌های ارسال تنظیم کنید؛ کانال‌های نیازمند تأیید باید به همین حساب متصل شوند. ثبت یک پیام در صف، تحویل قطعی ایمیل یا پیامک را ثابت نمی‌کند.',
+  'Open a notification and follow its related request when needed. Set topics, channels, frequency and quiet hours in delivery preferences; channels requiring verification must belong to your account. A queued message does not prove email or SMS delivery.',
+  'Bildirimi açıp gerektiğinde ilgili talebe geçin. Gönderim tercihlerinde konu, kanal, sıklık ve sessiz saatleri belirleyin; doğrulanan kanallar hesabınıza ait olmalıdır. Mesajın sıraya alınması e-posta veya SMS teslimini kanıtlamaz.',
+  'افتح الإشعار وانتقل إلى طلبه عند الحاجة. اضبط الموضوع والقناة والتكرار وساعات الهدوء؛ ويجب ربط القنوات المطلوب تأكيدها بحسابك. وجود الرسالة في الطابور لا يثبت وصول البريد أو الرسالة النصية.',
+  'Откройте уведомление и при необходимости перейдите к запросу. Настройте темы, каналы, частоту и тихие часы; подтверждаемые каналы должны принадлежать вашему аккаунту. Постановка в очередь не подтверждает доставку email или SMS.')],related:[related.requests,related.security]},
+ security:{steps:[L(
+  'ایمیل ورود را تأیید و رمز و نشست‌های فعال را مدیریت کنید. برای MFA برنامهٔ احراز هویت را ثبت و کدهای بازیابی را جدا و امن نگه دارید. MFA برای کارکنان اجباری است. از همین بخش، درخواست خروجی داده‌های شخصی یا حذف حساب را با پیامدهای نمایش‌داده‌شده بررسی کنید؛ رمز و کد بازیابی را برای پشتیبانی ارسال نکنید.',
+  'Verify your sign-in email and manage passwords and active sessions. Enroll an authenticator for MFA and keep recovery codes separately and securely. Staff MFA is mandatory. Review personal-data export or account deletion here with the stated consequences; never send passwords or recovery codes to support.',
+  'Giriş e-postasını doğrulayın, parola ve etkin oturumları yönetin. MFA için doğrulayıcı kurup kurtarma kodlarını ayrı ve güvenli saklayın. Personel için MFA zorunludur. Kişisel veri çıktısı veya hesap silmeyi belirtilen sonuçlarıyla inceleyin; parola ve kurtarma kodlarını desteğe göndermeyin.',
+  'أكد بريد الدخول وأدر كلمة المرور والجلسات. سجّل تطبيق مصادقة لـMFA واحفظ رموز الاسترداد منفصلة وآمنة. MFA إلزامية للموظفين. راجع تصدير البيانات الشخصية أو حذف الحساب مع النتائج الموضحة؛ لا ترسل كلمات المرور أو رموز الاسترداد للدعم.',
+  'Подтвердите почту входа и управляйте паролями и сеансами. Настройте приложение MFA и храните коды восстановления отдельно и безопасно. Для сотрудников MFA обязательна. Здесь можно рассмотреть экспорт личных данных или удаление аккаунта с указанными последствиями; не отправляйте пароли и коды поддержке.')],related:[related.profile,related.notifications]},
+};
+export function accountGuide(section:string):AccountGuideData{return guides[section]||guides.overview;}

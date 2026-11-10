@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/cooperation/distribution/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "ec3cb29d8b3fed92f38613fd2b4c94c4f4c4e0672bf909eb1759520025d77164",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "درخواست نمایندگی | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "درخواست همکاری در توزیع محصولات را با اطلاعات مجموعه، کشور و شرح توانمندی‌های خود برای بررسی کارخانه ارسال کنید."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/cooperation/distribution/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/cooperation/distribution/",
+    "en": "http://127.0.0.1:3100/en/cooperation/distribution/",
+    "tr": "http://127.0.0.1:3100/tr/cooperation/distribution/",
+    "ar": "http://127.0.0.1:3100/ar/cooperation/distribution/",
+    "ru": "http://127.0.0.1:3100/ru/cooperation/distribution/",
+    "x-default": "http://127.0.0.1:3100/fa/cooperation/distribution/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 49
+}

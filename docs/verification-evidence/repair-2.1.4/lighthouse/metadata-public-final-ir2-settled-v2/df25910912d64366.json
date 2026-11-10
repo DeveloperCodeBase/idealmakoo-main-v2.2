@@ -1,0 +1,70 @@
+{
+  "url": "http://127.0.0.1:3100/fa/products/super-newclar/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "668000cd27daa42fddfc02b54eb87030723493b7d5ade55d1fc6d2297a975f47",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "دندان مصنوعی سوپر نیوکلار | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "سری دولایه سوپر نیوکلار از ترکیب ذکرشده با اتصال عرضی، برای پروتز کامل و جزئی."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/products/super-newclar/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/super-newclar/",
+    "en": "http://127.0.0.1:3100/en/products/super-newclar/",
+    "tr": "http://127.0.0.1:3100/tr/products/super-newclar/",
+    "ar": "http://127.0.0.1:3100/ar/products/super-newclar/",
+    "ru": "http://127.0.0.1:3100/ru/products/super-newclar/",
+    "x-default": "http://127.0.0.1:3100/fa/products/super-newclar/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "دندان مصنوعی سوپر نیوکلار",
+      "description": "سری دولایه سوپر نیوکلار از ترکیب ذکرشده با اتصال عرضی، برای پروتز کامل و جزئی.",
+      "image": "http://127.0.0.1:3100/media/official/1686378486.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "SUPER NEWCLAR"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/fa/products/super-newclar/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 64
+}

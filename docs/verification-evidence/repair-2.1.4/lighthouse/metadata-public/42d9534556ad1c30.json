@@ -1,0 +1,71 @@
+{
+  "url": "http://127.0.0.1:3100/ru/products/generation-8-bonding/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "4cab2b0fb5a691302eaa784e851ec729660f7c8bb3166114ab6f385a671fc301",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Адгезивная смола 8-го поколения | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Универсальный адгезив для разных методов травления, композита и амальгамы по данным производителя."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/products/generation-8-bonding/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/generation-8-bonding/",
+    "en": "http://127.0.0.1:3100/en/products/generation-8-bonding/",
+    "tr": "http://127.0.0.1:3100/tr/products/generation-8-bonding/",
+    "ar": "http://127.0.0.1:3100/ar/products/generation-8-bonding/",
+    "ru": "http://127.0.0.1:3100/ru/products/generation-8-bonding/",
+    "x-default": "http://127.0.0.1:3100/fa/products/generation-8-bonding/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Адгезивная смола 8-го поколения",
+      "description": "Универсальный адгезив для разных методов травления, композита и амальгамы по данным производителя.",
+      "image": "http://127.0.0.1:3100/media/official/1725864310.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "IDEAL MAKOO"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/ru/products/generation-8-bonding/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 61
+}

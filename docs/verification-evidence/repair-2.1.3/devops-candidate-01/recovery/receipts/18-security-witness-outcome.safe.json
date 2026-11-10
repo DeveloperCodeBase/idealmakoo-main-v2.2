@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "kind": "owned-guest-acceptance-job-outcome",
+  "job": "security-witness",
+  "status": "passed",
+  "startedAt": "2026-10-25T06:16:50.317924+00:00",
+  "completedAt": "2026-10-25T06:17:08.300701+00:00",
+  "elapsedSeconds": 17.985373,
+  "pid": 33274,
+  "startTicks": 367861,
+  "exitCode": 0,
+  "timedOut": false,
+  "forcedProcessTermination": false,
+  "actualWaitConsumed": true
+}

@@ -1,0 +1,299 @@
+{
+  "format": "idealmakoo.public-native-gates-v2",
+  "recordedAt": "2026-10-22T05:57:40.607678+00:00",
+  "source": {
+    "sha256": "71ae23d3db96eb7825bd1762b6992c2494066e02415f5545b26b12663837fc2a",
+    "files": 831
+  },
+  "application": {
+    "sha256": "df0d27890b71a653a0210f8cda6f0d3ce478b179dc9c2465293000e280e86f86",
+    "files": 685
+  },
+  "buildId": "xAFijE374c1niyBYMmnro",
+  "standaloneBuildId": "xAFijE374c1niyBYMmnro",
+  "compilePublicOrigin": "http://127.0.0.1:39090",
+  "actualBuildManifestSha256": "9c81700b756a769153336bc35d85fd78ce3c282d8f80e1a400105ec505185c23",
+  "gates": [
+    {
+      "gate": "unit",
+      "label": "a11y-readiness-03",
+      "startedAt": "2026-10-22T05:44:57.017Z",
+      "finishedAt": "2026-10-22T05:45:24.026Z",
+      "exitCode": 0,
+      "childSignal": null,
+      "spawnError": null,
+      "sourceBefore": {
+        "sha256": "71ae23d3db96eb7825bd1762b6992c2494066e02415f5545b26b12663837fc2a",
+        "files": 831
+      },
+      "sourceAfter": {
+        "sha256": "71ae23d3db96eb7825bd1762b6992c2494066e02415f5545b26b12663837fc2a",
+        "files": 831
+      },
+      "sourceUnchanged": true,
+      "environmentUnchanged": true,
+      "node": "v24.19.0",
+      "privateReceiptSha256": "d39a27ed8b83898b4704234d0b272908e733909e6107f056f4e3d16bb34b1013",
+      "counts": {
+        "tests": 746,
+        "passed": 746,
+        "failed": 0,
+        "skipped": 0,
+        "cancelled": 0
+      }
+    },
+    {
+      "gate": "typecheck",
+      "label": "a11y-readiness-03",
+      "startedAt": "2026-10-22T05:46:17.481Z",
+      "finishedAt": "2026-10-22T05:46:45.319Z",
+      "exitCode": 0,
+      "childSignal": null,
+      "spawnError": null,
+      "sourceBefore": {
+        "sha256": "71ae23d3db96eb7825bd1762b6992c2494066e02415f5545b26b12663837fc2a",
+        "files": 831
+      },
+      "sourceAfter": {
+        "sha256": "71ae23d3db96eb7825bd1762b6992c2494066e02415f5545b26b12663837fc2a",
+        "files": 831
+      },
+      "sourceUnchanged": true,
+      "environmentUnchanged": true,
+      "node": "v24.19.0",
+      "privateReceiptSha256": "fe84b1232a23060d739b8062422cd6b7fd82b019ecd29902726d01ca3141f1d3"
+    },
+    {
+      "gate": "postgres",
+      "label": "a11y-readiness-02",
+      "startedAt": "2026-10-22T05:47:05.138Z",
+      "finishedAt": "2026-10-22T05:49:37.326Z",
+      "exitCode": 0,
+      "childSignal": null,
+      "spawnError": null,
+      "sourceBefore": {
+        "sha256": "71ae23d3db96eb7825bd1762b6992c2494066e02415f5545b26b12663837fc2a",
+        "files": 831
+      },
+      "sourceAfter": {
+        "sha256": "71ae23d3db96eb7825bd1762b6992c2494066e02415f5545b26b12663837fc2a",
+        "files": 831
+      },
+      "sourceUnchanged": true,
+      "environmentUnchanged": true,
+      "node": "v24.19.0",
+      "privateReceiptSha256": "c700e98c802d44e937ff70ea16f46e6d52397360a41958286b9ccdccf7f027a2",
+      "counts": {
+        "tests": 513,
+        "passed": 513,
+        "failed": 0,
+        "skipped": 0,
+        "cancelled": 0,
+        "todo": 0
+      },
+      "accepted": true,
+      "expectedTests": 513,
+      "fullExistingSuite": true,
+      "testFileCount": 45,
+      "isolatedDatabaseVerified": true,
+      "acceptanceAndDeliveryEnvironmentFilesUnchanged": true,
+      "publicTableCountBeforeSuite": 0,
+      "postgresVersionNumber": 160015
+    },
+    {
+      "gate": "api",
+      "label": "a11y-readiness-02",
+      "startedAt": "2026-10-22T05:50:21.761Z",
+      "finishedAt": "2026-10-22T05:50:33.876Z",
+      "exitCode": 0,
+      "childSignal": null,
+      "spawnError": null,
+      "sourceBefore": {
+        "sha256": "71ae23d3db96eb7825bd1762b6992c2494066e02415f5545b26b12663837fc2a",
+        "files": 831
+      },
+      "sourceAfter": {
+        "sha256": "71ae23d3db96eb7825bd1762b6992c2494066e02415f5545b26b12663837fc2a",
+        "files": 831
+      },
+      "sourceUnchanged": true,
+      "environmentUnchanged": true,
+      "node": "v24.19.0",
+      "privateReceiptSha256": "d70868448cbea77dbc87d93658464765e05e5ee78fbc4912d2ec62a20753c988",
+      "counts": {
+        "tests": 20,
+        "passed": 20,
+        "failed": 0,
+        "skipped": 0,
+        "cancelled": 0,
+        "todo": 0
+      },
+      "accepted": true,
+      "expectedTests": 20,
+      "fullExistingSuite": true,
+      "testFileCount": 1,
+      "isolatedDatabaseVerified": true,
+      "acceptanceAndDeliveryEnvironmentFilesUnchanged": true,
+      "publicTableCountBeforeSuite": 0,
+      "postgresVersionNumber": 160015
+    },
+    {
+      "gate": "build",
+      "label": "a11y-readiness-02",
+      "startedAt": "2026-10-22T05:50:57.870Z",
+      "finishedAt": "2026-10-22T05:52:18.401Z",
+      "exitCode": 0,
+      "childSignal": null,
+      "spawnError": null,
+      "sourceBefore": {
+        "sha256": "71ae23d3db96eb7825bd1762b6992c2494066e02415f5545b26b12663837fc2a",
+        "files": 831
+      },
+      "sourceAfter": {
+        "sha256": "71ae23d3db96eb7825bd1762b6992c2494066e02415f5545b26b12663837fc2a",
+        "files": 831
+      },
+      "sourceUnchanged": true,
+      "environmentUnchanged": true,
+      "node": "v24.19.0",
+      "privateReceiptSha256": "0004d3a1ab369d2d3afd933a03fe17fb55158f2de1dcd6056b70c438f99a3073"
+    }
+  ],
+  "preservedPriorAttemptsOnSameSource": [
+    {
+      "gate": "unit",
+      "label": "a11y-readiness-02",
+      "startedAt": "2026-10-22T05:43:30.675Z",
+      "finishedAt": "2026-10-22T05:43:58.404Z",
+      "exitCode": 1,
+      "childSignal": null,
+      "spawnError": null,
+      "sourceBefore": {
+        "sha256": "71ae23d3db96eb7825bd1762b6992c2494066e02415f5545b26b12663837fc2a",
+        "files": 831
+      },
+      "sourceAfter": {
+        "sha256": "71ae23d3db96eb7825bd1762b6992c2494066e02415f5545b26b12663837fc2a",
+        "files": 831
+      },
+      "sourceUnchanged": true,
+      "privateReceiptSha256": "2a4ea03310276921c6eaa52dada40f2d3250344786505f21d720bbcd40628df5",
+      "counts": {
+        "tests": 746,
+        "passed": 707,
+        "failed": 39,
+        "skipped": 0,
+        "cancelled": 0
+      },
+      "observedLogIndicators": {
+        "listenEpermOccurrences": 37,
+        "failedTests": 39,
+        "classificationLimit": "The count of port-permission messages does not separately classify all 39 failed tests."
+      }
+    },
+    {
+      "gate": "typecheck",
+      "label": "a11y-readiness-02",
+      "startedAt": "2026-10-22T05:43:30.764Z",
+      "finishedAt": "2026-10-22T05:43:46.352Z",
+      "exitCode": 1,
+      "childSignal": "SIGKILL",
+      "spawnError": null,
+      "sourceBefore": {
+        "sha256": "71ae23d3db96eb7825bd1762b6992c2494066e02415f5545b26b12663837fc2a",
+        "files": 831
+      },
+      "sourceAfter": {
+        "sha256": "71ae23d3db96eb7825bd1762b6992c2494066e02415f5545b26b12663837fc2a",
+        "files": 831
+      },
+      "sourceUnchanged": true,
+      "privateReceiptSha256": "aab8ab1b517620d5983ea5aca11a671a25474771dba04d0cd17de1f1515cbe7d",
+      "classificationLimit": "SIGKILL is observed. Host cgroup OOM counters also increased during this period; this receipt alone does not attribute the exact kernel kill to this PID."
+    }
+  ],
+  "runtime": {
+    "startedAt": "2026-10-22T05:52:52.650941+00:00",
+    "readyAt": "2026-10-22T05:52:53.927230+00:00",
+    "buildId": "xAFijE374c1niyBYMmnro",
+    "state": "running",
+    "health": {
+      "status": "ok",
+      "database": "ok",
+      "privacy": "ready",
+      "timestamp": "2026-10-22T05:52:53.864Z",
+      "applicationVersion": "2.1.0"
+    },
+    "workerHeartbeat": {
+      "heartbeat_at": "2026-10-22T05:52:53.295Z",
+      "state": "running",
+      "age": 0.623527
+    },
+    "databaseCreatedOrResetByStart": false,
+    "privateReceiptSha256": "af0dc0b4a6a156fb8ac563384be70b6bc1f1733a8a40f25efa4f3c088b4fcff5"
+  },
+  "knownBuildValuesScan": {
+    "recordedAt": "2026-10-22T05:52:41.126Z",
+    "buildId": "xAFijE374c1niyBYMmnro",
+    "filesScanned": 3079,
+    "bytesScanned": 172540473,
+    "privateValuesChecked": 5,
+    "findings": [],
+    "note": "Scans for exact nonempty secrets supplied to this local build; not a general proof that no possible secret exists.",
+    "privateReceiptSha256": "3b1a7f5b9e22ee4ce143be014a937681dd794d7fbb6ccc38e4d17e214b8d79e5"
+  },
+  "priorBrowserExecution": {
+    "passed": 45,
+    "failed": 0,
+    "skipped": 0,
+    "flaky": 0,
+    "retries": 0,
+    "sourceSha256": "79d34c8326f3adc5eb28834a588bac6a76e08bdd9f1c8f67de96c2480982dfa5",
+    "applicationSha256": "048a901cbebf94e9e4b367bab87e5fd91f68860ca7c64f32539852e66061140e",
+    "buildId": "8dbsk8DNW5JXfEcUEW6u_",
+    "rerunOnCurrentBuild": false,
+    "reference": "native-gates-reconnected.json",
+    "sourceDeltaReference": "source-scope-bridge.json"
+  },
+  "privateFastAuditCurrentBuild": {
+    "reference": "private-fast-a11y-readiness.json",
+    "startedAt": "2026-10-22T05:56:43.656Z",
+    "finishedAt": "2026-10-22T06:01:16.050Z",
+    "exitCode": 0,
+    "counts": {
+      "expected": 122,
+      "attempted": 122,
+      "completed": 122,
+      "errors": 0,
+      "timeouts": 0,
+      "pending": 0,
+      "violations": 0,
+      "violationNodes": 0,
+      "incomplete": 233,
+      "incompleteNodes": 5671
+    },
+    "analysisCompleted": true,
+    "automatedA11yPass": true,
+    "manualReviewRequired": true,
+    "fullAccessibilityConformanceClaimed": false,
+    "performanceScoringPerformed": false,
+    "roleProcessesCompleted": true,
+    "fixtureCleanupPassed": true,
+    "ownedBrowserCleanupPassed": true,
+    "sourceUnchanged": true,
+    "workloadUnchanged": true,
+    "paletteKeyboardProbePassed": true,
+    "naturalTabOrderTested": false
+  },
+  "productionAcceptanceComplete": false,
+  "originalDockerfileFullBuildVerified": false,
+  "freshHostFullRecoveryVerified": false,
+  "liveDeploymentPerformed": false,
+  "allPageLighthouseCompleted": false,
+  "limitations": [
+    "A production-mode native build is not execution of the original Dockerfile or the Ubuntu installer.",
+    "The earlier 45-browser, 6-visual and 6-Worker executions keep their original source/build binding.",
+    "Known-value scanning is limited to supplied exact values. It is not a general proof of absence of unknown secrets."
+  ],
+  "privateFastAuditUpdatedAt": "2026-10-22T06:13:37.734178+00:00"
+}

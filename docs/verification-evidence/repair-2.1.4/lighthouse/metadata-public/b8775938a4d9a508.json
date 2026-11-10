@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/products/category/teeth/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "c7843cd22dbbe2fc81668c847ef1c982cc6b69d70dd2126caf3fb5812253339e",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "دندان‌های مصنوعی | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "مرور دندان‌های مصنوعی ایده‌آل ماکو، خانواده‌های محصول، تصاویر مرجع و مشخصات مستند برای بررسی و استعلام فنی."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/products/category/teeth/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/category/teeth/",
+    "en": "http://127.0.0.1:3100/en/products/category/teeth/",
+    "tr": "http://127.0.0.1:3100/tr/products/category/teeth/",
+    "ar": "http://127.0.0.1:3100/ar/products/category/teeth/",
+    "ru": "http://127.0.0.1:3100/ru/products/category/teeth/",
+    "x-default": "http://127.0.0.1:3100/fa/products/category/teeth/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 52
+}

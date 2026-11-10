@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/cooperation/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "9608044d66fa359ae61648ab49439afb3034d4c46e99bce3e7513bd7a998bb14",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "التعاون معنا | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "اختر مسار التعاون مع المصنع في التوزيع أو التوريد أو التعهيد أو الاستثمار أو البحث وقدّم مقترحك."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/cooperation/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/cooperation/",
+    "en": "http://127.0.0.1:3100/en/cooperation/",
+    "tr": "http://127.0.0.1:3100/tr/cooperation/",
+    "ar": "http://127.0.0.1:3100/ar/cooperation/",
+    "ru": "http://127.0.0.1:3100/ru/cooperation/",
+    "x-default": "http://127.0.0.1:3100/fa/cooperation/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 60
+}

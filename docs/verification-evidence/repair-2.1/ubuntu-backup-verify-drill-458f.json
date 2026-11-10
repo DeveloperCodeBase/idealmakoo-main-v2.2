@@ -1,0 +1,53 @@
+{
+  "format": "idealmakoo.actual-backup-verification-and-isolated-drill",
+  "state": "completed",
+  "exitCode": 0,
+  "recordedAt": "2026-10-21T19:35:09.506983+00:00",
+  "sourcePhaseResults": [
+    {
+      "phase": "verify-archive",
+      "sourcePhaseRecordSha256": "40a4231998c212f15143bd0b2ade23f1ca13e7bf3ac827a9c8c890826fd3e3bd",
+      "guestStartedAt": "2026-10-21T19:06:52.961016+00:00",
+      "guestFinishedAt": "2026-10-21T19:11:10.851930+00:00",
+      "exitCode": 0,
+      "transportExitCode": 0,
+      "sourceHandoffSha256": "ba9509bf2c7e892add9c93c0c73f106b81c7e1ac628ec061e553b7170c81bf1c",
+      "applicationSha256": "12da2b69abf2fa85cf0655bc0b4ec7df9244ea0b50a29cc8c3be1157851b6e1c",
+      "privateLogBytes": 263,
+      "privateLogSha256": "2cfdc50eea69d9a9263b59f9f16810432c2f3c8405ba0585273aaa4cbb5b3022",
+      "protectedEnvironmentUnchanged": true,
+      "expectedProductSuccessMessageObserved": true
+    },
+    {
+      "phase": "drill",
+      "sourcePhaseRecordSha256": "8858fdcbad26d2d40532eec24d7bd791a03f298f9e0cef9dbcb9c1350f785f43",
+      "guestStartedAt": "2026-10-21T19:11:25.302412+00:00",
+      "guestFinishedAt": "2026-10-21T19:33:46.202544+00:00",
+      "exitCode": 0,
+      "transportExitCode": 0,
+      "sourceHandoffSha256": "ba9509bf2c7e892add9c93c0c73f106b81c7e1ac628ec061e553b7170c81bf1c",
+      "applicationSha256": "12da2b69abf2fa85cf0655bc0b4ec7df9244ea0b50a29cc8c3be1157851b6e1c",
+      "privateLogBytes": 2126,
+      "privateLogSha256": "8103360a4b002197d7d8df396f7136413fd301c99b6fdf217fa292496c4abfd6",
+      "protectedEnvironmentUnchanged": true,
+      "expectedProductSuccessMessageObserved": true
+    }
+  ],
+  "selectedDownloadRecordSha256": "91437c5f7eb14a128175e42a56523da189b6f3bc563ca04611e345a7d92a0c9f",
+  "selectedArchiveSha256": "2b8992834879d0134221504a59a9158eafcc703839fd83f46c3981392b407abc",
+  "actualProductVerifyOnlyAndDrillExecuted": true,
+  "verifiedEncryptedArchiveAndCurrentPrivacyAnchor": true,
+  "separateDatabaseRestoreAndStructureRowSequenceComparison": true,
+  "privateAndPublicMediaArchiveIntegrity": true,
+  "runtimeGrantsAccessPolicyAuthRevocationAndErasureReplay": true,
+  "temporaryDrillDatabaseCleanupIncludedInSuccessfulExit": true,
+  "liveWebsiteDatabaseNotReplaced": true,
+  "operationAuditRecordExpected": true,
+  "sameHostReplacementAcceptedByThisWitness": false,
+  "freshHostRecoveryAcceptedByThisWitness": false,
+  "originalDockerfileCompilationAcceptedByThisWitness": false,
+  "syntheticDisposableVmOnly": true,
+  "privateValuesExported": false,
+  "executedBeforePostBackupErasureAndStaffDisable": true,
+  "nonEmptyPostSnapshotErasureAndLateStaffPolicyPreservationAcceptedByThisWitness": false
+}

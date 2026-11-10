@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/research/three-teeth-denture-base-bond/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "b7bbe0521af31d526d655ba085df45197e02696f04fd08ee4639420c6b5a8c69",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "ارتباط آبل وغلامور وبي ستار بالقاعدة الأكريليكية | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "مقارنة مخبرية لثلاث مجموعات وقياس قوة فشل الارتباط بالأكريل المعالج حراريًا."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/research/three-teeth-denture-base-bond/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/three-teeth-denture-base-bond/",
+    "en": "http://127.0.0.1:3100/en/research/three-teeth-denture-base-bond/",
+    "tr": "http://127.0.0.1:3100/tr/research/three-teeth-denture-base-bond/",
+    "ar": "http://127.0.0.1:3100/ar/research/three-teeth-denture-base-bond/",
+    "ru": "http://127.0.0.1:3100/ru/research/three-teeth-denture-base-bond/",
+    "x-default": "http://127.0.0.1:3100/fa/research/three-teeth-denture-base-bond/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 63
+}

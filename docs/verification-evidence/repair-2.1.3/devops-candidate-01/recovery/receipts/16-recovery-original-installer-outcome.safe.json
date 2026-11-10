@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "kind": "owned-guest-acceptance-job-outcome",
+  "job": "recovery-original-installer",
+  "status": "passed",
+  "startedAt": "2026-10-25T05:20:11.782760+00:00",
+  "completedAt": "2026-10-25T06:12:46.832971+00:00",
+  "elapsedSeconds": 3155.054415,
+  "pid": 4123,
+  "startTicks": 28007,
+  "exitCode": 0,
+  "timedOut": false,
+  "forcedProcessTermination": false,
+  "actualWaitConsumed": true
+}

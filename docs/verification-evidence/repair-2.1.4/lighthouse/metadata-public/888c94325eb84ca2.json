@@ -1,0 +1,70 @@
+{
+  "url": "http://127.0.0.1:3100/ar/products/bstar-nano-base/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "e887a7bf575b4d4edac28e66011e1dfecb992bbb01ea055acd5d19f584de9f1d",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "أسنان بي ستار نانو بيس | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "طراز أسنان صناعية ضمن قائمة إيدآل ماكو؛ تتضمن صفحة المصدر صورة المنتج."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/products/bstar-nano-base/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/bstar-nano-base/",
+    "en": "http://127.0.0.1:3100/en/products/bstar-nano-base/",
+    "tr": "http://127.0.0.1:3100/tr/products/bstar-nano-base/",
+    "ar": "http://127.0.0.1:3100/ar/products/bstar-nano-base/",
+    "ru": "http://127.0.0.1:3100/ru/products/bstar-nano-base/",
+    "x-default": "http://127.0.0.1:3100/fa/products/bstar-nano-base/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "أسنان بي ستار نانو بيس",
+      "description": "طراز أسنان صناعية ضمن قائمة إيدآل ماكو؛ تتضمن صفحة المصدر صورة المنتج.",
+      "image": "http://127.0.0.1:3100/media/official/1686378678.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "B.STAR NANO BASE"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/ar/products/bstar-nano-base/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 98
+}

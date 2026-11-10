@@ -1,0 +1,119 @@
+{
+  "schema": 1,
+  "kind": "read-only-primary-provider-contract-review",
+  "reviewedAt": "2026-10-24T03:59:54.639260+00:00",
+  "result": "No demonstrable HTTP request/response mismatch found within the documented supported model and format bounds.",
+  "adapter": {
+    "path": "src/server/ai.ts",
+    "sha256": "b660946d526f5e4588d45805a2575e021a80e833abe148325cc7eaded46081cd"
+  },
+  "primarySources": [
+    "https://ai.google.dev/api/generate-content",
+    "https://openrouter.ai/openapi.json",
+    "https://openrouter.ai/docs/guides/features/structured-outputs",
+    "https://openrouter.ai/blog/tutorials/image-generation/",
+    "https://openrouter.ai/docs/guides/overview/multimodal/tts",
+    "https://openrouter.ai/docs/guides/overview/multimodal/video-generation"
+  ],
+  "openApiSnapshot": {
+    "url": "https://openrouter.ai/openapi.json",
+    "retrievedAt": "2026-10-24T03:58:00.726411+00:00",
+    "sha256": "efcb364af39e70753bf10e77facfca9f29e90ba1fdf458df6cc82c2408e9ed69",
+    "bytes": 2556733,
+    "openapi": "3.1.0"
+  },
+  "checks": [
+    {
+      "flow": "Google text/structured translation/image",
+      "sourceLines": [
+        126,
+        142
+      ],
+      "checked": [
+        "generateContent endpoint and API-key header",
+        "contents/systemInstruction/inlineData",
+        "responseFormat.text with APPLICATION_JSON and schema",
+        "responseModalities TEXT/IMAGE",
+        "candidate parts, thought filtering, inlineData and usageMetadata"
+      ],
+      "sourceUrl": "https://ai.google.dev/api/generate-content"
+    },
+    {
+      "flow": "OpenRouter text/structured translation",
+      "sourceLines": [
+        158,
+        164
+      ],
+      "checked": [
+        "chat/completions messages and response_format json_schema",
+        "provider.require_parameters",
+        "choices.message.content, usage and id"
+      ],
+      "sourceUrl": "https://openrouter.ai/docs/guides/features/structured-outputs"
+    },
+    {
+      "flow": "OpenRouter image",
+      "sourceLines": [
+        145,
+        154
+      ],
+      "checked": [
+        "POST /images with prompt, n, webp and optional input_references",
+        "data[].b64_json, optional media_type and usage"
+      ],
+      "sourceUrl": "https://openrouter.ai/blog/tutorials/image-generation/"
+    },
+    {
+      "flow": "OpenRouter audio",
+      "sourceLines": [
+        260,
+        262
+      ],
+      "checked": [
+        "POST /audio/speech with model/input/MP3/optional configured voice",
+        "raw audio/mpeg response"
+      ],
+      "sourceUrl": "https://openrouter.ai/docs/guides/overview/multimodal/tts"
+    },
+    {
+      "flow": "OpenRouter video and callback",
+      "sourceLines": [
+        265,
+        268,
+        292,
+        303,
+        336,
+        353
+      ],
+      "checked": [
+        "video submission202/job ID, status polling and terminal states",
+        "content endpoint documented as proxied200 MP4 bytes",
+        "HMAC-SHA256 of timestamp comma raw body and event data.id"
+      ],
+      "sourceUrl": "https://openrouter.ai/docs/guides/overview/multimodal/video-generation"
+    }
+  ],
+  "documentationCorrection": {
+    "file": "docs/AI-MULTILINGUAL.fa.md",
+    "changes": [
+      "Include OPENROUTER_AUDIO_VOICE in operator setup",
+      "Require an MP3-capable configured TTS model and its supported voice or documented default",
+      "Explicitly exclude PCM-only models from the current audio adapter; official docs identify Gemini TTS and HeyGen Voice as PCM-only"
+    ],
+    "runtimeAdapterChanged": false,
+    ".env.exampleChanged": false
+  },
+  "limitations": [
+    "No live inference was executed; no generation, account or credit availability is claimed.",
+    "No provider credential was read or used, and no account was probed.",
+    "Model ID, format, required voice, language support, provider access and credit remain deployment prerequisites.",
+    "Google is used directly for text/image; queued audio/video use OpenRouter independently.",
+    "Review did not run tests, builds or services and did not change runtime code or dependencies."
+  ],
+  "liveInferenceRequests": 0,
+  "providerKeysRead": false,
+  "testsExecuted": false,
+  "servicesStarted": false,
+  "runtimeSourceUnchanged": true,
+  "dependencyFilesUnchanged": true
+}

@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/terms/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "5cd1d8f61d666c4066b5cefb387b46b5304967f16b1e8ceb34f07f6919e1c27b",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Условия использования | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Сайт служит профессиональным каталогом и каналом связи с Ideal Makoo. Запрос информации, образца или сотрудничества не подтверждает заказ, наличие или цену. Окончательные условия поставки определяются после рассмотрения и официального ответа. Указывайте точные данные и загружайте только файлы, которые вправе использовать и передавать."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/terms/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/terms/",
+    "en": "http://127.0.0.1:3100/en/terms/",
+    "tr": "http://127.0.0.1:3100/tr/terms/",
+    "ar": "http://127.0.0.1:3100/ar/terms/",
+    "ru": "http://127.0.0.1:3100/ru/terms/",
+    "x-default": "http://127.0.0.1:3100/fa/terms/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 41
+}

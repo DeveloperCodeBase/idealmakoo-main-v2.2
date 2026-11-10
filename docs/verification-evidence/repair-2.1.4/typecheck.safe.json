@@ -1,0 +1,16 @@
+{
+  "gate": "typecheck-fullscreen-final",
+  "command": [
+    "npm",
+    "run",
+    "typecheck"
+  ],
+  "exitCode": 0,
+  "durationSeconds": 3.533,
+  "startedAt": "2026-10-25T12:37:29.396332+00:00",
+  "finishedAt": "2026-10-25T12:37:32.928876+00:00",
+  "format": 1,
+  "buildId": "NWcRPAySX3HCzbpKSDJNf",
+  "logSha256": "f33a52571047e95bcdb67838e5c55b326c5aa0e8798062c5e0e22ea9a7f3ff2c",
+  "logBytes": 154
+}

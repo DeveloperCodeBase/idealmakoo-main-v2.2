@@ -1,0 +1,5 @@
+services:
+  mailserver:
+    healthcheck:
+      timeout: 45s
+      start_period: 300s

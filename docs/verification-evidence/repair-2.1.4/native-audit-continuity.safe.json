@@ -1,0 +1,169 @@
+{
+  "schema": "idealmakoo.public-native-audit-continuity.v1",
+  "recordedAt": "2026-10-25T16:02:20.204356+00:00",
+  "scope": "Continuity of the already-tested native build through file restoration and pristine audit service preparation; no closed application acceptance gates were repeated.",
+  "applicationVersion": "2.1.4",
+  "buildId": "NWcRPAySX3HCzbpKSDJNf",
+  "dependencyRestoration": {
+    "exitCode": 0,
+    "offlineInstallation": true,
+    "networkFallbackUsed": false,
+    "singleMissingPackageFetched": {
+      "name": "postcss-selector-parser",
+      "version": "7.1.6",
+      "lockedIntegrityVerified": true
+    },
+    "expectedTopLevelPackageCount": 33,
+    "allExpectedVersionsMatch": true,
+    "topLevelVersions": {
+      "@axe-core/playwright": "4.14.0",
+      "@emnapi/runtime": "1.11.3",
+      "@img/sharp-wasm32": "0.35.5",
+      "@playwright/test": "1.64.1",
+      "@types/node": "24.19.2",
+      "@types/nodemailer": "8.0.2",
+      "@types/pdfkit": "0.17.6",
+      "@types/pg": "8.23.1",
+      "@types/qrcode": "1.5.6",
+      "@types/react-dom": "19.3.0",
+      "@types/react": "19.3.0",
+      "@types/three": "0.180.0",
+      "autoprefixer": "10.6.1",
+      "bidi-js": "1.1.0",
+      "chrome-launcher": "1.2.0",
+      "fflate": "0.8.3",
+      "lighthouse": "13.5.0",
+      "lucide-react": "1.59.0",
+      "next": "16.4.2",
+      "nodemailer": "10.1.7",
+      "pdfkit": "0.20.2",
+      "pg": "8.23.1",
+      "postcss": "8.5.30",
+      "qrcode": "1.5.4",
+      "react-dom": "19.3.1",
+      "react": "19.3.1",
+      "sharp": "0.35.5",
+      "tailwindcss": "3.4.17",
+      "three": "0.180.0",
+      "tsx": "4.23.15",
+      "typescript": "5.9.3",
+      "vitest": "5.0.5",
+      "zod": "4.6.7"
+    },
+    "packageJsonSha256": "ed77619293e294d9babeed01ba9218dd0e76e69e374a5e1338e71b442db7feef",
+    "packageLockSha256": "26a001e15f7eb613c0b014d285b422c792d0f9273e7cf8535ad87e668705eb4e",
+    "packageAndLockUnchanged": true,
+    "installedLockExactlyMatchesBefore": true,
+    "installedLockSha256": "ebd70c00feb3896d5e99e18462261d69b1a9be3192e7bbf85c7555e56ba942d9"
+  },
+  "frozenBuildContinuity": {
+    "compiledFilesVerified": 3879,
+    "allCompiledFilesUnchanged": true,
+    "sourceInputFilesVerified": 832,
+    "sourceInputFingerprintSha256": "e5d44f7f6dcfd162d2b60a85443025116373d3e0b28989f6be5b0ececc36534b",
+    "sourceInputsUnchanged": true,
+    "buildInvoked": false
+  },
+  "physicalDatabaseRestoration": {
+    "exitCode": 0,
+    "verifiedMembers": 6512,
+    "verifiedFileBytes": 653568759,
+    "fullGzipCrcVerified": true,
+    "completeContentAndMembershipVerified": true,
+    "originalOwnershipModesAndMtimePreserved": true,
+    "clusterStateAtFileRestoreCompletion": "shut down",
+    "archivesRetainedUnchanged": true,
+    "historicalClusterRestored": false
+  },
+  "pristineAuditFixture": {
+    "databaseNameSha256": "f8549b78badfa43208255dc4e3bc11acd70e9bb6a36663e0b03a30b2b694ff5c",
+    "matchesPreviouslyRecordedPristineClone": true,
+    "inventoryPhase": "Before web and worker startup; before further audit fixture preparation.",
+    "observedAt": "2026-10-25T15:58:20.352Z",
+    "counts": {
+      "users": 1,
+      "rate_limits": 0,
+      "requests": 0,
+      "sessions": 0,
+      "pages": 120,
+      "products": 17
+    },
+    "pagesByLocale": [
+      {
+        "locale": "ar",
+        "count": 24
+      },
+      {
+        "locale": "en",
+        "count": 24
+      },
+      {
+        "locale": "fa",
+        "count": 24
+      },
+      {
+        "locale": "ru",
+        "count": 24
+      },
+      {
+        "locale": "tr",
+        "count": 24
+      }
+    ]
+  },
+  "runtimeRoleVerification": {
+    "exitCode": 0,
+    "status": "passed",
+    "role": "idealmakoo_app",
+    "readableRelations": 186,
+    "forbiddenOperationsDenied": 5,
+    "superuser": false,
+    "createDatabase": false,
+    "createRole": false,
+    "bypassRls": false,
+    "databaseCreate": false,
+    "databaseTemp": false
+  },
+  "readiness": {
+    "observedAt": "2026-10-25T16:00:19.074421+00:00",
+    "endpoint": "/api/v1/health/ready",
+    "httpStatus": 200,
+    "status": "ok",
+    "database": "ok",
+    "privacy": "ready",
+    "applicationVersion": "2.1.4",
+    "workerHealthExitCode": 0
+  },
+  "readinessAttemptHistory": [
+    {
+      "endpoint": "/api/health",
+      "processExitCode": 1,
+      "classification": "Preparation helper used an incorrect endpoint.",
+      "errorType": "HTTPError",
+      "httpStatus": null,
+      "httpStatusCaptured": false,
+      "applicationChangeRequired": false
+    },
+    {
+      "endpoint": "/api/v1/health/ready",
+      "processExitCode": 0,
+      "httpStatus": 200,
+      "classification": "Documented readiness endpoint passed."
+    }
+  ],
+  "preparationActions": {
+    "seedRun": false,
+    "databaseResetRun": false,
+    "buildRun": false,
+    "browserRun": false,
+    "lighthouseScoringRun": false,
+    "postgresWebAndWorkerStartedUnderSeparateAuthorization": true
+  },
+  "sourceReceiptSnapshotSha256": {
+    "fileRestoration": "6689fae400ea838dc2ce620374dc487e575bf0c5eeb0ccf0d5b07d1c530a9453",
+    "dependencyCapacityCycle": "b0b26d778a3bb73145b77a6d61479f2f7d1953f2bec90b385df86f772bb36d40",
+    "databaseCapacityCycle": "cb79f4c04f3cb1fd8967aec1062f3f2f4fa07912baa6c01044b52487a4689a27",
+    "nativePreparation": "3f1f92174a55eb326ea54fe901c454f09b37dd87e41cee481c7dd51d307a5cda"
+  },
+  "disclosurePolicy": "Explicit allowlist of verified facts. Private environment, archive identities, local filesystem locations, process handles and credentials are excluded."
+}

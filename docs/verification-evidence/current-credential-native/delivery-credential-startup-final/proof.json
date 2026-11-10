@@ -1,0 +1,86 @@
+{
+  "format": "idealmakoo.delivery-bound",
+  "version": 1,
+  "label": "credential-startup-final",
+  "buildGateLabel": "credential-startup-final",
+  "state": "completed",
+  "exitCode": 0,
+  "startedAt": "2026-10-20T20:46:11.920Z",
+  "applicationBefore": "36eb4aa33a1b192622c4a9e500b00c86348524d3e49813af951db6830dde9338",
+  "buildBefore": {
+    "buildId": "OWySC3_X3kR5uD-ExxkAJ",
+    "standaloneBuildId": "OWySC3_X3kR5uD-ExxkAJ"
+  },
+  "previousRuntime": {
+    "archivedAt": "2026-10-20T20:46:11.924Z",
+    "environmentArchive": "/tmp/idealmakoo-pg-runtime/archived-delivery-20261020T204611Z/repair-delivery.env",
+    "processesVerifiedStopped": true,
+    "databasePreserved": true,
+    "storagePreserved": true,
+    "privacyLedgerPreserved": true
+  },
+  "preparation": {
+    "path": "/tmp/idealmakoo-production-repair-20261020/evidence/repair-delivery-preparation.json",
+    "sha256": "48eada28cd2def2ad716b26fc833ac2f8d1d7d714d5cb97b671e22bbcea3dd22"
+  },
+  "verification": {
+    "path": "/tmp/idealmakoo-production-repair-20261020/evidence/delivery-credential-startup-final/verification-bound.json",
+    "sha256": "afbfb88a0f38cabd5fae8384bb9ccf2ddad79af33baa8eddc72c2ba061c64508",
+    "commandExitCode": 0
+  },
+  "preparationFinishedAt": "2026-10-20T20:46:19.038Z",
+  "previousUnboundVerification": {
+    "path": "/tmp/idealmakoo-production-repair-20261020/evidence/repair-delivery-verification.json",
+    "sha256": "6ec6e601400e0c2d4c35e3a55be71ae6c0e7e69dd3547706ca7480824be0963c",
+    "commandExitCode": 0,
+    "note": "Retained actual first verification; no environment identity is retroactively assigned to it."
+  },
+  "environmentBinding": {
+    "startedAt": "2026-10-20T20:47:07.783Z",
+    "finishedAt": "2026-10-20T20:47:08.552Z",
+    "before": {
+      "sha256": "dd3984cf4a592ff07125387bed0bb7f32b6ff875d411e6862dc1ff0f04a1d3ce",
+      "bytes": 3641,
+      "mode": "0600",
+      "device": 27,
+      "inode": 1573479,
+      "mtimeMs": 1792529172095.3696,
+      "ctimeMs": 1792529172095.3696
+    },
+    "after": {
+      "sha256": "dd3984cf4a592ff07125387bed0bb7f32b6ff875d411e6862dc1ff0f04a1d3ce",
+      "bytes": 3641,
+      "mode": "0600",
+      "device": 27,
+      "inode": 1573479,
+      "mtimeMs": 1792529172095.3696,
+      "ctimeMs": 1792529172095.3696
+    },
+    "unchanged": true,
+    "helperSha256": "61e3e8bfeaa6a14433888daa6aeb8fb261a08f658d3c74597da84945fbed80d2",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+      "/tmp/idealmakoo-production-repair-20261020/tools/verify-delivery-database.mjs",
+      "--output",
+      "/tmp/idealmakoo-production-repair-20261020/evidence/delivery-credential-startup-final/verification-bound.json"
+    ],
+    "commandExitCode": 0,
+    "logPath": "/tmp/idealmakoo-production-repair-20261020/evidence/delivery-credential-startup-final/verification-bound.log",
+    "logSha256": "7708a09cbe90b8f1d0a76f45a522dcbe8430352dde9dcc108b6bdd93345cdd08"
+  },
+  "health": {
+    "path": "/tmp/idealmakoo-production-repair-20261020/evidence/delivery-credential-startup-final/health.json",
+    "sha256": "63472c0d3c41b44dc62d6e0465391d7703511f88a75d336848c9e3edfa367b22"
+  },
+  "checks": {
+    "preparationDatabaseVerified": true,
+    "deliveryRuntimeDatabaseVerified": true,
+    "verifiedEnvironmentMatchesRuntime": true
+  },
+  "applicationAfter": "36eb4aa33a1b192622c4a9e500b00c86348524d3e49813af951db6830dde9338",
+  "buildAfter": {
+    "buildId": "OWySC3_X3kR5uD-ExxkAJ",
+    "standaloneBuildId": "OWySC3_X3kR5uD-ExxkAJ"
+  },
+  "finishedAt": "2026-10-20T20:50:14.893Z"
+}

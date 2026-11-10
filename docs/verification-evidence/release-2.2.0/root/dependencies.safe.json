@@ -1,0 +1,26 @@
+{
+  "command": "npm audit --omit=dev --audit-level=high --json",
+  "exitCode": 0,
+  "metadata": {
+    "vulnerabilities": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 0
+    },
+    "dependencies": {
+      "prod": 94,
+      "dev": 241,
+      "optional": 89,
+      "peer": 32,
+      "peerOptional": 0,
+      "total": 397
+    }
+  },
+  "reportSha256": "e50d3c19f139fbb681b06a7ec1ae588ab2faea3005033738fec5eeddb8a48752",
+  "recordedAt": "2026-10-26T13:53:24.866742+00:00",
+  "passed": true,
+  "scope": "Known production dependency advisories at query time; not a penetration-test or zero-risk assurance"
+}

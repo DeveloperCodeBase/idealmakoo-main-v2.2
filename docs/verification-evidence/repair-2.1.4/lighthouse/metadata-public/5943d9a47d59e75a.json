@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/research/three-teeth-heat-cured-resin/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "1c8deb3548b889e4ca2586a6662ea85bd6cdfc42ebbdca6b9a3d327a6cb324d4",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "اتصال برلیان، سوپر برلیان و ایوکلار به رزین گرماپخت | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "مقایسه اتصال سه گروه و بررسی محل شکست در دندان یا پایه اکریلیکی."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/research/three-teeth-heat-cured-resin/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/three-teeth-heat-cured-resin/",
+    "en": "http://127.0.0.1:3100/en/research/three-teeth-heat-cured-resin/",
+    "tr": "http://127.0.0.1:3100/tr/research/three-teeth-heat-cured-resin/",
+    "ar": "http://127.0.0.1:3100/ar/research/three-teeth-heat-cured-resin/",
+    "ru": "http://127.0.0.1:3100/ru/research/three-teeth-heat-cured-resin/",
+    "x-default": "http://127.0.0.1:3100/fa/research/three-teeth-heat-cured-resin/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 47
+}

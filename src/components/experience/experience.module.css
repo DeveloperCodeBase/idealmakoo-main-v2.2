@@ -1,0 +1,347 @@
+.experience {
+  --scene-accent: 78, 205, 246;
+  --scene-muted: #91a9ba;
+  --scene-hud-text: #e5f6ff;
+  --scene-hud-bg: rgba(5, 14, 28, .78);
+  --scene-hud-border: rgba(134, 211, 245, .3);
+  --scene-pointer-stroke: #132838;
+  position: relative;
+  isolation: isolate;
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+  overflow: hidden;
+  border-radius: inherit;
+  contain: layout style;
+}
+
+.experience[data-theme="light"] {
+  --scene-accent: 18, 158, 201;
+  --scene-muted: #42718c;
+  --scene-hud-text: #18304d;
+  --scene-hud-bg: rgba(243, 248, 255, .93);
+  --scene-hud-border: rgba(79, 104, 178, .3);
+}
+
+.experience[data-variant="auth"] {
+  min-height: 465px;
+}
+
+.experience[data-variant="hero"] {
+  --scene-accent: 108, 218, 246;
+  --scene-muted: #d5e6ef;
+  min-height: 0;
+  border: 0;
+  border-radius: 0;
+  background: #142d34;
+}
+.experience[data-variant="hero"][data-theme="light"] { --scene-accent: 76, 106, 185; background: #899da1; }
+
+.experience[data-variant="hero"] .canvas {
+  -webkit-mask-image: none;
+  mask-image: none;
+}
+
+.experience[data-variant="hero"] .glow { display: none; }
+
+.canvas {
+  position: absolute;
+  z-index: 2;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+  cursor: grab;
+  outline: none;
+  opacity: 0;
+  transition: opacity 700ms ease;
+  -webkit-mask-image: linear-gradient(to bottom, transparent, #000 7%, #000 87%, transparent);
+  mask-image: linear-gradient(to bottom, transparent, #000 7%, #000 87%, transparent);
+}
+
+.experience[data-scene-state="ready"] .canvas {
+  opacity: 1;
+}
+
+.canvas:focus-visible {
+  outline: 2px solid rgba(var(--scene-accent), .7);
+  outline-offset: -7px;
+  border-radius: 22px;
+}
+
+.glow {
+  position: absolute;
+  z-index: 0;
+  inset: 5% -10% 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at 40% 35%, rgba(var(--scene-accent), .16), transparent 49%),
+    radial-gradient(ellipse at 77% 38%, rgba(117, 110, 255, .11), transparent 40%),
+    radial-gradient(ellipse at 50% 73%, rgba(var(--scene-accent), .10), transparent 52%);
+}
+
+.halo,
+.haloOuter {
+  position: absolute;
+  z-index: 0;
+  inset: 13% 10% 23%;
+  border: 1px solid rgba(var(--scene-accent), .10);
+  border-radius: 50%;
+  transform: rotate(-24deg);
+  pointer-events: none;
+}
+
+.halo::after {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background: rgba(var(--scene-accent), .9);
+  box-shadow: 0 0 18px rgba(var(--scene-accent), .7);
+  border-radius: 50%;
+  position: absolute;
+  inset-inline-start: 8%;
+  top: 18%;
+}
+
+.haloOuter {
+  inset: 7% 3% 17%;
+  border-style: dashed;
+  border-color: rgba(var(--scene-accent), .07);
+  transform: rotate(13deg);
+}
+
+.experience[data-variant="auth"] .halo {
+  inset: 14% 16% 18%;
+}
+
+.experience[data-variant="auth"] .haloOuter {
+  inset: 7% 8% 13%;
+}
+
+.hint {
+  position: absolute;
+  z-index: 3;
+  inset-inline: 12px;
+  bottom: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: var(--scene-muted);
+  font-size: 10px;
+  line-height: 1.9;
+  text-align: center;
+  pointer-events: none;
+  letter-spacing: .02em;
+}
+
+.hintDot {
+  flex: 0 0 auto;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: rgba(var(--scene-accent), .8);
+  box-shadow: 0 0 9px rgba(var(--scene-accent), .6);
+}
+
+.heroHint {
+  inset-inline: 15%;
+  bottom: 54px;
+  font-size: 11px;
+  padding: 8px 15px;
+  border-radius: 10px;
+  color: var(--scene-hud-text);
+  background: var(--scene-hud-bg);
+  border: 1px solid var(--scene-hud-border);
+  backdrop-filter: blur(10px);
+  text-shadow: none;
+  line-height: 1.9;
+}
+
+.agent {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  display: flex;
+  direction: ltr;
+  align-items: flex-start;
+  opacity: 0;
+  pointer-events: none;
+  will-change: transform, opacity;
+  filter: drop-shadow(0 3px 5px rgba(1, 10, 24, .30));
+}
+
+.agentIcon {
+  position: absolute;
+  left: -3px;
+  top: -2px;
+  width: 29px;
+  height: 33px;
+  overflow: visible;
+}
+
+.agentHand { display: none; }
+.agentIcon path { stroke: var(--scene-pointer-stroke); }
+.agent[data-mode="hand"] .agentIcon { left: -12px; top: -3px; }
+.agent[data-mode="hand"] .agentHand { display: initial; }
+.agent[data-mode="hand"] .agentArrow { display: none; }
+.agent > span {
+  margin: 26px 0 0 18px;
+  white-space: nowrap;
+  padding: 4px 9px;
+  color: var(--scene-hud-text);
+  background: var(--scene-hud-bg);
+  border: 1px solid var(--scene-hud-border);
+  box-shadow: 0 4px 16px rgba(3, 17, 20, .16), inset 0 1px 0 rgba(255, 255, 255, .13);
+  border-radius: 7px;
+  font: 600 10px/1.5 Arial, sans-serif;
+  backdrop-filter: blur(12px);
+}
+
+.keyboardHelp {
+  position: absolute;
+  z-index: 6;
+  inset-inline-start: 18px;
+  bottom: 13px;
+  max-width: min(440px, 80%);
+  font-size: 10px;
+  line-height: 1.9;
+  color: var(--scene-muted);
+}
+.keyboardHelp summary { cursor: pointer; background: var(--scene-hud-bg); color: var(--scene-hud-text); border: 1px solid var(--scene-hud-border); padding: 3px 5px; border-radius: 5px; }
+.keyboardHelp summary:focus-visible { outline: 2px solid rgba(var(--scene-accent), .8); outline-offset: 2px; }
+.keyboardHelp p {
+  margin: 5px 0;
+  padding: 12px 14px;
+  border: 1px solid var(--scene-hud-border);
+  border-radius: 12px;
+  background: var(--scene-hud-bg);
+  backdrop-filter: blur(16px);
+  color: var(--scene-hud-text);
+}
+
+/* The measured visual region also frames loading/fallback and optional guides.
+   The live canvas always fills the whole immersive landing scene. */
+.experience[data-variant="hero"][data-composition="landing"] .fallback {
+  inset: auto;
+  left: var(--scene-frame-x, 45.5%);
+  top: var(--scene-frame-y, 8%);
+  width: var(--scene-frame-width, 52%);
+  height: var(--scene-frame-height, 82%);
+}
+.experience[data-variant="hero"][data-composition="landing"] .heroHint {
+  inset-inline: auto;
+  left: calc(var(--scene-frame-x, 0%) + 12px);
+  width: calc(var(--scene-frame-width, 100%) - 24px);
+  bottom: calc(100% - var(--scene-frame-y, 0%) - var(--scene-frame-height, 100%) + 54px);
+}
+.experience[data-variant="hero"][data-composition="landing"] .keyboardHelp {
+  inset-inline: auto;
+  left: calc(var(--scene-frame-x, 0%) + 12px);
+  max-width: min(440px, calc(var(--scene-frame-width, 100%) - 24px));
+  bottom: calc(100% - var(--scene-frame-y, 0%) - var(--scene-frame-height, 100%) + 12px);
+}
+
+.screenReader {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.fallback {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Match the canvas surface palette when the same artwork is hosted in the
+   landing's existing CSS framing cell instead of the canvas wrapper. */
+.fallback[data-fallback-variant="hero"] { --scene-accent: 108, 218, 246; }
+.fallback[data-fallback-variant="hero"][data-theme="light"] { --scene-accent: 76, 106, 185; }
+
+.fallbackPair {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 77%;
+  gap: 3%;
+  padding-bottom: 5%;
+}
+
+.fallbackPair svg {
+  width: 45%;
+  max-width: 205px;
+  overflow: visible;
+  transform: rotate(-13deg) translateY(-7px);
+  filter: drop-shadow(0 20px 28px rgba(var(--scene-accent), .10));
+}
+
+.fallbackPair svg + svg {
+  transform: rotate(14deg) translateY(13px) scale(.94);
+}
+
+.fallbackSingle svg {
+  width: 61%;
+  max-width: 240px;
+  transform: rotate(-7deg);
+}
+
+.loadingDot {
+  position: absolute;
+  bottom: 21%;
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background: rgba(var(--scene-accent), .65);
+  animation: breathe 1.3s ease-in-out infinite;
+}
+
+.cube {
+  min-height: 515px;
+}
+
+.cubeFallback {
+  width: 138px;
+  height: 138px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  transform: rotate(-20deg) skew(6deg, 6deg);
+  filter: drop-shadow(15px 25px 20px rgba(var(--scene-accent), .18));
+}
+
+.cubeFallback span {
+  border: 1px solid rgba(var(--scene-accent), .35);
+  border-radius: 6px;
+  background: linear-gradient(145deg, rgba(var(--scene-accent), .26), rgba(var(--scene-accent), .05));
+  box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .25);
+}
+
+@keyframes breathe {
+  50% { opacity: .3; transform: scale(1.5); }
+}
+
+@media (max-width: 767px) {
+  .experience { min-height: 390px; }
+  .experience[data-variant="auth"] { min-height: 350px; }
+  .cube { min-height: 410px; }
+  .hint { font-size: 9px; bottom: 6px; }
+  .heroHint { inset-inline: 6%; bottom: 54px; font-size: 10px; }
+  .keyboardHelp { inset-inline-start: 12px; bottom: 12px; font-size: 9px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .canvas { transition: none; }
+  .loadingDot { animation: none; }
+}

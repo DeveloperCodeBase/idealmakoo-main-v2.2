@@ -1,0 +1,72 @@
+{
+  "schema": "idealmakoo.frontend-runtime-transitions.v1",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "inputFingerprint": "4fcec50f5846b0affccc59e43798613ba134a3f93559ea5ddba9705e1f38cc58",
+  "namespace": "Native namespace for all service/readiness/browser/stop operations; sandbox used only for local artifact parsing.",
+  "separateProbeAndFunctionalFixtures": true,
+  "finalAuditEnvironmentActivated": false,
+  "postgresStopped": false,
+  "stages": {
+    "probe": {
+      "activatedAt": "2026-10-25T18:58:54.411354+00:00",
+      "restrictedRuntimeCopiedExactly": true,
+      "environmentMode": "0600",
+      "previousEnvironmentPreserved": true,
+      "privilegedRuntimeVariableNamesAbsent": true,
+      "readiness": {
+        "checkedAt": "2026-10-25T18:59:17.894Z",
+        "httpStatus": 200,
+        "version": "2.1.4",
+        "database": "ok",
+        "privacy": "ready",
+        "runtimeRoleRestricted": true,
+        "readinessCommandExitCode": 0,
+        "workerHealthExitCode": 0
+      },
+      "normalShutdown": {
+        "requestedAt": "2026-10-25T19:00:03.836874+00:00",
+        "completedAt": "2026-10-25T19:00:17.940335+00:00",
+        "signal": "SIGTERM",
+        "observedWebExitCode": 143,
+        "observedWorkerExitCode": 0,
+        "allOwnedPidsAbsent": true,
+        "postgresStopped": false
+      }
+    },
+    "functional": {
+      "activatedAt": "2026-10-25T19:00:24.029625+00:00",
+      "restrictedRuntimeCopiedExactly": true,
+      "environmentMode": "0600",
+      "previousEnvironmentPreserved": true,
+      "privilegedRuntimeVariableNamesAbsent": true,
+      "readiness": {
+        "checkedAt": "2026-10-25T19:00:48.890Z",
+        "httpStatus": 200,
+        "version": "2.1.4",
+        "database": "ok",
+        "privacy": "ready",
+        "runtimeRoleRestricted": true,
+        "readinessCommandExitCode": 0,
+        "workerHealthExitCode": 0
+      },
+      "normalShutdown": {
+        "requestedAt": "2026-10-25T19:05:32.314136+00:00",
+        "completedAt": "2026-10-25T19:05:53.092618+00:00",
+        "signal": "SIGTERM",
+        "observedWebExitCode": 143,
+        "observedWorkerExitCode": 0,
+        "allOwnedPidsAbsent": true,
+        "postgresStopped": false
+      }
+    }
+  },
+  "rawReceiptSha256": {
+    "probe-activation": "c34f588c5d5657eadca2f67e61b8b096d68f41874ba3e212f93743c22fcd1c91",
+    "probe-readiness": "1219285c569e630f0f6107f5110798b0c2e2d29df264a591ee62cb3504f4987e",
+    "probe-stop": "f355bb56e0bb2a7404c1786329e6b10baa2fcb46990ec1da11542191c18a077f",
+    "functional-activation": "488b0c337b8bf3d1131f670ea12e5f3f00b2425e2bba51e61174a4106f80ee20",
+    "functional-readiness": "50038b6070c92d9a3474da572480c090c3f848a3f3f0550d7eac47cebf9252e1",
+    "functional-stop": "2143bd6e63eae9d60f8cf4d5f5e8811e98b9814102541829e760c025f13714e9"
+  },
+  "privateMaterialIncluded": false
+}

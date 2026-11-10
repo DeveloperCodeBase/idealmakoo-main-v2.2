@@ -1,0 +1,20 @@
+{
+  "command": "npm run build",
+  "startedAt": "2026-10-26T13:59:13.146857+00:00",
+  "completedAt": "2026-10-26T14:00:31.023543+00:00",
+  "seconds": 77.877,
+  "exitCode": 0,
+  "inputScope": "src, db, worker and listed package/compiler configuration files; docs and separately captured manual images are not compiled inputs",
+  "sourceBefore": {
+    "files": 632,
+    "sha256": "31c35f6569987dd686de423d14a22839bd180d72498a02c2de62b68b4ed49d6a"
+  },
+  "sourceAfter": {
+    "files": 632,
+    "sha256": "31c35f6569987dd686de423d14a22839bd180d72498a02c2de62b68b4ed49d6a"
+  },
+  "sourceUnchanged": true,
+  "buildId": "DkViRTtsCNVaL0ACDvvzz",
+  "logSha256": "4c2ea996c8f5fa3ee202f751c1b6415c28c0e0bbeb409aa9a5ddeb3de2f71423",
+  "passed": true
+}

@@ -1,0 +1,20 @@
+{
+  "phase": "build",
+  "command": [
+    "npm",
+    "run",
+    "build"
+  ],
+  "startedAt": "2026-10-25T17:58:12.657880+00:00",
+  "completed": true,
+  "interrupted": false,
+  "completedAt": "2026-10-25T17:59:31.237548+00:00",
+  "exitCode": 0,
+  "elapsedSeconds": 78.58,
+  "logBytes": 3427,
+  "logSha256": "8ec55b393a65afbc8035ecdd0973381e67e0550be4cd4ff0c3dae66ab09033a6",
+  "observedBuildIdAfterCommand": "IUO4lyoYpICGn_Igd7EsH",
+  "sourceInputFingerprint": "f22b49bac26f5b59ede573dbaf6ed4cd52c738bfbe32b2d00ae9e47fe28c29ce",
+  "originalReceiptSha256": "54b499b85083f278b6072e2a3a8c8b723fb27ab0837d562c0273cddfed34d64d",
+  "privateLogExcluded": true
+}

@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/tools/clinical-protocol/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "d5a83a0e5807142eb639aff60ecfb5f6fd7237b5033dd790a782a04b359b81ea",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Protocol timer | Ideal Makoo"
+  ],
+  "descriptions": [
+    "An adjustable timer for durations entered from the approved product instructions, with links to specifications and the source."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/tools/clinical-protocol/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/tools/clinical-protocol/",
+    "en": "http://127.0.0.1:3100/en/tools/clinical-protocol/",
+    "tr": "http://127.0.0.1:3100/tr/tools/clinical-protocol/",
+    "ar": "http://127.0.0.1:3100/ar/tools/clinical-protocol/",
+    "ru": "http://127.0.0.1:3100/ru/tools/clinical-protocol/",
+    "x-default": "http://127.0.0.1:3100/fa/tools/clinical-protocol/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 58
+}

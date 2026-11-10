@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "kind": "candidate02-approved-runtime-delta-from-frozen-candidate01",
+  "checkedAt": "2026-10-25T07:17:01.095542+00:00",
+  "candidate01ZipSha256": "2deb94d17e0852d75102461fa566555c973f632320729a366a73b86ae9381574",
+  "packageVersion": "2.1.3",
+  "nonDocumentationFilesChecked": 1003,
+  "changes": [
+    {
+      "path": "next.config.ts",
+      "status": "modified",
+      "before": "11bf58f484dd9904575d49f1d153a9f67eeb5aaa668aa696ad4ae035cbb06b0d",
+      "after": "c4684dbc7a7b65b57f18e06c61e5b293f156c9a14d18eb84d51f4dcfcc1165a6"
+    },
+    {
+      "path": "public/icons/idealmakoo-favicon-48.png",
+      "status": "added",
+      "before": null,
+      "after": "1c715c272d59df0eceef288dc2effe527a97a9b32d80382acd88ff1a4e9dbc02"
+    },
+    {
+      "path": "src/app/[locale]/layout.tsx",
+      "status": "modified",
+      "before": "a2f569b617e6152db0f0ddc5a62f1489f8bee5e5088947ed918c5a61ae4b44bc",
+      "after": "1b4d2ef2d10789f35d05023e0f96c3710a976a780bd3aee2e9773b89cc973707"
+    },
+    {
+      "path": "src/app/global-not-found.tsx",
+      "status": "modified",
+      "before": "440d3fcd7e06487266d70bbda687e028a92a11298274e52fb7f0a2f0394db506",
+      "after": "6af2882bbe4d545b1ffa197e654b39bb62fb1353c122ecc983e021213a131b37"
+    },
+    {
+      "path": "src/components/site/PublicationRenderer.tsx",
+      "status": "modified",
+      "before": "49c7cda966accd1df72374e24541a1f8ed9e1398c4725633439da581aa46bca3",
+      "after": "7f4cff37a3a35124a3ebc8c60d0a8a8eef1c650407127aad5be3872c889a1b5b"
+    },
+    {
+      "path": "src/components/workspace/CMS.tsx",
+      "status": "modified",
+      "before": "21c031a8156d6dd5cec3a3deff0c35f018f57684c32f6f3b85352942b2d25c9b",
+      "after": "d5b3351d4c827a7f9af299f46ed5282c43f09fb0ead359e88f65cb10d54e79ac"
+    },
+    {
+      "path": "src/components/workspace/workspace.css",
+      "status": "modified",
+      "before": "86ba67d110c9aeb5d8b90e2b96d9ef7834b1495508e6b5975490d201ad33c479",
+      "after": "d10e43810fa92aef9930e266333ce2d81aa4d45c85adf2b05f6ddb5efd2f6440"
+    },
+    {
+      "path": "src/lib/gallery-photos.ts",
+      "status": "added",
+      "before": null,
+      "after": "3aa72dae53aa985b71d4a8b077fc46dd1159454e16ea6a2882334d234ec17b38"
+    },
+    {
+      "path": "tests/gallery-preview.test.mjs",
+      "status": "added",
+      "before": null,
+      "after": "230bb6017ca91793e159f9346d2fbae6503d2eb47f61354d224f3b46c0ec7558"
+    }
+  ],
+  "allOtherTrackedFilesByteIdentical": true,
+  "missing": [],
+  "includesDockerfileComposeDockerignoreEnvExamplePackageAndLock": true,
+  "documentationExcluded": [
+    "README.md",
+    "docs/**"
+  ],
+  "releaseNonDocumentationMapSha256": "d006ea5fd1182b322d73fc3fb0e8af87d32ca6c1d14a8ce8e19c104d7a0d1286",
+  "validationInputMap": {
+    "sha256": "3ec6cc90f701e589fba7d57711ed5a97f748a7d58272e80542cf2e9f7922d806",
+    "files": 993,
+    "matchesFinalSourceUnitAndTypecheck": true
+  },
+  "originalPublicAssetsUnchanged": true,
+  "databaseMigrationsUnchanged": true,
+  "backendWorkerAndOperationsUnchanged": true,
+  "noClaimOfFinalBuildOrDeploymentSuccess": true
+}

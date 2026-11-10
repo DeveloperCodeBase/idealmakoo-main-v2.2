@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/products/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "0eaf69a0ffa46ea01a795cd7541ff502a3cc3cff7d0cb94e5d082909c85136b4",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "محصولات | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "مسیر مناسب حرفه‌تان را انتخاب کنید و مشخصات مستند هر محصول را ببینید."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/products/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/",
+    "en": "http://127.0.0.1:3100/en/products/",
+    "tr": "http://127.0.0.1:3100/tr/products/",
+    "ar": "http://127.0.0.1:3100/ar/products/",
+    "ru": "http://127.0.0.1:3100/ru/products/",
+    "x-default": "http://127.0.0.1:3100/fa/products/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 75
+}

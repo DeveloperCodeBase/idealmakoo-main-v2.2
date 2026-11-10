@@ -1,0 +1,14 @@
+{
+  "format": "proof-evidence-summary-attempt-v1",
+  "actualExitCode": 1,
+  "reason": "Summary extraction initially assumed TAP, while the retained Node output used the spec reporter. Assertion failed before writing the summary.",
+  "testCommandExitCodeUnchanged": 0,
+  "actualTestFooter": {
+    "tests": 4,
+    "pass": 4,
+    "fail": 0
+  },
+  "testsOrRuntimeRerun": false,
+  "retainedOutputSha256": "766a8d9b0b4c3e1610375cc66c7c9c46d28401b45fa77e0b2a439694479611d0",
+  "correction": "Read the actual spec-reporter footer; preserve the original successful test command and output."
+}

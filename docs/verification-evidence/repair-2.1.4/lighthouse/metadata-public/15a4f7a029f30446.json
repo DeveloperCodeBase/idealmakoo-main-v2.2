@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/research/resin-base-bond-four-teeth/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "b81af654fbcf471f1a7c961ba1e4c2d1c283fc6666da551e640ba5f22da8d503",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Соединение базисной смолы с Glamour, Yaghoot, Apple и Ivoclar | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Исследование четырёх моделей зубов и влияния подготовки поверхности соединения."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/research/resin-base-bond-four-teeth/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/resin-base-bond-four-teeth/",
+    "en": "http://127.0.0.1:3100/en/research/resin-base-bond-four-teeth/",
+    "tr": "http://127.0.0.1:3100/tr/research/resin-base-bond-four-teeth/",
+    "ar": "http://127.0.0.1:3100/ar/research/resin-base-bond-four-teeth/",
+    "ru": "http://127.0.0.1:3100/ru/research/resin-base-bond-four-teeth/",
+    "x-default": "http://127.0.0.1:3100/fa/research/resin-base-bond-four-teeth/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 64
+}

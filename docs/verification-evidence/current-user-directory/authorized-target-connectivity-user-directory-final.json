@@ -1,0 +1,13 @@
+{
+  "format": "idealmakoo.authorized-target-connectivity",
+  "observedAt": "2026-10-21T06:08:51.009231+00:00",
+  "targetHost": "193.163.201.141",
+  "targetPort": 22,
+  "purpose": "Single read-only SSH reachability check for the previously authorized deployment target",
+  "authenticationAttempted": false,
+  "remoteMutation": false,
+  "publicDeploymentAccepted": false,
+  "tcpReachable": false,
+  "errorType": "ConnectionRefusedError",
+  "errno": 111
+}

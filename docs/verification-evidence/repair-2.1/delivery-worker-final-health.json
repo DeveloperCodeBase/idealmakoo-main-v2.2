@@ -1,0 +1,14 @@
+{
+  "recordedAt": "2026-10-21T10:37:40.628Z",
+  "buildId": "-Q7Ffy3JmwVExwxk-Ymk-",
+  "scope": "Native production standalone, delivery database, Caddy and worker; not public DNS/TLS or real ClamAV",
+  "status": 200,
+  "body": {
+    "status": "ok",
+    "database": "ok",
+    "privacy": "ready",
+    "timestamp": "2026-10-21T10:37:40.613Z",
+    "version": "2.1.0-current",
+    "applicationVersion": "2.1.0"
+  }
+}

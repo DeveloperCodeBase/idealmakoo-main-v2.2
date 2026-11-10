@@ -1,0 +1,14 @@
+{
+  "format": "public-evidence-guard-validation-attempt-v1",
+  "actualExitCode": 1,
+  "toolChunk": "773ce3",
+  "durationSeconds": 0.448730844,
+  "stage": "scratch-harness-rollup-stdout-JSON-parse",
+  "positiveFourReportComparisonPassed": true,
+  "existingOutputRefused": true,
+  "firstSyntheticDocumentTargetQuarantined": true,
+  "allElevenCasesCompleted": false,
+  "applicationOrBrowserRun": false,
+  "originalEvidenceUnchanged": true,
+  "error": "Unexpected end of JSON input while parsing rollup child stdout; direct grouping-helper invocation returned the expected safe refusal and sourceStatus counts. Preserve this failed harness attempt; use the helper explicit output-file contract in the next new output directory."
+}

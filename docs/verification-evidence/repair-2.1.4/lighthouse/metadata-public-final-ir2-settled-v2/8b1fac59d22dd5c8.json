@@ -1,0 +1,70 @@
+{
+  "url": "http://127.0.0.1:3100/fa/products/antic/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "2d9acdeff2e244fffe073af8bd1acd267fbd564d35c6a876806954822b4bc7ba",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "دندان آنتیک | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "سری نانوکامپوزیتی آنتیک با پنج لایه و شش پخت؛ مواد اولیه آلمانی در متن رسمی ذکر شده است."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/products/antic/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/antic/",
+    "en": "http://127.0.0.1:3100/en/products/antic/",
+    "tr": "http://127.0.0.1:3100/tr/products/antic/",
+    "ar": "http://127.0.0.1:3100/ar/products/antic/",
+    "ru": "http://127.0.0.1:3100/ru/products/antic/",
+    "x-default": "http://127.0.0.1:3100/fa/products/antic/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "دندان آنتیک",
+      "description": "سری نانوکامپوزیتی آنتیک با پنج لایه و شش پخت؛ مواد اولیه آلمانی در متن رسمی ذکر شده است.",
+      "image": "http://127.0.0.1:3100/media/official/1726467544.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "ANTIC"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/fa/products/antic/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 48
+}

@@ -1,0 +1,120 @@
+{
+  "schema": 1,
+  "kind": "bounded-read-only-ai-configuration-contract-review",
+  "reviewedAt": "2026-10-25T05:43:31.290568+00:00",
+  "reviewDateUtc": "2026-10-25",
+  "sourceDirectory": "/workspace/scratch/6682bce41bc7/work/idealmakoo-production-2.1.2",
+  "sourceHashes": {
+    ".env.example": "9f6b4a072cf23ad4ba6686195096c466c4e8a454a3f1cfba604956e15ef2425b",
+    "docker-compose.yml": "6656f5bdff2dd01b0cce82fc4ed92fed6eb6ab67000e8a7ed182cfef8d6fad9e",
+    "src/server/ai.ts": "b660946d526f5e4588d45805a2575e021a80e833abe148325cc7eaded46081cd",
+    "src/server/knowledge.ts": "2e9c392f87e78bd0abfc2b83e041be345ae6dc15d5d97456595795f78855e97c",
+    "docs/AI-MULTILINGUAL.fa.md": "99bb25e35cd04e223e0a809ae8c6f9ad64923bdcd9989dc4ff8c99b7a6a8f22c",
+    "docs/GOOGLE-AI.md": "ebba220f433a313c3233317f64d8c24f0fb8d47dc1d8f4d19cc4844a5c922d31"
+  },
+  "result": "No concrete unavailable hardcoded model or protocol incompatibility established within the documented supported configuration and format bounds.",
+  "officialSources": {
+    "googleModels": "https://ai.google.dev/gemini-api/docs/models",
+    "googleDeprecations": "https://ai.google.dev/gemini-api/docs/deprecations",
+    "googleGenerateContent": "https://ai.google.dev/api/generate-content",
+    "googleStructuredOutput": "https://ai.google.dev/gemini-api/docs/generate-content/structured-output",
+    "openRouterStructuredOutput": "https://openrouter.ai/docs/guides/features/structured-outputs",
+    "openRouterImages": "https://openrouter.ai/docs/guides/overview/multimodal/image-generation",
+    "openRouterSpeech": "https://openrouter.ai/docs/guides/overview/multimodal/tts",
+    "openRouterVideo": "https://openrouter.ai/docs/guides/overview/multimodal/video-generation"
+  },
+  "configuration": {
+    "defaultProvider": "openrouter",
+    "defaultModelIds": "All empty; no runtime hardcoded fallback.",
+    "defaultKeys": "All empty; operator must supply server-side environment credentials.",
+    "googleCanonicalVariables": [
+      "GOOGLE_API_KEY",
+      "GOOGLE_TEXT_MODEL",
+      "GOOGLE_IMAGE_MODEL"
+    ],
+    "legacyGoogleVariablesSupported": [
+      "GOOGLE_AI_API_KEY",
+      "GOOGLE_AI_TEXT_MODEL",
+      "GOOGLE_AI_IMAGE_MODEL"
+    ],
+    "runtimeDelivery": "Compose forwards provider configuration to app and worker; changing the file requires the documented deployment/recreation flow.",
+    "clientSourceSecretKeyReferencesFound": false,
+    "statusEndpoint": "Reports configuration/capabilities, not a live account, credit, or model-access test."
+  },
+  "contractChecks": [
+    {
+      "capability": "Google text, structured translation, image",
+      "endpoint": "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+      "findings": [
+        "x-goog-api-key header",
+        "generationConfig.responseFormat.text supports APPLICATION_JSON plus schema",
+        "TEXT/IMAGE output modalities and candidate parts"
+      ],
+      "officialSources": [
+        "googleGenerateContent",
+        "googleStructuredOutput"
+      ]
+    },
+    {
+      "capability": "OpenRouter text and structured translation",
+      "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+      "requirement": "Select a compatible structured-output model; translation sends response_format=json_schema and provider.require_parameters=true.",
+      "officialSources": [
+        "openRouterStructuredOutput"
+      ]
+    },
+    {
+      "capability": "OpenRouter image",
+      "endpoint": "https://openrouter.ai/api/v1/images",
+      "requirement": "Select a compatible image model; request uses webp, n=1 and optional input_references.",
+      "officialSources": [
+        "openRouterImages"
+      ]
+    },
+    {
+      "capability": "OpenRouter audio",
+      "endpoint": "https://openrouter.ai/api/v1/audio/speech",
+      "requirement": "MP3-capable model plus a supported voice unless that provider documents a default; PCM-only Gemini TTS and HeyGen Voice are outside this adapter path.",
+      "officialSources": [
+        "openRouterSpeech"
+      ]
+    },
+    {
+      "capability": "OpenRouter video",
+      "endpoint": "https://openrouter.ai/api/v1/videos",
+      "requirement": "Compatible model/duration; asynchronous submission, status polling and authenticated content retrieval.",
+      "officialSources": [
+        "openRouterVideo"
+      ]
+    }
+  ],
+  "historicalModelNames": {
+    "documentsClearlyMarkedHistorical": true,
+    "models": [
+      "gemini-3.5-flash-lite",
+      "gemini-nano-banana-2.1"
+    ],
+    "currentOfficialDeprecationStatus": "Both listed with no shutdown date announced.",
+    "officialSources": [
+      "googleModels",
+      "googleDeprecations"
+    ],
+    "doesNotProveIndividualAccountAccess": true
+  },
+  "operatingLimits": [
+    "AI_PROVIDER=google selects text/image. Queued audio/video separately require OpenRouter credentials/models.",
+    "Semantic embeddings separately require OpenRouter credentials, explicit RAG model, and supported dimensions 768, 1024 or 1536.",
+    "Default video reserve USD10 exceeds default daily budget USD5; the operator must deliberately configure a sufficient budget/reservation before the first video.",
+    "Model language support, provider access, billing/credit and actual output quality remain deployment prerequisites."
+  ],
+  "liveProviderExecution": {
+    "inferenceRequests": 0,
+    "providerCredentialsRead": false,
+    "accountsProbed": false,
+    "generationSuccessClaimed": false
+  },
+  "productEdits": 0,
+  "servicesStarted": 0,
+  "testsExecutedDuringThisReview": 0,
+  "priorReviewAdapterHashMatches": true
+}

@@ -1,0 +1,71 @@
+{
+  "url": "http://127.0.0.1:3100/en/products/laboratory-putty/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "ebc575de62c0e55a216b2b67bbf45a3982c48a965b70bc4975092fc6addc8d51",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Laboratory putty | Ideal Makoo"
+  ],
+  "descriptions": [
+    "A putty for laboratory flasking, described by the factory for protecting the wax-up and simplifying cleaning."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/products/laboratory-putty/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/laboratory-putty/",
+    "en": "http://127.0.0.1:3100/en/products/laboratory-putty/",
+    "tr": "http://127.0.0.1:3100/tr/products/laboratory-putty/",
+    "ar": "http://127.0.0.1:3100/ar/products/laboratory-putty/",
+    "ru": "http://127.0.0.1:3100/ru/products/laboratory-putty/",
+    "x-default": "http://127.0.0.1:3100/fa/products/laboratory-putty/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Laboratory putty",
+      "description": "A putty for laboratory flasking, described by the factory for protecting the wax-up and simplifying cleaning.",
+      "image": "http://127.0.0.1:3100/media/official/1722930683.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "IDEAL MAKOO"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/en/products/laboratory-putty/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 61
+}

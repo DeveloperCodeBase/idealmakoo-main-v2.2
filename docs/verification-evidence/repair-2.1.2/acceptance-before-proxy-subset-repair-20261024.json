@@ -1,0 +1,166 @@
+{
+  "schema": 2,
+  "version": "2.1.2",
+  "status": "corrected-source-operational-acceptance-in-progress",
+  "updatedAt": "2026-10-24T08:01:46.308277+00:00",
+  "nativeBuildId": null,
+  "applicationInputManifest": "application-inputs.lifecycle-repair-20261024.json",
+  "gates": {
+    "unit": {
+      "status": "passed",
+      "tests": 815,
+      "receipt": "unit.json",
+      "buildId": "fIFLzhRg6HZ_mfSabbL8J",
+      "recordedBeforeLifecycleRepair": true,
+      "notRerunOnCorrectedSource": true
+    },
+    "typecheck": {
+      "status": "passed",
+      "receipt": "typecheck.json",
+      "buildId": "fIFLzhRg6HZ_mfSabbL8J",
+      "recordedBeforeLifecycleRepair": true,
+      "notRerunOnCorrectedSource": true
+    },
+    "postgres": {
+      "status": "passed",
+      "tests": 542,
+      "receipt": "backend.json",
+      "recordedBeforeLifecycleRepair": true,
+      "notRerunOnCorrectedSource": true
+    },
+    "api": {
+      "status": "passed",
+      "tests": 20,
+      "receipt": "backend.json",
+      "recordedBeforeLifecycleRepair": true,
+      "notRerunOnCorrectedSource": true
+    },
+    "build": {
+      "status": "pending",
+      "plannedBuild": "05",
+      "previousPassedBuildId": "fIFLzhRg6HZ_mfSabbL8J",
+      "previousReceipt": "build.json"
+    },
+    "browser": {
+      "status": "passed",
+      "tests": 56,
+      "retries": 0,
+      "receipt": "browser-e2e.json",
+      "buildId": "OOhw3Eok1VmYVX1q38dyK",
+      "scope": "Complete 56-test suite on build02. Later changes comprise three public-copy files in build03 and one AiStudio copy file in build04; the full suite was not rerun on build04. Exact diffs are recorded.",
+      "recordedBeforeLifecycleRepair": true,
+      "notRerunOnCorrectedSource": true
+    },
+    "operations": {
+      "status": "passed",
+      "tests": 204,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "durationSeconds": 83.462438,
+      "receipt": "operations-tests-20261024.json",
+      "applicationInputSha256": "2bed25d40de1ec28ecaf8edf79f778386ce5c156b8bb8a520f3e214aaec6490e"
+    },
+    "ubuntuDockerAndRecovery": {
+      "status": "corrected-source-pending",
+      "receipt": "operational-continuation-20261024.json",
+      "previousInstallerCompletedSuccessfully": false,
+      "newSourceInstallerExecuted": false,
+      "scannerUploadAcceptance": "not-run",
+      "encryptedBackupAndDownload": "not-run",
+      "sameHostRestore": "not-run",
+      "freshHostRecovery": "not-run"
+    },
+    "allPageLighthouse": {
+      "status": "pending-new-build-and-inventory",
+      "targets": null,
+      "completeMatrixRunOnLatestBuild": false,
+      "historicalInventoryTargets": 2300,
+      "historicalInventoryBuildId": "HSeZD37BGY1jy6cC01AzB",
+      "historicalFullMatrixCompleted": 3,
+      "historicalFullMatrixPending": 2297,
+      "separatePilotResultsMergedIntoMatrix": false,
+      "report": "../../LIGHTHOUSE-2.1.2-RESULTS.fa.md"
+    },
+    "browserFinalCopy": {
+      "status": "passed",
+      "tests": 7,
+      "retries": 0,
+      "buildId": "HSeZD37BGY1jy6cC01AzB",
+      "receipt": "browser-final-copy.json",
+      "scope": "Targeted shipped hero/cube/CSP/image/hydration specifications after public-copy-only change",
+      "recordedBeforeLifecycleRepair": true,
+      "notRerunOnCorrectedSource": true
+    },
+    "publicCopyAndLayout": {
+      "status": "passed",
+      "observations": 60,
+      "locales": 5,
+      "viewports": 2,
+      "buildId": "HSeZD37BGY1jy6cC01AzB",
+      "receipt": "public-copy-viewports.json",
+      "manuallyReviewedScreenshots": 20,
+      "manualReviewReceipt": "public-copy-visual-review.json",
+      "recordedBeforeLifecycleRepair": true,
+      "notRerunOnCorrectedSource": true
+    },
+    "browserStaticSecretScan": {
+      "status": "passed",
+      "files": 216,
+      "bytes": 5722529,
+      "knownValues": 70,
+      "patternFamilies": 8,
+      "findings": 0,
+      "buildId": "fIFLzhRg6HZ_mfSabbL8J",
+      "receipt": "browser-static-secret-scan.json",
+      "recordedBeforeLifecycleRepair": true,
+      "notRerunOnCorrectedSource": true
+    },
+    "nativeFinalHealth": {
+      "status": "passed",
+      "receipt": "native-final-health.json",
+      "buildId": "fIFLzhRg6HZ_mfSabbL8J",
+      "recordedBeforeLifecycleRepair": true,
+      "notRerunOnCorrectedSource": true
+    },
+    "privateStudioCopy": {
+      "status": "passed",
+      "observations": 5,
+      "authVerified": true,
+      "buildId": "fIFLzhRg6HZ_mfSabbL8J",
+      "receipt": "private-studio-copy.json",
+      "recordedBeforeLifecycleRepair": true,
+      "notRerunOnCorrectedSource": true
+    },
+    "focusedPrivateLighthouse": {
+      "status": "completed",
+      "buildId": "fIFLzhRg6HZ_mfSabbL8J",
+      "targets": 1,
+      "receipt": "lighthouse/private-ai-cls-build04.json",
+      "performance": 51,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 54,
+      "cls": 0.04706909365451993,
+      "recordedBeforeLifecycleRepair": true,
+      "notRerunOnCorrectedSource": true
+    }
+  },
+  "noPublicDeploymentOrLivePaidProviderClaim": true,
+  "currentApplicationInputSha256": "2bed25d40de1ec28ecaf8edf79f778386ce5c156b8bb8a520f3e214aaec6490e",
+  "earlierBuildEvidencePreserved": true,
+  "finalUiCopyDiffReceipt": "final-ai-copy-diff.json",
+  "deliveryScope": "Corrected source with 204 passed deployment tests and verified three-file operational change. Native build05, corrected Ubuntu installation, real upload scans, full backup/recovery and full Lighthouse matrix remain pending. Earlier evidence retains its original build identity.",
+  "unconditionalProductionReadinessClaim": false,
+  "testedVmCandidateSourceZipSha256": "b504472bd04c568888f35cc5be7eb9310d8e8a61cb1402a7e965d0e7cb47a6e0",
+  "packagingNotes": "The complete source ZIP hash is recorded in the external checksum and package manifest. Earlier VM results apply to the explicitly recorded pre-repair source. This package must not be stamped with the historical build04 input identity.",
+  "previousPassedNativeBuildId": "fIFLzhRg6HZ_mfSabbL8J",
+  "historicalAcceptance": "acceptance-before-lifecycle-repair-20261024.json",
+  "newNativeBuild": "pending",
+  "changedExecutionInputs": [
+    "scripts/install-ubuntu.sh",
+    "deploy/service-lifecycle.py",
+    "tests/deployment_service_lifecycle_test.py"
+  ],
+  "unchangedApplicationDatabaseAssetsAndDependencyInputs": true
+}

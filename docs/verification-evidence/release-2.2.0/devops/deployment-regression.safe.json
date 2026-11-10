@@ -1,0 +1,38 @@
+{
+  "format": 1,
+  "recordedAt": "2026-10-26T13:34:54.023851+00:00",
+  "status": "passed",
+  "tests": 282,
+  "elapsedSeconds": 115.972,
+  "command": "python -m unittest discover -s tests -p 'deployment*_test.py'",
+  "tools": {
+    "compose": "2.40.3",
+    "age": "real age and age-keygen from reviewed cached Ubuntu packages"
+  },
+  "scope": [
+    "bounded network retries and irreversible-operation exclusion",
+    "real openssl mail provisioning and DKIM key persistence",
+    "mail archive filesystem round trips and traversal rejection",
+    "authenticated backup formats3/4 and tampering rejection",
+    "fresh mail project rebinding only into empty target",
+    "real age encryption/decryption and wrong key refusal",
+    "project-scoped lifecycle, failure cleanup, pending restore and port ownership",
+    "offline Telegram webhook plan, bot identity validation and no message-sending methods"
+  ],
+  "afterFinalOptionalEnvCleanup": {
+    "composeTests": 2,
+    "envTests": 6,
+    "shellSyntaxFiles": 20,
+    "allPassed": true
+  },
+  "notProven": [
+    "fresh full Ubuntu website installation/upgrade with current application Docker build",
+    "public DNS or ACME issuance for a real user domain",
+    "external mail inbox delivery, SMS or Telegram provider delivery"
+  ],
+  "initialEnvironmentFailures": [
+    "default restricted sandbox denied loopback and Unix socket fixtures; rerun with local networking authorization",
+    "first targeted age test lacked tool env paths; rerun with explicit reviewed binaries passed"
+  ],
+  "externalMessagesSent": 0
+}

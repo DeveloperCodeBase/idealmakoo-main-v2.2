@@ -1,0 +1,543 @@
+{
+  "applicationVersion": "2.1.0",
+  "applicationSha256": "cfe5ecdde102eef7e3bef70f6d2b8fd1f590c323aa1cf2394cf02e7177337459",
+  "rawEvidenceSha256": "3f0d9bbe36749fe96ffdada6cf5d604e5f26e73e27da543dbdf4624bbde5c1b7",
+  "schemaVersion": 2,
+  "startedAt": "2026-10-20T12:41:10.223Z",
+  "completedAt": "2026-10-20T12:41:11.492Z",
+  "sourceEvidence": [
+    "tests/e2e/runtime-contracts.spec.ts",
+    "tests/e2e/editor-workflows.spec.ts",
+    "src/server/router.ts",
+    "src/proxy.ts",
+    "next.config.ts"
+  ],
+  "scope": "Twelve direct/proxy GET pairs; anonymous pages and invalid nonsecret capability fixtures. CSP comparison normalizes only the unpredictable per-request nonce, and independently verifies matching HTML script nonces, freshness and strict execution. Also probes private/external image optimizer targets. This does not replace valid capability/session E2E coverage.",
+  "expectedComparisons": 12,
+  "comparisons": [
+    {
+      "id": "public-home",
+      "path": "/en/",
+      "kind": "public",
+      "directStatus": 200,
+      "proxyStatus": 200,
+      "headers": {
+        "content-security-policy": {
+          "direct": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'nonce-[per-request]' 'strict-dynamic'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: https:; frame-src 'self' blob:; worker-src 'self'",
+          "proxy": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'nonce-[per-request]' 'strict-dynamic'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: https:; frame-src 'self' blob:; worker-src 'self'",
+          "equal": true
+        },
+        "cache-control": {
+          "direct": "private, no-cache, no-store, max-age=0, must-revalidate",
+          "proxy": "private, no-cache, no-store, max-age=0, must-revalidate",
+          "equal": true
+        },
+        "referrer-policy": {
+          "direct": "strict-origin-when-cross-origin",
+          "proxy": "strict-origin-when-cross-origin",
+          "equal": true
+        },
+        "x-robots-tag": {
+          "direct": null,
+          "proxy": null,
+          "equal": true
+        }
+      },
+      "checks": {
+        "statusEqual": true,
+        "statusExpected": true,
+        "headersEqual": true,
+        "baseCsp": true,
+        "nonceCsp": true,
+        "uniqueNonces": true
+      },
+      "pass": true
+    },
+    {
+      "id": "public-login",
+      "path": "/en/auth/login/",
+      "kind": "public",
+      "directStatus": 200,
+      "proxyStatus": 200,
+      "headers": {
+        "content-security-policy": {
+          "direct": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'nonce-[per-request]' 'strict-dynamic'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: https:; frame-src 'self' blob:; worker-src 'self'",
+          "proxy": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'nonce-[per-request]' 'strict-dynamic'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: https:; frame-src 'self' blob:; worker-src 'self'",
+          "equal": true
+        },
+        "cache-control": {
+          "direct": "private, no-cache, no-store, max-age=0, must-revalidate",
+          "proxy": "private, no-cache, no-store, max-age=0, must-revalidate",
+          "equal": true
+        },
+        "referrer-policy": {
+          "direct": "strict-origin-when-cross-origin",
+          "proxy": "strict-origin-when-cross-origin",
+          "equal": true
+        },
+        "x-robots-tag": {
+          "direct": null,
+          "proxy": null,
+          "equal": true
+        }
+      },
+      "checks": {
+        "statusEqual": true,
+        "statusExpected": true,
+        "headersEqual": true,
+        "baseCsp": true,
+        "nonceCsp": true,
+        "uniqueNonces": true
+      },
+      "pass": true
+    },
+    {
+      "id": "private-account",
+      "path": "/en/account/security/",
+      "kind": "private",
+      "directStatus": 200,
+      "proxyStatus": 200,
+      "headers": {
+        "content-security-policy": {
+          "direct": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'nonce-[per-request]' 'strict-dynamic'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: https:; frame-src 'self' blob:; worker-src 'self'",
+          "proxy": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'nonce-[per-request]' 'strict-dynamic'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: https:; frame-src 'self' blob:; worker-src 'self'",
+          "equal": true
+        },
+        "cache-control": {
+          "direct": "private, no-cache, no-store, max-age=0, must-revalidate",
+          "proxy": "private, no-cache, no-store, max-age=0, must-revalidate",
+          "equal": true
+        },
+        "referrer-policy": {
+          "direct": "strict-origin-when-cross-origin",
+          "proxy": "strict-origin-when-cross-origin",
+          "equal": true
+        },
+        "x-robots-tag": {
+          "direct": null,
+          "proxy": null,
+          "equal": true
+        }
+      },
+      "checks": {
+        "statusEqual": true,
+        "statusExpected": true,
+        "headersEqual": true,
+        "baseCsp": true,
+        "nonceCsp": true,
+        "uniqueNonces": true
+      },
+      "pass": true
+    },
+    {
+      "id": "private-workspace",
+      "path": "/en/admin/forms/",
+      "kind": "private",
+      "directStatus": 200,
+      "proxyStatus": 200,
+      "headers": {
+        "content-security-policy": {
+          "direct": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'nonce-[per-request]' 'strict-dynamic'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: https:; frame-src 'self' blob:; worker-src 'self'",
+          "proxy": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'nonce-[per-request]' 'strict-dynamic'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: https:; frame-src 'self' blob:; worker-src 'self'",
+          "equal": true
+        },
+        "cache-control": {
+          "direct": "private, no-cache, no-store, max-age=0, must-revalidate",
+          "proxy": "private, no-cache, no-store, max-age=0, must-revalidate",
+          "equal": true
+        },
+        "referrer-policy": {
+          "direct": "strict-origin-when-cross-origin",
+          "proxy": "strict-origin-when-cross-origin",
+          "equal": true
+        },
+        "x-robots-tag": {
+          "direct": null,
+          "proxy": null,
+          "equal": true
+        }
+      },
+      "checks": {
+        "statusEqual": true,
+        "statusExpected": true,
+        "headersEqual": true,
+        "baseCsp": true,
+        "nonceCsp": true,
+        "uniqueNonces": true
+      },
+      "pass": true
+    },
+    {
+      "id": "capability-document-feedback",
+      "path": "/en/feedback/[redacted]/",
+      "kind": "capability",
+      "directStatus": 404,
+      "proxyStatus": 404,
+      "headers": {
+        "content-security-policy": {
+          "direct": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'nonce-[per-request]' 'strict-dynamic'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: https:; frame-src 'self' blob:; worker-src 'self'",
+          "proxy": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'nonce-[per-request]' 'strict-dynamic'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: https:; frame-src 'self' blob:; worker-src 'self'",
+          "equal": true
+        },
+        "cache-control": {
+          "direct": "private, no-store, max-age=0",
+          "proxy": "private, no-store, max-age=0",
+          "equal": true
+        },
+        "referrer-policy": {
+          "direct": "no-referrer",
+          "proxy": "no-referrer",
+          "equal": true
+        },
+        "x-robots-tag": {
+          "direct": "noindex, nofollow, noarchive",
+          "proxy": "noindex, nofollow, noarchive",
+          "equal": true
+        }
+      },
+      "checks": {
+        "statusEqual": true,
+        "statusExpected": true,
+        "headersEqual": true,
+        "baseCsp": true,
+        "nonceCsp": true,
+        "uniqueNonces": true,
+        "privateNoStore": true,
+        "noReferrer": true,
+        "noIndex": true,
+        "noCookie": true,
+        "noRedirect": true
+      },
+      "pass": true
+    },
+    {
+      "id": "capability-document-saved-share",
+      "path": "/en/saved-share/[redacted]/",
+      "kind": "capability",
+      "directStatus": 404,
+      "proxyStatus": 404,
+      "headers": {
+        "content-security-policy": {
+          "direct": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'nonce-[per-request]' 'strict-dynamic'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: https:; frame-src 'self' blob:; worker-src 'self'",
+          "proxy": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'nonce-[per-request]' 'strict-dynamic'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: https:; frame-src 'self' blob:; worker-src 'self'",
+          "equal": true
+        },
+        "cache-control": {
+          "direct": "private, no-store, max-age=0",
+          "proxy": "private, no-store, max-age=0",
+          "equal": true
+        },
+        "referrer-policy": {
+          "direct": "no-referrer",
+          "proxy": "no-referrer",
+          "equal": true
+        },
+        "x-robots-tag": {
+          "direct": "noindex, nofollow, noarchive",
+          "proxy": "noindex, nofollow, noarchive",
+          "equal": true
+        }
+      },
+      "checks": {
+        "statusEqual": true,
+        "statusExpected": true,
+        "headersEqual": true,
+        "baseCsp": true,
+        "nonceCsp": true,
+        "uniqueNonces": true,
+        "privateNoStore": true,
+        "noReferrer": true,
+        "noIndex": true,
+        "noCookie": true,
+        "noRedirect": true
+      },
+      "pass": true
+    },
+    {
+      "id": "capability-document-communication-preferences",
+      "path": "/en/communication-preferences/[redacted]/",
+      "kind": "capability",
+      "directStatus": 404,
+      "proxyStatus": 404,
+      "headers": {
+        "content-security-policy": {
+          "direct": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'nonce-[per-request]' 'strict-dynamic'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: https:; frame-src 'self' blob:; worker-src 'self'",
+          "proxy": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'nonce-[per-request]' 'strict-dynamic'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: https:; frame-src 'self' blob:; worker-src 'self'",
+          "equal": true
+        },
+        "cache-control": {
+          "direct": "private, no-store, max-age=0",
+          "proxy": "private, no-store, max-age=0",
+          "equal": true
+        },
+        "referrer-policy": {
+          "direct": "no-referrer",
+          "proxy": "no-referrer",
+          "equal": true
+        },
+        "x-robots-tag": {
+          "direct": "noindex, nofollow, noarchive",
+          "proxy": "noindex, nofollow, noarchive",
+          "equal": true
+        }
+      },
+      "checks": {
+        "statusEqual": true,
+        "statusExpected": true,
+        "headersEqual": true,
+        "baseCsp": true,
+        "nonceCsp": true,
+        "uniqueNonces": true,
+        "privateNoStore": true,
+        "noReferrer": true,
+        "noIndex": true,
+        "noCookie": true,
+        "noRedirect": true
+      },
+      "pass": true
+    },
+    {
+      "id": "capability-document-communication-verification",
+      "path": "/en/communication-verification/[redacted]/",
+      "kind": "capability",
+      "directStatus": 404,
+      "proxyStatus": 404,
+      "headers": {
+        "content-security-policy": {
+          "direct": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'nonce-[per-request]' 'strict-dynamic'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: https:; frame-src 'self' blob:; worker-src 'self'",
+          "proxy": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'nonce-[per-request]' 'strict-dynamic'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: https:; frame-src 'self' blob:; worker-src 'self'",
+          "equal": true
+        },
+        "cache-control": {
+          "direct": "private, no-store, max-age=0",
+          "proxy": "private, no-store, max-age=0",
+          "equal": true
+        },
+        "referrer-policy": {
+          "direct": "no-referrer",
+          "proxy": "no-referrer",
+          "equal": true
+        },
+        "x-robots-tag": {
+          "direct": "noindex, nofollow, noarchive",
+          "proxy": "noindex, nofollow, noarchive",
+          "equal": true
+        }
+      },
+      "checks": {
+        "statusEqual": true,
+        "statusExpected": true,
+        "headersEqual": true,
+        "baseCsp": true,
+        "nonceCsp": true,
+        "uniqueNonces": true,
+        "privateNoStore": true,
+        "noReferrer": true,
+        "noIndex": true,
+        "noCookie": true,
+        "noRedirect": true
+      },
+      "pass": true
+    },
+    {
+      "id": "capability-preview-api",
+      "path": "/api/v1/content-previews/[redacted]",
+      "kind": "capability",
+      "directStatus": 404,
+      "proxyStatus": 404,
+      "headers": {
+        "content-security-policy": {
+          "direct": "default-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; sandbox",
+          "proxy": "default-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; sandbox",
+          "equal": true
+        },
+        "cache-control": {
+          "direct": "private, no-store, max-age=0",
+          "proxy": "private, no-store, max-age=0",
+          "equal": true
+        },
+        "referrer-policy": {
+          "direct": "no-referrer",
+          "proxy": "no-referrer",
+          "equal": true
+        },
+        "x-robots-tag": {
+          "direct": "noindex, nofollow, noarchive",
+          "proxy": "noindex, nofollow, noarchive",
+          "equal": true
+        }
+      },
+      "checks": {
+        "statusEqual": true,
+        "statusExpected": true,
+        "headersEqual": true,
+        "privateNoStore": true,
+        "noReferrer": true,
+        "noIndex": true,
+        "noCookie": true,
+        "noRedirect": true
+      },
+      "pass": true
+    },
+    {
+      "id": "capability-wishlist-api",
+      "path": "/api/v1/wishlist-shares/[redacted]",
+      "kind": "capability",
+      "directStatus": 404,
+      "proxyStatus": 404,
+      "headers": {
+        "content-security-policy": {
+          "direct": "default-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; sandbox",
+          "proxy": "default-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; sandbox",
+          "equal": true
+        },
+        "cache-control": {
+          "direct": "private, no-store, max-age=0",
+          "proxy": "private, no-store, max-age=0",
+          "equal": true
+        },
+        "referrer-policy": {
+          "direct": "no-referrer",
+          "proxy": "no-referrer",
+          "equal": true
+        },
+        "x-robots-tag": {
+          "direct": "noindex, nofollow, noarchive",
+          "proxy": "noindex, nofollow, noarchive",
+          "equal": true
+        }
+      },
+      "checks": {
+        "statusEqual": true,
+        "statusExpected": true,
+        "headersEqual": true,
+        "privateNoStore": true,
+        "noReferrer": true,
+        "noIndex": true,
+        "noCookie": true,
+        "noRedirect": true
+      },
+      "pass": true
+    },
+    {
+      "id": "capability-survey-api",
+      "path": "/api/v1/surveys/forms/[redacted]",
+      "kind": "capability",
+      "directStatus": 404,
+      "proxyStatus": 404,
+      "headers": {
+        "content-security-policy": {
+          "direct": "default-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; sandbox",
+          "proxy": "default-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; sandbox",
+          "equal": true
+        },
+        "cache-control": {
+          "direct": "private, no-store, max-age=0",
+          "proxy": "private, no-store, max-age=0",
+          "equal": true
+        },
+        "referrer-policy": {
+          "direct": "no-referrer",
+          "proxy": "no-referrer",
+          "equal": true
+        },
+        "x-robots-tag": {
+          "direct": "noindex, nofollow, noarchive",
+          "proxy": "noindex, nofollow, noarchive",
+          "equal": true
+        }
+      },
+      "checks": {
+        "statusEqual": true,
+        "statusExpected": true,
+        "headersEqual": true,
+        "privateNoStore": true,
+        "noReferrer": true,
+        "noIndex": true,
+        "noCookie": true,
+        "noRedirect": true
+      },
+      "pass": true
+    },
+    {
+      "id": "readiness",
+      "path": "/api/v1/health/ready",
+      "kind": "readiness",
+      "directStatus": 200,
+      "proxyStatus": 200,
+      "headers": {
+        "content-security-policy": {
+          "direct": "default-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; sandbox",
+          "proxy": "default-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; sandbox",
+          "equal": true
+        },
+        "cache-control": {
+          "direct": "private, no-store",
+          "proxy": "private, no-store",
+          "equal": true
+        },
+        "referrer-policy": {
+          "direct": "strict-origin-when-cross-origin",
+          "proxy": "strict-origin-when-cross-origin",
+          "equal": true
+        },
+        "x-robots-tag": {
+          "direct": null,
+          "proxy": null,
+          "equal": true
+        }
+      },
+      "checks": {
+        "statusEqual": true,
+        "statusExpected": true,
+        "headersEqual": true,
+        "ready": true,
+        "noStore": true
+      },
+      "pass": true
+    }
+  ],
+  "imageOptimizer": {
+    "checks": [
+      {
+        "target": "/api/v1/files/private-fixture",
+        "status": 400,
+        "pass": true
+      },
+      {
+        "target": "%2Fapi%2Fv1%2Ffiles%2Fprivate-fixture",
+        "status": 400,
+        "pass": true
+      },
+      {
+        "target": "/downloads/private-fixture",
+        "status": 400,
+        "pass": true
+      },
+      {
+        "target": "https://outside.example.invalid/private-fixture",
+        "status": 400,
+        "pass": true
+      },
+      {
+        "target": "/images/not-in-the-bundled-manifest.png",
+        "status": 400,
+        "pass": true
+      }
+    ],
+    "pass": true
+  },
+  "accessLog": {
+    "appendedBytes": 20228,
+    "correlatedResponses": 3,
+    "correlatedAccessEntries": 3,
+    "refererMarkerRetained": false,
+    "csrfMarkerRetained": false,
+    "requestHeadersRemoved": true,
+    "requestUriRedacted": true,
+    "responseCookieRemoved": true,
+    "responseLocationRemoved": true,
+    "pass": true
+  },
+  "pass": true
+}

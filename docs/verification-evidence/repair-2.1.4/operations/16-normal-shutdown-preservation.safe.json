@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "status": "passed",
+  "recordedAt": "2026-10-25T17:01:10.244261+00:00",
+  "scope": "Normal shutdown and preservation after all required current 2.1.4 disposable Docker acceptance stages",
+  "applicationInputFingerprint": "e5d44f7f6dcfd162d2b60a85443025116373d3e0b28989f6be5b0ececc36534b",
+  "nativeAcceptanceBuildId": "NWcRPAySX3HCzbpKSDJNf",
+  "primaryDockerBuildId": "9PsqpWkzxqBu9_tPY-Ykq",
+  "primaryApplicationImageId": "sha256:78d8c938db87fb9d1c3c455f8f5727e17e8c7dcadce4a570e253b8504b181bb4",
+  "freshDockerBuildId": "9PsqpWkzxqBu9_tPY-Ykq",
+  "freshApplicationImageId": "sha256:4e2190fd5830e15eaf46e5fed15e1dfa4a75a01fefeae59035ef7c36b5c10c36",
+  "poweroff": {
+    "startedAt": "2026-10-25T16:56:59.786016+00:00",
+    "completedAt": "2026-10-25T16:57:08.722123+00:00",
+    "elapsedSeconds": 8.936,
+    "sshPoweroffCommandExitCode": 0,
+    "command": "normal systemctl poweroff",
+    "allRequiredAcceptanceGatesClosedBeforePoweroff": true,
+    "backingMetadataMatchesBeforePoweroff": true
+  },
+  "resumedVmSupervisor": {
+    "startedAt": "2026-10-25T15:53:18.611220+00:00",
+    "completedAt": "2026-10-25T16:57:31.089871+00:00",
+    "exitCode": 0,
+    "exitEvidence": "Supervisor completion receipt after waiting for its owned QEMU process",
+    "ownedQemuProcessAbsentOnReadback": true,
+    "readbackAt": "2026-10-25T17:01:10.244261+00:00",
+    "backingMetadataUnchangedSinceVerifiedResume": true,
+    "officialBaseSha256": "2099e63da0b822ef8e05e3d596c1b402eaaae658fc08ab919cb8495bfcdc488b",
+    "officialBaseMatchesPreviouslyRecordedHistoricalDigest": true,
+    "hostFreeBytesAtCompletion": 7543255040,
+    "writableOverlayAllocatedBytesAtCompletion": 6345527296
+  },
+  "preservation": {
+    "observedAt": "2026-10-25T16:53:23.327048+00:00",
+    "status": "passed",
+    "primaryPersistentVolumesRetained": 6,
+    "freshPersistentVolumesRetained": 6,
+    "volumeSetsDisjoint": true,
+    "allPrimaryContainersRemainStopped": true,
+    "allPreviouslyRetainedPrimaryBackupsStillPresent": true,
+    "primaryEncryptedBackupCount": 7,
+    "exactDownloadedArchiveStillPresentWithRecordedSize": true,
+    "mandatoryPreRestoreSafetyBackupStillPresentWithRecordedSize": true,
+    "freshInitialEncryptedBackupStillPresentWithRecordedSize": true,
+    "bothCurrentReleaseLinksRetained": true,
+    "bothPendingRestoreGuardsAbsent": true,
+    "noBuildCachePruneImageConversionOrVolumeDeletionPerformed": true,
+    "privatePathsNamesAndIdentifiersExported": false
+  },
+  "allRequiredOperationalStagesClosed": true,
+  "normalFinalShutdownConfirmed": true,
+  "separateEarlierExternalInterruptionRetainedInReceipt": "10-external-vm-interruption-recovery.safe.json",
+  "originalInterruptedSupervisorExitStillUnavailable": true,
+  "optionalBuildCachePruneAndImageConversionCancelled": true,
+  "vmRestartPlanned": false,
+  "rawLogsCredentialsKeysCookieAndFixtureIdentifiersExported": false,
+  "limits": [
+    "Fresh acceptance covers one initially empty application installation on an existing Ubuntu/Docker host, continued after a retained network-trust failure; it does not establish bare-host provisioning.",
+    "The current in-place restore was exercised; new-host disaster recovery is not claimed for this version.",
+    "Native acceptance and Docker builds have independently recorded identities."
+  ]
+}

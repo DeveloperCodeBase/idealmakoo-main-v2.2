@@ -1,0 +1,116 @@
+{
+  "format": "idealmakoo-audit-tooling-continuity-v1",
+  "status": "passed",
+  "recordedAt": "2026-10-25T21:14:16.948307+00:00",
+  "priorInputFingerprint": "4fcec50f5846b0affccc59e43798613ba134a3f93559ea5ddba9705e1f38cc58",
+  "currentInputFingerprint": "64a14915618ac34a4daee3aa64eb82d44438b993096491966afc487be9f67b12",
+  "applicationInputCount": 833,
+  "unchangedInputCount": 830,
+  "inputChanges": [
+    "scripts/lib/private-audit-editor-cleanup.mjs",
+    "scripts/lighthouse-private-child.mjs",
+    "scripts/export-private-lighthouse-evidence.mjs"
+  ],
+  "testChanges": [
+    "tests/private-audit-editor-cleanup.test.mjs",
+    "tests/private-lighthouse-export.test.mjs"
+  ],
+  "unchangedCategories": {
+    "applicationSource": 557,
+    "backend": 95,
+    "publicAssets": 140,
+    "database": 41,
+    "workerDirectory": 4,
+    "deployment": 24,
+    "operationalAndOtherScripts": 47
+  },
+  "unchangedMigrations": 41,
+  "compiledBuildId": "ir2DFJg8r5YdpbVQubUqF",
+  "compiledBuildInputFingerprint": "4fcec50f5846b0affccc59e43798613ba134a3f93559ea5ddba9705e1f38cc58",
+  "applicationRebuilt": false,
+  "runtimeSourceChanged": false,
+  "newBrowserAcceptanceClaim": false,
+  "compiledManifestSha256": "61f33ee6cff475317c37ef73d6cce0a7adf8fdf4c3af7c510d6a8b583210fc31",
+  "compiledMembers": 5057,
+  "compiledFiles": 3886,
+  "compiledBytes": 155392964,
+  "compiledExclusions": [
+    ".next/cache"
+  ],
+  "originalManifestSha256": "adde220aa74dc52a0420187839cb2c6d9311d44e430b4fba1c3c3b57c9ff7c80",
+  "historicalPublicManifestSha256": "adde220aa74dc52a0420187839cb2c6d9311d44e430b4fba1c3c3b57c9ff7c80",
+  "exactFiveFileDeltas": [
+    {
+      "path": "scripts/lib/private-audit-editor-cleanup.mjs",
+      "originalSha256": "dfd0442630d3c37e6e650059dc81f8284ce358fda90d20a9ee182010601ce076",
+      "candidateSha256": "0cb0da0aae8032a720b6e88cc5bca942eeb7222eeec7710fc9846017aea258be",
+      "originalBytes": 9583,
+      "candidateBytes": 18438
+    },
+    {
+      "path": "scripts/lighthouse-private-child.mjs",
+      "originalSha256": "4115e3b8e0d6d2fee48277eb3f4818f38c5c9ed5525b3de58287597cac55df50",
+      "candidateSha256": "b65b0d0858f8f4ad06bf5fba7eb3f7248031102971ba4a58a9fc0e86d8ac36f4",
+      "originalBytes": 17832,
+      "candidateBytes": 18010
+    },
+    {
+      "path": "scripts/export-private-lighthouse-evidence.mjs",
+      "originalSha256": "455ba4aca971fd893bb7161142970ebd9048690c60f3e9e7097df70b0745358f",
+      "candidateSha256": "c6937e9780f7f2ecceb61bc09e991616e403ababb1a61e95255d52b15b09f65d",
+      "originalBytes": 38941,
+      "candidateBytes": 39088
+    },
+    {
+      "path": "tests/private-audit-editor-cleanup.test.mjs",
+      "originalSha256": "5ebc2003ba11c1ade4eb4361653296eedb5130f3ff2468810b74daca4e8291cf",
+      "candidateSha256": "1eed31812f2c86988f757442762bc7fc87309a702d22cc16abb3f5e7b48e07bc",
+      "originalBytes": 8630,
+      "candidateBytes": 17494
+    },
+    {
+      "path": "tests/private-lighthouse-export.test.mjs",
+      "originalSha256": "b6ea2d8c34378ac95fec398a454c3c162daf44b056f635b1bf5b7c6f20c0c673",
+      "candidateSha256": "822826d3d17052640ade6ad0f473b136f183c7b7981bc858bae0fe3b532d298d",
+      "originalBytes": 37142,
+      "candidateBytes": 41577
+    }
+  ],
+  "inputSnapshotExitCode": 0,
+  "scope": "Exactly three noncompiled audit-tool scripts and two audit tests changed; compiled application, backend, worker, deployment, migrations and assets retain the accepted ir2 runtime. This is not a new browser or Docker application build acceptance.",
+  "applyCommandExitCodeObserved": 0,
+  "postUnitVerificationExitCodeObserved": 0,
+  "afterUnitAll833InputsAndCompiledRuntimeUnchanged": true,
+  "workerEntrypoint": {
+    "path": "scripts/worker.ts",
+    "sha256": "7c5c0ff5ff793e67e5cfd4bc4670a8e99d0a6d5c46bb217a82adde3d6f69692b",
+    "bytes": 4256,
+    "unchanged": true
+  },
+  "nativeAcceptanceRetained": {
+    "buildId": "ir2DFJg8r5YdpbVQubUqF",
+    "buildInputFingerprint": "4fcec50f5846b0affccc59e43798613ba134a3f93559ea5ddba9705e1f38cc58",
+    "unitTestsAtOriginalBuild": 858,
+    "browserTestsAtOriginalBuild": 69,
+    "browserRepeated": false,
+    "dockerRepeated": false
+  },
+  "toolingAcceptance": {
+    "affectedTests": 63,
+    "fullUnitTests": 871,
+    "countsOverlap": true,
+    "affectedExitCode": 0,
+    "fullUnitExitCode": 0
+  },
+  "rawReceiptHashes": {
+    "tooling-source-continuity.safe.json": "2ad1c908af8bc375d7e3d90c33abdea2da6d3429eb84f65b3a147a6ef4d4aa41",
+    "tooling-post-unit-continuity.safe.json": "7f6722cd848f66bb9a774b1c1fb836f2f6a542961cd2944bdfb64ed8eeb3fad2",
+    "tooling-affected-attempt-01.safe.json": "c3eaa5c42361c8c77f51d0562ea0902e74f8c7652d59f8210d0ea096b75aa187",
+    "tooling-full-unit-attempt-01.safe.json": "6064d0f09bd4a5225acfafa85d5f92bc07648a4c39151b165358f1145fb0ae41",
+    "candidate-review.safe.json": "6c4e55f9f51969662fe58df1ad7796c0fdccebb2e51b62f998ef4f4fd476b811",
+    "synthetic-attempt-01.safe.json": "2ead11bd052c9a52c2f702bee0ece05897a2724f74188bd0e439be22b2fc172b",
+    "synthetic-attempt-03.safe.json": "1dfafce56c1eeef8e1e666e91a0945f66660caff19ec29c77f9237fc0869d5e8"
+  },
+  "capturedInputSnapshotBeforePublicQualificationSha256": "edc4f4bada58eeec98f85becf6255af5ad4795c451c72043b2c2be9a196bbd3c",
+  "currentPublicInputManifestSha256": "fc04da4e3110ee77110fddef5ced25113c1618f9c38cc584ea20e0ce062925f6"
+}

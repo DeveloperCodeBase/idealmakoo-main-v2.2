@@ -1,0 +1,211 @@
+{
+  "format": "offline-static-served-assets-v1",
+  "checkedAt": "2026-10-26T01:10:00.382476+00:00",
+  "status": "passed",
+  "currentInputFingerprint": "7453e88d3e56fbe65ef319c3b0a770bd48fef216505e49e7d3e5955f829655ee",
+  "compiledBuildId": "ir2DFJg8r5YdpbVQubUqF",
+  "requests": [
+    {
+      "surface": "next",
+      "path": "/offline/fa.html",
+      "status": 200,
+      "bytes": 2062,
+      "sha256": "fa773bc257d34b96d61d6057217fb8ab3b42361e90808a56db6f5782c561ac60",
+      "matchesCurrentSourceExactly": true,
+      "contentType": "text/html; charset=UTF-8",
+      "xPublicCache": "1",
+      "contentEncoding": null
+    },
+    {
+      "surface": "proxy",
+      "path": "/offline/fa.html",
+      "status": 200,
+      "bytes": 2062,
+      "sha256": "fa773bc257d34b96d61d6057217fb8ab3b42361e90808a56db6f5782c561ac60",
+      "matchesCurrentSourceExactly": true,
+      "contentType": "text/html; charset=UTF-8",
+      "xPublicCache": "1",
+      "contentEncoding": null
+    },
+    {
+      "surface": "next",
+      "path": "/offline/en.html",
+      "status": 200,
+      "bytes": 1828,
+      "sha256": "95505f4e0ae6218d9191ad8c276c2c79d68095021bf699c7631c44e05ee986fa",
+      "matchesCurrentSourceExactly": true,
+      "contentType": "text/html; charset=UTF-8",
+      "xPublicCache": "1",
+      "contentEncoding": null
+    },
+    {
+      "surface": "proxy",
+      "path": "/offline/en.html",
+      "status": 200,
+      "bytes": 1828,
+      "sha256": "95505f4e0ae6218d9191ad8c276c2c79d68095021bf699c7631c44e05ee986fa",
+      "matchesCurrentSourceExactly": true,
+      "contentType": "text/html; charset=UTF-8",
+      "xPublicCache": "1",
+      "contentEncoding": null
+    },
+    {
+      "surface": "next",
+      "path": "/offline/tr.html",
+      "status": 200,
+      "bytes": 1888,
+      "sha256": "669185a151de220ce2d1aeb06d2b5beeb3b4e0d7b79334284c46d6bcec5fdecd",
+      "matchesCurrentSourceExactly": true,
+      "contentType": "text/html; charset=UTF-8",
+      "xPublicCache": "1",
+      "contentEncoding": null
+    },
+    {
+      "surface": "proxy",
+      "path": "/offline/tr.html",
+      "status": 200,
+      "bytes": 1888,
+      "sha256": "669185a151de220ce2d1aeb06d2b5beeb3b4e0d7b79334284c46d6bcec5fdecd",
+      "matchesCurrentSourceExactly": true,
+      "contentType": "text/html; charset=UTF-8",
+      "xPublicCache": "1",
+      "contentEncoding": null
+    },
+    {
+      "surface": "next",
+      "path": "/offline/ar.html",
+      "status": 200,
+      "bytes": 2041,
+      "sha256": "240752ff32113e7ed00982e09ae5ab45c6e58f8985c635749e7b348e20cd10fc",
+      "matchesCurrentSourceExactly": true,
+      "contentType": "text/html; charset=UTF-8",
+      "xPublicCache": "1",
+      "contentEncoding": null
+    },
+    {
+      "surface": "proxy",
+      "path": "/offline/ar.html",
+      "status": 200,
+      "bytes": 2041,
+      "sha256": "240752ff32113e7ed00982e09ae5ab45c6e58f8985c635749e7b348e20cd10fc",
+      "matchesCurrentSourceExactly": true,
+      "contentType": "text/html; charset=UTF-8",
+      "xPublicCache": "1",
+      "contentEncoding": null
+    },
+    {
+      "surface": "next",
+      "path": "/offline/ru.html",
+      "status": 200,
+      "bytes": 2108,
+      "sha256": "c11f3eac6ace7aa10755d0e6a9efc9479b99745e834de3c50a017e5229a40b3c",
+      "matchesCurrentSourceExactly": true,
+      "contentType": "text/html; charset=UTF-8",
+      "xPublicCache": "1",
+      "contentEncoding": null
+    },
+    {
+      "surface": "proxy",
+      "path": "/offline/ru.html",
+      "status": 200,
+      "bytes": 2108,
+      "sha256": "c11f3eac6ace7aa10755d0e6a9efc9479b99745e834de3c50a017e5229a40b3c",
+      "matchesCurrentSourceExactly": true,
+      "contentType": "text/html; charset=UTF-8",
+      "xPublicCache": "1",
+      "contentEncoding": null
+    },
+    {
+      "surface": "next",
+      "path": "/sw-policy.js",
+      "status": 200,
+      "bytes": 2057,
+      "sha256": "1669fae0fe37dbb16887f483f57d62d2d25b18ea752d3dd05c513a2b4102d389",
+      "matchesCurrentSourceExactly": true,
+      "contentType": "application/javascript; charset=UTF-8",
+      "xPublicCache": null,
+      "contentEncoding": null
+    },
+    {
+      "surface": "proxy",
+      "path": "/sw-policy.js",
+      "status": 200,
+      "bytes": 2057,
+      "sha256": "1669fae0fe37dbb16887f483f57d62d2d25b18ea752d3dd05c513a2b4102d389",
+      "matchesCurrentSourceExactly": true,
+      "contentType": "application/javascript; charset=UTF-8",
+      "xPublicCache": null,
+      "contentEncoding": null
+    },
+    {
+      "surface": "next",
+      "path": "/service-worker.js",
+      "status": 200,
+      "bytes": 3182,
+      "sha256": "d25d7d04a7948dfeb99f8cf285fbcd6836474a43ebed77917fbedae58d0cb213",
+      "matchesCurrentSourceExactly": true,
+      "contentType": "application/javascript; charset=UTF-8",
+      "xPublicCache": null,
+      "contentEncoding": null
+    },
+    {
+      "surface": "proxy",
+      "path": "/service-worker.js",
+      "status": 200,
+      "bytes": 3182,
+      "sha256": "d25d7d04a7948dfeb99f8cf285fbcd6836474a43ebed77917fbedae58d0cb213",
+      "matchesCurrentSourceExactly": true,
+      "contentType": "application/javascript; charset=UTF-8",
+      "xPublicCache": null,
+      "contentEncoding": null
+    },
+    {
+      "surface": "next",
+      "path": "/service-worker-classic.js",
+      "status": 200,
+      "bytes": 5171,
+      "sha256": "58d886ea44d662ff63c1c48b87b4de8aa8a975d3df0250d393723e2d944f4628",
+      "matchesCurrentSourceExactly": true,
+      "contentType": "application/javascript; charset=UTF-8",
+      "xPublicCache": null,
+      "contentEncoding": null
+    },
+    {
+      "surface": "proxy",
+      "path": "/service-worker-classic.js",
+      "status": 200,
+      "bytes": 5171,
+      "sha256": "58d886ea44d662ff63c1c48b87b4de8aa8a975d3df0250d393723e2d944f4628",
+      "matchesCurrentSourceExactly": true,
+      "contentType": "application/javascript; charset=UTF-8",
+      "xPublicCache": null,
+      "contentEncoding": null
+    },
+    {
+      "surface": "next",
+      "path": "/media/official/idealmakoo-favicon-48.png",
+      "status": 200,
+      "bytes": 4791,
+      "sha256": "1c715c272d59df0eceef288dc2effe527a97a9b32d80382acd88ff1a4e9dbc02",
+      "matchesCurrentSourceExactly": true,
+      "contentType": "image/png",
+      "xPublicCache": "1",
+      "contentEncoding": null
+    },
+    {
+      "surface": "proxy",
+      "path": "/media/official/idealmakoo-favicon-48.png",
+      "status": 200,
+      "bytes": 4791,
+      "sha256": "1c715c272d59df0eceef288dc2effe527a97a9b32d80382acd88ff1a4e9dbc02",
+      "matchesCurrentSourceExactly": true,
+      "contentType": "image/png",
+      "xPublicCache": "1",
+      "contentEncoding": null
+    }
+  ],
+  "checks": 18,
+  "http1LoopbackOnly": true,
+  "authenticationCookiesOrResponseBodiesExported": false,
+  "notAnOfflineBrowserProof": true
+}

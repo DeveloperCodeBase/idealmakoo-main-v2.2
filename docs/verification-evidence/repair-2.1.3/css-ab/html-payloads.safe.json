@@ -1,0 +1,154 @@
+{
+  "kind": "unscored-compressed-html-payload-projection",
+  "sourceReportHashes": {
+    "A": "451e1267a6e51307ee4f5a502684348acd02ce48a62648e8b373dab77925223f",
+    "B": "1ba6ed37ff07793ded6495af54fbea73c6e7111457084fa86604357cea709778"
+  },
+  "samples": [
+    {
+      "candidate": "A",
+      "route": "/ar/about/",
+      "device": "mobile",
+      "encoding": "gzip",
+      "wireBodyBytes": 118557,
+      "decodedBytes": 594005,
+      "totalInlineCssBytes": 258842
+    },
+    {
+      "candidate": "A",
+      "route": "/ar/",
+      "device": "mobile",
+      "encoding": "gzip",
+      "wireBodyBytes": 121537,
+      "decodedBytes": 658263,
+      "totalInlineCssBytes": 240627
+    },
+    {
+      "candidate": "A",
+      "route": "/ar/admin/ai/",
+      "device": "mobile",
+      "encoding": "gzip",
+      "wireBodyBytes": 146324,
+      "decodedBytes": 774301,
+      "totalInlineCssBytes": 371178
+    },
+    {
+      "candidate": "A",
+      "route": "/ar/admin/",
+      "device": "mobile",
+      "encoding": "gzip",
+      "wireBodyBytes": 146284,
+      "decodedBytes": 773916,
+      "totalInlineCssBytes": 371178
+    },
+    {
+      "candidate": "A",
+      "route": "/ar/about/",
+      "device": "desktop",
+      "encoding": "gzip",
+      "wireBodyBytes": 118566,
+      "decodedBytes": 594005,
+      "totalInlineCssBytes": 258842
+    },
+    {
+      "candidate": "A",
+      "route": "/ar/",
+      "device": "desktop",
+      "encoding": "gzip",
+      "wireBodyBytes": 121550,
+      "decodedBytes": 658263,
+      "totalInlineCssBytes": 240627
+    },
+    {
+      "candidate": "A",
+      "route": "/ar/admin/ai/",
+      "device": "desktop",
+      "encoding": "gzip",
+      "wireBodyBytes": 146342,
+      "decodedBytes": 774301,
+      "totalInlineCssBytes": 371178
+    },
+    {
+      "candidate": "A",
+      "route": "/ar/admin/",
+      "device": "desktop",
+      "encoding": "gzip",
+      "wireBodyBytes": 146298,
+      "decodedBytes": 773916,
+      "totalInlineCssBytes": 371178
+    },
+    {
+      "candidate": "B",
+      "route": "/ar/about/",
+      "device": "mobile",
+      "encoding": "gzip",
+      "wireBodyBytes": 16627,
+      "decodedBytes": 75632,
+      "totalInlineCssBytes": 0
+    },
+    {
+      "candidate": "B",
+      "route": "/ar/",
+      "device": "mobile",
+      "encoding": "gzip",
+      "wireBodyBytes": 26080,
+      "decodedBytes": 176099,
+      "totalInlineCssBytes": 0
+    },
+    {
+      "candidate": "B",
+      "route": "/ar/admin/ai/",
+      "device": "mobile",
+      "encoding": "gzip",
+      "wireBodyBytes": 8596,
+      "decodedBytes": 29255,
+      "totalInlineCssBytes": 0
+    },
+    {
+      "candidate": "B",
+      "route": "/ar/admin/",
+      "device": "mobile",
+      "encoding": "gzip",
+      "wireBodyBytes": 8574,
+      "decodedBytes": 28883,
+      "totalInlineCssBytes": 0
+    },
+    {
+      "candidate": "B",
+      "route": "/ar/about/",
+      "device": "desktop",
+      "encoding": "gzip",
+      "wireBodyBytes": 16628,
+      "decodedBytes": 75632,
+      "totalInlineCssBytes": 0
+    },
+    {
+      "candidate": "B",
+      "route": "/ar/",
+      "device": "desktop",
+      "encoding": "gzip",
+      "wireBodyBytes": 26070,
+      "decodedBytes": 176099,
+      "totalInlineCssBytes": 0
+    },
+    {
+      "candidate": "B",
+      "route": "/ar/admin/ai/",
+      "device": "desktop",
+      "encoding": "gzip",
+      "wireBodyBytes": 8601,
+      "decodedBytes": 29255,
+      "totalInlineCssBytes": 0
+    },
+    {
+      "candidate": "B",
+      "route": "/ar/admin/",
+      "device": "desktop",
+      "encoding": "gzip",
+      "wireBodyBytes": 8571,
+      "decodedBytes": 28883,
+      "totalInlineCssBytes": 0
+    }
+  ],
+  "note": "wireBodyBytes is only the gzip document body; it excludes separately transferred CSS and all other page assets."
+}

@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/resources/iranian-swiss-shear-bond-cover/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "a00a24c47f73a3e4e5b91d0a9892acd70bedfa76e202c11789fc68c575eaeeb6",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "صورة مرجعية للبحث — الارتباط القصي لكومبوزيت إيراني وسويسري | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "الارتباط القصي لكومبوزيت إيراني وسويسري — وثائق المصنع المصوّرة الأصلية"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/resources/iranian-swiss-shear-bond-cover/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/iranian-swiss-shear-bond-cover/",
+    "en": "http://127.0.0.1:3100/en/resources/iranian-swiss-shear-bond-cover/",
+    "tr": "http://127.0.0.1:3100/tr/resources/iranian-swiss-shear-bond-cover/",
+    "ar": "http://127.0.0.1:3100/ar/resources/iranian-swiss-shear-bond-cover/",
+    "ru": "http://127.0.0.1:3100/ru/resources/iranian-swiss-shear-bond-cover/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/iranian-swiss-shear-bond-cover/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 76
+}

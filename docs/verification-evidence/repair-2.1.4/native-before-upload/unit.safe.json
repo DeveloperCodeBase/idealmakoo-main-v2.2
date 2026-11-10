@@ -1,0 +1,11 @@
+{
+  "gate": "unit-width-final",
+  "command": [
+    "npm",
+    "test"
+  ],
+  "exitCode": 0,
+  "durationSeconds": 32.277,
+  "startedAt": "2026-10-25T11:43:49Z",
+  "finishedAt": "2026-10-25T11:44:21Z"
+}

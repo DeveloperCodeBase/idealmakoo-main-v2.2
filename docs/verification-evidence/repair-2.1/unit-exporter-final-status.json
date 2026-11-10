@@ -1,0 +1,26 @@
+{
+  "gate": "unit",
+  "label": "exporter-final",
+  "startedAt": "2026-10-21T10:48:25.824Z",
+  "finishedAt": "2026-10-21T10:48:54.132Z",
+  "exitCode": 0,
+  "childSignal": null,
+  "spawnError": null,
+  "sourceBefore": {
+    "sha256": "47bd4263d4a26e3a31a1773fbaf7cf6e77d4319dac8826c0e649e1203acf39f0",
+    "files": 819
+  },
+  "sourceAfter": {
+    "sha256": "47bd4263d4a26e3a31a1773fbaf7cf6e77d4319dac8826c0e649e1203acf39f0",
+    "files": 819
+  },
+  "sourceUnchanged": true,
+  "node": "v24.19.0",
+  "counts": {
+    "tests": 688,
+    "passed": 688,
+    "failed": 0,
+    "skipped": 0,
+    "cancelled": 0
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "acceptance": {
+    "applicationFailureEstablished": false,
+    "freshHostRecovery": "unverified",
+    "fullDeploymentAcceptanceEstablished": false,
+    "ordinaryRootlessContainerBuild": "unverified",
+    "originalDockerfileBuild": "unverified"
+  },
+  "actualExecution": {
+    "attemptCount": 1,
+    "automaticApprovalRejection": false,
+    "completedAt": "2026-10-22T06:11:55.034480+00:00",
+    "failure": {
+      "errno": 1,
+      "errnoName": "EPERM",
+      "errorType": "PermissionError",
+      "exactKernelOrSecurityPolicyCauseEstablished": false,
+      "meaning": "Operation not permitted",
+      "stage": "private_proc_mount"
+    },
+    "notReached": [
+      "application-identity synthetic file ownership and write checks",
+      "BuildKit or Docker daemon startup",
+      "original Dockerfile build",
+      "Ubuntu installation or fresh-host recovery"
+    ],
+    "passed": false,
+    "retried": false,
+    "startedAt": "2026-10-22T06:11:55.022410+00:00",
+    "state": "failed",
+    "successfulBoundaries": {
+      "mountNamespaceCreated": true,
+      "multiUidAndGidMappingsVerified": true,
+      "pidNamespaceCreated": true,
+      "privateTmpfsMounted": true,
+      "userNamespaceCreated": true
+    },
+    "supervisorExitCode": 1,
+    "toolActuallyExecuted": true
+  },
+  "capacityObservation": {
+    "availableDiskBytes": 12654497792,
+    "cgroupMemoryCurrentBytes": 8461541376,
+    "cgroupMemoryLimitBytes": 8589934592,
+    "noVmOrBuildStartedByObservation": true,
+    "observedAt": "2026-10-22T06:12:47.026682+00:00",
+    "preparedVmGuardPolicy": {
+      "diskGuardSatisfied": false,
+      "memoryGuardSatisfied": false,
+      "minimumAvailableDiskBytes": 21474836480,
+      "minimumStrictMemoryHeadroomBytes": 5905580032,
+      "policyChanged": false
+    },
+    "processQuietnessAssessed": false,
+    "scope": "one read-only observation of shared verification resources",
+    "strictMemoryHeadroomBytes": 128393216
+  },
+  "cleanup": {
+    "allPinnedChildrenExited": true,
+    "cleanupErrorCount": 0,
+    "parentMountpointUnchangedAndEmpty": true,
+    "parentUnchanged": true,
+    "privateTmpfsUnmounted": true
+  },
+  "interpretation": [
+    "The executed probe established several namespace setup steps, then stopped at the private proc mount permission boundary. The application-identity access test was not reached.",
+    "This is a runtime operating-system permission failure, not an automatic approval rejection. No application or Dockerfile build ran, so the result is not evidence of an application defect.",
+    "The receipt does not establish which kernel or security policy produced EPERM. No retry, policy relaxation or alternative daemon execution was performed for this result.",
+    "Success with an authorized host launcher would not by itself establish ordinary non-root RootlessKit, Docker or BuildKit support; this attempt did not complete even the narrower probe.",
+    "The resource values are time-dependent observations of a shared verification environment. The displayed VM guard policy is an external test policy, not a production system requirement or a permanent capacity conclusion."
+  ],
+  "kind": "container-build-capability-current",
+  "schemaVersion": 1,
+  "scope": {
+    "applicationCodeExecutedByProbe": false,
+    "daemonOrBuildExecutedByProbe": false,
+    "environment": "current shared verification environment",
+    "globalConfigurationChangedByProbe": false,
+    "ordinaryNonRootRootlessDockerDemonstrated": false,
+    "probe": "one authorized host-launcher user, mount and PID namespace capability probe"
+  }
+}

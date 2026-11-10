@@ -1,0 +1,18 @@
+{
+  "command": [
+    "npm",
+    "test"
+  ],
+  "exitCode": 0,
+  "durationSeconds": 31.737,
+  "startedAt": "2026-10-25T11:30:08Z",
+  "finishedAt": "2026-10-25T11:30:40Z",
+  "scope": "Final source including icon-dimension verifier; compiled application code unchanged since full61 browser pass",
+  "tests": 853,
+  "passed": 853,
+  "failed": 0,
+  "skipped": 0,
+  "cancelled": 0,
+  "todo": 0,
+  "logSha256": "9172f1f9da380e62442008fd7979fbb647dae063d42abf20eadbd7cf8da43cb3"
+}

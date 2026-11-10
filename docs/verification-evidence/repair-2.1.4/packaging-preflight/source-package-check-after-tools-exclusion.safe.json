@@ -1,0 +1,27 @@
+{
+  "format": "idealmakoo-source-package-preflight-v1",
+  "startedAt": "2026-10-25T19:21:07.876651+00:00",
+  "finishedAt": "2026-10-25T19:21:11.360428+00:00",
+  "actualExitCode": 0,
+  "elapsedSeconds": 3.484,
+  "command": [
+    "npm",
+    "run",
+    "package:source",
+    "--",
+    "--check"
+  ],
+  "logSha256": "cc768b7338ee40587defbb664597b65f4b09489c74319a43edd13c7d550e0e89",
+  "logBytes": 333,
+  "summary": {
+    "check": "passed",
+    "files": 4393,
+    "uncompressedBytes": 193791084,
+    "excluded": 2,
+    "credentialFindings": 0,
+    "archiveRoot": "idealmakoo-production-2.1.4/"
+  },
+  "archiveCreated": false,
+  "sourcePackageScannerUnchanged": true,
+  "previousFailedAttemptRetained": "source-package-check-before-tools-exclusion.safe.json"
+}

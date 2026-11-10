@@ -1,0 +1,70 @@
+{
+  "url": "http://127.0.0.1:3100/ar/products/president/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "a1d5f7bc68ba8359ee1a96d27d7267d24479d2b0acbad888aa230ee215dcff86",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "أسنان بريزيدنت الصناعية | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "بريزيدنت بنانو كومبوزيت وخمس طبقات وست دورات معالجة للأسنان الأمامية والخلفية."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/products/president/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/president/",
+    "en": "http://127.0.0.1:3100/en/products/president/",
+    "tr": "http://127.0.0.1:3100/tr/products/president/",
+    "ar": "http://127.0.0.1:3100/ar/products/president/",
+    "ru": "http://127.0.0.1:3100/ru/products/president/",
+    "x-default": "http://127.0.0.1:3100/fa/products/president/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "أسنان بريزيدنت الصناعية",
+      "description": "بريزيدنت بنانو كومبوزيت وخمس طبقات وست دورات معالجة للأسنان الأمامية والخلفية.",
+      "image": "http://127.0.0.1:3100/media/official/1686482269.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "PRESIDENT"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/ar/products/president/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 76
+}

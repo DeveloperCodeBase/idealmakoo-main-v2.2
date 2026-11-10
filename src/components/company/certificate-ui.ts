@@ -1,0 +1,6 @@
+import type {CertificateDefinition} from '@/types/company-certificates';
+export const emptyCertificate=():CertificateDefinition=>({title:'',summary:'',issuer:'',certificateNumber:'',standard:'',validFrom:'',validUntil:'',issuerUrl:'',resourceId:null,resourceVersionId:null});
+export function certificateDate(value:string,locale:string){const date=new Date(value+'T00:00:00Z');return Number.isFinite(date.getTime())?new Intl.DateTimeFormat(locale,{dateStyle:'medium',timeZone:'UTC'}).format(date):value;}
+export function certificateIssuerUrl(value:string):string|null{try{const url=new URL(value);return url.protocol==='https:'&&!url.username&&!url.password?url.href:null;}catch{return null;}}
+export function completeCertificate(value:CertificateDefinition){return !![value.title,value.summary,value.issuer,value.certificateNumber,value.standard,value.validFrom,value.validUntil].every(item=>item.trim())&&value.validFrom<=value.validUntil&&!!value.resourceId&&!!value.resourceVersionId;}
+export function certificateFilename(slug:string,locale:string,mime:string){const extension=({'application/pdf':'pdf','application/vnd.openxmlformats-officedocument.wordprocessingml.document':'docx','image/png':'png','image/jpeg':'jpg','image/webp':'webp','video/mp4':'mp4'} as Record<string,string>)[mime]||'bin';return `${slug}-${locale}.${extension}`;}

@@ -1,0 +1,283 @@
+{
+  "kind": "exact-stylesheet-literal-copies-in-html-and-flight",
+  "method": "Decode the emitted self.__next_f.push string frames, join the Flight stream, then count exact full emitted stylesheet contents separately in style elements and Flight data. CSS contents are already independently byte-identical between builds.",
+  "rows": [
+    {
+      "route": "/ar/",
+      "A": {
+        "documentBytes": 658263,
+        "flightBytes": 263236,
+        "headLiteralCssBytes": 240627,
+        "flightLiteralCssBytes": 240627,
+        "occurrences": [
+          {
+            "file": "62b6680ce98576a2.css",
+            "bytes": 90527,
+            "headCopies": 1,
+            "flightCopies": 1
+          },
+          {
+            "file": "80fccfd76ea5bd0a.css",
+            "bytes": 48862,
+            "headCopies": 1,
+            "flightCopies": 1
+          },
+          {
+            "file": "84397fae94acf730.css",
+            "bytes": 5142,
+            "headCopies": 1,
+            "flightCopies": 1
+          },
+          {
+            "file": "868cca9060d35dea.css",
+            "bytes": 1545,
+            "headCopies": 1,
+            "flightCopies": 1
+          },
+          {
+            "file": "a8aa5802b60669e4.css",
+            "bytes": 20443,
+            "headCopies": 1,
+            "flightCopies": 1
+          },
+          {
+            "file": "c2c8f7ce724c4cd0.css",
+            "bytes": 17328,
+            "headCopies": 1,
+            "flightCopies": 1
+          },
+          {
+            "file": "dc926db41d8d4e30.css",
+            "bytes": 56780,
+            "headCopies": 1,
+            "flightCopies": 1
+          }
+        ]
+      },
+      "B": {
+        "documentBytes": 176099,
+        "flightBytes": 23364,
+        "headLiteralCssBytes": 0,
+        "flightLiteralCssBytes": 0,
+        "occurrences": []
+      }
+    },
+    {
+      "route": "/ar/about/",
+      "A": {
+        "documentBytes": 594005,
+        "flightBytes": 282136,
+        "headLiteralCssBytes": 258842,
+        "flightLiteralCssBytes": 258842,
+        "occurrences": [
+          {
+            "file": "30d2f432db07eb89.css",
+            "bytes": 20304,
+            "headCopies": 1,
+            "flightCopies": 1
+          },
+          {
+            "file": "62b6680ce98576a2.css",
+            "bytes": 90527,
+            "headCopies": 1,
+            "flightCopies": 1
+          },
+          {
+            "file": "7b815423c151045d.css",
+            "bytes": 11253,
+            "headCopies": 1,
+            "flightCopies": 1
+          },
+          {
+            "file": "80fccfd76ea5bd0a.css",
+            "bytes": 48862,
+            "headCopies": 1,
+            "flightCopies": 1
+          },
+          {
+            "file": "84397fae94acf730.css",
+            "bytes": 5142,
+            "headCopies": 1,
+            "flightCopies": 1
+          },
+          {
+            "file": "868cca9060d35dea.css",
+            "bytes": 1545,
+            "headCopies": 1,
+            "flightCopies": 1
+          },
+          {
+            "file": "a8aa5802b60669e4.css",
+            "bytes": 20443,
+            "headCopies": 1,
+            "flightCopies": 1
+          },
+          {
+            "file": "d9d3081018677c38.css",
+            "bytes": 3986,
+            "headCopies": 1,
+            "flightCopies": 1
+          },
+          {
+            "file": "dc926db41d8d4e30.css",
+            "bytes": 56780,
+            "headCopies": 1,
+            "flightCopies": 1
+          }
+        ]
+      },
+      "B": {
+        "documentBytes": 75632,
+        "flightBytes": 24256,
+        "headLiteralCssBytes": 0,
+        "flightLiteralCssBytes": 0,
+        "occurrences": []
+      }
+    },
+    {
+      "route": "/ar/admin/",
+      "A": {
+        "documentBytes": 773916,
+        "flightBytes": 392296,
+        "headLiteralCssBytes": 371178,
+        "flightLiteralCssBytes": 371178,
+        "occurrences": [
+          {
+            "file": "2c994303d28622e9.css",
+            "bytes": 4701,
+            "headCopies": 1,
+            "flightCopies": 1
+          },
+          {
+            "file": "38361df4e86fc522.css",
+            "bytes": 102210,
+            "headCopies": 1,
+            "flightCopies": 1
+          },
+          {
+            "file": "62b6680ce98576a2.css",
+            "bytes": 90527,
+            "headCopies": 1,
+            "flightCopies": 1
+          },
+          {
+            "file": "80fccfd76ea5bd0a.css",
+            "bytes": 48862,
+            "headCopies": 1,
+            "flightCopies": 1
+          },
+          {
+            "file": "84397fae94acf730.css",
+            "bytes": 5142,
+            "headCopies": 1,
+            "flightCopies": 1
+          },
+          {
+            "file": "868cca9060d35dea.css",
+            "bytes": 1545,
+            "headCopies": 1,
+            "flightCopies": 1
+          },
+          {
+            "file": "a8aa5802b60669e4.css",
+            "bytes": 20443,
+            "headCopies": 1,
+            "flightCopies": 1
+          },
+          {
+            "file": "cfd2996242920124.css",
+            "bytes": 40968,
+            "headCopies": 1,
+            "flightCopies": 1
+          },
+          {
+            "file": "dc926db41d8d4e30.css",
+            "bytes": 56780,
+            "headCopies": 1,
+            "flightCopies": 1
+          }
+        ]
+      },
+      "B": {
+        "documentBytes": 28883,
+        "flightBytes": 22078,
+        "headLiteralCssBytes": 0,
+        "flightLiteralCssBytes": 0,
+        "occurrences": []
+      }
+    },
+    {
+      "route": "/ar/admin/ai/",
+      "A": {
+        "documentBytes": 774301,
+        "flightBytes": 392622,
+        "headLiteralCssBytes": 371178,
+        "flightLiteralCssBytes": 371178,
+        "occurrences": [
+          {
+            "file": "2c994303d28622e9.css",
+            "bytes": 4701,
+            "headCopies": 1,
+            "flightCopies": 1
+          },
+          {
+            "file": "38361df4e86fc522.css",
+            "bytes": 102210,
+            "headCopies": 1,
+            "flightCopies": 1
+          },
+          {
+            "file": "62b6680ce98576a2.css",
+            "bytes": 90527,
+            "headCopies": 1,
+            "flightCopies": 1
+          },
+          {
+            "file": "80fccfd76ea5bd0a.css",
+            "bytes": 48862,
+            "headCopies": 1,
+            "flightCopies": 1
+          },
+          {
+            "file": "84397fae94acf730.css",
+            "bytes": 5142,
+            "headCopies": 1,
+            "flightCopies": 1
+          },
+          {
+            "file": "868cca9060d35dea.css",
+            "bytes": 1545,
+            "headCopies": 1,
+            "flightCopies": 1
+          },
+          {
+            "file": "a8aa5802b60669e4.css",
+            "bytes": 20443,
+            "headCopies": 1,
+            "flightCopies": 1
+          },
+          {
+            "file": "cfd2996242920124.css",
+            "bytes": 40968,
+            "headCopies": 1,
+            "flightCopies": 1
+          },
+          {
+            "file": "dc926db41d8d4e30.css",
+            "bytes": 56780,
+            "headCopies": 1,
+            "flightCopies": 1
+          }
+        ]
+      },
+      "B": {
+        "documentBytes": 29255,
+        "flightBytes": 22394,
+        "headLiteralCssBytes": 0,
+        "flightLiteralCssBytes": 0,
+        "occurrences": []
+      }
+    }
+  ],
+  "routeLabelCorrectionSourceSha256": "49d1cdef5eed5d0157fd091c7db4ebaa4f2c509445b69b47d42e0d32ad5d2da6"
+}

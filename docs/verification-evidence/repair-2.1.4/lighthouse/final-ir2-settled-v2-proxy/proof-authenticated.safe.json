@@ -1,0 +1,274 @@
+{
+  "format": "native-proxy-bounded-proof-safe-v1",
+  "mode": "authenticated",
+  "startedAt": "2026-10-25T21:25:01.236Z",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "publicOrigin": "http://127.0.0.1:3100",
+  "upstreamOrigin": "http://127.0.0.1:3102",
+  "status": "passed",
+  "requestCount": 22,
+  "checks": [
+    {
+      "code": "PROOF_BUILD_ID_MATCH",
+      "passed": true
+    },
+    {
+      "code": "PROOF_RUNTIME_ENV_SCOPE",
+      "passed": true
+    },
+    {
+      "code": "PROOF_OWNED_RUN_REQUIRED",
+      "passed": true
+    },
+    {
+      "code": "PROOF_MUST_PRECEDE_INVENTORY_FREEZE",
+      "passed": true
+    },
+    {
+      "code": "PROOF_GUARDED_RUN_DATABASE_MATCH",
+      "passed": true
+    },
+    {
+      "code": "PROOF_ALL_TWELVE_PREPARED_ACTORS_DISABLED",
+      "passed": true
+    },
+    {
+      "code": "PROOF_FRESH_OWNED_MFA_ACTOR_REQUIRED",
+      "passed": true
+    },
+    {
+      "code": "PROOF_EXISTING_LOGIN_BUDGET_SUFFICIENT",
+      "passed": true
+    },
+    {
+      "code": "PROOF_MISSING_CSRF_DENIED",
+      "passed": true
+    },
+    {
+      "code": "PROOF_CSRF_SESSION_HTTP",
+      "passed": true
+    },
+    {
+      "code": "PROOF_CSRF_TOKEN_PRESENT",
+      "passed": true
+    },
+    {
+      "code": "PROOF_API_HTTP",
+      "passed": true,
+      "httpStatus": 403,
+      "expectedStatus": 403
+    },
+    {
+      "code": "PROOF_FOREIGN_ORIGIN_DENIED",
+      "passed": true
+    },
+    {
+      "code": "PROOF_CSRF_SESSION_HTTP",
+      "passed": true
+    },
+    {
+      "code": "PROOF_CSRF_TOKEN_PRESENT",
+      "passed": true
+    },
+    {
+      "code": "PROOF_API_HTTP",
+      "passed": true,
+      "httpStatus": 200,
+      "expectedStatus": 200
+    },
+    {
+      "code": "PROOF_REAL_INITIAL_LOGIN",
+      "passed": true
+    },
+    {
+      "code": "PROOF_API_HTTP",
+      "passed": true,
+      "httpStatus": 403,
+      "expectedStatus": 403
+    },
+    {
+      "code": "PROOF_STAFF_MFA_ENFORCED",
+      "passed": true
+    },
+    {
+      "code": "PROOF_CSRF_SESSION_HTTP",
+      "passed": true
+    },
+    {
+      "code": "PROOF_CSRF_TOKEN_PRESENT",
+      "passed": true
+    },
+    {
+      "code": "PROOF_API_HTTP",
+      "passed": true,
+      "httpStatus": 200,
+      "expectedStatus": 200
+    },
+    {
+      "code": "PROOF_REAL_MFA_ENROLLMENT",
+      "passed": true
+    },
+    {
+      "code": "PROOF_CSRF_SESSION_HTTP",
+      "passed": true
+    },
+    {
+      "code": "PROOF_CSRF_TOKEN_PRESENT",
+      "passed": true
+    },
+    {
+      "code": "PROOF_API_HTTP",
+      "passed": true,
+      "httpStatus": 200,
+      "expectedStatus": 200
+    },
+    {
+      "code": "PROOF_API_HTTP",
+      "passed": true,
+      "httpStatus": 200,
+      "expectedStatus": 200
+    },
+    {
+      "code": "PROOF_MFA_SESSION_IDENTITY",
+      "passed": true
+    },
+    {
+      "code": "PROOF_COMPRESSION_HTTP_200",
+      "passed": true
+    },
+    {
+      "code": "PROOF_NEGOTIATED_GZIP",
+      "passed": true
+    },
+    {
+      "code": "PROOF_COMPRESSION_VARY",
+      "passed": true
+    },
+    {
+      "code": "PROOF_JSON_MIME",
+      "passed": true
+    },
+    {
+      "code": "PROOF_DECODED_RESPONSES_EQUAL",
+      "passed": true
+    },
+    {
+      "code": "PROOF_JSON_TRANSFER_SMALLER",
+      "passed": true,
+      "identityBytes": 349641,
+      "gzipBytes": 67936,
+      "decodedBytes": 349641,
+      "httpVersion": "1.1"
+    },
+    {
+      "code": "PROOF_PRIVATE_COMPRESSION_REMAINS_NO_STORE",
+      "passed": true
+    },
+    {
+      "code": "PROOF_CSRF_SESSION_HTTP",
+      "passed": true
+    },
+    {
+      "code": "PROOF_CSRF_TOKEN_PRESENT",
+      "passed": true
+    },
+    {
+      "code": "PROOF_API_HTTP",
+      "passed": true,
+      "httpStatus": 200,
+      "expectedStatus": 200
+    },
+    {
+      "code": "PROOF_CSRF_SESSION_HTTP",
+      "passed": true
+    },
+    {
+      "code": "PROOF_CSRF_TOKEN_PRESENT",
+      "passed": true
+    },
+    {
+      "code": "PROOF_API_HTTP",
+      "passed": true,
+      "httpStatus": 200,
+      "expectedStatus": 200
+    },
+    {
+      "code": "PROOF_REAL_SECOND_LOGIN_CHALLENGE",
+      "passed": true
+    },
+    {
+      "code": "PROOF_OWNED_MFA_PROOF_SOURCE",
+      "passed": true
+    },
+    {
+      "code": "PROOF_REAL_MFA_COUNTER_WAIT_BOUNDED",
+      "passed": true
+    },
+    {
+      "code": "PROOF_CSRF_SESSION_HTTP",
+      "passed": true
+    },
+    {
+      "code": "PROOF_CSRF_TOKEN_PRESENT",
+      "passed": true
+    },
+    {
+      "code": "PROOF_API_HTTP",
+      "passed": true,
+      "httpStatus": 200,
+      "expectedStatus": 200
+    },
+    {
+      "code": "PROOF_API_HTTP",
+      "passed": true,
+      "httpStatus": 200,
+      "expectedStatus": 200
+    },
+    {
+      "code": "PROOF_REAL_MFA_WORKSPACE_ACCESS",
+      "passed": true
+    },
+    {
+      "code": "PROOF_SESSION_USES_REAL_PROXY_CLIENT_IP",
+      "passed": true
+    },
+    {
+      "code": "PROOF_FORGED_FORWARDING_HEADERS_CANNOT_SELECT_BUCKET",
+      "passed": true,
+      "expectedBucketIncrement": 2,
+      "forgedOrDirectBucketsUnchanged": true
+    },
+    {
+      "code": "PROOF_CSRF_SESSION_HTTP",
+      "passed": true
+    },
+    {
+      "code": "PROOF_CSRF_TOKEN_PRESENT",
+      "passed": true
+    },
+    {
+      "code": "PROOF_API_HTTP",
+      "passed": true,
+      "httpStatus": 200,
+      "expectedStatus": 200
+    },
+    {
+      "code": "PROOF_BUSINESS_WORKLOAD_UNCHANGED",
+      "passed": true
+    }
+  ],
+  "browserStarted": false,
+  "rateLimitsReset": false,
+  "additionalBusinessRecordsCreated": false,
+  "secretValuesOrHashesExported": false,
+  "privateBodiesCookiesMfaSeedsExported": false,
+  "receivedSignals": [],
+  "interrupted": false,
+  "cleanup": {
+    "attempted": true,
+    "ownedActorDisabled": true,
+    "ownedSessionsRevoked": true,
+    "proofConnectionStatementDeadlineMs": 5000
+  },
+  "finishedAt": "2026-10-25T21:25:30.254Z"
+}

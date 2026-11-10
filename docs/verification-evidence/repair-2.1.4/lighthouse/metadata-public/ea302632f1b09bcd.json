@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/inquiry-list/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "e910f037a1636b8a6b2e4689dc49c5a594c7de7e5b97d5a546c539e6f1383dcc",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Talep listesi | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Seçilen ürünleri ve miktarları inceleyin, talep listenizi düzenleyin ve fabrikaya teknik ürün talebi gönderin."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/inquiry-list/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/inquiry-list/",
+    "en": "http://127.0.0.1:3100/en/inquiry-list/",
+    "tr": "http://127.0.0.1:3100/tr/inquiry-list/",
+    "ar": "http://127.0.0.1:3100/ar/inquiry-list/",
+    "ru": "http://127.0.0.1:3100/ru/inquiry-list/",
+    "x-default": "http://127.0.0.1:3100/fa/inquiry-list/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 40
+}

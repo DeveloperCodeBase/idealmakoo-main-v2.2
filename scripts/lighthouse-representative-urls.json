@@ -1,0 +1,16 @@
+[
+  {"url":"/fa/","kind":"representative-home","indexed":true},
+  {"url":"/en/","kind":"representative-home","indexed":true},
+  {"url":"/ar/","kind":"representative-home","indexed":true},
+  {"url":"/tr/","kind":"representative-home","indexed":true},
+  {"url":"/ru/","kind":"representative-home","indexed":true},
+  {"url":"/fa/products/","kind":"representative-catalogue","indexed":true},
+  {"url":"/en/contact/","kind":"representative-request","indexed":true},
+  {"url":"/fa/quality/","kind":"representative-company","indexed":true},
+  {"url":"/en/research/","kind":"representative-editorial","indexed":true},
+  {"url":"/en/resources/","kind":"representative-resources","indexed":true},
+  {"url":"/ar/faq/","kind":"representative-faq","indexed":true},
+  {"url":"/tr/tools/shade-mould-matcher/","kind":"representative-tool","indexed":true},
+  {"url":"/ru/auth/login/","kind":"public-auth","indexed":false},
+  {"url":"/en/auth/register/","kind":"public-auth","indexed":false}
+]

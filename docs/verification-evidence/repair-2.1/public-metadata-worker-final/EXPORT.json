@@ -1,0 +1,48 @@
+{
+  "createdAt": "2026-10-21T10:43:41.083466+00:00",
+  "format": "public-metadata-evidence-v1",
+  "buildId": "-Q7Ffy3JmwVExwxk-Ymk-",
+  "publicContentHash": "c81fb2b40e486f8608c7c7da584d76197bef191244fad9d1b45128ddbb7e8e74",
+  "inventoryHash": "678ed9c29732f5c3475a4ee5bd3e9faded88ee51b8af047834d35d02cd855bf6",
+  "expected": 620,
+  "checked": 620,
+  "coverageComplete": true,
+  "passed": 620,
+  "errors": 0,
+  "warnings": 0,
+  "kinds": {
+    "public": 590,
+    "expected-404": 5,
+    "public-auth": 25
+  },
+  "indexed": 590,
+  "sourceSummarySha256": "0f3a95a78c5da8fe1467cc11d90931390c6729cc595571d6f9cf2d3075c4fd81",
+  "files": [
+    {
+      "name": "editorial-baseline.json",
+      "bytes": 36807,
+      "sha256": "273891265a0d49655826a86bad2c237f1041da3a12fa174604ca0ff23e79ec37"
+    },
+    {
+      "name": "editorial-comparison.json",
+      "bytes": 1128,
+      "sha256": "80c707cd03d7ec8da0f04a3674b4ebad33a4b5058fc45e60203ca6d0b9cc13bb"
+    },
+    {
+      "name": "inventory.json",
+      "bytes": 146957,
+      "sha256": "0eb01dead7a5006a0971736d66b9cc140d0fb4c8e1df072ac7a38fc95e902c86"
+    },
+    {
+      "name": "manifest.json",
+      "bytes": 2221,
+      "sha256": "3b1e6da6fbdcb513b308ebd1f5025a1ebf3c997cea97516daa65bb03ef683620"
+    },
+    {
+      "name": "summary.json",
+      "bytes": 1090598,
+      "sha256": "0f3a95a78c5da8fe1467cc11d90931390c6729cc595571d6f9cf2d3075c4fd81"
+    }
+  ],
+  "note": "HTTP/HTML/JSON-LD/reciprocity validation and duplicate-metadata review. This is not a Lighthouse score, full editorial review or Google Rich Results test."
+}

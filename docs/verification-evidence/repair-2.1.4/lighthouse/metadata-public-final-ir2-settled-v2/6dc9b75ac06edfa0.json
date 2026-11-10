@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/resources/iranian-swiss-shear-bond-cover/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "dedc1bd9e116cd1a26f02815a1159c83466b8a3c4e090eb90c710f49db2e2fe0",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Иллюстрация исследования — Соединение на сдвиг иранского и швейцарского композитов | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Соединение на сдвиг иранского и швейцарского композитов — Оригинальные графические документы завода"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/resources/iranian-swiss-shear-bond-cover/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/iranian-swiss-shear-bond-cover/",
+    "en": "http://127.0.0.1:3100/en/resources/iranian-swiss-shear-bond-cover/",
+    "tr": "http://127.0.0.1:3100/tr/resources/iranian-swiss-shear-bond-cover/",
+    "ar": "http://127.0.0.1:3100/ar/resources/iranian-swiss-shear-bond-cover/",
+    "ru": "http://127.0.0.1:3100/ru/resources/iranian-swiss-shear-bond-cover/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/iranian-swiss-shear-bond-cover/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 48
+}

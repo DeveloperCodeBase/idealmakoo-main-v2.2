@@ -1,0 +1,30 @@
+{
+  "format": "native-topology-seal-safe-derivative-v1",
+  "recordedAt": "2026-10-25T21:22:48.570643+00:00",
+  "actualExitCode": 72,
+  "errorCode": "NEXT_LISTENER_DRIFT",
+  "guardSha256": "529320485df3347acfed3fffa77a558199240654083746c975a4ea0c96f6e76f",
+  "contractWritten": false,
+  "priorContextBoundaryAttemptOutcome": "unobserved",
+  "priorContextBoundaryContractAbsent": true,
+  "secretValuesOrHashesExported": false,
+  "originalPrivateReceiptSha256": "05914d9daafc7c55aa1f765c1fa35783eee9aade0b03f6656ce0ba41326064d0",
+  "omittedInternalExecutionIdentifiers": true,
+  "diagnosis": {
+    "nextOwnedListeners": [
+      {
+        "host": "127.0.0.1",
+        "port": 3102
+      }
+    ],
+    "workerOwnedListeners": [],
+    "declaredWorkerHostnameIsLoopback": true,
+    "workerIncorrectlyClassifiedFromEnvironment": true
+  },
+  "additionalAdHocEnvironmentRead": {
+    "automaticReview": "rejected",
+    "executed": false,
+    "reason": "Broad live process environment read was considered unnecessary credential probing.",
+    "saferDiagnostic": "Owned sockets plus already approved declared role mapping; no live environment read retried."
+  }
+}

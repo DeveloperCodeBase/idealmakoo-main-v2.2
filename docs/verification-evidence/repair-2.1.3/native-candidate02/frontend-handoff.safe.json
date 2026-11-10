@@ -1,0 +1,40 @@
+{
+  "kind": "frontend-final-native-handoff",
+  "createdAt": "2026-10-25T07:55:41.989619+00:00",
+  "applicationVersion": "2.1.3",
+  "buildId": "JUTCtkNIJ8CT540y_qNL_",
+  "sourceInputSha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+  "finalGates": {
+    "unitPassed": 820,
+    "unitSkipped": 0,
+    "typecheckExitCode": 0,
+    "productionBuildExitCode": 0,
+    "browserPassed": 56,
+    "browserSkipped": 0,
+    "browserAttempts": 56,
+    "galleryTypingAndImmediateSave": "passed",
+    "publicMetadataPassed": 620,
+    "publicMetadataErrors": 0,
+    "publicMetadataWarnings": 0
+  },
+  "finalInventories": {
+    "commands": 25,
+    "targetStates": 1223,
+    "scoredTargets": 0,
+    "pendingTargets": 1223,
+    "plannedScoredLhrs": 1218,
+    "plannedExpected404Contracts": 5,
+    "desktopOutsideScope": 1077
+  },
+  "boundaries": {
+    "frontendNativeServicesStopped": true,
+    "originalServiceOuterWaitsConsumed": true,
+    "backendOwnerReportedPg13432NormalExit0AndWaitConsumed": true,
+    "scoringRequiresRootReleaseAfterFrozenCandidateUpdaterVm": true,
+    "finalProductSourceAndRuntimeBuildPreserved": true
+  },
+  "auditWorkloadHash": "e72a1cdda7a8870e9a3fe7eaa4e5c4b2e7b130fdf3f5a5e0ae78067a16a675e0",
+  "publicContentHash": "c81fb2b40e486f8608c7c7da584d76197bef191244fad9d1b45128ddbb7e8e74",
+  "preparedScoringPlanSha256": "d6d15d11bc999e4b0edb4c1e09eefb53b5ffec26dc3fa82ee90be9f520240e9f",
+  "sourceHandoffSha256": "0da070186b6e54790f49ceee0d7ecd622f60cabefeef13832c2c5b77df333f38"
+}

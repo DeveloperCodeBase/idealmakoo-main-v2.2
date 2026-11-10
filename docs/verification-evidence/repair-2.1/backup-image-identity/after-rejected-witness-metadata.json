@@ -1,0 +1,35 @@
+{
+  "observedAt": "2026-10-21T14:51:40.398140+00:00",
+  "readOnly": true,
+  "images": [
+    {
+      "Id": "sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a",
+      "RepoTags": [
+        "pgvector/pgvector:pg16"
+      ],
+      "RepoDigests": [
+        "pgvector/pgvector@sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a"
+      ],
+      "Descriptor": {
+        "mediaType": "application/vnd.oci.image.index.v1+json",
+        "digest": "sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a",
+        "size": 1609
+      }
+    },
+    {
+      "Id": "sha256:f9eb6ed57f237a75b8845a4a01ebd295925d99beec78de7fa7ad5d21f45c182d",
+      "RepoTags": [
+        "idealmakoo-app:20261021T135944Z-547a4641"
+      ],
+      "RepoDigests": [
+        "idealmakoo-app@sha256:f9eb6ed57f237a75b8845a4a01ebd295925d99beec78de7fa7ad5d21f45c182d"
+      ],
+      "Descriptor": {
+        "mediaType": "application/vnd.oci.image.index.v1+json",
+        "digest": "sha256:f9eb6ed57f237a75b8845a4a01ebd295925d99beec78de7fa7ad5d21f45c182d",
+        "size": 856
+      }
+    }
+  ],
+  "remainingTestContainerIds": []
+}

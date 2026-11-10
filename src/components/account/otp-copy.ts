@@ -1,0 +1,22 @@
+const phrase=(fa:string,en:string,tr:string,ar:string,ru:string)=>({fa,en,tr,ar,ru});
+export const otpCopy={
+ sms:phrase('ورود / ثبت‌نام با پیامک','SMS sign-in / registration','SMS ile giriş / kayıt','الدخول / التسجيل برسالة نصية','Вход / регистрация по SMS'),
+ email:phrase('ورود با ایمیل و رمز','Email and password','E-posta ve parola','البريد وكلمة المرور','Почта и пароль'),
+ phone:phrase('شمارهٔ همراه','Mobile number','Cep telefonu','رقم الجوال','Мобильный номер'),
+ name:phrase('نام شما (اختیاری)','Your name (optional)','Adınız (isteğe bağlı)','اسمك (اختياري)','Имя (необязательно)'),
+ intro:phrase('برای ورود یا ساخت حساب مشتری، کد یک‌بارمصرف به شمارهٔ شما ارسال می‌شود.','Receive a one-time code to sign in or create a customer account.','Giriş yapmak veya müşteri hesabı oluşturmak için tek kullanımlık kod alın.','استلم رمزًا لمرة واحدة للدخول أو إنشاء حساب عميل.','Получите одноразовый код для входа или создания аккаунта клиента.'),
+ consent:phrase('شرایط استفاده و پردازش شماره برای ورود را می‌پذیرم.','I accept the terms and processing of my number for sign-in.','Koşulları ve numaramın giriş için işlenmesini kabul ediyorum.','أوافق على الشروط ومعالجة رقمي لتسجيل الدخول.','Я принимаю условия и обработку номера для входа.'),
+ send:phrase('دریافت کد ورود','Send sign-in code','Giriş kodu gönder','إرسال رمز الدخول','Отправить код'),
+ verify:phrase('تأیید کد و ورود','Verify and sign in','Doğrula ve giriş yap','تحقق وادخل','Подтвердить и войти'),
+ code:phrase('کد پیامک','SMS code','SMS kodu','رمز الرسالة','Код из SMS'),
+ sent:phrase('درخواست ارسال کد ثبت شد. کد دریافتی را وارد کنید.','Code delivery was requested. Enter the code you receive.','Kod gönderimi istendi. Gelen kodu girin.','طُلب إرسال الرمز. أدخل الرمز الذي تستلمه.','Отправка кода запрошена. Введите полученный код.'),
+ expiry:phrase('اعتبار کد تا','Code valid until','Kodun son geçerliliği','الرمز صالح حتى','Код действителен до'),
+ resend:phrase('ارسال کد تازه','Send a new code','Yeni kod gönder','إرسال رمز جديد','Отправить новый код'),
+ change:phrase('تغییر شماره','Change number','Numarayı değiştir','تغيير الرقم','Изменить номер'),
+ disabled:phrase('ورود پیامکی هنوز روی این سایت فعال نیست. از روش ایمیل استفاده کنید یا با پشتیبانی تماس بگیرید.','SMS sign-in is not enabled on this site yet. Use email or contact support.','Bu sitede SMS girişi henüz etkin değil. E-posta kullanın veya destekle iletişime geçin.','الدخول برسالة غير مفعّل في هذا الموقع بعد. استخدم البريد أو تواصل مع الدعم.','Вход по SMS пока не включён. Используйте почту или обратитесь в поддержку.'),
+ invalid:phrase('شمارهٔ همراه معتبر وارد کنید؛ نمونه: ۰۹۱۲۱۲۳۴۵۶۷.','Enter a valid mobile number, for example +989121234567.','Geçerli bir cep telefonu girin, örneğin +989121234567.','أدخل رقم جوال صالحًا، مثل ‎+989121234567.','Введите корректный мобильный номер, например +989121234567.'),
+ wrong:phrase('کد معتبر نیست یا منقضی شده است. کد تازه را بررسی کنید.','The code is invalid or expired. Check the latest code.','Kod geçersiz veya süresi dolmuş. Son kodu kontrol edin.','الرمز غير صالح أو منتهي. تحقق من أحدث رمز.','Код неверен или истёк. Проверьте последний код.'),
+ wait:phrase('در حال بررسی…','Checking…','Kontrol ediliyor…','جارٍ التحقق…','Проверка…'),
+ retry:phrase('بررسی دوبارهٔ سرویس','Check service again','Hizmeti tekrar kontrol et','فحص الخدمة مجددًا','Проверить сервис снова'),
+ secure:phrase('این روش فقط برای حساب مشتری است؛ ورود کارکنان و تأیید دومرحله‌ای جداست.','This method is for customer accounts. Staff use their password and two-factor verification.','Bu yöntem müşteri hesapları içindir. Personel parola ve iki faktörlü doğrulama kullanır.','هذه الطريقة لحساب العميل. يستخدم الموظفون كلمة المرور والتحقق الثنائي.','Этот способ предназначен для клиентов. Сотрудники используют пароль и второй фактор.'),
+};

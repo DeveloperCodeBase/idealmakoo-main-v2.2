@@ -1,0 +1,88 @@
+{
+  "format": "topology-bound-phase-safe-derivative-v2",
+  "phase": "public-mobile-safe-export-02",
+  "kind": "export",
+  "startedAt": "2026-10-26T00:41:27.299148+00:00",
+  "finishedAt": "2026-10-26T00:41:37.567812+00:00",
+  "durationSeconds": 10.269,
+  "topologySha256": "d0c85e36be10862b020361b4179ad2add3a02848966239cb01fd7b6a92837bf4",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "commandLaunchAttempted": true,
+  "commandStarted": true,
+  "coreConfigurationHashAloneBindsProxy": false,
+  "actualCommandExitCode": 0,
+  "validationPassed": true,
+  "validationErrorCode": null,
+  "validationIsSeparateFromLighthouseOutcome": true,
+  "receivedOrForwardedSignals": [],
+  "wrapperForcedKillAfterSixtySeconds": false,
+  "interruptedPageCleanup": "Not inferred by this wrapper; retain the original auditor's evidence.",
+  "originalPrivateReceiptSha256": "ea776d0f145e31297365996b57139a750cd7b039f3dfea7cdafdba8888dfdcff",
+  "beforeVerificationPresent": true,
+  "afterVerificationPresent": true,
+  "coreArtifacts": [
+    {
+      "directoryLabel": "lighthouse214-final-ir2-settled-v2-public-mobile",
+      "files": {
+        "manifest.json": {
+          "sha256": "0bfc510d1476aed9e53c51158b10843ab090133f26a27b025bc40b4c5a158215",
+          "bytes": 2315
+        },
+        "inventory.json": {
+          "sha256": "786c88164275a012f5606d0adf53d1110b8f75e89bbb8ba610b2166ed05e290a",
+          "bytes": 146957
+        },
+        "summary.json": {
+          "sha256": "bb55995b2829a234524e14ec370d36013589be692399ece7723984e1b7a89b26",
+          "bytes": 3710578
+        }
+      },
+      "coreConfigurationHash": "d7748ca968b935f795b0eea3fc7edaaa8cb9afc8cd047a8bbcc483a3126024de",
+      "counts": {
+        "expected": 620,
+        "attempted": 620,
+        "completed": 615,
+        "expectedHttpResponses": 5,
+        "errors": 0,
+        "timeouts": 0,
+        "pending": 0,
+        "coverageComplete": true
+      }
+    },
+    {
+      "directoryLabel": "public-mobile-final-ir2-settled-v2",
+      "files": {
+        "manifest.json": {
+          "sha256": "9cc7cde341ab798e0a7350d5e618437f45ec2e0591232fae8e413942ce41c69b",
+          "bytes": 2751
+        },
+        "inventory.json": {
+          "sha256": "96a00b7c4799a337a554505c8b2943363b7670d0350e687275c45d3927648daa",
+          "bytes": 146958
+        },
+        "summary.json": {
+          "sha256": "107dcdfb1c291f3ae8bbe0dbae56c274257822671786780c2548cba7f04bcd38",
+          "bytes": 3831914
+        },
+        "EXPORT.json": {
+          "sha256": "9d2ff9269a98f7048e894722a50cec2475bcf1dcf39eca0b4b98df7a0ce6e3cc",
+          "bytes": 398506
+        }
+      },
+      "coreConfigurationHash": "d7748ca968b935f795b0eea3fc7edaaa8cb9afc8cd047a8bbcc483a3126024de",
+      "counts": {
+        "expected": 620,
+        "attempted": 620,
+        "completed": 615,
+        "expectedHttpResponses": 5,
+        "errors": 0,
+        "timeouts": 0,
+        "pending": 0,
+        "coverageComplete": true
+      }
+    }
+  ],
+  "omissions": [
+    "Raw process IDs/arguments/environment/logs, full process observations and raw-command hashes."
+  ]
+}

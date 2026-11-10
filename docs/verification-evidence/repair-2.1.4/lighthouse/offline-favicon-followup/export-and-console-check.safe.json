@@ -1,0 +1,53 @@
+{
+  "format": "offline-favicon-followup-export-and-console-v1",
+  "observedAt": "2026-10-26T01:18:21.779097+00:00",
+  "safeExportFiles": 15,
+  "safeExportTotalBytes": 1340591,
+  "largestSafeFileBytes": 258596,
+  "exportManifestSha256": "745660083ad11144fed44743b54c06ffe5e38c2c3d28c62743094f99d2cf7a50",
+  "rollupSha256": "f1465e2dee9bb9d29dc1259366166bd15b868de48fb23e2725cf9acca85bbf41",
+  "fiveSanitizedReportsConsoleAudit": [
+    {
+      "url": "http://127.0.0.1:3100/offline/ar.html",
+      "sanitizedReport": "8f0a38030ebcee31.attempt-1.sanitized-lhr.json",
+      "sanitizedReportSha256": "de8f889e8f582f9bfd4f62c9a4840e8537d9d0771b39f98c21a621b0b8420fd6",
+      "bestPracticesScore": 100,
+      "errorsInConsoleScore": 1,
+      "consoleErrorItems": 0
+    },
+    {
+      "url": "http://127.0.0.1:3100/offline/en.html",
+      "sanitizedReport": "df1e6a22c45841a9.attempt-1.sanitized-lhr.json",
+      "sanitizedReportSha256": "15560419da4247e28d60f482648a33157466ad5f7b388dfd60a173c9be43a269",
+      "bestPracticesScore": 100,
+      "errorsInConsoleScore": 1,
+      "consoleErrorItems": 0
+    },
+    {
+      "url": "http://127.0.0.1:3100/offline/fa.html",
+      "sanitizedReport": "1e8a050247ea4ab6.attempt-1.sanitized-lhr.json",
+      "sanitizedReportSha256": "6d7b1bb290a8e68ba7474bbf6e72dee0497dda323cf4b66b87d547a53cfa64e5",
+      "bestPracticesScore": 100,
+      "errorsInConsoleScore": 1,
+      "consoleErrorItems": 0
+    },
+    {
+      "url": "http://127.0.0.1:3100/offline/ru.html",
+      "sanitizedReport": "0abdec68d0f5e3e6.attempt-1.sanitized-lhr.json",
+      "sanitizedReportSha256": "8cbdd14ff9a38dbc8f37ea561007c3bb27e8131c5c00c7f41bd33c8637df8082",
+      "bestPracticesScore": 100,
+      "errorsInConsoleScore": 1,
+      "consoleErrorItems": 0
+    },
+    {
+      "url": "http://127.0.0.1:3100/offline/tr.html",
+      "sanitizedReport": "4ba908b555be52c0.attempt-1.sanitized-lhr.json",
+      "sanitizedReportSha256": "ec861d20129fcc289d6a53e6a1580bd8adc791ffb47c3ad26af272e9d8a6abba",
+      "bestPracticesScore": 100,
+      "errorsInConsoleScore": 1,
+      "consoleErrorItems": 0
+    }
+  ],
+  "rawBrowserImagesOrPrivateReportsDelivered": false,
+  "originalPrimary1169OutcomesUnchanged": true
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "kind": "focused-discovery-and-existing-lifecycle-contracts",
+  "startedAt": "2026-10-24T11:41:13.110193+00:00",
+  "durationSeconds": 23.705719,
+  "modules": [
+    "deployment_discovery_contract_test",
+    "deployment_service_lifecycle_test"
+  ],
+  "discovered": 45,
+  "testsRun": 45,
+  "passed": 45,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "failureTests": [],
+  "errorTests": [],
+  "exitCode": 0,
+  "accepted": true,
+  "realDockerDaemonUsed": false,
+  "realComposeBinaryExecuted": false,
+  "externalNetworkCalls": false,
+  "vmCalls": false,
+  "applicationOrDatabaseServicesStarted": false,
+  "sourceBefore": {
+    "deploy/compose.py": "27c5f7ad14d8386575f041a3755990e8aec1102e6d407d39224f56f94583f550",
+    "deploy/service-lifecycle.py": "aae5675fcc92f74c8f5eb910a360d70913d890ee536d912113d82f5d04501ff7",
+    "tests/deployment_discovery_contract_test.py": "6bdbadfe8df9f5d32eedba25a20d603e3a767c68d57b5d2b15b3cc75a0b7a753",
+    "tests/deployment_service_lifecycle_test.py": "4840f2b77fdc0fbd65e727d1e9c456633fcbc21ebade7a8a1af10b054a4776c4"
+  },
+  "sourceAfter": {
+    "deploy/compose.py": "27c5f7ad14d8386575f041a3755990e8aec1102e6d407d39224f56f94583f550",
+    "deploy/service-lifecycle.py": "aae5675fcc92f74c8f5eb910a360d70913d890ee536d912113d82f5d04501ff7",
+    "tests/deployment_discovery_contract_test.py": "6bdbadfe8df9f5d32eedba25a20d603e3a767c68d57b5d2b15b3cc75a0b7a753",
+    "tests/deployment_service_lifecycle_test.py": "4840f2b77fdc0fbd65e727d1e9c456633fcbc21ebade7a8a1af10b054a4776c4"
+  },
+  "sourceChangedDuringTests": [],
+  "log": {
+    "file": "discovery-candidate-01.private.log",
+    "bytes": 9172,
+    "sha256": "2c147f2233dc8ddf7e83ff98585d1b813ef3f56c5d001b9bc9513d1f7d77f457"
+  }
+}

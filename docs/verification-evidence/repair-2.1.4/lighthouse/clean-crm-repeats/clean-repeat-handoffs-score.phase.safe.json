@@ -1,0 +1,50 @@
+{
+  "format": "topology-bound-phase-safe-derivative-v2",
+  "phase": "clean-repeat-handoffs-score",
+  "kind": "scoring",
+  "startedAt": "2026-10-25T22:40:27.987525+00:00",
+  "finishedAt": "2026-10-25T22:40:44.444458+00:00",
+  "durationSeconds": 16.457,
+  "topologySha256": "d0c85e36be10862b020361b4179ad2add3a02848966239cb01fd7b6a92837bf4",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "commandLaunchAttempted": true,
+  "commandStarted": true,
+  "coreConfigurationHashAloneBindsProxy": false,
+  "actualCommandExitCode": 0,
+  "validationPassed": true,
+  "validationErrorCode": null,
+  "validationIsSeparateFromLighthouseOutcome": true,
+  "receivedOrForwardedSignals": [],
+  "wrapperForcedKillAfterSixtySeconds": false,
+  "originalPrivateReceiptSha256": "bdea5c03ffa7f3937780f229a9b496001a87aeeec7cf2d159f46b8fd7d7beca0",
+  "coreArtifacts": [
+    {
+      "directoryLabel": "idealmakoo-214-clean-repeat-ar-crm-handoffs",
+      "files": {
+        "manifest.json": {
+          "sha256": "aa8eb027a40c0e899ec9b33700c77f4399f48b4473e4fc65da9528ce6fc3a37c",
+          "bytes": 1977
+        },
+        "inventory.json": {
+          "sha256": "4f95d8fdccfa3a2c389149feee365e1f2a56282684b9851d1638803a052afde4",
+          "bytes": 3021
+        },
+        "summary.json": {
+          "sha256": "07651c61c5ef4783655f31b32d018a8cef4c7dfcdd51446cc825c5fe3153a8e1",
+          "bytes": 5723
+        }
+      },
+      "coreConfigurationHash": "cd5668a1c2af0cfb018a436bf304f2353f8e0fdcb1da5f44878cdaeaaeca4598",
+      "counts": {
+        "expected": 1,
+        "attempted": 1,
+        "completed": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "pending": 0,
+        "coverageComplete": true
+      }
+    }
+  ],
+  "privateCommandsLogsProcessIdentifiersOmitted": true
+}

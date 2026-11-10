@@ -1,0 +1,117 @@
+{
+  "format": "idealmakoo.devops-source-gate",
+  "version": 1,
+  "label": "user-directory-final2",
+  "startedAt": "2026-10-21T05:56:24.397727+00:00",
+  "state": "completed",
+  "actualVmAcceptance": false,
+  "inputsBefore": "a6558ee798eb43f4ff8b355b0573d84d82bf20c2b013cb75bc91f0c5a1eb350c",
+  "sourceFiles": 797,
+  "transition": {
+    "path": "/tmp/idealmakoo-production-repair-20261020/evidence/staged-runtime-source-transition-v2.json",
+    "sha256": "dc59f3fa74a04ccb705d68ee7612fffda4ae77c36df1a3203f486b36dfec469d"
+  },
+  "directoryTransition": {
+    "path": "/tmp/idealmakoo-production-repair-20261020/evidence/user-directory-source-transition.json",
+    "sha256": "81f0f22e8b04c9cb4334bf50033ea816621c922329137eef8106a1629bd20076"
+  },
+  "tools": {
+    "compose": {
+      "path": "/tmp/idealmakoo-pg-runtime/configuration-tools/docker-compose",
+      "sha256": "d87a11e944c990dc9f2186115b1136c1cbffffc870845caff0cbdcce0780f41d"
+    },
+    "age": {
+      "path": "/tmp/idealmakoo-pg-runtime/age",
+      "sha256": "529450dfeaf3055cb24d76789d0b1f5eb8cd23e03dc4add64f84776df1272b02"
+    },
+    "age-keygen": {
+      "path": "/tmp/idealmakoo-pg-runtime/age-keygen",
+      "sha256": "d0396b4f7f9363f600a7093dc72a8641e24995f77436bd9549e3678168d9d144"
+    },
+    "shellcheck": {
+      "path": "/tmp/idealmakoo-pg-runtime/configuration-tools/shellcheck",
+      "sha256": "54dc63164186ad21fb909f5194fb5291f4035c2d2cae04b5680385b8d8fbb73c"
+    }
+  },
+  "python": {
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "deployment_*_test.py",
+      "-v"
+    ],
+    "startedAt": "2026-10-21T05:56:24.645177+00:00",
+    "finishedAt": "2026-10-21T05:56:49.598053+00:00",
+    "durationSeconds": 24.953,
+    "exitCode": 0,
+    "timedOut": false,
+    "log": "/tmp/idealmakoo-production-repair-20261020/evidence/devops-user-directory-final2-python.log",
+    "logSha256": "b6222eec0f24a128c51f50cc24d92572091b4d8961f2f31bf5d3aca05a771196",
+    "passed": 150,
+    "failed": 0,
+    "skipped": 0,
+    "reportedSeconds": 24.773
+  },
+  "shellcheck": {
+    "command": [
+      "/tmp/idealmakoo-pg-runtime/configuration-tools/shellcheck",
+      "-x",
+      "deploy/clamav/idealmakoo-clamav.sh",
+      "deploy/lib.sh",
+      "deploy/postgres/init-roles.sh",
+      "deploy/recovery.sh",
+      "scripts/backup.sh",
+      "scripts/check-health.sh",
+      "scripts/doctor.sh",
+      "scripts/download-backup.sh",
+      "scripts/entrypoint.sh",
+      "scripts/install-ubuntu.sh",
+      "scripts/provision-staff.sh",
+      "scripts/recover-ubuntu.sh",
+      "scripts/restore.sh",
+      "scripts/update.sh"
+    ],
+    "startedAt": "2026-10-21T05:56:49.600130+00:00",
+    "finishedAt": "2026-10-21T05:56:51.321523+00:00",
+    "durationSeconds": 1.721,
+    "exitCode": 0,
+    "timedOut": false,
+    "log": "/tmp/idealmakoo-production-repair-20261020/evidence/devops-user-directory-final2-shellcheck.log",
+    "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "files": [
+      "deploy/clamav/idealmakoo-clamav.sh",
+      "deploy/lib.sh",
+      "deploy/postgres/init-roles.sh",
+      "deploy/recovery.sh",
+      "scripts/backup.sh",
+      "scripts/check-health.sh",
+      "scripts/doctor.sh",
+      "scripts/download-backup.sh",
+      "scripts/entrypoint.sh",
+      "scripts/install-ubuntu.sh",
+      "scripts/provision-staff.sh",
+      "scripts/recover-ubuntu.sh",
+      "scripts/restore.sh",
+      "scripts/update.sh"
+    ]
+  },
+  "compose": {
+    "realParserExecuted": true,
+    "selections": 3,
+    "path": "/tmp/idealmakoo-production-repair-20261020/evidence/devops-user-directory-final2-compose-health.json",
+    "sha256": "ca34bd42fb0d90ee494e9b21b2e4db5c9446fe1021fc3c6a9b9bc6961efaca9c"
+  },
+  "inputsAfter": "a6558ee798eb43f4ff8b355b0573d84d82bf20c2b013cb75bc91f0c5a1eb350c",
+  "inputsUnchanged": true,
+  "sourceManifestSha256": "a6558ee798eb43f4ff8b355b0573d84d82bf20c2b013cb75bc91f0c5a1eb350c",
+  "finishedAt": "2026-10-21T05:56:51.572710+00:00",
+  "exitCode": 0,
+  "error": null,
+  "scope": "Real age cryptography, real Compose parser and protected filesystem/source tests. Docker/database lifecycle is simulated in source fixtures; no guest acceptance executed.",
+  "helperSha256": "2df9b25b2286b8ab2a21924d5c5a339efbe3a62c99daa12cd66bf6e9b3ed9645"
+}

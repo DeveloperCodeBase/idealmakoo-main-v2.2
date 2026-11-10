@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/sample-request/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "d357cb7251a318014624df08f3ce99702eb3fdce32db13d3e10320bd9640c711",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "طلب عينة منتج | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "حدّد المنتج وأرسل بيانات التواصل والغرض من الطلب ليتمكن المصنع من مراجعة طلب عينة المنتج."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/sample-request/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/sample-request/",
+    "en": "http://127.0.0.1:3100/en/sample-request/",
+    "tr": "http://127.0.0.1:3100/tr/sample-request/",
+    "ar": "http://127.0.0.1:3100/ar/sample-request/",
+    "ru": "http://127.0.0.1:3100/ru/sample-request/",
+    "x-default": "http://127.0.0.1:3100/fa/sample-request/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 52
+}

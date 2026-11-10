@@ -1,0 +1,129 @@
+{
+  "format": "final-ir2-proxy-preparation-safe-v1",
+  "exportedAt": "2026-10-25T20:12:03.787374+00:00",
+  "status": "preparation-passed-scoring-in-progress",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "inputFingerprint": "4fcec50f5846b0affccc59e43798613ba134a3f93559ea5ddba9705e1f38cc58",
+  "topologySha256": "da2b88aba7a748b934b4e7e6af1d8117b5a63ee7a5f018df71b5d142814e11a0",
+  "safeTopology": {
+    "file": "topology.safe.json",
+    "sha256": "66d0d415ff40e486255c9d42de5ec98d644aa80db33659de9fa548f2002e04ba"
+  },
+  "executionPlanSha256": "d94f1e819b76464a32f1d547e520b769d0639e6c309ac61c49d4c5cabe6bdea1",
+  "allTwelveActorsPreparedBeforeFreeze": true,
+  "ownedAuthProofCleanup": {
+    "attempted": true,
+    "ownedActorDisabled": true,
+    "ownedSessionsRevoked": true,
+    "proofConnectionStatementDeadlineMs": 5000
+  },
+  "phases": [
+    {
+      "phase": "public-transport-proof",
+      "file": "public-transport-proof.phase.safe.json",
+      "sha256": "304f54f067229651c2799fe40d4e3ba577f92491587edc56dc64cb4993355b50",
+      "actualCommandExitCode": 2,
+      "topologyValidationPassed": true
+    },
+    {
+      "phase": "public-transport-proof-attempt02",
+      "file": "public-transport-proof-attempt02.phase.safe.json",
+      "sha256": "6b6dcb7bcbcda35d146ae7b25eba4226761efd41cc1a8a40856a33326cab99fd",
+      "actualCommandExitCode": 0,
+      "topologyValidationPassed": true
+    },
+    {
+      "phase": "prepare-all-fixtures",
+      "file": "prepare-all-fixtures.phase.safe.json",
+      "sha256": "15db65fe78699b4d81bc603cd4b66a8948415c8d351b11b1668c760c52d836f0",
+      "actualCommandExitCode": 0,
+      "topologyValidationPassed": true
+    },
+    {
+      "phase": "owned-auth-ip-proof",
+      "file": "owned-auth-ip-proof.phase.safe.json",
+      "sha256": "d6650780eb7b20bb537ce3089de3660178e2cf710cce2f9d117a6c3b6c047748",
+      "actualCommandExitCode": 0,
+      "topologyValidationPassed": true
+    },
+    {
+      "phase": "freeze-private-mobile",
+      "file": "freeze-private-mobile.phase.safe.json",
+      "sha256": "65c1e928e28c90be618a6055d376d2af5a6bebf20d4f7d4df4536f4758aa7038",
+      "actualCommandExitCode": 0,
+      "topologyValidationPassed": true
+    },
+    {
+      "phase": "freeze-public-mobile",
+      "file": "freeze-public-mobile.phase.safe.json",
+      "sha256": "f50c4c537bda8f9c42af32978b881598d5940b28e1a093d90ee7b5048c0a1d69",
+      "actualCommandExitCode": 0,
+      "topologyValidationPassed": true
+    },
+    {
+      "phase": "public-metadata",
+      "file": "public-metadata.phase.safe.json",
+      "sha256": "de868e395c944fdd5e927f960e8992bc9baaf0e804bd7ad6d6bd7e137a14811b",
+      "actualCommandExitCode": 0,
+      "topologyValidationPassed": true
+    }
+  ],
+  "inventories": [
+    {
+      "scope": "authenticatedMobile",
+      "expected": 530,
+      "inventoryJobs": 530,
+      "manifestSha256": "e0db4dfe7b293d50d35d274047cd0cfa59f89ed46ec6dfa4dacfc6b02a502d82",
+      "inventoryFileSha256": "ce15b0e77c2adb8fb4fbbd4ecfb00dc55a3e5b23b65747942b03d72c270724d8",
+      "coreConfigurationHash": "bddc13f3234afd7a0b08437e77493c433d7c06ce67917cf6c5aa185dc1ff1455",
+      "buildId": "ir2DFJg8r5YdpbVQubUqF"
+    },
+    {
+      "scope": "publicMobile",
+      "expected": 620,
+      "inventoryJobs": 620,
+      "manifestSha256": "5994bb68af9e053dc81e3dc3f2c57b16bf289785ae91661e58cdcf7c43a1739f",
+      "inventoryFileSha256": "786c88164275a012f5606d0adf53d1110b8f75e89bbb8ba610b2166ed05e290a",
+      "coreConfigurationHash": "d7748ca968b935f795b0eea3fc7edaaa8cb9afc8cd047a8bbcc483a3126024de",
+      "buildId": "ir2DFJg8r5YdpbVQubUqF"
+    }
+  ],
+  "publicMetadata": {
+    "buildId": "ir2DFJg8r5YdpbVQubUqF",
+    "publicContentHash": "c81fb2b40e486f8608c7c7da584d76197bef191244fad9d1b45128ddbb7e8e74",
+    "inventoryHash": "813f52df708c86a1656ea09ce298d40a80b85a5cdbf519d97028cbf06afc11d6",
+    "expected": 620,
+    "checked": 620,
+    "coverageComplete": true,
+    "passed": 620,
+    "errors": 0,
+    "warnings": 0
+  },
+  "metadataSummarySha256": "30063bb8440036e3c3bdafeb6dea9408e996856f4b7d692d254d744e69df8493",
+  "proofFiles": [
+    {
+      "file": "proof-public.safe.json",
+      "sha256": "f7b9450054f767c99f217a096fc38164f9ee23eb573d48708061eb661691bd3b",
+      "bytes": 1222
+    },
+    {
+      "file": "proof-public-attempt02.safe.json",
+      "sha256": "d15f5d754f9efe9d993dc68704075aa8381e5e5412073fdad39bc0345515465c",
+      "bytes": 2418
+    },
+    {
+      "file": "proof-authenticated.safe.json",
+      "sha256": "d9bc9d1e6f3161a35c27749df3853c0aed7cf273354a7c9a65b052f5279efd5b",
+      "bytes": 5764
+    },
+    {
+      "file": "public-compression-diagnostic.safe.json",
+      "sha256": "d8d7e896a1fa89fdd24f8c0d9da2f5ddf26d278495eb7ee82b9b9b47ad7f896d",
+      "bytes": 558
+    }
+  ],
+  "originalFailedProofRetained": true,
+  "failedProofWasNotLighthouseFailure": true,
+  "completeScoringCoverageClaimed": false,
+  "privacy": "Only strict topology derivative, selected phase fields and scalar proof outputs; no runtime environment values, raw command/log/report, DOM, cookies or browser image payload."
+}

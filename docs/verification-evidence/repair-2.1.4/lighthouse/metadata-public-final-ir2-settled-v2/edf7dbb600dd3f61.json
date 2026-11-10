@@ -1,0 +1,70 @@
+{
+  "url": "http://127.0.0.1:3100/ar/products/marjan-new/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "f8b691b90d9544efc628034d9782a046ff71a55f71f5c7ffa67f92c3f0238f0d",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "أسنان مرجان نيو الصناعية | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "مرجان نيو سلسلة بطبقتين مع قوالب أمامية وخلفية وخيارات ألوان."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/products/marjan-new/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/marjan-new/",
+    "en": "http://127.0.0.1:3100/en/products/marjan-new/",
+    "tr": "http://127.0.0.1:3100/tr/products/marjan-new/",
+    "ar": "http://127.0.0.1:3100/ar/products/marjan-new/",
+    "ru": "http://127.0.0.1:3100/ru/products/marjan-new/",
+    "x-default": "http://127.0.0.1:3100/fa/products/marjan-new/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "أسنان مرجان نيو الصناعية",
+      "description": "مرجان نيو سلسلة بطبقتين مع قوالب أمامية وخلفية وخيارات ألوان.",
+      "image": "http://127.0.0.1:3100/media/official/1686378532.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "MARJAN NEW"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/ar/products/marjan-new/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 65
+}

@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "kind": "actual-completed-original-installer-acceptance",
+  "status": "failed",
+  "collectedAt": "2026-10-24T08:32:37.990530+00:00",
+  "attempt": 6,
+  "startedAt": "2026-10-24T08:07:17.453780+00:00",
+  "completedAt": "2026-10-24T08:30:47.458648+00:00",
+  "exitCode": 124,
+  "actualWaitConsumed": true,
+  "sourceZipSha256": "1b2dd59c60a97bd1c113f6fdf7faaa330d6ca3157ccf3187b94f37eb4cecb806",
+  "executionInputsSha256": "af6de0c8add2947a9def3e96252f644d76253d4044895dbd30e6167fac1e70c3",
+  "installerSha256": "8fc935c9b0fddcb47508699a5bb670d842ffb92d831cd1b537ff0611b2a205aa",
+  "privateLog": {
+    "sha256": "cf5e046ae332b39a221de71405ed7d08ac3e247b5038b4ff698aff14bad9312b",
+    "bytes": 16400,
+    "included": false
+  },
+  "privateTransfer": {
+    "sha256": "db335834401828af24e7b9ac653d587204e341ac6039a6afc5d7e1f1d3674503",
+    "bytes": 30720,
+    "included": false
+  },
+  "strictPinnedSsh": true,
+  "partialInstallationAndOsCacheReused": true,
+  "straightThroughFreshInstallationClaimed": false,
+  "priorAttemptsPreservedSeparately": true,
+  "correctedSourceUsed": true,
+  "oldGuestReleaseModified": false,
+  "candidateNativeBuildPerformed": false,
+  "fullAntivirusRequired": true,
+  "tlsVerificationDisabled": false,
+  "resourceGuardsBypassed": false,
+  "independentRuntimeAndScannerProofPending": true
+}

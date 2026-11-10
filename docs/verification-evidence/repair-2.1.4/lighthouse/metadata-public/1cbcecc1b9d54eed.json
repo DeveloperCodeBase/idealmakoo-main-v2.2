@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/tools/shade-mould-matcher/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "393c9944672c7fa441b3ddb04e1d497718df4aba3df957155a577881cc67ae04",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "دليل اللون والقالب | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "استعرض المنتجات حسب العائلة والمادة، واقرأ المواصفات الموثقة وأعد طلبًا تقنيًا."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/tools/shade-mould-matcher/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/tools/shade-mould-matcher/",
+    "en": "http://127.0.0.1:3100/en/tools/shade-mould-matcher/",
+    "tr": "http://127.0.0.1:3100/tr/tools/shade-mould-matcher/",
+    "ar": "http://127.0.0.1:3100/ar/tools/shade-mould-matcher/",
+    "ru": "http://127.0.0.1:3100/ru/tools/shade-mould-matcher/",
+    "x-default": "http://127.0.0.1:3100/fa/tools/shade-mould-matcher/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 85
+}

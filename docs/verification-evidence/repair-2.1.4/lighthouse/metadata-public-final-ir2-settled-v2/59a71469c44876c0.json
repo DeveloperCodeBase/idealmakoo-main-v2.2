@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/cooperation/distribution/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "dde2af930cb1110da680306e298593ce24635a7f839805f4cf1c411ee1bbbf57",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Distribution partnership | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Submit a product distribution proposal with your organization, country and capabilities for review by the factory."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/cooperation/distribution/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/cooperation/distribution/",
+    "en": "http://127.0.0.1:3100/en/cooperation/distribution/",
+    "tr": "http://127.0.0.1:3100/tr/cooperation/distribution/",
+    "ar": "http://127.0.0.1:3100/ar/cooperation/distribution/",
+    "ru": "http://127.0.0.1:3100/ru/cooperation/distribution/",
+    "x-default": "http://127.0.0.1:3100/fa/cooperation/distribution/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 56
+}

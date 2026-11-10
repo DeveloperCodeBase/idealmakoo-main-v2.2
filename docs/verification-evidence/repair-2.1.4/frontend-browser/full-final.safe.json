@@ -1,0 +1,61 @@
+{
+  "scope": "full",
+  "stage": "functional",
+  "attempt": 1,
+  "startedAt": "2026-10-25T19:01:05.284Z",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "inputFingerprint": "4fcec50f5846b0affccc59e43798613ba134a3f93559ea5ddba9705e1f38cc58",
+  "expectedCases": 69,
+  "CIUnset": true,
+  "workers": 1,
+  "retries": 0,
+  "structuredReportParsed": true,
+  "accepted": true,
+  "observedCommandExitCode": 0,
+  "observedSignal": null,
+  "durationSeconds": 237.94065662600002,
+  "reportedCaseCount": 69,
+  "everyCaseHasExactlyOneResult": true,
+  "everyCasePassed": true,
+  "reportedWorkers": 1,
+  "reportedRetries": [
+    0
+  ],
+  "runnerErrorCount": 0,
+  "finishedAt": "2026-10-25T19:05:03.250Z",
+  "schema": "idealmakoo.frontend-browser-run.v1",
+  "stats": {
+    "startTime": "2026-10-25T19:01:05.810Z",
+    "durationMs": 237391.973,
+    "expected": 69,
+    "unexpected": 0,
+    "flaky": 0,
+    "skipped": 0
+  },
+  "structuredReport": {
+    "sha256": "b286849cf525e7d3bc744c138d94f56f208342b6ba2b73b23870744266371ea5",
+    "bytes": 2465263
+  },
+  "terminalLog": {
+    "sha256": "5336bd97ccf35019b4a17316449ca9c0c0d65654c9a1acfcd35970a8c7a9b753",
+    "bytes": 11667
+  },
+  "terminalFooter": [
+    "69 passed (4.0m)"
+  ],
+  "privateArtifacts": {
+    "fileCount": 7,
+    "totalBytes": 6352377,
+    "manifestSha256": "35406cca7d5260b59e908dbc0fb6e0b55ad4afbe44d40cb7f2d9b0ffe8d942d3",
+    "manifestBytes": 1583,
+    "copiedToPublicEvidence": false
+  },
+  "rawReceiptSha256": "a294b65da7bec4eaef53d9d42c507c4473c37e0ab9ece25d2553151566d7f151",
+  "limitations": [
+    "Chromium69 scenarios do not exhaust every browser/device/role/action combination.",
+    "Runner errors are distinct from browser console warnings; page-error coverage is asserted by individual scenarios.",
+    "No live owner AI/SMTP provider credentials or OS-level PWA installation are claimed.",
+    "Earlier build failures and diagnostics are retained separately and not relabeled as this successful build."
+  ],
+  "privateMaterialIncluded": false
+}

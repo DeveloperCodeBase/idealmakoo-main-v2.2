@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "kind": "supported-update-final-state-actual-execution",
+  "recordedAt": "2026-10-24T15:25:43.562738+00:00",
+  "helperSha256": "a3e9f74a1dfcaebe2c7cf96b5ee25a86106c6a992a05e78355259b9b3b108168",
+  "helperRemoteExitCode": 0,
+  "transportToolExitCode": 0,
+  "transportSessionId": 8646,
+  "transportWaitConsumed": true,
+  "resultSha256": "55ba1b7209ef01063cb354b57e934ae420b115617917d5c249c2597ee61d3692",
+  "resultBytes": 10186,
+  "originalUpdateExitCode": 124,
+  "supportedUpdateAccepted": false,
+  "noRetryPerformed": true
+}

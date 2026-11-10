@@ -1,0 +1,11 @@
+{
+  "format": "native-proxy-role-guard-validation-v1",
+  "startedAt": "2026-10-25T21:23:16.895764+00:00",
+  "actualExitCode": 0,
+  "durationSeconds": 6.336,
+  "guardSha256": "22690e970b374366047bddd78deada4201492f479843d2e2ea74b8a3bdf30512",
+  "testSha256": "9679b176c6db0e6299500239a309f3e909f463acdf9ba0a1ca7f4ac0ac9a1701",
+  "originalGuardSha256": "529320485df3347acfed3fffa77a558199240654083746c975a4ea0c96f6e76f",
+  "scope": "Original22 regression tests plus3 focused role/listener tests; no production service or application changes.",
+  "logSha256": "25b11115b1c3d4beb743f6b3b5f0cd21f181f96458b2590264f2d53c79fbfa7e"
+}

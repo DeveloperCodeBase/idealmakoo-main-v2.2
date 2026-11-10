@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/research/iranian-teeth-ivoclar-wear/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "550f714f129c6bd78d5100c07610ba5f24165ae567bf2f393cc4b7663c7c0564",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Berelian ve Super Berelian aşınmasının Ivoclar ile karşılaştırılması | Ideal Makoo"
+  ],
+  "descriptions": [
+    "İki İran modeli ve Ivoclar dişlerindeki ağırlık değişiminin laboratuvar aşınma testiyle karşılaştırılması."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/research/iranian-teeth-ivoclar-wear/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/iranian-teeth-ivoclar-wear/",
+    "en": "http://127.0.0.1:3100/en/research/iranian-teeth-ivoclar-wear/",
+    "tr": "http://127.0.0.1:3100/tr/research/iranian-teeth-ivoclar-wear/",
+    "ar": "http://127.0.0.1:3100/ar/research/iranian-teeth-ivoclar-wear/",
+    "ru": "http://127.0.0.1:3100/ru/research/iranian-teeth-ivoclar-wear/",
+    "x-default": "http://127.0.0.1:3100/fa/research/iranian-teeth-ivoclar-wear/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 49
+}

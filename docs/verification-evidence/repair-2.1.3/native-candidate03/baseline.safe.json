@@ -1,0 +1,443 @@
+{
+  "kind": "candidate03-unchanged-candidate02-baseline",
+  "status": "captured-observation-not-fix-pass",
+  "buildId": "JUTCtkNIJ8CT540y_qNL_",
+  "sourceInputSha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+  "cases": [
+    {
+      "key": "mobile-fa",
+      "device": "mobile",
+      "locale": "fa",
+      "status": "baseline-observed",
+      "resourceRequests": 2,
+      "resourceRequestsBeforeSessionRelease": 0,
+      "transitions": {
+        "sessionToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 317.45300000000003,
+          "followingX": 0,
+          "followingY": 317.4530000000001,
+          "followingWidth": 0
+        },
+        "resourceToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 135.14100000000002,
+          "followingX": 0,
+          "followingY": 135.14100000000008,
+          "followingWidth": 0
+        }
+      },
+      "readyDomSha256": "1cc7f5c60606ee4473eb54e47f4e86766c11fee0e600b2119f7daa70f16de188",
+      "searchAndRefresh": {
+        "nativeInput": true,
+        "queryPreserved": true,
+        "realRefreshStatus": 200,
+        "newResourceRequests": 1
+      }
+    },
+    {
+      "key": "mobile-en",
+      "device": "mobile",
+      "locale": "en",
+      "status": "baseline-observed",
+      "resourceRequests": 2,
+      "resourceRequestsBeforeSessionRelease": 0,
+      "transitions": {
+        "sessionToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 333.25,
+          "followingX": 0,
+          "followingY": 333.25,
+          "followingWidth": 0
+        },
+        "resourceToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 135.141,
+          "followingX": 0,
+          "followingY": 135.14099999999996,
+          "followingWidth": 0
+        }
+      },
+      "readyDomSha256": "0f63f1e94b511cf4399eae1c6e369880d71ff9c368a7c9baaf2441e71e1c7d93",
+      "searchAndRefresh": {
+        "nativeInput": true,
+        "queryPreserved": true,
+        "realRefreshStatus": 200,
+        "newResourceRequests": 1
+      }
+    },
+    {
+      "key": "mobile-tr",
+      "device": "mobile",
+      "locale": "tr",
+      "status": "baseline-observed",
+      "resourceRequests": 2,
+      "resourceRequestsBeforeSessionRelease": 0,
+      "transitions": {
+        "sessionToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 333.25,
+          "followingX": 0,
+          "followingY": 333.25,
+          "followingWidth": 0
+        },
+        "resourceToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 135.141,
+          "followingX": 0,
+          "followingY": 135.14099999999996,
+          "followingWidth": 0
+        }
+      },
+      "readyDomSha256": "08e07ab597f98bfdb7546d818f6e242a54d0423daa571d7aa5e447d19060c937",
+      "searchAndRefresh": {
+        "nativeInput": true,
+        "queryPreserved": true,
+        "realRefreshStatus": 200,
+        "newResourceRequests": 1
+      }
+    },
+    {
+      "key": "mobile-ar",
+      "device": "mobile",
+      "locale": "ar",
+      "status": "baseline-observed",
+      "resourceRequests": 2,
+      "resourceRequestsBeforeSessionRelease": 0,
+      "transitions": {
+        "sessionToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 317.45300000000003,
+          "followingX": 0,
+          "followingY": 317.453,
+          "followingWidth": 0
+        },
+        "resourceToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 135.14100000000002,
+          "followingX": 0,
+          "followingY": 135.14,
+          "followingWidth": 0
+        }
+      },
+      "readyDomSha256": "874ff0c088fe259d00a7eacd4310cc98e4508a07a1cc3a61fe6c6ec7e6f6d012",
+      "searchAndRefresh": {
+        "nativeInput": true,
+        "queryPreserved": true,
+        "realRefreshStatus": 200,
+        "newResourceRequests": 1
+      }
+    },
+    {
+      "key": "mobile-ru",
+      "device": "mobile",
+      "locale": "ru",
+      "status": "baseline-observed",
+      "resourceRequests": 2,
+      "resourceRequestsBeforeSessionRelease": 0,
+      "transitions": {
+        "sessionToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 364.75,
+          "followingX": 0,
+          "followingY": 364.75,
+          "followingWidth": 0
+        },
+        "resourceToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 135.141,
+          "followingX": 0,
+          "followingY": 135.14099999999996,
+          "followingWidth": 0
+        }
+      },
+      "readyDomSha256": "43f7647b118233b7da5873fd9eea8694fbcd7e8089ed0ea9dbb04d84e8097a3f",
+      "searchAndRefresh": {
+        "nativeInput": true,
+        "queryPreserved": true,
+        "realRefreshStatus": 200,
+        "newResourceRequests": 1
+      }
+    },
+    {
+      "key": "desktop-fa",
+      "device": "desktop",
+      "locale": "fa",
+      "status": "baseline-observed",
+      "resourceRequests": 2,
+      "resourceRequestsBeforeSessionRelease": 0,
+      "transitions": {
+        "sessionToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 241.23400000000004,
+          "followingX": 0,
+          "followingY": 241.23399999999992,
+          "followingWidth": 0
+        },
+        "resourceToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 139.14100000000002,
+          "followingX": 0,
+          "followingY": 139.14,
+          "followingWidth": 0
+        }
+      },
+      "readyDomSha256": "1cc7f5c60606ee4473eb54e47f4e86766c11fee0e600b2119f7daa70f16de188",
+      "searchAndRefresh": {
+        "nativeInput": true,
+        "queryPreserved": true,
+        "realRefreshStatus": 200,
+        "newResourceRequests": 1
+      }
+    },
+    {
+      "key": "desktop-en",
+      "device": "desktop",
+      "locale": "en",
+      "status": "baseline-observed",
+      "resourceRequests": 2,
+      "resourceRequestsBeforeSessionRelease": 0,
+      "transitions": {
+        "sessionToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 237.09300000000002,
+          "followingX": 0,
+          "followingY": 237.09300000000007,
+          "followingWidth": 0
+        },
+        "resourceToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 139.14,
+          "followingX": 0,
+          "followingY": 139.14,
+          "followingWidth": 0
+        }
+      },
+      "readyDomSha256": "0f63f1e94b511cf4399eae1c6e369880d71ff9c368a7c9baaf2441e71e1c7d93",
+      "searchAndRefresh": {
+        "nativeInput": true,
+        "queryPreserved": true,
+        "realRefreshStatus": 200,
+        "newResourceRequests": 1
+      }
+    },
+    {
+      "key": "desktop-tr",
+      "device": "desktop",
+      "locale": "tr",
+      "status": "baseline-observed",
+      "resourceRequests": 2,
+      "resourceRequestsBeforeSessionRelease": 0,
+      "transitions": {
+        "sessionToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 237.09300000000002,
+          "followingX": 0,
+          "followingY": 237.09400000000005,
+          "followingWidth": 0
+        },
+        "resourceToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 139.14,
+          "followingX": 0,
+          "followingY": 139.14100000000008,
+          "followingWidth": 0
+        }
+      },
+      "readyDomSha256": "08e07ab597f98bfdb7546d818f6e242a54d0423daa571d7aa5e447d19060c937",
+      "searchAndRefresh": {
+        "nativeInput": true,
+        "queryPreserved": true,
+        "realRefreshStatus": 200,
+        "newResourceRequests": 1
+      }
+    },
+    {
+      "key": "desktop-ar",
+      "device": "desktop",
+      "locale": "ar",
+      "status": "baseline-observed",
+      "resourceRequests": 2,
+      "resourceRequestsBeforeSessionRelease": 0,
+      "transitions": {
+        "sessionToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 241.23400000000004,
+          "followingX": 0,
+          "followingY": 241.23399999999992,
+          "followingWidth": 0
+        },
+        "resourceToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 139.14100000000002,
+          "followingX": 0,
+          "followingY": 139.14,
+          "followingWidth": 0
+        }
+      },
+      "readyDomSha256": "874ff0c088fe259d00a7eacd4310cc98e4508a07a1cc3a61fe6c6ec7e6f6d012",
+      "searchAndRefresh": {
+        "nativeInput": true,
+        "queryPreserved": true,
+        "realRefreshStatus": 200,
+        "newResourceRequests": 1
+      }
+    },
+    {
+      "key": "desktop-ru",
+      "device": "desktop",
+      "locale": "ru",
+      "status": "baseline-observed",
+      "resourceRequests": 2,
+      "resourceRequestsBeforeSessionRelease": 0,
+      "transitions": {
+        "sessionToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 237.09300000000002,
+          "followingX": 0,
+          "followingY": 237.09399999999994,
+          "followingWidth": 0
+        },
+        "resourceToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 139.14,
+          "followingX": 0,
+          "followingY": 139.14099999999996,
+          "followingWidth": 0
+        }
+      },
+      "readyDomSha256": "43f7647b118233b7da5873fd9eea8694fbcd7e8089ed0ea9dbb04d84e8097a3f",
+      "searchAndRefresh": {
+        "nativeInput": true,
+        "queryPreserved": true,
+        "realRefreshStatus": 200,
+        "newResourceRequests": 1
+      }
+    }
+  ],
+  "checkedPageErrors": 0,
+  "explicitAbortedNextRscPrefetchCount": 45,
+  "strictTeardown": {
+    "success": true,
+    "errors": [],
+    "remainingOwnedChromeProcesses": [],
+    "unreadableOwnedIdentities": [],
+    "profileRemoved": true
+  },
+  "driverSha256": "f18bdbb1807b1a12dc0a96c98b2337e0015fd0aa829e461381494fe6b1f3da89",
+  "gateReceiptSha256": "f0a7c3abed6be232105bee3ec4e5c52ddd5c90ae2575c799e1c9bc5c0671697f",
+  "driverSummarySha256": "58f96ea2a61f6a26c5581129f3d75e77b99bdddadd1fa20f2cc62da78c9dc4e3",
+  "actualChildExitCode": 0,
+  "actualChildWaitConsumed": true,
+  "actualOuterSessionId": 21185,
+  "actualOuterExitCode": 0,
+  "actualOuterWaitConsumed": true,
+  "actualToolJournal": [
+    {
+      "file": "tool-journal/entries/20261025T100233468000Z-exec_command-433818.json",
+      "sha256": "04fcca4fbb73e48e27b05a50a49b8801f0b40dbcc6145b0b43c059ee4c212fd3",
+      "operation": "exec_command",
+      "requestedSessionId": null,
+      "session_id": 85593,
+      "exit_code": null,
+      "chunk_id": "433818"
+    },
+    {
+      "file": "tool-journal/entries/20261025T100240110000Z-write_stdin-1bbc5e.json",
+      "sha256": "e77c275bb1479fc61790a1c8099d3f7bdb30d9f9c062569dc506e7311b0921b1",
+      "operation": "write_stdin",
+      "requestedSessionId": 85593,
+      "session_id": null,
+      "exit_code": 1,
+      "chunk_id": "1bbc5e"
+    },
+    {
+      "file": "tool-journal/entries/20261025T100309839000Z-exec_command-37af6b.json",
+      "sha256": "c4c6f3144a006f20fa570252fb43f9fa17c983fdc31c79e5283b34b00c1ffa7b",
+      "operation": "exec_command",
+      "requestedSessionId": null,
+      "session_id": 21185,
+      "exit_code": null,
+      "chunk_id": "37af6b"
+    },
+    {
+      "file": "tool-journal/entries/20261025T100320037000Z-write_stdin-39215b.json",
+      "sha256": "45f4deaa67b931a5062a94a0778c02e4efe597a8d359ac04a1a61ab17ae785c5",
+      "operation": "write_stdin",
+      "requestedSessionId": 21185,
+      "session_id": 21185,
+      "exit_code": null,
+      "chunk_id": "39215b"
+    },
+    {
+      "file": "tool-journal/entries/20261025T100330369000Z-write_stdin-0cb795.json",
+      "sha256": "5aedfa06418f9309dcd65f0794d3a012e157176163b20eb26634af1a4cbe9ab5",
+      "operation": "write_stdin",
+      "requestedSessionId": 21185,
+      "session_id": 21185,
+      "exit_code": null,
+      "chunk_id": "0cb795"
+    },
+    {
+      "file": "tool-journal/entries/20261025T100338400000Z-write_stdin-ff8745.json",
+      "sha256": "88256ce495fd7afdd379103a542cc874843f788b89660d3ba5e66944f64b1b5f",
+      "operation": "write_stdin",
+      "requestedSessionId": 21185,
+      "session_id": null,
+      "exit_code": 0,
+      "chunk_id": "ff8745"
+    }
+  ],
+  "priorAttempt": {
+    "sessionId": 85593,
+    "actualChildExitCode": 1,
+    "actualOuterExitCode": 1,
+    "actualOuterWaitConsumed": true,
+    "driverFailure": "Existing aria-hidden refresh SVG incorrectly counted as a loading paragraph placeholder.",
+    "requestFailedRecords": 2,
+    "requestFailedHeaderClassification": "Not collected in attempt01; records retained unchanged. Attempt02 records explicit prefetch headers.",
+    "strictTeardownPassed": true
+  },
+  "scoredTargets": 0,
+  "fixtureWrites": 0
+}

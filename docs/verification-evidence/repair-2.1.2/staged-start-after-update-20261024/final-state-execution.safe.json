@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "kind": "actual-read-only-post-staged-state-execution",
+  "recordedAt": "2026-10-24T16:00:49.603953+00:00",
+  "helperSha256": "5f5a40a4f9a6f3d16c109dbabd67f618beb59f9c00eb61feb0bb4d1d12f05c9c",
+  "outerWaiter": 41703,
+  "outerExitCode": 0,
+  "outerWaitConsumed": true,
+  "sshRemoteExitCode": 0,
+  "safeReceiptBytes": 7770,
+  "safeReceiptSha256": "94914337eeb82fd7b44b9daddb77608cbd9c7e18bbe5f8d0fbfa5269309ae240",
+  "safeReceiptCanonicalSha256": "42398ab15b6b7a867ba6e4cc33744e1c6875c09ed9558bc82495acc1c9ce9caf",
+  "actualStateCaptureStatus": "captured",
+  "noDownstreamOperationPerformed": true
+}

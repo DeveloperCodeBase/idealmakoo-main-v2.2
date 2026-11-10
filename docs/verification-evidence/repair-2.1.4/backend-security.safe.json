@@ -1,0 +1,88 @@
+{
+  "generatedAt": "2026-10-25T10:46:00.918858+00:00",
+  "scope": "AI HTTP session authorization and translation proposal expiry",
+  "baselineArchiveSha256": "42b96f3cf7810bad77c4cc583dd1c990c1f3ce527e38073b54e01d394bc784ef",
+  "changes": [
+    {
+      "path": "src/server/ai.ts",
+      "beforeSha256": "b660946d526f5e4588d45805a2575e021a80e833abe148325cc7eaded46081cd",
+      "afterSha256": "c96c98b1847cb14c06ed10bb4e4a23836e2a3a75ca7d428ad056d938bd7c9764"
+    },
+    {
+      "path": "src/server/content-ai.ts",
+      "beforeSha256": "12f9d03f8c7dbdb055ba840daacab56fcb8cbaf3c679748bdc3b1a27e6d2d044",
+      "afterSha256": "9f2c81695b0aa466fde49cba2e99a688e802598190a2f576dc088d1587be7b90"
+    },
+    {
+      "path": "tests/server-ai-session.pg.mjs",
+      "beforeSha256": null,
+      "afterSha256": "8d4af9d9458fcfaf45570f8477a5422f0e6cb7563aa839688e8331229179fdb2"
+    },
+    {
+      "path": "tests/server-content-token-expiry.pg.mjs",
+      "beforeSha256": null,
+      "afterSha256": "0de9618293ebf187fb1b8e3532bdd31a6f724ea2a5035421771e115fee7671b0"
+    }
+  ],
+  "database": "isolated disposable PostgreSQL 16.15",
+  "providerCalls": "Mock HTTP fetchers; no external provider requests or paid generation",
+  "before": {
+    "command": "node --import tsx --test --test-concurrency=1 --test-reporter=tap tests/server-ai-session.pg.mjs tests/server-content-token-expiry.pg.mjs",
+    "exitCode": 1,
+    "nodeTests": 10,
+    "passed": 1,
+    "failed": 9,
+    "failingScenarios": 8,
+    "note": "The Node count includes the failed parent group; eight independent behavioral scenarios failed.",
+    "logSha256": "58d218ed4a52c3ecbb0fc15f7e5c099f0121b7f13d314a901dbc284c8743dd6b"
+  },
+  "after": {
+    "command": "node --import tsx --test --test-concurrency=1 --test-reporter=tap tests/server-ai-session.pg.mjs tests/server-content-token-expiry.pg.mjs tests/server-ai-media.pg.mjs tests/server-content-ai.pg.mjs",
+    "exitCode": 0,
+    "tests": 36,
+    "passed": 36,
+    "failed": 0,
+    "skipped": 0,
+    "cancelled": 0,
+    "durationMs": 12159.687565,
+    "logSha256": "5d373a72f7b5245cc939e8e4920c5c9c02ba3e08fea2576e8a9e42518fe56ca3"
+  },
+  "typecheck": {
+    "command": "npm run typecheck",
+    "exitCode": 0,
+    "logSha256": "fe06e128b04e6710a032c06f75bf18aa21f731d21ce1878f1a49f9d6340b5662"
+  },
+  "limits": [
+    "This is targeted regression verification, not a complete security assessment or customer-host deployment.",
+    "Ordinary logout does not cancel previously accepted asynchronous jobs; current account permissions continue to be checked by their worker.",
+    "No schema/migration, package lock, presentation or user data changes."
+  ],
+  "fullIntegration": {
+    "command": "npm run test:integration",
+    "startedAt": "2026-10-25T10:41:37.632499+00:00",
+    "finishedAt": "2026-10-25T10:45:35.231817+00:00",
+    "durationSeconds": 237.599,
+    "exitCode": 0,
+    "database": "isolated disposable local PostgreSQL16.15",
+    "credentials": "synthetic; no production keys",
+    "postgres": {
+      "tests": 558,
+      "passed": 558,
+      "failed": 0,
+      "cancelled": 0,
+      "skipped": 0,
+      "todo": 0,
+      "topLevelGroups": 89,
+      "durationMs": 225589.142388
+    },
+    "api": {
+      "testFiles": 1,
+      "tests": 20,
+      "passed": 20,
+      "failed": 0,
+      "durationSeconds": 11.51
+    },
+    "logSha256": "7b28d0a6a4ae60c1ff86e11ce8d7043ee727b264dfde85dcf07d8bdc9d409bde",
+    "completeTerminalSummaryReceived": true
+  }
+}

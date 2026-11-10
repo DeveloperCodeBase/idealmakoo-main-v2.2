@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/resources/acrylic-teeth-wear-comparison-cover/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "04ddb61498ef4a1ba96d0d68848fe76fe102a6294dede2be145159c70ee58e7c",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Иллюстрация исследования — Сравнение износа шести серий акриловых зубов | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Сравнение износа шести серий акриловых зубов — Оригинальные графические документы завода"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/resources/acrylic-teeth-wear-comparison-cover/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/acrylic-teeth-wear-comparison-cover/",
+    "en": "http://127.0.0.1:3100/en/resources/acrylic-teeth-wear-comparison-cover/",
+    "tr": "http://127.0.0.1:3100/tr/resources/acrylic-teeth-wear-comparison-cover/",
+    "ar": "http://127.0.0.1:3100/ar/resources/acrylic-teeth-wear-comparison-cover/",
+    "ru": "http://127.0.0.1:3100/ru/resources/acrylic-teeth-wear-comparison-cover/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/acrylic-teeth-wear-comparison-cover/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 51
+}

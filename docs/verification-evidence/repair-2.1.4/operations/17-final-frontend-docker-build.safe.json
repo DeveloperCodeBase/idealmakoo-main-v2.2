@@ -1,0 +1,105 @@
+{
+  "recordedAt": "2026-10-25T19:51:06.484761+00:00",
+  "status": "passed",
+  "scope": "Final app-only Docker build/runtime refresh after the approved frontend corrections; original operational acceptance01-16 is preserved",
+  "priorOperationalAcceptanceRepeated": false,
+  "format": "idealmakoo-final-frontend-docker-build-v1",
+  "nativeAcceptanceBuildId": "ir2DFJg8r5YdpbVQubUqF",
+  "applicationInputFingerprint": "4fcec50f5846b0affccc59e43798613ba134a3f93559ea5ddba9705e1f38cc58",
+  "applicationInputCount": 833,
+  "sourceTarSha256": "bcebf6d9eede2774fee65c037a6aa85165cdb40fd234343aacc64bc1099ea243",
+  "sourceTarBytes": 198563840,
+  "sourceFileCount": 4392,
+  "sourceSnapshotActualExitCode": 0,
+  "sourceStageActualExitCode": 0,
+  "allInputAndSourceHashesVerifiedBeforeAndAfterTransfer": true,
+  "requiredRuntimeAssets": {
+    "public/media/environment/blue-lagoon-1k.hdr": {
+      "bytes": 1559027,
+      "sha256": "6d5d4e19954d5f8efd74124ee7d21e5d69efb61d5398d2e16a019fd67fa591dd"
+    },
+    "public/media/environment/blue-lagoon-1k.hdr.gz": {
+      "bytes": 1197664,
+      "sha256": "75f23bf11ad81c6ef425b00e3258717bf7e2cd17625f6b1986aa2809b2fac315"
+    },
+    "public/offline/fa.html": {
+      "bytes": 1965,
+      "sha256": "390eaf04aa17502ae2401ba4d4b355c8f42470343887a5f91556e394e621f63d"
+    },
+    "public/offline/en.html": {
+      "bytes": 1731,
+      "sha256": "90217158e3463f15608788b7935b4a4517b43023fbe39e093d4c59b8190601ea"
+    },
+    "public/offline/tr.html": {
+      "bytes": 1791,
+      "sha256": "37db640245835879433bd7067ac96af053795c608dcf56b29d7af7c739b4e657"
+    },
+    "public/offline/ar.html": {
+      "bytes": 1944,
+      "sha256": "5b91e0b58bf6a4167501d9d56bdb5dce8b621c22f8e030e337d419c489dca057"
+    },
+    "public/offline/ru.html": {
+      "bytes": 2011,
+      "sha256": "d9d1b7341b949986c9ef5c1a41ee3c3e170321a3af3a665bb90b81a821998a47"
+    }
+  },
+  "applicationInputsReceiptSha256": "adde220aa74dc52a0420187839cb2c6d9311d44e430b4fba1c3c3b57c9ff7c80",
+  "frontendContinuityReceiptSha256": "bf216e71aef68f801aef9a87b478581028549567dc7094a742155f52de30393a",
+  "approvedApplicationDeltaCount": 8,
+  "approvedTestDeltaCount": 8,
+  "unchangedBackendApiWorkerDeploymentMigrationsScriptsAndDependencyInputs": true,
+  "buildOperation": {
+    "guest": {
+      "startedAt": "2026-10-25T19:15:17.096004+00:00",
+      "completedAt": "2026-10-25T19:45:03.760058+00:00",
+      "elapsedSeconds": 1786.669,
+      "exitCode": 0,
+      "protectedConfigurationUnchanged": true
+    },
+    "host": {
+      "startedAt": "2026-10-25T19:15:08.182582+00:00",
+      "completedAt": "2026-10-25T19:45:04.910646+00:00",
+      "actualSshExitCode": 0,
+      "durationSeconds": 1796.728,
+      "hostFreeBytes": 3879829504
+    }
+  },
+  "originalDockerfileAndBuildHelperUsed": true,
+  "nativeCompiledOutputInjected": false,
+  "imagesSelectedForBuild": [
+    "app"
+  ],
+  "dockerImageId": "sha256:04b4ea2a4c462506362a6db8aeff540e3d39b4ef501b60f2c45138edd6b6c3f3",
+  "dockerBuildId": "nsZ9wJTZrlCbPhlylmcQf",
+  "nativeAndDockerBuildIdentitiesRecordedSeparately": true,
+  "privateAcceptanceHelperContinuations": [
+    {
+      "stage": "source transfer verification",
+      "firstActualExitCode": 1,
+      "firstDurationSeconds": 33.144,
+      "reason": "Private helper used hashlib.file_digest unavailable in Ubuntu22.04 Python; separately named retry uses the existing streamed SHA256 approach.",
+      "retryActualExitCode": 0,
+      "retryDurationSeconds": 44.849,
+      "originalEvidenceRetained": true,
+      "productionCodeOrChecksumPolicyChanged": false
+    },
+    {
+      "stage": "before-refresh inventory",
+      "firstActualExitCode": 1,
+      "firstDurationSeconds": 13.82,
+      "reason": "Private helper initially assumed five total containers; observed original exited migration container is now explicitly retained and verified alongside the five running services.",
+      "retryActualExitCode": 0,
+      "retryDurationSeconds": 20.433,
+      "originalEvidenceRetained": true,
+      "migrationOrBusinessMutationPerformedByFailedHelper": false
+    }
+  ],
+  "privateBuildLogCustody": {
+    "completedAt": "2026-10-25T19:45:50.794330+00:00",
+    "actualTransferExitCode": 0,
+    "bytes": 10594,
+    "sha256": "a687880d3a46fc2c6261d98148cd0c6cd65d84935e9c63fb26ed04ef2cbfa5a4",
+    "originalCompletePrivateLogRetained": true,
+    "privateLogContentsExported": false
+  }
+}

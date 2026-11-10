@@ -1,0 +1,29 @@
+{
+  "format": "private-safe-rollup-verification-v1",
+  "verifiedAt": "2026-10-25T16:04:12.284725+00:00",
+  "status": "passed",
+  "helperSha256": "c7d951af6e8e2dfc4ee47d2d4a5a24e7312d8b153a5f881a8451c18b5f3e8b35",
+  "syntheticCases": [
+    {
+      "case": "latest-safe-audit-part",
+      "actualExitCode": 0,
+      "latestOnly": true,
+      "oldAttemptHistoryRetained": true,
+      "quarantinedAndIncompleteScoresExcluded": true,
+      "expectedNoindexSeparate": true,
+      "missingEvidenceNotAssumedEmpty": true
+    },
+    {
+      "case": "missing-evidence-explicit",
+      "actualExitCode": 0,
+      "latestOnly": true,
+      "oldAttemptHistoryRetained": true,
+      "quarantinedAndIncompleteScoresExcluded": true,
+      "expectedNoindexSeparate": true,
+      "missingEvidenceNotAssumedEmpty": true
+    }
+  ],
+  "networkDatabaseBrowserRequests": 0,
+  "applicationInputsChanged": false,
+  "note": "Documentation/reporting verification only. Private failed audit IDs come from the strict-safe part referenced by the latest completed attempt; earlier attempts remain in history. Intentional noindex is distinguished from optimization/review findings."
+}

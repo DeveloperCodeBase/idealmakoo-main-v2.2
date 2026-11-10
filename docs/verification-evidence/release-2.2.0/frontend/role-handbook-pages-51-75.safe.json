@@ -1,0 +1,279 @@
+{
+  "reviewedAt": "2026-10-26T14:26:49.129117+00:00",
+  "document": "IdealMakoo-2.2-Role-Handbook.fa.docx",
+  "docxSha256": "63631b9dd1a5e87c040a9dfcade46985c61fe50fb7201b598dba597632b6676c",
+  "documentPageCount": 75,
+  "reviewedRange": {
+    "first": 51,
+    "last": 75,
+    "count": 25
+  },
+  "status": "pass",
+  "method": "Every page in this range was opened at original image detail. After the final pagination correction, pages 54, 55 and 56 and the regenerated pages 60 and 71 were reopened. The other 20 final pages were independently compared pixel-for-pixel against the already inspected originals.",
+  "checks": {
+    "persianRtlReadable": true,
+    "mixedDirectionRoutesReadable": true,
+    "noMissingGlyphs": true,
+    "noClippingOrOverlap": true,
+    "tableRowsAndRepeatedHeadersReadable": true,
+    "screenshotsMatchActualTrainingUi": true,
+    "captionsAndImagesReadable": true,
+    "footersAndPageNumbersCorrect": true,
+    "all25FinalPngsDecode": true
+  },
+  "issues": [],
+  "resolvedIssues": [
+    {
+      "pages": [
+        54,
+        55
+      ],
+      "issue": "Sample prompt label was previously separated from its example by a page break.",
+      "resolution": "The label and example now appear together at the top of page 55."
+    },
+    {
+      "pages": [
+        60,
+        71
+      ],
+      "issue": "Earlier PNG rendering outputs were truncated.",
+      "resolution": "Complete final images were regenerated, decoded, hash-checked and visually inspected at original detail."
+    }
+  ],
+  "acceptedLayoutChoices": [
+    {
+      "pages": [
+        56,
+        68
+      ],
+      "note": "Short ending pages preserve the independence of each role chapter; content and related-guide entries remain complete."
+    }
+  ],
+  "pages": [
+    {
+      "page": 51,
+      "pngSha256": "95d17b7a47292eab2cf8e9d3f98119138d184770d7d3a5733a88081f55c45e81",
+      "pixelSha256": "34aad1e285b733f244a6c488a2fa39eacbd30da3a8ec9184ab47fde86fedac65",
+      "width": 1547,
+      "height": 2002,
+      "review": "original-detail visual review of prior render; final pixels independently verified identical",
+      "result": "pass"
+    },
+    {
+      "page": 52,
+      "pngSha256": "ff85a1dd2c0ebfb358477b2fdd44ab0ae4567c5bbc7d2c01da2d0cd51c4870e8",
+      "pixelSha256": "2ee2ff70b3ffe37a784222943f15ca0978eac4383176baeea543a2492d3d6ed6",
+      "width": 1547,
+      "height": 2002,
+      "review": "original-detail visual review of prior render; final pixels independently verified identical",
+      "result": "pass"
+    },
+    {
+      "page": 53,
+      "pngSha256": "7d9ecd47c2a609846b357f53eff3b9bfe6a86f3189bcdc7acced352f3dd0c57d",
+      "pixelSha256": "ddad5888efb14b9257e027bfe8c6fffc0f13b4899daa4a9d8539e6238ae1df65",
+      "width": 1547,
+      "height": 2002,
+      "review": "original-detail visual review of prior render; final pixels independently verified identical",
+      "result": "pass"
+    },
+    {
+      "page": 54,
+      "pngSha256": "663c118376533c0fa0fa00f478cce6fff2894034c4a154f23f591c5d73272638",
+      "pixelSha256": "736da2467d9ef505eb0d588929bfa05a9b2a090dd524d3b8d01218fa7fa3dbb5",
+      "width": 1547,
+      "height": 2002,
+      "review": "original-detail visual review of certified render",
+      "result": "pass"
+    },
+    {
+      "page": 55,
+      "pngSha256": "03220c37e68da8701761a6e16aa6332213e46f1fc67d616817f11b3b1bf40922",
+      "pixelSha256": "d8056d801b12b3880ce94f85d82a22823d14e64ebef3a866db92a4055067dc42",
+      "width": 1547,
+      "height": 2002,
+      "review": "original-detail visual review of certified render",
+      "result": "pass"
+    },
+    {
+      "page": 56,
+      "pngSha256": "3c9d920c3b825565f420d75101fbaa48844eb64ba6eb5788fb009b8dc09d7087",
+      "pixelSha256": "25bace581359532eda925e0ab41fdf19f02d05787aae72be9fe8edf8cab3400d",
+      "width": 1547,
+      "height": 2002,
+      "review": "original-detail visual review of certified render",
+      "result": "pass"
+    },
+    {
+      "page": 57,
+      "pngSha256": "74f496728e2c8bb323c14e2e4de49356191861403ef4ad669638948266519110",
+      "pixelSha256": "9a15d493b15d8c57339e71f2de40eab15a68081082f3ee6169d77f62e2ef1d4a",
+      "width": 1547,
+      "height": 2002,
+      "review": "original-detail visual review of prior render; final pixels independently verified identical",
+      "result": "pass"
+    },
+    {
+      "page": 58,
+      "pngSha256": "8e6cc7763e9460725323415d11b20137e413f1e8ab5543af43cc975c8917e2e4",
+      "pixelSha256": "0042f3eab911868845e07b3bf78bbb594bc6f8f1ddf12d26000ef3851d05d03d",
+      "width": 1547,
+      "height": 2002,
+      "review": "original-detail visual review of prior render; final pixels independently verified identical",
+      "result": "pass"
+    },
+    {
+      "page": 59,
+      "pngSha256": "d3a99f30d6466febdc0ae0dff2cd6db8d7a5ad7fbf902751575d027b7fda420f",
+      "pixelSha256": "d4ebb52846be7da6ba6ab61bc675d4a8907169f755c009356d26c905ac756ada",
+      "width": 1547,
+      "height": 2002,
+      "review": "original-detail visual review of prior render; final pixels independently verified identical",
+      "result": "pass"
+    },
+    {
+      "page": 60,
+      "pngSha256": "a6ecef0f633afe3714707bc99159fd9ef3bfe1a004c1e4f3280111a9c481eda5",
+      "pixelSha256": "8ca85e4b95f2c8011c7569e6cb7c683a69496871cf1fd8a4381ddc5528cd3f66",
+      "width": 1547,
+      "height": 2002,
+      "review": "original-detail visual review of certified render",
+      "result": "pass"
+    },
+    {
+      "page": 61,
+      "pngSha256": "78b1994227b6102dcbd7a718b1edfe5cd979b1e3092ce010cf6798a9f6a50cde",
+      "pixelSha256": "35a88a267bf8ba801b6d71cf68fc29d613175cdeb3f09300beb22141c05c8816",
+      "width": 1547,
+      "height": 2002,
+      "review": "original-detail visual review of prior render; final pixels independently verified identical",
+      "result": "pass"
+    },
+    {
+      "page": 62,
+      "pngSha256": "27defcd230ce1317ad755464afaf31d0cc79562908f31a551446d6de9ec6610f",
+      "pixelSha256": "aede92717fd3935908eaccc870f7b1570415466376cc05226ad1e787b5a820a6",
+      "width": 1547,
+      "height": 2002,
+      "review": "original-detail visual review of prior render; final pixels independently verified identical",
+      "result": "pass"
+    },
+    {
+      "page": 63,
+      "pngSha256": "ce2926b355d111e64a344322d8378c935227eb6b4644a215c5b665a567cdaa74",
+      "pixelSha256": "65346126ac11e84fe0fd7a5148d8171db84b0826473260d9d99721f8651c70ab",
+      "width": 1547,
+      "height": 2002,
+      "review": "original-detail visual review of prior render; final pixels independently verified identical",
+      "result": "pass"
+    },
+    {
+      "page": 64,
+      "pngSha256": "f573b9764a415d12062c75fc1a105e820621ebac9245bb702dbb87745d61ccf3",
+      "pixelSha256": "cf7d5b7903797dbd5d827c116e00693ceeb3a354eec69b9428a677287151a88f",
+      "width": 1547,
+      "height": 2002,
+      "review": "original-detail visual review of prior render; final pixels independently verified identical",
+      "result": "pass"
+    },
+    {
+      "page": 65,
+      "pngSha256": "cbcd614660ef11f3f19e703f55d6b695004ca8ccfc5dbae6dbdd904bfd4d06a8",
+      "pixelSha256": "d832944cfd3e5ecef1dfe6989d6fe2316dd351c3a4cee3cd2540a1f523c7261d",
+      "width": 1547,
+      "height": 2002,
+      "review": "original-detail visual review of prior render; final pixels independently verified identical",
+      "result": "pass"
+    },
+    {
+      "page": 66,
+      "pngSha256": "4f32794b0095ce6e5fc17c955ab0d8c44d711a9537237e78ced8b707d6022b16",
+      "pixelSha256": "e295aec413f1d509dbe69546d45ff472d1d887ba96e5851c582fb6946d2e04ec",
+      "width": 1547,
+      "height": 2002,
+      "review": "original-detail visual review of prior render; final pixels independently verified identical",
+      "result": "pass"
+    },
+    {
+      "page": 67,
+      "pngSha256": "bdfa8c01b70880a798e3b0104d16a7dee67527dd8c3165367cdea47f5562b937",
+      "pixelSha256": "1c64a38eb0a70541957ae4e1f5646fb63dcafcdddb9dba698894ac5d2a8cb5bc",
+      "width": 1547,
+      "height": 2002,
+      "review": "original-detail visual review of prior render; final pixels independently verified identical",
+      "result": "pass"
+    },
+    {
+      "page": 68,
+      "pngSha256": "1e498822d65419ce9db0d76fbde0f6eb030d38c46cff4b0068a1fe62b0523981",
+      "pixelSha256": "8919d07cdd7bf5a8601761c373c248598e834d0e437efbf41b7ed6ac50e8cdf7",
+      "width": 1547,
+      "height": 2002,
+      "review": "original-detail visual review of prior render; final pixels independently verified identical",
+      "result": "pass"
+    },
+    {
+      "page": 69,
+      "pngSha256": "b5eac33d772bc24655e6210ef6ab59f55c25316f763336714addabf726d90bc7",
+      "pixelSha256": "229bed0398ff8aa8b8aaff668d78a3da471251a069201aa8364a57971c6b7b0e",
+      "width": 1547,
+      "height": 2002,
+      "review": "original-detail visual review of prior render; final pixels independently verified identical",
+      "result": "pass"
+    },
+    {
+      "page": 70,
+      "pngSha256": "5db05233637a38c33a042ba5ba6befebe2b618ee113e3e4f577133e12fbd7f12",
+      "pixelSha256": "d7677de98c134dc2516c5042fff48680a724337a30eca295b1f0c905f794c6d7",
+      "width": 1547,
+      "height": 2002,
+      "review": "original-detail visual review of prior render; final pixels independently verified identical",
+      "result": "pass"
+    },
+    {
+      "page": 71,
+      "pngSha256": "58c51b5ecb1f3bee9b3bb46cf95ee22b4e094663dabd0469acd34504ab7919ac",
+      "pixelSha256": "3275a7fa85c7276e3f16cf039922d958c1b46cbc802129e7c010de5031686f4b",
+      "width": 1547,
+      "height": 2002,
+      "review": "original-detail visual review of certified render",
+      "result": "pass"
+    },
+    {
+      "page": 72,
+      "pngSha256": "a8fef325dfb67c46392694da9a86a401706f2d6ad19c5006a03e9c9fb6eef7e5",
+      "pixelSha256": "ae991a1ccacfe7b76fd9699c8d1b2523e820d0025c379b90db3e2a40df3385d0",
+      "width": 1547,
+      "height": 2002,
+      "review": "original-detail visual review of prior render; final pixels independently verified identical",
+      "result": "pass"
+    },
+    {
+      "page": 73,
+      "pngSha256": "2c9be969826f2ef8c8f7f71681de5920e5076ecf490ac83bc2c9daf92d4a71d7",
+      "pixelSha256": "dc7aacebea79ea06254523d28613fc875ca29e0dcc4df0146be2751a22958734",
+      "width": 1547,
+      "height": 2002,
+      "review": "original-detail visual review of prior render; final pixels independently verified identical",
+      "result": "pass"
+    },
+    {
+      "page": 74,
+      "pngSha256": "8cc19780a8fd6cd38eaadefb41f215948810c800c34438ebfa07f5a72c314895",
+      "pixelSha256": "882232c9edd2258f22a6ff84a49c70b9c698b08d0c60c225728e27e05a46198f",
+      "width": 1547,
+      "height": 2002,
+      "review": "original-detail visual review of prior render; final pixels independently verified identical",
+      "result": "pass"
+    },
+    {
+      "page": 75,
+      "pngSha256": "5e25ba32dca9f6c7f584e846b2336eaeafc8db80b2ec6cb4c9f9e78945a553f5",
+      "pixelSha256": "5d0c8f62e6a93f4dfc5e7bf358b64769407d413823d048f48ef2e3054f00b7e9",
+      "width": 1547,
+      "height": 2002,
+      "review": "original-detail visual review of prior render; final pixels independently verified identical",
+      "result": "pass"
+    }
+  ]
+}

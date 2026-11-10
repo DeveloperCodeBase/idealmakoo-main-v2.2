@@ -1,0 +1,933 @@
+{
+  "kind": "Post-processing of preserved original HTTP metadata evidence",
+  "buildId": "sPTh26GaGouK6nn5b3u7H",
+  "publicContentHash": "c81fb2b40e486f8608c7c7da584d76197bef191244fad9d1b45128ddbb7e8e74",
+  "inventoryHash": "678ed9c29732f5c3475a4ee5bd3e9faded88ee51b8af047834d35d02cd855bf6",
+  "titles": [
+    {
+      "locale": "ar",
+      "value": "مساحة للمعرفة والخبرة. | إيدآل ماكو",
+      "urls": [
+        "http://127.0.0.1:3090/ar/blog/",
+        "http://127.0.0.1:3090/ar/knowledge/"
+      ]
+    },
+    {
+      "locale": "ar",
+      "value": "التعاون معنا | إيدآل ماكو",
+      "urls": [
+        "http://127.0.0.1:3090/ar/cooperation/",
+        "http://127.0.0.1:3090/ar/cooperation/distribution/",
+        "http://127.0.0.1:3090/ar/cooperation/investment/",
+        "http://127.0.0.1:3090/ar/cooperation/outsourcing/",
+        "http://127.0.0.1:3090/ar/cooperation/research/",
+        "http://127.0.0.1:3090/ar/cooperation/suppliers/"
+      ]
+    },
+    {
+      "locale": "ar",
+      "value": "المصنع في إطار الصورة. | إيدآل ماكو",
+      "urls": [
+        "http://127.0.0.1:3090/ar/media/",
+        "http://127.0.0.1:3090/ar/videos/"
+      ]
+    },
+    {
+      "locale": "ar",
+      "value": "ارتباط الأسنان الأكريليكية والكومبوزيت براتنج القاعدة | إيدآل ماكو",
+      "urls": [
+        "http://127.0.0.1:3090/ar/research/acrylic-composite-resin-bond/",
+        "http://127.0.0.1:3090/ar/resources/acrylic-composite-resin-bond-cover/"
+      ]
+    },
+    {
+      "locale": "ar",
+      "value": "مقارنة تآكل ست سلاسل من الأسنان الأكريليكية | إيدآل ماكو",
+      "urls": [
+        "http://127.0.0.1:3090/ar/research/acrylic-teeth-wear-comparison/",
+        "http://127.0.0.1:3090/ar/resources/acrylic-teeth-wear-comparison-cover/"
+      ]
+    },
+    {
+      "locale": "ar",
+      "value": "مقارنة تآكل أسنان آبل وسوبر ماجور | إيدآل ماكو",
+      "urls": [
+        "http://127.0.0.1:3090/ar/research/apple-super-major-wear/",
+        "http://127.0.0.1:3090/ar/resources/apple-super-major-wear-cover/"
+      ]
+    },
+    {
+      "locale": "ar",
+      "value": "مقارنة معدل تآكل أربعة أنواع أسنان صناعية | إيدآل ماكو",
+      "urls": [
+        "http://127.0.0.1:3090/ar/research/four-teeth-wear-rate/",
+        "http://127.0.0.1:3090/ar/resources/four-teeth-wear-rate-cover/"
+      ]
+    },
+    {
+      "locale": "ar",
+      "value": "ارتباط كومبوزيت إيدآل ماكو وسينرجي بالعاج | إيدآل ماكو",
+      "urls": [
+        "http://127.0.0.1:3090/ar/research/iranian-swiss-dentin-bond/",
+        "http://127.0.0.1:3090/ar/resources/iranian-swiss-dentin-bond-cover/"
+      ]
+    },
+    {
+      "locale": "ar",
+      "value": "الارتباط القصي لكومبوزيت إيراني وسويسري | إيدآل ماكو",
+      "urls": [
+        "http://127.0.0.1:3090/ar/research/iranian-swiss-shear-bond/",
+        "http://127.0.0.1:3090/ar/resources/iranian-swiss-shear-bond-cover/"
+      ]
+    },
+    {
+      "locale": "ar",
+      "value": "تآكل بريليان وسوبر بريليان مقارنة بإيفوكلار | إيدآل ماكو",
+      "urls": [
+        "http://127.0.0.1:3090/ar/research/iranian-teeth-ivoclar-wear/",
+        "http://127.0.0.1:3090/ar/resources/iranian-teeth-ivoclar-wear-cover/"
+      ]
+    },
+    {
+      "locale": "ar",
+      "value": "مقارنة تآكل بريزيدنت وإيفوكلار بالمسح ثلاثي الأبعاد | إيدآل ماكو",
+      "urls": [
+        "http://127.0.0.1:3090/ar/research/president-ivoclar-3d-wear/",
+        "http://127.0.0.1:3090/ar/resources/president-ivoclar-3d-wear-cover/"
+      ]
+    },
+    {
+      "locale": "ar",
+      "value": "ارتباط القاعدة الراتنجية بغلامور وياقوت وآبل وإيفوكلار | إيدآل ماكو",
+      "urls": [
+        "http://127.0.0.1:3090/ar/research/resin-base-bond-four-teeth/",
+        "http://127.0.0.1:3090/ar/resources/resin-base-bond-four-teeth-cover/"
+      ]
+    },
+    {
+      "locale": "ar",
+      "value": "التآكل المستقر في ست مجموعات أسنان صناعية | إيدآل ماكو",
+      "urls": [
+        "http://127.0.0.1:3090/ar/research/six-acrylic-ranges-steady-wear/",
+        "http://127.0.0.1:3090/ar/resources/six-acrylic-ranges-steady-wear-cover/"
+      ]
+    },
+    {
+      "locale": "ar",
+      "value": "مقارنة معدل تآكل ستة أنواع أسنان صناعية | إيدآل ماكو",
+      "urls": [
+        "http://127.0.0.1:3090/ar/research/six-teeth-wear-rate/",
+        "http://127.0.0.1:3090/ar/resources/six-teeth-wear-rate-cover/"
+      ]
+    },
+    {
+      "locale": "ar",
+      "value": "ارتباط آبل وغلامور وبي ستار بالقاعدة الأكريليكية | إيدآل ماكو",
+      "urls": [
+        "http://127.0.0.1:3090/ar/research/three-teeth-denture-base-bond/",
+        "http://127.0.0.1:3090/ar/resources/three-teeth-denture-base-bond-cover/"
+      ]
+    },
+    {
+      "locale": "ar",
+      "value": "ارتباط بريليان وسوبر بريليان وإيفوكلار بالراتنج الحراري | إيدآل ماكو",
+      "urls": [
+        "http://127.0.0.1:3090/ar/research/three-teeth-heat-cured-resin/",
+        "http://127.0.0.1:3090/ar/resources/three-teeth-heat-cured-resin-cover/"
+      ]
+    },
+    {
+      "locale": "en",
+      "value": "A place for knowledge and experience. | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/en/blog/",
+        "http://127.0.0.1:3090/en/knowledge/"
+      ]
+    },
+    {
+      "locale": "en",
+      "value": "Partner with us | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/en/cooperation/",
+        "http://127.0.0.1:3090/en/cooperation/distribution/",
+        "http://127.0.0.1:3090/en/cooperation/investment/",
+        "http://127.0.0.1:3090/en/cooperation/outsourcing/",
+        "http://127.0.0.1:3090/en/cooperation/research/",
+        "http://127.0.0.1:3090/en/cooperation/suppliers/"
+      ]
+    },
+    {
+      "locale": "en",
+      "value": "The factory, in focus. | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/en/media/",
+        "http://127.0.0.1:3090/en/videos/"
+      ]
+    },
+    {
+      "locale": "en",
+      "value": "Acrylic and composite tooth bonding to denture-base resin | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/en/research/acrylic-composite-resin-bond/",
+        "http://127.0.0.1:3090/en/resources/acrylic-composite-resin-bond-cover/"
+      ]
+    },
+    {
+      "locale": "en",
+      "value": "Wear comparison of six acrylic tooth ranges | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/en/research/acrylic-teeth-wear-comparison/",
+        "http://127.0.0.1:3090/en/resources/acrylic-teeth-wear-comparison-cover/"
+      ]
+    },
+    {
+      "locale": "en",
+      "value": "Wear comparison of Apple and Super Major teeth | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/en/research/apple-super-major-wear/",
+        "http://127.0.0.1:3090/en/resources/apple-super-major-wear-cover/"
+      ]
+    },
+    {
+      "locale": "en",
+      "value": "Wear-rate comparison of four denture tooth types | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/en/research/four-teeth-wear-rate/",
+        "http://127.0.0.1:3090/en/resources/four-teeth-wear-rate-cover/"
+      ]
+    },
+    {
+      "locale": "en",
+      "value": "Dentin bonding of Ideal Makoo and Synergy composites | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/en/research/iranian-swiss-dentin-bond/",
+        "http://127.0.0.1:3090/en/resources/iranian-swiss-dentin-bond-cover/"
+      ]
+    },
+    {
+      "locale": "en",
+      "value": "Shear bonding of Iranian and Swiss composites | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/en/research/iranian-swiss-shear-bond/",
+        "http://127.0.0.1:3090/en/resources/iranian-swiss-shear-bond-cover/"
+      ]
+    },
+    {
+      "locale": "en",
+      "value": "Wear of Berelian and Super Berelian compared with Ivoclar | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/en/research/iranian-teeth-ivoclar-wear/",
+        "http://127.0.0.1:3090/en/resources/iranian-teeth-ivoclar-wear-cover/"
+      ]
+    },
+    {
+      "locale": "en",
+      "value": "President and Ivoclar wear assessed with 3D scanning | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/en/research/president-ivoclar-3d-wear/",
+        "http://127.0.0.1:3090/en/resources/president-ivoclar-3d-wear-cover/"
+      ]
+    },
+    {
+      "locale": "en",
+      "value": "Resin-base bonding to Glamour, Yaghoot, Apple and Ivoclar | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/en/research/resin-base-bond-four-teeth/",
+        "http://127.0.0.1:3090/en/resources/resin-base-bond-four-teeth-cover/"
+      ]
+    },
+    {
+      "locale": "en",
+      "value": "Steady-state wear in six denture tooth groups | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/en/research/six-acrylic-ranges-steady-wear/",
+        "http://127.0.0.1:3090/en/resources/six-acrylic-ranges-steady-wear-cover/"
+      ]
+    },
+    {
+      "locale": "en",
+      "value": "Wear-rate comparison of six denture tooth types | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/en/research/six-teeth-wear-rate/",
+        "http://127.0.0.1:3090/en/resources/six-teeth-wear-rate-cover/"
+      ]
+    },
+    {
+      "locale": "en",
+      "value": "Apple, Glamour and B.Star bonding to acrylic denture bases | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/en/research/three-teeth-denture-base-bond/",
+        "http://127.0.0.1:3090/en/resources/three-teeth-denture-base-bond-cover/"
+      ]
+    },
+    {
+      "locale": "en",
+      "value": "Berelian, Super Berelian and Ivoclar bonding to heat-cured resin | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/en/research/three-teeth-heat-cured-resin/",
+        "http://127.0.0.1:3090/en/resources/three-teeth-heat-cured-resin-cover/"
+      ]
+    },
+    {
+      "locale": "fa",
+      "value": "جایی برای دانش و تجربه. | ایده‌آل ماکو",
+      "urls": [
+        "http://127.0.0.1:3090/fa/blog/",
+        "http://127.0.0.1:3090/fa/knowledge/"
+      ]
+    },
+    {
+      "locale": "fa",
+      "value": "همکاری با ما | ایده‌آل ماکو",
+      "urls": [
+        "http://127.0.0.1:3090/fa/cooperation/",
+        "http://127.0.0.1:3090/fa/cooperation/distribution/",
+        "http://127.0.0.1:3090/fa/cooperation/investment/",
+        "http://127.0.0.1:3090/fa/cooperation/outsourcing/",
+        "http://127.0.0.1:3090/fa/cooperation/research/",
+        "http://127.0.0.1:3090/fa/cooperation/suppliers/"
+      ]
+    },
+    {
+      "locale": "fa",
+      "value": "کارخانه، در قاب تصویر. | ایده‌آل ماکو",
+      "urls": [
+        "http://127.0.0.1:3090/fa/media/",
+        "http://127.0.0.1:3090/fa/videos/"
+      ]
+    },
+    {
+      "locale": "fa",
+      "value": "مقایسه اتصال دندان‌های اکریلیکی و کامپوزیتی به رزین پایه | ایده‌آل ماکو",
+      "urls": [
+        "http://127.0.0.1:3090/fa/research/acrylic-composite-resin-bond/",
+        "http://127.0.0.1:3090/fa/resources/acrylic-composite-resin-bond-cover/"
+      ]
+    },
+    {
+      "locale": "fa",
+      "value": "مقایسه سایش شش سری دندان اکریلیکی | ایده‌آل ماکو",
+      "urls": [
+        "http://127.0.0.1:3090/fa/research/acrylic-teeth-wear-comparison/",
+        "http://127.0.0.1:3090/fa/resources/acrylic-teeth-wear-comparison-cover/"
+      ]
+    },
+    {
+      "locale": "fa",
+      "value": "مقایسه سایش دندان اپل و سوپر ماژور | ایده‌آل ماکو",
+      "urls": [
+        "http://127.0.0.1:3090/fa/research/apple-super-major-wear/",
+        "http://127.0.0.1:3090/fa/resources/apple-super-major-wear-cover/"
+      ]
+    },
+    {
+      "locale": "fa",
+      "value": "مقایسه نرخ سایش ۴ نوع دندان مصنوعی | ایده‌آل ماکو",
+      "urls": [
+        "http://127.0.0.1:3090/fa/research/four-teeth-wear-rate/",
+        "http://127.0.0.1:3090/fa/resources/four-teeth-wear-rate-cover/"
+      ]
+    },
+    {
+      "locale": "fa",
+      "value": "استحکام اتصال کامپوزیت ایده‌آل ماکو و سینرژی به عاج | ایده‌آل ماکو",
+      "urls": [
+        "http://127.0.0.1:3090/fa/research/iranian-swiss-dentin-bond/",
+        "http://127.0.0.1:3090/fa/resources/iranian-swiss-dentin-bond-cover/"
+      ]
+    },
+    {
+      "locale": "fa",
+      "value": "اتصال برشی کامپوزیت ایرانی و سوئیسی | ایده‌آل ماکو",
+      "urls": [
+        "http://127.0.0.1:3090/fa/research/iranian-swiss-shear-bond/",
+        "http://127.0.0.1:3090/fa/resources/iranian-swiss-shear-bond-cover/"
+      ]
+    },
+    {
+      "locale": "fa",
+      "value": "بررسی سایش برلیان و سوپر برلیان در مقایسه با ایوکلار | ایده‌آل ماکو",
+      "urls": [
+        "http://127.0.0.1:3090/fa/research/iranian-teeth-ivoclar-wear/",
+        "http://127.0.0.1:3090/fa/resources/iranian-teeth-ivoclar-wear-cover/"
+      ]
+    },
+    {
+      "locale": "fa",
+      "value": "مقایسه سایش پرزیدنت و ایوکلار با اسکن سه‌بعدی | ایده‌آل ماکو",
+      "urls": [
+        "http://127.0.0.1:3090/fa/research/president-ivoclar-3d-wear/",
+        "http://127.0.0.1:3090/fa/resources/president-ivoclar-3d-wear-cover/"
+      ]
+    },
+    {
+      "locale": "fa",
+      "value": "استحکام اتصال بیس رزینی به گلامور، یاقوت، اپل و ایوکلار | ایده‌آل ماکو",
+      "urls": [
+        "http://127.0.0.1:3090/fa/research/resin-base-bond-four-teeth/",
+        "http://127.0.0.1:3090/fa/resources/resin-base-bond-four-teeth-cover/"
+      ]
+    },
+    {
+      "locale": "fa",
+      "value": "نرخ سایش پایدار شش گروه دندان مصنوعی | ایده‌آل ماکو",
+      "urls": [
+        "http://127.0.0.1:3090/fa/research/six-acrylic-ranges-steady-wear/",
+        "http://127.0.0.1:3090/fa/resources/six-acrylic-ranges-steady-wear-cover/"
+      ]
+    },
+    {
+      "locale": "fa",
+      "value": "مقایسه نرخ سایش ۶ نوع دندان مصنوعی | ایده‌آل ماکو",
+      "urls": [
+        "http://127.0.0.1:3090/fa/research/six-teeth-wear-rate/",
+        "http://127.0.0.1:3090/fa/resources/six-teeth-wear-rate-cover/"
+      ]
+    },
+    {
+      "locale": "fa",
+      "value": "اتصال اپل، گلامور و بی‌استار به اکریل بیس دنچر | ایده‌آل ماکو",
+      "urls": [
+        "http://127.0.0.1:3090/fa/research/three-teeth-denture-base-bond/",
+        "http://127.0.0.1:3090/fa/resources/three-teeth-denture-base-bond-cover/"
+      ]
+    },
+    {
+      "locale": "fa",
+      "value": "اتصال برلیان، سوپر برلیان و ایوکلار به رزین گرماپخت | ایده‌آل ماکو",
+      "urls": [
+        "http://127.0.0.1:3090/fa/research/three-teeth-heat-cured-resin/",
+        "http://127.0.0.1:3090/fa/resources/three-teeth-heat-cured-resin-cover/"
+      ]
+    },
+    {
+      "locale": "ru",
+      "value": "Место для знаний и опыта. | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/ru/blog/",
+        "http://127.0.0.1:3090/ru/knowledge/"
+      ]
+    },
+    {
+      "locale": "ru",
+      "value": "Сотрудничество | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/ru/cooperation/",
+        "http://127.0.0.1:3090/ru/cooperation/distribution/",
+        "http://127.0.0.1:3090/ru/cooperation/investment/",
+        "http://127.0.0.1:3090/ru/cooperation/outsourcing/",
+        "http://127.0.0.1:3090/ru/cooperation/research/",
+        "http://127.0.0.1:3090/ru/cooperation/suppliers/"
+      ]
+    },
+    {
+      "locale": "ru",
+      "value": "Фабрика в объективе. | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/ru/media/",
+        "http://127.0.0.1:3090/ru/videos/"
+      ]
+    },
+    {
+      "locale": "ru",
+      "value": "Соединение акриловых и композитных зубов с базисной смолой | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/ru/research/acrylic-composite-resin-bond/",
+        "http://127.0.0.1:3090/ru/resources/acrylic-composite-resin-bond-cover/"
+      ]
+    },
+    {
+      "locale": "ru",
+      "value": "Сравнение износа шести серий акриловых зубов | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/ru/research/acrylic-teeth-wear-comparison/",
+        "http://127.0.0.1:3090/ru/resources/acrylic-teeth-wear-comparison-cover/"
+      ]
+    },
+    {
+      "locale": "ru",
+      "value": "Сравнение износа зубов Apple и Super Major | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/ru/research/apple-super-major-wear/",
+        "http://127.0.0.1:3090/ru/resources/apple-super-major-wear-cover/"
+      ]
+    },
+    {
+      "locale": "ru",
+      "value": "Сравнение скорости износа четырёх типов искусственных зубов | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/ru/research/four-teeth-wear-rate/",
+        "http://127.0.0.1:3090/ru/resources/four-teeth-wear-rate-cover/"
+      ]
+    },
+    {
+      "locale": "ru",
+      "value": "Соединение композитов Ideal Makoo и Synergy с дентином | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/ru/research/iranian-swiss-dentin-bond/",
+        "http://127.0.0.1:3090/ru/resources/iranian-swiss-dentin-bond-cover/"
+      ]
+    },
+    {
+      "locale": "ru",
+      "value": "Соединение на сдвиг иранского и швейцарского композитов | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/ru/research/iranian-swiss-shear-bond/",
+        "http://127.0.0.1:3090/ru/resources/iranian-swiss-shear-bond-cover/"
+      ]
+    },
+    {
+      "locale": "ru",
+      "value": "Износ Berelian и Super Berelian по сравнению с Ivoclar | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/ru/research/iranian-teeth-ivoclar-wear/",
+        "http://127.0.0.1:3090/ru/resources/iranian-teeth-ivoclar-wear-cover/"
+      ]
+    },
+    {
+      "locale": "ru",
+      "value": "Сравнение износа President и Ivoclar с помощью 3D-сканирования | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/ru/research/president-ivoclar-3d-wear/",
+        "http://127.0.0.1:3090/ru/resources/president-ivoclar-3d-wear-cover/"
+      ]
+    },
+    {
+      "locale": "ru",
+      "value": "Соединение базисной смолы с Glamour, Yaghoot, Apple и Ivoclar | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/ru/research/resin-base-bond-four-teeth/",
+        "http://127.0.0.1:3090/ru/resources/resin-base-bond-four-teeth-cover/"
+      ]
+    },
+    {
+      "locale": "ru",
+      "value": "Стационарный износ шести групп искусственных зубов | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/ru/research/six-acrylic-ranges-steady-wear/",
+        "http://127.0.0.1:3090/ru/resources/six-acrylic-ranges-steady-wear-cover/"
+      ]
+    },
+    {
+      "locale": "ru",
+      "value": "Сравнение скорости износа шести типов искусственных зубов | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/ru/research/six-teeth-wear-rate/",
+        "http://127.0.0.1:3090/ru/resources/six-teeth-wear-rate-cover/"
+      ]
+    },
+    {
+      "locale": "ru",
+      "value": "Соединение Apple, Glamour и B.Star с акриловым базисом | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/ru/research/three-teeth-denture-base-bond/",
+        "http://127.0.0.1:3090/ru/resources/three-teeth-denture-base-bond-cover/"
+      ]
+    },
+    {
+      "locale": "ru",
+      "value": "Соединение Berelian, Super Berelian и Ivoclar с термоотверждаемой смолой | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/ru/research/three-teeth-heat-cured-resin/",
+        "http://127.0.0.1:3090/ru/resources/three-teeth-heat-cured-resin-cover/"
+      ]
+    },
+    {
+      "locale": "tr",
+      "value": "Bilgi ve deneyim için bir yer. | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/tr/blog/",
+        "http://127.0.0.1:3090/tr/knowledge/"
+      ]
+    },
+    {
+      "locale": "tr",
+      "value": "İş ortaklığı | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/tr/cooperation/",
+        "http://127.0.0.1:3090/tr/cooperation/distribution/",
+        "http://127.0.0.1:3090/tr/cooperation/investment/",
+        "http://127.0.0.1:3090/tr/cooperation/outsourcing/",
+        "http://127.0.0.1:3090/tr/cooperation/research/",
+        "http://127.0.0.1:3090/tr/cooperation/suppliers/"
+      ]
+    },
+    {
+      "locale": "tr",
+      "value": "Fabrika, görüntünün odağında. | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/tr/media/",
+        "http://127.0.0.1:3090/tr/videos/"
+      ]
+    },
+    {
+      "locale": "tr",
+      "value": "Akrilik ve kompozit dişlerin kaide rezinine bağlantısı | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/tr/research/acrylic-composite-resin-bond/",
+        "http://127.0.0.1:3090/tr/resources/acrylic-composite-resin-bond-cover/"
+      ]
+    },
+    {
+      "locale": "tr",
+      "value": "Altı akrilik diş serisinin aşınma karşılaştırması | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/tr/research/acrylic-teeth-wear-comparison/",
+        "http://127.0.0.1:3090/tr/resources/acrylic-teeth-wear-comparison-cover/"
+      ]
+    },
+    {
+      "locale": "tr",
+      "value": "Apple ve Super Major dişlerin aşınma karşılaştırması | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/tr/research/apple-super-major-wear/",
+        "http://127.0.0.1:3090/tr/resources/apple-super-major-wear-cover/"
+      ]
+    },
+    {
+      "locale": "tr",
+      "value": "Dört protez diş türünün aşınma hızı karşılaştırması | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/tr/research/four-teeth-wear-rate/",
+        "http://127.0.0.1:3090/tr/resources/four-teeth-wear-rate-cover/"
+      ]
+    },
+    {
+      "locale": "tr",
+      "value": "Ideal Makoo ve Synergy kompozitlerinin dentine bağlantısı | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/tr/research/iranian-swiss-dentin-bond/",
+        "http://127.0.0.1:3090/tr/resources/iranian-swiss-dentin-bond-cover/"
+      ]
+    },
+    {
+      "locale": "tr",
+      "value": "İran ve İsviçre kompozitlerinde makaslama bağlantısı | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/tr/research/iranian-swiss-shear-bond/",
+        "http://127.0.0.1:3090/tr/resources/iranian-swiss-shear-bond-cover/"
+      ]
+    },
+    {
+      "locale": "tr",
+      "value": "Berelian ve Super Berelian aşınmasının Ivoclar ile karşılaştırılması | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/tr/research/iranian-teeth-ivoclar-wear/",
+        "http://127.0.0.1:3090/tr/resources/iranian-teeth-ivoclar-wear-cover/"
+      ]
+    },
+    {
+      "locale": "tr",
+      "value": "Üç boyutlu taramayla President ve Ivoclar aşınması | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/tr/research/president-ivoclar-3d-wear/",
+        "http://127.0.0.1:3090/tr/resources/president-ivoclar-3d-wear-cover/"
+      ]
+    },
+    {
+      "locale": "tr",
+      "value": "Glamour, Yaghoot, Apple ve Ivoclar dişlerde rezin kaide bağlantısı | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/tr/research/resin-base-bond-four-teeth/",
+        "http://127.0.0.1:3090/tr/resources/resin-base-bond-four-teeth-cover/"
+      ]
+    },
+    {
+      "locale": "tr",
+      "value": "Altı protez diş grubunda kararlı durum aşınması | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/tr/research/six-acrylic-ranges-steady-wear/",
+        "http://127.0.0.1:3090/tr/resources/six-acrylic-ranges-steady-wear-cover/"
+      ]
+    },
+    {
+      "locale": "tr",
+      "value": "Altı protez diş türünün aşınma hızı karşılaştırması | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/tr/research/six-teeth-wear-rate/",
+        "http://127.0.0.1:3090/tr/resources/six-teeth-wear-rate-cover/"
+      ]
+    },
+    {
+      "locale": "tr",
+      "value": "Apple, Glamour ve B.Star dişlerinin akrilik kaideye bağlantısı | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/tr/research/three-teeth-denture-base-bond/",
+        "http://127.0.0.1:3090/tr/resources/three-teeth-denture-base-bond-cover/"
+      ]
+    },
+    {
+      "locale": "tr",
+      "value": "Berelian, Super Berelian ve Ivoclar dişlerinin sıcak polimerize rezine bağlantısı | Ideal Makoo",
+      "urls": [
+        "http://127.0.0.1:3090/tr/research/three-teeth-heat-cured-resin/",
+        "http://127.0.0.1:3090/tr/resources/three-teeth-heat-cured-resin-cover/"
+      ]
+    }
+  ],
+  "descriptions": [
+    {
+      "locale": "ar",
+      "value": "محتوى متخصص حول المنتجات والمواد والخبرة المهنية في صناعة الأسنان.",
+      "urls": [
+        "http://127.0.0.1:3090/ar/blog/",
+        "http://127.0.0.1:3090/ar/knowledge/"
+      ]
+    },
+    {
+      "locale": "ar",
+      "value": "ابدأ حوارًا حول اختيار المنتج أو الوثائق أو الشراكة التجارية.",
+      "urls": [
+        "http://127.0.0.1:3090/ar/careers/apply/",
+        "http://127.0.0.1:3090/ar/compare/",
+        "http://127.0.0.1:3090/ar/cooperation/",
+        "http://127.0.0.1:3090/ar/cooperation/distribution/",
+        "http://127.0.0.1:3090/ar/cooperation/investment/",
+        "http://127.0.0.1:3090/ar/cooperation/outsourcing/",
+        "http://127.0.0.1:3090/ar/cooperation/research/",
+        "http://127.0.0.1:3090/ar/cooperation/suppliers/",
+        "http://127.0.0.1:3090/ar/distributors/",
+        "http://127.0.0.1:3090/ar/factory-visit/",
+        "http://127.0.0.1:3090/ar/for/dealer/",
+        "http://127.0.0.1:3090/ar/for/dentist/",
+        "http://127.0.0.1:3090/ar/for/lab/",
+        "http://127.0.0.1:3090/ar/for/research/",
+        "http://127.0.0.1:3090/ar/inquiry-list/",
+        "http://127.0.0.1:3090/ar/install/",
+        "http://127.0.0.1:3090/ar/quality-report/",
+        "http://127.0.0.1:3090/ar/resources/official-site-archive/",
+        "http://127.0.0.1:3090/ar/sample-request/",
+        "http://127.0.0.1:3090/ar/support/",
+        "http://127.0.0.1:3090/ar/technical-selection/"
+      ]
+    },
+    {
+      "locale": "ar",
+      "value": "محتوى فيديو ووسائط متعددة منشور حول إيدآل ماكو ومنتجاتها.",
+      "urls": [
+        "http://127.0.0.1:3090/ar/media/",
+        "http://127.0.0.1:3090/ar/videos/"
+      ]
+    },
+    {
+      "locale": "ar",
+      "value": "اختر ما يناسب تخصصك واطلع على المواصفات الموثقة.",
+      "urls": [
+        "http://127.0.0.1:3090/ar/products/",
+        "http://127.0.0.1:3090/ar/products/category/materials/",
+        "http://127.0.0.1:3090/ar/products/category/teeth/"
+      ]
+    },
+    {
+      "locale": "en",
+      "value": "Specialist content on products, materials and professional experience in the dental industry.",
+      "urls": [
+        "http://127.0.0.1:3090/en/blog/",
+        "http://127.0.0.1:3090/en/knowledge/"
+      ]
+    },
+    {
+      "locale": "en",
+      "value": "Start a conversation about product selection, documentation or a business partnership.",
+      "urls": [
+        "http://127.0.0.1:3090/en/careers/apply/",
+        "http://127.0.0.1:3090/en/compare/",
+        "http://127.0.0.1:3090/en/cooperation/",
+        "http://127.0.0.1:3090/en/cooperation/distribution/",
+        "http://127.0.0.1:3090/en/cooperation/investment/",
+        "http://127.0.0.1:3090/en/cooperation/outsourcing/",
+        "http://127.0.0.1:3090/en/cooperation/research/",
+        "http://127.0.0.1:3090/en/cooperation/suppliers/",
+        "http://127.0.0.1:3090/en/distributors/",
+        "http://127.0.0.1:3090/en/factory-visit/",
+        "http://127.0.0.1:3090/en/for/dealer/",
+        "http://127.0.0.1:3090/en/for/dentist/",
+        "http://127.0.0.1:3090/en/for/lab/",
+        "http://127.0.0.1:3090/en/for/research/",
+        "http://127.0.0.1:3090/en/inquiry-list/",
+        "http://127.0.0.1:3090/en/install/",
+        "http://127.0.0.1:3090/en/quality-report/",
+        "http://127.0.0.1:3090/en/resources/official-site-archive/",
+        "http://127.0.0.1:3090/en/sample-request/",
+        "http://127.0.0.1:3090/en/support/",
+        "http://127.0.0.1:3090/en/technical-selection/"
+      ]
+    },
+    {
+      "locale": "en",
+      "value": "Published video and multimedia content about Ideal Makoo and its products.",
+      "urls": [
+        "http://127.0.0.1:3090/en/media/",
+        "http://127.0.0.1:3090/en/videos/"
+      ]
+    },
+    {
+      "locale": "en",
+      "value": "Find the right starting point for your practice and explore documented product specifications.",
+      "urls": [
+        "http://127.0.0.1:3090/en/products/",
+        "http://127.0.0.1:3090/en/products/category/materials/",
+        "http://127.0.0.1:3090/en/products/category/teeth/"
+      ]
+    },
+    {
+      "locale": "fa",
+      "value": "محتوای تخصصی درباره محصولات، مواد و تجربه حرفه‌ای در صنعت دندان.",
+      "urls": [
+        "http://127.0.0.1:3090/fa/blog/",
+        "http://127.0.0.1:3090/fa/knowledge/"
+      ]
+    },
+    {
+      "locale": "fa",
+      "value": "برای انتخاب محصول، دریافت مستندات یا آغاز همکاری تجاری، مسیر ارتباط با ایده‌آل ماکو باز است.",
+      "urls": [
+        "http://127.0.0.1:3090/fa/careers/apply/",
+        "http://127.0.0.1:3090/fa/compare/",
+        "http://127.0.0.1:3090/fa/cooperation/",
+        "http://127.0.0.1:3090/fa/cooperation/distribution/",
+        "http://127.0.0.1:3090/fa/cooperation/investment/",
+        "http://127.0.0.1:3090/fa/cooperation/outsourcing/",
+        "http://127.0.0.1:3090/fa/cooperation/research/",
+        "http://127.0.0.1:3090/fa/cooperation/suppliers/",
+        "http://127.0.0.1:3090/fa/distributors/",
+        "http://127.0.0.1:3090/fa/factory-visit/",
+        "http://127.0.0.1:3090/fa/for/dealer/",
+        "http://127.0.0.1:3090/fa/for/dentist/",
+        "http://127.0.0.1:3090/fa/for/lab/",
+        "http://127.0.0.1:3090/fa/for/research/",
+        "http://127.0.0.1:3090/fa/inquiry-list/",
+        "http://127.0.0.1:3090/fa/install/",
+        "http://127.0.0.1:3090/fa/quality-report/",
+        "http://127.0.0.1:3090/fa/resources/official-site-archive/",
+        "http://127.0.0.1:3090/fa/sample-request/",
+        "http://127.0.0.1:3090/fa/support/",
+        "http://127.0.0.1:3090/fa/technical-selection/"
+      ]
+    },
+    {
+      "locale": "fa",
+      "value": "محتوای ویدیویی و چندرسانه‌ای منتشرشده درباره ایده‌آل ماکو و محصولات آن.",
+      "urls": [
+        "http://127.0.0.1:3090/fa/media/",
+        "http://127.0.0.1:3090/fa/videos/"
+      ]
+    },
+    {
+      "locale": "fa",
+      "value": "مسیر مناسب حرفه‌تان را انتخاب کنید و مشخصات مستند هر محصول را ببینید.",
+      "urls": [
+        "http://127.0.0.1:3090/fa/products/",
+        "http://127.0.0.1:3090/fa/products/category/materials/",
+        "http://127.0.0.1:3090/fa/products/category/teeth/"
+      ]
+    },
+    {
+      "locale": "ru",
+      "value": "Профессиональные материалы о продуктах, материалах и опыте в стоматологической отрасли.",
+      "urls": [
+        "http://127.0.0.1:3090/ru/blog/",
+        "http://127.0.0.1:3090/ru/knowledge/"
+      ]
+    },
+    {
+      "locale": "ru",
+      "value": "Обсудите выбор продукции, документацию или деловое партнёрство.",
+      "urls": [
+        "http://127.0.0.1:3090/ru/careers/apply/",
+        "http://127.0.0.1:3090/ru/compare/",
+        "http://127.0.0.1:3090/ru/cooperation/",
+        "http://127.0.0.1:3090/ru/cooperation/distribution/",
+        "http://127.0.0.1:3090/ru/cooperation/investment/",
+        "http://127.0.0.1:3090/ru/cooperation/outsourcing/",
+        "http://127.0.0.1:3090/ru/cooperation/research/",
+        "http://127.0.0.1:3090/ru/cooperation/suppliers/",
+        "http://127.0.0.1:3090/ru/distributors/",
+        "http://127.0.0.1:3090/ru/factory-visit/",
+        "http://127.0.0.1:3090/ru/for/dealer/",
+        "http://127.0.0.1:3090/ru/for/dentist/",
+        "http://127.0.0.1:3090/ru/for/lab/",
+        "http://127.0.0.1:3090/ru/for/research/",
+        "http://127.0.0.1:3090/ru/inquiry-list/",
+        "http://127.0.0.1:3090/ru/install/",
+        "http://127.0.0.1:3090/ru/quality-report/",
+        "http://127.0.0.1:3090/ru/resources/official-site-archive/",
+        "http://127.0.0.1:3090/ru/sample-request/",
+        "http://127.0.0.1:3090/ru/support/",
+        "http://127.0.0.1:3090/ru/technical-selection/"
+      ]
+    },
+    {
+      "locale": "ru",
+      "value": "Опубликованные видео и мультимедиа об Ideal Makoo и её продукции.",
+      "urls": [
+        "http://127.0.0.1:3090/ru/media/",
+        "http://127.0.0.1:3090/ru/videos/"
+      ]
+    },
+    {
+      "locale": "ru",
+      "value": "Выберите направление и изучите документированные характеристики.",
+      "urls": [
+        "http://127.0.0.1:3090/ru/products/",
+        "http://127.0.0.1:3090/ru/products/category/materials/",
+        "http://127.0.0.1:3090/ru/products/category/teeth/"
+      ]
+    },
+    {
+      "locale": "tr",
+      "value": "Dental sektörde ürünler, malzemeler ve mesleki deneyim üzerine uzman içerik.",
+      "urls": [
+        "http://127.0.0.1:3090/tr/blog/",
+        "http://127.0.0.1:3090/tr/knowledge/"
+      ]
+    },
+    {
+      "locale": "tr",
+      "value": "Ürün seçimi, belgeler veya iş ortaklığı hakkında görüşmeye başlayın.",
+      "urls": [
+        "http://127.0.0.1:3090/tr/careers/apply/",
+        "http://127.0.0.1:3090/tr/compare/",
+        "http://127.0.0.1:3090/tr/cooperation/",
+        "http://127.0.0.1:3090/tr/cooperation/distribution/",
+        "http://127.0.0.1:3090/tr/cooperation/investment/",
+        "http://127.0.0.1:3090/tr/cooperation/outsourcing/",
+        "http://127.0.0.1:3090/tr/cooperation/research/",
+        "http://127.0.0.1:3090/tr/cooperation/suppliers/",
+        "http://127.0.0.1:3090/tr/distributors/",
+        "http://127.0.0.1:3090/tr/factory-visit/",
+        "http://127.0.0.1:3090/tr/for/dealer/",
+        "http://127.0.0.1:3090/tr/for/dentist/",
+        "http://127.0.0.1:3090/tr/for/lab/",
+        "http://127.0.0.1:3090/tr/for/research/",
+        "http://127.0.0.1:3090/tr/inquiry-list/",
+        "http://127.0.0.1:3090/tr/install/",
+        "http://127.0.0.1:3090/tr/quality-report/",
+        "http://127.0.0.1:3090/tr/resources/official-site-archive/",
+        "http://127.0.0.1:3090/tr/sample-request/",
+        "http://127.0.0.1:3090/tr/support/",
+        "http://127.0.0.1:3090/tr/technical-selection/"
+      ]
+    },
+    {
+      "locale": "tr",
+      "value": "Ideal Makoo ve ürünleri hakkında yayınlanan video ve multimedya içerik.",
+      "urls": [
+        "http://127.0.0.1:3090/tr/media/",
+        "http://127.0.0.1:3090/tr/videos/"
+      ]
+    },
+    {
+      "locale": "tr",
+      "value": "Mesleğinize uygun başlangıç noktasını seçin ve ürün özelliklerini inceleyin.",
+      "urls": [
+        "http://127.0.0.1:3090/tr/products/",
+        "http://127.0.0.1:3090/tr/products/category/materials/",
+        "http://127.0.0.1:3090/tr/products/category/teeth/"
+      ]
+    }
+  ],
+  "titleGroups": 80,
+  "descriptionGroups": 20,
+  "affectedPages": 270
+}

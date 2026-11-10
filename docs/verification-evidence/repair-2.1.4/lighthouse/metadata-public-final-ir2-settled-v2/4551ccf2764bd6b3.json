@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/for/dentist/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "8487acfdc95ba091429b706946829440e8131e3d3e2612ad7fd1b5624448e666",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Стоматологи | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Для стоматологов: материалы, документированные характеристики, таймер инструкций продукта и запросы образцов или технической информации."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/for/dentist/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/for/dentist/",
+    "en": "http://127.0.0.1:3100/en/for/dentist/",
+    "tr": "http://127.0.0.1:3100/tr/for/dentist/",
+    "ar": "http://127.0.0.1:3100/ar/for/dentist/",
+    "ru": "http://127.0.0.1:3100/ru/for/dentist/",
+    "x-default": "http://127.0.0.1:3100/fa/for/dentist/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 50
+}

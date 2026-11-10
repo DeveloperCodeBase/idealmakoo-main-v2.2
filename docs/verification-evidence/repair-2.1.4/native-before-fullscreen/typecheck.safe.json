@@ -1,0 +1,16 @@
+{
+  "gate": "typecheck-upload-final",
+  "command": [
+    "npm",
+    "run",
+    "typecheck"
+  ],
+  "exitCode": 0,
+  "durationSeconds": 2.966,
+  "startedAt": "2026-10-25T12:12:30.873759+00:00",
+  "finishedAt": "2026-10-25T12:12:33.840001+00:00",
+  "format": 1,
+  "buildId": "mYkzU-dUdrd8P8urIq-YU",
+  "logSha256": "f33a52571047e95bcdb67838e5c55b326c5aa0e8798062c5e0e22ea9a7f3ff2c",
+  "logBytes": 154
+}

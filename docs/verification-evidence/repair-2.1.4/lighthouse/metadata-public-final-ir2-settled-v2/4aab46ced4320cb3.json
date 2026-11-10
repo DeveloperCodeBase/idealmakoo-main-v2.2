@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/resources/three-teeth-denture-base-bond-cover/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "d6a6b524aac43e64213192fd56ab97f0e844457aab9c0cfa0083803b211fa4ff",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Research reference image — Apple, Glamour and B.Star bonding to acrylic denture bases | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Apple, Glamour and B.Star bonding to acrylic denture bases — Original factory image documents"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/resources/three-teeth-denture-base-bond-cover/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/three-teeth-denture-base-bond-cover/",
+    "en": "http://127.0.0.1:3100/en/resources/three-teeth-denture-base-bond-cover/",
+    "tr": "http://127.0.0.1:3100/tr/resources/three-teeth-denture-base-bond-cover/",
+    "ar": "http://127.0.0.1:3100/ar/resources/three-teeth-denture-base-bond-cover/",
+    "ru": "http://127.0.0.1:3100/ru/resources/three-teeth-denture-base-bond-cover/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/three-teeth-denture-base-bond-cover/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 42
+}

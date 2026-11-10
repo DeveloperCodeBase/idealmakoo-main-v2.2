@@ -1,0 +1,71 @@
+{
+  "url": "http://127.0.0.1:3100/ru/products/newclar/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "3efbd66229d4e6009d28ea3cf4f4676d3b806809a54ae29538b4e5d4c2337e94",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Искусственные зубы Newclar | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Newclar — первый продукт в истории фабрики: один слой и два цикла полимеризации."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/products/newclar/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/newclar/",
+    "en": "http://127.0.0.1:3100/en/products/newclar/",
+    "tr": "http://127.0.0.1:3100/tr/products/newclar/",
+    "ar": "http://127.0.0.1:3100/ar/products/newclar/",
+    "ru": "http://127.0.0.1:3100/ru/products/newclar/",
+    "x-default": "http://127.0.0.1:3100/fa/products/newclar/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Искусственные зубы Newclar",
+      "description": "Newclar — первый продукт в истории фабрики: один слой и два цикла полимеризации.",
+      "image": "http://127.0.0.1:3100/media/official/1686378608.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "NEWCLAR"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/ru/products/newclar/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 72
+}

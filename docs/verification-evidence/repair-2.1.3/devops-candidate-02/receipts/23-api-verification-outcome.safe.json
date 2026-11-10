@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "kind": "owned-guest-acceptance-job-outcome",
+  "job": "api-verify-candidate02",
+  "status": "passed",
+  "startedAt": "2026-10-25T09:01:22.918221+00:00",
+  "completedAt": "2026-10-25T09:01:49.283534+00:00",
+  "elapsedSeconds": 26.369771,
+  "pid": 36336,
+  "startTicks": 352413,
+  "exitCode": 0,
+  "timedOut": false,
+  "forcedProcessTermination": false,
+  "actualWaitConsumed": true
+}

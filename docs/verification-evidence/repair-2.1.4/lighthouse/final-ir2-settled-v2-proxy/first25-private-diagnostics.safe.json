@@ -1,0 +1,1287 @@
+{
+  "format": "authenticated-first25-existing-lhr-diagnostics-v1",
+  "observedAt": "2026-10-25T21:30:17.423351+00:00",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "topologySha256": "d0c85e36be10862b020361b4179ad2add3a02848966239cb01fd7b6a92837bf4",
+  "reportsExamined": 25,
+  "additionalBrowserOrHttpRequests": 0,
+  "currentAuditInclusiveFingerprint": "64a14915618ac34a4daee3aa64eb82d44438b993096491966afc487be9f67b12",
+  "compiledBuildInputFingerprint": "4fcec50f5846b0affccc59e43798613ba134a3f93559ea5ddba9705e1f38cc58",
+  "observedTraceLcpMs": {
+    "count": 25,
+    "min": 348,
+    "median": 717,
+    "max": 987
+  },
+  "diagnosticRanges": {
+    "unused-javascript.numericValue": {
+      "count": 25,
+      "min": 440,
+      "median": 740,
+      "max": 900
+    },
+    "unused-javascript.overallSavingsBytes": {
+      "count": 25,
+      "min": 111414,
+      "median": 129913,
+      "max": 138177
+    },
+    "unused-javascript.overallSavingsMs": {
+      "count": 25,
+      "min": 440,
+      "median": 740,
+      "max": 900
+    },
+    "unused-javascript.metricSavings.FCP": {
+      "count": 25,
+      "min": 0,
+      "median": 0,
+      "max": 0
+    },
+    "unused-javascript.metricSavings.LCP": {
+      "count": 25,
+      "min": 450,
+      "median": 750,
+      "max": 900
+    },
+    "unused-css-rules.numericValue": {
+      "count": 25,
+      "min": 140,
+      "median": 300,
+      "max": 450
+    },
+    "unused-css-rules.overallSavingsBytes": {
+      "count": 25,
+      "min": 34117,
+      "median": 44680,
+      "max": 45586
+    },
+    "unused-css-rules.overallSavingsMs": {
+      "count": 25,
+      "min": 140,
+      "median": 300,
+      "max": 450
+    },
+    "unused-css-rules.metricSavings.FCP": {
+      "count": 25,
+      "min": 300,
+      "median": 450,
+      "max": 450
+    },
+    "unused-css-rules.metricSavings.LCP": {
+      "count": 25,
+      "min": 150,
+      "median": 300,
+      "max": 450
+    },
+    "bootup-time.numericValue": {
+      "count": 25,
+      "min": 904.776000000001,
+      "median": 4674.779999999975,
+      "max": 4922.255999999984
+    },
+    "bootup-time.metricSavings.TBT": {
+      "count": 25,
+      "min": 300,
+      "median": 400,
+      "max": 550
+    },
+    "mainthread-work-breakdown.numericValue": {
+      "count": 25,
+      "min": 1597.0720000000072,
+      "median": 5841.335999999857,
+      "max": 6266.759999999856
+    },
+    "mainthread-work-breakdown.metricSavings.TBT": {
+      "count": 25,
+      "min": 300,
+      "median": 400,
+      "max": 600
+    },
+    "render-blocking-insight.metricSavings.FCP": {
+      "count": 9,
+      "min": 1350,
+      "median": 1500,
+      "max": 1500
+    },
+    "render-blocking-insight.metricSavings.LCP": {
+      "count": 25,
+      "min": 0,
+      "median": 0,
+      "max": 1500
+    },
+    "total-byte-weight.numericValue": {
+      "count": 25,
+      "min": 846265,
+      "median": 933103,
+      "max": 1151037
+    },
+    "network-dependency-tree-insight.metricSavings.LCP": {
+      "count": 25,
+      "min": 0,
+      "median": 0,
+      "max": 0
+    }
+  },
+  "failedAuditCounts": {
+    "performance": {
+      "first-contentful-paint": 25,
+      "largest-contentful-paint": 25,
+      "total-blocking-time": 25,
+      "speed-index": 25,
+      "interactive": 25,
+      "max-potential-fid": 25,
+      "unused-css-rules": 25,
+      "unused-javascript": 25,
+      "bf-cache": 25,
+      "mainthread-work-breakdown": 18,
+      "bootup-time": 16,
+      "cumulative-layout-shift": 13,
+      "legacy-javascript-insight": 9,
+      "network-dependency-tree-insight": 9,
+      "render-blocking-insight": 9,
+      "layout-shifts": 2,
+      "cls-culprits-insight": 1,
+      "image-delivery-insight": 1,
+      "unsized-images": 1
+    },
+    "accessibility": {},
+    "best-practices": {}
+  },
+  "selected": {
+    "medianPerformance": {
+      "registeredRoute": "admin/cms",
+      "locale": "ar",
+      "role": "superAdmin",
+      "performance": 64,
+      "metrics": {
+        "first-contentful-paint": 1973.3128499999998,
+        "largest-contentful-paint": 7357.6257000000005,
+        "speed-index": 1973.3128499999998,
+        "total-blocking-time": 419,
+        "cumulative-layout-shift": 0.06000263696406474,
+        "interactive": 7357.6257000000005
+      },
+      "observedTraceMetrics": {
+        "observedTimeOrigin": 0,
+        "observedTimeOriginTs": 68572117253,
+        "observedNavigationStart": 0,
+        "observedNavigationStartTs": 68572117253,
+        "observedFirstPaint": 104,
+        "observedFirstPaintTs": 68572221169,
+        "observedFirstContentfulPaint": 383,
+        "observedFirstContentfulPaintTs": 68572500210,
+        "observedFirstContentfulPaintAllFrames": 383,
+        "observedFirstContentfulPaintAllFramesTs": 68572500210,
+        "observedLargestContentfulPaint": 987,
+        "observedLargestContentfulPaintTs": 68573104243,
+        "observedLargestContentfulPaintAllFrames": 987,
+        "observedLargestContentfulPaintAllFramesTs": 68573104243,
+        "observedTraceEnd": 3340,
+        "observedTraceEndTs": 68575457584,
+        "observedLoad": 263,
+        "observedLoadTs": 68572379931,
+        "observedDomContentLoaded": 89,
+        "observedDomContentLoadedTs": 68572206574,
+        "observedCumulativeLayoutShift": 0.06000263696406474,
+        "observedCumulativeLayoutShiftMainFrame": 0.06000263696406474,
+        "observedFirstVisualChange": 242,
+        "observedFirstVisualChangeTs": 68572359253,
+        "observedLastVisualChange": 1060,
+        "observedLastVisualChangeTs": 68573177253,
+        "observedSpeedIndex": 606,
+        "observedSpeedIndexTs": 68572722994
+      },
+      "largestTransfers": [
+        {
+          "path": "[resource-path-omitted]",
+          "type": "Font",
+          "transferSize": 129182,
+          "resourceSize": 128304,
+          "protocol": "http/1.1",
+          "networkRequestTime": 68.12600000202656,
+          "networkEndTime": 81.14599999785423,
+          "priority": "High",
+          "contentEncodingHeaderPresentInLhr": false
+        },
+        {
+          "path": "/_next/static/chunks/9716-5d8343522a5a0ef1.js",
+          "type": "Script",
+          "transferSize": 96305,
+          "resourceSize": 314535,
+          "protocol": "http/1.1",
+          "networkRequestTime": 152.05300000309944,
+          "networkEndTime": 179.12600001692772,
+          "priority": "Low",
+          "contentEncodingHeaderPresentInLhr": false
+        },
+        {
+          "path": "/_next/static/chunks/159-92e450a74ddb57d1.js",
+          "type": "Script",
+          "transferSize": 83656,
+          "resourceSize": 237326,
+          "protocol": "http/1.1",
+          "networkRequestTime": 161.29199999570847,
+          "networkEndTime": 179.71800000965595,
+          "priority": "Low",
+          "contentEncodingHeaderPresentInLhr": false
+        },
+        {
+          "path": "[resource-path-omitted]",
+          "type": "Font",
+          "transferSize": 73797,
+          "resourceSize": 72920,
+          "protocol": "http/1.1",
+          "networkRequestTime": 340.4800000041723,
+          "networkEndTime": 357.12900000810623,
+          "priority": "VeryHigh",
+          "contentEncodingHeaderPresentInLhr": false
+        },
+        {
+          "path": "/_next/static/chunks/3794-9f866eb1b07be87c.js",
+          "type": "Script",
+          "transferSize": 67687,
+          "resourceSize": 243059,
+          "protocol": "http/1.1",
+          "networkRequestTime": 86.74899999797344,
+          "networkEndTime": 98.46900001168251,
+          "priority": "Low",
+          "contentEncodingHeaderPresentInLhr": false
+        },
+        {
+          "path": "/_next/static/chunks/4bd1b696-8cd12253b448cc13.js",
+          "type": "Script",
+          "transferSize": 64641,
+          "resourceSize": 203727,
+          "protocol": "http/1.1",
+          "networkRequestTime": 86.61200000345707,
+          "networkEndTime": 104.48200000822544,
+          "priority": "Low",
+          "contentEncodingHeaderPresentInLhr": false
+        },
+        {
+          "path": "/api/v1/workspace",
+          "type": "Fetch",
+          "transferSize": 62662,
+          "resourceSize": 349641,
+          "protocol": "http/1.1",
+          "networkRequestTime": 320.0980000048876,
+          "networkEndTime": 378.6819999963045,
+          "priority": "High",
+          "contentEncodingHeaderPresentInLhr": false
+        },
+        {
+          "path": "[resource-path-omitted]",
+          "type": "Other",
+          "transferSize": 47860,
+          "resourceSize": 47024,
+          "protocol": "http/1.1",
+          "networkRequestTime": 280.56600001454353,
+          "networkEndTime": 284.82500000298023,
+          "priority": "High",
+          "contentEncodingHeaderPresentInLhr": false
+        },
+        {
+          "path": "/_next/static/chunks/8471-34a6f35a6d1951c0.js",
+          "type": "Script",
+          "transferSize": 33887,
+          "resourceSize": 101135,
+          "protocol": "http/1.1",
+          "networkRequestTime": 161.65399999916553,
+          "networkEndTime": 172.0380000025034,
+          "priority": "Low",
+          "contentEncodingHeaderPresentInLhr": false
+        },
+        {
+          "path": "/_next/static/chunks/1407-d56070ac6db15b99.js",
+          "type": "Script",
+          "transferSize": 33047,
+          "resourceSize": 100500,
+          "protocol": "http/1.1",
+          "networkRequestTime": 395.99300000071526,
+          "networkEndTime": 407.9530000090599,
+          "priority": "Low",
+          "contentEncodingHeaderPresentInLhr": false
+        },
+        {
+          "path": "/_next/static/chunks/1074-135366284b7f20c6.js",
+          "type": "Script",
+          "transferSize": 26644,
+          "resourceSize": 89616,
+          "protocol": "http/1.1",
+          "networkRequestTime": 151.45600000023842,
+          "networkEndTime": 164.8830000013113,
+          "priority": "Low",
+          "contentEncodingHeaderPresentInLhr": false
+        },
+        {
+          "path": "/_next/static/css/2edd00438c0efd42.css",
+          "type": "Stylesheet",
+          "transferSize": 19253,
+          "resourceSize": 90560,
+          "protocol": "http/1.1",
+          "networkRequestTime": 63.381999999284744,
+          "networkEndTime": 73.0780000090599,
+          "priority": "VeryHigh",
+          "contentEncodingHeaderPresentInLhr": false
+        }
+      ],
+      "transferredBytesByType": {
+        "Document": 10024,
+        "Stylesheet": 79303,
+        "Script": 504522,
+        "Font": 202979,
+        "Manifest": 1153,
+        "Other": 53486,
+        "Fetch": 76666,
+        "Image": 4996
+      },
+      "requestCountsByType": {
+        "Document": 1,
+        "Stylesheet": 10,
+        "Script": 19,
+        "Font": 2,
+        "Manifest": 1,
+        "Other": 2,
+        "Fetch": 12,
+        "Image": 1
+      },
+      "requestHeaderFieldObservation": {
+        "responseHeadersPresent": false,
+        "headersPresent": false
+      },
+      "safeSelectedAuditStructure": {
+        "lcp-breakdown-insight": {
+          "id": "[text-omitted]",
+          "score": 1,
+          "scoreDisplayMode": "[text-omitted]",
+          "metricSavings": {
+            "LCP": 0
+          },
+          "details": {
+            "type": "list",
+            "items": [
+              {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "[text-omitted]",
+                    "valueType": "text",
+                    "label": "[text-omitted]"
+                  },
+                  {
+                    "key": "[text-omitted]",
+                    "valueType": "[text-omitted]",
+                    "label": "[text-omitted]"
+                  }
+                ],
+                "items": [
+                  {
+                    "subpart": "[text-omitted]",
+                    "label": "[text-omitted]",
+                    "duration": 22.67
+                  },
+                  {
+                    "subpart": "[text-omitted]",
+                    "label": "[text-omitted]",
+                    "duration": 964.32
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "category": "text-or-interface",
+                "boundingRect": {
+                  "top": 337,
+                  "bottom": 382,
+                  "left": 33,
+                  "right": 307,
+                  "width": 274,
+                  "height": 45
+                }
+              }
+            ]
+          },
+          "guidanceLevel": 3
+        },
+        "largest-contentful-paint-element": null,
+        "network-dependency-tree-insight": {
+          "id": "[text-omitted]",
+          "score": 0,
+          "scoreDisplayMode": "numeric",
+          "metricSavings": {
+            "LCP": 0
+          },
+          "details": {
+            "type": "list",
+            "items": [
+              {
+                "type": "[text-omitted]",
+                "value": {
+                  "type": "[text-omitted]",
+                  "chains": {
+                    "CDE76C97D0E3FFF754BAE68E41FCEA6A": {
+                      "navStartToEndTime": 71,
+                      "transferSize": 10024,
+                      "isLongest": true,
+                      "children": {
+                        "259661.35": {
+                          "navStartToEndTime": "[depth-bound]",
+                          "transferSize": "[depth-bound]",
+                          "isLongest": "[depth-bound]",
+                          "children": "[depth-bound]"
+                        },
+                        "259661.13": {
+                          "navStartToEndTime": "[depth-bound]",
+                          "transferSize": "[depth-bound]",
+                          "children": "[depth-bound]"
+                        },
+                        "259661.14": {
+                          "navStartToEndTime": "[depth-bound]",
+                          "transferSize": "[depth-bound]",
+                          "children": "[depth-bound]"
+                        },
+                        "259661.12": {
+                          "navStartToEndTime": "[depth-bound]",
+                          "transferSize": "[depth-bound]",
+                          "children": "[depth-bound]"
+                        },
+                        "259661.10": {
+                          "navStartToEndTime": "[depth-bound]",
+                          "transferSize": "[depth-bound]",
+                          "children": "[depth-bound]"
+                        },
+                        "259661.11": {
+                          "navStartToEndTime": "[depth-bound]",
+                          "transferSize": "[depth-bound]",
+                          "children": "[depth-bound]"
+                        }
+                      }
+                    }
+                  },
+                  "longestChain": {
+                    "duration": 86
+                  }
+                }
+              },
+              {
+                "type": "[text-omitted]",
+                "value": {
+                  "type": "text",
+                  "value": "[text-omitted]"
+                }
+              },
+              {
+                "type": "[text-omitted]",
+                "value": {
+                  "type": "text",
+                  "value": "[text-omitted]"
+                }
+              }
+            ]
+          },
+          "guidanceLevel": 1
+        },
+        "uses-text-compression": null,
+        "layout-shifts": {
+          "id": "[text-omitted]",
+          "score": 1,
+          "scoreDisplayMode": "[text-omitted]",
+          "displayValue": "[text-omitted]",
+          "metricSavings": {
+            "CLS": 0.06
+          },
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "subItemsHeading": {
+                  "key": "[text-omitted]"
+                },
+                "label": "[text-omitted]"
+              },
+              {
+                "key": "[text-omitted]",
+                "valueType": "numeric",
+                "subItemsHeading": {
+                  "key": "[text-omitted]",
+                  "valueType": "text"
+                },
+                "granularity": 0.001,
+                "label": "[text-omitted]"
+              }
+            ],
+            "items": [
+              {
+                "node": {
+                  "tag": "footer",
+                  "category": "text-or-interface",
+                  "boundingRect": {
+                    "top": 4059,
+                    "bottom": 4095,
+                    "left": 12,
+                    "right": 400,
+                    "width": 388,
+                    "height": 36
+                  }
+                },
+                "score": 0.04706909365451993
+              },
+              {
+                "node": {
+                  "tag": "button",
+                  "category": "text-or-interface",
+                  "boundingRect": {
+                    "top": 611,
+                    "bottom": 651,
+                    "left": 131,
+                    "right": 220,
+                    "width": 89,
+                    "height": 40
+                  }
+                },
+                "score": 0.01063274405504305
+              },
+              {
+                "node": {
+                  "tag": "button",
+                  "category": "text-or-interface",
+                  "boundingRect": {
+                    "top": 826,
+                    "bottom": 866,
+                    "left": 149,
+                    "right": 383,
+                    "width": 234,
+                    "height": 40
+                  }
+                },
+                "score": 0.002300799254501767
+              }
+            ]
+          },
+          "guidanceLevel": 2
+        },
+        "mainthread-work-breakdown": {
+          "id": "[text-omitted]",
+          "score": 0,
+          "scoreDisplayMode": "[text-omitted]",
+          "numericValue": 2891.924000000006,
+          "numericUnit": "[text-omitted]",
+          "displayValue": "[text-omitted]",
+          "metricSavings": {
+            "TBT": 400
+          },
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "[text-omitted]",
+                "valueType": "text",
+                "label": "[text-omitted]"
+              },
+              {
+                "key": "[text-omitted]",
+                "valueType": "[text-omitted]",
+                "granularity": 1,
+                "label": "[text-omitted]"
+              }
+            ],
+            "items": [
+              {
+                "group": "[text-omitted]",
+                "groupLabel": "[text-omitted]",
+                "duration": 1397.584
+              },
+              {
+                "group": "[text-omitted]",
+                "groupLabel": "[text-omitted]",
+                "duration": 1071.428000000006
+              },
+              {
+                "group": "[text-omitted]",
+                "groupLabel": "[text-omitted]",
+                "duration": 183.288
+              },
+              {
+                "group": "[text-omitted]",
+                "groupLabel": "[text-omitted]",
+                "duration": 148.948
+              },
+              {
+                "group": "[text-omitted]",
+                "groupLabel": "[text-omitted]",
+                "duration": 61.23199999999994
+              },
+              {
+                "group": "[text-omitted]",
+                "groupLabel": "[text-omitted]",
+                "duration": 16.564
+              },
+              {
+                "group": "[text-omitted]",
+                "groupLabel": "[text-omitted]",
+                "duration": 12.879999999999992
+              }
+            ],
+            "sortedBy": [
+              "[text-omitted]"
+            ]
+          },
+          "guidanceLevel": 1
+        },
+        "bootup-time": {
+          "id": "[text-omitted]",
+          "score": 1,
+          "scoreDisplayMode": "[text-omitted]",
+          "numericValue": 1129.3040000000021,
+          "numericUnit": "[text-omitted]",
+          "displayValue": "[text-omitted]",
+          "metricSavings": {
+            "TBT": 350
+          },
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "[text-omitted]",
+                "valueType": "[text-omitted]",
+                "label": "[text-omitted]"
+              },
+              {
+                "key": "[text-omitted]",
+                "granularity": 1,
+                "valueType": "[text-omitted]",
+                "label": "[text-omitted]"
+              },
+              {
+                "key": "[text-omitted]",
+                "granularity": 1,
+                "valueType": "[text-omitted]",
+                "label": "[text-omitted]"
+              },
+              {
+                "key": "[text-omitted]",
+                "granularity": 1,
+                "valueType": "[text-omitted]",
+                "label": "[text-omitted]"
+              }
+            ],
+            "items": [
+              {
+                "total": 1212.932,
+                "scripting": 29.96799999999999,
+                "scriptParseCompile": 6.995999999999999
+              },
+              {
+                "total": 650.144000000002,
+                "scripting": 584.668000000002,
+                "scriptParseCompile": 28.424000000000003
+              },
+              {
+                "total": 375.2480000000014,
+                "scripting": 9.879999999999999,
+                "scriptParseCompile": 0
+              },
+              {
+                "total": 297.2239999999998,
+                "scripting": 231.50399999999988,
+                "scriptParseCompile": 16.7
+              },
+              {
+                "total": 124.80000000000024,
+                "scripting": 93.40000000000023,
+                "scriptParseCompile": 24.363999999999997
+              },
+              {
+                "total": 110.80800000000004,
+                "scripting": 74.98400000000004,
+                "scriptParseCompile": 28.416
+              }
+            ],
+            "summary": {
+              "wastedMs": 1129.3040000000021
+            },
+            "sortedBy": [
+              "[text-omitted]"
+            ]
+          },
+          "guidanceLevel": 1
+        }
+      },
+      "rawReportSha256": "23c9ffdf44e958cf4dbca4b12d6f6b04676f78f7e3ca517dd47a8bccd6c83dd4"
+    },
+    "maxCls": {
+      "registeredRoute": "admin/cms/forms",
+      "locale": "ar",
+      "role": "superAdmin",
+      "performance": 59,
+      "metrics": {
+        "first-contentful-paint": 1967.46225,
+        "largest-contentful-paint": 7640.924499999999,
+        "speed-index": 1967.46225,
+        "total-blocking-time": 415.49999999999955,
+        "cumulative-layout-shift": 0.13100861272089498,
+        "interactive": 8002.961737499998
+      },
+      "observedTraceMetrics": {
+        "observedTimeOrigin": 0,
+        "observedTimeOriginTs": 68587535668,
+        "observedNavigationStart": 0,
+        "observedNavigationStartTs": 68587535668,
+        "observedFirstPaint": 81,
+        "observedFirstPaintTs": 68587616987,
+        "observedFirstContentfulPaint": 353,
+        "observedFirstContentfulPaintTs": 68587889076,
+        "observedFirstContentfulPaintAllFrames": 353,
+        "observedFirstContentfulPaintAllFramesTs": 68587889076,
+        "observedLargestContentfulPaint": 699,
+        "observedLargestContentfulPaintTs": 68588234725,
+        "observedLargestContentfulPaintAllFrames": 699,
+        "observedLargestContentfulPaintAllFramesTs": 68588234725,
+        "observedTraceEnd": 3101,
+        "observedTraceEndTs": 68590636857,
+        "observedLoad": 235,
+        "observedLoadTs": 68587771145,
+        "observedDomContentLoaded": 62,
+        "observedDomContentLoadedTs": 68587597493,
+        "observedCumulativeLayoutShift": 0.13100861272089498,
+        "observedCumulativeLayoutShiftMainFrame": 0.13100861272089498,
+        "observedFirstVisualChange": 246,
+        "observedFirstVisualChangeTs": 68587781668,
+        "observedLastVisualChange": 826,
+        "observedLastVisualChangeTs": 68588361668,
+        "observedSpeedIndex": 418,
+        "observedSpeedIndexTs": 68587954080
+      },
+      "largestTransfers": [
+        {
+          "path": "[resource-path-omitted]",
+          "type": "Font",
+          "transferSize": 129182,
+          "resourceSize": 128304,
+          "protocol": "http/1.1",
+          "networkRequestTime": 44.494000002741814,
+          "networkEndTime": 54.87600000202656,
+          "priority": "High",
+          "contentEncodingHeaderPresentInLhr": false
+        },
+        {
+          "path": "[resource-path-omitted]",
+          "type": "Font",
+          "transferSize": 112030,
+          "resourceSize": 111152,
+          "protocol": "http/1.1",
+          "networkRequestTime": 742.9270000010729,
+          "networkEndTime": 753.6319999992847,
+          "priority": "VeryHigh",
+          "contentEncodingHeaderPresentInLhr": false
+        },
+        {
+          "path": "/_next/static/chunks/9716-5d8343522a5a0ef1.js",
+          "type": "Script",
+          "transferSize": 96305,
+          "resourceSize": 314535,
+          "protocol": "http/1.1",
+          "networkRequestTime": 115.0869999974966,
+          "networkEndTime": 130.82700000703335,
+          "priority": "Low",
+          "contentEncodingHeaderPresentInLhr": false
+        },
+        {
+          "path": "/_next/static/chunks/159-92e450a74ddb57d1.js",
+          "type": "Script",
+          "transferSize": 83656,
+          "resourceSize": 237326,
+          "protocol": "http/1.1",
+          "networkRequestTime": 122.76700000464916,
+          "networkEndTime": 136.18599998950958,
+          "priority": "Low",
+          "contentEncodingHeaderPresentInLhr": false
+        },
+        {
+          "path": "[resource-path-omitted]",
+          "type": "Font",
+          "transferSize": 73797,
+          "resourceSize": 72920,
+          "protocol": "http/1.1",
+          "networkRequestTime": 304.95499999821186,
+          "networkEndTime": 316.292999997735,
+          "priority": "VeryHigh",
+          "contentEncodingHeaderPresentInLhr": false
+        },
+        {
+          "path": "/_next/static/chunks/3794-9f866eb1b07be87c.js",
+          "type": "Script",
+          "transferSize": 67687,
+          "resourceSize": 243059,
+          "protocol": "http/1.1",
+          "networkRequestTime": 61.95799998939037,
+          "networkEndTime": 75.66899999976158,
+          "priority": "Low",
+          "contentEncodingHeaderPresentInLhr": false
+        },
+        {
+          "path": "/_next/static/chunks/4bd1b696-8cd12253b448cc13.js",
+          "type": "Script",
+          "transferSize": 64641,
+          "resourceSize": 203727,
+          "protocol": "http/1.1",
+          "networkRequestTime": 61.83200000226498,
+          "networkEndTime": 75.05900000035763,
+          "priority": "Low",
+          "contentEncodingHeaderPresentInLhr": false
+        },
+        {
+          "path": "/api/v1/workspace",
+          "type": "Fetch",
+          "transferSize": 62662,
+          "resourceSize": 349641,
+          "protocol": "http/1.1",
+          "networkRequestTime": 286.4679999947548,
+          "networkEndTime": 338.41400000452995,
+          "priority": "High",
+          "contentEncodingHeaderPresentInLhr": false
+        },
+        {
+          "path": "[resource-path-omitted]",
+          "type": "Other",
+          "transferSize": 47860,
+          "resourceSize": 47024,
+          "protocol": "http/1.1",
+          "networkRequestTime": 247.19099999964237,
+          "networkEndTime": 252.01099999248981,
+          "priority": "High",
+          "contentEncodingHeaderPresentInLhr": false
+        },
+        {
+          "path": "/_next/static/chunks/9097.6c3fee89c83c7161.js",
+          "type": "Script",
+          "transferSize": 37298,
+          "resourceSize": 120733,
+          "protocol": "http/1.1",
+          "networkRequestTime": 386.46699999272823,
+          "networkEndTime": 405.5929999947548,
+          "priority": "Low",
+          "contentEncodingHeaderPresentInLhr": false
+        },
+        {
+          "path": "/_next/static/chunks/8471-34a6f35a6d1951c0.js",
+          "type": "Script",
+          "transferSize": 33880,
+          "resourceSize": 101135,
+          "protocol": "http/1.1",
+          "networkRequestTime": 123.33500000834465,
+          "networkEndTime": 132.1659999936819,
+          "priority": "Low",
+          "contentEncodingHeaderPresentInLhr": false
+        },
+        {
+          "path": "/_next/static/chunks/1407-d56070ac6db15b99.js",
+          "type": "Script",
+          "transferSize": 33055,
+          "resourceSize": 100500,
+          "protocol": "http/1.1",
+          "networkRequestTime": 396.76500000059605,
+          "networkEndTime": 405.3400000035763,
+          "priority": "Low",
+          "contentEncodingHeaderPresentInLhr": false
+        }
+      ],
+      "transferredBytesByType": {
+        "Document": 10032,
+        "Stylesheet": 88119,
+        "Script": 602905,
+        "Font": 315009,
+        "Manifest": 1153,
+        "Fetch": 75337,
+        "Other": 53486,
+        "Image": 4996
+      },
+      "requestCountsByType": {
+        "Document": 1,
+        "Stylesheet": 13,
+        "Script": 26,
+        "Font": 3,
+        "Manifest": 1,
+        "Fetch": 10,
+        "Other": 2,
+        "Image": 1
+      },
+      "requestHeaderFieldObservation": {
+        "responseHeadersPresent": false,
+        "headersPresent": false
+      },
+      "safeSelectedAuditStructure": {
+        "lcp-breakdown-insight": {
+          "id": "[text-omitted]",
+          "score": 1,
+          "scoreDisplayMode": "[text-omitted]",
+          "metricSavings": {
+            "LCP": 0
+          },
+          "details": {
+            "type": "list",
+            "items": [
+              {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "[text-omitted]",
+                    "valueType": "text",
+                    "label": "[text-omitted]"
+                  },
+                  {
+                    "key": "[text-omitted]",
+                    "valueType": "[text-omitted]",
+                    "label": "[text-omitted]"
+                  }
+                ],
+                "items": [
+                  {
+                    "subpart": "[text-omitted]",
+                    "label": "[text-omitted]",
+                    "duration": 22.446
+                  },
+                  {
+                    "subpart": "[text-omitted]",
+                    "label": "[text-omitted]",
+                    "duration": 676.611
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "category": "text-or-interface",
+                "boundingRect": {
+                  "top": 272,
+                  "bottom": 341,
+                  "left": 12,
+                  "right": 400,
+                  "width": 388,
+                  "height": 69
+                }
+              }
+            ]
+          },
+          "guidanceLevel": 3
+        },
+        "largest-contentful-paint-element": null,
+        "network-dependency-tree-insight": {
+          "id": "[text-omitted]",
+          "score": 0,
+          "scoreDisplayMode": "numeric",
+          "metricSavings": {
+            "LCP": 0
+          },
+          "details": {
+            "type": "list",
+            "items": [
+              {
+                "type": "[text-omitted]",
+                "value": {
+                  "type": "[text-omitted]",
+                  "chains": {
+                    "8D798284F181ED2A6E4FCFE32983F1B8": {
+                      "navStartToEndTime": 50,
+                      "transferSize": 10032,
+                      "isLongest": true,
+                      "children": {
+                        "259764.35": {
+                          "navStartToEndTime": "[depth-bound]",
+                          "transferSize": "[depth-bound]",
+                          "isLongest": "[depth-bound]",
+                          "children": "[depth-bound]"
+                        },
+                        "259764.13": {
+                          "navStartToEndTime": "[depth-bound]",
+                          "transferSize": "[depth-bound]",
+                          "children": "[depth-bound]"
+                        },
+                        "259764.11": {
+                          "navStartToEndTime": "[depth-bound]",
+                          "transferSize": "[depth-bound]",
+                          "children": "[depth-bound]"
+                        },
+                        "259764.14": {
+                          "navStartToEndTime": "[depth-bound]",
+                          "transferSize": "[depth-bound]",
+                          "children": "[depth-bound]"
+                        },
+                        "259764.12": {
+                          "navStartToEndTime": "[depth-bound]",
+                          "transferSize": "[depth-bound]",
+                          "children": "[depth-bound]"
+                        },
+                        "259764.10": {
+                          "navStartToEndTime": "[depth-bound]",
+                          "transferSize": "[depth-bound]",
+                          "children": "[depth-bound]"
+                        }
+                      }
+                    }
+                  },
+                  "longestChain": {
+                    "duration": 67
+                  }
+                }
+              },
+              {
+                "type": "[text-omitted]",
+                "value": {
+                  "type": "text",
+                  "value": "[text-omitted]"
+                }
+              },
+              {
+                "type": "[text-omitted]",
+                "value": {
+                  "type": "text",
+                  "value": "[text-omitted]"
+                }
+              }
+            ]
+          },
+          "guidanceLevel": 1
+        },
+        "uses-text-compression": null,
+        "layout-shifts": {
+          "id": "[text-omitted]",
+          "score": 0,
+          "scoreDisplayMode": "[text-omitted]",
+          "displayValue": "[text-omitted]",
+          "metricSavings": {
+            "CLS": 0.131
+          },
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "subItemsHeading": {
+                  "key": "[text-omitted]"
+                },
+                "label": "[text-omitted]"
+              },
+              {
+                "key": "[text-omitted]",
+                "valueType": "numeric",
+                "subItemsHeading": {
+                  "key": "[text-omitted]",
+                  "valueType": "text"
+                },
+                "granularity": 0.001,
+                "label": "[text-omitted]"
+              }
+            ],
+            "items": [
+              {
+                "node": {
+                  "tag": "label",
+                  "category": "text-or-interface",
+                  "boundingRect": {
+                    "top": 442,
+                    "bottom": 517,
+                    "left": 86,
+                    "right": 400,
+                    "width": 314,
+                    "height": 75
+                  }
+                },
+                "score": 0.08275840914785686
+              },
+              {
+                "node": {
+                  "tag": "footer",
+                  "category": "text-or-interface",
+                  "boundingRect": {
+                    "top": 3081,
+                    "bottom": 3116,
+                    "left": 12,
+                    "right": 400,
+                    "width": 388,
+                    "height": 36
+                  }
+                },
+                "score": 0.04706909365451993
+              },
+              {
+                "node": {
+                  "tag": "div",
+                  "category": "text-or-interface",
+                  "boundingRect": {
+                    "top": 856,
+                    "bottom": 2602,
+                    "left": 12,
+                    "right": 400,
+                    "width": 388,
+                    "height": 1746
+                  }
+                },
+                "score": 0.001181109918518179
+              }
+            ]
+          },
+          "guidanceLevel": 2
+        },
+        "mainthread-work-breakdown": {
+          "id": "[text-omitted]",
+          "score": 1,
+          "scoreDisplayMode": "[text-omitted]",
+          "numericValue": 1968.0920000000024,
+          "numericUnit": "[text-omitted]",
+          "displayValue": "[text-omitted]",
+          "metricSavings": {
+            "TBT": 400
+          },
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "[text-omitted]",
+                "valueType": "text",
+                "label": "[text-omitted]"
+              },
+              {
+                "key": "[text-omitted]",
+                "valueType": "[text-omitted]",
+                "granularity": 1,
+                "label": "[text-omitted]"
+              }
+            ],
+            "items": [
+              {
+                "group": "[text-omitted]",
+                "groupLabel": "[text-omitted]",
+                "duration": 1040.2680000000028
+              },
+              {
+                "group": "[text-omitted]",
+                "groupLabel": "[text-omitted]",
+                "duration": 541.2039999999996
+              },
+              {
+                "group": "[text-omitted]",
+                "groupLabel": "[text-omitted]",
+                "duration": 146.18399999999994
+              },
+              {
+                "group": "[text-omitted]",
+                "groupLabel": "[text-omitted]",
+                "duration": 139.91199999999998
+              },
+              {
+                "group": "[text-omitted]",
+                "groupLabel": "[text-omitted]",
+                "duration": 49.707999999999984
+              },
+              {
+                "group": "[text-omitted]",
+                "groupLabel": "[text-omitted]",
+                "duration": 34.303999999999974
+              },
+              {
+                "group": "[text-omitted]",
+                "groupLabel": "[text-omitted]",
+                "duration": 16.511999999999997
+              }
+            ],
+            "sortedBy": [
+              "[text-omitted]"
+            ]
+          },
+          "guidanceLevel": 1
+        },
+        "bootup-time": {
+          "id": "[text-omitted]",
+          "score": 1,
+          "scoreDisplayMode": "[text-omitted]",
+          "numericValue": 1101.688000000005,
+          "numericUnit": "[text-omitted]",
+          "displayValue": "[text-omitted]",
+          "metricSavings": {
+            "TBT": 400
+          },
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "[text-omitted]",
+                "valueType": "[text-omitted]",
+                "label": "[text-omitted]"
+              },
+              {
+                "key": "[text-omitted]",
+                "granularity": 1,
+                "valueType": "[text-omitted]",
+                "label": "[text-omitted]"
+              },
+              {
+                "key": "[text-omitted]",
+                "granularity": 1,
+                "valueType": "[text-omitted]",
+                "label": "[text-omitted]"
+              },
+              {
+                "key": "[text-omitted]",
+                "granularity": 1,
+                "valueType": "[text-omitted]",
+                "label": "[text-omitted]"
+              }
+            ],
+            "items": [
+              {
+                "total": 782.4840000000048,
+                "scripting": 703.4000000000049,
+                "scriptParseCompile": 15.848
+              },
+              {
+                "total": 356.588,
+                "scripting": 23.907999999999994,
+                "scriptParseCompile": 7.167999999999999
+              },
+              {
+                "total": 340.9720000000006,
+                "scripting": 7.619999999999999,
+                "scriptParseCompile": 0
+              },
+              {
+                "total": 122.82000000000018,
+                "scripting": 93.08400000000017,
+                "scriptParseCompile": 22.58
+              },
+              {
+                "total": 93.85600000000005,
+                "scripting": 71.04400000000005,
+                "scriptParseCompile": 17.372
+              },
+              {
+                "total": 83.60399999999998,
+                "scripting": 47.40400000000001,
+                "scriptParseCompile": 13.8
+              },
+              {
+                "total": 82.33599999999998,
+                "scripting": 69.77999999999999,
+                "scriptParseCompile": 8.68
+              }
+            ],
+            "summary": {
+              "wastedMs": 1101.688000000005
+            },
+            "sortedBy": [
+              "[text-omitted]"
+            ]
+          },
+          "guidanceLevel": 1
+        }
+      },
+      "rawReportSha256": "61263c64cf507ac0f550031a1111f019dda84f46120d5237f43ee18830ae851b"
+    }
+  },
+  "rawReportSetSha256": "f0b5f16b954524ea2dfafa1dd2b3bb34a3af88c0a7a836b7b2a104f640021192",
+  "privacy": "Only selected JSON audit objects parsed from mmap. No browser image payload parsed or decoded; private DOM text/labels/snippets/selectors/IDs and unknown/query-bearing resource paths omitted.",
+  "limits": "LHR transfers and decoded sizes may imply compression; no Content-Encoding header is asserted unless retained. Topology remains native HTTP/1.1 loopback with simulated mobile scoring; no cross-topology causal score claim."
+}

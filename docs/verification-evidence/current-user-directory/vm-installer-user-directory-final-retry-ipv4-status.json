@@ -1,0 +1,31 @@
+{
+  "format": "idealmakoo.fresh-vm-installer-command",
+  "version": 1,
+  "label": "user-directory-final",
+  "startedAt": "2026-10-21T06:24:56.367209+00:00",
+  "state": "running",
+  "actualCommandExecuted": null,
+  "instanceId": "idealmakoo-user-directory-final-install-13b6943b742546bcabc0b2da5ed395d6",
+  "hostRuntimeRecordSha256": "0f8a190df32479ed0d3b2d92a2e7db7aada52f4d82bb1afd181cddcc0ea277c4",
+  "sourceTransferProofSha256": "a627ea696401c372f0cbec497e3b1760a0bd6b8b72a74ea8705c39bf254eef52",
+  "selectedBuildGateSha256": "4557e354cc7786602a16edf7483689febb66e69623968e966a55ac34c8e53458",
+  "selectedNativeBuildId": "bK2Eb-_hVW6EM3B-gfBNN",
+  "applicationSha256": "1a7fd8f6293196e45e78a52aa765b0c4039f512fdb26cbbd5724367288ac5388",
+  "sourceFileManifestSha256": "9d49cb7fb8a483d9407fd3a0f1b7ee1cc4c9bab2ca4c56c7246084b219b62919",
+  "hostHelperSha256": "799ddcfc05833dd579dd7872a6ad13bc04438e00972a7171d7d9531db7b80298",
+  "installationCommandSucceeded": false,
+  "independentInstallationAcceptance": false,
+  "backupAcceptance": false,
+  "restoreAcceptance": false,
+  "attempt": 2,
+  "priorAttempt": {
+    "path": "/tmp/idealmakoo-production-repair-20261020/evidence/vm-installer-user-directory-final-status.json",
+    "sha256": "057773c998ca4584b551fb3ae0564547e6501f1d0bee14d20c4a94a179459444",
+    "exitCode": 100
+  },
+  "egressRevision": {
+    "path": "/tmp/idealmakoo-production-repair-20261020/vm/user-directory-final/assets/egress-materials-ipv4-v2.json",
+    "sha256": "1489ab8a7b75ea295a329d0ca11bf750ab8f14f8ebae6f023ff7e0bc0aab1261",
+    "appliedProofSha256": "2b20805acba4f864dbcebc6fa20dfc928919f3b7c8b8ecb8975d5fc8bbbdc6ff"
+  }
+}

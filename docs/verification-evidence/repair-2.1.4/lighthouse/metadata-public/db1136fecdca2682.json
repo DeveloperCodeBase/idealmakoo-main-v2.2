@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/cooperation/investment/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "bf568645ee4e2cbb8fdf5f5a108f20c701b96d0f0c24cd37e67d6417b0996e1d",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Investment cooperation | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Register investment cooperation interest and contact the factory for proposal review or authorized access to supporting documents."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/cooperation/investment/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/cooperation/investment/",
+    "en": "http://127.0.0.1:3100/en/cooperation/investment/",
+    "tr": "http://127.0.0.1:3100/tr/cooperation/investment/",
+    "ar": "http://127.0.0.1:3100/ar/cooperation/investment/",
+    "ru": "http://127.0.0.1:3100/ru/cooperation/investment/",
+    "x-default": "http://127.0.0.1:3100/fa/cooperation/investment/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 61
+}

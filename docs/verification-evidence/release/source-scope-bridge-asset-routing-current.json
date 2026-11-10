@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 1,
+  "status": "candidate-for-review",
+  "preparedAt": "2026-10-22T07:26:27.461177+00:00",
+  "previous": {
+    "sha256": "71ae23d3db96eb7825bd1762b6992c2494066e02415f5545b26b12663837fc2a",
+    "files": 831
+  },
+  "current": {
+    "sha256": "981c8a90b315e4ae01de066365c3a08ae287b9afaf9202460bcf2db01161898e",
+    "files": 832
+  },
+  "comparison": {
+    "modified": 9,
+    "added": 1,
+    "removed": 0,
+    "unchanged": 822,
+    "changes": [
+      {
+        "path": "scripts/lighthouse-private-child.mjs",
+        "change": "modified",
+        "before": {
+          "sha256": "e737c25681e36fb97572e235166ccd94941d5930b4c60bb809770d029758a087",
+          "bytes": 15769
+        },
+        "after": {
+          "sha256": "c87ff6442c76190938f65036539eeb79f25e6e1c269546a7e46fd52b4c217572",
+          "bytes": 16187
+        }
+      },
+      {
+        "path": "src/app/[locale]/auth/[[...slug]]/page.tsx",
+        "change": "modified",
+        "before": {
+          "sha256": "291a96c9ba561a946a424a79404e23f74b4e14db33977cae1baa855b59bf8b3b",
+          "bytes": 447
+        },
+        "after": {
+          "sha256": "1728df12d15709914f2b97300c065483d60550c64185951bbfa271eb27602391",
+          "bytes": 536
+        }
+      },
+      {
+        "path": "src/components/Application.tsx",
+        "change": "modified",
+        "before": {
+          "sha256": "b1b8cf8613d536b2f862f6bfb8ef922a704ce1825cc0307cc01ad5b73f595714",
+          "bytes": 4687
+        },
+        "after": {
+          "sha256": "3ccfe5e946f6f9d8e07aca7a42ea25366f014fa5090f46a0e05e567f3f409843",
+          "bytes": 4507
+        }
+      },
+      {
+        "path": "src/components/workspace/ProductEditor.tsx",
+        "change": "modified",
+        "before": {
+          "sha256": "fa185ce71b7bf4f075d1765b2493edc6ed9f4cb0e797d125fcf3b7a4d37986a2",
+          "bytes": 36248
+        },
+        "after": {
+          "sha256": "fce228d0594f2224e5d58b331592d3e8b078ae66dc1d45dd982cd7d60589ac05",
+          "bytes": 36473
+        }
+      },
+      {
+        "path": "src/components/workspace/Records.tsx",
+        "change": "modified",
+        "before": {
+          "sha256": "c537a57de364febb46afabbe93fcfdebcd3a9a77e5b7988bbbb70beb9d91e00e",
+          "bytes": 49357
+        },
+        "after": {
+          "sha256": "df7c01d7fd78ec64ce332eb83d0a7a0cfd8c63960d76709d3025df76537b0be3",
+          "bytes": 49524
+        }
+      },
+      {
+        "path": "src/server/public-page.tsx",
+        "change": "modified",
+        "before": {
+          "sha256": "a0249dd9456c864de92d524c5a409d8051d7d21618b1a0a74e0898ed0205ef0c",
+          "bytes": 10862
+        },
+        "after": {
+          "sha256": "5bb78990853da97f0267949cd00c6aff40c8ed898f8ad1961f7701e9fbf0dc29",
+          "bytes": 10901
+        }
+      },
+      {
+        "path": "tests/account-startup.test.mjs",
+        "change": "modified",
+        "before": {
+          "sha256": "18c381543f79e8120cc38fdcdf83049301d88458fb54de0682695d334ead8f34",
+          "bytes": 20295
+        },
+        "after": {
+          "sha256": "7cd92b37c93e7b3564e93ab54cb84d87d404a48d223681a40696e0ad57843805",
+          "bytes": 20392
+        }
+      },
+      {
+        "path": "tests/private-lighthouse-abort-cause.test.mjs",
+        "change": "added",
+        "before": null,
+        "after": {
+          "sha256": "4233b3536d2490d6bf1abad1763f78ccb9493a193f0c3ae3d7358825b337a22b",
+          "bytes": 7055
+        }
+      },
+      {
+        "path": "tests/public-route-entries.test.mjs",
+        "change": "modified",
+        "before": {
+          "sha256": "ebb0231daf9bc266d96d54dd55f88233dd1dd24717809326d2c8155474a4f319",
+          "bytes": 11583
+        },
+        "after": {
+          "sha256": "a77f2b021852282207774f65563b2322e96ae5bd68fc9da7240ae66917d78757",
+          "bytes": 12012
+        }
+      },
+      {
+        "path": "tests/workspace-startup.test.mjs",
+        "change": "modified",
+        "before": {
+          "sha256": "3106eb8c0205b66718bb27cc150736fd1c61a658501d9ce8dee55fc6edf5ce08",
+          "bytes": 10063
+        },
+        "after": {
+          "sha256": "3ba821fb752e1daa4602c60f27775603b2cc0adff869013c29b04ce32a1245c9",
+          "bytes": 10063
+        }
+      }
+    ]
+  },
+  "applicationComparison": {
+    "modified": 5,
+    "added": 0,
+    "removed": 0,
+    "unchanged": 680,
+    "changes": [
+      {
+        "path": "src/app/[locale]/auth/[[...slug]]/page.tsx",
+        "change": "modified",
+        "before": {
+          "sha256": "291a96c9ba561a946a424a79404e23f74b4e14db33977cae1baa855b59bf8b3b",
+          "bytes": 447
+        },
+        "after": {
+          "sha256": "1728df12d15709914f2b97300c065483d60550c64185951bbfa271eb27602391",
+          "bytes": 536
+        }
+      },
+      {
+        "path": "src/components/Application.tsx",
+        "change": "modified",
+        "before": {
+          "sha256": "b1b8cf8613d536b2f862f6bfb8ef922a704ce1825cc0307cc01ad5b73f595714",
+          "bytes": 4687
+        },
+        "after": {
+          "sha256": "3ccfe5e946f6f9d8e07aca7a42ea25366f014fa5090f46a0e05e567f3f409843",
+          "bytes": 4507
+        }
+      },
+      {
+        "path": "src/components/workspace/ProductEditor.tsx",
+        "change": "modified",
+        "before": {
+          "sha256": "fa185ce71b7bf4f075d1765b2493edc6ed9f4cb0e797d125fcf3b7a4d37986a2",
+          "bytes": 36248
+        },
+        "after": {
+          "sha256": "fce228d0594f2224e5d58b331592d3e8b078ae66dc1d45dd982cd7d60589ac05",
+          "bytes": 36473
+        }
+      },
+      {
+        "path": "src/components/workspace/Records.tsx",
+        "change": "modified",
+        "before": {
+          "sha256": "c537a57de364febb46afabbe93fcfdebcd3a9a77e5b7988bbbb70beb9d91e00e",
+          "bytes": 49357
+        },
+        "after": {
+          "sha256": "df7c01d7fd78ec64ce332eb83d0a7a0cfd8c63960d76709d3025df76537b0be3",
+          "bytes": 49524
+        }
+      },
+      {
+        "path": "src/server/public-page.tsx",
+        "change": "modified",
+        "before": {
+          "sha256": "a0249dd9456c864de92d524c5a409d8051d7d21618b1a0a74e0898ed0205ef0c",
+          "bytes": 10862
+        },
+        "after": {
+          "sha256": "5bb78990853da97f0267949cd00c6aff40c8ed898f8ad1961f7701e9fbf0dc29",
+          "bytes": 10901
+        }
+      }
+    ]
+  },
+  "priorCohortComparisons": [
+    {
+      "source": {
+        "sha256": "bc24f5e9887d415823fcf5d93675ea4b4d710e678cf7da655d90d8306255f45f",
+        "files": 832
+      },
+      "label": "asset-routing-01",
+      "comparisonToCurrent": {
+        "modified": 2,
+        "added": 0,
+        "removed": 0,
+        "unchanged": 830,
+        "changes": [
+          {
+            "path": "src/components/Application.tsx",
+            "change": "modified",
+            "before": {
+              "sha256": "c4ae9b48ec165cdf02d5d4aa0e345562d9753e9a867568e9a1df8b23c0f4f47b",
+              "bytes": 4621
+            },
+            "after": {
+              "sha256": "3ccfe5e946f6f9d8e07aca7a42ea25366f014fa5090f46a0e05e567f3f409843",
+              "bytes": 4507
+            }
+          },
+          {
+            "path": "tests/account-startup.test.mjs",
+            "change": "modified",
+            "before": {
+              "sha256": "18c381543f79e8120cc38fdcdf83049301d88458fb54de0682695d334ead8f34",
+              "bytes": 20295
+            },
+            "after": {
+              "sha256": "7cd92b37c93e7b3564e93ab54cb84d87d404a48d223681a40696e0ad57843805",
+              "bytes": 20392
+            }
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "sha256": "2ccef3b0f97f7ec30a8d907d80131ed9e11edf4ab1280d9187137b24a6b685af",
+        "files": 832
+      },
+      "label": "asset-routing-02",
+      "comparisonToCurrent": {
+        "modified": 1,
+        "added": 0,
+        "removed": 0,
+        "unchanged": 831,
+        "changes": [
+          {
+            "path": "tests/account-startup.test.mjs",
+            "change": "modified",
+            "before": {
+              "sha256": "18c381543f79e8120cc38fdcdf83049301d88458fb54de0682695d334ead8f34",
+              "bytes": 20295
+            },
+            "after": {
+              "sha256": "7cd92b37c93e7b3564e93ab54cb84d87d404a48d223681a40696e0ad57843805",
+              "bytes": 20392
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "method": "Comparison of recorded file names, sizes and SHA256 in pinned catalogs.",
+  "workspaceSourceBytesRehashed": false,
+  "aggregateHashRecomputed": false,
+  "runtimeEquivalenceProven": false,
+  "gatesRerunByGenerator": false,
+  "historicalBridgeReference": "source-scope-bridge.json"
+}

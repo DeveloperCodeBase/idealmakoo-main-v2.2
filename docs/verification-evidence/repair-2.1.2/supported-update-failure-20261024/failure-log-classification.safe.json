@@ -1,0 +1,172 @@
+{
+  "schema": 1,
+  "kind": "original-supported-update-failure-retained-log-classification",
+  "status": "failed",
+  "recordedAt": "2026-10-24T15:17:56.250497+00:00",
+  "job": "update-after-restore02-01",
+  "originalOutcome": {
+    "schema": 1,
+    "kind": "owned-guest-acceptance-job-outcome",
+    "job": "update-after-restore02-01",
+    "status": "failed",
+    "startedAt": "2026-10-24T14:23:47.646186+00:00",
+    "completedAt": "2026-10-24T15:14:52.649875+00:00",
+    "pid": 138704,
+    "startTicks": 2636642,
+    "exitCode": 124,
+    "actualWaitConsumed": true
+  },
+  "originalElapsedSeconds": 3065.003689,
+  "collectorOuterSession": 39208,
+  "collectorOuterExitCode": 0,
+  "collectorWaitConsumed": true,
+  "privateLogs": {
+    "outcome.safe.json": {
+      "included": false,
+      "bytes": 321,
+      "sha256": "ff7e98212d5bfe776a2dd5238777f2af841479634d2980e876ddd37ee5e02fc3"
+    },
+    "start.safe.json": {
+      "included": false,
+      "bytes": 355,
+      "sha256": "f873c95564d89f8c896c601c81b721f1efa4e98012b4bd88f83ccfe93788cfc0"
+    },
+    "stdout.private": {
+      "included": false,
+      "bytes": 2284,
+      "sha256": "225d5f2a21857f3c9b377407f87ad701d519caf319d5529b21dcd3185b27870d"
+    },
+    "stderr.private.log": {
+      "included": false,
+      "bytes": 17567,
+      "sha256": "1fef0b98c0e0abc5bd7502ee810281c1952d423ef246f15eb92eaa4f12e528e4"
+    }
+  },
+  "failurePhase": [
+    {
+      "phase": "application, worker, scanner and public endpoint readiness",
+      "exitCode": 124
+    }
+  ],
+  "structuredLifecycleResults": [
+    {
+      "operation": "up",
+      "code": "COMMAND_TIMEOUT",
+      "exitCode": 124,
+      "cleanupAttempted": true,
+      "cleanupVerified": true,
+      "clientProcessTerminationVerified": true
+    }
+  ],
+  "exactTimedOutCommandRecorded": false,
+  "exactPerCommandElapsedRecorded": false,
+  "originalLifecycleGlobalBudgetSeconds": 1200,
+  "originalReadOnlyDiscoveryMaximumSeconds": 60,
+  "originalInspectMaximumSeconds": 15,
+  "originalPublicProbeMaximumSeconds": 12,
+  "originalCleanupBudgetSeconds": 90,
+  "attemptedManagedReleaseNames": [
+    "20261024T143134Z-5f408c5e"
+  ],
+  "preUpgradeSafetyArchivePublicationPaths": [
+    "/var/www/idealmakoo-212-primary/shared/backups/idealmakoo-20261024T143750Z-0556780e.tar.age"
+  ],
+  "preUpgradeRecoveryPointPaths": [
+    "/var/www/idealmakoo-212-primary/shared/backups/idealmakoo-20261024T143750Z-0556780e.tar.age"
+  ],
+  "secondMandatoryNewSourceBackupObserved": false,
+  "fixedCleanupAndCompletionMarkers": {
+    "This project's app and worker are stopped. Resolve the error before starting writers; the database and persistent volumes were retained.": true,
+    "ERROR: Unable to stop this project's app and worker.": false,
+    "Release is running:": false,
+    "Current release:": false,
+    "Application rollback completed.": false
+  },
+  "retainedContainerProgress": [
+    {
+      "container": "idealmakoo_212_primary-db-1",
+      "observation": "Recreate"
+    },
+    {
+      "container": "idealmakoo_212_primary-db-1",
+      "observation": "Recreated"
+    },
+    {
+      "container": "idealmakoo_212_primary-db-1",
+      "observation": "Starting"
+    },
+    {
+      "container": "idealmakoo_212_primary-db-1",
+      "observation": "Started"
+    },
+    {
+      "container": "idealmakoo_212_primary-db-1",
+      "observation": "Waiting"
+    },
+    {
+      "container": "idealmakoo_212_primary-db-1",
+      "observation": "Healthy"
+    },
+    {
+      "container": "idealmakoo_212_primary-migrate-1",
+      "observation": "Recreate"
+    },
+    {
+      "container": "idealmakoo_212_primary-migrate-1",
+      "observation": "Recreated"
+    },
+    {
+      "container": "idealmakoo_212_primary-migrate-1",
+      "observation": "Starting"
+    },
+    {
+      "container": "idealmakoo_212_primary-migrate-1",
+      "observation": "Started"
+    },
+    {
+      "container": "idealmakoo_212_primary-migrate-1",
+      "observation": "Stopping"
+    },
+    {
+      "container": "idealmakoo_212_primary-migrate-1",
+      "observation": "Stopped"
+    },
+    {
+      "container": "idealmakoo_212_primary-clamav-1",
+      "observation": "Recreate"
+    },
+    {
+      "container": "idealmakoo_212_primary-clamav-1",
+      "observation": "Recreated"
+    },
+    {
+      "container": "idealmakoo_212_primary-clamav-1",
+      "observation": "Starting"
+    },
+    {
+      "container": "idealmakoo_212_primary-clamav-1",
+      "observation": "Started"
+    }
+  ],
+  "retainedReadOnlyListing": [],
+  "structuredOutputShapes": [
+    {
+      "type": "object",
+      "keys": [
+        "duplicate",
+        "id",
+        "recorded"
+      ]
+    }
+  ],
+  "migrationExitZeroTextObserved": true,
+  "actualCurrentLinkObserved": false,
+  "currentImageIdentityIndependentlyVerified": false,
+  "currentStateReadbackPerformed": false,
+  "fullUpdateAccepted": false,
+  "downstreamConditionalChainExecuted": false,
+  "retryPerformed": false,
+  "sourceZipSha256": "e99523f5e7e069f053004ac8afc00465403cc44cfac1d257abe393fc4e8829ca",
+  "applicationInputsSha256": "de90dfabf8ddc57473a5943dfb03ba07b35b78f46e175a6e7ce9284fe2fb0558",
+  "executionInputsSha256": "82dd68edb6fa454fd8f296dcc61b958c6d4547e280abc8d70192532c7907d012"
+}

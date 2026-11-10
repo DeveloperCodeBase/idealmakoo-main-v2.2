@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/global/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "9547a275dff87cb46d88aa5151f23c3e21a5f9d10a862efe2ed8a02366b0ab17",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "من ماكو، إلى أسواق أوسع. | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "موقع المصنع في منطقة ماكو الحرة ومسار التصدير الوارد في تاريخ الشركة."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/global/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/global/",
+    "en": "http://127.0.0.1:3100/en/global/",
+    "tr": "http://127.0.0.1:3100/tr/global/",
+    "ar": "http://127.0.0.1:3100/ar/global/",
+    "ru": "http://127.0.0.1:3100/ru/global/",
+    "x-default": "http://127.0.0.1:3100/fa/global/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 90
+}

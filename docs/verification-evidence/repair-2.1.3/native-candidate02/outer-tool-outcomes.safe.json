@@ -1,0 +1,68 @@
+{
+  "kind": "observed-outer-tool-completion-ledger",
+  "recordedAt": "2026-10-25T07:52:08.260180+00:00",
+  "provenance": "Actual returned exec/write_stdin results observed earlier by frontend_current, retained in conversation checkpoints; this is not a newly executed wait.",
+  "entries": [
+    {
+      "name": "unit-candidate02-debounce-01",
+      "sessionId": 77953,
+      "actualOuterExitCode": 0,
+      "actualOuterWaitConsumed": true
+    },
+    {
+      "name": "typecheck-candidate02-debounce-01",
+      "sessionId": 72288,
+      "actualOuterExitCode": 0,
+      "actualOuterWaitConsumed": true
+    },
+    {
+      "name": "build-candidate02-debounce-01",
+      "sessionId": 81715,
+      "actualOuterExitCode": 0,
+      "actualOuterWaitConsumed": true
+    },
+    {
+      "name": "e2e-candidate02-debounce-gate-01",
+      "sessionId": 69491,
+      "actualOuterExitCode": 0,
+      "actualOuterWaitConsumed": true
+    },
+    {
+      "name": "gallery-candidate02-gate-01",
+      "sessionId": 72973,
+      "actualOuterExitCode": 1,
+      "actualOuterWaitConsumed": true
+    },
+    {
+      "name": "gallery-candidate02-gate-02",
+      "sessionId": 65869,
+      "actualOuterExitCode": 1,
+      "actualOuterWaitConsumed": true
+    },
+    {
+      "name": "gallery-candidate02-gate-03",
+      "sessionId": 56485,
+      "actualOuterExitCode": 0,
+      "actualOuterWaitConsumed": true
+    },
+    {
+      "name": "gallery-candidate02-debounce-gate-01",
+      "sessionId": 57441,
+      "actualOuterExitCode": 1,
+      "actualOuterWaitConsumed": true
+    },
+    {
+      "name": "gallery-candidate02-debounce-gate-03",
+      "sessionId": 28352,
+      "actualOuterExitCode": 0,
+      "actualOuterWaitConsumed": true
+    },
+    {
+      "name": "metadata-candidate02-debounce-gate-01",
+      "sessionId": 31635,
+      "actualOuterExitCode": 0,
+      "actualOuterWaitConsumed": true
+    }
+  ],
+  "galleryDebounceAttempt02OuterExit": "unknown; explicit limitation preserved separately"
+}

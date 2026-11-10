@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "kind": "lifecycle-diagnostics-public-safe-evidence",
+  "recordedAt": "2026-10-24T15:39:13.881705+00:00",
+  "status": "focused6-and-full224-passed-runtime-unexecuted",
+  "files": {
+    "focused.safe.json": {
+      "bytes": 1693,
+      "sha256": "cc391703c81c7b86248332e80e8d81bda126be7fa45b0291c55bf0bdc63c83ef"
+    },
+    "operations.safe.json": {
+      "bytes": 1354,
+      "sha256": "3c0a6119dce0dbb21638df63f8ba0fff17ce4e43a35e95a3a64e55762eff9eba"
+    },
+    "actual-process-outcome.safe.json": {
+      "bytes": 467,
+      "sha256": "84cad09c8888414f04a14e437b028f4b484b47cf334df6f1eeda90adf8bf4da5"
+    },
+    "completion.safe.json": {
+      "bytes": 2331,
+      "sha256": "8f696ae35d066e1d5ec09e1e4b1d6f785d3bbf610666bc70bf65ed7e48662e14"
+    },
+    "input-maps.safe.json": {
+      "bytes": 1811,
+      "sha256": "3342e5d13533cf8c9413004fc506f71e842d3f5a0520e9e1c368821bae61deae"
+    },
+    "application-inputs.safe.json": {
+      "bytes": 110732,
+      "sha256": "bdc5bbb1a92273af25e2e8ff282a40fbc8a000a9060582332e57e0e6777edaf4"
+    },
+    "execution-inputs.safe.json": {
+      "bytes": 156741,
+      "sha256": "7abb64131557b5d77882b1df0ed71d1ce5c046667e5ec8f9dfe7c60bfd1de6a7"
+    },
+    "compiler-input-equivalence.safe.json": {
+      "bytes": 116262,
+      "sha256": "0d59cf6440a0bf47b4f865b5294eb577e671048a2222bd4c3e84e823a9c2f3d7"
+    }
+  },
+  "copiesAreByteIdentical": true,
+  "inputMapsContainSourcePathsByteCountsAndHashesOnly": true,
+  "applicationInputs": {
+    "files": 987,
+    "sha256": "30d2d54eef773f72807ed4473e64627b54bd3da16509bc3de3f6cf8c609079d4"
+  },
+  "executionInputs": {
+    "files": 996,
+    "sha256": "bbcff086722095bd3a20c1f679fbc8f5ff61730785476dc2d1d3e1f2531c3639"
+  },
+  "compilerInputs": {
+    "files": 727,
+    "sha256": "9e2914460b7db6ecd1156bf9e9de79ea38271b860f161f5be47b4c58ebf9e680"
+  },
+  "nativeBuildDeploymentStartupCauseFixOrFullLighthouseClaimed": false,
+  "privateRawLogsOrSecretsIncluded": false
+}

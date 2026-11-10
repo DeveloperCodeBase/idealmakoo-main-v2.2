@@ -1,0 +1,1179 @@
+{
+  "schemaVersion": 2,
+  "applicationVersion": "2.1.0",
+  "generatedAt": "2026-10-20T13:22:36.199474+00:00",
+  "applicationSha256": "cfe5ecdde102eef7e3bef70f6d2b8fd1f590c323aa1cf2394cf02e7177337459",
+  "applicationGatesAccepted": true,
+  "releaseAcceptance": "Pending actual Ubuntu Docker recovery and final Lighthouse/metadata evidence.",
+  "gates": {
+    "build": {
+      "gate": "build",
+      "label": "final3",
+      "selected": [],
+      "startedAt": "2026-10-20T12:34:43.210Z",
+      "finishedAt": "2026-10-20T12:37:05.007Z",
+      "state": "completed",
+      "exitCode": 0,
+      "commandExitCode": 0,
+      "signal": null,
+      "error": null,
+      "nodeVersion": "v24.19.0",
+      "applicationBefore": "cfe5ecdde102eef7e3bef70f6d2b8fd1f590c323aa1cf2394cf02e7177337459",
+      "applicationAfter": "cfe5ecdde102eef7e3bef70f6d2b8fd1f590c323aa1cf2394cf02e7177337459",
+      "applicationUnchanged": true,
+      "runtimeBefore": {
+        "algorithm": "sha256",
+        "scope": "runtime-v1",
+        "sha256": "6585a395a5f27da18d678391384d027fad1e9f7d4edb1e76e8cb1e2e48554c12",
+        "fileCount": 682,
+        "byteCount": 48824102,
+        "entrypoints": []
+      },
+      "runtimeAfter": {
+        "algorithm": "sha256",
+        "scope": "runtime-v1",
+        "sha256": "be0b2086cc752fe0e3e2f03229de67f5c24f48929813591bb919d3fe88f77a57",
+        "fileCount": 682,
+        "byteCount": 48824136,
+        "entrypoints": []
+      },
+      "runtimeUnchanged": false,
+      "testInputsBefore": {
+        "algorithm": "sha256",
+        "scope": "test-inputs-build-v1",
+        "sha256": "37fbc419f873e29c59081253d5c2085eef42f6bb8598b8b69c6d1754be8427cd",
+        "fileCount": 17,
+        "byteCount": 225588,
+        "entrypoints": []
+      },
+      "testInputsAfter": {
+        "algorithm": "sha256",
+        "scope": "test-inputs-build-v1",
+        "sha256": "37fbc419f873e29c59081253d5c2085eef42f6bb8598b8b69c6d1754be8427cd",
+        "fileCount": 17,
+        "byteCount": 225588,
+        "entrypoints": []
+      },
+      "testInputsUnchanged": true,
+      "buildBefore": {
+        "buildId": "M1pSt89Uk1zd7oEOAl-HV",
+        "standaloneBuildId": "M1pSt89Uk1zd7oEOAl-HV"
+      },
+      "buildAfter": {
+        "buildId": "hH4L_oeEW5bJyVSphJv9N",
+        "standaloneBuildId": "hH4L_oeEW5bJyVSphJv9N"
+      },
+      "statusFileSha256": "cb721b8e2b4c9b0afb9040d1000057607bdf3594cdabf998c8fe6e197744fd3e",
+      "accepted": true
+    },
+    "unit": {
+      "gate": "unit",
+      "label": "final4",
+      "selected": [],
+      "startedAt": "2026-10-20T12:52:44.694Z",
+      "finishedAt": "2026-10-20T12:53:16.427Z",
+      "state": "completed",
+      "exitCode": 0,
+      "commandExitCode": 0,
+      "signal": null,
+      "error": null,
+      "counts": {
+        "tests": 412,
+        "pass": 412,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0
+      },
+      "nodeVersion": "v24.19.0",
+      "applicationBefore": "cfe5ecdde102eef7e3bef70f6d2b8fd1f590c323aa1cf2394cf02e7177337459",
+      "applicationAfter": "cfe5ecdde102eef7e3bef70f6d2b8fd1f590c323aa1cf2394cf02e7177337459",
+      "applicationUnchanged": true,
+      "runtimeBefore": {
+        "algorithm": "sha256",
+        "scope": "runtime-v1",
+        "sha256": "52bce81adf308bcdcf871859c5f641cc5b873025dfc4f32ef8e139f0fcad1773",
+        "fileCount": 682,
+        "byteCount": 48825533,
+        "entrypoints": []
+      },
+      "runtimeAfter": {
+        "algorithm": "sha256",
+        "scope": "runtime-v1",
+        "sha256": "6152f746037e61e7487dc718c7d5f5f799721e75d38c85f206d16b7033af7868",
+        "fileCount": 682,
+        "byteCount": 48826943,
+        "entrypoints": []
+      },
+      "runtimeUnchanged": false,
+      "testInputsBefore": {
+        "algorithm": "sha256",
+        "scope": "test-inputs-unit-v1",
+        "sha256": "34b4bf927e0ab8a83ae78e67fa8bc73e917f3fd341bfa29dca2d4444aee0f6fc",
+        "fileCount": 65,
+        "byteCount": 459804,
+        "entrypoints": [
+          "tests/acceptance-auth-budget.test.mjs",
+          "tests/account.test.mjs",
+          "tests/ai-gateway.test.mjs",
+          "tests/api-reauthentication.test.mjs",
+          "tests/avatar.test.mjs",
+          "tests/carousel-gesture.test.mjs",
+          "tests/carousel.test.mjs",
+          "tests/catalog.test.mjs",
+          "tests/content-ai-translation.test.mjs",
+          "tests/crm-tools.test.mjs",
+          "tests/custom-products.test.mjs",
+          "tests/customer-permissions.test.mjs",
+          "tests/dam-client.test.mjs",
+          "tests/display-preferences.test.mjs",
+          "tests/editor-concurrency.test.mjs",
+          "tests/editor-workflows.test.mjs",
+          "tests/editorial-csp.test.mjs",
+          "tests/editorial-settings.test.mjs",
+          "tests/event-slot-picker.test.mjs",
+          "tests/experience.test.mjs",
+          "tests/form-schema.test.mjs",
+          "tests/frontend-state.test.mjs",
+          "tests/http-boundaries.test.mjs",
+          "tests/locale-actions.test.mjs",
+          "tests/locale-routing.test.mjs",
+          "tests/molar-preparation.test.mjs",
+          "tests/navigation-scroll.test.mjs",
+          "tests/operator-copy.test.mjs",
+          "tests/page-lifecycle-ui.test.mjs",
+          "tests/page-translation.test.mjs",
+          "tests/personal-routes.test.mjs",
+          "tests/private-device-runtime.test.mjs",
+          "tests/product-editor.test.mjs",
+          "tests/product-publication.test.mjs",
+          "tests/product-release.test.mjs",
+          "tests/product-translation.test.mjs",
+          "tests/production-frontend-contracts.test.mjs",
+          "tests/public-hydration.test.mjs",
+          "tests/public-routing.test.mjs",
+          "tests/public-surface.test.mjs",
+          "tests/pwa-policy.test.mjs",
+          "tests/reference-documents.test.mjs",
+          "tests/service-worker-classic.test.mjs",
+          "tests/site-content-control.test.mjs",
+          "tests/site-preferences.test.mjs",
+          "tests/source-download.test.mjs",
+          "tests/source-template-render.test.mjs",
+          "tests/storage-policy-form.test.mjs",
+          "tests/studio-ai.test.mjs",
+          "tests/upload-policy.test.mjs",
+          "tests/user-settings.test.mjs",
+          "tests/workspace-permissions.test.mjs",
+          "tests/workspace.test.mjs"
+        ]
+      },
+      "testInputsAfter": {
+        "algorithm": "sha256",
+        "scope": "test-inputs-unit-v1",
+        "sha256": "34b4bf927e0ab8a83ae78e67fa8bc73e917f3fd341bfa29dca2d4444aee0f6fc",
+        "fileCount": 65,
+        "byteCount": 459804,
+        "entrypoints": [
+          "tests/acceptance-auth-budget.test.mjs",
+          "tests/account.test.mjs",
+          "tests/ai-gateway.test.mjs",
+          "tests/api-reauthentication.test.mjs",
+          "tests/avatar.test.mjs",
+          "tests/carousel-gesture.test.mjs",
+          "tests/carousel.test.mjs",
+          "tests/catalog.test.mjs",
+          "tests/content-ai-translation.test.mjs",
+          "tests/crm-tools.test.mjs",
+          "tests/custom-products.test.mjs",
+          "tests/customer-permissions.test.mjs",
+          "tests/dam-client.test.mjs",
+          "tests/display-preferences.test.mjs",
+          "tests/editor-concurrency.test.mjs",
+          "tests/editor-workflows.test.mjs",
+          "tests/editorial-csp.test.mjs",
+          "tests/editorial-settings.test.mjs",
+          "tests/event-slot-picker.test.mjs",
+          "tests/experience.test.mjs",
+          "tests/form-schema.test.mjs",
+          "tests/frontend-state.test.mjs",
+          "tests/http-boundaries.test.mjs",
+          "tests/locale-actions.test.mjs",
+          "tests/locale-routing.test.mjs",
+          "tests/molar-preparation.test.mjs",
+          "tests/navigation-scroll.test.mjs",
+          "tests/operator-copy.test.mjs",
+          "tests/page-lifecycle-ui.test.mjs",
+          "tests/page-translation.test.mjs",
+          "tests/personal-routes.test.mjs",
+          "tests/private-device-runtime.test.mjs",
+          "tests/product-editor.test.mjs",
+          "tests/product-publication.test.mjs",
+          "tests/product-release.test.mjs",
+          "tests/product-translation.test.mjs",
+          "tests/production-frontend-contracts.test.mjs",
+          "tests/public-hydration.test.mjs",
+          "tests/public-routing.test.mjs",
+          "tests/public-surface.test.mjs",
+          "tests/pwa-policy.test.mjs",
+          "tests/reference-documents.test.mjs",
+          "tests/service-worker-classic.test.mjs",
+          "tests/site-content-control.test.mjs",
+          "tests/site-preferences.test.mjs",
+          "tests/source-download.test.mjs",
+          "tests/source-template-render.test.mjs",
+          "tests/storage-policy-form.test.mjs",
+          "tests/studio-ai.test.mjs",
+          "tests/upload-policy.test.mjs",
+          "tests/user-settings.test.mjs",
+          "tests/workspace-permissions.test.mjs",
+          "tests/workspace.test.mjs"
+        ]
+      },
+      "testInputsUnchanged": true,
+      "statusFileSha256": "7ff873cf2d80079a1647f46c86fce99df9d7a5e209f8dc553ecedd22812fe90b",
+      "accepted": true
+    },
+    "postgres": {
+      "gate": "postgres",
+      "label": "final2",
+      "selected": [],
+      "startedAt": "2026-10-20T12:35:12.022Z",
+      "finishedAt": "2026-10-20T12:39:27.444Z",
+      "state": "completed",
+      "exitCode": 0,
+      "commandExitCode": 0,
+      "signal": null,
+      "error": null,
+      "counts": {
+        "tests": 453,
+        "pass": 453,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0
+      },
+      "nodeVersion": "v24.19.0",
+      "applicationBefore": "cfe5ecdde102eef7e3bef70f6d2b8fd1f590c323aa1cf2394cf02e7177337459",
+      "applicationAfter": "cfe5ecdde102eef7e3bef70f6d2b8fd1f590c323aa1cf2394cf02e7177337459",
+      "applicationUnchanged": true,
+      "runtimeBefore": {
+        "algorithm": "sha256",
+        "scope": "runtime-v1",
+        "sha256": "6585a395a5f27da18d678391384d027fad1e9f7d4edb1e76e8cb1e2e48554c12",
+        "fileCount": 682,
+        "byteCount": 48824102,
+        "entrypoints": []
+      },
+      "runtimeAfter": {
+        "algorithm": "sha256",
+        "scope": "runtime-v1",
+        "sha256": "be0b2086cc752fe0e3e2f03229de67f5c24f48929813591bb919d3fe88f77a57",
+        "fileCount": 682,
+        "byteCount": 48824136,
+        "entrypoints": []
+      },
+      "runtimeUnchanged": false,
+      "testInputsBefore": {
+        "algorithm": "sha256",
+        "scope": "test-inputs-postgres-v1",
+        "sha256": "cd2da4ccb0648798e5cd75dcf8d8b9976f816d2d7f8d30b0c63ff28944ae552c",
+        "fileCount": 44,
+        "byteCount": 744904,
+        "entrypoints": [
+          "tests/server-ai-media.pg.mjs",
+          "tests/server-auth-limits.pg.mjs",
+          "tests/server-automation.pg.mjs",
+          "tests/server-campaigns.pg.mjs",
+          "tests/server-communication-channels.pg.mjs",
+          "tests/server-company-certificates.pg.mjs",
+          "tests/server-contact-campaigns.pg.mjs",
+          "tests/server-content-ai.pg.mjs",
+          "tests/server-crm-io.pg.mjs",
+          "tests/server-editor-workflows.pg.mjs",
+          "tests/server-glossary.pg.mjs",
+          "tests/server-mfa-recovery.pg.mjs",
+          "tests/server-notification-policy.pg.mjs",
+          "tests/server-notification-templates.pg.mjs",
+          "tests/server-page-lifecycle.pg.mjs",
+          "tests/server-page-translation.pg.mjs",
+          "tests/server-portal-mapping.pg.mjs",
+          "tests/server-privacy.pg.mjs",
+          "tests/server-product-registry.pg.mjs",
+          "tests/server-public-surface.pg.mjs",
+          "tests/server-resource-pages.pg.mjs",
+          "tests/server-resource-uploads.pg.mjs",
+          "tests/server-restore-security.pg.mjs",
+          "tests/server-site-policy.pg.mjs",
+          "tests/server-source-pages.pg.mjs",
+          "tests/server-staff-lifecycle.pg.mjs",
+          "tests/server-staff-mfa-reset.pg.mjs",
+          "tests/server-staff-provisioning.pg.mjs",
+          "tests/server-storage-policy.pg.mjs",
+          "tests/server-task-reminder-policy.pg.mjs",
+          "tests/server-task-reminder-upgrade.pg.mjs",
+          "tests/server-tender-envelopes.pg.mjs",
+          "tests/server-workspace-calendar.pg.mjs",
+          "tests/server-workspace-commercial.pg.mjs",
+          "tests/server-workspace-domains.pg.mjs",
+          "tests/server-workspace-pipelines.pg.mjs",
+          "tests/server-workspace-policy.pg.mjs",
+          "tests/server-workspace-routing.pg.mjs",
+          "tests/server-workspace-scopes.pg.mjs",
+          "tests/server-workspace.integration.pg.mjs"
+        ]
+      },
+      "testInputsAfter": {
+        "algorithm": "sha256",
+        "scope": "test-inputs-postgres-v1",
+        "sha256": "cd2da4ccb0648798e5cd75dcf8d8b9976f816d2d7f8d30b0c63ff28944ae552c",
+        "fileCount": 44,
+        "byteCount": 744904,
+        "entrypoints": [
+          "tests/server-ai-media.pg.mjs",
+          "tests/server-auth-limits.pg.mjs",
+          "tests/server-automation.pg.mjs",
+          "tests/server-campaigns.pg.mjs",
+          "tests/server-communication-channels.pg.mjs",
+          "tests/server-company-certificates.pg.mjs",
+          "tests/server-contact-campaigns.pg.mjs",
+          "tests/server-content-ai.pg.mjs",
+          "tests/server-crm-io.pg.mjs",
+          "tests/server-editor-workflows.pg.mjs",
+          "tests/server-glossary.pg.mjs",
+          "tests/server-mfa-recovery.pg.mjs",
+          "tests/server-notification-policy.pg.mjs",
+          "tests/server-notification-templates.pg.mjs",
+          "tests/server-page-lifecycle.pg.mjs",
+          "tests/server-page-translation.pg.mjs",
+          "tests/server-portal-mapping.pg.mjs",
+          "tests/server-privacy.pg.mjs",
+          "tests/server-product-registry.pg.mjs",
+          "tests/server-public-surface.pg.mjs",
+          "tests/server-resource-pages.pg.mjs",
+          "tests/server-resource-uploads.pg.mjs",
+          "tests/server-restore-security.pg.mjs",
+          "tests/server-site-policy.pg.mjs",
+          "tests/server-source-pages.pg.mjs",
+          "tests/server-staff-lifecycle.pg.mjs",
+          "tests/server-staff-mfa-reset.pg.mjs",
+          "tests/server-staff-provisioning.pg.mjs",
+          "tests/server-storage-policy.pg.mjs",
+          "tests/server-task-reminder-policy.pg.mjs",
+          "tests/server-task-reminder-upgrade.pg.mjs",
+          "tests/server-tender-envelopes.pg.mjs",
+          "tests/server-workspace-calendar.pg.mjs",
+          "tests/server-workspace-commercial.pg.mjs",
+          "tests/server-workspace-domains.pg.mjs",
+          "tests/server-workspace-pipelines.pg.mjs",
+          "tests/server-workspace-policy.pg.mjs",
+          "tests/server-workspace-routing.pg.mjs",
+          "tests/server-workspace-scopes.pg.mjs",
+          "tests/server-workspace.integration.pg.mjs"
+        ]
+      },
+      "testInputsUnchanged": true,
+      "statusFileSha256": "19f56fa8e3dbe6c12b984befa268b65c669711c20347dd7ab6d7c73a61999f1e",
+      "accepted": true
+    },
+    "api": {
+      "gate": "api",
+      "label": "final3",
+      "selected": [],
+      "startedAt": "2026-10-20T12:40:13.981Z",
+      "finishedAt": "2026-10-20T12:40:34.992Z",
+      "state": "completed",
+      "exitCode": 0,
+      "commandExitCode": 0,
+      "signal": null,
+      "error": null,
+      "nodeVersion": "v24.19.0",
+      "applicationBefore": "cfe5ecdde102eef7e3bef70f6d2b8fd1f590c323aa1cf2394cf02e7177337459",
+      "applicationAfter": "cfe5ecdde102eef7e3bef70f6d2b8fd1f590c323aa1cf2394cf02e7177337459",
+      "applicationUnchanged": true,
+      "runtimeBefore": {
+        "algorithm": "sha256",
+        "scope": "runtime-v1",
+        "sha256": "52bce81adf308bcdcf871859c5f641cc5b873025dfc4f32ef8e139f0fcad1773",
+        "fileCount": 682,
+        "byteCount": 48825533,
+        "entrypoints": []
+      },
+      "runtimeAfter": {
+        "algorithm": "sha256",
+        "scope": "runtime-v1",
+        "sha256": "52bce81adf308bcdcf871859c5f641cc5b873025dfc4f32ef8e139f0fcad1773",
+        "fileCount": 682,
+        "byteCount": 48825533,
+        "entrypoints": []
+      },
+      "runtimeUnchanged": true,
+      "testInputsBefore": {
+        "algorithm": "sha256",
+        "scope": "test-inputs-api-v1",
+        "sha256": "798b6ce5feb9b928212a53cb67bd11e935e02d889e02df986fe63d20e2a25f34",
+        "fileCount": 6,
+        "byteCount": 57648,
+        "entrypoints": [
+          "tests/server-api.integration.test.ts"
+        ]
+      },
+      "testInputsAfter": {
+        "algorithm": "sha256",
+        "scope": "test-inputs-api-v1",
+        "sha256": "798b6ce5feb9b928212a53cb67bd11e935e02d889e02df986fe63d20e2a25f34",
+        "fileCount": 6,
+        "byteCount": 57648,
+        "entrypoints": [
+          "tests/server-api.integration.test.ts"
+        ]
+      },
+      "testInputsUnchanged": true,
+      "statusFileSha256": "8790caea233e57440d6140b022e15b9a62ed83c1a3a7472f1b181032a5a6fa2b",
+      "accepted": true,
+      "counts": {
+        "tests": 20,
+        "pass": 20,
+        "fail": 0,
+        "skipped": 0
+      }
+    },
+    "browser": {
+      "gate": "browser",
+      "label": "final6",
+      "selected": [],
+      "startedAt": "2026-10-20T13:09:29.144Z",
+      "finishedAt": "2026-10-20T13:20:45.993Z",
+      "state": "completed",
+      "exitCode": 0,
+      "commandExitCode": 0,
+      "signal": null,
+      "error": null,
+      "nodeVersion": "v24.19.0",
+      "applicationBefore": "cfe5ecdde102eef7e3bef70f6d2b8fd1f590c323aa1cf2394cf02e7177337459",
+      "applicationAfter": "cfe5ecdde102eef7e3bef70f6d2b8fd1f590c323aa1cf2394cf02e7177337459",
+      "applicationUnchanged": true,
+      "runtimeBefore": {
+        "algorithm": "sha256",
+        "scope": "runtime-v1",
+        "sha256": "6152f746037e61e7487dc718c7d5f5f799721e75d38c85f206d16b7033af7868",
+        "fileCount": 682,
+        "byteCount": 48826943,
+        "entrypoints": []
+      },
+      "runtimeAfter": {
+        "algorithm": "sha256",
+        "scope": "runtime-v1",
+        "sha256": "6152f746037e61e7487dc718c7d5f5f799721e75d38c85f206d16b7033af7868",
+        "fileCount": 682,
+        "byteCount": 48826943,
+        "entrypoints": []
+      },
+      "runtimeUnchanged": true,
+      "testInputsBefore": {
+        "algorithm": "sha256",
+        "scope": "test-inputs-browser-v1",
+        "sha256": "d1bf5e58ad4d675e93a48099122ca14814fef5c6d4ef1052842ffb516d65ee28",
+        "fileCount": 19,
+        "byteCount": 188097,
+        "entrypoints": [
+          "tests/e2e/accessibility.spec.ts",
+          "tests/e2e/capabilities.spec.ts",
+          "tests/e2e/crm-lifecycle.spec.ts",
+          "tests/e2e/editor-workflows.spec.ts",
+          "tests/e2e/notification-templates.spec.ts",
+          "tests/e2e/page-lifecycle.spec.ts",
+          "tests/e2e/product-translation.spec.ts",
+          "tests/e2e/production.spec.ts",
+          "tests/e2e/public-csp-images.spec.ts",
+          "tests/e2e/recovery-security.spec.ts",
+          "tests/e2e/runtime-contracts.spec.ts",
+          "tests/e2e/source-template-publishing.spec.ts"
+        ]
+      },
+      "testInputsAfter": {
+        "algorithm": "sha256",
+        "scope": "test-inputs-browser-v1",
+        "sha256": "d1bf5e58ad4d675e93a48099122ca14814fef5c6d4ef1052842ffb516d65ee28",
+        "fileCount": 19,
+        "byteCount": 188097,
+        "entrypoints": [
+          "tests/e2e/accessibility.spec.ts",
+          "tests/e2e/capabilities.spec.ts",
+          "tests/e2e/crm-lifecycle.spec.ts",
+          "tests/e2e/editor-workflows.spec.ts",
+          "tests/e2e/notification-templates.spec.ts",
+          "tests/e2e/page-lifecycle.spec.ts",
+          "tests/e2e/product-translation.spec.ts",
+          "tests/e2e/production.spec.ts",
+          "tests/e2e/public-csp-images.spec.ts",
+          "tests/e2e/recovery-security.spec.ts",
+          "tests/e2e/runtime-contracts.spec.ts",
+          "tests/e2e/source-template-publishing.spec.ts"
+        ]
+      },
+      "testInputsUnchanged": true,
+      "buildBefore": {
+        "buildId": "hH4L_oeEW5bJyVSphJv9N",
+        "standaloneBuildId": "hH4L_oeEW5bJyVSphJv9N"
+      },
+      "buildAfter": {
+        "buildId": "hH4L_oeEW5bJyVSphJv9N",
+        "standaloneBuildId": "hH4L_oeEW5bJyVSphJv9N"
+      },
+      "statusFileSha256": "543d1e9ab6975db136fa946acd7c4d4ce36c898c006607cd3ebb4eac58847982",
+      "accepted": true,
+      "reportSha256": "b08cb98c2dc04073e26b01386c6b7754f1af81ac8893e17f5d01a7d6511542d2",
+      "stats": {
+        "startTime": "2026-10-20T13:09:32.774Z",
+        "duration": 669502.9659999999,
+        "expected": 39,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "cases": [
+        {
+          "file": "accessibility.spec.ts",
+          "line": 7,
+          "title": "public accessibility: fa dark home",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 5370
+            }
+          ]
+        },
+        {
+          "file": "accessibility.spec.ts",
+          "line": 7,
+          "title": "public accessibility: fa dark auth/login",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 6472
+            }
+          ]
+        },
+        {
+          "file": "accessibility.spec.ts",
+          "line": 7,
+          "title": "public accessibility: fa dark contact",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 3457
+            }
+          ]
+        },
+        {
+          "file": "accessibility.spec.ts",
+          "line": 7,
+          "title": "public accessibility: fa light home",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 5925
+            }
+          ]
+        },
+        {
+          "file": "accessibility.spec.ts",
+          "line": 7,
+          "title": "public accessibility: fa light auth/login",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 6932
+            }
+          ]
+        },
+        {
+          "file": "accessibility.spec.ts",
+          "line": 7,
+          "title": "public accessibility: fa light contact",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 4823
+            }
+          ]
+        },
+        {
+          "file": "accessibility.spec.ts",
+          "line": 7,
+          "title": "public accessibility: en dark home",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 6687
+            }
+          ]
+        },
+        {
+          "file": "accessibility.spec.ts",
+          "line": 7,
+          "title": "public accessibility: en dark auth/login",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 8883
+            }
+          ]
+        },
+        {
+          "file": "accessibility.spec.ts",
+          "line": 7,
+          "title": "public accessibility: en dark contact",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 5549
+            }
+          ]
+        },
+        {
+          "file": "accessibility.spec.ts",
+          "line": 7,
+          "title": "public accessibility: en light home",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 8378
+            }
+          ]
+        },
+        {
+          "file": "accessibility.spec.ts",
+          "line": 7,
+          "title": "public accessibility: en light auth/login",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 9525
+            }
+          ]
+        },
+        {
+          "file": "accessibility.spec.ts",
+          "line": 7,
+          "title": "public accessibility: en light contact",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 4396
+            }
+          ]
+        },
+        {
+          "file": "capabilities.spec.ts",
+          "line": 65,
+          "title": "a valid private survey submits once without account bootstrap and reflects later revocation",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 6124
+            }
+          ]
+        },
+        {
+          "file": "capabilities.spec.ts",
+          "line": 91,
+          "title": "recipient preferences retain a conflicted draft, save actual consent and revoke when the endpoint changes",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 8286
+            }
+          ]
+        },
+        {
+          "file": "capabilities.spec.ts",
+          "line": 126,
+          "title": "a controlled SMS proof fixture verifies in the standalone page without granting marketing consent",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 3773
+            }
+          ]
+        },
+        {
+          "file": "crm-lifecycle.spec.ts",
+          "line": 225,
+          "title": "P08 CRM-032: two organizations complete the inquiry, approved multilingual PDF, portal interest, forecast and isolated sample-quality lifecycle",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 50795
+            }
+          ]
+        },
+        {
+          "file": "editor-workflows.spec.ts",
+          "line": 27,
+          "title": "form editing uses an actual lease, selected revision comparison and reversible lifecycle",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 29123
+            }
+          ]
+        },
+        {
+          "file": "notification-templates.spec.ts",
+          "line": 20,
+          "title": "Communications UI saves a draft, previews only sample data, independently reviews the exact revision and withdraws it",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 16830
+            }
+          ]
+        },
+        {
+          "file": "page-lifecycle.spec.ts",
+          "line": 35,
+          "title": "page panel archives and recycles a live scheduled page, then restores only a draft with retained history",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 19759
+            }
+          ]
+        },
+        {
+          "file": "product-translation.spec.ts",
+          "line": 39,
+          "title": "a scoped translator saves the complete product body and the product editor reloads that exact draft",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 15234
+            }
+          ]
+        },
+        {
+          "file": "production.spec.ts",
+          "line": 43,
+          "title": "named project lists preserve old bookmarks, resolve conflicts explicitly and share a revocable public selection",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 24573
+            }
+          ]
+        },
+        {
+          "file": "production.spec.ts",
+          "line": 62,
+          "title": "all five public catalogues render with correct language and no demo authentication",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 11786
+            }
+          ]
+        },
+        {
+          "file": "production.spec.ts",
+          "line": 74,
+          "title": "anonymous inquiry survives login and a lost merge response can be retried without adding quantities twice",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 28526
+            }
+          ]
+        },
+        {
+          "file": "production.spec.ts",
+          "line": 93,
+          "title": "registration, persistent profile, visible failed-save state and private request ownership",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 24290
+            }
+          ]
+        },
+        {
+          "file": "production.spec.ts",
+          "line": 133,
+          "title": "staff enrollment, genuine TOTP and recovery challenge gate the workspace",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 33089
+            }
+          ]
+        },
+        {
+          "file": "production.spec.ts",
+          "line": 147,
+          "title": "independent review publishes a durable page visible in a fresh browser and withdrawal removes it",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 36406
+            }
+          ]
+        },
+        {
+          "file": "production.spec.ts",
+          "line": 202,
+          "title": "verified customer reserves a real factory session and withdrawal releases the seats",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 26863
+            }
+          ]
+        },
+        {
+          "file": "production.spec.ts",
+          "line": 217,
+          "title": "notification matrix persists each channel and resolves a genuine concurrent-version conflict explicitly",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 25184
+            }
+          ]
+        },
+        {
+          "file": "production.spec.ts",
+          "line": 229,
+          "title": "private file becomes an independently reviewed version and a real public document download",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 11358
+            }
+          ]
+        },
+        {
+          "file": "production.spec.ts",
+          "line": 272,
+          "title": "organization shares separate view, reply and ownership in the customer portal",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 27923
+            }
+          ]
+        },
+        {
+          "file": "production.spec.ts",
+          "line": 299,
+          "title": "a signed incoming fixture is explicitly associated as an internal note and connector keys stay out of browser storage",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 9031
+            }
+          ]
+        },
+        {
+          "file": "public-csp-images.spec.ts",
+          "line": 3,
+          "title": "hydrated public pages and the anatomy worker run under nonce CSP without eval violations",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 35491
+            }
+          ]
+        },
+        {
+          "file": "public-csp-images.spec.ts",
+          "line": 27,
+          "title": "image optimization permits known bundled files and rejects private, encoded and query-bearing paths",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 150
+            }
+          ]
+        },
+        {
+          "file": "recovery-security.spec.ts",
+          "line": 30,
+          "title": "a staff member regenerates recovery codes in the real panel; old proofs and other sessions stop working",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 89834
+            }
+          ]
+        },
+        {
+          "file": "runtime-contracts.spec.ts",
+          "line": 12,
+          "title": "all forty recorded source addresses with valid percent encoding return an initial 301 without a trailing-slash detour",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 11293
+            }
+          ]
+        },
+        {
+          "file": "runtime-contracts.spec.ts",
+          "line": 28,
+          "title": "raw percent, malformed escapes and double encoding obey the declared HTTP entrypoint",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 75
+            }
+          ]
+        },
+        {
+          "file": "runtime-contracts.spec.ts",
+          "line": 56,
+          "title": "ordinary page canonicalization keeps API and capability POST requests free of redirects",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 172
+            }
+          ]
+        },
+        {
+          "file": "runtime-contracts.spec.ts",
+          "line": 67,
+          "title": "public capability documents retain privacy headers and ordinary pages keep the base CSP",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 231
+            }
+          ]
+        },
+        {
+          "file": "source-template-publishing.spec.ts",
+          "line": 31,
+          "title": "an existing source page publishes edited copy after independent review and retains its original template",
+          "project": "chromium",
+          "expectedStatus": "passed",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "retry": 0,
+              "durationMs": 39155
+            }
+          ]
+        }
+      ],
+      "retries": 0,
+      "workers": 1,
+      "fixture": {
+        "databaseFreshlyMigratedAndSeeded": true,
+        "businessRequestsBeforeFullRun": 0,
+        "independentDatabaseStorageAndPrivacyLedger": true,
+        "explicitDisposableLoopbackAuthBudgetOptIn": true,
+        "testDatabaseEqualsRuntimeDatabase": true,
+        "resetScope": "Only two exact local login-IP and MFA-IP buckets; no per-email, registration or business-intake counter changes.",
+        "applicationRateLimitsChanged": false
+      }
+    }
+  },
+  "method": {
+    "testCountsAreRunnerTestsNotCoveragePercent": true,
+    "focusedTestsNotAddedToFullSuiteCounts": true,
+    "historicalVersion200NotCurrentAcceptance": true,
+    "applicationScope": "src, public (excluding generated service-worker-classic.js), worker, Next/TypeScript/Tailwind/PostCSS configuration, package manifest and lockfile.",
+    "runtimeScope": "Broader deploy/database/scripts source is separately hashed; runtimeUnchanged is not fabricated when independent deployment or audit tooling changed.",
+    "independentChangesDuringGates": {
+      "build": "Deployment script changes; application and build test inputs remained identical.",
+      "postgres": "Deployment script changes; tested PostgreSQL source and test inputs remained identical.",
+      "unit": "Lighthouse evidence exporter changed; application and unit test inputs remained identical."
+    },
+    "rawBrowserArtifactsIncluded": false,
+    "browserImagesIncluded": false
+  },
+  "retainedFailureHistory": [
+    {
+      "run": "browser-final",
+      "outcome": "37 passed / 2 failed before new scenario work",
+      "reason": "Repeated independent staff logins reached the same loopback IP authentication quotas.",
+      "resolution": "Strict opt-in fixture resets only two exact local authentication IP buckets. PostgreSQL separately tests real authentication limits."
+    },
+    {
+      "run": "browser-final2",
+      "outcome": "Global setup refused before tests",
+      "reason": "The new disposable repair database name did not match the explicit allowlist.",
+      "resolution": "Added the exact generated repair-acceptance convention and negative delivery-name tests."
+    },
+    {
+      "run": "browser-final3",
+      "outcome": "38 passed / 1 failed",
+      "reason": "The raw HTML assertion counted an English public marker in inert Next hydration scripts as displayed Persian text.",
+      "resolution": "Assert actual browser main/body, SSR markup excluding script/style only, language/direction and head metadata. Focused source-template scenario passed and restored the source content."
+    },
+    {
+      "run": "browser-final4",
+      "outcome": "Interrupted with failures; not accepted",
+      "reason": "Several repeated full runs on the same disposable DB exhausted the unchanged 30 business-intake requests/hour bucket.",
+      "resolution": "Preserved the prior database/files/ledger and created a new independent acceptance database; did not alter business counters or limits."
+    },
+    {
+      "run": "browser-final5",
+      "outcome": "Incomplete; not accepted",
+      "reason": "Command session and child were unavailable after tool/context handoff, after one reported passed test; exact termination cause is unproven.",
+      "resolution": "No new OOM kill was observed. Verified zero business requests and launched the full runner as an independent detached process."
+    }
+  ]
+}

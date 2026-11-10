@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/quality-report/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "d5817d7248cc01fb5fc1270b16a88c0bb923606f3c2964ba0a35947da5769879",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "گزارش کیفیت محصول | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "گزارش کیفیت محصول را همراه نام محصول، شمارهٔ سری‌ساخت، توضیح مشکل و فایل‌های مرتبط برای بررسی و پیگیری کارخانه ثبت کنید."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/quality-report/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/quality-report/",
+    "en": "http://127.0.0.1:3100/en/quality-report/",
+    "tr": "http://127.0.0.1:3100/tr/quality-report/",
+    "ar": "http://127.0.0.1:3100/ar/quality-report/",
+    "ru": "http://127.0.0.1:3100/ru/quality-report/",
+    "x-default": "http://127.0.0.1:3100/fa/quality-report/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 52
+}

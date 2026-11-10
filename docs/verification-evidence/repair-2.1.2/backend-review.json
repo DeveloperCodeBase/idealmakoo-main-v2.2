@@ -1,0 +1,55 @@
+{
+  "completedAt": "2026-10-23T09:59:46.216833+00:00",
+  "mode": "read-only-follow-up",
+  "sourceModified": false,
+  "materialContradictionsFound": [],
+  "additionalProvenanceDefectsFound": [],
+  "documentationScope": [
+    "Installer environment selection and CLI precedence; bootstrap keys and public origin normalization",
+    "Customer-only public registration; role creation/edit boundaries; managed password and MFA recovery permissions",
+    "Staff roster modes, immutable provisioning binding, explicit grant/password/reactivation actions",
+    "Encrypted backup/download flags, same-host checkpoint and fresh-host erasure ledger/security policy"
+  ],
+  "actorReview": {
+    "filesParsed": 97,
+    "roots": [
+      "src/server",
+      "src/app/api"
+    ],
+    "checks": [
+      "Actor-shaped object construction and identity changes",
+      "JSON/structuredClone/Object conversion of actor/session inputs",
+      "Stored worker/prior-reviewer/subject identities versus bound HTTP principals"
+    ],
+    "observations": [
+      "HTTP actor provenance remains on enumerable symbol properties through object spread and is excluded by JSON serialization.",
+      "Campaign frozenSender uses an independently loaded stored sender with the same revision sender ID, not the triggering HTTP principal.",
+      "Pure policy projections omit session provenance but are not passed as authenticated actors to database mutations.",
+      "Serializer matches were cursor claims, CRM value redaction and workspace data snapshots, not reconstruction of HTTP mutation principals."
+    ]
+  },
+  "clusterHandoff": {
+    "helper": "/workspace/scratch/6682bce41bc7/acceptance/backend/owned-postgres-control.py",
+    "actionsExecuted": [
+      "read-only-status"
+    ],
+    "lifecycleActionsExecuted": [],
+    "stopPrerequisite": "Parent stops all native app/worker/audit clients, then helper verifies no other DB client connection and exact owned process identity.",
+    "restart": "Helper starts only existing owned data directory; no schema/role/data reset or seed."
+  },
+  "scopeLimit": "Static review is supplementary evidence, not a proof that all possible application defects are absent. Full database and API test evidence is recorded separately.",
+  "sha256": {
+    "docs/START-HERE.fa.md": "872caa7bad90fa9f8b39eb2d4d354948c110f26d541404d2d83b5a16068c2b0a",
+    "docs/USER-MANAGEMENT.fa.md": "efce0f8ae0bb2bd846a9869c986643c822d40f5113bb7f916a998e285991b778",
+    "docs/STAFF-ENV.fa.md": "d7297c8285126617c5d8a5fa0bef150109fbdd9904dc50fef813de2013bfc6b7",
+    "docs/BACKUP-RESTORE.fa.md": "614402fe6576f44013003bb3f6a95db2be232e1fd3061d0778f9a0084632f1bb",
+    "src/server/types.ts": "7e93f8abbc499903b28f69d11df6e64a52a6a4e0b56e89f5963983f2e9cb9483",
+    "src/server/auth.ts": "472a4a47a6e720ca71a86489f81ef07bbde3e1542d44df58293e1f9d5f5b4a7b",
+    "src/server/workspace-scopes.ts": "12b3799df212f0d1bde61c4b152af5c3d52100e2f38536dd93e1fd06cae68da1",
+    "src/server/account.ts": "a962df0081b7914dd240a14013fb51fc8b6eaf3c3386c8494d431937cf61d389",
+    "src/server/wishlists.ts": "344f9426049cc96e3670b3a3059bf55222b29605b219cb369bb1ccc6fb894042",
+    "src/server/partner-directory.ts": "00a0053be9d599eb904ee6043c21a0f2500b2005b744e310929a7ef475a1057d",
+    "src/server/privacy.ts": "ca6168a1e5cb34f184cff481433d428ded3275827d6244232c2a4623b35e1182"
+  },
+  "originalReceiptSha256": "dc843471714092fade89f6461fb45e772b2f46061384d734397733886ad333b0"
+}

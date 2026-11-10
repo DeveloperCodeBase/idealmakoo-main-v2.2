@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/contact/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "d2fa3bb9095bb74fc804d1b07c10364e6397ec0c666d4232ae520a1de95f3d79",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "اتصل بإيدآل ماكو | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "مكتب طهران: ساحة ولي عصر، بداية الجانب الجنوبي من شارع كشاورز، رقم 22، الطابق الخامس."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/contact/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/contact/",
+    "en": "http://127.0.0.1:3100/en/contact/",
+    "tr": "http://127.0.0.1:3100/tr/contact/",
+    "ar": "http://127.0.0.1:3100/ar/contact/",
+    "ru": "http://127.0.0.1:3100/ru/contact/",
+    "x-default": "http://127.0.0.1:3100/fa/contact/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 87
+}

@@ -1,0 +1,71 @@
+{
+  "url": "http://127.0.0.1:3100/ru/products/ideal-line/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "ba8e958274600cdcddcbaf5129aa06d30973ad81b59bc8a67a254fb5f55eb2f4",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Искусственные зубы Ideal Line | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Ideal Line — нанокомпозитные зубы с пятью слоями и шестью циклами полимеризации по официальному описанию."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/products/ideal-line/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/ideal-line/",
+    "en": "http://127.0.0.1:3100/en/products/ideal-line/",
+    "tr": "http://127.0.0.1:3100/tr/products/ideal-line/",
+    "ar": "http://127.0.0.1:3100/ar/products/ideal-line/",
+    "ru": "http://127.0.0.1:3100/ru/products/ideal-line/",
+    "x-default": "http://127.0.0.1:3100/fa/products/ideal-line/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Искусственные зубы Ideal Line",
+      "description": "Ideal Line — нанокомпозитные зубы с пятью слоями и шестью циклами полимеризации по официальному описанию.",
+      "image": "http://127.0.0.1:3100/media/official/1726476868.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "IDEAL LINE"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/ru/products/ideal-line/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 63
+}

@@ -1,0 +1,30 @@
+{
+  "operationStatus": {
+    "name": "drill",
+    "startedAt": "2026-10-25T14:43:55.568679+00:00",
+    "completed": true,
+    "completedAt": "2026-10-25T14:50:23.780829+00:00",
+    "elapsedSeconds": 388.217,
+    "exitCode": 0
+  },
+  "originalUnmodifiedRestoreScript": true,
+  "mode": "isolated drill",
+  "sourceBackupSha256": "49950812b6d13c32644b0ded627259d96a542fb6168d7d76df40144f26c54113",
+  "proof": {
+    "authenticatedDatabaseRowsSchemaMigrationsSequencesMatch": true,
+    "exactStorageBytesVerified": true,
+    "isolatedDatabaseUsedAndCleaned": true,
+    "runtimeRoleReadableRelations": 186,
+    "runtimeRoleDeniedOperations": 5,
+    "currentAccessReconciled": true,
+    "restoredHistoricalSessionsRevoked": 5,
+    "independentPrivacyReplayReady": true,
+    "originalScriptReportsLiveApplicationDataUnchanged": true
+  },
+  "liveRestoreActivationClaimedByThisReceipt": false,
+  "originalPrivateLogDigest": {
+    "bytes": 2485,
+    "sha256": "4701d27b57547c17930c1738e079ba6b1c94be692e35368392b7ccd93bc152a7"
+  },
+  "keysCookiesSessionIdsAndPrivatePathsExported": false
+}

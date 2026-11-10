@@ -1,0 +1,27 @@
+{
+  "format": "topology-bound-phase-safe-derivative-v2",
+  "phase": "clean-repeat-deliveries-prepare",
+  "kind": "fixtures",
+  "startedAt": "2026-10-25T22:38:24.590510+00:00",
+  "finishedAt": "2026-10-25T22:38:28.619462+00:00",
+  "durationSeconds": 4.029,
+  "topologySha256": "d0c85e36be10862b020361b4179ad2add3a02848966239cb01fd7b6a92837bf4",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "commandLaunchAttempted": true,
+  "commandStarted": true,
+  "coreConfigurationHashAloneBindsProxy": false,
+  "actualCommandExitCode": 0,
+  "validationPassed": true,
+  "validationErrorCode": null,
+  "validationIsSeparateFromLighthouseOutcome": true,
+  "receivedOrForwardedSignals": [],
+  "wrapperForcedKillAfterSixtySeconds": false,
+  "originalPrivateReceiptSha256": "cc21aff3a33c4ac87a4ea25345810aaa1bf569ea60d44c4ff5d832f1fcb6cfa3",
+  "coreArtifacts": [
+    {
+      "directoryLabel": "idealmakoo-214-clean-repeat-ar-crm-deliveries",
+      "files": {}
+    }
+  ],
+  "privateCommandsLogsProcessIdentifiersOmitted": true
+}

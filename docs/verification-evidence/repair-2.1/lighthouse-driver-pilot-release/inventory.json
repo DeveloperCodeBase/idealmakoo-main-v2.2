@@ -1,0 +1,20 @@
+{
+  "jobs": [
+    {
+      "url": "http://127.0.0.1:3090/en/contact/",
+      "kind": "representative-public",
+      "indexed": true,
+      "expectedStatus": 200,
+      "device": "mobile"
+    },
+    {
+      "url": "http://127.0.0.1:3090/fa/",
+      "kind": "representative-public",
+      "indexed": true,
+      "expectedStatus": 200,
+      "device": "mobile"
+    }
+  ],
+  "excluded": [],
+  "sourceUrls": 2
+}

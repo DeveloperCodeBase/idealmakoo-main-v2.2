@@ -1,0 +1,19 @@
+{
+  "phase": "typecheck",
+  "command": [
+    "npm",
+    "run",
+    "typecheck"
+  ],
+  "startedAt": "2026-10-25T18:54:04.047106+00:00",
+  "completed": true,
+  "interrupted": false,
+  "completedAt": "2026-10-25T18:54:16.382483+00:00",
+  "exitCode": 0,
+  "elapsedSeconds": 12.335,
+  "logBytes": 154,
+  "logSha256": "f33a52571047e95bcdb67838e5c55b326c5aa0e8798062c5e0e22ea9a7f3ff2c",
+  "observedBuildIdAfterCommand": "i_L9unDIa8NEwrdKG7t07",
+  "sourceReceiptSha256": "6a57c70b1a5f45c48cccdb5a61b7a30ae813ca691131a75837ec476ab2be24e9",
+  "scope": "Actual command result for the named focus/opener phase; observedBuildIdAfterCommand identifies compiled output present after the command and does not by itself bind TypeScript/unit input source."
+}

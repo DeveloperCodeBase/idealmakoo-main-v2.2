@@ -1,0 +1,74 @@
+{
+  "schema": "idealmakoo.frontend-browser-evidence-index.v1",
+  "applicationVersion": "2.1.4",
+  "recordedAt": "2026-10-25T19:06:03.322936+00:00",
+  "finalBuildId": "ir2DFJg8r5YdpbVQubUqF",
+  "finalInputFingerprint": "4fcec50f5846b0affccc59e43798613ba134a3f93559ea5ddba9705e1f38cc58",
+  "finalAcceptance": {
+    "fullUniqueScenarios": 69,
+    "fullPassed": 69,
+    "focusedOverlappingScenarios": 4,
+    "focusedPassed": 4,
+    "failed": 0,
+    "flaky": 0,
+    "skipped": 0,
+    "retries": 0,
+    "workers": 1,
+    "actualFullCommandExitCode": 0,
+    "actualFocusedCommandExitCode": 0
+  },
+  "closedHistoricalPhases": [
+    "NWc controlled initial-layout before measurements",
+    "IUO4 controlled layout after measurements and focused 4 pass",
+    "IUO4 full 68: 67 pass / 1 input failure; natural input diagnostic and controlled focus-theft failure",
+    "i_L9 focused 4: 3 pass / 1 asynchronous-opener restoration failure; independent no-save comparison"
+  ],
+  "historicalMetricsNotRelabeledAsFinal": true,
+  "fullSuiteUsesFreshFunctionalFixture": true,
+  "finalAuditEnvironmentActivated": false,
+  "allOwnedWebWorkerServicesNormallyStopped": true,
+  "postgresStopped": false,
+  "files": [
+    {
+      "file": "browser-focused-layout.safe.json",
+      "sha256": "b03fe0995d227a54ea2f9ae10fba0b70b87bee87a8bd4222255bdfd86c47e4ec",
+      "bytes": 1393
+    },
+    {
+      "file": "browser-full-before-focus.safe.json",
+      "sha256": "4c6fcfd62b6642dcb26bddcb2e3d84ed9ea9464f8e04e7ee723a5b508881dc6d",
+      "bytes": 1424
+    },
+    {
+      "file": "controlled-layout.safe.json",
+      "sha256": "492a00b238e16597c24b2f39df9df16fc194ffb196ee901b4eab908dafa421a0",
+      "bytes": 5992
+    },
+    {
+      "file": "dialog-focus-before.safe.json",
+      "sha256": "fbe881687942694599e69df86709cd98a90cb5173b484ba2cfb62c658cebc94b",
+      "bytes": 3301
+    },
+    {
+      "file": "focused-final.safe.json",
+      "sha256": "06a4f64c62e0c9a1bbcff9caf0880bbe3e8fa476dc87fdb896563e5e24ca4953",
+      "bytes": 2415
+    },
+    {
+      "file": "full-final.safe.json",
+      "sha256": "9762d1b0d29b602fff1f03d3a1a4f8e480420df3f0775ef58a0e961466d077bc",
+      "bytes": 2001
+    },
+    {
+      "file": "modal-opener-before.safe.json",
+      "sha256": "8c8c304ef5f82e472be1b9b22bc97672d73908cb25f56752f4c9dbe2e4a7eb54",
+      "bytes": 2314
+    },
+    {
+      "file": "runtime-final.safe.json",
+      "sha256": "07bfe27f069d963257c511327018b0e73deae16718d207d5cb358e4fe47eb921",
+      "bytes": 2832
+    }
+  ],
+  "privateScreenshotsTracesCookiesRawDomOrReportsIncluded": false
+}

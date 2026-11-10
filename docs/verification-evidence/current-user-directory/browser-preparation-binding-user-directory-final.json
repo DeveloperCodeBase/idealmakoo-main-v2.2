@@ -1,0 +1,147 @@
+{
+  "format": "idealmakoo.browser-execution-binding",
+  "version": 3,
+  "gateLabel": "user-directory-final",
+  "freshHost": true,
+  "priorHostPrivateStateReused": false,
+  "origin": {
+    "path": "/tmp/idealmakoo-production-repair-20261020/evidence/native-environments-user-directory-final.json",
+    "sha256": "0607d427de9021ff4ef962eff65a76e87d1d00c93a273bac0e95fa547f0f0138"
+  },
+  "recordedAt": "2026-10-21T06:00:47.429Z",
+  "applicationSha256": "1a7fd8f6293196e45e78a52aa765b0c4039f512fdb26cbbd5724367288ac5388",
+  "buildId": "bK2Eb-_hVW6EM3B-gfBNN",
+  "preparation": {
+    "path": "/tmp/idealmakoo-production-repair-20261020/evidence/repair-acceptance-user-directory-final-preparation.json",
+    "sha256": "eb524e1e44f5d3a5b95e11faa0bede0ffbb1112d5e056bbf185aba9d50034f53"
+  },
+  "checks": {
+    "preparationDatabaseEqualsRuntimeDatabase": true,
+    "testDatabaseEqualsRuntimeDatabase": true,
+    "explicitDisposableAuthBudgetOptIn": true,
+    "independentDatabaseStorageAndPrivacyLedger": true,
+    "applicationRateLimitsChanged": false
+  },
+  "beforeRunCounts": {
+    "users": 4,
+    "owners": 1,
+    "requests": 0,
+    "migrations": 41,
+    "source_pages": 120
+  },
+  "countsObservedAt": "2026-10-21T06:00:47.379Z",
+  "observedProcesses": [
+    {
+      "pid": 11415,
+      "kind": "web-supervisor",
+      "databaseAndStorageMatch": true,
+      "ownerCredentialsAbsent": true,
+      "processStartTicks": "357094",
+      "bootId": "3ab77156-0a38-40f2-9fa8-b4363b54202e"
+    },
+    {
+      "pid": 11427,
+      "kind": "standalone",
+      "databaseAndStorageMatch": true,
+      "ownerCredentialsAbsent": true,
+      "processStartTicks": "357112",
+      "bootId": "3ab77156-0a38-40f2-9fa8-b4363b54202e"
+    },
+    {
+      "pid": 11452,
+      "kind": "worker",
+      "databaseAndStorageMatch": true,
+      "ownerCredentialsAbsent": true,
+      "processStartTicks": "357575",
+      "bootId": "3ab77156-0a38-40f2-9fa8-b4363b54202e"
+    }
+  ],
+  "health": {
+    "httpStatus": 200,
+    "body": {
+      "status": "ok",
+      "database": "ok",
+      "privacy": "ready",
+      "timestamp": "2026-10-21T06:00:47.419Z",
+      "version": "2.1.0",
+      "applicationVersion": "2.1.0"
+    }
+  },
+  "existingRuntimeComparisons": [
+    {
+      "path": "/tmp/idealmakoo-pg-runtime/acceptance.env",
+      "sha256": "2e1b8b47e269218b9e3649a21b89c179eff0ff3af2c3eb69447089c0942408a9"
+    },
+    {
+      "path": "/tmp/idealmakoo-pg-runtime/runtime.env",
+      "sha256": "ab8aa87e5fab95a3b0566f460346424f006a48fd9e55a369f5f898a1881f1899"
+    }
+  ],
+  "migrationChecksumsExact": true,
+  "runtimeSource": {
+    "algorithm": "sha256",
+    "scope": "runtime-v1",
+    "sha256": "b70c7d3e2f8698f4481b52a446dcfa3e682a80827f0e60465c5f809b3936a671",
+    "fileCount": 780,
+    "byteCount": 49115125,
+    "entrypoints": []
+  },
+  "sourcePreparationTransition": {
+    "path": "/tmp/idealmakoo-production-repair-20261020/evidence/shellcheck-ubuntu-compatibility-transition.json",
+    "sha256": "ffd1a5353f08d5e188371c599636cb4a8194aa3f1b27994eb3cabae750702b9d",
+    "preparedRuntime": {
+      "algorithm": "sha256",
+      "scope": "runtime-v1",
+      "sha256": "6587dcce45884cac27275e42f6044fe4634e04b193829bd23260dcf76a5cdc4d",
+      "fileCount": 780,
+      "byteCount": 49114999,
+      "entrypoints": []
+    },
+    "builtRuntime": {
+      "algorithm": "sha256",
+      "scope": "runtime-v1",
+      "sha256": "b70c7d3e2f8698f4481b52a446dcfa3e682a80827f0e60465c5f809b3936a671",
+      "fileCount": 780,
+      "byteCount": 49115125,
+      "entrypoints": []
+    },
+    "changedEntries": [
+      {
+        "file": "scripts/install-ubuntu.sh",
+        "before": {
+          "path": "/tmp/idealmakoo-production-repair-20261020/source-drafts/shellcheck-ubuntu-compatibility/before/scripts/install-ubuntu.sh",
+          "bytes": 25141,
+          "sha256": "530d9a5a294ed6df520ed7da2d2738064fbc9e6d3e486d11154320f98ef25d5e"
+        },
+        "after": {
+          "bytes": 25260,
+          "sha256": "4e58b209b06e19c8cd646b22e56935645be94e2a685c4ace7d15808fdb8b8228"
+        },
+        "executable": 73,
+        "exactCommentAnnotationVerified": true
+      },
+      {
+        "file": "scripts/update.sh",
+        "before": {
+          "path": "/tmp/idealmakoo-production-repair-20261020/source-drafts/shellcheck-ubuntu-compatibility/before/scripts/update.sh",
+          "bytes": 4108,
+          "sha256": "6c44b3b244c30af5f58e0866482a64ac76e1a650faf8141c092b241354ba42f7"
+        },
+        "after": {
+          "bytes": 4115,
+          "sha256": "786c623560400ecff9b7ffe167f5526429a898e9d0cb736cbd8c38ad7839b3a3"
+        },
+        "executable": 73,
+        "exactCommentAnnotationVerified": true
+      }
+    ],
+    "method": "Complete canonical runtime-v1 enumeration with only the two before-byte overrides; both full fingerprints verified.",
+    "preparationEvidencePreserved": true,
+    "databaseReprepared": false,
+    "applicationUnchanged": true,
+    "migrationChecksumsVerifiedBelow": true
+  },
+  "bindingHelperSha256": "16d874aef132b03ae4043a7c46e534290770bdfc93a2ed2505eeed0cf5983301",
+  "gateHelperSha256": "d50e39400cd12e3061cfd513bc9dd748068f0a6eede09bbb78f8d1d03036b2d4",
+  "authBudgetScope": "Only exact disposable local login-IP and MFA-IP buckets in the existing global setup; no per-email, registration, or business quotas are reset."
+}

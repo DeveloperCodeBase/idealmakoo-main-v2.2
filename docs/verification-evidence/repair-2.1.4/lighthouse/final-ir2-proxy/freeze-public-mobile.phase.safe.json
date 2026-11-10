@@ -1,0 +1,74 @@
+{
+  "format": "topology-bound-phase-safe-derivative-v1",
+  "phase": "freeze-public-mobile",
+  "kind": "inventory",
+  "startedAt": "2026-10-25T19:58:59.686104+00:00",
+  "finishedAt": "2026-10-25T19:59:00.679441+00:00",
+  "durationSeconds": 0.993,
+  "topologySha256": "da2b88aba7a748b934b4e7e6af1d8117b5a63ee7a5f018df71b5d142814e11a0",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "commandLaunchAttempted": true,
+  "commandStarted": true,
+  "coreConfigurationHashAloneBindsProxy": false,
+  "actualCommandExitCode": 0,
+  "validationPassed": true,
+  "validationErrorCode": null,
+  "validationIsSeparateFromLighthouseOutcome": true,
+  "receivedOrForwardedSignals": [],
+  "wrapperForcedKillAfterSixtySeconds": false,
+  "interruptedPageCleanup": "Not inferred by this wrapper; retain the original auditor's evidence.",
+  "originalPrivateReceiptSha256": "c61750fc68a1544943c6f8981c222eed9cd2d81282356da77f3f61eb041aea55",
+  "beforeVerificationPresent": true,
+  "afterVerificationPresent": true,
+  "coreArtifacts": [
+    {
+      "directoryLabel": "lighthouse214-final-ir2-public-mobile",
+      "files": {
+        "manifest.json": {
+          "sha256": "5994bb68af9e053dc81e3dc3f2c57b16bf289785ae91661e58cdcf7c43a1739f",
+          "bytes": 2315
+        },
+        "inventory.json": {
+          "sha256": "786c88164275a012f5606d0adf53d1110b8f75e89bbb8ba610b2166ed05e290a",
+          "bytes": 146957
+        },
+        "summary.json": {
+          "sha256": "1fb073255c45a7f9fcd886e2ce7952ad86831ee915d7ce9644863c0c446963ed",
+          "bytes": 299
+        }
+      },
+      "coreConfigurationHash": "d7748ca968b935f795b0eea3fc7edaaa8cb9afc8cd047a8bbcc483a3126024de",
+      "counts": {
+        "expected": 620,
+        "attempted": 0,
+        "completed": 0,
+        "expectedHttpResponses": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "pending": 620,
+        "coverageComplete": false
+      }
+    }
+  ],
+  "retainedPrivateArtifactHashes": {
+    "stdout.log": {
+      "sha256": "14561a65a5971a86c3ae14373129aafd56bfaea6d4ad2ef530aae235b9175008",
+      "bytes": 444
+    },
+    "stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "command.json": {
+      "sha256": "d6c67b680239ad582fa12737988a7479f9da9b6f81af3422fa85ce8b1827ae60",
+      "bytes": 675
+    },
+    "launch.json": {
+      "sha256": "80c6e2bd8554b2f6bdf4131149166fa0266b48414cc6cfa7c44fec4ddc2fbf22",
+      "bytes": 163
+    }
+  },
+  "omissions": [
+    "raw process IDs/arguments/environment/logs and full proc observations"
+  ]
+}

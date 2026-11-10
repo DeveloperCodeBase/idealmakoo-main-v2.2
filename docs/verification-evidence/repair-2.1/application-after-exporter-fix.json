@@ -1,0 +1,11 @@
+{
+  "buildId": "-Q7Ffy3JmwVExwxk-Ymk-",
+  "applicationHash": "12da2b69abf2fa85cf0655bc0b4ec7df9244ea0b50a29cc8c3be1157851b6e1c",
+  "verifiedApplicationFiles": 678,
+  "changedApplicationFiles": [],
+  "scope": "After correction limited to the offline private Lighthouse evidence exporter and its unit regression; no application rebuild claimed.",
+  "changedOfflineFiles": {
+    "scripts/export-private-lighthouse-evidence.mjs": "c79e18a46b9ce7d1a73b09517d08c03297ecc8807f22883516411de17c1d9dfc",
+    "tests/private-lighthouse-export.test.mjs": "304146b4ad97148436d47027476114d895eb81ceebda1d38791f6ca3a92bbdd8"
+  }
+}

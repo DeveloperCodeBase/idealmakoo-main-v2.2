@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/segmentation/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "928dd73e46cb83c00334a32ffd1f421aa792c103fcbb0660297dfdaa250d3cb2",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Аудитории и сегменты рынка | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Зуботехнические лаборатории, клиники, больницы, университеты и сеть дистрибуции стоматологических продуктов."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/segmentation/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/segmentation/",
+    "en": "http://127.0.0.1:3100/en/segmentation/",
+    "tr": "http://127.0.0.1:3100/tr/segmentation/",
+    "ar": "http://127.0.0.1:3100/ar/segmentation/",
+    "ru": "http://127.0.0.1:3100/ru/segmentation/",
+    "x-default": "http://127.0.0.1:3100/fa/segmentation/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 44
+}

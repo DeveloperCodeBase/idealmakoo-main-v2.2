@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/install/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "e75ce91f35ec7649eff7b46bb5188effb65b7144e3ab0ae71091ca43af6b3acc",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "تثبيت التطبيق | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "ثبّت تطبيق إيدآل ماكو عبر متصفح متوافق للوصول بسهولة إلى المنتجات والمصادر وخدمات الموقع."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/install/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/install/",
+    "en": "http://127.0.0.1:3100/en/install/",
+    "tr": "http://127.0.0.1:3100/tr/install/",
+    "ar": "http://127.0.0.1:3100/ar/install/",
+    "ru": "http://127.0.0.1:3100/ru/install/",
+    "x-default": "http://127.0.0.1:3100/fa/install/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 70
+}

@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/pricing-policy/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "26f7e9f567c326b88f68f1bf1338f3244ef77212e6533e5c7324dbaaa70d87f4",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Commercial policy and product value | Ideal Makoo"
+  ],
+  "descriptions": [
+    "The company’s historical account of product variety and technical value for different customer groups."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/pricing-policy/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/pricing-policy/",
+    "en": "http://127.0.0.1:3100/en/pricing-policy/",
+    "tr": "http://127.0.0.1:3100/tr/pricing-policy/",
+    "ar": "http://127.0.0.1:3100/ar/pricing-policy/",
+    "ru": "http://127.0.0.1:3100/ru/pricing-policy/",
+    "x-default": "http://127.0.0.1:3100/fa/pricing-policy/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 50
+}

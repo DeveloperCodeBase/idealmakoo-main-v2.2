@@ -1,0 +1,24 @@
+{
+  "kind": "frozen-candidate02-tested-source-release",
+  "frozenAt": "2026-10-25T07:59:26.104767+00:00",
+  "archive": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/candidate-02/idealmakoo-production-2.1.3.zip",
+  "archiveSha256": "05f9fada3a33e7df149012e0eeae0824e9fb3dda93b4387a70278626dd767578",
+  "archiveBytes": 69150185,
+  "archiveEntries": 3537,
+  "manifestFiles": 3535,
+  "manifestSha256": "35ccdd6c16739c94d62f94f54446a461073296403103a0214b2e0dbadff5998b",
+  "buildId": "JUTCtkNIJ8CT540y_qNL_",
+  "canonicalSourceInputSha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+  "all994ValidatedInputFilesMatchArchive": true,
+  "officialPackagerReopenedAndVerifiedEveryEntry": true,
+  "credentialFindings": 0,
+  "packagerOuterSession": 51154,
+  "packagerActualExitCode": 0,
+  "packagerWaitConsumed": true,
+  "pending": [
+    "original updater on retained recovered Ubuntu",
+    "1223-state final Lighthouse scoring"
+  ],
+  "freeBytesAfterFreeze": 12992835584,
+  "preBootFloorBytes": 12884901888
+}

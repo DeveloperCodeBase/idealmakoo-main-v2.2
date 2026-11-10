@@ -1,0 +1,17 @@
+{
+  "format": "bounded-explicit-role-guard-independent-review-v1",
+  "status": "closed-no-material-blocker",
+  "guardSha256": "22690e970b374366047bddd78deada4201492f479843d2e2ea74b8a3bdf30512",
+  "testSourceSha256": "9679b176c6db0e6299500239a309f3e909f463acdf9ba0a1ca7f4ac0ac9a1701",
+  "originalGuardSha256": "529320485df3347acfed3fffa77a558199240654083746c975a4ea0c96f6e76f",
+  "reviewer": "independent backend/security agent; root reviewed same diff",
+  "reviewScope": [
+    "Seal and full/lightweight verify always pass validated explicit process roles.",
+    "Direct and same-UID observations preserve role.",
+    "Next exact loopback listener, worker no listener, unchanged Caddy/env/identity checks.",
+    "Unknown production roles fail closed; None remains generic low-level observation only."
+  ],
+  "actualFocusedAndRegressionTests": 25,
+  "actualTestExitCode": 0,
+  "independentRuntimeOrTestRerun": false
+}

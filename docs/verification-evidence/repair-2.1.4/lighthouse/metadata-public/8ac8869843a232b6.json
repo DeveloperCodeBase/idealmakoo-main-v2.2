@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/press-kit/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "6a06c34aaa5538ba030fc9ed89aa14ef149f7c289bfd9701b7335ca1176bd4c1",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "معلومات المصنع لوسائل الإعلام. | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "تظهر هنا ملفات تعريف المصنع والملفات الإعلامية المعتمدة بعد نشرها."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/press-kit/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/press-kit/",
+    "en": "http://127.0.0.1:3100/en/press-kit/",
+    "tr": "http://127.0.0.1:3100/tr/press-kit/",
+    "ar": "http://127.0.0.1:3100/ar/press-kit/",
+    "ru": "http://127.0.0.1:3100/ru/press-kit/",
+    "x-default": "http://127.0.0.1:3100/fa/press-kit/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 59
+}

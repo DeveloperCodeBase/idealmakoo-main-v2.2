@@ -1,0 +1,12 @@
+{
+  "recordedAt": "2026-10-21T16:27:44.015Z",
+  "archive": "idealmakoo-production-2.1.0-checkpoint-20261021T1528Z.zip",
+  "archiveSha256": "f74423b3f1fd1e3961718d010575cf2e80805d4e7eac221dbd22f46fde0b49db",
+  "filesScanned": 1277,
+  "bytesScanned": 62980774,
+  "privateEnvironmentFilesChecked": 13,
+  "privateMarkerFilesChecked": 1,
+  "privateValuesChecked": 325,
+  "findings": [],
+  "note": "Checks exact nonempty private credentials used in the local repair environments, including archived browser acceptance environments and any explicitly supplied VM/environment or private marker inputs. Values and private input paths are not exported. Complements the release allowlist and pattern scan; it is not a proof that no unknown credential exists."
+}

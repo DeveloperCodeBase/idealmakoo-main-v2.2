@@ -1,0 +1,51 @@
+{
+  "operationStatus": {
+    "name": "av-primary",
+    "startedAt": "2026-10-25T14:18:32.239383+00:00",
+    "completed": true,
+    "completedAt": "2026-10-25T14:19:04.664507+00:00",
+    "elapsedSeconds": 32.431,
+    "exitCode": 0
+  },
+  "proof": {
+    "operation": "setup",
+    "mode": "primary",
+    "startedAt": "2026-10-25T14:18:34.133163+00:00",
+    "transport": "real Caddy HTTP -> application -> worker -> local ClamAV",
+    "externalProviderActionsRequested": false,
+    "initialScanStatuses": [
+      "pending",
+      "pending"
+    ],
+    "finalScanStatuses": [
+      "clean",
+      "blocked"
+    ],
+    "authorizedBenignDownloadStatus": 200,
+    "benignDownloadedChecksumMatches": true,
+    "eicarQuarantineStatus": 409,
+    "anonymousPrivateDownloadStatuses": [
+      404,
+      404
+    ],
+    "workerDeliveryReceipts": {
+      "provider": "clamav",
+      "completedWorkerJobs": 2,
+      "jobStates": [
+        "delivered",
+        "delivered"
+      ],
+      "scanStatuses": [
+        "blocked",
+        "clean"
+      ],
+      "allJobsHaveRecordedAttempts": true
+    },
+    "seedCountsRecordedBeforeFixture": true,
+    "ownedFixtureRetainedPrivatelyForRestore": true,
+    "status": "passed",
+    "completedAt": "2026-10-25T14:19:04.565425+00:00"
+  },
+  "testPayloads": "Owned harmless PDF and the standard harmless EICAR test inside valid OOXML; no real malware",
+  "rawCredentialsSessionsAssetAndRequestIdentifiersExported": false
+}

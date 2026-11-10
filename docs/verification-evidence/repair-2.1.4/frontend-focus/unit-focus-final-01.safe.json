@@ -1,0 +1,28 @@
+{
+  "phase": "unit",
+  "command": [
+    "npm",
+    "run",
+    "test:unit"
+  ],
+  "startedAt": "2026-10-25T18:34:24.926526+00:00",
+  "completed": true,
+  "interrupted": false,
+  "completedAt": "2026-10-25T18:34:57.391700+00:00",
+  "exitCode": 0,
+  "elapsedSeconds": 32.465,
+  "logBytes": 94829,
+  "logSha256": "eecbba049f587951cd6a2f7ab9a4f4ee019b4cb19e96953a74cd4ad6dfe96244",
+  "observedBuildIdAfterCommand": "IUO4lyoYpICGn_Igd7EsH",
+  "tapFooter": {
+    "tests": 858,
+    "suites": 0,
+    "pass": 858,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0
+  },
+  "sourceReceiptSha256": "3b35f894e5fab32f5d798923b38912228dfa995fa392a8178d2a85b7a2af5e8b",
+  "scope": "Actual command result for the named focus/opener phase; observedBuildIdAfterCommand identifies compiled output present after the command and does not by itself bind TypeScript/unit input source."
+}

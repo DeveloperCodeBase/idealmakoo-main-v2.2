@@ -1,0 +1,76 @@
+{
+  "format": "idealmakoo.private-pilot-completion",
+  "version": 1,
+  "recordedAt": "2026-10-21T10:49:32.712602+00:00",
+  "buildId": "-Q7Ffy3JmwVExwxk-Ymk-",
+  "scope": "Three mobile private pilot pages, two roles, two languages; not the full530 views or every CRUD/role-route combination.",
+  "startedAt": "2026-10-21T10:43:36.576208+00:00",
+  "finishedAt": "2026-10-21T10:44:27.888927+00:00",
+  "durationSeconds": 51.312719,
+  "exitCode": 0,
+  "counts": {
+    "expected": 3,
+    "attempted": 3,
+    "completed": 3,
+    "errors": 0,
+    "timeouts": 0,
+    "pending": 0
+  },
+  "graphicsMode": "webgl-software-fallback",
+  "servedBuildVerified": true,
+  "browserCleanup": {
+    "ownedChromePids": [],
+    "profileDirectoriesRemaining": 0,
+    "roleStatuses": [
+      {
+        "role": "customer",
+        "exit": {
+          "code": 0,
+          "signal": null
+        },
+        "timedOut": false,
+        "attempted": 1,
+        "expected": 1
+      },
+      {
+        "role": "superAdmin",
+        "exit": {
+          "code": 0,
+          "signal": null
+        },
+        "timedOut": false,
+        "attempted": 2,
+        "expected": 2
+      }
+    ]
+  },
+  "independentVerification": {
+    "pass": true,
+    "counts": {
+      "expected": 3,
+      "attempted": 3,
+      "completed": 3,
+      "errors": 0,
+      "timeouts": 0,
+      "pending": 0,
+      "attempts": 3,
+      "rawReports": 3,
+      "rawMissingReports": 0,
+      "rawInvalidReports": 0,
+      "auditOutcomes": 465,
+      "metricSavingsOutcomes": 54,
+      "auditErrorOutcomes": 0,
+      "rawRuntimeErrors": 0,
+      "runWarningCount": 0,
+      "auditWarningCount": 0
+    },
+    "proofSha256": "00f676f5257d920a7a504b89cf4f1be17186c24c4ace3ea90b9ff197fa9ce7b6"
+  },
+  "rawSupervisorStatusSha256": "d3e76fd1cbf10611fa4e2be5bdf5c823c5291d357642bfa194717078965373d7",
+  "safeExportDirectory": ".",
+  "offlineExporterRepair": "exporter-repair.json",
+  "scoringCaveat": "Local headless software WebGL and simulated mobile throttling; no assertion of field performance. Private noindex is required; its SEO penalty and missing-description audit are retained.",
+  "sourceSha256AtBuild": "7f3ce91bb62edb78824310083b185f1854fa0d98458b04dea167078a24c4155d",
+  "sourceManifestScope": "819 source, script and test inputs at build time; the later offline exporter-only change is separately recorded.",
+  "applicationIdentityProof": "../application-after-exporter-fix.json"
+}

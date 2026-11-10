@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "build_id": "i2FywRVMQcWLcBXtSt9h7",
+  "http_entrypoint": "caddy",
+  "status": "passed",
+  "completed": true,
+  "exit_code": 0,
+  "stats": {
+    "startTime": "2026-10-23T07:34:16.595Z",
+    "duration": 31721.496,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "case_count": 3,
+  "cases": [
+    {
+      "file": "hero-worker.spec.ts",
+      "title": "the real rendering worker presents frames and handles keyboard input while the page controls remain usable",
+      "status": "expected",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "duration_ms": 10287
+        }
+      ]
+    },
+    {
+      "file": "hero-worker.spec.ts",
+      "title": "failure after canvas transfer remounts a fresh accessible React canvas and restores the same scene on the main thread",
+      "status": "expected",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "duration_ms": 10083
+        }
+      ]
+    },
+    {
+      "file": "public-csp-images.spec.ts",
+      "title": "hydrated public pages and the hero rendering worker run under nonce CSP without eval violations",
+      "status": "expected",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "duration_ms": 10486
+        }
+      ]
+    }
+  ],
+  "raw_report_sha256": "20c6588d755b426a453346e0a7ce9ccbf272332ed5dbe379bdcf78d23685ff14",
+  "command_receipt_sha256": "fd135c581ade479e38fa5afd1a18ba8ee45fd99176b0e8b2e4e337e2d211c994",
+  "build_identity_sha256": "07f79ab27ca04961a00829ea976c832bacecc5898e54ee425981e2a3f4a22c3b",
+  "execution": {
+    "started_utc": "2026-10-23T07:34:15.976755+00:00",
+    "ended_utc": "2026-10-23T07:34:48.336191+00:00",
+    "duration_seconds": 32.359,
+    "log_bytes": 1239,
+    "log_sha256": "a9ae1383353ca5928b5c3d2766a70e28cbb03137499950eb1ca1f22ae2577340"
+  },
+  "followUpOf": {
+    "summary": "browser-e2e-03/summary.safe.json",
+    "sha256": "27f492a8c3c074d384f45240272620c654e34bcf4e86666b88039f8bec144a16",
+    "originalStatus": "failed",
+    "originalTests": 20,
+    "originalPassed": 17,
+    "originalFailed": 3,
+    "exactFailedFileTitlePairsMatched": true
+  },
+  "projection": {
+    "method": "Fixed prior-failure test titles and allowlisted status/attempt/timing fields only; no errors, DOM, IDs, trace, screenshot, request or environment data.",
+    "privateEnvironmentFilesRead": 0
+  },
+  "limitations": [
+    "This is the exact three-case follow-up on build03, not a fresh full20 or full56 browser run.",
+    "The failed browser03 run and its17 passes remain attributed to build02."
+  ],
+  "createdAt": "2026-10-23T07:36:01.206486+00:00"
+}

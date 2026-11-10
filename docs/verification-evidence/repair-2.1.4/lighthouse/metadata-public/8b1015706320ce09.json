@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/research/four-teeth-wear-rate/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "339e7c31bf7bfd4542075cc876502f3bd49b45cb8825b79f9a619538890caea6",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Dört protez diş türünün aşınma hızı karşılaştırması | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Aşınma hızı ve numunelerin kararlı durum davranışını inceleyen arşiv kaydı."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/research/four-teeth-wear-rate/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/four-teeth-wear-rate/",
+    "en": "http://127.0.0.1:3100/en/research/four-teeth-wear-rate/",
+    "tr": "http://127.0.0.1:3100/tr/research/four-teeth-wear-rate/",
+    "ar": "http://127.0.0.1:3100/ar/research/four-teeth-wear-rate/",
+    "ru": "http://127.0.0.1:3100/ru/research/four-teeth-wear-rate/",
+    "x-default": "http://127.0.0.1:3100/fa/research/four-teeth-wear-rate/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 41
+}

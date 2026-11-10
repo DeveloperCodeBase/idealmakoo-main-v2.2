@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "status": "static-negative-observation",
+  "recordedAt": "2026-10-22T07:23:28.690827+00:00",
+  "currentBuild": {
+    "publicBuildId": "UFNFFG64Vx2uruUMUuU9z",
+    "source": {
+      "sha256": "981c8a90b315e4ae01de066365c3a08ae287b9afaf9202460bcf2db01161898e",
+      "files": 832
+    },
+    "applicationSha256": "0045597565fe76bf449866d397a7eee2c5927a85cda40512044de2673f583807",
+    "applicationFiles": 685
+  },
+  "comparisonBuild": {
+    "source": {
+      "sha256": "bc24f5e9887d415823fcf5d93675ea4b4d710e678cf7da655d90d8306255f45f",
+      "files": 832
+    },
+    "applicationSha256": "f50a70c4215a6aacd99c1f1066406ad61de92a27d0d5f5ca56a96afb901fdfe7",
+    "applicationFiles": 685,
+    "publicBuildId": "Hq6UM9Wh-wOuUBgPttGv_",
+    "buildExitCode": 0
+  },
+  "method": "Read recorded current build manifests, emitted CSS bytes and inline CSS equality; no browser or request in this observation.",
+  "scope": {
+    "publicEntries": 3,
+    "authEntries": 1,
+    "adminEntries": 3
+  },
+  "emittedAccountCss": {
+    "bytes": 56780,
+    "sha256": "b0534a26b601d0381f66f46508a4e5346283e969fbb29f6fb827bd559ec5ff01"
+  },
+  "routes": [
+    {
+      "routePattern": "/[locale]/page",
+      "ownEntryIncludesAccountCss": true,
+      "allInspectedInlineCssMatchesEmittedBytes": true,
+      "ownCssPathsAndBytesEqualComparisonBuild": true,
+      "cssBytesDeltaAgainstComparisonBuild": 0
+    },
+    {
+      "routePattern": "/[locale]/contact/page",
+      "ownEntryIncludesAccountCss": true,
+      "allInspectedInlineCssMatchesEmittedBytes": true,
+      "ownCssPathsAndBytesEqualComparisonBuild": true,
+      "cssBytesDeltaAgainstComparisonBuild": 0
+    },
+    {
+      "routePattern": "/[locale]/manufacturing/page",
+      "ownEntryIncludesAccountCss": true,
+      "allInspectedInlineCssMatchesEmittedBytes": true,
+      "ownCssPathsAndBytesEqualComparisonBuild": true,
+      "cssBytesDeltaAgainstComparisonBuild": 0
+    },
+    {
+      "routePattern": "/[locale]/auth/[[...slug]]/page",
+      "ownEntryIncludesAccountCss": true,
+      "allInspectedInlineCssMatchesEmittedBytes": true,
+      "ownCssPathsAndBytesEqualComparisonBuild": true,
+      "cssBytesDeltaAgainstComparisonBuild": 0
+    },
+    {
+      "routePattern": "/[locale]/admin/page",
+      "ownEntryIncludesAccountCss": true,
+      "allInspectedInlineCssMatchesEmittedBytes": true
+    },
+    {
+      "routePattern": "/[locale]/admin/pages/page",
+      "ownEntryIncludesAccountCss": true,
+      "allInspectedInlineCssMatchesEmittedBytes": true
+    },
+    {
+      "routePattern": "/[locale]/admin/[...slug]/page",
+      "ownEntryIncludesAccountCss": true,
+      "allInspectedInlineCssMatchesEmittedBytes": true
+    }
+  ],
+  "workspaceFallbackAbsentFromApplicationMapping": true,
+  "conclusions": {
+    "publicAccountCssIsolationEstablished": false,
+    "threePublicOwnEntriesStillIncludeAccountCss": true,
+    "authOwnEntryRetainsAccountCss": true,
+    "allThreeAdminOwnEntriesRetainAccountCss": true,
+    "publicCssByteReductionAgainstAsset01": 0,
+    "authAccountCssSourceAndCurrentInlinePreserved": true,
+    "performanceOrAppearanceImprovementClaimed": false
+  },
+  "functionalBrowserValidationPerformed": false,
+  "newPerformanceScoreClaimed": false,
+  "limits": [
+    "CSS compiler dependency grouping is not diagnosed conclusively by these manifests.",
+    "A manifest dependency is not a measured browser paint delay or total HTML/network size.",
+    "Current auth/admin styling references are retained; actual direct/client navigation and rendering still require browser validation.",
+    "All earlier attempts and negative asset01 findings remain retained separately."
+  ]
+}

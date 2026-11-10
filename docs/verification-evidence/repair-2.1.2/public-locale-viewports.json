@@ -1,0 +1,353 @@
+{
+  "schemaVersion": 2,
+  "kind": "real-public-viewport-and-locale-observation",
+  "buildId": "OOhw3Eok1VmYVX1q38dyK",
+  "startedAt": "2026-10-23T10:19:52.776Z",
+  "finishedAt": "2026-10-23T10:21:40.623Z",
+  "passed": true,
+  "records": [
+    {
+      "locale": "fa",
+      "device": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "httpStatus": 200,
+      "lang": "fa",
+      "dir": "rtl",
+      "theme": "dark",
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "mainHeadings": 1,
+      "heroReady": true,
+      "canvasSize": [
+        390,
+        838
+      ],
+      "assistantLabel": "دستیار هوشمند",
+      "assistantDirection": "rtl",
+      "assistantHint": "دندان را بگیرید و رها کنید؛ دستیار هوشمند آرام به جایش برمی‌گرداند.",
+      "canvasDescription": "دندان را بگیرید، بالا ببرید و رها کنید. برای چرخش دید، فضای خالی را بکشید یا از دکمهٔ راست ماوس استفاده کنید. صفحه‌کلید: ۱ / ۲ انتخاب دندان؛ جهت بالا برای پرتاب؛ چپ / راست برای جابه‌جایی؛ Shift + جهت‌ها برای چرخش دید؛ R بازگشت آرام؛ Esc رهاکردن. گاهی موج دندان را کج می‌کند و دستیار هوشمند کمکش می‌کند؛ با گرفتن دندان، کنترل دوباره دست شماست.",
+      "localizedAssistance": true,
+      "horizontalOverflow": false,
+      "javaScriptErrors": [],
+      "httpErrors": [],
+      "observedScreenshot": {
+        "bytes": 255329,
+        "sha256": "a538d4ab072159bb6b36079458cb6987eea3f5e145ef9890cae473712b53238f",
+        "includedInSourcePackage": false
+      }
+    },
+    {
+      "locale": "fa",
+      "device": "desktop",
+      "viewport": {
+        "width": 1365,
+        "height": 900
+      },
+      "httpStatus": 200,
+      "lang": "fa",
+      "dir": "rtl",
+      "theme": "dark",
+      "viewportWidth": 1365,
+      "documentWidth": 1365,
+      "bodyWidth": 1365,
+      "mainHeadings": 1,
+      "heroReady": true,
+      "canvasSize": [
+        1365,
+        788
+      ],
+      "assistantLabel": "دستیار هوشمند",
+      "assistantDirection": "rtl",
+      "assistantHint": "دندان را بگیرید و رها کنید؛ دستیار هوشمند آرام به جایش برمی‌گرداند.",
+      "canvasDescription": "دندان را بگیرید، بالا ببرید و رها کنید. برای چرخش دید، فضای خالی را بکشید یا از دکمهٔ راست ماوس استفاده کنید. صفحه‌کلید: ۱ / ۲ انتخاب دندان؛ جهت بالا برای پرتاب؛ چپ / راست برای جابه‌جایی؛ Shift + جهت‌ها برای چرخش دید؛ R بازگشت آرام؛ Esc رهاکردن. گاهی موج دندان را کج می‌کند و دستیار هوشمند کمکش می‌کند؛ با گرفتن دندان، کنترل دوباره دست شماست.",
+      "localizedAssistance": true,
+      "horizontalOverflow": false,
+      "javaScriptErrors": [],
+      "httpErrors": [],
+      "observedScreenshot": {
+        "bytes": 716421,
+        "sha256": "2f27411c49e060c5ed67116d2721394e447dab9cacd9650ed2acfcfdd2ad2d67",
+        "includedInSourcePackage": false
+      }
+    },
+    {
+      "locale": "en",
+      "device": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "httpStatus": 200,
+      "lang": "en",
+      "dir": "ltr",
+      "theme": "dark",
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "mainHeadings": 1,
+      "heroReady": true,
+      "canvasSize": [
+        390,
+        845
+      ],
+      "assistantLabel": "AI assistant",
+      "assistantDirection": "ltr",
+      "assistantHint": "Drag a tooth and let go. The AI assistant gently brings it home.",
+      "canvasDescription": "Grab a tooth, lift and release. Drag empty space or use the right mouse button to orbit. Keyboard: 1 / 2 selects a tooth; Up lifts; Left / Right nudges; Shift + arrows orbits; R returns gently; Esc releases. An occasional wave tips a tooth and the AI assistant steadies it; grab the tooth to take over.",
+      "localizedAssistance": true,
+      "horizontalOverflow": false,
+      "javaScriptErrors": [],
+      "httpErrors": [],
+      "observedScreenshot": {
+        "bytes": 256362,
+        "sha256": "41a0e941428154999b0908fd4cf0ea526f527aeab37445d5bf7e91fbe52a0c54",
+        "includedInSourcePackage": false
+      }
+    },
+    {
+      "locale": "en",
+      "device": "desktop",
+      "viewport": {
+        "width": 1365,
+        "height": 900
+      },
+      "httpStatus": 200,
+      "lang": "en",
+      "dir": "ltr",
+      "theme": "dark",
+      "viewportWidth": 1365,
+      "documentWidth": 1365,
+      "bodyWidth": 1365,
+      "mainHeadings": 1,
+      "heroReady": true,
+      "canvasSize": [
+        1365,
+        788
+      ],
+      "assistantLabel": "AI assistant",
+      "assistantDirection": "ltr",
+      "assistantHint": "Drag a tooth and let go. The AI assistant gently brings it home.",
+      "canvasDescription": "Grab a tooth, lift and release. Drag empty space or use the right mouse button to orbit. Keyboard: 1 / 2 selects a tooth; Up lifts; Left / Right nudges; Shift + arrows orbits; R returns gently; Esc releases. An occasional wave tips a tooth and the AI assistant steadies it; grab the tooth to take over.",
+      "localizedAssistance": true,
+      "horizontalOverflow": false,
+      "javaScriptErrors": [],
+      "httpErrors": [],
+      "observedScreenshot": {
+        "bytes": 878698,
+        "sha256": "fc2b351d30b76a557a88db33d8399246175e238517bd2e66980fe2f1c945a011",
+        "includedInSourcePackage": false
+      }
+    },
+    {
+      "locale": "tr",
+      "device": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "httpStatus": 200,
+      "lang": "tr",
+      "dir": "ltr",
+      "theme": "dark",
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "mainHeadings": 1,
+      "heroReady": true,
+      "canvasSize": [
+        390,
+        820
+      ],
+      "assistantLabel": "Akıllı yardımcı",
+      "assistantDirection": "ltr",
+      "assistantHint": "Dişi sürükleyip bırakın. Akıllı yardımcı onu nazikçe yerine getirir.",
+      "canvasDescription": "Dişi tutun, kaldırın ve bırakın. Görüşü döndürmek için boş alanı sürükleyin veya sağ fare düğmesini kullanın. Klavye: 1 / 2 dişi seçer; Yukarı kaldırır; Sol / Sağ hareket ettirir; Shift + oklar görüşü döndürür; R nazikçe geri getirir; Esc bırakır. Ara sıra bir dalga dişi yatırır ve akıllı yardımcı onu düzeltir; kontrolü almak için dişi tutun.",
+      "localizedAssistance": true,
+      "horizontalOverflow": false,
+      "javaScriptErrors": [],
+      "httpErrors": [],
+      "observedScreenshot": {
+        "bytes": 240520,
+        "sha256": "7c4df01009c497f5dd7a0df8ca0480099d3b57f9b336da391e69a1be8d9da017",
+        "includedInSourcePackage": false
+      }
+    },
+    {
+      "locale": "tr",
+      "device": "desktop",
+      "viewport": {
+        "width": 1365,
+        "height": 900
+      },
+      "httpStatus": 200,
+      "lang": "tr",
+      "dir": "ltr",
+      "theme": "dark",
+      "viewportWidth": 1365,
+      "documentWidth": 1365,
+      "bodyWidth": 1365,
+      "mainHeadings": 1,
+      "heroReady": true,
+      "canvasSize": [
+        1365,
+        788
+      ],
+      "assistantLabel": "Akıllı yardımcı",
+      "assistantDirection": "ltr",
+      "assistantHint": "Dişi sürükleyip bırakın. Akıllı yardımcı onu nazikçe yerine getirir.",
+      "canvasDescription": "Dişi tutun, kaldırın ve bırakın. Görüşü döndürmek için boş alanı sürükleyin veya sağ fare düğmesini kullanın. Klavye: 1 / 2 dişi seçer; Yukarı kaldırır; Sol / Sağ hareket ettirir; Shift + oklar görüşü döndürür; R nazikçe geri getirir; Esc bırakır. Ara sıra bir dalga dişi yatırır ve akıllı yardımcı onu düzeltir; kontrolü almak için dişi tutun.",
+      "localizedAssistance": true,
+      "horizontalOverflow": false,
+      "javaScriptErrors": [],
+      "httpErrors": [],
+      "observedScreenshot": {
+        "bytes": 869880,
+        "sha256": "1a487ea2e08bc665a97cdc95dfb81639a613cb43ec5e5600f122266a54e06fde",
+        "includedInSourcePackage": false
+      }
+    },
+    {
+      "locale": "ar",
+      "device": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "httpStatus": 200,
+      "lang": "ar",
+      "dir": "rtl",
+      "theme": "dark",
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "mainHeadings": 1,
+      "heroReady": true,
+      "canvasSize": [
+        390,
+        838
+      ],
+      "assistantLabel": "المساعد الذكي",
+      "assistantDirection": "rtl",
+      "assistantHint": "اسحب السن وأفلته؛ يعيده المساعد الذكي برفق إلى مكانه.",
+      "canvasDescription": "أمسك السن وارفعه ثم أفلته. اسحب المساحة الفارغة أو استخدم زر الفأرة الأيمن لتدوير الرؤية. لوحة المفاتيح: 1 / 2 لاختيار السن؛ أعلى للرفع؛ يسار / يمين للتحريك؛ Shift + الأسهم لتدوير الرؤية؛ R للعودة برفق؛ Esc للإفلات. قد تميل السن مع موجة عابرة ويعيدها المساعد الذكي برفق؛ أمسكها لاستعادة التحكم.",
+      "localizedAssistance": true,
+      "horizontalOverflow": false,
+      "javaScriptErrors": [],
+      "httpErrors": [],
+      "observedScreenshot": {
+        "bytes": 256097,
+        "sha256": "88d4da4ef96348ef5e99bbc53d3e579bb91e5ea23df82ef7df1e612d8bc95065",
+        "includedInSourcePackage": false
+      }
+    },
+    {
+      "locale": "ar",
+      "device": "desktop",
+      "viewport": {
+        "width": 1365,
+        "height": 900
+      },
+      "httpStatus": 200,
+      "lang": "ar",
+      "dir": "rtl",
+      "theme": "dark",
+      "viewportWidth": 1365,
+      "documentWidth": 1365,
+      "bodyWidth": 1365,
+      "mainHeadings": 1,
+      "heroReady": true,
+      "canvasSize": [
+        1365,
+        788
+      ],
+      "assistantLabel": "المساعد الذكي",
+      "assistantDirection": "rtl",
+      "assistantHint": "اسحب السن وأفلته؛ يعيده المساعد الذكي برفق إلى مكانه.",
+      "canvasDescription": "أمسك السن وارفعه ثم أفلته. اسحب المساحة الفارغة أو استخدم زر الفأرة الأيمن لتدوير الرؤية. لوحة المفاتيح: 1 / 2 لاختيار السن؛ أعلى للرفع؛ يسار / يمين للتحريك؛ Shift + الأسهم لتدوير الرؤية؛ R للعودة برفق؛ Esc للإفلات. قد تميل السن مع موجة عابرة ويعيدها المساعد الذكي برفق؛ أمسكها لاستعادة التحكم.",
+      "localizedAssistance": true,
+      "horizontalOverflow": false,
+      "javaScriptErrors": [],
+      "httpErrors": [],
+      "observedScreenshot": {
+        "bytes": 878132,
+        "sha256": "16def694ab0245cfeeaa479fb658bd20bf201bb878b95017f3184eea65553575",
+        "includedInSourcePackage": false
+      }
+    },
+    {
+      "locale": "ru",
+      "device": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "httpStatus": 200,
+      "lang": "ru",
+      "dir": "ltr",
+      "theme": "dark",
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "mainHeadings": 1,
+      "heroReady": true,
+      "canvasSize": [
+        390,
+        944
+      ],
+      "assistantLabel": "ИИ-помощник",
+      "assistantDirection": "ltr",
+      "assistantHint": "Перетащите зуб и отпустите. ИИ-помощник плавно вернёт его на место.",
+      "canvasDescription": "Возьмите зуб, поднимите и отпустите. Для вращения вида тяните пустую область или используйте правую кнопку мыши. Клавиатура: 1 / 2 — выбор зуба; Вверх — подъём; Влево / Вправо — сдвиг; Shift + стрелки — вращение вида; R — плавное возвращение; Esc — отпустить. Иногда волна наклоняет зуб, а ИИ-помощник выпрямляет его; возьмите зуб, чтобы перехватить управление.",
+      "localizedAssistance": true,
+      "horizontalOverflow": false,
+      "javaScriptErrors": [],
+      "httpErrors": [],
+      "observedScreenshot": {
+        "bytes": 244520,
+        "sha256": "ed6754b11e8ad9f9849c5d3feed71ba2c35d9b96fefbaad33db9a8164f446b6b",
+        "includedInSourcePackage": false
+      }
+    },
+    {
+      "locale": "ru",
+      "device": "desktop",
+      "viewport": {
+        "width": 1365,
+        "height": 900
+      },
+      "httpStatus": 200,
+      "lang": "ru",
+      "dir": "ltr",
+      "theme": "dark",
+      "viewportWidth": 1365,
+      "documentWidth": 1365,
+      "bodyWidth": 1365,
+      "mainHeadings": 1,
+      "heroReady": true,
+      "canvasSize": [
+        1365,
+        788
+      ],
+      "assistantLabel": "ИИ-помощник",
+      "assistantDirection": "ltr",
+      "assistantHint": "Перетащите зуб и отпустите. ИИ-помощник плавно вернёт его на место.",
+      "canvasDescription": "Возьмите зуб, поднимите и отпустите. Для вращения вида тяните пустую область или используйте правую кнопку мыши. Клавиатура: 1 / 2 — выбор зуба; Вверх — подъём; Влево / Вправо — сдвиг; Shift + стрелки — вращение вида; R — плавное возвращение; Esc — отпустить. Иногда волна наклоняет зуб, а ИИ-помощник выпрямляет его; возьмите зуб, чтобы перехватить управление.",
+      "localizedAssistance": true,
+      "horizontalOverflow": false,
+      "javaScriptErrors": [],
+      "httpErrors": [],
+      "observedScreenshot": {
+        "bytes": 888704,
+        "sha256": "efcc6b7357f63fac2c6e3298aac451c9a2d2ce7f19068c79d74ccd2bd1e9b83e",
+        "includedInSourcePackage": false
+      }
+    }
+  ],
+  "scope": "Ten anonymous home viewport observations in five locales with actual animations/software WebGL, localized visible helper text and canvas accessibility description; no pixel-equivalence or Lighthouse-score claim.",
+  "sourceReceiptSha256": "2871ad5f554927cc5088d8b504fa68449974f0695825237847f43fb0c9d12bd1",
+  "imageReferencesOmitted": true
+}

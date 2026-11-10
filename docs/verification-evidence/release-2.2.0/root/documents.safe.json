@@ -1,0 +1,30 @@
+{
+  "recordedAt": "2026-10-26T14:31:02.272046+00:00",
+  "documents": [
+    {
+      "kind": "technical",
+      "filename": "IdealMakoo-2.2-Technical-Spec.fa.docx",
+      "pages": 9,
+      "bytes": 54088,
+      "sha256": "c86ed0b35ef7c991ee48f969e8b7eef3e300942d2a1b8889a5dd71e82e5755db"
+    },
+    {
+      "kind": "roleHandbook",
+      "filename": "IdealMakoo-2.2-Role-Handbook.fa.docx",
+      "pages": 75,
+      "bytes": 19658235,
+      "sha256": "63631b9dd1a5e87c040a9dfcade46985c61fe50fb7201b598dba597632b6676c"
+    }
+  ],
+  "roleCount": 12,
+  "screenshots": 29,
+  "manualHtmlPages": 13,
+  "allAssignedPageRangesHaveFinalVisualApproval": true,
+  "roleQaReceipts": [
+    "backend/role-handbook-pages-1-25.safe.json",
+    "devops/role-handbook-pages-26-50.safe.json",
+    "frontend/role-handbook-pages-51-75.safe.json"
+  ],
+  "technicalQaReceipt": "devops/technical-document-final.safe.json",
+  "limits": "PNG/PDF render intermediates are QA only; DOCX files are the user-facing documents. No user-server deployment is inferred."
+}

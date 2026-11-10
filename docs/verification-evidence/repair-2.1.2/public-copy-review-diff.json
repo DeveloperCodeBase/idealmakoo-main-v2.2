@@ -1,0 +1,16 @@
+{
+  "kind": "post-public-copy-review-input-diff",
+  "previousBuildId": "OOhw3Eok1VmYVX1q38dyK",
+  "previousInputSha256": "1737ef27e76ade403d1ecdab25c089b62ac89eea0c73c04f37fd7f44548b7b8a",
+  "currentInputSha256": "499c0bc34043d69e34cd7559f59b45ac1414cf4ae25f94f1dde5025328f3f05e",
+  "changed": [
+    "src/components/content/ResourceCenter.tsx",
+    "src/components/site/Home.tsx",
+    "src/components/site/Requests.tsx"
+  ],
+  "changedCount": 3,
+  "inputFiles": 986,
+  "backendDatabaseOperationsAndTestsUnchanged": true,
+  "publicAssetsAndStylesUnchanged": true,
+  "scope": "Three visible public copy files; no CSS, geometry, renderer or audit-setting change."
+}

@@ -1,0 +1,71 @@
+{
+  "url": "http://127.0.0.1:3100/tr/products/bstar-nano-base/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "a29201821747d22599f7cf1b99e6db96606f7aa07d1bbeecc7f71b6ea34bc39e",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "B.Star Nano Base dişler | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Ideal Makoo listesinde yer alan bir protez diş modeli; kaynak sayfada ürün görseli bulunur."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/products/bstar-nano-base/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/bstar-nano-base/",
+    "en": "http://127.0.0.1:3100/en/products/bstar-nano-base/",
+    "tr": "http://127.0.0.1:3100/tr/products/bstar-nano-base/",
+    "ar": "http://127.0.0.1:3100/ar/products/bstar-nano-base/",
+    "ru": "http://127.0.0.1:3100/ru/products/bstar-nano-base/",
+    "x-default": "http://127.0.0.1:3100/fa/products/bstar-nano-base/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "B.Star Nano Base dişler",
+      "description": "Ideal Makoo listesinde yer alan bir protez diş modeli; kaynak sayfada ürün görseli bulunur.",
+      "image": "http://127.0.0.1:3100/media/official/1686378678.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "B.STAR NANO BASE"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/tr/products/bstar-nano-base/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 58
+}

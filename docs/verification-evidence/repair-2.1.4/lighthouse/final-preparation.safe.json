@@ -1,0 +1,103 @@
+{
+  "format": "final-lighthouse-preparation-v1",
+  "preparedAt": "2026-10-25T16:04:55.186Z",
+  "buildId": "NWcRPAySX3HCzbpKSDJNf",
+  "fixturePreparationBeforeBothFreezes": true,
+  "ownedRoles": 12,
+  "realOwnedRequestPrepared": true,
+  "privateValuesExported": false,
+  "nativeReadinessReceipt": "../native-audit-continuity.safe.json",
+  "scopes": {
+    "authenticatedMobile": {
+      "expected": 530,
+      "sourceUrls": 530,
+      "buildId": "NWcRPAySX3HCzbpKSDJNf",
+      "configurationHash": "74b76258a6ce0ed190e2540cafa2ab95efaba424b7dba011d49ac661c969fc2d",
+      "inventoryHash": "1e7185aef6f192b11f91d5b50a63d39ac5146dc6684fdc6dbe290dd6743983b7",
+      "manifestSha256": "4230a8a92ab8348247ed8724c3d5ef2c45100d18f39c59bea3a301ea5b5dafd2",
+      "inventorySha256": "38654a057929cbab6ed652a0736c03fe959d47254357e9658c8117be53b2122e",
+      "countsByKind": {
+        "workspace": 430,
+        "account": 75,
+        "owned-request-detail": 5,
+        "representative-role": 20
+      },
+      "indexable": 0,
+      "redirects": 0,
+      "roleCount": 12,
+      "workloadHash": "4035a44c30abd3f295d668d3a563fd44eda220f7b7e444ecc677fc52c69fc976",
+      "coverageScope": "all-registered-principal-roles-plus-owned-details-and-representative-other-roles"
+    },
+    "publicMobile": {
+      "expected": 620,
+      "sourceUrls": 620,
+      "buildId": "NWcRPAySX3HCzbpKSDJNf",
+      "configurationHash": "a5483c0cdb0fd846b6cc2ff03ed561c604bd9afaa6f9a74a75d25fd70a9b0e3f",
+      "inventoryHash": "813f52df708c86a1656ea09ce298d40a80b85a5cdbf519d97028cbf06afc11d6",
+      "manifestSha256": "041c9cdb19dded97fa9278fe43e8f1c683e97ebd2ba5a8aa10bf92fe5718c4ef",
+      "inventorySha256": "786c88164275a012f5606d0adf53d1110b8f75e89bbb8ba610b2166ed05e290a",
+      "countsByKind": {
+        "public": 590,
+        "expected-404": 5,
+        "public-auth": 25
+      },
+      "indexable": 590,
+      "redirects": 0,
+      "publicContentHash": "c81fb2b40e486f8608c7c7da584d76197bef191244fad9d1b45128ddbb7e8e74",
+      "servedAssetsHash": "dee498d89e963c5fdf428c3d6923616bf49c0937d24020a1448faaab226b4549"
+    }
+  },
+  "metadata": {
+    "expected": 620,
+    "checked": 620,
+    "passed": 620,
+    "errors": 0,
+    "warnings": 0,
+    "coverageComplete": true,
+    "duplicateTitleGroups": 0,
+    "duplicateDescriptionGroups": 0,
+    "evidence": "metadata-public/summary.json",
+    "safety": "metadata-public-safety.safe.json"
+  },
+  "commands": [
+    {
+      "label": "fixture-preparation-01",
+      "startedAt": "2026-10-25T16:01:06.436684+00:00",
+      "finishedAt": "2026-10-25T16:01:09.985340+00:00",
+      "durationSeconds": 3.549,
+      "exitCode": 0,
+      "receivedSignals": [],
+      "originalReceiptSha256": "d6b637914767ae8446eee6e6d39914f3d125bc098dec67d88c0900872f5bf215"
+    },
+    {
+      "label": "private-inventory-01",
+      "startedAt": "2026-10-25T16:01:27.707639+00:00",
+      "finishedAt": "2026-10-25T16:01:30.717669+00:00",
+      "durationSeconds": 3.01,
+      "exitCode": 0,
+      "receivedSignals": [],
+      "originalReceiptSha256": "e9d373db30a493706346d78386f888b0e3a4b20368ecb1a7d59860ae7dc54d06"
+    },
+    {
+      "label": "public-inventory-01",
+      "startedAt": "2026-10-25T16:01:40.226728+00:00",
+      "finishedAt": "2026-10-25T16:01:40.657931+00:00",
+      "durationSeconds": 0.431,
+      "exitCode": 0,
+      "receivedSignals": [],
+      "originalReceiptSha256": "09caa9a71983acf447227d38ac8a789eb8570e19f25278737997991627700d99"
+    },
+    {
+      "label": "public-metadata-01",
+      "startedAt": "2026-10-25T16:01:50.457275+00:00",
+      "finishedAt": "2026-10-25T16:02:00.549125+00:00",
+      "durationSeconds": 10.092,
+      "exitCode": 0,
+      "receivedSignals": [],
+      "originalReceiptSha256": "d81245f63b9dbc89c350470687f6d196031f4c4d715871b31563553b0b8922d7"
+    }
+  ],
+  "lighthouseAttempts": 0,
+  "browserProfilesLaunched": 0,
+  "note": "Preparation and HTTP metadata only. Chrome --version identified the installed binary; no navigation or scoring workload occurred. Full authenticated530, public620, offline5 and desktop14 audits remain pending until the separate quiet execution window."
+}

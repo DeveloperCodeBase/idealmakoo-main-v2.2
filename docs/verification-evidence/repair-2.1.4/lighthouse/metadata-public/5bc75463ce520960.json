@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/media/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "ee7cd004546d185aeb6ccab1b48279ebdadabe16ed54735051e42f321f2ef85b",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "أرشيف المصنع متعدد الوسائط | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "استكشف أرشيف إيدآل ماكو متعدد الوسائط وابحث في المواد الإعلامية المنشورة عن المصنع ومنتجاته."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/media/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/media/",
+    "en": "http://127.0.0.1:3100/en/media/",
+    "tr": "http://127.0.0.1:3100/tr/media/",
+    "ar": "http://127.0.0.1:3100/ar/media/",
+    "ru": "http://127.0.0.1:3100/ru/media/",
+    "x-default": "http://127.0.0.1:3100/fa/media/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 98
+}

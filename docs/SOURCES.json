@@ -1,0 +1,1362 @@
+{
+  "retrievedAt": "2026-10-17",
+  "primaryWebsite": "https://idealmakoo.com/",
+  "inventory": {
+    "products": 17,
+    "researchArticles": 13,
+    "companyPages": 10,
+    "mediaAssets": 67,
+    "uploadedReferenceDocuments": 2,
+    "referenceWebPages": 40,
+    "referencePageImages": 40,
+    "derivedReferenceAssets": 42,
+    "fullOfficialSourcePages": 43,
+    "transcribedGuideDimensionRows": 37
+  },
+  "contentPolicy": "Titles, product fields and summaries were translated or paraphrased from official pages. Article bodies are Persian editorial summaries with original-source links; not representations of complete peer-reviewed papers. No fabricated publication date, author, DOI, ISO/CE validity, prices, operational metrics, certified shade matrix, representative directory or product serial dataset. Full original visible prose from 43 official pages is separately preserved with source dates and historical-claim context. Two user-supplied Ideal-branded PDFs are offered as explicitly derived optimized web editions; they are not attributed to website download URLs.",
+  "products": [
+    {
+      "id": "apple",
+      "sourceUrl": "https://idealmakoo.com/pages/6/apple",
+      "image": "/media/official/1686377879.jpg"
+    },
+    {
+      "id": "bstar-nano-composite",
+      "sourceUrl": "https://idealmakoo.com/pages/7/bstar-nano-composite",
+      "image": "/media/official/1686378278.jpg"
+    },
+    {
+      "id": "super-berelian",
+      "sourceUrl": "https://idealmakoo.com/pages/8/super-berelian",
+      "image": "/media/official/1686378359.jpg"
+    },
+    {
+      "id": "glamour",
+      "sourceUrl": "https://idealmakoo.com/pages/9/glamour",
+      "image": "/media/official/1686378413.jpg"
+    },
+    {
+      "id": "super-newclar",
+      "sourceUrl": "https://idealmakoo.com/pages/10/super-newclar",
+      "image": "/media/official/1686378486.jpg"
+    },
+    {
+      "id": "marjan-new",
+      "sourceUrl": "https://idealmakoo.com/pages/11/marjan-new",
+      "image": "/media/official/1686378532.jpg"
+    },
+    {
+      "id": "yaghoot",
+      "sourceUrl": "https://idealmakoo.com/pages/12/yaghoot",
+      "image": "/media/official/1686378565.jpg"
+    },
+    {
+      "id": "newclar",
+      "sourceUrl": "https://idealmakoo.com/pages/13/newclar",
+      "image": "/media/official/1686378608.jpg"
+    },
+    {
+      "id": "bstar-nano-base",
+      "sourceUrl": "https://idealmakoo.com/pages/14/b-star-nano-base",
+      "image": "/media/official/1686378678.jpg"
+    },
+    {
+      "id": "berelian",
+      "sourceUrl": "https://idealmakoo.com/pages/15/دندان-مصنوعی-برلیان",
+      "image": "/media/official/1686482280.jpg"
+    },
+    {
+      "id": "president",
+      "sourceUrl": "https://idealmakoo.com/pages/16/دندان-مصنوعی-پرزیدنت",
+      "image": "/media/official/1686482269.jpg"
+    },
+    {
+      "id": "dentex-etch-37",
+      "sourceUrl": "https://idealmakoo.com/pages/30/اسید-اچ-37%-دنتکس",
+      "image": "/media/official/1726477204.jpg"
+    },
+    {
+      "id": "generation-8-bonding",
+      "sourceUrl": "https://idealmakoo.com/pages/31/باندینگ-رزین-نسل-8",
+      "image": "/media/official/1725864310.jpg"
+    },
+    {
+      "id": "light-cure-composite",
+      "sourceUrl": "https://idealmakoo.com/pages/32/کامپوزیت-لایت-کیور",
+      "image": "/media/official/1726468061.jpg"
+    },
+    {
+      "id": "ideal-line",
+      "sourceUrl": "https://idealmakoo.com/pages/33/دندان-ایده-آل-لاین",
+      "image": "/media/official/1726476868.jpg"
+    },
+    {
+      "id": "antic",
+      "sourceUrl": "https://idealmakoo.com/pages/51/دندان-آنتیک",
+      "image": "/media/official/1726467544.jpg"
+    },
+    {
+      "id": "laboratory-putty",
+      "sourceUrl": "https://idealmakoo.com/pages/56/پوتی-لابراتواری",
+      "image": "/media/official/1722930683.jpg"
+    }
+  ],
+  "articles": [
+    {
+      "id": "research-34",
+      "sourceUrl": "https://idealmakoo.com/pages/34/میزان-استحکام-باند-بیس-رزینی",
+      "sourceTitle": "بررسی میزان استحکام باند بیس رزینی به چهار نوع دندان مصنوعی گلامور،یاقوت،اپل ،و ایو کلار",
+      "publicationDate": null
+    },
+    {
+      "id": "research-35",
+      "sourceUrl": "https://idealmakoo.com/pages/35/بررسی-مقایسه-ای-استحکام-اتصال-دندانهای-مصنوعی-آکریلی-و-کامپوزیتی-،ایرانی-به-خارجی-به-رزین-پایه-پروتز",
+      "sourceTitle": "بررسی مقایسه ای استحکام اتصال دندانهای مصنوعی آکریلی و کامپوزیتی ،ایرانی به خارجی به رزین پایه پروتز",
+      "publicationDate": null
+    },
+    {
+      "id": "research-36",
+      "sourceUrl": "https://idealmakoo.com/pages/36/میزان-استحکام-اتصال-سه-نوع-دندان-مصنوعی",
+      "sourceTitle": "مقایسه میزان استحکام اتصال سه نوع دندان مصنوعی به آکریل بیس دنچر در پروتزهای کامل متحرک",
+      "publicationDate": null
+    },
+    {
+      "id": "research-37",
+      "sourceUrl": "https://idealmakoo.com/pages/37/بررسی-مقاومت-سایشی-دندان-پرزیدنت-و-آیوکلار",
+      "sourceTitle": "بررسی مقایسه ای مقاومت سایشی دندان پرزیدنت و آیوکلار در مقابل دندان طبیعی به وسیله اسکنر سه بعدی",
+      "publicationDate": null
+    },
+    {
+      "id": "research-38",
+      "sourceUrl": "https://idealmakoo.com/pages/38/استحکام-اتصال-سه-نوع-دندان-مصنوعی",
+      "sourceTitle": "بررسی مقایسه ای استحکام اتصال سه نوع دندان مصنوعی (دو نوعایرانی و یک نوع خارجی) با رزین گرماسخت پایه پروتز",
+      "publicationDate": null
+    },
+    {
+      "id": "research-39",
+      "sourceUrl": "https://idealmakoo.com/pages/39/مقایسه-میزان-سایش-در-دندان-ها",
+      "sourceTitle": "مقایسه میزان سایش در دندان های آکریلیک ماژور پلاس، سوپر لوکس پلی دنت پریمو، سوپر برلیان، ویتاپان و ایوکلار",
+      "publicationDate": null
+    },
+    {
+      "id": "research-40",
+      "sourceUrl": "https://idealmakoo.com/pages/40/بررسی-آزمایشگاهی-استحکام-برشی-باندینگ-کامپوزیت",
+      "sourceTitle": "بررسی آزمایشگاهی استحکام برشی باندینگ کامپوزیت ایرانی ایده آل ماکو و سوئیسی سینوژی به عاج",
+      "publicationDate": null
+    },
+    {
+      "id": "research-41",
+      "sourceUrl": "https://idealmakoo.com/pages/41/مقایسه-میزان-سایش-در-دندان-ها",
+      "sourceTitle": "مقایسه میزان سایش در دندان های آکریلیک ماژوردنت کلاسیک، ماژوردنت نیو، ماژور کریستال، مایرسون، برلیان و ایو کلار",
+      "publicationDate": null
+    },
+    {
+      "id": "research-42",
+      "sourceUrl": "https://idealmakoo.com/pages/42/بررسی-مقایسه-ای-سایش-دو-نوع-دندان-مصنوعی-ایرانی",
+      "sourceTitle": "بررسی مقایسه ای سایش دو نوع دندان مصنوعی ایرانی با دندان مصنوعی ایوکلار",
+      "publicationDate": null
+    },
+    {
+      "id": "research-20",
+      "sourceUrl": "https://idealmakoo.com/pages/20/مقایسه-نرخ-سایش",
+      "sourceTitle": "مقایسه نرخ سایش ۶ نوع دندان مصنوعی",
+      "publicationDate": null
+    },
+    {
+      "id": "research-19",
+      "sourceUrl": "https://idealmakoo.com/pages/19/مقایسه-سایشی-دندان",
+      "sourceTitle": "مقایسه ی سایشی دندان APPLE و سوپر ماژور",
+      "publicationDate": null
+    },
+    {
+      "id": "research-18",
+      "sourceUrl": "https://idealmakoo.com/pages/18/استحکام-باند-برشی",
+      "sourceTitle": "بررسی آزمایشگاهی استحکام باند برشی کامپوزیت ایرانی و سوئیسی",
+      "publicationDate": null
+    },
+    {
+      "id": "research-17",
+      "sourceUrl": "https://idealmakoo.com/pages/17/مقایسه-نرخ-سایش",
+      "sourceTitle": "مقایسه نرخ سایش ۴ نوع دندان مصنوعی",
+      "publicationDate": null
+    }
+  ],
+  "companyPages": [
+    {
+      "id": "company-2",
+      "sourceUrl": "https://idealmakoo.com/pages/2/about"
+    },
+    {
+      "id": "company-21",
+      "sourceUrl": "https://idealmakoo.com/pages/21/mission"
+    },
+    {
+      "id": "company-22",
+      "sourceUrl": "https://idealmakoo.com/pages/22/goals"
+    },
+    {
+      "id": "company-23",
+      "sourceUrl": "https://idealmakoo.com/pages/23/stretegy"
+    },
+    {
+      "id": "company-24",
+      "sourceUrl": "https://idealmakoo.com/pages/24/positioning"
+    },
+    {
+      "id": "company-25",
+      "sourceUrl": "https://idealmakoo.com/pages/25/segmentataion"
+    },
+    {
+      "id": "company-26",
+      "sourceUrl": "https://idealmakoo.com/pages/26/development"
+    },
+    {
+      "id": "company-27",
+      "sourceUrl": "https://idealmakoo.com/pages/27/price"
+    },
+    {
+      "id": "company-28",
+      "sourceUrl": "https://idealmakoo.com/pages/28/bazar"
+    },
+    {
+      "id": "company-4",
+      "sourceUrl": "https://idealmakoo.com/pages/4/contact"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://idealmakoo.com/imgs/1686377879.jpg",
+      "path": "/media/official/1686377879.jpg",
+      "bytes": 132840
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1686378278.jpg",
+      "path": "/media/official/1686378278.jpg",
+      "bytes": 52042
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1686378359.jpg",
+      "path": "/media/official/1686378359.jpg",
+      "bytes": 48221
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1686378413.jpg",
+      "path": "/media/official/1686378413.jpg",
+      "bytes": 58326
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1686378486.jpg",
+      "path": "/media/official/1686378486.jpg",
+      "bytes": 53449
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1686378532.jpg",
+      "path": "/media/official/1686378532.jpg",
+      "bytes": 51110
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1686378565.jpg",
+      "path": "/media/official/1686378565.jpg",
+      "bytes": 50441
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1686378608.jpg",
+      "path": "/media/official/1686378608.jpg",
+      "bytes": 52597
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1686378678.jpg",
+      "path": "/media/official/1686378678.jpg",
+      "bytes": 48877
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1686482269.jpg",
+      "path": "/media/official/1686482269.jpg",
+      "bytes": 96202
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1686482280.jpg",
+      "path": "/media/official/1686482280.jpg",
+      "bytes": 83748
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1686661396.jpg",
+      "path": "/media/official/1686661396.jpg",
+      "bytes": 96662
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1686663870.jpg",
+      "path": "/media/official/1686663870.jpg",
+      "bytes": 7172
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1686664033.jpg",
+      "path": "/media/official/1686664033.jpg",
+      "bytes": 28082
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1686664184.jpg",
+      "path": "/media/official/1686664184.jpg",
+      "bytes": 41020
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1686664281.jpg",
+      "path": "/media/official/1686664281.jpg",
+      "bytes": 86142
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1686737295.jpg",
+      "path": "/media/official/1686737295.jpg",
+      "bytes": 12163
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1686737306.jpg",
+      "path": "/media/official/1686737306.jpg",
+      "bytes": 12131
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1686737311.jpg",
+      "path": "/media/official/1686737311.jpg",
+      "bytes": 8037
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1686737318.jpg",
+      "path": "/media/official/1686737318.jpg",
+      "bytes": 10688
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1686737323.jpg",
+      "path": "/media/official/1686737323.jpg",
+      "bytes": 12163
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1686737327.jpg",
+      "path": "/media/official/1686737327.jpg",
+      "bytes": 13611
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1689233517.jpg",
+      "path": "/media/official/1689233517.jpg",
+      "bytes": 31256
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1689233519.jpg",
+      "path": "/media/official/1689233519.jpg",
+      "bytes": 35128
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1689233731.jpg",
+      "path": "/media/official/1689233731.jpg",
+      "bytes": 112525
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1689234925.jpg",
+      "path": "/media/official/1689234925.jpg",
+      "bytes": 402500
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1689235166.jpg",
+      "path": "/media/official/1689235166.jpg",
+      "bytes": 582128
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1689235260.jpg",
+      "path": "/media/official/1689235260.jpg",
+      "bytes": 358225
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1689235423.jpg",
+      "path": "/media/official/1689235423.jpg",
+      "bytes": 253803
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1689235611.jpg",
+      "path": "/media/official/1689235611.jpg",
+      "bytes": 425130
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1689235813.jpg",
+      "path": "/media/official/1689235813.jpg",
+      "bytes": 288645
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1689235972.jpg",
+      "path": "/media/official/1689235972.jpg",
+      "bytes": 270695
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1689236247.jpg",
+      "path": "/media/official/1689236247.jpg",
+      "bytes": 528852
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1689236463.jpg",
+      "path": "/media/official/1689236463.jpg",
+      "bytes": 723220
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1719648276.jpg",
+      "path": "/media/official/1719648276.jpg",
+      "bytes": 23138
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1719663893.jpg",
+      "path": "/media/official/1719663893.jpg",
+      "bytes": 106773
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1722930683.jpg",
+      "path": "/media/official/1722930683.jpg",
+      "bytes": 1601683
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1722930737.jpg",
+      "path": "/media/official/1722930737.jpg",
+      "bytes": 1601683
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1725860015.jpg",
+      "path": "/media/official/1725860015.jpg",
+      "bytes": 181186
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1725864310.jpg",
+      "path": "/media/official/1725864310.jpg",
+      "bytes": 63640
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1726467544.jpg",
+      "path": "/media/official/1726467544.jpg",
+      "bytes": 173852
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1726468061.jpg",
+      "path": "/media/official/1726468061.jpg",
+      "bytes": 101124
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1726468756.jpg",
+      "path": "/media/official/1726468756.jpg",
+      "bytes": 218826
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1726468993.jpg",
+      "path": "/media/official/1726468993.jpg",
+      "bytes": 188959
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1726469770.jpg",
+      "path": "/media/official/1726469770.jpg",
+      "bytes": 146876
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1726476868.jpg",
+      "path": "/media/official/1726476868.jpg",
+      "bytes": 89614
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1726477204.jpg",
+      "path": "/media/official/1726477204.jpg",
+      "bytes": 279818
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1726478890.jpg",
+      "path": "/media/official/1726478890.jpg",
+      "bytes": 146562
+    },
+    {
+      "url": "https://idealmakoo.com/images/back1.jpg",
+      "path": "/media/official/back1.jpg",
+      "bytes": 54511
+    },
+    {
+      "url": "https://idealmakoo.com/images/logo.png",
+      "path": "/media/official/logo.png",
+      "bytes": 7977
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1686388024.بی-استار.jpg",
+      "path": "/media/official/1686388024.jpg",
+      "bytes": 53118
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1686388036.نیوکلار.jpg",
+      "path": "/media/official/1686388036.jpg",
+      "bytes": 62028
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1686388050.یاقوت.jpg",
+      "path": "/media/official/1686388050.jpg",
+      "bytes": 58081
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1686388063.مرجان-نیو.jpg",
+      "path": "/media/official/1686388063.jpg",
+      "bytes": 56505
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1686388092.سوپرنیوکلار.jpg",
+      "path": "/media/official/1686388092.jpg",
+      "bytes": 59804
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1686388105.گلامور.jpg",
+      "path": "/media/official/1686388105.jpg",
+      "bytes": 68346
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1686388117.سوپربرلیان.jpg",
+      "path": "/media/official/1686388117.jpg",
+      "bytes": 53133
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1686388135.ایده-آل-اکو-اپل.jpg",
+      "path": "/media/official/1686388135.jpg",
+      "bytes": 64621
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1686482293.پرزیدنت.jpg",
+      "path": "/media/official/1686482293.jpg",
+      "bytes": 87936
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1686482307.برلیان.jpg",
+      "path": "/media/official/1686482307.jpg",
+      "bytes": 77294
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1686729757.photo_2023-06-14_11-30-16.jpg",
+      "path": "/media/official/1686729757.jpg",
+      "bytes": 155786
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1725860714.Slide9.JPG",
+      "path": "/media/official/1725860714.jpg",
+      "bytes": 181186
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1725860871.Antic.jpg",
+      "path": "/media/official/1725860871.jpg",
+      "bytes": 173852
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1725860946.IMG_4739.JPG",
+      "path": "/media/official/1725860946.jpg",
+      "bytes": 1601683
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1725864338.bodong2.jpg",
+      "path": "/media/official/1725864338.jpg",
+      "bytes": 63640
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1726476922.333.jpg",
+      "path": "/media/official/1726476922.jpg",
+      "bytes": 196112
+    },
+    {
+      "url": "https://idealmakoo.com/imgs/1726478812.we.jpg",
+      "path": "/media/official/1726478812.jpg",
+      "bytes": 58308
+    }
+  ],
+  "limitations": [
+    "The official website supplies JPG product and research sheets, with no linked PDF catalogue, IFU or SDS found. The 30 official-image downloads remain JPG. Two separate user-uploaded PDFs are now accessible as explicitly optimized web editions; their original filenames, bytes and SHA256 values are recorded independently.",
+    "The official company video at https://idealmakoo.com/movies/film1.mp4 returned HTTP 403 during verification; it is not marked as available.",
+    "The source product pages spell the material PAMMA. This source spelling is retained explicitly; it has not been silently corrected to PMMA.",
+    "B.Star Nano Base has a title and image but no technical text in the available source page. Missing specifications are labelled not specified.",
+    "No full official shade/variant compatibility table was found. Posterior codes N6, N2, N5, N3 appear in ten product descriptions, with 19 upper-anterior and 8 lower-anterior moulds. These are not a verified matrix of every SKU.",
+    "Current validity of CE or other certificates cannot be established from historical marketing copy or an icon on product packaging. No active certification is asserted by this dataset.",
+    "The contact page contains a missing leading zero in its first telephone number; the same number is correctly printed as 02188899776 in every footer and has been normalised to that value.",
+    "Historical articles contain inconsistent digit punctuation, duplicated paragraphs and occasionally conflicting sample labels. Summaries avoid republishing suspect numerical results as validated facts.",
+    "No authored publication timestamp was exposed for the articles. Study years within a body have not been used as publication dates.",
+    "About page contains staff size and market-ranking claims with no date; these are not used as current workforce or worldwide rank statistics.",
+    "Company page /pages/27/price is retained as historical commercial-policy context, without showing old comparisons as a current price list.",
+    "The first supplied PDF is one large raster poster containing a cover and 25 numbered panels. The web edition splits those 26 panels into pages; it has no fabricated underlying text layer. Notes and the source-page images are accessible in the reader.",
+    "The recovered filename enigmalife-mould-chart-pdf-Recovered2222-Recovered.pdf does not establish Enigma ownership: its visible cover and inspected pages carry Ideal Makoo branding. It is labelled a user-supplied Ideal-branded recovered mould guide.",
+    "The supplied chart includes genuinely empty cells and missing photographs. Empty anterior/posterior matching tables remain empty. A five-row posterior diagram is transcribed only where legible, with units explicitly not stated on that source page.",
+    "B.STAR nano plan / nano glas appears as a historical document profile; its heading/body/package names are internally inconsistent with Nano Base labels. It remains an archival section and does not create an eighteenth current official product.",
+    "Original PDFs of 47,886,307 and 55,859,721 bytes remain unchanged in the supplied attachments and are not duplicated in public or the source bundle. The web PDFs preserve all readable panels/pages at 8,051,624 and 4,904,373 bytes respectively.",
+    "The recovered guide has 32 additional anterior dimension rows transcribed from visibly legible values, with missing/unclear codes and numbers left empty. These are separate archival diagram records, not current product variants."
+  ],
+  "fullSourceArchive": {
+    "typescript": "src/data/official-source-pages.ts",
+    "json": "docs/OFFICIAL-SITE-KNOWLEDGE.json",
+    "route": "resources/official-site-archive",
+    "pageCount": 43,
+    "capturedTextCharacters": 74767,
+    "mainProseCharacters": 50432,
+    "capturedAt": "2026-10-17",
+    "language": "fa",
+    "sectionAnchorContract": "#official-page-<numeric source page ID>, #official-page-home"
+  },
+  "referenceDocuments": [
+    {
+      "id": "ideal-makoo-mould-poster",
+      "slug": "ideal-makoo-mould-poster",
+      "title": {
+        "fa": "کاتالوگ جامع و چارت قالب ایده‌آل ماکو",
+        "en": "Ideal Makoo complete catalogue and mould chart",
+        "tr": "Ideal Makoo kapsamlı katalog ve kalıp çizelgesi",
+        "ar": "كتالوج إيده‌آل ماكو الشامل وجدول القوالب",
+        "ru": "Полный каталог и формы Ideal Makoo"
+      },
+      "kind": "product-catalogue",
+      "sourceBrand": "Ideal Makoo",
+      "relationship": "company",
+      "sourceType": "user-upload",
+      "originalFileName": "ideal makoo neww complete1graynew.pdf",
+      "sourcePageCount": 1,
+      "sourceBytes": 47886307,
+      "sourceSha256": "a41652ba6e9b55c0cf135d13b14c3fc5e4d64e98e392f80776453f4edafa895e",
+      "url": "/media/documents/ideal-makoo-complete-catalogue-web.pdf",
+      "localDownloadUrl": "/media/documents/ideal-makoo-complete-catalogue-web.pdf",
+      "pageCount": 26,
+      "webBytes": 8051624,
+      "webSha256": "77f1b0321778fcf2efbe8483964cfe496dcfc0a2daeb8953fde497831cc451c7",
+      "publishedAt": null,
+      "extractionNote": {
+        "fa": "پوستر تک‌صفحه‌ای اصلی، متن قابل استخراج نداشت؛ متن‌های این بخش با مشاهدهٔ تصاویر بازنویسی شده‌اند. خانه‌های خالی و اختلاف نام‌های چاپ‌شده حفظ شده‌اند.",
+        "en": "The original one-page poster has no extractable text. These notes were transcribed or summarised by inspecting its images; empty cells and conflicting labels are retained.",
+        "tr": "Tek sayfalık asıl posterde çıkarılabilir metin yoktur. Notlar görseller incelenerek yazılmıştır; boş hücreler ve çelişen etiketler korunmuştur.",
+        "ar": "لا يحتوي الملصق الأصلي على نص قابل للاستخراج. أُعدت الملاحظات بمراجعة الصور؛ حُفظت الخانات الفارغة وتسميات المصدر المتعارضة.",
+        "ru": "Одностраничный оригинал не содержит извлекаемого текста. Заметки подготовлены по изображениям; пустые ячейки и противоречивые подписи сохранены."
+      },
+      "derivativeNote": {
+        "fa": "نسخهٔ وبِ مشتق‌شده: جلد و ۲۵ پنل شماره‌دارِ پوستر در ۲۶ صفحه جدا شده‌اند؛ تصاویر برای وب بهینه شده‌اند و شمارهٔ پنل اصلی حفظ شده است. فایل بارگذاری‌شدهٔ اصلی تغییر نکرده است.",
+        "en": "Derived web edition: the cover and 25 numbered poster panels are separated into 26 pages, with optimized images and original panel numbers retained. The uploaded original is unchanged.",
+        "tr": "Türetilmiş web sürümü: kapak ve 25 numaralı poster paneli 26 sayfaya ayrıldı; görseller optimize edildi, özgün panel numaraları korundu. Yüklenen asıl dosya değişmedi.",
+        "ar": "نسخة ويب مشتقة: فُصل الغلاف و25 لوحة مرقمة إلى 26 صفحة، مع تحسين الصور والحفاظ على أرقام اللوحات الأصلية. الملف المرفوع لم يتغير.",
+        "ru": "Веб-версия: обложка и 25 панелей разделены на 26 страниц; изображения оптимизированы, исходные номера сохранены. Загруженный оригинал не изменён."
+      }
+    },
+    {
+      "id": "ideal-makoo-mould-guide",
+      "slug": "ideal-makoo-mould-guide",
+      "title": {
+        "fa": "راهنمای تصویری قالب‌های ایده‌آل ماکو",
+        "en": "Ideal Makoo illustrated mould guide",
+        "tr": "Ideal Makoo görselli kalıp rehberi",
+        "ar": "دليل إيده‌آل ماكو المصوّر للقوالب",
+        "ru": "Иллюстрированное руководство по формам Ideal Makoo"
+      },
+      "kind": "mould-chart",
+      "sourceBrand": "Ideal Makoo",
+      "relationship": "company",
+      "sourceType": "user-upload",
+      "originalFileName": "enigmalife-mould-chart-pdf-Recovered2222-Recovered.pdf",
+      "sourcePageCount": 14,
+      "sourceBytes": 55859721,
+      "sourceSha256": "a17af8e145c595ec8760f346210efe0a8d66698b3a0df05bb5cd9afa1cc03f1d",
+      "url": "/media/documents/ideal-makoo-mould-guide-web.pdf",
+      "localDownloadUrl": "/media/documents/ideal-makoo-mould-guide-web.pdf",
+      "pageCount": 14,
+      "webBytes": 4904373,
+      "webSha256": "135d8e652d00a877a183b449728d591658d8f45ae8a72897c1e58dc2289227eb",
+      "publishedAt": null,
+      "extractionNote": {
+        "fa": "نام فایل بازیابی‌شده شامل Enigmalife است، اما جلد و محتوای قابل‌مشاهده نشان ایده‌آل ماکو دارند. بعضی جدول‌ها و تصاویر در همین فایل اصلی ناقص‌اند؛ دادهٔ پنهان یا حدسی برای تکمیل آن‌ها استفاده نشده است.",
+        "en": "The recovered filename contains Enigmalife, but the visible cover and content bear Ideal Makoo branding. Some tables and photographs are incomplete in the supplied original; hidden text or guesses were not used to fill them.",
+        "tr": "Kurtarılmış dosya adında Enigmalife geçer; görünen kapak ve içerik Ideal Makoo markalıdır. Asıldaki eksik tablolar ve fotoğraflar gizli metin veya tahminle tamamlanmamıştır.",
+        "ar": "يتضمن اسم الملف المستعاد Enigmalife، لكن الغلاف والمحتوى المرئي يحملان علامة إيده‌آل ماكو. بعض الجداول والصور ناقصة في الأصل؛ لم تُستكمل بنص مخفي أو تخمين.",
+        "ru": "Имя восстановленного файла содержит Enigmalife, однако обложка и видимый материал имеют бренд Ideal Makoo. Пробелы в таблицах и фотографиях не заполнялись скрытым текстом или догадками."
+      },
+      "derivativeNote": {
+        "fa": "نسخهٔ وبِ مشتق‌شده با همان ۱۴ صفحه و ترتیب اصلی؛ تصاویر بهینه شده‌اند. فایل بارگذاری‌شدهٔ اصلی تغییر نکرده است.",
+        "en": "A derived web edition with the same 14 pages and source order; images are optimized. The uploaded original is unchanged.",
+        "tr": "Özgün 14 sayfa ve sıra korunan türetilmiş web sürümü; görseller optimize edildi. Yüklenen asıl dosya değişmedi.",
+        "ar": "نسخة ويب مشتقة تحافظ على الصفحات الأربع عشرة وترتيبها؛ حُسنت الصور. الملف المرفوع لم يتغير.",
+        "ru": "Веб-версия сохраняет 14 страниц и их порядок; изображения оптимизированы. Загруженный оригинал не изменён."
+      }
+    }
+  ],
+  "referencePageAssets": [
+    {
+      "documentId": "ideal-makoo-mould-poster",
+      "path": "/media/documents/previews/ideal-makoo-complete-catalogue-page-01.jpg",
+      "page": 1,
+      "sourcePage": 1,
+      "sourcePanel": 0,
+      "bytes": 247022,
+      "sha256": "4d197cf0693228bc178fc1d99a184cefdedaedef0b9936e10eb94b66ffe96408",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-poster",
+      "path": "/media/documents/previews/ideal-makoo-complete-catalogue-page-02.jpg",
+      "page": 2,
+      "sourcePage": 1,
+      "sourcePanel": 1,
+      "bytes": 345564,
+      "sha256": "8c0105cc1656efc84b34735a5590de132aa1b57469373a4bb5d5e681b32085d0",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-poster",
+      "path": "/media/documents/previews/ideal-makoo-complete-catalogue-page-03.jpg",
+      "page": 3,
+      "sourcePage": 1,
+      "sourcePanel": 2,
+      "bytes": 290322,
+      "sha256": "cf0f6e9a8bc3aaa4b1da0c4c8ce2d788af122d7a6c2aa6971affcb3c260e4511",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-poster",
+      "path": "/media/documents/previews/ideal-makoo-complete-catalogue-page-04.jpg",
+      "page": 4,
+      "sourcePage": 1,
+      "sourcePanel": 3,
+      "bytes": 274057,
+      "sha256": "b0d5f20d4a9fc61f29aee5fc8e3233ccad2f7c8bf145ec1f9ded1f6cf9d12834",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-poster",
+      "path": "/media/documents/previews/ideal-makoo-complete-catalogue-page-05.jpg",
+      "page": 5,
+      "sourcePage": 1,
+      "sourcePanel": 4,
+      "bytes": 237194,
+      "sha256": "338c3827db78adf96f1c9d195c7c3b2e8f605935d081a18c4d8d5605432ecc17",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-poster",
+      "path": "/media/documents/previews/ideal-makoo-complete-catalogue-page-06.jpg",
+      "page": 6,
+      "sourcePage": 1,
+      "sourcePanel": 5,
+      "bytes": 180274,
+      "sha256": "e4060dd693aeb4f0c98edeac9d16b1e0dc7864f8f1f499e0d1d5d36fc64e98cf",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-poster",
+      "path": "/media/documents/previews/ideal-makoo-complete-catalogue-page-07.jpg",
+      "page": 7,
+      "sourcePage": 1,
+      "sourcePanel": 6,
+      "bytes": 219660,
+      "sha256": "c58b5422f2f997781732c4b59680fba2135a317fbd9f59c8784da9c93f23da28",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-poster",
+      "path": "/media/documents/previews/ideal-makoo-complete-catalogue-page-08.jpg",
+      "page": 8,
+      "sourcePage": 1,
+      "sourcePanel": 7,
+      "bytes": 155284,
+      "sha256": "423b38c93da442b76601081bf5ad44ea7cd31844de61b3c1181241ffcc6dcc02",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-poster",
+      "path": "/media/documents/previews/ideal-makoo-complete-catalogue-page-09.jpg",
+      "page": 9,
+      "sourcePage": 1,
+      "sourcePanel": 8,
+      "bytes": 145997,
+      "sha256": "2af8dbaf01f05300f884d4c5a05b1f74d706f9681694e2c98363935897dc78f0",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-poster",
+      "path": "/media/documents/previews/ideal-makoo-complete-catalogue-page-10.jpg",
+      "page": 10,
+      "sourcePage": 1,
+      "sourcePanel": 9,
+      "bytes": 141242,
+      "sha256": "5e677879b9a8fb8a188bfaca9e67686d23482b36095557f7073b003e463065f5",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-poster",
+      "path": "/media/documents/previews/ideal-makoo-complete-catalogue-page-11.jpg",
+      "page": 11,
+      "sourcePage": 1,
+      "sourcePanel": 10,
+      "bytes": 138339,
+      "sha256": "bf6d83be49a2a710ad8e931c61d9f7446ad4745140e067749a08ab706aae2a97",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-poster",
+      "path": "/media/documents/previews/ideal-makoo-complete-catalogue-page-12.jpg",
+      "page": 12,
+      "sourcePage": 1,
+      "sourcePanel": 11,
+      "bytes": 399759,
+      "sha256": "974a184b770253a11aee9a2b845b54a4efb0d22cdd825c7b2e0020984c0694af",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-poster",
+      "path": "/media/documents/previews/ideal-makoo-complete-catalogue-page-13.jpg",
+      "page": 13,
+      "sourcePage": 1,
+      "sourcePanel": 12,
+      "bytes": 441757,
+      "sha256": "87857d92f8ed2895a8020c825c3983c9ed8f38e6a6c9bbc7e34b17e283281ee1",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-poster",
+      "path": "/media/documents/previews/ideal-makoo-complete-catalogue-page-14.jpg",
+      "page": 14,
+      "sourcePage": 1,
+      "sourcePanel": 13,
+      "bytes": 236927,
+      "sha256": "dbbb71e787235601f6980f13e0036e55dfa2fe89c940d39199b92efd7dd7cf0c",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-poster",
+      "path": "/media/documents/previews/ideal-makoo-complete-catalogue-page-15.jpg",
+      "page": 15,
+      "sourcePage": 1,
+      "sourcePanel": 14,
+      "bytes": 394371,
+      "sha256": "8b0e271082071d969d3299c5a98202a22d189b2dd91ebc21ff5d26d7c7c7ff63",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-poster",
+      "path": "/media/documents/previews/ideal-makoo-complete-catalogue-page-16.jpg",
+      "page": 16,
+      "sourcePage": 1,
+      "sourcePanel": 15,
+      "bytes": 393422,
+      "sha256": "4c595af637b98e0133bb4491fa6c0221de135b6f485d584b49fc3782976dcd66",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-poster",
+      "path": "/media/documents/previews/ideal-makoo-complete-catalogue-page-17.jpg",
+      "page": 17,
+      "sourcePage": 1,
+      "sourcePanel": 16,
+      "bytes": 426437,
+      "sha256": "aa1d8fc35e359a0a5b30c6fa6c3e1fda71f1f50187a88c83be3d239d3dc95135",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-poster",
+      "path": "/media/documents/previews/ideal-makoo-complete-catalogue-page-18.jpg",
+      "page": 18,
+      "sourcePage": 1,
+      "sourcePanel": 17,
+      "bytes": 412211,
+      "sha256": "603611c0e01d4922f11cc9e6504866b635a4d5215e69a6fcc3d4607145a4deea",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-poster",
+      "path": "/media/documents/previews/ideal-makoo-complete-catalogue-page-19.jpg",
+      "page": 19,
+      "sourcePage": 1,
+      "sourcePanel": 18,
+      "bytes": 386062,
+      "sha256": "b49c1fdc790e52e8832fc1d73dfa13eb21e94d0630afb0d2613b9e0857237ed4",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-poster",
+      "path": "/media/documents/previews/ideal-makoo-complete-catalogue-page-20.jpg",
+      "page": 20,
+      "sourcePage": 1,
+      "sourcePanel": 19,
+      "bytes": 354873,
+      "sha256": "b3161810d95d66c5d0383532baaa1ba8a13c58f2544f040d7f47f48f5b08a662",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-poster",
+      "path": "/media/documents/previews/ideal-makoo-complete-catalogue-page-21.jpg",
+      "page": 21,
+      "sourcePage": 1,
+      "sourcePanel": 20,
+      "bytes": 322419,
+      "sha256": "c009afd0f7a22930f2d14fe74fa4c62bf08b5a17218ef89f5d4fe177439c80a4",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-poster",
+      "path": "/media/documents/previews/ideal-makoo-complete-catalogue-page-22.jpg",
+      "page": 22,
+      "sourcePage": 1,
+      "sourcePanel": 21,
+      "bytes": 370308,
+      "sha256": "49d140d625caf3f0f2f2cf680aee05b0aedf571d11ef759b9dc034f5ad0654bd",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-poster",
+      "path": "/media/documents/previews/ideal-makoo-complete-catalogue-page-23.jpg",
+      "page": 23,
+      "sourcePage": 1,
+      "sourcePanel": 22,
+      "bytes": 349446,
+      "sha256": "f6bf8db93929d0b5ba4ebcc9a638aacabeee07fac50d99f3f97654bf40b3d322",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-poster",
+      "path": "/media/documents/previews/ideal-makoo-complete-catalogue-page-24.jpg",
+      "page": 24,
+      "sourcePage": 1,
+      "sourcePanel": 23,
+      "bytes": 384617,
+      "sha256": "7e24f3127f1f436344b51c580b3ee6f33e8a9f42345c8c8ac9985487a1ca5285",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-poster",
+      "path": "/media/documents/previews/ideal-makoo-complete-catalogue-page-25.jpg",
+      "page": 25,
+      "sourcePage": 1,
+      "sourcePanel": 24,
+      "bytes": 408035,
+      "sha256": "f4e8c19dc7037969cf52474e64be79e35a16b0f719bb380049ed5ae6e957bf09",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-poster",
+      "path": "/media/documents/previews/ideal-makoo-complete-catalogue-page-26.jpg",
+      "page": 26,
+      "sourcePage": 1,
+      "sourcePanel": 25,
+      "bytes": 379499,
+      "sha256": "32c15962c2f38e48bf0d47e5badddc310e6cd33865d9fff23a88608df180eb1a",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-guide",
+      "path": "/media/documents/previews/ideal-makoo-mould-guide-page-01.jpg",
+      "page": 1,
+      "sourcePage": 1,
+      "bytes": 510316,
+      "sha256": "18545062b4c2efe5db0e6f622af74e8c1c6d07a47479a86dcd0b852d644b9310",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-guide",
+      "path": "/media/documents/previews/ideal-makoo-mould-guide-page-02.jpg",
+      "page": 2,
+      "sourcePage": 2,
+      "bytes": 400126,
+      "sha256": "01bf842e56fe3a77d988e16244c01c48d7721d4f1683b71ded34b5f2949f4284",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-guide",
+      "path": "/media/documents/previews/ideal-makoo-mould-guide-page-03.jpg",
+      "page": 3,
+      "sourcePage": 3,
+      "bytes": 404332,
+      "sha256": "9b8be9f756cd5fe712d033d05cfffb6e1763283b0a46da4d99d0355f5ac01a5f",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-guide",
+      "path": "/media/documents/previews/ideal-makoo-mould-guide-page-04.jpg",
+      "page": 4,
+      "sourcePage": 4,
+      "bytes": 340150,
+      "sha256": "1ae168835ba791abc6f343c5d954650d78211a14ade4215f7179d005daa43967",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-guide",
+      "path": "/media/documents/previews/ideal-makoo-mould-guide-page-05.jpg",
+      "page": 5,
+      "sourcePage": 5,
+      "bytes": 303036,
+      "sha256": "7dc7b65fa89790e5d581728717568da71fc067f620847e2b8ce5fa8356dca44c",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-guide",
+      "path": "/media/documents/previews/ideal-makoo-mould-guide-page-06.jpg",
+      "page": 6,
+      "sourcePage": 6,
+      "bytes": 236928,
+      "sha256": "7acad0e585671e57b2eae51c76ce0b3ecc822490d5810a02aeb79dc925f7c957",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-guide",
+      "path": "/media/documents/previews/ideal-makoo-mould-guide-page-07.jpg",
+      "page": 7,
+      "sourcePage": 7,
+      "bytes": 252245,
+      "sha256": "87884d7453fa993a0b1cdad4559605807791100bf4d89153a3d349c2b5f2d60a",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-guide",
+      "path": "/media/documents/previews/ideal-makoo-mould-guide-page-08.jpg",
+      "page": 8,
+      "sourcePage": 8,
+      "bytes": 392002,
+      "sha256": "c3997ba65f1ac310dc47547d34a04cf6f46fd3c5cdba2c796f4158ce13b4e60c",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-guide",
+      "path": "/media/documents/previews/ideal-makoo-mould-guide-page-09.jpg",
+      "page": 9,
+      "sourcePage": 9,
+      "bytes": 209122,
+      "sha256": "ed81431a1773ed16dcbb161c914c9b7bebd4bac71cec82b2e0bbc9efaca7a19f",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-guide",
+      "path": "/media/documents/previews/ideal-makoo-mould-guide-page-10.jpg",
+      "page": 10,
+      "sourcePage": 10,
+      "bytes": 213305,
+      "sha256": "511dc06a1cb8ee75b398ba138aeb77487dd0eefed9b468475902b4d70d8ad761",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-guide",
+      "path": "/media/documents/previews/ideal-makoo-mould-guide-page-11.jpg",
+      "page": 11,
+      "sourcePage": 11,
+      "bytes": 209180,
+      "sha256": "a46b7d04cd89020a64057cd05b11fc8554b4c2b62017242d8c1b094e3999d926",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-guide",
+      "path": "/media/documents/previews/ideal-makoo-mould-guide-page-12.jpg",
+      "page": 12,
+      "sourcePage": 12,
+      "bytes": 525180,
+      "sha256": "8c22aa574e40c85511f00e5652747d52cdf1fb3355b784f1d35a8f1b80a7ac0e",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-guide",
+      "path": "/media/documents/previews/ideal-makoo-mould-guide-page-13.jpg",
+      "page": 13,
+      "sourcePage": 13,
+      "bytes": 589696,
+      "sha256": "09ef266cff26767b10417284dfe9d9c0a9ccc1a1ffc1fe6f5f5b2eb8cb9f771c",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    },
+    {
+      "documentId": "ideal-makoo-mould-guide",
+      "path": "/media/documents/previews/ideal-makoo-mould-guide-page-14.jpg",
+      "page": 14,
+      "sourcePage": 14,
+      "bytes": 309772,
+      "sha256": "5749ad6544f079b74440dd7c443e7532678028241d2162152b4dacf22c10ea5f",
+      "derivation": "visually checked source-page raster; JPEG quality93, no content reconstruction"
+    }
+  ],
+  "sourceAudit": {
+    "retrievedAt": "2026-10-17",
+    "attemptedURLs": 45,
+    "successfulPublicPages": 43,
+    "composition": {
+      "products": 17,
+      "research": 13,
+      "company": 10,
+      "homeAndIndexes": 3
+    },
+    "newInternalPageIdsFound": [],
+    "linkedPdfOfficeOrZipDocuments": [],
+    "imageURLsInPageMarkup": 42,
+    "allMarkupImagesAlreadyCoveredByOfficialAssetInventory": true,
+    "unavailable": [
+      {
+        "url": "https://idealmakoo.com/robots.txt",
+        "status": 404
+      },
+      {
+        "url": "https://idealmakoo.com/sitemap.xml",
+        "status": 404
+      },
+      {
+        "url": "https://idealmakoo.com/movies/film1.mp4",
+        "status": 403
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://idealmakoo.com/",
+        "status": 200,
+        "title": "شرکت ایده آل ماکو",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/10/super-newclar",
+        "status": 200,
+        "title": "دندان مصنوعی سوپر نیوکلار",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/11/marjan-new",
+        "status": 200,
+        "title": "دندان مصنوعی مرجان نیو",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/12/yaghoot",
+        "status": 200,
+        "title": "دندان مصنوعی یاقوت",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/13/newclar",
+        "status": 200,
+        "title": "دندان مصنوعی نیوکلار",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/14/b-star-nano-base",
+        "status": 200,
+        "title": "دندان مصنوعی نانو بیس بی استار ایده آل ماکو",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/15/دندان-مصنوعی-برلیان",
+        "status": 200,
+        "title": "دندان مصنوعی برلیان",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/16/دندان-مصنوعی-پرزیدنت",
+        "status": 200,
+        "title": "دندان مصنوعی پرزیدنت",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/17/مقایسه-نرخ-سایش",
+        "status": 200,
+        "title": "مقایسه نرخ سایش ۴ نوع دندان مصنوعی",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/18/استحکام-باند-برشی",
+        "status": 200,
+        "title": "بررسی آزمایشگاهی استحکام باند برشی کامپوزیت ایرانی و سوئیسی",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/19/مقایسه-سایشی-دندان",
+        "status": 200,
+        "title": "مقایسه ی سایشی دندان APPLE و سوپر ماژور",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/2/about",
+        "status": 200,
+        "title": "درباره ما",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/20/مقایسه-نرخ-سایش",
+        "status": 200,
+        "title": "مقایسه نرخ سایش ۶ نوع دندان مصنوعی",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/21/mission",
+        "status": 200,
+        "title": "رسالت و بيانه شركت توليدي ايده آل ماكو",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/22/goals",
+        "status": 200,
+        "title": "اهداف و آرمانها",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/23/stretegy",
+        "status": 200,
+        "title": "اهداف و استراتژي تجارت",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/24/positioning",
+        "status": 200,
+        "title": "جايگاه يابي",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/25/segmentataion",
+        "status": 200,
+        "title": "بخش بندي بازار",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/26/development",
+        "status": 200,
+        "title": "توسعه محصولات جديد",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/27/price",
+        "status": 200,
+        "title": "قيمت و قيمت گذاري",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/28/bazar",
+        "status": 200,
+        "title": "دورهاي فرايند اموزشي مديريت بازاريابي ومديريت بربازار",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/3/products",
+        "status": 200,
+        "title": "محصولات",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/30/اسید-اچ-37%-دنتکس",
+        "status": 200,
+        "title": "اسید اچ 37% دنتکس",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/31/باندینگ-رزین-نسل-8",
+        "status": 200,
+        "title": "باندینگ رزین نسل 8",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/32/کامپوزیت-لایت-کیور",
+        "status": 200,
+        "title": "کامپوزیت لایت کیور",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/33/دندان-ایده-آل-لاین",
+        "status": 200,
+        "title": "دندان ایده آل لاین",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/34/میزان-استحکام-باند-بیس-رزینی",
+        "status": 200,
+        "title": "بررسی میزان استحکام باند بیس رزینی به چهار نوع دندان مصنوعی گلامور،یاقوت،اپل ،و ایو کلار",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/35/بررسی-مقایسه-ای-استحکام-اتصال-دندانهای-مصنوعی-آکریلی-و-کامپوزیتی-،ایرانی-به-خارجی-به-رزین-پایه-پروتز",
+        "status": 200,
+        "title": "بررسی مقایسه ای استحکام اتصال دندانهای مصنوعی آکریلی و کامپوزیتی ،ایرانی به خارجی به رزین پایه پروتز",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/36/میزان-استحکام-اتصال-سه-نوع-دندان-مصنوعی",
+        "status": 200,
+        "title": "مقایسه میزان استحکام اتصال سه نوع دندان مصنوعی به آکریل بیس دنچر در پروتزهای کامل متحرک",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/37/بررسی-مقاومت-سایشی-دندان-پرزیدنت-و-آیوکلار",
+        "status": 200,
+        "title": "بررسی مقایسه ای مقاومت سایشی دندان پرزیدنت و آیوکلار در مقابل دندان طبیعی به وسیله اسکنر سه بعدی",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/38/استحکام-اتصال-سه-نوع-دندان-مصنوعی",
+        "status": 200,
+        "title": "بررسی مقایسه ای استحکام اتصال سه نوع دندان مصنوعی (دو نوعایرانی و یک نوع خارجی) با رزین گرماسخت پایه پروتز",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/39/مقایسه-میزان-سایش-در-دندان-ها",
+        "status": 200,
+        "title": "مقایسه میزان سایش در دندان های آکریلیک ماژور پلاس، سوپر لوکس پلی دنت پریمو، سوپر برلیان، ویتاپان و ایوکلار",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/4/contact",
+        "status": 200,
+        "title": "تماس با ما",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/40/بررسی-آزمایشگاهی-استحکام-برشی-باندینگ-کامپوزیت",
+        "status": 200,
+        "title": "بررسی آزمایشگاهی استحکام برشی باندینگ کامپوزیت ایرانی ایده آل ماکو و سوئیسی سینوژی به عاج",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/41/مقایسه-میزان-سایش-در-دندان-ها",
+        "status": 200,
+        "title": "مقایسه میزان سایش در دندان های آکریلیک ماژوردنت کلاسیک، ماژوردنت نیو، ماژور کریستال، مایرسون، برلیان و ایو کلار",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/42/بررسی-مقایسه-ای-سایش-دو-نوع-دندان-مصنوعی-ایرانی",
+        "status": 200,
+        "title": "بررسی مقایسه ای سایش دو نوع دندان مصنوعی ایرانی با دندان مصنوعی ایوکلار",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/5/blog",
+        "status": 200,
+        "title": "وبلاگ",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/51/دندان-آنتیک",
+        "status": 200,
+        "title": "دندان آنتیک",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/56/پوتی-لابراتواری",
+        "status": 200,
+        "title": "پوتی لابراتواری",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/6/apple",
+        "status": 200,
+        "title": "دندان مصنوعی اپل",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/7/bstar-nano-composite",
+        "status": 200,
+        "title": "دندان مصنوعی بی استار نانو کامپوزیت",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/8/super-berelian",
+        "status": 200,
+        "title": "دندان مصنوعی سوپر برلیان",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/pages/9/glamour",
+        "status": 200,
+        "title": "دندان مصنوعی گلامور",
+        "error": null
+      },
+      {
+        "url": "https://idealmakoo.com/robots.txt",
+        "status": null,
+        "title": null,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://idealmakoo.com/sitemap.xml",
+        "status": null,
+        "title": null,
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  }
+}

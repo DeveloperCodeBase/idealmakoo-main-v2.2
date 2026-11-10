@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/development/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "e384711ea1d40ccc33d7b10f93c24273bd91253d28ab3573fd1a0a3578c7910b",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Исследования и разработка продукции | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Переход от акриловых зубов к композитам с учётом обратной связи рынка и исследований."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/development/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/development/",
+    "en": "http://127.0.0.1:3100/en/development/",
+    "tr": "http://127.0.0.1:3100/tr/development/",
+    "ar": "http://127.0.0.1:3100/ar/development/",
+    "ru": "http://127.0.0.1:3100/ru/development/",
+    "x-default": "http://127.0.0.1:3100/fa/development/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 47
+}

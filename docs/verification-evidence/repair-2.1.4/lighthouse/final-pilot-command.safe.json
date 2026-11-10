@@ -1,0 +1,12 @@
+{
+  "label": "final-width480-pilot",
+  "startedAt": "2026-10-25T12:49:06.563978+00:00",
+  "finishedAt": "2026-10-25T12:49:54.009379+00:00",
+  "durationSeconds": 47.445,
+  "exitCode": 0,
+  "receivedSignals": [],
+  "environmentValuesExported": false,
+  "buildId": "NWcRPAySX3HCzbpKSDJNf",
+  "sourceReceiptSha256": "ddc57e958a65c458a6f74c556de12f24d32185f7e9f06c0cdafdafca31446094",
+  "commandAndHostPathsOmitted": true
+}

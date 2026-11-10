@@ -1,0 +1,43 @@
+{
+  "format": "offline-static-input-continuity-v1",
+  "observedAt": "2026-10-26T01:06:50.848484+00:00",
+  "status": "source-delta-verified-serving-refresh-pending",
+  "compiledBuildId": "ir2DFJg8r5YdpbVQubUqF",
+  "compiledBuildInputFingerprint": "4fcec50f5846b0affccc59e43798613ba134a3f93559ea5ddba9705e1f38cc58",
+  "originalPrimaryInputFingerprint": "64a14915618ac34a4daee3aa64eb82d44438b993096491966afc487be9f67b12",
+  "currentInputFingerprint": "7453e88d3e56fbe65ef319c3b0a770bd48fef216505e49e7d3e5955f829655ee",
+  "currentInputCount": 834,
+  "currentInputReceiptSha256": "00c9f0292e88f8a5deed252377f65d34a3572916531397ed4078bd23cfb5f394",
+  "previousPrimaryManifest": {
+    "path": "../../application-inputs-before-offline-favicon-64a.safe.json",
+    "sha256": "fc04da4e3110ee77110fddef5ced25113c1618f9c38cc584ea20e0ce062925f6"
+  },
+  "candidateManifestSha256": "8a0960d032b5af7adaf43acf1a242c8400f3428c0e538c8ba4bf7ab7680008a9",
+  "changesSinceOriginalPrimary": [
+    "public/media/official/idealmakoo-favicon-48.png",
+    "public/offline/ar.html",
+    "public/offline/en.html",
+    "public/offline/fa.html",
+    "public/offline/ru.html",
+    "public/offline/tr.html",
+    "public/service-worker-classic.js",
+    "public/service-worker.js",
+    "public/sw-policy.js"
+  ],
+  "unchangedOriginalPrimaryInputs": 825,
+  "unchangedCompiledBuildInputs": 822,
+  "all41MigrationsUnchanged": true,
+  "compiledScope": ".next regular files excluding all cache directories and standalone/public",
+  "compiledFileBytesAndMembershipUnchanged": true,
+  "compiledFilesChecked": 3634,
+  "sourcePublicFiles": 141,
+  "sourcePublicDiffExactlyApproved": true,
+  "sourceStaticChanges": 9,
+  "testChangesOutsideInputFingerprint": 3,
+  "applicationRecompiled": false,
+  "publicWorkerRuntimeChanged": true,
+  "testedDockerImageContainsThisLaterPublicStaticDelta": false,
+  "originalPrimary1169OutcomesReplacedOrReusedAsNewAssetMeasurements": false,
+  "servedCopyValidation": "Pending owned Next-only restart, separate served-after-restart receipt",
+  "newFocusedPwaAndFivePageScores": "Pending; no passing runtime result claimed by this source-only receipt"
+}

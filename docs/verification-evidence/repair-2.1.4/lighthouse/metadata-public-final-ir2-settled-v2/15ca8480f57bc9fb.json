@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/about/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "fe27a39c8eb243303e7011061becd967c89ed8dbb3507d47bff305a2a711fecb",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "О компании Ideal Makoo | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Ideal Makoo основана в 1360 году солнечной хиджры и производит искусственные зубы и стоматологические материалы в свободной зоне Маку."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/about/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/about/",
+    "en": "http://127.0.0.1:3100/en/about/",
+    "tr": "http://127.0.0.1:3100/tr/about/",
+    "ar": "http://127.0.0.1:3100/ar/about/",
+    "ru": "http://127.0.0.1:3100/ru/about/",
+    "x-default": "http://127.0.0.1:3100/fa/about/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 44
+}

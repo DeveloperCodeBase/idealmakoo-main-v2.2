@@ -1,0 +1,33 @@
+{
+  "name": "unit-04",
+  "command": [
+    "npm",
+    "run",
+    "test:unit"
+  ],
+  "startedAt": "2026-10-23T11:07:13.442716+00:00",
+  "finishedAt": "2026-10-23T11:07:45.774106+00:00",
+  "durationSeconds": 32.236,
+  "exitCode": 0,
+  "sourceBefore": {
+    "sha256": "a9337f54dad49cdd79a8498cd575b05349887860dded6e5fabb5c10b6ca9ebce",
+    "files": 986
+  },
+  "sourceAfter": {
+    "sha256": "a9337f54dad49cdd79a8498cd575b05349887860dded6e5fabb5c10b6ca9ebce",
+    "files": 986
+  },
+  "sourceChanged": [],
+  "accepted": true,
+  "logSha256": "ea17ad7663f450966d53ebb9fca3c91de35a02fad7c0a5307c8e741180873b5a",
+  "version": "2.1.2",
+  "buildId": "fIFLzhRg6HZ_mfSabbL8J",
+  "tests": {
+    "total": 815,
+    "passed": 815,
+    "failed": 0,
+    "skipped": 0,
+    "cancelled": 0,
+    "todo": 0
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "kind": "diagnostic-package07-offline-input-maps",
+  "status": "prepared-not-packaged",
+  "recordedAt": "2026-10-24T15:35:58.382554+00:00",
+  "manifestImplementation": {
+    "path": "freeze_current_evidence_package06.py",
+    "sha256": "5f7fa39840d44739bebc878d79cef284dc2afeef158394229ac5100ef349e314",
+    "functionsUsedUnchanged": [
+      "sha",
+      "canonical",
+      "application_inputs"
+    ],
+    "serialization": "json.dumps(entries, sort_keys=True, separators=(comma,colon)).encode()",
+    "fullPackagerExecuted": false
+  },
+  "previousActualPackage": {
+    "path": "corrected-package-05",
+    "archiveSha256": "ab20ca219c2c3011db8632b0f96cd46d7d0dd487e8fb2104cf002977ce9965f9",
+    "executionInputSha256": "82dd68edb6fa454fd8f296dcc61b958c6d4547e280abc8d70192532c7907d012"
+  },
+  "currentApplicationInputs": {
+    "files": 987,
+    "sha256": "30d2d54eef773f72807ed4473e64627b54bd3da16509bc3de3f6cf8c609079d4"
+  },
+  "currentExecutionInputs": {
+    "files": 996,
+    "sha256": "bbcff086722095bd3a20c1f679fbc8f5ff61730785476dc2d1d3e1f2531c3639"
+  },
+  "changedExecutionPaths": [
+    "deploy/service-lifecycle.py",
+    "tests/deployment_service_lifecycle_test.py"
+  ],
+  "compilerInputs": {
+    "files": 727,
+    "sha256": "9e2914460b7db6ecd1156bf9e9de79ea38271b860f161f5be47b4c58ebf9e680",
+    "changed": []
+  },
+  "files": {
+    "application-inputs.json": "bdc5bbb1a92273af25e2e8ff282a40fbc8a000a9060582332e57e0e6777edaf4",
+    "execution-inputs.json": "7abb64131557b5d77882b1df0ed71d1ce5c046667e5ec8f9dfe7c60bfd1de6a7",
+    "compiler-input-equivalence.safe.json": "0d59cf6440a0bf47b4f865b5294eb577e671048a2222bd4c3e84e823a9c2f3d7"
+  },
+  "testsBuildPackageVMOrServiceExecutionPerformed": false,
+  "productFilesChanged": false,
+  "previous06PreparationPreservedUnexecuted": true
+}

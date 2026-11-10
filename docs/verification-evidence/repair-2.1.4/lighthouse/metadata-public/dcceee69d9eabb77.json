@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/events/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "03f1be4ee8796c226b085f33cbae8788ff94eab5277589c37135545c1bd2291d",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Dental topluluğa daha yakın. | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Fuar duyuruları, uzman toplantıları ve fabrika programları yayınlandığında burada görünür."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/events/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/events/",
+    "en": "http://127.0.0.1:3100/en/events/",
+    "tr": "http://127.0.0.1:3100/tr/events/",
+    "ar": "http://127.0.0.1:3100/ar/events/",
+    "ru": "http://127.0.0.1:3100/ru/events/",
+    "x-default": "http://127.0.0.1:3100/fa/events/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 57
+}

@@ -1,0 +1,18 @@
+# Optional, explicitly selected corporate build trust. This does not mount the
+# certificate into runtime services or disable normal certificate validation.
+x-build-trust: &build-trust
+  secrets: [build_ca]
+
+services:
+  app:
+    build: *build-trust
+  migrate:
+    build: *build-trust
+  worker:
+    build: *build-trust
+  storage-tool:
+    build: *build-trust
+
+secrets:
+  build_ca:
+    file: ${BUILD_CA_CERT_FILE:?Set a reviewed absolute PEM CA path in the protected environment}

@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/support/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "e1bc664f4a9a6fe0bf415f52e676a0a5419f2c476987338ec914ae3a199ad766",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "درخواست پشتیبانی | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "درخواست پشتیبانی درباره محصولات یا خدمات وب‌سایت را با شرح موضوع، اطلاعات تماس و فایل‌های مرتبط ثبت و پیگیری کنید."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/support/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/support/",
+    "en": "http://127.0.0.1:3100/en/support/",
+    "tr": "http://127.0.0.1:3100/tr/support/",
+    "ar": "http://127.0.0.1:3100/ar/support/",
+    "ru": "http://127.0.0.1:3100/ru/support/",
+    "x-default": "http://127.0.0.1:3100/fa/support/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 56
+}

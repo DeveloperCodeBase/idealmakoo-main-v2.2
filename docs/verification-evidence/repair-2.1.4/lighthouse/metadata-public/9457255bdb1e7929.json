@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/cooperation/investment/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "e3bfdfc55e1f77e45edb59b410f61080cc11b80a65f2fa0fe33c8332b44cfaca",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "همکاری سرمایه‌گذاری | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "علاقه‌مندی به همکاری سرمایه‌گذاری را ثبت کنید و برای بررسی پیشنهاد یا دسترسی مجاز به اسناد با کارخانه ارتباط بگیرید."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/cooperation/investment/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/cooperation/investment/",
+    "en": "http://127.0.0.1:3100/en/cooperation/investment/",
+    "tr": "http://127.0.0.1:3100/tr/cooperation/investment/",
+    "ar": "http://127.0.0.1:3100/ar/cooperation/investment/",
+    "ru": "http://127.0.0.1:3100/ru/cooperation/investment/",
+    "x-default": "http://127.0.0.1:3100/fa/cooperation/investment/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 62
+}

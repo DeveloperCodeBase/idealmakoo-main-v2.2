@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/research/iranian-swiss-shear-bond/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "f5c63174fe59c8794715b838280f68d824bccfce8ef15e52da78c32856bbf388",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "İran ve İsviçre kompozitlerinde makaslama bağlantısı | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Yezd Tıp Bilimleri Üniversitesinde 30 premolarla gerçekleştirilen laboratuvar raporu."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/research/iranian-swiss-shear-bond/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/iranian-swiss-shear-bond/",
+    "en": "http://127.0.0.1:3100/en/research/iranian-swiss-shear-bond/",
+    "tr": "http://127.0.0.1:3100/tr/research/iranian-swiss-shear-bond/",
+    "ar": "http://127.0.0.1:3100/ar/research/iranian-swiss-shear-bond/",
+    "ru": "http://127.0.0.1:3100/ru/research/iranian-swiss-shear-bond/",
+    "x-default": "http://127.0.0.1:3100/fa/research/iranian-swiss-shear-bond/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 45
+}

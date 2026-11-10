@@ -1,0 +1,52 @@
+{
+  "scope": "full",
+  "stage": "functional",
+  "attempt": 1,
+  "startedAt": "2026-10-25T18:11:15.704Z",
+  "buildId": "IUO4lyoYpICGn_Igd7EsH",
+  "inputFingerprint": "f22b49bac26f5b59ede573dbaf6ed4cd52c738bfbe32b2d00ae9e47fe28c29ce",
+  "expectedCases": 68,
+  "CIUnset": true,
+  "workers": 1,
+  "retries": 0,
+  "structuredReportParsed": true,
+  "accepted": false,
+  "observedCommandExitCode": 1,
+  "observedSignal": null,
+  "durationSeconds": 287.666464161,
+  "reportedCaseCount": 68,
+  "everyCaseHasExactlyOneResult": true,
+  "everyCasePassed": false,
+  "reportedWorkers": 1,
+  "reportedRetries": [
+    0
+  ],
+  "runnerErrorCount": 0,
+  "finishedAt": "2026-10-25T18:16:03.406Z",
+  "stats": {
+    "startTime": "2026-10-25T18:11:16.123Z",
+    "durationMs": 287214.931,
+    "expected": 67,
+    "unexpected": 1,
+    "flaky": 0,
+    "skipped": 0
+  },
+  "structuredReport": {
+    "sha256": "5f9f4e523ac336022e6de097fffcf671b2390da8eea36f489c2d2b96b7c71eb1",
+    "bytes": 2473452
+  },
+  "terminalLog": {
+    "sha256": "2ffd478601fb71ff9f08a4e1924a0e88e8c8841cab3d220f6128b01633581b9d",
+    "bytes": 16101
+  },
+  "terminalFooter": [
+    "1 failed",
+    "67 passed (4.8m)"
+  ],
+  "artifactManifest": {
+    "sha256": "5bde6b6433191a9cd7344b92f6806af50ede65ac5b3aae096378311085d9242a",
+    "bytes": 2270
+  },
+  "privateMaterialIncluded": false,
+  "rawReceiptSha256": "32df142dc17ca0d47ebd74244acc5216cb761b44d6671c6ba7fa1d3d42c89cca"
+}

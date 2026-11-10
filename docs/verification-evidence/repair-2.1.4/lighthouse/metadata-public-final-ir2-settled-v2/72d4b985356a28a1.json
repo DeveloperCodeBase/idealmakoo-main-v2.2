@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/distributors/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "60517eecc117c6262aefc60040c00818068754ceeb6a75503ecfadb23ec8865e",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Distributor network | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Contact the factory about product distribution in your country or submit an application for distribution cooperation."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/distributors/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/distributors/",
+    "en": "http://127.0.0.1:3100/en/distributors/",
+    "tr": "http://127.0.0.1:3100/tr/distributors/",
+    "ar": "http://127.0.0.1:3100/ar/distributors/",
+    "ru": "http://127.0.0.1:3100/ru/distributors/",
+    "x-default": "http://127.0.0.1:3100/fa/distributors/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 52
+}

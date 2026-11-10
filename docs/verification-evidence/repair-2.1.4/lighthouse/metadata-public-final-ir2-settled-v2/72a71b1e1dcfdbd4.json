@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/research/iranian-swiss-shear-bond/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "cff79f7fb14c239a0c6a1056877e0ca627b371fecdd84d015cf5e40fe4bd7953",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "اتصال برشی کامپوزیت ایرانی و سوئیسی | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "گزارش آزمایشگاهی دانشگاه علوم پزشکی یزد بر روی ۳۰ دندان پرمولر."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/research/iranian-swiss-shear-bond/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/iranian-swiss-shear-bond/",
+    "en": "http://127.0.0.1:3100/en/research/iranian-swiss-shear-bond/",
+    "tr": "http://127.0.0.1:3100/tr/research/iranian-swiss-shear-bond/",
+    "ar": "http://127.0.0.1:3100/ar/research/iranian-swiss-shear-bond/",
+    "ru": "http://127.0.0.1:3100/ru/research/iranian-swiss-shear-bond/",
+    "x-default": "http://127.0.0.1:3100/fa/research/iranian-swiss-shear-bond/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 48
+}

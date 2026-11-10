@@ -1,0 +1,50 @@
+{
+  "observedAt": "2026-10-25T12:17:54.249Z",
+  "fixture": "owned admin with real password/MFA plus customer; current administrator upload policy through HTTP",
+  "maximumFileBytes": 83886080,
+  "maximumRequestBytes": 83951616,
+  "cases": [
+    {
+      "label": "exact-eighty-mib",
+      "fileBytes": 83886080,
+      "status": 201,
+      "problemCode": null,
+      "newAssetRows": 1,
+      "storedBytes": 83886080,
+      "storedChecksumMatches": true,
+      "diskChecksumMatches": true,
+      "noStore": true,
+      "nosniff": true,
+      "closedCsp": true
+    },
+    {
+      "label": "above-eighty-mib-file",
+      "fileBytes": 83886081,
+      "status": 413,
+      "problemCode": "UPLOAD_SIZE",
+      "newAssetRows": 0,
+      "storedBytes": null,
+      "storedChecksumMatches": null,
+      "diskChecksumMatches": null,
+      "noStore": true,
+      "nosniff": true,
+      "closedCsp": true
+    },
+    {
+      "label": "absolute-request-cap-chunked",
+      "requestBytes": 84017360,
+      "status": 400,
+      "problemCode": "MULTIPART_INVALID",
+      "contentLengthSent": false,
+      "noStore": true,
+      "nosniff": true
+    }
+  ],
+  "policyRestored": true,
+  "fixturesDisabled": true,
+  "adminPasswordAndMfaVerified": true,
+  "originalFileLimit": 20971520,
+  "noOutstandingReservations": true,
+  "restoredFileLimit": 20971520,
+  "completedAt": "2026-10-25T12:17:57.947Z"
+}

@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/research/six-acrylic-ranges-steady-wear/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "b1b456702653a41037fcba571ae5853f3c7406ecb11247d02317909d6d8d068c",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "التآكل المستقر في ست مجموعات أسنان صناعية | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "قياس فقدان الوزن عبر مراحل التآكل ومقارنة بريليان وإيفوكلار وأربع مجموعات أخرى."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/research/six-acrylic-ranges-steady-wear/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/six-acrylic-ranges-steady-wear/",
+    "en": "http://127.0.0.1:3100/en/research/six-acrylic-ranges-steady-wear/",
+    "tr": "http://127.0.0.1:3100/tr/research/six-acrylic-ranges-steady-wear/",
+    "ar": "http://127.0.0.1:3100/ar/research/six-acrylic-ranges-steady-wear/",
+    "ru": "http://127.0.0.1:3100/ru/research/six-acrylic-ranges-steady-wear/",
+    "x-default": "http://127.0.0.1:3100/fa/research/six-acrylic-ranges-steady-wear/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 65
+}

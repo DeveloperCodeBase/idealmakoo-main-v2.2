@@ -1,0 +1,60 @@
+{
+  "url": "http://127.0.0.1:3100/ar/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "c6be5f449b50af5e7a23cf225dd85d663d403e0bb788677a2fa2c8ac0a0ae22f",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "الرئيسية | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "أسنان صناعية ومواد لطب الأسنان، بخبرة تتجاوز أربعة عقود. اكتشف مجموعة إيديال ماكو."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/",
+    "en": "http://127.0.0.1:3100/en/",
+    "tr": "http://127.0.0.1:3100/tr/",
+    "ar": "http://127.0.0.1:3100/ar/",
+    "ru": "http://127.0.0.1:3100/ru/",
+    "x-default": "http://127.0.0.1:3100/fa/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "إيدآل ماكو",
+      "url": "http://127.0.0.1:3100",
+      "logo": "http://127.0.0.1:3100/media/brand/logo-transparent.png",
+      "telephone": "02188899776"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 148
+}

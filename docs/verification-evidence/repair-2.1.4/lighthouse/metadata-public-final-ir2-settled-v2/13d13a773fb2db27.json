@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/resources/super-newclar-official-image/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "6399d76d50b73a0b6bd01ea9f28e6bdaa8ad55d9f3b1c3cc18d1b686e33f4a10",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "دندان مصنوعی سوپر نیوکلار — تصویر رسمی | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "دندان مصنوعی سوپر نیوکلار — تصویر رسمی — اسناد تصویری اصلی کارخانه"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/resources/super-newclar-official-image/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/super-newclar-official-image/",
+    "en": "http://127.0.0.1:3100/en/resources/super-newclar-official-image/",
+    "tr": "http://127.0.0.1:3100/tr/resources/super-newclar-official-image/",
+    "ar": "http://127.0.0.1:3100/ar/resources/super-newclar-official-image/",
+    "ru": "http://127.0.0.1:3100/ru/resources/super-newclar-official-image/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/super-newclar-official-image/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 46
+}

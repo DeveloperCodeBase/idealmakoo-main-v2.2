@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/terms/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "92e9e61b3c288871b6539e27e04f13783f5bbc5661627c984cee23c8a2a39bb5",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "شرایط استفاده | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "این وب‌سایت کاتالوگ تخصصی و درگاه ارتباط با ایده‌آل ماکو است. ثبت استعلام، درخواست نمونه یا همکاری به معنی تأیید سفارش، موجودی یا قیمت نیست. شرایط نهایی عرضه پس از بررسی و اعلام رسمی مشخص می‌شود. اطلاعات تماس و جزئیات درخواست را دقیق وارد کنید و فقط فایل‌هایی را ارسال کنید که حق استفاده و اشتراک آن را دارید."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/terms/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/terms/",
+    "en": "http://127.0.0.1:3100/en/terms/",
+    "tr": "http://127.0.0.1:3100/tr/terms/",
+    "ar": "http://127.0.0.1:3100/ar/terms/",
+    "ru": "http://127.0.0.1:3100/ru/terms/",
+    "x-default": "http://127.0.0.1:3100/fa/terms/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 47
+}

@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/research/six-teeth-wear-rate/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "2c98a7b289245b4dc254cb26eee24e3c45138e62a18451027db985fde2d838ce",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Wear-rate comparison of six denture tooth types | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Six groups compared using an alumina disc, artificial saliva and weight-change measurement."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/research/six-teeth-wear-rate/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/six-teeth-wear-rate/",
+    "en": "http://127.0.0.1:3100/en/research/six-teeth-wear-rate/",
+    "tr": "http://127.0.0.1:3100/tr/research/six-teeth-wear-rate/",
+    "ar": "http://127.0.0.1:3100/ar/research/six-teeth-wear-rate/",
+    "ru": "http://127.0.0.1:3100/ru/research/six-teeth-wear-rate/",
+    "x-default": "http://127.0.0.1:3100/fa/research/six-teeth-wear-rate/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 54
+}

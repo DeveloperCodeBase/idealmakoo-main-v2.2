@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-10-21T10:37:43.863Z",
+  "buildId": "-Q7Ffy3JmwVExwxk-Ymk-",
+  "urlPath": "/_next/static/chunks/idealmakoo-hero.a3642cc8ddac9fb2.js",
+  "status": 200,
+  "contentType": "application/javascript; charset=UTF-8",
+  "contentEncoding": "gzip",
+  "expectedBytes": 27372,
+  "receivedBytes": 27372,
+  "expectedSha256": "897fcb099996cd71b6f1bad587adf230c226a09eb73982227759fefe4ada4370",
+  "receivedSha256": "897fcb099996cd71b6f1bad587adf230c226a09eb73982227759fefe4ada4370",
+  "exactBody": true,
+  "workerEntryToken": true,
+  "note": "HTTP emitted-asset identity; a real audited browser network request is recorded separately.",
+  "browserNetworkWitness": {
+    "source": "Actual Lighthouse browser network request on the final home pilot",
+    "lighthouseVersion": "13.5.0",
+    "requestedUrl": "http://127.0.0.1:3090/fa/",
+    "finalDisplayedUrl": "http://127.0.0.1:3090/fa/",
+    "fetchTime": "2026-10-21T10:38:37.237Z",
+    "rawReportSha256": "73aad99f3460a78af1ee84e8a7f481b45a61dab59dd55a31f893943611f565fe",
+    "request": {
+      "url": "http://127.0.0.1:3090/_next/static/chunks/idealmakoo-hero.a3642cc8ddac9fb2.js",
+      "sessionTargetType": "worker",
+      "protocol": "http/1.1",
+      "cache": "none",
+      "rendererStartTime": 683.9030000008643,
+      "networkRequestTime": 683.9030000008643,
+      "networkEndTime": 794.5840000025928,
+      "finished": true,
+      "transferSize": 506,
+      "resourceSize": 27372,
+      "statusCode": 200,
+      "mimeType": "application/javascript",
+      "resourceType": "Script",
+      "priority": "VeryLow",
+      "entity": "127.0.0.1"
+    }
+  }
+}

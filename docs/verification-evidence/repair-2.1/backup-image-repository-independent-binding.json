@@ -1,0 +1,50 @@
+{
+  "recordedAt": "2026-10-21T15:05:57.411384+00:00",
+  "scope": "Independent byte comparison only; operational acceptance of this repair remains required.",
+  "baselineArchiveSha256": "dcc8fabbd1b26e28578038e54c87dc461f39f1c61fe4bba68db3a273008706e1",
+  "sourceBeforeSha256": "03ef35eeb75b81f63d6c73b66e5b3c96fb1071b09e15b3fdcb893b352e565a6a",
+  "sourceAfterSha256": "458f175a29b8bce25c5b45592c10952b57202b894e3aac65e244b7863c726be1",
+  "fileCountBefore": 820,
+  "fileCountAfter": 821,
+  "changedFiles": [
+    {
+      "path": "deploy/backup-image-reference.py",
+      "before": null,
+      "after": {
+        "bytes": 4989,
+        "sha256": "5252657e12853dc860015682d59d5dab2e0f4dec6841cb96425c5d9497419a10"
+      }
+    },
+    {
+      "path": "scripts/backup.sh",
+      "before": {
+        "bytes": 10269,
+        "sha256": "d904f9d8fad7dad241075fbfcbfd97f4486e7a4d519e462f6ae21036709604ab"
+      },
+      "after": {
+        "bytes": 11681,
+        "sha256": "133184b04d86d5be91fe75f83acba2035823e668e95c4186da42e61a4835e596"
+      }
+    },
+    {
+      "path": "tests/deployment_failure_cleanup_test.py",
+      "before": {
+        "bytes": 30370,
+        "sha256": "58f10114046f9b5e08b0d5d7fb30e721aa742be6c9ab96e539c9d09180fe3faa"
+      },
+      "after": {
+        "bytes": 44619,
+        "sha256": "c42c1b929ea670d714f86ecdbf5aba36cb6aece8f674fb69817525faa9554bdc"
+      }
+    }
+  ],
+  "unexpectedChanges": [],
+  "applicationBuildId": "-Q7Ffy3JmwVExwxk-Ymk-",
+  "standaloneBuildId": "-Q7Ffy3JmwVExwxk-Ymk-",
+  "applicationSha256": "12da2b69abf2fa85cf0655bc0b4ec7df9244ea0b50a29cc8c3be1157851b6e1c",
+  "applicationFilesVerified": 678,
+  "applicationMismatches": [],
+  "applicationEvidenceManifestSha256": "0120f9be2468d09a7dd21c8d2bb2050b4abaa350d549ed6e129fed3d85d80954",
+  "inspectionScriptSha256": "741f2b42839c52be089474268a6c5f66f3f689c83113568800685c83902b7dcb",
+  "newOperationalAcceptanceRequired": true
+}

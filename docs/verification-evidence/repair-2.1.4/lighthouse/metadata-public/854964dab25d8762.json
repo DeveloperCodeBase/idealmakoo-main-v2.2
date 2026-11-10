@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/for/research/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "a7effe9a0f580adff75fc4b5575d60046a68c9c113042e081966c56e26afa467",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "الباحثون | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "وصول الباحثين إلى الأرشيف العلمي ومصادر المنتجات ومعلومات الجودة مع نموذج مقترحات البحث للمصنع."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/for/research/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/for/research/",
+    "en": "http://127.0.0.1:3100/en/for/research/",
+    "tr": "http://127.0.0.1:3100/tr/for/research/",
+    "ar": "http://127.0.0.1:3100/ar/for/research/",
+    "ru": "http://127.0.0.1:3100/ru/for/research/",
+    "x-default": "http://127.0.0.1:3100/fa/for/research/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 95
+}

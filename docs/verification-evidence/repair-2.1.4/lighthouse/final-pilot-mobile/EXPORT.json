@@ -1,0 +1,97 @@
+{
+  "format": "sanitized-public-lighthouse-evidence-v1",
+  "exportedAt": "2026-10-25T13:02:56.683Z",
+  "buildId": "NWcRPAySX3HCzbpKSDJNf",
+  "configurationHash": "77269ed6df340b9c673bda51267e8a75fe906bcf0f67745c8db37f82700187de",
+  "expected": 4,
+  "attempts": 4,
+  "coverageComplete": true,
+  "originalReportsRetainedInScratch": true,
+  "rawReportsDelivered": false,
+  "browserScreenshotsDelivered": false,
+  "reportBytes": 1456017,
+  "sourceHashes": {
+    "manifest.json": "8965b84651ae15393c6631818e6639a80c06625677f13a5215303a85ea488542",
+    "inventory.json": "98d23c108d7298ea2185d235d0c2fea412bad8fd64dd01af67b86c8cf22f314a",
+    "summary.json": "4009e291fdeb49175af8b1187de816ae2a726c761e2bbf8ed665942d49bb09fb"
+  },
+  "reports": [
+    {
+      "id": "f5632d87f13791d2",
+      "attempt": 1,
+      "filename": "f5632d87f13791d2.attempt-1.sanitized-lhr.json",
+      "rawReportSha256": "eb035faa1cb367ec2b7cc67978ee2dcde00beb829ff6e93f74d62052c59599e2",
+      "rawBytes": 453755,
+      "bytes": 377025,
+      "sha256": "e05f3673415fc80bf9d047deb0875a977ce31089c68316ce27e00fba4864892d",
+      "removedImagePaths": [
+        {
+          "path": "/audits/screenshot-thumbnails/details",
+          "reason": "screenshot-audit-payload"
+        },
+        {
+          "path": "/audits/final-screenshot/details",
+          "reason": "screenshot-audit-payload"
+        }
+      ]
+    },
+    {
+      "id": "bf146a5a90197d4a",
+      "attempt": 1,
+      "filename": "bf146a5a90197d4a.attempt-1.sanitized-lhr.json",
+      "rawReportSha256": "4eff36c7925d6b4cb3f3b75780d0404ddc0be3fadea1272e97c8e6798f51c231",
+      "rawBytes": 419343,
+      "bytes": 359637,
+      "sha256": "398fb2a055b10bdbe39a442af6bccd48980eefb3c0ac37d743cd7df045854f27",
+      "removedImagePaths": [
+        {
+          "path": "/audits/screenshot-thumbnails/details",
+          "reason": "screenshot-audit-payload"
+        },
+        {
+          "path": "/audits/final-screenshot/details",
+          "reason": "screenshot-audit-payload"
+        }
+      ]
+    },
+    {
+      "id": "75fa919f9c3c8534",
+      "attempt": 1,
+      "filename": "75fa919f9c3c8534.attempt-1.sanitized-lhr.json",
+      "rawReportSha256": "b7a07120ced2bdc793b18769fded377379468d3982caeb3f8370288bdc610ffa",
+      "rawBytes": 416073,
+      "bytes": 329917,
+      "sha256": "3025c743277cb5b9605351576f476de3e628ecbb3cfc45e528d5d986e1045ea9",
+      "removedImagePaths": [
+        {
+          "path": "/audits/screenshot-thumbnails/details",
+          "reason": "screenshot-audit-payload"
+        },
+        {
+          "path": "/audits/final-screenshot/details",
+          "reason": "screenshot-audit-payload"
+        }
+      ]
+    },
+    {
+      "id": "5635c36b9d10e469",
+      "attempt": 1,
+      "filename": "5635c36b9d10e469.attempt-1.sanitized-lhr.json",
+      "rawReportSha256": "3784ca7a85241c7880597a66bf24d0d093feb2d5dff6e3cf1a100f2fe7202f6f",
+      "rawBytes": 400250,
+      "bytes": 389438,
+      "sha256": "93fdba1570fc1023a06239967b4fd76c665dcddbe25366ff03a3e795a38487d3",
+      "removedImagePaths": [
+        {
+          "path": "/audits/screenshot-thumbnails/details",
+          "reason": "screenshot-audit-payload"
+        },
+        {
+          "path": "/audits/final-screenshot/details",
+          "reason": "screenshot-audit-payload"
+        }
+      ]
+    }
+  ],
+  "note": "Explicitly sanitized derivative, not a raw Lighthouse report. Original raw reports remain in scratch and are identified by SHA256. Screenshot/image payloads are omitted at the exact JSON pointers recorded; scores, metrics, nonimage audit results and failed attempts are retained. Browser logs, input files, cookies and private raw reports are not included."
+}

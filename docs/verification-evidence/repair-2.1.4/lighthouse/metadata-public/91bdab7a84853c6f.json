@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/research/three-teeth-heat-cured-resin/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "c2d187cfdb2ea81d6cdfa5ed7026f83f81498cfbd288662507af3bb670d69172",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "ارتباط بريليان وسوبر بريليان وإيفوكلار بالراتنج الحراري | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "مقارنة ثلاث مجموعات مع فحص موضع الكسر في السن أو القاعدة الأكريليكية."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/research/three-teeth-heat-cured-resin/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/three-teeth-heat-cured-resin/",
+    "en": "http://127.0.0.1:3100/en/research/three-teeth-heat-cured-resin/",
+    "tr": "http://127.0.0.1:3100/tr/research/three-teeth-heat-cured-resin/",
+    "ar": "http://127.0.0.1:3100/ar/research/three-teeth-heat-cured-resin/",
+    "ru": "http://127.0.0.1:3100/ru/research/three-teeth-heat-cured-resin/",
+    "x-default": "http://127.0.0.1:3100/fa/research/three-teeth-heat-cured-resin/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 76
+}

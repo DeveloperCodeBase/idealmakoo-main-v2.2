@@ -1,0 +1,32 @@
+{
+  "exportedAt": "2026-10-20T15:51:55.238Z",
+  "format": "compact-lighthouse-evidence-v2",
+  "buildId": "zTyFzGk88zFYZzMkC8On8",
+  "configurationHash": "d1518e8a536d1ae8b1cae2f33e3be1d73fe1f0054801c1dd72f62cca1fc9bb90",
+  "expected": 4,
+  "attempts": 4,
+  "coverageComplete": true,
+  "maximumPartBytes": 33554432,
+  "parts": [
+    {
+      "filename": "audit-part-0001.json",
+      "attempts": 4,
+      "bytes": 255183,
+      "sha256": "9b818a3677a2f5ba0f1d2326fc57b09e1a85f296593935cfe662caeff77cb446"
+    }
+  ],
+  "compactAuditBytes": 255183,
+  "omissions": {
+    "rawLighthouseReports": true,
+    "allBrowserScreenshots": true,
+    "base64ImageData": true,
+    "omittedAuditIds": [
+      "full-page-screenshot",
+      "screenshot-thumbnails",
+      "final-screenshot"
+    ],
+    "detailArrayMaximumItems": 20,
+    "detailMaximumStringCharacters": 16000,
+    "note": "This is a compact derivative, not a raw Lighthouse report. Scores, metrics, statuses, runtime errors, warnings and every non-screenshot audit result are retained. Failed/error audit details are retained with explicit array/string bounds; raw reports are identified by SHA-256. Screenshot artifacts and their embedded image bytes are deliberately excluded."
+  }
+}

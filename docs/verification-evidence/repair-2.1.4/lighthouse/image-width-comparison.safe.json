@@ -1,0 +1,206 @@
+{
+  "checkedAt": "2026-10-25T12:48:57.954Z",
+  "buildId": "NWcRPAySX3HCzbpKSDJNf",
+  "applicationVersion": "2.1.4",
+  "baseUrl": "http://127.0.0.1:3100",
+  "sourceInventory": {
+    "file": "f5632d87f13791d2.attempt-1.lhr.json",
+    "sha256": "ca0a25a6ec1038382e8d50799548ecf159ce02bba6d192f29e352494aa3adb16",
+    "count": 7,
+    "originalLighthouseReportRetainedInScratch": true
+  },
+  "note": "Direct public HTTP responses, Accept image/webp, unchanged quality75 and original source bytes. This is a byte/dimension comparison, not a Lighthouse score or proof that every browser selected480; the separately captured viewport checks establish actual selection.",
+  "totals": {
+    "width640Bytes": 537032,
+    "width480Bytes": 256160,
+    "savedBytes": 280872,
+    "savedPercent": 52.30079399365401
+  },
+  "records": [
+    {
+      "src": "/media/official/1689235166.jpg",
+      "sourceSha256": "3ffb0c03a1e740e5dd3e52a4e81a31517fb6bcefdb54dd6f6370acea1020a3b3",
+      "responses": {
+        "480": {
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 68950,
+          "sha256": "fedf56623b4076c9edd917cdd91a17e8f1a9487685fea87c18745377b16b63fc",
+          "width": 480,
+          "height": 660,
+          "quality": 75
+        },
+        "640": {
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 148404,
+          "sha256": "76514ffd266bcd926928cbaad464178b46d2d37e845a334a6d91dd58cf3b8828",
+          "width": 640,
+          "height": 881,
+          "quality": 75
+        }
+      },
+      "savedBytes": 79454,
+      "savedPercent": 53.53898816743484
+    },
+    {
+      "src": "/media/official/1689235611.jpg",
+      "sourceSha256": "9050c9089c629b13c0b0839135a9264c992360eb09b5e100647634686f13071d",
+      "responses": {
+        "480": {
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 49514,
+          "sha256": "9768cfc13caa45337cb056322b07ed654e604402ff6876bbe29fb102d600cdad",
+          "width": 480,
+          "height": 699,
+          "quality": 75
+        },
+        "640": {
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 104380,
+          "sha256": "cf5c50c0c03502775f3f0d5c57a36232da9dbd6e8f2316d3d20dc6fe73e1b170",
+          "width": 640,
+          "height": 932,
+          "quality": 75
+        }
+      },
+      "savedBytes": 54866,
+      "savedPercent": 52.563709522897106
+    },
+    {
+      "src": "/media/official/1689234925.jpg",
+      "sourceSha256": "e680d784396e66306b6573c350010f9eec7e1d86bcf678f2612599a5d3df18bd",
+      "responses": {
+        "480": {
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 36152,
+          "sha256": "c6d52ed0cfb842db037637103f22b14e5c59800a745ec95a75c3b36d8b449a35",
+          "width": 480,
+          "height": 685,
+          "quality": 75
+        },
+        "640": {
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 81664,
+          "sha256": "6b6164cd765f931f171c8af69f1d8e9a7aa457be3b6d687594263dce7f0c3972",
+          "width": 640,
+          "height": 913,
+          "quality": 75
+        }
+      },
+      "savedBytes": 45512,
+      "savedPercent": 55.73079937304075
+    },
+    {
+      "src": "/media/official/1689235260.jpg",
+      "sourceSha256": "6de3077d1142c1686032a5c4efa2f98f202df048d94021b050df1df2a0d1bcd7",
+      "responses": {
+        "480": {
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 31036,
+          "sha256": "e724e882083972a561ad1c3785eb9e444f38ce70b07b4eb9755d0fe85f0f59e8",
+          "width": 480,
+          "height": 743,
+          "quality": 75
+        },
+        "640": {
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 66482,
+          "sha256": "696328f3b89f8d298c9d5b4c46be72b9469b28c3a8410076332790255bf02b4b",
+          "width": 640,
+          "height": 990,
+          "quality": 75
+        }
+      },
+      "savedBytes": 35446,
+      "savedPercent": 53.3166872236094
+    },
+    {
+      "src": "/media/official/1689235972.jpg",
+      "sourceSha256": "c3c823e46bec7b0cc83dd85fd9c301d7ea88735e93bb3bccc414a212ad914191",
+      "responses": {
+        "480": {
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 28154,
+          "sha256": "5d00276eff1ecdfbf154b4f4dec03051ae3103b33536c23e1ca6b47be0ca0611",
+          "width": 480,
+          "height": 822,
+          "quality": 75
+        },
+        "640": {
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 50914,
+          "sha256": "faba5ed4bce6d2b0e6b444fe8e3876390ad30ff77335f78d882fb4db4dbb7066",
+          "width": 640,
+          "height": 1096,
+          "quality": 75
+        }
+      },
+      "savedBytes": 22760,
+      "savedPercent": 44.702832226892404
+    },
+    {
+      "src": "/media/official/1689235813.jpg",
+      "sourceSha256": "3bff3052f79bbc89331b313a35bebc46336ad31688b5616dd9d94fa5346aa759",
+      "responses": {
+        "480": {
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 24288,
+          "sha256": "fa7c8c793b1c85a21d5ac6729a26563e5f6d10198cec6396fa24e9536d2144de",
+          "width": 480,
+          "height": 784,
+          "quality": 75
+        },
+        "640": {
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 46578,
+          "sha256": "079867c6a3e70b4321a1c6d0ff55e17d23cabe9f2300c6e540d0c474b2174db1",
+          "width": 640,
+          "height": 1045,
+          "quality": 75
+        }
+      },
+      "savedBytes": 22290,
+      "savedPercent": 47.85521061445318
+    },
+    {
+      "src": "/media/official/1689235423.jpg",
+      "sourceSha256": "dcd20e56a8fccf93eeb17f5c5651a92bd6bc66389eeb29195bf5b6fbf20f2cd2",
+      "responses": {
+        "480": {
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 18066,
+          "sha256": "bdd314424fba2528cdbcf4c8308455b21235de914e085fe9e4c18020eaa6f5e3",
+          "width": 480,
+          "height": 667,
+          "quality": 75
+        },
+        "640": {
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 38610,
+          "sha256": "d72efb80cecef00a3216b9d2ecfe28c6e4963c9cd62aef64ca13ec415f83ee09",
+          "width": 640,
+          "height": 889,
+          "quality": 75
+        }
+      },
+      "savedBytes": 20544,
+      "savedPercent": 53.20901320901321
+    }
+  ],
+  "format": "public-image-width-comparison-safe-v1",
+  "sourceReceiptSha256": "56a6ab7cfdd4b81b8fa44b022e0bff27f06fe7806b8e89e99ca3c5948c943d90",
+  "binaryImagePayloadsIncluded": false
+}

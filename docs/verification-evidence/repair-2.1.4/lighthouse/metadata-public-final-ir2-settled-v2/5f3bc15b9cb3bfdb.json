@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/resources/glamour-official-image/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "e7f41618ebed05f5303ae6b2d546e31a950562b59a5164442c7d6c44e6a597aa",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Glamour denture teeth — official image | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Glamour denture teeth — official image — Original factory image documents"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/resources/glamour-official-image/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/glamour-official-image/",
+    "en": "http://127.0.0.1:3100/en/resources/glamour-official-image/",
+    "tr": "http://127.0.0.1:3100/tr/resources/glamour-official-image/",
+    "ar": "http://127.0.0.1:3100/ar/resources/glamour-official-image/",
+    "ru": "http://127.0.0.1:3100/ru/resources/glamour-official-image/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/glamour-official-image/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 49
+}

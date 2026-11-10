@@ -1,0 +1,61 @@
+{
+  "recordedAt": "2026-10-23T10:08:36.972425+00:00",
+  "cohorts": [
+    {
+      "cohort": "browser",
+      "database": "idealmakoo_repair_acceptance_1792749012424_fcb493",
+      "ownerRole": "im212_browser_owner_fcb493",
+      "runtimeRole": "im212_browser_app_fcb493",
+      "migrationChecksumsMatched": true,
+      "migrationCount": 41,
+      "runtimeProtectedWritesDenied": true,
+      "grantExecution": {
+        "method": "SQL privilege policy adapted to dedicated cohort runtime role",
+        "shippedGrantCliExecuted": false,
+        "canonicalRuntimeRoleUsed": false,
+        "sourcePolicySha256": "b08b4d75402362ed610caaed1ee53d473afea1ad83ea47444c1f3bd6d2048359",
+        "description": "The original browser/audit helper applied equivalent privilege statements with unique role identifiers; it did not invoke the fixed-role shipped CLI."
+      },
+      "originalReceiptPath": "/tmp/idealmakoo-session-acceptance-20261023/cohorts/browser/preparation.safe.json",
+      "originalReceiptSha256": "c3eec37bc0599fcf4401f02940af2219a5ee1994d9d0f2284b0ed4e8b7839eb6"
+    },
+    {
+      "cohort": "audit",
+      "database": "idealmakoo_repair_acceptance_1792749015278_3e4625",
+      "ownerRole": "im212_audit_owner_3e4625",
+      "runtimeRole": "im212_audit_app_3e4625",
+      "migrationChecksumsMatched": true,
+      "migrationCount": 41,
+      "runtimeProtectedWritesDenied": true,
+      "grantExecution": {
+        "method": "SQL privilege policy adapted to dedicated cohort runtime role",
+        "shippedGrantCliExecuted": false,
+        "canonicalRuntimeRoleUsed": false,
+        "sourcePolicySha256": "b08b4d75402362ed610caaed1ee53d473afea1ad83ea47444c1f3bd6d2048359",
+        "description": "The original browser/audit helper applied equivalent privilege statements with unique role identifiers; it did not invoke the fixed-role shipped CLI."
+      },
+      "originalReceiptPath": "/tmp/idealmakoo-session-acceptance-20261023/cohorts/audit/preparation.safe.json",
+      "originalReceiptSha256": "6afea6893f75cb5025e97cbd4dd9d984fc7fa1ca2062d9d68598fb78ac06ca70"
+    },
+    {
+      "cohort": "browser02",
+      "database": "idealmakoo_repair_acceptance_1792750098649_979ef1",
+      "ownerRole": "im212_browser02_owner_979ef1",
+      "runtimeRole": "idealmakoo_app",
+      "migrationChecksumsMatched": true,
+      "migrationCount": 41,
+      "runtimeProtectedWritesDenied": true,
+      "grantExecution": {
+        "method": "unmodified shipped deploy/grant-runtime.mjs CLI",
+        "shippedGrantCliExecuted": true,
+        "canonicalRuntimeRoleUsed": true,
+        "sourcePolicySha256": "b08b4d75402362ed610caaed1ee53d473afea1ad83ea47444c1f3bd6d2048359",
+        "description": "New canonical idealmakoo_app role was confirmed absent before creation; the shipped CLI executed unchanged with DATABASE_APP_ROLE explicitly set."
+      },
+      "originalReceiptPath": "/tmp/idealmakoo-session-acceptance-20261023/cohorts/browser02/preparation.safe.json",
+      "originalReceiptSha256": "14782acad52eea37d59ac0069e415c75d0e369012c655132cb6e9ddff4b745f7"
+    }
+  ],
+  "existingCohortEnvironmentsOrDatabasesChangedByBrowser02Provisioning": false,
+  "originalReceiptsPreserved": true
+}

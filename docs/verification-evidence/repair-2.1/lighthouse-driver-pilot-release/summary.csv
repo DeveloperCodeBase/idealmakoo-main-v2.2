@@ -1,0 +1,3 @@
+"url","device","kind","indexed","expectedStatus","httpStatus","status","performance","accessibility","best-practices","seo","largest-contentful-paint","total-blocking-time","cumulative-layout-shift","durationMs","error"
+"http://127.0.0.1:3090/en/contact/","mobile","representative-public","true","200","200","completed","52","100","100","100","5721.3355","1659.9999999999993","0","10334",""
+"http://127.0.0.1:3090/fa/","mobile","representative-public","true","200","200","completed","29","100","100","100","7523.114199999998","7687.173499999999","0.2141315831719902","33958",""

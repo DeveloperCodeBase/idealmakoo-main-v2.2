@@ -1,0 +1,358 @@
+{
+  "schema": 1,
+  "kind": "public-safe-current-source-independent-fresh-host-recovery-acceptance",
+  "status": "passed",
+  "createdAt": "2026-10-25T06:21:54.598321+00:00",
+  "sourceScope": {
+    "candidate": "2.1.3 candidate-01",
+    "sourceZipSha256": "2deb94d17e0852d75102461fa566555c973f632320729a366a73b86ae9381574",
+    "releaseManifestSha256": "4438262db82057efa1c2c81d96ec05021c01ee191a890ffce611db116f3f48e9",
+    "releaseSourceFilesVerified": 3456,
+    "runtimeImageSourceFilesVerified": 666,
+    "appAndWorkerImageId": "sha256:9af4468d1f0c2180e232afc868338c452375d4edab4fabaffa41f469135892c5",
+    "productSourceModifiedByDevOpsAgent": false,
+    "laterCandidatesRequireTheirOwnChangeAndUpdateEvidence": true
+  },
+  "independentHost": {
+    "os": {
+      "PRETTY_NAME": "Ubuntu 22.04.5 LTS",
+      "VERSION_ID": "22.04",
+      "ID": "ubuntu"
+    },
+    "officialBaseImageSha256": "2099e63da0b822ef8e05e3d596c1b402eaaae658fc08ab919cb8495bfcdc488b",
+    "independentNewOverlayFromOfficialBase": true,
+    "preparedWorkspaceOverlayUsed": false,
+    "dockerAbsentBeforeInstaller": true,
+    "applicationTargetInitiallyEmpty": true,
+    "guestMemoryMiB": 6144,
+    "virtualCpus": 4,
+    "acceleration": "TCG multi",
+    "fullAntivirus": true,
+    "resourceGuardBypass": false
+  },
+  "authenticatedRecoveryInputs": {
+    "archiveSha256": "16241e3721301550c7cc006f876dfc5df60773e47b94ab2b06a5b4681160a35c",
+    "archiveBytes": 178578184,
+    "format": 3,
+    "ageAuthenticatedDecryption": true,
+    "completeManifestAuthentication": true,
+    "allArchivedSourceFilesMatchFrozenCandidate": true,
+    "databaseMediaConfigurationLedgerAndProxyPayloadsValidated": true,
+    "separatePrivateRecoveryIdentity": true,
+    "backupPrivacyAnchor": {
+      "format": 1,
+      "fingerprint": "ccd57c3aded2927085e5ee3d8a88aac07bc55733008f2749a1fe769e885fb6c3",
+      "sequence": 0,
+      "hash": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "latestPrivacyLedgerHead": {
+      "format": 1,
+      "fingerprint": "ccd57c3aded2927085e5ee3d8a88aac07bc55733008f2749a1fe769e885fb6c3",
+      "sequence": 1,
+      "hash": "f26601fa50bd6e560e522dda46e1933ea8444a81826fe86acd76c8cc53d4e8c0"
+    },
+    "latestLedgerContainsAuthenticatedBackupPrefixAndIdentity": true,
+    "latestLedgerContainsExactPostBackupErasureRequest": true,
+    "fixtureAndSessionTokensBoundToOriginalSeed": true
+  },
+  "originalNewHostRecovery": {
+    "script": "scripts/recover-ubuntu.sh --new-host",
+    "startedAt": "2026-10-25T05:20:11.782760+00:00",
+    "completedAt": "2026-10-25T06:12:46.832971+00:00",
+    "elapsedSeconds": 3155.054415,
+    "exitCode": 0,
+    "actualGuestWaitConsumed": true,
+    "timedOut": false,
+    "forcedProcessTermination": false,
+    "releasedInstallerMandatoryInitialEncryptedBackupAndResumptionIncluded": true,
+    "noRecoveryRerunOrSameHostRestoreOrDrillInThisCycle": true
+  },
+  "recoveredRuntime": {
+    "databaseInventory": {
+      "usersTotal": 3,
+      "usersByRole": {
+        "customer": 1,
+        "superAdmin": 1,
+        "contentEditor": 1
+      },
+      "workspaceLiveEntities": 211,
+      "pages": 120,
+      "records": 73,
+      "media": 17,
+      "pagesByLocale": {
+        "ru": 24,
+        "ar": 24,
+        "tr": 24,
+        "en": 24,
+        "fa": 24
+      },
+      "publishedLocaleReleases": 0,
+      "crmRequests": 0,
+      "migrationCount": 41,
+      "everyMigrationChecksumMatchesFrozenSource": true
+    },
+    "actualRuntimeDatabaseRole": {
+      "role": "idealmakoo_app",
+      "rolcanlogin": true,
+      "rolsuper": false,
+      "rolcreatedb": false,
+      "rolcreaterole": false,
+      "rolreplication": false
+    },
+    "services": {
+      "app": {
+        "status": "running",
+        "health": "healthy",
+        "oomKilled": false
+      },
+      "worker": {
+        "status": "running",
+        "health": "healthy",
+        "oomKilled": false
+      },
+      "db": {
+        "status": "running",
+        "health": "healthy",
+        "oomKilled": false
+      },
+      "proxy": {
+        "status": "running",
+        "health": null,
+        "oomKilled": false
+      },
+      "clamav": {
+        "status": "running",
+        "health": "healthy",
+        "oomKilled": false
+      }
+    },
+    "doctorExitCode": 0,
+    "publicProxyHealth": {
+      "httpStatus": 200,
+      "body": {
+        "status": "ok",
+        "database": "ok",
+        "privacy": "ready",
+        "timestamp": "2026-10-25T06:14:41.042Z",
+        "version": "20261025T052814Z-0539a9c2",
+        "applicationVersion": "2.1.3"
+      }
+    },
+    "normalDailyBackupTimer": {
+      "NextElapseUSecRealtime": "Mon 2026-10-26 00:07:40 UTC",
+      "LastTriggerUSec": "",
+      "ActiveState": "active",
+      "SubState": "waiting"
+    },
+    "actualScannerDaemonVersion": "ClamAV 1.5.4/28163/Sat Oct 24 06:26:10 2026",
+    "onlyDisposableTestTimerPausedAfterNormalReadback": true,
+    "noRunningScheduledBackupKilled": true
+  },
+  "preLoginSecurityWitness": {
+    "helperSha256": "aae8acee5b973a2002c20c504cb7281306c53a606e0d03982a44089dfa92799d",
+    "outcomeCompletedAt": "2026-10-25T06:17:08.300701+00:00",
+    "originalLiveSessionsCapturedBeforeBackup": 4,
+    "allUnrevokedAndUnexpiredAtCapture": true,
+    "schema": 1,
+    "kind": "exact-session-revocation-at-restore-before-login",
+    "status": "passed",
+    "completedAt": "2026-10-25T06:17:08.201446+00:00",
+    "mode": "recovery",
+    "baselineSha256": "c96c095c4814d93c3b0438b2ffdbcf0d3e065fd386f5ae43f5d9472f5f312e6a",
+    "exactOriginalSessionsRevokedAtRestoreAuditTimestamp": 3,
+    "exactSessionIdUserIdAndTokenHashMatched": true,
+    "restoreAuditWithinSuccessfulOriginalJobInterval": true,
+    "restoreJobOutcomeSha256": "f2962f4b16c616a230bff3a055a424cbbf738d81055647268303009885660b67",
+    "exactMfaAccountsWithSameSecretFingerprintAndAdvancedReplayCounter": 2,
+    "latestExportedPrivacyLedgerHeadMatchesRecoveredApplication": true,
+    "recoveredPrivacyLedgerHead": {
+      "format": 1,
+      "fingerprint": "ccd57c3aded2927085e5ee3d8a88aac07bc55733008f2749a1fe769e885fb6c3",
+      "sequence": 1,
+      "hash": "f26601fa50bd6e560e522dda46e1933ea8444a81826fe86acd76c8cc53d4e8c0"
+    },
+    "privacyErasedSessionAbsent": true,
+    "capturedBeforeVerifierLogin": true,
+    "proofIsDatabaseRevocationNotOnlyRejectedCookies": true,
+    "counts": {
+      "latestRestoreAudit": {
+        "createdAt": "2026-10-25T06:02:05.388911+00:00",
+        "result": {
+          "ready": true,
+          "alreadyApplied": false,
+          "groupsDisabled": 0,
+          "accountsMatched": 0,
+          "sessionsRevoked": 3,
+          "accessReconciled": false,
+          "accountsDisabled": 0,
+          "challengesConsumed": 0,
+          "enrollmentsCleared": 0,
+          "identityMismatches": 0,
+          "membershipsRestored": 0,
+          "credentialMismatches": 0,
+          "recoveryCodesCleared": 20,
+          "authMessagesCancelled": 0,
+          "membershipsUnavailable": 0,
+          "missingCurrentAccounts": 0,
+          "staffInvitationsRevoked": 0,
+          "organizationInvitationsRevoked": 0
+        }
+      },
+      "unrevokedSessions": 0,
+      "unconsumedChallenges": 0,
+      "recoveryCodesRemaining": 0,
+      "pendingMfa": 0,
+      "enrolledMfa": 2
+    },
+    "actualGuestExitCode": 0,
+    "actualGuestWaitConsumed": true,
+    "completedBeforeRealApiVerifierStarted": true
+  },
+  "realCanonicalApiVerification": {
+    "phase": "verify-fresh",
+    "startedAt": "2026-10-25T06:17:46.048640+00:00",
+    "completedAt": "2026-10-25T06:18:20.255600+00:00",
+    "elapsedSeconds": 34.213111,
+    "exitCode": 0,
+    "actualGuestWaitConsumed": true,
+    "checkCount": 19,
+    "checks": [
+      "pre-backup session remains revoked owner",
+      "pre-backup session remains revoked customer",
+      "pre-backup session remains revoked staff",
+      "pre-backup session remains revoked erased",
+      "authenticated superAdmin",
+      "authenticated customer",
+      "restored customer profile matches backup",
+      "restored editable page matches backup",
+      "restored media bytes and checksum match backup",
+      "restored EICAR attachment retains the blocked scan verdict",
+      "restored blocked EICAR attachment remains unavailable to its owner",
+      "fresh host restores archived staff active state without inventing absent later security state",
+      "fresh host preserves staff MFA enrollment",
+      "archived staff password grants only an MFA challenge",
+      "password alone cannot establish archived staff session",
+      "restore invalidates archived staff recovery codes",
+      "archived recovery code cannot establish staff session",
+      "post-backup erasure survives restore",
+      "retired login remains denied erased"
+    ],
+    "unchangedDriverUsesExactRecoveredAppImageAndRealProxyUrl": true,
+    "freshHostPolicy": "Archived staff access state is restored; subsequent privacy erasure is preserved through the supplied latest signed ledger. Later staff disable/grant changes are not invented on a fresh host."
+  },
+  "normalShutdownAndRetention": {
+    "completedAt": "2026-10-25T06:20:37.545940+00:00",
+    "qemuExitCode": 0,
+    "actualQemuWaitConsumed": true,
+    "originalSupervisorToolSession": 59722,
+    "originalSupervisorToolActualExitCode": 0,
+    "originalSupervisorToolWaitConsumed": true,
+    "sshPoweroffExitCode": 0,
+    "forcedProcessTermination": false,
+    "stopRequests": [],
+    "retainedRuntimeDisk": "/tmp/idealmakoo-acceptance-recovery-20261025-fo9a_2ry/disk.qcow2",
+    "retainedMatchingBeforeDuringAfterIdentity": true,
+    "guardianHeldUntilRetainedPathVerification": true,
+    "retentionCopyRequired": false,
+    "diskDevice": 27,
+    "diskInode": 1572886,
+    "diskLinks": 1,
+    "diskIsSymlink": false,
+    "diskFreeBytesAtEnd": 13311328256,
+    "nativeRamLaneReleased": true
+  },
+  "testEnvironmentAndLimits": {
+    "applicationTransport": "Explicit HTTP test mode behind host loopback NAT; public ACME/TLS is not exercised.",
+    "healthTimeoutsSeconds": {
+      "app": 90,
+      "worker": 90,
+      "appStart": 600,
+      "workerStart": 600
+    },
+    "healthOverrideReason": "Slow QEMU TCG emulation; documented settings only; product defaults unchanged.",
+    "testNetworkTrustOverride": true,
+    "tlsVerificationDisabled": false,
+    "aptSignatureVerificationDisabled": false,
+    "publicAcmeTlsExercised": false,
+    "realEmailSmsAiOrPushProviderDeliveryExercised": false,
+    "lighthouseCoveredByThisReceipt": false,
+    "noCredentialsKeysCookiesMfaSecretsOrUserSessionIdsPublished": true
+  },
+  "safeReceiptReferences": [
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/primary-acceptance-public.safe.json",
+      "sha256": "a3d28ec53292b205032b1b542d5fb307983385b0e7c82fb912fe88d99da31d98",
+      "bytes": 13666
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/populated-backup/outcome.safe.json",
+      "sha256": "fc2c1e9ea9179eeb17f5c9bec02e7d6af99088ee57a79f7d273ba81748686f7f",
+      "bytes": 773
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/off-host-authentication/authentication.safe.json",
+      "sha256": "66a1fcf2a5c52f42331a8f3ea539743185382919d3c6c5670516e10573345271",
+      "bytes": 1312
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/populated-backup/recovery-material.safe.json",
+      "sha256": "104fc8d219ed44a1d084d5ec3dbe79020c124337b8263062cf0aa65bf8564e1b",
+      "bytes": 1855
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/preparation.safe.json",
+      "sha256": "cab6870a8452447da5d5d72e995f3686d8d13465418cd6838845b55e042f9869",
+      "bytes": 957
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/runtime/start.safe.json",
+      "sha256": "fbe0e6a43b7019d4b9e8459987e3f0bfe99108eac01a7a74c5ea35ae2050ae4e",
+      "bytes": 2453
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/collected/recovery-original-installer/collection.safe.json",
+      "sha256": "d0903447716554b7a7eb56e45cd82904ada3861a9684f58efa1241eb1b1af7c9",
+      "bytes": 1145
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/collected/runtime/collection.safe.json",
+      "sha256": "a5738ed307ae8b421ddbe25962aed72791183a4062bc6c9b1dd72a9d26eea23f",
+      "bytes": 5631
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/test-timer-paused.safe.json",
+      "sha256": "356135f8f75612f6c675908ec0d927c1602d6059df040500f6806bedcbdf2d7a",
+      "bytes": 510
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/commands/stage-file-07.safe.json",
+      "sha256": "444dd360ce7f74d2b804b75dc14dc09db6a8026d5b08e8e757236263acfa718e",
+      "bytes": 386
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/collected/security-witness/collection.safe.json",
+      "sha256": "ee53cdb49114a197ef292f81aa9e59dc8a58d3dc99a3d93a0d2e62c89d55a6ac",
+      "bytes": 3172
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/collected/api-verify-fresh/collection.safe.json",
+      "sha256": "cdef55e39a6c7981ddca316e24960ce48abfc92269924be1397b09dd6f0c6481",
+      "bytes": 2241
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/pre-shutdown.safe.json",
+      "sha256": "d9f80ffda5d1f14091969a0a3bfa38c7e1844a5a157c95bf511c865fda93ff85",
+      "bytes": 1349
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/commands/recovery-normal-poweroff.safe.json",
+      "sha256": "7f5c83ede0a94beb178a51412ffb66cf8f8d04dd957de83fc2e331024c640f5c",
+      "bytes": 319
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/runtime/outcome.safe.json",
+      "sha256": "1b8b7dd89d344e89874c2e971aab006830e0b41309cf1a356bec0189e314bf61",
+      "bytes": 1945
+    }
+  ]
+}

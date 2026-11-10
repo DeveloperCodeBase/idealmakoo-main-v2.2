@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/resources/six-acrylic-ranges-steady-wear-cover/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "a3e5396dd6aa5f1a7eb51b019412dc2d2f06d733299fd71a5fcb38d2dddee41a",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "صورة مرجعية للبحث — التآكل المستقر في ست مجموعات أسنان صناعية | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "التآكل المستقر في ست مجموعات أسنان صناعية — وثائق المصنع المصوّرة الأصلية"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/resources/six-acrylic-ranges-steady-wear-cover/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/six-acrylic-ranges-steady-wear-cover/",
+    "en": "http://127.0.0.1:3100/en/resources/six-acrylic-ranges-steady-wear-cover/",
+    "tr": "http://127.0.0.1:3100/tr/resources/six-acrylic-ranges-steady-wear-cover/",
+    "ar": "http://127.0.0.1:3100/ar/resources/six-acrylic-ranges-steady-wear-cover/",
+    "ru": "http://127.0.0.1:3100/ru/resources/six-acrylic-ranges-steady-wear-cover/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/six-acrylic-ranges-steady-wear-cover/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 69
+}

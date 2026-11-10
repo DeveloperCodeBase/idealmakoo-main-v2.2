@@ -1,0 +1,58 @@
+{
+  "createdAt": "2026-10-21T08:53:38.859Z",
+  "configurationHash": "565afa0f96d4bb0b50f63bccc9f522d8271481fe226c23fadfe237da046917b0",
+  "config": {
+    "schemaVersion": 3,
+    "baseUrl": "http://127.0.0.1:3090",
+    "devices": [
+      "mobile"
+    ],
+    "categories": [
+      "performance",
+      "accessibility",
+      "best-practices",
+      "seo"
+    ],
+    "chromeFlags": [
+      "--headless=new",
+      "--disable-dev-shm-usage",
+      "--no-sandbox",
+      "--enable-unsafe-swiftshader"
+    ],
+    "chromePath": "/tmp/idealmakoo-playwright/chrome-linux64/chrome",
+    "chromeVersion": "Google Chrome for Testing 156.0.8078.4",
+    "deadlineSeconds": 300,
+    "maxWaitForLoad": 45000,
+    "lighthouseVersion": "13.5.0",
+    "chromeLauncherVersion": "1.2.0",
+    "applicationVersion": "2.1.0",
+    "buildId": "ZExXgIfF-M2np679FYhoQ",
+    "servedAssetsHash": "57f3b368964851423ca607b023b8c48e08b0b7f21fe401af9d6c97179c54e3a5",
+    "staticAssets": [
+      "/_next/static/chunks/3794-9f866eb1b07be87c.js",
+      "/_next/static/chunks/4bd1b696-8cd12253b448cc13.js",
+      "/_next/static/chunks/8488.49065f393d1ebae6.js",
+      "/_next/static/chunks/main-app-62d09b782f753e63.js",
+      "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "/_next/static/chunks/webpack-7ce99ce4dd038026.js",
+      "/_next/static/css/45cf4ab3ae8d8e67.css /_next/static/css/8036e1789e3faf0b.css /_next/static/css/868cca9060d35dea.css /_next/static/css/44d22bf8fecd7800.css /_next/static/css/e8fbcfc7690d17db.css /_next/static/css/337562c233625772.css /_next/static/css/938e6de95fdac22a.css",
+      "/_next/static/css/8fcd9aea4312038e.css"
+    ],
+    "publicContentHash": "c81fb2b40e486f8608c7c7da584d76197bef191244fad9d1b45128ddbb7e8e74",
+    "inventoryHash": "eca49e91040b6579ca2b12322558ea651cac410df40dc3b998f746e8d63ee1db"
+  },
+  "expected": 4,
+  "sourceUrls": 4,
+  "scope": "representative",
+  "host": {
+    "platform": "linux",
+    "release": "6.18.55",
+    "architecture": "x64",
+    "node": "v24.19.0",
+    "cpu": "AMD EPYC 9V74 80-Core Processor",
+    "availableCpus": 8,
+    "memoryBytes": 10451439616,
+    "cpuQuota": "800000 100000",
+    "memoryLimit": "8589934592"
+  }
+}

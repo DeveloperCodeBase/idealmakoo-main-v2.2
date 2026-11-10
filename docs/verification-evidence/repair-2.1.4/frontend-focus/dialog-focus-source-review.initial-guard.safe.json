@@ -1,0 +1,28 @@
+{
+  "schema": "idealmakoo.dialog-focus-source-review.v1",
+  "oldBuildId": "IUO4lyoYpICGn_Igd7EsH",
+  "oldInputFingerprint": "f22b49bac26f5b59ede573dbaf6ed4cd52c738bfbe32b2d00ae9e47fe28c29ce",
+  "files": [
+    {
+      "path": "src/components/ui/dialog-runtime.ts",
+      "beforeSha256": "7928a11c28d31a10fac3ca6e811a40a7d5ed041e8f6b0937ab3992c6e2e7a1c1",
+      "afterSha256": "210cd02b052d5bb78446df69133fa269e9cf5ff2defb5a985a93e6171f930fe7",
+      "afterBytes": 8558
+    },
+    {
+      "path": "tests/e2e/user-directory.spec.ts",
+      "beforeSha256": "b20c474bea4abd5d041e7080ee856deaf10fd4a51cd105c0e8e572c29c2476c7",
+      "afterSha256": "3f19bcf1942d95414bbbffe1427ef9c748005f5a2d6f6647207e1fa1cd0abe47",
+      "afterBytes": 9914
+    },
+    {
+      "path": "tests/e2e/dialog-focus.spec.ts",
+      "beforeSha256": null,
+      "afterSha256": "4e84de3c43f51d696d5f626fb9c1db38e5cfcfe63666e601a9498cbd70a6d073",
+      "afterBytes": 4485
+    }
+  ],
+  "expectedBrowserCases": 69,
+  "expectedUnitCases": 858,
+  "runtimeScope": "Deferred initial-focus guard only; styles, permissions, initial fallback and cleanup unchanged."
+}

@@ -1,0 +1,36 @@
+{
+  "format": "editor-cleanup-race-source-flow-v1",
+  "applicationRuntimeChanged": false,
+  "lighthouseNavigationOrScoringChanged": false,
+  "applicationLeaseTtlChanged": false,
+  "oldRunOutcomesPreserved": 388,
+  "oldRunActualExit": 2,
+  "sourceFlow": [
+    {
+      "source": "node_modules/lighthouse/core/gather/gatherers/bf-cache-failures.js",
+      "fact": "The installed gatherer navigates to chrome://terms and back to the navigation-history entry."
+    },
+    {
+      "source": "retained failed ir2 Turkish forms LHR bf-cache audit",
+      "fact": "The recorded no-store reasons mean this return was a normal reload, not a persisted BFCache restoration."
+    },
+    {
+      "source": "src/components/workspace/ContentCollaboration.tsx",
+      "fact": "The application releases a known held token on pagehide. A fresh mount reacquires asynchronously; destruction of the document can prevent consumption of a still-pending acquisition response."
+    },
+    {
+      "source": "scripts/lib/private-audit-editor-cleanup.mjs (v1)",
+      "fact": "The original audit teardown could navigate to robots before the freshly reloaded nested editor acquisition settled."
+    },
+    {
+      "source": "reviewed v2 candidate and controlled proofattempt02",
+      "fact": "The page-owned observer is installed before first navigation; actual terminal network events, document/nested-editor readiness and quiet500ms gate teardown within the same15s total deadline. Exact lease-ID committed release after the entry watermark, zero active owned leases and quiet500ms remain required."
+    }
+  ],
+  "qualifications": [
+    "The abandoned-document120-second expiry remains a fallback, not successful immediate cleanup.",
+    "Server audit timestamps are transaction timestamps, not exact HTTP delivery or commit-completion timestamps.",
+    "Observed client DELETE events may be zero on unload; the committed exact-ID audit is retained and the candidate never injects a DELETE.",
+    "No raw or private report is exported."
+  ]
+}

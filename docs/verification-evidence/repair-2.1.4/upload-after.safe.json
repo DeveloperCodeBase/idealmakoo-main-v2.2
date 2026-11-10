@@ -1,0 +1,57 @@
+{
+  "phase": "after",
+  "observedAt": "2026-10-25T12:17:42.141Z",
+  "fixture": "owned customer, normal HTTP login + CSRF, private attachments",
+  "sourceChanged": false,
+  "configuredPolicy": {
+    "maxFileBytes": 20971520,
+    "maxRequestBytes": 21037056,
+    "documentLimit": 20971520
+  },
+  "cases": [
+    {
+      "label": "small-control",
+      "fileBytes": 65536,
+      "expectedStatus": 201,
+      "status": 201,
+      "problemCode": null,
+      "durationMs": 33,
+      "newAssetRows": 1,
+      "storedBytes": 65536,
+      "storedChecksumMatches": true,
+      "private": true,
+      "noStore": true,
+      "nosniff": true
+    },
+    {
+      "label": "allowed-twelve-mib",
+      "fileBytes": 12582912,
+      "expectedStatus": 201,
+      "status": 201,
+      "problemCode": null,
+      "durationMs": 111,
+      "newAssetRows": 1,
+      "storedBytes": 12582912,
+      "storedChecksumMatches": true,
+      "private": true,
+      "noStore": true,
+      "nosniff": true
+    },
+    {
+      "label": "above-configured-limit",
+      "fileBytes": 22020096,
+      "expectedStatus": 413,
+      "status": 413,
+      "problemCode": "UPLOAD_SIZE",
+      "durationMs": 46,
+      "newAssetRows": 0,
+      "storedBytes": null,
+      "storedChecksumMatches": null,
+      "private": null,
+      "noStore": true,
+      "nosniff": true
+    }
+  ],
+  "fixtureDisabled": true,
+  "completedAt": "2026-10-25T12:17:42.887Z"
+}

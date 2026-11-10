@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/manufacturing/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "e44936e3eecc6790d20c75817abf335f2e672a0a5380ab69311b6dd69972cca0",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Form. Katman. Ayrıntı. | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Fabrikanın protez diş serilerini yapı, malzeme ve kalıp çeşitliliği açısından keşfedin."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/manufacturing/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/manufacturing/",
+    "en": "http://127.0.0.1:3100/en/manufacturing/",
+    "tr": "http://127.0.0.1:3100/tr/manufacturing/",
+    "ar": "http://127.0.0.1:3100/ar/manufacturing/",
+    "ru": "http://127.0.0.1:3100/ru/manufacturing/",
+    "x-default": "http://127.0.0.1:3100/fa/manufacturing/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 45
+}

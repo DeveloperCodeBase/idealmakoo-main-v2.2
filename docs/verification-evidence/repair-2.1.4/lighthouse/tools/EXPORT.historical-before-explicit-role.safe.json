@@ -1,0 +1,117 @@
+{
+  "format": "portable-native-proxy-tools-export-v1",
+  "createdAt": "2026-10-25T19:57:33.777132+00:00",
+  "status": "current-safe-tools-subset-with-reviewed-public-timestamp-comparison",
+  "files": [
+    {
+      "file": "EXPORT.historical-before-observed-at.safe.json",
+      "bytes": 4025,
+      "sha256": "4b746340fad6dec5af4b289164da49646f5120c802218df390c0a5d8582ae9aa"
+    },
+    {
+      "file": "EXPORT.historical-before-package-check.safe.json",
+      "bytes": 3053,
+      "sha256": "88d7fb6bcf7352896643e88557dd948860931f3b8472bf9c1d34c81d03903723"
+    },
+    {
+      "file": "INDEPENDENT-REVIEW.safe.json",
+      "bytes": 1936,
+      "sha256": "970502ed15c460d9ed52447b4c5b17a3a77df9c97b8c35cfbbd377ee59a243f2"
+    },
+    {
+      "file": "README.fa.md",
+      "bytes": 21183,
+      "sha256": "40467196aafd85cf6e25fa307bbe4aee3b2c5b30c56f00147196b04d88476814"
+    },
+    {
+      "file": "native-proxy-guard-verification-final.safe.json",
+      "bytes": 3434,
+      "sha256": "0f8ce3b86aef380977a53b5a44f949e566df3cb41c48ebbb2811f2f74f56fac6"
+    },
+    {
+      "file": "native-proxy-guard-verification-revised.safe.json",
+      "bytes": 4264,
+      "sha256": "76284b254b3caa4547ac9c1bd180e42368c287f3849ab39f4c1dafd5663e06d9"
+    },
+    {
+      "file": "native-proxy-guard.py",
+      "bytes": 44472,
+      "sha256": "529320485df3347acfed3fffa77a558199240654083746c975a4ea0c96f6e76f"
+    },
+    {
+      "file": "native-proxy-proof-lifecycle-verification.safe.json",
+      "bytes": 2182,
+      "sha256": "f34c0b652f1774e8ab53f894f986efe26ba8e027340e50fee43eed6342441d84"
+    },
+    {
+      "file": "native-proxy-proof-receipt-attempt-01.safe.json",
+      "bytes": 584,
+      "sha256": "a978a3d335a9156449be4c2acb729223a53f3fdc7d02f044a2ed3b33096e0acd"
+    },
+    {
+      "file": "packaging-correction.safe.json",
+      "bytes": 1531,
+      "sha256": "6b804204d1d61f8fc299bfaea817c0b61bcd3ca553afec1a32fa32f74ffa624f"
+    },
+    {
+      "file": "prove-native-proxy.mjs",
+      "bytes": 16956,
+      "sha256": "34797f1a943d1f47e847cfb217928bafaf3f02a2a03d84523e6665e9f8bda3e0"
+    },
+    {
+      "file": "proxy-proof-content.mjs",
+      "bytes": 1368,
+      "sha256": "938fad81282a0fc0f4ef1524507e392e019770701c590e62706e881880c79b7b"
+    },
+    {
+      "file": "proxy-proof-lifecycle.mjs",
+      "bytes": 2326,
+      "sha256": "1471bbbe0a020b98da49be81279f0cc69ab58d52908c6387094e72a828e02064"
+    },
+    {
+      "file": "public-site-proof-comparison-verification.safe.json",
+      "bytes": 2582,
+      "sha256": "f3c4b13980d077efab80e515c123c40888b858dc18bfde457fa724def17c017e"
+    },
+    {
+      "file": "test-proxy-proof-content.mjs",
+      "bytes": 2263,
+      "sha256": "799816765b5eeed8744369091ae8dda6aa5a2a7942a53763434798959b6eafce"
+    },
+    {
+      "file": "test-proxy-proof-lifecycle.mjs",
+      "bytes": 3671,
+      "sha256": "5f38388a6618567b3e02e7c20f3fcbb5e266d5a2f437d64b9f22b07516ba7378"
+    }
+  ],
+  "fileCount": 16,
+  "totalBytes": 115830,
+  "byteIdenticalSourceCopies": 11,
+  "scope": "Documentation utilities only; no production runtime inputs or audit scoring sources modified.",
+  "safety": {
+    "knownPrivateValueScanFindings": 0,
+    "hardcodedPrivateWorkspacePathFindings": 0,
+    "actualEnvPlansLogsCookiesDomOrBrowserImagesIncluded": false,
+    "secretValuesOrCredentialHashesIncluded": false,
+    "syntheticCredentialFixturesExplicitlyLabeled": true
+  },
+  "portabilityLimits": [
+    "Linux/proc/native PID namespace and authorized root/same-UID observation for full guard witness.",
+    "Caddy production UID/GID10002 and ELF64/x86_64; exact retained binary/receipt required.",
+    "Node plus existing project dependencies; exact project routes/API/assets/fixture helper contracts.",
+    "Explicit IPv4 loopback HTTP and named disposable database scope.",
+    "No service launcher; no TLS/H2/WAN/general-proxy compatibility claim."
+  ],
+  "realRuntimeActivationOrFinalLighthouseCoverageClaimed": false,
+  "historicalExport": "EXPORT.historical-before-package-check.safe.json",
+  "excludedUnshippedSyntheticHarness": {
+    "file": "test_native_proxy_guard.py",
+    "sourceSha256": "bb2d7b4fe22736e696b748a470ea6d5b5de5e4ccf5bdbc7c4413c5c2d69d8a32",
+    "originalRetainedOutsideDeliverable": true,
+    "resultsAndAllAttemptReceiptsRetained": true,
+    "reason": "Confirmed disallowed literal synthetic DB passwords under the unchanged docs-path credential policy; only the redundant documentation copy was excluded."
+  },
+  "reproduction": "Four lifecycle tests and three public timestamp/content comparison tests are shipped. The exact22-case Python synthetic harness remains outside the deliverable; complete result/sourceSHA/attempt history is shipped.",
+  "historicalBeforeObservedAtCorrection": "EXPORT.historical-before-observed-at.safe.json",
+  "proofCorrectionVerification": "public-site-proof-comparison-verification.safe.json"
+}

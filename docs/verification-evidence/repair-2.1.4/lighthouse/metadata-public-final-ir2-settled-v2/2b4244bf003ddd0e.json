@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/blog/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "e418f7ec18d3e02d9534bf3285dfe7d47f14133fc0e88147a784d0b89f29d37b",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Ideal Makoo professional journal | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Search the Ideal Makoo professional journal for published editorial articles and experiences about products and the dental industry."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/blog/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/blog/",
+    "en": "http://127.0.0.1:3100/en/blog/",
+    "tr": "http://127.0.0.1:3100/tr/blog/",
+    "ar": "http://127.0.0.1:3100/ar/blog/",
+    "ru": "http://127.0.0.1:3100/ru/blog/",
+    "x-default": "http://127.0.0.1:3100/fa/blog/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 64
+}

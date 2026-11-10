@@ -1,0 +1,71 @@
+{
+  "url": "http://127.0.0.1:3100/tr/products/ideal-line/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "6dc3964db083a9681fd70f02ba87b137423ec7ed3323a84c1f776a2f5f2bd5d8",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Ideal Line protez dişler | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Ideal Line, resmî açıklamaya göre beş katmanlı ve altı polimerizasyon döngülü nano kompozit protez diştir."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/products/ideal-line/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/ideal-line/",
+    "en": "http://127.0.0.1:3100/en/products/ideal-line/",
+    "tr": "http://127.0.0.1:3100/tr/products/ideal-line/",
+    "ar": "http://127.0.0.1:3100/ar/products/ideal-line/",
+    "ru": "http://127.0.0.1:3100/ru/products/ideal-line/",
+    "x-default": "http://127.0.0.1:3100/fa/products/ideal-line/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Ideal Line protez dişler",
+      "description": "Ideal Line, resmî açıklamaya göre beş katmanlı ve altı polimerizasyon döngülü nano kompozit protez diştir.",
+      "image": "http://127.0.0.1:3100/media/official/1726476868.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "IDEAL LINE"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/tr/products/ideal-line/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 52
+}

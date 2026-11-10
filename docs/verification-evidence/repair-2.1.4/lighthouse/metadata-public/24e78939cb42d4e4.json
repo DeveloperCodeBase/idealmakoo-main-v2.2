@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/compare/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "01b5e8437f8ce38d865a47ed69c3ca77a2a3e9cadabdd06677dbae22faf894fb",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Compare | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Compare selected products by name, family, material and documented specifications, with links to their detailed product pages."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/compare/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/compare/",
+    "en": "http://127.0.0.1:3100/en/compare/",
+    "tr": "http://127.0.0.1:3100/tr/compare/",
+    "ar": "http://127.0.0.1:3100/ar/compare/",
+    "ru": "http://127.0.0.1:3100/ru/compare/",
+    "x-default": "http://127.0.0.1:3100/fa/compare/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 54
+}

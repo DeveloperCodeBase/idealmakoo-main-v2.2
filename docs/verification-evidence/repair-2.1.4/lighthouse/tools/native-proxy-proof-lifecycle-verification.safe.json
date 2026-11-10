@@ -1,0 +1,30 @@
+{
+  "format": "native-proxy-proof-lifecycle-verification-v1",
+  "createdAt": "2026-10-25T18:55:22.715375+00:00",
+  "mainProofHelperSha256": "b4e115decfb56a2c6451d0e2b9385efcede23c46ee8f3d019becd0fd9083ba9a",
+  "lifecycleHelperSha256": "1471bbbe0a020b98da49be81279f0cc69ab58d52908c6387094e72a828e02064",
+  "testHelperSha256": "5f38388a6618567b3e02e7c20f3fcbb5e266d5a2f437d64b9f22b07516ba7378",
+  "preservedReviewedCandidateSha256": "f4a6a5cb4dd24cb2fb21f2f1ae3c81e2fea7d2de949a33b3f7bedaa06522d587",
+  "tests": 4,
+  "passed": 4,
+  "failed": 0,
+  "actualExitCode": 0,
+  "testDurationMilliseconds": 419.008748,
+  "wrapperDurationSeconds": 0.452,
+  "commandReceiptSha256": "046a99fccaaa66acde281a7c8f8a9cdfa52c8c8417585662b481a0966bf17a9a",
+  "stdoutSha256": "766a8d9b0b4c3e1610375cc66c7c9c46d28401b45fa77e0b2a439694479611d0",
+  "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "actualSyntheticChecks": [
+    "Completed isolated HTTP response clears absolute deadline.",
+    "Continuously active isolated HTTP response is aborted by the absolute deadline, without retry.",
+    "Owned synthetic Node child receives actual SIGTERM, records failed/interrupted state and completes asynchronous synthetic cleanup.",
+    "Owned synthetic Node child receives actual SIGINT, records failed/interrupted state and completes asynchronous synthetic cleanup."
+  ],
+  "activationFailureBoundary": "Static ordering correction sets ownership before awaiting the existing fixture activation helper, so uncertain partial activation still enters cleanup. This has not yet exercised the actual DB.",
+  "actualDatabaseCleanupProof": "Pending controlled real activation; synthetic finally checks do not claim real actor/session cleanup.",
+  "proofCleanupDatabaseQueryBudget": "The dedicated short-lived proof connection uses5s statement timeout and is destroyed afterward; app/worker DB connections and policies unchanged.",
+  "realAppDatabaseBrowserCaddyOrFixtureAccess": false,
+  "syntheticLoopbackHttpOnly": true,
+  "noSecretValuesOrHashesExported": true,
+  "summaryExtractionAttemptFailureSha256": "a978a3d335a9156449be4c2acb729223a53f3fdc7d02f044a2ed3b33096e0acd"
+}

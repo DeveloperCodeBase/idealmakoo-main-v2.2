@@ -1,0 +1,34 @@
+{
+  "jobs": [
+    {
+      "url": "http://127.0.0.1:3100/ar/research/",
+      "kind": "research",
+      "indexed": true,
+      "expectedStatus": 200,
+      "device": "mobile"
+    },
+    {
+      "url": "http://127.0.0.1:3100/ar/resources/",
+      "kind": "resources",
+      "indexed": true,
+      "expectedStatus": 200,
+      "device": "mobile"
+    },
+    {
+      "url": "http://127.0.0.1:3100/en/contact/",
+      "kind": "form",
+      "indexed": true,
+      "expectedStatus": 200,
+      "device": "mobile"
+    },
+    {
+      "url": "http://127.0.0.1:3100/fa/",
+      "kind": "home",
+      "indexed": true,
+      "expectedStatus": 200,
+      "device": "mobile"
+    }
+  ],
+  "excluded": [],
+  "sourceUrls": 4
+}

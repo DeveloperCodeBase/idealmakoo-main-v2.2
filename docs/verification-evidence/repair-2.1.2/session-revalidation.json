@@ -1,0 +1,138 @@
+{
+  "schema": 1,
+  "release": "2.1.2",
+  "kind": "session-revalidation-before-after",
+  "recordedAt": "2026-10-23T09:49:16.486530+00:00",
+  "testFile": "tests/server-session-revalidation.pg.mjs",
+  "testFileSha256": "2548fe1e43b59488b49f4e412b41aa4f9544ace0eb1df270f841702a18738e0b",
+  "baselineProvenance": {
+    "archiveName": "idealmakoo-production-2.1.1.zip",
+    "archiveSha256": "4de6701d3bfb267d63ddde40958f3d2dc1b6e6ebea8190b9a225cfbdb7589c7e",
+    "backendState": "Backend source files were unchanged from the supplied archive for the baseline; only the new regression file was added.",
+    "backendFileSha256": {
+      "src/server/types.ts": "6c35b56ad9732354cb8bd7cc23433f1334a1cc925ff3a600077845a4a68436bd",
+      "src/server/auth.ts": "b57287f6ee54d44e71077b30386cb7bab30078e2f979e98a31d64c60e8c6cfe6",
+      "src/server/workspace-scopes.ts": "2ff4bbba1ede5d611534a4d5bdc83711e001d31ebc4a75f2e5a1acf59ccc5e9e",
+      "src/server/account.ts": "3e206d9ba27bb1a9d591402dd8e6b03e7adc9d9a503e48678486f27d6137eb59",
+      "src/server/wishlists.ts": "d00a612cd70f08df86be71c395775905f82d8a50a284b233ec534d71bdb95380",
+      "src/server/privacy.ts": "4fd3a6ae9bc2093e4d959ff2d49b3ea19cc2db43df6a52b5034c134fee6fb701",
+      "src/server/partner-directory.ts": "09e5178a067c692e78aa5651f32ce544633d7ecd4c169b280bf0f12f0b1fa67a"
+    }
+  },
+  "currentBackendFileSha256": {
+    "src/server/types.ts": "7e93f8abbc499903b28f69d11df6e64a52a6a4e0b56e89f5963983f2e9cb9483",
+    "src/server/auth.ts": "472a4a47a6e720ca71a86489f81ef07bbde3e1542d44df58293e1f9d5f5b4a7b",
+    "src/server/workspace-scopes.ts": "12b3799df212f0d1bde61c4b152af5c3d52100e2f38536dd93e1fd06cae68da1",
+    "src/server/account.ts": "a962df0081b7914dd240a14013fb51fc8b6eaf3c3386c8494d431937cf61d389",
+    "src/server/wishlists.ts": "344f9426049cc96e3670b3a3059bf55222b29605b219cb369bb1ccc6fb894042",
+    "src/server/privacy.ts": "ca6168a1e5cb34f184cff481433d428ded3275827d6244232c2a4623b35e1182",
+    "src/server/partner-directory.ts": "00a0053be9d599eb904ee6043c21a0f2500b2005b744e310929a7ef475a1057d"
+  },
+  "environment": {
+    "postgresVersion": "16.15",
+    "freshCluster": true,
+    "loopbackOnly": true,
+    "scramAuthentication": true,
+    "temporarySchema": true,
+    "providerSends": false
+  },
+  "before": {
+    "startedAt": "2026-10-23T09:44:29.702905+00:00",
+    "completedAt": "2026-10-23T09:44:33.078197+00:00",
+    "exitCode": 1,
+    "totalIncludingParent": 14,
+    "passed": 3,
+    "failedIncludingParent": 11,
+    "failedSecuritySubtests": 10,
+    "skipped": 0,
+    "logSha256": "63b7c18c183b9728bfcb237168f220a5092f8c3309bdb0c3b760b3bd81391707"
+  },
+  "after": {
+    "startedAt": "2026-10-23T09:45:29.175533+00:00",
+    "completedAt": "2026-10-23T09:45:32.252426+00:00",
+    "exitCode": 0,
+    "totalIncludingParent": 14,
+    "passed": 14,
+    "failed": 0,
+    "skipped": 0,
+    "logSha256": "09052c7555185a48de74d6415139bfcf42f3a36d54069477e75777887f9f1f38"
+  },
+  "checks": [
+    {
+      "test": "Captured and spread actors reject a revoked originating session",
+      "before": "failed",
+      "after": "passed"
+    },
+    {
+      "test": "Captured and spread actors reject a expired originating session",
+      "before": "failed",
+      "after": "passed"
+    },
+    {
+      "test": "Captured and spread actors reject a idle originating session",
+      "before": "failed",
+      "after": "passed"
+    },
+    {
+      "test": "A live session does not retain a removed MFA proof and internal session provenance is not JSON data",
+      "before": "failed",
+      "after": "passed"
+    },
+    {
+      "test": "A captured HTTP actor cannot acquire authority by substituting another account identity",
+      "before": "failed",
+      "after": "passed"
+    },
+    {
+      "test": "A multipart upload paused after authentication cannot commit after logout",
+      "before": "failed",
+      "after": "passed"
+    },
+    {
+      "test": "A multipart upload paused after authentication cannot commit after password-reset",
+      "before": "failed",
+      "after": "passed"
+    },
+    {
+      "test": "An account profile mutation cannot use a session captured before logout",
+      "before": "failed",
+      "after": "passed"
+    },
+    {
+      "test": "Account portal and saved-list mutations cannot use a captured revoked session",
+      "before": "failed",
+      "after": "passed"
+    },
+    {
+      "test": "Transaction authorization holds user then session locks until the mutation completes",
+      "before": "failed",
+      "after": "passed"
+    },
+    {
+      "test": "Independent worker actors still load current account authority without an HTTP session",
+      "before": "passed",
+      "after": "passed"
+    },
+    {
+      "test": "An authorized privacy export evaluates the subject separately from the administrator session",
+      "before": "passed",
+      "after": "passed"
+    },
+    {
+      "test": "Publishing an approved profile checks independent reviewer authority without borrowing the publisher session",
+      "before": "passed",
+      "after": "passed"
+    }
+  ],
+  "reproducedHttpStatus": {
+    "delayedUploadAfterLogout": {
+      "before": 201,
+      "after": 401
+    },
+    "delayedUploadAfterPasswordReset": {
+      "before": 201,
+      "after": 401
+    }
+  },
+  "originalReceiptSha256": "0a9c966064ab9cb15e5df1e58b382de5e80dfa8d1b3edd48f2fd5e6b63373446"
+}

@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/terms/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "8922b2a58253013eb9651efb657e8692fe2281d922e13cd47ed1bc40f957120e",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "شروط الاستخدام | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "هذا الموقع كتالوج متخصص وبوابة تواصل لإيديال ماكو. لا يعني تقديم استفسار أو طلب عينة أو تعاون تأكيد طلب شراء أو مخزون أو سعر. تحدد شروط التوريد النهائية بعد المراجعة والرد الرسمي. أدخل بيانات صحيحة وارفع فقط الملفات التي تملك حق استخدامها ومشاركتها."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/terms/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/terms/",
+    "en": "http://127.0.0.1:3100/en/terms/",
+    "tr": "http://127.0.0.1:3100/tr/terms/",
+    "ar": "http://127.0.0.1:3100/ar/terms/",
+    "ru": "http://127.0.0.1:3100/ru/terms/",
+    "x-default": "http://127.0.0.1:3100/fa/terms/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 84
+}

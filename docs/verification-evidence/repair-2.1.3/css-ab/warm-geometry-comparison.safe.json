@@ -1,0 +1,71 @@
+{
+  "kind": "stable-route-computed-geometry-and-style-comparison",
+  "rows": [
+    {
+      "device": "mobile",
+      "route": "/ar/about/",
+      "iteration": 0,
+      "geometryElements": 8,
+      "differenceCount": 0,
+      "differences": []
+    },
+    {
+      "device": "mobile",
+      "route": "/ar/about/",
+      "iteration": 1,
+      "geometryElements": 8,
+      "differenceCount": 0,
+      "differences": []
+    },
+    {
+      "device": "mobile",
+      "route": "/ar/admin/ai/",
+      "iteration": 0,
+      "geometryElements": 6,
+      "differenceCount": 0,
+      "differences": []
+    },
+    {
+      "device": "mobile",
+      "route": "/ar/admin/ai/",
+      "iteration": 1,
+      "geometryElements": 6,
+      "differenceCount": 0,
+      "differences": []
+    },
+    {
+      "device": "desktop",
+      "route": "/ar/about/",
+      "iteration": 0,
+      "geometryElements": 8,
+      "differenceCount": 0,
+      "differences": []
+    },
+    {
+      "device": "desktop",
+      "route": "/ar/about/",
+      "iteration": 1,
+      "geometryElements": 8,
+      "differenceCount": 0,
+      "differences": []
+    },
+    {
+      "device": "desktop",
+      "route": "/ar/admin/ai/",
+      "iteration": 0,
+      "geometryElements": 7,
+      "differenceCount": 0,
+      "differences": []
+    },
+    {
+      "device": "desktop",
+      "route": "/ar/admin/ai/",
+      "iteration": 1,
+      "geometryElements": 7,
+      "differenceCount": 0,
+      "differences": []
+    }
+  ],
+  "allStableRouteSamplesEqual": true,
+  "note": "Home animation frames and live drawer opening transitions are not treated as static geometry."
+}

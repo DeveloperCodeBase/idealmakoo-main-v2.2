@@ -1,0 +1,390 @@
+{
+  "formatVersion": 1,
+  "reviewer": "backend",
+  "recordedAt": "2026-10-26T14:26:12.178411+00:00",
+  "document": "IdealMakoo-2.2-Role-Handbook.fa.docx",
+  "documentSha256": "63631b9dd1a5e87c040a9dfcade46985c61fe50fb7201b598dba597632b6676c",
+  "documentPages": 75,
+  "actualReviewRange": {
+    "first": 1,
+    "last": 25,
+    "count": 25
+  },
+  "reviewComplete": true,
+  "result": "pass",
+  "finalRenderPagesOpenedDirectly": [
+    18,
+    19,
+    20,
+    23
+  ],
+  "previouslyOpenedPagesVerifiedPixelIdentical": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    21,
+    22,
+    24,
+    25
+  ],
+  "previousReviewedDocumentSha256": "49c5cb152df18b66407ca859692fe408890049696025c432c4b1dff8c0d81b96",
+  "checks": [
+    "Persian and right-to-left text shaping and reading order",
+    "Font rendering and legibility at original render detail",
+    "Table cell wrapping and boundaries",
+    "Screenshot legibility, complete image bounds, and captions",
+    "Text and image margins, overlap, and footer clearance",
+    "Headings accompanied by following content; suitable-request label kept with its paragraph"
+  ],
+  "blockingIssues": [],
+  "nonBlockingNotes": [],
+  "resolvedRenderIssues": [
+    {
+      "page": 18,
+      "resolution": "Previously truncated render replaced; final complete image opened and passed"
+    },
+    {
+      "page": 23,
+      "resolution": "Previously truncated render replaced; final complete image opened and passed"
+    }
+  ],
+  "scope": "This reviewer inspected only pages 1 through 25. Pages 26 through 75 are reviewed separately. Every assigned page was visually inspected using original detail; unchanged final renders were verified by decoded RGB pixel hash.",
+  "pages": [
+    {
+      "page": 1,
+      "renderSha256": "616a70ef19797e0cdafa0320a25316e439cb4489d25e9eb8d87509683bc72907",
+      "rgbPixelSha256": "793b9640ab04e819f360ff134e6a2d4aa04fbe0b816c121ca667dde7b2797d35",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "result": "pass",
+      "inspection": "view_image detail=original",
+      "reviewBasis": "Previously visually opened render; final certified render independently verified pixel-identical",
+      "originalReviewedRenderSha256": "616a70ef19797e0cdafa0320a25316e439cb4489d25e9eb8d87509683bc72907"
+    },
+    {
+      "page": 2,
+      "renderSha256": "b28da8886a917e5cbf8ea392c8fbc1edeafece5629e4eaf250ae3dd1df0ae648",
+      "rgbPixelSha256": "1003ed3d03c1a8e14fda4edcc7824dfcd1b9d7c904d1f74b533a7ee41f5672eb",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "result": "pass",
+      "inspection": "view_image detail=original",
+      "reviewBasis": "Previously visually opened render; final certified render independently verified pixel-identical",
+      "originalReviewedRenderSha256": "b28da8886a917e5cbf8ea392c8fbc1edeafece5629e4eaf250ae3dd1df0ae648"
+    },
+    {
+      "page": 3,
+      "renderSha256": "db321db3fb93b86df05d9177be9c9294172d1c112a7c31204ee41753baefc7b3",
+      "rgbPixelSha256": "dfd3a095ccaa05087b867647e3c71841674b6c8d529722ebf722c88e139a5014",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "result": "pass",
+      "inspection": "view_image detail=original",
+      "reviewBasis": "Previously visually opened render; final certified render independently verified pixel-identical",
+      "originalReviewedRenderSha256": "db321db3fb93b86df05d9177be9c9294172d1c112a7c31204ee41753baefc7b3"
+    },
+    {
+      "page": 4,
+      "renderSha256": "bbd26a1d026c1ab933ed6ccd95416dc40d6fa154d21ad06330f5fe5ccc2b20f2",
+      "rgbPixelSha256": "81b18685acef0740128b424cbf7733400640709ac3d59b13980adf1959415bed",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "result": "pass",
+      "inspection": "view_image detail=original",
+      "reviewBasis": "Previously visually opened render; final certified render independently verified pixel-identical",
+      "originalReviewedRenderSha256": "bbd26a1d026c1ab933ed6ccd95416dc40d6fa154d21ad06330f5fe5ccc2b20f2"
+    },
+    {
+      "page": 5,
+      "renderSha256": "7a95ebe126ceb9da7e176daa97c182ec99eafb08913e8a38e6f59e1267c63813",
+      "rgbPixelSha256": "dfa02e92659600df7b89b2238bf667ab26f0a9e8b7d5a04943ba1fde16472486",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "result": "pass",
+      "inspection": "view_image detail=original",
+      "reviewBasis": "Previously visually opened render; final certified render independently verified pixel-identical",
+      "originalReviewedRenderSha256": "7a95ebe126ceb9da7e176daa97c182ec99eafb08913e8a38e6f59e1267c63813"
+    },
+    {
+      "page": 6,
+      "renderSha256": "5d18c64c5f4003433d911a1932d7977a1467669f3ba4b2954fdf351d426d7fcd",
+      "rgbPixelSha256": "9b1975b8d1c6a2e777161f1844d2ed109a5a8427256e7fec915efc84d2077bfb",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "result": "pass",
+      "inspection": "view_image detail=original",
+      "reviewBasis": "Previously visually opened render; final certified render independently verified pixel-identical",
+      "originalReviewedRenderSha256": "5d18c64c5f4003433d911a1932d7977a1467669f3ba4b2954fdf351d426d7fcd"
+    },
+    {
+      "page": 7,
+      "renderSha256": "29450ccdd06447b3c0c9560904122fa53e2d5cac7dd04137fd7e7211b575f6a7",
+      "rgbPixelSha256": "7be3126e209d43801893848ba6dd683fb1220101598d125d4fa773d6787694e4",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "result": "pass",
+      "inspection": "view_image detail=original",
+      "reviewBasis": "Previously visually opened render; final certified render independently verified pixel-identical",
+      "originalReviewedRenderSha256": "29450ccdd06447b3c0c9560904122fa53e2d5cac7dd04137fd7e7211b575f6a7"
+    },
+    {
+      "page": 8,
+      "renderSha256": "0576be23e15c63c39f407bf71e06772e89796b9066535ccfb2e2a83d98669030",
+      "rgbPixelSha256": "25524864d1b6550b50420d65a58bc0d2ce604e7244a94fa4e742957073f18053",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "result": "pass",
+      "inspection": "view_image detail=original",
+      "reviewBasis": "Previously visually opened render; final certified render independently verified pixel-identical",
+      "originalReviewedRenderSha256": "0576be23e15c63c39f407bf71e06772e89796b9066535ccfb2e2a83d98669030"
+    },
+    {
+      "page": 9,
+      "renderSha256": "bc127addace56d8a2bf3d37ed6bad9bce5f1de1943f9842a57dbeae0345fcc11",
+      "rgbPixelSha256": "abcef79e51c4c8460946c7c294443fcb71f5789a49101ad5c044b15205147683",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "result": "pass",
+      "inspection": "view_image detail=original",
+      "reviewBasis": "Previously visually opened render; final certified render independently verified pixel-identical",
+      "originalReviewedRenderSha256": "bc127addace56d8a2bf3d37ed6bad9bce5f1de1943f9842a57dbeae0345fcc11"
+    },
+    {
+      "page": 10,
+      "renderSha256": "3bcef1bff740f018feed57224dd19a2a4a7bf48e9d474eba1eb60ad0b073f281",
+      "rgbPixelSha256": "4c7fd872f9726486d29d24f5d2b308e376048ab1e8fd89c0addc2f25b492ce21",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "result": "pass",
+      "inspection": "view_image detail=original",
+      "reviewBasis": "Previously visually opened render; final certified render independently verified pixel-identical",
+      "originalReviewedRenderSha256": "3bcef1bff740f018feed57224dd19a2a4a7bf48e9d474eba1eb60ad0b073f281"
+    },
+    {
+      "page": 11,
+      "renderSha256": "cc47fa1af9ef62a01211422dd4a9c09c393d613721c98bdb6f57e79736aedda8",
+      "rgbPixelSha256": "946a4c122a2c1ad3c96d8971feae6012006e53b868c675b50a880490ebc733f3",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "result": "pass",
+      "inspection": "view_image detail=original",
+      "reviewBasis": "Previously visually opened render; final certified render independently verified pixel-identical",
+      "originalReviewedRenderSha256": "cc47fa1af9ef62a01211422dd4a9c09c393d613721c98bdb6f57e79736aedda8"
+    },
+    {
+      "page": 12,
+      "renderSha256": "b66657d0346c09e087001c31fe3f1936d228965b5315dedf3d8af1fd8ef5ca11",
+      "rgbPixelSha256": "b578d123912366454d03f30eeae3282c39d92ebd95353fb581b82860be50d498",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "result": "pass",
+      "inspection": "view_image detail=original",
+      "reviewBasis": "Previously visually opened render; final certified render independently verified pixel-identical",
+      "originalReviewedRenderSha256": "b66657d0346c09e087001c31fe3f1936d228965b5315dedf3d8af1fd8ef5ca11"
+    },
+    {
+      "page": 13,
+      "renderSha256": "fbb455b186b74f5f44f835cbbca7f3179bde895d49f61016b24ca965c055f81a",
+      "rgbPixelSha256": "5c9f9c1da48a2ddc87230cca9761751792f5109835586eb57b14d8459b6c12f8",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "result": "pass",
+      "inspection": "view_image detail=original",
+      "reviewBasis": "Previously visually opened render; final certified render independently verified pixel-identical",
+      "originalReviewedRenderSha256": "fbb455b186b74f5f44f835cbbca7f3179bde895d49f61016b24ca965c055f81a"
+    },
+    {
+      "page": 14,
+      "renderSha256": "be44b6c1a7613423f84de32f0c34ded9a63a8fe7260bfb3ec695c628b324a7a5",
+      "rgbPixelSha256": "c95f57f7171f5153a0a4e53085039b3b6e469be6eba47d60d4cd9a5b58695b06",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "result": "pass",
+      "inspection": "view_image detail=original",
+      "reviewBasis": "Previously visually opened render; final certified render independently verified pixel-identical",
+      "originalReviewedRenderSha256": "be44b6c1a7613423f84de32f0c34ded9a63a8fe7260bfb3ec695c628b324a7a5"
+    },
+    {
+      "page": 15,
+      "renderSha256": "aa667da82d6909617449a49ae857a251e8b76b587ef7a2fd48d13b37697e740c",
+      "rgbPixelSha256": "bcc9ecd8ee1b4c643852a7a47c53c28a422be40c44449cce72d7f8f4c1890dc9",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "result": "pass",
+      "inspection": "view_image detail=original",
+      "reviewBasis": "Previously visually opened render; final certified render independently verified pixel-identical",
+      "originalReviewedRenderSha256": "aa667da82d6909617449a49ae857a251e8b76b587ef7a2fd48d13b37697e740c"
+    },
+    {
+      "page": 16,
+      "renderSha256": "1099cc5c4ba404142f434344e8fa2d7f365950cd42a92e554a0831c8238fc88f",
+      "rgbPixelSha256": "adb8ee6bfefbd14398dfe0d226a93fc88ef9b5e80e725c5edc9c598f0eb5446b",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "result": "pass",
+      "inspection": "view_image detail=original",
+      "reviewBasis": "Previously visually opened render; final certified render independently verified pixel-identical",
+      "originalReviewedRenderSha256": "1099cc5c4ba404142f434344e8fa2d7f365950cd42a92e554a0831c8238fc88f"
+    },
+    {
+      "page": 17,
+      "renderSha256": "c79930c7924d7bea97263610b0da75f95ad42e5eb40a36fcca474aa97f5e2787",
+      "rgbPixelSha256": "e8b8b5866259c62ed4e59bd82e64e4042237cc94969c1638d4e32c2880ec7eb2",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "result": "pass",
+      "inspection": "view_image detail=original",
+      "reviewBasis": "Previously visually opened render; final certified render independently verified pixel-identical",
+      "originalReviewedRenderSha256": "c79930c7924d7bea97263610b0da75f95ad42e5eb40a36fcca474aa97f5e2787"
+    },
+    {
+      "page": 18,
+      "renderSha256": "341a403822be2b366686ff2de3a44edc7f04bedc8ebd75ea22c382af168fabce",
+      "rgbPixelSha256": "2baf7fc9edeefa3c87e599958fc71371e026aef0394a15de0ab53fad21b26db6",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "result": "pass",
+      "inspection": "view_image detail=original",
+      "reviewBasis": "Final certified render visually opened after pagination correction or incomplete-render replacement"
+    },
+    {
+      "page": 19,
+      "renderSha256": "7ae7d2533c6be38113163da38807ae3892cdc2b4e427e2d381e52bc219d54b08",
+      "rgbPixelSha256": "797325abe86a5cbe0fccac03f834cf8dc83effcb1167c0185ad5eb4641c38bea",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "result": "pass",
+      "inspection": "view_image detail=original",
+      "reviewBasis": "Final certified render visually opened after pagination correction or incomplete-render replacement"
+    },
+    {
+      "page": 20,
+      "renderSha256": "a12fff13d98ee6e39b02817a2f5bbab3c3fe204ef4c01f409fa2627d3fd808a9",
+      "rgbPixelSha256": "30f3bae95e4508a5bb489929fc497db5a81f99497327c76d8921d8e9278db4bc",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "result": "pass",
+      "inspection": "view_image detail=original",
+      "reviewBasis": "Final certified render visually opened after pagination correction or incomplete-render replacement"
+    },
+    {
+      "page": 21,
+      "renderSha256": "99e7167bb8df1debb722c6f73c54b4c9d904e288f23070f974b80e569cf772cf",
+      "rgbPixelSha256": "7e645f0a3c2a09fa3ca55a7fc3499bf938df19541020d57f9401481bce5f477a",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "result": "pass",
+      "inspection": "view_image detail=original",
+      "reviewBasis": "Previously visually opened render; final certified render independently verified pixel-identical",
+      "originalReviewedRenderSha256": "99e7167bb8df1debb722c6f73c54b4c9d904e288f23070f974b80e569cf772cf"
+    },
+    {
+      "page": 22,
+      "renderSha256": "5ccd859baa8fc6ec344549454f4c383a0ea4cd762e92a69b9cee0d4a921fbca3",
+      "rgbPixelSha256": "27291c98cb9ef0fe66ac5d231d161aa63d6234f691bea6c3e92453c5ec1243da",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "result": "pass",
+      "inspection": "view_image detail=original",
+      "reviewBasis": "Previously visually opened render; final certified render independently verified pixel-identical",
+      "originalReviewedRenderSha256": "5ccd859baa8fc6ec344549454f4c383a0ea4cd762e92a69b9cee0d4a921fbca3"
+    },
+    {
+      "page": 23,
+      "renderSha256": "26055e6b7b1f2b6ccafa056774a0dc56fac919cff3b8a1df629f41859d3b2abf",
+      "rgbPixelSha256": "ee0295f92caef3da88dca64fd6850ac18bb421259cde79c72b0b227a47917824",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "result": "pass",
+      "inspection": "view_image detail=original",
+      "reviewBasis": "Final certified render visually opened after pagination correction or incomplete-render replacement"
+    },
+    {
+      "page": 24,
+      "renderSha256": "7872c7c456661205659b962c6daa9512482c219e2b764553b38a01442a4a09aa",
+      "rgbPixelSha256": "78b3dec0c618ffb8658db0e87015b518cd09ad33868be0ce325adf7ffd2e174c",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "result": "pass",
+      "inspection": "view_image detail=original",
+      "reviewBasis": "Previously visually opened render; final certified render independently verified pixel-identical",
+      "originalReviewedRenderSha256": "7872c7c456661205659b962c6daa9512482c219e2b764553b38a01442a4a09aa"
+    },
+    {
+      "page": 25,
+      "renderSha256": "5c4629430297566efe619f8c3448377371e54c537ee0b01051d20d0b094981e8",
+      "rgbPixelSha256": "be92ca0e3c64e4139154ba646a02beb28ce1e7b9dcb9a47152bc29681352aa7c",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "result": "pass",
+      "inspection": "view_image detail=original",
+      "reviewBasis": "Previously visually opened render; final certified render independently verified pixel-identical",
+      "originalReviewedRenderSha256": "5c4629430297566efe619f8c3448377371e54c537ee0b01051d20d0b094981e8"
+    }
+  ],
+  "renderComparisonReceiptSha256": "9004c1f2de5f8d6316889551ec4091fce6206971f97ab8b1c943aec5e196b72d"
+}

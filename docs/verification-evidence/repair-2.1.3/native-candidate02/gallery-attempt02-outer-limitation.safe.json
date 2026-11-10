@@ -1,0 +1,11 @@
+{
+  "kind": "outer-tool-accounting-limitation",
+  "recordedAt": "2026-10-25T07:49:24.403172+00:00",
+  "reason": "Launch response exceeded the available model context; original tool session ID and outer exit could not be recovered through the exposed session API.",
+  "driverChildExitCode": 0,
+  "driverChildActualWaitConsumed": true,
+  "outerToolExitCode": null,
+  "outerToolWaitConsumed": null,
+  "notClaimedAsCompletedOuterInvocation": true,
+  "followup": "One focused repeat will establish actual final outer wait; original files remain preserved."
+}

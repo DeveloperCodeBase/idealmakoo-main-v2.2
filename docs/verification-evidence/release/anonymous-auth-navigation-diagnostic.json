@@ -1,0 +1,465 @@
+{
+  "format": "idealmakoo-anonymous-auth-navigation-diagnostic-v1",
+  "finalRelease": false,
+  "binding": {
+    "sourceFileCount": 832,
+    "sourceSha256": "981c8a90b315e4ae01de066365c3a08ae287b9afaf9202460bcf2db01161898e",
+    "applicationFileCount": 685,
+    "applicationSha256": "0045597565fe76bf449866d397a7eee2c5927a85cda40512044de2673f583807",
+    "publicBuildId": "UFNFFG64Vx2uruUMUuU9z"
+  },
+  "originalFunctionalRun": {
+    "startedAt": "2026-10-22T07:24:48.693Z",
+    "finishedAt": "2026-10-22T07:25:18.107Z",
+    "counts": {
+      "expected": 30,
+      "attempted": 30,
+      "completed": 26,
+      "errors": 4,
+      "timeouts": 0,
+      "pending": 0
+    },
+    "pass": false,
+    "reportedExitCode": 2,
+    "directViewsCompleted": 25,
+    "clientFlows": [
+      {
+        "locale": "fa",
+        "status": "error",
+        "errorCode": "AUTH_BROWSER_EVENT_CHECK_FAILED",
+        "viewsObserved": 6,
+        "allViewChecksPassed": true,
+        "staticRequestFailures": [
+          {
+            "path": "/_next/static/chunks/b536a0f1.5a2107dd6309b288.js",
+            "failure": "net::ERR_ABORTED"
+          }
+        ]
+      },
+      {
+        "locale": "en",
+        "status": "error",
+        "errorCode": "AUTH_BROWSER_EVENT_CHECK_FAILED",
+        "viewsObserved": 6,
+        "allViewChecksPassed": true,
+        "staticRequestFailures": [
+          {
+            "path": "/_next/static/chunks/b536a0f1.5a2107dd6309b288.js",
+            "failure": "net::ERR_ABORTED"
+          }
+        ]
+      },
+      {
+        "locale": "tr",
+        "status": "error",
+        "errorCode": "AUTH_BROWSER_EVENT_CHECK_FAILED",
+        "viewsObserved": 6,
+        "allViewChecksPassed": true,
+        "staticRequestFailures": [
+          {
+            "path": "/_next/static/chunks/bd904a5c.8529b1cfb1c1b6ab.js",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "path": "/_next/static/chunks/b536a0f1.5a2107dd6309b288.js",
+            "failure": "net::ERR_ABORTED"
+          }
+        ]
+      },
+      {
+        "locale": "ar",
+        "status": "completed",
+        "errorCode": null,
+        "viewsObserved": 6,
+        "allViewChecksPassed": true,
+        "staticRequestFailures": []
+      },
+      {
+        "locale": "ru",
+        "status": "error",
+        "errorCode": "AUTH_BROWSER_EVENT_CHECK_FAILED",
+        "viewsObserved": 6,
+        "allViewChecksPassed": true,
+        "staticRequestFailures": [
+          {
+            "path": "/_next/static/chunks/b536a0f1.5a2107dd6309b288.js",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "path": "/_next/static/chunks/b536a0f1.5a2107dd6309b288.js",
+            "failure": "net::ERR_ABORTED"
+          }
+        ]
+      }
+    ],
+    "outcomesReclassified": false
+  },
+  "instrumentedFiveFlowRun": {
+    "startedAt": "2026-10-22T07:34:02.642Z",
+    "finishedAt": "2026-10-22T07:34:11.364Z",
+    "counts": {
+      "expected": 5,
+      "attempted": 5,
+      "completed": 0,
+      "errors": 5,
+      "timeouts": 0,
+      "pending": 0
+    },
+    "pass": false,
+    "reportedExitCode": 2,
+    "diagnosticObservationChecksPassed": true,
+    "browserConnectionClosed": true,
+    "checkedSourceInputsUnchanged": true,
+    "runErrorCount": 0,
+    "normalMotion": true,
+    "flows": [
+      {
+        "locale": "fa",
+        "status": "error",
+        "errorCode": "AUTH_BROWSER_EVENT_CHECK_FAILED",
+        "viewsObserved": 6,
+        "allViewChecksPassed": true,
+        "allClientViewsSameDocument": true,
+        "staticRequestFailureCount": 2,
+        "pageErrorCount": 0,
+        "staticNon2xxCount": 0,
+        "blockedMutationRequestCount": 0,
+        "blockedExternalRequestCount": 0,
+        "workerConstructedCount": 5,
+        "explicitTerminateCount": 4,
+        "workerErrorEventCount": 2,
+        "workerReadyMessageCount": 0,
+        "workerCloseCount": 5,
+        "contextClosed": true,
+        "diagnosticOverflow": false,
+        "diagnosticInvalidEvent": false
+      },
+      {
+        "locale": "en",
+        "status": "error",
+        "errorCode": "AUTH_BROWSER_EVENT_CHECK_FAILED",
+        "viewsObserved": 6,
+        "allViewChecksPassed": true,
+        "allClientViewsSameDocument": true,
+        "staticRequestFailureCount": 1,
+        "pageErrorCount": 0,
+        "staticNon2xxCount": 0,
+        "blockedMutationRequestCount": 0,
+        "blockedExternalRequestCount": 0,
+        "workerConstructedCount": 5,
+        "explicitTerminateCount": 4,
+        "workerErrorEventCount": 1,
+        "workerReadyMessageCount": 0,
+        "workerCloseCount": 5,
+        "contextClosed": true,
+        "diagnosticOverflow": false,
+        "diagnosticInvalidEvent": false
+      },
+      {
+        "locale": "tr",
+        "status": "error",
+        "errorCode": "AUTH_BROWSER_EVENT_CHECK_FAILED",
+        "viewsObserved": 6,
+        "allViewChecksPassed": true,
+        "allClientViewsSameDocument": true,
+        "staticRequestFailureCount": 3,
+        "pageErrorCount": 0,
+        "staticNon2xxCount": 0,
+        "blockedMutationRequestCount": 0,
+        "blockedExternalRequestCount": 0,
+        "workerConstructedCount": 5,
+        "explicitTerminateCount": 4,
+        "workerErrorEventCount": 3,
+        "workerReadyMessageCount": 0,
+        "workerCloseCount": 5,
+        "contextClosed": true,
+        "diagnosticOverflow": false,
+        "diagnosticInvalidEvent": false
+      },
+      {
+        "locale": "ar",
+        "status": "error",
+        "errorCode": "AUTH_BROWSER_EVENT_CHECK_FAILED",
+        "viewsObserved": 6,
+        "allViewChecksPassed": true,
+        "allClientViewsSameDocument": true,
+        "staticRequestFailureCount": 2,
+        "pageErrorCount": 0,
+        "staticNon2xxCount": 0,
+        "blockedMutationRequestCount": 0,
+        "blockedExternalRequestCount": 0,
+        "workerConstructedCount": 5,
+        "explicitTerminateCount": 4,
+        "workerErrorEventCount": 2,
+        "workerReadyMessageCount": 0,
+        "workerCloseCount": 5,
+        "contextClosed": true,
+        "diagnosticOverflow": false,
+        "diagnosticInvalidEvent": false
+      },
+      {
+        "locale": "ru",
+        "status": "error",
+        "errorCode": "AUTH_BROWSER_EVENT_CHECK_FAILED",
+        "viewsObserved": 6,
+        "allViewChecksPassed": true,
+        "allClientViewsSameDocument": true,
+        "staticRequestFailureCount": 1,
+        "pageErrorCount": 0,
+        "staticNon2xxCount": 0,
+        "blockedMutationRequestCount": 0,
+        "blockedExternalRequestCount": 0,
+        "workerConstructedCount": 5,
+        "explicitTerminateCount": 4,
+        "workerErrorEventCount": 1,
+        "workerReadyMessageCount": 0,
+        "workerCloseCount": 5,
+        "contextClosed": true,
+        "diagnosticOverflow": false,
+        "diagnosticInvalidEvent": false
+      }
+    ],
+    "staticFailures": [
+      {
+        "locale": "fa",
+        "failureOrdinal": 1,
+        "path": "/_next/static/chunks/b536a0f1.5a2107dd6309b288.js",
+        "failure": "net::ERR_ABORTED",
+        "phase": "link-1-login-view-check",
+        "failureObservedAt": "2026-10-22T07:34:04.033Z",
+        "failureBeforeContextCloseMs": 692.825,
+        "requestStartToFailureDeliveryMs": 26.005,
+        "httpResponseObserved": false,
+        "requestTimingAvailable": false,
+        "samePhaseWorkerObservation": {
+          "constructedForMode": "register",
+          "terminationObservedAfterRouteBecame": "login",
+          "disposeBeforeTerminateBrowserMs": 0.2,
+          "workerErrorAfterTerminateBrowserMs": 2.3,
+          "failureDeliveryMinusBrowserTerminateMs": 2.1,
+          "failureDeliveryMinusNodeTerminateDeliveryMs": -9.281,
+          "requestToWorkerIdentityDirectlyEstablished": false
+        }
+      },
+      {
+        "locale": "fa",
+        "failureOrdinal": 2,
+        "path": "/_next/static/chunks/b536a0f1.5a2107dd6309b288.js",
+        "failure": "net::ERR_ABORTED",
+        "phase": "link-2-recover-view-check",
+        "failureObservedAt": "2026-10-22T07:34:04.308Z",
+        "failureBeforeContextCloseMs": 418.89,
+        "requestStartToFailureDeliveryMs": 22.383,
+        "httpResponseObserved": false,
+        "requestTimingAvailable": false,
+        "samePhaseWorkerObservation": {
+          "constructedForMode": "login",
+          "terminationObservedAfterRouteBecame": "recover",
+          "disposeBeforeTerminateBrowserMs": 0.2,
+          "workerErrorAfterTerminateBrowserMs": 1.2,
+          "failureDeliveryMinusBrowserTerminateMs": 7.6,
+          "failureDeliveryMinusNodeTerminateDeliveryMs": 0.298,
+          "requestToWorkerIdentityDirectlyEstablished": false
+        }
+      },
+      {
+        "locale": "en",
+        "failureOrdinal": 1,
+        "path": "/_next/static/chunks/b536a0f1.5a2107dd6309b288.js",
+        "failure": "net::ERR_ABORTED",
+        "phase": "link-3-login-view-check",
+        "failureObservedAt": "2026-10-22T07:34:06.046Z",
+        "failureBeforeContextCloseMs": 259.699,
+        "requestStartToFailureDeliveryMs": 24.409,
+        "httpResponseObserved": false,
+        "requestTimingAvailable": false,
+        "samePhaseWorkerObservation": {
+          "constructedForMode": "recover",
+          "terminationObservedAfterRouteBecame": "login",
+          "disposeBeforeTerminateBrowserMs": 7.0,
+          "workerErrorAfterTerminateBrowserMs": 4.3,
+          "failureDeliveryMinusBrowserTerminateMs": 4.2,
+          "failureDeliveryMinusNodeTerminateDeliveryMs": 0.205,
+          "requestToWorkerIdentityDirectlyEstablished": false
+        }
+      },
+      {
+        "locale": "tr",
+        "failureOrdinal": 1,
+        "path": "/_next/static/chunks/b536a0f1.5a2107dd6309b288.js",
+        "failure": "net::ERR_ABORTED",
+        "phase": "link-1-login-view-check",
+        "failureObservedAt": "2026-10-22T07:34:07.390Z",
+        "failureBeforeContextCloseMs": 524.102,
+        "requestStartToFailureDeliveryMs": 21.362,
+        "httpResponseObserved": false,
+        "requestTimingAvailable": false,
+        "samePhaseWorkerObservation": {
+          "constructedForMode": "register",
+          "terminationObservedAfterRouteBecame": "login",
+          "disposeBeforeTerminateBrowserMs": 0.2,
+          "workerErrorAfterTerminateBrowserMs": 9.5,
+          "failureDeliveryMinusBrowserTerminateMs": 5.3,
+          "failureDeliveryMinusNodeTerminateDeliveryMs": 3.242,
+          "requestToWorkerIdentityDirectlyEstablished": false
+        }
+      },
+      {
+        "locale": "tr",
+        "failureOrdinal": 2,
+        "path": "/_next/static/chunks/b536a0f1.5a2107dd6309b288.js",
+        "failure": "net::ERR_ABORTED",
+        "phase": "link-2-recover-view-check",
+        "failureObservedAt": "2026-10-22T07:34:07.549Z",
+        "failureBeforeContextCloseMs": 365.373,
+        "requestStartToFailureDeliveryMs": 13.796,
+        "httpResponseObserved": false,
+        "requestTimingAvailable": false,
+        "samePhaseWorkerObservation": {
+          "constructedForMode": "login",
+          "terminationObservedAfterRouteBecame": "recover",
+          "disposeBeforeTerminateBrowserMs": 0.1,
+          "workerErrorAfterTerminateBrowserMs": 2.0,
+          "failureDeliveryMinusBrowserTerminateMs": 0.8,
+          "failureDeliveryMinusNodeTerminateDeliveryMs": 0.621,
+          "requestToWorkerIdentityDirectlyEstablished": false
+        }
+      },
+      {
+        "locale": "tr",
+        "failureOrdinal": 3,
+        "path": "/_next/static/chunks/b536a0f1.5a2107dd6309b288.js",
+        "failure": "net::ERR_ABORTED",
+        "phase": "link-3-login-view-check",
+        "failureObservedAt": "2026-10-22T07:34:07.661Z",
+        "failureBeforeContextCloseMs": 253.12,
+        "requestStartToFailureDeliveryMs": 22.805,
+        "httpResponseObserved": false,
+        "requestTimingAvailable": false,
+        "samePhaseWorkerObservation": {
+          "constructedForMode": "recover",
+          "terminationObservedAfterRouteBecame": "login",
+          "disposeBeforeTerminateBrowserMs": 0.2,
+          "workerErrorAfterTerminateBrowserMs": 3.6,
+          "failureDeliveryMinusBrowserTerminateMs": 7.6,
+          "failureDeliveryMinusNodeTerminateDeliveryMs": 5.668,
+          "requestToWorkerIdentityDirectlyEstablished": false
+        }
+      },
+      {
+        "locale": "ar",
+        "failureOrdinal": 1,
+        "path": "/_next/static/chunks/b536a0f1.5a2107dd6309b288.js",
+        "failure": "net::ERR_ABORTED",
+        "phase": "link-2-recover-view-check",
+        "failureObservedAt": "2026-10-22T07:34:09.074Z",
+        "failureBeforeContextCloseMs": 419.626,
+        "requestStartToFailureDeliveryMs": 22.112,
+        "httpResponseObserved": false,
+        "requestTimingAvailable": false,
+        "samePhaseWorkerObservation": {
+          "constructedForMode": "login",
+          "terminationObservedAfterRouteBecame": "recover",
+          "disposeBeforeTerminateBrowserMs": 0.2,
+          "workerErrorAfterTerminateBrowserMs": 3.9,
+          "failureDeliveryMinusBrowserTerminateMs": 0.9,
+          "failureDeliveryMinusNodeTerminateDeliveryMs": 0.495,
+          "requestToWorkerIdentityDirectlyEstablished": false
+        }
+      },
+      {
+        "locale": "ar",
+        "failureOrdinal": 2,
+        "path": "/_next/static/chunks/b536a0f1.5a2107dd6309b288.js",
+        "failure": "net::ERR_ABORTED",
+        "phase": "link-3-login-view-check",
+        "failureObservedAt": "2026-10-22T07:34:09.222Z",
+        "failureBeforeContextCloseMs": 271.861,
+        "requestStartToFailureDeliveryMs": 0.025,
+        "httpResponseObserved": false,
+        "requestTimingAvailable": false,
+        "samePhaseWorkerObservation": {
+          "constructedForMode": "recover",
+          "terminationObservedAfterRouteBecame": "login",
+          "disposeBeforeTerminateBrowserMs": 0.2,
+          "workerErrorAfterTerminateBrowserMs": 0.7,
+          "failureDeliveryMinusBrowserTerminateMs": 2.8,
+          "failureDeliveryMinusNodeTerminateDeliveryMs": -0.437,
+          "requestToWorkerIdentityDirectlyEstablished": false
+        }
+      },
+      {
+        "locale": "ru",
+        "failureOrdinal": 1,
+        "path": "/_next/static/chunks/b536a0f1.5a2107dd6309b288.js",
+        "failure": "net::ERR_ABORTED",
+        "phase": "link-2-recover-view-check",
+        "failureObservedAt": "2026-10-22T07:34:10.834Z",
+        "failureBeforeContextCloseMs": 404.108,
+        "requestStartToFailureDeliveryMs": 23.801,
+        "httpResponseObserved": false,
+        "requestTimingAvailable": false,
+        "samePhaseWorkerObservation": {
+          "constructedForMode": "login",
+          "terminationObservedAfterRouteBecame": "recover",
+          "disposeBeforeTerminateBrowserMs": 0.2,
+          "workerErrorAfterTerminateBrowserMs": 4.1,
+          "failureDeliveryMinusBrowserTerminateMs": 7.5,
+          "failureDeliveryMinusNodeTerminateDeliveryMs": 1.186,
+          "requestToWorkerIdentityDirectlyEstablished": false
+        }
+      }
+    ]
+  },
+  "builtDependencyEvidence": {
+    "authWorkerAsset": {
+      "path": "/_next/static/chunks/idealmakoo-auth.b1d7bd0d4cf079a5.js",
+      "bytes": 24276,
+      "sha256": "6423f2d1c6790a949ec973b7d8ce0fd951c440190ca7569de51a6330fb4fbabf"
+    },
+    "importScriptsDependencies": [
+      {
+        "path": "/_next/static/chunks/b536a0f1.5a2107dd6309b288.js",
+        "bytes": 322123,
+        "sha256": "9ac5fc9beac6305837450eb65d8745d60a11939d921f384215a60d5dcbac75d6"
+      },
+      {
+        "path": "/_next/static/chunks/bd904a5c.8529b1cfb1c1b6ab.js",
+        "bytes": 207258,
+        "sha256": "839ca71264eae0dab9632f2c146ccddb17b90ae84d01544df94773b8e5316bcb"
+      }
+    ],
+    "runtimeImportsBothDependenciesBeforeSceneModuleExecution": true
+  },
+  "findings": {
+    "staticFailureCount": 9,
+    "allFailuresBeforeContextCloseRequest": true,
+    "failureBeforeContextCloseRangeMs": [
+      253.12,
+      692.825
+    ],
+    "explicitWorkerTerminations": 20,
+    "workerErrorEvents": 9,
+    "allObservedWorkerErrorsAfterTheirExplicitTerminateCall": true,
+    "workerErrorAfterTerminateRangeMs": [
+      0.7,
+      9.5
+    ],
+    "workerReadyMessagesObserved": 0,
+    "formThemeLocaleAndSameDocumentChecksPassed": true,
+    "concretePersistentAssetOrFormFailureDemonstrated": false,
+    "interpretation": "The observed failures are consistent with dependencies cancelled when obsolete auth Workers are disposed during client route changes. Every failure is in a route-change phase with an explicit terminate observation, and every observed Worker error follows that Worker's terminate call. They occur before context close, so teardown of the entire browser context is not the recorded trigger.",
+    "productChangeJustifiedByThisEvidence": false,
+    "historicalOutcomesReclassified": false
+  },
+  "limits": [
+    "The original thirty-case run remains 26 completed and 4 errors; the instrumented five-flow run remains 0 completed and 5 errors. They do not combine into a new thirty-case pass.",
+    "The protocol does not expose a request-to-dedicated-Worker identifier. A same-phase Worker observation is factual correlation and is not treated as unique request ownership.",
+    "Browser Worker timestamps and Node event-delivery timestamps are different clock observations. Delivery order can differ; two failures reached Node before the corresponding terminate notification.",
+    "request.timing returned startTime 0 and other sentinel values for the aborted requests. No transport duration or server failure is inferred from those fields.",
+    "No ready message was received during these deliberately unchanged fast flows. This diagnostic does not establish first rendered frame, visual parity, renderer readiness or render latency.",
+    "Instrumentation forwards native Worker calls without extra readiness waits or delayed clicks, but observer overhead and read-only request routing can affect timing/cache behavior. This is not a performance measurement.",
+    "Context shutdown may prevent final browser-binding delivery. The retained Node close phases and Playwright worker/page close events are separate observations.",
+    "No login, registration, recovery, MFA completion, submitted form values, API mutation, accessibility conformance or field INP claim is made."
+  ]
+}

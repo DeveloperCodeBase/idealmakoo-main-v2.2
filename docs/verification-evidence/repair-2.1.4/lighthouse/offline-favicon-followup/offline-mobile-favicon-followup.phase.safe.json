@@ -1,0 +1,54 @@
+{
+  "format": "strict-safe-native-proxy-phase-derivative-v1",
+  "phase": "offline-mobile-favicon-followup",
+  "kind": "scoring",
+  "startedAt": "2026-10-26T01:12:04.726916+00:00",
+  "finishedAt": "2026-10-26T01:12:57.513452+00:00",
+  "durationSeconds": 52.787,
+  "topologySha256": "9423dd71d0172fd02d0249dba41d3f0ad5332ec9da3d8dfb1b26c4c6429c4c53",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "commandLaunchAttempted": true,
+  "commandStarted": true,
+  "coreConfigurationHashAloneBindsProxy": false,
+  "actualCommandExitCode": 0,
+  "validationPassed": true,
+  "validationErrorCode": null,
+  "validationIsSeparateFromLighthouseOutcome": true,
+  "receivedOrForwardedSignals": [],
+  "wrapperForcedKillAfterSixtySeconds": false,
+  "interruptedPageCleanup": "Not inferred by this wrapper; retain the original auditor's evidence.",
+  "originalReceiptSha256": "330dbfafd7424963273bb87a32d9296876c5e0edf2031f3b85e0c6ac8ea29df9",
+  "beforeFullGuardPassed": true,
+  "afterFullGuardPassed": true,
+  "coreArtifacts": [
+    {
+      "directoryLabel": "lighthouse214-final-ir2-offline-favicon-v2-mobile",
+      "files": {
+        "manifest.json": {
+          "sha256": "44b8ce904a34bd22270c03eda236693119035dbc4222bcd18711d56ad59b047a",
+          "bytes": 2315
+        },
+        "inventory.json": {
+          "sha256": "f4283496032145c931bde3d4ee62fbe270e86678f9308599a4c3086ed2c8060e",
+          "bytes": 985
+        },
+        "summary.json": {
+          "sha256": "7b753500f346f747acf97802036ebc4fa1b6dd8e11e93456493fdcc9dca02215",
+          "bytes": 21164
+        }
+      },
+      "coreConfigurationHash": "1114278e17bbe100e9b4ca63272766d9b6547bff18f5814dc2f015dedfc3e716",
+      "counts": {
+        "expected": 5,
+        "attempted": 5,
+        "completed": 5,
+        "expectedHttpResponses": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "pending": 0,
+        "coverageComplete": true
+      }
+    }
+  ],
+  "omitted": "Private logs, command/process IDs, full environment/process observations, raw command hashes and internal tool identifiers are not exported."
+}

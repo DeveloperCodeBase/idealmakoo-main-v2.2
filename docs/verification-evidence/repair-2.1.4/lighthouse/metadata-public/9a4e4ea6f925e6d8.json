@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/research/iranian-swiss-dentin-bond/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "7ff4a649f79a530d3d4d9abca9503423ca08c33b400f5e01a2107000361ee348",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Dentin bonding of Ideal Makoo and Synergy composites | Ideal Makoo"
+  ],
+  "descriptions": [
+    "A laboratory comparison of shear bond strength for two light-cure composites."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/research/iranian-swiss-dentin-bond/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/iranian-swiss-dentin-bond/",
+    "en": "http://127.0.0.1:3100/en/research/iranian-swiss-dentin-bond/",
+    "tr": "http://127.0.0.1:3100/tr/research/iranian-swiss-dentin-bond/",
+    "ar": "http://127.0.0.1:3100/ar/research/iranian-swiss-dentin-bond/",
+    "ru": "http://127.0.0.1:3100/ru/research/iranian-swiss-dentin-bond/",
+    "x-default": "http://127.0.0.1:3100/fa/research/iranian-swiss-dentin-bond/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 59
+}

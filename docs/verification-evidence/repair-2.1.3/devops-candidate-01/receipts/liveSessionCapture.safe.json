@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "kind": "collected-owned-guest-outcome",
+  "guest": "primary",
+  "job": "capture-sessions",
+  "status": "passed",
+  "exitCode": 0,
+  "actualGuestWaitConsumed": true,
+  "startedAt": "2026-10-25T04:51:48.851659+00:00",
+  "completedAt": "2026-10-25T04:51:57.085283+00:00",
+  "elapsedSeconds": 8.236819,
+  "files": {
+    "outcome.safe.json": {
+      "bytes": 396,
+      "sha256": "5eef40fb4c35ae1229309f37346a8754cfcb8f80c5c68f8542fd1a9e6d03e98f",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "start.safe.json": {
+      "bytes": 386,
+      "sha256": "d26aee26b21625f2c67c18a83fa1b7b8efab878d9382adaeaec5c64ade2f3d8b",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "stdout.private": {
+      "bytes": 277,
+      "sha256": "400cae7f16deb5430a51852e87ff72a1ead17fd1b3a2c149e891fb241a292b37",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "stderr.private.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    }
+  },
+  "result": {
+    "status": "passed",
+    "kind": "exact-live-prebackup-session-baseline",
+    "capturedAt": "2026-10-25T04:51:56.900224+00:00",
+    "exactDistinctSessions": 4,
+    "allUnrevokedAndUnexpiredAtCapture": true,
+    "baselineSha256": "c96c095c4814d93c3b0438b2ffdbcf0d3e065fd386f5ae43f5d9472f5f312e6a"
+  }
+}

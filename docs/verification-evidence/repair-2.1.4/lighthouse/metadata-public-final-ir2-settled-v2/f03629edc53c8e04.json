@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/technical-selection/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "75a398cde1221585ed405caf96e58bb059c58d7d41c936d1176aa2b004ac4770",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "الاختيار الفني / CSV | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "اختر المنتجات والكميات والألوان والقوالب، أو عاين قائمة CSV واستوردها، ثم أضف العناصر إلى الاستفسار التقني."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/technical-selection/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/technical-selection/",
+    "en": "http://127.0.0.1:3100/en/technical-selection/",
+    "tr": "http://127.0.0.1:3100/tr/technical-selection/",
+    "ar": "http://127.0.0.1:3100/ar/technical-selection/",
+    "ru": "http://127.0.0.1:3100/ru/technical-selection/",
+    "x-default": "http://127.0.0.1:3100/fa/technical-selection/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 89
+}

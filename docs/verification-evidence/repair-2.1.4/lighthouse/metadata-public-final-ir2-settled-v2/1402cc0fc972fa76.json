@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/positioning/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "5a247992ea7446abceaf1e9eed744ba0b78eec54bcd0d86f9dc5dd8d90abbadb",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "جایگاه‌یابی و تجربه مشتری | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "توجه به جزئیات قالب و رنگ، بازخورد مشتری و پشتیبانی از شبکه همکاری."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/positioning/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/positioning/",
+    "en": "http://127.0.0.1:3100/en/positioning/",
+    "tr": "http://127.0.0.1:3100/tr/positioning/",
+    "ar": "http://127.0.0.1:3100/ar/positioning/",
+    "ru": "http://127.0.0.1:3100/ru/positioning/",
+    "x-default": "http://127.0.0.1:3100/fa/positioning/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 50
+}

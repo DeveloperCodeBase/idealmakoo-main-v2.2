@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/research/iranian-swiss-shear-bond/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "81f115cffca62841dba3e2143e607f76d43fdb61a8358f4dc5afad61cb845f26",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "الارتباط القصي لكومبوزيت إيراني وسويسري | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "تقرير مخبري من جامعة يزد للعلوم الطبية باستخدام 30 سنًا ضاحكًا."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/research/iranian-swiss-shear-bond/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/iranian-swiss-shear-bond/",
+    "en": "http://127.0.0.1:3100/en/research/iranian-swiss-shear-bond/",
+    "tr": "http://127.0.0.1:3100/tr/research/iranian-swiss-shear-bond/",
+    "ar": "http://127.0.0.1:3100/ar/research/iranian-swiss-shear-bond/",
+    "ru": "http://127.0.0.1:3100/ru/research/iranian-swiss-shear-bond/",
+    "x-default": "http://127.0.0.1:3100/fa/research/iranian-swiss-shear-bond/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 69
+}

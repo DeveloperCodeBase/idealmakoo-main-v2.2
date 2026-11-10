@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/quality-report/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "f4adcd5f9aebd7b9781f2b27af445f1ccf383014b052f5a32cb2f668eb0ed1dc",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Отчёт о качестве продукции | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Отправьте отчёт о качестве с продуктом, номером партии, описанием проблемы и файлами для рассмотрения и последующего ответа завода."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/quality-report/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/quality-report/",
+    "en": "http://127.0.0.1:3100/en/quality-report/",
+    "tr": "http://127.0.0.1:3100/tr/quality-report/",
+    "ar": "http://127.0.0.1:3100/ar/quality-report/",
+    "ru": "http://127.0.0.1:3100/ru/quality-report/",
+    "x-default": "http://127.0.0.1:3100/fa/quality-report/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 47
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "checkedAtUtc": "2026-10-26T14:27:16.470651+00:00",
+  "file": "scripts/install-ubuntu.sh",
+  "change": "Only the literal --help resource requirements text was updated: 8GiB minimum for managed mail, app-only 6GiB with local antivirus / 4GiB without, plus separate mail/media/backup capacity.",
+  "previousSha256": "02b88e4aac058ae3eb65138e357acf4e9d5ac10f375b1a19d82944de66581e6d",
+  "currentSha256": "eb2075fca9abb74bea8483b452dbbb2423ffcd0a5054b134adb3b9498d8f8d3b",
+  "executableLogicUnchanged": true,
+  "proof": "All bytes outside the single existing quoted HELP heredoc are identical before and after. The changed line was asserted to be inside that heredoc.",
+  "checks": {
+    "bashSyntaxExit": 0,
+    "helpExit": 0,
+    "expectedRequirementsTextPrinted": true
+  },
+  "priorDeploymentRegression": {
+    "testsPassed": 282,
+    "rerunRequired": false,
+    "reason": "Literal help text only; no executable logic changed."
+  }
+}

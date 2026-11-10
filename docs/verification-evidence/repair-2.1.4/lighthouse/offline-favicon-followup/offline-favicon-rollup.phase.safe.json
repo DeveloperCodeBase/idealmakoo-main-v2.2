@@ -1,0 +1,58 @@
+{
+  "format": "strict-safe-native-proxy-phase-derivative-v1",
+  "phase": "offline-favicon-rollup",
+  "kind": "export",
+  "startedAt": "2026-10-26T01:14:21.288360+00:00",
+  "finishedAt": "2026-10-26T01:14:21.580235+00:00",
+  "durationSeconds": 0.292,
+  "topologySha256": "9423dd71d0172fd02d0249dba41d3f0ad5332ec9da3d8dfb1b26c4c6429c4c53",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "commandLaunchAttempted": false,
+  "commandStarted": false,
+  "coreConfigurationHashAloneBindsProxy": false,
+  "actualCommandExitCode": null,
+  "validationPassed": false,
+  "validationErrorCode": "EXPLICIT_PINNED_ENV_FILE_REQUIRED",
+  "validationIsSeparateFromLighthouseOutcome": true,
+  "receivedOrForwardedSignals": [],
+  "wrapperForcedKillAfterSixtySeconds": false,
+  "interruptedPageCleanup": "Not inferred by this wrapper; retain the original auditor's evidence.",
+  "originalReceiptSha256": "ea10b9a52c504ec1d4c462940c5f088b24e3bcc1c752002c1c11cf78e5623f38",
+  "beforeFullGuardPassed": true,
+  "afterFullGuardPassed": null,
+  "coreArtifacts": [
+    {
+      "directoryLabel": "offline-mobile-favicon-followup-ir2",
+      "files": {
+        "manifest.json": {
+          "sha256": "8bc2a640b40077a8037cbc4bb9d549e96b0797ea8d630dc70df7002e90b58104",
+          "bytes": 2751
+        },
+        "inventory.json": {
+          "sha256": "4c02a1063a10d34ee4a03e463d3aa6b570a010ff0bda21cfed83de7f78334b7a",
+          "bytes": 986
+        },
+        "summary.json": {
+          "sha256": "8cf25006d500601ec6661c4b5e9517efad281b308b543044a8fb9338274be134",
+          "bytes": 22575
+        },
+        "EXPORT.json": {
+          "sha256": "745660083ad11144fed44743b54c06ffe5e38c2c3d28c62743094f99d2cf7a50",
+          "bytes": 4330
+        }
+      },
+      "coreConfigurationHash": "1114278e17bbe100e9b4ca63272766d9b6547bff18f5814dc2f015dedfc3e716",
+      "counts": {
+        "expected": 5,
+        "attempted": 5,
+        "completed": 5,
+        "expectedHttpResponses": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "pending": 0,
+        "coverageComplete": true
+      }
+    }
+  ],
+  "omitted": "Private logs, command/process IDs, full environment/process observations, raw command hashes and internal tool identifiers are not exported."
+}

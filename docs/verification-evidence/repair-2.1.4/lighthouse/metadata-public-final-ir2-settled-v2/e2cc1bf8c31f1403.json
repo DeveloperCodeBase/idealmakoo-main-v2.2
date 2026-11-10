@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/news/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "be78df3689fb7060ab21e68d273a9a36e282ed47e67c6d5f8ec0c6f0cb3f55f6",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "The factory’s voice. Stories of progress. | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Published Ideal Makoo news, announcements and stories, together in one place."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/news/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/news/",
+    "en": "http://127.0.0.1:3100/en/news/",
+    "tr": "http://127.0.0.1:3100/tr/news/",
+    "ar": "http://127.0.0.1:3100/ar/news/",
+    "ru": "http://127.0.0.1:3100/ru/news/",
+    "x-default": "http://127.0.0.1:3100/fa/news/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 60
+}

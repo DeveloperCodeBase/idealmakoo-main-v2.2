@@ -1,0 +1,134 @@
+{
+  "status": "passed",
+  "actualExitCode": 0,
+  "startedAt": "2026-10-25T19:49:02.180204+00:00",
+  "completedAt": "2026-10-25T19:49:41.873089+00:00",
+  "elapsedSeconds": 39.694,
+  "scope": "App-only production image/runtime refresh on the retained fresh application fixture",
+  "nativeAcceptanceBuildId": "ir2DFJg8r5YdpbVQubUqF",
+  "applicationInputFingerprint": "4fcec50f5846b0affccc59e43798613ba134a3f93559ea5ddba9705e1f38cc58",
+  "dockerImageId": "sha256:04b4ea2a4c462506362a6db8aeff540e3d39b4ef501b60f2c45138edd6b6c3f3",
+  "repositoryDigests": [
+    "idealmakoo214fresh-app@sha256:04b4ea2a4c462506362a6db8aeff540e3d39b4ef501b60f2c45138edd6b6c3f3"
+  ],
+  "runtime": {
+    "app": {
+      "buildId": "nsZ9wJTZrlCbPhlylmcQf",
+      "node": "v24.22.1",
+      "uid": 10001,
+      "gid": 10001,
+      "os": [
+        "PRETTY_NAME=\"Debian GNU/Linux 12 (bookworm)\"",
+        "VERSION_ID=\"12\"",
+        "ID=debian"
+      ],
+      "glibc": "2.36"
+    },
+    "worker": {
+      "buildId": "nsZ9wJTZrlCbPhlylmcQf",
+      "node": "v24.22.1",
+      "uid": 10001,
+      "gid": 10001,
+      "os": [
+        "PRETTY_NAME=\"Debian GNU/Linux 12 (bookworm)\"",
+        "VERSION_ID=\"12\"",
+        "ID=debian"
+      ],
+      "glibc": "2.36"
+    }
+  },
+  "runtimeRoleChecks": {
+    "app": {
+      "status": "passed",
+      "role": "idealmakoo_app",
+      "readableRelations": 186,
+      "deniedOperations": 5
+    },
+    "worker": {
+      "status": "passed",
+      "role": "idealmakoo_app",
+      "readableRelations": 186,
+      "deniedOperations": 5
+    }
+  },
+  "copiedSourceFilesVerified": 818,
+  "allEightApprovedApplicationFilesVerified": true,
+  "requiredRuntimeAssetsVerified": 7,
+  "readiness": {
+    "httpStatus": 200,
+    "status": "ok",
+    "privacy": "ready"
+  },
+  "protectedConfigurationUnchanged": true,
+  "businessContentUnchanged": true,
+  "businessTableCounts": {
+    "workspace_entities": 211,
+    "workspace_meta": 1,
+    "requests": 0,
+    "locale_releases": 0
+  },
+  "unselectedDatabaseProxyScannerAndMigrationContainersUnchanged": true,
+  "primaryContainersRetainedStopped": true,
+  "bothSixVolumeIdentitySetsAndMetadataUnchanged": true,
+  "retainedArchiveMetadataUnchanged": true,
+  "freshArchiveCount": 1,
+  "primaryArchiveCount": 7,
+  "priorImagesAndReleasesRetained": true,
+  "freshCurrentLinkUpdatedAfterReadiness": true,
+  "backupTimerOriginalStateRestored": true,
+  "guestFreeBytes": 44998201344,
+  "migrationsSeedBackupRestoreOrAntivirusAcceptanceRepeated": false,
+  "format": "idealmakoo-final-frontend-runtime-v1",
+  "refreshOperation": {
+    "guest": {
+      "startedAt": "2026-10-25T19:45:25.782753+00:00",
+      "completedAt": "2026-10-25T19:47:21.111993+00:00",
+      "elapsedSeconds": 115.351,
+      "exitCode": 0,
+      "protectedConfigurationUnchanged": true
+    },
+    "host": {
+      "startedAt": "2026-10-25T19:45:20.077374+00:00",
+      "completedAt": "2026-10-25T19:47:22.291111+00:00",
+      "actualSshExitCode": 0,
+      "durationSeconds": 122.214,
+      "hostFreeBytes": 3684896768
+    }
+  },
+  "healthOperation": {
+    "guest": {
+      "startedAt": "2026-10-25T19:48:23.504474+00:00",
+      "completedAt": "2026-10-25T19:48:37.822140+00:00",
+      "elapsedSeconds": 14.323,
+      "exitCode": 0,
+      "protectedConfigurationUnchanged": true
+    },
+    "host": {
+      "startedAt": "2026-10-25T19:48:13.477175+00:00",
+      "completedAt": "2026-10-25T19:48:38.901590+00:00",
+      "actualSshExitCode": 0,
+      "durationSeconds": 25.424,
+      "hostFreeBytes": 3684622336
+    }
+  },
+  "archivePreservationScope": "Names, inode, size and mtime compared across this app-only refresh; earlier actual authenticated archive content checks remain in immutable01-16 evidence.",
+  "volumePreservationScope": "Both six-volume identity sets and observed Docker volume metadata are unchanged; this stage does not repeat a backup/restore drill.",
+  "containerPolicyAssertionsPassedBySuccessfulReadback": {
+    "services": [
+      "app",
+      "worker"
+    ],
+    "configuredUser": "10001:10001",
+    "readOnlyRootFilesystem": true,
+    "allLinuxCapabilitiesDropped": true,
+    "noNewPrivileges": true,
+    "absentEnvironmentKeys": [
+      "TEST_DATABASE_URL",
+      "TEST_ADMIN_DATABASE_URL",
+      "MIGRATION_DATABASE_URL",
+      "BOOTSTRAP_ADMIN_*"
+    ],
+    "executedHelperSha256": "f246dbb39e6b92fd9df251fa970b50668128669e988497ad6b8a20fcf7190a59"
+  },
+  "repositoryDigestsScope": "Verbatim local Docker image inspection metadata, not proof of remote registry publication."
+}

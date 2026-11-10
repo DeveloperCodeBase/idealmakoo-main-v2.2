@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/marketing-training/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "d21a60239570e3c1db8229ab7cc128850c7f009ed32abc33742b26f781caba6f",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Pazar yönetimi ve öğrenme | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Kullanıcı ihtiyaçlarını anlama, pazar araştırması, sürekli iyileştirme ve çalışan gelişimi."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/marketing-training/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/marketing-training/",
+    "en": "http://127.0.0.1:3100/en/marketing-training/",
+    "tr": "http://127.0.0.1:3100/tr/marketing-training/",
+    "ar": "http://127.0.0.1:3100/ar/marketing-training/",
+    "ru": "http://127.0.0.1:3100/ru/marketing-training/",
+    "x-default": "http://127.0.0.1:3100/fa/marketing-training/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 45
+}

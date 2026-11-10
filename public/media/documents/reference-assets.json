@@ -1,0 +1,336 @@
+[
+  {
+    "id": "ideal-makoo-complete-catalogue",
+    "originalFileName": "ideal makoo neww complete1graynew.pdf",
+    "sourcePageCount": 1,
+    "sourceBytes": 47886307,
+    "sourceSha256": "a41652ba6e9b55c0cf135d13b14c3fc5e4d64e98e392f80776453f4edafa895e",
+    "pageCount": 26,
+    "webBytes": 8051624,
+    "webSha256": "77f1b0321778fcf2efbe8483964cfe496dcfc0a2daeb8953fde497831cc451c7",
+    "url": "/media/documents/ideal-makoo-complete-catalogue-web.pdf",
+    "localDownloadUrl": "/media/documents/ideal-makoo-complete-catalogue-web.pdf",
+    "pages": [
+      {
+        "page": 1,
+        "image": "/media/documents/previews/ideal-makoo-complete-catalogue-page-01.jpg",
+        "width": 1210,
+        "height": 1776,
+        "sourcePanel": 0,
+        "sourcePage": 1
+      },
+      {
+        "page": 2,
+        "image": "/media/documents/previews/ideal-makoo-complete-catalogue-page-02.jpg",
+        "width": 1220,
+        "height": 1776,
+        "sourcePanel": 1,
+        "sourcePage": 1
+      },
+      {
+        "page": 3,
+        "image": "/media/documents/previews/ideal-makoo-complete-catalogue-page-03.jpg",
+        "width": 1219,
+        "height": 1776,
+        "sourcePanel": 2,
+        "sourcePage": 1
+      },
+      {
+        "page": 4,
+        "image": "/media/documents/previews/ideal-makoo-complete-catalogue-page-04.jpg",
+        "width": 1221,
+        "height": 1776,
+        "sourcePanel": 3,
+        "sourcePage": 1
+      },
+      {
+        "page": 5,
+        "image": "/media/documents/previews/ideal-makoo-complete-catalogue-page-05.jpg",
+        "width": 1220,
+        "height": 1776,
+        "sourcePanel": 4,
+        "sourcePage": 1
+      },
+      {
+        "page": 6,
+        "image": "/media/documents/previews/ideal-makoo-complete-catalogue-page-06.jpg",
+        "width": 1222,
+        "height": 1776,
+        "sourcePanel": 5,
+        "sourcePage": 1
+      },
+      {
+        "page": 7,
+        "image": "/media/documents/previews/ideal-makoo-complete-catalogue-page-07.jpg",
+        "width": 1257,
+        "height": 1776,
+        "sourcePanel": 6,
+        "sourcePage": 1
+      },
+      {
+        "page": 8,
+        "image": "/media/documents/previews/ideal-makoo-complete-catalogue-page-08.jpg",
+        "width": 1210,
+        "height": 1775,
+        "sourcePanel": 7,
+        "sourcePage": 1
+      },
+      {
+        "page": 9,
+        "image": "/media/documents/previews/ideal-makoo-complete-catalogue-page-09.jpg",
+        "width": 1225,
+        "height": 1775,
+        "sourcePanel": 8,
+        "sourcePage": 1
+      },
+      {
+        "page": 10,
+        "image": "/media/documents/previews/ideal-makoo-complete-catalogue-page-10.jpg",
+        "width": 1223,
+        "height": 1775,
+        "sourcePanel": 9,
+        "sourcePage": 1
+      },
+      {
+        "page": 11,
+        "image": "/media/documents/previews/ideal-makoo-complete-catalogue-page-11.jpg",
+        "width": 1222,
+        "height": 1775,
+        "sourcePanel": 10,
+        "sourcePage": 1
+      },
+      {
+        "page": 12,
+        "image": "/media/documents/previews/ideal-makoo-complete-catalogue-page-12.jpg",
+        "width": 1226,
+        "height": 1775,
+        "sourcePanel": 11,
+        "sourcePage": 1
+      },
+      {
+        "page": 13,
+        "image": "/media/documents/previews/ideal-makoo-complete-catalogue-page-13.jpg",
+        "width": 1227,
+        "height": 1775,
+        "sourcePanel": 12,
+        "sourcePage": 1
+      },
+      {
+        "page": 14,
+        "image": "/media/documents/previews/ideal-makoo-complete-catalogue-page-14.jpg",
+        "width": 1236,
+        "height": 1775,
+        "sourcePanel": 13,
+        "sourcePage": 1
+      },
+      {
+        "page": 15,
+        "image": "/media/documents/previews/ideal-makoo-complete-catalogue-page-15.jpg",
+        "width": 1210,
+        "height": 1775,
+        "sourcePanel": 14,
+        "sourcePage": 1
+      },
+      {
+        "page": 16,
+        "image": "/media/documents/previews/ideal-makoo-complete-catalogue-page-16.jpg",
+        "width": 1225,
+        "height": 1775,
+        "sourcePanel": 15,
+        "sourcePage": 1
+      },
+      {
+        "page": 17,
+        "image": "/media/documents/previews/ideal-makoo-complete-catalogue-page-17.jpg",
+        "width": 1224,
+        "height": 1775,
+        "sourcePanel": 16,
+        "sourcePage": 1
+      },
+      {
+        "page": 18,
+        "image": "/media/documents/previews/ideal-makoo-complete-catalogue-page-18.jpg",
+        "width": 1226,
+        "height": 1775,
+        "sourcePanel": 17,
+        "sourcePage": 1
+      },
+      {
+        "page": 19,
+        "image": "/media/documents/previews/ideal-makoo-complete-catalogue-page-19.jpg",
+        "width": 1230,
+        "height": 1775,
+        "sourcePanel": 18,
+        "sourcePage": 1
+      },
+      {
+        "page": 20,
+        "image": "/media/documents/previews/ideal-makoo-complete-catalogue-page-20.jpg",
+        "width": 1239,
+        "height": 1775,
+        "sourcePanel": 19,
+        "sourcePage": 1
+      },
+      {
+        "page": 21,
+        "image": "/media/documents/previews/ideal-makoo-complete-catalogue-page-21.jpg",
+        "width": 1215,
+        "height": 1775,
+        "sourcePanel": 20,
+        "sourcePage": 1
+      },
+      {
+        "page": 22,
+        "image": "/media/documents/previews/ideal-makoo-complete-catalogue-page-22.jpg",
+        "width": 1205,
+        "height": 1776,
+        "sourcePanel": 21,
+        "sourcePage": 1
+      },
+      {
+        "page": 23,
+        "image": "/media/documents/previews/ideal-makoo-complete-catalogue-page-23.jpg",
+        "width": 1225,
+        "height": 1776,
+        "sourcePanel": 22,
+        "sourcePage": 1
+      },
+      {
+        "page": 24,
+        "image": "/media/documents/previews/ideal-makoo-complete-catalogue-page-24.jpg",
+        "width": 1223,
+        "height": 1776,
+        "sourcePanel": 23,
+        "sourcePage": 1
+      },
+      {
+        "page": 25,
+        "image": "/media/documents/previews/ideal-makoo-complete-catalogue-page-25.jpg",
+        "width": 1215,
+        "height": 1776,
+        "sourcePanel": 24,
+        "sourcePage": 1
+      },
+      {
+        "page": 26,
+        "image": "/media/documents/previews/ideal-makoo-complete-catalogue-page-26.jpg",
+        "width": 1217,
+        "height": 1776,
+        "sourcePanel": 25,
+        "sourcePage": 1
+      }
+    ]
+  },
+  {
+    "id": "ideal-makoo-mould-guide",
+    "originalFileName": "enigmalife-mould-chart-pdf-Recovered2222-Recovered.pdf",
+    "sourcePageCount": 14,
+    "sourceBytes": 55859721,
+    "sourceSha256": "a17af8e145c595ec8760f346210efe0a8d66698b3a0df05bb5cd9afa1cc03f1d",
+    "pageCount": 14,
+    "webBytes": 4904373,
+    "webSha256": "135d8e652d00a877a183b449728d591658d8f45ae8a72897c1e58dc2289227eb",
+    "url": "/media/documents/ideal-makoo-mould-guide-web.pdf",
+    "localDownloadUrl": "/media/documents/ideal-makoo-mould-guide-web.pdf",
+    "pages": [
+      {
+        "page": 1,
+        "image": "/media/documents/previews/ideal-makoo-mould-guide-page-01.jpg",
+        "width": 1600,
+        "height": 2263,
+        "sourcePage": 1
+      },
+      {
+        "page": 2,
+        "image": "/media/documents/previews/ideal-makoo-mould-guide-page-02.jpg",
+        "width": 1600,
+        "height": 2263,
+        "sourcePage": 2
+      },
+      {
+        "page": 3,
+        "image": "/media/documents/previews/ideal-makoo-mould-guide-page-03.jpg",
+        "width": 1600,
+        "height": 2263,
+        "sourcePage": 3
+      },
+      {
+        "page": 4,
+        "image": "/media/documents/previews/ideal-makoo-mould-guide-page-04.jpg",
+        "width": 1600,
+        "height": 2263,
+        "sourcePage": 4
+      },
+      {
+        "page": 5,
+        "image": "/media/documents/previews/ideal-makoo-mould-guide-page-05.jpg",
+        "width": 1600,
+        "height": 2263,
+        "sourcePage": 5
+      },
+      {
+        "page": 6,
+        "image": "/media/documents/previews/ideal-makoo-mould-guide-page-06.jpg",
+        "width": 1600,
+        "height": 2263,
+        "sourcePage": 6
+      },
+      {
+        "page": 7,
+        "image": "/media/documents/previews/ideal-makoo-mould-guide-page-07.jpg",
+        "width": 1600,
+        "height": 2263,
+        "sourcePage": 7
+      },
+      {
+        "page": 8,
+        "image": "/media/documents/previews/ideal-makoo-mould-guide-page-08.jpg",
+        "width": 1600,
+        "height": 2263,
+        "sourcePage": 8
+      },
+      {
+        "page": 9,
+        "image": "/media/documents/previews/ideal-makoo-mould-guide-page-09.jpg",
+        "width": 1600,
+        "height": 2263,
+        "sourcePage": 9
+      },
+      {
+        "page": 10,
+        "image": "/media/documents/previews/ideal-makoo-mould-guide-page-10.jpg",
+        "width": 1600,
+        "height": 2263,
+        "sourcePage": 10
+      },
+      {
+        "page": 11,
+        "image": "/media/documents/previews/ideal-makoo-mould-guide-page-11.jpg",
+        "width": 1600,
+        "height": 2263,
+        "sourcePage": 11
+      },
+      {
+        "page": 12,
+        "image": "/media/documents/previews/ideal-makoo-mould-guide-page-12.jpg",
+        "width": 1600,
+        "height": 2263,
+        "sourcePage": 12
+      },
+      {
+        "page": 13,
+        "image": "/media/documents/previews/ideal-makoo-mould-guide-page-13.jpg",
+        "width": 1600,
+        "height": 2263,
+        "sourcePage": 13
+      },
+      {
+        "page": 14,
+        "image": "/media/documents/previews/ideal-makoo-mould-guide-page-14.jpg",
+        "width": 1600,
+        "height": 2263,
+        "sourcePage": 14
+      }
+    ]
+  }
+]

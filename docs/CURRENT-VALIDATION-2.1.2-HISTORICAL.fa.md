@@ -1,0 +1,133 @@
+# وضعیت جاری نسخهٔ ۲٫۱٫۲ — ۲۴ اکتبر ۲۰۲۶
+
+## checkpoint جاری: ۲۵۱ آزمون موفق؛ update03 ناموفق و اجرای واقعی اصلاح بعدی در انتظار
+
+| بررسی | نتیجهٔ واقعی |
+| --- | --- |
+| اصل update03 روی بستهٔ تاریخی قبلی | `18:20:06.585721` تا `19:05:16.489480 UTC`؛ خروج ۱۲۴، انتظار فرزند و گردآوری دریافت‌شده؛ migration صفر و فقط بکاپ نخست پیش از ارتقا. سورس آن برنامه989/29480 و اجرا998/31a67 بود. |
+| محل ثبت‌شدهٔ شکست | `container-inspect` برای app؛ `15.071783` ثانیه در سقف ۱۵، با `1043.095221` ثانیه باقی‌مانده از مهلت کلی ۱۲۰۰؛ cleanup و پایان فرایند تأییدشده. callsite دقیق و علت داخلی تأخیر/transport ثابت نشده‌اند. |
+| readback مستقل ساعت ۱۹:۱۱ | خروج صفر؛ app جدید متوقف با خروج۱۴۳، worker قبلی متوقف با خروج صفر، proxy قبلی فعال، DB/ClamAV سالم و migrate صفر. ترکیب releaseها یکسان نبود؛ current قدیمی و previous/pending غایب‌اند. |
+| مرز readback و آرشیو نخست | هر ۳۴۰۴ فایل release تلاش‌شده مطابق بستهٔ تاریخی cac09؛ env/کلید/ledger/sentinel ثابت. بدون SQL، ورود، HTTP، exec یا تأیید بایت‌های image/BUILD_ID. فقط checksum آرشیو ۱۷۶٬۶۸۳٬۳۲۰ بایتی3417c… مطابق است؛ رمزگشایی/احراز مستقل انجام نشده است. |
+| اصلاح محدود آمادگی | فقط COMMAND_TIMEOUT از inspect خواندنیِ کاملاً خاتمه‌یافته، در فاز آمادگی و روی همان شناسه‌های ثابت قابل نمونه‌برداری مجدد است؛ list و mutation تکرار نمی‌شوند. سقف هر inspect پانزده ثانیه و deadline/cancellation کلی حفظ‌اند. |
+| آزمون متمرکز | baseline همان regression با یک شکست و بدون خطا خروج۱ داشت؛ candidate **۲۰/۲۰** در `0.215263` ثانیه موفق شد: ۱۳ روش جدید و ۷ روش قبلی. |
+| مجموعهٔ کامل جاری | **۲۵۱/۲۵۱** در `86.957912` ثانیه؛ خروج واقعی فرزند و outer صفر، صفر شکست/خطا/skip و بدون تغییر ورودی. ۲۰ مورد به این مجموع اضافه نمی‌شوند. |
+| هویت سورس جاری | برنامه۹۸۹/`9c9562…`؛ اجرا۹۹۸/`226e5c…`؛ فقط lifecycle و آزمون همان فایل نسبت به بستهٔ تاریخی قبلی تغییر کرده‌اند. تطبیق ۷۲۷ ورودی کامپایل، build جدید محسوب نمی‌شود. |
+| پذیرش باقی‌مانده | stage03 روی اصلاح فعلی و update04 هنوز اجرا نشده‌اند؛ پذیرش کامل نصب/ارتقا، بکاپ احرازشدهٔ سورس ارتقایافته، fresh recovery، native05 و Lighthouse کامل باقی‌اند. |
+
+[شکست واقعی update03](verification-evidence/repair-2.1.2/supported-update03-failure-20261024/failure-log-classification.safe.json)، [poststate مستقل](verification-evidence/repair-2.1.2/supported-update03-failure-20261024/final-state.safe.json) و [انتظار آن](verification-evidence/repair-2.1.2/supported-update03-failure-20261024/final-state-execution.safe.json)، [۲۰ آزمون متمرکز](verification-evidence/repair-2.1.2/readiness-inspection-retry-20261024/focused.safe.json)، [تکمیل واقعی ۲۵۱ آزمون](verification-evidence/repair-2.1.2/readiness-inspection-retry-20261024/completion.safe.json) و [هویت جاری](verification-evidence/repair-2.1.2/readiness-inspection-retry-20261024/input-summary.safe.json) دامنه‌ها را جدا ثبت می‌کنند. آزمون‌های اخیر محلی‌اند؛ اصلاح علت داخلی کندی یا موفقیت startup واقعی از آن‌ها نتیجه نمی‌شود.
+
+نتیجهٔ ۲۳۸ آزمون و startup/poststate ساعت۱۸:۰۳ مربوط به سورس و مرحلهٔ تاریخی خود است. موفقیت restore04، شاهد امنیت پیش از ورود و API۱۵ و شکست‌های restore02=۱۲۴، bootstrap03=۱۲۵ و update01/update02/update03=۱۲۴ حفظ‌اند. [متن دقیق گزارش پیش از این تغییر](verification-evidence/repair-2.1.2/readiness-inspection-retry-20261024/history/CURRENT-VALIDATION.fa.md.txt) و [خلاصهٔ ماشینی همان زمان](verification-evidence/repair-2.1.2/acceptance-before-readiness-inspection-retry-20261024.json) همراه بسته‌اند؛ بخش‌های پایین تاریخی‌اند.
+
+## checkpoint تاریخی ساعت ۱۶:۰۰: startup جداگانه موفق؛ current قدیمی و اصل update قبلی ناموفق
+
+| بررسی | نتیجهٔ واقعی |
+| --- | --- |
+| اصل update از `e995…/de90…` | خروج ۱۲۴ پس از `3065.003689` ثانیه در readiness؛ migration-container صفر؛ فقط نخستین بکاپ پیش از ارتقا؛ فرمان و سقف دقیق timeout هنوز نامعلوم |
+| startup جداگانه | خروج صفر در `815.928164` ثانیه با preflight و `801.365963` ثانیه از شروع lifecycle؛ deadline اصلی ۱۲۰۰ ثانیه؛ سلامت app/worker/proxy و readiness عمومی از مسیر اصلی گذشتند؛ caller جدا `3db…` و managed source همچنان `e995…/de90…` |
+| readback مستقل پس از startup، ساعت ۱۶:۰۰ | خروج صفر و انتظار دریافت‌شده؛ app/worker با image `d021…`، DB و AV سالم، proxy جدید فعال و migrate صفر؛ هر شش working directory روی release تازهٔ 143134/e995؛ current هنوز قدیمی080908، previous/pending غایب و env/کلید/ledger ثابت |
+| داده و امنیت؛ مشاهدهٔ قبلی ساعت ۱۵:۲۵ | پروفایل/صفحهٔ بکاپ، کارمند غیرفعال و نبود کاربر/نشست حذف‌شده؛ ابطال دقیق سه نشست آرشیوی در audit اصلی حفظ‌اند. پنج نشست کل و دو نشست باطل‌نشده پس از ورودهای verifier قبلی؛ شرط صفر سراسری اعمال نشده |
+| health/log قبلی app، ساعت ۱۵:۳۰ | هر پنج probe پیش از توقف خروج ۱؛ timeout ۹۰ ثانیه و start-period ۶۰۰ ثانیه بدون تغییر؛ خروجی لاگ محدود صفر بایت؛ علت دقیق ثابت نشده |
+| بکاپ نخست update | checksum محلی آرشیو تطبیق دارد؛ رمزگشایی/احراز مستقل انجام نشده و بکاپ دومِ سورس ارتقایافته مشاهده نشده |
+| اصلاح جدید تشخیص خطا | فقط lifecycle و آزمون موجود آن؛ ۶/۶ متمرکز، زیرمجموعهٔ ۲۲۴/۲۲۴ کامل در `87.283882` ثانیه؛ بدون شکست/خطا/skip و با انتظارهای واقعی صفر |
+| هویت سورس جاری | برنامه: ۹۸۷ مدخل `30d2…`؛ اجرا: ۹۹۶ مسیر `bbcf…`؛ ۷۲۷ ورودی کامپایل برابرند، اما native build05 اجرا نشده |
+| مرز پذیرش و کار باقی‌مانده | startup جداگانه موفق است؛ علت timeout اصلی معلوم نشده و failedCommand در اجرای موفق صادر نشد. promotion، update کامل، بکاپ اجباریِ سورس ارتقایافته، نصب کامل، native05، میزبان تازه و Lighthouse کامل پذیرفته نشده‌اند؛ update02 نتیجه ندارد |
+
+[رسید startup](verification-evidence/repair-2.1.2/staged-start-after-update-20261024/acceptance.safe.json)، [poststate واقعی](verification-evidence/repair-2.1.2/staged-start-after-update-20261024/final-state.safe.json) و [خروج مستقل readback](verification-evidence/repair-2.1.2/staged-start-after-update-20261024/final-state-execution.safe.json) نتیجهٔ تازه را ثبت می‌کنند. این readback تماس SQL/HTTP/ورود یا اسکن دوبارهٔ سورس/image نداشت؛ داده/نشست و healthهای ناموفق در ردیف‌های قبلی متعلق به ساعت ۱۵:۲۵/۱۵:۳۰ هستند. سورس جاری `30d2…/bbcf…` با ۲۲۴ آزمون تغییر نکرده؛ caller تشخیصی جدا از managed source `e995…/de90…/82dd…` استفاده شد. اصل update=۱۲۴، موفقیت‌های resume04/witness/API۱۵ و شکست‌های قدیمی حفظ‌اند. [checkpoint پیش از این دلتا](verification-evidence/repair-2.1.2/acceptance-before-staged-start-20261024.json) مرجع سابقه است.
+
+## checkpoint پیشین: اصل ادامهٔ ۰۴، شاهد امنیت و API موفق؛ ارتقا در انتظار
+
+**دستور اصلی `restore.sh --resume` شمارهٔ ۰۴ خروج واقعی صفر دارد؛ checkpoint پس از پایان کار وجود ندارد.** این نتیجهٔ همان ادامه با archive/release/project/key-mode ثابت است. شکست‌های ۰۲ و ۰۳ با نتیجهٔ اصلی حفظ شده‌اند. [رسید اجرا، trace و پایان کار](verification-evidence/repair-2.1.2/populated-resume04-20261024/acceptance.safe.json).
+
+| بررسی | نتیجهٔ ثبت‌شده تا `14:19 UTC` |
+| --- | --- |
+| اصل ادامهٔ ۰۴ | `13:42:14.410087` تا `14:05:21.145033 UTC`؛ `1386.734946` ثانیه؛ خروج صفر و انتظار واقعی دریافت‌شده |
+| trace محدود lifecycle | دو invocation، ۹۵ فرمان، صفر تلاش ناموفق؛ `stop` و `up` صفر؛ parser و گردآوری صفر؛ هزینهٔ مشاهده و دامنهٔ محدود صریح‌اند |
+| پایان فرایند و checkpoint | هویت اصلی/cgroup غایب، قفل عملیات قابل دریافت، checkpoint غایب؛ این بررسی تماس جدید Docker/HTTP/DB یا ورود نداشت |
+| امنیت | شاهد مستقل خواندنی پیش از ورود verifier با خروج صفر: هر سه نشست مطابق SHA-256 کوکی/کاربر و audit اصلی restore02 باطل؛ نشست باطل‌نشده/challenge/recovery/MFA نیمه‌تمام و کاربر/نشست حذف‌شده صفر؛ MFA ثبت‌شده دو حساب |
+| API پس از شاهد امنیت | ۱۵/۱۵ کنترل اصلی؛ خروج واقعی صفر از `14:16:36` تا `14:19:21 UTC`، انتظارها دریافت‌شده؛ driver اصلی، ورود عادی/MFA موجود و بدون reset؛ داده/رسانه/scan verdict/مجوز/حذف بررسی شدند |
+| شکست‌های محفوظ | restore02 پس از داده/امنیت خروج ۱۲۴؛ تلاش ۰۳ قبل از بدنهٔ محصول در bootstrap خروج ۱۲۵؛ هیچ‌کدام موفق بازنویسی نشده‌اند |
+| مرجع سورس | caller `e995…/de90…`؛ آرشیو/release/image همچنان `1b2d…/2bed…/4974…`؛ candidate جدید به‌عنوان برنامه مستقر نشده |
+| پذیرش‌های باقی‌مانده | update پشتیبانی‌شده و بکاپ سورس ارتقایافته، نصاب کامل موفق، native build05، میزبان تازه و Lighthouse کامل |
+
+[رسید شاهد مستقل پس از ادامه](verification-evidence/repair-2.1.2/populated-resume04-20261024/security-witness.safe.json) جدا از رسید اولیهٔ اجرای ۰۴ حفظ شده است؛ زمان ابطال به audit اصلی `12:44:01.514619 UTC` تعلق دارد.
+
+[رسید ۱۵ کنترل اصلی API](verification-evidence/repair-2.1.2/populated-resume04-20261024/api-verification.safe.json) پس از شاهد مستقل و با ورود عادی ثبت شده است؛ سورس برنامهٔ deployed با این آزمون ارتقا نیافت.
+
+بکاپ حفاظتی یا جایگزینی تازه در این ادامه تکرار نشد. نتایج ۲۱۸/۲۱۸ عملیات و همهٔ شاهدهای قبلی با دامنهٔ اصلی حفظ‌اند. [خلاصهٔ ماشینی پیش از ادامهٔ ۰۴](verification-evidence/repair-2.1.2/acceptance-before-resume04-20261024.json) و checkpointهای پایین سوابق همان زمان‌اند؛ نتیجهٔ جدید در [گزارش پذیرش](VERIFICATION.fa.md) تفکیک شده است.
+
+## checkpoint پیشین: شکست startup پس از اعمال امنیت و مشاهدهٔ مستقل
+
+**restore02 خروج واقعی ۱۲۴ دارد؛ داده و امنیتِ ذخیره‌شده مستقلاً مشاهده و تأیید شده‌اند، اما سرویس برنامه هنوز آمادهٔ پذیرش نیست.** [شکست اصلی](verification-evidence/repair-2.1.2/populated-restore02-20261024/failure.safe.json) و [بررسی خواندنی بعدی](verification-evidence/repair-2.1.2/populated-restore02-20261024/final-state.safe.json) دو شاهد جدا هستند.
+
+| بررسی | نتیجهٔ ثبت‌شده |
+| --- | --- |
+| restore02 با caller `e995…/de90…` | `12:02:53` تا `12:56:20 UTC`؛ خروج ۱۲۴، انتظار دریافت‌شده؛ `up / COMMAND_TIMEOUT`؛ فرمان زیرمجموعهٔ دقیق نامعلوم |
+| بکاپ حفاظتی و checkpoint | انتشار بکاپ داخلی و عبور از `prepared` به `security-applied`؛ checkpoint حفظ شده است |
+| محتوای بازگردانده‌شده | پروفایل و صفحه مطابق مقدار بکاپ؛ تغییرهای آزمایشی پس از بکاپ دیگر حاضر نیستند |
+| سیاست دسترسی و حذف | کارمند همچنان غیرفعال؛ مشتری حذف‌شده و نشست او غایب؛ سه نشست آرشیوی دقیقاً با audit همان checkpoint باطل شده‌اند |
+| وضعیت احراز هویت | نشست باطل‌نشده، challenge باز، کد بازیابی و MFA نیمه‌تمام صفر؛ دو حساب دارای MFA ثبت‌شده باقی‌اند |
+| سرویس‌ها و فرایندها | app و worker متوقف؛ DB و ClamAV سالم؛ proxy روشن؛ شش شناسه/image حفظ‌شده، فرایند اصلی و descendant باقی نمانده |
+| ادامهٔ کار | `--resume` با همان binding مستند است؛ هنوز اجرا نشده؛ API بعد از restore، ارتقا و fresh recovery اجرا نشده‌اند |
+| منبع و آزمون‌ها | ۹۸۷ ورودی `de90…` و ۲۱۸/۲۱۸ عملیات؛ build05 و Lighthouse کامل همچنان در انتظار |
+
+اعداد و عبارت‌های «جاری» در checkpointهای پایین، به زمان همان checkpoint تعلق دارند. شرح دقیق و حدود هر شاهد در [گزارش پذیرش](VERIFICATION.fa.md) است؛ مشاهدهٔ امنیت، شکست اصلی restore را به موفقیت تبدیل نمی‌کند.
+
+## checkpoint پیشین: snapshot واقعی candidate
+
+**۴۵/۴۵ آزمون متمرکز، ۲۱۸/۲۱۸ آزمون کامل عملیات و یک snapshot خواندنی واقعی candidate موفق‌اند؛ backup/restore کامل candidate هنوز پذیرفته نشده است.** snapshot در `27.153780` ثانیه و مهلت اصلی ۳۰ ثانیه پایان یافت؛ حاشیه فقط `2.846220` ثانیه است. دو تشخیص مستقل helper قبلی، از جمله `GOMAXPROCS=1`، ناموفق باقی مانده‌اند. اجرای موفق جدید override محیط نداشت. علت همهٔ تأخیرهای قبلی یا موفقیت restore از این تک‌مشاهده استنتاج نمی‌شود.
+
+| دامنهٔ جاری | نتیجه |
+| --- | --- |
+| سورس | ۹۸۷ ورودی، `de90dfabf8ddc57473a5943dfb03ba07b35b78f46e175a6e7ce9284fe2fb0558`؛ چهار مسیر نسبت به `5df4…`؛ ورودی‌ها طی suite ثابت |
+| دو تشخیص واقعی قبلی | هر دو خروج ۱۲۴؛ Compose `ps` به‌ترتیب `30.448061` و `30.210739` ثانیه؛ inspect مستقل شروع نشد؛ تعیین زیر‌فرمان restore قبلیِ بدون trace یا علت دقیق داخلی ادعا نمی‌شود |
+| اصلاح discovery | listing مستقیم با محیط محافظت‌شده، project/config-hash و عضویت دقیق سرویس؛ inspect سخت‌گیرانه، one-offها، رد duplicate/هویت نامعتبر، deadline و cleanup حفظ شده‌اند؛ rollback به root قدیمی از wrapper جدید استفاده می‌کند |
+| آزمون متمرکز | ۴۵/۴۵، خروج صفر، `23.705719` ثانیه؛ ۱۲ قرارداد جدید و ۳۳ مورد موجود؛ baseline قدیمی شکست کنترل‌شدهٔ مورد انتظار داشت |
+| مجموعهٔ کامل عملیات | ۲۱۸/۲۱۸، خروج صفر، `83.897956` ثانیه؛ صفر failure/error/skip؛ انتظار فرزند و ابزار دریافت شد؛ بدون Docker daemon یا VM |
+| snapshot واقعی candidate، `11:56 UTC` | خروج صفر؛ discovery مستقیم `19.502152` و inspect `6.022299` ثانیه؛ دو فرمان و صفر خطای trace؛ تمام انتظارها دریافت شدند |
+| کنترل مستقل قبل/بعد snapshot | شش کانتینر و current/env/key/archive/ledger/source برابر؛ سه شناسهٔ app/worker/proxy با project/env صحیح؛ بدون تغییر داده، سرویس، deadline یا امنیت |
+| هویت اجراهای VM | snapshot خواندنی از `e995…/de90…`؛ caller بکاپ/restoreهای پیشین `3552…/5df4…`؛ سورس آرشیو/current/image همچنان `1b2d…/2bed…/4974…` |
+| گیت‌های باقی‌مانده | backup/restore کامل candidate، witness/verify populated، نصب کامل موفق، بازیابی میزبان مستقل، native build05 و Lighthouse تمام موجودی؛ restore02 هنگام ثبت checkpoint فقط در آماده‌سازی بود |
+
+[شرح و شواهد دقیق](VERIFICATION.fa.md)، [رسید تکمیل ۲۱۸تایی](verification-evidence/repair-2.1.2/direct-discovery-20261024/completion.safe.json)، [رسید ۴۵تایی](verification-evidence/repair-2.1.2/direct-discovery-20261024/discovery-candidate-01.safe.json)، [نقشهٔ سورس](verification-evidence/repair-2.1.2/direct-discovery-20261024/inputs-after-tests.json) و [خلاصهٔ ماشینی جاری](verification-evidence/repair-2.1.2/acceptance.json) همراه بسته‌اند. شمارهای متمرکز به مجموع کامل اضافه نمی‌شوند. فایل‌های تغییرکرده فقط `deploy/compose.py`، `deploy/service-lifecycle.py` و دو فایل آزمون discovery/lifecycle هستند؛ کد وب، دیتابیس، CSS/دارایی و وابستگی تغییر نکرده‌اند. نتایج مرورگر و buildهای قبلی همچنان با شناسهٔ اصلی خود معتبرند، نه به‌عنوان اجرای تازه.
+
+[رسید snapshot واقعی](verification-evidence/repair-2.1.2/direct-discovery-20261024/focused-snapshot-candidate-diagnostic.safe.json) و [checkpoint پیش از آن](verification-evidence/repair-2.1.2/acceptance-before-candidate-snapshot-20261024.json) جدا حفظ شده‌اند. تعداد ۹۸۷، مدخل‌های manifest ورودی برنامه است؛ manifest اجرای بستهٔ e995 دارای ۹۹۶ مسیر است. این مشاهدهٔ خواندنی، سورس deployed یا آرشیوشده را به candidate جدید تبدیل نکرده است.
+
+## checkpoint پیشین، پیش از اصلاح discovery
+
+متن و جدول زیر نتیجهٔ محفوظ تا readback ساعت `11:15 UTC` هستند. عبارت «سورس جاری» و شمار ۲۰۶ در آن‌ها به همان checkpoint اشاره دارند. [خلاصهٔ ماشینی همان نوبت](verification-evidence/repair-2.1.2/acceptance-before-direct-discovery-20261024.json) حفظ شده است.
+
+**restore داده‌های اولیه، ۱۲ کنترل API/ClamAV، بکاپ populated و پنج کنترل mutation موفق‌اند؛ restore populated با خروج ۱۲۴ شکست خورد.** safety backup در snapshot با مهلت صریح ۳۰ ثانیه، پیش از توقف writerها و جایگزینی داده متوقف شد؛ زیر‌فرمان Docker نامعلوم است؛ readback مستقل `11:15 UTC` سلامت کانتینرها و حفظ داده‌های mutation را تأیید کرد، بدون اعمال restore. مجموعهٔ عملیات ۲۰۶/۲۰۶ و شکست نصاب کامل تلاش ۶ حفظ شده‌اند. شاهد امنیت/verify جدید، build05، میزبان تازه و Lighthouse کامل هنوز اجرا یا تکمیل نشده‌اند. [گزارش پذیرش](VERIFICATION.fa.md) و [خلاصهٔ ماشینی](verification-evidence/repair-2.1.2/acceptance.json) دامنه‌ها را تفکیک می‌کنند.
+
+| بخش | نتیجه |
+| --- | --- |
+| اصلاح startup و EXIT | اعمال‌شده؛ چهار روش رگرسیون متمرکز موفق؛ نتیجهٔ قبلی ۲۰۴/۲۰۴ محفوظ |
+| اصلاح ازسرگیری snapshot بدون app | اعمال‌شده در سورس؛ `proxy` و `worker + proxy` با همان شناسه‌ها بازمی‌گردند؛ HTTP برای مجموعهٔ دارای app و proxy، `up` جدید و `check` حفظ شده |
+| مجموعهٔ کامل عملیات پس از اصلاح دوم | **۲۰۶/۲۰۶**؛ صفر شکست، خطا یا skip؛ ۷۶٫۸۵۷ ثانیه |
+| نحو و دامنهٔ تغییر | Python 3.10 و AST موفق؛ نصب‌کننده تغییر نکرده و lint قبلی معتبر است |
+| سورس جاری | ۹۸۶ ورودی با اثر انگشت `5df4b3194f4abcb77a02cd05ef400c1b95653a3458db80712b88d9846b725e00`؛ دو فایل نسبت به `2bed…`، سه فایل نسبت به build04 |
+| ساخت بومی ۰۵ | در انتظار؛ build04 تاریخی محفوظ است |
+| Ubuntu/Docker، تلاش ۶ با سورس `2bed…` | کامپایل cacheشده و migration موفق؛ خروج صفر راه‌اندازی و check-health از روند اصلی نصاب ثابت است؛ نخستین snapshot با مهلت صریح ۳۰ ثانیه ناموفق؛ کل نصاب خروج ۱۲۴ |
+| بررسی تاریخی پس از restore اولیه، `09:54 UTC` | app/worker/DB/ClamAV سالم؛ proxy روشن و HTTP ۲۰۰؛ timer فعال؛ migrate خروج صفر |
+| دامنهٔ سورس اجراشده | ابزار عملیات `3552…/5df4…` برای بکاپ و restore؛ سورس آرشیو، current و image برنامه همچنان `1b2d…/2bed…/4974…`؛ ۷۲۷ ورودی کامپایل برابر |
+| بکاپ اولیه و دانلود، آرشیو `708049…` | خروج صفر؛ آرشیو ۱۷۵٬۱۶۷٬۴۳۲بایتی با age/manifest/payload احرازشده و ۳۲۸۶ فایل سورس تطبیق‌یافته |
+| restore اولیهٔ همان میزبان | خروج واقعی صفر؛ ۳۵ دقیقه و ۱۱٫۸۹۴ ثانیه؛ safety backup و startup/check-health اصلی حفظ شدند |
+| داده‌های بازخوانی‌شده در restore اولیه | یک مدیر، ۲۱۱ موجودیت، ۱۲۰ صفحه، ۷۳ رکورد، ۱۷ رسانه و ۴۱ checksum؛ یک audit امنیت restore و صفر fixture نشست/MFA |
+| محدودیت دامنهٔ restore | داده‌های اولیه؛ لغو نشست غیرخالی، حذف حریم خصوصی جدیدتر و بازگردانی فایل آپلودی کاربر با این اجرا اثبات نشده |
+| API و اسکن واقعی فایل پاک/EICAR | ۱۲/۱۲ در اجرای دوم؛ فایل پاک با hash برابر و منع دسترسی غیرمجاز؛ DOCX حاوی EICAR مسدود و دانلود مالک ۴۰۹؛ داده‌ها بعد از restore ایجاد شدند |
+| بکاپ populated، آرشیو `7e9714…` | خروج صفر؛ ۱۷۵٬۱۸۷٬۹۱۲ بایت؛ snapshot هر سه سرویس و age/manifest/۳۲۸۶ فایل سورس احراز شدند |
+| mutation اصلی | پنج کنترل موفق، خروج صفر در `10:56:44 UTC`؛ درخواست اولیهٔ مجوز پس از اثبات خواندنی و بازارزیابی همان فرمان پذیرفته شد |
+| restore populated | خروج واقعی ۱۲۴ در `11:10:31 UTC`؛ snapshot ۳۰ ثانیه‌ای safety backup، پیش از writer-stop/checkpoint/جایگزینی/اعمال امنیت |
+| وضعیت نهایی مستقل پس از شکست، `11:15 UTC` | readback موفق؛ app/worker/DB/ClamAV healthy و proxy روشن، شناسه/image ثابت؛ سه کاربر و داده‌های mutation حفظ‌شده؛ audit قبلی یک عدد؛ بدون descendant/checkpoint/payload موقت |
+| شاهد ابطال نشست و verify populated | اجرا نشده؛ بازگردانی فایل، حفظ غیرفعال‌سازی و حذف جدیدتر هنوز اثبات نشده‌اند |
+| بازیابی روی میزبان مستقل | هنوز اجرا نشده |
+| Lighthouse تمام موجودی دو دستگاه | در انتظار ساخت و موجودی تازه |
+
+نتایج پیشین ۸۱۵/۸۱۵ واحد، ۵۴۲/۵۴۲ PostgreSQL، ۲۰/۲۰ API، ۵۶/۵۶ مرورگر build02 و بررسی‌های مرتبط build03/04 با دامنهٔ اصلی حفظ شده‌اند؛ آزمون تازه معرفی نمی‌شوند. JavaScript/TypeScript، دیتابیس، CSS، دارایی و lockfile در این دو اصلاح عملیات تغییر نکرده‌اند. [شرح اصلاح قبلی](OPERATIONS-REPAIR-20261024.fa.md)، [شرح اصلاح زیرمجموعه](PROXY-SUBSET-REPAIR-20261024.fa.md)، [رسید واقعی نصب ششم](verification-evidence/repair-2.1.2/installer-06-outcome-20261024.json) و [گزارش بکاپ/بازیابی واقعی](BACKUP-RESTORE-ACCEPTANCE-20261024.fa.md) همراه بسته‌اند.
+
+راهنماها: [تطبیق درخواست و تحویل](REQUEST-COVERAGE.fa.md)، [نصب و شروع](START-HERE.fa.md)، [کاربران](USER-MANAGEMENT.fa.md)، [حساب اولیه و کلیدها](STAFF-ENV.fa.md)، [AI و زبان‌ها](AI-MULTILINGUAL.fa.md)، [رسانه](UPLOAD-STORAGE.fa.md)، [بکاپ/بازیابی](BACKUP-RESTORE.fa.md)، [SEO](SEO.fa.md) و [وضعیت وابستگی‌ها](DEPENDENCY-SECURITY.fa.md). تماس زندهٔ ارائه‌دهندگان و DNS/TLS عمومی جزو نتیجهٔ محلی نیست.
+
+[رسید مستقل اجرای دوم API و ClamAV](verification-evidence/repair-2.1.2/api-seed-02-scanner-20261024.json) خروج صفر و دریافت انتظار فرزند، observer و collector را ثبت می‌کند؛ این نتیجه، آرشیو seed را به آرشیو fixtureهای بعدی تبدیل نمی‌کند.
+
+[بکاپ populated](verification-evidence/repair-2.1.2/populated-backup-download-authentication-20261024.json)، [mutation](verification-evidence/repair-2.1.2/api-mutate-01-20261024.json) و [شکست restore پیش از جایگزینی](verification-evidence/repair-2.1.2/populated-restore-failure-20261024.json) رسیدهای جدا دارند. [خلاصهٔ پیش از این چرخه](CURRENT-VALIDATION-BEFORE-POPULATED-RESTORE-20261024.fa.md) حفظ شده است.
+
+[رسید مستقل وضعیت پس از شکست](verification-evidence/repair-2.1.2/populated-restore-failure-final-state-20261024.json) به زمان `11:15 UTC` تعلق دارد و جای نتیجهٔ ناموفق restore را نمی‌گیرد.

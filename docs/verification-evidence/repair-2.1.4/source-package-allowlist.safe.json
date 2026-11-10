@@ -1,0 +1,18 @@
+{
+  "format": 1,
+  "check": "source release allowlist preflight",
+  "before": {
+    "exitCode": 1,
+    "rejectedPath": "public/offline/ar.html",
+    "reason": "The original source packager did not permit the newly added offline HTML documents."
+  },
+  "change": "Exact five reviewed public/offline locale paths are both permitted and required; arbitrary HTML remains outside the extension allowlist.",
+  "after": {
+    "exitCode": 0,
+    "files": 3640,
+    "uncompressedBytes": 176307724,
+    "credentialFindings": 0
+  },
+  "scope": "Preflight only; final ZIP creation and complete entry verification are separate gates.",
+  "postBuildNoncompiledChange": "Only scripts/package-production.mjs changed after the final application build; it is the source release packaging command, not a compiled application input."
+}

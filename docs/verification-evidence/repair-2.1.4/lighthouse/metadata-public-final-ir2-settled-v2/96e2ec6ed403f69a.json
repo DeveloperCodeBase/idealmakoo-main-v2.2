@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/for/lab/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "c6c1e23fb4b8b3ce387c28b62bfc57358515d9824480fec6c4024c5966f3b01a",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "لابراتوارهای دندانی | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "منابع ویژهٔ لابراتوارهای دندانسازی: دندان‌های مصنوعی، انتخاب فنی شید و مولد و تهیهٔ فهرست استعلام محصولات."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/for/lab/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/for/lab/",
+    "en": "http://127.0.0.1:3100/en/for/lab/",
+    "tr": "http://127.0.0.1:3100/tr/for/lab/",
+    "ar": "http://127.0.0.1:3100/ar/for/lab/",
+    "ru": "http://127.0.0.1:3100/ru/for/lab/",
+    "x-default": "http://127.0.0.1:3100/fa/for/lab/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 48
+}

@@ -1,0 +1,43 @@
+{
+  "url": "http://127.0.0.1:3100/ru/__lighthouse_missing_page__/",
+  "kind": "expected-404",
+  "indexed": false,
+  "expectedStatus": 404,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 404,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "050135e269123a36a789684ebd20cea12d8fbb4792a0d757101daf70829bb753",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Страница не найдена | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Этот адрес недоступен или страница была удалена. Вы можете вернуться на главную страницу."
+  ],
+  "canonicals": [],
+  "alternates": {},
+  "robots": [
+    "noindex",
+    "noindex, nofollow, noarchive",
+    "noindex, nofollow, noarchive"
+  ],
+  "noindex": true,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 0,
+    "resolvedBoundaries": 0,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 20
+}

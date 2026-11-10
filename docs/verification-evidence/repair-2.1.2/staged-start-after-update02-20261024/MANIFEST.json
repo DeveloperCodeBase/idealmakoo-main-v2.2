@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "kind": "safe-staged-start02-evidence-manifest",
+  "recordedAt": "2026-10-24T18:06:18.536196+00:00",
+  "files": {
+    "acceptance.safe.json": {
+      "bytes": 5315,
+      "sha256": "a9ee68162461bd159b96d66465aed447a36fad59161bdeab0891c58db96a6308"
+    },
+    "final-state.safe.json": {
+      "bytes": 7911,
+      "sha256": "dd0857da79b80212cbf34c044a9879128d5db83bed945381ae17e0768173d461"
+    },
+    "final-state-execution.safe.json": {
+      "bytes": 812,
+      "sha256": "5a7212df9fb5e978865fb479a239dd838ad03e110279c7283aad2b602f116cbe"
+    }
+  },
+  "privateRawLogsArgumentsEnvironmentOrSessionValuesIncluded": false,
+  "scope": "Separate qualified caller up and independent poststate; original update02 remains124, no full application deployment/promotion/update/backup."
+}

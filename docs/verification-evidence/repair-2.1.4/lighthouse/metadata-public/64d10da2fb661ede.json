@@ -1,0 +1,70 @@
+{
+  "url": "http://127.0.0.1:3100/ar/products/bstar-nano-composite/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "f379518d093b2fc95c1bffd9fbd50a9402539eb7be651c4096fd54bf93fd86a6",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "أسنان بي ستار نانو كومبوزيت | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "سلسلة نانو كومبوزيت بأربع طبقات وتدرجات لونية كما تصفها الصفحة الرسمية."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/products/bstar-nano-composite/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/bstar-nano-composite/",
+    "en": "http://127.0.0.1:3100/en/products/bstar-nano-composite/",
+    "tr": "http://127.0.0.1:3100/tr/products/bstar-nano-composite/",
+    "ar": "http://127.0.0.1:3100/ar/products/bstar-nano-composite/",
+    "ru": "http://127.0.0.1:3100/ru/products/bstar-nano-composite/",
+    "x-default": "http://127.0.0.1:3100/fa/products/bstar-nano-composite/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "أسنان بي ستار نانو كومبوزيت",
+      "description": "سلسلة نانو كومبوزيت بأربع طبقات وتدرجات لونية كما تصفها الصفحة الرسمية.",
+      "image": "http://127.0.0.1:3100/media/official/1686378278.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "B.STAR"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/ar/products/bstar-nano-composite/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 84
+}

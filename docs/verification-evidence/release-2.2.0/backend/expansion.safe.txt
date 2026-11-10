@@ -1,0 +1,23 @@
+▶ 2.2 customer OTP, real authorization, moderation and service accounting
+  ✔ unconfigured SMS never claims a sent code and queue stores no plaintext phone or code (322.658905ms)
+  ✔ authorized account administrators find a phone-only customer without exposing the internal placeholder email (21.445249ms)
+  ✔ five wrong codes persist the attempt budget, expiry and replay fail closed (1827.036162ms)
+  ✔ a staff identity cannot use the public phone login path (12.092953ms)
+  ✔ phone-only customer submits a real inquiry without email; guests and unverified email accounts cannot omit it (151.650315ms)
+  ✔ visits deduplicate, a like is idempotent and comments stay invisible until another publisher approves (211.361121ms)
+  ✔ analytics totals include every authorized row beyond the display cap and respect module and locale grants (33.163154ms)
+  ✔ news broadcasts require publication review and separate consent, carry a photo/link, and freeze reviewed taxonomy (221.751297ms)
+  ✔ provider acceptance records actual IRR once and unknown AI cost remains null (26.106627ms)
+  ✔ photo delivery includes only public, clean images with current distribution rights (10.865587ms)
+  ✔ recipient unsubscribe disables the new content topic while preserving transactional request preferences (68.179062ms)
+  ✔ all eleven staff roles receive bounded optional assistance and revoked sessions cannot use it (241.411737ms)
+  ✔ new content subscriptions default off independently of existing research consent (0.574449ms)
+✔ 2.2 customer OTP, real authorization, moderation and service accounting (4867.384063ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5563.229598

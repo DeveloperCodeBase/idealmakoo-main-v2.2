@@ -1,0 +1,71 @@
+{
+  "url": "http://127.0.0.1:3100/tr/products/laboratory-putty/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "f1e03748deb07c1c1ee599a7ebafb3715b1024f1448226289f13da7e3a86de7e",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Laboratuvar putty materyali | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Fabrika tarafından modelajı korumak ve temizliği kolaylaştırmak için tanıtılan laboratuvar muflalama putty materyali."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/products/laboratory-putty/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/laboratory-putty/",
+    "en": "http://127.0.0.1:3100/en/products/laboratory-putty/",
+    "tr": "http://127.0.0.1:3100/tr/products/laboratory-putty/",
+    "ar": "http://127.0.0.1:3100/ar/products/laboratory-putty/",
+    "ru": "http://127.0.0.1:3100/ru/products/laboratory-putty/",
+    "x-default": "http://127.0.0.1:3100/fa/products/laboratory-putty/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Laboratuvar putty materyali",
+      "description": "Fabrika tarafından modelajı korumak ve temizliği kolaylaştırmak için tanıtılan laboratuvar muflalama putty materyali.",
+      "image": "http://127.0.0.1:3100/media/official/1722930683.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "IDEAL MAKOO"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/tr/products/laboratory-putty/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 61
+}

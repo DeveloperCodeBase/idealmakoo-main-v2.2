@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/positioning/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "8cfc8a114f96a9019f8d6298d14ee7cf146a08fd48935d34503237469d2ebbfa",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "التموضع وتجربة العملاء | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "الاهتمام بتفاصيل القالب واللون وآراء العملاء ودعم شبكة الشركاء."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/positioning/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/positioning/",
+    "en": "http://127.0.0.1:3100/en/positioning/",
+    "tr": "http://127.0.0.1:3100/tr/positioning/",
+    "ar": "http://127.0.0.1:3100/ar/positioning/",
+    "ru": "http://127.0.0.1:3100/ru/positioning/",
+    "x-default": "http://127.0.0.1:3100/fa/positioning/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 67
+}

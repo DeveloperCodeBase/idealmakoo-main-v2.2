@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/press-kit/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "5f8a0a2fdd87225b6fb4603c0be474c22521f9dd898c4f8cd76a55cde90c3157",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Medya için fabrika bilgileri. | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Onaylanan fabrika tanıtımları ve medya dosyaları yayınlandıktan sonra burada yer alır."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/press-kit/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/press-kit/",
+    "en": "http://127.0.0.1:3100/en/press-kit/",
+    "tr": "http://127.0.0.1:3100/tr/press-kit/",
+    "ar": "http://127.0.0.1:3100/ar/press-kit/",
+    "ru": "http://127.0.0.1:3100/ru/press-kit/",
+    "x-default": "http://127.0.0.1:3100/fa/press-kit/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 34
+}

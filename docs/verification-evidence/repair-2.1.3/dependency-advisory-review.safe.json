@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-25",
+  "methods": [
+    "official advisory read",
+    "local lockfile graph comparison"
+  ],
+  "newNpmAuditRun": false,
+  "knownPriorAuditApprovalRejection": "potential dependency metadata disclosure; not bypassed",
+  "references": [
+    {
+      "url": "https://github.com/advisories/GHSA-vfj7-8cjw-p6xm",
+      "status": "withdrawn",
+      "withdrawnDate": "2026-10-23"
+    },
+    {
+      "url": "https://github.com/postcss/postcss-selector-parser/security/advisories/GHSA-rj75-hqrm-r3gf",
+      "patchedVersions": [
+        "6.1.5",
+        "7.1.6"
+      ]
+    }
+  ],
+  "installedFromLock": {
+    "braces": [
+      {
+        "path": "node_modules/braces",
+        "version": "3.0.3",
+        "dev": true
+      }
+    ],
+    "postcss-selector-parser": [
+      {
+        "path": "node_modules/postcss-selector-parser",
+        "version": "6.1.5",
+        "dev": true
+      }
+    ]
+  }
+}

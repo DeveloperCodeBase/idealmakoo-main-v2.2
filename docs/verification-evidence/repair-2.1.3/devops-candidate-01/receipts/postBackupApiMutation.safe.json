@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "kind": "collected-owned-guest-outcome",
+  "guest": "primary",
+  "job": "api-mutate",
+  "status": "passed",
+  "exitCode": 0,
+  "actualGuestWaitConsumed": true,
+  "startedAt": "2026-10-25T05:04:21.681182+00:00",
+  "completedAt": "2026-10-25T05:04:47.748750+00:00",
+  "elapsedSeconds": 26.071434,
+  "files": {
+    "outcome.safe.json": {
+      "bytes": 391,
+      "sha256": "946f269cd81612856868275602460dc108372ef5d11052184d7560243da7bc30",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "start.safe.json": {
+      "bytes": 378,
+      "sha256": "79ac86b0b7d434a9da02f67435ba91ef951691c4136298a4f893ea48d11a589e",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "stdout.private": {
+      "bytes": 4418,
+      "sha256": "6c518c1b999fca2f87cb91de44c2e8fc26a67767454291b077997c7ec8619559",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "stderr.private.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    }
+  },
+  "apiStatus": "passed",
+  "apiPhase": "mutate",
+  "checks": [
+    "editable source page saved",
+    "disposable customer has no privacy blockers",
+    "actual privacy erasure completed",
+    "disabled staff session rejected",
+    "erased customer session rejected"
+  ],
+  "checkCount": 5
+}

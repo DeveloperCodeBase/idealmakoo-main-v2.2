@@ -1,0 +1,37 @@
+{
+  "previousBuildId": "ZExXgIfF-M2np679FYhoQ",
+  "buildId": "qZolvXUvxRIPRoRpYcOE2",
+  "previousFiles": 203,
+  "newFiles": 203,
+  "samePathAndBytes": 200,
+  "samePathChangedBytes": [],
+  "removedPaths": [
+    "ZExXgIfF-M2np679FYhoQ/_buildManifest.js",
+    "ZExXgIfF-M2np679FYhoQ/_ssgManifest.js",
+    "chunks/webpack-7ce99ce4dd038026.js"
+  ],
+  "addedPaths": [
+    "chunks/webpack-0a10059f27cae37f.js",
+    "qZolvXUvxRIPRoRpYcOE2/_buildManifest.js",
+    "qZolvXUvxRIPRoRpYcOE2/_ssgManifest.js"
+  ],
+  "contentSha256MultisetUnchanged": false,
+  "buildIdentifierOnlyChecks": [
+    {
+      "beforePath": "ZExXgIfF-M2np679FYhoQ/_buildManifest.js",
+      "afterPath": "qZolvXUvxRIPRoRpYcOE2/_buildManifest.js",
+      "bytesIdenticalAfterBuildIdNormalization": true
+    },
+    {
+      "beforePath": "ZExXgIfF-M2np679FYhoQ/_ssgManifest.js",
+      "afterPath": "qZolvXUvxRIPRoRpYcOE2/_ssgManifest.js",
+      "bytesIdenticalAfterBuildIdNormalization": true
+    },
+    {
+      "beforePath": "chunks/webpack-7ce99ce4dd038026.js",
+      "afterPath": "chunks/webpack-0a10059f27cae37f.js",
+      "bytesIdenticalAfterBuildIdNormalization": false
+    }
+  ],
+  "allStaticContentUnchangedApartFromBuildId": false
+}

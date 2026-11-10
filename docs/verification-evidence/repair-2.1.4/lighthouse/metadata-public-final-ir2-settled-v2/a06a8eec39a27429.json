@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/research/iranian-teeth-ivoclar-wear/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "d6efb5ab0c4f93e7d4d429878deaf50425f78e8db3419b5d6a7365d7e4f10e2e",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Wear of Berelian and Super Berelian compared with Ivoclar | Ideal Makoo"
+  ],
+  "descriptions": [
+    "A laboratory wear test comparing weight changes in two Iranian models and Ivoclar teeth."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/research/iranian-teeth-ivoclar-wear/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/iranian-teeth-ivoclar-wear/",
+    "en": "http://127.0.0.1:3100/en/research/iranian-teeth-ivoclar-wear/",
+    "tr": "http://127.0.0.1:3100/tr/research/iranian-teeth-ivoclar-wear/",
+    "ar": "http://127.0.0.1:3100/ar/research/iranian-teeth-ivoclar-wear/",
+    "ru": "http://127.0.0.1:3100/ru/research/iranian-teeth-ivoclar-wear/",
+    "x-default": "http://127.0.0.1:3100/fa/research/iranian-teeth-ivoclar-wear/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 63
+}

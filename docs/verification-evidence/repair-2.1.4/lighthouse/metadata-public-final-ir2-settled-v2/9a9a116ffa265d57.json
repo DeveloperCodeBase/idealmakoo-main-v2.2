@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/faq/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "7788f3a9a59b1bb9018c8a5a6c2037a298547da9cbd97603155db4d28c80153b",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "پرسش‌های متداول | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "از صفحهٔ محصول، گزینه‌های موردنیاز را به فهرست استعلام اضافه کنید و فرم را تکمیل کنید."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/faq/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/faq/",
+    "en": "http://127.0.0.1:3100/en/faq/",
+    "tr": "http://127.0.0.1:3100/tr/faq/",
+    "ar": "http://127.0.0.1:3100/ar/faq/",
+    "ru": "http://127.0.0.1:3100/ru/faq/",
+    "x-default": "http://127.0.0.1:3100/fa/faq/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 50
+}

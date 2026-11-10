@@ -1,0 +1,142 @@
+{
+  "format": "final-ir2-settled-v2-proxy-preparation-safe-v1",
+  "exportedAt": "2026-10-25T22:33:37.773344+00:00",
+  "status": "preparation-passed-full-scoring-separately-reported",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "currentAuditInclusiveFingerprint": "64a14915618ac34a4daee3aa64eb82d44438b993096491966afc487be9f67b12",
+  "compiledBuildInputFingerprint": "4fcec50f5846b0affccc59e43798613ba134a3f93559ea5ddba9705e1f38cc58",
+  "applicationRebuiltForAuditToolDelta": false,
+  "toolingContinuity": "../../audit-settlement/tooling-index.safe.json",
+  "topologySha256": "d0c85e36be10862b020361b4179ad2add3a02848966239cb01fd7b6a92837bf4",
+  "safeTopology": {
+    "file": "topology.safe.json",
+    "sha256": "3d97f7be58da9e35bcdff51396b17fab1b615a095b13179dfb524c5a19f42613",
+    "bytes": 4080
+  },
+  "executionPlanSha256": "e760397add6cb4477f7313ce3518413f6f0337d54d2491d37d4115ebeacc5ccd",
+  "allTwelveActorsPreparedBeforeFreeze": true,
+  "ownedAuthProofCleanup": {
+    "attempted": true,
+    "ownedActorDisabled": true,
+    "ownedSessionsRevoked": true,
+    "proofConnectionStatementDeadlineMs": 5000
+  },
+  "inventories": [
+    {
+      "scope": "authenticatedMobile",
+      "expected": 530,
+      "inventoryJobs": 530,
+      "manifestSha256": "eaad5a145d37978e583537ec56e69642591a9f4e0b5c1b033c97e15f622b13e0",
+      "inventoryFileSha256": "4b464bec81b7d7e1f1ea77608cfaefc3c8531983a69a79b05abf1e30f9399411",
+      "coreConfigurationHash": "f29ed0d10cf2e2c08404ac461ec0cebed65d2709eacc18d0839a3e634a88848f",
+      "buildId": "ir2DFJg8r5YdpbVQubUqF"
+    },
+    {
+      "scope": "publicMobile",
+      "expected": 620,
+      "inventoryJobs": 620,
+      "manifestSha256": "0bfc510d1476aed9e53c51158b10843ab090133f26a27b025bc40b4c5a158215",
+      "inventoryFileSha256": "786c88164275a012f5606d0adf53d1110b8f75e89bbb8ba610b2166ed05e290a",
+      "coreConfigurationHash": "d7748ca968b935f795b0eea3fc7edaaa8cb9afc8cd047a8bbcc483a3126024de",
+      "buildId": "ir2DFJg8r5YdpbVQubUqF"
+    }
+  ],
+  "publicMetadata": {
+    "buildId": "ir2DFJg8r5YdpbVQubUqF",
+    "publicContentHash": "c81fb2b40e486f8608c7c7da584d76197bef191244fad9d1b45128ddbb7e8e74",
+    "inventoryHash": "813f52df708c86a1656ea09ce298d40a80b85a5cdbf519d97028cbf06afc11d6",
+    "expected": 620,
+    "checked": 620,
+    "coverageComplete": true,
+    "passed": 620,
+    "errors": 0,
+    "warnings": 0
+  },
+  "metadataSummarySha256": "47cfdf954d9e8ccd7c8fa3d61fd3ab54d94ad0188862b27f050df9cf86012d7d",
+  "files": [
+    {
+      "file": "topology.safe.json",
+      "sha256": "3d97f7be58da9e35bcdff51396b17fab1b615a095b13179dfb524c5a19f42613",
+      "bytes": 4080
+    },
+    {
+      "file": "public-transport-proof.phase.safe.json",
+      "sha256": "b1f9064101bd37364876568e093df16d9bbd6f7639b9c81bb8b230bb2a29a905",
+      "bytes": 1129,
+      "phase": "public-transport-proof",
+      "actualCommandExitCode": 0,
+      "topologyValidationPassed": true
+    },
+    {
+      "file": "prepare-all-fixtures.phase.safe.json",
+      "sha256": "7830d93bffae1addc37a6fb52f52b2ce7b454026bccbd79d4a715d35ae757704",
+      "bytes": 1238,
+      "phase": "prepare-all-fixtures",
+      "actualCommandExitCode": 0,
+      "topologyValidationPassed": true
+    },
+    {
+      "file": "owned-auth-ip-proof.phase.safe.json",
+      "sha256": "2e39ef1ee55f7375cecd2f3546f696f06247548c48ff1e469f08c1dc441d454b",
+      "bytes": 1238,
+      "phase": "owned-auth-ip-proof",
+      "actualCommandExitCode": 0,
+      "topologyValidationPassed": true
+    },
+    {
+      "file": "freeze-private-mobile.phase.safe.json",
+      "sha256": "80f6e5cd73bbb1facdefe034b44bae6165a49171802665e4dc7a9bb426ff340a",
+      "bytes": 1998,
+      "phase": "freeze-private-mobile",
+      "actualCommandExitCode": 0,
+      "topologyValidationPassed": true
+    },
+    {
+      "file": "freeze-public-mobile.phase.safe.json",
+      "sha256": "1b62a51e2f76fafdaffc3d2cc6e03acf8a1aa12f2e5863adc2ffc2aa604176c8",
+      "bytes": 2031,
+      "phase": "freeze-public-mobile",
+      "actualCommandExitCode": 0,
+      "topologyValidationPassed": true
+    },
+    {
+      "file": "public-metadata.phase.safe.json",
+      "sha256": "04184827b27f106c604c09e28bfbedcf596380e48e44e375a99ec20d67e22e55",
+      "bytes": 2387,
+      "phase": "public-metadata",
+      "actualCommandExitCode": 0,
+      "topologyValidationPassed": true
+    },
+    {
+      "file": "private-mobile-full.phase.safe.json",
+      "sha256": "5f5035166537a485e1443542bcb14ff6755650f3d6bb9bd463fa9833d9c2b85a",
+      "bytes": 2002,
+      "phase": "private-mobile-full",
+      "actualCommandExitCode": 0,
+      "topologyValidationPassed": true
+    },
+    {
+      "file": "proof-public.safe.json",
+      "sha256": "8b95154c2c194b35f0412d460cb8fe598101b2aa06b7bdf8a7473626e095c34e",
+      "bytes": 2418
+    },
+    {
+      "file": "proof-authenticated.safe.json",
+      "sha256": "75d6e5ea9149f633e22408c5d3b5c9e644b675a5bc6c950f6ebc6c032cbe81f5",
+      "bytes": 5764
+    },
+    {
+      "file": "seal-attempt-01.refusal.safe.json",
+      "sha256": "b7393351f665cc37c0119bb1d044c2788d9abc68a8329ff8d852149922266e10",
+      "bytes": 1150
+    },
+    {
+      "file": "seal-attempt-02.safe.json",
+      "sha256": "ce2316d0f9d7d3d56edf10bc6827e8d554e654682a9656e45e093787ff4195f6",
+      "bytes": 549
+    }
+  ],
+  "completeScoringCoverageClaimed": false,
+  "historicalFirstIr2388OutcomesReused": false,
+  "privacy": "Strict topology derivative, selected phase fields and scalar proof outputs only; no private DB identity, raw commands/logs/reports/DOM/cookies or browser images."
+}

@@ -1,0 +1,855 @@
+{
+  "format": "lighthouse-final-results-v1",
+  "completedAt": "2026-10-26T01:21:34.938420+00:00",
+  "status": "complete",
+  "measurementDatesUtc": [
+    "2026-10-25",
+    "2026-10-26"
+  ],
+  "identities": {
+    "currentInputFingerprint": "7453e88d3e56fbe65ef319c3b0a770bd48fef216505e49e7d3e5955f829655ee",
+    "currentInputCount": 834,
+    "compiledBuildId": "ir2DFJg8r5YdpbVQubUqF",
+    "compiledBuildInputFingerprint": "4fcec50f5846b0affccc59e43798613ba134a3f93559ea5ddba9705e1f38cc58",
+    "originalPrimaryInputFingerprint": "64a14915618ac34a4daee3aa64eb82d44438b993096491966afc487be9f67b12",
+    "originalPrimaryTopologySha256": "d0c85e36be10862b020361b4179ad2add3a02848966239cb01fd7b6a92837bf4",
+    "followupTopologySha256": "9423dd71d0172fd02d0249dba41d3f0ad5332ec9da3d8dfb1b26c4c6429c4c53"
+  },
+  "primary": {
+    "inventoriedStates": 1169,
+    "coveredStates": 1169,
+    "lighthouseCompleted": 1164,
+    "expected404Contracts": 5,
+    "scoringErrors": 0,
+    "timeouts": 0,
+    "pending": 0,
+    "retriedJobs": 0,
+    "allFourActualCommandExitsZero": true,
+    "sourceInputFingerprint": "64a14915618ac34a4daee3aa64eb82d44438b993096491966afc487be9f67b12",
+    "topologySha256": "d0c85e36be10862b020361b4179ad2add3a02848966239cb01fd7b6a92837bf4",
+    "safeExportBytes": 273311355,
+    "phases": [
+      {
+        "phase": "private-mobile",
+        "counts": {
+          "expected": 530,
+          "attempted": 530,
+          "completed": 530,
+          "errors": 0,
+          "timeouts": 0,
+          "pending": 0,
+          "coverageComplete": true
+        },
+        "actualCommandExitCode": 0,
+        "commandDurationSeconds": 3936.079,
+        "rollup": {
+          "path": "final-ir2-settled-v2-proxy/private-mobile-rollup.safe.json",
+          "sha256": "413cfc3f8bf949f2a56c155bd6d283ba627fc80b72d87a7f0d0366619c5a71fb",
+          "bytes": 42212
+        },
+        "safeExportManifest": {
+          "path": "private-mobile-final-ir2-settled-v2/EXPORT.json",
+          "sha256": "0dc1ffaa4399e1868daeb66c36939dfc3a75edfcff2a7e0c2f357779e0b950a0",
+          "bytes": 3652
+        },
+        "routeCsv": {
+          "path": "private-mobile-final-ir2-settled-v2/summary.csv",
+          "sha256": "5360f3b752bd61a8024d4c9f730217b3b5112ef8bc612a3a7709b4e4c67b77e9",
+          "bytes": 130332
+        },
+        "groupedScores": {
+          "authenticatedNoindex": {
+            "jobs": 530,
+            "attempted": 530,
+            "scored": 530,
+            "expectedHttpResponses": 0,
+            "errors": 0,
+            "timeouts": 0,
+            "sourceErrors": 0,
+            "sourceTimeouts": 0,
+            "exportValidationRefusals": 0,
+            "pending": 0,
+            "categories": {
+              "performance": {
+                "count": 530,
+                "min": 42,
+                "median": 65,
+                "p75": 67,
+                "max": 88,
+                "below90": 530
+              },
+              "accessibility": {
+                "count": 530,
+                "min": 100,
+                "median": 100,
+                "p75": 100,
+                "max": 100,
+                "below90": 0
+              },
+              "best-practices": {
+                "count": 530,
+                "min": 100,
+                "median": 100,
+                "p75": 100,
+                "max": 100,
+                "below90": 0
+              },
+              "seo": {
+                "count": 530,
+                "min": 50,
+                "median": 54,
+                "p75": 54,
+                "max": 58,
+                "below90": 530
+              }
+            },
+            "metrics": {
+              "first-contentful-paint": {
+                "count": 530,
+                "min": 1362.6896,
+                "median": 2117.1904750000003,
+                "p75": 2123.1818,
+                "max": 2491.0858
+              },
+              "largest-contentful-paint": {
+                "count": 530,
+                "min": 2957.4858,
+                "median": 6754.4965,
+                "p75": 7233.5120000000015,
+                "max": 8352.849600000001
+              },
+              "total-blocking-time": {
+                "count": 530,
+                "min": 256.5,
+                "median": 401,
+                "p75": 440,
+                "max": 726.061400000001
+              },
+              "cumulative-layout-shift": {
+                "count": 530,
+                "min": 0,
+                "median": 0.03203368712544463,
+                "p75": 0.04706909365451993,
+                "max": 0.537036469273576
+              }
+            },
+            "durationMs": {
+              "count": 530,
+              "min": 6524,
+              "median": 7140,
+              "p75": 7420,
+              "max": 12691
+            }
+          }
+        }
+      },
+      {
+        "phase": "public-mobile",
+        "counts": {
+          "expected": 620,
+          "attempted": 620,
+          "completed": 615,
+          "expectedHttpResponses": 5,
+          "errors": 0,
+          "timeouts": 0,
+          "pending": 0,
+          "coverageComplete": true
+        },
+        "actualCommandExitCode": 0,
+        "commandDurationSeconds": 6933.283,
+        "rollup": {
+          "path": "final-ir2-settled-v2-proxy/public-mobile-rollup.safe.json",
+          "sha256": "fb882f4f5689c581cc4f160fa713fc8dc2e08e3ef5bd1b1171b7e6db41ec5246",
+          "bytes": 55679
+        },
+        "safeExportManifest": {
+          "path": "public-mobile-final-ir2-settled-v2/EXPORT.json",
+          "sha256": "9d2ff9269a98f7048e894722a50cec2475bcf1dcf39eca0b4b98df7a0ce6e3cc",
+          "bytes": 398506
+        },
+        "routeCsv": {
+          "path": "public-mobile-final-ir2-settled-v2/summary.csv",
+          "sha256": "0ebe22a5b21fb902b5d65a0bcbb9280f09f079bbb4526741fd59448b31e2b755",
+          "bytes": 101733
+        },
+        "groupedScores": {
+          "indexablePublic": {
+            "jobs": 590,
+            "attempted": 590,
+            "scored": 590,
+            "expectedHttpResponses": 0,
+            "errors": 0,
+            "timeouts": 0,
+            "sourceErrors": 0,
+            "sourceTimeouts": 0,
+            "exportValidationRefusals": 0,
+            "pending": 0,
+            "categories": {
+              "performance": {
+                "count": 590,
+                "min": 61,
+                "median": 78,
+                "p75": 82,
+                "max": 89,
+                "below90": 590
+              },
+              "accessibility": {
+                "count": 590,
+                "min": 100,
+                "median": 100,
+                "p75": 100,
+                "max": 100,
+                "below90": 0
+              },
+              "best-practices": {
+                "count": 590,
+                "min": 100,
+                "median": 100,
+                "p75": 100,
+                "max": 100,
+                "below90": 0
+              },
+              "seo": {
+                "count": 590,
+                "min": 100,
+                "median": 100,
+                "p75": 100,
+                "max": 100,
+                "below90": 0
+              }
+            },
+            "metrics": {
+              "first-contentful-paint": {
+                "count": 590,
+                "min": 1216.2067,
+                "median": 1528.547775,
+                "p75": 2418.4323,
+                "max": 2446.2852000000003
+              },
+              "largest-contentful-paint": {
+                "count": 590,
+                "min": 2889.2604,
+                "median": 4073.238975,
+                "p75": 5113.9962000000005,
+                "max": 6968.582025
+              },
+              "total-blocking-time": {
+                "count": 590,
+                "min": 165,
+                "median": 307.58521249999967,
+                "p75": 332,
+                "max": 594
+              },
+              "cumulative-layout-shift": {
+                "count": 590,
+                "min": 0,
+                "median": 0,
+                "p75": 0,
+                "max": 0.04291424477617229
+              }
+            },
+            "durationMs": {
+              "count": 590,
+              "min": 6499,
+              "median": 6904.5,
+              "p75": 7264,
+              "max": 11164
+            }
+          },
+          "publicAuthNoindex": {
+            "jobs": 25,
+            "attempted": 25,
+            "scored": 25,
+            "expectedHttpResponses": 0,
+            "errors": 0,
+            "timeouts": 0,
+            "sourceErrors": 0,
+            "sourceTimeouts": 0,
+            "exportValidationRefusals": 0,
+            "pending": 0,
+            "categories": {
+              "performance": {
+                "count": 25,
+                "min": 74,
+                "median": 86,
+                "p75": 88,
+                "max": 90,
+                "below90": 21
+              },
+              "accessibility": {
+                "count": 25,
+                "min": 100,
+                "median": 100,
+                "p75": 100,
+                "max": 100,
+                "below90": 0
+              },
+              "best-practices": {
+                "count": 25,
+                "min": 100,
+                "median": 100,
+                "p75": 100,
+                "max": 100,
+                "below90": 0
+              },
+              "seo": {
+                "count": 25,
+                "min": 58,
+                "median": 58,
+                "p75": 58,
+                "max": 58,
+                "below90": 25
+              }
+            },
+            "metrics": {
+              "first-contentful-paint": {
+                "count": 25,
+                "min": 1210.4489,
+                "median": 1216.5301,
+                "p75": 2116.16685,
+                "max": 2122.7484
+              },
+              "largest-contentful-paint": {
+                "count": 25,
+                "min": 2691.994,
+                "median": 2873.9511,
+                "p75": 3324.8792,
+                "max": 5106.067
+              },
+              "total-blocking-time": {
+                "count": 25,
+                "min": 251,
+                "median": 331.5,
+                "p75": 367,
+                "max": 418
+              },
+              "cumulative-layout-shift": {
+                "count": 25,
+                "min": 0,
+                "median": 0,
+                "p75": 0,
+                "max": 1.024646897227828e-06
+              }
+            },
+            "durationMs": {
+              "count": 25,
+              "min": 6548,
+              "median": 6890,
+              "p75": 7085,
+              "max": 7387
+            }
+          },
+          "expected404": {
+            "jobs": 5,
+            "attempted": 5,
+            "scored": 0,
+            "expectedHttpResponses": 5,
+            "errors": 0,
+            "timeouts": 0,
+            "sourceErrors": 0,
+            "sourceTimeouts": 0,
+            "exportValidationRefusals": 0,
+            "pending": 0,
+            "categories": {
+              "performance": null,
+              "accessibility": null,
+              "best-practices": null,
+              "seo": null
+            },
+            "metrics": {
+              "first-contentful-paint": null,
+              "largest-contentful-paint": null,
+              "total-blocking-time": null,
+              "cumulative-layout-shift": null
+            },
+            "durationMs": {
+              "count": 5,
+              "min": 4909,
+              "median": 4934,
+              "p75": 4955,
+              "max": 4986
+            }
+          }
+        }
+      },
+      {
+        "phase": "offline-mobile-original",
+        "counts": {
+          "expected": 5,
+          "attempted": 5,
+          "completed": 5,
+          "expectedHttpResponses": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "pending": 0,
+          "coverageComplete": true
+        },
+        "actualCommandExitCode": 0,
+        "commandDurationSeconds": 53.214,
+        "rollup": {
+          "path": "final-ir2-settled-v2-proxy/offline-mobile-rollup.safe.json",
+          "sha256": "b6f30fb45fc809261054ad4ff5cda94401eb7c786fb8af3c737ced3a56839d17",
+          "bytes": 32655
+        },
+        "safeExportManifest": {
+          "path": "offline-mobile-final-ir2-settled-v2/EXPORT.json",
+          "sha256": "4f9e56fae7d61e68b8e2842051f86e20073ab598b8d306fd41b1b68a302b8e7b",
+          "bytes": 4330
+        },
+        "routeCsv": {
+          "path": "offline-mobile-final-ir2-settled-v2/summary.csv",
+          "sha256": "ec6c97a6f3b13dfc2673af930a68d24e092f3fb88a018b1f51ece92db267eb48",
+          "bytes": 1021
+        },
+        "groupedScores": {
+          "offlineNoindex": {
+            "jobs": 5,
+            "attempted": 5,
+            "scored": 5,
+            "expectedHttpResponses": 0,
+            "errors": 0,
+            "timeouts": 0,
+            "sourceErrors": 0,
+            "sourceTimeouts": 0,
+            "exportValidationRefusals": 0,
+            "pending": 0,
+            "categories": {
+              "performance": {
+                "count": 5,
+                "min": 99,
+                "median": 100,
+                "p75": 100,
+                "max": 100,
+                "below90": 0
+              },
+              "accessibility": {
+                "count": 5,
+                "min": 100,
+                "median": 100,
+                "p75": 100,
+                "max": 100,
+                "below90": 0
+              },
+              "best-practices": {
+                "count": 5,
+                "min": 96,
+                "median": 96,
+                "p75": 96,
+                "max": 96,
+                "below90": 0
+              },
+              "seo": {
+                "count": 5,
+                "min": 54,
+                "median": 54,
+                "p75": 54,
+                "max": 54,
+                "below90": 5
+              }
+            },
+            "metrics": {
+              "first-contentful-paint": {
+                "count": 5,
+                "min": 609.8547,
+                "median": 611.44815,
+                "p75": 611.9375,
+                "max": 618.1585
+              },
+              "largest-contentful-paint": {
+                "count": 5,
+                "min": 610.00705,
+                "median": 618.1585,
+                "p75": 763.7094,
+                "max": 766.8963000000001
+              },
+              "total-blocking-time": {
+                "count": 5,
+                "min": 0,
+                "median": 9,
+                "p75": 62,
+                "max": 93
+              },
+              "cumulative-layout-shift": {
+                "count": 5,
+                "min": 0,
+                "median": 0,
+                "p75": 0,
+                "max": 0
+              }
+            },
+            "durationMs": {
+              "count": 5,
+              "min": 5541,
+              "median": 5649,
+              "p75": 5756,
+              "max": 5809
+            }
+          }
+        }
+      },
+      {
+        "phase": "desktop-representative",
+        "counts": {
+          "expected": 14,
+          "attempted": 14,
+          "completed": 14,
+          "expectedHttpResponses": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "pending": 0,
+          "coverageComplete": true
+        },
+        "actualCommandExitCode": 0,
+        "commandDurationSeconds": 162.871,
+        "rollup": {
+          "path": "final-ir2-settled-v2-proxy/desktop-representative-rollup.safe.json",
+          "sha256": "facd3428db530bad22e3a62539b4195432739cd7e2d28dddd3b69009bb2ff191",
+          "bytes": 44912
+        },
+        "safeExportManifest": {
+          "path": "desktop-representative-final-ir2-settled-v2/EXPORT.json",
+          "sha256": "309ce917f2d77248ec3c07248f88df260beed15d411ce806bb52e635d0e22696",
+          "bytes": 10119
+        },
+        "routeCsv": {
+          "path": "desktop-representative-final-ir2-settled-v2/summary.csv",
+          "sha256": "ed61280d7981238e7d60573ec45848c10fd465e89b02b8782f4ec311da9e383e",
+          "bytes": 2531
+        },
+        "groupedScores": {
+          "indexablePublic": {
+            "jobs": 12,
+            "attempted": 12,
+            "scored": 12,
+            "expectedHttpResponses": 0,
+            "errors": 0,
+            "timeouts": 0,
+            "sourceErrors": 0,
+            "sourceTimeouts": 0,
+            "exportValidationRefusals": 0,
+            "pending": 0,
+            "categories": {
+              "performance": {
+                "count": 12,
+                "min": 93,
+                "median": 98.5,
+                "p75": 99,
+                "max": 99,
+                "below90": 0
+              },
+              "accessibility": {
+                "count": 12,
+                "min": 100,
+                "median": 100,
+                "p75": 100,
+                "max": 100,
+                "below90": 0
+              },
+              "best-practices": {
+                "count": 12,
+                "min": 100,
+                "median": 100,
+                "p75": 100,
+                "max": 100,
+                "below90": 0
+              },
+              "seo": {
+                "count": 12,
+                "min": 100,
+                "median": 100,
+                "p75": 100,
+                "max": 100,
+                "below90": 0
+              }
+            },
+            "metrics": {
+              "first-contentful-paint": {
+                "count": 12,
+                "min": 315.4909,
+                "median": 448.9317,
+                "p75": 507.3486,
+                "max": 530.1009
+              },
+              "largest-contentful-paint": {
+                "count": 12,
+                "min": 929.02575,
+                "median": 1063.382525,
+                "p75": 1182.0886250000003,
+                "max": 1734.4175500000001
+              },
+              "total-blocking-time": {
+                "count": 12,
+                "min": 14.5,
+                "median": 34,
+                "p75": 36,
+                "max": 52.999999999999886
+              },
+              "cumulative-layout-shift": {
+                "count": 12,
+                "min": 0,
+                "median": 0,
+                "p75": 9.292561921313396e-06,
+                "max": 0.02908837357558371
+              }
+            },
+            "durationMs": {
+              "count": 12,
+              "min": 6374,
+              "median": 8327.5,
+              "p75": 8828,
+              "max": 9336
+            }
+          },
+          "publicAuthNoindex": {
+            "jobs": 2,
+            "attempted": 2,
+            "scored": 2,
+            "expectedHttpResponses": 0,
+            "errors": 0,
+            "timeouts": 0,
+            "sourceErrors": 0,
+            "sourceTimeouts": 0,
+            "exportValidationRefusals": 0,
+            "pending": 0,
+            "categories": {
+              "performance": {
+                "count": 2,
+                "min": 99,
+                "median": 99.5,
+                "p75": 100,
+                "max": 100,
+                "below90": 0
+              },
+              "accessibility": {
+                "count": 2,
+                "min": 100,
+                "median": 100,
+                "p75": 100,
+                "max": 100,
+                "below90": 0
+              },
+              "best-practices": {
+                "count": 2,
+                "min": 100,
+                "median": 100,
+                "p75": 100,
+                "max": 100,
+                "below90": 0
+              },
+              "seo": {
+                "count": 2,
+                "min": 58,
+                "median": 58,
+                "p75": 58,
+                "max": 58,
+                "below90": 2
+              }
+            },
+            "metrics": {
+              "first-contentful-paint": {
+                "count": 2,
+                "min": 295.1151,
+                "median": 377.930725,
+                "p75": 460.74635,
+                "max": 460.74635
+              },
+              "largest-contentful-paint": {
+                "count": 2,
+                "min": 821.5772499999999,
+                "median": 901.4037249999999,
+                "p75": 981.2302,
+                "max": 981.2302
+              },
+              "total-blocking-time": {
+                "count": 2,
+                "min": 17,
+                "median": 29.5,
+                "p75": 42,
+                "max": 42
+              },
+              "cumulative-layout-shift": {
+                "count": 2,
+                "min": 0,
+                "median": 0,
+                "p75": 0,
+                "max": 0
+              }
+            },
+            "durationMs": {
+              "count": 2,
+              "min": 6737,
+              "median": 6806,
+              "p75": 6875,
+              "max": 6875
+            }
+          }
+        }
+      }
+    ],
+    "index": {
+      "path": "final-ir2-settled-v2-proxy/PRIMARY-COMPLETE.safe.json",
+      "sha256": "a68667eda59e0445a90c8833bfaaa5b9141a3a750f0de5b66ee1f2a78d6e959e",
+      "bytes": 12858
+    }
+  },
+  "supplemental": {
+    "overlapCrmRepeats": {
+      "states": 3,
+      "independentFromPrimary": true,
+      "primaryScoresReplaced": false,
+      "index": {
+        "path": "clean-crm-repeats/index.safe.json",
+        "sha256": "96a8e5e10c236783c52181eadf9c3d522cc2920e02f9a4f83304c90261a5a061",
+        "bytes": 5251
+      }
+    },
+    "offlineStaticFollowup": {
+      "states": 5,
+      "independentFromPrimary": true,
+      "primaryScoresReplaced": false,
+      "focusedPwaCases": 2,
+      "counts": {
+        "expected": 5,
+        "attempted": 5,
+        "completed": 5,
+        "expectedHttpResponses": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "pending": 0,
+        "coverageComplete": true
+      },
+      "commandExitCode": 0,
+      "commandDurationSeconds": 52.787,
+      "scores": {
+        "jobs": 5,
+        "attempted": 5,
+        "scored": 5,
+        "expectedHttpResponses": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "sourceErrors": 0,
+        "sourceTimeouts": 0,
+        "exportValidationRefusals": 0,
+        "pending": 0,
+        "categories": {
+          "performance": {
+            "count": 5,
+            "min": 99,
+            "median": 100,
+            "p75": 100,
+            "max": 100,
+            "below90": 0
+          },
+          "accessibility": {
+            "count": 5,
+            "min": 100,
+            "median": 100,
+            "p75": 100,
+            "max": 100,
+            "below90": 0
+          },
+          "best-practices": {
+            "count": 5,
+            "min": 100,
+            "median": 100,
+            "p75": 100,
+            "max": 100,
+            "below90": 0
+          },
+          "seo": {
+            "count": 5,
+            "min": 54,
+            "median": 54,
+            "p75": 54,
+            "max": 54,
+            "below90": 5
+          }
+        },
+        "metrics": {
+          "first-contentful-paint": {
+            "count": 5,
+            "min": 606.9562,
+            "median": 608.30125,
+            "p75": 609.51805,
+            "max": 609.61455
+          },
+          "largest-contentful-paint": {
+            "count": 5,
+            "min": 606.9562,
+            "median": 759.9860000000001,
+            "p75": 760.6025,
+            "max": 761.2291
+          },
+          "total-blocking-time": {
+            "count": 5,
+            "min": 0,
+            "median": 2,
+            "p75": 9,
+            "max": 112
+          },
+          "cumulative-layout-shift": {
+            "count": 5,
+            "min": 0,
+            "median": 0,
+            "p75": 0,
+            "max": 0
+          }
+        },
+        "durationMs": {
+          "count": 5,
+          "min": 5546,
+          "median": 5570,
+          "p75": 5575,
+          "max": 5588
+        }
+      },
+      "safeExportBytes": 1340591,
+      "index": {
+        "path": "offline-favicon-followup/index.safe.json",
+        "sha256": "12ffc1f6a12321e5cd5f6865e3ee17215a9016a397db0459dd6ecc6443a6e103",
+        "bytes": 9799
+      }
+    }
+  },
+  "historyRetained": {
+    "firstIr2FailedPrivate": {
+      "completed": 387,
+      "errors": 1,
+      "attempts": 388,
+      "pending": 142,
+      "actualCommandExitCode": 2,
+      "countedAsFreshPrimaryCoverage": false,
+      "safeExportBytes": 32135130,
+      "manifest": {
+        "path": "private-mobile-failed-first-ir2-run/EXPORT.json",
+        "sha256": "337b73e09a131e989cc9488887f903b1a688ffcc43a5879416dfcbca2c31b355",
+        "bytes": 3469
+      }
+    },
+    "preLayoutNwcStoppedPrivate": {
+      "completed": 152,
+      "interrupted": 1,
+      "pending": 377,
+      "actualCommandExitCode": 2,
+      "interruptedCleanup": "unknown",
+      "countedAsFreshPrimaryCoverage": false,
+      "manifest": {
+        "path": "private-mobile-pre-layout-nwc/EXPORT.json",
+        "sha256": "d1e09efdcf63de377d425539c9d12a859421ddb160186fe51f74e5e81f91f298",
+        "bytes": 3469
+      }
+    }
+  },
+  "interpretation": [
+    "Indexable public, public auth/noindex, authenticated private/noindex, offline/noindex, expected404 and representative desktop groups are kept separate.",
+    "All590 primary indexable mobile pages and all530 private mobile states have performance below90. No highest-score or perfect-product claim.",
+    "PrivateSEO50\u201358 and offlineSEO54 include missing meta descriptions as well as intentional noindex.",
+    "Scores use Lighthouse13.5.0/Chrome156.0.8078.4, unchanged simulated mobile policy and serial execution through the pinned local Caddy HTTP1 topology. No TLS/H2/WAN/customer-hardware or Google-ranking claim.",
+    "Fresh browser/cache state does not imply resetting normal server/image caches perURL.",
+    "First25 trace/diagnostic metrics are not full530 trace aggregates; observed localhost LCP is distinct from simulated scoring LCP.",
+    "Recorded9.366s diagnostic overlap qualification remains and3 independent repeats do not replace original scores.",
+    "Actual finite registered-route inventories are covered; unbounded future records and the complete role\u00d7route Cartesian product are not claimed. Desktop14 is representative.",
+    "Only strict-safe private exports and image-free sanitized public derivatives are delivered; every measured/error/refusal history remains bound to original hashes.",
+    "Final public static assets differ from the original full-sweep/Docker assets; only the bounded static/PWA2/offline5 follow-up is claimed for that delta."
+  ]
+}

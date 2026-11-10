@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/inquiry-list/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "2c45e87d8c30bfaca6158c084b9155010347f725db5ebd7a8349cd646bee7567",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Inquiry list | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Review selected products and required quantities, edit your inquiry list and send a technical product request to the factory."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/inquiry-list/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/inquiry-list/",
+    "en": "http://127.0.0.1:3100/en/inquiry-list/",
+    "tr": "http://127.0.0.1:3100/tr/inquiry-list/",
+    "ar": "http://127.0.0.1:3100/ar/inquiry-list/",
+    "ru": "http://127.0.0.1:3100/ru/inquiry-list/",
+    "x-default": "http://127.0.0.1:3100/fa/inquiry-list/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 69
+}

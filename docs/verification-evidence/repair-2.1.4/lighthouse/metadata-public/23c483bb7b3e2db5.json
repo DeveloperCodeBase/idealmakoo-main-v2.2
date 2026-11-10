@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/factory-visit/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "2c6c8176a2f90b155396303f56414f45ea0ffa2a96a6c06f936489f2ee15d2be",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Fabrika ziyareti talebi | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Fabrika ziyareti talep edin. Ziyaret programları yayınlandığında uygun saatleri ve rezervasyon kapasitesini burada inceleyin."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/factory-visit/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/factory-visit/",
+    "en": "http://127.0.0.1:3100/en/factory-visit/",
+    "tr": "http://127.0.0.1:3100/tr/factory-visit/",
+    "ar": "http://127.0.0.1:3100/ar/factory-visit/",
+    "ru": "http://127.0.0.1:3100/ru/factory-visit/",
+    "x-default": "http://127.0.0.1:3100/fa/factory-visit/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 45
+}

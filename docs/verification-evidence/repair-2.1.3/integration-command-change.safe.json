@@ -1,0 +1,17 @@
+{
+  "kind": "integration-test-runner-isolation-change",
+  "changedAt": "2026-10-25T03:34:55.460740+00:00",
+  "file": "package.json",
+  "onlyFieldChanged": "scripts.test:integration",
+  "before": "node --import tsx --test --test-isolation=none tests/*.pg.mjs && vitest run --config vitest.config.ts",
+  "after": "node --import tsx --test --test-concurrency=1 --test-reporter=tap tests/*.pg.mjs && vitest run --config vitest.config.ts",
+  "beforeFileSha256": "7001160d287fc205bc5ba8b9f9f8fd2fedf9d2eb54c3794b372bb80b8d53719b",
+  "afterFileSha256": "721956df9f34520c394a2d7a48f0a5301e6d5cdec38bc0cb9cf8dc2c76aa87fc",
+  "validatedCommandReceipt": "postgres-isolated-01.safe.json",
+  "validatedReportedTests": 548,
+  "validatedPass": 548,
+  "validatedFail": 0,
+  "runtimeCodeAndDependencyGraphChanged": false,
+  "priorIncompleteRunCause": "unconfirmed; prior exit0 without terminal summary rejected",
+  "reference": "https://nodejs.org/docs/latest-v24.x/api/test.html#test-runner-execution-model"
+}

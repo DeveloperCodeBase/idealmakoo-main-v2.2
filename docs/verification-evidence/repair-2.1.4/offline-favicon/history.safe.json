@@ -1,0 +1,17 @@
+{
+  "format": "offline-favicon-focused-history-v1",
+  "firstNodeCommandExitCode": 0,
+  "firstObservedFileLevelTests": 2,
+  "firstCoverageValidationPassed": false,
+  "firstAggregateCaptureWrapperExitCode": 1,
+  "secondNodeCommandExitCode": 0,
+  "secondDeclaredTests": 9,
+  "secondPass": 9,
+  "secondFail": 0,
+  "sourceOrAssertionsChangedBetweenUnitAttempts": false,
+  "runnerCorrection": "Used the existing scripts/run-unit.mjs isolation and environment conventions for only the two affected files.",
+  "generatorActualExitCode": 0,
+  "noFullUnitBrowserOrApplicationBuildRepeated": true,
+  "browserAndFiveOfflineFollowupStatus": "pending",
+  "old1169PrimaryResultsRemainUnchanged": true
+}

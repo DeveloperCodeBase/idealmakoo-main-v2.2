@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 2,
+  "kind": "Controlled exact-pixel comparison; not a Lighthouse score",
+  "startedAt": "2026-10-21T08:33:35.959Z",
+  "finishedAt": "2026-10-21T08:34:28.310Z",
+  "baselineBuildId": "sPTh26GaGouK6nn5b3u7H",
+  "runtime": "Three.js 0.180.0; Chromium 156.0.8078.4; ANGLE SwiftShader software GPU",
+  "configuration": {
+    "viewportCssPixels": [
+      390,
+      838
+    ],
+    "deviceScaleFactor": 2,
+    "drawingBufferPixels": [
+      585,
+      1257
+    ],
+    "quality": "standard",
+    "composition": "landing",
+    "locale": "fa",
+    "reducedMotion": false,
+    "autoDemonstrate": false,
+    "timeStepSeconds": 0,
+    "capturesPerVariant": 3,
+    "captureUsed": "third frame after scene preparation; loaded HDR or deliberately unavailable HDR"
+  },
+  "changes": [
+    {
+      "path": "src/components/experience/engines/hero.ts",
+      "change": "Renderer constructor alpha:false controls internal clear semantics. Installed Three r180 still creates the underlying WebGL2 context with alpha:true. No opaque drawing-buffer/compositor saving is claimed for this production option.",
+      "baselineSha256": "87ce2e5cb07a202fd8784fee61afc13f05592e139a2596af74f0a9724380d0a6",
+      "candidateSha256": "0d879e68e9ebfc47bd6d084f6c3ea37a5b14d0891ff99a4d251fa95327fce9f6"
+    },
+    {
+      "path": "src/components/experience/engines/ocean-math.ts",
+      "change": "Return loaded HDR radiance before evaluating the procedural fallback sky. Procedural formula unchanged.",
+      "baselineSha256": "1dc735069d877c475dba2854a26e6f4182eeb36d25c63ce45d9a302b9ddb950c",
+      "candidateSha256": "eccfc7cd1dfcf3a1d0caa57851683d9c2f3d6ce9dedfd8fbc0effc6dd5dcb837"
+    }
+  ],
+  "coverage": {
+    "themes": [
+      "dark",
+      "light"
+    ],
+    "environmentSources": [
+      "bundled HDR",
+      "procedural fallback"
+    ],
+    "independentChanges": [
+      "opaque",
+      "branch"
+    ],
+    "comparisons": 8,
+    "pixelIdentical": true,
+    "browserErrors": 0,
+    "nonOpaquePixelsAcrossAllCaptures": 0
+  },
+  "comparisons": [
+    {
+      "source": "hdr",
+      "theme": "dark",
+      "variant": "opaque",
+      "pixels": 735345,
+      "changedPixels": 0,
+      "maxChannelDifference": 0,
+      "meanChannelDifference": 0.0,
+      "candidateImage": "hdr-dark-opaque.png"
+    },
+    {
+      "source": "hdr",
+      "theme": "dark",
+      "variant": "branch",
+      "pixels": 735345,
+      "changedPixels": 0,
+      "maxChannelDifference": 0,
+      "meanChannelDifference": 0.0,
+      "candidateImage": "hdr-dark-branch.png"
+    },
+    {
+      "source": "hdr",
+      "theme": "light",
+      "variant": "opaque",
+      "pixels": 735345,
+      "changedPixels": 0,
+      "maxChannelDifference": 0,
+      "meanChannelDifference": 0.0,
+      "candidateImage": "hdr-light-opaque.png"
+    },
+    {
+      "source": "hdr",
+      "theme": "light",
+      "variant": "branch",
+      "pixels": 735345,
+      "changedPixels": 0,
+      "maxChannelDifference": 0,
+      "meanChannelDifference": 0.0,
+      "candidateImage": "hdr-light-branch.png"
+    },
+    {
+      "source": "fallback",
+      "theme": "dark",
+      "variant": "opaque",
+      "pixels": 735345,
+      "changedPixels": 0,
+      "maxChannelDifference": 0,
+      "meanChannelDifference": 0.0,
+      "candidateImage": "fallback-dark-opaque.png"
+    },
+    {
+      "source": "fallback",
+      "theme": "dark",
+      "variant": "branch",
+      "pixels": 735345,
+      "changedPixels": 0,
+      "maxChannelDifference": 0,
+      "meanChannelDifference": 0.0,
+      "candidateImage": "fallback-dark-branch.png"
+    },
+    {
+      "source": "fallback",
+      "theme": "light",
+      "variant": "opaque",
+      "pixels": 735345,
+      "changedPixels": 0,
+      "maxChannelDifference": 0,
+      "meanChannelDifference": 0.0,
+      "candidateImage": "fallback-light-opaque.png"
+    },
+    {
+      "source": "fallback",
+      "theme": "light",
+      "variant": "branch",
+      "pixels": 735345,
+      "changedPixels": 0,
+      "maxChannelDifference": 0,
+      "meanChannelDifference": 0.0,
+      "candidateImage": "fallback-light-branch.png"
+    }
+  ],
+  "artifactHashes": {
+    "fallback-dark-baseline.png": "3af7c8e1fa5eb9713c5f185d4dc1934cb5330e7aadafc74cacb8e5dfb0cbe4b5",
+    "fallback-dark-branch.png": "3af7c8e1fa5eb9713c5f185d4dc1934cb5330e7aadafc74cacb8e5dfb0cbe4b5",
+    "fallback-dark-opaque.png": "3af7c8e1fa5eb9713c5f185d4dc1934cb5330e7aadafc74cacb8e5dfb0cbe4b5",
+    "fallback-light-baseline.png": "77af1beb6d80db052d08cbdf32129a5c45a83684e290e8501797e5a16db515c6",
+    "fallback-light-branch.png": "77af1beb6d80db052d08cbdf32129a5c45a83684e290e8501797e5a16db515c6",
+    "fallback-light-opaque.png": "77af1beb6d80db052d08cbdf32129a5c45a83684e290e8501797e5a16db515c6",
+    "hdr-dark-baseline.png": "2abc0e34624d5af8770020ab54403c3fc4552624c994fb64059395eb598c5fdb",
+    "hdr-dark-branch.png": "2abc0e34624d5af8770020ab54403c3fc4552624c994fb64059395eb598c5fdb",
+    "hdr-dark-opaque.png": "2abc0e34624d5af8770020ab54403c3fc4552624c994fb64059395eb598c5fdb",
+    "hdr-light-baseline.png": "2f0e2c3b69d4a9f9be54c2e251d44dfbea622cf8c36c12e64db37cfedf57e9ea",
+    "hdr-light-branch.png": "2f0e2c3b69d4a9f9be54c2e251d44dfbea622cf8c36c12e64db37cfedf57e9ea",
+    "hdr-light-opaque.png": "2f0e2c3b69d4a9f9be54c2e251d44dfbea622cf8c36c12e64db37cfedf57e9ea"
+  },
+  "limitations": [
+    "The fixed scene pose isolates rendering equivalence; full interaction is validated separately by browser tests.",
+    "Source code and original scene were bundled for the scratch comparison; original WebGL options/shader were replaced through test-only browser wrappers, never audit detection in application code.",
+    "Command-submission timings in raw diagnostic output are not GPU-completion timings or Lighthouse scores.",
+    "This result does not establish a performance improvement; use the current production build Lighthouse report for measured performance.",
+    "Exact PNG artifacts and the reproducible harness are retained with repair evidence outside this source-only summary.",
+    "Opaque-wrapper parity is a diagnostic candidate result; it must not be represented as proof that current production uses alpha:false context attributes."
+  ],
+  "comparisonImplementation": {
+    "opaque": "Test-only getContext wrapper explicitly requested alpha:false; it was not the production constructor option. Four fixed-pose comparisons were pixel-identical, but actual context attributes were not recorded in that earlier harness.",
+    "branch": "Test-only shaderSource replacement applied the same HDR early-return source as the current product. Context creation was unchanged. Four fixed-pose comparisons were pixel-identical."
+  },
+  "currentRuntimeContextVerification": {
+    "buildId": "ZExXgIfF-M2np679FYhoQ",
+    "source": "current-hero-diagnostic/baseline.json in raw repair evidence",
+    "alpha": true,
+    "desynchronized": false,
+    "preserveDrawingBuffer": false,
+    "note": "Recorded from actual getContextAttributes() on the compiled current home page, after the parity comparison. The constructor alpha:false does not make this context opaque."
+  },
+  "sourceCommentCorrection": {
+    "path": "src/components/experience/engines/hero.ts",
+    "currentSha256": "a86bc3b9ff240d7d4f551979bdffefa3b1ea5e4c685521f7da97ea739bc66938",
+    "change": "Only the inaccurate opacity/compositing comment was corrected after actual context attributes were captured; rendering behavior is unchanged from the parity candidate."
+  }
+}

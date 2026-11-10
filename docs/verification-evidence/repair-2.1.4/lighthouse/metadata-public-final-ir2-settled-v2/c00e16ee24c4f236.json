@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/cooperation/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "28e03979f155619436d6cd04dd91ea7731d37fe476a4cb5582f4459f36b2026b",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Partner with us | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Find the relevant factory partnership route for distribution, supply, outsourcing, investment or research and submit your proposal."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/cooperation/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/cooperation/",
+    "en": "http://127.0.0.1:3100/en/cooperation/",
+    "tr": "http://127.0.0.1:3100/tr/cooperation/",
+    "ar": "http://127.0.0.1:3100/ar/cooperation/",
+    "ru": "http://127.0.0.1:3100/ru/cooperation/",
+    "x-default": "http://127.0.0.1:3100/fa/cooperation/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 57
+}

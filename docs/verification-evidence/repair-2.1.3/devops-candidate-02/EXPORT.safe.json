@@ -1,0 +1,212 @@
+{
+  "schema": 1,
+  "kind": "bounded-public-safe-candidate02-update-evidence-export",
+  "createdAt": "2026-10-25T09:08:40.453483+00:00",
+  "summaryFile": "candidate02-update-acceptance-public.safe.json",
+  "summarySha256": "70ce631103e131548105448084e61839fad0a6986c9a57292ab02b55df4a6ecc",
+  "candidateSourceZipSha256": "05f9fada3a33e7df149012e0eeae0824e9fb3dda93b4387a70278626dd767578",
+  "referenceCount": 20,
+  "additionalActualJobOutcomes": 3,
+  "allCopiesByteIdentical": true,
+  "transformations": [],
+  "independentReadOnlyReview": {
+    "directSummaryReferenceHashesAndLengthsVerified": 20,
+    "collectedArtifactHashesAndLengthsVerifiedWithoutCopyingRawLogs": 12,
+    "originalGuestOutcomesVerified": 3,
+    "priorFixtureComparisonReferencesVerified": 2,
+    "preparedHelperHashesAndLengthsVerified": 6,
+    "runtimeResultMatchesActualCollectedOutput": true,
+    "sourceReleaseFilesVerifiedByRuntime": 3535,
+    "runtimeImageFilesVerifiedByRuntime": 668,
+    "migrationCount": 41,
+    "apiCheckCount": 19,
+    "originalSupervisorToolSession": 32267,
+    "actualTerminalToolChunkId": "4bee9a",
+    "actualTerminalExitCode": 0,
+    "actualOriginalSupervisorWaitConsumed": true,
+    "noOtherOuterWaitInferred": true,
+    "normalMatchingDiskRetentionVerified": true,
+    "preProductMetadataFailurePreservedAsExit1": true,
+    "noNewRuntimeTestsOrAuditsExecutedForExport": true
+  },
+  "publicHealthBodyAllowedFields": [
+    "applicationVersion",
+    "database",
+    "privacy",
+    "status",
+    "timestamp",
+    "version"
+  ],
+  "privateEnvironmentKeysArchivesDisksRawLogsAndPrivateApiBodiesCopied": false,
+  "lighthouseScoringClaimed": false,
+  "copiedFiles": [
+    {
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/candidate02-update-acceptance-public.safe.json",
+      "packagedRelativePath": "candidate02-update-acceptance-public.safe.json",
+      "bytes": 15230,
+      "sha256": "70ce631103e131548105448084e61839fad0a6986c9a57292ab02b55df4a6ecc",
+      "byteIdentical": true
+    },
+    {
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/fresh-recovery-acceptance-public.safe.json",
+      "packagedRelativePath": "receipts/01-prior-fresh-recovery-summary.safe.json",
+      "bytes": 14365,
+      "sha256": "154c0b567361578097c2ea1dd711e76804552f3002bdd173800b5b586b71d32f",
+      "byteIdentical": true
+    },
+    {
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/candidate02-lifecycle-preparation.safe.json",
+      "packagedRelativePath": "receipts/02-lifecycle-preparation.safe.json",
+      "bytes": 3899,
+      "sha256": "b7a011ff0422eeac3a4861bacbb91a4bb820b9d20b4f055befcb9281c71cbe63",
+      "byteIdentical": true
+    },
+    {
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/candidate02-preboot.safe.json",
+      "packagedRelativePath": "receipts/03-preboot-and-preserved-failure.safe.json",
+      "bytes": 1503,
+      "sha256": "ece0af8d1a2788bb8e399efbda409a0b47ff89a279cf3e05c983262b4fc17e9a",
+      "byteIdentical": true
+    },
+    {
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/candidate-02/source-acceptance.safe.json",
+      "packagedRelativePath": "receipts/04-frozen-source-acceptance.safe.json",
+      "bytes": 1044,
+      "sha256": "86c1a2bb20cd4545746dd9bce812426b1a53f653bd045d7e44f2a0e0153afa66",
+      "byteIdentical": true
+    },
+    {
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/candidate02-stage/local-source-verification.safe.json",
+      "packagedRelativePath": "receipts/05-local-source-verification.safe.json",
+      "bytes": 338,
+      "sha256": "905bbd327251bc755e1e002c1e70a6e75c690d0cef6f11b4d3bcc803daad7742",
+      "byteIdentical": true
+    },
+    {
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/candidate02-stage/configuration.safe.json",
+      "packagedRelativePath": "receipts/06-stage-configuration.safe.json",
+      "bytes": 1271,
+      "sha256": "dd718ec7d32f82f559749c4d5d01d59ccfaec6fd3179c42c0a06e7f1a096203c",
+      "byteIdentical": true
+    },
+    {
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/candidate02-readiness.safe.json",
+      "packagedRelativePath": "receipts/07-resumed-host-readiness.safe.json",
+      "bytes": 333,
+      "sha256": "e8050113b201bd8d78323205cce4d0e3ba122a6937eb094bcca91bfbd99f8748",
+      "byteIdentical": true
+    },
+    {
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/candidate02-preparation.safe.json",
+      "packagedRelativePath": "receipts/08-original-update-preconditions.safe.json",
+      "bytes": 1246,
+      "sha256": "f6df6ce6b2602f9fe447444f9f6233e7cfb40e1a01aae4a0ded3c7d41de14e7f",
+      "byteIdentical": true
+    },
+    {
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/candidate02-updater-start.safe.json",
+      "packagedRelativePath": "receipts/09-original-update-launch.safe.json",
+      "bytes": 792,
+      "sha256": "caa613b380780f4df7db8b6bd126f0afb2a11d710ba50435d7d28aaf15fa2d2d",
+      "byteIdentical": true
+    },
+    {
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/c2-runtime/start.safe.json",
+      "packagedRelativePath": "receipts/10-vm-start.safe.json",
+      "bytes": 2598,
+      "sha256": "49a7adc5e5fcb116bb10fb6cb4d03fecfefadb4cb0ccfd00897bc733c315e504",
+      "byteIdentical": true
+    },
+    {
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/c2-runtime/prior-retained-fixture-binding.safe.json",
+      "packagedRelativePath": "receipts/11-prior-retained-fixture-binding.safe.json",
+      "bytes": 542,
+      "sha256": "4c35c2c3b18d93756fc280ee33777a0ed4d64f89ab22c30b4feb1181a34e73a7",
+      "byteIdentical": true
+    },
+    {
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/collected/candidate02-original-update/collection.safe.json",
+      "packagedRelativePath": "receipts/12-original-update-collection.safe.json",
+      "bytes": 1143,
+      "sha256": "00ded156a53c36d79f1318d1b744eddf7a46c2979c8ec44fefc0852f01869963",
+      "byteIdentical": true
+    },
+    {
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/collected/candidate02-runtime/collection.safe.json",
+      "packagedRelativePath": "receipts/13-runtime-collection.safe.json",
+      "bytes": 1130,
+      "sha256": "1312685f4689a8598a5b5dece5b6a0a5d1cd28f5da03438295496041ba36a636",
+      "byteIdentical": true
+    },
+    {
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/candidate02-runtime-result.safe.json",
+      "packagedRelativePath": "receipts/14-runtime-result.safe.json",
+      "bytes": 5283,
+      "sha256": "9e06074fcb65d238e944984768c2fe7e98f889127343caa611cfa1c3fedf25c3",
+      "byteIdentical": true
+    },
+    {
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/candidate02-test-timer-paused.safe.json",
+      "packagedRelativePath": "receipts/15-test-timer-pause.safe.json",
+      "bytes": 522,
+      "sha256": "42ade5ded6ed5da394799d41de11fbadfb8e6086cd7137fe86ae835669f658d1",
+      "byteIdentical": true
+    },
+    {
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/collected/api-verify-candidate02/collection.safe.json",
+      "packagedRelativePath": "receipts/16-api-verification-collection.safe.json",
+      "bytes": 2247,
+      "sha256": "a222003f5a79d1663a7cd68ce36052d9f501daabcfe67367b4c901313a6fa2dc",
+      "byteIdentical": true
+    },
+    {
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/candidate02-pre-shutdown.safe.json",
+      "packagedRelativePath": "receipts/17-pre-shutdown.safe.json",
+      "bytes": 1085,
+      "sha256": "b2dbe65bd5d4c0d4f57c8fa0bfdb335645dc838f886495de0874c149293b6422",
+      "byteIdentical": true
+    },
+    {
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/commands/candidate02-normal-poweroff.safe.json",
+      "packagedRelativePath": "receipts/18-normal-poweroff.safe.json",
+      "bytes": 323,
+      "sha256": "306969e1357b51ff76ff3f3e87ce83c28c329658270f6775651e517469d50f4d",
+      "byteIdentical": true
+    },
+    {
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/c2-runtime/outcome.safe.json",
+      "packagedRelativePath": "receipts/19-vm-outcome.safe.json",
+      "bytes": 1990,
+      "sha256": "174005cde6d9597f6fefa1ab934a3c1cc27ba40bd239d7d2dfd79e3d58453712",
+      "byteIdentical": true
+    },
+    {
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/c2-runtime/supervisor-tool-wait.safe.json",
+      "packagedRelativePath": "receipts/20-supervisor-tool-wait.safe.json",
+      "bytes": 614,
+      "sha256": "06a97a3b1b3f95d3c4eec07b9503992b04b0406d06fc5d6b1ed2eb5d0d9245ee",
+      "byteIdentical": true
+    },
+    {
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/collected/candidate02-original-update/outcome.safe.json",
+      "packagedRelativePath": "receipts/21-original-update-outcome.safe.json",
+      "bytes": 408,
+      "sha256": "f0c43469ace8b9daf74c182ef1f35b2b9e5fab65644a20c4f26f257f0633be9f",
+      "byteIdentical": true
+    },
+    {
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/collected/candidate02-runtime/outcome.safe.json",
+      "packagedRelativePath": "receipts/22-runtime-outcome.safe.json",
+      "bytes": 401,
+      "sha256": "3891638a4edda9477f2ab3e29c23db70f99ba30151eceda324c74868270a5f14",
+      "byteIdentical": true
+    },
+    {
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/vms/recovery/collected/api-verify-candidate02/outcome.safe.json",
+      "packagedRelativePath": "receipts/23-api-verification-outcome.safe.json",
+      "bytes": 403,
+      "sha256": "83f0af5b22143c0e2f8d1d1fb9ba24e58352d67f691f89ba6cdf565d39768a62",
+      "byteIdentical": true
+    }
+  ]
+}

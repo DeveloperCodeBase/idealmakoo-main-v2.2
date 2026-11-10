@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/quality/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "4644f1de4a7ae7f9b563c3130724329c994f15dca7818411e5342a5f80a3ec46",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Quality you can examine. | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Bring product specifications, research sources and official documents together, and follow up on technical questions."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/quality/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/quality/",
+    "en": "http://127.0.0.1:3100/en/quality/",
+    "tr": "http://127.0.0.1:3100/tr/quality/",
+    "ar": "http://127.0.0.1:3100/ar/quality/",
+    "ru": "http://127.0.0.1:3100/ru/quality/",
+    "x-default": "http://127.0.0.1:3100/fa/quality/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 51
+}

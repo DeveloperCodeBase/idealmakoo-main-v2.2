@@ -1,0 +1,25 @@
+{
+  "name": "production-build-2.1.2",
+  "command": [
+    "npm",
+    "run",
+    "build"
+  ],
+  "startedAt": "2026-10-23T09:53:52.404072+00:00",
+  "finishedAt": "2026-10-23T09:55:07.418008+00:00",
+  "durationSeconds": 74.915,
+  "exitCode": 0,
+  "sourceBefore": {
+    "sha256": "60db14c8a2caca09a86316f53ec542560ded54a1f65b5d49c42f97ca36357fe2",
+    "files": 986
+  },
+  "sourceAfter": {
+    "sha256": "60db14c8a2caca09a86316f53ec542560ded54a1f65b5d49c42f97ca36357fe2",
+    "files": 986
+  },
+  "sourceChanged": [],
+  "accepted": true,
+  "logSha256": "791bf9638ec7e9a14cbd8b0a5e896d3bc1424d5b0e521c2de81dfebda4b3ba2f",
+  "version": "2.1.2",
+  "buildId": "465mrmSBkXhZyeUpjbPjF"
+}

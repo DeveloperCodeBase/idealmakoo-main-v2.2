@@ -1,0 +1,7 @@
+{
+  "format": 1,
+  "buildId": "NWcRPAySX3HCzbpKSDJNf",
+  "changes": [],
+  "applicationSourceOrRuntimeAssetsChanged": false,
+  "note": "All application and source-packaging corrections preceded this build. Only documentation and sanitized verification receipts are completed after gates; they are excluded from application compilation. Earlier phase receipts remain in native-before-fullscreen."
+}

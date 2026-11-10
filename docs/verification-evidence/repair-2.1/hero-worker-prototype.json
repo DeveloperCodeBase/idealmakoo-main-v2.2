@@ -1,0 +1,324 @@
+{
+  "schemaVersion": 1,
+  "scope": "Controlled unchanged hero experiment in an isolated identical DOM, not a production Lighthouse score",
+  "graphicsMode": "webgl-software-fallback",
+  "chromeFlags": [
+    "--no-sandbox",
+    "--disable-dev-shm-usage",
+    "--enable-unsafe-swiftshader"
+  ],
+  "browser": "156.0.8078.4",
+  "gpuFeatureStatus": {
+    "2d_canvas": "unavailable_software",
+    "direct_rendering_display_compositor": "disabled_off_ok",
+    "gpu_compositing": "disabled_software",
+    "multiple_raster_threads": "enabled_on",
+    "opengl": "disabled_off",
+    "rasterization": "disabled_software",
+    "raw_draw": "disabled_off_ok",
+    "skia_graphite": "disabled_off",
+    "trees_in_viz": "disabled_off",
+    "video_decode": "disabled_software",
+    "video_encode": "disabled_software",
+    "vulkan": "disabled_off",
+    "webgl": "unavailable_software",
+    "webgpu": "unavailable_software",
+    "webgpu_on_vk_via_gl_interop": "disabled_off",
+    "webnn": "unavailable_software"
+  },
+  "viewport": {
+    "width": 390,
+    "height": 838,
+    "deviceScaleFactor": 2
+  },
+  "sourceBeforeIntegration": {
+    "hero.ts": "a86bc3b9ff240d7d4f551979bdffefa3b1ea5e4c685521f7da97ea739bc66938",
+    "scene-clock.ts": "2f9f4b494979c968ce57ab62a83a562bd17e889fb041159d1ccd5f580464828d",
+    "environment.ts": "257f359739ceb1d3b1e7c30234c1bf834e6e0f9c9feaee0d4e65292a5de642c4",
+    "ocean-math.ts": "eccfc7cd1dfcf3a1d0caa57851683d9c2f3d6ce9dedfd8fbc0effc6dd5dcb837",
+    "liquid-water.ts": "df0e02d89b448eb6ed8cd0e4bada0102472c9508240a86526c5c5549affecefb",
+    "molar-mesh.ts": "23935ae5befa063fc9e760cd1f98755556efd2317082e6aaf4198c06a00b2af0",
+    "dynamics.ts": "f51147853c565f528a43f11699ed0d0a91eab41d97191608828f5de02a34e205"
+  },
+  "startedAt": "2026-10-21T09:30:50.641Z",
+  "completedAt": "2026-10-21T09:34:51.979Z",
+  "comparisons": [
+    {
+      "theme": "dark",
+      "pose": "initial",
+      "totalPixels": 735345,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxChannelDelta": 0,
+      "equalLength": true
+    },
+    {
+      "theme": "dark",
+      "pose": "-agent",
+      "totalPixels": 735345,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxChannelDelta": 0,
+      "equalLength": true
+    },
+    {
+      "theme": "light",
+      "pose": "initial",
+      "totalPixels": 735345,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxChannelDelta": 0,
+      "equalLength": true
+    },
+    {
+      "theme": "light",
+      "pose": "-agent",
+      "totalPixels": 735345,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxChannelDelta": 0,
+      "equalLength": true
+    }
+  ],
+  "movingCases": [
+    {
+      "mode": "main",
+      "durationMs": 40177.199999999255,
+      "mainLongTaskCount": 73,
+      "mainLongTaskMs": 39504,
+      "maxMainLongTaskMs": 728,
+      "typingMs": 16134,
+      "controlClickMs": 6176,
+      "pointerOrbitMs": 4266,
+      "typedText": "Scene 123",
+      "frames": 75,
+      "maxEventTimingDurationMs": 1216,
+      "maxInputProcessingDelayMs": 613.5999999996275,
+      "realGrabAndRelease": true,
+      "attributes": {
+        "alpha": true,
+        "antialias": true,
+        "depth": true,
+        "desynchronized": false,
+        "failIfMajorPerformanceCaveat": false,
+        "powerPreference": "high-performance",
+        "premultipliedAlpha": true,
+        "preserveDrawingBuffer": false,
+        "stencil": false,
+        "xrCompatible": false
+      },
+      "buffer": [
+        585,
+        1257
+      ],
+      "errors": []
+    },
+    {
+      "mode": "worker",
+      "durationMs": 6306,
+      "mainLongTaskCount": 0,
+      "mainLongTaskMs": 0,
+      "maxMainLongTaskMs": 0,
+      "typingMs": 408,
+      "controlClickMs": 39,
+      "pointerOrbitMs": 92,
+      "typedText": "Scene 123",
+      "frames": 13,
+      "maxEventTimingDurationMs": 224,
+      "maxInputProcessingDelayMs": 6.099999999627471,
+      "realGrabAndRelease": true,
+      "attributes": {
+        "alpha": true,
+        "antialias": true,
+        "depth": true,
+        "desynchronized": false,
+        "failIfMajorPerformanceCaveat": false,
+        "powerPreference": "high-performance",
+        "premultipliedAlpha": true,
+        "preserveDrawingBuffer": false,
+        "stencil": false,
+        "xrCompatible": false
+      },
+      "buffer": [
+        585,
+        1257
+      ],
+      "errors": []
+    }
+  ],
+  "parityCases": [
+    {
+      "mode": "main",
+      "theme": "dark",
+      "initialPixelSha256": "28b6707fab2f14e239eea8b5c7ffa3221a261eec9f1df2821ea49704c2f87c32",
+      "agentPixelSha256": "54750458e7480f40b03851be73b588c9e46768e3fac27b35ea9406b8c757b2ad",
+      "agent": {
+        "transform": "translate3d(107.36px, 507.52px, 0px)",
+        "opacity": "1",
+        "phase": "lower",
+        "mode": "hand"
+      },
+      "bodyTriangles": [
+        45752,
+        43736
+      ],
+      "hdrLoaded": true,
+      "quality": "standard"
+    },
+    {
+      "mode": "worker",
+      "theme": "dark",
+      "initialPixelSha256": "28b6707fab2f14e239eea8b5c7ffa3221a261eec9f1df2821ea49704c2f87c32",
+      "agentPixelSha256": "54750458e7480f40b03851be73b588c9e46768e3fac27b35ea9406b8c757b2ad",
+      "agent": {
+        "transform": "translate3d(107.36px, 507.52px, 0px)",
+        "opacity": "1",
+        "phase": "lower",
+        "mode": "hand"
+      },
+      "bodyTriangles": [
+        45752,
+        43736
+      ],
+      "hdrLoaded": true,
+      "quality": "standard"
+    },
+    {
+      "mode": "main",
+      "theme": "light",
+      "initialPixelSha256": "56f3315af8f8467b5f0b2da077b83d36367fcfb0326d0bd07342c00d4aea5d8b",
+      "agentPixelSha256": "3207aa12bbbca4188318e4b8da726c5c6e95d7d044aff8a8ca8385382d5bb5f5",
+      "agent": {
+        "transform": "translate3d(107.36px, 507.52px, 0px)",
+        "opacity": "1",
+        "phase": "lower",
+        "mode": "hand"
+      },
+      "bodyTriangles": [
+        45752,
+        43736
+      ],
+      "hdrLoaded": true,
+      "quality": "standard"
+    },
+    {
+      "mode": "worker",
+      "theme": "light",
+      "initialPixelSha256": "56f3315af8f8467b5f0b2da077b83d36367fcfb0326d0bd07342c00d4aea5d8b",
+      "agentPixelSha256": "3207aa12bbbca4188318e4b8da726c5c6e95d7d044aff8a8ca8385382d5bb5f5",
+      "agent": {
+        "transform": "translate3d(107.36px, 507.52px, 0px)",
+        "opacity": "1",
+        "phase": "lower",
+        "mode": "hand"
+      },
+      "bodyTriangles": [
+        45752,
+        43736
+      ],
+      "hdrLoaded": true,
+      "quality": "standard"
+    }
+  ],
+  "nativeTrace": [
+    {
+      "file": "moving-main.trace.json",
+      "events": [
+        {
+          "thread": "CrRendererMain",
+          "name": "GLES2::ReadPixels",
+          "count": 75,
+          "totalMs": 40258.49900000001,
+          "maxMs": 723.24,
+          "medianMs": 530.583
+        }
+      ]
+    },
+    {
+      "file": "moving-worker.trace.json",
+      "events": [
+        {
+          "thread": "DedicatedWorker thread",
+          "name": "WebGLRenderingContextBase::GetResourceForPushFrame",
+          "count": 13,
+          "totalMs": 6639.61,
+          "maxMs": 594.605,
+          "medianMs": 509.1
+        },
+        {
+          "thread": "DedicatedWorker thread",
+          "name": "GLES2::ReadPixels",
+          "count": 13,
+          "totalMs": 6612.107000000001,
+          "maxMs": 592.619,
+          "medianMs": 507.009
+        },
+        {
+          "thread": "DedicatedWorker thread",
+          "name": "OffscreenCanvas::PushFrame",
+          "count": 13,
+          "totalMs": 1.384,
+          "maxMs": 0.168,
+          "medianMs": 0.102
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "The timed cases execute identical real actions; elapsed windows differ because the main-thread case blocks those actions. They are not equal-duration throughput samples.",
+    "Software rendering cost remains, about two frames per second in this forced fallback lab. The experiment demonstrates movement of blocking readback and better DOM input responsiveness, not a faster GPU.",
+    "Fixed-pose hand equality does not alone prove moving DOM/canvas presentation synchronization. Production integration separately defers presentation to a worker task after native RAF resource production.",
+    "No Lighthouse score or blanket performance pass is claimed for this prototype."
+  ],
+  "priorAttempts": [
+    {
+      "file": "attempt-1-report.json",
+      "errors": [
+        "cdpSession.send: Protocol error (Browser.getBrowserCommandLine): Command line not returned because --enable-automation not set."
+      ]
+    },
+    {
+      "file": "attempt-2-report.json",
+      "errors": [
+        "Error: Agent capture exceeded 20000ms"
+      ]
+    }
+  ],
+  "rawFiles": [
+    {
+      "file": "report.json",
+      "bytes": 50750,
+      "sha256": "933d2c09f69642819de7fb07f9336f1d6bb2b8f9ec4ec5123eba2b38a073d1f8"
+    },
+    {
+      "file": "report-performance.json",
+      "bytes": 127157,
+      "sha256": "5b8fad0c5950b309684d52e810c1625db1c8bcc9a2ddb5816bc16aa9989203ab"
+    },
+    {
+      "file": "trace-summary.json",
+      "bytes": 3899,
+      "sha256": "ffbe4463e9aead3fe189804b71bfdfd33200d9fc85af03f27e74ef59ecf7d90d"
+    },
+    {
+      "file": "moving-main.trace.json",
+      "bytes": 29138313,
+      "sha256": "99b3ab7a309c1fcd0e2aa535a20de301b00e4dcbb71e8ec54eb89eaf640592b0"
+    },
+    {
+      "file": "moving-worker.trace.json",
+      "bytes": 4186411,
+      "sha256": "e0b5de5bb0ef4f8ba502080a07f1541662f9f344fa0d66b1975ac2862ef9e4b9"
+    },
+    {
+      "file": "attempt-1-report.json",
+      "bytes": 2028,
+      "sha256": "f368dbb205e52fdb3d57e241246e0a3d2b6df999146c550773425b501c10afa9"
+    },
+    {
+      "file": "attempt-2-report.json",
+      "bytes": 2257,
+      "sha256": "6c44005fb6baa4571ed5ba99cd21eac52dbe6827b1508f67a3679a00d7d1e2d7"
+    }
+  ]
+}

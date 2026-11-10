@@ -1,0 +1,40 @@
+{
+  "format": "idealmakoo-audit-tooling-evidence-index-v1",
+  "status": "passed",
+  "recordedAt": "2026-10-25T21:15:36.287939+00:00",
+  "files": [
+    {
+      "file": "tooling-continuity.safe.json",
+      "bytes": 5329,
+      "sha256": "3a2308a3eacc6e9fbf0e5c9de31a2d58fdd42e2251987ed4bf6ffc4bf234f19f"
+    },
+    {
+      "file": "tooling-affected.safe.json",
+      "bytes": 1011,
+      "sha256": "c3eaa5c42361c8c77f51d0562ea0902e74f8c7652d59f8210d0ea096b75aa187"
+    },
+    {
+      "file": "tooling-full-unit.safe.json",
+      "bytes": 803,
+      "sha256": "6064d0f09bd4a5225acfafa85d5f92bc07648a4c39151b165358f1145fb0ae41"
+    },
+    {
+      "file": "tooling-history.safe.json",
+      "bytes": 2035,
+      "sha256": "b11feec71611414f905cadb8d14b03689cc4ed6981cfa2596ac8c92d74d14cec"
+    }
+  ],
+  "currentInputManifest": {
+    "file": "../application-inputs.safe.json",
+    "sha256": "fc04da4e3110ee77110fddef5ced25113c1618f9c38cc584ea20e0ce062925f6"
+  },
+  "historicalBuildManifest": {
+    "file": "../application-inputs-before-audit-settlement-ir2.safe.json",
+    "sha256": "adde220aa74dc52a0420187839cb2c6d9311d44e430b4fba1c3c3b57c9ff7c80"
+  },
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "compiledBuildInputFingerprint": "4fcec50f5846b0affccc59e43798613ba134a3f93559ea5ddba9705e1f38cc58",
+  "currentAuditInclusiveInputFingerprint": "64a14915618ac34a4daee3aa64eb82d44438b993096491966afc487be9f67b12",
+  "applicationRebuilt": false,
+  "newBrowserOrDockerAcceptanceClaim": false
+}

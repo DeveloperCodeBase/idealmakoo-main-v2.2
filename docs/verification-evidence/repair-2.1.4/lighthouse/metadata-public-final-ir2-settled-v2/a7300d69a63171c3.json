@@ -1,0 +1,71 @@
+{
+  "url": "http://127.0.0.1:3100/ru/products/apple/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "01e7fd94bf0b04fbd05204c11e51ab021374b01350b12bc5dfaa70b48b67f918",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Искусственные зубы Apple | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Четырёхслойная серия Apple сочетает композит и выбор форм для съёмных протезов."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/products/apple/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/apple/",
+    "en": "http://127.0.0.1:3100/en/products/apple/",
+    "tr": "http://127.0.0.1:3100/tr/products/apple/",
+    "ar": "http://127.0.0.1:3100/ar/products/apple/",
+    "ru": "http://127.0.0.1:3100/ru/products/apple/",
+    "x-default": "http://127.0.0.1:3100/fa/products/apple/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Искусственные зубы Apple",
+      "description": "Четырёхслойная серия Apple сочетает композит и выбор форм для съёмных протезов.",
+      "image": "http://127.0.0.1:3100/media/official/1686377879.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "APPLE"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/ru/products/apple/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 47
+}

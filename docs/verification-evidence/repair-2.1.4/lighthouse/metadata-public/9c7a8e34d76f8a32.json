@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/resources/iranian-swiss-shear-bond-cover/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "577cd5f446703b02b0d78897b8266a2bdc2e8194873c8e208eaede8cb8fba840",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "تصویر مرجع پژوهش — اتصال برشی کامپوزیت ایرانی و سوئیسی | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "اتصال برشی کامپوزیت ایرانی و سوئیسی — اسناد تصویری اصلی کارخانه"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/resources/iranian-swiss-shear-bond-cover/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/iranian-swiss-shear-bond-cover/",
+    "en": "http://127.0.0.1:3100/en/resources/iranian-swiss-shear-bond-cover/",
+    "tr": "http://127.0.0.1:3100/tr/resources/iranian-swiss-shear-bond-cover/",
+    "ar": "http://127.0.0.1:3100/ar/resources/iranian-swiss-shear-bond-cover/",
+    "ru": "http://127.0.0.1:3100/ru/resources/iranian-swiss-shear-bond-cover/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/iranian-swiss-shear-bond-cover/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 65
+}

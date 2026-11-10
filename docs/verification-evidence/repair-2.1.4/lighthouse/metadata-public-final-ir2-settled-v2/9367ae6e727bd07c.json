@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/careers/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "44f4e28226e8ad17dd2b21bfccd6bf350679796bf0ce72996f28012d3c85d455",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "بخشی از آینده صنعت دندان باشید. | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "فرصت‌های همکاری در تولید، کیفیت، پژوهش و ارتباط با مشتری؛ بر اساس آگهی‌های منتشرشده کارخانه."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/careers/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/careers/",
+    "en": "http://127.0.0.1:3100/en/careers/",
+    "tr": "http://127.0.0.1:3100/tr/careers/",
+    "ar": "http://127.0.0.1:3100/ar/careers/",
+    "ru": "http://127.0.0.1:3100/ru/careers/",
+    "x-default": "http://127.0.0.1:3100/fa/careers/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 49
+}

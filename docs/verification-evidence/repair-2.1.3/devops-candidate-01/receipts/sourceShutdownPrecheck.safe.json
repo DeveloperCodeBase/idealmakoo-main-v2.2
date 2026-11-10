@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "completedAt": "2026-10-25T05:14:07.204387+00:00",
+  "completedOriginalJobs": [
+    "primary-original-installer",
+    "runtime",
+    "api-seed-canonical",
+    "capture-sessions",
+    "api-mutate",
+    "ledger"
+  ],
+  "failedFirstHarnessAttemptPreserved": true,
+  "testBackupTimerAndServiceInactive": true,
+  "runningEphemeralApiClients": 0
+}

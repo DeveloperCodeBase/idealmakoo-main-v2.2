@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "kind": "actual-complete-operations06-root-acceptance",
+  "status": "passed",
+  "recordedAt": "2026-10-24T19:27:23.793712+00:00",
+  "testsRun": 251,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "expectedFailures": 0,
+  "unexpectedSuccesses": 0,
+  "durationSeconds": 86.957912,
+  "actualChildExitCode": 0,
+  "actualChildWaitConsumed": true,
+  "actualOuterToolSession": 98669,
+  "actualOuterToolExitCode": 0,
+  "actualOuterToolWaitConsumed": true,
+  "outerSafetyTimeoutReached": false,
+  "applicationInputs": {
+    "files": 989,
+    "sha256": "9c9562abb591401e6ee8911422bb06c5463f297bc414304fde8b813a8fb4f434"
+  },
+  "executionInputs": {
+    "files": 998,
+    "sha256": "226e5cfda51089ab191cc1c7a669f82ab78772490279b52cfcae423f3debf466"
+  },
+  "sourceBeforeAndAfterExact": true,
+  "rootAndIndependentReviewAccepted": true,
+  "receiptHashes": {
+    "operations.safe.json": "3c44c246375b1419fa62aa13475660905f3912947257443f2edf88ed551537a2",
+    "actual-process-outcome.safe.json": "9b818ba8974a24e477d692f38de47b30bd49e28d0249be60c950d3753727bdd8",
+    "inputs-before-tests.json": "435d7e6bddd8b7d3f66928705fac2e343d50e7a4d36465ab55c9b6973015c247",
+    "inputs-after-tests.json": "435d7e6bddd8b7d3f66928705fac2e343d50e7a4d36465ab55c9b6973015c247",
+    "run_operations.py": "d71e05ffe0c5abcb002c9013820a6fc999e3fef3f9cf1f04e4e569bebc420840",
+    "wait_operations.py": "5a9914cc909a8ea2af048a18791186617e99bf1ed7f858fa7f7177ffb0adde1e"
+  },
+  "realDockerVmDatabaseOrExternalNetworkUsed": false,
+  "fullRuntimeUpdateFreshBuildOrLighthouseAccepted": false
+}

@@ -1,0 +1,46 @@
+{
+  "kind": "verified-complete-shipped-browser-suite",
+  "buildId": "JUTCtkNIJ8CT540y_qNL_",
+  "sourceInputSha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+  "sourceReceiptSha256": "9cd79527c504a6202bf1d854770f3b48e70e0e5b7f8a1c40a1d2002da4ac1e73",
+  "status": "passed",
+  "tests": 56,
+  "attempts": 56,
+  "passed": 56,
+  "failed": 0,
+  "skipped": 0,
+  "flaky": 0,
+  "retries": 0,
+  "browserRunnerExitCode": 0,
+  "browserRunnerDurationSeconds": 236.001,
+  "rawReportSha256": "f29b8d0d82fe156b256629829802bd7a344f851a1d579c4d20d3ba6132dd87f4",
+  "rawReportIndependentlyCounted": true,
+  "rawReportsAndLogsIncluded": false,
+  "childGateReceiptSha256": "f7e8df2feda45759b2fb442f3ea4ab2ed703fa9d56187ee15bcd43e7c5f2b1ef",
+  "childGate": {
+    "name": "e2e-candidate02-debounce-gate-01",
+    "startedAt": "2026-10-25T07:38:07.270923+00:00",
+    "finishedAt": "2026-10-25T07:42:03.454222+00:00",
+    "durationSeconds": 236.183289,
+    "exitCode": 0,
+    "waitConsumed": true,
+    "timedOut": false,
+    "cancelled": false,
+    "sourceBefore": {
+      "sha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+      "files": 994
+    },
+    "sourceAfter": {
+      "sha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+      "files": 994
+    },
+    "sourceChanged": [],
+    "accepted": true
+  },
+  "outerTool": {
+    "name": "e2e-candidate02-debounce-gate-01",
+    "sessionId": 69491,
+    "actualOuterExitCode": 0,
+    "actualOuterWaitConsumed": true
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "format": "idealmakoo.api-fixture-isolation-transition",
+  "integratedAt": "2026-10-21T05:57:04.137353+00:00",
+  "file": "tests/server-api.integration.test.ts",
+  "beforeSha256": "398502d2244ef24f5a4b82884714c4017d4f790231ba708fc16dbd295134e716",
+  "afterSha256": "ebe036e7224f4fd1c62a04785b83f1af386c97d1aa4ad1e25cfecdb3ed61fa68",
+  "reason": "The panel authorization API fixture inherited env-managed provisioning mode from its external runtime file. Save, explicitly select panel, and restore the mode; all exact security assertions and production code remain unchanged.",
+  "applicationCodeChanged": false,
+  "securityAssertionsChanged": false,
+  "baseline": {
+    "label": "api-user-directory-final",
+    "tests": 20,
+    "pass": 19,
+    "fail": 1,
+    "failureCode": "STAFF_ENV_MANAGED received, ROLE_ESCALATION expected"
+  },
+  "rerun": "api-user-directory-final2"
+}

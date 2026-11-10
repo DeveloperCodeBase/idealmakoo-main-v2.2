@@ -1,0 +1,336 @@
+{
+  "schemaVersion": 1,
+  "kind": "approved-proposed-final-lighthouse-selection",
+  "status": "approved_pending_final_candidate_build",
+  "generatedAt": "2026-10-25T05:01:46.765755+00:00",
+  "release": {
+    "packageVersion": "2.1.3",
+    "candidate": "candidate-02",
+    "finalSourceZipSha256": null,
+    "finalBuildId": null,
+    "observedInventoryBuildId": "fztGyySqMaBbes8--JQKs",
+    "preserveEarlierCandidateZipHashPrefix": "2deb",
+    "measurementPerformedForFinalCandidate": false
+  },
+  "sourceInventoryEvidence": {
+    "public": {
+      "relativePath": "lighthouse-current/public/inventory.json",
+      "sha256": "b4c6855d8c186b914d856dac2defff25918dbad6dae0669ede7dc83e0d2002b1",
+      "states": 1240
+    },
+    "private-mobile": {
+      "relativePath": "lighthouse-current/private-mobile/inventory.json",
+      "sha256": "9487eda187485e187b3f54e0b98dd68cb791d85f98a7b62afaf8307f14e9f68d",
+      "states": 530
+    },
+    "private-desktop": {
+      "relativePath": "lighthouse-current/private-desktop/inventory.json",
+      "sha256": "2d9bf64f2554eb476ccdd30f651a647222e25df4db21977a579212c509f9b3e8",
+      "states": 530
+    }
+  },
+  "expected": {
+    "mobilePublic": 620,
+    "mobilePrivate": 530,
+    "allPageMobileTotal": 1150,
+    "desktopPublic": 51,
+    "desktopPrivate": 22,
+    "desktopRepresentativeTotal": 73,
+    "approvedTotal": 1223,
+    "historicalOriginalTotal": 2300
+  },
+  "mobile": {
+    "coverageLabel": "all-page mobile, including shipped role/query/HTTP-contract states",
+    "publicRunner": "scripts/audit-lighthouse.mjs",
+    "publicSelectionArgs": [
+      "--all-public",
+      "--device",
+      "mobile"
+    ],
+    "publicKinds": {
+      "public": 590,
+      "expected-404": 5,
+      "public-auth": 25
+    },
+    "privateRunner": "scripts/audit-private-lighthouse.mjs",
+    "privateSelectionArgs": [
+      "--device",
+      "mobile"
+    ],
+    "privateKinds": {
+      "workspace": 430,
+      "account": 75,
+      "owned-request-detail": 5,
+      "representative-role": 20
+    },
+    "existingInventoryCoverageReduced": false
+  },
+  "desktop": {
+    "coverageLabel": "explicit representative desktop selection",
+    "publicPaths": [
+      "/fa/",
+      "/en/",
+      "/tr/",
+      "/ar/",
+      "/ru/",
+      "/fa/products/",
+      "/fa/products/category/materials/",
+      "/fa/products/president/",
+      "/fa/products/dentex-etch-37/",
+      "/fa/compare/",
+      "/fa/inquiry-list/",
+      "/fa/technical-selection/",
+      "/fa/tools/shade-mould-matcher/",
+      "/fa/tools/clinical-protocol/",
+      "/fa/verify-product/",
+      "/fa/research/",
+      "/fa/research/president-ivoclar-3d-wear/",
+      "/fa/resources/",
+      "/fa/resources/president-official-image/",
+      "/fa/resources/ideal-makoo-mould-guide/",
+      "/fa/resources/official-site-archive/",
+      "/fa/about/",
+      "/fa/manufacturing/",
+      "/fa/quality/",
+      "/fa/strategy/",
+      "/fa/global/",
+      "/fa/glossary/",
+      "/fa/news/",
+      "/fa/events/",
+      "/fa/careers/",
+      "/fa/videos/",
+      "/fa/press-kit/",
+      "/fa/knowledge/",
+      "/fa/contact/",
+      "/fa/cooperation/",
+      "/fa/cooperation/distribution/",
+      "/fa/distributors/",
+      "/fa/sample-request/",
+      "/fa/factory-visit/",
+      "/fa/careers/apply/",
+      "/fa/quality-report/",
+      "/fa/support/",
+      "/fa/faq/",
+      "/fa/privacy/",
+      "/fa/install/",
+      "/fa/for/dentist/",
+      "/fa/auth/login/",
+      "/fa/auth/register/",
+      "/fa/auth/recover/",
+      "/fa/auth/reset/",
+      "/fa/auth/mfa/"
+    ],
+    "publicRunnerSelectionArgs": [
+      "--urls",
+      "<approved same-origin URL array>",
+      "--device",
+      "desktop"
+    ],
+    "privateTargets": [
+      {
+        "path": "/fa/admin/",
+        "role": "superAdmin",
+        "kind": "workspace",
+        "expectedStatus": 200
+      },
+      {
+        "path": "/en/admin/",
+        "role": "superAdmin",
+        "kind": "workspace",
+        "expectedStatus": 200
+      },
+      {
+        "path": "/tr/admin/",
+        "role": "superAdmin",
+        "kind": "workspace",
+        "expectedStatus": 200
+      },
+      {
+        "path": "/ar/admin/",
+        "role": "superAdmin",
+        "kind": "workspace",
+        "expectedStatus": 200
+      },
+      {
+        "path": "/ru/admin/",
+        "role": "superAdmin",
+        "kind": "workspace",
+        "expectedStatus": 200
+      },
+      {
+        "path": "/fa/account/",
+        "role": "customer",
+        "kind": "account",
+        "expectedStatus": 200
+      },
+      {
+        "path": "/fa/account/profile/",
+        "role": "customer",
+        "kind": "account",
+        "expectedStatus": 200
+      },
+      {
+        "path": "/fa/account/requests/",
+        "role": "customer",
+        "kind": "account",
+        "expectedStatus": 200
+      },
+      {
+        "path": "/fa/account/security/",
+        "role": "customer",
+        "kind": "account",
+        "expectedStatus": 200
+      },
+      {
+        "path": "/fa/account/quick-matrix/",
+        "role": "customer",
+        "kind": "account",
+        "expectedStatus": 200
+      },
+      {
+        "path": "/fa/admin/pages/",
+        "role": "superAdmin",
+        "kind": "workspace",
+        "expectedStatus": 200
+      },
+      {
+        "path": "/fa/admin/products/",
+        "role": "superAdmin",
+        "kind": "workspace",
+        "expectedStatus": 200
+      },
+      {
+        "path": "/fa/admin/forms/",
+        "role": "superAdmin",
+        "kind": "workspace",
+        "expectedStatus": 200
+      },
+      {
+        "path": "/fa/admin/media/",
+        "role": "superAdmin",
+        "kind": "workspace",
+        "expectedStatus": 200
+      },
+      {
+        "path": "/fa/admin/users/",
+        "role": "superAdmin",
+        "kind": "workspace",
+        "expectedStatus": 200
+      },
+      {
+        "path": "/fa/admin/roles/",
+        "role": "superAdmin",
+        "kind": "workspace",
+        "expectedStatus": 200
+      },
+      {
+        "path": "/fa/admin/ai/",
+        "role": "superAdmin",
+        "kind": "workspace",
+        "expectedStatus": 200
+      },
+      {
+        "path": "/fa/admin/translations/",
+        "role": "superAdmin",
+        "kind": "workspace",
+        "expectedStatus": 200
+      },
+      {
+        "path": "/fa/admin/settings/",
+        "role": "superAdmin",
+        "kind": "workspace",
+        "expectedStatus": 200
+      },
+      {
+        "path": "/fa/admin/crm/",
+        "role": "superAdmin",
+        "kind": "workspace",
+        "expectedStatus": 200
+      },
+      {
+        "path": "/fa/admin/crm/quotes/",
+        "role": "superAdmin",
+        "kind": "workspace",
+        "expectedStatus": 200
+      },
+      {
+        "path": "/fa/admin/monitoring/recovery/",
+        "role": "superAdmin",
+        "kind": "workspace",
+        "expectedStatus": 200
+      }
+    ],
+    "privateRoleCounts": {
+      "superAdmin": 17,
+      "customer": 5
+    },
+    "privateRunnerSelectionArgs": [
+      "--target-path",
+      "<exact selected path>",
+      "--device",
+      "desktop"
+    ],
+    "privateManifestCoverageScope": "selected-principal-role-route",
+    "privateExpectedPerDirectory": 1,
+    "privateFreshOutputDirectoryPerTarget": true,
+    "allPathsVerifiedInObservedInventories": true,
+    "containsQueryTargets": false,
+    "containsSynthetic404Targets": false
+  },
+  "desktopNotInFinalScope": {
+    "publicStates": 569,
+    "privateStates": 508,
+    "totalStates": 1077,
+    "classification": "not selected / unmeasured for final candidate; never fabricated skips",
+    "allPageDesktopCoverageClaimAllowed": false
+  },
+  "supervision": {
+    "scoredChromeConcurrency": 1,
+    "scoredTargetDeadlineSeconds": 300,
+    "privateRepresentativeOuterProcessBudgetSeconds": 600,
+    "boundedBatchBudgetSeconds": 3600,
+    "navigationDeadlineUnchanged": true,
+    "allowNormalPasswordMfaAndTotpRolloverWaits": true,
+    "resetMfaCounters": false,
+    "bypassMfaEnrollment": false,
+    "weakenSessionOrRoleChecks": false,
+    "resetRateLimits": false,
+    "preserveActualExitAndWaitReceipts": true,
+    "prepareOwnedFixtureContextsBeforeFreezingFinalInventories": true,
+    "productRunnerEditsRequired": false,
+    "oldPilotControllerPublicBothDefaultMustNotBeUsed": true
+  },
+  "unionReceiptRequirements": [
+    "Bind the actual final source ZIP hash and build ID before scoring.",
+    "Verify exactly the approved 51 public and 22 private desktop identities, devices and principal roles.",
+    "Use unchanged shipped selectors and separate representative output directories.",
+    "Retain normal session/MFA, content-ready, role and editor-cleanup checks.",
+    "Require all selected attempts to finish with their actual expected outcomes before claiming representative completion.",
+    "Keep the original 2300-state inventories and pilot unchanged.",
+    "Disclose 1077 desktop states outside final measurement scope.",
+    "Never merge the earlier build pilot into final-build score totals."
+  ],
+  "galleryBrowserCheck": {
+    "path": "/fa/admin/pages/",
+    "fixture": "owned editable draft prepared before final inventory freeze",
+    "steps": [
+      "Read and hash the complete server draft before editing.",
+      "Add authored gallery rows only as an unsaved browser change.",
+      "Check image order, captions, dimensions, unsafe URL rejection and fallback.",
+      "Discard without saving or publishing.",
+      "Complete normal lease release and verify no remaining owned lease.",
+      "Read the server draft again and require exact before/after draft equality."
+    ],
+    "extraLighthouseScoreInvented": false
+  },
+  "editsDuringThisCheckpoint": [
+    "CSS-AB-PLAN.md",
+    "RESUME.md",
+    "final-lighthouse-selection.proposed.safe.json"
+  ],
+  "runtimeStarted": false,
+  "browserStarted": false,
+  "buildStarted": false,
+  "productRootModified": false,
+  "existingInventoriesOrSummariesModified": false
+}

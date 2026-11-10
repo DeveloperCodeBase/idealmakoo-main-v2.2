@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/tools/clinical-protocol/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "7464fc01ce2c0085779d3631c837f6a4afff46c27964c5b3ace4179bfda5ca0b",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "مؤقت البروتوكول | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "مؤقت قابل للتعديل للمدد المدخلة من تعليمات المنتج المعتمدة، مع روابط المواصفات والمصدر."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/tools/clinical-protocol/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/tools/clinical-protocol/",
+    "en": "http://127.0.0.1:3100/en/tools/clinical-protocol/",
+    "tr": "http://127.0.0.1:3100/tr/tools/clinical-protocol/",
+    "ar": "http://127.0.0.1:3100/ar/tools/clinical-protocol/",
+    "ru": "http://127.0.0.1:3100/ru/tools/clinical-protocol/",
+    "x-default": "http://127.0.0.1:3100/fa/tools/clinical-protocol/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 65
+}

@@ -1,0 +1,100 @@
+{
+  "format": "idealmakoo.private-fast-diagnostic-v1",
+  "status": "failed-and-retained-before-correction",
+  "startedAt": "2026-10-22T05:25:26.867Z",
+  "finishedAt": "2026-10-22T05:38:52.650Z",
+  "source": {
+    "sha256": "79d34c8326f3adc5eb28834a588bac6a76e08bdd9f1c8f67de96c2480982dfa5",
+    "files": 831
+  },
+  "application": {
+    "sha256": "048a901cbebf94e9e4b367bab87e5fd91f68860ca7c64f32539852e66061140e",
+    "files": 685
+  },
+  "buildId": "8dbsk8DNW5JXfEcUEW6u_",
+  "counts": {
+    "expected": 122,
+    "attempted": 106,
+    "completed": 104,
+    "errors": 2,
+    "timeouts": 0,
+    "pending": 16,
+    "violations": 1,
+    "violationNodes": 1,
+    "incomplete": 212,
+    "incompleteNodes": 4557
+  },
+  "exitCode": 2,
+  "analysisCompleted": false,
+  "automatedA11yPass": false,
+  "manualReviewRequired": true,
+  "fixtureCleanupPassed": true,
+  "ownedBrowserCleanupPassed": true,
+  "workloadUnchanged": true,
+  "sourceUnchanged": true,
+  "roleProcessesCompleted": false,
+  "originalTerminalSha256": "308c9a8fb663466aab43c17c606cd7580fa96fad3c65bf82ba6eb33f6c1581b3",
+  "actualProductFinding": {
+    "rule": "scrollable-region-focusable",
+    "impact": "serious",
+    "role": "superAdmin",
+    "locale": "fa",
+    "route": "admin/pages",
+    "selector": ".ws-palette-items",
+    "nodes": 1
+  },
+  "failedStartedCases": [
+    {
+      "route": "account",
+      "locale": "fa",
+      "role": "customer",
+      "status": "error",
+      "errorCode": "AUDIT_PROTECTED_PAGE_CHECK_FAILED",
+      "httpStatus": 200,
+      "apiFailureCount": 0,
+      "pageErrorCount": 0,
+      "checks": {
+        "shellPresent": true,
+        "contentReady": false,
+        "documentLanguage": true,
+        "finalPathMatches": true,
+        "noindex": true,
+        "ownedRequestVisible": true,
+        "sessionRoleVerified": true,
+        "staffMfaVerified": true,
+        "workspaceLoaded": true,
+        "httpStatusVerified": true,
+        "ownedRequestVerified": true,
+        "apiErrorFree": true,
+        "runtimeErrorFree": true,
+        "axeResultComplete": true
+      }
+    },
+    {
+      "route": "account/bookings",
+      "locale": "fa",
+      "role": "customer",
+      "status": "error",
+      "errorCode": "AUDIT_CHILD_EXITED_DURING_CASE",
+      "httpStatus": null,
+      "apiFailureCount": null,
+      "pageErrorCount": null,
+      "checks": {}
+    }
+  ],
+  "identifiedHarnessDefects": [
+    "Exact aria-labelledby equality fails to match a valid multiple-ID accessible name in the customer account section.",
+    "The external timeout handler chains catch on chrome-launcher kill(), whose public return contract is void.",
+    "Immediate post-kill liveness is not an awaited Chrome shutdown; affected role exits remain failed in this run."
+  ],
+  "notEstablished": [
+    "Underlying cause of the bookings case reaching its deadline",
+    "Cause of the ordinary admin startup operation failure",
+    "Complete 122-page analysis",
+    "Any Lighthouse performance score",
+    "Full accessibility conformance"
+  ],
+  "performanceScoringPerformed": false,
+  "allRoleRouteActionCombinationsCovered": false,
+  "privacy": "Only allowlisted counts, source hashes, fixed route names and technical error codes; no actor identifier, request identifier, credentials, DOM text or raw reports."
+}

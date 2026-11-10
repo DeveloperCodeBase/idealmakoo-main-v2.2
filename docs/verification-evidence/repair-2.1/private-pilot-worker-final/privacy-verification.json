@@ -1,0 +1,85 @@
+{
+  "format": "idealmakoo.private-pilot-package-privacy",
+  "version": 1,
+  "checkedAt": "2026-10-21T10:54:09.148Z",
+  "pass": true,
+  "buildId": "-Q7Ffy3JmwVExwxk-Ymk-",
+  "checkedFiles": [
+    {
+      "name": "audit-part-0001.json",
+      "bytes": 239952,
+      "sha256": "1f4858e83d5036f08a1afaa8993361c81ba8bdc8ec901bfe7249341902d380cf"
+    },
+    {
+      "name": "export-verification.json",
+      "bytes": 11257,
+      "sha256": "00f676f5257d920a7a504b89cf4f1be17186c24c4ace3ea90b9ff197fa9ce7b6"
+    },
+    {
+      "name": "EXPORT.json",
+      "bytes": 3216,
+      "sha256": "094ac91cdbc0fdc7ed8b1f088b2f2e1454068278ee52eda40712c68c781bec13"
+    },
+    {
+      "name": "exporter-repair.json",
+      "bytes": 3503,
+      "sha256": "0c18f5d110e57776bae9abaaf869305dc418eebbab23b74da4334a699fdc5aaf"
+    },
+    {
+      "name": "inventory.json",
+      "bytes": 2371,
+      "sha256": "2b32f68c99681fc525c655e16f654f4f75403f2939168323f4fdbf233a5650b2"
+    },
+    {
+      "name": "manifest.json",
+      "bytes": 3815,
+      "sha256": "c1f8c339720b3ebf6fd0f8cb851bdd1ac7b437ead7c908534a9dde93abcf04cd"
+    },
+    {
+      "name": "performance-analysis.json",
+      "bytes": 26988,
+      "sha256": "564f1522a84716cad8eaea33379055332036a94f57d5dbd5dc55794413bcbc8d"
+    },
+    {
+      "name": "run-completion.json",
+      "bytes": 2427,
+      "sha256": "ff41ee8957d4ae2077d8da6c04ee1d1b913a4a8273c367d751a641ac1d46e8d7"
+    },
+    {
+      "name": "served-runtime-binding.json",
+      "bytes": 1111,
+      "sha256": "0628ee1201b692b4b0bba9f42af4442960b6b2d01d937d01b441e3e0a7c95aa7"
+    },
+    {
+      "name": "summary.csv",
+      "bytes": 1129,
+      "sha256": "3e2b10e3fbcb29d64ac8d964419a5e9ac4c987c2c27cf4a4a6d8cb96d843ee42"
+    },
+    {
+      "name": "summary.json",
+      "bytes": 10622,
+      "sha256": "b20567c3632f98aa72fc7c235cd865dd935590794831453dde515434abe8b728"
+    }
+  ],
+  "checkedBytes": 306391,
+  "verifiedSafeExportFiles": 7,
+  "verifiedSafeCopiesByteIdentical": true,
+  "independentAuditProofSha256": "00f676f5257d920a7a504b89cf4f1be17186c24c4ace3ea90b9ff197fa9ce7b6",
+  "checkedPrivateMarkerCount": 17,
+  "privateMarkerMatches": 0,
+  "sensitiveEnvironmentValuesFound": false,
+  "databaseNamesOrConnectionStringsFound": false,
+  "privateIdentityFieldsFound": false,
+  "rawDomScreenshotsOrBinaryPayloadsFound": false,
+  "elementOnlySelectorsVerified": true,
+  "excludedArtifacts": [
+    "environment files",
+    "raw Lighthouse reports",
+    "browser profiles",
+    "role input files",
+    "original source copies",
+    "failed safe export",
+    "raw supervisor and runner logs"
+  ],
+  "scope": "The7 verified safe export files are byte-identical. All4 supplemental JSON documents were additionally scanned against the actual private fixture identities, secrets and database names without retaining those values."
+}

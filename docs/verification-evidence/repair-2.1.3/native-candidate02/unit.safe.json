@@ -1,0 +1,43 @@
+{
+  "kind": "verified-final-unit-terminal-summary",
+  "buildInputSha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+  "counts": {
+    "tests": 820,
+    "suites": 0,
+    "pass": 820,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "duration_ms": 30728.534597
+  },
+  "originalLogSha256": "99478b25a5c587037c8eb2c9f62862ddf2c2d8b7d69b5fefc9d5e0ab3a5a988a",
+  "rawLogIncluded": false,
+  "childGateReceiptSha256": "20354514dcfb945edae46239541013f03a64946e910f22b8a39711f695a6a7b2",
+  "childGate": {
+    "name": "unit-candidate02-debounce-01",
+    "startedAt": "2026-10-25T07:33:02.485600+00:00",
+    "finishedAt": "2026-10-25T07:33:33.476718+00:00",
+    "durationSeconds": 30.991119,
+    "exitCode": 0,
+    "waitConsumed": true,
+    "timedOut": false,
+    "cancelled": false,
+    "sourceBefore": {
+      "sha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+      "files": 994
+    },
+    "sourceAfter": {
+      "sha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+      "files": 994
+    },
+    "sourceChanged": [],
+    "accepted": true
+  },
+  "outerTool": {
+    "name": "unit-candidate02-debounce-01",
+    "sessionId": 77953,
+    "actualOuterExitCode": 0,
+    "actualOuterWaitConsumed": true
+  }
+}

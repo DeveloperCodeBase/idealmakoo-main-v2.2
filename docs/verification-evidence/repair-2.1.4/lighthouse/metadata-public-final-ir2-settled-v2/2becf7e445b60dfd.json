@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/quality-report/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "ea7af89256462d232f9585352c054bccb6e02580e256af6af2c62a9b0ff13523",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "تقرير جودة المنتج | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "قدّم تقرير جودة يتضمن المنتج ورقم التشغيلة ووصف المشكلة والملفات الداعمة لمراجعة المصنع ومتابعته."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/quality-report/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/quality-report/",
+    "en": "http://127.0.0.1:3100/en/quality-report/",
+    "tr": "http://127.0.0.1:3100/tr/quality-report/",
+    "ar": "http://127.0.0.1:3100/ar/quality-report/",
+    "ru": "http://127.0.0.1:3100/ru/quality-report/",
+    "x-default": "http://127.0.0.1:3100/fa/quality-report/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 68
+}

@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/terms/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "4e4e97f450d75594cd21e9ca3e4213a3d0499f23453c6f60323f736f2ea5e3dc",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Terms of use | Ideal Makoo"
+  ],
+  "descriptions": [
+    "This website is a professional catalogue and communication portal for Ideal Makoo. Submitting an inquiry, sample or cooperation request does not confirm an order, stock or price. Final supply terms follow review and an official response. Provide accurate contact and request details, and upload only files you have permission to use and share."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/terms/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/terms/",
+    "en": "http://127.0.0.1:3100/en/terms/",
+    "tr": "http://127.0.0.1:3100/tr/terms/",
+    "ar": "http://127.0.0.1:3100/ar/terms/",
+    "ru": "http://127.0.0.1:3100/ru/terms/",
+    "x-default": "http://127.0.0.1:3100/fa/terms/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 31
+}

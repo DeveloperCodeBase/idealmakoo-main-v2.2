@@ -1,0 +1,9 @@
+{
+  "kind": "design-assets-and-styles-byte-comparison",
+  "baselineArchiveSha256": "4de6701d3bfb267d63ddde40958f3d2dc1b6e6ebea8190b9a225cfbdb7589c7e",
+  "comparedFiles": 171,
+  "changedFiles": [],
+  "missingFiles": [],
+  "addedPublicFiles": [],
+  "scope": "All baseline public assets and CSS/SCSS source files; does not assert pixel-identical rendering across browsers."
+}

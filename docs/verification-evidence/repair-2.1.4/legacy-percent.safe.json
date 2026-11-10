@@ -1,0 +1,42 @@
+{
+  "recordedAt": "2026-10-25T11:15:36.580743+00:00",
+  "status": "passed",
+  "diagnosis": "Next 16.4.2 dynamic RouteModule.prepare decodes the original malformed-percent request URL after proxy rewrite and throws before GET. The static fallback avoids dynamic parameter preparation while preserving original-path binding and the current publication resolver.",
+  "beforeHttpReceipt": "legacy-percent-before.safe.json",
+  "focusedUnit": {
+    "tests": 15,
+    "passed": 15,
+    "failed": 0,
+    "skipped": 0,
+    "cancelled": 0,
+    "exitCode": 0,
+    "durationMs": 805.950966,
+    "toolChunk": "1703af"
+  },
+  "typecheck": {
+    "exitCode": 0,
+    "completionToolChunk": "319605"
+  },
+  "files": {
+    "src/proxy.ts": "c79ea9d797b3942b8afdff61c9af9a49b9eaac8ad0785c5a04e45610cc7ffc74",
+    "src/app/pages/route.ts": "7ed4f2e7e1a1bf8f49a40f5539f6364cbb21c608e2497e5816f06be1c3af9c36",
+    "tests/http-boundaries.test.mjs": "57f5931972b370a4f90ee358925dfb055788bbf34ab5fb3d657dde0378c98174",
+    "tests/legacy-percent-fallback.test.mjs": "b606e6ac8ffc5bd64d6b99544e26ed07a213508112710a9e8adf18486e01f2e9",
+    "tests/e2e/runtime-contracts.spec.ts": "1de9b10edf00746b521ce6670f57d681ae43d2a21a7765deabdf19be319c005d"
+  },
+  "nextConfigChangedForThisFix": false,
+  "afterHttpReceipt": "legacy-percent-after.safe.json",
+  "afterHttp": {
+    "tests": 49,
+    "passed": 49,
+    "failed": 0,
+    "exitCode": 0,
+    "buildId": "OruFAGBKnBw7jMP-nT3JJ",
+    "observedAt": "2026-10-25T11:17:46.682Z",
+    "toolChunk": "5f3898"
+  },
+  "beforeAndAfterSha256": {
+    "legacy-percent-before.safe.json": "6ba980497a53e717423c71d7ac0e0cf4d8fef107f702ba3a3ab6373dd45a70a2",
+    "legacy-percent-after.safe.json": "91abe2f62c0bd66cee5507a32e1efbe1de36f6d2f1477ff163bc811370c92b6c"
+  }
+}

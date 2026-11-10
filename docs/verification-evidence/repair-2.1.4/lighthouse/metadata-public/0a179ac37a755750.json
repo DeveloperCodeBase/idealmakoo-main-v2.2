@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/products/category/materials/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "3e47a6ec811f18e874a4212914930721317897de5d263001c55e8f17341f9d68",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "مواد دندان‌پزشکی | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "مرور مواد دندانی و لابراتواری ایده‌آل ماکو، کاربردهای معرفی‌شده، مشخصات مرجع و مسیر درخواست اطلاعات تخصصی محصول."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/products/category/materials/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/category/materials/",
+    "en": "http://127.0.0.1:3100/en/products/category/materials/",
+    "tr": "http://127.0.0.1:3100/tr/products/category/materials/",
+    "ar": "http://127.0.0.1:3100/ar/products/category/materials/",
+    "ru": "http://127.0.0.1:3100/ru/products/category/materials/",
+    "x-default": "http://127.0.0.1:3100/fa/products/category/materials/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 60
+}

@@ -1,0 +1,71 @@
+{
+  "url": "http://127.0.0.1:3100/ru/products/berelian/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "436b26acbac637cd4092a485d2e1333cae6f8e05d6741daa1db1a68b9cb45089",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Искусственные зубы Berelian | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Berelian — двухслойная акриловая структура и три цикла полимеризации для полных и частичных протезов."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/products/berelian/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/berelian/",
+    "en": "http://127.0.0.1:3100/en/products/berelian/",
+    "tr": "http://127.0.0.1:3100/tr/products/berelian/",
+    "ar": "http://127.0.0.1:3100/ar/products/berelian/",
+    "ru": "http://127.0.0.1:3100/ru/products/berelian/",
+    "x-default": "http://127.0.0.1:3100/fa/products/berelian/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Искусственные зубы Berelian",
+      "description": "Berelian — двухслойная акриловая структура и три цикла полимеризации для полных и частичных протезов.",
+      "image": "http://127.0.0.1:3100/media/official/1686482280.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "BERELIAN"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/ru/products/berelian/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 58
+}

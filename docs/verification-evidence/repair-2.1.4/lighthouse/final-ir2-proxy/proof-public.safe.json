@@ -1,0 +1,53 @@
+{
+  "format": "native-proxy-bounded-proof-safe-v1",
+  "mode": "public",
+  "startedAt": "2026-10-25T19:53:38.395Z",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "publicOrigin": "http://127.0.0.1:3100",
+  "upstreamOrigin": "http://127.0.0.1:3102",
+  "status": "failed",
+  "requestCount": 3,
+  "checks": [
+    {
+      "code": "PROOF_BUILD_ID_MATCH",
+      "passed": true
+    },
+    {
+      "code": "PROOF_RUNTIME_ENV_SCOPE",
+      "passed": true
+    },
+    {
+      "code": "PROOF_READINESS",
+      "passed": true
+    },
+    {
+      "code": "PROOF_COMPRESSION_HTTP_200",
+      "passed": true
+    },
+    {
+      "code": "PROOF_NEGOTIATED_GZIP",
+      "passed": true
+    },
+    {
+      "code": "PROOF_COMPRESSION_VARY",
+      "passed": true
+    },
+    {
+      "code": "PROOF_JSON_MIME",
+      "passed": true
+    },
+    {
+      "code": "PROOF_DECODED_RESPONSES_EQUAL",
+      "passed": false
+    }
+  ],
+  "browserStarted": false,
+  "rateLimitsReset": false,
+  "additionalBusinessRecordsCreated": false,
+  "secretValuesOrHashesExported": false,
+  "privateBodiesCookiesMfaSeedsExported": false,
+  "receivedSignals": [],
+  "interrupted": false,
+  "errorCode": "PROOF_DECODED_RESPONSES_EQUAL",
+  "finishedAt": "2026-10-25T19:53:38.460Z"
+}

@@ -1,0 +1,26 @@
+{
+  "gate": "postgres",
+  "label": "worker-final",
+  "startedAt": "2026-10-21T10:25:23.610Z",
+  "finishedAt": "2026-10-21T10:28:04.465Z",
+  "exitCode": 0,
+  "childSignal": null,
+  "spawnError": null,
+  "sourceBefore": {
+    "sha256": "7f3ce91bb62edb78824310083b185f1854fa0d98458b04dea167078a24c4155d",
+    "files": 819
+  },
+  "sourceAfter": {
+    "sha256": "7f3ce91bb62edb78824310083b185f1854fa0d98458b04dea167078a24c4155d",
+    "files": 819
+  },
+  "sourceUnchanged": true,
+  "node": "v24.19.0",
+  "counts": {
+    "tests": 513,
+    "passed": 513,
+    "failed": 0,
+    "skipped": 0,
+    "cancelled": 0
+  }
+}

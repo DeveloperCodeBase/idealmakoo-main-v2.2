@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/for/dealer/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "00e4edbda1a310006c58740410f2af1c2204b40c6a0c36ecc53313bff9b20ae3",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "الموزعون والشركاء | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "مصادر تعاون للموزعين والوكلاء: استكشاف المنتجات والوصول إلى الملفات المرجعية وتقديم طلبات التواصل أو التوزيع."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/for/dealer/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/for/dealer/",
+    "en": "http://127.0.0.1:3100/en/for/dealer/",
+    "tr": "http://127.0.0.1:3100/tr/for/dealer/",
+    "ar": "http://127.0.0.1:3100/ar/for/dealer/",
+    "ru": "http://127.0.0.1:3100/ru/for/dealer/",
+    "x-default": "http://127.0.0.1:3100/fa/for/dealer/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 78
+}

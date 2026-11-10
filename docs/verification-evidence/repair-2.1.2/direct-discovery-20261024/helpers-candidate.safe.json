@@ -1,0 +1,66 @@
+{
+  "schema": 1,
+  "kind": "candidate-protected-native-container-discovery",
+  "status": "candidate-pending-root-review-and-tests",
+  "preparedAt": "2026-10-24T11:39:12.826345+00:00",
+  "files": {
+    "deploy/service-lifecycle.py": {
+      "beforeSha256": "41c35c535a685206dbbd22322aa5c3a95ed381ca7e36214ecf721719dbb3f1e6",
+      "candidateSha256": "aae5675fcc92f74c8f5eb910a360d70913d890ee536d912113d82f5d04501ff7",
+      "bytes": 27940,
+      "diffSha256": "e44b6dc685feaf32a929a59a83cfcf3d96abce26d22da0c13f1bbb0c95708606"
+    },
+    "deploy/compose.py": {
+      "beforeSha256": "eb0fc779d736b33c1ab6b132fdd9634ec602b4c04f14c0be17001e09f298742f",
+      "candidateSha256": "27c5f7ad14d8386575f041a3755990e8aec1102e6d407d39224f56f94583f550",
+      "bytes": 12011,
+      "diffSha256": "4211c921c3586c4ecdb83d5dfd07658d63110857d013e59d8efc1f1406841873"
+    }
+  },
+  "patch": "helpers.candidate.patch",
+  "patchSha256": "2be470f6572fa140008779a2649a8c6887f4c7d77b79d93002be3de373008c31",
+  "python310AstSyntaxPassed": true,
+  "lifecycleOnlyDiscoverChanged": true,
+  "strictInspectCommandRunnerDeadlineAndHealthAstUnchanged": true,
+  "composeExistingEnvironmentPassthroughAndRunExistingPreserved": true,
+  "listContract": {
+    "command": "list-existing SERVICE...",
+    "allowedServices": [
+      "app",
+      "worker",
+      "proxy",
+      "clamav"
+    ],
+    "selectionUniqueAndNonempty": true,
+    "output": "JSONL with exactly id and service",
+    "idLength": 64,
+    "projectLabelExact": true,
+    "configHashFilter": "label presence, not nonempty-value test",
+    "singleServiceFilterExact": true,
+    "multiServiceMembershipFilteredByLifecycle": true,
+    "oneOffFilterApplied": false,
+    "selectedRowsDeduplicated": false,
+    "process": "execvpe docker container ls with existing protected environment() result",
+    "ordinaryComposePassthroughUnchanged": true
+  },
+  "limitsUnchanged": {
+    "callerSnapshotSeconds": 30,
+    "listCapSeconds": 60,
+    "inspectCapSeconds": 15,
+    "commandOutputBytes": 131072
+  },
+  "runtimeOrVmCallsPerformed": false,
+  "packagingOrDeploymentPerformed": false,
+  "testsRunByThisAgent": false,
+  "testsOwnedBy": "frontend_lighthouse",
+  "currentProductEditStatus": "Candidate only; no pass/deployment claim",
+  "candidateRevision": 2,
+  "historicalRootCompatibility": {
+    "listWrapper": "reviewed implementation sibling compose.py",
+    "selectedHistoricalRootAndEnvironmentPassedUnchanged": true,
+    "ordinaryComposeDispatchStillTargetsDeploymentRoot": true,
+    "oldPsFallbackAdded": false,
+    "supportedCaller": "scripts/update.sh new rollback_lifecycle against old rollback_dir"
+  },
+  "priorCandidatePreserved": "candidate-01-before-historical-root-dispatch"
+}

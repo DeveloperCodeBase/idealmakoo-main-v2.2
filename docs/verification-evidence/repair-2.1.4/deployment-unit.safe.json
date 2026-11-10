@@ -1,0 +1,25 @@
+{
+  "command": [
+    "python3",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-p",
+    "deployment_*_test.py"
+  ],
+  "exitCode": 0,
+  "durationSeconds": 85.854,
+  "startedAt": "2026-10-25T11:22:51Z",
+  "finishedAt": "2026-10-25T11:24:17Z",
+  "tests": 254,
+  "testDurationSeconds": 85.746,
+  "result": "OK",
+  "logSha256": "8dd2c63e96ccb08287988908e83aabc78bd4e8cb725faebe41f416873340bf9f",
+  "scope": "Deployment fixtures, actual Compose configuration parser and actual age encryption; separate from complete Docker-host acceptance.",
+  "realTools": {
+    "dockerCompose": "2.40.3",
+    "age": "1.1.1"
+  }
+}

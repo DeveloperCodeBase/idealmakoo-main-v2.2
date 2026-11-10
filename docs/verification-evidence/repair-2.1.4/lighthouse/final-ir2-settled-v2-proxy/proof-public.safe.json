@@ -1,0 +1,104 @@
+{
+  "format": "native-proxy-bounded-proof-safe-v1",
+  "mode": "public",
+  "startedAt": "2026-10-25T21:24:30.437Z",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "publicOrigin": "http://127.0.0.1:3100",
+  "upstreamOrigin": "http://127.0.0.1:3102",
+  "status": "passed",
+  "requestCount": 10,
+  "checks": [
+    {
+      "code": "PROOF_BUILD_ID_MATCH",
+      "passed": true
+    },
+    {
+      "code": "PROOF_RUNTIME_ENV_SCOPE",
+      "passed": true
+    },
+    {
+      "code": "PROOF_READINESS",
+      "passed": true
+    },
+    {
+      "code": "PROOF_COMPRESSION_HTTP_200",
+      "passed": true
+    },
+    {
+      "code": "PROOF_NEGOTIATED_GZIP",
+      "passed": true
+    },
+    {
+      "code": "PROOF_COMPRESSION_VARY",
+      "passed": true
+    },
+    {
+      "code": "PROOF_JSON_MIME",
+      "passed": true
+    },
+    {
+      "code": "PROOF_PUBLIC_SITE_CANONICAL_OBSERVED_AT",
+      "passed": true
+    },
+    {
+      "code": "PROOF_PUBLIC_SITE_STRUCTURAL_CONTENT_EQUAL_EXCEPT_OBSERVED_AT",
+      "passed": true,
+      "rawDecodedBytesEqual": false,
+      "comparisonScope": "Structural content equality excluding only validated top-level observedAt"
+    },
+    {
+      "code": "PROOF_JSON_TRANSFER_SMALLER",
+      "passed": true,
+      "identityBytes": 12598,
+      "gzipBytes": 4256,
+      "decodedBytes": 12598,
+      "httpVersion": "1.1"
+    },
+    {
+      "code": "PROOF_CANONICAL_REDIRECT_ORIGIN",
+      "passed": true
+    },
+    {
+      "code": "PROOF_PUBLIC_DOCUMENT_LANGUAGE",
+      "passed": true
+    },
+    {
+      "code": "PROOF_PUBLIC_DOCUMENT_ORIGIN",
+      "passed": true
+    },
+    {
+      "code": "PROOF_CSP_NONCE_PRESERVED",
+      "passed": true
+    },
+    {
+      "code": "PROOF_PROXY_SECURITY_HEADERS",
+      "passed": true
+    },
+    {
+      "code": "PROOF_PRIVATE_DOCUMENT_NOINDEX",
+      "passed": true
+    },
+    {
+      "code": "PROOF_ANONYMOUS_WORKSPACE_DENIED",
+      "passed": true
+    },
+    {
+      "code": "PROOF_PUBLIC_ICON_BYTE_IDENTITY",
+      "passed": true
+    },
+    {
+      "code": "PROOF_OPTIMIZER_BYTE_AND_WIDTH_IDENTITY",
+      "passed": true,
+      "decodedWidth": 480,
+      "bytes": 68950
+    }
+  ],
+  "browserStarted": false,
+  "rateLimitsReset": false,
+  "additionalBusinessRecordsCreated": false,
+  "secretValuesOrHashesExported": false,
+  "privateBodiesCookiesMfaSeedsExported": false,
+  "receivedSignals": [],
+  "interrupted": false,
+  "finishedAt": "2026-10-25T21:24:30.800Z"
+}

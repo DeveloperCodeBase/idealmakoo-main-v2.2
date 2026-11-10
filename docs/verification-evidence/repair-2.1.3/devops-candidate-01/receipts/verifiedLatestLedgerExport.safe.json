@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "kind": "collected-owned-guest-outcome",
+  "guest": "primary",
+  "job": "ledger",
+  "status": "passed",
+  "exitCode": 0,
+  "actualGuestWaitConsumed": true,
+  "startedAt": "2026-10-25T05:07:34.949105+00:00",
+  "completedAt": "2026-10-25T05:07:56.978370+00:00",
+  "elapsedSeconds": 22.033466,
+  "files": {
+    "outcome.safe.json": {
+      "bytes": 387,
+      "sha256": "5c059beb8c46ba4ccd75eb35600f437cc7c122527a027ff19fbf6bb6a81d240f",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "start.safe.json": {
+      "bytes": 376,
+      "sha256": "df98fb0e7cfb2ffeef6410d0b71f1081f64b8483a5538438601f8d68e804fc3c",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "stdout.private": {
+      "bytes": 796,
+      "sha256": "cd6ab962a3fa222a4867a82c1993f81bcd39d05c16aa6f9220451b3d565826f9",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "stderr.private.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    }
+  },
+  "result": {
+    "schema": 1,
+    "kind": "latest-signed-post-backup-privacy-ledger-snapshot",
+    "status": "passed",
+    "completedAt": "2026-10-25T05:07:56.786636+00:00",
+    "head": {
+      "format": 1,
+      "fingerprint": "ccd57c3aded2927085e5ee3d8a88aac07bc55733008f2749a1fe769e885fb6c3",
+      "sequence": 1,
+      "hash": "f26601fa50bd6e560e522dda46e1933ea8444a81826fe86acd76c8cc53d4e8c0"
+    },
+    "actualApplicationChainVerificationBeforeAndAfter": true,
+    "sourceFilesUnchangedDuringSnapshot": true,
+    "snapshotDirectory": "/root/idealmakoo-acceptance/latest-ledger-export",
+    "files": {
+      "identity.json": {
+        "bytes": 249,
+        "sha256": "7157a0812d13b35e7134d26f0e8021725294f35d99ee77ee84b904712b1dd556"
+      },
+      "erasures.jsonl": {
+        "bytes": 576,
+        "sha256": "7d3db05f97b6c94d45ffa2e09c9534da51e940355ebd08221169b2dbecdbd160"
+      }
+    },
+    "privateSigningKeyIncludedInOutput": false
+  }
+}

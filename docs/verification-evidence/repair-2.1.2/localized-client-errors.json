@@ -1,0 +1,15 @@
+{
+  "executedAt": "2026-10-23T09:45:02.759187+00:00",
+  "command": "node --test --test-isolation=none tests/api-localized-errors.test.mjs tests/api-reauthentication.test.mjs",
+  "exitCode": 0,
+  "tests": 2,
+  "passed": 2,
+  "failed": 0,
+  "scope": "HTTP client response handling, five-language error guidance, password/MFA rejection does not expire valid sessions; mocked HTTP transport, not real API endpoint or browser",
+  "source": {
+    "src/lib/api.ts": "1c0c44c35b8e0d90e8d3b56228028e602067bccdd7505b6bef59777f4fbd848c",
+    "tests/api-localized-errors.test.mjs": "a50977d3f8d93049e5f563d4bc018950e59754dff336f9b6f355ca25063bfbd2",
+    "tests/api-reauthentication.test.mjs": "58f448b3487ff37da87eec7410d52cd2794744281876768dcc0d5ae4ba5f727b"
+  },
+  "priorAttempt": "Restricted execution blocked child-process spawning (EPERM); retained separate log; not an application assertion result."
+}

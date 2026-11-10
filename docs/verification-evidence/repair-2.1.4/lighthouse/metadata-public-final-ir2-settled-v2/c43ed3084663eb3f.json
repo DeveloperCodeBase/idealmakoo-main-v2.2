@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/about/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "d51219f5f5a2336972a46b7ef2159d9b835123bf9c265439f7fa23f4302e5a7d",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "درباره ایده‌آل ماکو | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "از سال ۱۳۶۰، در مسیر تولید دندان مصنوعی و توسعه مواد دندانی در منطقه آزاد ماکو."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/about/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/about/",
+    "en": "http://127.0.0.1:3100/en/about/",
+    "tr": "http://127.0.0.1:3100/tr/about/",
+    "ar": "http://127.0.0.1:3100/ar/about/",
+    "ru": "http://127.0.0.1:3100/ru/about/",
+    "x-default": "http://127.0.0.1:3100/fa/about/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 50
+}

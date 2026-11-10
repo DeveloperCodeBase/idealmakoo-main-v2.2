@@ -1,0 +1,354 @@
+{
+  "format": "idealmakoo-final-opener-source-continuity-v1",
+  "status": "passed",
+  "recordedAt": "2026-10-25T19:01:03.216050+00:00",
+  "scope": "Read-only comparison of the completed native opener candidate to retained NWc and IUO4 source manifests; does not claim pending full-browser or Docker acceptance",
+  "nativeBuildId": "ir2DFJg8r5YdpbVQubUqF",
+  "currentApplicationInputFingerprint": "4fcec50f5846b0affccc59e43798613ba134a3f93559ea5ddba9705e1f38cc58",
+  "applicationInputCount": 833,
+  "originalArchiveChangeCount": 55,
+  "priorNativeBuildId": "NWcRPAySX3HCzbpKSDJNf",
+  "priorInputFingerprint": "e5d44f7f6dcfd162d2b60a85443025116373d3e0b28989f6be5b0ececc36534b",
+  "intermediateNativeBuildId": "IUO4lyoYpICGn_Igd7EsH",
+  "intermediateInputFingerprint": "f22b49bac26f5b59ede573dbaf6ed4cd52c738bfbe32b2d00ae9e47fe28c29ce",
+  "manifestSha256": {
+    "prior": "032e3005d4e0547de9239e625726c48d059d8d1bf6c5d3070e51b80ff116420e",
+    "intermediate": "cbcbd67f1174b14913ccd9ff14189699f8f32ff4dcd6c1031112b06df06412f9",
+    "completedNativeCandidate": "adde220aa74dc52a0420187839cb2c6d9311d44e430b4fba1c3c3b57c9ff7c80",
+    "originalVmSource": "ab39175c880b6f1de62f313e7d681c8969c5afbde6d7d6727eccc22684b0c09f"
+  },
+  "allCompletedCandidateInputsMatchCurrentFiles": true,
+  "independentSourceEnumerationMatchesManifest": true,
+  "approvedApplicationChanges": [
+    {
+      "path": "src/components/ui/Primitives.tsx",
+      "before": {
+        "sha256": "95e6e12eb6ff7411085d1affbb4e850f155d59b00e548a6c599ca596be808226",
+        "bytes": 3555
+      },
+      "after": {
+        "sha256": "4c32aedba94eeec9f9acebf6815eb2f85c6eeac1f8f3c95c412b5c9c0493398c",
+        "bytes": 3658
+      }
+    },
+    {
+      "path": "src/components/ui/dialog-runtime.ts",
+      "before": {
+        "sha256": "7928a11c28d31a10fac3ca6e811a40a7d5ed041e8f6b0937ab3992c6e2e7a1c1",
+        "bytes": 8364
+      },
+      "after": {
+        "sha256": "3d38e7863ea8cd97c380d82b9664f5e85dc5fe5e1a50427a44ad918b8c8a9069",
+        "bytes": 8789
+      }
+    },
+    {
+      "path": "src/components/workspace/LiveMonitoring.tsx",
+      "before": {
+        "sha256": "2b7c1e100407f07fe72277939e0ab0aebb262e38058de82b36e6b2b865fcea37",
+        "bytes": 18699
+      },
+      "after": {
+        "sha256": "a44835dd2812aaef34b24a7366c5d8cda66509b6f63b6470e6ac33e1a295a011",
+        "bytes": 18900
+      }
+    },
+    {
+      "path": "src/components/workspace/NotificationTemplateCenter.tsx",
+      "before": {
+        "sha256": "2d0920dc817f0e3adcff975a527a41c8e2007f50c5a98322adf63e5a26c36d0a",
+        "bytes": 29156
+      },
+      "after": {
+        "sha256": "2a0f24c8d6b959c95aaabbf5088a907e6c94aafcbd168c6f86562a571e1c1a80",
+        "bytes": 29285
+      }
+    },
+    {
+      "path": "src/components/workspace/ProductWorkspace.tsx",
+      "before": null,
+      "after": {
+        "sha256": "a2a3107ec78fc4ab7dbf3d413900d98a6d1ce1b34d3debcd33dcad9901c3c330",
+        "bytes": 355
+      }
+    },
+    {
+      "path": "src/components/workspace/StaffManagement.tsx",
+      "before": {
+        "sha256": "555b17eec689be5aa606827378391773855af546fdd7b6681dfc2749b2a45aa2",
+        "bytes": 45182
+      },
+      "after": {
+        "sha256": "ff79937ea99d1fe65f953d7b3cc851440ec8ccf1e1c0e6bb0ffcef085916d79a",
+        "bytes": 45369
+      }
+    },
+    {
+      "path": "src/components/workspace/Workspace.tsx",
+      "before": {
+        "sha256": "bb915a02ce7808ddafff3fb993e654d40827f037daca37a0dde853a33e41ede5",
+        "bytes": 28329
+      },
+      "after": {
+        "sha256": "a1456472a3924c247c9216cf4cfcfa9bf24227b992aa3b9da9d74fc795a0761a",
+        "bytes": 28249
+      }
+    },
+    {
+      "path": "src/components/workspace/ui.tsx",
+      "before": {
+        "sha256": "a37c557a93bea823011ec924111ba376265cb9d1bbff43170e5a652aa0831ce9",
+        "bytes": 2950
+      },
+      "after": {
+        "sha256": "7c8426b543f4785962fb2c2aebe369ef7713d8aa643e6488d05a400e31d06d3d",
+        "bytes": 3073
+      }
+    }
+  ],
+  "applicationDeltaFromIntermediate": [
+    {
+      "path": "src/components/ui/Primitives.tsx",
+      "before": {
+        "sha256": "95e6e12eb6ff7411085d1affbb4e850f155d59b00e548a6c599ca596be808226",
+        "bytes": 3555
+      },
+      "after": {
+        "sha256": "4c32aedba94eeec9f9acebf6815eb2f85c6eeac1f8f3c95c412b5c9c0493398c",
+        "bytes": 3658
+      }
+    },
+    {
+      "path": "src/components/ui/dialog-runtime.ts",
+      "before": {
+        "sha256": "7928a11c28d31a10fac3ca6e811a40a7d5ed041e8f6b0937ab3992c6e2e7a1c1",
+        "bytes": 8364
+      },
+      "after": {
+        "sha256": "3d38e7863ea8cd97c380d82b9664f5e85dc5fe5e1a50427a44ad918b8c8a9069",
+        "bytes": 8789
+      }
+    },
+    {
+      "path": "src/components/workspace/StaffManagement.tsx",
+      "before": {
+        "sha256": "555b17eec689be5aa606827378391773855af546fdd7b6681dfc2749b2a45aa2",
+        "bytes": 45182
+      },
+      "after": {
+        "sha256": "ff79937ea99d1fe65f953d7b3cc851440ec8ccf1e1c0e6bb0ffcef085916d79a",
+        "bytes": 45369
+      }
+    },
+    {
+      "path": "src/components/workspace/ui.tsx",
+      "before": {
+        "sha256": "a37c557a93bea823011ec924111ba376265cb9d1bbff43170e5a652aa0831ce9",
+        "bytes": 2950
+      },
+      "after": {
+        "sha256": "7c8426b543f4785962fb2c2aebe369ef7713d8aa643e6488d05a400e31d06d3d",
+        "bytes": 3073
+      }
+    }
+  ],
+  "approvedTestChanges": [
+    {
+      "path": "tests/e2e/carousel-fullscreen.spec.ts",
+      "before": {
+        "bytes": 3596,
+        "sha256": "e7b7ce1d43804ccba357bea05ee825c4908283ff7c33b19e7212a8fcd78c7a16"
+      },
+      "after": {
+        "sha256": "0872ae4bc1d8bb571127d0655f37810ef51a78eccc2ae2b63778bf04be9eefef",
+        "bytes": 4102
+      }
+    },
+    {
+      "path": "tests/e2e/communications-initial-load.spec.ts",
+      "before": null,
+      "after": {
+        "sha256": "2bfd8d952c66e1d542e7a68cf83775c369b12b740e97575940cbaa3c957c35b6",
+        "bytes": 8230
+      }
+    },
+    {
+      "path": "tests/e2e/dialog-focus.spec.ts",
+      "before": null,
+      "after": {
+        "sha256": "4e84de3c43f51d696d5f626fb9c1db38e5cfcfe63666e601a9498cbd70a6d073",
+        "bytes": 4485
+      }
+    },
+    {
+      "path": "tests/e2e/user-directory.spec.ts",
+      "before": {
+        "bytes": 9864,
+        "sha256": "b20c474bea4abd5d041e7080ee856deaf10fd4a51cd105c0e8e572c29c2476c7"
+      },
+      "after": {
+        "sha256": "3f19bcf1942d95414bbbffe1427ef9c748005f5a2d6f6647207e1fa1cd0abe47",
+        "bytes": 9914
+      }
+    },
+    {
+      "path": "tests/e2e/workspace-initial-layout.spec.ts",
+      "before": null,
+      "after": {
+        "sha256": "d6c16157ed737fd8fca57efcf5161e8ab9f669eafc7fdb8251518a158cc171f5",
+        "bytes": 10384
+      }
+    },
+    {
+      "path": "tests/staff-user-directory.test.mjs",
+      "before": {
+        "bytes": 46032,
+        "sha256": "d81774b3a0152a7871ccb842504a636fdc43a1a94b68ccc26b3a99ad28d402e1"
+      },
+      "after": {
+        "sha256": "a71cf117b2dd44d9ed0c377a5a3f076d03cc00afe7b3071bde6d84ef0ce8fb03",
+        "bytes": 46276
+      }
+    },
+    {
+      "path": "tests/workspace-route-preload.test.mjs",
+      "before": {
+        "bytes": 8909,
+        "sha256": "de17f34a67a29efce89c7d53c51456e912d2b0f649b787a8e818cfe238de6dd2"
+      },
+      "after": {
+        "sha256": "dce6eb8a325c77b2ede62e369e473b961c52522dc0c9f183a1f1d21ad622c27e",
+        "bytes": 10370
+      }
+    },
+    {
+      "path": "tests/workspace-startup.test.mjs",
+      "before": {
+        "bytes": 10063,
+        "sha256": "3ba821fb752e1daa4602c60f27775603b2cc0adff869013c29b04ce32a1245c9"
+      },
+      "after": {
+        "sha256": "8986b9cd3ea130c7d7fc6977e509f330e1bf79f9f0950df60e2cf6445dcbf523",
+        "bytes": 10096
+      }
+    }
+  ],
+  "testDeltaFromIntermediate": [
+    {
+      "path": "tests/e2e/carousel-fullscreen.spec.ts",
+      "before": {
+        "bytes": 3596,
+        "sha256": "e7b7ce1d43804ccba357bea05ee825c4908283ff7c33b19e7212a8fcd78c7a16"
+      },
+      "after": {
+        "sha256": "0872ae4bc1d8bb571127d0655f37810ef51a78eccc2ae2b63778bf04be9eefef",
+        "bytes": 4102
+      }
+    },
+    {
+      "path": "tests/e2e/dialog-focus.spec.ts",
+      "before": null,
+      "after": {
+        "sha256": "4e84de3c43f51d696d5f626fb9c1db38e5cfcfe63666e601a9498cbd70a6d073",
+        "bytes": 4485
+      }
+    },
+    {
+      "path": "tests/e2e/user-directory.spec.ts",
+      "before": {
+        "bytes": 9864,
+        "sha256": "b20c474bea4abd5d041e7080ee856deaf10fd4a51cd105c0e8e572c29c2476c7"
+      },
+      "after": {
+        "sha256": "3f19bcf1942d95414bbbffe1427ef9c748005f5a2d6f6647207e1fa1cd0abe47",
+        "bytes": 9914
+      }
+    },
+    {
+      "path": "tests/staff-user-directory.test.mjs",
+      "before": {
+        "bytes": 46032,
+        "sha256": "d81774b3a0152a7871ccb842504a636fdc43a1a94b68ccc26b3a99ad28d402e1"
+      },
+      "after": {
+        "sha256": "a71cf117b2dd44d9ed0c377a5a3f076d03cc00afe7b3071bde6d84ef0ce8fb03",
+        "bytes": 46276
+      }
+    }
+  ],
+  "priorTestFileCount": 203,
+  "intermediateTestFileCount": 205,
+  "currentFilteredTestFileCount": 206,
+  "newTestFileCount": 3,
+  "changedExistingTestFileCount": 5,
+  "excludedGeneratedTestFileCount": 23,
+  "filteredTestInventoryFingerprint": "50f2661ed83a6dee2c32696f48420ffa6a1001e8414f6f84bf6afe5e61427a40",
+  "testFilter": "Exclude generated cache directories and .pyc/.log/.tsbuildinfo files; no source test exclusion",
+  "allOtherApplicationBuildDeploymentAuditInputsUnchanged": true,
+  "unchangedSourceGroups": {
+    "server": {
+      "files": 95,
+      "allBytesAndHashesUnchanged": true
+    },
+    "api": {
+      "files": 2,
+      "allBytesAndHashesUnchanged": true
+    },
+    "worker": {
+      "files": 4,
+      "allBytesAndHashesUnchanged": true
+    },
+    "deployment": {
+      "files": 24,
+      "allBytesAndHashesUnchanged": true
+    },
+    "database": {
+      "files": 41,
+      "allBytesAndHashesUnchanged": true
+    },
+    "migrations": {
+      "files": 41,
+      "allBytesAndHashesUnchanged": true
+    },
+    "scripts": {
+      "files": 50,
+      "allBytesAndHashesUnchanged": true
+    },
+    "publicAssets": {
+      "files": 140,
+      "allBytesAndHashesUnchanged": true
+    },
+    "ci": {
+      "files": 2,
+      "allBytesAndHashesUnchanged": true
+    }
+  },
+  "buildDependencyAndRootConfigInputsUnchanged": true,
+  "unchangedRootInputCount": 15,
+  "unchangedRootInputPaths": [
+    ".dockerignore",
+    ".env.example",
+    ".gitignore",
+    "Dockerfile",
+    "compose.build-ca.yml",
+    "docker-compose.yml",
+    "next-env.d.ts",
+    "next.config.ts",
+    "package-lock.json",
+    "package.json",
+    "playwright.config.ts",
+    "postcss.config.mjs",
+    "tailwind.config.ts",
+    "tsconfig.json",
+    "vitest.config.ts"
+  ],
+  "previousContinuityReceiptPreserved": true,
+  "previousContinuityReceiptSha256": "f314d675ad395a4f57299c7b4b4447d98ed3c215f93e226d2d193199e9610205",
+  "operations01Through16HashesStillMatch": true,
+  "operationsIndexSha256": "c08361982fbbb02d04fe0eb4ec71d2908ff2b38c69f8e61df39011a177d05925",
+  "projectAuthoritativeManifestNotModified": true,
+  "noDatabaseEnvironmentServiceVmOrSourceMutation": true,
+  "sourceStagingPerformed": false,
+  "browserAcceptanceClaimed": false,
+  "dockerAcceptanceClaimed": false
+}

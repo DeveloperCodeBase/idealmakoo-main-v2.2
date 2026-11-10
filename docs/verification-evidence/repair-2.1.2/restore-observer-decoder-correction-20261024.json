@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "kind": "existing-log-decoder-schema-correction",
+  "preparedAt": "2026-10-24T09:31:20.250523+00:00",
+  "priorSha256": "7c845fd161f42d102fbf4b0b8622dd42b6433de10e29fad05cb1ace703ed2b16",
+  "correctedSha256": "b3903184f22cfce6f1778f1abd403348b705a0490db2cff8a8ab2a7a9fc2ccf5",
+  "reason": "Shipped lifecycle JSON uses operation/code/exitCode, without a status field; recognize that existing schema in the file-only observer.",
+  "oldPhaseMarkersUnaffected": true,
+  "priorEmptyLifecycleErrorsNotAuthoritative": true,
+  "runningRestoreChanged": false,
+  "productEdited": false
+}

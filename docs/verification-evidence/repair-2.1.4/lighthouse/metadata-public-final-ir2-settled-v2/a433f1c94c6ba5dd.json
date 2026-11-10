@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/verify-product/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "36f8c9103862db7e4cccaa777d7cbcaf02425387395b41d2e78157761d11499d",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "بررسی سری ساخت | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "استعلام دقیق سریال یا سری‌ساخت از دفتر ثبت کارخانه، همراه با وضعیت ثبت‌شده و مسیر ارتباط با پشتیبانی."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/verify-product/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/verify-product/",
+    "en": "http://127.0.0.1:3100/en/verify-product/",
+    "tr": "http://127.0.0.1:3100/tr/verify-product/",
+    "ar": "http://127.0.0.1:3100/ar/verify-product/",
+    "ru": "http://127.0.0.1:3100/ru/verify-product/",
+    "x-default": "http://127.0.0.1:3100/fa/verify-product/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 54
+}

@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "kind": "actual-populated-http-mutation-acceptance",
+  "status": "passed",
+  "job": "api-mutate-01",
+  "startedAt": "2026-10-24T10:54:51.886628+00:00",
+  "completedAt": "2026-10-24T10:56:44.448116+00:00",
+  "actualExitCode": 0,
+  "actualChildWaitConsumed": true,
+  "launcherWaiterSessionId": 89653,
+  "launcherWaitConsumed": true,
+  "observerWaiterSessionId": 20471,
+  "observerWaitConsumed": true,
+  "collectionWaiterSessionId": 75121,
+  "collectionWaitConsumed": true,
+  "completedAssertions": [
+    "editable source page saved",
+    "disposable customer has no privacy blockers",
+    "actual privacy erasure completed",
+    "disabled staff session rejected",
+    "erased customer session rejected"
+  ],
+  "assertionCount": 5,
+  "seedFixtureOutputSha256": "8072c8bbfe87d918718f22c0947ad404a937d046b47e3eecb8ef8d020aee5608",
+  "mutationOutput": {
+    "bytes": 4413,
+    "sha256": "16d119b682a3ee88b5a1dd869032e5699849b8e4957d9b251471d39a3ae75a9b",
+    "included": false
+  },
+  "preBackupCookieJarsPreservedExactly": true,
+  "ownedFixtureIdsAndMfaSecretsUnchanged": true,
+  "credentialResetOrSqlFixturePerformed": false,
+  "driverSha256": "ea1a687f7706df4afa16988884c03bd16cbdfb82812e6ccca2b84073f40be09b",
+  "launcherSha256": "bde8e85f6fe397e32ef8e6dcd88abdc6904ec15e6dbef57f01a7c591fd6ee897",
+  "selectedPopulatedArchiveSha256": "7e9714fc3c758038c875b4d0276ac0c54b941ee2986e00efbf792674b7c428ed",
+  "sourceZipSha256": "1b2dd59c60a97bd1c113f6fdf7faaa330d6ca3157ccf3187b94f37eb4cecb806",
+  "runtimeImageId": "sha256:4974f775daabed633a6767bc5d8dc4f85b739dbd35c2fbe74695aef87a3fdd94",
+  "initialAutomaticReviewRejectionPreserved": true,
+  "readOnlyDisposableScopeProofSha256": "85651fb1e45df759217a94bc42d36894af9cb9a28491579e080800b5f9efdc60",
+  "sameActionAcceptedOnReassessment": true,
+  "automaticActionRetryOrIndirectBypass": false,
+  "reportedAt": "2026-10-24T10:58:33.621939+00:00"
+}

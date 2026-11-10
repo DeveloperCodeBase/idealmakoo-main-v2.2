@@ -1,0 +1,107 @@
+{
+  "format": "idealmakoo.reconstructed-native-gates",
+  "recordedAt": "2026-10-22T04:46:18.984039+00:00",
+  "acceptance": "partial-checkpoint",
+  "browserAcceptancePending": true,
+  "fullLighthousePending": true,
+  "originalDockerFreshRecoveryPending": true,
+  "records": {
+    "unit": {
+      "statusSha256": "df750ee6356825af895289ac822d7418816563592bcd17516e97707ee8dcd96b",
+      "result": {
+        "gate": "unit",
+        "label": "reconstructed-01",
+        "startedAt": "2026-10-22T04:42:23.427Z",
+        "finishedAt": "2026-10-22T04:42:52.664Z",
+        "exitCode": 0,
+        "childSignal": null,
+        "spawnError": null,
+        "sourceBefore": {
+          "sha256": "79d34c8326f3adc5eb28834a588bac6a76e08bdd9f1c8f67de96c2480982dfa5",
+          "files": 831
+        },
+        "sourceAfter": {
+          "sha256": "79d34c8326f3adc5eb28834a588bac6a76e08bdd9f1c8f67de96c2480982dfa5",
+          "files": 831
+        },
+        "sourceUnchanged": true,
+        "node": "v24.19.0",
+        "counts": {
+          "tests": 746,
+          "passed": 746,
+          "failed": 0,
+          "skipped": 0,
+          "cancelled": 0
+        }
+      }
+    },
+    "typecheck": {
+      "statusSha256": "a27a6762b2c5d2da7436c7f59fb24c3abd5bd32557ac0e45a3ece2efc434e497",
+      "result": {
+        "gate": "typecheck",
+        "label": "reconstructed-01",
+        "startedAt": "2026-10-22T04:42:24.899Z",
+        "finishedAt": "2026-10-22T04:42:49.619Z",
+        "exitCode": 0,
+        "childSignal": null,
+        "spawnError": null,
+        "sourceBefore": {
+          "sha256": "79d34c8326f3adc5eb28834a588bac6a76e08bdd9f1c8f67de96c2480982dfa5",
+          "files": 831
+        },
+        "sourceAfter": {
+          "sha256": "79d34c8326f3adc5eb28834a588bac6a76e08bdd9f1c8f67de96c2480982dfa5",
+          "files": 831
+        },
+        "sourceUnchanged": true,
+        "node": "v24.19.0"
+      }
+    },
+    "build": {
+      "statusSha256": "95c84fc65a21d52412281412f3358bfbe6dd26c5c13e144584d3d6d09b4238d8",
+      "result": {
+        "gate": "build",
+        "label": "reconstructed-01",
+        "startedAt": "2026-10-22T04:43:18.039Z",
+        "finishedAt": "2026-10-22T04:44:41.103Z",
+        "exitCode": 0,
+        "childSignal": null,
+        "spawnError": null,
+        "sourceBefore": {
+          "sha256": "79d34c8326f3adc5eb28834a588bac6a76e08bdd9f1c8f67de96c2480982dfa5",
+          "files": 831
+        },
+        "sourceAfter": {
+          "sha256": "79d34c8326f3adc5eb28834a588bac6a76e08bdd9f1c8f67de96c2480982dfa5",
+          "files": 831
+        },
+        "sourceUnchanged": true,
+        "node": "v24.19.0"
+      }
+    },
+    "application": {
+      "recordedAt": "2026-10-22T04:45:09.321Z",
+      "buildId": "1Io4YrNqAiisakP9Wn5ba",
+      "standaloneId": "1Io4YrNqAiisakP9Wn5ba",
+      "buildExitCode": 0,
+      "buildStartedAt": "2026-10-22T04:43:18.039Z",
+      "buildFinishedAt": "2026-10-22T04:44:41.103Z",
+      "applicationHash": "048a901cbebf94e9e4b367bab87e5fd91f68860ca7c64f32539852e66061140e",
+      "fileCount": 685,
+      "gateSource": {
+        "sha256": "79d34c8326f3adc5eb28834a588bac6a76e08bdd9f1c8f67de96c2480982dfa5",
+        "files": 831
+      },
+      "includesPostcssConfig": true
+    },
+    "knownBuildSecrets": {
+      "recordedAt": "2026-10-22T04:45:10.025Z",
+      "buildId": "1Io4YrNqAiisakP9Wn5ba",
+      "filesScanned": 3081,
+      "bytesScanned": 172639633,
+      "privateValuesChecked": 5,
+      "findings": [],
+      "note": "Scans for exact nonempty secrets supplied to this local build; not a general proof that no possible secret exists."
+    }
+  }
+}

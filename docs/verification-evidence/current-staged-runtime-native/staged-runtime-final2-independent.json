@@ -1,0 +1,245 @@
+{
+  "format": "idealmakoo.staged-runtime-gates-independent-review",
+  "version": 1,
+  "startedAt": "2026-10-20T23:53:30.857Z",
+  "reviewedAt": "2026-10-20T23:53:33.046Z",
+  "pass": true,
+  "scope": "Independent file-only review of completed staged-runtime-final2 raw logs, status, exact input manifests and current source. No command under test, build, runtime, Docker daemon, browser or VM was executed by this reviewer.",
+  "application": {
+    "sha256": "36eb4aa33a1b192622c4a9e500b00c86348524d3e49813af951db6830dde9338",
+    "files": 668,
+    "currentEntriesExactlyMatchBothUnitManifests": true,
+    "manifests": [
+      {
+        "file": "unit-staged-runtime-final2-application-before.json",
+        "bytes": 115513,
+        "sha256": "32de450803d5510d601232988ca4a4bbb63f808e350f50246aa62fe0dc5c8a2e"
+      },
+      {
+        "file": "unit-staged-runtime-final2-application-after.json",
+        "bytes": 115513,
+        "sha256": "32de450803d5510d601232988ca4a4bbb63f808e350f50246aa62fe0dc5c8a2e"
+      }
+    ]
+  },
+  "runtimeSource": {
+    "algorithm": "sha256",
+    "scope": "runtime-v1",
+    "sha256": "5a7cf154d82fda53a5ac5314e12ec397982b6fa67ea9ad2d465b1465ba939c3f",
+    "fileCount": 778,
+    "byteCount": 49093485,
+    "entrypoints": []
+  },
+  "retainedBuild": {
+    "buildId": "OWySC3_X3kR5uD-ExxkAJ",
+    "standaloneBuildId": "OWySC3_X3kR5uD-ExxkAJ"
+  },
+  "sourceTransition": {
+    "file": "staged-runtime-source-transition-v2.json",
+    "bytes": 6398,
+    "sha256": "dc59f3fa74a04ccb705d68ee7612fffda4ae77c36df1a3203f486b36dfec469d"
+  },
+  "continuityProof": {
+    "file": "native-staged-runtime-carry-forward.json",
+    "bytes": 27583,
+    "sha256": "7a0201bea07790403f9a720fbd50b38e4ab6c109a1a08f632d3a251803e2c7dd"
+  },
+  "unit": {
+    "label": "staged-runtime-final2",
+    "startedAt": "2026-10-20T23:41:36.490Z",
+    "finishedAt": "2026-10-20T23:42:07.318Z",
+    "exitCode": 0,
+    "counts": {
+      "tests": 566,
+      "pass": 566,
+      "fail": 0,
+      "cancelled": 0,
+      "skipped": 0,
+      "todo": 0
+    },
+    "actualPassedCaseLines": 566,
+    "caseNamesSha256": "79709a18b1194d9bbd952c458b0083bedbca4ce3e28d55a6e37322bf795076ff",
+    "status": {
+      "file": "unit-staged-runtime-final2-status.json",
+      "bytes": 7588,
+      "sha256": "4fb3588f9e9260a813a1eb03d634195828c16504dacf8770019266f21761a6e5"
+    },
+    "rawLogHashOnly": {
+      "file": "unit-staged-runtime-final2.log",
+      "bytes": 63572,
+      "sha256": "74e68bc3d1c514c1d504c193a124e8773037517f87878deaa382d65ec39b06d2"
+    },
+    "testInputs": {
+      "algorithm": "sha256",
+      "scope": "test-inputs-unit-v1",
+      "sha256": "daacc89a2bf5b8fd3f442dc09e03e2ab24021eb378421659ed04f8fe7aa8387d",
+      "fileCount": 91,
+      "byteCount": 820042,
+      "entrypoints": [
+        "tests/acceptance-auth-budget.test.mjs",
+        "tests/account-startup.test.mjs",
+        "tests/account.test.mjs",
+        "tests/ai-gateway.test.mjs",
+        "tests/api-reauthentication.test.mjs",
+        "tests/app-provider-request-races.test.mjs",
+        "tests/audit-streamed-html.test.mjs",
+        "tests/auth-page-lifecycle.test.mjs",
+        "tests/avatar.test.mjs",
+        "tests/carousel-gesture.test.mjs",
+        "tests/carousel.test.mjs",
+        "tests/catalog.test.mjs",
+        "tests/content-ai-translation.test.mjs",
+        "tests/content-collaboration-runtime.test.mjs",
+        "tests/content-editor-identity.test.mjs",
+        "tests/crm-tools.test.mjs",
+        "tests/custom-products.test.mjs",
+        "tests/customer-permissions.test.mjs",
+        "tests/dam-client.test.mjs",
+        "tests/display-preferences.test.mjs",
+        "tests/editor-concurrency.test.mjs",
+        "tests/editor-workflows.test.mjs",
+        "tests/editorial-csp.test.mjs",
+        "tests/editorial-settings.test.mjs",
+        "tests/event-slot-picker.test.mjs",
+        "tests/experience.test.mjs",
+        "tests/form-schema.test.mjs",
+        "tests/frontend-payload-boundaries.test.mjs",
+        "tests/frontend-state.test.mjs",
+        "tests/http-boundaries.test.mjs",
+        "tests/lighthouse-attempts.test.mjs",
+        "tests/locale-actions.test.mjs",
+        "tests/locale-routing.test.mjs",
+        "tests/molar-preparation.test.mjs",
+        "tests/navigation-scroll.test.mjs",
+        "tests/operator-copy.test.mjs",
+        "tests/page-lifecycle-ui.test.mjs",
+        "tests/page-translation.test.mjs",
+        "tests/password-hashing.test.mjs",
+        "tests/personal-routes.test.mjs",
+        "tests/private-audit-policy.test.mjs",
+        "tests/private-audit-session.test.mjs",
+        "tests/private-device-runtime.test.mjs",
+        "tests/private-lighthouse-export.test.mjs",
+        "tests/product-editor.test.mjs",
+        "tests/product-publication.test.mjs",
+        "tests/product-release.test.mjs",
+        "tests/product-translation.test.mjs",
+        "tests/production-frontend-contracts.test.mjs",
+        "tests/public-hydration.test.mjs",
+        "tests/public-import-boundaries.test.mjs",
+        "tests/public-route-entries.test.mjs",
+        "tests/public-routing.test.mjs",
+        "tests/public-surface.test.mjs",
+        "tests/pwa-policy.test.mjs",
+        "tests/reference-documents.test.mjs",
+        "tests/scene-preparation.test.mjs",
+        "tests/service-worker-classic.test.mjs",
+        "tests/site-content-control.test.mjs",
+        "tests/site-preferences.test.mjs",
+        "tests/source-download.test.mjs",
+        "tests/source-language-render.test.mjs",
+        "tests/source-template-render.test.mjs",
+        "tests/storage-policy-form.test.mjs",
+        "tests/studio-ai.test.mjs",
+        "tests/upload-policy.test.mjs",
+        "tests/user-settings.test.mjs",
+        "tests/workspace-permissions.test.mjs",
+        "tests/workspace-route-preload.test.mjs",
+        "tests/workspace-startup.test.mjs",
+        "tests/workspace.test.mjs"
+      ]
+    }
+  },
+  "devops": {
+    "label": "staged-runtime-final2",
+    "startedAt": "2026-10-20T23:41:32.993579+00:00",
+    "finishedAt": "2026-10-20T23:42:13.292224+00:00",
+    "exitCode": 0,
+    "status": {
+      "file": "devops-staged-runtime-final2-status.json",
+      "bytes": 4189,
+      "sha256": "ee377f4f728071de071db99fbb1bdf35e1a2f22d92668b6e7ccbea2f1c5f1d41"
+    },
+    "source": {
+      "files": 795,
+      "sha256": "2ab356a36b1c3c0f17e9e3ff0523c278e64d85489fe363e77afa974f23613b0b",
+      "manifests": [
+        {
+          "file": "devops-staged-runtime-final2-inputs-before.json",
+          "bytes": 136544,
+          "sha256": "04330a8b0fab92396586a6c520ddf1d8bee611b6329f912a3fb729dccea50fbb"
+        },
+        {
+          "file": "devops-staged-runtime-final2-inputs-after.json",
+          "bytes": 136544,
+          "sha256": "04330a8b0fab92396586a6c520ddf1d8bee611b6329f912a3fb729dccea50fbb"
+        }
+      ],
+      "completeScopeAndCurrentBytesVerified": true
+    },
+    "python": {
+      "passed": 150,
+      "failed": 0,
+      "skipped": 0,
+      "actualPassedCaseLines": 150,
+      "caseIdentitiesSha256": "8a800728c28c54058487cf84145183d4b1bd2488c09b35ed018d208a83c817d4",
+      "reportedSeconds": 36.305,
+      "exitCode": 0,
+      "rawLogHashOnly": {
+        "file": "devops-staged-runtime-final2-python.log",
+        "bytes": 29114,
+        "sha256": "013fbe7dd50a6c696a97262bd3f8f681379e2784f597eca28d853461b78f33a9"
+      }
+    },
+    "shellcheck": {
+      "files": 14,
+      "exitCode": 0,
+      "emptyDiagnosticLog": true,
+      "rawLogHashOnly": {
+        "file": "devops-staged-runtime-final2-shellcheck.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    "compose": {
+      "realParserExecuted": true,
+      "selections": 3,
+      "output": {
+        "file": "devops-staged-runtime-final2-compose-health.json",
+        "bytes": 1653,
+        "sha256": "ca34bd42fb0d90ee494e9b21b2e4db5c9446fe1021fc3c6a9b9bc6961efaca9c"
+      },
+      "healthCommandsAndRuntimeEnvBoundaryUnchanged": true
+    },
+    "runner": {
+      "file": "tools/run-devops-source-gates-staged-runtime-final2.py",
+      "bytes": 8554,
+      "sha256": "c5f6424dacefd6fb2ff63109cac4735e6fb026c158d26b899e419635a1032fc3"
+    },
+    "actualVmAcceptance": false,
+    "boundary": "Real age cryptography, actual Compose parser, source/filesystem tests and owned subprocess fixtures. Docker and database lifecycle in source fixtures is simulated; real installation and recovery remain pending."
+  },
+  "preservedPriorFailure": {
+    "status": {
+      "file": "devops-staged-runtime-final-status.json",
+      "bytes": 3928,
+      "sha256": "c5112932d9288d66bf1b8cd444d94814df845f44c522e2c2e182d54f1df9151d"
+    },
+    "rawLogHashOnly": {
+      "file": "devops-staged-runtime-final-shellcheck.log",
+      "bytes": 260,
+      "sha256": "8c84faff2cab50267f0fbcec8e859e71a67ca2370d743d20b51a1eaca8d018b9"
+    },
+    "pythonPassed": 150,
+    "error": "SHELLCHECK_FAILED",
+    "diagnostic": "SC2329",
+    "notAUnitOrPythonFailure": true
+  },
+  "allInputsStableBeforeAndAfter": true,
+  "reviewerExecutedNoGates": true,
+  "priorPgApiBrowserBuildRunsNotRerun": true,
+  "ubuntuAcceptance": false,
+  "lighthouseAcceptance": false,
+  "releaseAcceptance": false,
+  "helperSha256": "7230188891f525443b72b1a32d8264534b3cde34e771a530146fe60a18edb4ee"
+}

@@ -1,0 +1,10 @@
+{
+  "format": "native-post-private-browser-workload-observation-v1",
+  "checkedAt": "2026-10-25T22:35:47.718113+00:00",
+  "nativePidNamespace": "pid:[4026532200]",
+  "matchingInstalledAuditChromeProcesses": 0,
+  "qemuProcessesObserved": 0,
+  "otherProcessExePermissionDenials": 8,
+  "readOnly": true,
+  "processIdsArgumentsEnvironmentNotExported": true
+}

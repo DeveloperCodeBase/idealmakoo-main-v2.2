@@ -1,0 +1,419 @@
+{
+  "schema": 1,
+  "kind": "bounded-read-only-diagnosis-from-closed-public-lighthouse-reports",
+  "createdAt": "2026-10-25T09:43:51.039957+00:00",
+  "scope": {
+    "targetReports": 2,
+    "comparisonReports": 1,
+    "newMeasurements": 0,
+    "productChanges": 0,
+    "vmServiceBrowserTestOrBuildStarted": false,
+    "activeOrPrivateReportsRead": false
+  },
+  "auditConfiguration": {
+    "lighthouseVersion": "13.5.0",
+    "formFactor": "mobile",
+    "viewportCssPixels": {
+      "width": 412,
+      "height": 823
+    },
+    "throttlingMethod": "simulate",
+    "cpuSlowdownMultiplier": 4,
+    "rttMs": 150,
+    "throughputKbps": 1638.4
+  },
+  "pages": [
+    {
+      "page": "research",
+      "url": "http://127.0.0.1:3096/ar/research/",
+      "role": "target",
+      "finishedAt": "2026-10-25T09:20:54.486Z",
+      "resultPath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/frontend/candidate02-audit-checkpoints/final-debounce/public-mobile/973bc2022c32be61.attempt-1.result.json",
+      "resultSha256": "fc2a00117e42f5ecd2d257bcfc417df6cce65158e96dc1b833a13b6c5ffeee8c",
+      "lhrPath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/frontend/candidate02-audit-checkpoints/final-debounce/public-mobile/973bc2022c32be61.attempt-1.lhr.json",
+      "lhrSha256": "5b4a8ca69431b81b9390067322c3218c676ce377fd256e701c6fb77dfdfe7052",
+      "scores": {
+        "performance": 41,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "modeledMetrics": {
+        "first-contentful-paint": 1533.0794999999998,
+        "largest-contentful-paint": 9699.27825,
+        "speed-index": 5216.84482390312,
+        "total-blocking-time": 2873.96025,
+        "cumulative-layout-shift": 0.02501750428370937,
+        "interactive": 10296.260675
+      },
+      "observedMetrics": {
+        "observedFirstContentfulPaint": 1626,
+        "observedLargestContentfulPaint": 2402,
+        "observedLoad": 617
+      },
+      "separateObservedTbtAvailable": false,
+      "observedTotalTaskTimeMs": 1596.617999999994,
+      "largestObservedMainThreadTaskMs": 826.778,
+      "largestModeledLongTask": {
+        "url": "Unattributable",
+        "duration": 3307,
+        "startTime": 908.03975
+      },
+      "mainthreadAuditTotalMs": 6386.47199999989,
+      "transferBytes": 2030943,
+      "transferByType": {
+        "Document": {
+          "requests": 1,
+          "transferBytes": 21937
+        },
+        "Stylesheet": {
+          "requests": 10,
+          "transferBytes": 62047
+        },
+        "Image": {
+          "requests": 14,
+          "transferBytes": 1269620
+        },
+        "Script": {
+          "requests": 13,
+          "transferBytes": 465550
+        },
+        "Font": {
+          "requests": 1,
+          "transferBytes": 129143
+        },
+        "Manifest": {
+          "requests": 1,
+          "transferBytes": 1153
+        },
+        "Other": {
+          "requests": 2,
+          "transferBytes": 69382
+        },
+        "Fetch": {
+          "requests": 7,
+          "transferBytes": 12111
+        }
+      },
+      "rootDocumentResponseMs": 33,
+      "benchmarkIndex": 2436,
+      "observedLcpSubpartsMs": {
+        "timeToFirstByte": 36.8719999961853,
+        "resourceLoadDelay": 94.79200000381469,
+        "resourceLoadDuration": 358.535,
+        "elementRenderDelay": 1911.343
+      },
+      "lcpSelector": "article.gc-card > button.gc-card-button > span.gc-poster > img",
+      "lcpFinalRect": {
+        "top": 565,
+        "bottom": 781,
+        "left": 93,
+        "right": 319,
+        "width": 227,
+        "height": 216
+      },
+      "lcpLoadingLazy": true,
+      "lcpFetchPriorityHigh": false,
+      "lcpDiscoveryEstimatedMetricSavings": {
+        "LCP": 0
+      },
+      "runWarnings": []
+    },
+    {
+      "page": "resources",
+      "url": "http://127.0.0.1:3096/ar/resources/",
+      "role": "target",
+      "finishedAt": "2026-10-25T09:23:44.792Z",
+      "resultPath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/frontend/candidate02-audit-checkpoints/final-debounce/public-mobile/65f1474ffc28fa95.attempt-1.result.json",
+      "resultSha256": "27c8067c58b33565092e72dd3c35d7feb3cc39246016182e7f7f7b358b282e95",
+      "lhrPath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/frontend/candidate02-audit-checkpoints/final-debounce/public-mobile/65f1474ffc28fa95.attempt-1.lhr.json",
+      "lhrSha256": "e840571f8ed1eb41cd42fd06adaaeb537343e28a74f651c91b3e4c680328afe5",
+      "scores": {
+        "performance": 42,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "modeledMetrics": {
+        "first-contentful-paint": 1520.505,
+        "largest-contentful-paint": 6665.85,
+        "speed-index": 3657.340965944453,
+        "total-blocking-time": 1772.83,
+        "cumulative-layout-shift": 0.1444717792701184,
+        "interactive": 6724.5340000000015
+      },
+      "observedMetrics": {
+        "observedFirstContentfulPaint": 1516,
+        "observedLargestContentfulPaint": 1964,
+        "observedLoad": 346
+      },
+      "separateObservedTbtAvailable": false,
+      "observedTotalTaskTimeMs": 1049.2219999999904,
+      "largestObservedMainThreadTaskMs": 509.796,
+      "largestModeledLongTask": {
+        "url": "Unattributable",
+        "duration": 2039,
+        "startTime": 1058.835
+      },
+      "mainthreadAuditTotalMs": 4196.887999999973,
+      "transferBytes": 952115,
+      "transferByType": {
+        "Document": {
+          "requests": 1,
+          "transferBytes": 24295
+        },
+        "Stylesheet": {
+          "requests": 11,
+          "transferBytes": 63888
+        },
+        "Image": {
+          "requests": 13,
+          "transferBytes": 179526
+        },
+        "Script": {
+          "requests": 14,
+          "transferBytes": 470548
+        },
+        "Font": {
+          "requests": 1,
+          "transferBytes": 129143
+        },
+        "Manifest": {
+          "requests": 1,
+          "transferBytes": 1153
+        },
+        "Other": {
+          "requests": 2,
+          "transferBytes": 69382
+        },
+        "Fetch": {
+          "requests": 9,
+          "transferBytes": 14180
+        }
+      },
+      "rootDocumentResponseMs": 39,
+      "benchmarkIndex": 2507,
+      "observedLcpSubpartsMs": {
+        "timeToFirstByte": 43.206,
+        "resourceLoadDelay": 132.247,
+        "resourceLoadDuration": 20.766,
+        "elementRenderDelay": 1767.368
+      },
+      "lcpSelector": "div.reference-document-grid > article.glass > a.reference-document-cover > img",
+      "lcpFinalRect": {
+        "top": 1059,
+        "bottom": 1222,
+        "left": 268,
+        "right": 379,
+        "width": 111,
+        "height": 163
+      },
+      "lcpLoadingLazy": true,
+      "lcpFetchPriorityHigh": false,
+      "lcpDiscoveryEstimatedMetricSavings": {
+        "LCP": 0
+      },
+      "runWarnings": []
+    },
+    {
+      "page": "about",
+      "url": "http://127.0.0.1:3096/ar/about/",
+      "role": "comparison",
+      "finishedAt": "2026-10-25T09:08:08.692Z",
+      "resultPath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/frontend/candidate02-audit-checkpoints/final-debounce/public-mobile/30a1127a620555fc.attempt-1.result.json",
+      "resultSha256": "13ec032b8a7d2990a587e0f147008da6e629f37a16d3db5103e9a1419d4016bc",
+      "lhrPath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/frontend/candidate02-audit-checkpoints/final-debounce/public-mobile/30a1127a620555fc.attempt-1.lhr.json",
+      "lhrSha256": "a3ff8d12f077370c282826df9a764ab568cb934f7edda354b62350edecb7d0ad",
+      "scores": {
+        "performance": 53,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "modeledMetrics": {
+        "first-contentful-paint": 1515.9569000000001,
+        "largest-contentful-paint": 6355.84915,
+        "speed-index": 2397.7226040006376,
+        "total-blocking-time": 1199.52155,
+        "cumulative-layout-shift": 0,
+        "interactive": 6385.887297500001
+      },
+      "observedMetrics": {
+        "observedFirstContentfulPaint": 1221,
+        "observedLargestContentfulPaint": 1221,
+        "observedLoad": 323
+      },
+      "separateObservedTbtAvailable": false,
+      "observedTotalTaskTimeMs": 778.1729999999993,
+      "largestObservedMainThreadTaskMs": 402.333,
+      "largestModeledLongTask": {
+        "url": "Unattributable",
+        "duration": 1609,
+        "startTime": 949.97845
+      },
+      "mainthreadAuditTotalMs": 3112.692000000001,
+      "transferBytes": 830074,
+      "transferByType": {
+        "Document": {
+          "requests": 1,
+          "transferBytes": 18074
+        },
+        "Stylesheet": {
+          "requests": 10,
+          "transferBytes": 62830
+        },
+        "Image": {
+          "requests": 4,
+          "transferBytes": 41102
+        },
+        "Script": {
+          "requests": 16,
+          "transferBytes": 486330
+        },
+        "Font": {
+          "requests": 1,
+          "transferBytes": 129143
+        },
+        "Manifest": {
+          "requests": 1,
+          "transferBytes": 1153
+        },
+        "Other": {
+          "requests": 2,
+          "transferBytes": 69382
+        },
+        "Fetch": {
+          "requests": 15,
+          "transferBytes": 22060
+        }
+      },
+      "rootDocumentResponseMs": 45,
+      "benchmarkIndex": 2517.5,
+      "observedLcpSubpartsMs": {
+        "timeToFirstByte": 49.3419999961853,
+        "resourceLoadDelay": 54.9420000038147,
+        "resourceLoadDuration": 15.66,
+        "elementRenderDelay": 1101.424
+      },
+      "lcpSelector": "section.container > div.content-company-lead > div.glass > img",
+      "lcpFinalRect": {
+        "top": 505,
+        "bottom": 805,
+        "left": 21,
+        "right": 391,
+        "width": 370,
+        "height": 300
+      },
+      "lcpLoadingLazy": false,
+      "lcpFetchPriorityHigh": true,
+      "lcpDiscoveryEstimatedMetricSavings": {
+        "LCP": 0
+      },
+      "runWarnings": []
+    }
+  ],
+  "findings": [
+    {
+      "id": "research-visible-lcp-lazy",
+      "classification": "confirmed loading configuration concern; no positive gain quantified",
+      "evidence": "The initial selected carousel poster is the LCP node at y565\u2013781 in the 823px mobile viewport. Poster always applies loading=lazy and does not set high fetch priority. Its closed LCP-discovery insight estimates LCP savings of zero; observed render delay is much larger than request delay.",
+      "notClaimed": "Changing priority alone will fix the low performance score."
+    },
+    {
+      "id": "research-two-widths",
+      "classification": "distinct intended rendered slots; not established as accidental duplicate fetch",
+      "evidence": "ResearchCenter renders both carousel and article-card grid. Carousel Poster uses 58vw; card ImageFallback delegates to PublicImage default92vw, producing different source widths. No speculative sizes change or visual removal proposed."
+    },
+    {
+      "id": "resources-loading-shell",
+      "classification": "concrete unstable geometry; exact measured-shift attribution remains an inference",
+      "evidence": "ControlledResources is immediately before ReferenceDocumentCards. It starts as a single loading paragraph while sessionReady=false, then mounts a full panel/header and later search/empty state without reserved geometry. The sole LHR shift0.1444717792701184 affects the following reference-documents section. The closed LHR identifies the shifted node, not the mutating stack.",
+      "notClaimed": "A measured CLS improvement or complete causal proof without a changed-run measurement."
+    },
+    {
+      "id": "dominant-mainthread-cost",
+      "classification": "observed client cost with unresolved source attribution",
+      "evidence": "Research/resources largest raw main-thread tasks are826.778/509.796ms; modeled long tasks3307/2039ms are Unattributable. About already uses eager/high-priority LCP yet still models LCP6355.84915ms/TBT1199.52155ms. No single avoidable application function is established by these LHRs.",
+      "notClaimed": "The low scores are invalid, caused solely by the host, or removable by a narrow image change."
+    }
+  ],
+  "sourceReferences": [
+    {
+      "path": "/workspace/scratch/6682bce41bc7/work/idealmakoo-production-2.1.2/src/components/site/Carousel.tsx",
+      "lines": [
+        29,
+        38,
+        188,
+        203,
+        207
+      ],
+      "sha256": "2ddac96be077f5bb40b772f985ffb55067c1954e7f573f223083c0b320ce102a"
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/work/idealmakoo-production-2.1.2/src/components/content/ResearchCenter.tsx",
+      "lines": [
+        36,
+        44,
+        45
+      ],
+      "sha256": "dcc59f091fc652b061c667f6eccca54c143fbe4c6b58217e0ef5f43279dc5827"
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/work/idealmakoo-production-2.1.2/src/components/ui/PublicImage.tsx",
+      "lines": [
+        14,
+        17
+      ],
+      "sha256": "e93bbacc808309018928d687fb273dffd8de297f96a85fe8c7fa7b7c0b8bbd66"
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/work/idealmakoo-production-2.1.2/src/components/content/ResourceCenter.tsx",
+      "lines": [
+        55
+      ],
+      "sha256": "f594ae8a7e1c6c11510dfcd8f26823d7f011a5b9d7b78942ed1fe1e83173f725"
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/work/idealmakoo-production-2.1.2/src/components/resources/ControlledResources.tsx",
+      "lines": [
+        14,
+        19,
+        22,
+        28,
+        31,
+        32,
+        33
+      ],
+      "sha256": "669c22b88a5ec573100b5ad68d9fa6b9a97d2c9a206b5a32e935a77fa6343ccf"
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/work/idealmakoo-production-2.1.2/src/components/providers/AppProvider.tsx",
+      "lines": [
+        73,
+        82
+      ],
+      "sha256": "f48a0ca6b6ceae2fe3bb0c9a88da36eb77ff8190b81383e62f55f947619058f8"
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/work/idealmakoo-production-2.1.2/src/components/controlled/controlled.module.css",
+      "lines": [
+        1
+      ],
+      "sha256": "75f1b4980e4965e9a483f6446a301c8b540d69a1b2bc9be9c391c411c97ab9e7"
+    },
+    {
+      "path": "/workspace/scratch/6682bce41bc7/work/idealmakoo-production-2.1.2/src/components/content/ReferenceDocuments.tsx",
+      "lines": [
+        48,
+        53
+      ],
+      "sha256": "83da0716667db099f5707c1fab0a480435bff15b3e9dd9daf61e32dff99d9c3f"
+    }
+  ],
+  "limits": [
+    "Only existing closed public LHR/result metadata and bounded source reads; no raw active/private outputs, browser, service, test, build or measurement.",
+    "Fast observed root-document response is not a claim of fast full-page rendering or production-network performance.",
+    "Separate observed TBT was not supplied in these LHRs; no inferred observed-TBT value is presented.",
+    "CSS/image byte savings are Lighthouse estimates; no design removal, speculative compression/sizes change or broad optimization plan is proposed."
+  ]
+}

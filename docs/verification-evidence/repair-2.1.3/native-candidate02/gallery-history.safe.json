@@ -1,0 +1,252 @@
+{
+  "kind": "preserved-gallery-attempt-history",
+  "originalFailureReceiptsOverwritten": false,
+  "pasteOrSingleInsertionPresentedAsTypingFix": false,
+  "unknownOuterExitRelabeledAsSuccess": false,
+  "acceptedFinalAttempt": "final-debounced-product/03",
+  "attempts": [
+    {
+      "stage": "before-debounce-product-change",
+      "attempt": 1,
+      "buildId": "b0Lv4Mwao-9aMlHYt2one",
+      "summaryStatus": "failed",
+      "summarySha256": "369b59d81c579c8dbfbcd97ca7dff9f3c77064cb6e51572573d0b3877befb6e9",
+      "functionalChecksReached": 0,
+      "checkedPageErrorCount": 0,
+      "http404Count": 0,
+      "acceptedAsFinalTypingEvidence": false,
+      "classification": "Driver stopped on unsupported Control+A key specification before functional checks.",
+      "childGateReceiptSha256": "ffbad6eb219ad552f3a495d90d8858e0e0537059538f243f993cbb4703afc73a",
+      "childGate": {
+        "name": "gallery-candidate02-gate-01",
+        "startedAt": "2026-10-25T07:23:24.575844+00:00",
+        "finishedAt": "2026-10-25T07:23:32.073469+00:00",
+        "durationSeconds": 7.497628,
+        "exitCode": 1,
+        "waitConsumed": true,
+        "timedOut": false,
+        "cancelled": false,
+        "sourceBefore": {
+          "sha256": "3ec6cc90f701e589fba7d57711ed5a97f748a7d58272e80542cf2e9f7922d806",
+          "files": 993
+        },
+        "sourceAfter": {
+          "sha256": "3ec6cc90f701e589fba7d57711ed5a97f748a7d58272e80542cf2e9f7922d806",
+          "files": 993
+        },
+        "sourceChanged": [],
+        "accepted": false
+      },
+      "outerTool": {
+        "name": "gallery-candidate02-gate-01",
+        "sessionId": 72973,
+        "actualOuterExitCode": 1,
+        "actualOuterWaitConsumed": true
+      }
+    },
+    {
+      "stage": "before-debounce-product-change",
+      "attempt": 2,
+      "buildId": "b0Lv4Mwao-9aMlHYt2one",
+      "summaryStatus": "failed",
+      "summarySha256": "af1793280ddd4f35cfed6a5291fdcfde7ee0703ccf3b3bdb03eb548816828ef9",
+      "functionalChecksReached": 4,
+      "checkedPageErrorCount": 72,
+      "http404Count": 36,
+      "acceptedAsFinalTypingEvidence": false,
+      "classification": "Real product behavior: character typing requested 36 incomplete but syntactically accepted image URL prefixes. Complete-input and draft/lease checks passed; the invocation remained failed.",
+      "childGateReceiptSha256": "355d02b8d64d2a433eea8f56a6856082b5bffd177a503cb049006ee710d11eb6",
+      "childGate": {
+        "name": "gallery-candidate02-gate-02",
+        "startedAt": "2026-10-25T07:24:37.411484+00:00",
+        "finishedAt": "2026-10-25T07:24:49.104446+00:00",
+        "durationSeconds": 11.692964,
+        "exitCode": 1,
+        "waitConsumed": true,
+        "timedOut": false,
+        "cancelled": false,
+        "sourceBefore": {
+          "sha256": "3ec6cc90f701e589fba7d57711ed5a97f748a7d58272e80542cf2e9f7922d806",
+          "files": 993
+        },
+        "sourceAfter": {
+          "sha256": "3ec6cc90f701e589fba7d57711ed5a97f748a7d58272e80542cf2e9f7922d806",
+          "files": 993
+        },
+        "sourceChanged": [],
+        "accepted": false
+      },
+      "outerTool": {
+        "name": "gallery-candidate02-gate-02",
+        "sessionId": 65869,
+        "actualOuterExitCode": 1,
+        "actualOuterWaitConsumed": true
+      }
+    },
+    {
+      "stage": "before-debounce-product-change",
+      "attempt": 3,
+      "buildId": "b0Lv4Mwao-9aMlHYt2one",
+      "summaryStatus": "passed",
+      "summarySha256": "cfa94c66e04222fc52ca28060ddd9daabec90a90844c65ddfe7b83c610ecf188",
+      "functionalChecksReached": 4,
+      "checkedPageErrorCount": 0,
+      "http404Count": 0,
+      "acceptedAsFinalTypingEvidence": false,
+      "classification": "Complete-value native text insertion passed on the earlier product. It did not fix or validate character-by-character typing.",
+      "childGateReceiptSha256": "a3045e318b3af7be5649eabbbf4ae94899ff4bb8d0e0b0fa4251fb3ac3662e2d",
+      "childGate": {
+        "name": "gallery-candidate02-gate-03",
+        "startedAt": "2026-10-25T07:26:20.485211+00:00",
+        "finishedAt": "2026-10-25T07:26:29.639426+00:00",
+        "durationSeconds": 9.154218,
+        "exitCode": 0,
+        "waitConsumed": true,
+        "timedOut": false,
+        "cancelled": false,
+        "sourceBefore": {
+          "sha256": "3ec6cc90f701e589fba7d57711ed5a97f748a7d58272e80542cf2e9f7922d806",
+          "files": 993
+        },
+        "sourceAfter": {
+          "sha256": "3ec6cc90f701e589fba7d57711ed5a97f748a7d58272e80542cf2e9f7922d806",
+          "files": 993
+        },
+        "sourceChanged": [],
+        "accepted": true
+      },
+      "outerTool": {
+        "name": "gallery-candidate02-gate-03",
+        "sessionId": 56485,
+        "actualOuterExitCode": 0,
+        "actualOuterWaitConsumed": true
+      }
+    },
+    {
+      "stage": "final-debounced-product",
+      "attempt": 1,
+      "buildId": "JUTCtkNIJ8CT540y_qNL_",
+      "summaryStatus": "failed",
+      "summarySha256": "2aa8e705f041725c8597000e0ca89e713da299ebb7f1e70b1c7b3749884fdfff",
+      "functionalChecksReached": 7,
+      "checkedPageErrorCount": 0,
+      "acceptedAsFinalTypingEvidence": false,
+      "classification": "Interaction, persistence, lease and teardown checks completed; final request classification also counted one existing catalogue image during navigation. Original invocation remains failed.",
+      "childGateReceiptSha256": "61f3a83f26a87baf665ada877265975b3fbb83a44acdf9e3e604ae1ed2320c50",
+      "childGate": {
+        "name": "gallery-candidate02-debounce-gate-01",
+        "startedAt": "2026-10-25T07:42:51.944789+00:00",
+        "finishedAt": "2026-10-25T07:43:07.387569+00:00",
+        "durationSeconds": 15.44272,
+        "exitCode": 1,
+        "waitConsumed": true,
+        "timedOut": false,
+        "cancelled": false,
+        "sourceBefore": {
+          "sha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+          "files": 994
+        },
+        "sourceAfter": {
+          "sha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+          "files": 994
+        },
+        "sourceChanged": [],
+        "accepted": false
+      },
+      "outerTool": {
+        "name": "gallery-candidate02-debounce-gate-01",
+        "sessionId": 57441,
+        "actualOuterExitCode": 1,
+        "actualOuterWaitConsumed": true
+      }
+    },
+    {
+      "stage": "final-debounced-product",
+      "attempt": 2,
+      "buildId": "JUTCtkNIJ8CT540y_qNL_",
+      "summaryStatus": "passed",
+      "summarySha256": "caf644b293337c3dfc082c1864eae9086c280f863952b0856c830334fb425365",
+      "functionalChecksReached": 7,
+      "checkedPageErrorCount": 0,
+      "acceptedAsFinalTypingEvidence": false,
+      "classification": "Driver child passed with its real wait consumed, but original outer tool exit and wait could not be recovered. Not accepted as a completed outer invocation.",
+      "childGateReceiptSha256": "b5cfd0a6ff0a6edca5f62676c16eb9f8acc08c15f1e22988f2474b36440f78cd",
+      "childGate": {
+        "name": "gallery-candidate02-debounce-gate-02",
+        "startedAt": "2026-10-25T07:45:52.066506+00:00",
+        "finishedAt": "2026-10-25T07:46:06.199683+00:00",
+        "durationSeconds": 14.133177,
+        "exitCode": 0,
+        "waitConsumed": true,
+        "timedOut": false,
+        "cancelled": false,
+        "sourceBefore": {
+          "sha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+          "files": 994
+        },
+        "sourceAfter": {
+          "sha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+          "files": 994
+        },
+        "sourceChanged": [],
+        "accepted": true
+      },
+      "outerTool": {
+        "actualOuterExitCode": null,
+        "actualOuterWaitConsumed": null,
+        "known": false,
+        "notAcceptedAsCompletedOuterInvocation": true
+      }
+    },
+    {
+      "stage": "final-debounced-product",
+      "attempt": 3,
+      "buildId": "JUTCtkNIJ8CT540y_qNL_",
+      "summaryStatus": "passed",
+      "summarySha256": "4b8c447eaf27630a76050d8ceca730f7aa5a6d76d17f23266ad224e73c3817c8",
+      "functionalChecksReached": 7,
+      "checkedPageErrorCount": 0,
+      "acceptedAsFinalTypingEvidence": true,
+      "classification": "Accepted final invocation: actual driver child and original outer tool both completed with exit 0 and waits consumed.",
+      "childGateReceiptSha256": "74c8a1596209f15673031dfae66ce43afa8a5d68a78fc9c2e7a49252b72d050d",
+      "childGate": {
+        "name": "gallery-candidate02-debounce-gate-03",
+        "startedAt": "2026-10-25T07:49:31.083941+00:00",
+        "finishedAt": "2026-10-25T07:49:45.303626+00:00",
+        "durationSeconds": 14.219686,
+        "exitCode": 0,
+        "waitConsumed": true,
+        "timedOut": false,
+        "cancelled": false,
+        "sourceBefore": {
+          "sha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+          "files": 994
+        },
+        "sourceAfter": {
+          "sha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+          "files": 994
+        },
+        "sourceChanged": [],
+        "accepted": true
+      },
+      "outerTool": {
+        "name": "gallery-candidate02-debounce-gate-03",
+        "sessionId": 28352,
+        "actualOuterExitCode": 0,
+        "actualOuterWaitConsumed": true
+      }
+    }
+  ],
+  "attempt02OuterBoundary": {
+    "kind": "outer-tool-accounting-limitation",
+    "recordedAt": "2026-10-25T07:49:24.403172+00:00",
+    "reason": "Launch response exceeded the available model context; original tool session ID and outer exit could not be recovered through the exposed session API.",
+    "driverChildExitCode": 0,
+    "driverChildActualWaitConsumed": true,
+    "outerToolExitCode": null,
+    "outerToolWaitConsumed": null,
+    "notClaimedAsCompletedOuterInvocation": true,
+    "followup": "One focused repeat will establish actual final outer wait; original files remain preserved."
+  },
+  "attempt02LimitationSha256": "233f7d17962e34332612f875890a1759b48afb4fdbd1bf31f03a25961c7e944e"
+}

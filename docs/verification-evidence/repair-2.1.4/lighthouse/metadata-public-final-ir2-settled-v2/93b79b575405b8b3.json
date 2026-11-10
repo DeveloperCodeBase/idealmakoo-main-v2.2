@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/privacy/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "2080a669671073f57e04671bafa2e6977d5acb1dd9b3ef2e49319aa980079aaa",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Privacy | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Information you submit through your account, profile and forms, including your name, contact details, organization, messages and attachments, is stored on the server to process your requests and manage communications. Account settings and lists are available on other devices after sign-in."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/privacy/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/privacy/",
+    "en": "http://127.0.0.1:3100/en/privacy/",
+    "tr": "http://127.0.0.1:3100/tr/privacy/",
+    "ar": "http://127.0.0.1:3100/ar/privacy/",
+    "ru": "http://127.0.0.1:3100/ru/privacy/",
+    "x-default": "http://127.0.0.1:3100/fa/privacy/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 59
+}

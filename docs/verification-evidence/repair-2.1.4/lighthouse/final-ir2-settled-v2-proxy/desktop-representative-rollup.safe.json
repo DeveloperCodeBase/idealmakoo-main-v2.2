@@ -1,0 +1,1674 @@
+{
+  "createdAt": "2026-10-26T00:48:53.973Z",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "applicationVersion": "2.1.4",
+  "scope": "representative",
+  "device": [
+    "desktop"
+  ],
+  "scopeLimitation": "Only the frozen URL/device inventory is measured; deliberate404 contracts and nonindexable auth/offline documents are separate from indexable content.",
+  "counts": {
+    "expected": 14,
+    "attempted": 14,
+    "completed": 14,
+    "expectedHttpResponses": 0,
+    "errors": 0,
+    "timeouts": 0,
+    "pending": 0,
+    "coverageComplete": true
+  },
+  "attemptHistory": {
+    "outcomeAttempts": 14,
+    "retriedJobs": 0,
+    "additionalOutcomeAttempts": 0,
+    "completedAttempts": 14,
+    "expectedHttpResponseAttempts": 0,
+    "errorAttempts": 0,
+    "timeoutAttempts": 0,
+    "exportValidationRefusedAttempts": 0,
+    "note": "Reservation-only files do not claim a measured outcome. Original process outcomes use sourceStatus when export validation refused a report; refusals are separate and are not additional Lighthouse failures. All reported attempts remain retained."
+  },
+  "exportValidation": {
+    "refusedAttempts": 0,
+    "latestRefusals": 0,
+    "countsAreNotAdditionalLighthouseRuns": true
+  },
+  "sourceOutcomeCounts": null,
+  "allLatestRequestedJobsSucceeded": true,
+  "groupedScores": {
+    "indexablePublic": {
+      "jobs": 12,
+      "attempted": 12,
+      "scored": 12,
+      "expectedHttpResponses": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "sourceErrors": 0,
+      "sourceTimeouts": 0,
+      "exportValidationRefusals": 0,
+      "pending": 0,
+      "categories": {
+        "performance": {
+          "count": 12,
+          "min": 93,
+          "median": 98.5,
+          "p75": 99,
+          "max": 99,
+          "below90": 0
+        },
+        "accessibility": {
+          "count": 12,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "best-practices": {
+          "count": 12,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "seo": {
+          "count": 12,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        }
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "count": 12,
+          "min": 315.4909,
+          "median": 448.9317,
+          "p75": 507.3486,
+          "max": 530.1009
+        },
+        "largest-contentful-paint": {
+          "count": 12,
+          "min": 929.02575,
+          "median": 1063.382525,
+          "p75": 1182.0886250000003,
+          "max": 1734.4175500000001
+        },
+        "total-blocking-time": {
+          "count": 12,
+          "min": 14.5,
+          "median": 34,
+          "p75": 36,
+          "max": 52.999999999999886
+        },
+        "cumulative-layout-shift": {
+          "count": 12,
+          "min": 0,
+          "median": 0,
+          "p75": 0.000009292561921313396,
+          "max": 0.02908837357558371
+        }
+      },
+      "durationMs": {
+        "count": 12,
+        "min": 6374,
+        "median": 8327.5,
+        "p75": 8828,
+        "max": 9336
+      }
+    },
+    "publicAuthNoindex": {
+      "jobs": 2,
+      "attempted": 2,
+      "scored": 2,
+      "expectedHttpResponses": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "sourceErrors": 0,
+      "sourceTimeouts": 0,
+      "exportValidationRefusals": 0,
+      "pending": 0,
+      "categories": {
+        "performance": {
+          "count": 2,
+          "min": 99,
+          "median": 99.5,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "accessibility": {
+          "count": 2,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "best-practices": {
+          "count": 2,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "seo": {
+          "count": 2,
+          "min": 58,
+          "median": 58,
+          "p75": 58,
+          "max": 58,
+          "below90": 2
+        }
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "count": 2,
+          "min": 295.1151,
+          "median": 377.930725,
+          "p75": 460.74635,
+          "max": 460.74635
+        },
+        "largest-contentful-paint": {
+          "count": 2,
+          "min": 821.5772499999999,
+          "median": 901.4037249999999,
+          "p75": 981.2302,
+          "max": 981.2302
+        },
+        "total-blocking-time": {
+          "count": 2,
+          "min": 17,
+          "median": 29.5,
+          "p75": 42,
+          "max": 42
+        },
+        "cumulative-layout-shift": {
+          "count": 2,
+          "min": 0,
+          "median": 0,
+          "p75": 0,
+          "max": 0
+        }
+      },
+      "durationMs": {
+        "count": 2,
+        "min": 6737,
+        "median": 6806,
+        "p75": 6875,
+        "max": 6875
+      }
+    },
+    "offlineNoindex": {
+      "jobs": 0,
+      "attempted": 0,
+      "scored": 0,
+      "expectedHttpResponses": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "sourceErrors": 0,
+      "sourceTimeouts": 0,
+      "exportValidationRefusals": 0,
+      "pending": 0,
+      "categories": {
+        "performance": null,
+        "accessibility": null,
+        "best-practices": null,
+        "seo": null
+      },
+      "metrics": {
+        "first-contentful-paint": null,
+        "largest-contentful-paint": null,
+        "total-blocking-time": null,
+        "cumulative-layout-shift": null
+      },
+      "durationMs": null
+    },
+    "otherNonindexablePublic": {
+      "jobs": 0,
+      "attempted": 0,
+      "scored": 0,
+      "expectedHttpResponses": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "sourceErrors": 0,
+      "sourceTimeouts": 0,
+      "exportValidationRefusals": 0,
+      "pending": 0,
+      "categories": {
+        "performance": null,
+        "accessibility": null,
+        "best-practices": null,
+        "seo": null
+      },
+      "metrics": {
+        "first-contentful-paint": null,
+        "largest-contentful-paint": null,
+        "total-blocking-time": null,
+        "cumulative-layout-shift": null
+      },
+      "durationMs": null
+    },
+    "expected404": {
+      "jobs": 0,
+      "attempted": 0,
+      "scored": 0,
+      "expectedHttpResponses": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "sourceErrors": 0,
+      "sourceTimeouts": 0,
+      "exportValidationRefusals": 0,
+      "pending": 0,
+      "categories": {
+        "performance": null,
+        "accessibility": null,
+        "best-practices": null,
+        "seo": null
+      },
+      "metrics": {
+        "first-contentful-paint": null,
+        "largest-contentful-paint": null,
+        "total-blocking-time": null,
+        "cumulative-layout-shift": null
+      },
+      "durationMs": null
+    }
+  },
+  "locale": {
+    "ar": {
+      "groupedScores": {
+        "indexablePublic": {
+          "jobs": 2,
+          "attempted": 2,
+          "scored": 2,
+          "expectedHttpResponses": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "sourceErrors": 0,
+          "sourceTimeouts": 0,
+          "exportValidationRefusals": 0,
+          "pending": 0,
+          "categories": {
+            "performance": {
+              "count": 2,
+              "min": 99,
+              "median": 99,
+              "p75": 99,
+              "max": 99,
+              "below90": 0
+            },
+            "accessibility": {
+              "count": 2,
+              "min": 100,
+              "median": 100,
+              "p75": 100,
+              "max": 100,
+              "below90": 0
+            },
+            "best-practices": {
+              "count": 2,
+              "min": 100,
+              "median": 100,
+              "p75": 100,
+              "max": 100,
+              "below90": 0
+            },
+            "seo": {
+              "count": 2,
+              "min": 100,
+              "median": 100,
+              "p75": 100,
+              "max": 100,
+              "below90": 0
+            }
+          },
+          "metrics": {
+            "first-contentful-paint": {
+              "count": 2,
+              "min": 315.4909,
+              "median": 417.0923,
+              "p75": 518.6937,
+              "max": 518.6937
+            },
+            "largest-contentful-paint": {
+              "count": 2,
+              "min": 1006.1831999999997,
+              "median": 1013.1673499999998,
+              "p75": 1020.1514999999999,
+              "max": 1020.1514999999999
+            },
+            "total-blocking-time": {
+              "count": 2,
+              "min": 23,
+              "median": 29.5,
+              "p75": 36,
+              "max": 36
+            },
+            "cumulative-layout-shift": {
+              "count": 2,
+              "min": 0,
+              "median": 0.000004646280960656698,
+              "p75": 0.000009292561921313396,
+              "max": 0.000009292561921313396
+            }
+          },
+          "durationMs": {
+            "count": 2,
+            "min": 6606,
+            "median": 7786.5,
+            "p75": 8967,
+            "max": 8967
+          }
+        },
+        "publicAuthNoindex": {
+          "jobs": 0,
+          "attempted": 0,
+          "scored": 0,
+          "expectedHttpResponses": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "sourceErrors": 0,
+          "sourceTimeouts": 0,
+          "exportValidationRefusals": 0,
+          "pending": 0,
+          "categories": {
+            "performance": null,
+            "accessibility": null,
+            "best-practices": null,
+            "seo": null
+          },
+          "metrics": {
+            "first-contentful-paint": null,
+            "largest-contentful-paint": null,
+            "total-blocking-time": null,
+            "cumulative-layout-shift": null
+          },
+          "durationMs": null
+        },
+        "offlineNoindex": {
+          "jobs": 0,
+          "attempted": 0,
+          "scored": 0,
+          "expectedHttpResponses": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "sourceErrors": 0,
+          "sourceTimeouts": 0,
+          "exportValidationRefusals": 0,
+          "pending": 0,
+          "categories": {
+            "performance": null,
+            "accessibility": null,
+            "best-practices": null,
+            "seo": null
+          },
+          "metrics": {
+            "first-contentful-paint": null,
+            "largest-contentful-paint": null,
+            "total-blocking-time": null,
+            "cumulative-layout-shift": null
+          },
+          "durationMs": null
+        },
+        "otherNonindexablePublic": {
+          "jobs": 0,
+          "attempted": 0,
+          "scored": 0,
+          "expectedHttpResponses": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "sourceErrors": 0,
+          "sourceTimeouts": 0,
+          "exportValidationRefusals": 0,
+          "pending": 0,
+          "categories": {
+            "performance": null,
+            "accessibility": null,
+            "best-practices": null,
+            "seo": null
+          },
+          "metrics": {
+            "first-contentful-paint": null,
+            "largest-contentful-paint": null,
+            "total-blocking-time": null,
+            "cumulative-layout-shift": null
+          },
+          "durationMs": null
+        },
+        "expected404": {
+          "jobs": 0,
+          "attempted": 0,
+          "scored": 0,
+          "expectedHttpResponses": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "sourceErrors": 0,
+          "sourceTimeouts": 0,
+          "exportValidationRefusals": 0,
+          "pending": 0,
+          "categories": {
+            "performance": null,
+            "accessibility": null,
+            "best-practices": null,
+            "seo": null
+          },
+          "metrics": {
+            "first-contentful-paint": null,
+            "largest-contentful-paint": null,
+            "total-blocking-time": null,
+            "cumulative-layout-shift": null
+          },
+          "durationMs": null
+        }
+      }
+    },
+    "en": {
+      "groupedScores": {
+        "indexablePublic": {
+          "jobs": 4,
+          "attempted": 4,
+          "scored": 4,
+          "expectedHttpResponses": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "sourceErrors": 0,
+          "sourceTimeouts": 0,
+          "exportValidationRefusals": 0,
+          "pending": 0,
+          "categories": {
+            "performance": {
+              "count": 4,
+              "min": 93,
+              "median": 98.5,
+              "p75": 99,
+              "max": 99,
+              "below90": 0
+            },
+            "accessibility": {
+              "count": 4,
+              "min": 100,
+              "median": 100,
+              "p75": 100,
+              "max": 100,
+              "below90": 0
+            },
+            "best-practices": {
+              "count": 4,
+              "min": 100,
+              "median": 100,
+              "p75": 100,
+              "max": 100,
+              "below90": 0
+            },
+            "seo": {
+              "count": 4,
+              "min": 100,
+              "median": 100,
+              "p75": 100,
+              "max": 100,
+              "below90": 0
+            }
+          },
+          "metrics": {
+            "first-contentful-paint": {
+              "count": 4,
+              "min": 345.9854,
+              "median": 369.07735,
+              "p75": 388.13925,
+              "max": 394.80584999999996
+            },
+            "largest-contentful-paint": {
+              "count": 4,
+              "min": 929.02575,
+              "median": 1088.6988125000003,
+              "p75": 1182.0886250000003,
+              "max": 1734.4175500000001
+            },
+            "total-blocking-time": {
+              "count": 4,
+              "min": 14.5,
+              "median": 33.5,
+              "p75": 36,
+              "max": 44
+            },
+            "cumulative-layout-shift": {
+              "count": 4,
+              "min": 0,
+              "median": 0,
+              "p75": 0,
+              "max": 0.002289461994375307
+            }
+          },
+          "durationMs": {
+            "count": 4,
+            "min": 6374,
+            "median": 8327.5,
+            "p75": 8404,
+            "max": 9256
+          }
+        },
+        "publicAuthNoindex": {
+          "jobs": 1,
+          "attempted": 1,
+          "scored": 1,
+          "expectedHttpResponses": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "sourceErrors": 0,
+          "sourceTimeouts": 0,
+          "exportValidationRefusals": 0,
+          "pending": 0,
+          "categories": {
+            "performance": {
+              "count": 1,
+              "min": 99,
+              "median": 99,
+              "p75": 99,
+              "max": 99,
+              "below90": 0
+            },
+            "accessibility": {
+              "count": 1,
+              "min": 100,
+              "median": 100,
+              "p75": 100,
+              "max": 100,
+              "below90": 0
+            },
+            "best-practices": {
+              "count": 1,
+              "min": 100,
+              "median": 100,
+              "p75": 100,
+              "max": 100,
+              "below90": 0
+            },
+            "seo": {
+              "count": 1,
+              "min": 58,
+              "median": 58,
+              "p75": 58,
+              "max": 58,
+              "below90": 1
+            }
+          },
+          "metrics": {
+            "first-contentful-paint": {
+              "count": 1,
+              "min": 295.1151,
+              "median": 295.1151,
+              "p75": 295.1151,
+              "max": 295.1151
+            },
+            "largest-contentful-paint": {
+              "count": 1,
+              "min": 981.2302,
+              "median": 981.2302,
+              "p75": 981.2302,
+              "max": 981.2302
+            },
+            "total-blocking-time": {
+              "count": 1,
+              "min": 42,
+              "median": 42,
+              "p75": 42,
+              "max": 42
+            },
+            "cumulative-layout-shift": {
+              "count": 1,
+              "min": 0,
+              "median": 0,
+              "p75": 0,
+              "max": 0
+            }
+          },
+          "durationMs": {
+            "count": 1,
+            "min": 6875,
+            "median": 6875,
+            "p75": 6875,
+            "max": 6875
+          }
+        },
+        "offlineNoindex": {
+          "jobs": 0,
+          "attempted": 0,
+          "scored": 0,
+          "expectedHttpResponses": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "sourceErrors": 0,
+          "sourceTimeouts": 0,
+          "exportValidationRefusals": 0,
+          "pending": 0,
+          "categories": {
+            "performance": null,
+            "accessibility": null,
+            "best-practices": null,
+            "seo": null
+          },
+          "metrics": {
+            "first-contentful-paint": null,
+            "largest-contentful-paint": null,
+            "total-blocking-time": null,
+            "cumulative-layout-shift": null
+          },
+          "durationMs": null
+        },
+        "otherNonindexablePublic": {
+          "jobs": 0,
+          "attempted": 0,
+          "scored": 0,
+          "expectedHttpResponses": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "sourceErrors": 0,
+          "sourceTimeouts": 0,
+          "exportValidationRefusals": 0,
+          "pending": 0,
+          "categories": {
+            "performance": null,
+            "accessibility": null,
+            "best-practices": null,
+            "seo": null
+          },
+          "metrics": {
+            "first-contentful-paint": null,
+            "largest-contentful-paint": null,
+            "total-blocking-time": null,
+            "cumulative-layout-shift": null
+          },
+          "durationMs": null
+        },
+        "expected404": {
+          "jobs": 0,
+          "attempted": 0,
+          "scored": 0,
+          "expectedHttpResponses": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "sourceErrors": 0,
+          "sourceTimeouts": 0,
+          "exportValidationRefusals": 0,
+          "pending": 0,
+          "categories": {
+            "performance": null,
+            "accessibility": null,
+            "best-practices": null,
+            "seo": null
+          },
+          "metrics": {
+            "first-contentful-paint": null,
+            "largest-contentful-paint": null,
+            "total-blocking-time": null,
+            "cumulative-layout-shift": null
+          },
+          "durationMs": null
+        }
+      }
+    },
+    "fa": {
+      "groupedScores": {
+        "indexablePublic": {
+          "jobs": 3,
+          "attempted": 3,
+          "scored": 3,
+          "expectedHttpResponses": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "sourceErrors": 0,
+          "sourceTimeouts": 0,
+          "exportValidationRefusals": 0,
+          "pending": 0,
+          "categories": {
+            "performance": {
+              "count": 3,
+              "min": 96,
+              "median": 98,
+              "p75": 99,
+              "max": 99,
+              "below90": 0
+            },
+            "accessibility": {
+              "count": 3,
+              "min": 100,
+              "median": 100,
+              "p75": 100,
+              "max": 100,
+              "below90": 0
+            },
+            "best-practices": {
+              "count": 3,
+              "min": 100,
+              "median": 100,
+              "p75": 100,
+              "max": 100,
+              "below90": 0
+            },
+            "seo": {
+              "count": 3,
+              "min": 100,
+              "median": 100,
+              "p75": 100,
+              "max": 100,
+              "below90": 0
+            }
+          },
+          "metrics": {
+            "first-contentful-paint": {
+              "count": 3,
+              "min": 391.39860000000004,
+              "median": 506.69129999999996,
+              "p75": 530.1009,
+              "max": 530.1009
+            },
+            "largest-contentful-paint": {
+              "count": 3,
+              "min": 1035.3310000000001,
+              "median": 1091.43405,
+              "p75": 1429.4020999999998,
+              "max": 1429.4020999999998
+            },
+            "total-blocking-time": {
+              "count": 3,
+              "min": 35,
+              "median": 50,
+              "p75": 52.999999999999886,
+              "max": 52.999999999999886
+            },
+            "cumulative-layout-shift": {
+              "count": 3,
+              "min": 0,
+              "median": 0.00001135757568160526,
+              "p75": 0.02908837357558371,
+              "max": 0.02908837357558371
+            }
+          },
+          "durationMs": {
+            "count": 3,
+            "min": 6781,
+            "median": 7397,
+            "p75": 9336,
+            "max": 9336
+          }
+        },
+        "publicAuthNoindex": {
+          "jobs": 0,
+          "attempted": 0,
+          "scored": 0,
+          "expectedHttpResponses": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "sourceErrors": 0,
+          "sourceTimeouts": 0,
+          "exportValidationRefusals": 0,
+          "pending": 0,
+          "categories": {
+            "performance": null,
+            "accessibility": null,
+            "best-practices": null,
+            "seo": null
+          },
+          "metrics": {
+            "first-contentful-paint": null,
+            "largest-contentful-paint": null,
+            "total-blocking-time": null,
+            "cumulative-layout-shift": null
+          },
+          "durationMs": null
+        },
+        "offlineNoindex": {
+          "jobs": 0,
+          "attempted": 0,
+          "scored": 0,
+          "expectedHttpResponses": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "sourceErrors": 0,
+          "sourceTimeouts": 0,
+          "exportValidationRefusals": 0,
+          "pending": 0,
+          "categories": {
+            "performance": null,
+            "accessibility": null,
+            "best-practices": null,
+            "seo": null
+          },
+          "metrics": {
+            "first-contentful-paint": null,
+            "largest-contentful-paint": null,
+            "total-blocking-time": null,
+            "cumulative-layout-shift": null
+          },
+          "durationMs": null
+        },
+        "otherNonindexablePublic": {
+          "jobs": 0,
+          "attempted": 0,
+          "scored": 0,
+          "expectedHttpResponses": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "sourceErrors": 0,
+          "sourceTimeouts": 0,
+          "exportValidationRefusals": 0,
+          "pending": 0,
+          "categories": {
+            "performance": null,
+            "accessibility": null,
+            "best-practices": null,
+            "seo": null
+          },
+          "metrics": {
+            "first-contentful-paint": null,
+            "largest-contentful-paint": null,
+            "total-blocking-time": null,
+            "cumulative-layout-shift": null
+          },
+          "durationMs": null
+        },
+        "expected404": {
+          "jobs": 0,
+          "attempted": 0,
+          "scored": 0,
+          "expectedHttpResponses": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "sourceErrors": 0,
+          "sourceTimeouts": 0,
+          "exportValidationRefusals": 0,
+          "pending": 0,
+          "categories": {
+            "performance": null,
+            "accessibility": null,
+            "best-practices": null,
+            "seo": null
+          },
+          "metrics": {
+            "first-contentful-paint": null,
+            "largest-contentful-paint": null,
+            "total-blocking-time": null,
+            "cumulative-layout-shift": null
+          },
+          "durationMs": null
+        }
+      }
+    },
+    "ru": {
+      "groupedScores": {
+        "indexablePublic": {
+          "jobs": 1,
+          "attempted": 1,
+          "scored": 1,
+          "expectedHttpResponses": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "sourceErrors": 0,
+          "sourceTimeouts": 0,
+          "exportValidationRefusals": 0,
+          "pending": 0,
+          "categories": {
+            "performance": {
+              "count": 1,
+              "min": 99,
+              "median": 99,
+              "p75": 99,
+              "max": 99,
+              "below90": 0
+            },
+            "accessibility": {
+              "count": 1,
+              "min": 100,
+              "median": 100,
+              "p75": 100,
+              "max": 100,
+              "below90": 0
+            },
+            "best-practices": {
+              "count": 1,
+              "min": 100,
+              "median": 100,
+              "p75": 100,
+              "max": 100,
+              "below90": 0
+            },
+            "seo": {
+              "count": 1,
+              "min": 100,
+              "median": 100,
+              "p75": 100,
+              "max": 100,
+              "below90": 0
+            }
+          },
+          "metrics": {
+            "first-contentful-paint": {
+              "count": 1,
+              "min": 503.05755,
+              "median": 503.05755,
+              "p75": 503.05755,
+              "max": 503.05755
+            },
+            "largest-contentful-paint": {
+              "count": 1,
+              "min": 972.143875,
+              "median": 972.143875,
+              "p75": 972.143875,
+              "max": 972.143875
+            },
+            "total-blocking-time": {
+              "count": 1,
+              "min": 19,
+              "median": 19,
+              "p75": 19,
+              "max": 19
+            },
+            "cumulative-layout-shift": {
+              "count": 1,
+              "min": 0,
+              "median": 0,
+              "p75": 0,
+              "max": 0
+            }
+          },
+          "durationMs": {
+            "count": 1,
+            "min": 8579,
+            "median": 8579,
+            "p75": 8579,
+            "max": 8579
+          }
+        },
+        "publicAuthNoindex": {
+          "jobs": 1,
+          "attempted": 1,
+          "scored": 1,
+          "expectedHttpResponses": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "sourceErrors": 0,
+          "sourceTimeouts": 0,
+          "exportValidationRefusals": 0,
+          "pending": 0,
+          "categories": {
+            "performance": {
+              "count": 1,
+              "min": 100,
+              "median": 100,
+              "p75": 100,
+              "max": 100,
+              "below90": 0
+            },
+            "accessibility": {
+              "count": 1,
+              "min": 100,
+              "median": 100,
+              "p75": 100,
+              "max": 100,
+              "below90": 0
+            },
+            "best-practices": {
+              "count": 1,
+              "min": 100,
+              "median": 100,
+              "p75": 100,
+              "max": 100,
+              "below90": 0
+            },
+            "seo": {
+              "count": 1,
+              "min": 58,
+              "median": 58,
+              "p75": 58,
+              "max": 58,
+              "below90": 1
+            }
+          },
+          "metrics": {
+            "first-contentful-paint": {
+              "count": 1,
+              "min": 460.74635,
+              "median": 460.74635,
+              "p75": 460.74635,
+              "max": 460.74635
+            },
+            "largest-contentful-paint": {
+              "count": 1,
+              "min": 821.5772499999999,
+              "median": 821.5772499999999,
+              "p75": 821.5772499999999,
+              "max": 821.5772499999999
+            },
+            "total-blocking-time": {
+              "count": 1,
+              "min": 17,
+              "median": 17,
+              "p75": 17,
+              "max": 17
+            },
+            "cumulative-layout-shift": {
+              "count": 1,
+              "min": 0,
+              "median": 0,
+              "p75": 0,
+              "max": 0
+            }
+          },
+          "durationMs": {
+            "count": 1,
+            "min": 6737,
+            "median": 6737,
+            "p75": 6737,
+            "max": 6737
+          }
+        },
+        "offlineNoindex": {
+          "jobs": 0,
+          "attempted": 0,
+          "scored": 0,
+          "expectedHttpResponses": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "sourceErrors": 0,
+          "sourceTimeouts": 0,
+          "exportValidationRefusals": 0,
+          "pending": 0,
+          "categories": {
+            "performance": null,
+            "accessibility": null,
+            "best-practices": null,
+            "seo": null
+          },
+          "metrics": {
+            "first-contentful-paint": null,
+            "largest-contentful-paint": null,
+            "total-blocking-time": null,
+            "cumulative-layout-shift": null
+          },
+          "durationMs": null
+        },
+        "otherNonindexablePublic": {
+          "jobs": 0,
+          "attempted": 0,
+          "scored": 0,
+          "expectedHttpResponses": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "sourceErrors": 0,
+          "sourceTimeouts": 0,
+          "exportValidationRefusals": 0,
+          "pending": 0,
+          "categories": {
+            "performance": null,
+            "accessibility": null,
+            "best-practices": null,
+            "seo": null
+          },
+          "metrics": {
+            "first-contentful-paint": null,
+            "largest-contentful-paint": null,
+            "total-blocking-time": null,
+            "cumulative-layout-shift": null
+          },
+          "durationMs": null
+        },
+        "expected404": {
+          "jobs": 0,
+          "attempted": 0,
+          "scored": 0,
+          "expectedHttpResponses": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "sourceErrors": 0,
+          "sourceTimeouts": 0,
+          "exportValidationRefusals": 0,
+          "pending": 0,
+          "categories": {
+            "performance": null,
+            "accessibility": null,
+            "best-practices": null,
+            "seo": null
+          },
+          "metrics": {
+            "first-contentful-paint": null,
+            "largest-contentful-paint": null,
+            "total-blocking-time": null,
+            "cumulative-layout-shift": null
+          },
+          "durationMs": null
+        }
+      }
+    },
+    "tr": {
+      "groupedScores": {
+        "indexablePublic": {
+          "jobs": 2,
+          "attempted": 2,
+          "scored": 2,
+          "expectedHttpResponses": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "sourceErrors": 0,
+          "sourceTimeouts": 0,
+          "exportValidationRefusals": 0,
+          "pending": 0,
+          "categories": {
+            "performance": {
+              "count": 2,
+              "min": 96,
+              "median": 97,
+              "p75": 98,
+              "max": 98,
+              "below90": 0
+            },
+            "accessibility": {
+              "count": 2,
+              "min": 100,
+              "median": 100,
+              "p75": 100,
+              "max": 100,
+              "below90": 0
+            },
+            "best-practices": {
+              "count": 2,
+              "min": 100,
+              "median": 100,
+              "p75": 100,
+              "max": 100,
+              "below90": 0
+            },
+            "seo": {
+              "count": 2,
+              "min": 100,
+              "median": 100,
+              "p75": 100,
+              "max": 100,
+              "below90": 0
+            }
+          },
+          "metrics": {
+            "first-contentful-paint": {
+              "count": 2,
+              "min": 507.3486,
+              "median": 509.07089999999994,
+              "p75": 510.79319999999996,
+              "max": 510.79319999999996
+            },
+            "largest-contentful-paint": {
+              "count": 2,
+              "min": 1108.5810000000001,
+              "median": 1236.0320000000002,
+              "p75": 1363.4830000000002,
+              "max": 1363.4830000000002
+            },
+            "total-blocking-time": {
+              "count": 2,
+              "min": 15,
+              "median": 24,
+              "p75": 33,
+              "max": 33
+            },
+            "cumulative-layout-shift": {
+              "count": 2,
+              "min": 0,
+              "median": 0,
+              "p75": 0,
+              "max": 0
+            }
+          },
+          "durationMs": {
+            "count": 2,
+            "min": 7142,
+            "median": 7985,
+            "p75": 8828,
+            "max": 8828
+          }
+        },
+        "publicAuthNoindex": {
+          "jobs": 0,
+          "attempted": 0,
+          "scored": 0,
+          "expectedHttpResponses": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "sourceErrors": 0,
+          "sourceTimeouts": 0,
+          "exportValidationRefusals": 0,
+          "pending": 0,
+          "categories": {
+            "performance": null,
+            "accessibility": null,
+            "best-practices": null,
+            "seo": null
+          },
+          "metrics": {
+            "first-contentful-paint": null,
+            "largest-contentful-paint": null,
+            "total-blocking-time": null,
+            "cumulative-layout-shift": null
+          },
+          "durationMs": null
+        },
+        "offlineNoindex": {
+          "jobs": 0,
+          "attempted": 0,
+          "scored": 0,
+          "expectedHttpResponses": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "sourceErrors": 0,
+          "sourceTimeouts": 0,
+          "exportValidationRefusals": 0,
+          "pending": 0,
+          "categories": {
+            "performance": null,
+            "accessibility": null,
+            "best-practices": null,
+            "seo": null
+          },
+          "metrics": {
+            "first-contentful-paint": null,
+            "largest-contentful-paint": null,
+            "total-blocking-time": null,
+            "cumulative-layout-shift": null
+          },
+          "durationMs": null
+        },
+        "otherNonindexablePublic": {
+          "jobs": 0,
+          "attempted": 0,
+          "scored": 0,
+          "expectedHttpResponses": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "sourceErrors": 0,
+          "sourceTimeouts": 0,
+          "exportValidationRefusals": 0,
+          "pending": 0,
+          "categories": {
+            "performance": null,
+            "accessibility": null,
+            "best-practices": null,
+            "seo": null
+          },
+          "metrics": {
+            "first-contentful-paint": null,
+            "largest-contentful-paint": null,
+            "total-blocking-time": null,
+            "cumulative-layout-shift": null
+          },
+          "durationMs": null
+        },
+        "expected404": {
+          "jobs": 0,
+          "attempted": 0,
+          "scored": 0,
+          "expectedHttpResponses": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "sourceErrors": 0,
+          "sourceTimeouts": 0,
+          "exportValidationRefusals": 0,
+          "pending": 0,
+          "categories": {
+            "performance": null,
+            "accessibility": null,
+            "best-practices": null,
+            "seo": null
+          },
+          "metrics": {
+            "first-contentful-paint": null,
+            "largest-contentful-paint": null,
+            "total-blocking-time": null,
+            "cumulative-layout-shift": null
+          },
+          "durationMs": null
+        }
+      }
+    }
+  },
+  "frequentFailedAudits": [
+    {
+      "id": "largest-contentful-paint",
+      "count": 14,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 14
+    },
+    {
+      "id": "unused-css-rules",
+      "count": 14,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 14
+    },
+    {
+      "id": "unused-javascript",
+      "count": 14,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 14
+    },
+    {
+      "id": "legacy-javascript-insight",
+      "count": 14,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 14
+    },
+    {
+      "id": "network-dependency-tree-insight",
+      "count": 14,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 14
+    },
+    {
+      "id": "render-blocking-insight",
+      "count": 14,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 14
+    },
+    {
+      "id": "max-potential-fid",
+      "count": 13,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 13
+    },
+    {
+      "id": "image-delivery-insight",
+      "count": 8,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 8
+    },
+    {
+      "id": "interactive",
+      "count": 3,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 3
+    },
+    {
+      "id": "lcp-discovery-insight",
+      "count": 3,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 3
+    },
+    {
+      "id": "meta-description",
+      "count": 2,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 2
+    },
+    {
+      "id": "is-crawlable",
+      "count": 2,
+      "intentionalNoindex": 2,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 0
+    },
+    {
+      "id": "speed-index",
+      "count": 1,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 1
+    },
+    {
+      "id": "label-content-name-mismatch",
+      "count": 1,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 1
+    }
+  ],
+  "lowestPerformance": [
+    {
+      "id": "711ba1e64f939093",
+      "path": "/en/research/",
+      "scores": {
+        "performance": 93,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 394.80584999999996,
+        "largest-contentful-paint": 1734.4175500000001,
+        "speed-index": 815.6987277810479,
+        "total-blocking-time": 36,
+        "cumulative-layout-shift": 0.002289461994375307,
+        "interactive": 1781.9379400000003
+      },
+      "attempt": 1
+    },
+    {
+      "id": "8b6fc9f776e655e2",
+      "path": "/fa/products/",
+      "scores": {
+        "performance": 96,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 530.1009,
+        "largest-contentful-paint": 1429.4020999999998,
+        "speed-index": 530.1009,
+        "total-blocking-time": 50,
+        "cumulative-layout-shift": 0,
+        "interactive": 1439.22213
+      },
+      "attempt": 1
+    },
+    {
+      "id": "d3ba50938adbf340",
+      "path": "/tr/tools/shade-mould-matcher/",
+      "scores": {
+        "performance": 96,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 510.79319999999996,
+        "largest-contentful-paint": 1363.4830000000002,
+        "speed-index": 510.79319999999996,
+        "total-blocking-time": 15,
+        "cumulative-layout-shift": 0,
+        "interactive": 1369.0197800000003
+      },
+      "attempt": 1
+    },
+    {
+      "id": "be0bea6bf4f9abff",
+      "path": "/en/resources/",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 388.13925,
+        "largest-contentful-paint": 1182.0886250000003,
+        "speed-index": 553.7066383842226,
+        "total-blocking-time": 31,
+        "cumulative-layout-shift": 0,
+        "interactive": 1192.5076125000003
+      },
+      "attempt": 1
+    },
+    {
+      "id": "b042d92824a7795f",
+      "path": "/fa/",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 506.69129999999996,
+        "largest-contentful-paint": 1091.43405,
+        "speed-index": 709.169716052533,
+        "total-blocking-time": 35,
+        "cumulative-layout-shift": 0.00001135757568160526,
+        "interactive": 1095.6289050000003
+      },
+      "attempt": 1
+    },
+    {
+      "id": "548c32bee2a6e2ff",
+      "path": "/tr/",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 507.3486,
+        "largest-contentful-paint": 1108.5810000000001,
+        "speed-index": 653.9519114264049,
+        "total-blocking-time": 33,
+        "cumulative-layout-shift": 0,
+        "interactive": 1114.5810000000001
+      },
+      "attempt": 1
+    },
+    {
+      "id": "964c50075cc32604",
+      "path": "/ar/",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 518.6937,
+        "largest-contentful-paint": 1006.1831999999997,
+        "speed-index": 683.5086295852393,
+        "total-blocking-time": 36,
+        "cumulative-layout-shift": 0.000009292561921313396,
+        "interactive": 1010.4627799999998
+      },
+      "attempt": 1
+    },
+    {
+      "id": "0edbe2fe56962f3a",
+      "path": "/ar/faq/",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 315.4909,
+        "largest-contentful-paint": 1020.1514999999999,
+        "speed-index": 315.4909,
+        "total-blocking-time": 23,
+        "cumulative-layout-shift": 0,
+        "interactive": 1020.1515
+      },
+      "attempt": 1
+    },
+    {
+      "id": "c151f84454399c24",
+      "path": "/en/",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 350.01545000000004,
+        "largest-contentful-paint": 929.02575,
+        "speed-index": 645.3647008448577,
+        "total-blocking-time": 14.5,
+        "cumulative-layout-shift": 0,
+        "interactive": 937.02575
+      },
+      "attempt": 1
+    },
+    {
+      "id": "18faec6cf37f610d",
+      "path": "/en/contact/",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 345.9854,
+        "largest-contentful-paint": 995.309,
+        "speed-index": 363.5277640877628,
+        "total-blocking-time": 44,
+        "cumulative-layout-shift": 0,
+        "interactive": 995.309
+      },
+      "attempt": 1
+    },
+    {
+      "id": "c360cc9dac4cf2f9",
+      "path": "/fa/quality/",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 391.39860000000004,
+        "largest-contentful-paint": 1035.3310000000001,
+        "speed-index": 391.39860000000004,
+        "total-blocking-time": 52.999999999999886,
+        "cumulative-layout-shift": 0.02908837357558371,
+        "interactive": 1035.3310000000001
+      },
+      "attempt": 1
+    },
+    {
+      "id": "56cff3b25abacbca",
+      "path": "/ru/",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 503.05755,
+        "largest-contentful-paint": 972.143875,
+        "speed-index": 624.8262247730777,
+        "total-blocking-time": 19,
+        "cumulative-layout-shift": 0,
+        "interactive": 978.6153375
+      },
+      "attempt": 1
+    }
+  ],
+  "incomplete": [],
+  "failedAuditEvidence": {
+    "sourcePolicy": "public-summary-failed-audit-index-for-latest-completed-attempts",
+    "eligibleLatestCompleted": 14,
+    "withAuditEvidence": 14,
+    "missingAuditEvidence": 0,
+    "quarantinedOutcomesExcluded": 0,
+    "otherNoncompletedOutcomesExcluded": 0,
+    "note": "Missing audit evidence is reported explicitly and does not mean there were no failed audits. Expected noindex/HTTP-denial outcomes are separate from optimization or review findings; a sub-perfect metric audit is not by itself a functional failure."
+  }
+}

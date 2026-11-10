@@ -1,0 +1,43 @@
+{
+  "url": "http://127.0.0.1:3100/tr/__lighthouse_missing_page__/",
+  "kind": "expected-404",
+  "indexed": false,
+  "expectedStatus": 404,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 404,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "5650a8fa6420a2e24ecf174b0fa6c1dfacbad1fdf0bac42328a38856e2ed9dfe",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Sayfa bulunamadı | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Bu adres geçerli değil veya sayfa artık kullanılamıyor. Ana sayfaya dönebilirsiniz."
+  ],
+  "canonicals": [],
+  "alternates": {},
+  "robots": [
+    "noindex",
+    "noindex, nofollow, noarchive",
+    "noindex, nofollow, noarchive"
+  ],
+  "noindex": true,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 0,
+    "resolvedBoundaries": 0,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 34
+}

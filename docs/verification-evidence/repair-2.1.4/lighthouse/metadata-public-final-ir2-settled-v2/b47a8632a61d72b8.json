@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/development/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "446d0ff8bd27918b54143723d99079fa07f06df6fed1a47147661a587b7dc58f",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "تحقیق و توسعه محصول | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "حرکت از تولید اکریلیک به محصولات کامپوزیتی، با توجه به بازخورد بازار و تحقیقات."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/development/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/development/",
+    "en": "http://127.0.0.1:3100/en/development/",
+    "tr": "http://127.0.0.1:3100/tr/development/",
+    "ar": "http://127.0.0.1:3100/ar/development/",
+    "ru": "http://127.0.0.1:3100/ru/development/",
+    "x-default": "http://127.0.0.1:3100/fa/development/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 41
+}

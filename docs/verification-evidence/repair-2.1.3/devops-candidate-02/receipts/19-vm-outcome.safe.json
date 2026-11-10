@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "kind": "owned-resumed-recovery-vm-outcome",
+  "runLabel": "candidate02-update",
+  "name": "recovery",
+  "startedAt": "2026-10-25T08:02:31.921964+00:00",
+  "completedAt": "2026-10-25T09:02:57.913729+00:00",
+  "elapsedSeconds": 3625.991775,
+  "pid": 55042,
+  "exitCode": 0,
+  "actualWaitConsumed": true,
+  "forcedProcessTermination": false,
+  "stopRequests": [],
+  "diskFreeBytesAtEnd": 9889783808,
+  "runtimeDisk": "/tmp/idealmakoo-acceptance-recovery-20261025-fo9a_2ry/disk.qcow2",
+  "runtimeDiskRetainedWithMatchingObservedIdentity": true,
+  "diskIdentityAfterShutdown": {
+    "path": "/tmp/idealmakoo-acceptance-recovery-20261025-fo9a_2ry/disk.qcow2",
+    "observedAt": "2026-10-25T09:02:57.913662+00:00",
+    "pathExists": true,
+    "qemuDescriptors": [],
+    "device": 27,
+    "inode": 1572886,
+    "bytes": 12572426240,
+    "allocatedBytes": 12381204480,
+    "links": 1,
+    "pathIsSymlink": false,
+    "pathMatchesActualQemuDescriptor": false
+  },
+  "lastDiskIdentityWhileRunning": {
+    "path": "/tmp/idealmakoo-acceptance-recovery-20261025-fo9a_2ry/disk.qcow2",
+    "observedAt": "2026-10-25T09:02:32.082502+00:00",
+    "pathExists": true,
+    "qemuDescriptors": [
+      {
+        "fd": 9,
+        "target": "/tmp/idealmakoo-acceptance-recovery-20261025-fo9a_2ry/disk.qcow2",
+        "device": 27,
+        "inode": 1572886,
+        "bytes": 12572426240,
+        "allocatedBytes": 12380024832,
+        "links": 1
+      }
+    ],
+    "device": 27,
+    "inode": 1572886,
+    "bytes": 12572426240,
+    "allocatedBytes": 12380024832,
+    "links": 1,
+    "pathIsSymlink": false,
+    "pathMatchesActualQemuDescriptor": true,
+    "readOnlyDiskGuardian": {
+      "pid": 55038,
+      "fd": 4,
+      "device": 27,
+      "inode": 1572886
+    }
+  },
+  "independentTmpOverlay": true,
+  "readOnlyDiskGuardian": {
+    "pid": 55038,
+    "fd": 4,
+    "device": 27,
+    "inode": 1572886
+  },
+  "stoppedDiskRetentionCopy": null,
+  "guardianHeldUntilRetainedPathVerification": true
+}

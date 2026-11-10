@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/press-kit/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "b45bc28f89c2891e2caa0c2fffb4aafa72e797d57cff7c4aedd936687ee8cad4",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "اطلاعات کارخانه برای رسانه‌ها. | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "معرفی و فایل‌های رسانه‌ای کارخانه پس از تأیید و انتشار در این بخش ارائه می‌شوند."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/press-kit/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/press-kit/",
+    "en": "http://127.0.0.1:3100/en/press-kit/",
+    "tr": "http://127.0.0.1:3100/tr/press-kit/",
+    "ar": "http://127.0.0.1:3100/ar/press-kit/",
+    "ru": "http://127.0.0.1:3100/ru/press-kit/",
+    "x-default": "http://127.0.0.1:3100/fa/press-kit/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 44
+}

@@ -1,0 +1,75 @@
+{
+  "format": "public-lighthouse-private-safe-evidence-v1",
+  "scope": {
+    "kind": "representative-public-pilot",
+    "expectedViews": 4,
+    "measuredViews": 4,
+    "roles": [
+      "anonymous"
+    ],
+    "locales": [
+      "en",
+      "fa"
+    ],
+    "devices": [
+      "mobile"
+    ],
+    "fullPublicRouteSweep": false,
+    "fullWebsitePerformanceGate": false,
+    "workflowActionsMeasured": false,
+    "limitation": "Four listed anonymous mobile navigations only. Completion is not a performance pass. Lighthouse internal load-limit warnings remain material even when the runner completes."
+  },
+  "jobs": [
+    {
+      "id": "2d3542e754aa45b5",
+      "route": "/en/contact/",
+      "locale": "en",
+      "device": "mobile",
+      "kind": "representative-public-pilot",
+      "expectedStatus": 200
+    },
+    {
+      "id": "f24cd142b15424bd",
+      "route": "/fa/",
+      "locale": "fa",
+      "device": "mobile",
+      "kind": "representative-public-pilot",
+      "expectedStatus": 200
+    },
+    {
+      "id": "74f11c38819ac33d",
+      "route": "/fa/products/",
+      "locale": "fa",
+      "device": "mobile",
+      "kind": "representative-public-pilot",
+      "expectedStatus": 200
+    },
+    {
+      "id": "b68ebf79b25cc6d0",
+      "route": "/fa/quality/",
+      "locale": "fa",
+      "device": "mobile",
+      "kind": "representative-public-pilot",
+      "expectedStatus": 200
+    }
+  ],
+  "omissions": {
+    "rawLighthouseReports": true,
+    "screenshotsAndBinaryPayloads": true,
+    "rawUrlsAndQueryIdentifiers": true,
+    "cookiesHeadersCredentialsAndSessionIdentifiers": true,
+    "domTextLabelsSnippetsAndAttributes": true,
+    "arbitraryTitlesDescriptionsDisplayValuesAndErrorText": true,
+    "networkResourceIdentifiers": true,
+    "safeSelectorPolicy": "Standard element names, combinators and positional pseudo-classes only; IDs, classes and attributes removed.",
+    "auditOutcomes": "Every audit outcome is retained. Unknown audit IDs receive an opaque alias. Image audits retain outcome metadata only.",
+    "errors": "Known Lighthouse or runner error codes and presence/counts are retained. Free-form error and warning text is omitted explicitly.",
+    "details": "Only allowlisted numeric measurements, structural containers and simplified selectors are retained.",
+    "authentication": "Anonymous public navigation; no authentication evidence is claimed.",
+    "detailMaximumArrayItems": 20,
+    "detailMaximumDepth": 8,
+    "detailMaximumNodesPerAudit": 2000,
+    "note": "A privacy-filtered derivative, not a raw Lighthouse report. Consult the separately protected raw report by its SHA-256 for omitted private details.",
+    "publicRouteAllowlistOnly": true
+  }
+}

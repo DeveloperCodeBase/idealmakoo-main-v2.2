@@ -1,0 +1,100 @@
+{
+  "format": 1,
+  "checkedAt": "2026-10-20T08:07:26.784276+00:00",
+  "passed": true,
+  "nativeOnly": true,
+  "shellcheck": {
+    "passed": true,
+    "version": "ShellCheck - shell script analysis tool\nversion: 0.11.0\nlicense: GNU General Public License, version 3\nwebsite: https://www.shellcheck.net",
+    "files": [
+      "scripts/install-ubuntu.sh",
+      "scripts/entrypoint.sh",
+      "scripts/backup.sh",
+      "scripts/restore.sh",
+      "scripts/update.sh",
+      "scripts/check-health.sh",
+      "deploy/lib.sh",
+      "deploy/postgres/init-roles.sh",
+      "deploy/clamav/idealmakoo-clamav.sh"
+    ],
+    "diagnostics": []
+  },
+  "pythonSyntax": {
+    "passed": true,
+    "files": [
+      "deploy/env-file.py",
+      "deploy/backup-archive.py",
+      "deploy/recovery-evidence.py",
+      "deploy/runtime-directories.py"
+    ]
+  },
+  "compose": {
+    "passed": true,
+    "tool": "Official standalone Compose config parser only",
+    "version": "5.6.0",
+    "profilesValidated": [
+      "default",
+      "antivirus"
+    ],
+    "services": [
+      "db",
+      "migrate",
+      "app",
+      "clamav",
+      "proxy",
+      "worker"
+    ]
+  },
+  "caddy": {
+    "passed": true,
+    "version": "v2.11.7 h1:yj0Y4fYZGPkSvibBJ1sTWE33xC0fxztVyXEW5iIdUT4=",
+    "source": "deploy/caddy/Caddyfile",
+    "validation": "Actual Caddy validate against the unmodified release configuration with local HTTP SITE_ADDRESS"
+  },
+  "officialArtifacts": [
+    {
+      "name": "docker-compose",
+      "release": "v5.6.0",
+      "sha256": "40343e21ca777173e69cff5dbafeb37c6f81f3b0d57d9e597f036e95eb63e76a",
+      "source": "https://github.com/docker/compose/releases/download/v5.6.0/docker-compose-linux-x86_64"
+    },
+    {
+      "name": "shellcheck",
+      "release": "v0.11.0",
+      "sha256": "8c3be12b05d5c177a04c29e3c78ce89ac86f1595681cab149b65b97c4e227198",
+      "source": "https://github.com/koalaman/shellcheck/releases/download/v0.11.0/shellcheck-v0.11.0.linux.x86_64.tar.xz"
+    }
+  ],
+  "sourceSha256": {
+    "scripts/install-ubuntu.sh": "7e64167d51f5376159eb84ad7ce51e11dce4652dbd1a9858bf174fe3e9a4bf83",
+    "scripts/entrypoint.sh": "b965ff1233e8fe6316e6d0af099bb44fca415da806952bbe169378dacc522296",
+    "scripts/backup.sh": "f7338f1ad1626bc6f4dba8df1b74947993993ba79cd9a423953934cecb81e243",
+    "scripts/restore.sh": "737d443720b7f29adb0ab402f04843b60c1cd1b6027b68fabf17eabe196eb5f0",
+    "scripts/update.sh": "c8cfa106e8953a8da61ef349754f4a60eecd9c1327611ab79e0c963ce0fa4510",
+    "scripts/check-health.sh": "b2bfc2a960b0e545a3cf72afe9396feb5d0c633df27fbc8ab428dcd36c616088",
+    "deploy/lib.sh": "82aefcf4206124e837f416511a1b56b220217ba37d2fe13d8425f19619756773",
+    "deploy/postgres/init-roles.sh": "e309b4126cc57e2657ed6c2c415f97c0728e0cac23467e66f91db764bb570a82",
+    "deploy/clamav/idealmakoo-clamav.sh": "aa39ab4d4202d77c2ef3ea16100de68de0523f5208f5c9efa6d9cf54f73abd44",
+    "deploy/env-file.py": "70ac8312f4c7dd094721d41ca0fd8dbafb7c2584437d7b3c00a23b835fd7c557",
+    "deploy/backup-archive.py": "e3514bdff2c855d65e191dcbc4eae4ca9e50b53b18a21281a59336f288f0a364",
+    "deploy/recovery-evidence.py": "61aa1c40c927463212e0cac727367f219d987a047f1e7ed9f2e4b02cb442de0e",
+    "deploy/runtime-directories.py": "782388ee8ca06fc017f98f39a65773eedd64e844442d1351a2d33ece84981eba",
+    "Dockerfile": "99c063ccbc9ebc57c7d4b6de3617b0cb1d9a31b6d8c7e5ecb51b993158f2f27e",
+    "docker-compose.yml": "e8ee482af0ccce6ef70f18aa8f0bafaa8f1ed86b00c5d85d41750dfada579275",
+    "deploy/caddy/Caddyfile": "44f93bb09f977a1a0689356925835ca2becfa5609e7ea13552713be894f1afd8",
+    "deploy/caddy/Dockerfile": "119de6826cd60df4ce24957428ef4bf2417eaf4b295d9a76c5017a52f6d4e251",
+    "deploy/clamav/Dockerfile": "096d411aff185836fdd88bb7c67cb999d191a2272fabf7daf1d31ef097c2263e",
+    ".env.example": "1066c274ca6f53e25a8e4cf7a10a929ea2b771b3538501c02badf4bf0c971043"
+  },
+  "privateFixtureEnvironmentRemoved": true,
+  "runtimeEnvironmentFilesUnchanged": true,
+  "dockerDaemonAvailable": false,
+  "dockerDaemonContacted": false,
+  "systemServicesChanged": false,
+  "notExecuted": [
+    "Docker image build or container execution",
+    "clean Ubuntu VM installation",
+    "destination DNS/TLS",
+    "live external-provider delivery"
+  ]
+}

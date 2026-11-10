@@ -1,0 +1,7 @@
+..........................................................................................................................................................................................................................................................................................
+----------------------------------------------------------------------
+Ran 282 tests in 115.972s
+
+OK
+Fresh protected configuration validated; missing internal secrets generated. No secret values were printed.
+Fresh protected configuration validated; missing internal secrets generated. No secret values were printed.

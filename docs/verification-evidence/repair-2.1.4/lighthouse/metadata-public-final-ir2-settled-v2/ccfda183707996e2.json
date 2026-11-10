@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/resources/antic-official-image/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "27b2d699de4e957eda4c0e6bdc8fa5274dbb5381779bc69f592a4e8192b08a9d",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "دندان آنتیک — تصویر رسمی | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "دندان آنتیک — تصویر رسمی — اسناد تصویری اصلی کارخانه"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/resources/antic-official-image/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/antic-official-image/",
+    "en": "http://127.0.0.1:3100/en/resources/antic-official-image/",
+    "tr": "http://127.0.0.1:3100/tr/resources/antic-official-image/",
+    "ar": "http://127.0.0.1:3100/ar/resources/antic-official-image/",
+    "ru": "http://127.0.0.1:3100/ru/resources/antic-official-image/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/antic-official-image/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 52
+}

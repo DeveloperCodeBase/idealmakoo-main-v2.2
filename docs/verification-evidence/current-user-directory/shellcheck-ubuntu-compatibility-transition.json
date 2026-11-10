@@ -1,0 +1,32 @@
+{
+  "format": "idealmakoo.source-transition",
+  "createdAt": "2026-10-21T05:56:10.075330+00:00",
+  "scope": "Two scoped ShellCheck 0.9.0 compatibility annotations for an intentional optional-argument call and a trap-invoked callback; executable behavior unchanged.",
+  "changes": [
+    {
+      "file": "scripts/install-ubuntu.sh",
+      "before": {
+        "file": "scripts/install-ubuntu.sh",
+        "sha256": "530d9a5a294ed6df520ed7da2d2738064fbc9e6d3e486d11154320f98ef25d5e",
+        "bytes": 25141
+      },
+      "after": {
+        "sha256": "4e58b209b06e19c8cd646b22e56935645be94e2a685c4ace7d15808fdb8b8228",
+        "bytes": 25260
+      }
+    },
+    {
+      "file": "scripts/update.sh",
+      "before": {
+        "file": "scripts/update.sh",
+        "sha256": "6c44b3b244c30af5f58e0866482a64ac76e1a650faf8141c092b241354ba42f7",
+        "bytes": 4108
+      },
+      "after": {
+        "sha256": "786c623560400ecff9b7ffe167f5526429a898e9d0cb736cbd8c38ad7839b3a3",
+        "bytes": 4115
+      }
+    }
+  ],
+  "sourceGateBefore": "devops-user-directory-final-status.json"
+}

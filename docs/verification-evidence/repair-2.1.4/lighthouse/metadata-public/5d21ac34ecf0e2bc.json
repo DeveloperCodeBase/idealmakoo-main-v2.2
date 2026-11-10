@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/glossary/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "aaa6818ddc4d84a40102641969c5ab02debb41f9e1eada9009a63df0b66d552e",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Технический словарь | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Ищите опубликованные термины и определения на этом языке. Выберите отмеченный термин в статье, чтобы прочитать определение."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/glossary/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/glossary/",
+    "en": "http://127.0.0.1:3100/en/glossary/",
+    "tr": "http://127.0.0.1:3100/tr/glossary/",
+    "ar": "http://127.0.0.1:3100/ar/glossary/",
+    "ru": "http://127.0.0.1:3100/ru/glossary/",
+    "x-default": "http://127.0.0.1:3100/fa/glossary/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 50
+}

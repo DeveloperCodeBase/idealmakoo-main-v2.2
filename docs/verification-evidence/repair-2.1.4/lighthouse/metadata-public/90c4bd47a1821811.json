@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/tools/shade-mould-matcher/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "42f5551999537d4efe004ac4b7c9f51a0ba429c025a63369d753be6f8ecc7bd4",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Renk ve kalıp rehberi | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Ürünleri aile ve malzemeye göre inceleyin, belgelenmiş özellikleri okuyun ve teknik talep hazırlayın."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/tools/shade-mould-matcher/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/tools/shade-mould-matcher/",
+    "en": "http://127.0.0.1:3100/en/tools/shade-mould-matcher/",
+    "tr": "http://127.0.0.1:3100/tr/tools/shade-mould-matcher/",
+    "ar": "http://127.0.0.1:3100/ar/tools/shade-mould-matcher/",
+    "ru": "http://127.0.0.1:3100/ru/tools/shade-mould-matcher/",
+    "x-default": "http://127.0.0.1:3100/fa/tools/shade-mould-matcher/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 51
+}

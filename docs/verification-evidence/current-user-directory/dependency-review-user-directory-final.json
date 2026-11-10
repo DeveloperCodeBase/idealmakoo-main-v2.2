@@ -1,0 +1,1272 @@
+{
+  "format": "idealmakoo.dependency-review",
+  "version": 1,
+  "observedAt": "2026-10-21T06:06:54.391Z",
+  "buildId": "bK2Eb-_hVW6EM3B-gfBNN",
+  "sourceUnchanged": true,
+  "lockSha256": "362eb9c406b73518235d96b56ada6b34842b59798ce145664dd709f8419cb73f",
+  "packageSha256": "53d7b278f31022c21c72c9531c69ff5f0edee406a29249c812d2615d5f1c28af",
+  "audit": {
+    "productionFindings": 0,
+    "all": {
+      "high": 5,
+      "moderate": 2,
+      "total": 7
+    },
+    "allExitCode": 1
+  },
+  "packages": [
+    {
+      "name": "braces",
+      "lockedVersion": "3.0.3",
+      "dev": true,
+      "latestPublishedInCurrentMajor": "3.0.3",
+      "dependencies": {
+        "fill-range": "^7.1.1"
+      }
+    },
+    {
+      "name": "chokidar",
+      "lockedVersion": "3.6.0",
+      "dev": true,
+      "latestPublishedInCurrentMajor": "3.6.0",
+      "dependencies": {
+        "anymatch": "~3.1.2",
+        "braces": "~3.0.2",
+        "glob-parent": "~5.1.2",
+        "is-binary-path": "~2.1.0",
+        "is-glob": "~4.0.1",
+        "normalize-path": "~3.0.0",
+        "readdirp": "~3.6.0"
+      }
+    },
+    {
+      "name": "fast-glob",
+      "lockedVersion": "3.3.3",
+      "dev": true,
+      "latestPublishedInCurrentMajor": "3.3.3",
+      "dependencies": {
+        "@nodelib/fs.stat": "^2.0.2",
+        "@nodelib/fs.walk": "^1.2.3",
+        "glob-parent": "^5.1.2",
+        "merge2": "^1.3.0",
+        "micromatch": "^4.0.8"
+      }
+    },
+    {
+      "name": "micromatch",
+      "lockedVersion": "4.0.8",
+      "dev": true,
+      "latestPublishedInCurrentMajor": "4.0.8",
+      "dependencies": {
+        "braces": "^3.0.3",
+        "picomatch": "^2.3.1"
+      }
+    },
+    {
+      "name": "postcss-nested",
+      "lockedVersion": "6.2.0",
+      "dev": true,
+      "latestPublishedInCurrentMajor": "6.2.0",
+      "dependencies": {
+        "postcss-selector-parser": "^6.1.1"
+      }
+    },
+    {
+      "name": "postcss-selector-parser",
+      "lockedVersion": "6.1.5",
+      "dev": true,
+      "latestPublishedInCurrentMajor": "6.1.5",
+      "dependencies": {
+        "cssesc": "^3.0.0",
+        "util-deprecate": "^1.0.2"
+      }
+    },
+    {
+      "name": "tailwindcss",
+      "lockedVersion": "3.4.17",
+      "dev": true,
+      "latestPublishedInCurrentMajor": "3.4.19",
+      "dependencies": {
+        "@alloc/quick-lru": "^5.2.0",
+        "arg": "^5.0.2",
+        "chokidar": "^3.6.0",
+        "didyoumean": "^1.2.2",
+        "dlv": "^1.1.3",
+        "fast-glob": "^3.3.2",
+        "glob-parent": "^6.0.2",
+        "is-glob": "^4.0.3",
+        "jiti": "^1.21.6",
+        "lilconfig": "^3.1.3",
+        "micromatch": "^4.0.8",
+        "normalize-path": "^3.0.0",
+        "object-hash": "^3.0.0",
+        "picocolors": "^1.1.1",
+        "postcss": "^8.4.47",
+        "postcss-import": "^15.1.0",
+        "postcss-js": "^4.0.1",
+        "postcss-load-config": "^4.0.2",
+        "postcss-nested": "^6.2.0",
+        "postcss-selector-parser": "^6.1.2",
+        "resolve": "^1.22.8",
+        "sucrase": "^3.35.0"
+      }
+    }
+  ],
+  "standalone": {
+    "scope": "Every nested package.json under the actual .next/standalone/node_modules; symlinks handled with bounded traversal",
+    "packageJsonFiles": 182,
+    "directories": 482,
+    "symlinks": [],
+    "affectedPackages": [],
+    "entriesSha256": "6e687d2075de842dc3307d887606ec357b82bb6e581acdf1ed445b463b1f005e",
+    "entries": [
+      {
+        "path": ".next/standalone/node_modules/@emnapi/runtime/package.json",
+        "name": "@emnapi/runtime",
+        "version": "1.11.3",
+        "sha256": "751db16171cb4d111905122be8a4c0dc2b5c82e6ba2a590ca24fbc6cca048f93"
+      },
+      {
+        "path": ".next/standalone/node_modules/@img/colour/package.json",
+        "name": "@img/colour",
+        "version": "1.1.0",
+        "sha256": "bc38c5097693ed53b91c32f35fb0a52569736c7854ba2eb6d080f3252071f75c"
+      },
+      {
+        "path": ".next/standalone/node_modules/@img/sharp-libvips-linux-x64/package.json",
+        "name": "@img/sharp-libvips-linux-x64",
+        "version": "1.3.4",
+        "sha256": "2c5f6f9abf74c1492622d5dc4e4da056ab0712fd71de61e03a687c88b8cdab4e"
+      },
+      {
+        "path": ".next/standalone/node_modules/@img/sharp-libvips-linuxmusl-x64/package.json",
+        "name": "@img/sharp-libvips-linuxmusl-x64",
+        "version": "1.3.4",
+        "sha256": "9d93c5ff1a47f5c79286f6c832e0ab9001feff6db50b9085f578b20a663b580e"
+      },
+      {
+        "path": ".next/standalone/node_modules/@img/sharp-linux-x64/package.json",
+        "name": "@img/sharp-linux-x64",
+        "version": "0.35.5",
+        "sha256": "181c58413d16ac3ce035f39c94c614031e03c023d88315712a81ed210c9fa04c"
+      },
+      {
+        "path": ".next/standalone/node_modules/@img/sharp-linuxmusl-x64/package.json",
+        "name": "@img/sharp-linuxmusl-x64",
+        "version": "0.35.5",
+        "sha256": "1d41eb946e8c574f27606680c8a674adce6936ef3fc05b754be38a3e3fd3857e"
+      },
+      {
+        "path": ".next/standalone/node_modules/@img/sharp-wasm32/package.json",
+        "name": "@img/sharp-wasm32",
+        "version": "0.35.5",
+        "sha256": "59d5eeaaac1c43434701f08e9ea78648aa54011159ff2eb192550432608e05c1"
+      },
+      {
+        "path": ".next/standalone/node_modules/@next/env/package.json",
+        "name": "@next/env",
+        "version": "16.4.2",
+        "sha256": "890f8f188a008f05020375b9ed0d499244e55a3e59cebc00f76b4047c51afb88"
+      },
+      {
+        "path": ".next/standalone/node_modules/@noble/ciphers/esm/package.json",
+        "name": null,
+        "version": null,
+        "sha256": "bd389eb8cfe61883bac2f31e1369498979fe1039c19d960088e863ef5d822b4d"
+      },
+      {
+        "path": ".next/standalone/node_modules/@noble/ciphers/package.json",
+        "name": "@noble/ciphers",
+        "version": "1.3.0",
+        "sha256": "d4fd92770dc4d2af454902aaea3e16f053e6f8b48ad2d95c016c662a5f1be2d4"
+      },
+      {
+        "path": ".next/standalone/node_modules/@noble/hashes/esm/package.json",
+        "name": null,
+        "version": null,
+        "sha256": "bd389eb8cfe61883bac2f31e1369498979fe1039c19d960088e863ef5d822b4d"
+      },
+      {
+        "path": ".next/standalone/node_modules/@noble/hashes/package.json",
+        "name": "@noble/hashes",
+        "version": "1.8.0",
+        "sha256": "7c4657c5e616c22cefa2691cc30670824a639dc71d97bf83925be2d239dc60e3"
+      },
+      {
+        "path": ".next/standalone/node_modules/@opentelemetry/api/package.json",
+        "name": "@opentelemetry/api",
+        "version": "1.9.1",
+        "sha256": "c0d7c72331bc8cd456dd791f2f429ddafa1d0b5b8abeb4104e6deb12f18b4a86"
+      },
+      {
+        "path": ".next/standalone/node_modules/@swc/helpers/_/_define_property/package.json",
+        "name": null,
+        "version": null,
+        "sha256": "9ad167f033349a6fd1b610e1eba7968a16425b5633dd3d6eac0e458df736dcf1"
+      },
+      {
+        "path": ".next/standalone/node_modules/@swc/helpers/_/_interop_require_default/package.json",
+        "name": null,
+        "version": null,
+        "sha256": "9cf5cdb2fda7dff60167b91a89a618c78d63f6e044e7681075efdb03a3834ed5"
+      },
+      {
+        "path": ".next/standalone/node_modules/@swc/helpers/_/_interop_require_wildcard/package.json",
+        "name": null,
+        "version": null,
+        "sha256": "0771ab9c96c3d022cfabd5f7aebfeb43192893b24b025b5b0c941c0b5b450c1f"
+      },
+      {
+        "path": ".next/standalone/node_modules/@swc/helpers/_/_ts_decorate/package.json",
+        "name": null,
+        "version": null,
+        "sha256": "1a1922a20863f4e13b88bf1f942a8888adc1e152f6f091df63e5cd67fb87794f"
+      },
+      {
+        "path": ".next/standalone/node_modules/@swc/helpers/package.json",
+        "name": "@swc/helpers",
+        "version": "0.5.23",
+        "sha256": "10ee79b75759afbf8cfa2b8e5a2eff946c487143e935fc31b2433aa68be84596"
+      },
+      {
+        "path": ".next/standalone/node_modules/base64-js/package.json",
+        "name": "base64-js",
+        "version": "1.5.1",
+        "sha256": "9758f3ab8c45e07bb9a368e32f9a8b3729623bbf47cbbb205b32d674ab2a91f0"
+      },
+      {
+        "path": ".next/standalone/node_modules/baseline-browser-mapping/package.json",
+        "name": "baseline-browser-mapping",
+        "version": "2.11.29",
+        "sha256": "5aa0f5010239dd299632eaa426e040b418834bdc412f33376c2ef95958769d36"
+      },
+      {
+        "path": ".next/standalone/node_modules/brotli/package.json",
+        "name": "brotli",
+        "version": "1.3.3",
+        "sha256": "387b47d00ea96cab9b4c521629fbcdc7621053ac061812526f3c69700924cef5"
+      },
+      {
+        "path": ".next/standalone/node_modules/caniuse-lite/package.json",
+        "name": "caniuse-lite",
+        "version": "1.0.30001816",
+        "sha256": "c40fe84462acdbd5f9541f5d9dad68f401692d9e24393c89fa0a567cedcfa78e"
+      },
+      {
+        "path": ".next/standalone/node_modules/client-only/package.json",
+        "name": "client-only",
+        "version": "0.0.1",
+        "sha256": "4d6342705767832f299b9a59c28e4275bcf02db19472732f93f67d979441df8f"
+      },
+      {
+        "path": ".next/standalone/node_modules/clone/package.json",
+        "name": "clone",
+        "version": "2.1.2",
+        "sha256": "07e9c7efd55a99cbe2909d1fd46b032b67cba6b493d1fbc974fddf4f2adebc83"
+      },
+      {
+        "path": ".next/standalone/node_modules/detect-libc/package.json",
+        "name": "detect-libc",
+        "version": "2.1.2",
+        "sha256": "ee88e5b954fdf3a8480b1d01ef767d68d8ca2c6da269f58c5cf1c5550e9aa2a7"
+      },
+      {
+        "path": ".next/standalone/node_modules/dfa/package.json",
+        "name": "dfa",
+        "version": "1.2.0",
+        "sha256": "96c0ce3cc17b34aabd58fd442157766d9e244cba735e54ee4fe10d7841f0460c"
+      },
+      {
+        "path": ".next/standalone/node_modules/dijkstrajs/package.json",
+        "name": "dijkstrajs",
+        "version": "1.0.3",
+        "sha256": "b523e007019401be68405b83e846ef9da4682026e8be339ee4ee7888e90b865a"
+      },
+      {
+        "path": ".next/standalone/node_modules/fast-deep-equal/package.json",
+        "name": "fast-deep-equal",
+        "version": "3.1.3",
+        "sha256": "a5c63940db0260739be9e2ac67f3aac268df4db5770420ee4e34e493152f97d2"
+      },
+      {
+        "path": ".next/standalone/node_modules/fontkit/package.json",
+        "name": "fontkit",
+        "version": "2.0.4",
+        "sha256": "49c60605b92316a5d5fe57b9a3bca8950ad9a8beab1cb633d6f29862d1bd163d"
+      },
+      {
+        "path": ".next/standalone/node_modules/linebreak/node_modules/base64-js/package.json",
+        "name": "base64-js",
+        "version": "0.0.8",
+        "sha256": "c02b020c7ee58e1dd08812e7fe2808881433a4aaa4331b0a440961e8ce853e3e"
+      },
+      {
+        "path": ".next/standalone/node_modules/linebreak/package.json",
+        "name": "linebreak",
+        "version": "1.1.0",
+        "sha256": "53f67b29d3d0c3bc43501bf17d658aa611a668128eeba39ae9eabeb1cdb505d0"
+      },
+      {
+        "path": ".next/standalone/node_modules/nanoid/non-secure/package.json",
+        "name": null,
+        "version": null,
+        "sha256": "2f9b8c4bee9312538f388b49c13987f4565ac25d6756fabdbbb771d339945e3e"
+      },
+      {
+        "path": ".next/standalone/node_modules/nanoid/package.json",
+        "name": "nanoid",
+        "version": "3.3.20",
+        "sha256": "e2a77185ded1c006171e4e2f8b316d0e3b4c51a135a190851cfc888ea428f6bf"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/@edge-runtime/cookies/package.json",
+        "name": "@edge-runtime/cookies",
+        "version": "6.0.0",
+        "sha256": "84dec8086a6d6a1176ff52a54dbc4542aeca7241214a0cf7d5af2870ee422db2"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/@edge-runtime/ponyfill/package.json",
+        "name": "@edge-runtime/ponyfill",
+        "version": "4.0.0",
+        "sha256": "04d31884423b345e3abddc712adc85e10347ccf057630b23a930f1ba9af56708"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/@edge-runtime/primitives/package.json",
+        "name": "@edge-runtime/primitives",
+        "version": "6.0.0",
+        "sha256": "ee5dfbcb78d0c753908a0643fc23d7486cf4478872789bca8722a88f71d5c213"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/@hapi/accept/package.json",
+        "name": "@hapi/accept",
+        "version": null,
+        "sha256": "0e264b353f98a5047f47a4af7cd718888f33345d78a8bbea30eaaac585059abc"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/@mswjs/interceptors/ClientRequest/package.json",
+        "name": "@mswjs/interceptors",
+        "version": null,
+        "sha256": "d01c0050c9f635ad97c5e49368f456db68dc474bb7f8ada9b78121c90ed9f287"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/@napi-rs/triples/package.json",
+        "name": "@napi-rs/triples",
+        "version": null,
+        "sha256": "828a978674962e997f0f5d2920124bc17a4e9f1ba7a55d7f8ea72e25675bcef8"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/@next/font/package.json",
+        "name": "@next/font",
+        "version": null,
+        "sha256": "c99740a4da3ab17fdbfed0b601e2e8084a7a9463f62a13e5a7ed106648976586"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/@opentelemetry/api/package.json",
+        "name": "@opentelemetry/api",
+        "version": null,
+        "sha256": "a7352d5f47b67b86f38d634360f761fa2356a4256f42a5239a12892b6b08074a"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/@vercel/detect-agent/package.json",
+        "name": "@vercel/detect-agent",
+        "version": null,
+        "sha256": "c8ed9a25f3b85a9c400e05f23e998bdfa820e83665c71fd9164eb584f7684afd"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/@vercel/nft/package.json",
+        "name": "@vercel/nft",
+        "version": null,
+        "sha256": "3d26054595f0ea7f5f26e0b5a269521f77fa4fd030dd7c964c492c7a018e4d22"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/acorn/package.json",
+        "name": "acorn",
+        "version": null,
+        "sha256": "aa6eff9593179bc7379017992eda314ce97bd7c6576869d82d514139ce612cca"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/assert/package.json",
+        "name": "assert",
+        "version": null,
+        "sha256": "cee48f1c2973cbe0cc9075fa1ad46540571e39f82368b90680e3f08385acc67d"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/async-retry/package.json",
+        "name": "async-retry",
+        "version": null,
+        "sha256": "b17113b29f3ee160e536bacf5332fb1cc91f81f5dba02db749491a469108b9e5"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/async-sema/package.json",
+        "name": "async-sema",
+        "version": null,
+        "sha256": "327a56df6511702ea28014e18425bd50300890fb433d1e8e8cf200ab33ac70c5"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/babel/package.json",
+        "name": "@babel/core",
+        "version": null,
+        "sha256": "74a866ce237c245a6657979b9255e4e702711ba2f83a72a9d1d9d5647037f322"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/babel-packages/package.json",
+        "name": "babel-packages",
+        "version": null,
+        "sha256": "828b12b4e497121b9a04735e1defeeb93dfde3c7531ce7b89b568ed520c86b4e"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/browserify-zlib/package.json",
+        "name": "browserify-zlib",
+        "version": null,
+        "sha256": "fbfda5f3dd28400e7e43080c996f39ceb97ff45dc94237b218bdb9785afa163d"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/browserslist/package.json",
+        "name": "browserslist",
+        "version": null,
+        "sha256": "5c9be14e5f45d01c0f11ce740c55b61008e3878d9003121989a2d5700b1e7ff1"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/buffer/package.json",
+        "name": "buffer",
+        "version": null,
+        "sha256": "beec4c77cd84bb8bbcbd9ad3ddc435bf9b4369884a56cb2c4cfb9e8805eb87cb"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/busboy/package.json",
+        "name": "busboy",
+        "version": null,
+        "sha256": "7ec808358d01f7e153eec8ace30496d69f066e589abd3b1deaaadaa24a2c9e78"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/bytes/package.json",
+        "name": "bytes",
+        "version": null,
+        "sha256": "f67cda9a406b0173dd8bce3165b246a7461f0b6aa8b1db5d773a8d858e618e0d"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/ci-info/package.json",
+        "name": "ci-info",
+        "version": null,
+        "sha256": "5f266b005be5715f7971df5255242ce2684ecb7d073ee597ad7a01c5049d9889"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/commander/package.json",
+        "name": "commander",
+        "version": null,
+        "sha256": "23bca2c540bfa9a86bfc07d3d3322a5821c11d9d1c8d592bc5bfbc8b0641745d"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/comment-json/package.json",
+        "name": "comment-json",
+        "version": null,
+        "sha256": "a3f86bf44c9a56dd6c9724a32938c8aa3876412ebb17400b613563f79017bf5d"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/compression/package.json",
+        "name": "compression",
+        "version": null,
+        "sha256": "bb26d52201279816e928ccd1a58ecdd0fab49d7feb3136b8c74e82b09a0f2bb9"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/conf/package.json",
+        "name": "conf",
+        "version": null,
+        "sha256": "0a761c63beca5354c035de3f8a0844a1a64f62e94d08ef8c57e2571701cb0d90"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/constants-browserify/package.json",
+        "name": "constants-browserify",
+        "version": null,
+        "sha256": "57ff101ce1ee4f9ff1cd717424bfc9ba13db28c0ed99e7ce06ff8e4f080a56f2"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/content-disposition/package.json",
+        "name": "content-disposition",
+        "version": null,
+        "sha256": "deee6f8ca16ef491cfcc902176392f0c06fb7bea87338f521c384a174553c7bb"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/content-type/package.json",
+        "name": "content-type",
+        "version": null,
+        "sha256": "0c481f9c3a287b38fe0ccaa61173cd46ae210e1f9a61bca6bc6abacef66c4e3c"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/cookie/package.json",
+        "name": "cookie",
+        "version": null,
+        "sha256": "202616a73f282bc2c6243db8781e044d0fa1090d15b0a35eea88431ebcb8ac84"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/cross-spawn/package.json",
+        "name": "cross-spawn",
+        "version": null,
+        "sha256": "427908598a096747431c250f457a5440b2b4828d6243db1c98d89ac8467b84a3"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/crypto-browserify/package.json",
+        "name": "crypto-browserify",
+        "version": null,
+        "sha256": "231080cafc3e64b7bcc175551a70ed4b3b15396d721417c56f227fa4aeda45d4"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/data-uri-to-buffer/package.json",
+        "name": "data-uri-to-buffer",
+        "version": null,
+        "sha256": "7884ade4aa4ccd6fa4c15a37591172fccc6b543e3cc6c1a0fef7888f39d1b39e"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/debug/package.json",
+        "name": "debug",
+        "version": null,
+        "sha256": "ead56d5fb4a68fe23ce148b366356f9a56c8f12e14891db6bd8425b339cb360a"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/devalue/package.json",
+        "name": "devalue",
+        "version": null,
+        "sha256": "02cc0546b6f93a1d07c2f10db73edc761a7b6353130982b90113bb9b051c8b4f"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/domain-browser/package.json",
+        "name": "domain-browser",
+        "version": null,
+        "sha256": "102f56b1f979828dc82944853a4df4d728d44f61c34e729ecd07b82dca0ba56a"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/edge-runtime/package.json",
+        "name": "edge-runtime",
+        "version": null,
+        "sha256": "9887ce733e2d0abdb8a5c2307e1ddd952f144bd8df2fd67d53595732a7590b1e"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/events/package.json",
+        "name": "events",
+        "version": null,
+        "sha256": "d1b2b2fc773bb2dc793372c848c00f60c721137ba0762370a4516f603670f143"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/find-up/package.json",
+        "name": "find-up",
+        "version": null,
+        "sha256": "7658d63408818236df3c4fd7107c5712d73106f7939649043b81d2fd1c18f705"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/fresh/package.json",
+        "name": "fresh",
+        "version": null,
+        "sha256": "0f8f39469d55646a4a359833c464529df8720059c1db552f9e94036c06ac4f47"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/gzip-size/package.json",
+        "name": "gzip-size",
+        "version": null,
+        "sha256": "88fa90031b294d01b1ccd41443ac213710cd3aeb3abae96f2d9dd25b31c697ee"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/hash.js/sha256/package.json",
+        "name": "hash.js",
+        "version": null,
+        "sha256": "9e3e1ca5476a97095284acfe43acdb69ac9de7a1cf2bcc70547bfe62538feb6f"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/http-proxy-agent/package.json",
+        "name": "http-proxy-agent",
+        "version": null,
+        "sha256": "00884de8effb02adaab8ea8fce8d0ac9240dee19df517eb87dc35cdf5ba8ed79"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/https-browserify/package.json",
+        "name": "https-browserify",
+        "version": null,
+        "sha256": "f0e319d9ff18e39dae7cd7a7cba7e22e8faae1e7b149dd86279fa5ae7730fa7b"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/https-proxy-agent/package.json",
+        "name": "https-proxy-agent",
+        "version": null,
+        "sha256": "144ceffc497b5f331153c9d291f682f5264595c7b8711baa1d93de5f53897c4e"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/httpxy/package.json",
+        "name": "httpxy",
+        "version": null,
+        "sha256": "1a24e02af08692a30d9a29580d267d14c70e307df1d1ba765fee94787fb95afa"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/icss-utils/package.json",
+        "name": "icss-utils",
+        "version": null,
+        "sha256": "a28db1d8a722f0f40b351bbca8c8e8559bbe09a4021448f954c8b9d4860f92d5"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/ignore-loader/package.json",
+        "name": "ignore-loader",
+        "version": null,
+        "sha256": "570b3e062c5757cb39e8f81060b4884ac32fdc8cdcd5a7e7d99385607239bf73"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/image-size/package.json",
+        "name": "image-size",
+        "version": null,
+        "sha256": "0f08e3455955e889e24ae141610e910ff606c4ff779f1cb67407ad5036a15bb9"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/ipaddr.js/package.json",
+        "name": "ipaddr.js",
+        "version": null,
+        "sha256": "28f0b70ca1c217b65158ff0d05247025b2e8810351902946d3c5ff3dad209507"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/is-animated/package.json",
+        "name": "is-animated",
+        "version": null,
+        "sha256": "61fa46c5a1bb37239f12272b650527742595eb63a5104f7e625469370562585a"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/is-docker/package.json",
+        "name": "is-docker",
+        "version": null,
+        "sha256": "aac5594fc4ae98f4b297f52c91fede06bc9eca25915a216d192a6bd3952609bb"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/is-wsl/package.json",
+        "name": "is-wsl",
+        "version": null,
+        "sha256": "189b610be03f7aab4bf124bf31fcf75a03f6504b115648991c2c10dc8a11263e"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/jest-worker/package.json",
+        "name": "jest-worker",
+        "version": null,
+        "sha256": "9b89fefb8dad25d6f083de6c34d156be2ced3cab898354e6b1360260d6f843d9"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/json5/package.json",
+        "name": "json5",
+        "version": null,
+        "sha256": "5662b636583985d168a45c9c61b1a874ad5dd0cfc2e95984b1a218e73f93c18f"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/jsonwebtoken/package.json",
+        "name": "jsonwebtoken",
+        "version": null,
+        "sha256": "f35673a4e7c1dcaa11adc4ea0a6d0272692877bbf7e82a7831a5bbbcd3bb4400"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/loader-utils2/package.json",
+        "name": "loader-utils",
+        "version": null,
+        "sha256": "997729fb489c230d7ee272c392237d90b6d2aea6006e66c664374caa0af55db0"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/loader-utils3/package.json",
+        "name": "loader-utils",
+        "version": null,
+        "sha256": "997729fb489c230d7ee272c392237d90b6d2aea6006e66c664374caa0af55db0"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/lodash.curry/package.json",
+        "name": "lodash.curry",
+        "version": null,
+        "sha256": "423851cd0529ddf3b16f399efa82ef71aa54e03faa275c680e46468c07ab0ed5"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/lru-cache/package.json",
+        "name": "lru-cache",
+        "version": null,
+        "sha256": "12b2e366f83a8cf697dec2cc400f135bfd07fb62d02df0df5fcab4d7cb98f631"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/mini-css-extract-plugin/package.json",
+        "name": "mini-css-extract-plugin",
+        "version": null,
+        "sha256": "a940820e002afcfc41db9eb8856fd709af8fe6002ac378e02206ff4dec9bfc62"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/nanoid/package.json",
+        "name": "nanoid",
+        "version": null,
+        "sha256": "9383f87d5189f73399e60c5b9666fe4930f35ba304355e3555c74f5d9d2ff006"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/native-url/package.json",
+        "name": "native-url",
+        "version": null,
+        "sha256": "8056830cb93b8f4904d1e63c7e40abdcac725623e19aa6cb0a07964757570402"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/neo-async/package.json",
+        "name": "neo-async",
+        "version": null,
+        "sha256": "ab030dfc79c2b9b39e329d2fb518891cef7479cc62c95cf1a691e19e2364e0e1"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/os-browserify/package.json",
+        "name": "os-browserify",
+        "version": null,
+        "sha256": "b27bdc906022bfe4361aeeed67b6874df02c7b324db6eac870f8f89a5113af5a"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/p-limit/package.json",
+        "name": "p-limit",
+        "version": null,
+        "sha256": "40495ef05f0ea39ba8d64eb98e492f2d461985e18a937b87b523b3322dbae5ea"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/p-queue/package.json",
+        "name": "p-queue",
+        "version": null,
+        "sha256": "50f88936a3223c57edfde9e3844e932e20501f49403a761ec210b39d565bc2a6"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/path-browserify/package.json",
+        "name": "path-browserify",
+        "version": null,
+        "sha256": "6be7adc0449e83f7f2295aad331b7cde780dda2c97c54ba51f51de74114b02a1"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/path-to-regexp/package.json",
+        "name": "path-to-regexp",
+        "version": null,
+        "sha256": "5bf6a22265a08b61b2ab9e05a77cea0dd0f078dd086d17769a2c5b4f93a7426a"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/picomatch/package.json",
+        "name": "picomatch",
+        "version": null,
+        "sha256": "bcb6e75087cfe22755400218f098b6b36805627e5f54171abf58454f6484ac47"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/postcss-flexbugs-fixes/package.json",
+        "name": "postcss-flexbugs-fixes",
+        "version": null,
+        "sha256": "233739e87858b972ff4100d4f7f7a9fa5adab75b7f3202ecab808892ad0d7439"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/postcss-modules-extract-imports/package.json",
+        "name": "postcss-modules-extract-imports",
+        "version": null,
+        "sha256": "37b6b10887f8d084500ab94e349f3db0f0ef02dcb6439a4e6aa849b13a81ff8f"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/postcss-modules-local-by-default/package.json",
+        "name": "postcss-modules-local-by-default",
+        "version": null,
+        "sha256": "2b99f876f88e1ff8bbd2bcabec5120d9fb12015c1050a8b2e0cd6aed902c2a09"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/postcss-modules-scope/package.json",
+        "name": "postcss-modules-scope",
+        "version": null,
+        "sha256": "0594c88976370138023c222480d65eaec2591b859366c7dcd33cf5f2576a1d99"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/postcss-modules-values/package.json",
+        "name": "postcss-modules-values",
+        "version": null,
+        "sha256": "75686122910108295fd244fcb2e7ed2cd8f2785e571152c15838febaeb5f9e99"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/postcss-preset-env/package.json",
+        "name": "postcss-preset-env",
+        "version": null,
+        "sha256": "22056897f5fa4de9e64c5ca87d14008b3ddc01be85fe33c1f3eeae513dadea22"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/postcss-scss/package.json",
+        "name": "postcss-scss",
+        "version": null,
+        "sha256": "d054cb1fce9ea5852729c829bab799126eae2c07ca3f33d761760cae829cb10f"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/postcss-value-parser/package.json",
+        "name": "postcss-value-parser",
+        "version": null,
+        "sha256": "096375657ecf115fc78281f8c43c0cec36cd6396e2801d463f700fd987d9a8e8"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/process/package.json",
+        "name": "process",
+        "version": null,
+        "sha256": "f1c6ff9dc88ded25db7f9e314b18124c8e5648c8fa4de324968d6c83914a5cfd"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/punycode/package.json",
+        "name": "punycode",
+        "version": null,
+        "sha256": "4d69f3d2928226148fd39c2b9724d60c560ca13f01729937964ea3bfb4e2e19b"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/querystring-es3/package.json",
+        "name": "querystring-es3",
+        "version": null,
+        "sha256": "deef9957fd78ab6495db1c8ac121d9bd7b0e65af73f50a554efac5b5a7144f08"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/raw-body/package.json",
+        "name": "raw-body",
+        "version": null,
+        "sha256": "ebc1e2456bc3c948d587d9cbbfc845a4cd4a839732d2072afdbf23b918792ef0"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/react-is/package.json",
+        "name": "react-is",
+        "version": "19.3.0-canary-278794d7-20261002",
+        "sha256": "69e79adbb6a1deb024d889b0ea9e25c3aa3ca339f60759c9413185bcd5b85bda"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/react-refresh/package.json",
+        "name": "react-refresh",
+        "version": "0.12.0",
+        "sha256": "7634851c499058e71f98f6333982d2ed2bcd109bfe0e86a71d4134281a7c497c"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/regenerator-runtime/package.json",
+        "name": "regenerator-runtime",
+        "version": "0.13.4",
+        "sha256": "19a1b69415c9661789cb9c87e822a6fbd976d78ac8d31d7d6ce30acc86a491cf"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/safe-stable-stringify/package.json",
+        "name": "safe-stable-stringify",
+        "version": null,
+        "sha256": "5fd2e6d5ad1018bfb55b5af6bb2bdd61b1314b7993586953e5c6841eb4b936d6"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/sass-loader/package.json",
+        "name": "sass-loader",
+        "version": null,
+        "sha256": "021cd8eefc24b305b58e1379f83368f54083baa3a8d06f529bbe79d3380ddec8"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/schema-utils3/package.json",
+        "name": "schema-utils",
+        "version": null,
+        "sha256": "1213b565bcb89186df47543861eab7c2b262a71c9a3805cfb82d539f1d73d6bc"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/semver/package.json",
+        "name": "semver",
+        "version": null,
+        "sha256": "3b7c2da335e6f7d178a13d32917fc6ad85d62e6ca2cda2513e52815aa7ca95e9"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/send/package.json",
+        "name": "send",
+        "version": null,
+        "sha256": "9ee32160a660db32561814157aec6fa4054e79ff838c80981808d839bfec6938"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/setimmediate/package.json",
+        "name": "setimmediate",
+        "version": null,
+        "sha256": "07c28ab21f75001cd3c5f0e49a2171bc5c55536b55296b4fc9425810a01bea8a"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/shell-quote/package.json",
+        "name": "shell-quote",
+        "version": null,
+        "sha256": "907fda3052f7e1ece852b1cf025642aa3d90cb96ccccf4d568017d974002e9af"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/source-map/package.json",
+        "name": "source-map",
+        "version": null,
+        "sha256": "64b17ef1036027151303e0d09a47a0507901878accd7f6d8276a71c06a2e4312"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/source-map08/package.json",
+        "name": "source-map08",
+        "version": null,
+        "sha256": "3c7de96c15e46a376f876ea51b70daac14988f5a8bd261565e21a0e17b14a8c1"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/stacktrace-parser/package.json",
+        "name": "stacktrace-parser",
+        "version": null,
+        "sha256": "72e32b3357e6fab245dc57c202a274cdd75020cd23ce6a1a9916bfa6127d80cf"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/stream-browserify/package.json",
+        "name": "stream-browserify",
+        "version": null,
+        "sha256": "fe7da53b4104f1ef65c7f28d8ba2e0e46f1ab61e71dd11f0bf374dd1742ddcf9"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/stream-http/package.json",
+        "name": "stream-http",
+        "version": null,
+        "sha256": "e5ec05a5ff5a2bf75d194542d26dc7e5fe46a22a60f020e08729ab70bffba947"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/string-hash/package.json",
+        "name": "string-hash",
+        "version": null,
+        "sha256": "afb2563fe191f4e7eecc9e6bf1131f07da3f855e6e51b2d517206ae737b343b0"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/string_decoder/package.json",
+        "name": "string_decoder",
+        "version": null,
+        "sha256": "0ff89407b42b08cb0cfe9aaa590b593693e3b07ebb16902f42297c00453f25ab"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/strip-ansi/package.json",
+        "name": "strip-ansi",
+        "version": null,
+        "sha256": "a3005e66c096be0df65ecba459ee8cd1aabb39970615eed0e73f5b7cb8ae5672"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/superstruct/package.json",
+        "name": "superstruct",
+        "version": null,
+        "sha256": "30e83d602cf8471740fa94fe38c3bedbdf400aabe94160154557f558c5ee7fd8"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/tar/package.json",
+        "name": "tar",
+        "version": null,
+        "sha256": "d118552ac665732fb7a1bb0e08dba0ab1d21a0edbc0eb3601a094ef821198f21"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/text-table/package.json",
+        "name": "text-table",
+        "version": null,
+        "sha256": "b4175217ffbbbc394e1914b32227416464e8d04ee3fff315c7dea0fc1c478961"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/timers-browserify/package.json",
+        "name": "timers-browserify",
+        "version": null,
+        "sha256": "8ca98b86666056d8a2096f7cbf391e67f7db6564a0869736bee34c9503558abd"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/tty-browserify/package.json",
+        "name": "tty-browserify",
+        "version": null,
+        "sha256": "14c14e5fb2bb63d8d59ac7a356cd0744e47f7901571835d931e2c92be79b60cb"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/unistore/package.json",
+        "name": "unistore",
+        "version": null,
+        "sha256": "e87b50fb2eb256e59fa61d95ff0fb4e93529edcbc261eafca05d8b78abd8d612"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/util/package.json",
+        "name": "util",
+        "version": null,
+        "sha256": "7572a0bd8de81dec020332fdb8ef9648775e778d45c8a4412f23af72fcbe1112"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/vm-browserify/package.json",
+        "name": "vm-browserify",
+        "version": null,
+        "sha256": "962e75a1f1639a60d74753649cc10f087ece7154f97a087e7930011debed6cb1"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/watchpack/package.json",
+        "name": "watchpack",
+        "version": null,
+        "sha256": "e906fea196fd89a89690c506e75ea3daea427ca00f64daeda491f95bd829335c"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/write-file-atomic/package.json",
+        "name": "write-file-atomic",
+        "version": null,
+        "sha256": "4f98c17cb9cdd527588d48a536808594d323e4afc459c53e3eeb7961bd1eff70"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/ws/package.json",
+        "name": "ws",
+        "version": null,
+        "sha256": "40f71b1fd703434f93cf2d4f34a68ccdd884de8b70b5ab05b2ee197726e19b26"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/zod/package.json",
+        "name": "zod",
+        "version": null,
+        "sha256": "53c461e9ad93deaa50e7d07a81b6b772dfb0a99f8a5b30414deb895fa95de30c"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/dist/compiled/zod-validation-error/package.json",
+        "name": "zod-validation-error",
+        "version": null,
+        "sha256": "0e378c7dede8f0e0077e25bf6895728c3fb855350c7315fa5175f783fe0a8d14"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/node_modules/postcss/package.json",
+        "name": "postcss",
+        "version": "8.5.23",
+        "sha256": "df43e035f054943454c49556c89cea8a288d91f5d4b1a6f4e56d48b85c7ebd75"
+      },
+      {
+        "path": ".next/standalone/node_modules/next/package.json",
+        "name": "next",
+        "version": "16.4.2",
+        "sha256": "e84ada0a68191fed192392bfb8ee35ad4ed8e7439f645a40dd48cf139588ddc5"
+      },
+      {
+        "path": ".next/standalone/node_modules/nodemailer/dist/cjs/package.json",
+        "name": null,
+        "version": null,
+        "sha256": "3d04369a44dc75f6a70dfc51080beb357eb39b395a2db0b6557ce8b9900ceec4"
+      },
+      {
+        "path": ".next/standalone/node_modules/nodemailer/dist/esm/package.json",
+        "name": null,
+        "version": null,
+        "sha256": "c366c8924e786646a7e69185092cddccd3953667e8476f584ebbcc548b632690"
+      },
+      {
+        "path": ".next/standalone/node_modules/nodemailer/package.json",
+        "name": "nodemailer",
+        "version": "10.1.7",
+        "sha256": "d0abc740bf63dfabf87a439f2d8b4c18a6c139cded50eb771e362c91c6399996"
+      },
+      {
+        "path": ".next/standalone/node_modules/pdfkit/package.json",
+        "name": "pdfkit",
+        "version": "0.20.2",
+        "sha256": "2356214bbf00ab5b9d008746b92483c92c6644373c5f070d893574b0d8235b97"
+      },
+      {
+        "path": ".next/standalone/node_modules/pg/package.json",
+        "name": "pg",
+        "version": "8.23.1",
+        "sha256": "b1e53333a3d0c2c47c49a5cb919d221135dc03145df740925b899bc2baacc435"
+      },
+      {
+        "path": ".next/standalone/node_modules/pg-cloudflare/package.json",
+        "name": "pg-cloudflare",
+        "version": "1.4.1",
+        "sha256": "93b30ce3bed1ce3b836aa344c8afdaab74a42c03720e8d5baa801b6ae84ca3e7"
+      },
+      {
+        "path": ".next/standalone/node_modules/pg-connection-string/package.json",
+        "name": "pg-connection-string",
+        "version": "2.14.1",
+        "sha256": "53d453c5a426e69a11ff479e0d8a293505faa1833e6eb3ff7ceefdaac569e3ea"
+      },
+      {
+        "path": ".next/standalone/node_modules/pg-int8/package.json",
+        "name": "pg-int8",
+        "version": "1.0.1",
+        "sha256": "147155887a41bb6f69ff98b3dde827b7e6a8214c3a71938da4babf8e12adff2e"
+      },
+      {
+        "path": ".next/standalone/node_modules/pg-pool/package.json",
+        "name": "pg-pool",
+        "version": "3.14.0",
+        "sha256": "0a9924def9e06f791b09a44eaefb227f323a39199887f6ce17b44cb5a9193134"
+      },
+      {
+        "path": ".next/standalone/node_modules/pg-protocol/package.json",
+        "name": "pg-protocol",
+        "version": "1.16.1",
+        "sha256": "a4a4e23027b26c72be7729d045d0100ad9329959db0449c535fa7b2ba2e717c6"
+      },
+      {
+        "path": ".next/standalone/node_modules/pg-types/package.json",
+        "name": "pg-types",
+        "version": "2.2.0",
+        "sha256": "3ec0293cb38cc8d9475e3eb32ac5f19d195bf9fccc8b19a0714e6ecd6e7c2cf0"
+      },
+      {
+        "path": ".next/standalone/node_modules/pgpass/package.json",
+        "name": "pgpass",
+        "version": "1.0.5",
+        "sha256": "d75240eb4fe759c10db9f903838275348676a8bdc1f329e20a833713cd7c99bd"
+      },
+      {
+        "path": ".next/standalone/node_modules/picocolors/package.json",
+        "name": "picocolors",
+        "version": "1.1.1",
+        "sha256": "ef2ac226c4811d312e12c64214c453878653e834482125ae475f27cea60de737"
+      },
+      {
+        "path": ".next/standalone/node_modules/png-js/package.json",
+        "name": "png-js",
+        "version": "2.0.0",
+        "sha256": "58659c7b894f4d9248a2845a1a9a9b457b1f54f461aef65ad77c183ae944358a"
+      },
+      {
+        "path": ".next/standalone/node_modules/pngjs/package.json",
+        "name": "pngjs",
+        "version": "5.0.0",
+        "sha256": "1f3fbe71a51c03470a83044efb2f7dfcca4877f22f1d54f9d952081cb28fbedf"
+      },
+      {
+        "path": ".next/standalone/node_modules/postgres-array/package.json",
+        "name": "postgres-array",
+        "version": "2.0.0",
+        "sha256": "dcd6a505fcbc032b409ee2838ab2c776dea3a9cfe02b736364b6cb82a946665f"
+      },
+      {
+        "path": ".next/standalone/node_modules/postgres-bytea/package.json",
+        "name": "postgres-bytea",
+        "version": "1.0.1",
+        "sha256": "9125568c5fb51a65b8f11adb0080c2775b99ee82822d73bff8b56b2a9d47d7aa"
+      },
+      {
+        "path": ".next/standalone/node_modules/postgres-date/package.json",
+        "name": "postgres-date",
+        "version": "1.0.7",
+        "sha256": "03f9edefa96697072075e02df045cc61ed4ca2f8dfffb1ff87f4070bc3404151"
+      },
+      {
+        "path": ".next/standalone/node_modules/postgres-interval/package.json",
+        "name": "postgres-interval",
+        "version": "1.2.0",
+        "sha256": "cc3056db105e66c9128cb8a387cda782d5f1ae9281be90de0b8d26a90af89c57"
+      },
+      {
+        "path": ".next/standalone/node_modules/qrcode/package.json",
+        "name": "qrcode",
+        "version": "1.5.4",
+        "sha256": "cbe26d7282c802f4ab9c1f790c5d8450d2b5c82e8bb5f67e3a5c2641ea347d1d"
+      },
+      {
+        "path": ".next/standalone/node_modules/react/package.json",
+        "name": "react",
+        "version": "19.3.1",
+        "sha256": "9cc9c3de5441a2eea7f41f52f3f2a15a4fc51f90c0b72741f0d7638643a85e67"
+      },
+      {
+        "path": ".next/standalone/node_modules/react-dom/package.json",
+        "name": "react-dom",
+        "version": "19.3.1",
+        "sha256": "89d54f11575c9b0f7819962d9d72a31970dfb4d103f07e8b1d1b37e6d1fc3258"
+      },
+      {
+        "path": ".next/standalone/node_modules/restructure/package.json",
+        "name": "restructure",
+        "version": "3.0.2",
+        "sha256": "f28780f515208c0fc417a2e49340b0cd1c146ff20ce6bfeee3593e64a8f74d14"
+      },
+      {
+        "path": ".next/standalone/node_modules/semver/package.json",
+        "name": "semver",
+        "version": "7.8.5",
+        "sha256": "7c94cb7f2a53c27b20d76386ec144c062894dbcc909cfabd0f728c37874b1776"
+      },
+      {
+        "path": ".next/standalone/node_modules/sharp/package.json",
+        "name": "sharp",
+        "version": "0.35.5",
+        "sha256": "ad4a2535d72eb638053a38867b1abf43c328cd1c1dbae5cf4172d498365a8b97"
+      },
+      {
+        "path": ".next/standalone/node_modules/source-map-js/package.json",
+        "name": "source-map-js",
+        "version": "1.2.2",
+        "sha256": "9f1ea63b1661d0f6e5fcd50b625d86cddd77de870a0019b23262360987b487f5"
+      },
+      {
+        "path": ".next/standalone/node_modules/split2/package.json",
+        "name": "split2",
+        "version": "4.2.0",
+        "sha256": "87b734c3087c8d9ed5d76d1bff00db30f960831ba8705dd18d73b180d08d2140"
+      },
+      {
+        "path": ".next/standalone/node_modules/styled-jsx/package.json",
+        "name": "styled-jsx",
+        "version": "5.1.6",
+        "sha256": "0a11b14d7bbeab650019db18883a14cb67daa3615f498a5a625d45828be7eef9"
+      },
+      {
+        "path": ".next/standalone/node_modules/tiny-inflate/package.json",
+        "name": "tiny-inflate",
+        "version": "1.0.3",
+        "sha256": "7a97c9567b054c9294036537d42a112f4bd4263892fbfe2714e6acdf25816c6d"
+      },
+      {
+        "path": ".next/standalone/node_modules/tslib/modules/package.json",
+        "name": null,
+        "version": null,
+        "sha256": "f2a77d1fa2e7ee710b2835b2933d75d9c7f5dad4f1bab69e1679876e32b5e9eb"
+      },
+      {
+        "path": ".next/standalone/node_modules/tslib/package.json",
+        "name": "tslib",
+        "version": "2.8.1",
+        "sha256": "f02b4851df316f29bdfcd404aa1eb41e4e216b5859015f81fcd3e91caf8be931"
+      },
+      {
+        "path": ".next/standalone/node_modules/unicode-properties/package.json",
+        "name": "unicode-properties",
+        "version": "1.4.1",
+        "sha256": "4dba3776474dc9f928749684eeaeabacb40fd0e58ef704b2c2a976201830183b"
+      },
+      {
+        "path": ".next/standalone/node_modules/unicode-trie/package.json",
+        "name": "unicode-trie",
+        "version": "2.0.0",
+        "sha256": "11742ae162c45a0f55a4d85ae1c6dc7dd380e203173d3bca04e72ca3b68729b6"
+      },
+      {
+        "path": ".next/standalone/node_modules/xtend/package.json",
+        "name": "xtend",
+        "version": "4.0.2",
+        "sha256": "b02ffef8cda96c5c3ee00a00390e63f608362c2ddfb3ed754e181d013a45d48a"
+      }
+    ]
+  },
+  "registryCheck": {
+    "observedAt": "2026-10-21T06:05:44.687Z",
+    "method": "npm view <package>@<current-major> version --json through configured registry; read-only, separate temporary cache",
+    "allSevenQueriesExitCode": 0,
+    "bracesLatestOverall": "3.0.3",
+    "tailwind3419Retains": [
+      "chokidar ^3.6.0",
+      "fast-glob ^3.3.2",
+      "micromatch ^4.0.8",
+      "postcss-nested ^6.2.0",
+      "postcss-selector-parser ^6.1.2"
+    ],
+    "directPublicRegistryFetch": "Failed EAI_AGAIN; configured npm view succeeded afterward"
+  },
+  "officialSources": [
+    {
+      "url": "https://github.com/advisories/GHSA-vfj7-8cjw-p6xm",
+      "finding": "braces <=3.0.3 affected; no patched version listed"
+    },
+    {
+      "url": "https://github.com/postcss/postcss-selector-parser/security/advisories/GHSA-rj75-hqrm-r3gf",
+      "finding": "Maintainer lists 6.1.5 and 7.1.6 as patched"
+    },
+    {
+      "url": "https://github.com/advisories/GHSA-rj75-hqrm-r3gf",
+      "finding": "Aggregate still reports <7.1.6 despite the maintainer 6.1.5 backport"
+    },
+    {
+      "url": "https://github.com/paulmillr/chokidar#upgrading",
+      "finding": "v4 removes glob support; not an API-transparent override for 3.x"
+    },
+    {
+      "url": "https://tailwindcss.com/docs/upgrade-guide",
+      "finding": "v4 changes PostCSS integration and visual utility semantics"
+    }
+  ],
+  "localBoundary": {
+    "tailwindContent": [
+      "./src/**/*.{ts,tsx}"
+    ],
+    "postcssPlugins": [
+      "tailwindcss",
+      "autoprefixer"
+    ],
+    "cmsOrUploadToBuildParserPathFound": false,
+    "installedSelectorParserBackportCode": "Set-based uniquing, interpolation membership, class indexes and id indexes present in dist/parser.js",
+    "dockerfileSequence": "production dependencies pruned with --omit=dev, then standalone overlay; actual final Docker image not inspected"
+  },
+  "conclusion": "No verified compatible published fix for the remaining braces chain. Retain the actual full-audit failure and already patched selector-parser 6.1.5. Neither force Tailwind4 nor override glob APIs solely to change the audit count.",
+  "limits": [
+    "Named-package census is not proof that no library code is embedded inside another package.",
+    "The audit covers this lockfile and the inspected native build, not all OS packages or a final Docker image.",
+    "No exploitation or blanket security approval is claimed."
+  ]
+}

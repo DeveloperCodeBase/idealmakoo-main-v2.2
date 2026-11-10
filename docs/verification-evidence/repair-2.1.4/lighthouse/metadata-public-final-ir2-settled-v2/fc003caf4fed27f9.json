@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/products/category/teeth/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "9e721df062f2d4e0a428de6a6837b4295d9ebf1c5d6f18b758448590fe10ec22",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "الأسنان الصناعية | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "استعرض أسنان إيدآل ماكو الصناعية وعائلات المنتجات وصور المصدر والمواصفات الموثقة للمقارنة والاستفسار التقني."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/products/category/teeth/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/category/teeth/",
+    "en": "http://127.0.0.1:3100/en/products/category/teeth/",
+    "tr": "http://127.0.0.1:3100/tr/products/category/teeth/",
+    "ar": "http://127.0.0.1:3100/ar/products/category/teeth/",
+    "ru": "http://127.0.0.1:3100/ru/products/category/teeth/",
+    "x-default": "http://127.0.0.1:3100/fa/products/category/teeth/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 84
+}

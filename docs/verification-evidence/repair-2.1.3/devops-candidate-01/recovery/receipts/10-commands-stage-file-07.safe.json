@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "kind": "owned-pinned-scp-upload",
+  "guest": "recovery",
+  "label": "stage-file-07",
+  "startedAt": "2026-10-25T05:18:38.465521+00:00",
+  "completedAt": "2026-10-25T05:18:40.685996+00:00",
+  "exitCode": 0,
+  "actualWaitConsumed": true,
+  "timedOut": false,
+  "localSha256": "aae8acee5b973a2002c20c504cb7281306c53a606e0d03982a44089dfa92799d",
+  "localBytes": 10649
+}

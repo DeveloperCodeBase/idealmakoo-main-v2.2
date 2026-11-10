@@ -1,0 +1,24 @@
+{
+  "command": [
+    "node",
+    "scripts/build-service-worker.mjs",
+    "--check"
+  ],
+  "actualExitCode": 0,
+  "startedAt": "2026-10-26T01:04:56.273225+00:00",
+  "finishedAt": "2026-10-26T01:04:56.316292+00:00",
+  "durationSeconds": 0.04292102799809072,
+  "validationPassed": true,
+  "summary": {
+    "path": "public/service-worker-classic.js",
+    "bytes": 5171,
+    "checked": true
+  },
+  "rawLogSha256": "7cf7c9d781a89ead4f303b8a45d28031957ec51a867e7bcec8ab42ae437a7099",
+  "rawLogBytes": 72,
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "scope": "Existing affected worker/policy checks only; no full unit suite, application build or browser rerun.",
+  "format": "offline-favicon-typed-evidence-v1",
+  "rawReceiptSha256": "d4636535f9f1d4520db59bb5c4ca9725f7fb09a15580a4597054e874f28250fa",
+  "privatePathsEnvironmentLogsAndBrowserPayloadsExported": false
+}

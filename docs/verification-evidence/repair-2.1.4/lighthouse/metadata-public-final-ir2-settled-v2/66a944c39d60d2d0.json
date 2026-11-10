@@ -1,0 +1,71 @@
+{
+  "url": "http://127.0.0.1:3100/ru/products/super-berelian/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "077e131087284d0e367f9f110322ad7ccc7dbf9357bbf36c77d8a400d64a2d0e",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Искусственные зубы Super Berelian | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Super Berelian — трёхслойные искусственные зубы с четырьмя циклами полимеризации."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/products/super-berelian/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/super-berelian/",
+    "en": "http://127.0.0.1:3100/en/products/super-berelian/",
+    "tr": "http://127.0.0.1:3100/tr/products/super-berelian/",
+    "ar": "http://127.0.0.1:3100/ar/products/super-berelian/",
+    "ru": "http://127.0.0.1:3100/ru/products/super-berelian/",
+    "x-default": "http://127.0.0.1:3100/fa/products/super-berelian/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Искусственные зубы Super Berelian",
+      "description": "Super Berelian — трёхслойные искусственные зубы с четырьмя циклами полимеризации.",
+      "image": "http://127.0.0.1:3100/media/official/1686378359.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "SUPER BERELIAN"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/ru/products/super-berelian/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 64
+}

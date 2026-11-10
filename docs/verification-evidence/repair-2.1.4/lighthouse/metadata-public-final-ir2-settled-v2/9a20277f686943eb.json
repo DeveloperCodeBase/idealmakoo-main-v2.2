@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/press-kit/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "6cf2795f5459c60f18020652980ca68b9e70e99e7cfc8aa6c4b173e120aeeb7e",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Factory information for the media. | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Approved factory profiles and media files appear here after publication."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/press-kit/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/press-kit/",
+    "en": "http://127.0.0.1:3100/en/press-kit/",
+    "tr": "http://127.0.0.1:3100/tr/press-kit/",
+    "ar": "http://127.0.0.1:3100/ar/press-kit/",
+    "ru": "http://127.0.0.1:3100/ru/press-kit/",
+    "x-default": "http://127.0.0.1:3100/fa/press-kit/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 55
+}

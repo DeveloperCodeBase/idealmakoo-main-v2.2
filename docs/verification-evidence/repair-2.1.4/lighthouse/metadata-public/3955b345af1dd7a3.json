@@ -1,0 +1,42 @@
+{
+  "url": "http://127.0.0.1:3100/fa/__lighthouse_missing_page__/",
+  "kind": "expected-404",
+  "indexed": false,
+  "expectedStatus": 404,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 404,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "5df0a4714645078d4bc4ed1b4b5b2dfe881f4fb558c39dab4a3165284bac2f38",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "این صفحه پیدا نشد | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "این نشانی معتبر نیست یا صفحه دیگر در دسترس نیست. می‌توانید به صفحهٔ اصلی بازگردید."
+  ],
+  "canonicals": [],
+  "alternates": {},
+  "robots": [
+    "noindex",
+    "noindex, nofollow, noarchive",
+    "noindex, nofollow, noarchive"
+  ],
+  "noindex": true,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 0,
+    "resolvedBoundaries": 0,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 22
+}

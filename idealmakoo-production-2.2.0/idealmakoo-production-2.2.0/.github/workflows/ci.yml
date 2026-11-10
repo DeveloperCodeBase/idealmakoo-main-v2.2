@@ -1,0 +1,212 @@
+name: Production verification
+
+on:
+  pull_request:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verify-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  application:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    services:
+      db:
+        image: pgvector/pgvector:pg16
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_DB: idealmakoo_test
+          POSTGRES_PASSWORD: ci_only_admin_password_0123456789
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U postgres -d idealmakoo_test"
+          --health-interval 5s --health-timeout 5s --health-retries 30
+    env:
+      CI: "true"
+      NODE_ENV: test
+      DATABASE_URL: postgresql://idealmakoo_app:ci_only_app_password_0123456789@127.0.0.1:5432/idealmakoo_test
+      TEST_RUNTIME_DATABASE_URL: postgresql://idealmakoo_app:ci_only_app_password_0123456789@127.0.0.1:5432/idealmakoo_test
+      MIGRATION_DATABASE_URL: postgresql://idealmakoo_owner:ci_only_owner_password_0123456789@127.0.0.1:5432/idealmakoo_test
+      POSTGRES_APP_PASSWORD: ci_only_app_password_0123456789
+      POSTGRES_MIGRATION_PASSWORD: ci_only_owner_password_0123456789
+      DATABASE_APP_ROLE: idealmakoo_app
+      SITE_URL: http://127.0.0.1:3000
+      NEXT_PUBLIC_SITE_URL: http://127.0.0.1:3000
+      NEXT_PUBLIC_DATA_MODE: api
+      NEXT_PUBLIC_DEMO_MODE: "false"
+      DEMO_MODE: "false"
+      TRUST_PROXY: "false"
+      STORAGE_DIR: /tmp/idealmakoo-ci-storage
+      PRIVACY_LEDGER_DIR: /tmp/idealmakoo-ci-privacy-ledger
+      TEST_POSTGRES_BIN: /usr/lib/postgresql/16/bin
+      TEST_POSTGRES_LIBRARY: /usr/lib/x86_64-linux-gnu
+      BOOTSTRAP_ADMIN_EMAIL: admin@idealmako.test
+      BOOTSTRAP_ADMIN_PASSWORD: ci_only_admin_login_password_0123456789
+      NOTIFICATIONS_MODE: disabled
+      AI_PUBLIC_CHAT: "false"
+      CRM_CAMPAIGNS_ENABLED: "false"
+      RAG_ENABLED: "false"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+      - name: Generate ephemeral test-only encryption keys
+        shell: bash
+        run: |
+          printf 'SESSION_SECRET=%s\n' "$(openssl rand -hex 32)" >> "$GITHUB_ENV"
+          printf 'MFA_ENCRYPTION_KEY=%s\n' "$(openssl rand -hex 32)" >> "$GITHUB_ENV"
+      - run: npm ci --no-audit --no-fund
+      - name: Install real local media and PostgreSQL recovery test tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends ffmpeg postgresql-client-16 age
+          install -d -m 700 "$STORAGE_DIR" "$PRIVACY_LEDGER_DIR"
+      - name: Create separate migration and application database roles
+        run: docker exec -i --env POSTGRES_APP_PASSWORD --env POSTGRES_MIGRATION_PASSWORD ${{ job.services.db.id }} sh < deploy/postgres/init-roles.sh
+      - name: Migrate, seed and enforce runtime database grants
+        run: |
+          npm run db:migrate
+          DATABASE_URL="$MIGRATION_DATABASE_URL" node --import tsx scripts/privacy-ledger.ts initialize
+          DATABASE_URL="$MIGRATION_DATABASE_URL" node --import tsx scripts/privacy-ledger.ts replay
+          DATABASE_URL="$MIGRATION_DATABASE_URL" node --import tsx scripts/privacy-ledger.ts ready
+          npm run db:seed
+          node deploy/grant-runtime.mjs
+      - run: npm run typecheck
+      - run: npm run test:unit
+      - run: npm run test:integration
+      - name: Build production Next application
+        run: npm run build
+        env:
+          NODE_ENV: production
+      - name: Install Chromium for browser acceptance tests
+        run: npx playwright install --with-deps chromium
+      - name: Browser acceptance tests
+        run: TEST_DATABASE_URL="$DATABASE_URL" npm run test:e2e
+        env:
+          NODE_ENV: production
+          PLAYWRIGHT_DISPOSABLE_AUTH_BUDGET: "true"
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: browser-failure-report
+          path: |
+            playwright-report/
+            test-results/
+          if-no-files-found: ignore
+          retention-days: 7
+
+  security:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - name: Fail on high or critical runtime dependency advisories
+        run: npm audit --omit=dev --audit-level=high
+      - name: Verify deployment scripts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends age shellcheck
+          shellcheck --external-sources scripts/*.sh deploy/*.sh deploy/postgres/*.sh deploy/clamav/*.sh
+          python3 -m py_compile deploy/*.py
+          python3 -m unittest discover -s tests -p 'deployment_*_test.py' -v
+
+  containers-and-recovery:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    env:
+      IDEALMAKOO_BACKUP_DIR: /tmp/idealmakoo-ci-backups
+      IDEALMAKOO_BACKUP_IDENTITY: /tmp/idealmakoo-ci-backup-identity.txt
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create isolated container test configuration
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import os,secrets
+          from pathlib import Path
+          app,owner,admin=(secrets.token_hex(24) for _ in range(3))
+          project='idealmakoo-ci-'+os.environ['GITHUB_RUN_ID']+'-'+os.environ['GITHUB_RUN_ATTEMPT']
+          runtime=Path(os.environ['RUNNER_TEMP'])/project
+          values={
+            'COMPOSE_PROJECT_NAME':project,
+            'COMPOSE_PROFILES':'','POSTGRES_DB':'idealmakoo_ci',
+            'POSTGRES_ADMIN_PASSWORD':admin,'POSTGRES_APP_PASSWORD':app,'POSTGRES_MIGRATION_PASSWORD':owner,
+            'DATABASE_URL':f'postgresql://idealmakoo_app:{app}@db:5432/idealmakoo_ci',
+            'MIGRATION_DATABASE_URL':f'postgresql://idealmakoo_owner:{owner}@db:5432/idealmakoo_ci',
+            'DATABASE_APP_ROLE':'idealmakoo_app',
+            'PRIVACY_LEDGER_HOST_DIR':str(runtime/'privacy-ledger'),
+            'INTEGRATIONS_HOST_DIR':str(runtime/'integrations'),
+            'SESSION_SECRET':secrets.token_hex(32),'MFA_ENCRYPTION_KEY':secrets.token_hex(32),
+            'BOOTSTRAP_ADMIN_EMAIL':'admin@idealmako.test','BOOTSTRAP_ADMIN_PASSWORD':secrets.token_hex(24),
+            'SITE_URL':'http://127.0.0.1:8080','SITE_ADDRESS':'http://127.0.0.1',
+            'ACME_EMAIL':'admin@localhost.invalid','HTTP_PORT':'8080','HTTPS_PORT':'8443','BIND_IP':'127.0.0.1',
+            'NOTIFICATIONS_MODE':'disabled','CRM_CAMPAIGNS_ENABLED':'false','RAG_ENABLED':'false',
+            'AI_PUBLIC_CHAT':'false','RELEASE_SHA':os.environ['GITHUB_SHA']}
+          path=Path('.env');path.write_text('\n'.join(f'{k}={v}' for k,v in values.items())+'\n');path.chmod(0o600)
+          release={'APP_IMAGE':project+'-app:'+os.environ['GITHUB_SHA'],
+                   'PROXY_IMAGE':project+'-proxy:'+os.environ['GITHUB_SHA'],
+                   'CLAMAV_RUNTIME_IMAGE':project+'-clamav:'+os.environ['GITHUB_SHA'],
+                   'RELEASE_SHA':os.environ['GITHUB_SHA']}
+          path=Path('.release.env');path.write_text('\n'.join(f'{k}={v}' for k,v in release.items())+'\n');path.chmod(0o600)
+          PY
+          ledger="$(python3 deploy/env-file.py get .env PRIVACY_LEDGER_HOST_DIR)"
+          integrations="$(python3 deploy/env-file.py get .env INTEGRATIONS_HOST_DIR)"
+          sudo install -d -o 10001 -g 10001 -m 700 "$ledger"
+          sudo install -d -o root -g 10001 -m 750 "$integrations"
+          source deploy/lib.sh
+          require_environment
+      - name: Build and start the real isolated production stack
+        run: |
+          source deploy/lib.sh
+          require_environment
+          acquire_ops_lock
+          pending_restore assert-clear
+          build_release_images app proxy
+          dc pull db
+          dc up -d --no-deps --wait --wait-timeout 180 db
+          dc up --no-deps --force-recreate --abort-on-container-exit --exit-code-from migrate migrate
+          lifecycle up --timeout 1200 app worker proxy
+          bash scripts/check-health.sh 360
+      - name: Verify private routes and real readiness
+        run: |
+          curl --fail --silent http://127.0.0.1:8080/api/v1/health/ready
+          status="$(curl --silent --output /dev/null --write-out '%{http_code}' http://127.0.0.1:8080/api/v1/workspace)"
+          test "$status" = 401
+      - name: Install encrypted-backup tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends age
+          umask 077
+          age-keygen -o "$IDEALMAKOO_BACKUP_IDENTITY"
+      - name: Coordinated encrypted backup and real isolated restore drill
+        run: |
+          backup="$(sudo --preserve-env=IDEALMAKOO_BACKUP_DIR,IDEALMAKOO_BACKUP_IDENTITY bash scripts/backup.sh)"
+          sudo --preserve-env=IDEALMAKOO_BACKUP_DIR,IDEALMAKOO_BACKUP_IDENTITY bash scripts/restore.sh --file "$backup" --verify-only
+          sudo --preserve-env=IDEALMAKOO_BACKUP_DIR,IDEALMAKOO_BACKUP_IDENTITY bash scripts/restore.sh --file "$backup" --drill
+          project="$(python3 deploy/env-file.py get .env COMPOSE_PROJECT_NAME)"
+          sudo --preserve-env=IDEALMAKOO_BACKUP_DIR,IDEALMAKOO_BACKUP_IDENTITY bash scripts/restore.sh --file "$backup" --confirm-replace "$project"
+          bash scripts/check-health.sh 240
+      - name: Container diagnostics on failure
+        if: failure()
+        run: sudo bash scripts/doctor.sh || true
+      - name: Remove only this CI project's ephemeral containers and volumes
+        if: always()
+        run: |
+          source deploy/lib.sh
+          require_environment
+          dc down --volumes --remove-orphans
+

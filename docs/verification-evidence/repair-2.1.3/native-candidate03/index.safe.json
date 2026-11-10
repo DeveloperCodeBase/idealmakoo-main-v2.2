@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "kind": "public-safe-candidate03-native-evidence-index",
+  "version": "2.1.3",
+  "buildId": "DuF4NV2a3keq3h3H5T3Dr",
+  "sourceInputSha256": "79cbbf107e4886e03ade1119ab48d3a57e8a7385a64ba125322d3f4e1b923f94",
+  "files": [
+    {
+      "file": "native-handoff.safe.json",
+      "sha256": "ce0ffb4b3699d9000110b64d5de027fd82318262c7decbab784193d089d2e841",
+      "bytes": 62144,
+      "mode": "byte-identical-safe-copy",
+      "sourceSha256": "ce0ffb4b3699d9000110b64d5de027fd82318262c7decbab784193d089d2e841"
+    },
+    {
+      "file": "source-delta.safe.json",
+      "sha256": "facf03f889cb50bd247ff62b15d158f70f106b79ea40bf5b2bf15aa57aa887fe",
+      "bytes": 5453,
+      "mode": "byte-identical-safe-copy",
+      "sourceSha256": "facf03f889cb50bd247ff62b15d158f70f106b79ea40bf5b2bf15aa57aa887fe"
+    },
+    {
+      "file": "integration.safe.json",
+      "sha256": "c280bc4c62bfa22e23885fef3c7086a91c32cd0d0c0f2a7d95da41449d0eba07",
+      "bytes": 1375,
+      "mode": "byte-identical-safe-copy",
+      "sourceSha256": "c280bc4c62bfa22e23885fef3c7086a91c32cd0d0c0f2a7d95da41449d0eba07"
+    },
+    {
+      "file": "source-inputs.safe.json",
+      "sha256": "b201b31367b6beea4d9706903affbe0c36fb142822181a1581da326b8eae4ff8",
+      "bytes": 111494,
+      "mode": "byte-identical-safe-copy",
+      "sourceSha256": "b201b31367b6beea4d9706903affbe0c36fb142822181a1581da326b8eae4ff8"
+    },
+    {
+      "file": "unit.safe.json",
+      "sha256": "7afc9b2f28916bb9a1562a6487e3f2fa07f22f55d50d2470bb9be3c135b1c60d",
+      "bytes": 2547,
+      "mode": "allowlisted-derived-metadata",
+      "transformation": "Terminal counts and digest only; raw output omitted."
+    },
+    {
+      "file": "baseline.safe.json",
+      "sha256": "87e431315350c5fac6b63f1d9ae875be3d7b4c123efc47fa82d61bb71563615e",
+      "bytes": 13309,
+      "mode": "byte-identical-safe-copy",
+      "sourceSha256": "87e431315350c5fac6b63f1d9ae875be3d7b4c123efc47fa82d61bb71563615e"
+    },
+    {
+      "file": "resources-transition-comparison.safe.json",
+      "sha256": "90b798c43c6c6212f97f73e0fe800d9cb099b9d94ee78184fb08723873f22d43",
+      "bytes": 15034,
+      "mode": "byte-identical-safe-copy",
+      "sourceSha256": "90b798c43c6c6212f97f73e0fe800d9cb099b9d94ee78184fb08723873f22d43"
+    },
+    {
+      "file": "targeted-resources-comparison.safe.json",
+      "sha256": "c8bb7ca87066e1e2c4b74f8e88fdf5a9c2a616ddf9f44840869c7ce9e87b6685",
+      "bytes": 4898,
+      "mode": "byte-identical-safe-copy",
+      "sourceSha256": "c8bb7ca87066e1e2c4b74f8e88fdf5a9c2a616ddf9f44840869c7ce9e87b6685"
+    },
+    {
+      "file": "metadata.safe.json",
+      "sha256": "fdbcae5fff21fc137e2b128596459803f680f1e6f6aa9f6ff106cf304a567585",
+      "bytes": 2815,
+      "mode": "allowlisted-derived-metadata",
+      "transformation": "Only aggregate metadata counts and actual gate proof; page records omitted."
+    },
+    {
+      "file": "inventories.safe.json",
+      "sha256": "4834ba1195d870c06ccffc497e1c5342930f3bb6459039e5c6edd815766f277a",
+      "bytes": 26547,
+      "mode": "allowlisted-derived-metadata",
+      "transformation": "Recounted disjoint target identities; selected public routes join full-mobile authoritative kind/indexed/status. No private URLs, owned request IDs, contexts, or raw jobs exported."
+    },
+    {
+      "file": "gate-receipts.safe.json",
+      "sha256": "c8be39244772f2a7a94da5da3d17be0b51d9a78a09f2faaaef7dcc4d50158922",
+      "bytes": 17027,
+      "mode": "allowlisted-derived-metadata",
+      "transformation": "Exact gate receipt hashes with only lifecycle/source/count fields; command arguments and raw logs omitted."
+    },
+    {
+      "file": "outer-tool-journal.safe.json",
+      "sha256": "cead4729ebc9f0f72e5c9e7597c81ac2eb896686314148ebd5577cdca7498800",
+      "bytes": 11713,
+      "mode": "allowlisted-derived-metadata",
+      "transformation": "Exact referenced actual launch/terminal metadata and hashes; no output text."
+    },
+    {
+      "file": "summary.safe.json",
+      "sha256": "5c07bc1ed00ab0354e4da1925d66b6b05ed68b3016583d7ea2889b689ec195c5",
+      "bytes": 3426,
+      "mode": "allowlisted-derived-metadata",
+      "transformation": "Bounded native results and explicit pending/historical/diagnostic boundaries; no new executions."
+    },
+    {
+      "file": "integrity-review.safe.json",
+      "sha256": "07f16540076320292bd4d291a2e0aa6dafdb9ab2cd825e7a10dd91c3d4560669",
+      "bytes": 37948,
+      "mode": "allowlisted-derived-metadata",
+      "transformation": "Only path identities, hashes, sizes, and bounded verification counts; original private contents excluded."
+    }
+  ],
+  "fileCountExcludingIndex": 14,
+  "byteCountExcludingIndex": 315730,
+  "summary": "summary.safe.json",
+  "rawPrivateFilesIncluded": false,
+  "baselineFailurePreserved": true,
+  "unknownOuterWaits": [],
+  "historicalC2AndSingleDiagnosticExcludedFromFinalC3Coverage": true,
+  "finalC3ScoredLhrs": 0,
+  "finalC3PendingTargets": 1223,
+  "writtenLastAfterAllReferencesVerified": true
+}

@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/research/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "ac33bc849d864e27654d472e90f1b8043ff7785c3a7a539a4917bcd211cc6828",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "پژوهش و دانش | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "پژوهش‌هایی درباره مواد، اتصال و ماندگاری؛ از آرشیو علمی وب‌سایت رسمی کارخانه."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/research/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/",
+    "en": "http://127.0.0.1:3100/en/research/",
+    "tr": "http://127.0.0.1:3100/tr/research/",
+    "ar": "http://127.0.0.1:3100/ar/research/",
+    "ru": "http://127.0.0.1:3100/ru/research/",
+    "x-default": "http://127.0.0.1:3100/fa/research/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 54
+}

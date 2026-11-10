@@ -1,0 +1,35 @@
+{
+  "format": "original-fourf-and-diagnostic-services-closed-v1",
+  "closedAt": "2026-10-25T21:13:54.645636+00:00",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "inputFingerprint": "4fcec50f5846b0affccc59e43798613ba134a3f93559ea5ddba9705e1f38cc58",
+  "finalFullPreStopVerificationSha256": "4df0128a3e0d7076664f1b5f458010c6f970a6fe3a5feda8b5df5290ce032b78",
+  "diagnostic": {
+    "normalSignals": [
+      "SIGTERM",
+      "SIGTERM"
+    ],
+    "actualWebSupervisorExit": 143,
+    "actualWorkerSupervisorExit": 0,
+    "allOwnedPidsAbsent": true,
+    "initialStopRefusalPreserved": true,
+    "strictIdentityReconciliationPerformed": true
+  },
+  "originalAuditRuntime": {
+    "normalSignals": [
+      "SIGTERM",
+      "SIGTERM"
+    ],
+    "actualWebSupervisorExit": 143,
+    "actualWorkerSupervisorExit": 0,
+    "allOwnedPidsAbsent": true,
+    "unchangedStopHelperPassed": true
+  },
+  "rootOwnedCaddyIntentionallyStillRunning": true,
+  "postgresNotStopped": true,
+  "original388RunResumedOrModified": false,
+  "shippedToolEditsNotYetPerformed": true,
+  "proofAttempt01ActualExit": 2,
+  "proofAttempt02ActualExit": 0,
+  "proofAttempt02AllThreeCasesPassed": true
+}

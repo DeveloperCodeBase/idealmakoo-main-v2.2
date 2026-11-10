@@ -1,0 +1,113 @@
+{
+  "schema": 1,
+  "kind": "isolated-readiness-inspection-candidate-completion",
+  "status": "focused-passed-product-unapplied",
+  "candidateRoot": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261024/backend/readiness-inspection-retry-preparation-01/candidate-source",
+  "productRoot": "/workspace/scratch/6682bce41bc7/work/idealmakoo-production-2.1.1",
+  "changedPaths": [
+    "deploy/service-lifecycle.py",
+    "tests/deployment_service_lifecycle_test.py"
+  ],
+  "files": {
+    "deploy/service-lifecycle.py": {
+      "before": {
+        "bytes": 31933,
+        "sha256": "e55a73f32d8ff06b3699ce86e8e139b385b6e05be6c873216cfc024363fa92b5"
+      },
+      "after": {
+        "bytes": 33838,
+        "sha256": "45461b16effbf52a9b025c57664858275bbf3c052ba901a26da5118ba903664b"
+      }
+    },
+    "tests/deployment_service_lifecycle_test.py": {
+      "before": {
+        "bytes": 60518,
+        "sha256": "3930902b45708f78e43f4cc7efbb57b9e32151be0cbd1a02dea4afd46bf6e666"
+      },
+      "after": {
+        "bytes": 79698,
+        "sha256": "8e9c35773b32a80c4ff27cedbbe169b9be24a3a6d8cf160e16afe02861cda967"
+      }
+    }
+  },
+  "patch": {
+    "path": "candidate.patch",
+    "bytes": 25914,
+    "sha256": "5cb5fe7e1ff6b6de6bcb3cc3e93134f915e9615f8b2bfe7e32c365cffea9de16"
+  },
+  "baselineRegression": {
+    "testsRun": 1,
+    "failures": 1,
+    "errors": 0,
+    "childExitCode": 1,
+    "expectedDemonstration": true,
+    "actualChildWaitConsumed": true
+  },
+  "candidateFocused": {
+    "testsRun": 20,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "expectedFailures": 0,
+    "unexpectedSuccesses": 0,
+    "durationSeconds": 0.21526250799797708,
+    "failureTestIds": [],
+    "errorTestIds": [],
+    "successful": true
+  },
+  "newTestMethods": [
+    "test_readiness_cancellation_after_timeout_keeps_original_signal_status",
+    "test_readiness_does_not_retry_listing_or_claim_ownership_before_validation",
+    "test_readiness_explicit_check_and_scanner_retry_after_initial_discovery_only",
+    "test_readiness_final_inspect_timeout_requires_a_new_public_probe",
+    "test_readiness_health_and_initial_public_cycle_retry_only_fixed_read_observations",
+    "test_readiness_non_timeout_identity_shape_and_health_errors_remain_fatal",
+    "test_readiness_persistent_reads_end_at_original_global_deadline_before_next_start",
+    "test_readiness_post_up_never_adopts_a_replacement_id_or_duplicate_listing",
+    "test_readiness_post_up_timeout_reuses_exact_ids_without_repeating_list_or_mutation",
+    "test_readiness_preflight_snapshot_stop_and_cleanup_remain_fail_fast",
+    "test_readiness_recovered_timeout_cannot_label_a_later_health_failure",
+    "test_readiness_requires_exact_inspect_timeout_provenance",
+    "test_readiness_unreaped_client_blocks_retry_and_preserves_sticky_failure"
+  ],
+  "newTestMethodsCount": 13,
+  "existingTestMethodAstsUnchanged": true,
+  "selectedExistingCompatibilityMethods": 7,
+  "productInputsUnchanged": true,
+  "runtimeCandidateMatchesIndependentReview": true,
+  "python310AstPassed": true,
+  "receiptFiles": {
+    "preservation.safe.json": {
+      "bytes": 1277,
+      "sha256": "b8626d023c844ee9750b8331c0b42b791554dc8ecafc29e88d9e703aa6ed1437"
+    },
+    "fixtures-static.safe.json": {
+      "bytes": 1416,
+      "sha256": "4818e7fb50a83992f9d63a375b9662c364acc94904b310d5f83bea393f4d3b4e"
+    },
+    "runtime-review-01/freeze.safe.json": {
+      "bytes": 407,
+      "sha256": "2c64174c3aecfaf17766ed8758b58d1b2f83258fc5877b899cba77b7c2f587ac"
+    },
+    "baseline-focused-01/completion.safe.json": {
+      "bytes": 3117,
+      "sha256": "7a5b288b6f370f5c466a9b23a8b4bf74459b1bb6e4cd48b1c1e3ae63d630968e"
+    },
+    "baseline-focused-01/actual-process-outcome.safe.json": {
+      "bytes": 370,
+      "sha256": "3b2dff051f9f96785c8ec58764d1246b94914b402c9cb695c8496367bf772564"
+    },
+    "candidate-focused-01/completion.safe.json": {
+      "bytes": 4430,
+      "sha256": "8a84d0a92d00ada11cf7be48fc37c65e22e785189a4d9f58b01887f80565b50f"
+    },
+    "candidate-focused-01/actual-process-outcome.safe.json": {
+      "bytes": 372,
+      "sha256": "6bc5bf744aa4d0582e04429db914574df07342d671567b753305ef9a28fa9832"
+    }
+  },
+  "fullOperationsSuiteRun": false,
+  "expectedLaterFullSuiteMethodCountNotYetRun": 251,
+  "vmOperationsRun": false,
+  "transportCauseOfActualUpdateFailureEstablished": false
+}

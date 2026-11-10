@@ -1,0 +1,21 @@
+'use client';
+import {Fragment,useMemo,useState} from 'react';
+import Link from 'next/link';
+import {ArrowLeft,BookOpen,Search} from 'lucide-react';
+import {useApp} from '@/components/providers/AppProvider';
+import {usePublications,usePublicSiteSnapshot} from '@/lib/publications';
+import {glossaryFromPublications,glossaryLocales} from '@/lib/glossary';
+import {isPublicPathVisible} from '@/lib/public-visibility';
+import {localized} from '@/components/workspace/i18n';
+import AiMarkdown from '@/components/ui/AiMarkdown';
+import {useGlossaryTerms} from './GlossaryTerms';
+import {glossaryCopy} from './glossary-copy';
+import {extraSourceDraft} from '@/lib/site-source-drafts';
+import {PublicationBlocks} from '@/components/site/PublicationRenderer';
+const native={fa:'فارسی',en:'English',tr:'Türkçe',ar:'العربية',ru:'Русский'};
+export default function GlossaryPage({slug}:{slug?:string}){const{locale,t,href}=useApp(),terms=useGlossaryTerms(),all=usePublications(),site=usePublicSiteSnapshot(),[query,setQuery]=useState(''),c=(key:keyof typeof glossaryCopy)=>localized(glossaryCopy[key],locale);const filtered=useMemo(()=>{const needle=query.trim().normalize('NFC').toLocaleLowerCase(locale);return terms.filter(term=>[term.title,term.definition,...term.aliases].some(value=>value.normalize('NFC').toLocaleLowerCase(locale).includes(needle)));},[terms,query,locale]);const selected=slug?terms.find(term=>term.slug===slug):undefined;const translations=selected?glossaryLocales.filter(lang=>lang!==locale&&isPublicPathVisible(site,lang,'glossary')).flatMap(lang=>glossaryFromPublications(all,lang).filter(term=>term.id===selected.id&&isPublicPathVisible(site,lang,`glossary/${term.slug}`))):[];
+ const published=!slug?all.find(item=>item.kind==='page'&&item.locale===locale&&item.slug==='glossary'):undefined;
+ const blocks=(published?.blocks||extraSourceDraft('glossary',locale)!.blocks).filter(block=>!block.hidden);
+ const listing=(emptyText:string,countLabel:string)=><><label className="search-input glossary-search"><Search size={19}/><input type="search" value={query} onChange={event=>setQuery(event.target.value)} placeholder={c('query')} aria-label={c('query')}/></label><p role="status" aria-live="polite">{filtered.length.toLocaleString(locale)} {countLabel}</p>{!terms.length?<p className="glass glossary-empty">{emptyText}</p>:!filtered.length?<p className="glass glossary-empty">{c('none')}</p>:<div className="glossary-grid">{filtered.map(term=><article className="glass glossary-entry" key={term.id}><BookOpen size={22}/><h2><Link href={href(`glossary/${term.slug}`)}>{term.title}</Link></h2><p>{term.definition}</p>{term.aliases.length>0&&<small>{term.aliases.join(' · ')}</small>}<Link className="text-link" href={href(`glossary/${term.slug}`)}>{c('more')}</Link></article>)}</div>}</>;
+ return <section className="container page-content" data-glossary>{slug?<><header className="page-intro"><span className="eyebrow">{t('knowledge')}</span><h1>{selected?.title||c('title')}</h1><p>{selected?.definition||c('missing')}</p></header><Link className="btn" href={href('glossary')}><ArrowLeft size={16}/>{c('title')}</Link>{selected&&<article className="glass glossary-detail">{selected.aliases.length>0&&<p><strong>{c('aliases')}:</strong> {selected.aliases.join(' · ')}</p>}{selected.body&&selected.body!==selected.definition&&<AiMarkdown text={selected.body} locale={locale} content glossary={false}/>} {translations.length>0&&<nav aria-label={c('language')} className="glossary-translations">{translations.map(term=><Link key={term.locale} href={`/${term.locale}/glossary/${term.slug}/`} lang={term.locale} hrefLang={term.locale}>{native[term.locale]}</Link>)}</nav>}</article>}</>:blocks.map(block=><Fragment key={block.id}>{block.id==='glossary-hero'?<header className="page-intro"><span className="eyebrow">{t('knowledge')}</span><h1>{block.title}</h1><p>{block.body}</p></header>:block.id==='glossary-published-terms'?listing(block.body,block.title):<PublicationBlocks blocks={[block]}/>}</Fragment>)}</section>;
+}

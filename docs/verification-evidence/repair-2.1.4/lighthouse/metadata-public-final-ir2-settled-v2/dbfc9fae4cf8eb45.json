@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/research/acrylic-teeth-wear-comparison/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "03289f7d4c8d0e4b72bb625a765518133e9bcc949da7adc6df13be212681a135",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Wear comparison of six acrylic tooth ranges | Ideal Makoo"
+  ],
+  "descriptions": [
+    "A comparison of Super Berelian with Major Plus, Super Lux, Polident Primo, Vitapan and Ivoclar."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/research/acrylic-teeth-wear-comparison/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/acrylic-teeth-wear-comparison/",
+    "en": "http://127.0.0.1:3100/en/research/acrylic-teeth-wear-comparison/",
+    "tr": "http://127.0.0.1:3100/tr/research/acrylic-teeth-wear-comparison/",
+    "ar": "http://127.0.0.1:3100/ar/research/acrylic-teeth-wear-comparison/",
+    "ru": "http://127.0.0.1:3100/ru/research/acrylic-teeth-wear-comparison/",
+    "x-default": "http://127.0.0.1:3100/fa/research/acrylic-teeth-wear-comparison/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 66
+}

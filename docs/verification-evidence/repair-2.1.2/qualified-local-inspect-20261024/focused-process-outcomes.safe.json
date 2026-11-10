@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "kind": "focused-inspect-tool-wait-outcomes",
+  "recordedAt": "2026-10-24T17:39:47.387312+00:00",
+  "runs": [
+    {
+      "name": "baseline-01",
+      "toolCompleted": true,
+      "toolExitCode": 1,
+      "phase": "Unix socket bind rejected by default sandbox before product test"
+    },
+    {
+      "name": "baseline-02",
+      "sessionId": 30066,
+      "actualWaitConsumed": true,
+      "toolExitCode": 0,
+      "testExitCode": 1,
+      "expectedRegressionReproduced": true
+    },
+    {
+      "name": "candidate-01",
+      "sessionId": 47626,
+      "actualWaitConsumed": true,
+      "toolExitCode": 1,
+      "testExitCode": 1,
+      "failures": 7,
+      "affectedMethods": 5,
+      "cause": "two disposable Compose wrappers ran CLI bodies on import; every original assertion preserved"
+    },
+    {
+      "name": "candidate-02",
+      "sessionId": 39023,
+      "actualWaitConsumed": true,
+      "toolExitCode": 0,
+      "testExitCode": 0,
+      "testsRun": 65,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ]
+}

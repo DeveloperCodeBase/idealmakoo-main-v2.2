@@ -1,0 +1,71 @@
+{
+  "url": "http://127.0.0.1:3100/en/products/ideal-line/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "f9ec19a411333d7da1682068ea26d79cc8e1217d612d3fea19160ba7ec7e962b",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Ideal Line denture teeth | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Ideal Line is a nano composite denture tooth with five layers and six curing cycles, according to its official description."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/products/ideal-line/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/ideal-line/",
+    "en": "http://127.0.0.1:3100/en/products/ideal-line/",
+    "tr": "http://127.0.0.1:3100/tr/products/ideal-line/",
+    "ar": "http://127.0.0.1:3100/ar/products/ideal-line/",
+    "ru": "http://127.0.0.1:3100/ru/products/ideal-line/",
+    "x-default": "http://127.0.0.1:3100/fa/products/ideal-line/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Ideal Line denture teeth",
+      "description": "Ideal Line is a nano composite denture tooth with five layers and six curing cycles, according to its official description.",
+      "image": "http://127.0.0.1:3100/media/official/1726476868.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "IDEAL LINE"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/en/products/ideal-line/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 59
+}

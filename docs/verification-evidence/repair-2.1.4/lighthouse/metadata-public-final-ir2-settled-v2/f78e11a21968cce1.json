@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/global/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "5ef2bd7406967f3efe5eafec979a668cf8892ac916fa9a44a73e816f460b3434",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Из Маку — на международные рынки. | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Расположение фабрики в свободной зоне Маку и экспортная история компании."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/global/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/global/",
+    "en": "http://127.0.0.1:3100/en/global/",
+    "tr": "http://127.0.0.1:3100/tr/global/",
+    "ar": "http://127.0.0.1:3100/ar/global/",
+    "ru": "http://127.0.0.1:3100/ru/global/",
+    "x-default": "http://127.0.0.1:3100/fa/global/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 46
+}

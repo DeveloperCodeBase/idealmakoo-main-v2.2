@@ -1,0 +1,36 @@
+{
+  "at": "2026-10-25T10:04:19.668112+00:00",
+  "candidate": "03",
+  "version": "2.1.3",
+  "sourceBefore": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+  "sourceAfter": "79cbbf107e4886e03ade1119ab48d3a57e8a7385a64ba125322d3f4e1b923f94",
+  "files": 994,
+  "changed": [
+    {
+      "path": "src/components/controlled/controlled.module.css",
+      "before": "75f1b4980e4965e9a483f6446a301c8b540d69a1b2bc9be9c391c411c97ab9e7",
+      "after": "84b8084081abf10f007cff905a98fba5849f14c3584fcf06142927efd5d4c239"
+    },
+    {
+      "path": "src/components/resources/ControlledResources.tsx",
+      "before": "669c22b88a5ec573100b5ad68d9fa6b9a97d2c9a206b5a32e935a77fa6343ccf",
+      "after": "9e9bbf526ad35bc6596a96ac7d47ea8f9c561358d4e0dd7c2e3bd0add81f4333"
+    },
+    {
+      "path": "tests/public-hydration.test.mjs",
+      "before": "a65398314de708e5419146fdf208bab6ba9571f6e2ebc1dd22aaff49c0701fde",
+      "after": "eb4abff1549391d262f246a360d186f79c83e226bbd314dbf41c3e51d0a3bed9"
+    }
+  ],
+  "patches": [
+    {
+      "name": "resources-loading-shell.patch",
+      "sha256": "2150015f03ce32651423d124c863873e1baa843478e69cd826bf8fca2f373c2a"
+    },
+    {
+      "name": "public-hydration-shell-compatibility.patch",
+      "sha256": "6ce4d96715a1a55e12fa813b0e69b6706f062f9c3f7311eb9e9a9349568bb67a"
+    }
+  ],
+  "allOtherCanonicalInputsIdentical": true
+}

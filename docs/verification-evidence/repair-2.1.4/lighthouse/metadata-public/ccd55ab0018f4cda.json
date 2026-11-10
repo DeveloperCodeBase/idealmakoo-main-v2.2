@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/glossary/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "ac07975eaef192a31cdf039c0fbf8cd8e422a08ded4dd590cc7860fc5c064537",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "المعجم المتخصص | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "ابحث في المصطلحات والتعريفات المنشورة بهذه اللغة. اختر المصطلح المميز في المقال لقراءة تعريفه."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/glossary/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/glossary/",
+    "en": "http://127.0.0.1:3100/en/glossary/",
+    "tr": "http://127.0.0.1:3100/tr/glossary/",
+    "ar": "http://127.0.0.1:3100/ar/glossary/",
+    "ru": "http://127.0.0.1:3100/ru/glossary/",
+    "x-default": "http://127.0.0.1:3100/fa/glossary/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 101
+}

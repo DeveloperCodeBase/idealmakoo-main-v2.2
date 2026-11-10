@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "kind": "isolated-readiness-focused-actual-outer-completion",
+  "label": "candidate",
+  "actualOuterToolExitCode": 0,
+  "actualOuterWaitConsumed": true,
+  "returnedRunningSession": false,
+  "wallTimeSeconds": 0.305566457,
+  "ownedChildExitCode": 0,
+  "actualOwnedChildWaitConsumed": true,
+  "baselineExpectedFailure": false,
+  "productApplied": false
+}

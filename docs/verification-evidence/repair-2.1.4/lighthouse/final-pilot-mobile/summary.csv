@@ -1,0 +1,5 @@
+"url","device","kind","indexed","expectedStatus","httpStatus","status","performance","accessibility","best-practices","seo","largest-contentful-paint","total-blocking-time","cumulative-layout-shift","durationMs","error"
+"http://127.0.0.1:3100/ar/research/","mobile","research","true","200","200","completed","69","100","100","100","5841.176325","345.5","0.01387603032310509","8024",""
+"http://127.0.0.1:3100/ar/resources/","mobile","resources","true","200","200","completed","82","100","100","100","3699.69825","304.5","0","8747",""
+"http://127.0.0.1:3100/en/contact/","mobile","form","true","200","200","completed","84","100","100","100","3313.39825","344.96017500000016","0","6864",""
+"http://127.0.0.1:3100/fa/","mobile","home","true","200","200","completed","76","100","100","100","4020.7154000000005","364.5","0","10923",""

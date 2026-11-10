@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-23T11:17:46.678841+00:00",
+  "deliveryBuildId": "fIFLzhRg6HZ_mfSabbL8J",
+  "status": "partial-measurement-delivery",
+  "fullMatrixComplete": false,
+  "files": [
+    {
+      "file": "diagnosis.json",
+      "bytes": 1505,
+      "sha256": "5c94d33f31c52dd20f8e0ea66fd9f28766c073bd6d14e55df5f92afb8eaf13f0"
+    },
+    {
+      "file": "frozen-inventories-build03.json",
+      "bytes": 4660,
+      "sha256": "8d7b0d9ea0f4dbcffecc0a253e3f4ac6036740d51fc7847cf02393cb6b5dd1d3"
+    },
+    {
+      "file": "image-policy-comparison-build02.json",
+      "bytes": 4046,
+      "sha256": "28704334584d95b8fa413047d9b99c54d7e377712fc6c9784f90defafb4babbb"
+    },
+    {
+      "file": "inventory-status-build03.json",
+      "bytes": 804025,
+      "sha256": "9d761bd2e5b27d885f7ce54c0fb30feb5a23b729dbc264ce3211d90e1fa5cfcf"
+    },
+    {
+      "file": "invocation-ledger.json",
+      "bytes": 1668,
+      "sha256": "e2ebd232572d89412f31829b758f81cb434fdbf1ed9f48884a4aeae1688ae872"
+    },
+    {
+      "file": "pilot-attempts.csv",
+      "bytes": 3501,
+      "sha256": "6d70bf25947611853b59c2fe3566506ddc003e1e2b80095273ea25c93b591d10"
+    },
+    {
+      "file": "pilot-attempts.json",
+      "bytes": 467709,
+      "sha256": "a0ff49a548c5356720eda48fef5517e02d0bb1eca396ae2970048ffbe220ed82"
+    },
+    {
+      "file": "private-ai-cls-build04.json",
+      "bytes": 2059,
+      "sha256": "e09eaafa96502437918f2633eab24f2c27f48a48d71509d9e01d61a033d1945c"
+    },
+    {
+      "file": "public-metadata-build03.json",
+      "bytes": 290838,
+      "sha256": "1e1a4ad0a9541fb58930bbe22bf6c2774debdfb93523239c24a356d12b91c090"
+    }
+  ],
+  "omissions": {
+    "rawReports": true,
+    "rawDomScreenshotsAndNetworkResources": true,
+    "credentialsHeadersCookiesSessionAndOwnedRequestIdentifiers": true,
+    "arbitraryErrorWarningAndAuditDescriptionText": true,
+    "auditDetailsTables": true,
+    "retained": "Every executed pilot attempt with status, category scores, numeric audit outcomes, failed audit IDs and available report/result/export hashes. Private data is derived only after the strict shipped private exporter passes. Raw evidence remains protected outside the deliverable. No file reference to absent raw artifacts is included."
+  }
+}

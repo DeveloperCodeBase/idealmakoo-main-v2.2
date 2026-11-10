@@ -1,0 +1,618 @@
+{
+  "gate": "browser",
+  "label": "worker-final",
+  "startedAt": "2026-10-21T10:31:41.561Z",
+  "finishedAt": "2026-10-21T10:35:52.712Z",
+  "exitCode": 0,
+  "childSignal": null,
+  "spawnError": null,
+  "sourceBefore": {
+    "sha256": "7f3ce91bb62edb78824310083b185f1854fa0d98458b04dea167078a24c4155d",
+    "files": 819
+  },
+  "sourceAfter": {
+    "sha256": "7f3ce91bb62edb78824310083b185f1854fa0d98458b04dea167078a24c4155d",
+    "files": 819
+  },
+  "sourceUnchanged": true,
+  "node": "v24.19.0",
+  "buildId": "-Q7Ffy3JmwVExwxk-Ymk-",
+  "rawReportSha256": "d9456d55b14feffde9f0fc9253bdf51dc5ddedb0262f119f6f14a4ae6e1c957d",
+  "rawLogSha256": "bf8904a84e1a1a87740e26370e4f776f0e6c4962975985ab6b85159909655d72",
+  "statistics": {
+    "startTime": "2026-10-21T10:31:42.086Z",
+    "duration": 250480.215,
+    "expected": 45,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "tests": [
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: fa dark home",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 3177
+        }
+      ]
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: fa dark auth/login",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 2804
+        }
+      ]
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: fa dark contact",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 1554
+        }
+      ]
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: fa light home",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 2813
+        }
+      ]
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: fa light auth/login",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 2675
+        }
+      ]
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: fa light contact",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 1562
+        }
+      ]
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: en dark home",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 2784
+        }
+      ]
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: en dark auth/login",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 3193
+        }
+      ]
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: en dark contact",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 1735
+        }
+      ]
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: en light home",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 2804
+        }
+      ]
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: en light auth/login",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 2897
+        }
+      ]
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: en light contact",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 1496
+        }
+      ]
+    },
+    {
+      "file": "auth-navigation.spec.ts",
+      "title": "recovery-token navigation restores login and forgot forms and sends the English recovery locale",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 5784
+        }
+      ]
+    },
+    {
+      "file": "capabilities.spec.ts",
+      "title": "a valid private survey submits once without account bootstrap and reflects later revocation",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 2425
+        }
+      ]
+    },
+    {
+      "file": "capabilities.spec.ts",
+      "title": "recipient preferences retain a conflicted draft, save actual consent and revoke when the endpoint changes",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 1872
+        }
+      ]
+    },
+    {
+      "file": "capabilities.spec.ts",
+      "title": "a controlled SMS proof fixture verifies in the standalone page without granting marketing consent",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 1301
+        }
+      ]
+    },
+    {
+      "file": "crm-lifecycle.spec.ts",
+      "title": "P08 CRM-032: two organizations complete the inquiry, approved multilingual PDF, portal interest, forecast and isolated sample-quality lifecycle",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 14956
+        }
+      ]
+    },
+    {
+      "file": "editor-workflows.spec.ts",
+      "title": "form editing uses an actual lease, selected revision comparison and reversible lifecycle",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 8411
+        }
+      ]
+    },
+    {
+      "file": "hero-worker.spec.ts",
+      "title": "the real rendering worker presents frames and handles keyboard input while the page controls remain usable",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 9788
+        }
+      ]
+    },
+    {
+      "file": "hero-worker.spec.ts",
+      "title": "failure after canvas transfer remounts a fresh accessible React canvas and restores the same scene on the main thread",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 9779
+        }
+      ]
+    },
+    {
+      "file": "notification-templates.spec.ts",
+      "title": "Communications UI saves a draft, previews only sample data, independently reviews the exact revision and withdraws it",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 5771
+        }
+      ]
+    },
+    {
+      "file": "page-lifecycle.spec.ts",
+      "title": "page panel archives and recycles a live scheduled page, then restores only a draft with retained history",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 7168
+        }
+      ]
+    },
+    {
+      "file": "product-translation.spec.ts",
+      "title": "a scoped translator saves the complete product body and the product editor reloads that exact draft",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 5739
+        }
+      ]
+    },
+    {
+      "file": "production.spec.ts",
+      "title": "named project lists preserve old bookmarks, resolve conflicts explicitly and share a revocable public selection",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 6453
+        }
+      ]
+    },
+    {
+      "file": "production.spec.ts",
+      "title": "all five public catalogues render with correct language and no demo authentication",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 2712
+        }
+      ]
+    },
+    {
+      "file": "production.spec.ts",
+      "title": "anonymous inquiry survives login and a lost merge response can be retried without adding quantities twice",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 4014
+        }
+      ]
+    },
+    {
+      "file": "production.spec.ts",
+      "title": "registration, persistent profile, visible failed-save state and private request ownership",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 6927
+        }
+      ]
+    },
+    {
+      "file": "production.spec.ts",
+      "title": "staff enrollment, genuine TOTP and recovery challenge gate the workspace",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 8161
+        }
+      ]
+    },
+    {
+      "file": "production.spec.ts",
+      "title": "independent review publishes a durable page visible in a fresh browser and withdrawal removes it",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 10314
+        }
+      ]
+    },
+    {
+      "file": "production.spec.ts",
+      "title": "verified customer reserves a real factory session and withdrawal releases the seats",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 5813
+        }
+      ]
+    },
+    {
+      "file": "production.spec.ts",
+      "title": "notification matrix persists each channel and resolves a genuine concurrent-version conflict explicitly",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 4774
+        }
+      ]
+    },
+    {
+      "file": "production.spec.ts",
+      "title": "private file becomes an independently reviewed version and a real public document download",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 5986
+        }
+      ]
+    },
+    {
+      "file": "production.spec.ts",
+      "title": "organization shares separate view, reply and ownership in the customer portal",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 6744
+        }
+      ]
+    },
+    {
+      "file": "production.spec.ts",
+      "title": "a signed incoming fixture is explicitly associated as an internal note and connector keys stay out of browser storage",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 6075
+        }
+      ]
+    },
+    {
+      "file": "public-csp-images.spec.ts",
+      "title": "hydrated public pages and the hero rendering worker run under nonce CSP without eval violations",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 12108
+        }
+      ]
+    },
+    {
+      "file": "public-csp-images.spec.ts",
+      "title": "image optimization permits known bundled files and rejects private, encoded and query-bearing paths",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 90
+        }
+      ]
+    },
+    {
+      "file": "public-csp-images.spec.ts",
+      "title": "the server-rendered public page remains mounted through session and publication hydration",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 964
+        }
+      ]
+    },
+    {
+      "file": "recovery-security.spec.ts",
+      "title": "a staff member regenerates recovery codes in the real panel; old proofs and other sessions stop working",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 14105
+        }
+      ]
+    },
+    {
+      "file": "runtime-contracts.spec.ts",
+      "title": "all forty recorded source addresses with valid percent encoding return an initial 301 without a trailing-slash detour",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 571
+        }
+      ]
+    },
+    {
+      "file": "runtime-contracts.spec.ts",
+      "title": "raw percent, malformed escapes and double encoding obey the declared HTTP entrypoint",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 22
+        }
+      ]
+    },
+    {
+      "file": "runtime-contracts.spec.ts",
+      "title": "ordinary page canonicalization keeps API and capability POST requests free of redirects",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 91
+        }
+      ]
+    },
+    {
+      "file": "runtime-contracts.spec.ts",
+      "title": "public capability documents retain privacy headers and ordinary pages keep the base CSP",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 166
+        }
+      ]
+    },
+    {
+      "file": "source-template-publishing.spec.ts",
+      "title": "an existing source page publishes edited copy after independent review and retains its original template",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 10472
+        }
+      ]
+    },
+    {
+      "file": "user-directory.spec.ts",
+      "title": "the people panel edits older accounts beyond 1000 customers and retains a paginated handover target across searches",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 5485
+        }
+      ]
+    },
+    {
+      "file": "user-management.spec.ts",
+      "title": "hybrid panel creates roles and edits customer and environment staff profiles, grants and credentials; ordinary bootstrap preserves the edits",
+      "status": "expected",
+      "expectedStatus": "passed",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "durationMs": 31126
+        }
+      ]
+    }
+  ],
+  "scope": "Production standalone Next through Caddy, real isolated PostgreSQL and owned worker. Test fixtures and private DOM/screenshots are excluded."
+}

@@ -1,0 +1,20 @@
+{
+  "format": "idealmakoo-source-package-preflight-v1",
+  "recordedAt": "2026-10-25T19:19:22.010328+00:00",
+  "command": [
+    "npm",
+    "run",
+    "package:source",
+    "--",
+    "--check"
+  ],
+  "actualExitCode": 1,
+  "actualTerminalChunkId": "334c84",
+  "potentialCredentialFindingCount": 1,
+  "file": "docs/verification-evidence/repair-2.1.4/lighthouse/tools/test_native_proxy_guard.py",
+  "reason": "Embedded database password pattern in a synthetic test harness copied into documentation scope",
+  "valuesPrinted": false,
+  "archiveCreated": false,
+  "productionCodeOrPackagingRulesChanged": false,
+  "approvedCorrection": "Retain the original private test harness and result/source hash; exclude only its redundant public documentation copy, preserve initial export manifest as historical, update current export/readme honestly. No literal obfuscation or scanner weakening."
+}

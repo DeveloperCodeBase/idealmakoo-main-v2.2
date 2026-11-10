@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "kind": "safe-evidence-file-manifest",
+  "recordedAt": "2026-10-24T17:49:30.639544+00:00",
+  "files": {
+    "failure-log-classification.safe.json": {
+      "bytes": 2793,
+      "sha256": "1f80fe9fa14504c9d1188bb9ddde0c0311382fa5058dfcb066c57983d0f1479a"
+    },
+    "final-state.safe.json": {
+      "bytes": 7574,
+      "sha256": "fb4375b37a6279e2571aa651d43842e453649ab4e929aaa3801e45a793b17079"
+    },
+    "final-state-execution.safe.json": {
+      "bytes": 713,
+      "sha256": "dfb6c7d6ddb76be6dd74be5f77dedde81f92777d8cb05307a50d1fbda76fa226"
+    }
+  },
+  "privateRawLogsArgumentsEnvironmentOrSessionValuesIncluded": false,
+  "actualGuestStartupAcceptanceClaimedByThisCheckpoint": false
+}

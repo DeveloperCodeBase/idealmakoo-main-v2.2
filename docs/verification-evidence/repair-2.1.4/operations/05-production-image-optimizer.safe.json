@@ -1,0 +1,21 @@
+{
+  "observedAt": "2026-10-25T14:18:22.253693+00:00",
+  "transport": "actual Caddy -> Next image optimizer -> pruned application Sharp raw pixel decode",
+  "path": "/_next/image?url=%2Fmedia%2Fofficial%2F1689235166.jpg&w=480&q=75",
+  "httpStatus": 200,
+  "mimeType": "image/webp",
+  "bytes": 68950,
+  "sha256": "fedf56623b4076c9edd917cdd91a17e8f1a9487685fea87c18745377b16b63fc",
+  "imageId": "sha256:78d8c938db87fb9d1c3c455f8f5727e17e8c7dcadce4a570e253b8504b181bb4",
+  "configuredRuntimeBase": "node:24-bookworm-slim",
+  "decodedInsideActualApplicationContainer": true,
+  "format": "webp",
+  "decodedWidth": 480,
+  "decodedHeight": 660,
+  "decodedChannels": 3,
+  "sharpVersion": "0.35.5",
+  "vipsVersion": "8.18.7",
+  "nodeVersion": "v24.22.1",
+  "glibcVersion": "2.36",
+  "crossPlatformByteIdentityRequired": false
+}

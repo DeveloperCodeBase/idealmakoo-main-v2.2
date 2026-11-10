@@ -1,0 +1,14 @@
+{
+  "kind": "actual-tool-wait-evidence",
+  "sessionId": 28352,
+  "launch": {
+    "chunkId": "af71ef",
+    "sessionId": 28352
+  },
+  "completion": {
+    "chunkId": "135176",
+    "exitCode": 0
+  },
+  "actualOuterWaitConsumed": true,
+  "recordedFromReturnedToolResults": true
+}

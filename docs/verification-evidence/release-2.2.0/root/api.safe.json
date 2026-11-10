@@ -1,0 +1,11 @@
+{
+  "command": "Vitest run --config vitest.config.ts with isolated PostgreSQL test environment",
+  "exitCode": 0,
+  "testFiles": 1,
+  "tests": 20,
+  "pass": 20,
+  "fail": 0,
+  "seconds": 13.5,
+  "logSha256": "473b861d588fea8e666ed63988378f2b45437c59697eabc81acd833c02983388",
+  "passed": true
+}

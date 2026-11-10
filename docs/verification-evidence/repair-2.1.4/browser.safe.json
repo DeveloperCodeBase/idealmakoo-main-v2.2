@@ -1,0 +1,178 @@
+{
+  "schema": "idealmakoo.browser-acceptance.v1",
+  "version": "2.1.4",
+  "recorded_at": "2026-10-25T12:51:39.017527+00:00",
+  "production_build": "NWcRPAySX3HCzbpKSDJNf",
+  "database_identity_sha256": "7f922c99efc2a891e6db78c05b8df38441268f0604607d2954ef54ca86c4b1ec",
+  "database_identity_encoding": "SHA256(JSON.stringify({host:lowercase hostname,port:explicit-or-5432,database:decoded database name}))",
+  "health_before_execution": {
+    "http_status": 200,
+    "status": "ok",
+    "database": "ok",
+    "privacy": "ready",
+    "observed_at": "2026-10-25T12:42:45.124Z"
+  },
+  "browser_suite": {
+    "exit_code": 0,
+    "executed_tests": 64,
+    "passed": 64,
+    "failed": 0,
+    "flaky": 0,
+    "skipped": 0,
+    "retries": 0,
+    "workers": 1,
+    "ci_unset": true,
+    "duration_reported": "4.0m",
+    "duration_milliseconds": 241119.353,
+    "footer": "64 passed (4.0m)",
+    "terminal_completion": {
+      "runner_session_id": 15935,
+      "completion_chunk_id": "8929f6",
+      "observed_process_exit_code": 0,
+      "observed_footer": "64 passed (4.0m)",
+      "source": "Actual write_stdin completion response after the full command, not inferred from log text."
+    },
+    "complete_reporter_evidence": {
+      "schema": "idealmakoo.playwright-html-summary.v1",
+      "stats": {
+        "total": 64,
+        "expected": 64,
+        "unexpected": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "ok": true
+      },
+      "start_time": 1792932242176,
+      "duration_milliseconds": 241119.353,
+      "files_count": 24,
+      "report_json_sha256": "408df76dd0346a73a9ae35d46c6ec936a7b7ab4c9e4b26aae0c332a765061fb6",
+      "html_sha256": "9302e36d76b4411e41d8df7fb7fcd723a3b7d97241a6b649be9f1949a1816007"
+    },
+    "console_log_capture": {
+      "complete": false,
+      "bytes": 4606,
+      "sha256": "d3a4d20558523c1ad12b93a7a123e046d0f0024175819d34b4abb010866e9489",
+      "last_saved_test_number": 28,
+      "note": "The on-disk tee capture stopped after case28, although subsequent terminal chunks through64 and actual exit0 were returned. It is preserved as partial. The complete embedded Playwright report independently confirms all64 results."
+    },
+    "runner_warnings": [
+      "npm: Unknown env config http-proxy.",
+      "Node: NO_COLOR ignored because FORCE_COLOR is set."
+    ]
+  },
+  "focused_fullscreen_regression": {
+    "exit_code": 0,
+    "executed_tests": 2,
+    "passed": 2,
+    "failed": 0,
+    "retries": 0,
+    "workers": 1,
+    "duration_reported": "4.8s",
+    "production_build": "NWcRPAySX3HCzbpKSDJNf",
+    "receipt": "carousel-fullscreen-after.safe.json",
+    "coverage": [
+      "Normal trusted native entry synchronizes expanded state and renders an explicit exit.",
+      "The detail dialog stays inside the actual fullscreen element.",
+      "Normal exit clears both native and expanded state.",
+      "A browser-enforced fullscreen=() policy exercises the real denied-native accessible fallback, detail dialog, exit and focus restoration."
+    ]
+  },
+  "native_fullscreen_image_review": {
+    "exit_code": 0,
+    "views": 1,
+    "manually_reviewed": true,
+    "production_build": "NWcRPAySX3HCzbpKSDJNf",
+    "receipt": "gallery-native-image.safe.json",
+    "viewport": {
+      "width": 412,
+      "height": 823
+    },
+    "device_pixel_ratio": 1.75,
+    "requested_width": 480,
+    "decoded_width": 480,
+    "actual_contained_width_device_pixels": 254.52488687782804,
+    "response_bytes": 31036,
+    "response_mime": "image/webp",
+    "horizontal_overflow": false,
+    "page_errors": 0
+  },
+  "visual_review": {
+    "schema": "idealmakoo-visual-acceptance-v1",
+    "application_version": "2.1.4",
+    "build_id": "LTeGm6BGMyrdzNBHH5VYg",
+    "recorded_at": "2026-10-25T12:04:03.579016+00:00",
+    "exit_code": 0,
+    "context": "Fresh isolated seeded functional database, before the full browser suite creates fixtures; public anonymous navigation only.",
+    "captured_views": 16,
+    "manually_reviewed_views": 16,
+    "matrix": {
+      "home": "fa/en x dark/light x desktop1440x1000/mobile390x844",
+      "mobile_account": "fa/en x dark/light",
+      "mobile_footer": "fa/en x dark/light"
+    },
+    "home_scenes_ready": 8,
+    "horizontal_overflows": 0,
+    "page_errors": 0,
+    "failed_requests": 0,
+    "mobile_install_links_visible": 4,
+    "manual_result": "Original bundled artwork, hero composition, RTL/LTR layout, both themes, responsive controls and in-panel guide affordance preserved in inspected views. No pixel-by-pixel original-build comparison performed.",
+    "branding": "The apple mark is the existing bundled logo-transparent.png used by default preferences; it was not changed or attributed to a fixture.",
+    "warnings": [
+      "Service Worker registration blocked by Playwright",
+      "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+    ],
+    "screenshots": "Private scratch only; excluded from deliverable.",
+    "capture_log_sha256": "1145012572dbd274eac7d31481b3d388acc91eb65c2352b6b2338927a9cbace0"
+  },
+  "other_image_review": {
+    "exit_code": 0,
+    "views": 4,
+    "manually_reviewed_views": 4,
+    "production_build": "mYkzU-dUdrd8P8urIq-YU",
+    "receipt": "gallery-image-sizing.safe.json",
+    "scope": "Mobile412/DPR1.75, resize844/DPR1.75, mobile412/DPR2.625 and desktop1440/DPR2. All decoded widths meet the actual contained paint width times DPR. No image/layout changes occurred in the subsequent fullscreen state-only correction.",
+    "horizontal_overflows": 0,
+    "page_errors": 0,
+    "failed_requests": 0
+  },
+  "prior_phase_receipts": [
+    {
+      "receipt": "browser-initial-complete-61.safe.json",
+      "phase": "Earlier61-case success on Oru, with initial fixture/legacy/install-link failures preserved inside it."
+    },
+    {
+      "receipt": "browser-reused-fixture-61.safe.json",
+      "phase": "56 passes and5 intake429 failures on a reused disposable fixture. The unchanged request limiter was preserved; a fresh isolated database resolved the exhausted budget."
+    },
+    {
+      "receipt": "browser-pre-fullscreen-62.safe.json",
+      "phase": "62-case success on mYk before separate native fullscreen QA found a missing state/exit control."
+    },
+    {
+      "receipt": "carousel-fullscreen-before.safe.json",
+      "phase": "Dedicated pre-fix native case failed while the real denied-native fallback passed."
+    }
+  ],
+  "coverage": [
+    "Twelve axe public accessibility views across Persian/English and dark/light.",
+    "Customer registration/profile, request ownership, organizations, booking and CRM lifecycle.",
+    "Real staff TOTP, recovery, role-scoped user/profile/credential management and paginated directory.",
+    "Independent review, publication/withdrawal, original page template retention and locale-specific drafts.",
+    "PageBuilder dirty internal navigation/cancel/save and pending-operation guard; five-language account help.",
+    "Private document publication, multipart upload boundaries, CSP, image isolation and legacy HTTP paths.",
+    "Preserved hero/cube worker behavior and real main-thread fallback.",
+    "Native/fallback carousel fullscreen, actual image resolution and prioritized initial poster.",
+    "Five-language real offline cache without private account caching and installation-guide event affordance."
+  ],
+  "capability_document": "docs/CMS-CAPABILITIES.fa.md",
+  "limits": [
+    "The64-case result belongs to build NWcRPAySX3HCzbpKSDJNf. Visual/image phase identities are listed separately; older16-view imagery was not relabeled as a new capture.",
+    "Browser tests use Chromium; they are not exhaustive proof of every browser/device or input.",
+    "Human visual review is sampled; no pixel-by-pixel baseline diff was performed.",
+    "PWA prompt/offline tests do not claim an OS installation.",
+    "No live owner AI/SMTP credentials were used.",
+    "PageBuilder anchor protection does not intercept Back/Forward or direct programmatic routing.",
+    "Fixed twelve roles and twenty-eight registered block types; no arbitrary no-code theme/plugin/custom-role builder."
+  ],
+  "private_material_included": false
+}

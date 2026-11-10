@@ -1,0 +1,262 @@
+{
+  "scope": "One initially-empty application installation on an existing Ubuntu/Docker host, continued after documented environment-only scanner trust correction",
+  "firstAttemptReceipt": "13-fresh-install-network-trust.safe.json",
+  "successfulOriginalInstallerOperation": {
+    "name": "fresh-install-ca-retry-01",
+    "startedAt": "2026-10-25T16:33:21.839010+00:00",
+    "completed": true,
+    "completedAt": "2026-10-25T16:48:06.301501+00:00",
+    "elapsedSeconds": 884.467,
+    "exitCode": 0
+  },
+  "sourceVersion": "2.1.4",
+  "applicationInputFingerprint": "e5d44f7f6dcfd162d2b60a85443025116373d3e0b28989f6be5b0ececc36534b",
+  "originalInstallerUnmodified": true,
+  "nativePrebuiltInjectionUsed": false,
+  "normalDockerBuildCacheUsed": true,
+  "bareHostProvisioningClaimed": false,
+  "freshInput": {
+    "suppliedKeyNames": [
+      "ACME_EMAIL",
+      "APP_HEALTH_START_PERIOD_SECONDS",
+      "APP_HEALTH_TIMEOUT_SECONDS",
+      "BIND_IP",
+      "BOOTSTRAP_ADMIN_EMAIL",
+      "BUILD_CA_CERT_FILE",
+      "CADDY_IMAGE",
+      "CLAMAV_IMAGE",
+      "COMPOSE_PROJECT_NAME",
+      "HTTPS_PORT",
+      "HTTP_PORT",
+      "INSTALL_ROOT",
+      "NODE_IMAGE",
+      "POSTGRES_DB",
+      "POSTGRES_IMAGE",
+      "SITE_ADDRESS",
+      "SITE_URL",
+      "WORKER_HEALTH_START_PERIOD_SECONDS",
+      "WORKER_HEALTH_TIMEOUT_SECONDS"
+    ],
+    "antivirusProfileOmitted": true,
+    "internalSecretsAndConnectionUrlsOmitted": true,
+    "initialTargetRootAndLedgerAbsent": true,
+    "initialProjectContainersAndVolumesAbsent": true
+  },
+  "pristineReadbackOperation": {
+    "name": "fresh-runtime",
+    "startedAt": "2026-10-25T16:49:07.350350+00:00",
+    "completed": true,
+    "completedAt": "2026-10-25T16:49:46.979768+00:00",
+    "elapsedSeconds": 39.634,
+    "exitCode": 0
+  },
+  "runtimeIdentity": {
+    "version": "2.1.4",
+    "buildId": "9PsqpWkzxqBu9_tPY-Ykq",
+    "nodeVersion": "v24.22.1",
+    "architecture": "x64",
+    "platform": "linux",
+    "glibcVersion": "2.36",
+    "osRelease": {
+      "PRETTY_NAME": "Debian GNU/Linux 12 (bookworm)",
+      "VERSION_ID": "12",
+      "ID": "debian"
+    }
+  },
+  "services": {
+    "app": {
+      "imageId": "sha256:4e2190fd5830e15eaf46e5fed15e1dfa4a75a01fefeae59035ef7c36b5c10c36",
+      "running": true,
+      "health": "healthy",
+      "oomKilled": false,
+      "configuredUser": "10001:10001",
+      "privileged": false,
+      "localScannerEndpoint": "clamav:3310",
+      "externalNotificationDeliveryMode": "disabled"
+    },
+    "worker": {
+      "imageId": "sha256:4e2190fd5830e15eaf46e5fed15e1dfa4a75a01fefeae59035ef7c36b5c10c36",
+      "running": true,
+      "health": "healthy",
+      "oomKilled": false,
+      "configuredUser": "10001:10001",
+      "privileged": false,
+      "localScannerEndpoint": "clamav:3310",
+      "externalNotificationDeliveryMode": "disabled"
+    },
+    "db": {
+      "imageId": "sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a",
+      "running": true,
+      "health": "healthy",
+      "oomKilled": false,
+      "configuredUser": "999:999",
+      "privileged": false
+    },
+    "proxy": {
+      "imageId": "sha256:cb7508606270b4c98da7e176fc3b7ffd6448ac13a78650c0137335b95a6ee307",
+      "running": true,
+      "health": null,
+      "oomKilled": false,
+      "configuredUser": "10002:10002",
+      "privileged": false
+    },
+    "clamav": {
+      "imageId": "sha256:c83717055b3b5df43348df0386481109cacf565b8b228fe71f81311ca29a3c3f",
+      "running": true,
+      "health": "healthy",
+      "oomKilled": false,
+      "configuredUser": "clamav",
+      "privileged": false
+    }
+  },
+  "runtimeRoleVerification": {
+    "status": "passed",
+    "role": "idealmakoo_app",
+    "readableRelations": 186,
+    "deniedOperations": 5
+  },
+  "pristineInventoryBeforeFixtures": {
+    "migrations": 41,
+    "users": 1,
+    "pages": 120,
+    "products": 17,
+    "records": 73,
+    "media": 17,
+    "roles": {
+      "superAdmin": 1
+    },
+    "localePages": {
+      "ru": 24,
+      "ar": 24,
+      "tr": 24,
+      "en": 24,
+      "fa": 24
+    }
+  },
+  "isolationGenerationAndPreservationChecks": {
+    "allInternalSecretsGenerated": true,
+    "newInternalSecretsDifferFromPrimary": true,
+    "newBackupIdentityDiffersFromPrimary": true,
+    "persistentVolumesAreIndependent": true,
+    "privacyLedgerDirectoryIsIndependent": true,
+    "antivirusOmittedFromInputAndActuallyHealthy": true,
+    "allSixGeneratedSecretsPreservedAcrossNetworkCorrection": true,
+    "allOriginalFreshVolumesRetainedAcrossNetworkCorrection": true,
+    "backupIdentityPreservedAcrossNetworkCorrection": true,
+    "allStagedSourceFilesMatchInstalledRelease": true,
+    "allMandatoryRuntimeAssetsMatchInsideContainer": true
+  },
+  "allStagedSourceFilesVerified": 3665,
+  "requiredRuntimeAssets": {
+    "public/media/environment/blue-lagoon-1k.hdr": {
+      "bytes": 1559027,
+      "sha256": "6d5d4e19954d5f8efd74124ee7d21e5d69efb61d5398d2e16a019fd67fa591dd"
+    },
+    "public/media/environment/blue-lagoon-1k.hdr.gz": {
+      "bytes": 1197664,
+      "sha256": "75f23bf11ad81c6ef425b00e3258717bf7e2cd17625f6b1986aa2809b2fac315"
+    },
+    "public/offline/fa.html": {
+      "bytes": 1965,
+      "sha256": "390eaf04aa17502ae2401ba4d4b355c8f42470343887a5f91556e394e621f63d"
+    },
+    "public/offline/en.html": {
+      "bytes": 1731,
+      "sha256": "90217158e3463f15608788b7935b4a4517b43023fbe39e093d4c59b8190601ea"
+    },
+    "public/offline/tr.html": {
+      "bytes": 1791,
+      "sha256": "37db640245835879433bd7067ac96af053795c608dcf56b29d7af7c739b4e657"
+    },
+    "public/offline/ar.html": {
+      "bytes": 1944,
+      "sha256": "5b91e0b58bf6a4167501d9d56bdb5dce8b621c22f8e030e337d419c489dca057"
+    },
+    "public/offline/ru.html": {
+      "bytes": 2011,
+      "sha256": "d9d1b7341b949986c9ef5c1a41ee3c3e170321a3af3a665bb90b81a821998a47"
+    }
+  },
+  "initialEncryptedBackups": [
+    {
+      "bytes": 181620200,
+      "sha256": "9c70b919e4fee45616419a4afb330382d14a936ba26fcbf42d16fa7c30793586",
+      "sidecarChecksumMatches": true
+    }
+  ],
+  "generatedOwnerMfaOperation": {
+    "name": "fresh-login",
+    "startedAt": "2026-10-25T16:50:16.403693+00:00",
+    "completed": true,
+    "completedAt": "2026-10-25T16:50:25.001638+00:00",
+    "elapsedSeconds": 8.602,
+    "exitCode": 0
+  },
+  "generatedOwnerMfaProof": {
+    "generatedOwnerPasswordAccepted": true,
+    "loginHttpStatus": 200,
+    "ownerRole": "superAdmin",
+    "mfaEnrollmentRequired": true,
+    "usersApiBeforeMfaStatus": 403,
+    "usersApiBeforeMfaCode": "MFA_REQUIRED",
+    "logoutHttpStatus": 200,
+    "keysCookiesSessionIdsOrPasswordsDisclosed": false
+  },
+  "officialFreshclamTrustAndAcquisitionProof": {
+    "observedAt": "2026-10-25T16:49:45.737851+00:00",
+    "status": "passed",
+    "scannerVersion": "ClamAV 1.5.4/28164/Sun Oct 25 06:24:12 2026",
+    "scannerHealthy": true,
+    "readOnlyRootFilesystem": true,
+    "unprivilegedUser": "clamav",
+    "documentedCurlCaBundleSet": true,
+    "trustedBundleMountedReadOnly": true,
+    "originalScannerEntrypointChecksumMatchesFrozenSource": true,
+    "sourceDatabaseVolumeIsThisFreshProjectOnly": true,
+    "officialSignatureUpdates": {
+      "daily": {
+        "version": 28164,
+        "signatures": 355788,
+        "bytes": 23443876,
+        "successfulOfficialFreshclamUpdateObserved": true
+      },
+      "main": {
+        "version": 63,
+        "signatures": 3287027,
+        "bytes": 89072577,
+        "successfulOfficialFreshclamUpdateObserved": true
+      },
+      "bytecode": {
+        "version": 339,
+        "signatures": 80,
+        "bytes": 281702,
+        "successfulOfficialFreshclamUpdateObserved": true
+      }
+    },
+    "databaseTestPassMessages": 3,
+    "noPriorSignatureCopyUsed": true,
+    "tlsAndOfficialSignatureVerificationPreserved": true,
+    "externalBusinessProviderActionsRequested": false
+  },
+  "finalHealthOperation": {
+    "name": "fresh-health",
+    "startedAt": "2026-10-25T16:52:22.848324+00:00",
+    "completed": true,
+    "completedAt": "2026-10-25T16:52:38.748089+00:00",
+    "elapsedSeconds": 15.903,
+    "exitCode": 0
+  },
+  "finalDoctorOperation": {
+    "name": "fresh-doctor",
+    "startedAt": "2026-10-25T16:52:23.016509+00:00",
+    "completed": true,
+    "completedAt": "2026-10-25T16:53:35.533289+00:00",
+    "elapsedSeconds": 72.521,
+    "exitCode": 0
+  },
+  "privateInstallerLogDigest": {
+    "bytes": 16443,
+    "sha256": "78dc0daab4af4f22793d1661cbb59f5b13f490b16900af08fc0b13b6ce5f26de"
+  },
+  "keysCookiesCredentialsFixtureIdentifiersAndPrivatePathsExported": false
+}

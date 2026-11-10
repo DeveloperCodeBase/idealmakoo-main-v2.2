@@ -1,0 +1,194 @@
+{
+  "format": "idealmakoo.actual-current-docker-runtime",
+  "observedAt": "2026-10-21T14:44:29.303392+00:00",
+  "name": "install",
+  "instanceId": "idealmakoo-user-directory-final-install-13b6943b742546bcabc0b2da5ed395d6",
+  "ubuntuVersion": "24.04",
+  "kernel": "6.8.0-147-generic",
+  "nodeVersion": "v24.22.0",
+  "dockerVersion": "29.9.2",
+  "composeVersion": "5.6.0",
+  "measuredMemTotalMiB": 3913,
+  "virtualCpus": 6,
+  "acceleration": "TCG",
+  "declaredGuestMemoryMiB": 4096,
+  "installerResourceCheckOverride": "--skip-resource-check",
+  "documentedMinimumWithAntivirusGiB": 6,
+  "documentedRecommendedGiB": 8,
+  "applicationSha256": "12da2b69abf2fa85cf0655bc0b4ec7df9244ea0b50a29cc8c3be1157851b6e1c",
+  "actualContainerBuildId": "-Q7Ffy3JmwVExwxk-Ymk-",
+  "actualHealthcheckFileSha256": "8b98a827e9c8bea55e6fc71d96d65dbc9f922c10607a61f51b85d9a863362f2f",
+  "compilePublicOrigin": "http://127.0.0.1:3090",
+  "priorNativeReferenceBuildId": "-Q7Ffy3JmwVExwxk-Ymk-",
+  "runtimeSiteOrigin": "http://127.0.0.1:3088",
+  "renderedCanonical": "http://127.0.0.1:3088/fa/",
+  "publicReadinessStatus": 200,
+  "nativeCompilerSubstitution": "External test-only Dockerfile builder stage; dependencies and runtime stages unchanged",
+  "fullStandardFinalSourceDockerCompilationClaimed": false,
+  "services": {
+    "db": {
+      "containerId": "713e6cc68e6d47a72a04f2391553270677e86b505cd86d2195c3713ec0f1b77a",
+      "imageId": "sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a",
+      "imageReference": "pgvector/pgvector:pg16",
+      "user": "999:999",
+      "readOnlyRootfs": true,
+      "privileged": false,
+      "capDrop": [
+        "ALL"
+      ],
+      "securityOpt": [
+        "no-new-privileges:true"
+      ],
+      "restartCount": 0,
+      "health": "healthy",
+      "healthcheck": {
+        "Test": [
+          "CMD-SHELL",
+          "pg_isready -U postgres -d \"${POSTGRES_DB}\" -h 127.0.0.1"
+        ],
+        "Interval": 5000000000,
+        "Timeout": 5000000000,
+        "StartPeriod": 30000000000,
+        "Retries": 30
+      },
+      "memoryLimitBytes": 0,
+      "nanoCpus": 0
+    },
+    "clamav": {
+      "containerId": "969982c790ac569296242f4d5f4abb26dc9f428ba026e434da8a45a530e6fd59",
+      "imageId": "sha256:b022a93f7891b1fd0e22e24d400a8a0cd2fe5d2406a7e5e61ef503b177341f3d",
+      "imageReference": "idealmakoo-clamav:20261021T135944Z-547a4641",
+      "user": "clamav",
+      "readOnlyRootfs": true,
+      "privileged": false,
+      "capDrop": [
+        "ALL"
+      ],
+      "securityOpt": [
+        "no-new-privileges:true"
+      ],
+      "restartCount": 0,
+      "health": "healthy",
+      "healthcheck": {
+        "Test": [
+          "CMD",
+          "/bin/sh",
+          "-c",
+          "printf \"zPING\\0\" | nc -w 3 127.0.0.1 3310 | grep -q PONG"
+        ],
+        "Interval": 30000000000,
+        "Timeout": 10000000000,
+        "StartPeriod": 600000000000,
+        "Retries": 5
+      },
+      "memoryLimitBytes": 0,
+      "nanoCpus": 0
+    },
+    "app": {
+      "containerId": "acc24c174363d0bfbc10daa43840f842b84cb87eb3321cbd2ba2b0e0938be5ee",
+      "imageId": "sha256:f9eb6ed57f237a75b8845a4a01ebd295925d99beec78de7fa7ad5d21f45c182d",
+      "imageReference": "idealmakoo-app:20261021T135944Z-547a4641",
+      "user": "10001:10001",
+      "readOnlyRootfs": true,
+      "privileged": false,
+      "capDrop": [
+        "ALL"
+      ],
+      "securityOpt": [
+        "no-new-privileges:true"
+      ],
+      "restartCount": 0,
+      "health": "healthy",
+      "healthcheck": {
+        "Test": [
+          "CMD",
+          "node",
+          "/app/deploy/app-healthcheck.mjs",
+          "120"
+        ],
+        "Interval": 15000000000,
+        "Timeout": 120000000000,
+        "StartPeriod": 600000000000,
+        "Retries": 5
+      },
+      "memoryLimitBytes": 0,
+      "nanoCpus": 0,
+      "publicRuntimeEnvironment": {
+        "SITE_URL": "http://127.0.0.1:3088",
+        "NEXT_PUBLIC_SITE_URL": "http://127.0.0.1:3088",
+        "NODE_ENV": "production",
+        "STAFF_PROVISIONING_MODE": "hybrid",
+        "NOTIFICATIONS_MODE": "disabled",
+        "CRM_CAMPAIGNS_ENABLED": "false"
+      }
+    },
+    "worker": {
+      "containerId": "90b017eca20a8c8f353d97db97014b0fc2995cc6e997ba4d0490193579a4d385",
+      "imageId": "sha256:f9eb6ed57f237a75b8845a4a01ebd295925d99beec78de7fa7ad5d21f45c182d",
+      "imageReference": "idealmakoo-app:20261021T135944Z-547a4641",
+      "user": "10001:10001",
+      "readOnlyRootfs": true,
+      "privileged": false,
+      "capDrop": [
+        "ALL"
+      ],
+      "securityOpt": [
+        "no-new-privileges:true"
+      ],
+      "restartCount": 0,
+      "health": "healthy",
+      "healthcheck": {
+        "Test": [
+          "CMD",
+          "node",
+          "--import",
+          "tsx",
+          "/app/scripts/worker-health.ts"
+        ],
+        "Interval": 30000000000,
+        "Timeout": 120000000000,
+        "StartPeriod": 600000000000,
+        "Retries": 4
+      },
+      "memoryLimitBytes": 2147483648,
+      "nanoCpus": 2000000000,
+      "publicRuntimeEnvironment": {
+        "SITE_URL": "http://127.0.0.1:3088",
+        "NEXT_PUBLIC_SITE_URL": "http://127.0.0.1:3088",
+        "NODE_ENV": "production",
+        "STAFF_PROVISIONING_MODE": "hybrid",
+        "NOTIFICATIONS_MODE": "disabled",
+        "CRM_CAMPAIGNS_ENABLED": "false"
+      }
+    },
+    "proxy": {
+      "containerId": "55aa56d8707378c2ad13fe304af8d6896fb820a0c61d7af81fe874eaf923448e",
+      "imageId": "sha256:87f620a058556570991b00cd843532758e455a5a260547999cc36e7e5e0b2207",
+      "imageReference": "idealmakoo-proxy:20261021T135944Z-547a4641",
+      "user": "10002:10002",
+      "readOnlyRootfs": true,
+      "privileged": false,
+      "capDrop": [
+        "ALL"
+      ],
+      "securityOpt": [
+        "no-new-privileges:true"
+      ],
+      "restartCount": 0,
+      "health": null,
+      "healthcheck": null,
+      "memoryLimitBytes": 0,
+      "nanoCpus": 0
+    }
+  },
+  "backupTimerEnabled": true,
+  "backupServicePathVerified": true,
+  "encryptedBackupFiles": [
+    {
+      "filename": "idealmakoo-20261021T141946Z-62d7ea59.tar.age",
+      "bytes": 64353816
+    }
+  ],
+  "productDockerfileSha256": "73c6a4ef453388a1caf1c197c6ded87301e8b294a351f35ed6a70aa8d1249591",
+  "testFixtureDockerfileSha256": "f28d914a8a7ec0fd937a636be05baf62d03d49f2b4f5689a7ee29cf7d32ca5b2"
+}

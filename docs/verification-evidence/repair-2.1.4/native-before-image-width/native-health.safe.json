@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-10-25T11:34:37.908Z",
+  "healthHttpStatus": 200,
+  "status": "ok",
+  "database": "ok",
+  "privacy": "ready",
+  "applicationVersion": "2.1.4",
+  "workerHealthCommand": "node --env-file=.env.local --import tsx scripts/worker-health.ts",
+  "workerHealthExitCode": 0,
+  "productionBuild": "OruFAGBKnBw7jMP-nT3JJ"
+}

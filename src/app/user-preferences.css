@@ -1,0 +1,40 @@
+/* Personal preferences affect the entire current account session. */
+html[data-motion='reduced'] { scroll-behavior: auto; }
+html[data-motion='reduced'] *,
+html[data-motion='reduced'] *::before,
+html[data-motion='reduced'] *::after {
+  animation-duration: .001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: .001ms !important;
+  scroll-behavior: auto !important;
+}
+
+html[data-effects='off'] :is(.glass,.btn,.icon-btn,.gn-bar,[data-liquid-surface])::before,
+html[data-effects='off'] .site-background::before {
+  opacity: 0 !important;
+}
+html[data-effects='off'] :is(.glass,.gn-bar,.ws-card,.btn,.icon-btn,[data-liquid-surface]) {
+  --liquid-x: 50%;
+  --liquid-y: 0%;
+}
+
+/* Most legacy controls use px. Raising only rem would leave them unchanged. */
+html[data-font-size='large'] { font-size: 18px; }
+html[data-font-size='large'] body :is(p,input,select,textarea,td,th,button,.btn,.field>span,.ws-field>span,.gn-link,.ws-nav-copy,.breadcrumbs,.text-link) {
+  font-size: max(1em, 1rem);
+}
+html[data-font-size='large'] body :is(p,label,td,th,.ws-nav-copy) { overflow-wrap: anywhere; }
+html[data-font-size='large'] body :is(input,select,textarea,button,.btn) { line-height: 1.6; }
+html[data-font-size='large'] .gn-links { gap: 14px; }
+html[data-font-size='large'] .ws-command-trigger kbd { display: none; }
+html[data-font-size='large'] .ws-nav-item { min-height: 46px; height: auto; }
+html[data-font-size='large'] .ws-topbar-actions { flex-wrap: wrap; }
+@media (max-width: 1240px) {
+  html[data-font-size='large'] .gn-links { display: none; }
+  html[data-font-size='large'] .mobile-toggle { display: grid; }
+}
+@media (max-width: 640px) {
+  html[data-font-size='large'] .ws-command-trigger { min-width: 0; }
+  html[data-font-size='large'] .ws-command-trigger>span { display: none; }
+  html[data-font-size='large'] .theme-language .language-trigger { font-size: 12px; }
+}

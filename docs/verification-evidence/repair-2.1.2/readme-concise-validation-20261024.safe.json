@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "kind": "readme-current-validation-concision-docs-only",
+  "status": "completed",
+  "recordedAt": "2026-10-24T16:33:10.285612+00:00",
+  "onlyEditedExistingPath": "README.md",
+  "historicalPreimage": {
+    "path": "docs/verification-evidence/repair-2.1.2/readme-before-concise-validation-20261024.txt",
+    "bytes": 47608,
+    "sha256": "2a5f94d83f4e66a9b9994fd5c8d731dd8f0e0e1b4a222ec68a02079913884934",
+    "exactOriginalBytes": true,
+    "format": "plain-text historical snapshot; relative Markdown links are not new active documentation links"
+  },
+  "currentReadme": {
+    "path": "README.md",
+    "bytes": 34232,
+    "sha256": "3d6f183efbfd665e59856ee58d4c3363bf005e5d5f9c0b34de9e94ff05b0068a"
+  },
+  "replacementScope": {
+    "startHeading": "## وضعیت بررسی نسخهٔ ۲٫۱٫۲",
+    "nextHeading": "## سازگاری با سورس ارسالی ۲٫۰٫۰",
+    "beforeSectionBytes": 16286,
+    "afterSectionBytes": 2910,
+    "beforeWhitespaceSeparatedWords": 1572,
+    "afterWhitespaceSeparatedWords": 273,
+    "outsideSectionByteIdentical": true
+  },
+  "newLocalMarkdownLinksChecked": 8,
+  "acceptedStatusAsOf": "2026-10-24T16:00:34.868521+00:00",
+  "retainedFacts": {
+    "operationsTests": 224,
+    "operationsApplicationInputSha256": "30d2d54eef773f72807ed4473e64627b54bd3da16509bc3de3f6cf8c609079d4",
+    "originalSupportedUpdateExitCode": 124,
+    "distinctStagedStartExitCode": 0,
+    "independentPoststateExitCode": 0,
+    "currentPromoted": false,
+    "priorResumeSecurityWitnessAndApi15RemainScopedHistoricalSuccesses": true,
+    "fullInstallUpdateNewSourceBackupFreshRecoveryNative05OrFullLighthouseAccepted": false,
+    "laterUpdate02CompletionClaimed": false
+  },
+  "existingAuthoritativeReceipts": {
+    "operationsCompletion": "docs/verification-evidence/repair-2.1.2/lifecycle-failure-diagnostics-20261024/completion.safe.json",
+    "originalFailedUpdate": "docs/verification-evidence/repair-2.1.2/supported-update-failure-20261024/failure-log-classification.safe.json",
+    "stagedStart": "docs/verification-evidence/repair-2.1.2/staged-start-after-update-20261024/acceptance.safe.json",
+    "poststate": "docs/verification-evidence/repair-2.1.2/staged-start-after-update-20261024/final-state.safe.json"
+  },
+  "otherDocumentationSourceTestsRuntimeOrPackageChanged": false,
+  "evidenceDeleted": false,
+  "publishedV7ZipModified": false,
+  "runtimeTestBuildBrowserVmPackageExecuted": false
+}

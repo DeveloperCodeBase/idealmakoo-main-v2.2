@@ -1,0 +1,21 @@
+{
+  "format": "idealmakoo.private-pilot-completion",
+  "version": 1,
+  "scope": "Completed three-view disposable acceptance pilot only; raw command and private paths omitted.",
+  "buildId": "gb91X0rgCFfgonVlsqBqC",
+  "state": "completed",
+  "startedAt": "2026-10-20T17:14:20.122380+00:00",
+  "finishedAt": "2026-10-20T17:15:17.538785+00:00",
+  "exitCode": 0,
+  "sourceSupervisorStatusSha256": "d1ec18cdf9b673aacd1ea95d33e29e1ea719125fe43098583853bde291086b6b",
+  "safeSummarySha256": "f635d6ece3261093b1f8d429f512a919842d2be68c3c20f3647e2748522f061b",
+  "counts": {
+    "expected": 3,
+    "attempted": 3,
+    "completed": 3,
+    "errors": 0,
+    "timeouts": 0,
+    "pending": 0
+  },
+  "coverageComplete": true
+}

@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "kind": "owned-guest-acceptance-job-outcome",
+  "job": "restore-populated-resume-04",
+  "status": "passed",
+  "startedAt": "2026-10-24T13:42:14.410087+00:00",
+  "completedAt": "2026-10-24T14:05:21.145033+00:00",
+  "pid": 125508,
+  "startTicks": 2387319,
+  "exitCode": 0,
+  "actualWaitConsumed": true
+}

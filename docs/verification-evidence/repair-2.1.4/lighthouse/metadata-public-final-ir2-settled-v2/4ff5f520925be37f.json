@@ -1,0 +1,71 @@
+{
+  "url": "http://127.0.0.1:3100/tr/products/berelian/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "cfa4e85b122d499212d7f1a6230b4d2c52aea091d005b0a7adaae2698013008c",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Berelian protez dişler | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Berelian, tam ve bölümlü protezler için iki katmanlı akrilik yapı ve üç polimerizasyon döngüsü kullanır."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/products/berelian/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/berelian/",
+    "en": "http://127.0.0.1:3100/en/products/berelian/",
+    "tr": "http://127.0.0.1:3100/tr/products/berelian/",
+    "ar": "http://127.0.0.1:3100/ar/products/berelian/",
+    "ru": "http://127.0.0.1:3100/ru/products/berelian/",
+    "x-default": "http://127.0.0.1:3100/fa/products/berelian/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Berelian protez dişler",
+      "description": "Berelian, tam ve bölümlü protezler için iki katmanlı akrilik yapı ve üç polimerizasyon döngüsü kullanır.",
+      "image": "http://127.0.0.1:3100/media/official/1686482280.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "BERELIAN"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/tr/products/berelian/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 46
+}

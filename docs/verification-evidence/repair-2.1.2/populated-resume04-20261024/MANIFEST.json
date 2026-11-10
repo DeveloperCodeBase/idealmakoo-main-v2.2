@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "kind": "exact-public-safe-resume04-receipt-copies",
+  "files": {
+    "acceptance.safe.json": {
+      "bytes": 8095,
+      "sha256": "9119a358e7546177fa777f4d5e1103560b5561362131680952b442f5cd2d8c13",
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261024/devops/evidence/populated-resume04-acceptance.safe.json",
+      "exactBytesCopied": true
+    },
+    "original-outcome.safe.json": {
+      "bytes": 321,
+      "sha256": "f025da4de1294da2f459ca189db09ea12aa983c68001e1c776334a495ef42cd2",
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261024/devops/guest-jobs/restore-populated-resume-04/outcome.safe.json",
+      "exactBytesCopied": true
+    },
+    "resume03-bootstrap-failure.safe.json": {
+      "bytes": 2909,
+      "sha256": "5dca856c93624d89d9fb014036937cb7a43c38eaa5047c8a85690f4e3a448355",
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261024/devops/evidence/populated-resume03-bootstrap-failure.safe.json",
+      "exactBytesCopied": true
+    },
+    "resume03-bootstrap-context-diagnosis.safe.json": {
+      "bytes": 2530,
+      "sha256": "4ed323f5d43573e079cae0c7f140ad666c9ab4b594d730770cf1f172825b3510",
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261024/devops/evidence/resume03-bootstrap-context-diagnosis.safe.json",
+      "exactBytesCopied": true
+    },
+    "security-witness.safe.json": {
+      "bytes": 3233,
+      "sha256": "c1df03a780e0c7a0796d746c99dde1499c04a28bb8a42d2ce85dbbc096ded715",
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261024/devops/evidence/populated-resume04-security-witness.safe.json",
+      "exactBytesCopied": true
+    },
+    "api-verification.safe.json": {
+      "bytes": 3057,
+      "sha256": "672ee1ee6a6294970eba3a0bf77013113104b05d159cfec117fcd1df6b4041bf",
+      "sourcePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261024/devops/evidence/populated-resume04-api-verification.safe.json",
+      "exactBytesCopied": true
+    }
+  },
+  "privateRawLogsTracesAndSecretsIncluded": false
+}

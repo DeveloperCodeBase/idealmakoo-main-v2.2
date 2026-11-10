@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/cooperation/outsourcing/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "3604d106439931418f3a8b25201d74f0ef29d4953bc31d00bb6de2a6fb501012",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "پیشنهاد برون‌سپاری | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "اطلاعیه‌های منتشرشدهٔ برون‌سپاری کارخانه را بررسی کنید و از مسیر هر فراخوان، پیشنهاد و مستندات مرتبط را ارسال کنید."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/cooperation/outsourcing/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/cooperation/outsourcing/",
+    "en": "http://127.0.0.1:3100/en/cooperation/outsourcing/",
+    "tr": "http://127.0.0.1:3100/tr/cooperation/outsourcing/",
+    "ar": "http://127.0.0.1:3100/ar/cooperation/outsourcing/",
+    "ru": "http://127.0.0.1:3100/ru/cooperation/outsourcing/",
+    "x-default": "http://127.0.0.1:3100/fa/cooperation/outsourcing/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 45
+}

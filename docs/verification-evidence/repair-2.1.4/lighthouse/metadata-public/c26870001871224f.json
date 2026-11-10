@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/sustainability/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "d9b24526a73e61a68f07f716db244c848e68c8ee5ca95ca04f75cb05107d73a5",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "تقارير الاستدامة | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "لم يُنشر في هذه النسخة تقرير استدامة رسمي أو مؤشرات استهلاك طاقة أو بيانات انبعاثات موثقة. تواصل مع المصنع للمعلومات المؤسسية."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/sustainability/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/sustainability/",
+    "en": "http://127.0.0.1:3100/en/sustainability/",
+    "tr": "http://127.0.0.1:3100/tr/sustainability/",
+    "ar": "http://127.0.0.1:3100/ar/sustainability/",
+    "ru": "http://127.0.0.1:3100/ru/sustainability/",
+    "x-default": "http://127.0.0.1:3100/fa/sustainability/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 72
+}

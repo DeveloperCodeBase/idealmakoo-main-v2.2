@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "kind": "current-readiness-inspection-input-summary",
+  "applicationInputs": {
+    "files": 989,
+    "sha256": "9c9562abb591401e6ee8911422bb06c5463f297bc414304fde8b813a8fb4f434"
+  },
+  "executionInputs": {
+    "files": 998,
+    "sha256": "226e5cfda51089ab191cc1c7a669f82ab78772490279b52cfcae423f3debf466"
+  },
+  "changedPathsFromHistoricalPackage09": [
+    "deploy/service-lifecycle.py",
+    "tests/deployment_service_lifecycle_test.py"
+  ],
+  "historicalPackage09": {
+    "zipSha256": "cac09a38db766729d4e0d0150b8b64d652752a92e9bdce2188fa770bb697f43d",
+    "applicationInputSha256": "29480cc4a946a7df71868f19dd8bfd357117c5f0a0b0d3a8c408256d3c060bf4",
+    "executionInputSha256": "31a67fb0b307249d289d16a5634db3b22248b28ead4399fd5ce75190157ec7ea",
+    "operationsTests": 238
+  },
+  "compilerInputs": {
+    "files": 727,
+    "sha256": "9e2914460b7db6ecd1156bf9e9de79ea38271b860f161f5be47b4c58ebf9e680",
+    "currentExecutionMapEqualityVerified": true,
+    "evidence": "input-equivalence.safe.json",
+    "newBuildClaimed": false
+  },
+  "actualOperationsTests": 251,
+  "focusedTests": 20,
+  "newFocusedMethods": 13,
+  "focusedIncludedInFullSuite": true,
+  "historicalFocusedReceiptScope": "The isolated candidate was unapplied and its full suite pending when those immutable receipts were recorded; the later operations06 receipt records actual application and251 tests.",
+  "actualVmStageOnCurrentReadinessRetrySource": "pending",
+  "fullSupportedUpdateAccepted": false,
+  "newNativeBuild": "pending",
+  "fullLighthouse": "pending"
+}

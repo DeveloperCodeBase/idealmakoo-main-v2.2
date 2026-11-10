@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/resources/berelian-official-image/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "b3ab549c2baccd0e53d2ddb2bc17c78b9ea5626f6cd1a89079a552354eb3a635",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Berelian denture teeth — official image | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Berelian denture teeth — official image — Original factory image documents"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/resources/berelian-official-image/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/berelian-official-image/",
+    "en": "http://127.0.0.1:3100/en/resources/berelian-official-image/",
+    "tr": "http://127.0.0.1:3100/tr/resources/berelian-official-image/",
+    "ar": "http://127.0.0.1:3100/ar/resources/berelian-official-image/",
+    "ru": "http://127.0.0.1:3100/ru/resources/berelian-official-image/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/berelian-official-image/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 42
+}

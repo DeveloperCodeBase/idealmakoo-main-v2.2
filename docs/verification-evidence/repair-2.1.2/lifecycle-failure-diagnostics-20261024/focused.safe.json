@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "kind": "lifecycle-failure-diagnostics-focused-tests",
+  "label": "candidate",
+  "startedAt": "2026-10-24T15:29:15.491625+00:00",
+  "completedAt": "2026-10-24T15:29:16.960444+00:00",
+  "elapsedSeconds": 1.4688316760002635,
+  "exitCode": 0,
+  "actualChildWaitConsumed": true,
+  "selectedTestMethods": [
+    "test_failed_command_reports_real_child_cap_without_arguments_or_output",
+    "test_failed_command_survives_actual_cleanup_failure_with_original_exit",
+    "test_failed_command_is_copied_before_cleanup_can_change_exception_metadata",
+    "test_failed_command_invalid_metadata_is_omitted_without_changing_exit_codes",
+    "test_failed_command_recording_error_preserves_real_child_failure_and_termination",
+    "test_failed_command_retryable_public_timeout_does_not_label_later_failure"
+  ],
+  "inputHashesBefore": {
+    "deploy/service-lifecycle.py": "3db80a9bd1d81e661a9204b8cd5e52dbc7c9503949770a37d870a2d4e53c897d",
+    "tests/deployment_service_lifecycle_test.py": "3fca706c7275a7b8fc655091e3284555360d989bdc47cb8cd65e3b22d45aec67"
+  },
+  "inputHashesAfter": {
+    "deploy/service-lifecycle.py": "3db80a9bd1d81e661a9204b8cd5e52dbc7c9503949770a37d870a2d4e53c897d",
+    "tests/deployment_service_lifecycle_test.py": "3fca706c7275a7b8fc655091e3284555360d989bdc47cb8cd65e3b22d45aec67"
+  },
+  "inputsUnchanged": true,
+  "result": {
+    "testsRun": 6,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "expectedFailures": 0,
+    "unexpectedSuccesses": 0,
+    "durationSeconds": 1.3348330389999319,
+    "failureTestIds": [],
+    "errorTestIds": [],
+    "successful": true
+  },
+  "noDockerDaemonNetworkDatabaseOrVMAction": true,
+  "fullOperationsSuiteRun": false
+}

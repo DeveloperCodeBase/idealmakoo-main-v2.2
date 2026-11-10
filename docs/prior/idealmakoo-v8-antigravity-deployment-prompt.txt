@@ -1,0 +1,541 @@
+پرامپت استقرار کامل Ideal Makoo v8 برای Google Antigravity
+===========================================================
+
+نقش تو: مهندس ارشد استقرار Linux، Node.js و Next.js هستی. این یک دستور اجرای واقعی است؛ ابتدا برنامهٔ کوتاه بنویس و سپس کار را تا استقرار و بررسی نهایی انجام بده. به ارائهٔ راهنما یا گفتن «انجام شد» بدون اجرای آزمون‌ها اکتفا نکن.
+
+مشخصات قطعی
+-----------
+Repository: https://github.com/DeveloperCodeBase/idealmakoo-v8.git
+Branch: main
+SSH host: 193.163.201.141
+SSH user: ubuntu، با هویت و پورت SSH معتبرِ موجود در محیط
+Final application directory: /var/www/idealmakoo-v6
+Canonical domain: https://idealmako.ir
+Preferred dedicated service: idealmakoo-v8.service
+
+نام پوشه عمداً idealmakoo-v6 است، هرچند سورس از مخزن v8 می‌آید. آن را خودسرانه تغییر نده.
+
+من حذف کامل نسخهٔ قبلی همین پروژهٔ ایده‌آل ماکو را بدون بک‌آپ تأیید کرده‌ام. هیچ بک‌آپ، snapshot، آرشیو یا پوشهٔ old/backup از نسخهٔ قبلی نساز. داده‌های اختصاصی همان نسخه نیز لازم نیست حفظ شوند. این اجازه فقط مربوط به پروژهٔ ایده‌آل ماکو است؛ روی سرور چند پروژهٔ دیگر فعال است و باید سالم و با تنظیمات فعلی باقی بمانند.
+
+کلید جدید Google AI Studio برای تنظیمات محرمانهٔ سرور:
+[REDACTED_API_KEY]
+
+فقط همین کلید جدید را استفاده کن. کلید را در NEXT_PUBLIC_*، سورس، Git، HTML، JavaScript مرورگر، URL، خروجی ترمینال، گزارش یا فایل قابل دانلود قرار نده. آن را فقط در EnvironmentFile سروریِ محافظت‌شده ذخیره کن. بعداً خودم آن را عوض می‌کنم.
+
+هدف مهم دیگر: هیچ فایل، مسیر یا لینک دانلود «سورس کامل پروژه» روی وب‌سایت عمومی باقی نماند. دانلود کاتالوگ‌ها، PDFها، راهنماها و رسانه‌های واقعی کارخانه باید سالم بماند.
+
+۱. بررسی سرور و تعیین محدوده
+----------------------------
+با SSH معتبر موجود وصل شو. رمز یا کلید SSH را حدس نزن؛ بررسی host key را غیرفعال نکن. اگر اتصال رد شد یا دسترسی لازم موجود نبود، خطای واقعی و همان دسترسیِ موردنیاز را گزارش کن؛ ادعای استقرار نکن و پورت‌های سرور را اسکن نکن.
+
+قبل از هر تغییر، این موارد را بررسی و نتیجهٔ لازم را بدون افشای اسرار ثبت کن:
+- سیستم‌عامل، معماری CPU، نسخهٔ Node و npm، فضای دیسک و حافظهٔ آزاد.
+- پردازش‌ها و listenerهای فعلی با ابزارهایی مثل ss.
+- سرویس یا پراکسی‌ای که اکنون پورت‌های 80 و 443 را مدیریت می‌کند.
+- نام، Unix user، WorkingDirectory، فرمان اجرا و پورت نسخهٔ قبلی ایده‌آل ماکو.
+- تنظیمات اجرای خودکار مربوط: systemd و socket units، PM2 در حساب مالک مربوط، Docker/Compose و jobهای مرتبط؛ فقط بازبودن فعلی یک پورت را بررسی نکن، ممکن است سرویس دیگری پس از reboot آن را بگیرد.
+- vhost و گواهی دامنهٔ idealmako.ir و وابستگی احتمالی آن‌ها به تنظیمات مشترک.
+- پاسخ فعلی وب‌سایت‌های دیگر، برای مقایسهٔ سلامت پس از کار.
+
+اطلاعات سایر پروژه‌ها را فقط به اندازهٔ لازم برای جلوگیری از تداخل بررسی کن؛ فایل‌های محرمانهٔ آن‌ها را در گزارش چاپ نکن.
+
+برای این اپ یک پورت آزاد روی 127.0.0.1 انتخاب و ثبت کن. پورت 3000، 3001 یا هر عدد دیگری را از پیش آزاد فرض نکن. IPv4، IPv6، port mapping کانتینرها و پورت‌های رزروشدهٔ سرویس‌های غیرفعال را هم لحاظ کن. درست پیش از شروع سرویس دوباره آن را بررسی کن. اگر اشغال شد، پورت همین پروژه را عوض کن؛ پردازش صاحب پورت را متوقف نکن.
+
+محدودیت‌های اجرایی:
+- هیچ حذف با wildcard مانند /var/www/ideal* انجام نده.
+- /var/www، تنظیمات کلی Nginx، Node مشترک و فایل‌های سایر پروژه‌ها را پاک یا بازنویسی نکن.
+- از killall node، pkill node، fuser -k، pm2 delete all، pm2 kill، docker prune، توقف Docker و restart عمومی استفاده نکن.
+- نسخهٔ Node سیستم و تنظیم پیش‌فرض runtime سایر کاربران را تغییر نده.
+- ارتقای عمومی سیستم، reset فایروال یا reboot کل سرور جزو این کار نیست.
+- هر تغییر دسترسی و مالکیت باید به مسیرهای اختصاصی همین پروژه محدود باشد.
+
+۲. دریافت و آماده‌سازی نسخهٔ جدید پیش از حذف قبلی
+------------------------------------------------
+نسخهٔ جدید را ابتدا در یک پوشهٔ staging خصوصی و یکتا، خارج از پوشهٔ نسخهٔ قبلی، آماده کن؛ مثلاً یک مسیر تازه زیر /var/www با نام .idealmakoo-v8-stage-<شناسهٔ یکتا>. بررسی کن این مسیر متعلق به پروژهٔ دیگری نباشد.
+
+این staging، سورس نسخهٔ جدید است و بک‌آپ نسخهٔ قبلی نیست. هیچ فایلی از نسخهٔ قبلی به آن کپی نکن.
+
+مخزن main را دریافت کن، SHA واقعی commit را ثبت کن و package.json، lockfile، README، next.config، scripts/serve.mjs، scripts/build-worker.mjs، worker/entry.ts و worker/ai-handler.ts را بخوان. commit مبنای بررسی این دستور 22287984c7047ab1eff8461a21891d22f3b79807 است؛ اگر main جلوتر رفته، نسخهٔ جدید آن را بررسی و SHA استفاده‌شده را گزارش کن.
+
+این مخزن در نسخهٔ بررسی‌شده:
+- Node.js >=24 لازم دارد.
+- Next.js با output: 'export' و خروجی out/ دارد.
+- درگاه AI را در dist/server/index.js می‌سازد.
+- با scripts/serve.mjs، هم out/ و هم /api/ai/* را اجرا می‌کند.
+- فرمان next start برای این معماری مناسب نیست.
+- اجرای صرفِ فایل‌های out/ با وب‌سرور، درگاه AI را اجرا نمی‌کند.
+
+اگر Node مناسب موجود نیست، نسخهٔ patch مناسب و تأییدشدهٔ Node 24 را از منبع رسمی، متناسب با معماری سرور و با بررسی checksum، در مسیر اختصاصی مانند /opt/idealmakoo-node24 نصب کن. مسیر مطلق همان Node باید در build و systemd استفاده شود. PATH مربوط به npm و lifecycle scriptها را نیز با همان runtime هماهنگ کن.
+
+وابستگی‌ها را با lockfile و npm ci --include=dev نصب کن. TypeScript و tests/helpers/load-ts.mjs برای build-worker لازم‌اند؛ پیش از build، devDependencies، tests/helpers یا .openai/hosting.json را حذف نکن. dependencyها را خودسرانه ارتقا نده و از npm audit fix --force استفاده نکن.
+
+منابع کافی برای build را بررسی کن. روی میزبان مشترک، مصرف build را با محدودیت مناسب همان پردازش/واحد کنترل کن تا حافظه یا CPU پروژه‌های دیگر مختل نشود. اگر ظرفیت کافی نیست، از محیط build سازگار استفاده کن؛ build شکست‌خورده دلیل حذف زودهنگام نسخهٔ قبلی نیست.
+
+۳. حذف کامل قابلیت دانلود عمومی سورس از خودِ سورس و build
+---------------------------------------------------------
+این بخش ضروری است. در مخزن بررسی‌شده، package.json هنگام build به‌صورت خودکار ZIP سورس می‌سازد و build-worker آن را به قطعه‌های bin تبدیل می‌کند. حذف لینک یا پاک‌کردن یک ZIP پس از استقرار کافی نیست.
+
+الف) در package.json مقدار scripts.build را دقیقاً به این مقدار تغییر بده:
+"build": "next build --webpack && node scripts/build-worker.mjs"
+
+اسکریپت package:source و scripts/prepare-download.mjs را از این نسخهٔ استقرار حذف کن تا هیچ فرمان موجودی سورس را در public/ یا out/ بازتولید نکند. سایر scriptهای موردنیاز را نگه دار.
+
+ب) scripts/build-worker.mjs را با نسخهٔ زیر هماهنگ کن. این نسخه AI را نگه می‌دارد و هیچ ZIP، SOURCE_ARCHIVE یا قطعهٔ دانلود نمی‌سازد:
+
+~~~js
+import { readFile, writeFile, mkdir, cp, rm, stat } from 'node:fs/promises';
+import { resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import ts from 'typescript';
+import { loadTs } from '../tests/helpers/load-ts.mjs';
+
+const root = fileURLToPath(new URL('../', import.meta.url));
+const hosting = JSON.parse(
+  await readFile(resolve(root, '.openai/hosting.json'), 'utf8')
+);
+if (hosting.static) {
+  throw new Error('AI server requires the Worker deployment manifest.');
+}
+await stat(resolve(root, 'out/index.html'));
+
+const { createKnowledge } = await loadTs('worker/knowledge.ts');
+const knowledge = createKnowledge();
+const handler = await readFile(resolve(root, 'worker/ai-handler.ts'), 'utf8');
+const entry = await readFile(resolve(root, 'worker/entry.ts'), 'utf8');
+
+const source =
+  handler +
+  '\nconst KNOWLEDGE=' + JSON.stringify(knowledge) + ';\n' +
+  entry.replace(/^declare const .+;$/gm, '');
+
+const result = ts.transpileModule(source, {
+  compilerOptions: {
+    target: ts.ScriptTarget.ES2022,
+    module: ts.ModuleKind.ES2022
+  },
+  reportDiagnostics: true,
+  fileName: 'worker.ts'
+});
+const errors = (result.diagnostics || []).filter(
+  d => d.category === ts.DiagnosticCategory.Error
+);
+if (errors.length) {
+  throw new Error(ts.formatDiagnosticsWithColorAndContext(errors, {
+    getCanonicalFileName: f => f,
+    getCurrentDirectory: () => root,
+    getNewLine: () => '\n'
+  }));
+}
+
+await rm(resolve(root, 'dist'), { recursive: true, force: true });
+await mkdir(resolve(root, 'dist/server'), { recursive: true });
+await mkdir(resolve(root, 'dist/.openai'), { recursive: true });
+
+await cp(resolve(root, 'out'), resolve(root, 'dist/client'), {
+  recursive: true
+});
+await writeFile(resolve(root, 'dist/server/index.js'), result.outputText);
+await writeFile(
+  resolve(root, 'dist/.openai/hosting.json'),
+  JSON.stringify(hosting, null, 2) + '\n'
+);
+
+const mod = await import(
+  'data:text/javascript;base64,' +
+  Buffer.from(result.outputText).toString('base64')
+);
+if (typeof mod.default?.fetch !== 'function') {
+  throw new Error('Worker must export default.fetch');
+}
+const status = await mod.default.fetch(
+  new Request('https://local.test/api/ai/status'), {}
+);
+const info = await status.json();
+if (info.configured !== false || info.knowledgeEntries !== knowledge.length) {
+  throw new Error('AI configuration isolation failed');
+}
+const asset = await mod.default.fetch(
+  new Request('https://local.test/fa/'),
+  { ASSETS: { fetch: async () => new Response('asset-ok') } }
+);
+if (await asset.text() !== 'asset-ok') {
+  throw new Error('Asset pass-through failed');
+}
+console.log(JSON.stringify({
+  worker: 'dist/server/index.js',
+  client: 'dist/client',
+  knowledgeEntries: knowledge.length,
+  secretEmbedded: false,
+  esmVerified: true
+}));
+~~~
+
+پ) در worker/entry.ts:
+- declare مربوط به handleSourceArchive و SOURCE_ARCHIVE را حذف کن.
+- فراخوانی handleSourceArchive را حذف کن.
+- تنظیم Content-Disposition مخصوص ZIP سورس را حذف کن.
+- handleAi، KNOWLEDGE، سرو فایل‌های عادی، fallback مسیرهای استاتیک و سیاست کش مسیرهای خصوصی را نگه دار.
+- قبل از ارسال به ASSETS، مسیر ZIP و تمام قطعه‌های سورس را صریحاً با 404 و Cache-Control: no-store رد کن.
+- worker/download.ts را که فقط برای مونتاژ ZIP سورس است حذف کن؛ وابستگی‌های آن را هم منسجم اصلاح کن.
+
+ت) در scripts/serve.mjs نیز قبل از سرو فایل استاتیک، همین ممنوعیت را اجرا کن و Content-Disposition مخصوص ZIP سورس را حذف کن. مسیر را پس از decode و نرمال‌سازی بررسی کن تا شکل‌های encoded، اسلش اضافی، query و درخواست Range ممنوعیت را دور نزنند.
+
+ث) فقط فایل‌های بستهٔ کامل سورس و قطعه‌های آن را از public/، out/ و dist/client/ این checkout حذف کن، از جمله:
+- downloads/idealmakoo-source.zip
+- downloads/idealmakoo-source.001.bin و سایر شماره‌ها
+- فایل‌های موقت هم‌خانوادهٔ .idealmakoo-source.zip.*
+- هر آرشیو کاملِ کد با نام دیگری که واقعاً در خروجی عمومی پیدا می‌شود.
+
+پوشهٔ downloads را کامل پاک یا مسدود نکن. حذف همهٔ فایل‌های ZIP، PDF یا BIN ممنوع است؛ ممکن است سند واقعی کارخانه باشند.
+
+ج) scripts/verify.mjs را اصلاح کن:
+الزام قدیمی وجود ZIP و گزارش حجم آن را بردار؛ به‌جایش نبود آرشیو و قطعه‌های سورس و لینک عمومی آن‌ها را در خروجی نهایی بررسی کن. تمام بررسی‌های محصولات، زبان‌ها، URLها، رسانه‌ها و کاتالوگ‌ها را نگه دار.
+
+چ) tests/source-download.test.mjs را به آزمون‌های ممنوعیت دانلود تغییر بده: GET، HEAD و Range برای ZIP و قطعه‌ها، شکل encoded مسیر و نبود فایل در خروجی. تست‌ها را برای سبزشدن حذف یا skip نکن. آزمون‌های سایر بخش‌ها را نگه دار.
+
+ح) README و متن‌های مربوط به دانلود بستهٔ سورس را با سیاست جدید هماهنگ کن. هر لینک واقعی دانلود کد در رابط، منو، فوتر یا صفحات را حذف کن. با جست‌وجوی source/zip فقط بر اساس کلمه تصمیم نگیر:
+- لینک «مرجع» در فوتر به وب‌سایت کارخانه است و باید بماند.
+- خروجی CSV با نام idealmakoo-source-registry، فهرست منابع محتواست و بستهٔ کد نیست؛ آن را نگه دار.
+- کاتالوگ‌ها و PDFهای کارخانه باید همچنان قابل دریافت باشند.
+
+پس از اصلاح، build دوباره نباید سورس قابل دانلود بسازد. برای اطمینان، build و بررسی خروجی را تکرار کن؛ موفقیت را فقط با حذف موقتی فایل اثبات نکن.
+
+۴. اصلاح اتصال واقعی AI پشت HTTPS و ذخیرهٔ تصویر
+-------------------------------------------------
+در scripts/serve.mjs نسخهٔ فعلی، origin درگاه با http ساخته می‌شود؛ اما مرورگر روی دامنهٔ نهایی Origin: https://idealmako.ir می‌فرستد. worker/ai-handler.ts اختلاف Origin را رد می‌کند. این ایراد را برطرف کن؛ کنترل امنیتی Origin را حذف نکن و مقدار هدر Origin را جعل نکن.
+
+یک متغیر سروری SITE_ORIGIN اضافه کن. پس از تعریف host و port در serve.mjs از الگوی زیر استفاده کن:
+
+~~~js
+const configuredOrigin = process.env.SITE_ORIGIN;
+if (process.env.NODE_ENV === 'production' && !configuredOrigin) {
+  throw new Error('SITE_ORIGIN is required in production');
+}
+const originUrl = new URL(
+  configuredOrigin || ('http://' + host + ':' + port)
+);
+if (
+  !['http:', 'https:'].includes(originUrl.protocol) ||
+  originUrl.username || originUrl.password ||
+  originUrl.pathname !== '/' || originUrl.search || originUrl.hash ||
+  (process.env.NODE_ENV === 'production' && originUrl.protocol !== 'https:')
+) {
+  throw new Error('Invalid SITE_ORIGIN');
+}
+const siteOrigin = originUrl.origin;
+~~~
+
+در شاخهٔ /api/ai/، origin قدیمیِ ساخته‌شده از request.headers.host را حذف کن و URL درخواست ورودی worker را این‌طور بساز؛ منطق فعلی headers، body و signal را نگه دار:
+
+~~~js
+const gatewayUrl = new URL(request.url || '/', siteOrigin);
+if (gatewayUrl.origin !== siteOrigin) {
+  response.writeHead(400, { 'Cache-Control': 'no-store' });
+  response.end('Invalid request origin');
+  return;
+}
+const input = new Request(gatewayUrl, {
+  method: request.method,
+  headers,
+  body: ['GET', 'HEAD'].includes(request.method)
+    ? undefined
+    : Buffer.concat(chunks),
+  signal: controller.signal
+});
+~~~
+
+SITE_ORIGIN باید در runtime دقیقاً https://idealmako.ir باشد. از Forwarded یا X-Forwarded-Host ارسالی کاربر، بدون تعریف مرز اعتماد، برای تعیین origin استفاده نکن.
+
+برای ذخیرهٔ پایدار تصاویر، متغیر GOOGLE_AI_MEDIA_DIR اضافه کن و تعریف generatedRoot را با این الگو جایگزین کن:
+
+~~~js
+const generatedRoot = resolve(
+  process.env.GOOGLE_AI_MEDIA_DIR ||
+  fileURLToPath(new URL('../.sites-runtime/generated/', import.meta.url))
+);
+~~~
+
+مقدار نهایی را /var/lib/idealmakoo-v8/generated قرار بده. این مسیر باید فقط برای کاربر سرویس قابل نوشتن باشد. مسیر آن را به root عمومی Nginx تبدیل نکن؛ تصویر باید از /api/ai/media/... و با سیاست خودِ درگاه ارائه شود.
+
+مرز اعتماد IP را برای این استقرار نیز تنظیم کن: هدرهای cf-connecting-ip و هدرهای هویت میزبانی که از اینترنت می‌آیند معتبر نیستند. اگر برای rate limit از IP پراکسی استفاده می‌کنی، پراکسی باید آن را بازنویسی کند و Node فقط پراکسی loopback تعریف‌شده را معتبر بداند. تمام کاربران را با هدر نقشِ ارسالی مرورگر احراز هویت نکن.
+
+محدودیت واقعی این سورس را حفظ و در گزارش بیان کن: حساب‌ها، نقش‌ها و CMS هنوز عمدتاً local هستند و serve.mjs در نسخهٔ اولیه actor مشترک local-owner دارد. این موضوع معادل احراز هویت و مالکیت سروریِ مستقل برای کاربران نیست. نصب API key، بک‌اند کاربران یا دیتابیس مشترک ایجاد نمی‌کند. امکانات نمایشی را به‌عنوان بک‌اند تولیدی گزارش نکن.
+
+۵. تنظیم محیط و انتخاب مدل‌های قابل استفاده
+--------------------------------------------
+برای زمان build، این متغیرهای عمومی را در محیط همان پروژه تنظیم کن:
+
+NEXT_PUBLIC_SITE_URL=https://idealmako.ir
+NEXT_PUBLIC_DATA_MODE=local
+NEXT_PUBLIC_API_BASE_URL=/api/v1
+
+اتصال کامل بک‌اند در این مأموریت تعریف نشده؛ DATA_MODE را خودسرانه api نکن. آدرس‌های canonical، sitemap، robots و لینک‌های داخلی باید دامنهٔ نهایی و زبان درست داشته باشند. URL وب‌سایت مرجع کارخانه idealmakoo.com را با دامنهٔ استقرار جایگزین نکن.
+
+فایل نهایی /etc/idealmakoo-v8/runtime.env را خارج از webroot، با مالک root و مجوز 0600 بساز. محتوای آن باید شامل مقادیر واقعی این متغیرها باشد:
+
+NODE_ENV=production
+HOST=127.0.0.1
+PORT=<پورت آزادِ انتخاب و بررسی‌شده>
+SITE_ORIGIN=https://idealmako.ir
+GOOGLE_AI_API_KEY=<کلید جدیدی که ابتدای دستور داده‌ام>
+GOOGLE_AI_TEXT_MODEL=<شناسهٔ مدل متنِ تأییدشده>
+GOOGLE_AI_IMAGE_MODEL=<شناسهٔ مدل تولید تصویرِ تأییدشده>
+GOOGLE_AI_MEDIA_DIR=/var/lib/idealmakoo-v8/generated
+
+هیچ placeholder در فایل نصب‌شده باقی نگذار. کلید را یک بار از متن همین دستور به فایل محافظت‌شده منتقل کن؛ از چاپ فایل، set -x یا قراردادن کلید در command-line آرگومانِ قابل مشاهدهٔ ابزارها خودداری کن. systemd فایل را می‌خواند؛ کلید لازم نیست داخل checkout یا .env.example باشد.
+
+مدل‌های پیش‌فرضِ نسخهٔ بررسی‌شده gemini-3.5-flash-lite و gemini-nano-banana-2.1 هستند. صرف وجود این نام‌ها یا configured:true دلیل قابل استفاده‌بودن آن‌ها نیست.
+
+با همان کلید، از API رسمی Google مدل‌های قابل استفاده را بررسی کن:
+https://generativelanguage.googleapis.com/v1beta/models
+
+صفحه‌بندی پاسخ را لحاظ کن. supportedGenerationMethods و مستندات رسمی خروجی تصویر را بررسی کن و با درخواست واقعی قابلیت مدل را تأیید کن. صرف generateContent به معنی توان تولید تصویر نیست. نام انتخابی در env باید بدون پیشوند models/ باشد، چون validator این سورس slash را نمی‌پذیرد.
+
+کلید را فقط در هدر x-goog-api-key درخواست به سرویس رسمی Google بفرست؛ آن را query string نکن. به مدل متن یا image-understanding برای تولید تصویر اکتفا نکن. مسیر فعلی درگاه برای تصویر از generateContent با responseModalities: ["TEXT", "IMAGE"] استفاده می‌کند؛ مدل باید با همین قرارداد سازگار باشد یا adapter را به‌درستی اصلاح و آزمایش کن.
+
+AI باید با درخواست‌های هم‌دامنه کار کند:
+GET /api/ai/status
+POST /api/ai/chat
+POST /api/ai/generate
+GET یا HEAD /api/ai/media/<id>
+
+از API key در مرورگر یا URL سخت‌کدشدهٔ localhost استفاده نکن. آزمون واقعی را محدود به درخواست‌های لازم انجام بده. اگر کلید، مدل، دسترسی منطقه‌ای، سهمیه یا صورتحساب مانع بود، خطای مشخص را گزارش کن؛ برای عبور از آن پاسخ یا تصویر ساختگی تولید نکن و فعال‌سازی هزینه یا تغییر سرویس مالی را خودسرانه انجام نده.
+
+۶. build و آزمون staging
+------------------------
+در checkout جدید، با Node درست و متغیرهای عمومی build:
+1) npm ci --include=dev
+2) npm run build
+3) npm test
+4) npm run check
+
+خطاهای واقعی ناشی از اصلاحات را برطرف کن. تعداد تست‌ها یا نتیجهٔ README را به‌عنوان نتیجهٔ اجرای فعلی گزارش نکن. tests/helpers و فایل‌های موردنیاز build باید در جای خود باقی بمانند.
+
+خروجی out/index.html و dist/server/index.js را بررسی کن. نبود آرشیو و قطعهٔ سورس در public/، out/ و dist/client/ باید اثبات شود. frontend bundle نباید کلید را داشته باشد؛ جست‌وجوی مقدار کلید را به‌شکل redacted انجام بده تا خود کلید در خروجی ابزار چاپ نشود.
+
+پیش از آزمون staging، کاربر سیستمی اختصاصیِ همین اپ را ایجاد یا اعتبارسنجی کن. staging را با یک واحد موقت و یکتای systemd و همان کاربر غیر root اجرا کن؛ systemd فایل root:0600 محیط را بخواند، نه یک shell معمولی که مجبور شود مجوز کلید را ضعیف کند.
+
+برای این واحد موقت، ابتدا EnvironmentFile اصلی و سپس یک EnvironmentFile موقتِ خصوصی را بارگذاری کن. فایل دوم فقط PORT موقتِ آزاد و GOOGLE_AI_MEDIA_DIR موقت را override کند؛ کلید را دوباره داخل آن کپی نکن. مسیر تصویرِ آزمون، پوشه‌ای خصوصی و قابل نوشتن برای کاربر سرویس در staging باشد. در systemd ترتیب فایل‌ها را رعایت کن؛ EnvironmentFile بر Environment تقدم دارد. این واحد موقت را برای boot فعال نکن.
+
+با Host و Origin دامنهٔ نهایی، صفحه، assets و AI را بررسی کن. پس از آزمون فقط همان واحد موقت و فایل تنظیم موقت خودش را متوقف/پاک کن. سرویس نهایی از پورت نهایی و /var/lib/idealmakoo-v8/generated با StateDirectory خودش استفاده کند.
+
+۷. حذف نسخهٔ قبلی بدون بک‌آپ و انتقال نسخهٔ آماده
+-------------------------------------------------
+فقط پس از موفقیت clone، build و آزمون اولیه، نسخهٔ قبلی را کنار بگذار. پیش از حذف، مسیر قابل استفادهٔ پراکسی به upstream جدید و امکان تنظیم دامنه/TLS را هم روشن کن؛ ابهام توپولوژی پراکسی یا مانع قطعی دسترسی نباید تازه پس از حذف نسخهٔ قبلی کشف شود.
+
+قبل از حذف /var/www/idealmakoo-v6:
+- ثابت کن محتوای آن همین پروژهٔ قدیمی است.
+- canonical path دقیقاً همین مسیر باشد.
+- symlink، mountpoint یا mount تو‌در‌تو نباشد.
+- staging جدید داخل آن نباشد و هیچ پروژهٔ دیگری به فایل‌های داخل آن وابسته نباشد.
+
+اگر ساختار symlink/mount یا منبع مشترک مشاهده شد، آن را کورکورانه دنبال و حذف نکن. مالکیت و وابستگی را مشخص کن؛ در ابهام حل‌نشده فقط همان عملیات مخرب را متوقف و مورد مشخص را گزارش کن. این بند درخواست تأیید دوباره برای حذفِ از قبل مجازشده نیست.
+
+سرویس قدیمی همین اپ را stop/disable کن و فقط unit اختصاصیِ منسوخ آن را حذف کن. اگر PM2 استفاده شده، فقط process مربوط به Ideal Makoo را در Unix user درست حذف کن. وضعیت persisted/startup را طوری اصلاح کن که نسخهٔ قبلی پس از reboot برنگردد. از pm2 save کورکورانه استفاده نکن؛ ممکن است فهرست ذخیره‌شدهٔ دیگر اپ‌ها را بازنویسی کند. سرویس مشترک PM2 را متوقف نکن.
+
+حذف پوشه فقط پس از guardهای بالا، با مسیر literal و بدون wildcard مجاز است:
+sudo rm -rf --one-file-system -- /var/www/idealmakoo-v6
+
+هیچ نسخهٔ backup/old از آن نساز. مسیرهای بیرونی یا releaseهای قدیمی دیگری را فقط با اثبات تعلق انحصاری به همین پروژه حذف کن. هیچ دیتابیس، volume یا certificate مشترکی را از روی شباهت نام حذف نکن.
+
+نسخهٔ آماده را به /var/www/idealmakoo-v6 منتقل کن. نام کاربر سرویس و مالکیت فایل‌ها را فقط برای مسیرهای همین پروژه تنظیم کن. سورس قابل خواندن و مسیر ذخیرهٔ تصویر قابل نوشتن برای کاربر سرویس باشد؛ chmod 777 استفاده نکن. checkout نهایی و patch تغییرات باید برای نگهداری بعدی موجود باشند.
+
+۸. سرویس مستقل systemd و اجرای خودکار
+-------------------------------------
+یک کاربر سیستمی اختصاصی و بدون ورود تعاملی، مثلاً idealmakoo، در صورت نبودن بساز. پیش از استفاده از نام موجود، مطمئن شو به پروژهٔ دیگری تعلق ندارد.
+
+unit زیر را در /etc/systemd/system/idealmakoo-v8.service با مقادیر قطعی نصب کن. <ABSOLUTE_NODE24_PATH> و نام کاربر/گروه باید با محیط واقعی جایگزین شوند:
+
+~~~ini
+[Unit]
+Description=Ideal Makoo website and Google AI gateway
+Wants=network-online.target
+After=network-online.target
+StartLimitIntervalSec=60
+StartLimitBurst=10
+
+[Service]
+Type=exec
+User=idealmakoo
+Group=idealmakoo
+WorkingDirectory=/var/www/idealmakoo-v6
+EnvironmentFile=/etc/idealmakoo-v8/runtime.env
+ExecStart=<ABSOLUTE_NODE24_PATH> /var/www/idealmakoo-v6/scripts/serve.mjs
+Restart=always
+RestartSec=5
+TimeoutStopSec=30
+KillMode=control-group
+UMask=0027
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+StateDirectory=idealmakoo-v8
+StateDirectoryMode=0750
+ReadWritePaths=/var/lib/idealmakoo-v8
+
+[Install]
+WantedBy=multi-user.target
+~~~
+
+Node و checkout نباید در مسیری باشند که ProtectHome دسترسی آن را قطع می‌کند. سازگاری unit را با systemd نصب‌شده بررسی کن. StateDirectory باید امکان ساخت generated/ و نگهداری تصاویر را بدهد. سرور را با root یا next dev اجرا نکن.
+
+پس از اعتبارسنجی unit:
+sudo systemctl daemon-reload
+sudo systemctl enable --now idealmakoo-v8.service
+sudo systemctl is-enabled idealmakoo-v8.service
+sudo systemctl is-active idealmakoo-v8.service
+
+پاسخ HTTP واقعی را هم بررسی کن؛ active بودن به‌تنهایی کافی نیست. در صورت خطا، فقط journal همین unit را بررسی و اسرار را redacted نگه دار. binding باید 127.0.0.1:<PORT> باشد؛ پورت Node را به اینترنت باز نکن.
+
+۹. دامنه، reverse proxy و HTTPS بدون اختلال در سایر سایت‌ها
+-----------------------------------------------------------
+پراکسی موجود را استفاده کن. اگر Nginx فعال است، فقط vhost دامنهٔ idealmako.ir و تنظیمات اختصاصی آن را تغییر بده. اگر Caddy، Traefik، Apache یا پراکسی کانتینری پورت‌های 80/443 را گرفته، با همان ساختار ادغام کن؛ Nginx رقیب نصب و اجرا نکن.
+
+A و AAAA دامنه و مسیر واقعی رسیدن درخواست به این سرور را بررسی کن. اگر DNS/CDN وجود دارد، وضعیت origin را لحاظ کن. تنظیم DNS حسابی که به آن دسترسی نداری را انجام‌شده فرض نکن. www.idealmako.ir را فقط در صورت وجود DNS و گواهی درست اضافه و به دامنهٔ اصلی redirect کن.
+
+گواهی معتبر و renewal موجود را نگه دار. حذف نسخهٔ برنامه به معنی حذف /etc/letsencrypt یا گواهی مشترک نیست. اگر گواهی لازم است، از سازوکار ACME موجود یا webroot اختصاصی همین دامنه استفاده کن؛ برای گرفتن گواهی، پراکسی مشترک را stop نکن. قبل از وجود فایل certificate، vhost TLS نامعتبر فعال نکن.
+
+ابتدا HTTP/ACME دامنه را درست آماده کن، سپس گواهی را بگیر یا گواهی موجود را reuse کن و HTTPS را فعال کن. تمدید خودکار را بررسی کن؛ آزمون renewal فقط به گواهی همین دامنه محدود باشد. redirect HTTP به HTTPS باید مسیر و query را حفظ کند و challenge را نشکند.
+
+برای Nginx، قطعهٔ زیر فقط داخل server block اختصاصی HTTPS همین دامنه است، نه جایگزین کل nginx.conf. پورت و certificateهای واقعی را به vhost اضافه کن و پیش از نصب تمام placeholderها را جایگزین کن:
+
+~~~nginx
+server_name idealmako.ir;
+autoindex off;
+client_max_body_size 8m;
+
+location ~* ^/downloads/(?:[.]?idealmakoo-source[.]zip(?:[./]|$)|idealmakoo-source[.][0-9]+[.]bin(?:/|$)) {
+    add_header Cache-Control "no-store" always;
+    return 404;
+}
+
+location ~ /\.(?!well-known(?:/|$)) {
+    return 404;
+}
+
+location ~* ^/(?:src|scripts|tests|worker|node_modules|artifacts|backups)(?:/|$) {
+    return 404;
+}
+
+location ~* ^/(?:package(?:-lock)?[.]json|SOURCE-MANIFEST[.]json|tsconfig[.]json|README[.]md)$ {
+    return 404;
+}
+
+location ~* [.]map$ {
+    return 404;
+}
+
+location / {
+    proxy_pass http://127.0.0.1:<CHOSEN_PORT>;
+    proxy_http_version 1.1;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $remote_addr;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_set_header CF-Connecting-IP $remote_addr;
+    proxy_set_header Connection "";
+    proxy_connect_timeout 5s;
+    proxy_read_timeout 180s;
+    proxy_send_timeout 180s;
+    proxy_buffering off;
+    proxy_cache off;
+}
+~~~
+
+این قطعه نیازمند listen ssl و مسیر گواهی معتبر در همان server block است؛ آن را به‌عنوان vhost کاملِ آمادهٔ اجرا نصب نکن. فایل نهایی را خودت بر اساس وضعیت واقعی سرور کامل کن.
+
+اگر پراکسی داخل کانتینر است، ابتدا host networking یا bridge بودن آن را تشخیص بده. 127.0.0.1 در کانتینر bridge به Node میزبان نمی‌رسد. شبکه، حالت اجرا و port mapping پراکسی مشترک را تغییر نده. مسیر خصوصی موجود تا upstream را بررسی کن؛ اگر لازم شد فقط برای همین اپ یک رابط خصوصی و محدودِ اختصاصی بساز و قبل از حذف نسخهٔ قبلی آن را آزمایش کن. listener آن نباید روی IP عمومی یا 0.0.0.0 باشد و پورت مستقلش نیز باید آزاد بررسی شود. اجرای خودکار هر رابط جدید هم باید اختصاصی باشد. اگر اتصال خصوصی بدون تغییر پروژه‌های دیگر ممکن نیست، همان مانع توپولوژی را گزارش کن؛ Node را عمومی نکن و استقرار را موفق اعلام نکن.
+
+اگر CDN جلوی Nginx است، برای تشخیص IP حقیقی فقط شبکه‌های پراکسی معتبر را trust کن؛ header ارسالی کاربر را معتبر فرض نکن.
+
+تمام مسیرها، به‌ویژه /api/ai/ و /api/ai/media/، باید بدون حذف prefix به scripts/serve.mjs برسند. روی آن‌ها fallback به index.html نگذار. root/alias را به ریشهٔ Git repository اشاره نده. API و صفحات حساب/ورود/مدیریت نباید وارد کش عمومی شوند؛ هدرهای Cache-Control اپ را حفظ کن.
+
+حد 8m پراکسی برای بدنهٔ درخواست است؛ محدودیت برنامهٔ فعلی حدود 6.2MB و timeout تصویر 135 ثانیه است. دریافت خطای کنترل‌شدهٔ 413 برای ورودی بیش از حد مجاز را حفظ کن.
+
+nginx -t باید موفق باشد؛ سپس فقط reload آرامِ پراکسی موجود را انجام بده. پیکربندی سایر vhostها، default server و فایل‌های مشترک را بازنویسی نکن. اگر تنظیمات در فایل مشترک‌اند، فقط بخش مختص idealmako.ir را با حفظ سایر بخش‌ها و اعتبارسنجی تغییر بده.
+
+۱۰. معیار پذیرش و آزمون نهایی واقعی
+-----------------------------------
+الف) سایت و زبان‌ها
+- https://idealmako.ir و مسیرهای /fa/، /en/، /ar/، /tr/ و /ru/ پاسخ صحیح بدهند.
+- ورود مستقیم و refresh مسیرهای products، resources، auth، account و admin صفحهٔ صحیح را باز کند.
+- CSS، JS، فونت، تصاویر و PDFهای واقعی بدون 404 ناخواسته و mixed content دریافت شوند.
+- موبایل و لپ‌تاپ بررسی شوند: drag موس/لمس کروسل، سایدبار تمام نقش‌ها، جهت فارسی/عربی راست و انگلیسی/ترکی/روسی چپ، دیالوگ‌های Liquid Glass و ثبات زبان حفظ شده باشند.
+- با لینک خانه، صفحه به لندینگ صحیح و بالای آن برگردد.
+- متن تهیه، طراحی، توسعه و حقوق نرم‌افزار شرکت شبکه هوشمند ابتکار ویستا در فوتر و ترجمه‌های موجود حفظ شود.
+- تم، محتوا، پروفایل‌ها و ساختار نقش‌ها را برای استقرار دوباره طراحی یا بازنویسی نکن.
+
+ب) بستهٔ سورس و فایل‌های خصوصی
+- GET و HEAD برای /downloads/idealmakoo-source.zip و قطعه‌های bin باید 404 یا 410 بدهند.
+- درخواست Range و مسیر encoded هم نباید بایت سورس دریافت کند.
+- .env، .git/config، package.json، scripts/serve.mjs و source mapها نباید از دامنه قابل دریافت باشند.
+- خود فایل‌ها و قطعه‌های سورس در خروجی عمومی وجود نداشته باشند.
+- نمونه‌ای از کاتالوگ‌ها و PDFهای واقعی همچنان درست دانلود شود.
+- حذف بستهٔ سورس فقط CSS/JS موردنیاز مرورگر را مخفی نمی‌کند؛ دارایی‌های اجرایی طبیعی سایت باید سرو شوند.
+
+پ) Google AI و تولید تصویر
+/status فقط یک بررسی تنظیمات است. برای اعلام موفقیت باید درخواست واقعی از دامنهٔ HTTPS اجرا شود، با این headerها:
+Origin: https://idealmako.ir
+Sec-Fetch-Site: same-origin
+Content-Type: application/json
+
+آزمون متن:
+POST /api/ai/chat
+{"locale":"fa","mode":"chat","prompt":"کارخانه ایده‌آل ماکو را کوتاه معرفی کن و مسیر کاتالوگ را بگو.","history":[]}
+
+آزمون تصویر:
+POST /api/ai/generate
+{"locale":"fa","mode":"image","prompt":"یک تصویر استودیویی ساده از بسته‌بندی سفید محصولات دندان‌پزشکی، بدون نوشته و بدون ادعای پزشکی بساز.","history":[]}
+
+برای تصویر باید خروجی واقعی PNG/JPEG/WebP و URL قابل دریافت /api/ai/media/... وجود داشته باشد. MIME، حجم غیرصفر و decode شدن تصویر را بررسی کن. متن توصیف تصویر، placeholder یا configured:true موفقیت تولید تصویر محسوب نمی‌شود.
+
+یک بار تولید/ویرایش با تصویر مرجع معتبرِ موجود در /media/ یا imageData را، مطابق امکانات مدل انتخابی، بررسی کن. پیش از ارسال تصویر مرجع، مسیر واقعی و اندازهٔ مجاز آن را پیدا کن؛ فایل فرضی نساز.
+
+درخواست cross-site باید همچنان رد شود. آزمون دارای Origin را حذف نکن؛ curl بدون Origin ایراد HTTPS این نسخه را آشکار نمی‌کند.
+
+ت) سرویس و سلامت سایر پروژه‌ها
+- unit همین برنامه enabled و active باشد.
+- فقط همین unit را یک بار restart کن و صفحه، AI و تصویر ذخیره‌شده را دوباره بررسی کن؛ تصویر قبلی باید باقی مانده باشد.
+- تنظیم اجرای خودکار پس از boot و رفع startup قدیمی را تأیید کن.
+
+- برای اثبات این مورد کل سرور را reboot نکن؛ «تنظیم boot تأیید شد» را از «reboot واقعی آزمایش شد» جدا گزارش کن.
+- listenerها، سرویس‌ها و پاسخ سایت‌های دیگر را با وضعیت قبل مقایسه کن؛ تغییر نامربوط قابل قبول نیست.
+- فایل staging و فایل‌های موقت همین عملیات را پس از موفقیت پاک کن؛ پوشهٔ نسخهٔ قبلی یا بک‌آپ از آن باقی نماند.
+
+اگر مرورگر یا دسترسی لازم برای یک آزمون فراهم نیست، دقیقاً همان آزمون انجام‌نشده را گزارش کن. خطای کلید، مدل، سهمیه، SSH، DNS یا TLS را با دلیل واقعی بنویس و کارهای مستقلِ قابل انجام را کامل کن. نتیجهٔ ناقص را «همه‌چیز کار می‌کند» توصیف نکن.
+
+۱۱. تحویل نهایی
+---------------
+در گزارش نهایی این موارد را با مقادیر واقعی بده:
+- URL نهایی HTTPS.
+- repository، branch و SHA مستقرشده.
+- مسیر دقیق /var/www/idealmakoo-v6.
+- نسخه و مسیر Node، کاربر سرویس، نام unit و پورت اختصاصی.
+- نتیجهٔ build، test و check.
+- نتیجهٔ HTTPS و وضعیت تمدید گواهی.
+- نتیجهٔ enabled/active و restart فقط همین سرویس.
+- مدل واقعی متن و تصویر و نتیجهٔ درخواست واقعی هرکدام، بدون نمایش API key.
+- نتیجهٔ عدم دسترسی به ZIP و قطعه‌های سورس، همراه با سلامت کاتالوگ‌ها.
+- سلامت سایر پروژه‌ها و فهرست دقیق منابع اختصاصی قدیمی که حذف شدند.
+- هر محدودیت باقی‌مانده، به‌خصوص وضعیت فعلی بک‌اند حساب‌ها و CMS.
+- فایل‌ها و خطوط منطقی مهمی که برای این استقرار اصلاح شدند.
+
+دستورهای نگهداری همین سرویس را هم بده:
+sudo systemctl status idealmakoo-v8.service
+sudo journalctl -u idealmakoo-v8.service -n 100 --no-pager
+sudo systemctl restart idealmakoo-v8.service
+
+برای تعویض کلید بعدی، مسیر /etc/idealmakoo-v8/runtime.env و نیاز به restart فقط همین unit را توضیح بده. کلید نباید نیاز به build مجدد فرانت‌اند داشته باشد.
+
+patch یا commit محلیِ تغییرات استقرار را برای نگهداری حفظ کن و diff بدون اسرار را تحویل بده؛ commit را خودکار به GitHub push نکن. هیچ prompt حاوی کلید، ZIP سورس یا فایل تحویل خصوصی را داخل public/، out/، dist/client/ یا صفحهٔ دانلود سایت نگذار.
+
+اکنون از بررسی سرور و برنامهٔ کوتاه شروع کن و پس از آن مراحل مجاز را اجرا کن؛ برای حذف نسخهٔ قبلیِ همین پروژه که صریحاً تأیید کرده‌ام دوباره سؤال نپرس.
+
+مراجع فنی برای رفع ابهام، در صورت نیاز
+--------------------------------------
+https://github.com/DeveloperCodeBase/idealmakoo-v8
+https://ai.google.dev/api/models
+https://ai.google.dev/gemini-api/docs/generate-content/image-generation
+https://www.freedesktop.org/software/systemd/man/latest/systemd.service.html
+https://nginx.org/en/docs/http/ngx_http_proxy_module.html

@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/resources/ideal-makoo-mould-poster/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "96061983ffd2d3149f018680873cec5a1f45376668907f0cbcbc815361bdc3d8",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "كتالوج إيده‌آل ماكو الشامل وجدول القوالب | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "أشكال الأسنان وأبعادها وتعريف 12 سلسلة في الوثيقة، في نسخة مقروءة من 26 صفحة للملصق المرفوع."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/resources/ideal-makoo-mould-poster/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/ideal-makoo-mould-poster/",
+    "en": "http://127.0.0.1:3100/en/resources/ideal-makoo-mould-poster/",
+    "tr": "http://127.0.0.1:3100/tr/resources/ideal-makoo-mould-poster/",
+    "ar": "http://127.0.0.1:3100/ar/resources/ideal-makoo-mould-poster/",
+    "ru": "http://127.0.0.1:3100/ru/resources/ideal-makoo-mould-poster/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/ideal-makoo-mould-poster/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 99
+}

@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/resources/light-cure-composite-official-image/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "9dd9a5150696bf0a2a21928a2642d93b15bfbfcac64aba677585dfa7c0ea3b0d",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Light-cure composite — official image | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Light-cure composite — official image — Original factory image documents"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/resources/light-cure-composite-official-image/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/light-cure-composite-official-image/",
+    "en": "http://127.0.0.1:3100/en/resources/light-cure-composite-official-image/",
+    "tr": "http://127.0.0.1:3100/tr/resources/light-cure-composite-official-image/",
+    "ar": "http://127.0.0.1:3100/ar/resources/light-cure-composite-official-image/",
+    "ru": "http://127.0.0.1:3100/ru/resources/light-cure-composite-official-image/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/light-cure-composite-official-image/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 54
+}

@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "release": "2.1.2",
+  "status": "passed",
+  "sourceFrozenAt": "2026-10-23T09:52:02.881707+00:00",
+  "sourceFileSha256": {
+    "src/server/types.ts": "7e93f8abbc499903b28f69d11df6e64a52a6a4e0b56e89f5963983f2e9cb9483",
+    "src/server/auth.ts": "472a4a47a6e720ca71a86489f81ef07bbde3e1542d44df58293e1f9d5f5b4a7b",
+    "src/server/workspace-scopes.ts": "12b3799df212f0d1bde61c4b152af5c3d52100e2f38536dd93e1fd06cae68da1",
+    "src/server/account.ts": "a962df0081b7914dd240a14013fb51fc8b6eaf3c3386c8494d431937cf61d389",
+    "src/server/wishlists.ts": "344f9426049cc96e3670b3a3059bf55222b29605b219cb369bb1ccc6fb894042",
+    "src/server/privacy.ts": "ca6168a1e5cb34f184cff481433d428ded3275827d6244232c2a4623b35e1182",
+    "src/server/partner-directory.ts": "00a0053be9d599eb904ee6043c21a0f2500b2005b744e310929a7ef475a1057d",
+    "tests/server-session-revalidation.pg.mjs": "2548fe1e43b59488b49f4e412b41aa4f9544ace0eb1df270f841702a18738e0b",
+    "docs/SESSION-REVOCATION-2.1.2.fa.md": "0e096573f2be5f3748be5d7fc1a8351e902ac8e6c0e0d4cf4b4d3da158143f7f"
+  },
+  "regressionEvidence": {
+    "filename": "session-revalidation.safe.json",
+    "sha256": "0a9c966064ab9cb15e5df1e58b382de5e80dfa8d1b3edd48f2fd5e6b63373446"
+  },
+  "postgres": {
+    "tests": 542,
+    "passed": 542,
+    "failed": 0,
+    "skipped": 0,
+    "exitCode": 0,
+    "startedAt": "2026-10-23T09:45:48.246117+00:00",
+    "completedAt": "2026-10-23T09:49:07.615966+00:00",
+    "durationMs": 199250.033344,
+    "logSha256": "f6bf711abd4329d629425698af34cdb3c4711fd05c07f06b2ed3f48734e7cad3"
+  },
+  "api": {
+    "testFiles": 1,
+    "tests": 20,
+    "passed": 20,
+    "failed": 0,
+    "skipped": 0,
+    "exitCode": 0,
+    "startedAt": "2026-10-23T09:49:35.416052+00:00",
+    "completedAt": "2026-10-23T09:49:46.375806+00:00",
+    "durationSeconds": 10.57,
+    "logSha256": "c5ab9f13c82f4d13fc7d8b1d81a91e29d9416ad7924f8a79e8bfd89b0353aa9b"
+  },
+  "browserAuditPreparation": {
+    "status": "passed",
+    "migrationsPerCohort": 41,
+    "databaseSeparation": true,
+    "storageSeparation": true,
+    "privacyLedgerSeparation": true,
+    "rolePrivilegesRestricted": true,
+    "outboundNotifications": "disabled",
+    "applicationStartedByBackendAgent": false,
+    "originStrategy": "One production build and shared loopback3096 origin; sequential application restart with separate cohort database/storage environments.",
+    "origin": "http://127.0.0.1:3096",
+    "appPort": 3095
+  },
+  "limits": [
+    "The isolated regression intentionally uses test actors and temporary schemas.",
+    "API integrations exercise external-provider adapters with controlled test doubles; no live paid AI, email or SMS was sent.",
+    "Real Ubuntu Docker install, ClamAV and encrypted backup/restore acceptance are recorded separately by the operations verification."
+  ],
+  "originalReceiptSha256": "a47799a4206e352e333f246d9c3ab554371a6ebafce368fb8d07978994d042e1"
+}

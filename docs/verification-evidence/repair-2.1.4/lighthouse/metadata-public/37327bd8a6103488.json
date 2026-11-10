@@ -1,0 +1,71 @@
+{
+  "url": "http://127.0.0.1:3100/tr/products/generation-8-bonding/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "e2a8f74853e59376aef916d4463d5c2d229a4fb7e1ff50c6413aac9c9ad14034",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "8. nesil rezin bonding | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Farklı asitleme yaklaşımları ile kompozit ve amalgam için tanıtılan üniversal bonding ürünü."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/products/generation-8-bonding/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/generation-8-bonding/",
+    "en": "http://127.0.0.1:3100/en/products/generation-8-bonding/",
+    "tr": "http://127.0.0.1:3100/tr/products/generation-8-bonding/",
+    "ar": "http://127.0.0.1:3100/ar/products/generation-8-bonding/",
+    "ru": "http://127.0.0.1:3100/ru/products/generation-8-bonding/",
+    "x-default": "http://127.0.0.1:3100/fa/products/generation-8-bonding/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "8. nesil rezin bonding",
+      "description": "Farklı asitleme yaklaşımları ile kompozit ve amalgam için tanıtılan üniversal bonding ürünü.",
+      "image": "http://127.0.0.1:3100/media/official/1725864310.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "IDEAL MAKOO"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/tr/products/generation-8-bonding/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 52
+}

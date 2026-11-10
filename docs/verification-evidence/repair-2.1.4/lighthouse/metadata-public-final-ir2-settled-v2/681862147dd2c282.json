@@ -1,0 +1,70 @@
+{
+  "url": "http://127.0.0.1:3100/ar/products/generation-8-bonding/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "82a9acd64aa61e2717993453036a126bcce506e7c53eb7f0c0856f8820f1afb7",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "بوندنغ راتنجي من الجيل الثامن | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "مادة ربط شاملة موصوفة لأساليب تخريش متعددة وللاستخدام مع الكومبوزيت والأملغم."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/products/generation-8-bonding/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/generation-8-bonding/",
+    "en": "http://127.0.0.1:3100/en/products/generation-8-bonding/",
+    "tr": "http://127.0.0.1:3100/tr/products/generation-8-bonding/",
+    "ar": "http://127.0.0.1:3100/ar/products/generation-8-bonding/",
+    "ru": "http://127.0.0.1:3100/ru/products/generation-8-bonding/",
+    "x-default": "http://127.0.0.1:3100/fa/products/generation-8-bonding/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "بوندنغ راتنجي من الجيل الثامن",
+      "description": "مادة ربط شاملة موصوفة لأساليب تخريش متعددة وللاستخدام مع الكومبوزيت والأملغم.",
+      "image": "http://127.0.0.1:3100/media/official/1725864310.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "IDEAL MAKOO"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/ar/products/generation-8-bonding/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 61
+}

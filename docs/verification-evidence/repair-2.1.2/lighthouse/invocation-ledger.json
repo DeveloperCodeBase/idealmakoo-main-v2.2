@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "scope": "Wrapper preflights are not Lighthouse attempts",
+  "records": [
+    {
+      "run": "build02-image-policy-preflight",
+      "status": "failed-before-inventory",
+      "reason": "Acceptance wrapper omitted --import tsx; corrected to shipped command; original retained",
+      "receiptSha256": "6feb879eccfa12a5206e414a02f1568878ad7f6c8c9a4cc9c9478fe4969b3642"
+    },
+    {
+      "run": "build04-private-preflight",
+      "status": "failed-before-database-or-inventory",
+      "reason": "Sandbox denied loopback connection (EPERM); authorized local-network invocation completed",
+      "receipt": {
+        "schemaVersion": 1,
+        "kind": "single-private-mobile-lighthouse",
+        "startedAt": "2026-10-23T11:12:52.538415+00:00",
+        "finishedAt": "2026-10-23T11:12:52.692347+00:00",
+        "wallSeconds": 0.153957,
+        "exitCode": 1,
+        "buildId": "fIFLzhRg6HZ_mfSabbL8J",
+        "buildUnchanged": true,
+        "route": "/ar/admin/ai/",
+        "device": "mobile",
+        "rawLogsExcluded": true
+      }
+    },
+    {
+      "run": "build04-private-final",
+      "status": "completed",
+      "receipt": {
+        "schemaVersion": 1,
+        "kind": "single-private-mobile-lighthouse",
+        "startedAt": "2026-10-23T11:13:15.595124+00:00",
+        "finishedAt": "2026-10-23T11:13:33.299628+00:00",
+        "wallSeconds": 17.70453,
+        "exitCode": 0,
+        "buildId": "fIFLzhRg6HZ_mfSabbL8J",
+        "buildUnchanged": true,
+        "route": "/ar/admin/ai/",
+        "device": "mobile",
+        "rawLogsExcluded": true
+      }
+    }
+  ],
+  "interruptedLighthouseAttemptRetainedIn": "pilot-attempts.json"
+}

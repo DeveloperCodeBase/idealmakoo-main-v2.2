@@ -1,0 +1,111 @@
+{
+  "format": "idealmakoo.devops-source-gate",
+  "version": 1,
+  "label": "user-directory-final",
+  "startedAt": "2026-10-21T05:49:30.942145+00:00",
+  "state": "completed",
+  "actualVmAcceptance": false,
+  "inputsBefore": "117ccfde93d923b6773e52508011a8feae1a071217f2c64c83ea5266e40147e9",
+  "sourceFiles": 797,
+  "transition": {
+    "path": "/tmp/idealmakoo-production-repair-20261020/evidence/staged-runtime-source-transition-v2.json",
+    "sha256": "dc59f3fa74a04ccb705d68ee7612fffda4ae77c36df1a3203f486b36dfec469d"
+  },
+  "directoryTransition": {
+    "path": "/tmp/idealmakoo-production-repair-20261020/evidence/user-directory-source-transition.json",
+    "sha256": "81f0f22e8b04c9cb4334bf50033ea816621c922329137eef8106a1629bd20076"
+  },
+  "tools": {
+    "compose": {
+      "path": "/tmp/idealmakoo-pg-runtime/configuration-tools/docker-compose",
+      "sha256": "d87a11e944c990dc9f2186115b1136c1cbffffc870845caff0cbdcce0780f41d"
+    },
+    "age": {
+      "path": "/tmp/idealmakoo-pg-runtime/age",
+      "sha256": "529450dfeaf3055cb24d76789d0b1f5eb8cd23e03dc4add64f84776df1272b02"
+    },
+    "age-keygen": {
+      "path": "/tmp/idealmakoo-pg-runtime/age-keygen",
+      "sha256": "d0396b4f7f9363f600a7093dc72a8641e24995f77436bd9549e3678168d9d144"
+    },
+    "shellcheck": {
+      "path": "/tmp/idealmakoo-pg-runtime/configuration-tools/shellcheck",
+      "sha256": "54dc63164186ad21fb909f5194fb5291f4035c2d2cae04b5680385b8d8fbb73c"
+    }
+  },
+  "python": {
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "deployment_*_test.py",
+      "-v"
+    ],
+    "startedAt": "2026-10-21T05:49:31.220198+00:00",
+    "finishedAt": "2026-10-21T05:49:57.966586+00:00",
+    "durationSeconds": 26.746,
+    "exitCode": 0,
+    "timedOut": false,
+    "log": "/tmp/idealmakoo-production-repair-20261020/evidence/devops-user-directory-final-python.log",
+    "logSha256": "080f35684590548ee448200d07ecad31135600fad916be8c1cc95381ebc38c07",
+    "passed": 150,
+    "failed": 0,
+    "skipped": 0,
+    "reportedSeconds": 26.557
+  },
+  "shellcheck": {
+    "command": [
+      "/tmp/idealmakoo-pg-runtime/configuration-tools/shellcheck",
+      "-x",
+      "deploy/clamav/idealmakoo-clamav.sh",
+      "deploy/lib.sh",
+      "deploy/postgres/init-roles.sh",
+      "deploy/recovery.sh",
+      "scripts/backup.sh",
+      "scripts/check-health.sh",
+      "scripts/doctor.sh",
+      "scripts/download-backup.sh",
+      "scripts/entrypoint.sh",
+      "scripts/install-ubuntu.sh",
+      "scripts/provision-staff.sh",
+      "scripts/recover-ubuntu.sh",
+      "scripts/restore.sh",
+      "scripts/update.sh"
+    ],
+    "startedAt": "2026-10-21T05:49:57.969101+00:00",
+    "finishedAt": "2026-10-21T05:49:59.788561+00:00",
+    "durationSeconds": 1.819,
+    "exitCode": 1,
+    "timedOut": false,
+    "log": "/tmp/idealmakoo-production-repair-20261020/evidence/devops-user-directory-final-shellcheck.log",
+    "logSha256": "3859699c88cb9579822b90310d88a89a2e04f902083fe10d112bfc9d5a7d5afa",
+    "files": [
+      "deploy/clamav/idealmakoo-clamav.sh",
+      "deploy/lib.sh",
+      "deploy/postgres/init-roles.sh",
+      "deploy/recovery.sh",
+      "scripts/backup.sh",
+      "scripts/check-health.sh",
+      "scripts/doctor.sh",
+      "scripts/download-backup.sh",
+      "scripts/entrypoint.sh",
+      "scripts/install-ubuntu.sh",
+      "scripts/provision-staff.sh",
+      "scripts/recover-ubuntu.sh",
+      "scripts/restore.sh",
+      "scripts/update.sh"
+    ]
+  },
+  "inputsAfter": "117ccfde93d923b6773e52508011a8feae1a071217f2c64c83ea5266e40147e9",
+  "inputsUnchanged": true,
+  "sourceManifestSha256": "117ccfde93d923b6773e52508011a8feae1a071217f2c64c83ea5266e40147e9",
+  "finishedAt": "2026-10-21T05:49:59.874519+00:00",
+  "exitCode": 1,
+  "error": "SHELLCHECK_FAILED",
+  "scope": "Real age cryptography, real Compose parser and protected filesystem/source tests. Docker/database lifecycle is simulated in source fixtures; no guest acceptance executed.",
+  "helperSha256": "e026a68de82b357d337084c3f5ff01948adc8d98c694f29b17afe1456f306a32"
+}

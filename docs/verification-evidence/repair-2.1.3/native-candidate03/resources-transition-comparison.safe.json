@@ -1,0 +1,549 @@
+{
+  "kind": "candidate03-resources-transition-comparison",
+  "beforeBuildId": "JUTCtkNIJ8CT540y_qNL_",
+  "afterBuildId": "DuF4NV2a3keq3h3H5T3Dr",
+  "beforeSourceInputSha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+  "afterSourceInputSha256": "79cbbf107e4886e03ade1119ab48d3a57e8a7385a64ba125322d3f4e1b923f94",
+  "driverSha256": "f18bdbb1807b1a12dc0a96c98b2337e0015fd0aa829e461381494fe6b1f3da89",
+  "driverIdentical": true,
+  "cases": [
+    {
+      "key": "mobile-fa",
+      "before": {
+        "sessionToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 317.45300000000003,
+          "followingX": 0,
+          "followingY": 317.4530000000001,
+          "followingWidth": 0
+        },
+        "resourceToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 135.14100000000002,
+          "followingX": 0,
+          "followingY": 135.14100000000008,
+          "followingWidth": 0
+        }
+      },
+      "after": {
+        "sessionToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 0,
+          "followingX": 0,
+          "followingY": 0,
+          "followingWidth": 0
+        },
+        "resourceToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 0,
+          "followingX": 0,
+          "followingY": 0,
+          "followingWidth": 0
+        }
+      },
+      "finalReadyDomSha256": "1cc7f5c60606ee4473eb54e47f4e86766c11fee0e600b2119f7daa70f16de188",
+      "finalReadyEquivalent": true,
+      "prematureResourceRequests": 0,
+      "searchRefresh": {
+        "nativeInput": true,
+        "queryPreserved": true,
+        "realRefreshStatus": 200,
+        "newResourceRequests": 1
+      }
+    },
+    {
+      "key": "mobile-en",
+      "before": {
+        "sessionToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 333.25,
+          "followingX": 0,
+          "followingY": 333.25,
+          "followingWidth": 0
+        },
+        "resourceToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 135.141,
+          "followingX": 0,
+          "followingY": 135.14099999999996,
+          "followingWidth": 0
+        }
+      },
+      "after": {
+        "sessionToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 0,
+          "followingX": 0,
+          "followingY": 0,
+          "followingWidth": 0
+        },
+        "resourceToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 0,
+          "followingX": 0,
+          "followingY": 0,
+          "followingWidth": 0
+        }
+      },
+      "finalReadyDomSha256": "0f63f1e94b511cf4399eae1c6e369880d71ff9c368a7c9baaf2441e71e1c7d93",
+      "finalReadyEquivalent": true,
+      "prematureResourceRequests": 0,
+      "searchRefresh": {
+        "nativeInput": true,
+        "queryPreserved": true,
+        "realRefreshStatus": 200,
+        "newResourceRequests": 1
+      }
+    },
+    {
+      "key": "mobile-tr",
+      "before": {
+        "sessionToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 333.25,
+          "followingX": 0,
+          "followingY": 333.25,
+          "followingWidth": 0
+        },
+        "resourceToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 135.141,
+          "followingX": 0,
+          "followingY": 135.14099999999996,
+          "followingWidth": 0
+        }
+      },
+      "after": {
+        "sessionToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 0,
+          "followingX": 0,
+          "followingY": 0,
+          "followingWidth": 0
+        },
+        "resourceToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 0,
+          "followingX": 0,
+          "followingY": 0,
+          "followingWidth": 0
+        }
+      },
+      "finalReadyDomSha256": "08e07ab597f98bfdb7546d818f6e242a54d0423daa571d7aa5e447d19060c937",
+      "finalReadyEquivalent": true,
+      "prematureResourceRequests": 0,
+      "searchRefresh": {
+        "nativeInput": true,
+        "queryPreserved": true,
+        "realRefreshStatus": 200,
+        "newResourceRequests": 1
+      }
+    },
+    {
+      "key": "mobile-ar",
+      "before": {
+        "sessionToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 317.45300000000003,
+          "followingX": 0,
+          "followingY": 317.453,
+          "followingWidth": 0
+        },
+        "resourceToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 135.14100000000002,
+          "followingX": 0,
+          "followingY": 135.14,
+          "followingWidth": 0
+        }
+      },
+      "after": {
+        "sessionToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 0,
+          "followingX": 0,
+          "followingY": 0,
+          "followingWidth": 0
+        },
+        "resourceToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 0,
+          "followingX": 0,
+          "followingY": 0,
+          "followingWidth": 0
+        }
+      },
+      "finalReadyDomSha256": "874ff0c088fe259d00a7eacd4310cc98e4508a07a1cc3a61fe6c6ec7e6f6d012",
+      "finalReadyEquivalent": true,
+      "prematureResourceRequests": 0,
+      "searchRefresh": {
+        "nativeInput": true,
+        "queryPreserved": true,
+        "realRefreshStatus": 200,
+        "newResourceRequests": 1
+      }
+    },
+    {
+      "key": "mobile-ru",
+      "before": {
+        "sessionToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 364.75,
+          "followingX": 0,
+          "followingY": 364.75,
+          "followingWidth": 0
+        },
+        "resourceToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 135.141,
+          "followingX": 0,
+          "followingY": 135.14099999999996,
+          "followingWidth": 0
+        }
+      },
+      "after": {
+        "sessionToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 0,
+          "followingX": 0,
+          "followingY": 0,
+          "followingWidth": 0
+        },
+        "resourceToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 0,
+          "followingX": 0,
+          "followingY": 0,
+          "followingWidth": 0
+        }
+      },
+      "finalReadyDomSha256": "43f7647b118233b7da5873fd9eea8694fbcd7e8089ed0ea9dbb04d84e8097a3f",
+      "finalReadyEquivalent": true,
+      "prematureResourceRequests": 0,
+      "searchRefresh": {
+        "nativeInput": true,
+        "queryPreserved": true,
+        "realRefreshStatus": 200,
+        "newResourceRequests": 1
+      }
+    },
+    {
+      "key": "desktop-fa",
+      "before": {
+        "sessionToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 241.23400000000004,
+          "followingX": 0,
+          "followingY": 241.23399999999992,
+          "followingWidth": 0
+        },
+        "resourceToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 139.14100000000002,
+          "followingX": 0,
+          "followingY": 139.14,
+          "followingWidth": 0
+        }
+      },
+      "after": {
+        "sessionToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 0,
+          "followingX": 0,
+          "followingY": 0,
+          "followingWidth": 0
+        },
+        "resourceToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 0,
+          "followingX": 0,
+          "followingY": 0,
+          "followingWidth": 0
+        }
+      },
+      "finalReadyDomSha256": "1cc7f5c60606ee4473eb54e47f4e86766c11fee0e600b2119f7daa70f16de188",
+      "finalReadyEquivalent": true,
+      "prematureResourceRequests": 0,
+      "searchRefresh": {
+        "nativeInput": true,
+        "queryPreserved": true,
+        "realRefreshStatus": 200,
+        "newResourceRequests": 1
+      }
+    },
+    {
+      "key": "desktop-en",
+      "before": {
+        "sessionToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 237.09300000000002,
+          "followingX": 0,
+          "followingY": 237.09300000000007,
+          "followingWidth": 0
+        },
+        "resourceToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 139.14,
+          "followingX": 0,
+          "followingY": 139.14,
+          "followingWidth": 0
+        }
+      },
+      "after": {
+        "sessionToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 0,
+          "followingX": 0,
+          "followingY": 0,
+          "followingWidth": 0
+        },
+        "resourceToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 0,
+          "followingX": 0,
+          "followingY": 0,
+          "followingWidth": 0
+        }
+      },
+      "finalReadyDomSha256": "0f63f1e94b511cf4399eae1c6e369880d71ff9c368a7c9baaf2441e71e1c7d93",
+      "finalReadyEquivalent": true,
+      "prematureResourceRequests": 0,
+      "searchRefresh": {
+        "nativeInput": true,
+        "queryPreserved": true,
+        "realRefreshStatus": 200,
+        "newResourceRequests": 1
+      }
+    },
+    {
+      "key": "desktop-tr",
+      "before": {
+        "sessionToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 237.09300000000002,
+          "followingX": 0,
+          "followingY": 237.09400000000005,
+          "followingWidth": 0
+        },
+        "resourceToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 139.14,
+          "followingX": 0,
+          "followingY": 139.14100000000008,
+          "followingWidth": 0
+        }
+      },
+      "after": {
+        "sessionToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 0,
+          "followingX": 0,
+          "followingY": 0,
+          "followingWidth": 0
+        },
+        "resourceToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 0,
+          "followingX": 0,
+          "followingY": 0,
+          "followingWidth": 0
+        }
+      },
+      "finalReadyDomSha256": "08e07ab597f98bfdb7546d818f6e242a54d0423daa571d7aa5e447d19060c937",
+      "finalReadyEquivalent": true,
+      "prematureResourceRequests": 0,
+      "searchRefresh": {
+        "nativeInput": true,
+        "queryPreserved": true,
+        "realRefreshStatus": 200,
+        "newResourceRequests": 1
+      }
+    },
+    {
+      "key": "desktop-ar",
+      "before": {
+        "sessionToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 241.23400000000004,
+          "followingX": 0,
+          "followingY": 241.23399999999992,
+          "followingWidth": 0
+        },
+        "resourceToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 139.14100000000002,
+          "followingX": 0,
+          "followingY": 139.14,
+          "followingWidth": 0
+        }
+      },
+      "after": {
+        "sessionToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 0,
+          "followingX": 0,
+          "followingY": 0,
+          "followingWidth": 0
+        },
+        "resourceToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 0,
+          "followingX": 0,
+          "followingY": 0,
+          "followingWidth": 0
+        }
+      },
+      "finalReadyDomSha256": "874ff0c088fe259d00a7eacd4310cc98e4508a07a1cc3a61fe6c6ec7e6f6d012",
+      "finalReadyEquivalent": true,
+      "prematureResourceRequests": 0,
+      "searchRefresh": {
+        "nativeInput": true,
+        "queryPreserved": true,
+        "realRefreshStatus": 200,
+        "newResourceRequests": 1
+      }
+    },
+    {
+      "key": "desktop-ru",
+      "before": {
+        "sessionToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 237.09300000000002,
+          "followingX": 0,
+          "followingY": 237.09399999999994,
+          "followingWidth": 0
+        },
+        "resourceToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 139.14,
+          "followingX": 0,
+          "followingY": 139.14099999999996,
+          "followingWidth": 0
+        }
+      },
+      "after": {
+        "sessionToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 0,
+          "followingX": 0,
+          "followingY": 0,
+          "followingWidth": 0
+        },
+        "resourceToReady": {
+          "panelX": 0,
+          "panelY": 0,
+          "panelWidth": 0,
+          "panelHeight": 0,
+          "followingX": 0,
+          "followingY": 0,
+          "followingWidth": 0
+        }
+      },
+      "finalReadyDomSha256": "43f7647b118233b7da5873fd9eea8694fbcd7e8089ed0ea9dbb04d84e8097a3f",
+      "finalReadyEquivalent": true,
+      "prematureResourceRequests": 0,
+      "searchRefresh": {
+        "nativeInput": true,
+        "queryPreserved": true,
+        "realRefreshStatus": 200,
+        "newResourceRequests": 1
+      }
+    }
+  ],
+  "postFixCheckedPageErrors": 0,
+  "postFixExplicitAbortedPrefetchCount": 44,
+  "postFixStrictTeardown": {
+    "success": true,
+    "errors": [],
+    "remainingOwnedChromeProcesses": [],
+    "unreadableOwnedIdentities": [],
+    "profileRemoved": true
+  },
+  "beforeSummarySha256": "58f96ea2a61f6a26c5581129f3d75e77b99bdddadd1fa20f2cc62da78c9dc4e3",
+  "afterSummarySha256": "f3deca36ba87c1daf6cafdae24684aff28abdf3e03528d35de9f7c26381d352a",
+  "postFixGateSha256": "f4b00fb9e3a53dfc86d88f61dc200951e8c54e85dddc1c52ba1b7ace1850952f",
+  "postFixActualOuterSession": 30046,
+  "postFixActualOuterExitCode": 0,
+  "postFixActualOuterWaitConsumed": true,
+  "scoredTargets": 0,
+  "fixtureWrites": 0,
+  "claimScope": "Actual anonymous empty directory: session-held and resource-response-held transitions, five locales, two viewports after fonts; no populated/error-state stability claim."
+}

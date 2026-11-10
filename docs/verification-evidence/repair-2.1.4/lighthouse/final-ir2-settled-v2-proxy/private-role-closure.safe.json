@@ -1,0 +1,186 @@
+{
+  "format": "private-role-child-exits-and-coverage-safe-v1",
+  "exportedAt": "2026-10-25T22:38:38.443132+00:00",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "currentAuditInclusiveFingerprint": "64a14915618ac34a4daee3aa64eb82d44438b993096491966afc487be9f67b12",
+  "compiledBuildInputFingerprint": "4fcec50f5846b0affccc59e43798613ba134a3f93559ea5ddba9705e1f38cc58",
+  "primarySummarySha256": "9659bc3e6ed8361f4a6d6fc3146e624b2585c3ad925b2130128a2b727a54213c",
+  "perRoleCompleted": {
+    "superAdmin": 430,
+    "customer": 80,
+    "admin": 2,
+    "contentEditor": 2,
+    "productManager": 2,
+    "scientificReviewer": 2,
+    "translator": 2,
+    "publisher": 2,
+    "hr": 2,
+    "business": 2,
+    "analyst": 2,
+    "support": 2
+  },
+  "roleChildCount": 12,
+  "allRoleChildrenActualExitZero": true,
+  "roleChildren": [
+    {
+      "role": "admin",
+      "finishedAt": "2026-10-25T22:29:14.348Z",
+      "exit": {
+        "code": 0,
+        "signal": null
+      },
+      "timedOut": false,
+      "interrupted": false,
+      "expected": 2,
+      "attempted": 2,
+      "originalStatusSha256": "df7a25092cf4ec538c489551e49ab159e2af53483de0af74942e95fc08346126"
+    },
+    {
+      "role": "analyst",
+      "finishedAt": "2026-10-25T22:31:58.609Z",
+      "exit": {
+        "code": 0,
+        "signal": null
+      },
+      "timedOut": false,
+      "interrupted": false,
+      "expected": 2,
+      "attempted": 2,
+      "originalStatusSha256": "46edfc9b52e6393a25c85f1a21fa291d7bdde1e4b26e49d98b391021b37f1119"
+    },
+    {
+      "role": "business",
+      "finishedAt": "2026-10-25T22:31:38.869Z",
+      "exit": {
+        "code": 0,
+        "signal": null
+      },
+      "timedOut": false,
+      "interrupted": false,
+      "expected": 2,
+      "attempted": 2,
+      "originalStatusSha256": "c07d067dbc13da4d1f901a17602e3ac0755165cd547d9519412a2a16816f6661"
+    },
+    {
+      "role": "contentEditor",
+      "finishedAt": "2026-10-25T22:29:35.629Z",
+      "exit": {
+        "code": 0,
+        "signal": null
+      },
+      "timedOut": false,
+      "interrupted": false,
+      "expected": 2,
+      "attempted": 2,
+      "originalStatusSha256": "1cc47ab640c2cc96556e5db4a372d93bdf11569acaf9581df1ae64c3be397968"
+    },
+    {
+      "role": "customer",
+      "finishedAt": "2026-10-25T22:28:53.362Z",
+      "exit": {
+        "code": 0,
+        "signal": null
+      },
+      "timedOut": false,
+      "interrupted": false,
+      "expected": 80,
+      "attempted": 80,
+      "originalStatusSha256": "140b4ddded2755f3776b910f88bdecbb3369f5f9c506f7240778ba7d937ad202"
+    },
+    {
+      "role": "hr",
+      "finishedAt": "2026-10-25T22:31:18.968Z",
+      "exit": {
+        "code": 0,
+        "signal": null
+      },
+      "timedOut": false,
+      "interrupted": false,
+      "expected": 2,
+      "attempted": 2,
+      "originalStatusSha256": "5b40971d4594f2a51d8bdd1df95aa159d91e1033fafb48eadec906a5b87043b5"
+    },
+    {
+      "role": "productManager",
+      "finishedAt": "2026-10-25T22:29:57.647Z",
+      "exit": {
+        "code": 0,
+        "signal": null
+      },
+      "timedOut": false,
+      "interrupted": false,
+      "expected": 2,
+      "attempted": 2,
+      "originalStatusSha256": "6736312f0a8b7b74a3dd264fed526ca2c84b650026c3c0042c3abed4746d18b7"
+    },
+    {
+      "role": "publisher",
+      "finishedAt": "2026-10-25T22:30:59.345Z",
+      "exit": {
+        "code": 0,
+        "signal": null
+      },
+      "timedOut": false,
+      "interrupted": false,
+      "expected": 2,
+      "attempted": 2,
+      "originalStatusSha256": "2adfff6cd0e7a16f79d3b8ca25e5c54fcc363220c41b83875453ee78414f5b55"
+    },
+    {
+      "role": "scientificReviewer",
+      "finishedAt": "2026-10-25T22:30:17.556Z",
+      "exit": {
+        "code": 0,
+        "signal": null
+      },
+      "timedOut": false,
+      "interrupted": false,
+      "expected": 2,
+      "attempted": 2,
+      "originalStatusSha256": "47fe9957afb3bc4dff5cdbb8e4dc150a1ea68ac685e14ceb31e8331ba19f6563"
+    },
+    {
+      "role": "superAdmin",
+      "finishedAt": "2026-10-25T22:19:09.109Z",
+      "exit": {
+        "code": 0,
+        "signal": null
+      },
+      "timedOut": false,
+      "interrupted": false,
+      "expected": 430,
+      "attempted": 430,
+      "originalStatusSha256": "2a742a4333b1173407336549345351e3e1ef1d9e25f52932f66f56c66ddb2a2e"
+    },
+    {
+      "role": "support",
+      "finishedAt": "2026-10-25T22:32:18.837Z",
+      "exit": {
+        "code": 0,
+        "signal": null
+      },
+      "timedOut": false,
+      "interrupted": false,
+      "expected": 2,
+      "attempted": 2,
+      "originalStatusSha256": "b50742d09700d8e8487a173c857477cf2cf26a898e285a6617f751cb0dd31b46"
+    },
+    {
+      "role": "translator",
+      "finishedAt": "2026-10-25T22:30:38.930Z",
+      "exit": {
+        "code": 0,
+        "signal": null
+      },
+      "timedOut": false,
+      "interrupted": false,
+      "expected": 2,
+      "attempted": 2,
+      "originalStatusSha256": "fe45875665ba15a6bef6182008072d99d53866116ba62ff4429bdb361e24b329"
+    }
+  ],
+  "recordedRenewalOutcomes": 0,
+  "renewalInterpretation": "Renewal branch records a renewal object when invoked. None was recorded in these530 results; ordinary fresh-session preflight and initial role sign-ins are not called renewals.",
+  "scope": "430 principal superAdmin,80 principal/owned-detail customer and2 explicitly representative states for each of10 other roles; not every role\u00d7route combination.",
+  "privateProcessIdsArgumentsAndRawLogsExported": false
+}

@@ -1,0 +1,332 @@
+{
+  "schema": 1,
+  "build_id": "yiIif_e5qM77v2z6MKg0A",
+  "http_entrypoint": "caddy",
+  "status": "failed",
+  "completed": true,
+  "exit_code": 1,
+  "stats": {
+    "startTime": "2026-10-23T07:21:32.023Z",
+    "duration": 91492.145,
+    "expected": 17,
+    "skipped": 0,
+    "unexpected": 3,
+    "flaky": 0
+  },
+  "case_count": 20,
+  "cases": [
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: fa dark home",
+      "status": "expected",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "duration_ms": 2948
+        }
+      ]
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: fa dark auth/login",
+      "status": "expected",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "duration_ms": 1420
+        }
+      ]
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: fa dark contact",
+      "status": "expected",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "duration_ms": 1660
+        }
+      ]
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: fa light home",
+      "status": "expected",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "duration_ms": 2706
+        }
+      ]
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: fa light auth/login",
+      "status": "expected",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "duration_ms": 1518
+        }
+      ]
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: fa light contact",
+      "status": "expected",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "duration_ms": 1648
+        }
+      ]
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: en dark home",
+      "status": "expected",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "duration_ms": 2576
+        }
+      ]
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: en dark auth/login",
+      "status": "expected",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "duration_ms": 1379
+        }
+      ]
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: en dark contact",
+      "status": "expected",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "duration_ms": 1624
+        }
+      ]
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: en light home",
+      "status": "expected",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "duration_ms": 2674
+        }
+      ]
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: en light auth/login",
+      "status": "expected",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "duration_ms": 1723
+        }
+      ]
+    },
+    {
+      "file": "accessibility.spec.ts",
+      "title": "public accessibility: en light contact",
+      "status": "expected",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "duration_ms": 1505
+        }
+      ]
+    },
+    {
+      "file": "hero-worker.spec.ts",
+      "title": "the real rendering worker presents frames and handles keyboard input while the page controls remain usable",
+      "status": "unexpected",
+      "attempts": [
+        {
+          "status": "failed",
+          "retry": 0,
+          "duration_ms": 1035
+        }
+      ],
+      "failure": {
+        "category": "strict-locator-matched-multiple-hero-roots",
+        "matchedElements": 2,
+        "rawErrorContentIncluded": false
+      }
+    },
+    {
+      "file": "hero-worker.spec.ts",
+      "title": "failure after canvas transfer remounts a fresh accessible React canvas and restores the same scene on the main thread",
+      "status": "unexpected",
+      "attempts": [
+        {
+          "status": "failed",
+          "retry": 0,
+          "duration_ms": 1249
+        }
+      ],
+      "failure": {
+        "category": "strict-locator-matched-multiple-hero-roots",
+        "matchedElements": 2,
+        "rawErrorContentIncluded": false
+      }
+    },
+    {
+      "file": "panel-staff-mfa-reset.spec.ts",
+      "title": "senior panel recovery requires fresh proof, clears old staff access and forces real MFA enrollment",
+      "status": "expected",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "duration_ms": 31937
+        }
+      ]
+    },
+    {
+      "file": "public-csp-images.spec.ts",
+      "title": "hydrated public pages and the hero rendering worker run under nonce CSP without eval violations",
+      "status": "unexpected",
+      "attempts": [
+        {
+          "status": "failed",
+          "retry": 0,
+          "duration_ms": 2426
+        }
+      ],
+      "failure": {
+        "category": "strict-locator-matched-multiple-hero-roots",
+        "matchedElements": 2,
+        "rawErrorContentIncluded": false
+      }
+    },
+    {
+      "file": "public-csp-images.spec.ts",
+      "title": "image optimization permits known bundled files and rejects private, encoded and query-bearing paths",
+      "status": "expected",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "duration_ms": 100
+        }
+      ]
+    },
+    {
+      "file": "public-csp-images.spec.ts",
+      "title": "the server-rendered public page remains mounted through session and publication hydration",
+      "status": "expected",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "duration_ms": 895
+        }
+      ]
+    },
+    {
+      "file": "user-directory.spec.ts",
+      "title": "the people panel edits older accounts beyond 1000 customers and retains a paginated handover target across searches",
+      "status": "expected",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "duration_ms": 5490
+        }
+      ]
+    },
+    {
+      "file": "user-management.spec.ts",
+      "title": "hybrid panel creates roles and edits customer and environment staff profiles, grants and credentials; ordinary bootstrap preserves the edits",
+      "status": "expected",
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "duration_ms": 19731
+        }
+      ]
+    }
+  ],
+  "raw_report_sha256": "bf916a095b277c844178eaf0fe85df05209da45cdd961e1a5d52931a9ba72121",
+  "command_receipt_sha256": "1371d7906bb18911bc0f868db3ec65293d27fec5bdee03f0881261cf1c9d1430",
+  "build_identity_sha256": "d9dce31ece208128abc70878ecfba4bb012f0f16e1a4093c4820921fb32e6ba7",
+  "execution": {
+    "started_utc": "2026-10-23T07:21:31.463281+00:00",
+    "ended_utc": "2026-10-23T07:23:03.548971+00:00",
+    "duration_seconds": 92.086,
+    "log_bytes": 14903,
+    "log_sha256": "db0604160c63c3add47a85ce2194a2303a40aa2523b3c4141f9d7b9ea2c9bbfb"
+  },
+  "failure_categories": [
+    {
+      "category": "strict-locator-matched-multiple-hero-roots",
+      "cases": 3,
+      "matchedElementsPerFailure": 2
+    }
+  ],
+  "failed_cases": [
+    {
+      "file": "hero-worker.spec.ts",
+      "title": "the real rendering worker presents frames and handles keyboard input while the page controls remain usable",
+      "category": "strict-locator-matched-multiple-hero-roots",
+      "matchedElements": 2,
+      "rawErrorContentIncluded": false
+    },
+    {
+      "file": "hero-worker.spec.ts",
+      "title": "failure after canvas transfer remounts a fresh accessible React canvas and restores the same scene on the main thread",
+      "category": "strict-locator-matched-multiple-hero-roots",
+      "matchedElements": 2,
+      "rawErrorContentIncluded": false
+    },
+    {
+      "file": "public-csp-images.spec.ts",
+      "title": "hydrated public pages and the hero rendering worker run under nonce CSP without eval violations",
+      "category": "strict-locator-matched-multiple-hero-roots",
+      "matchedElements": 2,
+      "rawErrorContentIncluded": false
+    }
+  ],
+  "passed_counts_by_file": {
+    "accessibility.spec.ts": 12,
+    "panel-staff-mfa-reset.spec.ts": 1,
+    "public-csp-images.spec.ts": 2,
+    "user-directory.spec.ts": 1,
+    "user-management.spec.ts": 1
+  },
+  "projection": {
+    "method": "Allowlisted test file/title/status/attempt metrics and typed failure predicates only. Raw error messages, DOM, identifiers, request data, screenshots, traces and environment values are omitted.",
+    "privateEnvironmentFilesRead": 0
+  },
+  "limitations": [
+    "This selected 20-case run failed; it is not current native browser acceptance or a full-suite rerun.",
+    "The three failed cases do not establish their complete worker, canvas fallback or nonce-CSP behavior for build02.",
+    "The command duration and Playwright-reported test duration are distinct recorded measurements.",
+    "A subsequent product correction and separate actual rerun must retain this failed run unchanged."
+  ],
+  "createdAt": "2026-10-23T07:27:22.431787+00:00"
+}

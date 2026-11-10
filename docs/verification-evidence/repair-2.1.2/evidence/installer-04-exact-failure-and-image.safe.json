@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "kind": "fourth-original-installer-exact-failure-and-cached-image",
+  "recordedAt": "2026-10-24T07:00:15.765776+00:00",
+  "status": "failed",
+  "attempt": 4,
+  "sourceZipSha256": "b504472bd04c568888f35cc5be7eb9310d8e8a61cb1402a7e965d0e7cb47a6e0",
+  "executionInputsSha256": "aa19497131760e94ec6555b6ca24e2c84fad45f6f410fa8d0b13f18a43fcc487",
+  "originalInstallerExitCode": 124,
+  "actualInstallerWaitConsumed": true,
+  "phase": "application, worker, scanner and public endpoint readiness",
+  "lifecycleOutcome": {
+    "operation": "up",
+    "code": "COMMAND_TIMEOUT",
+    "exitCode": 124,
+    "cleanupAttempted": true,
+    "cleanupVerified": true,
+    "clientProcessTerminationVerified": true
+  },
+  "individualTimedOutCommandNotEmittedByShippedLifecycle": true,
+  "cachedBuildSteps": 27,
+  "resolvedNodeBaseDigest": "sha256:55fb5f5a527ea2c5c4a95f963e48ef90aa38c7b346054fdc8ee9957a2b55d205",
+  "applicationImageExportCompleted": true,
+  "applicationImage": {
+    "configSha256": "df9507dc236d8447c0dd78e4b8b392db99fc9b95ce7abdf4ca215dbf17af75ce",
+    "manifestSha256": "7da7460165c8827e6b0f3e612d193ee867065c9598aa5e6b04eb00eb3ff9e8a7",
+    "indexSha256": "1d36fad77e4445ad11205d95ea38dbc534424b57dcbad4aaa16c410c89110638",
+    "releaseTag": "20261024T064540Z-38468e72"
+  },
+  "privateLog": {
+    "sha256": "883c2672a5070c359d83a58c7112050109616fa90b8b16466b1e295d273a1eaa",
+    "bytes": 15449,
+    "included": false
+  },
+  "hostPressure": {
+    "observedAt": "2026-10-24T07:00:15.592568+00:00",
+    "memoryCurrentBytes": 8537006080,
+    "memoryLimitBytes": 8589934592,
+    "anonymousBytes": 6890487808,
+    "fileCacheBytes": 1450975232,
+    "memoryLimitEvents": 425009,
+    "oomEvents": 0,
+    "oomKills": 0,
+    "hostAvailableDiskBytes": 14548451328,
+    "guestAvailableMemoryDoesNotDescribeHostHeadroom": true,
+    "globalCacheTuningOrVmChangePerformed": false
+  },
+  "diskIdentityGuard": {
+    "observedAt": "2026-10-24T07:00:15.594477+00:00",
+    "passed": true
+  },
+  "rootCauseEstablished": false,
+  "noAutomaticRetryAfterFailure": true,
+  "sourceChanged": false,
+  "timeoutsOrResourceSecurityGuardsChanged": false
+}

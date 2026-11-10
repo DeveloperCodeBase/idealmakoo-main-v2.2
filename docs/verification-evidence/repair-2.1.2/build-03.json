@@ -1,0 +1,25 @@
+{
+  "name": "production-build-2.1.2-public-copy-complete",
+  "command": [
+    "npm",
+    "run",
+    "build"
+  ],
+  "startedAt": "2026-10-23T10:37:22.681596+00:00",
+  "finishedAt": "2026-10-23T10:38:26.244918+00:00",
+  "durationSeconds": 63.473,
+  "exitCode": 0,
+  "sourceBefore": {
+    "sha256": "499c0bc34043d69e34cd7559f59b45ac1414cf4ae25f94f1dde5025328f3f05e",
+    "files": 986
+  },
+  "sourceAfter": {
+    "sha256": "499c0bc34043d69e34cd7559f59b45ac1414cf4ae25f94f1dde5025328f3f05e",
+    "files": 986
+  },
+  "sourceChanged": [],
+  "accepted": true,
+  "logSha256": "46f9201b66a92938e1bad063d23de65182a3cede79b88c00834de80864ed3d4e",
+  "version": "2.1.2",
+  "buildId": "HSeZD37BGY1jy6cC01AzB"
+}

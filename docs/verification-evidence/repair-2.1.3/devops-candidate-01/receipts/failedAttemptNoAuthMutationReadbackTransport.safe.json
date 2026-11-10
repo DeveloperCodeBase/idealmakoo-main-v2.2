@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "kind": "owned-pinned-ssh-command",
+  "guest": "primary",
+  "label": "failed-seed-no-auth-mutations-002",
+  "startedAt": "2026-10-25T04:48:34.210216+00:00",
+  "completedAt": "2026-10-25T04:48:45.560198+00:00",
+  "elapsedSeconds": 11.349988,
+  "exitCode": 0,
+  "actualWaitConsumed": true,
+  "timedOut": false
+}

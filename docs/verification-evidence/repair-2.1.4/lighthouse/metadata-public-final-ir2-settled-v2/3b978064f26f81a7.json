@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/fa/resources/six-acrylic-ranges-steady-wear-cover/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "a94e054859f9a0af524788aa8e7adc3419c2a718a4ced539e2abdf519abc8284",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "تصویر مرجع پژوهش — نرخ سایش پایدار شش گروه دندان مصنوعی | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "نرخ سایش پایدار شش گروه دندان مصنوعی — اسناد تصویری اصلی کارخانه"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/resources/six-acrylic-ranges-steady-wear-cover/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/six-acrylic-ranges-steady-wear-cover/",
+    "en": "http://127.0.0.1:3100/en/resources/six-acrylic-ranges-steady-wear-cover/",
+    "tr": "http://127.0.0.1:3100/tr/resources/six-acrylic-ranges-steady-wear-cover/",
+    "ar": "http://127.0.0.1:3100/ar/resources/six-acrylic-ranges-steady-wear-cover/",
+    "ru": "http://127.0.0.1:3100/ru/resources/six-acrylic-ranges-steady-wear-cover/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/six-acrylic-ranges-steady-wear-cover/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 45
+}

@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/research/three-teeth-heat-cured-resin/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "663e36a95ad3284125667d7e9aff2e83eb1d8305febf9a25c27eee22cca3f2a1",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Berelian, Super Berelian and Ivoclar bonding to heat-cured resin | Ideal Makoo"
+  ],
+  "descriptions": [
+    "A comparison of three groups, including failure locations within the tooth or acrylic base."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/research/three-teeth-heat-cured-resin/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/three-teeth-heat-cured-resin/",
+    "en": "http://127.0.0.1:3100/en/research/three-teeth-heat-cured-resin/",
+    "tr": "http://127.0.0.1:3100/tr/research/three-teeth-heat-cured-resin/",
+    "ar": "http://127.0.0.1:3100/ar/research/three-teeth-heat-cured-resin/",
+    "ru": "http://127.0.0.1:3100/ru/research/three-teeth-heat-cured-resin/",
+    "x-default": "http://127.0.0.1:3100/fa/research/three-teeth-heat-cured-resin/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 65
+}

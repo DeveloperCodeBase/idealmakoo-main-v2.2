@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "kind": "collected-owned-guest-outcome",
+  "guest": "recovery",
+  "job": "candidate02-original-update",
+  "status": "passed",
+  "exitCode": 0,
+  "actualGuestWaitConsumed": true,
+  "startedAt": "2026-10-25T08:06:17.154377+00:00",
+  "completedAt": "2026-10-25T08:57:25.300450+00:00",
+  "elapsedSeconds": 3068.150717,
+  "files": {
+    "outcome.safe.json": {
+      "bytes": 408,
+      "sha256": "f0c43469ace8b9daf74c182ef1f35b2b9e5fab65644a20c4f26f257f0633be9f",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "start.safe.json": {
+      "bytes": 389,
+      "sha256": "ef7a8ac0032a8a39542d096b923028f62dfc5729da09d714eb10812bd7e41c86",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "stdout.private": {
+      "bytes": 2261,
+      "sha256": "43364aa54066d3fc30848d70694c1dfd6e29aff20d4fc29e40573f6b6d1cd482",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "stderr.private.log": {
+      "bytes": 25662,
+      "sha256": "a6c24b05e61758497f71d479d91820d25d564735513e1e8d457a1e882f791927",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    }
+  }
+}

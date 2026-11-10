@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/for/research/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "101c9d22678bb0e32c3da862fb3bb75f50c5e55d25657b9da60650ece9cb29eb",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Исследователи | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Для исследователей: научный архив, источники по продукции, сведения о качестве и форма предложения исследовательского проекта заводу."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/for/research/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/for/research/",
+    "en": "http://127.0.0.1:3100/en/for/research/",
+    "tr": "http://127.0.0.1:3100/tr/for/research/",
+    "ar": "http://127.0.0.1:3100/ar/for/research/",
+    "ru": "http://127.0.0.1:3100/ru/for/research/",
+    "x-default": "http://127.0.0.1:3100/fa/for/research/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 47
+}

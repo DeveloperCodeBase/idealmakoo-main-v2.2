@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/ru/resources/resin-base-bond-four-teeth-cover/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "54d961998c8674f9d3df09e93a9d3c39e43b52f23b13ebfdea717487c19c8bfd",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Иллюстрация исследования — Соединение базисной смолы с Glamour, Yaghoot, Apple и Ivoclar | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Соединение базисной смолы с Glamour, Yaghoot, Apple и Ivoclar — Оригинальные графические документы завода"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/resources/resin-base-bond-four-teeth-cover/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/resin-base-bond-four-teeth-cover/",
+    "en": "http://127.0.0.1:3100/en/resources/resin-base-bond-four-teeth-cover/",
+    "tr": "http://127.0.0.1:3100/tr/resources/resin-base-bond-four-teeth-cover/",
+    "ar": "http://127.0.0.1:3100/ar/resources/resin-base-bond-four-teeth-cover/",
+    "ru": "http://127.0.0.1:3100/ru/resources/resin-base-bond-four-teeth-cover/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/resin-base-bond-four-teeth-cover/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 54
+}

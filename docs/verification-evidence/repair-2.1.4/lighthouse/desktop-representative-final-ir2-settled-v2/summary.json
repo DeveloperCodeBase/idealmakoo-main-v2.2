@@ -1,0 +1,2337 @@
+{
+  "manifest": "manifest.json",
+  "updatedAt": "2026-10-26T00:47:45.664Z",
+  "expected": 14,
+  "attempted": 14,
+  "completed": 14,
+  "expectedHttpResponses": 0,
+  "errors": 0,
+  "timeouts": 0,
+  "pending": 0,
+  "coverageComplete": true,
+  "interrupted": false,
+  "records": [
+    {
+      "url": "http://127.0.0.1:3100/ar/",
+      "kind": "representative-home",
+      "indexed": true,
+      "expectedStatus": 200,
+      "device": "desktop",
+      "attempt": 1,
+      "id": "964c50075cc32604",
+      "startedAt": "2026-10-26T00:45:04.248Z",
+      "status": "completed",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 518.6937,
+        "largest-contentful-paint": 1006.1831999999997,
+        "speed-index": 683.5086295852393,
+        "total-blocking-time": 36,
+        "cumulative-layout-shift": 0.000009292561921313396,
+        "interactive": 1010.4627799999998
+      },
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-26T00:45:06.249Z",
+      "finalDisplayedUrl": "http://127.0.0.1:3100/ar/",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+        "benchmarkIndex": 2504,
+        "credits": {
+          "axe-core": "4.14.0"
+        }
+      },
+      "configSettings": {
+        "output": "json",
+        "maxWaitForFcp": 15000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": true,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ],
+        "skipAudits": [
+          "modern-http-insight",
+          "bf-cache"
+        ]
+      },
+      "runWarnings": [],
+      "failedAudits": [
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "score": 0.94,
+          "displayValue": "1.0 s"
+        },
+        {
+          "id": "max-potential-fid",
+          "title": "Max Potential First Input Delay",
+          "score": 0.98,
+          "displayValue": "90 ms"
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Reduce unused CSS",
+          "score": 0,
+          "displayValue": "Est savings of 26 KiB"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "score": 0,
+          "displayValue": "Est savings of 115 KiB"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "score": 0.5,
+          "displayValue": "Est savings of 22 KiB"
+        },
+        {
+          "id": "legacy-javascript-insight",
+          "title": "Legacy JavaScript",
+          "score": 0,
+          "displayValue": "Est savings of 12 KiB"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "score": 0
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "score": 0,
+          "displayValue": "Est savings of 270 ms"
+        }
+      ],
+      "report": "964c50075cc32604.attempt-1.sanitized-lhr.json",
+      "httpStatus": 200,
+      "httpUrl": "http://127.0.0.1:3100/ar/",
+      "expectedHttpVerified": true,
+      "identityErrors": [],
+      "urlIdentityVerified": true,
+      "durationMs": 8967,
+      "finishedAt": "2026-10-26T00:45:13.215Z",
+      "format": "sanitized-public-lighthouse-evidence-v1",
+      "rawReportSha256": "a019468b8c32c626eb850bbe5d4cb85954bf90d8b3af989881550fb40ccc29e0",
+      "reportIsSanitized": true,
+      "resultFile": "964c50075cc32604.attempt-1.result.json"
+    },
+    {
+      "url": "http://127.0.0.1:3100/ar/faq/",
+      "kind": "representative-faq",
+      "indexed": true,
+      "expectedStatus": 200,
+      "device": "desktop",
+      "attempt": 1,
+      "id": "0edbe2fe56962f3a",
+      "startedAt": "2026-10-26T00:45:16.009Z",
+      "status": "completed",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 315.4909,
+        "largest-contentful-paint": 1020.1514999999999,
+        "speed-index": 315.4909,
+        "total-blocking-time": 23,
+        "cumulative-layout-shift": 0,
+        "interactive": 1020.1515
+      },
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-26T00:45:18.032Z",
+      "finalDisplayedUrl": "http://127.0.0.1:3100/ar/faq/",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+        "benchmarkIndex": 2356.5,
+        "credits": {
+          "axe-core": "4.14.0"
+        }
+      },
+      "configSettings": {
+        "output": "json",
+        "maxWaitForFcp": 15000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": true,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ],
+        "skipAudits": [
+          "modern-http-insight",
+          "bf-cache"
+        ]
+      },
+      "runWarnings": [],
+      "failedAudits": [
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "score": 0.94,
+          "displayValue": "1.0 s"
+        },
+        {
+          "id": "max-potential-fid",
+          "title": "Max Potential First Input Delay",
+          "score": 0.99,
+          "displayValue": "70 ms"
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Reduce unused CSS",
+          "score": 0.5,
+          "displayValue": "Est savings of 27 KiB"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "score": 0,
+          "displayValue": "Est savings of 122 KiB"
+        },
+        {
+          "id": "legacy-javascript-insight",
+          "title": "Legacy JavaScript",
+          "score": 0.5,
+          "displayValue": "Est savings of 12 KiB"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "score": 0
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "score": 0,
+          "displayValue": "Est savings of 130 ms"
+        }
+      ],
+      "report": "0edbe2fe56962f3a.attempt-1.sanitized-lhr.json",
+      "httpStatus": 200,
+      "httpUrl": "http://127.0.0.1:3100/ar/faq/",
+      "expectedHttpVerified": true,
+      "identityErrors": [],
+      "urlIdentityVerified": true,
+      "durationMs": 6606,
+      "finishedAt": "2026-10-26T00:45:22.615Z",
+      "format": "sanitized-public-lighthouse-evidence-v1",
+      "rawReportSha256": "e8a54302b60572a1e5bcda70f97b1942991358ba904fb473f46efb94a089760e",
+      "reportIsSanitized": true,
+      "resultFile": "0edbe2fe56962f3a.attempt-1.result.json"
+    },
+    {
+      "url": "http://127.0.0.1:3100/en/",
+      "kind": "representative-home",
+      "indexed": true,
+      "expectedStatus": 200,
+      "device": "desktop",
+      "attempt": 1,
+      "id": "c151f84454399c24",
+      "startedAt": "2026-10-26T00:45:27.133Z",
+      "status": "completed",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 350.01545000000004,
+        "largest-contentful-paint": 929.02575,
+        "speed-index": 645.3647008448577,
+        "total-blocking-time": 14.5,
+        "cumulative-layout-shift": 0,
+        "interactive": 937.02575
+      },
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-26T00:45:29.189Z",
+      "finalDisplayedUrl": "http://127.0.0.1:3100/en/",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+        "benchmarkIndex": 2469.5,
+        "credits": {
+          "axe-core": "4.14.0"
+        }
+      },
+      "configSettings": {
+        "output": "json",
+        "maxWaitForFcp": 15000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": true,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ],
+        "skipAudits": [
+          "modern-http-insight",
+          "bf-cache"
+        ]
+      },
+      "runWarnings": [],
+      "failedAudits": [
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "score": 0.96,
+          "displayValue": "0.9 s"
+        },
+        {
+          "id": "max-potential-fid",
+          "title": "Max Potential First Input Delay",
+          "score": 0.99,
+          "displayValue": "80 ms"
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Reduce unused CSS",
+          "score": 0.5,
+          "displayValue": "Est savings of 26 KiB"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "score": 0,
+          "displayValue": "Est savings of 115 KiB"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "score": 0.5,
+          "displayValue": "Est savings of 22 KiB"
+        },
+        {
+          "id": "legacy-javascript-insight",
+          "title": "Legacy JavaScript",
+          "score": 0.5,
+          "displayValue": "Est savings of 12 KiB"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "score": 0
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "score": 0,
+          "displayValue": "Est savings of 110 ms"
+        }
+      ],
+      "report": "c151f84454399c24.attempt-1.sanitized-lhr.json",
+      "httpStatus": 200,
+      "httpUrl": "http://127.0.0.1:3100/en/",
+      "expectedHttpVerified": true,
+      "identityErrors": [],
+      "urlIdentityVerified": true,
+      "durationMs": 9256,
+      "finishedAt": "2026-10-26T00:45:36.388Z",
+      "format": "sanitized-public-lighthouse-evidence-v1",
+      "rawReportSha256": "9c36f59d7285245904adb7a0a116aef7fc90e5d06ceb3db8edb69a32d71d9495",
+      "reportIsSanitized": true,
+      "resultFile": "c151f84454399c24.attempt-1.result.json"
+    },
+    {
+      "url": "http://127.0.0.1:3100/en/auth/register/",
+      "kind": "public-auth",
+      "indexed": false,
+      "expectedStatus": 200,
+      "device": "desktop",
+      "attempt": 1,
+      "id": "474c8f3816fa4057",
+      "startedAt": "2026-10-26T00:45:38.962Z",
+      "status": "completed",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 58
+      },
+      "metrics": {
+        "first-contentful-paint": 295.1151,
+        "largest-contentful-paint": 981.2302,
+        "speed-index": 363.1207775050175,
+        "total-blocking-time": 42,
+        "cumulative-layout-shift": 0,
+        "interactive": 981.2302
+      },
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-26T00:45:40.989Z",
+      "finalDisplayedUrl": "http://127.0.0.1:3100/en/auth/register/",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+        "benchmarkIndex": 2478.5,
+        "credits": {
+          "axe-core": "4.14.0"
+        }
+      },
+      "configSettings": {
+        "output": "json",
+        "maxWaitForFcp": 15000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": true,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ],
+        "skipAudits": [
+          "modern-http-insight",
+          "bf-cache"
+        ]
+      },
+      "runWarnings": [],
+      "failedAudits": [
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "score": 0.95,
+          "displayValue": "1.0 s"
+        },
+        {
+          "id": "max-potential-fid",
+          "title": "Max Potential First Input Delay",
+          "score": 0.97,
+          "displayValue": "90 ms"
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Reduce unused CSS",
+          "score": 0.5,
+          "displayValue": "Est savings of 18 KiB"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "score": 0,
+          "displayValue": "Est savings of 126 KiB"
+        },
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "score": 0
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "score": 0
+        },
+        {
+          "id": "legacy-javascript-insight",
+          "title": "Legacy JavaScript",
+          "score": 0,
+          "displayValue": "Est savings of 12 KiB"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "score": 0
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "score": 0,
+          "displayValue": "Est savings of 120 ms"
+        }
+      ],
+      "report": "474c8f3816fa4057.attempt-1.sanitized-lhr.json",
+      "httpStatus": 200,
+      "httpUrl": "http://127.0.0.1:3100/en/auth/register/",
+      "expectedHttpVerified": true,
+      "identityErrors": [],
+      "urlIdentityVerified": true,
+      "durationMs": 6875,
+      "finishedAt": "2026-10-26T00:45:45.837Z",
+      "format": "sanitized-public-lighthouse-evidence-v1",
+      "rawReportSha256": "7155bbe8481676657c7d0b254ab1369cc00e1084c5dd2a8401c22370e28517f6",
+      "reportIsSanitized": true,
+      "resultFile": "474c8f3816fa4057.attempt-1.result.json"
+    },
+    {
+      "url": "http://127.0.0.1:3100/en/contact/",
+      "kind": "representative-request",
+      "indexed": true,
+      "expectedStatus": 200,
+      "device": "desktop",
+      "attempt": 1,
+      "id": "18faec6cf37f610d",
+      "startedAt": "2026-10-26T00:45:50.256Z",
+      "status": "completed",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 345.9854,
+        "largest-contentful-paint": 995.309,
+        "speed-index": 363.5277640877628,
+        "total-blocking-time": 44,
+        "cumulative-layout-shift": 0,
+        "interactive": 995.309
+      },
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-26T00:45:52.266Z",
+      "finalDisplayedUrl": "http://127.0.0.1:3100/en/contact/",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+        "benchmarkIndex": 2404,
+        "credits": {
+          "axe-core": "4.14.0"
+        }
+      },
+      "configSettings": {
+        "output": "json",
+        "maxWaitForFcp": 15000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": true,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ],
+        "skipAudits": [
+          "modern-http-insight",
+          "bf-cache"
+        ]
+      },
+      "runWarnings": [],
+      "failedAudits": [
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "score": 0.95,
+          "displayValue": "1.0 s"
+        },
+        {
+          "id": "max-potential-fid",
+          "title": "Max Potential First Input Delay",
+          "score": 0.97,
+          "displayValue": "90 ms"
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Reduce unused CSS",
+          "score": 0.5,
+          "displayValue": "Est savings of 26 KiB"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "score": 0,
+          "displayValue": "Est savings of 119 KiB"
+        },
+        {
+          "id": "legacy-javascript-insight",
+          "title": "Legacy JavaScript",
+          "score": 0.5,
+          "displayValue": "Est savings of 12 KiB"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "score": 0
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "score": 0,
+          "displayValue": "Est savings of 120 ms"
+        }
+      ],
+      "report": "18faec6cf37f610d.attempt-1.sanitized-lhr.json",
+      "httpStatus": 200,
+      "httpUrl": "http://127.0.0.1:3100/en/contact/",
+      "expectedHttpVerified": true,
+      "identityErrors": [],
+      "urlIdentityVerified": true,
+      "durationMs": 6374,
+      "finishedAt": "2026-10-26T00:45:56.630Z",
+      "format": "sanitized-public-lighthouse-evidence-v1",
+      "rawReportSha256": "edd5b6c6da71cf9d30e3c976abf850a4921d440488bfcdbc639db1eff5260814",
+      "reportIsSanitized": true,
+      "resultFile": "18faec6cf37f610d.attempt-1.result.json"
+    },
+    {
+      "url": "http://127.0.0.1:3100/en/research/",
+      "kind": "representative-editorial",
+      "indexed": true,
+      "expectedStatus": 200,
+      "device": "desktop",
+      "attempt": 1,
+      "id": "711ba1e64f939093",
+      "startedAt": "2026-10-26T00:46:01.371Z",
+      "status": "completed",
+      "scores": {
+        "performance": 93,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 394.80584999999996,
+        "largest-contentful-paint": 1734.4175500000001,
+        "speed-index": 815.6987277810479,
+        "total-blocking-time": 36,
+        "cumulative-layout-shift": 0.002289461994375307,
+        "interactive": 1781.9379400000003
+      },
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-26T00:46:03.401Z",
+      "finalDisplayedUrl": "http://127.0.0.1:3100/en/research/",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+        "benchmarkIndex": 2402,
+        "credits": {
+          "axe-core": "4.14.0"
+        }
+      },
+      "configSettings": {
+        "output": "json",
+        "maxWaitForFcp": 15000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": true,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ],
+        "skipAudits": [
+          "modern-http-insight",
+          "bf-cache"
+        ]
+      },
+      "runWarnings": [],
+      "failedAudits": [
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "score": 0.72,
+          "displayValue": "1.7 s"
+        },
+        {
+          "id": "speed-index",
+          "title": "Speed Index",
+          "score": 0.99,
+          "displayValue": "0.8 s"
+        },
+        {
+          "id": "max-potential-fid",
+          "title": "Max Potential First Input Delay",
+          "score": 0.98,
+          "displayValue": "90 ms"
+        },
+        {
+          "id": "interactive",
+          "title": "Time to Interactive",
+          "score": 0.97,
+          "displayValue": "1.8 s"
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "score": 0
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Reduce unused CSS",
+          "score": 0,
+          "displayValue": "Est savings of 27 KiB"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "score": 0,
+          "displayValue": "Est savings of 115 KiB"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "score": 0.5,
+          "displayValue": "Est savings of 634 KiB"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "score": 0
+        },
+        {
+          "id": "legacy-javascript-insight",
+          "title": "Legacy JavaScript",
+          "score": 0.5,
+          "displayValue": "Est savings of 12 KiB"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "score": 0
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "score": 0,
+          "displayValue": "Est savings of 160 ms"
+        }
+      ],
+      "report": "711ba1e64f939093.attempt-1.sanitized-lhr.json",
+      "httpStatus": 200,
+      "httpUrl": "http://127.0.0.1:3100/en/research/",
+      "expectedHttpVerified": true,
+      "identityErrors": [],
+      "urlIdentityVerified": true,
+      "durationMs": 8404,
+      "finishedAt": "2026-10-26T00:46:09.775Z",
+      "format": "sanitized-public-lighthouse-evidence-v1",
+      "rawReportSha256": "d0d1ace9d1a96ea9edff1f301702beb3a85b044dd4c8d7e7457943834e6d8e26",
+      "reportIsSanitized": true,
+      "resultFile": "711ba1e64f939093.attempt-1.result.json"
+    },
+    {
+      "url": "http://127.0.0.1:3100/en/resources/",
+      "kind": "representative-resources",
+      "indexed": true,
+      "expectedStatus": 200,
+      "device": "desktop",
+      "attempt": 1,
+      "id": "be0bea6bf4f9abff",
+      "startedAt": "2026-10-26T00:46:13.302Z",
+      "status": "completed",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 388.13925,
+        "largest-contentful-paint": 1182.0886250000003,
+        "speed-index": 553.7066383842226,
+        "total-blocking-time": 31,
+        "cumulative-layout-shift": 0,
+        "interactive": 1192.5076125000003
+      },
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-26T00:46:15.333Z",
+      "finalDisplayedUrl": "http://127.0.0.1:3100/en/resources/",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+        "benchmarkIndex": 2534.5,
+        "credits": {
+          "axe-core": "4.14.0"
+        }
+      },
+      "configSettings": {
+        "output": "json",
+        "maxWaitForFcp": 15000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": true,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ],
+        "skipAudits": [
+          "modern-http-insight",
+          "bf-cache"
+        ]
+      },
+      "runWarnings": [],
+      "failedAudits": [
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "score": 0.9,
+          "displayValue": "1.2 s"
+        },
+        {
+          "id": "max-potential-fid",
+          "title": "Max Potential First Input Delay",
+          "score": 0.99,
+          "displayValue": "80 ms"
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Reduce unused CSS",
+          "score": 0,
+          "displayValue": "Est savings of 27 KiB"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "score": 0,
+          "displayValue": "Est savings of 114 KiB"
+        },
+        {
+          "id": "legacy-javascript-insight",
+          "title": "Legacy JavaScript",
+          "score": 0.5,
+          "displayValue": "Est savings of 12 KiB"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "score": 0
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "score": 0,
+          "displayValue": "Est savings of 160 ms"
+        }
+      ],
+      "report": "be0bea6bf4f9abff.attempt-1.sanitized-lhr.json",
+      "httpStatus": 200,
+      "httpUrl": "http://127.0.0.1:3100/en/resources/",
+      "expectedHttpVerified": true,
+      "identityErrors": [],
+      "urlIdentityVerified": true,
+      "durationMs": 8251,
+      "finishedAt": "2026-10-26T00:46:21.553Z",
+      "format": "sanitized-public-lighthouse-evidence-v1",
+      "rawReportSha256": "8809698ca02b42df758bda2adce78a24d413a18ebfbb4eb6e16c0f6b535fa4a7",
+      "reportIsSanitized": true,
+      "resultFile": "be0bea6bf4f9abff.attempt-1.result.json"
+    },
+    {
+      "url": "http://127.0.0.1:3100/fa/",
+      "kind": "representative-home",
+      "indexed": true,
+      "expectedStatus": 200,
+      "device": "desktop",
+      "attempt": 1,
+      "id": "b042d92824a7795f",
+      "startedAt": "2026-10-26T00:46:25.293Z",
+      "status": "completed",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 506.69129999999996,
+        "largest-contentful-paint": 1091.43405,
+        "speed-index": 709.169716052533,
+        "total-blocking-time": 35,
+        "cumulative-layout-shift": 0.00001135757568160526,
+        "interactive": 1095.6289050000003
+      },
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-26T00:46:27.284Z",
+      "finalDisplayedUrl": "http://127.0.0.1:3100/fa/",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+        "benchmarkIndex": 2319,
+        "credits": {
+          "axe-core": "4.14.0"
+        }
+      },
+      "configSettings": {
+        "output": "json",
+        "maxWaitForFcp": 15000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": true,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ],
+        "skipAudits": [
+          "modern-http-insight",
+          "bf-cache"
+        ]
+      },
+      "runWarnings": [],
+      "failedAudits": [
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "score": 0.92,
+          "displayValue": "1.1 s"
+        },
+        {
+          "id": "max-potential-fid",
+          "title": "Max Potential First Input Delay",
+          "score": 0.98,
+          "displayValue": "90 ms"
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Reduce unused CSS",
+          "score": 0,
+          "displayValue": "Est savings of 26 KiB"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "score": 0,
+          "displayValue": "Est savings of 115 KiB"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "score": 0.5,
+          "displayValue": "Est savings of 22 KiB"
+        },
+        {
+          "id": "legacy-javascript-insight",
+          "title": "Legacy JavaScript",
+          "score": 0,
+          "displayValue": "Est savings of 12 KiB"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "score": 0
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "score": 0,
+          "displayValue": "Est savings of 260 ms"
+        }
+      ],
+      "report": "b042d92824a7795f.attempt-1.sanitized-lhr.json",
+      "httpStatus": 200,
+      "httpUrl": "http://127.0.0.1:3100/fa/",
+      "expectedHttpVerified": true,
+      "identityErrors": [],
+      "urlIdentityVerified": true,
+      "durationMs": 9336,
+      "finishedAt": "2026-10-26T00:46:34.629Z",
+      "format": "sanitized-public-lighthouse-evidence-v1",
+      "rawReportSha256": "42be8a67fe47a0a5110a3df93093e4d8832e13e4f407741757b12d0d56c01b5a",
+      "reportIsSanitized": true,
+      "resultFile": "b042d92824a7795f.attempt-1.result.json"
+    },
+    {
+      "url": "http://127.0.0.1:3100/fa/products/",
+      "kind": "representative-catalogue",
+      "indexed": true,
+      "expectedStatus": 200,
+      "device": "desktop",
+      "attempt": 1,
+      "id": "8b6fc9f776e655e2",
+      "startedAt": "2026-10-26T00:46:37.282Z",
+      "status": "completed",
+      "scores": {
+        "performance": 96,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 530.1009,
+        "largest-contentful-paint": 1429.4020999999998,
+        "speed-index": 530.1009,
+        "total-blocking-time": 50,
+        "cumulative-layout-shift": 0,
+        "interactive": 1439.22213
+      },
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-26T00:46:39.309Z",
+      "finalDisplayedUrl": "http://127.0.0.1:3100/fa/products/",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+        "benchmarkIndex": 2389,
+        "credits": {
+          "axe-core": "4.14.0"
+        }
+      },
+      "configSettings": {
+        "output": "json",
+        "maxWaitForFcp": 15000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": true,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ],
+        "skipAudits": [
+          "modern-http-insight",
+          "bf-cache"
+        ]
+      },
+      "runWarnings": [],
+      "failedAudits": [
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "score": 0.83,
+          "displayValue": "1.4 s"
+        },
+        {
+          "id": "max-potential-fid",
+          "title": "Max Potential First Input Delay",
+          "score": 0.96,
+          "displayValue": "100 ms"
+        },
+        {
+          "id": "interactive",
+          "title": "Time to Interactive",
+          "score": 0.99,
+          "displayValue": "1.4 s"
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Reduce unused CSS",
+          "score": 0,
+          "displayValue": "Est savings of 26 KiB"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "score": 0,
+          "displayValue": "Est savings of 120 KiB"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "score": 0,
+          "displayValue": "Est savings of 99 KiB"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "score": 0
+        },
+        {
+          "id": "legacy-javascript-insight",
+          "title": "Legacy JavaScript",
+          "score": 0.5,
+          "displayValue": "Est savings of 12 KiB"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "score": 0
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "score": 0,
+          "displayValue": "Est savings of 290 ms"
+        }
+      ],
+      "report": "8b6fc9f776e655e2.attempt-1.sanitized-lhr.json",
+      "httpStatus": 200,
+      "httpUrl": "http://127.0.0.1:3100/fa/products/",
+      "expectedHttpVerified": true,
+      "identityErrors": [],
+      "urlIdentityVerified": true,
+      "durationMs": 7397,
+      "finishedAt": "2026-10-26T00:46:44.679Z",
+      "format": "sanitized-public-lighthouse-evidence-v1",
+      "rawReportSha256": "42c67845598f2e24f5d3515a73055357a467eea3d507730660d9626269cfd60c",
+      "reportIsSanitized": true,
+      "resultFile": "8b6fc9f776e655e2.attempt-1.result.json"
+    },
+    {
+      "url": "http://127.0.0.1:3100/fa/quality/",
+      "kind": "representative-company",
+      "indexed": true,
+      "expectedStatus": 200,
+      "device": "desktop",
+      "attempt": 1,
+      "id": "c360cc9dac4cf2f9",
+      "startedAt": "2026-10-26T00:46:48.876Z",
+      "status": "completed",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 391.39860000000004,
+        "largest-contentful-paint": 1035.3310000000001,
+        "speed-index": 391.39860000000004,
+        "total-blocking-time": 52.999999999999886,
+        "cumulative-layout-shift": 0.02908837357558371,
+        "interactive": 1035.3310000000001
+      },
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-26T00:46:50.900Z",
+      "finalDisplayedUrl": "http://127.0.0.1:3100/fa/quality/",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+        "benchmarkIndex": 2323,
+        "credits": {
+          "axe-core": "4.14.0"
+        }
+      },
+      "configSettings": {
+        "output": "json",
+        "maxWaitForFcp": 15000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": true,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ],
+        "skipAudits": [
+          "modern-http-insight",
+          "bf-cache"
+        ]
+      },
+      "runWarnings": [],
+      "failedAudits": [
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "score": 0.94,
+          "displayValue": "1.0 s"
+        },
+        {
+          "id": "max-potential-fid",
+          "title": "Max Potential First Input Delay",
+          "score": 0.96,
+          "displayValue": "100 ms"
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Reduce unused CSS",
+          "score": 0,
+          "displayValue": "Est savings of 27 KiB"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "score": 0,
+          "displayValue": "Est savings of 121 KiB"
+        },
+        {
+          "id": "legacy-javascript-insight",
+          "title": "Legacy JavaScript",
+          "score": 0,
+          "displayValue": "Est savings of 12 KiB"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "score": 0
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "score": 0,
+          "displayValue": "Est savings of 170 ms"
+        }
+      ],
+      "report": "c360cc9dac4cf2f9.attempt-1.sanitized-lhr.json",
+      "httpStatus": 200,
+      "httpUrl": "http://127.0.0.1:3100/fa/quality/",
+      "expectedHttpVerified": true,
+      "identityErrors": [],
+      "urlIdentityVerified": true,
+      "durationMs": 6781,
+      "finishedAt": "2026-10-26T00:46:55.657Z",
+      "format": "sanitized-public-lighthouse-evidence-v1",
+      "rawReportSha256": "77aa1213e2968c2c79d749491c9a6b17da3f45b040663e93e7cc2ec5e4eb4c6f",
+      "reportIsSanitized": true,
+      "resultFile": "c360cc9dac4cf2f9.attempt-1.result.json"
+    },
+    {
+      "url": "http://127.0.0.1:3100/ru/",
+      "kind": "representative-home",
+      "indexed": true,
+      "expectedStatus": 200,
+      "device": "desktop",
+      "attempt": 1,
+      "id": "56cff3b25abacbca",
+      "startedAt": "2026-10-26T00:47:00.270Z",
+      "status": "completed",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 503.05755,
+        "largest-contentful-paint": 972.143875,
+        "speed-index": 624.8262247730777,
+        "total-blocking-time": 19,
+        "cumulative-layout-shift": 0,
+        "interactive": 978.6153375
+      },
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-26T00:47:02.277Z",
+      "finalDisplayedUrl": "http://127.0.0.1:3100/ru/",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+        "benchmarkIndex": 2380,
+        "credits": {
+          "axe-core": "4.14.0"
+        }
+      },
+      "configSettings": {
+        "output": "json",
+        "maxWaitForFcp": 15000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": true,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ],
+        "skipAudits": [
+          "modern-http-insight",
+          "bf-cache"
+        ]
+      },
+      "runWarnings": [],
+      "failedAudits": [
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "score": 0.95,
+          "displayValue": "1.0 s"
+        },
+        {
+          "id": "max-potential-fid",
+          "title": "Max Potential First Input Delay",
+          "score": 0.99,
+          "displayValue": "70 ms"
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Reduce unused CSS",
+          "score": 0,
+          "displayValue": "Est savings of 26 KiB"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "score": 0,
+          "displayValue": "Est savings of 115 KiB"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "score": 0.5,
+          "displayValue": "Est savings of 22 KiB"
+        },
+        {
+          "id": "legacy-javascript-insight",
+          "title": "Legacy JavaScript",
+          "score": 0,
+          "displayValue": "Est savings of 12 KiB"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "score": 0
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "score": 0,
+          "displayValue": "Est savings of 260 ms"
+        }
+      ],
+      "report": "56cff3b25abacbca.attempt-1.sanitized-lhr.json",
+      "httpStatus": 200,
+      "httpUrl": "http://127.0.0.1:3100/ru/",
+      "expectedHttpVerified": true,
+      "identityErrors": [],
+      "urlIdentityVerified": true,
+      "durationMs": 8579,
+      "finishedAt": "2026-10-26T00:47:08.849Z",
+      "format": "sanitized-public-lighthouse-evidence-v1",
+      "rawReportSha256": "1d29720b6a1e24b9f698bff94b1c58d06f80cbe78016d3002039e70c691ab473",
+      "reportIsSanitized": true,
+      "resultFile": "56cff3b25abacbca.attempt-1.result.json"
+    },
+    {
+      "url": "http://127.0.0.1:3100/ru/auth/login/",
+      "kind": "public-auth",
+      "indexed": false,
+      "expectedStatus": 200,
+      "device": "desktop",
+      "attempt": 1,
+      "id": "f27af5cdbf89e5b3",
+      "startedAt": "2026-10-26T00:47:11.976Z",
+      "status": "completed",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 58
+      },
+      "metrics": {
+        "first-contentful-paint": 460.74635,
+        "largest-contentful-paint": 821.5772499999999,
+        "speed-index": 460.74635,
+        "total-blocking-time": 17,
+        "cumulative-layout-shift": 0,
+        "interactive": 821.5772499999999
+      },
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-26T00:47:13.968Z",
+      "finalDisplayedUrl": "http://127.0.0.1:3100/ru/auth/login/",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+        "benchmarkIndex": 2514.5,
+        "credits": {
+          "axe-core": "4.14.0"
+        }
+      },
+      "configSettings": {
+        "output": "json",
+        "maxWaitForFcp": 15000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": true,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ],
+        "skipAudits": [
+          "modern-http-insight",
+          "bf-cache"
+        ]
+      },
+      "runWarnings": [],
+      "failedAudits": [
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "score": 0.98,
+          "displayValue": "0.8 s"
+        },
+        {
+          "id": "max-potential-fid",
+          "title": "Max Potential First Input Delay",
+          "score": 0.99,
+          "displayValue": "70 ms"
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Reduce unused CSS",
+          "score": 0.5,
+          "displayValue": "Est savings of 18 KiB"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "score": 0,
+          "displayValue": "Est savings of 127 KiB"
+        },
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "score": 0
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "score": 0
+        },
+        {
+          "id": "legacy-javascript-insight",
+          "title": "Legacy JavaScript",
+          "score": 0.5,
+          "displayValue": "Est savings of 12 KiB"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "score": 0
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "score": 0,
+          "displayValue": "Est savings of 270 ms"
+        }
+      ],
+      "report": "f27af5cdbf89e5b3.attempt-1.sanitized-lhr.json",
+      "httpStatus": 200,
+      "httpUrl": "http://127.0.0.1:3100/ru/auth/login/",
+      "expectedHttpVerified": true,
+      "identityErrors": [],
+      "urlIdentityVerified": true,
+      "durationMs": 6737,
+      "finishedAt": "2026-10-26T00:47:18.713Z",
+      "format": "sanitized-public-lighthouse-evidence-v1",
+      "rawReportSha256": "05103e59f6de63f59789eab96ec2608dc38514c4ad77f83c9cfa76dee0bcbad0",
+      "reportIsSanitized": true,
+      "resultFile": "f27af5cdbf89e5b3.attempt-1.result.json"
+    },
+    {
+      "url": "http://127.0.0.1:3100/tr/",
+      "kind": "representative-home",
+      "indexed": true,
+      "expectedStatus": 200,
+      "device": "desktop",
+      "attempt": 1,
+      "id": "548c32bee2a6e2ff",
+      "startedAt": "2026-10-26T00:47:23.143Z",
+      "status": "completed",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 507.3486,
+        "largest-contentful-paint": 1108.5810000000001,
+        "speed-index": 653.9519114264049,
+        "total-blocking-time": 33,
+        "cumulative-layout-shift": 0,
+        "interactive": 1114.5810000000001
+      },
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-26T00:47:25.186Z",
+      "finalDisplayedUrl": "http://127.0.0.1:3100/tr/",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+        "benchmarkIndex": 2313,
+        "credits": {
+          "axe-core": "4.14.0"
+        }
+      },
+      "configSettings": {
+        "output": "json",
+        "maxWaitForFcp": 15000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": true,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ],
+        "skipAudits": [
+          "modern-http-insight",
+          "bf-cache"
+        ]
+      },
+      "runWarnings": [],
+      "failedAudits": [
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "score": 0.92,
+          "displayValue": "1.1 s"
+        },
+        {
+          "id": "max-potential-fid",
+          "title": "Max Potential First Input Delay",
+          "score": 0.98,
+          "displayValue": "80 ms"
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Reduce unused CSS",
+          "score": 0,
+          "displayValue": "Est savings of 26 KiB"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "score": 0,
+          "displayValue": "Est savings of 115 KiB"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "score": 0.5,
+          "displayValue": "Est savings of 22 KiB"
+        },
+        {
+          "id": "legacy-javascript-insight",
+          "title": "Legacy JavaScript",
+          "score": 0,
+          "displayValue": "Est savings of 12 KiB"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "score": 0
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "score": 0,
+          "displayValue": "Est savings of 270 ms"
+        }
+      ],
+      "report": "548c32bee2a6e2ff.attempt-1.sanitized-lhr.json",
+      "httpStatus": 200,
+      "httpUrl": "http://127.0.0.1:3100/tr/",
+      "expectedHttpVerified": true,
+      "identityErrors": [],
+      "urlIdentityVerified": true,
+      "durationMs": 8828,
+      "finishedAt": "2026-10-26T00:47:31.971Z",
+      "format": "sanitized-public-lighthouse-evidence-v1",
+      "rawReportSha256": "85f511a2ba89a41deaf7858d873acdebdf1a8232aef33ff695bdc1acd32cd663",
+      "reportIsSanitized": true,
+      "resultFile": "548c32bee2a6e2ff.attempt-1.result.json"
+    },
+    {
+      "url": "http://127.0.0.1:3100/tr/tools/shade-mould-matcher/",
+      "kind": "representative-tool",
+      "indexed": true,
+      "expectedStatus": 200,
+      "device": "desktop",
+      "attempt": 1,
+      "id": "d3ba50938adbf340",
+      "startedAt": "2026-10-26T00:47:34.795Z",
+      "status": "completed",
+      "scores": {
+        "performance": 96,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 510.79319999999996,
+        "largest-contentful-paint": 1363.4830000000002,
+        "speed-index": 510.79319999999996,
+        "total-blocking-time": 15,
+        "cumulative-layout-shift": 0,
+        "interactive": 1369.0197800000003
+      },
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-26T00:47:36.795Z",
+      "finalDisplayedUrl": "http://127.0.0.1:3100/tr/tools/shade-mould-matcher/",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+        "benchmarkIndex": 2411.5,
+        "credits": {
+          "axe-core": "4.14.0"
+        }
+      },
+      "configSettings": {
+        "output": "json",
+        "maxWaitForFcp": 15000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": true,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ],
+        "skipAudits": [
+          "modern-http-insight",
+          "bf-cache"
+        ]
+      },
+      "runWarnings": [],
+      "failedAudits": [
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "score": 0.85,
+          "displayValue": "1.4 s"
+        },
+        {
+          "id": "interactive",
+          "title": "Time to Interactive",
+          "score": 0.99,
+          "displayValue": "1.4 s"
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Reduce unused CSS",
+          "score": 0.5,
+          "displayValue": "Est savings of 26 KiB"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "score": 0,
+          "displayValue": "Est savings of 121 KiB"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "score": 0.5,
+          "displayValue": "Est savings of 17 KiB"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "score": 0
+        },
+        {
+          "id": "legacy-javascript-insight",
+          "title": "Legacy JavaScript",
+          "score": 0.5,
+          "displayValue": "Est savings of 12 KiB"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "score": 0
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "score": 0,
+          "displayValue": "Est savings of 280 ms"
+        }
+      ],
+      "report": "d3ba50938adbf340.attempt-1.sanitized-lhr.json",
+      "httpStatus": 200,
+      "httpUrl": "http://127.0.0.1:3100/tr/tools/shade-mould-matcher/",
+      "expectedHttpVerified": true,
+      "identityErrors": [],
+      "urlIdentityVerified": true,
+      "durationMs": 7142,
+      "finishedAt": "2026-10-26T00:47:41.937Z",
+      "format": "sanitized-public-lighthouse-evidence-v1",
+      "rawReportSha256": "aef62aa72477733cc19b344422ff7becfd5a0b39397c70f1a8faa18199f42cd9",
+      "reportIsSanitized": true,
+      "resultFile": "d3ba50938adbf340.attempt-1.result.json"
+    }
+  ],
+  "attempts": [
+    {
+      "id": "964c50075cc32604",
+      "attempt": 1,
+      "status": "completed",
+      "result": "964c50075cc32604.attempt-1.result.json"
+    },
+    {
+      "id": "0edbe2fe56962f3a",
+      "attempt": 1,
+      "status": "completed",
+      "result": "0edbe2fe56962f3a.attempt-1.result.json"
+    },
+    {
+      "id": "c151f84454399c24",
+      "attempt": 1,
+      "status": "completed",
+      "result": "c151f84454399c24.attempt-1.result.json"
+    },
+    {
+      "id": "474c8f3816fa4057",
+      "attempt": 1,
+      "status": "completed",
+      "result": "474c8f3816fa4057.attempt-1.result.json"
+    },
+    {
+      "id": "18faec6cf37f610d",
+      "attempt": 1,
+      "status": "completed",
+      "result": "18faec6cf37f610d.attempt-1.result.json"
+    },
+    {
+      "id": "711ba1e64f939093",
+      "attempt": 1,
+      "status": "completed",
+      "result": "711ba1e64f939093.attempt-1.result.json"
+    },
+    {
+      "id": "be0bea6bf4f9abff",
+      "attempt": 1,
+      "status": "completed",
+      "result": "be0bea6bf4f9abff.attempt-1.result.json"
+    },
+    {
+      "id": "b042d92824a7795f",
+      "attempt": 1,
+      "status": "completed",
+      "result": "b042d92824a7795f.attempt-1.result.json"
+    },
+    {
+      "id": "8b6fc9f776e655e2",
+      "attempt": 1,
+      "status": "completed",
+      "result": "8b6fc9f776e655e2.attempt-1.result.json"
+    },
+    {
+      "id": "c360cc9dac4cf2f9",
+      "attempt": 1,
+      "status": "completed",
+      "result": "c360cc9dac4cf2f9.attempt-1.result.json"
+    },
+    {
+      "id": "56cff3b25abacbca",
+      "attempt": 1,
+      "status": "completed",
+      "result": "56cff3b25abacbca.attempt-1.result.json"
+    },
+    {
+      "id": "f27af5cdbf89e5b3",
+      "attempt": 1,
+      "status": "completed",
+      "result": "f27af5cdbf89e5b3.attempt-1.result.json"
+    },
+    {
+      "id": "548c32bee2a6e2ff",
+      "attempt": 1,
+      "status": "completed",
+      "result": "548c32bee2a6e2ff.attempt-1.result.json"
+    },
+    {
+      "id": "d3ba50938adbf340",
+      "attempt": 1,
+      "status": "completed",
+      "result": "d3ba50938adbf340.attempt-1.result.json"
+    }
+  ],
+  "format": "sanitized-public-lighthouse-evidence-v1",
+  "evidencePolicy": "Explicitly sanitized derivative, not a raw Lighthouse report. Original raw reports remain in scratch and are identified by SHA256. Screenshot/image payloads are omitted at the exact JSON pointers recorded; scores, metrics, nonimage audit results and failed attempts are retained. Browser logs, input files, cookies and private raw reports are not included."
+}

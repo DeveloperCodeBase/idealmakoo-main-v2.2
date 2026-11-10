@@ -1,0 +1,201 @@
+{
+  "kind": "candidate02-debounced-gallery-browser-check",
+  "startedAt": "2026-10-25T07:49:31.390Z",
+  "finishedAt": "2026-10-25T07:49:45.174Z",
+  "buildId": "JUTCtkNIJ8CT540y_qNL_",
+  "driverSha256": "0af2c8c9f666a1bbcc3d1df4356cf39743679ba6130090f570f0a3ea948ce6ff",
+  "status": "passed",
+  "route": "/fa/admin/pages/",
+  "scoredNavigations": 0,
+  "authenticatedRole": "superAdmin",
+  "realMfa": true,
+  "ownedDraftsReused": true,
+  "priorFailedAttemptReadbacks": {
+    "primaryApiAndRowEqual": true,
+    "secondaryApiAndRowEqual": true,
+    "primaryWitnessSha256": "b299db29c6a21a9fea0b6529905f953dee843db7f53888a099a491c3d8d0b7dc",
+    "secondaryWitnessSha256": "11f68f319bcbfe48a1d65d36eaf3b976981e1f44409b64cc4ab872bbe2486a4f",
+    "originalFailedInvocationRemainsFailed": true
+  },
+  "serverDraftBeforeSha256": "80dbf6c593e59904994a7b71d143a0201cbc55d7d8eac8a89a162c8a4cbf73a5",
+  "storedDraftBeforeSha256": "835e569037fea2ade6184b925ade3e64d7111d0de461854dcf426606c37ac33f",
+  "serverDraftAfterSha256": "80dbf6c593e59904994a7b71d143a0201cbc55d7d8eac8a89a162c8a4cbf73a5",
+  "storedDraftAfterSha256": "835e569037fea2ade6184b925ade3e64d7111d0de461854dcf426606c37ac33f",
+  "completeDraftUnchanged": true,
+  "localChangesDiscarded": true,
+  "pendingSnapshotUnmount": {
+    "action": "delete-gallery",
+    "inputToActionMs": 12.5,
+    "noStaleSnapshotAfter350ms": true
+  },
+  "sameBlockAcrossPageSwitch": {
+    "switchGapMs": 37.80000000074506,
+    "immediateCorrectSnapshots": true,
+    "noStaleSnapshotAfter350ms": true
+  },
+  "editorCleanup": {
+    "policy": "authenticated-robots-committed-lease-release-v1",
+    "success": true,
+    "destinationVerified": true,
+    "beforeCount": 1,
+    "trackedCount": 1,
+    "remainingCount": 0,
+    "releasedCount": 1,
+    "observedReleaseRequests": 0,
+    "observedReleaseResponses": 0,
+    "observedReleaseFailures": 0,
+    "observedRequestFailures": 0,
+    "releaseStatuses": [],
+    "durationMs": 541,
+    "budgetMs": 15000,
+    "settledForMs": 507,
+    "navigationStatus": 200
+  },
+  "draftUnchangedAfterLeaseRelease": true,
+  "immediateSave": {
+    "separateOwnedDraft": true,
+    "inputToSaveClickMs": 11.800000000745058,
+    "previewStillShowedPreviousSnapshotAtClick": true,
+    "requestUsedLatestBody": true,
+    "persistedLatestBody": true,
+    "remainsUnpublishedDraft": true,
+    "beforeSha256": "28d4f0860c4ef535c1b7d19b7724379cdca980bece59ea6c7c4218c6a34b8fc7",
+    "afterSha256": "1825046a006230d16ec9ce467eed744015e52d5b908bd795c07b3a8701d6b964"
+  },
+  "primaryDraftUnaffectedBySecondarySave": true,
+  "immediateSaveCleanup": {
+    "policy": "authenticated-robots-committed-lease-release-v1",
+    "success": true,
+    "destinationVerified": true,
+    "beforeCount": 1,
+    "trackedCount": 1,
+    "remainingCount": 0,
+    "releasedCount": 1,
+    "observedReleaseRequests": 0,
+    "observedReleaseResponses": 0,
+    "observedReleaseFailures": 0,
+    "observedRequestFailures": 0,
+    "releaseStatuses": [],
+    "durationMs": 542,
+    "budgetMs": 15000,
+    "settledForMs": 510,
+    "navigationStatus": 200
+  },
+  "noIntermediateUrlRequests": true,
+  "allControlledRequestsWereCompleteKnownAssets": true,
+  "controlledInputImageRequestCount": 3,
+  "navigationImageRequestsRetained": 4,
+  "finalTeardown": {
+    "success": true,
+    "errors": [],
+    "remainingOwnedChromeProcesses": [],
+    "unreadableOwnedProcessIdentities": [],
+    "profileRemoved": true
+  },
+  "sourceSummarySha256": "4b8c447eaf27630a76050d8ceca730f7aa5a6d76d17f23266ad224e73c3817c8",
+  "sourceInputSha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+  "checks": [
+    {
+      "label": "authored-order-captions-unsafe-rejected-desktop",
+      "passed": true
+    },
+    {
+      "label": "authored-order-captions-mobile",
+      "passed": true
+    },
+    {
+      "label": "unsafe-rows-use-safe-fallback",
+      "passed": true
+    },
+    {
+      "label": "unsafe-fallback-rejected",
+      "passed": true
+    },
+    {
+      "label": "discard-restores-saved-gallery",
+      "passed": true
+    },
+    {
+      "label": "separate-draft-before-immediate-save",
+      "passed": true
+    },
+    {
+      "label": "saved-latest-value-preview",
+      "passed": true
+    }
+  ],
+  "typingRuns": [
+    {
+      "characters": 13,
+      "inputEvents": 13,
+      "maxGapMs": 13.399999998509884,
+      "durationMs": 75.39999999850988
+    },
+    {
+      "characters": 30,
+      "inputEvents": 30,
+      "maxGapMs": 13.100000001490116,
+      "durationMs": 183.39999999850988
+    },
+    {
+      "characters": 174,
+      "inputEvents": 174,
+      "maxGapMs": 11.100000001490116,
+      "durationMs": 1041.699999999255
+    },
+    {
+      "characters": 91,
+      "inputEvents": 91,
+      "maxGapMs": 15,
+      "durationMs": 599.8000000007451
+    },
+    {
+      "characters": 19,
+      "inputEvents": 19,
+      "maxGapMs": 10.800000000745058,
+      "durationMs": 98.89999999850988
+    },
+    {
+      "characters": 55,
+      "inputEvents": 55,
+      "maxGapMs": 11.5,
+      "durationMs": 321.30000000074506
+    },
+    {
+      "characters": 53,
+      "inputEvents": 53,
+      "maxGapMs": 16,
+      "durationMs": 334.8999999985099
+    }
+  ],
+  "checkedPageErrorCount": 0,
+  "incompleteTypedUrlRequestCount": 0,
+  "rawInputsDraftBodiesScreenshotsAndLogsIncluded": false,
+  "childGateReceiptSha256": "74c8a1596209f15673031dfae66ce43afa8a5d68a78fc9c2e7a49252b72d050d",
+  "childGate": {
+    "name": "gallery-candidate02-debounce-gate-03",
+    "startedAt": "2026-10-25T07:49:31.083941+00:00",
+    "finishedAt": "2026-10-25T07:49:45.303626+00:00",
+    "durationSeconds": 14.219686,
+    "exitCode": 0,
+    "waitConsumed": true,
+    "timedOut": false,
+    "cancelled": false,
+    "sourceBefore": {
+      "sha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+      "files": 994
+    },
+    "sourceAfter": {
+      "sha256": "101cb463902a748ab063cb3d5655ffcda0ed3d537283aeb3c53efd4f6339b271",
+      "files": 994
+    },
+    "sourceChanged": [],
+    "accepted": true
+  },
+  "outerTool": {
+    "name": "gallery-candidate02-debounce-gate-03",
+    "sessionId": 28352,
+    "actualOuterExitCode": 0,
+    "actualOuterWaitConsumed": true
+  }
+}

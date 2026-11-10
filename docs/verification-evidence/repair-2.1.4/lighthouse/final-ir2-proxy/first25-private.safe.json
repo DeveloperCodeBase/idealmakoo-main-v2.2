@@ -1,0 +1,106 @@
+{
+  "format": "authenticated-mobile-first25-observation-v2",
+  "observedAt": "2026-10-25T20:03:31.707192+00:00",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "topologySha256": "da2b88aba7a748b934b4e7e6af1d8117b5a63ee7a5f018df71b5d142814e11a0",
+  "firstOutcomes": 25,
+  "allCompleted": true,
+  "allAuthVerified": true,
+  "roles": {
+    "superAdmin": 25
+  },
+  "categoryRanges": {
+    "performance": {
+      "count": 25,
+      "min": 61,
+      "median": 65,
+      "max": 69
+    },
+    "accessibility": {
+      "count": 25,
+      "min": 100,
+      "median": 100,
+      "max": 100
+    },
+    "best-practices": {
+      "count": 25,
+      "min": 100,
+      "median": 100,
+      "max": 100
+    },
+    "seo": {
+      "count": 25,
+      "min": 54,
+      "median": 54,
+      "max": 58
+    }
+  },
+  "intentionalNoindexSeoSeparate": true,
+  "metrics": {
+    "first-contentful-paint": {
+      "count": 25,
+      "min": 1967.7802499999998,
+      "median": 2117.0484,
+      "max": 2136.23235
+    },
+    "largest-contentful-paint": {
+      "count": 25,
+      "min": 5817.5605,
+      "median": 7022.4876,
+      "max": 7812.056799999999
+    },
+    "total-blocking-time": {
+      "count": 25,
+      "min": 301.9999999999991,
+      "median": 359,
+      "max": 484
+    },
+    "cumulative-layout-shift": {
+      "count": 25,
+      "min": 0,
+      "median": 0.04706909365451993,
+      "max": 0.1422249616056857
+    }
+  },
+  "first25DurationSeconds": 167.0920000076294,
+  "secondsPerOutcome": 6.683680000305176,
+  "projected530SpanSecondsAtInitialRate": 3542.3504001617434,
+  "firstRoleStartupAndAuthenticationBeforeFirstTaskSeconds": 6.64358115196228,
+  "jobStartToPreflightObservationMs": {
+    "count": 25,
+    "min": 59.00001525878906,
+    "median": 68.00007820129395,
+    "max": 119.99988555908203
+  },
+  "jobStartToLighthouseFetchTimeMs": {
+    "count": 25,
+    "min": 1240.9999370574951,
+    "median": 1275.9997844696045,
+    "max": 1709.9997997283936
+  },
+  "timingLimits": "Preflight/API authorization and cache preparation occur before the measured navigation; these aggregate spans are not isolated network/login timings. Future role startup/real auth renewals/route differences may extend ETA. No TTL changed.",
+  "rawLhrBytes": 10290033,
+  "rawLhrBytesPerOutcome": 411601.32,
+  "projected530RawLhrBytesAtInitialMean": 218148699.6,
+  "safePrivateExportProjection": {
+    "method": "Historical strict-safe NWc audit-part bytes per completed report; actual final export not run during scoring",
+    "historicalAuditPartBytes": 11985408,
+    "historicalCompletedReports": 152,
+    "projected530AuditPartBytes": 41791225.26315789,
+    "limits": "Estimate only; excludes summaries, manifests, CSV and receipt overhead. Current actual export follows the completed phase."
+  },
+  "benchmarkIndex": {
+    "count": 25,
+    "min": 2246,
+    "median": 2444.5,
+    "max": 2629.5
+  },
+  "runtimeErrors": 0,
+  "apiFailureCount": 0,
+  "pageErrorCount": 0,
+  "measurementConditions": "Actual retained Caddy before native Next on HTTP/1.1 loopback; unchanged simulated mobile scoring. Fresh role content/HTTP cache resets do not reset server/image caches.",
+  "diagnosticStatus": "Completed bounded existing-LHR analysis; no additional browser or HTTP measurement.",
+  "sourceReportFileListSha256": "9a00de84e799419e647589d2827206dbadfc9fc5f4924330cca9e594cc67d955",
+  "sourceReportFileListHashScope": "SHA256 of the selected filenames and byte lengths, not raw file content.",
+  "rawReportSetSha256": "10f6f574eb4da3121dd0dfaf9ffd5e5be19e3e600d552b02051d83864da5e6b2"
+}

@@ -1,0 +1,51 @@
+{
+  "finishedAt": "2026-10-21T08:03:40.707930+00:00",
+  "environment": "isolated local PostgreSQL; fresh temporary schemas; no live AI/email/SMS provider",
+  "result": {
+    "tests": 80,
+    "pass": 80,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0
+  },
+  "exitCode": 0,
+  "durationMs": 68550.083081,
+  "typecheck": {
+    "command": "npm run typecheck",
+    "exitCode": 0
+  },
+  "scope": [
+    "hybrid panel creation of all eleven staff roles and customers without SMTP",
+    "administrator detail/profile/email/password APIs and target-specific privileges",
+    "current MFA/session/role revalidation after password derivation",
+    "revocation of sessions and authentication challenges with preserved enrolled MFA",
+    "email recovery cannot issue a new token to an address corrected during its lookup",
+    "stable environment identity binding preserves edited email, customer demotion, profile, password and inactive state",
+    "last-administrator and concurrent cross-deactivation safeguards",
+    "credential races, explicit environment provisioning/MFA recovery and restore-security regressions"
+  ],
+  "testFiles": [
+    "tests/server-user-management.pg.mjs",
+    "tests/server-staff-provisioning.pg.mjs",
+    "tests/server-staff-mfa-reset.pg.mjs",
+    "tests/server-user-directory.pg.mjs",
+    "tests/server-staff-lifecycle.pg.mjs",
+    "tests/server-auth-credentials.pg.mjs",
+    "tests/server-restore-security.pg.mjs"
+  ],
+  "logSha256": "7397b4af298c1bc4f7d74f2d3fa75a833d05832f793dc4f9a65bb46c6087beb5",
+  "source": {
+    "src/server/account.ts": "846ac498c79e867ba62c11f6e0f43911b803ff7654bb4fa0c579883eb3fc41c2",
+    "src/server/auth.ts": "27e7d4bfa6845d065255513c1f17643da4ba356faf8d3e53403471c486507a52",
+    "src/server/router.ts": "4524c6c94f9665c0f7b66fbe001e83e15880e12d6ee648b7dc8d7cb58e96d460",
+    "src/server/staff-provisioning-mode.ts": "26d7b3e9d696d6b096b870f90c1bd5116c473517dd2091502d00eaef15e227d7",
+    "src/server/staff-provisioning.ts": "fa1b06c99f79c9a7bee33c01827021e93a778bb071c2576acd180883116f58ac",
+    "src/server/staff-lifecycle.ts": "5a61c89760f02f38b0163b399f280b334e076f48de2df7dc63acbfe605a6cb29",
+    "src/types/user-management.ts": "b4b0003b99490d7c7ddf21ac5591fbbfda217a7850fa3d27ff9bc01b9e5cffdc",
+    "tests/server-user-management.pg.mjs": "366495877b2d599276385d40b663a2360e7adf6b9ff0751c770b833dfb0f66c8",
+    "tests/server-staff-provisioning.pg.mjs": "608b966d1394db9f1cb9c55e330fed316347c23a3bb5e874771258529149fbec",
+    "tests/server-staff-lifecycle.pg.mjs": "827ea565f8d0577f25d55f5fc5135f1253ca283cd2d1c8fe7e74652757f071b3",
+    "tests/server-user-directory.pg.mjs": "488a4dd2fa5f3786e2aa147ae171718d05737abda3a1a0ab470fe93662e10410"
+  }
+}

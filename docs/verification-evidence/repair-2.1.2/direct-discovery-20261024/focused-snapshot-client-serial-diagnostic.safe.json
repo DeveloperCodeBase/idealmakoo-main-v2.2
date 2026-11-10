@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "kind": "single-controlled-read-only-client-serial-snapshot-comparison",
+  "status": "failed",
+  "comparisonAccepted": false,
+  "job": "focused-snapshot-client-serial-01",
+  "startedAt": "2026-10-24T11:23:49.914426+00:00",
+  "completedAt": "2026-10-24T11:24:24.469373+00:00",
+  "actualExitCode": 124,
+  "actualChildWaitConsumed": true,
+  "launcherWaiterSessionId": 73909,
+  "launcherExitCode": 0,
+  "launcherWaitConsumed": true,
+  "observerWaiterSessionId": 20814,
+  "observerExitCode": 0,
+  "observerWaitConsumed": true,
+  "collectionWaiterSessionId": 72478,
+  "collectionExitCode": 0,
+  "collectionWaitConsumed": true,
+  "traceReaderWaiterSessionId": 53359,
+  "traceReaderExitCode": 0,
+  "traceReaderWaitConsumed": true,
+  "baselineDiagnosticReceiptSha256": "54ea9a643ee2186063fbc012969fc979bbdb4b2734cb77ad84feefaf4811c419",
+  "originalCallerDeadlineSeconds": 30,
+  "originalLifecycleElapsedSeconds": 30.685888,
+  "commandCallsObserved": 1,
+  "onlyCommand": {
+    "sequence": 1,
+    "commandClass": "compose-ps",
+    "subjectService": "proxy",
+    "suppliedMaximumSeconds": 60,
+    "maximumExplicitlyProvided": true,
+    "deadlineRemainingAtEntrySeconds": 29.950667,
+    "helperGomaxprocsAtCommandEntryIsOne": true,
+    "startedAt": "2026-10-24T11:23:53.489184+00:00",
+    "event": "end",
+    "completedAt": "2026-10-24T11:24:23.601901+00:00",
+    "elapsedSeconds": 30.210739,
+    "returned": false,
+    "childStarted": true,
+    "childExitCode": -15,
+    "originalRunnerTerminationVerified": true,
+    "errorClass": "LifecycleError",
+    "lifecycleErrorCode": "DEADLINE_EXCEEDED",
+    "lifecycleErrorStatus": 124
+  },
+  "dockerInspectReached": false,
+  "controlledClientEnvironment": {
+    "priorHelperSetting": {
+      "present": false
+    },
+    "baselineLauncherFacts": {
+      "launcherExplicitEnvironmentFieldPresent": false,
+      "launcherExplicitGomaxprocs": {
+        "present": false
+      },
+      "actualBaselineProcessInheritedGomaxprocsCaptured": false,
+      "uncapturedBaselineInheritedValueNotAssumed": true
+    },
+    "appliedGomaxprocs": "1",
+    "scope": "Owned Python helper and inherited read-only CLI children only",
+    "priorHelperSettingChanged": true,
+    "baselineReceiptSha256": "54ea9a643ee2186063fbc012969fc979bbdb4b2734cb77ad84feefaf4811c419",
+    "daemonContainerProductEnvFilesAndVmConfigurationChanged": false,
+    "rootCauseEstablished": false
+  },
+  "priorHelperProcessEnvironmentRestored": true,
+  "snapshotIdentityReadback": {
+    "snapshotPublished": false,
+    "sameKnownContainerIds": null
+  },
+  "remedyDemonstrated": false,
+  "rootCauseEstablished": false,
+  "untracedPriorRestoreInternalCommandIdentified": false,
+  "tracingAddsSmallIo": true,
+  "traceRecordingErrors": [],
+  "originalImplementationSha256": "41c35c535a685206dbbd22322aa5c3a95ed381ca7e36214ecf721719dbb3f1e6",
+  "originalImplementationStillUnchanged": true,
+  "originalArgumentsAndDeadlineForwarded": true,
+  "originalCleanupAndTerminationRetained": true,
+  "productEnvironmentFilesDaemonVmSecurityAndLimitsChanged": false,
+  "serviceOrDatabaseMutationPerformed": false,
+  "backupOrRestoreRetried": false,
+  "originalPopulatedRestoreExitCodeRemains": 124,
+  "backupOrRestoreAcceptanceClaimed": false,
+  "traceReceiptSha256": "664a5f39a3a4fb38a18e740080f82441b55e8ba708eaa1c5c20066565b371891",
+  "privateOutput": {
+    "included": false,
+    "stdoutSha256": "ac0280455bd737dc408ed29c1a5638d9f6fb71acd86a4e0ef6dc6b1f209f9e88",
+    "stderrSha256": "669be819119ff0d10d87c3b55aca27697deeb1ecd6a6b92ef704cb1e239af36f"
+  },
+  "recordedAt": "2026-10-24T11:26:04.480676+00:00"
+}

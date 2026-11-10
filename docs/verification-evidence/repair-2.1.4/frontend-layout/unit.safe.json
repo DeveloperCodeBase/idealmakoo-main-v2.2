@@ -1,0 +1,30 @@
+{
+  "phase": "unit",
+  "command": [
+    "npm",
+    "run",
+    "test:unit"
+  ],
+  "startedAt": "2026-10-25T17:57:31.220978+00:00",
+  "completed": true,
+  "interrupted": false,
+  "completedAt": "2026-10-25T17:58:03.869149+00:00",
+  "exitCode": 0,
+  "elapsedSeconds": 32.648,
+  "logBytes": 94852,
+  "logSha256": "7508862a690be2fae454690c19faa25b4fa673e992b944813ff4467b953ff73d",
+  "observedBuildIdAfterCommand": "NWcRPAySX3HCzbpKSDJNf",
+  "tapFooter": {
+    "tests": 858,
+    "suites": 0,
+    "pass": 858,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0
+  },
+  "sourceInputFingerprint": "f22b49bac26f5b59ede573dbaf6ed4cd52c738bfbe32b2d00ae9e47fe28c29ce",
+  "originalReceiptSha256": "33acfc459fb3c4972fcca50e280745bcd45447c52cd906ba60232d0e78c7569a",
+  "privateLogExcluded": true,
+  "buildIdentityNote": "This is a source/typecheck gate before the new production build; observedBuildIdAfterCommand identifies the older .next still present at that time."
+}

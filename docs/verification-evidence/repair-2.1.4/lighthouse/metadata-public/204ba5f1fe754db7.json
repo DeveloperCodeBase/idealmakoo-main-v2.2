@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/en/research/apple-super-major-wear/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "8fe9d5f041b77192c5ce5575098eeb7c5fc98d5717a7e9d5cd6e7f7b02e20929",
+  "locale": "en",
+  "lang": "en",
+  "dir": "ltr",
+  "titles": [
+    "Wear comparison of Apple and Super Major teeth | Ideal Makoo"
+  ],
+  "descriptions": [
+    "A 64-sample study using a chewing simulator and before-and-after 3D scans."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/en/research/apple-super-major-wear/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/apple-super-major-wear/",
+    "en": "http://127.0.0.1:3100/en/research/apple-super-major-wear/",
+    "tr": "http://127.0.0.1:3100/tr/research/apple-super-major-wear/",
+    "ar": "http://127.0.0.1:3100/ar/research/apple-super-major-wear/",
+    "ru": "http://127.0.0.1:3100/ru/research/apple-super-major-wear/",
+    "x-default": "http://127.0.0.1:3100/fa/research/apple-super-major-wear/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 52
+}

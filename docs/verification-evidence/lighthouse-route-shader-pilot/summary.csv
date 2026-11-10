@@ -1,0 +1,5 @@
+"url","device","kind","indexed","expectedStatus","httpStatus","status","performance","accessibility","best-practices","seo","largest-contentful-paint","total-blocking-time","cumulative-layout-shift","durationMs","error"
+"http://127.0.0.1:3080/en/contact/","mobile","representative","false","200","200","completed","56","100","100","100","4139.42045","3318.0000000000005","0","14256",""
+"http://127.0.0.1:3080/fa/","mobile","representative","false","200","","timeout","","","","","","","","300324","Total audit deadline exceeded (300s)."
+"http://127.0.0.1:3080/fa/products/","mobile","representative","false","200","200","completed","56","100","100","100","3492.8594","3617.999999999998","0.0023129283861665247","25020",""
+"http://127.0.0.1:3080/fa/quality/","mobile","representative","false","200","200","completed","62","100","100","100","3582.1913999999997","1327.5","0","18839",""

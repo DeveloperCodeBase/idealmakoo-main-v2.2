@@ -1,0 +1,1082 @@
+{
+  "format": "idealmakoo.public-link-text-appearance-observation-v1",
+  "recordedAt": "2026-10-22T14:15:00.887436+00:00",
+  "cohorts": {
+    "before": {
+      "source": {
+        "sha256": "19044d087929a9edfe8c2a16c786915567edd87a9bd48caa009a2e1da6ea64f4",
+        "files": 834
+      },
+      "application": {
+        "sha256": "30a8ab7365218e8ee4ace5c814ae3deeeea4b36c7d0950a9fb1d3407cf8a2264",
+        "files": 685
+      },
+      "buildId": "6zYPGs6att2TeUwSprugE"
+    },
+    "after": {
+      "source": {
+        "sha256": "6336b75dca94f039fdcb3c5f5433785507591fc89ea627d2e8592a760c177d5b",
+        "files": 834
+      },
+      "application": {
+        "sha256": "7c7f4f01035ba9aa4c6fa63abfb1927fd877895f41aafa3f97de8ae70a199389",
+        "files": 685
+      },
+      "buildId": "yYjrbjXGc-JUKXS2hIubP"
+    }
+  },
+  "expectedCases": 3,
+  "observedCases": 3,
+  "observedLinks": 8,
+  "comparisonChecks": {
+    "contentAndAppearanceComparisonPassed": true,
+    "bothOriginalCaptureGuardsPassed": false
+  },
+  "baselineCaptureOverallPassed": false,
+  "afterCaptureOverallPassed": false,
+  "overallValidationPassed": false,
+  "geometryToleranceCssPixels": 0.5,
+  "geometryBasis": "Actual observed dimensions and document positions; all before/after/delta values retained, with the declared half-CSS-pixel tolerance.",
+  "records": [
+    {
+      "caseId": "en-product-teeth",
+      "route": "/en/products/antic",
+      "beforeStatus": "failed-check",
+      "afterStatus": "failed-check",
+      "beforeChecks": {
+        "http200": true,
+        "servedBuildMatches": true,
+        "expectedLinks": true,
+        "normalMotion": true,
+        "visibleLinks": true,
+        "accessibleLinkNames": true,
+        "expectedHref": true,
+        "noPageErrors": true,
+        "noStaticNon2xx": true,
+        "noBlockedMutations": true,
+        "noBlockedExternal": true,
+        "noRequestFailures": false
+      },
+      "afterChecks": {
+        "http200": true,
+        "servedBuildMatches": true,
+        "expectedLinks": true,
+        "normalMotion": true,
+        "visibleLinks": true,
+        "accessibleLinkNames": true,
+        "expectedHref": true,
+        "noPageErrors": true,
+        "noStaticNon2xx": true,
+        "noBlockedMutations": true,
+        "noBlockedExternal": true,
+        "noRequestFailures": false
+      },
+      "comparisonChecks": {
+        "initialStateAndVisibleLabels": true,
+        "faqSelectedClosedStateAndVisibleLabels": true,
+        "linkChecks": true
+      },
+      "beforeRequestFailures": {
+        "count": 12,
+        "errorCodeCounts": {
+          "net::ERR_ABORTED": 12
+        },
+        "observationPhaseCounts": {
+          "phase-not-recorded-or-unclassified": 12
+        },
+        "causeEstablished": false,
+        "rawPathsIncluded": false
+      },
+      "afterRequestFailures": {
+        "count": 9,
+        "errorCodeCounts": {
+          "net::ERR_ABORTED": 9
+        },
+        "observationPhaseCounts": {
+          "navigation": 4,
+          "initial-observation": 1,
+          "faq-details-1": 1,
+          "faq-details-2": 2,
+          "faq-details-3": 1
+        },
+        "causeEstablished": false,
+        "rawPathsIncluded": false
+      },
+      "links": [
+        {
+          "href": "/en/inquiry-list/",
+          "checks": {
+            "visibleLabelUnchanged": true,
+            "hrefUnchanged": true,
+            "headingUnchanged": true,
+            "exactContextAdded": true,
+            "chromeAccessibleNameDescriptive": true,
+            "actualInnerTextDescriptive": true,
+            "normalMotionRetained": true,
+            "rectangleWithinHalfCssPixel": true,
+            "ownerRectangleWithinHalfCssPixel": true,
+            "headingRectangleWithinHalfCssPixel": true,
+            "styleUnchanged": true,
+            "ownerStyleUnchanged": true,
+            "headingStyleUnchanged": true
+          },
+          "measurements": {
+            "rectangle": {
+              "before": {
+                "width": 64.828125,
+                "height": 15,
+                "documentLeft": 41,
+                "documentTop": 1545.796875
+              },
+              "after": {
+                "width": 64.828125,
+                "height": 15,
+                "documentLeft": 41,
+                "documentTop": 1545.796875
+              },
+              "delta": {
+                "width": 0.0,
+                "height": 0,
+                "documentLeft": 0,
+                "documentTop": 0.0
+              }
+            },
+            "ownerRectangle": {
+              "before": {
+                "width": 336,
+                "height": 182.1875,
+                "documentLeft": 38,
+                "documentTop": 1400.796875
+              },
+              "after": {
+                "width": 336,
+                "height": 182.1875,
+                "documentLeft": 38,
+                "documentTop": 1400.796875
+              },
+              "delta": {
+                "width": 0,
+                "height": 0.0,
+                "documentLeft": 0,
+                "documentTop": 0.0
+              }
+            },
+            "headingRectangle": {
+              "before": {
+                "width": 330,
+                "height": 24,
+                "documentLeft": 41,
+                "documentTop": 1417.796875
+              },
+              "after": {
+                "width": 330,
+                "height": 24,
+                "documentLeft": 41,
+                "documentTop": 1417.796875
+              },
+              "delta": {
+                "width": 0,
+                "height": 0,
+                "documentLeft": 0,
+                "documentTop": 0.0
+              }
+            }
+          },
+          "copyIncluded": true,
+          "visibleLabel": "Learn more",
+          "expectedContext": "Inquiry list",
+          "beforeInnerText": "Learn more",
+          "afterInnerText": "Learn more\n: Inquiry list",
+          "beforeAccessibleName": "Learn more",
+          "afterAccessibleName": "Learn more : Inquiry list"
+        },
+        {
+          "href": "/en/tools/shade-mould-matcher/",
+          "checks": {
+            "visibleLabelUnchanged": true,
+            "hrefUnchanged": true,
+            "headingUnchanged": true,
+            "exactContextAdded": true,
+            "chromeAccessibleNameDescriptive": true,
+            "actualInnerTextDescriptive": true,
+            "normalMotionRetained": true,
+            "rectangleWithinHalfCssPixel": true,
+            "ownerRectangleWithinHalfCssPixel": true,
+            "headingRectangleWithinHalfCssPixel": true,
+            "styleUnchanged": true,
+            "ownerStyleUnchanged": true,
+            "headingStyleUnchanged": true
+          },
+          "measurements": {
+            "rectangle": {
+              "before": {
+                "width": 64.828125,
+                "height": 15,
+                "documentLeft": 41,
+                "documentTop": 1727.984375
+              },
+              "after": {
+                "width": 64.828125,
+                "height": 15,
+                "documentLeft": 41,
+                "documentTop": 1727.984375
+              },
+              "delta": {
+                "width": 0.0,
+                "height": 0,
+                "documentLeft": 0,
+                "documentTop": 0.0
+              }
+            },
+            "ownerRectangle": {
+              "before": {
+                "width": 336,
+                "height": 182.1875,
+                "documentLeft": 38,
+                "documentTop": 1582.984375
+              },
+              "after": {
+                "width": 336,
+                "height": 182.1875,
+                "documentLeft": 38,
+                "documentTop": 1582.984375
+              },
+              "delta": {
+                "width": 0,
+                "height": 0.0,
+                "documentLeft": 0,
+                "documentTop": 0.0
+              }
+            },
+            "headingRectangle": {
+              "before": {
+                "width": 330,
+                "height": 24,
+                "documentLeft": 41,
+                "documentTop": 1599.984375
+              },
+              "after": {
+                "width": 330,
+                "height": 24,
+                "documentLeft": 41,
+                "documentTop": 1599.984375
+              },
+              "delta": {
+                "width": 0,
+                "height": 0,
+                "documentLeft": 0,
+                "documentTop": 0.0
+              }
+            }
+          },
+          "copyIncluded": true,
+          "visibleLabel": "Learn more",
+          "expectedContext": "Shade & mould guide",
+          "beforeInnerText": "Learn more",
+          "afterInnerText": "Learn more\n: Shade & mould guide",
+          "beforeAccessibleName": "Learn more",
+          "afterAccessibleName": "Learn more : Shade & mould guide"
+        },
+        {
+          "href": "/en/resources/",
+          "checks": {
+            "visibleLabelUnchanged": true,
+            "hrefUnchanged": true,
+            "headingUnchanged": true,
+            "exactContextAdded": true,
+            "chromeAccessibleNameDescriptive": true,
+            "actualInnerTextDescriptive": true,
+            "normalMotionRetained": true,
+            "rectangleWithinHalfCssPixel": true,
+            "ownerRectangleWithinHalfCssPixel": true,
+            "headingRectangleWithinHalfCssPixel": true,
+            "styleUnchanged": true,
+            "ownerStyleUnchanged": true,
+            "headingStyleUnchanged": true
+          },
+          "measurements": {
+            "rectangle": {
+              "before": {
+                "width": 64.828125,
+                "height": 15,
+                "documentLeft": 41,
+                "documentTop": 1934.171875
+              },
+              "after": {
+                "width": 64.828125,
+                "height": 15,
+                "documentLeft": 41,
+                "documentTop": 1934.171875
+              },
+              "delta": {
+                "width": 0.0,
+                "height": 0,
+                "documentLeft": 0,
+                "documentTop": 0.0
+              }
+            },
+            "ownerRectangle": {
+              "before": {
+                "width": 336,
+                "height": 206.1875,
+                "documentLeft": 38,
+                "documentTop": 1765.171875
+              },
+              "after": {
+                "width": 336,
+                "height": 206.1875,
+                "documentLeft": 38,
+                "documentTop": 1765.171875
+              },
+              "delta": {
+                "width": 0,
+                "height": 0.0,
+                "documentLeft": 0,
+                "documentTop": 0.0
+              }
+            },
+            "headingRectangle": {
+              "before": {
+                "width": 330,
+                "height": 48,
+                "documentLeft": 41,
+                "documentTop": 1782.171875
+              },
+              "after": {
+                "width": 330,
+                "height": 48,
+                "documentLeft": 41,
+                "documentTop": 1782.171875
+              },
+              "delta": {
+                "width": 0,
+                "height": 0,
+                "documentLeft": 0,
+                "documentTop": 0.0
+              }
+            }
+          },
+          "copyIncluded": true,
+          "visibleLabel": "Learn more",
+          "expectedContext": "Catalogues & downloads",
+          "beforeInnerText": "Learn more",
+          "afterInnerText": "Learn more\n: Catalogues & downloads",
+          "beforeAccessibleName": "Learn more",
+          "afterAccessibleName": "Learn more : Catalogues & downloads"
+        }
+      ],
+      "beforeImages": [
+        {
+          "observationId": "en-product-teeth-before-1",
+          "bytes": 17345,
+          "sha256": "7d2cbd717ba58b681b59b131790a2b89aa7dce4ce22107ab425f963c62670132",
+          "imageFileIncludedInReleasePackage": false
+        },
+        {
+          "observationId": "en-product-teeth-before-2",
+          "bytes": 53511,
+          "sha256": "27a6aee772303626ef33d0e056a533b0dd5c1a563b7d5df93103b4dfabed77d6",
+          "imageFileIncludedInReleasePackage": false
+        },
+        {
+          "observationId": "en-product-teeth-before-3",
+          "bytes": 56795,
+          "sha256": "293315a5efa2fac5d287d76b25173432ea87a4d2b5ae96d5fb1a928b99c43ec0",
+          "imageFileIncludedInReleasePackage": false
+        },
+        {
+          "observationId": "en-product-teeth-before-4",
+          "bytes": 57626,
+          "sha256": "b34ef4eb3f3fc68462325b2028b540c902f4d768da42331f787a232eb8da8367",
+          "imageFileIncludedInReleasePackage": false
+        }
+      ],
+      "afterImages": [
+        {
+          "observationId": "en-product-teeth-after-1",
+          "bytes": 17345,
+          "sha256": "7d2cbd717ba58b681b59b131790a2b89aa7dce4ce22107ab425f963c62670132",
+          "imageFileIncludedInReleasePackage": false
+        },
+        {
+          "observationId": "en-product-teeth-after-2",
+          "bytes": 53511,
+          "sha256": "27a6aee772303626ef33d0e056a533b0dd5c1a563b7d5df93103b4dfabed77d6",
+          "imageFileIncludedInReleasePackage": false
+        },
+        {
+          "observationId": "en-product-teeth-after-3",
+          "bytes": 56795,
+          "sha256": "293315a5efa2fac5d287d76b25173432ea87a4d2b5ae96d5fb1a928b99c43ec0",
+          "imageFileIncludedInReleasePackage": false
+        },
+        {
+          "observationId": "en-product-teeth-after-4",
+          "bytes": 57626,
+          "sha256": "b34ef4eb3f3fc68462325b2028b540c902f4d768da42331f787a232eb8da8367",
+          "imageFileIncludedInReleasePackage": false
+        }
+      ]
+    },
+    {
+      "caseId": "fa-product-material",
+      "route": "/fa/products/dentex-etch-37",
+      "beforeStatus": "failed-check",
+      "afterStatus": "failed-check",
+      "beforeChecks": {
+        "http200": true,
+        "servedBuildMatches": true,
+        "expectedLinks": true,
+        "normalMotion": true,
+        "visibleLinks": true,
+        "accessibleLinkNames": true,
+        "expectedHref": true,
+        "noPageErrors": true,
+        "noStaticNon2xx": true,
+        "noBlockedMutations": true,
+        "noBlockedExternal": true,
+        "noRequestFailures": false
+      },
+      "afterChecks": {
+        "http200": true,
+        "servedBuildMatches": true,
+        "expectedLinks": true,
+        "normalMotion": true,
+        "visibleLinks": true,
+        "accessibleLinkNames": true,
+        "expectedHref": true,
+        "noPageErrors": true,
+        "noStaticNon2xx": true,
+        "noBlockedMutations": true,
+        "noBlockedExternal": true,
+        "noRequestFailures": false
+      },
+      "comparisonChecks": {
+        "initialStateAndVisibleLabels": true,
+        "faqSelectedClosedStateAndVisibleLabels": true,
+        "linkChecks": true
+      },
+      "beforeRequestFailures": {
+        "count": 11,
+        "errorCodeCounts": {
+          "net::ERR_ABORTED": 11
+        },
+        "observationPhaseCounts": {
+          "phase-not-recorded-or-unclassified": 11
+        },
+        "causeEstablished": false,
+        "rawPathsIncluded": false
+      },
+      "afterRequestFailures": {
+        "count": 11,
+        "errorCodeCounts": {
+          "net::ERR_ABORTED": 11
+        },
+        "observationPhaseCounts": {
+          "navigation": 8,
+          "faq-details-1": 2,
+          "faq-details-2": 1
+        },
+        "causeEstablished": false,
+        "rawPathsIncluded": false
+      },
+      "links": [
+        {
+          "href": "/fa/inquiry-list/",
+          "checks": {
+            "visibleLabelUnchanged": true,
+            "hrefUnchanged": true,
+            "headingUnchanged": true,
+            "exactContextAdded": true,
+            "chromeAccessibleNameDescriptive": true,
+            "actualInnerTextDescriptive": true,
+            "normalMotionRetained": true,
+            "rectangleWithinHalfCssPixel": true,
+            "ownerRectangleWithinHalfCssPixel": true,
+            "headingRectangleWithinHalfCssPixel": true,
+            "styleUnchanged": true,
+            "ownerStyleUnchanged": true,
+            "headingStyleUnchanged": true
+          },
+          "measurements": {
+            "rectangle": {
+              "before": {
+                "width": 71.734375,
+                "height": 18,
+                "documentLeft": 299.265625,
+                "documentTop": 1421.46875
+              },
+              "after": {
+                "width": 71.734375,
+                "height": 18,
+                "documentLeft": 299.265625,
+                "documentTop": 1421.46875
+              },
+              "delta": {
+                "width": 0.0,
+                "height": 0,
+                "documentLeft": 0.0,
+                "documentTop": 0.0
+              }
+            },
+            "ownerRectangle": {
+              "before": {
+                "width": 336,
+                "height": 183.828125,
+                "documentLeft": 38,
+                "documentTop": 1276.828125
+              },
+              "after": {
+                "width": 336,
+                "height": 183.828125,
+                "documentLeft": 38,
+                "documentTop": 1276.828125
+              },
+              "delta": {
+                "width": 0,
+                "height": 0.0,
+                "documentLeft": 0,
+                "documentTop": 0.0
+              }
+            },
+            "headingRectangle": {
+              "before": {
+                "width": 330,
+                "height": 24,
+                "documentLeft": 41,
+                "documentTop": 1293.828125
+              },
+              "after": {
+                "width": 330,
+                "height": 24,
+                "documentLeft": 41,
+                "documentTop": 1293.828125
+              },
+              "delta": {
+                "width": 0,
+                "height": 0,
+                "documentLeft": 0,
+                "documentTop": 0.0
+              }
+            }
+          },
+          "copyIncluded": true,
+          "visibleLabel": "اطلاعات بیشتر",
+          "expectedContext": "فهرست استعلام",
+          "beforeInnerText": "اطلاعات بیشتر",
+          "afterInnerText": "اطلاعات بیشتر\n: فهرست استعلام",
+          "beforeAccessibleName": "اطلاعات بیشتر",
+          "afterAccessibleName": "اطلاعات بیشتر : فهرست استعلام"
+        },
+        {
+          "href": "/fa/resources/",
+          "checks": {
+            "visibleLabelUnchanged": true,
+            "hrefUnchanged": true,
+            "headingUnchanged": true,
+            "exactContextAdded": true,
+            "chromeAccessibleNameDescriptive": true,
+            "actualInnerTextDescriptive": true,
+            "normalMotionRetained": true,
+            "rectangleWithinHalfCssPixel": true,
+            "ownerRectangleWithinHalfCssPixel": true,
+            "headingRectangleWithinHalfCssPixel": true,
+            "styleUnchanged": true,
+            "ownerStyleUnchanged": true,
+            "headingStyleUnchanged": true
+          },
+          "measurements": {
+            "rectangle": {
+              "before": {
+                "width": 71.734375,
+                "height": 18,
+                "documentLeft": 299.265625,
+                "documentTop": 1605.296875
+              },
+              "after": {
+                "width": 71.734375,
+                "height": 18,
+                "documentLeft": 299.265625,
+                "documentTop": 1605.296875
+              },
+              "delta": {
+                "width": 0.0,
+                "height": 0,
+                "documentLeft": 0.0,
+                "documentTop": 0.0
+              }
+            },
+            "ownerRectangle": {
+              "before": {
+                "width": 336,
+                "height": 183.828125,
+                "documentLeft": 38,
+                "documentTop": 1460.65625
+              },
+              "after": {
+                "width": 336,
+                "height": 183.828125,
+                "documentLeft": 38,
+                "documentTop": 1460.65625
+              },
+              "delta": {
+                "width": 0,
+                "height": 0.0,
+                "documentLeft": 0,
+                "documentTop": 0.0
+              }
+            },
+            "headingRectangle": {
+              "before": {
+                "width": 330,
+                "height": 24,
+                "documentLeft": 41,
+                "documentTop": 1477.65625
+              },
+              "after": {
+                "width": 330,
+                "height": 24,
+                "documentLeft": 41,
+                "documentTop": 1477.65625
+              },
+              "delta": {
+                "width": 0,
+                "height": 0,
+                "documentLeft": 0,
+                "documentTop": 0.0
+              }
+            }
+          },
+          "copyIncluded": true,
+          "visibleLabel": "اطلاعات بیشتر",
+          "expectedContext": "کاتالوگ و دانلودها",
+          "beforeInnerText": "اطلاعات بیشتر",
+          "afterInnerText": "اطلاعات بیشتر\n: کاتالوگ و دانلودها",
+          "beforeAccessibleName": "اطلاعات بیشتر",
+          "afterAccessibleName": "اطلاعات بیشتر : کاتالوگ و دانلودها"
+        }
+      ],
+      "beforeImages": [
+        {
+          "observationId": "fa-product-material-before-1",
+          "bytes": 16556,
+          "sha256": "53f0475bc5c5aed520fc71fb62342e901c2e9cd69333b540fbb24651170bf12c",
+          "imageFileIncludedInReleasePackage": false
+        },
+        {
+          "observationId": "fa-product-material-before-2",
+          "bytes": 54864,
+          "sha256": "70b67d08d7e0e272f45023f47ff9a37d5d42e07c15cf85c4086aa140d6c5741e",
+          "imageFileIncludedInReleasePackage": false
+        },
+        {
+          "observationId": "fa-product-material-before-3",
+          "bytes": 55275,
+          "sha256": "a4e87f2842f778e70229edd0e94b5c6edfa16b6f50532dfdc6ba34bdc6bce642",
+          "imageFileIncludedInReleasePackage": false
+        }
+      ],
+      "afterImages": [
+        {
+          "observationId": "fa-product-material-after-1",
+          "bytes": 16556,
+          "sha256": "53f0475bc5c5aed520fc71fb62342e901c2e9cd69333b540fbb24651170bf12c",
+          "imageFileIncludedInReleasePackage": false
+        },
+        {
+          "observationId": "fa-product-material-after-2",
+          "bytes": 54864,
+          "sha256": "70b67d08d7e0e272f45023f47ff9a37d5d42e07c15cf85c4086aa140d6c5741e",
+          "imageFileIncludedInReleasePackage": false
+        },
+        {
+          "observationId": "fa-product-material-after-3",
+          "bytes": 55275,
+          "sha256": "a4e87f2842f778e70229edd0e94b5c6edfa16b6f50532dfdc6ba34bdc6bce642",
+          "imageFileIncludedInReleasePackage": false
+        }
+      ]
+    },
+    {
+      "caseId": "fa-company-related",
+      "route": "/fa/mission",
+      "beforeStatus": "failed-check",
+      "afterStatus": "failed-check",
+      "beforeChecks": {
+        "http200": true,
+        "servedBuildMatches": true,
+        "expectedLinks": true,
+        "normalMotion": true,
+        "visibleLinks": true,
+        "accessibleLinkNames": true,
+        "expectedHref": true,
+        "noPageErrors": true,
+        "noStaticNon2xx": true,
+        "noBlockedMutations": true,
+        "noBlockedExternal": true,
+        "noRequestFailures": false
+      },
+      "afterChecks": {
+        "http200": true,
+        "servedBuildMatches": true,
+        "expectedLinks": true,
+        "normalMotion": true,
+        "visibleLinks": true,
+        "accessibleLinkNames": true,
+        "expectedHref": true,
+        "noPageErrors": true,
+        "noStaticNon2xx": true,
+        "noBlockedMutations": true,
+        "noBlockedExternal": true,
+        "noRequestFailures": false
+      },
+      "comparisonChecks": {
+        "initialStateAndVisibleLabels": true,
+        "linkChecks": true
+      },
+      "beforeRequestFailures": {
+        "count": 15,
+        "errorCodeCounts": {
+          "net::ERR_ABORTED": 15
+        },
+        "observationPhaseCounts": {
+          "phase-not-recorded-or-unclassified": 15
+        },
+        "causeEstablished": false,
+        "rawPathsIncluded": false
+      },
+      "afterRequestFailures": {
+        "count": 16,
+        "errorCodeCounts": {
+          "net::ERR_ABORTED": 16
+        },
+        "observationPhaseCounts": {
+          "navigation": 8,
+          "initial-observation": 5,
+          "company-target-observation": 3
+        },
+        "causeEstablished": false,
+        "rawPathsIncluded": false
+      },
+      "links": [
+        {
+          "href": "/fa/about/",
+          "checks": {
+            "visibleLabelUnchanged": true,
+            "hrefUnchanged": true,
+            "headingUnchanged": true,
+            "exactContextAdded": true,
+            "chromeAccessibleNameDescriptive": true,
+            "actualInnerTextDescriptive": true,
+            "normalMotionRetained": true,
+            "rectangleWithinHalfCssPixel": true,
+            "ownerRectangleWithinHalfCssPixel": true,
+            "headingRectangleWithinHalfCssPixel": true,
+            "styleUnchanged": true,
+            "ownerStyleUnchanged": true,
+            "headingStyleUnchanged": true
+          },
+          "measurements": {
+            "rectangle": {
+              "before": {
+                "width": 86.96875,
+                "height": 44,
+                "documentLeft": 282.03125,
+                "documentTop": 1229.8125
+              },
+              "after": {
+                "width": 86.96875,
+                "height": 44,
+                "documentLeft": 282.03125,
+                "documentTop": 1229.8125
+              },
+              "delta": {
+                "width": 0.0,
+                "height": 0,
+                "documentLeft": 0.0,
+                "documentTop": 0.0
+              }
+            },
+            "ownerRectangle": {
+              "before": {
+                "width": 372,
+                "height": 261.625,
+                "documentLeft": 20,
+                "documentTop": 1053.1875
+              },
+              "after": {
+                "width": 372,
+                "height": 261.625,
+                "documentLeft": 20,
+                "documentTop": 1053.1875
+              },
+              "delta": {
+                "width": 0,
+                "height": 0.0,
+                "documentLeft": 0,
+                "documentTop": 0.0
+              }
+            },
+            "headingRectangle": {
+              "before": {
+                "width": 326,
+                "height": 25.1875,
+                "documentLeft": 43,
+                "documentTop": 1118.1875
+              },
+              "after": {
+                "width": 326,
+                "height": 25.1875,
+                "documentLeft": 43,
+                "documentTop": 1118.1875
+              },
+              "delta": {
+                "width": 0,
+                "height": 0.0,
+                "documentLeft": 0,
+                "documentTop": 0.0
+              }
+            }
+          },
+          "copyIncluded": true,
+          "visibleLabel": "بیشتر بدانید",
+          "expectedContext": "درباره ایده‌آل ماکو",
+          "beforeInnerText": "بیشتر بدانید",
+          "afterInnerText": "بیشتر بدانید\n: درباره ایده‌آل ماکو",
+          "beforeAccessibleName": "بیشتر بدانید",
+          "afterAccessibleName": "بیشتر بدانید : درباره ایده‌آل ماکو"
+        },
+        {
+          "href": "/fa/goals/",
+          "checks": {
+            "visibleLabelUnchanged": true,
+            "hrefUnchanged": true,
+            "headingUnchanged": true,
+            "exactContextAdded": true,
+            "chromeAccessibleNameDescriptive": true,
+            "actualInnerTextDescriptive": true,
+            "normalMotionRetained": true,
+            "rectangleWithinHalfCssPixel": true,
+            "ownerRectangleWithinHalfCssPixel": true,
+            "headingRectangleWithinHalfCssPixel": true,
+            "styleUnchanged": true,
+            "ownerStyleUnchanged": true,
+            "headingStyleUnchanged": true
+          },
+          "measurements": {
+            "rectangle": {
+              "before": {
+                "width": 86.96875,
+                "height": 44,
+                "documentLeft": 282.03125,
+                "documentTop": 1507.4375
+              },
+              "after": {
+                "width": 86.96875,
+                "height": 44,
+                "documentLeft": 282.03125,
+                "documentTop": 1507.4375
+              },
+              "delta": {
+                "width": 0.0,
+                "height": 0,
+                "documentLeft": 0.0,
+                "documentTop": 0.0
+              }
+            },
+            "ownerRectangle": {
+              "before": {
+                "width": 372,
+                "height": 261.625,
+                "documentLeft": 20,
+                "documentTop": 1330.8125
+              },
+              "after": {
+                "width": 372,
+                "height": 261.625,
+                "documentLeft": 20,
+                "documentTop": 1330.8125
+              },
+              "delta": {
+                "width": 0,
+                "height": 0.0,
+                "documentLeft": 0,
+                "documentTop": 0.0
+              }
+            },
+            "headingRectangle": {
+              "before": {
+                "width": 326,
+                "height": 25.1875,
+                "documentLeft": 43,
+                "documentTop": 1395.8125
+              },
+              "after": {
+                "width": 326,
+                "height": 25.1875,
+                "documentLeft": 43,
+                "documentTop": 1395.8125
+              },
+              "delta": {
+                "width": 0,
+                "height": 0.0,
+                "documentLeft": 0,
+                "documentTop": 0.0
+              }
+            }
+          },
+          "copyIncluded": true,
+          "visibleLabel": "بیشتر بدانید",
+          "expectedContext": "اهداف و آرمان‌ها",
+          "beforeInnerText": "بیشتر بدانید",
+          "afterInnerText": "بیشتر بدانید\n: اهداف و آرمان‌ها",
+          "beforeAccessibleName": "بیشتر بدانید",
+          "afterAccessibleName": "بیشتر بدانید : اهداف و آرمان‌ها"
+        },
+        {
+          "href": "/fa/strategy/",
+          "checks": {
+            "visibleLabelUnchanged": true,
+            "hrefUnchanged": true,
+            "headingUnchanged": true,
+            "exactContextAdded": true,
+            "chromeAccessibleNameDescriptive": true,
+            "actualInnerTextDescriptive": true,
+            "normalMotionRetained": true,
+            "rectangleWithinHalfCssPixel": true,
+            "ownerRectangleWithinHalfCssPixel": true,
+            "headingRectangleWithinHalfCssPixel": true,
+            "styleUnchanged": true,
+            "ownerStyleUnchanged": true,
+            "headingStyleUnchanged": true
+          },
+          "measurements": {
+            "rectangle": {
+              "before": {
+                "width": 86.96875,
+                "height": 44,
+                "documentLeft": 282.03125,
+                "documentTop": 1785.0625
+              },
+              "after": {
+                "width": 86.96875,
+                "height": 44,
+                "documentLeft": 282.03125,
+                "documentTop": 1785.0625
+              },
+              "delta": {
+                "width": 0.0,
+                "height": 0,
+                "documentLeft": 0.0,
+                "documentTop": 0.0
+              }
+            },
+            "ownerRectangle": {
+              "before": {
+                "width": 372,
+                "height": 261.625,
+                "documentLeft": 20,
+                "documentTop": 1608.4375
+              },
+              "after": {
+                "width": 372,
+                "height": 261.625,
+                "documentLeft": 20,
+                "documentTop": 1608.4375
+              },
+              "delta": {
+                "width": 0,
+                "height": 0.0,
+                "documentLeft": 0,
+                "documentTop": 0.0
+              }
+            },
+            "headingRectangle": {
+              "before": {
+                "width": 326,
+                "height": 25.1875,
+                "documentLeft": 43,
+                "documentTop": 1673.4375
+              },
+              "after": {
+                "width": 326,
+                "height": 25.1875,
+                "documentLeft": 43,
+                "documentTop": 1673.4375
+              },
+              "delta": {
+                "width": 0,
+                "height": 0.0,
+                "documentLeft": 0,
+                "documentTop": 0.0
+              }
+            }
+          },
+          "copyIncluded": true,
+          "visibleLabel": "بیشتر بدانید",
+          "expectedContext": "اهداف و راهبرد تجاری",
+          "beforeInnerText": "بیشتر بدانید",
+          "afterInnerText": "بیشتر بدانید\n: اهداف و راهبرد تجاری",
+          "beforeAccessibleName": "بیشتر بدانید",
+          "afterAccessibleName": "بیشتر بدانید : اهداف و راهبرد تجاری"
+        }
+      ],
+      "beforeImages": [
+        {
+          "observationId": "fa-company-related-before-1",
+          "bytes": 69060,
+          "sha256": "b1ca6ea5356d484bb2fb40bb0c56c3872d29904324aca3e06aeca038a6b51656",
+          "imageFileIncludedInReleasePackage": false
+        },
+        {
+          "observationId": "fa-company-related-before-2",
+          "bytes": 72832,
+          "sha256": "d0c28f22402d3047f2423c8f54a845437acc12d19ab70699ffcb9cd1b155d355",
+          "imageFileIncludedInReleasePackage": false
+        },
+        {
+          "observationId": "fa-company-related-before-3",
+          "bytes": 70626,
+          "sha256": "b88bb5ff7e4047b297cafb19a84247f4f09fddf8e3a523f2c9d043212842a084",
+          "imageFileIncludedInReleasePackage": false
+        }
+      ],
+      "afterImages": [
+        {
+          "observationId": "fa-company-related-after-1",
+          "bytes": 69060,
+          "sha256": "b1ca6ea5356d484bb2fb40bb0c56c3872d29904324aca3e06aeca038a6b51656",
+          "imageFileIncludedInReleasePackage": false
+        },
+        {
+          "observationId": "fa-company-related-after-2",
+          "bytes": 72832,
+          "sha256": "d0c28f22402d3047f2423c8f54a845437acc12d19ab70699ffcb9cd1b155d355",
+          "imageFileIncludedInReleasePackage": false
+        },
+        {
+          "observationId": "fa-company-related-after-3",
+          "bytes": 70626,
+          "sha256": "b88bb5ff7e4047b297cafb19a84247f4f09fddf8e3a523f2c9d043212842a084",
+          "imageFileIncludedInReleasePackage": false
+        }
+      ]
+    }
+  ],
+  "scope": {
+    "normalMotion": true,
+    "threeRepresentativeBranchesOnly": true,
+    "fullPageAppearanceClaimed": false,
+    "pixelEqualityClaimed": false,
+    "lighthouseScoreProduced": false,
+    "manualImageReviewClaimed": false,
+    "imageFilesIncludedInReleasePackage": false,
+    "separate42RouteLighthouseRequired": true
+  },
+  "limitations": [
+    "The original before capture exit2 remains a failure; the narrower text/CSS/geometry comparison is reported separately.",
+    "Request failures remain failures; observed event phases do not establish their cause or retrospectively explain earlier events.",
+    "Actual image digests identify retained private review evidence; the PNG files are not shipped in this package.",
+    "This report does not claim a complete public sweep, a performance improvement, pixel equality, or manual visual review."
+  ]
+}

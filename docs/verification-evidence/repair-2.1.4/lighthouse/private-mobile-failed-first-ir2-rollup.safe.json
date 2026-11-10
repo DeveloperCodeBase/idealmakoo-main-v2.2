@@ -1,0 +1,1918 @@
+{
+  "createdAt": "2026-10-25T20:47:57.755Z",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "applicationVersion": "2.1.4",
+  "scope": "authenticated",
+  "device": [
+    "mobile"
+  ],
+  "scopeLimitation": "Registered principal-role route navigation plus explicitly inventoried owned-detail and other-role scenarios; not every role×route combination, customer/content record or CRUD workflow.",
+  "counts": {
+    "expected": 530,
+    "attempted": 388,
+    "completed": 387,
+    "errors": 1,
+    "timeouts": 0,
+    "pending": 142,
+    "coverageComplete": false
+  },
+  "attemptHistory": {
+    "outcomeAttempts": 388,
+    "retriedJobs": 0,
+    "additionalOutcomeAttempts": 0,
+    "completedAttempts": 387,
+    "expectedHttpResponseAttempts": 0,
+    "errorAttempts": 1,
+    "timeoutAttempts": 0,
+    "exportValidationRefusedAttempts": 0,
+    "note": "Reservation-only files do not claim a measured outcome. Original process outcomes use sourceStatus when export validation refused a report; refusals are separate and are not additional Lighthouse failures. All reported attempts remain retained."
+  },
+  "exportValidation": {
+    "refusedAttempts": 0,
+    "latestRefusals": 0,
+    "countsAreNotAdditionalLighthouseRuns": true
+  },
+  "sourceOutcomeCounts": null,
+  "allLatestRequestedJobsSucceeded": false,
+  "groupedScores": {
+    "authenticatedNoindex": {
+      "jobs": 530,
+      "attempted": 388,
+      "scored": 387,
+      "expectedHttpResponses": 0,
+      "errors": 1,
+      "timeouts": 0,
+      "sourceErrors": 1,
+      "sourceTimeouts": 0,
+      "exportValidationRefusals": 0,
+      "pending": 142,
+      "categories": {
+        "performance": {
+          "count": 387,
+          "min": 50,
+          "median": 65,
+          "p75": 67,
+          "max": 72,
+          "below90": 387
+        },
+        "accessibility": {
+          "count": 387,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "best-practices": {
+          "count": 387,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "seo": {
+          "count": 387,
+          "min": 50,
+          "median": 54,
+          "p75": 54,
+          "max": 58,
+          "below90": 387
+        }
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "count": 387,
+          "min": 1510.9605000000001,
+          "median": 2116.59465,
+          "p75": 2121.485,
+          "max": 2499.476
+        },
+        "largest-contentful-paint": {
+          "count": 387,
+          "min": 5346.399299999999,
+          "median": 6774.6011,
+          "p75": 7290.9944000000005,
+          "max": 8514.4934
+        },
+        "total-blocking-time": {
+          "count": 387,
+          "min": 262.5,
+          "median": 383.00000000000136,
+          "p75": 423,
+          "max": 1147
+        },
+        "cumulative-layout-shift": {
+          "count": 387,
+          "min": 0,
+          "median": 0.04706909365451993,
+          "p75": 0.04706909365451993,
+          "max": 0.25169212629843435
+        }
+      },
+      "durationMs": {
+        "count": 388,
+        "min": 5972,
+        "median": 6566,
+        "p75": 6828,
+        "max": 21290
+      }
+    }
+  },
+  "role": {
+    "admin": {
+      "jobs": 2,
+      "attempted": 0,
+      "scored": 0,
+      "expectedHttpResponses": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "sourceErrors": 0,
+      "sourceTimeouts": 0,
+      "exportValidationRefusals": 0,
+      "pending": 2,
+      "categories": {
+        "performance": null,
+        "accessibility": null,
+        "best-practices": null,
+        "seo": null
+      },
+      "metrics": {
+        "first-contentful-paint": null,
+        "largest-contentful-paint": null,
+        "total-blocking-time": null,
+        "cumulative-layout-shift": null
+      },
+      "durationMs": null
+    },
+    "analyst": {
+      "jobs": 2,
+      "attempted": 0,
+      "scored": 0,
+      "expectedHttpResponses": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "sourceErrors": 0,
+      "sourceTimeouts": 0,
+      "exportValidationRefusals": 0,
+      "pending": 2,
+      "categories": {
+        "performance": null,
+        "accessibility": null,
+        "best-practices": null,
+        "seo": null
+      },
+      "metrics": {
+        "first-contentful-paint": null,
+        "largest-contentful-paint": null,
+        "total-blocking-time": null,
+        "cumulative-layout-shift": null
+      },
+      "durationMs": null
+    },
+    "business": {
+      "jobs": 2,
+      "attempted": 0,
+      "scored": 0,
+      "expectedHttpResponses": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "sourceErrors": 0,
+      "sourceTimeouts": 0,
+      "exportValidationRefusals": 0,
+      "pending": 2,
+      "categories": {
+        "performance": null,
+        "accessibility": null,
+        "best-practices": null,
+        "seo": null
+      },
+      "metrics": {
+        "first-contentful-paint": null,
+        "largest-contentful-paint": null,
+        "total-blocking-time": null,
+        "cumulative-layout-shift": null
+      },
+      "durationMs": null
+    },
+    "contentEditor": {
+      "jobs": 2,
+      "attempted": 0,
+      "scored": 0,
+      "expectedHttpResponses": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "sourceErrors": 0,
+      "sourceTimeouts": 0,
+      "exportValidationRefusals": 0,
+      "pending": 2,
+      "categories": {
+        "performance": null,
+        "accessibility": null,
+        "best-practices": null,
+        "seo": null
+      },
+      "metrics": {
+        "first-contentful-paint": null,
+        "largest-contentful-paint": null,
+        "total-blocking-time": null,
+        "cumulative-layout-shift": null
+      },
+      "durationMs": null
+    },
+    "customer": {
+      "jobs": 80,
+      "attempted": 0,
+      "scored": 0,
+      "expectedHttpResponses": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "sourceErrors": 0,
+      "sourceTimeouts": 0,
+      "exportValidationRefusals": 0,
+      "pending": 80,
+      "categories": {
+        "performance": null,
+        "accessibility": null,
+        "best-practices": null,
+        "seo": null
+      },
+      "metrics": {
+        "first-contentful-paint": null,
+        "largest-contentful-paint": null,
+        "total-blocking-time": null,
+        "cumulative-layout-shift": null
+      },
+      "durationMs": null
+    },
+    "hr": {
+      "jobs": 2,
+      "attempted": 0,
+      "scored": 0,
+      "expectedHttpResponses": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "sourceErrors": 0,
+      "sourceTimeouts": 0,
+      "exportValidationRefusals": 0,
+      "pending": 2,
+      "categories": {
+        "performance": null,
+        "accessibility": null,
+        "best-practices": null,
+        "seo": null
+      },
+      "metrics": {
+        "first-contentful-paint": null,
+        "largest-contentful-paint": null,
+        "total-blocking-time": null,
+        "cumulative-layout-shift": null
+      },
+      "durationMs": null
+    },
+    "productManager": {
+      "jobs": 2,
+      "attempted": 0,
+      "scored": 0,
+      "expectedHttpResponses": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "sourceErrors": 0,
+      "sourceTimeouts": 0,
+      "exportValidationRefusals": 0,
+      "pending": 2,
+      "categories": {
+        "performance": null,
+        "accessibility": null,
+        "best-practices": null,
+        "seo": null
+      },
+      "metrics": {
+        "first-contentful-paint": null,
+        "largest-contentful-paint": null,
+        "total-blocking-time": null,
+        "cumulative-layout-shift": null
+      },
+      "durationMs": null
+    },
+    "publisher": {
+      "jobs": 2,
+      "attempted": 0,
+      "scored": 0,
+      "expectedHttpResponses": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "sourceErrors": 0,
+      "sourceTimeouts": 0,
+      "exportValidationRefusals": 0,
+      "pending": 2,
+      "categories": {
+        "performance": null,
+        "accessibility": null,
+        "best-practices": null,
+        "seo": null
+      },
+      "metrics": {
+        "first-contentful-paint": null,
+        "largest-contentful-paint": null,
+        "total-blocking-time": null,
+        "cumulative-layout-shift": null
+      },
+      "durationMs": null
+    },
+    "scientificReviewer": {
+      "jobs": 2,
+      "attempted": 0,
+      "scored": 0,
+      "expectedHttpResponses": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "sourceErrors": 0,
+      "sourceTimeouts": 0,
+      "exportValidationRefusals": 0,
+      "pending": 2,
+      "categories": {
+        "performance": null,
+        "accessibility": null,
+        "best-practices": null,
+        "seo": null
+      },
+      "metrics": {
+        "first-contentful-paint": null,
+        "largest-contentful-paint": null,
+        "total-blocking-time": null,
+        "cumulative-layout-shift": null
+      },
+      "durationMs": null
+    },
+    "superAdmin": {
+      "jobs": 430,
+      "attempted": 388,
+      "scored": 387,
+      "expectedHttpResponses": 0,
+      "errors": 1,
+      "timeouts": 0,
+      "sourceErrors": 1,
+      "sourceTimeouts": 0,
+      "exportValidationRefusals": 0,
+      "pending": 42,
+      "categories": {
+        "performance": {
+          "count": 387,
+          "min": 50,
+          "median": 65,
+          "p75": 67,
+          "max": 72,
+          "below90": 387
+        },
+        "accessibility": {
+          "count": 387,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "best-practices": {
+          "count": 387,
+          "min": 100,
+          "median": 100,
+          "p75": 100,
+          "max": 100,
+          "below90": 0
+        },
+        "seo": {
+          "count": 387,
+          "min": 50,
+          "median": 54,
+          "p75": 54,
+          "max": 58,
+          "below90": 387
+        }
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "count": 387,
+          "min": 1510.9605000000001,
+          "median": 2116.59465,
+          "p75": 2121.485,
+          "max": 2499.476
+        },
+        "largest-contentful-paint": {
+          "count": 387,
+          "min": 5346.399299999999,
+          "median": 6774.6011,
+          "p75": 7290.9944000000005,
+          "max": 8514.4934
+        },
+        "total-blocking-time": {
+          "count": 387,
+          "min": 262.5,
+          "median": 383.00000000000136,
+          "p75": 423,
+          "max": 1147
+        },
+        "cumulative-layout-shift": {
+          "count": 387,
+          "min": 0,
+          "median": 0.04706909365451993,
+          "p75": 0.04706909365451993,
+          "max": 0.25169212629843435
+        }
+      },
+      "durationMs": {
+        "count": 388,
+        "min": 5972,
+        "median": 6566,
+        "p75": 6828,
+        "max": 21290
+      }
+    },
+    "support": {
+      "jobs": 2,
+      "attempted": 0,
+      "scored": 0,
+      "expectedHttpResponses": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "sourceErrors": 0,
+      "sourceTimeouts": 0,
+      "exportValidationRefusals": 0,
+      "pending": 2,
+      "categories": {
+        "performance": null,
+        "accessibility": null,
+        "best-practices": null,
+        "seo": null
+      },
+      "metrics": {
+        "first-contentful-paint": null,
+        "largest-contentful-paint": null,
+        "total-blocking-time": null,
+        "cumulative-layout-shift": null
+      },
+      "durationMs": null
+    },
+    "translator": {
+      "jobs": 2,
+      "attempted": 0,
+      "scored": 0,
+      "expectedHttpResponses": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "sourceErrors": 0,
+      "sourceTimeouts": 0,
+      "exportValidationRefusals": 0,
+      "pending": 2,
+      "categories": {
+        "performance": null,
+        "accessibility": null,
+        "best-practices": null,
+        "seo": null
+      },
+      "metrics": {
+        "first-contentful-paint": null,
+        "largest-contentful-paint": null,
+        "total-blocking-time": null,
+        "cumulative-layout-shift": null
+      },
+      "durationMs": null
+    }
+  },
+  "frequentFailedAudits": [
+    {
+      "id": "first-contentful-paint",
+      "count": 387,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 387
+    },
+    {
+      "id": "largest-contentful-paint",
+      "count": 387,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 387
+    },
+    {
+      "id": "total-blocking-time",
+      "count": 387,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 387
+    },
+    {
+      "id": "max-potential-fid",
+      "count": 387,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 387
+    },
+    {
+      "id": "interactive",
+      "count": 387,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 387
+    },
+    {
+      "id": "unused-css-rules",
+      "count": 387,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 387
+    },
+    {
+      "id": "unused-javascript",
+      "count": 387,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 387
+    },
+    {
+      "id": "meta-description",
+      "count": 387,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 387
+    },
+    {
+      "id": "is-crawlable",
+      "count": 387,
+      "intentionalNoindex": 387,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 0
+    },
+    {
+      "id": "bf-cache",
+      "count": 387,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 387
+    },
+    {
+      "id": "speed-index",
+      "count": 301,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 301
+    },
+    {
+      "id": "mainthread-work-breakdown",
+      "count": 237,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 237
+    },
+    {
+      "id": "bootup-time",
+      "count": 217,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 217
+    },
+    {
+      "id": "cumulative-layout-shift",
+      "count": 214,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 214
+    },
+    {
+      "id": "legacy-javascript-insight",
+      "count": 171,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 171
+    },
+    {
+      "id": "network-dependency-tree-insight",
+      "count": 171,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 171
+    },
+    {
+      "id": "render-blocking-insight",
+      "count": 171,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 171
+    },
+    {
+      "id": "layout-shifts",
+      "count": 43,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 43
+    },
+    {
+      "id": "cls-culprits-insight",
+      "count": 26,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 26
+    },
+    {
+      "id": "unsized-images",
+      "count": 17,
+      "intentionalNoindex": 0,
+      "intentionalHttpDenial": 0,
+      "optimizationOrReview": 17
+    }
+  ],
+  "lowestPerformance": [
+    {
+      "id": "951227b325fb1c77",
+      "route": "/fa/admin/ai/image/",
+      "locale": "fa",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 50,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 2140.69785,
+        "largest-contentful-paint": 7638.3957,
+        "speed-index": 2140.69785,
+        "total-blocking-time": 1147,
+        "cumulative-layout-shift": 0.04706909365451993,
+        "interactive": 7638.395700000001
+      },
+      "attempt": 1
+    },
+    {
+      "id": "5624bdaff92ca8d0",
+      "route": "/fa/admin/users/",
+      "locale": "fa",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 50,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 2117.1543,
+        "largest-contentful-paint": 7891.7448,
+        "speed-index": 2117.1543,
+        "total-blocking-time": 442,
+        "cumulative-layout-shift": 0.25169212629843435,
+        "interactive": 7891.744800000001
+      },
+      "attempt": 1
+    },
+    {
+      "id": "691357e68c1ba265",
+      "route": "/tr/admin/events/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 52,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 2131.0598,
+        "largest-contentful-paint": 7469.589699999999,
+        "speed-index": 2131.0598,
+        "total-blocking-time": 506,
+        "cumulative-layout-shift": 0.1880474629020757,
+        "interactive": 7477.089699999999
+      },
+      "attempt": 1
+    },
+    {
+      "id": "54d9d16faaa7f85e",
+      "route": "/ar/admin/monitoring/jobs/",
+      "locale": "ar",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 53,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 1996.42425,
+        "largest-contentful-paint": 7376.848500000001,
+        "speed-index": 1996.42425,
+        "total-blocking-time": 934.9999999999991,
+        "cumulative-layout-shift": 0.04706909365451993,
+        "interactive": 7376.848500000002
+      },
+      "attempt": 1
+    },
+    {
+      "id": "03e1b239acd296e6",
+      "route": "/ar/admin/staff/",
+      "locale": "ar",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 53,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 2116.28775,
+        "largest-contentful-paint": 7885.004750000002,
+        "speed-index": 2116.28775,
+        "total-blocking-time": 430.00000000000045,
+        "cumulative-layout-shift": 0.21476783514320036,
+        "interactive": 7889.347675000003
+      },
+      "attempt": 1
+    },
+    {
+      "id": "a52b1ede0230e5d6",
+      "route": "/ar/admin/users/",
+      "locale": "ar",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 54,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 1964.99895,
+        "largest-contentful-paint": 7820.9972,
+        "speed-index": 1964.99895,
+        "total-blocking-time": 421,
+        "cumulative-layout-shift": 0.2106521687622026,
+        "interactive": 7825.4972
+      },
+      "attempt": 1
+    },
+    {
+      "id": "c8fd972c95d31d09",
+      "route": "/tr/admin/crm/opportunities/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 55,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 2121.571,
+        "largest-contentful-paint": 7412.3565,
+        "speed-index": 2121.571,
+        "total-blocking-time": 348,
+        "cumulative-layout-shift": 0.2141926348816418,
+        "interactive": 7419.8565
+      },
+      "attempt": 1
+    },
+    {
+      "id": "02a52093f8571ac7",
+      "route": "/en/admin/users/",
+      "locale": "en",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 56,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 1514.09415,
+        "largest-contentful-paint": 7087.1883,
+        "speed-index": 1514.09415,
+        "total-blocking-time": 403,
+        "cumulative-layout-shift": 0.20347797909785187,
+        "interactive": 7088.6883
+      },
+      "attempt": 1
+    },
+    {
+      "id": "f906aaf4e5e6de7e",
+      "route": "/fa/admin/crm/",
+      "locale": "fa",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 56,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 2116.3334999999997,
+        "largest-contentful-paint": 7123.667000000001,
+        "speed-index": 2116.3334999999997,
+        "total-blocking-time": 774,
+        "cumulative-layout-shift": 0,
+        "interactive": 7123.667000000001
+      },
+      "attempt": 1
+    },
+    {
+      "id": "42feaf9793273f9f",
+      "route": "/ru/admin/staff/",
+      "locale": "ru",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 56,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 2121.8302,
+        "largest-contentful-paint": 7212.7453000000005,
+        "speed-index": 2121.8302,
+        "total-blocking-time": 438,
+        "cumulative-layout-shift": 0.16507086688178824,
+        "interactive": 7212.7453000000005
+      },
+      "attempt": 1
+    },
+    {
+      "id": "94c3c6915e2e6926",
+      "route": "/ru/admin/crm/contacts/",
+      "locale": "ru",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 57,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 2129.2188,
+        "largest-contentful-paint": 7394.828199999998,
+        "speed-index": 2129.2188,
+        "total-blocking-time": 497.99999999999955,
+        "cumulative-layout-shift": 0.12657670066533616,
+        "interactive": 7394.828199999998
+      },
+      "attempt": 1
+    },
+    {
+      "id": "e6222bbc071f62bd",
+      "route": "/ru/admin/crm/quotes/",
+      "locale": "ru",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 58,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 2129.4042,
+        "largest-contentful-paint": 6638.1063,
+        "speed-index": 2129.4042,
+        "total-blocking-time": 452,
+        "cumulative-layout-shift": 0.1403935366332637,
+        "interactive": 6638.106300000001
+      },
+      "attempt": 1
+    },
+    {
+      "id": "f8a463ac547c5f83",
+      "route": "/tr/admin/cms/forms/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 58,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 2123.0804,
+        "largest-contentful-paint": 7522.620599999998,
+        "speed-index": 2123.0804,
+        "total-blocking-time": 441.99999999999955,
+        "cumulative-layout-shift": 0.13381767804626415,
+        "interactive": 7522.620599999998
+      },
+      "attempt": 1
+    },
+    {
+      "id": "bd8c3301114dd161",
+      "route": "/ar/admin/forms/",
+      "locale": "ar",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 59,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 2113.6941,
+        "largest-contentful-paint": 7574.388199999999,
+        "speed-index": 2113.6941,
+        "total-blocking-time": 402.99999999999955,
+        "cumulative-layout-shift": 0.13100861272089498,
+        "interactive": 7775.462295
+      },
+      "attempt": 1
+    },
+    {
+      "id": "5001a9ec1229519a",
+      "route": "/ar/admin/page-builder/new/",
+      "locale": "ar",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 59,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 58
+      },
+      "metrics": {
+        "first-contentful-paint": 2121.97785,
+        "largest-contentful-paint": 6578.9557,
+        "speed-index": 2121.97785,
+        "total-blocking-time": 534.5000000000005,
+        "cumulative-layout-shift": 0.09094382731441247,
+        "interactive": 6745.976427500002
+      },
+      "attempt": 1
+    },
+    {
+      "id": "1ab70d8654284a70",
+      "route": "/en/admin/cms/products/",
+      "locale": "en",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 59,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 58
+      },
+      "metrics": {
+        "first-contentful-paint": 1521.0306,
+        "largest-contentful-paint": 7747.0815999999995,
+        "speed-index": 1521.0306,
+        "total-blocking-time": 621.9999999999991,
+        "cumulative-layout-shift": 0.04706909365451993,
+        "interactive": 7761.279560000001
+      },
+      "attempt": 1
+    },
+    {
+      "id": "47fc358de01dd8e5",
+      "route": "/en/admin/forms/",
+      "locale": "en",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 59,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 1516.0587,
+        "largest-contentful-paint": 6991.117399999997,
+        "speed-index": 1516.0587,
+        "total-blocking-time": 482.9999999999982,
+        "cumulative-layout-shift": 0.13421557413661764,
+        "interactive": 7079.970194999998
+      },
+      "attempt": 1
+    },
+    {
+      "id": "7c9fa8f79717178a",
+      "route": "/fa/admin/forms/",
+      "locale": "fa",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 59,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 1964.6906999999999,
+        "largest-contentful-paint": 7734.726749999999,
+        "speed-index": 1964.6906999999999,
+        "total-blocking-time": 367,
+        "cumulative-layout-shift": 0.15105954934930235,
+        "interactive": 8444.862294999997
+      },
+      "attempt": 1
+    },
+    {
+      "id": "588656acdb30af72",
+      "route": "/ru/admin/cms/resources/",
+      "locale": "ru",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 59,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 2126.092,
+        "largest-contentful-paint": 6791.137999999999,
+        "speed-index": 2126.092,
+        "total-blocking-time": 454.99999999999955,
+        "cumulative-layout-shift": 0.13014264297812161,
+        "interactive": 6791.137999999999
+      },
+      "attempt": 1
+    },
+    {
+      "id": "aacf2806ae3f73b6",
+      "route": "/ru/admin/crm/campaigns/",
+      "locale": "ru",
+      "role": "superAdmin",
+      "scores": {
+        "performance": 59,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 54
+      },
+      "metrics": {
+        "first-contentful-paint": 2136.3202,
+        "largest-contentful-paint": 6917.980299999998,
+        "speed-index": 2136.3202,
+        "total-blocking-time": 625,
+        "cumulative-layout-shift": 0,
+        "interactive": 6919.230299999999
+      },
+      "attempt": 1
+    }
+  ],
+  "incomplete": [
+    {
+      "route": "/tr/admin/forms/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "error",
+      "id": "6f7aa9b9a21718e4",
+      "attempt": 1,
+      "errorCode": "AUDIT_EDITOR_CLEANUP_FAILED"
+    },
+    {
+      "route": "/tr/admin/glossary/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/hr/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/knowledge/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/locales/releases/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/locales/reviews/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/locales/translations/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/media/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/media/collections/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/media/library/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/menus/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/migration/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/Migration/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/monitoring/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/monitoring/ai/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/monitoring/availability/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/monitoring/business/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/monitoring/content/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/monitoring/infrastructure/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/monitoring/jobs/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/monitoring/notifications/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/monitoring/overview/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/monitoring/performance/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/monitoring/recovery/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/monitoring/security/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/monitoring/storage/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/news/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/page-builder/home/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/page-builder/new/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/pages/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/preferences/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/products/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/profile/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/publications/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/research/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/resources/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/reviews/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/roles/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/settings/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/staff/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/tickets/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/translations/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/admin/users/",
+      "locale": "tr",
+      "role": "superAdmin",
+      "status": "pending"
+    },
+    {
+      "route": "/ar/account/",
+      "locale": "ar",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/ar/account/bookings/",
+      "locale": "ar",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/ar/account/data-rooms/",
+      "locale": "ar",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/ar/account/notifications/",
+      "locale": "ar",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/ar/account/notifications/devices/",
+      "locale": "ar",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/ar/account/organizations/",
+      "locale": "ar",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/ar/account/preferences/",
+      "locale": "ar",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/ar/account/profile/",
+      "locale": "ar",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/ar/account/quick-matrix/",
+      "locale": "ar",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/ar/account/requests/",
+      "locale": "ar",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/ar/account/requests/",
+      "locale": "ar",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/ar/account/requests/detail/",
+      "locale": "ar",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/ar/account/saved/",
+      "locale": "ar",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/ar/account/security/",
+      "locale": "ar",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/ar/account/settings/",
+      "locale": "ar",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/ar/account/tenders/",
+      "locale": "ar",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/en/account/",
+      "locale": "en",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/en/account/bookings/",
+      "locale": "en",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/en/account/data-rooms/",
+      "locale": "en",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/en/account/notifications/",
+      "locale": "en",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/en/account/notifications/devices/",
+      "locale": "en",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/en/account/organizations/",
+      "locale": "en",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/en/account/preferences/",
+      "locale": "en",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/en/account/profile/",
+      "locale": "en",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/en/account/quick-matrix/",
+      "locale": "en",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/en/account/requests/",
+      "locale": "en",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/en/account/requests/",
+      "locale": "en",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/en/account/requests/detail/",
+      "locale": "en",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/en/account/saved/",
+      "locale": "en",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/en/account/security/",
+      "locale": "en",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/en/account/settings/",
+      "locale": "en",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/en/account/tenders/",
+      "locale": "en",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/fa/account/",
+      "locale": "fa",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/fa/account/bookings/",
+      "locale": "fa",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/fa/account/data-rooms/",
+      "locale": "fa",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/fa/account/notifications/",
+      "locale": "fa",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/fa/account/notifications/devices/",
+      "locale": "fa",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/fa/account/organizations/",
+      "locale": "fa",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/fa/account/preferences/",
+      "locale": "fa",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/fa/account/profile/",
+      "locale": "fa",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/fa/account/quick-matrix/",
+      "locale": "fa",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/fa/account/requests/",
+      "locale": "fa",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/fa/account/requests/",
+      "locale": "fa",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/fa/account/requests/detail/",
+      "locale": "fa",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/fa/account/saved/",
+      "locale": "fa",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/fa/account/security/",
+      "locale": "fa",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/fa/account/settings/",
+      "locale": "fa",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/fa/account/tenders/",
+      "locale": "fa",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/ru/account/",
+      "locale": "ru",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/ru/account/bookings/",
+      "locale": "ru",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/ru/account/data-rooms/",
+      "locale": "ru",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/ru/account/notifications/",
+      "locale": "ru",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/ru/account/notifications/devices/",
+      "locale": "ru",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/ru/account/organizations/",
+      "locale": "ru",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/ru/account/preferences/",
+      "locale": "ru",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/ru/account/profile/",
+      "locale": "ru",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/ru/account/quick-matrix/",
+      "locale": "ru",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/ru/account/requests/",
+      "locale": "ru",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/ru/account/requests/",
+      "locale": "ru",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/ru/account/requests/detail/",
+      "locale": "ru",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/ru/account/saved/",
+      "locale": "ru",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/ru/account/security/",
+      "locale": "ru",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/ru/account/settings/",
+      "locale": "ru",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/ru/account/tenders/",
+      "locale": "ru",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/account/",
+      "locale": "tr",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/account/bookings/",
+      "locale": "tr",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/account/data-rooms/",
+      "locale": "tr",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/account/notifications/",
+      "locale": "tr",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/account/notifications/devices/",
+      "locale": "tr",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/account/organizations/",
+      "locale": "tr",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/account/preferences/",
+      "locale": "tr",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/account/profile/",
+      "locale": "tr",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/account/quick-matrix/",
+      "locale": "tr",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/account/requests/",
+      "locale": "tr",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/account/requests/",
+      "locale": "tr",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/account/requests/detail/",
+      "locale": "tr",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/account/saved/",
+      "locale": "tr",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/account/security/",
+      "locale": "tr",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/account/settings/",
+      "locale": "tr",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/tr/account/tenders/",
+      "locale": "tr",
+      "role": "customer",
+      "status": "pending"
+    },
+    {
+      "route": "/en/admin/settings/",
+      "locale": "en",
+      "role": "admin",
+      "status": "pending"
+    },
+    {
+      "route": "/fa/admin/settings/",
+      "locale": "fa",
+      "role": "admin",
+      "status": "pending"
+    },
+    {
+      "route": "/en/admin/content/",
+      "locale": "en",
+      "role": "contentEditor",
+      "status": "pending"
+    },
+    {
+      "route": "/fa/admin/content/",
+      "locale": "fa",
+      "role": "contentEditor",
+      "status": "pending"
+    },
+    {
+      "route": "/en/admin/products/",
+      "locale": "en",
+      "role": "productManager",
+      "status": "pending"
+    },
+    {
+      "route": "/fa/admin/products/",
+      "locale": "fa",
+      "role": "productManager",
+      "status": "pending"
+    },
+    {
+      "route": "/en/admin/reviews/",
+      "locale": "en",
+      "role": "scientificReviewer",
+      "status": "pending"
+    },
+    {
+      "route": "/fa/admin/reviews/",
+      "locale": "fa",
+      "role": "scientificReviewer",
+      "status": "pending"
+    },
+    {
+      "route": "/en/admin/translations/",
+      "locale": "en",
+      "role": "translator",
+      "status": "pending"
+    },
+    {
+      "route": "/fa/admin/translations/",
+      "locale": "fa",
+      "role": "translator",
+      "status": "pending"
+    },
+    {
+      "route": "/en/admin/publications/",
+      "locale": "en",
+      "role": "publisher",
+      "status": "pending"
+    },
+    {
+      "route": "/fa/admin/publications/",
+      "locale": "fa",
+      "role": "publisher",
+      "status": "pending"
+    },
+    {
+      "route": "/en/admin/hr/",
+      "locale": "en",
+      "role": "hr",
+      "status": "pending"
+    },
+    {
+      "route": "/fa/admin/hr/",
+      "locale": "fa",
+      "role": "hr",
+      "status": "pending"
+    },
+    {
+      "route": "/en/admin/crm/",
+      "locale": "en",
+      "role": "business",
+      "status": "pending"
+    },
+    {
+      "route": "/fa/admin/crm/",
+      "locale": "fa",
+      "role": "business",
+      "status": "pending"
+    },
+    {
+      "route": "/en/admin/crm/reports/",
+      "locale": "en",
+      "role": "analyst",
+      "status": "pending"
+    },
+    {
+      "route": "/fa/admin/crm/reports/",
+      "locale": "fa",
+      "role": "analyst",
+      "status": "pending"
+    },
+    {
+      "route": "/en/admin/crm/cases/",
+      "locale": "en",
+      "role": "support",
+      "status": "pending"
+    },
+    {
+      "route": "/fa/admin/crm/cases/",
+      "locale": "fa",
+      "role": "support",
+      "status": "pending"
+    }
+  ],
+  "failedAuditEvidence": {
+    "sourcePolicy": "strict-safe-audit-parts-for-latest-completed-attempts",
+    "eligibleLatestCompleted": 387,
+    "withAuditEvidence": 387,
+    "missingAuditEvidence": 0,
+    "quarantinedOutcomesExcluded": 0,
+    "otherNoncompletedOutcomesExcluded": 1,
+    "note": "Missing audit evidence is reported explicitly and does not mean there were no failed audits. Expected noindex/HTTP-denial outcomes are separate from optimization or review findings; a sub-perfect metric audit is not by itself a functional failure."
+  }
+}

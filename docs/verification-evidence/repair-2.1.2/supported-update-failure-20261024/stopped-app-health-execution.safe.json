@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "kind": "stopped-app-retained-health-actual-execution",
+  "recordedAt": "2026-10-24T15:30:40.180891+00:00",
+  "helperSha256": "dc1cd150c60206b1b9979c2954625d167347c9933b5352d41823eb5db110a3c1",
+  "helperRemoteExitCode": 0,
+  "transportToolExitCode": 0,
+  "transportSessionId": 27012,
+  "transportWaitConsumed": true,
+  "resultSha256": "fa1c5f423835940e53c54c64c62a1f79a9afff4ccaabaf0d7b50f847d64abb31",
+  "resultBytes": 3235,
+  "originalUpdateExitCode": 124,
+  "servingReadinessOrExactTimeoutCauseClaimed": false,
+  "noRetryPerformed": true
+}

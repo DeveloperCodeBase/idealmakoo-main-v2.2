@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "format": "idealmakoo-public-private-lighthouse-partial-baseline",
+  "recordedAt": "2026-10-22T06:39:42.605273+00:00",
+  "status": "intentionally-interrupted-baseline",
+  "finalRelease": false,
+  "source": {
+    "sha256": "71ae23d3db96eb7825bd1762b6992c2494066e02415f5545b26b12663837fc2a",
+    "files": 831
+  },
+  "application": {
+    "sha256": "df0d27890b71a653a0210f8cda6f0d3ce478b179dc9c2465293000e280e86f86",
+    "files": 685,
+    "buildId": "xAFijE374c1niyBYMmnro"
+  },
+  "startedAt": "2026-10-22T06:10:58.911535+00:00",
+  "finishedAt": "2026-10-22T06:30:01.486158+00:00",
+  "exitCode": 2,
+  "counts": {
+    "expected": 530,
+    "attempted": 116,
+    "completed": 113,
+    "errors": 2,
+    "timeouts": 1,
+    "pending": 414
+  },
+  "retainedAttempts": 116,
+  "measurementCompleted": false,
+  "fullCoverage": false,
+  "coverageComplete": false,
+  "interrupted": true,
+  "scoreBudget": {
+    "evaluated": false,
+    "passed": null
+  },
+  "configuration": {
+    "devices": [
+      "mobile"
+    ],
+    "lighthouseVersion": "13.5.0",
+    "chromeVersion": "Google Chrome for Testing 156.0.8078.4",
+    "graphicsMode": "webgl-software-fallback",
+    "normalAnimation": true
+  },
+  "stop": {
+    "reason": "Predeclared performance A/B; baseline preserved before any candidate change.",
+    "signal": "SIGTERM",
+    "signalAt": "2026-10-22T06:30:01.221016+00:00",
+    "supervisorExited": true,
+    "forceKillUsed": false,
+    "ownedBrowserClosed": true,
+    "sourceModifiedDuringInterruption": false,
+    "fixtureCleanupRequiresSeparateEvidence": true
+  },
+  "preStopSummary": {
+    "expected": 530,
+    "attempted": 115,
+    "completed": 113,
+    "errors": 2,
+    "timeouts": 0,
+    "pending": 415,
+    "coverageComplete": false,
+    "interrupted": false
+  },
+  "errorsBeforeStopSignal": [
+    {
+      "case": "retained-error-1",
+      "attempt": 1,
+      "status": "error",
+      "errorCode": "AUDIT_LIGHTHOUSE_RUNTIME_ERROR",
+      "runtimeErrorCode": "PROTOCOL_TIMEOUT",
+      "artifact": "Accessibility",
+      "protocolMethod": "Runtime.evaluate",
+      "startedAt": "2026-10-22T06:26:14.246Z",
+      "finishedAt": "2026-10-22T06:27:59.439Z",
+      "durationMs": 105193,
+      "finishedBeforeStopSignal": true,
+      "authVerified": true,
+      "runtimeAndApiChecksPassed": true,
+      "underlyingCauseEstablished": false
+    },
+    {
+      "case": "retained-error-2",
+      "attempt": 1,
+      "status": "error",
+      "errorCode": "AUDIT_LIGHTHOUSE_RUNTIME_ERROR",
+      "runtimeErrorCode": "PROTOCOL_TIMEOUT",
+      "artifact": "Accessibility",
+      "protocolMethod": "Runtime.evaluate",
+      "startedAt": "2026-10-22T06:28:15.240Z",
+      "finishedAt": "2026-10-22T06:29:57.775Z",
+      "durationMs": 102535,
+      "finishedBeforeStopSignal": true,
+      "authVerified": true,
+      "runtimeAndApiChecksPassed": true,
+      "underlyingCauseEstablished": false
+    }
+  ],
+  "attemptDuringStop": {
+    "case": "retained-timeout-1",
+    "attempt": 1,
+    "status": "timeout",
+    "errorCode": "AUDIT_OPERATION_FAILED",
+    "startedAt": "2026-10-22T06:29:57.817Z",
+    "finishedAt": "2026-10-22T06:30:01.240Z",
+    "durationMs": 3423,
+    "stopSignalOccurredWithinAttempt": true,
+    "reclassified": false
+  },
+  "reportingLimits": [
+    "This is a deliberately interrupted diagnostic baseline, not a completed 530-view measurement or an accepted score budget.",
+    "Both PROTOCOL_TIMEOUT errors in Accessibility Runtime.evaluate ended before the stop signal. They are retained as errors; deliberate interruption does not explain or erase them. Their underlying cause is not established here.",
+    "The in-flight attempt is preserved with the original timeout status. Signal timing is observed; no replacement successful result is created.",
+    "Counts summarize retained attempts. This public receipt does not contain private route/actor/database identities, DOM, raw report data or forensic fingerprints.",
+    "No improvement, regression cause, score threshold, field performance, INP, WCAG conformance or complete public-page coverage is claimed.",
+    "The source/app/build binding is the measured baseline. Subsequent candidates require distinct identities and outputs."
+  ]
+}

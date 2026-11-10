@@ -1,0 +1,71 @@
+{
+  "url": "http://127.0.0.1:3100/ru/products/light-cure-composite/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "d68b79b04fe459b2b210937f01208ed53e3018914738bef1acc090f284be9869",
+  "locale": "ru",
+  "lang": "ru",
+  "dir": "ltr",
+  "titles": [
+    "Светоотверждаемый композит | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Светоотверждаемый реставрационный композит в шприце 4 г с опаковыми и популярными оттенками."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ru/products/light-cure-composite/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/light-cure-composite/",
+    "en": "http://127.0.0.1:3100/en/products/light-cure-composite/",
+    "tr": "http://127.0.0.1:3100/tr/products/light-cure-composite/",
+    "ar": "http://127.0.0.1:3100/ar/products/light-cure-composite/",
+    "ru": "http://127.0.0.1:3100/ru/products/light-cure-composite/",
+    "x-default": "http://127.0.0.1:3100/fa/products/light-cure-composite/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Светоотверждаемый композит",
+      "description": "Светоотверждаемый реставрационный композит в шприце 4 г с опаковыми и популярными оттенками.",
+      "image": "http://127.0.0.1:3100/media/official/1726468061.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "B.STAR"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/ru/products/light-cure-composite/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 63
+}

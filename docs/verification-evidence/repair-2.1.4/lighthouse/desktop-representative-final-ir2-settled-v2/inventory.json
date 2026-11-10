@@ -1,0 +1,104 @@
+{
+  "jobs": [
+    {
+      "url": "http://127.0.0.1:3100/ar/",
+      "kind": "representative-home",
+      "indexed": true,
+      "expectedStatus": 200,
+      "device": "desktop"
+    },
+    {
+      "url": "http://127.0.0.1:3100/ar/faq/",
+      "kind": "representative-faq",
+      "indexed": true,
+      "expectedStatus": 200,
+      "device": "desktop"
+    },
+    {
+      "url": "http://127.0.0.1:3100/en/",
+      "kind": "representative-home",
+      "indexed": true,
+      "expectedStatus": 200,
+      "device": "desktop"
+    },
+    {
+      "url": "http://127.0.0.1:3100/en/auth/register/",
+      "kind": "public-auth",
+      "indexed": false,
+      "expectedStatus": 200,
+      "device": "desktop"
+    },
+    {
+      "url": "http://127.0.0.1:3100/en/contact/",
+      "kind": "representative-request",
+      "indexed": true,
+      "expectedStatus": 200,
+      "device": "desktop"
+    },
+    {
+      "url": "http://127.0.0.1:3100/en/research/",
+      "kind": "representative-editorial",
+      "indexed": true,
+      "expectedStatus": 200,
+      "device": "desktop"
+    },
+    {
+      "url": "http://127.0.0.1:3100/en/resources/",
+      "kind": "representative-resources",
+      "indexed": true,
+      "expectedStatus": 200,
+      "device": "desktop"
+    },
+    {
+      "url": "http://127.0.0.1:3100/fa/",
+      "kind": "representative-home",
+      "indexed": true,
+      "expectedStatus": 200,
+      "device": "desktop"
+    },
+    {
+      "url": "http://127.0.0.1:3100/fa/products/",
+      "kind": "representative-catalogue",
+      "indexed": true,
+      "expectedStatus": 200,
+      "device": "desktop"
+    },
+    {
+      "url": "http://127.0.0.1:3100/fa/quality/",
+      "kind": "representative-company",
+      "indexed": true,
+      "expectedStatus": 200,
+      "device": "desktop"
+    },
+    {
+      "url": "http://127.0.0.1:3100/ru/",
+      "kind": "representative-home",
+      "indexed": true,
+      "expectedStatus": 200,
+      "device": "desktop"
+    },
+    {
+      "url": "http://127.0.0.1:3100/ru/auth/login/",
+      "kind": "public-auth",
+      "indexed": false,
+      "expectedStatus": 200,
+      "device": "desktop"
+    },
+    {
+      "url": "http://127.0.0.1:3100/tr/",
+      "kind": "representative-home",
+      "indexed": true,
+      "expectedStatus": 200,
+      "device": "desktop"
+    },
+    {
+      "url": "http://127.0.0.1:3100/tr/tools/shade-mould-matcher/",
+      "kind": "representative-tool",
+      "indexed": true,
+      "expectedStatus": 200,
+      "device": "desktop"
+    }
+  ],
+  "excluded": [],
+  "sourceUrls": 14
+}

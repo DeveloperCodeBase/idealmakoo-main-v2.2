@@ -1,0 +1,59 @@
+{
+  "buildId": "OruFAGBKnBw7jMP-nT3JJ",
+  "compiledApplicationSourceUnchanged": true,
+  "changes": [
+    {
+      "path": "deploy/backup-archive.py",
+      "before": {
+        "sha256": "e453bf6aee0c1a2f31f9dd9cbb7c10200ad5b112d5b14f1e2bc4d50029d6924b",
+        "bytes": 26962
+      },
+      "after": {
+        "sha256": "a0813428f3aebe8c4d545eaaec7af54f8de0b3eafdee2f4779aab6132ddac349",
+        "bytes": 27341
+      }
+    },
+    {
+      "path": "public/icons/idealmakoo-192.png",
+      "before": {
+        "sha256": "a5c0f105907f6b562a1c5d1bf8792b283d493a04233bb6b322ffab90c04c5ae1",
+        "bytes": 62920
+      },
+      "after": {
+        "sha256": "f5489bd357c3ef4846d177bbb34fd0fb35b56a4bc72bc0fcbd2368cb2c1cac7a",
+        "bytes": 47024
+      }
+    },
+    {
+      "path": "public/icons/idealmakoo-512.png",
+      "before": {
+        "sha256": "42ed52e228cd117949535db9bee3199d995e8339d91cb28bbf978ddac468abe8",
+        "bytes": 416524
+      },
+      "after": {
+        "sha256": "1cd1d54e71799877087b8c2ef8ad2f04cd5d2f9808bb734f89d79248684b8fc8",
+        "bytes": 303911
+      }
+    },
+    {
+      "path": "scripts/lib/png-dimensions.mjs",
+      "before": null,
+      "after": {
+        "sha256": "938dd32034b47d386177b381f22ac11c7c9f9baa5308a1c7474eefe3fe507433",
+        "bytes": 664
+      }
+    },
+    {
+      "path": "scripts/verify.mjs",
+      "before": {
+        "sha256": "60d5f737e7a68d12d7771b8a9354265dcde0a6f4a825a238d6534d106401cd20",
+        "bytes": 16604
+      },
+      "after": {
+        "sha256": "28f9dd93941530c388c078bc2d76800b3cebe41824e9cfa659666ea1f37f5309",
+        "bytes": 16938
+      }
+    }
+  ],
+  "verification": "Deployment change passed full254tests and actualsignedarchive roundtrip. Icon change passed final853unit, focused2PWA and five-localeCDP; public files were recopied by unchanged production launcher. Next application JS/routes unchanged."
+}

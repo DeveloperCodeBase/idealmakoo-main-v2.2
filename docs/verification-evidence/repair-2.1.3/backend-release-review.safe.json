@@ -1,0 +1,59 @@
+{
+  "kind": "focused-backend-release-review",
+  "createdAt": "2026-10-25T03:16:44.090160+00:00",
+  "version": "2.1.3",
+  "startingPackageSha256": "e747581e3ee1332215fcada1d797f05046b97715ab7c5b18906d59e5db89a73a",
+  "reviewedFiles": {
+    "src/server/auth.ts": "baa58aec548bde226f763b32ee7afa771f161fca26288aa2f9a0b55a27c36984",
+    "src/server/account.ts": "a962df0081b7914dd240a14013fb51fc8b6eaf3c3386c8494d431937cf61d389",
+    "src/server/staff-provisioning.ts": "fa1b06c99f79c9a7bee33c01827021e93a778bb071c2576acd180883116f58ac",
+    "src/server/staff-provisioning-mode.ts": "26d7b3e9d696d6b096b870f90c1bd5116c473517dd2091502d00eaef15e227d7",
+    "src/server/staff-lifecycle.ts": "5a61c89760f02f38b0163b399f280b334e076f48de2df7dc63acbfe605a6cb29",
+    "src/server/workspace-scopes.ts": "12b3799df212f0d1bde61c4b152af5c3d52100e2f38536dd93e1fd06cae68da1",
+    "src/server/media.ts": "953a15cf3a29e941613a54b777822f901d20ac46eda0beb678215aeb7635df92",
+    "src/server/storage.ts": "4922f8f11ee72220a3a0e9d010fcd03761836526d3e9c54f3b754b86935f70c6",
+    "src/server/storage-policy.ts": "2bc56073836dabaaec2510855a37d22427ad6c1da3813e6bb750357af51d5bc3",
+    "src/lib/upload-policy.ts": "7fe90d8cad652fd2663fdfe15e9664dc6809adf34c9b4fff7386feb3bb57b6f9",
+    "scripts/restore-security-lib.ts": "c5319f0db55abc791c80a65e85b9e785a9e8bb5074c6e9bd74f808bcfa1db312",
+    "src/server/router.ts": "18c548ef40b373299161ebd7af20cef0837622edfa517d039c7faa6e094610d0",
+    "tests/server-auth-expiry.pg.mjs": "1c111a5ff065b3e150d989f56b44f5730afc3220800cb0dd469ad708ca5c4e11"
+  },
+  "changedProductFiles": [
+    "src/server/auth.ts",
+    "tests/server-auth-expiry.pg.mjs"
+  ],
+  "finding": {
+    "code": "AUTH_PROOF_EXPIRY_AFTER_LOCK",
+    "cause": "Final auth checks used PostgreSQL transaction-start now(), so a user-row wait could cross a session or challenge deadline without invalidating proof.",
+    "fix": "Use clock_timestamp() in four final session/challenge authorization queries after the user lock. API errors, revocation, MFA, locking order and proof lifetimes otherwise unchanged.",
+    "tests": [
+      "absolute session expiry while waiting rejects email-verification request with401 SESSION_REQUIRED, without challenge/outbox/audit",
+      "idle session expiry while waiting rejects email-verification request with401 SESSION_REQUIRED, without challenge/outbox/audit",
+      "expired MFA challenge cannot mint a session or consume authenticator state",
+      "expired password-reset challenge cannot replace password or revoke sessions",
+      "expired email-verification challenge cannot verify address or consume proof"
+    ],
+    "red": "auth-expiry-red-01.safe.json",
+    "green": "auth-expiry-green-01.safe.json",
+    "redExpectedFailedLeafTests": 5,
+    "greenReportedPass": 6,
+    "greenReportedIncludesParentTest": true,
+    "database": "real PostgreSQL16.15 plus pgvector0.6, isolated schema, no clock/SQL mocks",
+    "reference": "https://www.postgresql.org/docs/16/functions-datetime.html#FUNCTIONS-DATETIME-CURRENT"
+  },
+  "reviewedControls": [
+    "Public signup uses strict schema and server-fixed customer role.",
+    "Administrator and target authorization, MFA and last active owner protections rechecked under locks.",
+    "Password and permission changes revoke existing sessions and challenges.",
+    "Env provisioning requires database owner and immutable identity bindings; normal reruns preserve panel edits.",
+    "Uploads enforce hard per-file limit, admin-defined per-type/user/site quota, bounded concurrency, reservations and commit-time auth/policy checks.",
+    "Stored uploads use random server-generated names, exclusive0600 writes, fsync and rollback/reconciliation.",
+    "Private media access rechecks current actor and ownership; non-image media requires clean scan.",
+    "Restore security requires owner connection, invalidates old sessions/challenges/recovery codes/invitations and reconciles access."
+  ],
+  "limitations": [
+    "Static review is scoped; not a claim of complete security audit.",
+    "Current full PostgreSQL/API suite pending after root dependency-copy handoff.",
+    "No paid AI, real SMTP, public deployment or new-host recovery was performed by this agent."
+  ]
+}

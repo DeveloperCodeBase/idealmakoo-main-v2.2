@@ -1,0 +1,52 @@
+{
+  "scope": "Actual fresh-project private upload, worker and local ClamAV workflow after pristine inventory",
+  "operationStatus": {
+    "name": "av-fresh",
+    "startedAt": "2026-10-25T16:51:10.759154+00:00",
+    "completed": true,
+    "completedAt": "2026-10-25T16:51:38.839395+00:00",
+    "elapsedSeconds": 28.084,
+    "exitCode": 0
+  },
+  "proof": {
+    "operation": "setup",
+    "mode": "fresh",
+    "startedAt": "2026-10-25T16:51:12.785978+00:00",
+    "externalProviderActionsRequested": false,
+    "initialScanStatuses": [
+      "pending",
+      "pending"
+    ],
+    "finalScanStatuses": [
+      "clean",
+      "blocked"
+    ],
+    "authorizedBenignDownloadStatus": 200,
+    "benignDownloadedChecksumMatches": true,
+    "eicarQuarantineStatus": 409,
+    "anonymousPrivateDownloadStatuses": [
+      404,
+      404
+    ],
+    "workerDeliveryReceipts": {
+      "provider": "clamav",
+      "completedWorkerJobs": 2,
+      "jobStates": [
+        "delivered",
+        "delivered"
+      ],
+      "scanStatuses": [
+        "blocked",
+        "clean"
+      ],
+      "allJobsHaveRecordedAttempts": true
+    },
+    "seedCountsRecordedBeforeFixture": true,
+    "ownedFixtureDisabled": true,
+    "status": "passed",
+    "completedAt": "2026-10-25T16:51:38.727670+00:00"
+  },
+  "scannerAcquiredOfficialDatabasesUnderVerifiedTlsBeforeFixture": true,
+  "freshDefaultAntivirusProfileUsed": true,
+  "keysCookiesCredentialsFixtureIdentifiersAndPrivatePathsExported": false
+}

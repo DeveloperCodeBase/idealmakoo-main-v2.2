@@ -1,0 +1,24 @@
+.avatar {
+  width: var(--avatar-size, 42px);
+  height: var(--avatar-size, 42px);
+  min-width: var(--avatar-size, 42px);
+  flex: 0 0 var(--avatar-size, 42px);
+  display: inline-grid;
+  place-items: center;
+  vertical-align: middle;
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  border-radius: 50%;
+  border: 1px solid var(--line-bright);
+  background: radial-gradient(ellipse at 26% 8%, var(--glass-shine), transparent 75%), linear-gradient(140deg, var(--panel-strong), var(--panel-soft));
+  box-shadow: inset 0 1px 0 var(--glass-rim), 0 7px 18px -13px var(--neon-cyan);
+  color: var(--accent);
+  font-size: calc(var(--avatar-size, 42px) * .3);
+  line-height: 1;
+  font-weight: 650;
+  letter-spacing: -.025em;
+  font-family: inherit;
+}
+.avatar > img { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: cover; }
+.avatar > span { display: block; padding: 3px; max-width: 100%; overflow: hidden; }

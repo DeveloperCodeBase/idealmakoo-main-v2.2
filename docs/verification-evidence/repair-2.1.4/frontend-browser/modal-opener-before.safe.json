@@ -1,0 +1,62 @@
+{
+  "schema": "idealmakoo.modal-opener-diagnosis.v1",
+  "applicationVersion": "2.1.4",
+  "productionBuild": "i_L9unDIa8NEwrdKG7t07",
+  "focusedGate": {
+    "commandExitCode": 1,
+    "caseCount": 4,
+    "passed": 3,
+    "failed": 1,
+    "skipped": 0,
+    "flaky": 0,
+    "retries": 0,
+    "workers": 1,
+    "durationMs": 29501.702,
+    "completeStructuredReport": true,
+    "reportSha256": "bbee9f43ff45c0c37180063c9555c5c7e8c80ec75620a5dffca290a813b4ddb1",
+    "passedCases": [
+      "Native carousel fullscreen and ordinary explicit Close focus",
+      "Browser-enforced fallback fullscreen and Close focus",
+      "Older-account editing and paginated handover selection with exact pre-save name assertions"
+    ],
+    "failedCaseStage": "Dialog input-focus preservation, Tab/Shift-Tab and Escape dismissal passed; return to the asynchronous Edit opener failed."
+  },
+  "separateNoSaveComparison": {
+    "commandExitCode": 0,
+    "durationSeconds": 4.898560759000247,
+    "browserClockModified": false,
+    "asyncEdit": {
+      "connected": true,
+      "enabled": true,
+      "focused": false
+    },
+    "syncCreate": {
+      "connected": true,
+      "enabled": true,
+      "focused": true
+    },
+    "asyncEditReturnedToDocumentBody": true,
+    "observedOrdering": [
+      "Edit received focus",
+      "Edit was disabled while fetching detail",
+      "Focus left Edit for the document body",
+      "Edit became enabled before the dialog mounted",
+      "Dialog received its initial focus"
+    ],
+    "pageErrorCount": 0,
+    "contentOrProviderSaves": 0
+  },
+  "interpretation": "A separate asynchronous-opener restoration gap was confirmed. It is distinct from the corrected delayed initial-focus callback and from the earlier unproven name-truncation cause.",
+  "rawReceiptSha256": {
+    "focusedGate": "cf43f608794809a3f974e0ccc9f954ec6041de5555204c854ba35cf6aa71fc59",
+    "noSaveComparison": "880ffaabfaf3a469a0957e66e6f0c4dd11baca46864983c2596a6d2452356358",
+    "comparisonExecution": "f3e7c708c058b4692d988627dd0a7e779d9a8f6ca491bf7358b46fdd53eb5388"
+  },
+  "privateMaterialIncluded": false,
+  "verifiedFollowup": {
+    "buildId": "ir2DFJg8r5YdpbVQubUqF",
+    "focusedReceipt": "focused-final.safe.json",
+    "fullReceipt": "full-final.safe.json",
+    "unchangedReturnToOpenerAssertionPassed": true
+  }
+}

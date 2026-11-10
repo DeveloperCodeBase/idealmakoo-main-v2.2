@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/glossary/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "aba1cb9c771d4072a38bfa1535fce9ab3a0329cc36feb1fa09022da950b144b7",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Teknik sözlük | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Bu dilde yayımlanan terimleri ve tanımları arayın. Tanımını okumak için makaledeki işaretli terimi seçin."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/glossary/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/glossary/",
+    "en": "http://127.0.0.1:3100/en/glossary/",
+    "tr": "http://127.0.0.1:3100/tr/glossary/",
+    "ar": "http://127.0.0.1:3100/ar/glossary/",
+    "ru": "http://127.0.0.1:3100/ru/glossary/",
+    "x-default": "http://127.0.0.1:3100/fa/glossary/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 49
+}

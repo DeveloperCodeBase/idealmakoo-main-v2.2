@@ -1,0 +1,98 @@
+{
+  "completedAt": "2026-10-21T13:01:38.792426+00:00",
+  "baselineGateSha256": "47bd4263d4a26e3a31a1773fbaf7cf6e77d4319dac8826c0e649e1203acf39f0",
+  "applicationSourceHash": "12da2b69abf2fa85cf0655bc0b4ec7df9244ea0b50a29cc8c3be1157851b6e1c",
+  "applicationFilesMatched": 678,
+  "applicationChanged": [],
+  "files": [
+    {
+      "file": "deploy/compose.py",
+      "beforeBytes": 2914,
+      "beforeSha256": "8d145b83592ed45122ddf4ad5be9b46bb7614031c0d94126862d7e3ee5037f65",
+      "afterBytes": 9957,
+      "afterSha256": "eb0fc779d736b33c1ab6b132fdd9634ec602b4c04f14c0be17001e09f298742f"
+    },
+    {
+      "file": "deploy/lib.sh",
+      "beforeBytes": 2890,
+      "beforeSha256": "bfa2217784146feb8e6a815fdb436470fe67e1c042b96e1a8046b24f61f2546b",
+      "afterBytes": 2886,
+      "afterSha256": "8c6f0011463eb0dabff2d79757e0309e202d8c71340f4c56caba0652f2f86d1c"
+    },
+    {
+      "file": "deploy/recovery.sh",
+      "beforeBytes": 4499,
+      "beforeSha256": "bdbfc2d8d3a981c93446261777817a9a7bc102c6c0508ae890811d5184d23c6c",
+      "afterBytes": 4483,
+      "afterSha256": "90c5b1db9b58a1668572b4e13e3650d6539484c9a29957c7085941113a368e5b"
+    },
+    {
+      "file": "scripts/backup.sh",
+      "beforeBytes": 10277,
+      "beforeSha256": "35142ad43f9c6760b67900c8a72a167a0413e10d28a210dbee43f1ea3e34bd28",
+      "afterBytes": 10269,
+      "afterSha256": "d904f9d8fad7dad241075fbfcbfd97f4486e7a4d519e462f6ae21036709604ab"
+    },
+    {
+      "file": "scripts/restore.sh",
+      "beforeBytes": 11776,
+      "beforeSha256": "75e7957f8f9487ae8a6813f22fa2da543015aff5f0d620e9ad86331ae20a5acb",
+      "afterBytes": 11772,
+      "afterSha256": "74f299b67ae9739b0719c6692e87671b9146cbea9ff1ce081e840ea238d36244"
+    },
+    {
+      "file": "scripts/install-ubuntu.sh",
+      "beforeBytes": 25760,
+      "beforeSha256": "4f80763057981367d343ee1566869f7ba7a63beb6f59a9afccea0eab25f553d8",
+      "afterBytes": 25754,
+      "afterSha256": "39ea28884b2a89ab798b849a6a384e2473c2a4da785341a3666d62a7d5f1c62d"
+    },
+    {
+      "file": "scripts/provision-staff.sh",
+      "beforeBytes": 904,
+      "beforeSha256": "87ae8f70552e9763ec6e871a83ee83b2700a639c88cd887dc84e2b30f1c003c6",
+      "afterBytes": 902,
+      "afterSha256": "93da5d10ab8a0d933dec9bde60ba5e6bf79212f32e4fbe84d72fc5175a667606"
+    },
+    {
+      "file": "docs/SOURCE-CONTENT.fa.md",
+      "beforeBytes": 9209,
+      "beforeSha256": "c5fcf59c0a8a7b8a2bc7043c3bcf1c6ff2b8b074306a895666440b608368ae71",
+      "afterBytes": 9207,
+      "afterSha256": "5c6b5e94307a0abeb9e985ae9bb74c673b2f2f89282971d1c0a2fbfb8903ee81"
+    },
+    {
+      "file": "tests/deployment_compose_test.py",
+      "beforeBytes": 4282,
+      "beforeSha256": "8808b0aa2f077df38ad008eacdf67a2f799116ca29cf59f69a1112e4c49fd926",
+      "afterBytes": 9004,
+      "afterSha256": "f96c6e29b4f075da57036790befee6ed5fb1713f33972b438ab2165f635fb26c"
+    },
+    {
+      "file": "tests/deployment_pending_restore_test.py",
+      "beforeBytes": 35844,
+      "beforeSha256": "f040be97aea845405ed26a5d6c9a2f0e8bb3279f6cec2305fa574819edd711f3",
+      "afterBytes": 35853,
+      "afterSha256": "8efbefc61949082af1ac4346236303c1aaff32ff97c87e4519927f6b423e65db"
+    },
+    {
+      "file": "tests/deployment_failure_cleanup_test.py",
+      "beforeBytes": 30361,
+      "beforeSha256": "3aaa2a62570e1922677efa9ac1056de5493a82377221c7c537aef8d6793892ee",
+      "afterBytes": 30370,
+      "afterSha256": "58f10114046f9b5e08b0d5d7fb30e721aa742be6c9ab96e539c9d09180fe3faa"
+    },
+    {
+      "file": "tests/deployment_existing_image_run_test.py",
+      "beforeBytes": null,
+      "beforeSha256": null,
+      "afterBytes": 12610,
+      "afterSha256": "8ebb95f2606a8da3a4be57cc589e004ebf375f7edc3d3d14927c94753ff71f3e"
+    }
+  ],
+  "focusedCount": 12,
+  "fullCount": 178,
+  "focusedIsSubsetOfFull": true,
+  "shellcheckFiles": 14,
+  "actualDockerProofSha256": "364ae5969c4a0cda84d55698a7fa50b0fae79941be014fccca39677275189c74"
+}

@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "status": "candidate-for-review",
+  "preparedAt": "2026-10-22T07:26:27.461177+00:00",
+  "label": "asset-routing-03",
+  "source": {
+    "sha256": "981c8a90b315e4ae01de066365c3a08ae287b9afaf9202460bcf2db01161898e",
+    "files": 832
+  },
+  "application": {
+    "sha256": "0045597565fe76bf449866d397a7eee2c5927a85cda40512044de2673f583807",
+    "files": 685,
+    "buildId": "UFNFFG64Vx2uruUMUuU9z",
+    "standaloneBuildId": "UFNFFG64Vx2uruUMUuU9z"
+  },
+  "gates": {
+    "unit": {
+      "status": "passed",
+      "accepted": true,
+      "startedAt": "2026-10-22T07:17:40.368Z",
+      "finishedAt": "2026-10-22T07:18:16.235Z",
+      "exitCode": 0,
+      "node": "v24.19.0",
+      "sourceUnchanged": true,
+      "environmentUnchanged": true,
+      "signalPresent": false,
+      "spawnFailed": false,
+      "counts": {
+        "tests": 756,
+        "passed": 756,
+        "failed": 0,
+        "skipped": 0,
+        "cancelled": 0
+      }
+    },
+    "typecheck": {
+      "status": "passed",
+      "accepted": true,
+      "startedAt": "2026-10-22T07:18:16.447Z",
+      "finishedAt": "2026-10-22T07:18:45.706Z",
+      "exitCode": 0,
+      "node": "v24.19.0",
+      "sourceUnchanged": true,
+      "environmentUnchanged": true,
+      "signalPresent": false,
+      "spawnFailed": false
+    },
+    "build": {
+      "status": "passed",
+      "accepted": true,
+      "startedAt": "2026-10-22T07:18:45.934Z",
+      "finishedAt": "2026-10-22T07:20:03.546Z",
+      "exitCode": 0,
+      "node": "v24.19.0",
+      "sourceUnchanged": true,
+      "environmentUnchanged": true,
+      "signalPresent": false,
+      "spawnFailed": false
+    },
+    "postgres": {
+      "status": "passed",
+      "accepted": true,
+      "startedAt": "2026-10-22T07:20:27.220Z",
+      "finishedAt": "2026-10-22T07:23:25.765Z",
+      "exitCode": 0,
+      "node": "v24.19.0",
+      "sourceUnchanged": true,
+      "environmentUnchanged": true,
+      "signalPresent": false,
+      "spawnFailed": false,
+      "counts": {
+        "tests": 513,
+        "passed": 513,
+        "failed": 0,
+        "skipped": 0,
+        "cancelled": 0,
+        "todo": 0
+      }
+    },
+    "api": {
+      "status": "passed",
+      "accepted": true,
+      "startedAt": "2026-10-22T07:23:26.104Z",
+      "finishedAt": "2026-10-22T07:23:37.128Z",
+      "exitCode": 0,
+      "node": "v24.19.0",
+      "sourceUnchanged": true,
+      "environmentUnchanged": true,
+      "signalPresent": false,
+      "spawnFailed": false,
+      "counts": {
+        "tests": 20,
+        "passed": 20,
+        "failed": 0,
+        "skipped": 0,
+        "cancelled": 0,
+        "todo": 0
+      }
+    }
+  },
+  "knownBuildValuesScan": {
+    "status": "passed",
+    "scope": "compiled output only; not the final source archive",
+    "filesScanned": 3077,
+    "bytesScanned": 172664042,
+    "exactValuesChecked": 5,
+    "findings": 0,
+    "finalArchiveScan": false,
+    "completeSecurityAssessment": false
+  },
+  "priorExecutedCohorts": [
+    {
+      "label": "asset-routing-01",
+      "source": {
+        "sha256": "bc24f5e9887d415823fcf5d93675ea4b4d710e678cf7da655d90d8306255f45f",
+        "files": 832
+      },
+      "application": {
+        "sha256": "f50a70c4215a6aacd99c1f1066406ad61de92a27d0d5f5ca56a96afb901fdfe7",
+        "files": 685,
+        "buildId": "Hq6UM9Wh-wOuUBgPttGv_",
+        "standaloneBuildId": "Hq6UM9Wh-wOuUBgPttGv_"
+      },
+      "gates": {
+        "unit": {
+          "status": "passed",
+          "accepted": true,
+          "startedAt": "2026-10-22T07:02:46.507Z",
+          "finishedAt": "2026-10-22T07:03:19.400Z",
+          "exitCode": 0,
+          "node": "v24.19.0",
+          "sourceUnchanged": true,
+          "environmentUnchanged": true,
+          "signalPresent": false,
+          "spawnFailed": false,
+          "counts": {
+            "tests": 756,
+            "passed": 756,
+            "failed": 0,
+            "skipped": 0,
+            "cancelled": 0
+          }
+        },
+        "typecheck": {
+          "status": "passed",
+          "accepted": true,
+          "startedAt": "2026-10-22T07:03:19.575Z",
+          "finishedAt": "2026-10-22T07:03:48.640Z",
+          "exitCode": 0,
+          "node": "v24.19.0",
+          "sourceUnchanged": true,
+          "environmentUnchanged": true,
+          "signalPresent": false,
+          "spawnFailed": false
+        },
+        "build": {
+          "status": "passed",
+          "accepted": true,
+          "startedAt": "2026-10-22T07:03:48.808Z",
+          "finishedAt": "2026-10-22T07:05:03.007Z",
+          "exitCode": 0,
+          "node": "v24.19.0",
+          "sourceUnchanged": true,
+          "environmentUnchanged": true,
+          "signalPresent": false,
+          "spawnFailed": false
+        },
+        "postgres": {
+          "status": "passed",
+          "accepted": true,
+          "startedAt": "2026-10-22T07:10:41.073Z",
+          "finishedAt": "2026-10-22T07:13:35.443Z",
+          "exitCode": 0,
+          "node": "v24.19.0",
+          "sourceUnchanged": true,
+          "environmentUnchanged": true,
+          "signalPresent": false,
+          "spawnFailed": false,
+          "counts": {
+            "tests": 513,
+            "passed": 513,
+            "failed": 0,
+            "skipped": 0,
+            "cancelled": 0,
+            "todo": 0
+          }
+        },
+        "api": {
+          "status": "pending-evidence",
+          "accepted": false,
+          "reason": "No terminal receipt is explicitly pinned in this configuration."
+        }
+      },
+      "knownBuildValuesScan": {
+        "status": "passed",
+        "scope": "compiled output only; not the final source archive",
+        "filesScanned": 3077,
+        "bytesScanned": 172741418,
+        "exactValuesChecked": 5,
+        "findings": 0,
+        "finalArchiveScan": false,
+        "completeSecurityAssessment": false
+      },
+      "promotedToCurrentExecution": false
+    },
+    {
+      "label": "asset-routing-02",
+      "source": {
+        "sha256": "2ccef3b0f97f7ec30a8d907d80131ed9e11edf4ab1280d9187137b24a6b685af",
+        "files": 832
+      },
+      "application": null,
+      "gates": {
+        "unit": {
+          "status": "not-accepted",
+          "accepted": false,
+          "startedAt": "2026-10-22T07:15:21.242Z",
+          "finishedAt": "2026-10-22T07:15:56.488Z",
+          "exitCode": 1,
+          "node": "v24.19.0",
+          "sourceUnchanged": true,
+          "environmentUnchanged": true,
+          "signalPresent": false,
+          "spawnFailed": false,
+          "counts": {
+            "tests": 756,
+            "passed": 755,
+            "failed": 1,
+            "skipped": 0,
+            "cancelled": 0
+          }
+        },
+        "typecheck": {
+          "status": "pending-evidence",
+          "accepted": false,
+          "reason": "No terminal receipt is explicitly pinned in this configuration."
+        },
+        "build": {
+          "status": "pending-evidence",
+          "accepted": false,
+          "reason": "No terminal receipt is explicitly pinned in this configuration."
+        },
+        "postgres": {
+          "status": "pending-evidence",
+          "accepted": false,
+          "reason": "No terminal receipt is explicitly pinned in this configuration."
+        },
+        "api": {
+          "status": "pending-evidence",
+          "accepted": false,
+          "reason": "No terminal receipt is explicitly pinned in this configuration."
+        }
+      },
+      "knownBuildValuesScan": {
+        "status": "pending-evidence",
+        "scope": "compiled output only; not the final source archive"
+      },
+      "promotedToCurrentExecution": false
+    }
+  ],
+  "performanceImprovementAccepted": false,
+  "performanceLimit": "The historical external-styles CSS experiment was rejected. No performance gain is accepted for this routing candidate. The coordinator observed account CSS in the public entry of the prior routing build; this generator performs no HTTP, browser or bundle inspection of the current build.",
+  "productionAcceptanceComplete": false,
+  "originalDockerfileFullBuildVerified": false,
+  "freshHostFullRecoveryVerified": false,
+  "allPageLighthouseCompleted": false,
+  "generatorExecutedTests": false
+}

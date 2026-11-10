@@ -1,0 +1,197 @@
+{
+  "operationStatus": {
+    "name": "restore",
+    "startedAt": "2026-10-25T15:58:07.762975+00:00",
+    "completed": true,
+    "completedAt": "2026-10-25T16:14:00.589552+00:00",
+    "elapsedSeconds": 952.83,
+    "exitCode": 0
+  },
+  "originalUnmodifiedRestoreScript": true,
+  "mode": "actual in-place restore with exact project --confirm-replace guard",
+  "authenticatedSourceArchiveSha256": "49950812b6d13c32644b0ded627259d96a542fb6168d7d76df40144f26c54113",
+  "authenticatedRowsSchemaMigrationsSequenceFingerprintsMatch": true,
+  "runtimeRoleVerification": {
+    "readableRelations": 186,
+    "deniedOperations": 5
+  },
+  "actualRestoreSecurityCounts": {
+    "alreadyApplied": false,
+    "accessReconciled": true,
+    "accountsMatched": 4,
+    "accountsDisabled": 0,
+    "identityMismatches": 0,
+    "credentialMismatches": 0,
+    "missingCurrentAccounts": 0,
+    "groupsDisabled": 0,
+    "membershipsRestored": 0,
+    "membershipsUnavailable": 0,
+    "sessionsRevoked": 5,
+    "challengesConsumed": 2,
+    "enrollmentsCleared": 0,
+    "recoveryCodesCleared": 0,
+    "staffInvitationsRevoked": 0,
+    "organizationInvitationsRevoked": 0,
+    "authMessagesCancelled": 0,
+    "ready": true
+  },
+  "sessionDatabaseWitnessBefore": {
+    "mode": "before",
+    "observedAt": "2026-10-25T15:57:33.753017+00:00",
+    "archivedSessionPresent": true,
+    "snapshotSessionCreatedBeforeVerifiedBackup": true,
+    "idleMinutes": 60,
+    "snapshotSessionIdleExpiredAtObservation": true,
+    "snapshotSessionRevokedAt": null,
+    "identifiersExported": false,
+    "historicalSessionNotRevokedByPriorDrill": true,
+    "bothNewCurrentSessionsPresentAndActive": true,
+    "snapshotIdleExpiryNotCountedAsRestoreRevocation": true,
+    "status": "passed"
+  },
+  "sessionDatabaseWitnessAfter": {
+    "mode": "after",
+    "observedAt": "2026-10-25T16:14:45.631788+00:00",
+    "archivedSessionPresent": true,
+    "snapshotSessionCreatedBeforeVerifiedBackup": true,
+    "idleMinutes": 60,
+    "snapshotSessionIdleExpiredAtObservation": true,
+    "snapshotSessionRevokedAt": "2026-10-25T16:10:14.881Z",
+    "identifiersExported": false,
+    "restoreSecurityAuditCreatedAt": "2026-10-25T16:10:14.881Z",
+    "archivedSessionIdentityAndCreationTimestampMatchBefore": true,
+    "restoredHistoricalSessionExplicitlyRevoked": true,
+    "revokedAtMatchesActualRestoreSecurityAuditCreatedAt": true,
+    "revocationFallsInsideActualRestoreOperation": true,
+    "auditRevokedSessionCount": 5,
+    "auditSecurityReady": true,
+    "bothPostBackupCurrentSessionsAbsentAfterRestore": true,
+    "idleExpiryNotUsedAsRevocationEvidence": true,
+    "status": "passed"
+  },
+  "readbackOperationStatus": {
+    "name": "restore-readback-resumed",
+    "startedAt": "2026-10-25T16:15:21.561941+00:00",
+    "completed": true,
+    "completedAt": "2026-10-25T16:15:37.438312+00:00",
+    "elapsedSeconds": 15.88,
+    "exitCode": 0
+  },
+  "httpDataAndFileReadback": {
+    "operation": "readback",
+    "mode": "primary",
+    "startedAt": "2026-10-25T16:15:23.332889+00:00",
+    "externalProviderActionsRequested": false,
+    "historicalSnapshotSessionStatusAfterRestore": 401,
+    "oldSessionStatuses": [
+      401,
+      401
+    ],
+    "freshLoginStatus": 200,
+    "retainedRequestFieldsRestored": true,
+    "postBackupMarkerStatus": 404,
+    "authorizedBenignDownloadStatus": 200,
+    "benignDownloadedChecksumMatches": true,
+    "eicarQuarantineStatus": 409,
+    "anonymousPrivateDownloadStatuses": [
+      404,
+      404
+    ],
+    "mandatoryPreRestoreEncryptedBackupRetained": {
+      "bytes": 181702136,
+      "sha256": "fab09a83a617775285d2e1723695a9af7e743bd2fec7e66f9ab0c4738e369c1f"
+    },
+    "pendingRestoreGuardClearedAfterSuccess": true,
+    "ownedFixtureDisabledAfterReadback": true,
+    "status": "passed",
+    "completedAt": "2026-10-25T16:15:37.325122+00:00"
+  },
+  "postRestoreHealthStatus": {
+    "name": "health",
+    "startedAt": "2026-10-25T16:15:57.596794+00:00",
+    "completed": true,
+    "completedAt": "2026-10-25T16:16:12.257847+00:00",
+    "elapsedSeconds": 14.664,
+    "exitCode": 0
+  },
+  "postRestoreDoctorStatus": {
+    "name": "doctor",
+    "startedAt": "2026-10-25T16:15:57.621536+00:00",
+    "completed": true,
+    "completedAt": "2026-10-25T16:17:07.428565+00:00",
+    "elapsedSeconds": 69.811,
+    "exitCode": 0
+  },
+  "doctorVerifiedReadiness": [
+    "application",
+    "worker heartbeat",
+    "local antivirus",
+    "independent privacy ledger and database gate"
+  ],
+  "runtimeAssets": {
+    "observedAt": "2026-10-25T16:16:05.045688+00:00",
+    "status": "passed",
+    "actualDockerBuildId": "9PsqpWkzxqBu9_tPY-Ykq",
+    "imageId": "sha256:78d8c938db87fb9d1c3c455f8f5727e17e8c7dcadce4a570e253b8504b181bb4",
+    "imageIdentityUnchanged": true,
+    "health": {
+      "status": 200,
+      "database": "ok",
+      "privacy": "ready"
+    },
+    "requiredRuntimeAssets": {
+      "public/media/environment/blue-lagoon-1k.hdr": {
+        "bytes": 1559027,
+        "sha256": "6d5d4e19954d5f8efd74124ee7d21e5d69efb61d5398d2e16a019fd67fa591dd"
+      },
+      "public/media/environment/blue-lagoon-1k.hdr.gz": {
+        "bytes": 1197664,
+        "sha256": "75f23bf11ad81c6ef425b00e3258717bf7e2cd17625f6b1986aa2809b2fac315"
+      },
+      "public/offline/fa.html": {
+        "bytes": 1965,
+        "sha256": "390eaf04aa17502ae2401ba4d4b355c8f42470343887a5f91556e394e621f63d"
+      },
+      "public/offline/en.html": {
+        "bytes": 1731,
+        "sha256": "90217158e3463f15608788b7935b4a4517b43023fbe39e093d4c59b8190601ea"
+      },
+      "public/offline/tr.html": {
+        "bytes": 1791,
+        "sha256": "37db640245835879433bd7067ac96af053795c608dcf56b29d7af7c739b4e657"
+      },
+      "public/offline/ar.html": {
+        "bytes": 1944,
+        "sha256": "5b91e0b58bf6a4167501d9d56bdb5dce8b621c22f8e030e337d419c489dca057"
+      },
+      "public/offline/ru.html": {
+        "bytes": 2011,
+        "sha256": "d9d1b7341b949986c9ef5c1a41ee3c3e170321a3af3a665bb90b81a821998a47"
+      }
+    },
+    "allSevenAssetChecksumsMatchAuthenticatedBackupSource": true
+  },
+  "originalPrivateLogDigests": {
+    "restore.private.log": {
+      "bytes": 5457,
+      "sha256": "ac8662e658f8669e5488cb6e527ae89b70a0c551146f5236b04168f12e764939"
+    },
+    "restore-readback-resumed.private.log": {
+      "bytes": 913,
+      "sha256": "525d1cef946b013a9d9266b3822b2190279e1443c1d4a6a75bd3ea1611eef466"
+    },
+    "health.private.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "doctor.private.log": {
+      "bytes": 2093,
+      "sha256": "335a7ad0425538ecbd534fd2465ad4c82b1c3196993eb10704f36e04b16cec73"
+    }
+  },
+  "expiredCookieNotCreditedAsRevocation": true,
+  "privateExactSessionAndAuditRowsRetainedBeforeFixtureCleanup": true,
+  "sourceAndRequiredAssetsWereIndependentlyAuthenticatedInDownloadedBackup": true,
+  "inPlaceRestoreUsesAlreadyMatchingInstalledRelease": true,
+  "keysCookiesSessionIdsFixtureIdentifiersAndPrivatePathsExported": false
+}

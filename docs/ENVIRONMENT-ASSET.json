@@ -1,0 +1,12 @@
+{
+  "asset": "Blue Lagoon",
+  "creator": "Greg Zaal",
+  "source": "https://polyhaven.com/a/blue_lagoon",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://polyhaven.com/license",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/blue_lagoon_1k.hdr",
+  "localPath": "/media/environment/blue-lagoon-1k.hdr",
+  "sizeBytes": 1559027,
+  "sha256": "6d5d4e19954d5f8efd74124ee7d21e5d69efb61d5398d2e16a019fd67fa591dd",
+  "use": "Environment illumination and surface reflections only. This is not a photograph of the factory."
+}

@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "kind": "read-only-update02-final-state-execution",
+  "completedAt": "2026-10-24T17:25:56.964113+00:00",
+  "helperSha256": "3139da8a9d2edfdba75f8e87361b3b1ab6d4cc7823e9515f4904cd096cd441c6",
+  "hostGuardSha256": "4156b74d5c5ad3869c7cc246e36315345789b1bfc79fdd7cf856baa17562f4a4",
+  "outerSessionId": 71313,
+  "outerExitCode": 0,
+  "outerWaitConsumed": true,
+  "sshExitCode": 0,
+  "payloadStatus": "captured",
+  "payloadSha256": "fb4375b37a6279e2571aa651d43842e453649ab4e929aaa3801e45a793b17079",
+  "payloadCanonicalSha256": "a208f3c1fbb4fc293cdcff696bee6615ef6f6c27759405539e456b3eb5078dfa",
+  "originalUpdateExitCode": 124,
+  "readOnlyObservationOnly": true,
+  "furtherPhaseExecuted": false
+}

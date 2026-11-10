@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "kind": "collected-owned-guest-outcome",
+  "guest": "recovery",
+  "job": "security-witness",
+  "status": "passed",
+  "exitCode": 0,
+  "actualGuestWaitConsumed": true,
+  "startedAt": "2026-10-25T06:16:50.317924+00:00",
+  "completedAt": "2026-10-25T06:17:08.300701+00:00",
+  "elapsedSeconds": 17.985373,
+  "files": {
+    "outcome.safe.json": {
+      "bytes": 397,
+      "sha256": "7646a20da2a285c49e3cf941c6f499218cb2630a7380ded34e8f8997b5b8d7af",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "start.safe.json": {
+      "bytes": 387,
+      "sha256": "be5a2decde08f3a1dffde715c3166bda7421512080c5b6eba25abd2321c64e20",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "stdout.private": {
+      "bytes": 1675,
+      "sha256": "b986f58432f9bd549ee3798fc7ecb6572a378ed0890f0e810923c19e1d9d21d2",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    },
+    "stderr.private.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sshExitCode": 0,
+      "sshActualWaitConsumed": true
+    }
+  },
+  "result": {
+    "schema": 1,
+    "kind": "exact-session-revocation-at-restore-before-login",
+    "status": "passed",
+    "completedAt": "2026-10-25T06:17:08.201446+00:00",
+    "mode": "recovery",
+    "baselineSha256": "c96c095c4814d93c3b0438b2ffdbcf0d3e065fd386f5ae43f5d9472f5f312e6a",
+    "exactOriginalSessionsRevokedAtRestoreAuditTimestamp": 3,
+    "exactSessionIdUserIdAndTokenHashMatched": true,
+    "restoreAuditWithinSuccessfulOriginalJobInterval": true,
+    "restoreJobOutcomeSha256": "f2962f4b16c616a230bff3a055a424cbbf738d81055647268303009885660b67",
+    "exactMfaAccountsWithSameSecretFingerprintAndAdvancedReplayCounter": 2,
+    "latestExportedPrivacyLedgerHeadMatchesRecoveredApplication": true,
+    "recoveredPrivacyLedgerHead": {
+      "format": 1,
+      "fingerprint": "ccd57c3aded2927085e5ee3d8a88aac07bc55733008f2749a1fe769e885fb6c3",
+      "sequence": 1,
+      "hash": "f26601fa50bd6e560e522dda46e1933ea8444a81826fe86acd76c8cc53d4e8c0"
+    },
+    "privacyErasedSessionAbsent": true,
+    "capturedBeforeVerifierLogin": true,
+    "proofIsDatabaseRevocationNotOnlyRejectedCookies": true,
+    "counts": {
+      "latestRestoreAudit": {
+        "createdAt": "2026-10-25T06:02:05.388911+00:00",
+        "result": {
+          "ready": true,
+          "alreadyApplied": false,
+          "groupsDisabled": 0,
+          "accountsMatched": 0,
+          "sessionsRevoked": 3,
+          "accessReconciled": false,
+          "accountsDisabled": 0,
+          "challengesConsumed": 0,
+          "enrollmentsCleared": 0,
+          "identityMismatches": 0,
+          "membershipsRestored": 0,
+          "credentialMismatches": 0,
+          "recoveryCodesCleared": 20,
+          "authMessagesCancelled": 0,
+          "membershipsUnavailable": 0,
+          "missingCurrentAccounts": 0,
+          "staffInvitationsRevoked": 0,
+          "organizationInvitationsRevoked": 0
+        }
+      },
+      "unrevokedSessions": 0,
+      "unconsumedChallenges": 0,
+      "recoveryCodesRemaining": 0,
+      "pendingMfa": 0,
+      "enrolledMfa": 2
+    }
+  }
+}

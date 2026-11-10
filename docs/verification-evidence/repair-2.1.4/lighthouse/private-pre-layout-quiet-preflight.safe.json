@@ -1,0 +1,18 @@
+{
+  "format": "final-lighthouse-quiet-preflight-v1",
+  "verifiedAt": "2026-10-25T17:00:45.203Z",
+  "buildId": "NWcRPAySX3HCzbpKSDJNf",
+  "readyHttpStatus": 200,
+  "publicContentHash": "c81fb2b40e486f8608c7c7da584d76197bef191244fad9d1b45128ddbb7e8e74",
+  "servedAssetsHash": "dee498d89e963c5fdf428c3d6923616bf49c0937d24020a1448faaab226b4549",
+  "privateWorkloadHash": "4035a44c30abd3f295d668d3a563fd44eda220f7b7e444ecc677fc52c69fc976",
+  "frozenManifestAndInventoryHashesMatch": true,
+  "privateDatabaseIdentityMatches": true,
+  "chromeVersion": "Google Chrome for Testing 156.0.8078.4",
+  "scoringFlagsMatch": true,
+  "competingVmBuildBrowserProcesses": 0,
+  "lighthouseProfilesLaunched": 0,
+  "expectedPrivateJobs": 530,
+  "expectedPublicJobs": 620,
+  "note": "Read-only native/HTTP/database/configuration verification after confirmed normal VM shutdown. Chrome was invoked only with --version. Full scoring begins separately."
+}

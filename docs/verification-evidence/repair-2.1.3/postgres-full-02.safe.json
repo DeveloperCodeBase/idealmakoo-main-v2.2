@@ -1,0 +1,12 @@
+{
+  "kind": "postgres-full-02",
+  "startedAt": "2026-10-25T03:20:53.586869+00:00",
+  "finishedAt": "2026-10-25T03:24:07.825467+00:00",
+  "seconds": 194.23860301000013,
+  "exitCode": 0,
+  "waited": true,
+  "sourceSha256Before": "baa58aec548bde226f763b32ee7afa771f161fca26288aa2f9a0b55a27c36984",
+  "sourceSha256After": "baa58aec548bde226f763b32ee7afa771f161fca26288aa2f9a0b55a27c36984",
+  "counts": {},
+  "logSha256": "72279b9596974868574c4f1be15995fac3a3ebbfdfc239438b8070dbf922c7f8"
+}

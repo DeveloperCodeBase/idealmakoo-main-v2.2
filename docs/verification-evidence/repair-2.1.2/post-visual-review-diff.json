@@ -1,0 +1,19 @@
+{
+  "kind": "post-visual-review-source-diff",
+  "build01": "465mrmSBkXhZyeUpjbPjF",
+  "changedInputs": [
+    "src/components/experience/ToothExperience.tsx",
+    "src/components/site/ImmersiveHero.tsx"
+  ],
+  "count": 2,
+  "backendAndDatabaseInputsUnchanged": true,
+  "sourceChanges": "Localized visible generic assistant hints and labels only; no CSS/assets/rendering changes.",
+  "before": {
+    "src/components/experience/ToothExperience.tsx": "bfa2d0f6ddfc2d7df385eafd024de9c86d5eedf070e23f8108b2a83e7458767c",
+    "src/components/site/ImmersiveHero.tsx": "f286d739e6dd7b2c9dfe4c9bed87978a8e3ef12ab1913e95c162632150c48549"
+  },
+  "after": {
+    "src/components/experience/ToothExperience.tsx": "2d4c7900ab649de0a2829dc026a5dd3d3a49e87d96e6b17bcc05d133f0865b60",
+    "src/components/site/ImmersiveHero.tsx": "c1f3a4aceace20a341e4410c6e9bd54a63d4bf2f0147312a26f1502c87472a95"
+  }
+}

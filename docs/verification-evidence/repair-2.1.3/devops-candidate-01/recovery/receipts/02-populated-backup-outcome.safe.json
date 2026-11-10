@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "kind": "original-backup-download-outcome",
+  "status": "passed",
+  "startedAt": "2026-10-25T04:53:23.446257+00:00",
+  "completedAt": "2026-10-25T04:59:20.432518+00:00",
+  "elapsedSeconds": 356.986261,
+  "pid": 20442,
+  "exitCode": 0,
+  "actualWaitConsumed": true,
+  "timedOut": false,
+  "sourceZipSha256": "2deb94d17e0852d75102461fa566555c973f632320729a366a73b86ae9381574",
+  "sourceVersion": "2.1.3",
+  "archivePath": "/workspace/scratch/6682bce41bc7/acceptance/continuation-20261025/devops/populated-backup/website.tar.age",
+  "archiveSha256": "16241e3721301550c7cc006f876dfc5df60773e47b94ab2b06a5b4681160a35c",
+  "archiveBytes": 178578184,
+  "recoveryIdentityExists": true,
+  "recoveryIdentitySeparate": true,
+  "exactOriginalScriptExecuted": true
+}

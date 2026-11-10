@@ -1,0 +1,157 @@
+{
+  "format": "forms-lease-failure-readonly-diagnostic-v1",
+  "observedAt": "2026-10-25T20:46:22.021Z",
+  "queryPolicy": "Existing guarded disposable database; one read-only transaction with 2-second statement bound; exact owned actor IDs remain in memory; no mutation, browser, HTTP or lease clearing.",
+  "originalResultSha256": "a05479fec38cf334a0327d7dd69ae15b13a8d2a4b96e18daf7409f233f55cfd0",
+  "originalReportSha256": "d3fa31cf1840ac3490490df3ed605255b7e3eb4b890ebbdd31148b1c65b298dc",
+  "attempt": {
+    "role": "superAdmin",
+    "locale": "tr",
+    "route": "admin/forms",
+    "attempt": 1,
+    "status": "error",
+    "errorCode": "AUDIT_EDITOR_CLEANUP_FAILED",
+    "startedAt": "2026-10-25T20:43:25.649Z",
+    "finishedAt": "2026-10-25T20:43:46.939Z",
+    "cleanup": {
+      "policy": "authenticated-robots-committed-lease-release-v1",
+      "beforeCount": 0,
+      "trackedCount": 1,
+      "remainingCount": 1,
+      "releasedCount": 0,
+      "observedReleaseRequests": 0,
+      "observedReleaseResponses": 0,
+      "observedReleaseFailures": 0,
+      "observedRequestFailures": 0,
+      "durationMs": 15000,
+      "budgetMs": 15000,
+      "settledForMs": 14904,
+      "success": false,
+      "destinationVerified": true,
+      "navigationStatus": 200,
+      "releaseStatuses": []
+    }
+  },
+  "events": [
+    {
+      "action": "content.lease.acquired",
+      "leaseLabel": "lease-1",
+      "serverTransactionTime": "2026-10-25T20:43:27.803Z",
+      "millisecondsFromAttemptStart": 2154
+    },
+    {
+      "action": "content.lease.released",
+      "leaseLabel": "lease-1",
+      "serverTransactionTime": "2026-10-25T20:43:31.236Z",
+      "millisecondsFromAttemptStart": 5587
+    },
+    {
+      "action": "content.lease.acquired",
+      "leaseLabel": "lease-2",
+      "serverTransactionTime": "2026-10-25T20:43:31.953Z",
+      "millisecondsFromAttemptStart": 6304
+    }
+  ],
+  "remainingOwnedRows": [
+    {
+      "leaseLabel": "lease-2",
+      "createdAt": "2026-10-25T20:43:31.953Z",
+      "renewedAt": "2026-10-25T20:43:31.953Z",
+      "leaseUntil": "2026-10-25T20:45:31.953Z",
+      "activeAtReadback": false
+    }
+  ],
+  "actorShutdown": [
+    {
+      "role": "superAdmin",
+      "active": false,
+      "sessions": 3,
+      "unrevokedSessions": 0,
+      "lastRevokedAt": "2026-10-25T20:43:46.989Z"
+    },
+    {
+      "role": "customer",
+      "active": false,
+      "sessions": 1,
+      "unrevokedSessions": 0,
+      "lastRevokedAt": "2026-10-25T19:57:59.839Z"
+    },
+    {
+      "role": "admin",
+      "active": false,
+      "sessions": 0,
+      "unrevokedSessions": 0,
+      "lastRevokedAt": null
+    },
+    {
+      "role": "contentEditor",
+      "active": false,
+      "sessions": 0,
+      "unrevokedSessions": 0,
+      "lastRevokedAt": null
+    },
+    {
+      "role": "productManager",
+      "active": false,
+      "sessions": 0,
+      "unrevokedSessions": 0,
+      "lastRevokedAt": null
+    },
+    {
+      "role": "scientificReviewer",
+      "active": false,
+      "sessions": 0,
+      "unrevokedSessions": 0,
+      "lastRevokedAt": null
+    },
+    {
+      "role": "translator",
+      "active": false,
+      "sessions": 0,
+      "unrevokedSessions": 0,
+      "lastRevokedAt": null
+    },
+    {
+      "role": "publisher",
+      "active": false,
+      "sessions": 0,
+      "unrevokedSessions": 0,
+      "lastRevokedAt": null
+    },
+    {
+      "role": "hr",
+      "active": false,
+      "sessions": 0,
+      "unrevokedSessions": 0,
+      "lastRevokedAt": null
+    },
+    {
+      "role": "business",
+      "active": false,
+      "sessions": 0,
+      "unrevokedSessions": 0,
+      "lastRevokedAt": null
+    },
+    {
+      "role": "analyst",
+      "active": false,
+      "sessions": 0,
+      "unrevokedSessions": 0,
+      "lastRevokedAt": null
+    },
+    {
+      "role": "support",
+      "active": false,
+      "sessions": 0,
+      "unrevokedSessions": 0,
+      "lastRevokedAt": null
+    }
+  ],
+  "allOwnedActorsInactive": true,
+  "allOwnedSessionsRevoked": true,
+  "qualifications": [
+    "Event timestamps use PostgreSQL transaction time, not measured HTTP response or exact commit completion time.",
+    "Current expiry or shutdown does not retroactively make the original 15-second cleanup successful.",
+    "Lease labels correlate this finite result only; no actor, lease, document, session ID or token is exported."
+  ]
+}

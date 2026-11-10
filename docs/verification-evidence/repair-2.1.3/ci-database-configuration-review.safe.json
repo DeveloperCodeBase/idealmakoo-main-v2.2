@@ -1,0 +1,31 @@
+{
+  "kind": "ci-database-configuration-review",
+  "reviewedAt": "2026-10-25T03:39:23.773544+00:00",
+  "type": "static",
+  "ciExecuted": false,
+  "ciModificationRequired": false,
+  "pgFiles": 48,
+  "databaseSelection": {
+    "directOwnerFallback": 18,
+    "sharedOwnerFallback": 27,
+    "noDatabaseRequired": 3
+  },
+  "noDatabaseFiles": [
+    "tests/server-media-response.pg.mjs",
+    "tests/server-workspace-calendar.pg.mjs",
+    "tests/server-workspace-policy.pg.mjs"
+  ],
+  "finding": "All database fixtures and API suite accept MIGRATION_DATABASE_URL. Both role-denial tests use existing TEST_RUNTIME_DATABASE_URL before attempting temporary CREATE ROLE. CI already provides that restricted runtime connection and initial owner/app role separation; public pgcrypto/vector extensions are preinstalled. No missing TEST_ADMIN_DATABASE_URL defect found.",
+  "limitations": [
+    "This review does not claim a GitHub-hosted CI run or a second complete 548-test execution using CI credentials."
+  ],
+  "reviewedFiles": {
+    ".github/workflows/ci.yml": "40805b7c1d5acf4102767ed91247b9c9c2d11c57aafa4611fd29ad610a53eee9",
+    "deploy/postgres/init-roles.sh": "a3affd9fb2a6a445c588206177223f90cfbf844f0f22f148affc6150f49ff04a",
+    "tests/helpers/crm-recovery-environment.mjs": "a09b5e46d9addde3f38d1571556379502d4936d5dfc27642955c9480bf3e3c5a",
+    "tests/server-restore-security.pg.mjs": "a2a28c5064e5678f8da31c124046445be022a6189206457778211f5d58982ba9",
+    "tests/server-staff-mfa-reset.pg.mjs": "a9e01159ba06bbe22f5abb1f194850e8f60136fcfcff9b2f3b32f5cb762caa77",
+    "tests/server-api.integration.test.ts": "ebe036e7224f4fd1c62a04785b83f1af386c97d1aa4ad1e25cfecdb3ed61fa68",
+    "db/migrations/030_semantic_knowledge.sql": "e30d43c2e4acc4eb7a6b94eb9ceada20b2af414e89d6de0f0235fb5365baedd5"
+  }
+}

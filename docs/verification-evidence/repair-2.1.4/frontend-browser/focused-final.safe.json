@@ -1,0 +1,66 @@
+{
+  "scope": "focused",
+  "stage": "probe",
+  "attempt": 1,
+  "startedAt": "2026-10-25T18:59:30.352Z",
+  "buildId": "ir2DFJg8r5YdpbVQubUqF",
+  "inputFingerprint": "4fcec50f5846b0affccc59e43798613ba134a3f93559ea5ddba9705e1f38cc58",
+  "expectedCases": 4,
+  "CIUnset": true,
+  "workers": 1,
+  "retries": 0,
+  "structuredReportParsed": true,
+  "accepted": true,
+  "observedCommandExitCode": 0,
+  "observedSignal": null,
+  "durationSeconds": 14.626170931999999,
+  "reportedCaseCount": 4,
+  "everyCaseHasExactlyOneResult": true,
+  "everyCasePassed": true,
+  "reportedWorkers": 1,
+  "reportedRetries": [
+    0
+  ],
+  "runnerErrorCount": 0,
+  "finishedAt": "2026-10-25T18:59:44.985Z",
+  "schema": "idealmakoo.frontend-browser-run.v1",
+  "stats": {
+    "startTime": "2026-10-25T18:59:30.792Z",
+    "durationMs": 14175.67,
+    "expected": 4,
+    "unexpected": 0,
+    "flaky": 0,
+    "skipped": 0
+  },
+  "structuredReport": {
+    "sha256": "2e7a16683b283f8df9de432dd2f9450b2ff7fa3708ac9c5bd6a7cf3c8df85bb4",
+    "bytes": 8696
+  },
+  "terminalLog": {
+    "sha256": "68969616582182a9a4235e6b1381589ac7f50d0c704a7d41cfddefee9ff666cf",
+    "bytes": 870
+  },
+  "terminalFooter": [
+    "4 passed (14.2s)"
+  ],
+  "privateArtifacts": {
+    "fileCount": 3,
+    "totalBytes": 9611,
+    "manifestSha256": "f114d9b6ef254f537d495a87b152a2d819852ccca0dd3daa5ff682347972826c",
+    "manifestBytes": 482,
+    "copiedToPublicEvidence": false
+  },
+  "rawReceiptSha256": "9b4fbcf57b9152449b0ce41ec1f00efa8c5e5bf403a3c9c1083fd73b4a2632b9",
+  "limitations": [
+    "Four affected scenarios are an overlapping subset of the full 69, not four additional unique full-suite cases.",
+    "Controlled browser clock releases the actual initial-focus callback; no forced click or application test hook.",
+    "The original39-character input truncation was not reproduced causally; later exact pre-save value assertions pass."
+  ],
+  "privateMaterialIncluded": false,
+  "coverage": [
+    "Deliberate field focus and exact input survive the delayed initial-focus callback.",
+    "Native initial Close focus, Tab/Shift-Tab, Escape, return to the actual asynchronous Edit opener, and later normal Close.",
+    "Ordinary Carousel detail explicit Close despite a preceding link; native fullscreen and browser-denied fallback.",
+    "Older accounts beyond 1000 customers, exact edited names, directory pagination and pinned handover target across searches."
+  ]
+}

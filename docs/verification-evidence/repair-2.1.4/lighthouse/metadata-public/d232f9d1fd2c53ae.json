@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/marketing-training/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "b32748c26a4995fb7e44b42a6f7de2e636b387219ea8196881eb64539894ebff",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "إدارة السوق والتعلم | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "فهم احتياجات المستخدم ودراسة السوق والتحسين المستمر وتطوير الموظفين."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/marketing-training/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/marketing-training/",
+    "en": "http://127.0.0.1:3100/en/marketing-training/",
+    "tr": "http://127.0.0.1:3100/tr/marketing-training/",
+    "ar": "http://127.0.0.1:3100/ar/marketing-training/",
+    "ru": "http://127.0.0.1:3100/ru/marketing-training/",
+    "x-default": "http://127.0.0.1:3100/fa/marketing-training/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 96
+}

@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/research/six-teeth-wear-rate/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "7c49581919491c48d33fa2b53cffaa7fa243d1947400687e4127ea55448b8f96",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "مقارنة معدل تآكل ستة أنواع أسنان صناعية | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "مقارنة ست مجموعات باستخدام قرص ألومينا ولعاب اصطناعي وقياس تغير الوزن."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/research/six-teeth-wear-rate/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/research/six-teeth-wear-rate/",
+    "en": "http://127.0.0.1:3100/en/research/six-teeth-wear-rate/",
+    "tr": "http://127.0.0.1:3100/tr/research/six-teeth-wear-rate/",
+    "ar": "http://127.0.0.1:3100/ar/research/six-teeth-wear-rate/",
+    "ru": "http://127.0.0.1:3100/ru/research/six-teeth-wear-rate/",
+    "x-default": "http://127.0.0.1:3100/fa/research/six-teeth-wear-rate/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 73
+}

@@ -1,0 +1,6 @@
+"url","device","kind","indexed","expectedStatus","httpStatus","status","performance","accessibility","best-practices","seo","largest-contentful-paint","total-blocking-time","cumulative-layout-shift","durationMs","error"
+"http://127.0.0.1:3100/offline/ar.html","mobile","public-offline-document","false","200","200","completed","99","100","96","54","766.8963000000001","93","0","5756",""
+"http://127.0.0.1:3100/offline/en.html","mobile","public-offline-document","false","200","200","completed","100","100","96","54","618.1585","0","0","5809",""
+"http://127.0.0.1:3100/offline/fa.html","mobile","public-offline-document","false","200","200","completed","100","100","96","54","763.7094","62","0","5649",""
+"http://127.0.0.1:3100/offline/ru.html","mobile","public-offline-document","false","200","200","completed","100","100","96","54","610.00705","0","0","5551",""
+"http://127.0.0.1:3100/offline/tr.html","mobile","public-offline-document","false","200","200","completed","100","100","96","54","611.9375","9","0","5541",""

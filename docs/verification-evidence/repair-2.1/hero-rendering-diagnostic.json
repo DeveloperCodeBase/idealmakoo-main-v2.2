@@ -1,0 +1,308 @@
+{
+  "kind": "Diagnostic rendering investigation; not Lighthouse scores or a product performance fix",
+  "buildId": "ZExXgIfF-M2np679FYhoQ",
+  "applicationChangedBetweenVariants": false,
+  "baseline": {
+    "context": [
+      {
+        "type": "webgl2",
+        "requested": {
+          "alpha": true,
+          "depth": true,
+          "stencil": false,
+          "antialias": true,
+          "premultipliedAlpha": true,
+          "preserveDrawingBuffer": false,
+          "powerPreference": "high-performance",
+          "failIfMajorPerformanceCaveat": false
+        },
+        "actual": {
+          "alpha": true,
+          "antialias": true,
+          "depth": true,
+          "desynchronized": false,
+          "failIfMajorPerformanceCaveat": false,
+          "powerPreference": "high-performance",
+          "premultipliedAlpha": true,
+          "preserveDrawingBuffer": false,
+          "stencil": false,
+          "xrCompatible": false
+        },
+        "at": 1698.300000000745
+      }
+    ],
+    "longTasks": 20,
+    "longTaskMs": 10715,
+    "rafCount": 24,
+    "rafCallbackMs": 519.0000000055879,
+    "interaction": {
+      "menuOpened": true,
+      "elapsedMs": 8069
+    },
+    "observedEventTimingMaximumMs": 1184,
+    "mainThreadTimeline": [
+      {
+        "name": "RunTask",
+        "count": 1903,
+        "totalMs": 11937.859,
+        "maximumMs": 1660.094,
+        "medianMs": 0.006
+      },
+      {
+        "name": "ProxyMain::BeginMainFrame",
+        "count": 108,
+        "totalMs": 11298.764000000001,
+        "maximumMs": 1659.943,
+        "medianMs": 2.951
+      },
+      {
+        "name": "Commit",
+        "count": 108,
+        "totalMs": 10475.803,
+        "maximumMs": 1216.198,
+        "medianMs": 0.473
+      },
+      {
+        "name": "LayerTreeHost::DoUpdateLayers",
+        "count": 99,
+        "totalMs": 10429.736,
+        "maximumMs": 1215.19,
+        "medianMs": 0.117
+      },
+      {
+        "name": "GLES2::ReadPixels",
+        "count": 17,
+        "totalMs": 10408.21,
+        "maximumMs": 1214.282,
+        "medianMs": 560.991
+      },
+      {
+        "name": "ImplementationBase::WaitForCmd",
+        "count": 94,
+        "totalMs": 10870.9,
+        "maximumMs": 1213.116,
+        "medianMs": 0.477
+      },
+      {
+        "name": "CommandBufferHelper::Finish",
+        "count": 94,
+        "totalMs": 10870.797,
+        "maximumMs": 1213.114,
+        "medianMs": 0.4765
+      },
+      {
+        "name": "CommandBufferProxyImpl::WaitForGetOffset",
+        "count": 94,
+        "totalMs": 10867.823,
+        "maximumMs": 1213.065,
+        "medianMs": 0.451
+      },
+      {
+        "name": "FireAnimationFrame",
+        "count": 25,
+        "totalMs": 525.3,
+        "maximumMs": 434.452,
+        "medianMs": 3.807
+      },
+      {
+        "name": "FunctionCall",
+        "count": 428,
+        "totalMs": 710.175,
+        "maximumMs": 434.419,
+        "medianMs": 0.016
+      }
+    ],
+    "blockingChain": [
+      "Commit",
+      "LayerTreeHost::DoUpdateLayers",
+      "GLES2::ReadPixels",
+      "ImplementationBase::WaitForCmd",
+      "CommandBufferHelper::Finish",
+      "CommandBufferProxyImpl::WaitForGetOffset"
+    ]
+  },
+  "desynchronized": {
+    "status": "Rejected diagnostic; incomplete final sample and interaction timeout",
+    "contexts": [
+      {
+        "at": 1931.300000000745,
+        "kind": "context",
+        "requested": {
+          "alpha": true,
+          "depth": true,
+          "stencil": false,
+          "antialias": true,
+          "premultipliedAlpha": true,
+          "preserveDrawingBuffer": false,
+          "powerPreference": "high-performance",
+          "failIfMajorPerformanceCaveat": false,
+          "desynchronized": true
+        },
+        "actual": {
+          "alpha": true,
+          "antialias": true,
+          "depth": true,
+          "desynchronized": true,
+          "failIfMajorPerformanceCaveat": false,
+          "powerPreference": "high-performance",
+          "premultipliedAlpha": true,
+          "preserveDrawingBuffer": false,
+          "stencil": false,
+          "xrCompatible": false
+        }
+      }
+    ],
+    "lastCheckpoint": {
+      "at": 11879.60000000149,
+      "kind": "heartbeat",
+      "longTasks": 9,
+      "longTaskMs": 2525,
+      "maxLongTaskMs": 625,
+      "rafCount": 21,
+      "rafMs": 441.4999999962747,
+      "maxRafMs": 377.7999999988824,
+      "events": [],
+      "scene": "ready"
+    },
+    "sample": {
+      "error": "End-of-window snapshot exceeded 4000ms"
+    },
+    "interaction": {
+      "error": "locator.click: Timeout 4500ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.mobile-toggle')\u001b[22m\n",
+      "elapsedMs": 4504
+    },
+    "gpuFeatureStatus": {
+      "2d_canvas": "unavailable_software",
+      "direct_rendering_display_compositor": "disabled_off_ok",
+      "gpu_compositing": "disabled_software",
+      "multiple_raster_threads": "enabled_on",
+      "opengl": "disabled_off",
+      "rasterization": "disabled_software",
+      "raw_draw": "disabled_off_ok",
+      "skia_graphite": "disabled_off",
+      "trees_in_viz": "disabled_off",
+      "video_decode": "disabled_software",
+      "video_encode": "disabled_software",
+      "vulkan": "disabled_off",
+      "webgl": "unavailable_software",
+      "webgpu": "unavailable_software",
+      "webgpu_on_vk_via_gl_interop": "disabled_off",
+      "webnn": "unavailable_software"
+    },
+    "errors": [],
+    "earlierTracedAttempt": "The first traced attempt stalled at end-of-window page.evaluate and its owned process tree was terminated. No complete sample is claimed."
+  },
+  "angleDriver": {
+    "chromeFlags": [
+      "--no-sandbox",
+      "--disable-dev-shm-usage",
+      "--enable-unsafe-swiftshader",
+      "--use-gl=angle",
+      "--use-angle=swiftshader"
+    ],
+    "gpuFeatureStatus": {
+      "2d_canvas": "enabled",
+      "direct_rendering_display_compositor": "disabled_off_ok",
+      "gpu_compositing": "enabled",
+      "multiple_raster_threads": "enabled_on",
+      "opengl": "enabled_on",
+      "rasterization": "enabled",
+      "raw_draw": "disabled_off_ok",
+      "skia_graphite": "disabled_off",
+      "trees_in_viz": "disabled_off",
+      "video_decode": "enabled",
+      "video_encode": "disabled_software",
+      "vulkan": "disabled_off",
+      "webgl": "enabled",
+      "webgpu": "unavailable_software",
+      "webgpu_on_vk_via_gl_interop": "disabled_off",
+      "webnn": "disabled_off"
+    },
+    "gpuDevices": [
+      {
+        "vendorId": 65535,
+        "deviceId": 65535,
+        "vendorString": "Google Inc. (Google)",
+        "deviceString": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver-5.0.0)",
+        "driverVendor": "SwANGLE",
+        "driverVersion": "5.0.0"
+      }
+    ],
+    "contexts": [
+      {
+        "at": 2901.4000000003725,
+        "kind": "context",
+        "requested": {
+          "alpha": true,
+          "depth": true,
+          "stencil": false,
+          "antialias": true,
+          "premultipliedAlpha": true,
+          "preserveDrawingBuffer": false,
+          "powerPreference": "high-performance",
+          "failIfMajorPerformanceCaveat": false
+        },
+        "actual": {
+          "alpha": true,
+          "antialias": true,
+          "depth": true,
+          "desynchronized": false,
+          "failIfMajorPerformanceCaveat": false,
+          "powerPreference": "high-performance",
+          "premultipliedAlpha": true,
+          "preserveDrawingBuffer": false,
+          "stencil": false,
+          "xrCompatible": false
+        }
+      }
+    ],
+    "sample": {
+      "at": 12123.599999999627,
+      "longTasks": 4,
+      "longTaskMs": 1961,
+      "maxLongTaskMs": 935,
+      "rafCount": 22,
+      "rafMs": 1009.6000000033528,
+      "maxRafMs": 931,
+      "events": [],
+      "scene": "ready"
+    },
+    "interaction": {
+      "menuOpened": true,
+      "elapsedMs": 894
+    },
+    "errors": []
+  },
+  "sources": {
+    "chromiumSwiftShaderModes": "https://github.com/chromium/chromium/blob/main/docs/gpu/swiftshader.md",
+    "chromeDesynchronizedCaveats": "https://developer.chrome.com/blog/desynchronized/",
+    "webglSpecification": "https://github.com/KhronosGroup/WebGL/blob/main/specs/latest/1.0/index.html"
+  },
+  "rawArtifacts": {
+    "baseline.trace.json": {
+      "bytes": 29640367,
+      "sha256": "7d028e409535841ebc94f895b77401a0ce1f01786234fde9683b11016ff9442f"
+    },
+    "baseline.json": {
+      "bytes": 18938,
+      "sha256": "e757dcbbca0d3c01b16c11da3f6d4111a6db644150a1c4dfa33e6ce2c637bcfa"
+    },
+    "desynchronized.bounded.json": {
+      "bytes": 12198,
+      "sha256": "0bd06777a47623ba175da47cc82a31a613bf5bb8ee96de3976687ddb24dc7cb9"
+    },
+    "angle.bounded.json": {
+      "bytes": 13412,
+      "sha256": "d639185ff98ac6fb3537999bfd0ed161c4f0d04876924a4fef540c5cb12df907"
+    }
+  },
+  "limits": [
+    "Each mode has one sample; instrumentation and scene startup timing differ, so this is not a controlled performance benchmark.",
+    "Timeline event totals overlap because they describe nested events; do not add them together.",
+    "The baseline trace directly demonstrates synchronous main-thread ReadPixels waits; the ANGLE driver sample did not capture a trace and does not directly prove that those calls disappear.",
+    "Playwright interaction completion includes browser scheduling and automation waits; it is not an INP measurement.",
+    "The driver flags alter the test environment, not the application, and do not establish production improvement or a Lighthouse score.",
+    "The desynchronized hint may tear or flicker; the failed diagnostics do not justify enabling it.",
+    "Installed Three r180 creates alpha:true regardless of its constructor alpha:false option; no opaque-context compositor saving is claimed."
+  ]
+}

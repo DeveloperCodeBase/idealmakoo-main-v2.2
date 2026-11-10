@@ -1,0 +1,70 @@
+{
+  "url": "http://127.0.0.1:3100/fa/products/marjan-new/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "1dc2ed3436ab352f02aa5f0b2a07e9def3a8ba9706668b4f52497ea4e2a860cd",
+  "locale": "fa",
+  "lang": "fa",
+  "dir": "rtl",
+  "titles": [
+    "دندان مصنوعی مرجان نیو | ایده‌آل ماکو"
+  ],
+  "descriptions": [
+    "مرجان نیو، سری دولایه دندان مصنوعی با گزینه‌های قالب قدامی و خلفی و تنوع رنگ."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/fa/products/marjan-new/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/products/marjan-new/",
+    "en": "http://127.0.0.1:3100/en/products/marjan-new/",
+    "tr": "http://127.0.0.1:3100/tr/products/marjan-new/",
+    "ar": "http://127.0.0.1:3100/ar/products/marjan-new/",
+    "ru": "http://127.0.0.1:3100/ru/products/marjan-new/",
+    "x-default": "http://127.0.0.1:3100/fa/products/marjan-new/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [
+    "Product",
+    "Brand",
+    "Organization"
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "دندان مصنوعی مرجان نیو",
+      "description": "مرجان نیو، سری دولایه دندان مصنوعی با گزینه‌های قالب قدامی و خلفی و تنوع رنگ.",
+      "image": "http://127.0.0.1:3100/media/official/1686378532.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "MARJAN NEW"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ideal Makoo"
+      },
+      "url": "http://127.0.0.1:3100/fa/products/marjan-new/"
+    }
+  ],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 76
+}

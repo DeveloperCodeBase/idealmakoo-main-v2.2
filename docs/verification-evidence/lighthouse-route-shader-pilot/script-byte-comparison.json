@@ -1,0 +1,1509 @@
+{
+  "observedAt": "2026-10-20T15:51:55.279189+00:00",
+  "beforeBuild": "SEGX-S68AwFNAKa-yMEjI",
+  "afterBuild": "zTyFzGk88zFYZzMkC8On8",
+  "scope": "Actual Lighthouse network Script records, all requested chunks combined; route-entry-only savings are not treated as total payload savings. Fresh Chrome/profile per URL. Different host benchmark values prevent attributing elapsed timings solely to code.",
+  "routes": [
+    {
+      "route": "/en/contact/",
+      "before": {
+        "status": "completed",
+        "scores": {
+          "performance": 45,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "first-contentful-paint": 2042.97375,
+          "largest-contentful-paint": 5817.4868750000005,
+          "speed-index": 4297.0066498389,
+          "total-blocking-time": 6136.0175,
+          "cumulative-layout-shift": 0.0001380422217268122,
+          "interactive": 11067.6825
+        },
+        "durationMs": 28799,
+        "benchmark": 548,
+        "error": null,
+        "rawReport": "2d3542e754aa45b5.attempt-1.lhr.json",
+        "rawSha256": "74b91825c22d70631e7c9353062198165448f084e32c3531be43cc9d3be2c511",
+        "jsCount": 11,
+        "jsTransfer": 566014,
+        "jsDecoded": 1948038,
+        "scriptBytes": [
+          {
+            "chunk": "page-2154674288496011.js",
+            "transfer": 268913,
+            "decoded": 992201
+          },
+          {
+            "chunk": "1986-a6459a3688958fef.js",
+            "transfer": 90929,
+            "decoded": 300644
+          },
+          {
+            "chunk": "3794-9f866eb1b07be87c.js",
+            "transfer": 67687,
+            "decoded": 243059
+          },
+          {
+            "chunk": "4bd1b696-8cd12253b448cc13.js",
+            "transfer": 64641,
+            "decoded": 203727
+          },
+          {
+            "chunk": "1074-135366284b7f20c6.js",
+            "transfer": 26632,
+            "decoded": 89616
+          },
+          {
+            "chunk": "3352-f18addd27524943f.js",
+            "transfer": 16657,
+            "decoded": 51940
+          },
+          {
+            "chunk": "4974-abe5664e6baf85df.js",
+            "transfer": 18428,
+            "decoded": 44846
+          },
+          {
+            "chunk": "8488.0be337fcbe4ba3f9.js",
+            "transfer": 7434,
+            "decoded": 15551
+          },
+          {
+            "chunk": "webpack-2bdc1429921f9723.js",
+            "transfer": 3229,
+            "decoded": 5368
+          },
+          {
+            "chunk": "layout-7a2b094642acf19c.js",
+            "transfer": 741,
+            "decoded": 557
+          },
+          {
+            "chunk": "main-app-99a798a365c5b90f.js",
+            "transfer": 723,
+            "decoded": 529
+          }
+        ],
+        "mainthread": {
+          "scriptEvaluation": 4951.0639999999175,
+          "other": 3733.2319999999954,
+          "styleLayout": 2865.9719999999998,
+          "scriptParseCompile": 806.148,
+          "parseHTML": 380.976,
+          "paintCompositeRender": 136.78799999999995,
+          "garbageCollection": 52.504
+        },
+        "bootup": [
+          {
+            "total": 4909.655999999998,
+            "scripting": 127.00800000000007,
+            "scriptParseCompile": 24.903999999999993,
+            "chunk": ""
+          },
+          {
+            "total": 2337.475999999999,
+            "scripting": 2301.6959999999995,
+            "scriptParseCompile": 1.564,
+            "chunk": "webpack-2bdc1429921f9723.js"
+          },
+          {
+            "total": 1935.8999999999937,
+            "scripting": 83.69199999999998,
+            "scriptParseCompile": 0,
+            "chunk": "Unattributable"
+          },
+          {
+            "total": 1706.103999999996,
+            "scripting": 1313.2519999999959,
+            "scriptParseCompile": 180.26,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "total": 809.2640000000002,
+            "scripting": 472.8360000000001,
+            "scriptParseCompile": 297.18000000000006,
+            "chunk": "page-2154674288496011.js"
+          },
+          {
+            "total": 483.2160000000009,
+            "scripting": 455.63600000000093,
+            "scriptParseCompile": 12.056,
+            "chunk": "1074-135366284b7f20c6.js"
+          },
+          {
+            "total": 271.4480000000001,
+            "scripting": 97.81200000000007,
+            "scriptParseCompile": 168.82000000000002,
+            "chunk": "4bd1b696-8cd12253b448cc13.js"
+          },
+          {
+            "total": 135.384,
+            "scripting": 0,
+            "scriptParseCompile": 0,
+            "chunk": "61738b0817fe208a.css"
+          },
+          {
+            "total": 99.536,
+            "scripting": 0,
+            "scriptParseCompile": 0,
+            "chunk": "8fcd9aea4312038e.css"
+          },
+          {
+            "total": 73.13999999999999,
+            "scripting": 7.023999999999991,
+            "scriptParseCompile": 63.06,
+            "chunk": "1986-a6459a3688958fef.js"
+          },
+          {
+            "total": 54.232000000000184,
+            "scripting": 46.41600000000018,
+            "scriptParseCompile": 3.468,
+            "chunk": "8488.0be337fcbe4ba3f9.js"
+          }
+        ],
+        "longtasks": [
+          {
+            "duration": 2352,
+            "startTime": 4778.99125,
+            "chunk": "webpack-2bdc1429921f9723.js"
+          },
+          {
+            "duration": 858,
+            "startTime": 3541.99125,
+            "chunk": ""
+          },
+          {
+            "duration": 810,
+            "startTime": 9911.9825,
+            "chunk": "page-2154674288496011.js"
+          },
+          {
+            "duration": 793,
+            "startTime": 2641.99125,
+            "chunk": ""
+          },
+          {
+            "duration": 647,
+            "startTime": 688.99125,
+            "chunk": "Unattributable"
+          },
+          {
+            "duration": 538,
+            "startTime": 1603.99125,
+            "chunk": ""
+          },
+          {
+            "duration": 523,
+            "startTime": 10721.9825,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "duration": 494,
+            "startTime": 8111.9825,
+            "chunk": "1074-135366284b7f20c6.js"
+          },
+          {
+            "duration": 207,
+            "startTime": 4571.99125,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "duration": 176,
+            "startTime": 2465.99125,
+            "chunk": "Unattributable"
+          },
+          {
+            "duration": 172,
+            "startTime": 4399.99125,
+            "chunk": "4bd1b696-8cd12253b448cc13.js"
+          },
+          {
+            "duration": 141,
+            "startTime": 2276.99125,
+            "chunk": "Unattributable"
+          },
+          {
+            "duration": 135,
+            "startTime": 2141.99125,
+            "chunk": "61738b0817fe208a.css"
+          },
+          {
+            "duration": 121,
+            "startTime": 7607.99125,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "duration": 100,
+            "startTime": 1339.99125,
+            "chunk": "8fcd9aea4312038e.css"
+          },
+          {
+            "duration": 87,
+            "startTime": 1439.99125,
+            "chunk": ""
+          },
+          {
+            "duration": 73,
+            "startTime": 7772.99125,
+            "chunk": "Unattributable"
+          },
+          {
+            "duration": 72,
+            "startTime": 7370.99125,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "duration": 71,
+            "startTime": 8861.9825,
+            "chunk": "1986-a6459a3688958fef.js"
+          },
+          {
+            "duration": 62,
+            "startTime": 3479.99125,
+            "chunk": "Unattributable"
+          }
+        ]
+      },
+      "after": {
+        "status": "completed",
+        "scores": {
+          "performance": 56,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "first-contentful-paint": 1938.4204499999998,
+          "largest-contentful-paint": 4139.42045,
+          "speed-index": 1938.4204499999998,
+          "total-blocking-time": 3318.0000000000005,
+          "cumulative-layout-shift": 0,
+          "interactive": 8426.0606
+        },
+        "durationMs": 14256,
+        "benchmark": 863,
+        "error": null,
+        "rawReport": "2d3542e754aa45b5.attempt-1.lhr.json",
+        "rawSha256": "281e1ac60e4244ebdf24abcd1c5563b725cb7d8be9e38bad9dd273171b43788c",
+        "jsCount": 12,
+        "jsTransfer": 403361,
+        "jsDecoded": 1251222,
+        "scriptBytes": [
+          {
+            "chunk": "159-32014ceda3c43ae4.js",
+            "transfer": 107522,
+            "decoded": 304964
+          },
+          {
+            "chunk": "1986-a6459a3688958fef.js",
+            "transfer": 90932,
+            "decoded": 300644
+          },
+          {
+            "chunk": "3794-9f866eb1b07be87c.js",
+            "transfer": 67687,
+            "decoded": 243059
+          },
+          {
+            "chunk": "4bd1b696-8cd12253b448cc13.js",
+            "transfer": 64641,
+            "decoded": 203727
+          },
+          {
+            "chunk": "1074-135366284b7f20c6.js",
+            "transfer": 26644,
+            "decoded": 89616
+          },
+          {
+            "chunk": "4974-abe5664e6baf85df.js",
+            "transfer": 18428,
+            "decoded": 44846
+          },
+          {
+            "chunk": "3515-d125df7ec3fd34cd.js",
+            "transfer": 13330,
+            "decoded": 38362
+          },
+          {
+            "chunk": "8488.07c95ca5d306fff5.js",
+            "transfer": 7517,
+            "decoded": 15793
+          },
+          {
+            "chunk": "webpack-54b929567ff44d1c.js",
+            "transfer": 3459,
+            "decoded": 5787
+          },
+          {
+            "chunk": "page-abd13151aae943da.js",
+            "transfer": 1737,
+            "decoded": 3338
+          },
+          {
+            "chunk": "layout-7a2b094642acf19c.js",
+            "transfer": 741,
+            "decoded": 557
+          },
+          {
+            "chunk": "main-app-99a798a365c5b90f.js",
+            "transfer": 723,
+            "decoded": 529
+          }
+        ],
+        "mainthread": {
+          "scriptEvaluation": 3706.4719999999447,
+          "other": 1328.6039999999973,
+          "styleLayout": 692.3840000000002,
+          "scriptParseCompile": 574.5640000000001,
+          "parseHTML": 104.31599999999999,
+          "paintCompositeRender": 101.24400000000011,
+          "garbageCollection": 28.119999999999997
+        },
+        "bootup": [
+          {
+            "total": 2784.61599999997,
+            "scripting": 2551.1439999999698,
+            "scriptParseCompile": 116.05600000000001,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "total": 1102.2640000000006,
+            "scripting": 49.40400000000002,
+            "scriptParseCompile": 65.932,
+            "chunk": ""
+          },
+          {
+            "total": 847.6639999999959,
+            "scripting": 30.807999999999996,
+            "scriptParseCompile": 0,
+            "chunk": "Unattributable"
+          },
+          {
+            "total": 760.7400000000005,
+            "scripting": 522.2640000000005,
+            "scriptParseCompile": 34.64,
+            "chunk": "1986-a6459a3688958fef.js"
+          },
+          {
+            "total": 518.9160000000002,
+            "scripting": 355.00400000000013,
+            "scriptParseCompile": 100.52800000000002,
+            "chunk": "159-32014ceda3c43ae4.js"
+          },
+          {
+            "total": 218.8920000000001,
+            "scripting": 142.2480000000001,
+            "scriptParseCompile": 67.664,
+            "chunk": "4bd1b696-8cd12253b448cc13.js"
+          },
+          {
+            "total": 173.948,
+            "scripting": 1.508,
+            "scriptParseCompile": 172.01600000000002,
+            "chunk": "1074-135366284b7f20c6.js"
+          }
+        ],
+        "longtasks": [
+          {
+            "duration": 1672.9999999999995,
+            "startTime": 3138.42045,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "duration": 757,
+            "startTime": 6657.5606,
+            "chunk": "1986-a6459a3688958fef.js"
+          },
+          {
+            "duration": 519,
+            "startTime": 7414.5606,
+            "chunk": "159-32014ceda3c43ae4.js"
+          },
+          {
+            "duration": 333.0000000000009,
+            "startTime": 7933.5606,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "duration": 322,
+            "startTime": 803.14015,
+            "chunk": ""
+          },
+          {
+            "duration": 175,
+            "startTime": 5907.5606,
+            "chunk": "1074-135366284b7f20c6.js"
+          },
+          {
+            "duration": 153.00000000000023,
+            "startTime": 1326.1401499999997,
+            "chunk": "Unattributable"
+          },
+          {
+            "duration": 122,
+            "startTime": 8266.5606,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "duration": 105,
+            "startTime": 8388.5606,
+            "chunk": "1986-a6459a3688958fef.js"
+          },
+          {
+            "duration": 83,
+            "startTime": 646.14015,
+            "chunk": "Unattributable"
+          },
+          {
+            "duration": 78,
+            "startTime": 2988.42045,
+            "chunk": "4bd1b696-8cd12253b448cc13.js"
+          },
+          {
+            "duration": 64.99999999999977,
+            "startTime": 1125.14015,
+            "chunk": ""
+          },
+          {
+            "duration": 58,
+            "startTime": 745.14015,
+            "chunk": ""
+          },
+          {
+            "duration": 55,
+            "startTime": 1190.1401499999997,
+            "chunk": "Unattributable"
+          },
+          {
+            "duration": 54,
+            "startTime": 1245.1401499999997,
+            "chunk": "Unattributable"
+          },
+          {
+            "duration": 53,
+            "startTime": 4811.42045,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "duration": 53,
+            "startTime": 4938.42045,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          }
+        ]
+      },
+      "comparableNetworkEvidence": true,
+      "delta": {
+        "jsCount": 1,
+        "jsTransfer": -162653,
+        "jsDecoded": -696816
+      },
+      "percentChange": {
+        "jsTransfer": -28.7366,
+        "jsDecoded": -35.7701
+      }
+    },
+    {
+      "route": "/fa/",
+      "before": {
+        "status": "timeout",
+        "scores": {},
+        "metrics": {},
+        "durationMs": 300346,
+        "benchmark": null,
+        "error": "Total audit deadline exceeded (300s)."
+      },
+      "after": {
+        "status": "timeout",
+        "scores": {},
+        "metrics": {},
+        "durationMs": 300324,
+        "benchmark": null,
+        "error": "Total audit deadline exceeded (300s)."
+      },
+      "comparableNetworkEvidence": false
+    },
+    {
+      "route": "/fa/products/",
+      "before": {
+        "status": "completed",
+        "scores": {
+          "performance": 59,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "first-contentful-paint": 1559.5229,
+          "largest-contentful-paint": 3738.28435,
+          "speed-index": 2092.413267986771,
+          "total-blocking-time": 3184.4771,
+          "cumulative-layout-shift": 0.000141636436679099,
+          "interactive": 8659.283395
+        },
+        "durationMs": 19930,
+        "benchmark": 744,
+        "error": null,
+        "rawReport": "74f11c38819ac33d.attempt-1.lhr.json",
+        "rawSha256": "a2ccc0e22009e4f9c2e162c99bbc593934028590d2840af7292a72129689bffc",
+        "jsCount": 11,
+        "jsTransfer": 566000,
+        "jsDecoded": 1948038,
+        "scriptBytes": [
+          {
+            "chunk": "page-2154674288496011.js",
+            "transfer": 268918,
+            "decoded": 992201
+          },
+          {
+            "chunk": "1986-a6459a3688958fef.js",
+            "transfer": 90924,
+            "decoded": 300644
+          },
+          {
+            "chunk": "3794-9f866eb1b07be87c.js",
+            "transfer": 67680,
+            "decoded": 243059
+          },
+          {
+            "chunk": "4bd1b696-8cd12253b448cc13.js",
+            "transfer": 64634,
+            "decoded": 203727
+          },
+          {
+            "chunk": "1074-135366284b7f20c6.js",
+            "transfer": 26637,
+            "decoded": 89616
+          },
+          {
+            "chunk": "3352-f18addd27524943f.js",
+            "transfer": 16652,
+            "decoded": 51940
+          },
+          {
+            "chunk": "4974-abe5664e6baf85df.js",
+            "transfer": 18428,
+            "decoded": 44846
+          },
+          {
+            "chunk": "8488.0be337fcbe4ba3f9.js",
+            "transfer": 7434,
+            "decoded": 15551
+          },
+          {
+            "chunk": "webpack-2bdc1429921f9723.js",
+            "transfer": 3229,
+            "decoded": 5368
+          },
+          {
+            "chunk": "layout-7a2b094642acf19c.js",
+            "transfer": 741,
+            "decoded": 557
+          },
+          {
+            "chunk": "main-app-99a798a365c5b90f.js",
+            "transfer": 723,
+            "decoded": 529
+          }
+        ],
+        "mainthread": {
+          "scriptEvaluation": 3313.86399999991,
+          "other": 1592.587999999993,
+          "scriptParseCompile": 1228.8519999999996,
+          "styleLayout": 1093.644,
+          "paintCompositeRender": 181.50399999999993,
+          "parseHTML": 127.28799999999998,
+          "garbageCollection": 109.75599999999994
+        },
+        "bootup": [
+          {
+            "total": 2482.5159999999787,
+            "scripting": 2176.299999999979,
+            "scriptParseCompile": 121.89999999999999,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "total": 1763.44,
+            "scripting": 84.25200000000001,
+            "scriptParseCompile": 82.25600000000001,
+            "chunk": ""
+          },
+          {
+            "total": 1255.9080000000001,
+            "scripting": 73.684,
+            "scriptParseCompile": 0,
+            "chunk": "Unattributable"
+          },
+          {
+            "total": 665.4240000000004,
+            "scripting": 294.3120000000004,
+            "scriptParseCompile": 339.78400000000005,
+            "chunk": "1986-a6459a3688958fef.js"
+          },
+          {
+            "total": 560.004,
+            "scripting": 111.14399999999999,
+            "scriptParseCompile": 442.312,
+            "chunk": "4bd1b696-8cd12253b448cc13.js"
+          },
+          {
+            "total": 467.7320000000002,
+            "scripting": 333.91600000000017,
+            "scriptParseCompile": 122.16,
+            "chunk": "page-2154674288496011.js"
+          },
+          {
+            "total": 114.48399999999968,
+            "scripting": 104.12399999999968,
+            "scriptParseCompile": 8.524,
+            "chunk": "8488.0be337fcbe4ba3f9.js"
+          },
+          {
+            "total": 50.028,
+            "scripting": 1.5480000000000005,
+            "scriptParseCompile": 43.955999999999996,
+            "chunk": "1074-135366284b7f20c6.js"
+          }
+        ],
+        "longtasks": [
+          {
+            "duration": 949,
+            "startTime": 4169.0458,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "duration": 665,
+            "startTime": 6947.80725,
+            "chunk": "1986-a6459a3688958fef.js"
+          },
+          {
+            "duration": 537,
+            "startTime": 1233.76145,
+            "chunk": ""
+          },
+          {
+            "duration": 469,
+            "startTime": 8027.5687,
+            "chunk": "page-2154674288496011.js"
+          },
+          {
+            "duration": 450,
+            "startTime": 3719.0458,
+            "chunk": "4bd1b696-8cd12253b448cc13.js"
+          },
+          {
+            "duration": 392,
+            "startTime": 8496.5687,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "duration": 302,
+            "startTime": 827.76145,
+            "chunk": "Unattributable"
+          },
+          {
+            "duration": 186,
+            "startTime": 5467.0458,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "duration": 116,
+            "startTime": 5732.0458,
+            "chunk": "8488.0be337fcbe4ba3f9.js"
+          },
+          {
+            "duration": 108,
+            "startTime": 2003.76145,
+            "chunk": ""
+          },
+          {
+            "duration": 102,
+            "startTime": 6122.0458,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "duration": 98,
+            "startTime": 5369.0458,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "duration": 86,
+            "startTime": 2219.76145,
+            "chunk": "Unattributable"
+          },
+          {
+            "duration": 84,
+            "startTime": 2384.76145,
+            "chunk": "_lighthouse-eval.js"
+          },
+          {
+            "duration": 79,
+            "startTime": 5653.0458,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "duration": 79,
+            "startTime": 2305.76145,
+            "chunk": "Unattributable"
+          },
+          {
+            "duration": 75,
+            "startTime": 1928.76145,
+            "chunk": ""
+          },
+          {
+            "duration": 69,
+            "startTime": 5160.0458,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "duration": 64,
+            "startTime": 6007.0458,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "duration": 61,
+            "startTime": 1770.76145,
+            "chunk": ""
+          }
+        ]
+      },
+      "after": {
+        "status": "completed",
+        "scores": {
+          "performance": 56,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "first-contentful-paint": 2712.5391,
+          "largest-contentful-paint": 3492.8594,
+          "speed-index": 3275.664975587095,
+          "total-blocking-time": 3617.999999999998,
+          "cumulative-layout-shift": 0.0023129283861665247,
+          "interactive": 7950.809399999998
+        },
+        "durationMs": 25020,
+        "benchmark": 888,
+        "error": null,
+        "rawReport": "74f11c38819ac33d.attempt-1.lhr.json",
+        "rawSha256": "5548743b1e8cd53bc76e84073bdbfe26cc5a5a4851b6ec88aa6e7709b2819bb6",
+        "jsCount": 13,
+        "jsTransfer": 405386,
+        "jsDecoded": 1254496,
+        "scriptBytes": [
+          {
+            "chunk": "159-32014ceda3c43ae4.js",
+            "transfer": 107514,
+            "decoded": 304964
+          },
+          {
+            "chunk": "1986-a6459a3688958fef.js",
+            "transfer": 90937,
+            "decoded": 300644
+          },
+          {
+            "chunk": "3794-9f866eb1b07be87c.js",
+            "transfer": 67687,
+            "decoded": 243059
+          },
+          {
+            "chunk": "4bd1b696-8cd12253b448cc13.js",
+            "transfer": 64641,
+            "decoded": 203727
+          },
+          {
+            "chunk": "1074-135366284b7f20c6.js",
+            "transfer": 26644,
+            "decoded": 89616
+          },
+          {
+            "chunk": "4974-abe5664e6baf85df.js",
+            "transfer": 18428,
+            "decoded": 44846
+          },
+          {
+            "chunk": "3515-d125df7ec3fd34cd.js",
+            "transfer": 13330,
+            "decoded": 38362
+          },
+          {
+            "chunk": "8488.07c95ca5d306fff5.js",
+            "transfer": 7517,
+            "decoded": 15793
+          },
+          {
+            "chunk": "6341-da8f9087bedb9432.js",
+            "transfer": 3117,
+            "decoded": 6453
+          },
+          {
+            "chunk": "webpack-54b929567ff44d1c.js",
+            "transfer": 3459,
+            "decoded": 5787
+          },
+          {
+            "chunk": "layout-7a2b094642acf19c.js",
+            "transfer": 741,
+            "decoded": 557
+          },
+          {
+            "chunk": "main-app-99a798a365c5b90f.js",
+            "transfer": 723,
+            "decoded": 529
+          },
+          {
+            "chunk": "page-e9831db535c031f6.js",
+            "transfer": 648,
+            "decoded": 159
+          }
+        ],
+        "mainthread": {
+          "scriptEvaluation": 4264.91999999991,
+          "other": 2962.2359999999953,
+          "styleLayout": 1866.9280000000003,
+          "scriptParseCompile": 522.5760000000002,
+          "paintCompositeRender": 304.20000000000095,
+          "parseHTML": 231.464,
+          "garbageCollection": 119.13200000000005
+        },
+        "bootup": [
+          {
+            "total": 3496.084000000001,
+            "scripting": 462.816,
+            "scriptParseCompile": 30.444000000000003,
+            "chunk": ""
+          },
+          {
+            "total": 2218.9199999999946,
+            "scripting": 245.47199999999998,
+            "scriptParseCompile": 0,
+            "chunk": "Unattributable"
+          },
+          {
+            "total": 1946.4679999999885,
+            "scripting": 1666.5399999999886,
+            "scriptParseCompile": 73.788,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "total": 1318.7440000000004,
+            "scripting": 1183.3480000000002,
+            "scriptParseCompile": 3.1799999999999997,
+            "chunk": "webpack-54b929567ff44d1c.js"
+          },
+          {
+            "total": 590.0520000000009,
+            "scripting": 503.99200000000087,
+            "scriptParseCompile": 32.768,
+            "chunk": "1986-a6459a3688958fef.js"
+          },
+          {
+            "total": 436.4480000000001,
+            "scripting": 117.97600000000007,
+            "scriptParseCompile": 298.86,
+            "chunk": "4bd1b696-8cd12253b448cc13.js"
+          },
+          {
+            "total": 54.704,
+            "scripting": 4.164000000000001,
+            "scriptParseCompile": 48.844,
+            "chunk": "159-32014ceda3c43ae4.js"
+          }
+        ],
+        "longtasks": [
+          {
+            "duration": 1226.9999999999995,
+            "startTime": 2714.1797,
+            "chunk": "webpack-54b929567ff44d1c.js"
+          },
+          {
+            "duration": 645,
+            "startTime": 7621.359399999998,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "duration": 595.9999999999991,
+            "startTime": 6970.3593999999985,
+            "chunk": "1986-a6459a3688958fef.js"
+          },
+          {
+            "duration": 458,
+            "startTime": 2036.1797000000001,
+            "chunk": ""
+          },
+          {
+            "duration": 400,
+            "startTime": 1216.1797000000001,
+            "chunk": ""
+          },
+          {
+            "duration": 379,
+            "startTime": 4437.1797,
+            "chunk": "webpack-54b929567ff44d1c.js"
+          },
+          {
+            "duration": 375,
+            "startTime": 1661.1797000000001,
+            "chunk": "Unattributable"
+          },
+          {
+            "duration": 315,
+            "startTime": 3941.1796999999997,
+            "chunk": "4bd1b696-8cd12253b448cc13.js"
+          },
+          {
+            "duration": 223,
+            "startTime": 6534.179699999999,
+            "chunk": "Unattributable"
+          },
+          {
+            "duration": 193,
+            "startTime": 5813.179699999999,
+            "chunk": "Unattributable"
+          },
+          {
+            "duration": 154,
+            "startTime": 1062.1797000000001,
+            "chunk": ""
+          },
+          {
+            "duration": 146,
+            "startTime": 5667.179699999999,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "duration": 143,
+            "startTime": 6006.179699999999,
+            "chunk": ""
+          },
+          {
+            "duration": 126,
+            "startTime": 6336.179699999999,
+            "chunk": "Unattributable"
+          },
+          {
+            "duration": 125,
+            "startTime": 4928.1797,
+            "chunk": ""
+          },
+          {
+            "duration": 120,
+            "startTime": 850.1797,
+            "chunk": "Unattributable"
+          },
+          {
+            "duration": 116,
+            "startTime": 5490.179699999999,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "duration": 112,
+            "startTime": 2558.1797,
+            "chunk": ""
+          },
+          {
+            "duration": 112,
+            "startTime": 4816.1797,
+            "chunk": ""
+          },
+          {
+            "duration": 106.99999999999909,
+            "startTime": 5172.1797,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          }
+        ]
+      },
+      "comparableNetworkEvidence": true,
+      "delta": {
+        "jsCount": 2,
+        "jsTransfer": -160614,
+        "jsDecoded": -693542
+      },
+      "percentChange": {
+        "jsTransfer": -28.377,
+        "jsDecoded": -35.6021
+      }
+    },
+    {
+      "route": "/fa/quality/",
+      "before": {
+        "status": "completed",
+        "scores": {
+          "performance": 62,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "first-contentful-paint": 2179.70235,
+          "largest-contentful-paint": 3577.2698,
+          "speed-index": 2179.70235,
+          "total-blocking-time": 1628.5,
+          "cumulative-layout-shift": 0,
+          "interactive": 7675.881897500001
+        },
+        "durationMs": 16118,
+        "benchmark": 1480,
+        "error": null,
+        "rawReport": "b68ebf79b25cc6d0.attempt-1.lhr.json",
+        "rawSha256": "4cf07daf8647669caa56f9fe7faefc8384eabb83b2c2e688719334cd00d11133",
+        "jsCount": 11,
+        "jsTransfer": 565990,
+        "jsDecoded": 1948038,
+        "scriptBytes": [
+          {
+            "chunk": "page-2154674288496011.js",
+            "transfer": 268895,
+            "decoded": 992201
+          },
+          {
+            "chunk": "1986-a6459a3688958fef.js",
+            "transfer": 90930,
+            "decoded": 300644
+          },
+          {
+            "chunk": "3794-9f866eb1b07be87c.js",
+            "transfer": 67675,
+            "decoded": 243059
+          },
+          {
+            "chunk": "4bd1b696-8cd12253b448cc13.js",
+            "transfer": 64634,
+            "decoded": 203727
+          },
+          {
+            "chunk": "1074-135366284b7f20c6.js",
+            "transfer": 26644,
+            "decoded": 89616
+          },
+          {
+            "chunk": "3352-f18addd27524943f.js",
+            "transfer": 16657,
+            "decoded": 51940
+          },
+          {
+            "chunk": "4974-abe5664e6baf85df.js",
+            "transfer": 18428,
+            "decoded": 44846
+          },
+          {
+            "chunk": "8488.0be337fcbe4ba3f9.js",
+            "transfer": 7434,
+            "decoded": 15551
+          },
+          {
+            "chunk": "webpack-2bdc1429921f9723.js",
+            "transfer": 3229,
+            "decoded": 5368
+          },
+          {
+            "chunk": "layout-7a2b094642acf19c.js",
+            "transfer": 741,
+            "decoded": 557
+          },
+          {
+            "chunk": "main-app-99a798a365c5b90f.js",
+            "transfer": 723,
+            "decoded": 529
+          }
+        ],
+        "mainthread": {
+          "scriptEvaluation": 2290.363999999963,
+          "other": 1382.6159999999975,
+          "scriptParseCompile": 686.1920000000001,
+          "styleLayout": 652.556,
+          "paintCompositeRender": 80.80800000000005,
+          "parseHTML": 59.552,
+          "garbageCollection": 54.68399999999999
+        },
+        "bootup": [
+          {
+            "total": 1202.2519999999995,
+            "scripting": 105.024,
+            "scriptParseCompile": 0,
+            "chunk": "Unattributable"
+          },
+          {
+            "total": 1159.0080000000014,
+            "scripting": 779.0560000000013,
+            "scriptParseCompile": 273.64000000000004,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "total": 989.4120000000005,
+            "scripting": 847.0320000000005,
+            "scriptParseCompile": 50.204,
+            "chunk": "4bd1b696-8cd12253b448cc13.js"
+          },
+          {
+            "total": 987.224,
+            "scripting": 79.11999999999999,
+            "scriptParseCompile": 48.511999999999986,
+            "chunk": ""
+          },
+          {
+            "total": 349.89599999999996,
+            "scripting": 177.70799999999994,
+            "scriptParseCompile": 159.132,
+            "chunk": "page-2154674288496011.js"
+          },
+          {
+            "total": 272.10799999999983,
+            "scripting": 201.87199999999982,
+            "scriptParseCompile": 56.336,
+            "chunk": "1986-a6459a3688958fef.js"
+          },
+          {
+            "total": 51.519999999999996,
+            "scripting": 2.744,
+            "scriptParseCompile": 42.224,
+            "chunk": "4974-abe5664e6baf85df.js"
+          }
+        ],
+        "longtasks": [
+          {
+            "duration": 631,
+            "startTime": 3546.2698,
+            "chunk": "4bd1b696-8cd12253b448cc13.js"
+          },
+          {
+            "duration": 350,
+            "startTime": 6903.8372500000005,
+            "chunk": "page-2154674288496011.js"
+          },
+          {
+            "duration": 299,
+            "startTime": 7523.8372500000005,
+            "chunk": "4bd1b696-8cd12253b448cc13.js"
+          },
+          {
+            "duration": 290,
+            "startTime": 3256.2698,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "duration": 281,
+            "startTime": 911.56745,
+            "chunk": ""
+          },
+          {
+            "duration": 268,
+            "startTime": 5853.8372500000005,
+            "chunk": "1986-a6459a3688958fef.js"
+          },
+          {
+            "duration": 186,
+            "startTime": 7253.8372500000005,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "duration": 152,
+            "startTime": 626.56745,
+            "chunk": "Unattributable"
+          },
+          {
+            "duration": 125,
+            "startTime": 1302.56745,
+            "chunk": "Unattributable"
+          },
+          {
+            "duration": 85,
+            "startTime": 1490.56745,
+            "chunk": "Unattributable"
+          },
+          {
+            "duration": 76,
+            "startTime": 835.56745,
+            "chunk": ""
+          },
+          {
+            "duration": 68,
+            "startTime": 4953.8372500000005,
+            "chunk": "4974-abe5664e6baf85df.js"
+          },
+          {
+            "duration": 63,
+            "startTime": 1427.56745,
+            "chunk": "Unattributable"
+          },
+          {
+            "duration": 56,
+            "startTime": 7439.8372500000005,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "duration": 55,
+            "startTime": 4321.2698,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "duration": 52,
+            "startTime": 1250.56745,
+            "chunk": "Unattributable"
+          },
+          {
+            "duration": 50,
+            "startTime": 4177.2698,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          }
+        ]
+      },
+      "after": {
+        "status": "completed",
+        "scores": {
+          "performance": 62,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "first-contentful-paint": 2358.2552000000005,
+          "largest-contentful-paint": 3582.1913999999997,
+          "speed-index": 2358.2552000000005,
+          "total-blocking-time": 1327.5,
+          "cumulative-layout-shift": 0,
+          "interactive": 7500.455200000002
+        },
+        "durationMs": 18839,
+        "benchmark": 969,
+        "error": null,
+        "rawReport": "b68ebf79b25cc6d0.attempt-1.lhr.json",
+        "rawSha256": "2761e3c0e98f0863c0503f74411f994c9896ef4a998a2c749d5d5eddf865d584",
+        "jsCount": 15,
+        "jsTransfer": 493297,
+        "jsDecoded": 1703747,
+        "scriptBytes": [
+          {
+            "chunk": "7817-15b95cac7d6dddde.js",
+            "transfer": 75345,
+            "decoded": 417635
+          },
+          {
+            "chunk": "159-32014ceda3c43ae4.js",
+            "transfer": 107522,
+            "decoded": 304964
+          },
+          {
+            "chunk": "1986-a6459a3688958fef.js",
+            "transfer": 90937,
+            "decoded": 300644
+          },
+          {
+            "chunk": "3794-9f866eb1b07be87c.js",
+            "transfer": 67687,
+            "decoded": 243059
+          },
+          {
+            "chunk": "4bd1b696-8cd12253b448cc13.js",
+            "transfer": 64641,
+            "decoded": 203727
+          },
+          {
+            "chunk": "1074-135366284b7f20c6.js",
+            "transfer": 26644,
+            "decoded": 89616
+          },
+          {
+            "chunk": "4974-abe5664e6baf85df.js",
+            "transfer": 18428,
+            "decoded": 44846
+          },
+          {
+            "chunk": "3515-d125df7ec3fd34cd.js",
+            "transfer": 13330,
+            "decoded": 38362
+          },
+          {
+            "chunk": "6031-1e8cfd72f89aec17.js",
+            "transfer": 7746,
+            "decoded": 17159
+          },
+          {
+            "chunk": "4295-a7ab024fa6508c7d.js",
+            "transfer": 6577,
+            "decoded": 16338
+          },
+          {
+            "chunk": "8488.07c95ca5d306fff5.js",
+            "transfer": 7517,
+            "decoded": 15793
+          },
+          {
+            "chunk": "webpack-54b929567ff44d1c.js",
+            "transfer": 3454,
+            "decoded": 5787
+          },
+          {
+            "chunk": "page-c263ae813497d1c6.js",
+            "transfer": 2005,
+            "decoded": 4731
+          },
+          {
+            "chunk": "layout-7a2b094642acf19c.js",
+            "transfer": 741,
+            "decoded": 557
+          },
+          {
+            "chunk": "main-app-99a798a365c5b90f.js",
+            "transfer": 723,
+            "decoded": 529
+          }
+        ],
+        "mainthread": {
+          "other": 1908.2399999999939,
+          "scriptEvaluation": 1899.5879999999743,
+          "scriptParseCompile": 821.4079999999999,
+          "styleLayout": 504.4080000000001,
+          "parseHTML": 56.5,
+          "paintCompositeRender": 55.66799999999992,
+          "garbageCollection": 48.67199999999996
+        },
+        "bootup": [
+          {
+            "total": 1723.8879999999945,
+            "scripting": 53.35600000000001,
+            "scriptParseCompile": 0,
+            "chunk": "Unattributable"
+          },
+          {
+            "total": 1595.0439999999967,
+            "scripting": 1217.8159999999968,
+            "scriptParseCompile": 299.156,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "total": 755.3560000000001,
+            "scripting": 50.656000000000006,
+            "scriptParseCompile": 44.94799999999999,
+            "chunk": ""
+          },
+          {
+            "total": 466.8400000000002,
+            "scripting": 260.04800000000023,
+            "scriptParseCompile": 198.676,
+            "chunk": "1986-a6459a3688958fef.js"
+          },
+          {
+            "total": 287.128,
+            "scripting": 107.37599999999999,
+            "scriptParseCompile": 115.428,
+            "chunk": "4bd1b696-8cd12253b448cc13.js"
+          },
+          {
+            "total": 172.95200000000003,
+            "scripting": 115.68800000000003,
+            "scriptParseCompile": 48.536,
+            "chunk": "7817-15b95cac7d6dddde.js"
+          },
+          {
+            "total": 55.556000000000004,
+            "scripting": 48.652,
+            "scriptParseCompile": 3.3960000000000004,
+            "chunk": "8488.07c95ca5d306fff5.js"
+          }
+        ],
+        "longtasks": [
+          {
+            "duration": 620.0000000000005,
+            "startTime": 3926.127600000001,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "duration": 544.0000000000001,
+            "startTime": 777.0638,
+            "chunk": "Unattributable"
+          },
+          {
+            "duration": 465,
+            "startTime": 6874.255200000001,
+            "chunk": "1986-a6459a3688958fef.js"
+          },
+          {
+            "duration": 232,
+            "startTime": 1321.0638000000001,
+            "chunk": "Unattributable"
+          },
+          {
+            "duration": 215,
+            "startTime": 1553.0638000000001,
+            "chunk": "Unattributable"
+          },
+          {
+            "duration": 200.00000000000023,
+            "startTime": 1826.0638000000001,
+            "chunk": ""
+          },
+          {
+            "duration": 181,
+            "startTime": 3745.127600000001,
+            "chunk": "4bd1b696-8cd12253b448cc13.js"
+          },
+          {
+            "duration": 174,
+            "startTime": 6700.255200000001,
+            "chunk": "7817-15b95cac7d6dddde.js"
+          },
+          {
+            "duration": 158,
+            "startTime": 7386.255200000001,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "duration": 89,
+            "startTime": 4683.127600000002,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "duration": 77,
+            "startTime": 7614.255200000001,
+            "chunk": "1986-a6459a3688958fef.js"
+          },
+          {
+            "duration": 70,
+            "startTime": 7544.255200000001,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "duration": 62,
+            "startTime": 2126.063800000001,
+            "chunk": "Unattributable"
+          },
+          {
+            "duration": 57,
+            "startTime": 4595.127600000002,
+            "chunk": "8488.07c95ca5d306fff5.js"
+          },
+          {
+            "duration": 51,
+            "startTime": 2026.0638000000004,
+            "chunk": ""
+          },
+          {
+            "duration": 50,
+            "startTime": 4816.127600000002,
+            "chunk": "3794-9f866eb1b07be87c.js"
+          },
+          {
+            "duration": 50,
+            "startTime": 2188.063800000001,
+            "chunk": "Unattributable"
+          }
+        ]
+      },
+      "comparableNetworkEvidence": true,
+      "delta": {
+        "jsCount": 4,
+        "jsTransfer": -72693,
+        "jsDecoded": -244291
+      },
+      "percentChange": {
+        "jsTransfer": -12.8435,
+        "jsDecoded": -12.5404
+      }
+    }
+  ]
+}

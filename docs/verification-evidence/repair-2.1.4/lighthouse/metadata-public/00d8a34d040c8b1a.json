@@ -1,0 +1,50 @@
+{
+  "url": "http://127.0.0.1:3100/tr/cooperation/research/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "e5607a7767e93227373ed73b486ac55071587bc7fb742b1440265ea934ca195c",
+  "locale": "tr",
+  "lang": "tr",
+  "dir": "ltr",
+  "titles": [
+    "Araştırma ve yenilik teklifi | Ideal Makoo"
+  ],
+  "descriptions": [
+    "Dental ürün veya malzeme araştırması teklifinizi kuruluş, proje açıklaması ve destekleyici belgelerle gönderin."
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/tr/cooperation/research/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/cooperation/research/",
+    "en": "http://127.0.0.1:3100/en/cooperation/research/",
+    "tr": "http://127.0.0.1:3100/tr/cooperation/research/",
+    "ar": "http://127.0.0.1:3100/ar/cooperation/research/",
+    "ru": "http://127.0.0.1:3100/ru/cooperation/research/",
+    "x-default": "http://127.0.0.1:3100/fa/cooperation/research/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "arabicScriptCharacters": 0,
+  "durationMs": 43
+}

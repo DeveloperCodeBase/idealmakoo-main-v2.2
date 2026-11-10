@@ -1,0 +1,49 @@
+{
+  "url": "http://127.0.0.1:3100/ar/resources/iranian-teeth-ivoclar-wear-cover/",
+  "kind": "public",
+  "indexed": true,
+  "expectedStatus": 200,
+  "errors": [],
+  "warnings": [],
+  "httpStatus": 200,
+  "location": null,
+  "contentType": "text/html; charset=utf-8",
+  "htmlHash": "d3d3b1576e592bd240f39863625bb56a91ab3a1fe7bb63358be0552050d7c285",
+  "locale": "ar",
+  "lang": "ar",
+  "dir": "rtl",
+  "titles": [
+    "صورة مرجعية للبحث — تآكل بريليان وسوبر بريليان مقارنة بإيفوكلار | إيدآل ماكو"
+  ],
+  "descriptions": [
+    "تآكل بريليان وسوبر بريليان مقارنة بإيفوكلار — وثائق المصنع المصوّرة الأصلية"
+  ],
+  "canonicals": [
+    "http://127.0.0.1:3100/ar/resources/iranian-teeth-ivoclar-wear-cover/"
+  ],
+  "alternates": {
+    "fa": "http://127.0.0.1:3100/fa/resources/iranian-teeth-ivoclar-wear-cover/",
+    "en": "http://127.0.0.1:3100/en/resources/iranian-teeth-ivoclar-wear-cover/",
+    "tr": "http://127.0.0.1:3100/tr/resources/iranian-teeth-ivoclar-wear-cover/",
+    "ar": "http://127.0.0.1:3100/ar/resources/iranian-teeth-ivoclar-wear-cover/",
+    "ru": "http://127.0.0.1:3100/ru/resources/iranian-teeth-ivoclar-wear-cover/",
+    "x-default": "http://127.0.0.1:3100/fa/resources/iranian-teeth-ivoclar-wear-cover/"
+  },
+  "robots": [
+    "index, follow"
+  ],
+  "noindex": false,
+  "schemaTypes": [],
+  "structuredData": [],
+  "streaming": {
+    "segmentCount": 1,
+    "resolvedBoundaries": 1,
+    "unresolvedIds": [],
+    "orphanSegments": [],
+    "rawMainH1Count": 1,
+    "rawDocumentH1Count": 1
+  },
+  "mainCount": 1,
+  "h1Count": 1,
+  "durationMs": 48
+}
