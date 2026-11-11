@@ -1,4 +1,3 @@
-# syntax=docker/dockerfile:1
 ARG NODE_IMAGE=node:24-bookworm-slim
 FROM ${NODE_IMAGE} AS dependencies
 ARG BUILD_NPM_REGISTRY=https://registry.npmjs.org
@@ -25,6 +24,7 @@ COPY src ./src
 COPY public ./public
 COPY worker ./worker
 COPY scripts/*.ts ./scripts/
+COPY scripts/lib ./scripts/lib
 COPY scripts/build-service-worker.mjs ./scripts/
 COPY tests/*.ts ./tests/
 COPY tests/e2e ./tests/e2e
@@ -72,4 +72,3 @@ USER 10001:10001
 EXPOSE 3000
 ENTRYPOINT ["/bin/sh", "/app/scripts/entrypoint.sh"]
 CMD ["web"]
-

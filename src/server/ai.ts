@@ -23,12 +23,13 @@ import { canWorkspace } from "../lib/auth";
 import { reserveAi } from "./ai-budget";
 import { query, audit, transaction } from "./db";
 import { equal, hash } from "./crypto";
+import { filteredFetch } from "./selective-proxy";
 const inputSchema = z.object({ prompt: z.string().trim().min(1).max(10000), locale: z.enum(['fa','en','tr','ar','ru']), mode: z.enum(["chat", "text", "rewrite", "translation", "document", "image", "video", "audio", "crm_assist"]).default("chat"), history: z.array(z.object({role:z.enum(['user','model']),text:z.string().max(8000)}).strict()).max(16).default([]), context: z.string().max(18000).default(''), recordIds: z.array(z.string().min(1).max(160)).max(5).optional(), crmTask: z.enum(["summary", "reply", "fields", "next_steps"]).optional(), referenceImage: z.string().max(300).optional(), imageData: z.object({mimeType:z.enum(['image/png','image/jpeg','image/webp']),data:z.string().max(5_600_000).regex(/^[A-Za-z0-9+/=\r\n]+$/)}).strict().optional() }).strict();
 const provider=()=>process.env.AI_PROVIDER==='google'?'google':'openrouter';
 const key=()=>provider()==='google'?(process.env.GOOGLE_API_KEY||process.env.GOOGLE_AI_API_KEY||''):(process.env.OPENROUTER_API_KEY||'');
 function modelFor(mode:string){const google=provider()==='google';return mode==='image'?(google?(process.env.GOOGLE_IMAGE_MODEL||process.env.GOOGLE_AI_IMAGE_MODEL):process.env.OPENROUTER_IMAGE_MODEL):(google?(process.env.GOOGLE_TEXT_MODEL||process.env.GOOGLE_AI_TEXT_MODEL):process.env.OPENROUTER_TEXT_MODEL)||'';}
 function aiStatus(){ const ready=!!key(); return { configured: ready && !!modelFor('text'), provider: provider(), textModel: modelFor('text'), imageModel: modelFor('image'), actions: ["chat", "text", "rewrite", "translation", "document", "image", "video-script", "audio-script", "crm_assist"], capabilities: { text: ready && !!modelFor('text'), image: ready && !!modelFor('image'), video: !!process.env.OPENROUTER_API_KEY && !!process.env.OPENROUTER_VIDEO_MODEL, audio: !!process.env.OPENROUTER_API_KEY && !!process.env.OPENROUTER_AUDIO_MODEL, crm: ready && !!modelFor('text') }, publicChat: process.env.AI_PUBLIC_CHAT === "true", knowledge: (knowledgeCapability)() }; }
-async function upstream(path:string,body:unknown,apiKey:string,signal?:AbortSignal,fetcher:typeof fetch=fetch,base='https://openrouter.ai/api/v1'){
+async function upstream(path:string,body:unknown,apiKey:string,signal?:AbortSignal,fetcher:typeof fetch=filteredFetch,base='https://openrouter.ai/api/v1'){
   const response=await fetcher(base+path,{method:'POST',redirect:'error',headers:{'Content-Type':'application/json','Authorization':'Bearer '+apiKey,'HTTP-Referer':config().siteUrl,'X-Title':'Ideal Makoo'},body:JSON.stringify(body),signal:signal?AbortSignal.any([signal,AbortSignal.timeout(150000)]):AbortSignal.timeout(150000)});
   if(!response.ok){await response.body?.cancel();throw new HttpError(response.status===429?429:502,publicProviderError(response.status),'The configured AI provider could not complete the request.');}return response;
 }
@@ -88,7 +89,7 @@ async function reference(input:Input){
 }
 /** Set only by a server-owned editorial command; never accepted in HTTP input. */
 export interface ExactAiTranslation {systemInstruction:string;keys:string[]}
-async function generateAi(actor:Actor|null,visitor:string,body:unknown,chatOnly=false,signal?:AbortSignal,fetcher:typeof fetch=fetch,exactTranslation?:ExactAiTranslation,assistance?:{authorize:(actor:Actor)=>void}):Promise<AiResult>{
+async function generateAi(actor:Actor|null,visitor:string,body:unknown,chatOnly=false,signal?:AbortSignal,fetcher:typeof fetch=filteredFetch,exactTranslation?:ExactAiTranslation,assistance?:{authorize:(actor:Actor)=>void}):Promise<AiResult>{
     const input=parse(inputSchema,body);
     assert(!exactTranslation||input.mode==='translation'&&!chatOnly&&exactTranslation.keys.length>0&&exactTranslation.keys.length<=100,422,'TRANSLATION_MODE','Invalid structured translation request.');
     assert(input.history.reduce((sum,message)=>sum+message.text.length,0)<=30000,422,'HISTORY_SIZE','The conversation is too long.');
@@ -256,7 +257,7 @@ async function cancelAiJob(actor:Actor,id:string){return transaction(async clien
   await client.query("UPDATE ai_usage SET state='failed',completed_at=now() WHERE id=$1 AND state='reserved'",[row.input.usageId]);
   await audit(actor.id,'ai.job.cancelled','ai_job',id,{},client);return{ok:true};
 });}
-async function processAiJob(id:string,fetcher:typeof fetch=fetch){
+async function processAiJob(id:string,fetcher:typeof fetch=filteredFetch){
     const row=(await query('SELECT * FROM ai_jobs WHERE id=$1',[id])).rows[0];
     if (!row || ['cancelled','completed','failed','uncertain'].includes(row.status))
         return;
@@ -297,7 +298,7 @@ async function processAiJob(id:string,fetcher:typeof fetch=fetch){
         throw error;
     }
 }
-async function pollVideoJobs(fetcher:typeof fetch=fetch){
+async function pollVideoJobs(fetcher:typeof fetch=filteredFetch){
     if(!process.env.OPENROUTER_API_KEY)return;
     // Preserve PostgreSQL microseconds for the compare-and-swap claim; the pg
     // Date decoder truncates them and can otherwise prevent every poll claim.

@@ -63,12 +63,14 @@ test('API and worker pass-through remove client nonce/CSP and retain distinct cl
   }
 });
 
-test('Najva origins expand only the explicit permission page and worker import policy; malformed origins fail closed',async()=>{
+test('Najva origins expand trusted public documents and worker import policy; malformed origins fail closed',async()=>{
   environment.NAJVA_SCRIPT_ORIGINS='https://sdk.najva.com';
   environment.NAJVA_CONNECT_ORIGINS='https://api.najva.com';
   try{
     for(const path of ['/fa/','/en/admin/','/fa/communication-verification/device-extra/']){
-      assert.doesNotMatch((await exports.proxy(request(path))).headers.get('Content-Security-Policy'),/najva\.com/);
+      const policy=(await exports.proxy(request(path))).headers.get('Content-Security-Policy');
+      assert.match(directive(policy,'script-src'),/https:\/\/sdk\.najva\.com/);
+      assert.equal(directive(policy,'connect-src'),"connect-src 'self' https://api.najva.com");
     }
     const policy=(await exports.proxy(request('/fa/communication-verification/device/'))).headers.get('Content-Security-Policy');
     assert.match(directive(policy,'script-src'),/https:\/\/sdk\.najva\.com/);

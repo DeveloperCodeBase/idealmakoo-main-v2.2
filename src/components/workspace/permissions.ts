@@ -132,7 +132,7 @@ export function canPublishWorkspaceSnapshot(actor:WorkspaceActor,publication:{id
  if(!source||!['approved','published'].includes(source.status)||!source.approvedBy)return false;
  const module=publication.kind==='page'?'pages':publication.kind==='product'?'products':publication.kind==='article'?'research':publication.kind;
  if(!canWorkspace(actor.role,'publish',module,{locale:publication.locale})||source.id!==publication.id||!publication.title.trim()||!publication.summary.trim())return false;
- if(source.authorId&&source.approvedById&&source.authorId===source.approvedById)return false;
+ if(source.authorId&&source.approvedById&&source.authorId===source.approvedById&&!isAdmin(actor.role))return false;
  if('collection' in source){
   if(source.details?.customProduct||publication.customProduct){const definition=parseCustomProduct(publication.customProduct);if(!definition||definition.id!==(source.product||source.id)||!publication.productRelease||!equal(publication.customProduct,source.details?.customProduct))return false;}
   if(publication.productRelease){const product=parseCustomProduct(publication.customProduct)||products.find(item=>item.id===(source.product||source.id));if(!product||!parseProductRelease(publication.productRelease,product))return false;}

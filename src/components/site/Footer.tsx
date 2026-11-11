@@ -21,6 +21,7 @@ export default function Footer(){
    <span>{credit.contentLabel[locale]} <bdi dir="auto">{preferences.brand.name[locale]}</bdi></span>
    <div>{visible('privacy')&&<Link href={href('privacy')}>{t('privacy')}</Link>}{visible('terms')&&<Link href={href('terms')}>{t('terms')}</Link>}{visible('install')&&<Link href={href('install')}>{t('install')}</Link>}{credit.sourceUrl&&credit.sourceLabel[locale]&&<a href={credit.sourceUrl} target="_blank" rel="noreferrer">{credit.sourceLabel[locale]}<ArrowUpRight size={12}/></a>}</div>
   </div>
+  <div className={`container ${creditStyles.enamad}`}><a referrerPolicy="origin" target="_blank" href="https://trustseal.enamad.ir/?id=8637783&Code=xL4AgZuteVqK6H2dcz3LJ7I3nHkDUaeu" aria-label="نماد اعتماد الکترونیکی"><img referrerPolicy="origin" src="/enamad-logo.png" alt="نماد اعتماد الکترونیکی"/></a></div>
   <div className={`container ${creditStyles.credit}`}>
    <p className={creditStyles.byline}><span>{credit.developerLabel[locale]}</span><strong><bdi dir="auto">{credit.developerName[locale]}</bdi></strong></p>
    <p className={creditStyles.rights}><span><bdi dir="ltr">© {new Date().getFullYear()}</bdi> <bdi dir="auto">{credit.developerName[locale]}</bdi>.</span><span>{credit.developerRights[locale]}</span></p>

@@ -105,6 +105,16 @@ export function networkError(error: unknown, locale = 'en'): string {
   };
   return(proofCopy[locale]||proofCopy.en)[proofCode==='MFA_INVALID'?1:0];
  }
+ if(proofCode==='MFA_REQUIRED'){
+  const copy:Record<string,string>={
+   fa:'برای مدیریت کاربران، ابتدا احراز هویت دومرحله‌ای این حساب را در «امنیت حساب» فعال کنید و یک‌بار دوباره وارد شوید.',
+   en:'To manage users, enable two-factor authentication in Account Security and sign in again.',
+   tr:'Kullanıcıları yönetmek için Hesap Güvenliği bölümünde iki aşamalı doğrulamayı etkinleştirin ve yeniden giriş yapın.',
+   ar:'لإدارة المستخدمين، فعّل المصادقة الثنائية من أمان الحساب ثم سجّل الدخول مجدداً.',
+   ru:'Чтобы управлять пользователями, включите двухфакторную аутентификацию в настройках безопасности и войдите снова.'
+  };
+  return copy[locale]||copy.en;
+ }
  // Server problem details are operational English and may contain input text.
  // Present reviewed localized guidance instead of appending the raw detail.
  const actionKey=proofCode==='STORAGE_USER_QUOTA'?'userQuota':proofCode==='STORAGE_QUOTA'?'siteQuota':status===413?'size':status===415?'type':status===400||status===422?'validation':status===404?'missing':status===423?'locked':status===507?'siteQuota':status===502||status===503||status===504?'service':null;

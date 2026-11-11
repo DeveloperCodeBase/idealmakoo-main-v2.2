@@ -4,6 +4,7 @@
 }
 .bottomRow > span {min-width:0;overflow-wrap:anywhere;line-height:1.9;}
 .bottomRow > div {flex-wrap:wrap;}
+.enamad {display:flex;justify-content:center;padding:8px 0 4px;}\n.enamad a {display:inline-flex;align-items:center;justify-content:center;}\n.enamad img {display:block;width:96px;height:auto;max-width:100%;}
 .credit {
  display:flex;
  flex-direction:column;

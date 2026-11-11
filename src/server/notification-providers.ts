@@ -10,6 +10,7 @@ import { assert, HttpError } from "./types";
 import { config } from "./config";
 import { transaction } from "./db";
 import { bindingContext, bindingPreferenceToken } from "./communication-channels";
+import { filteredFetch } from "./selective-proxy";
 async function boundedJson(response: Response) : Promise<ChannelProviderResponse> {
     (assert)(response.body, 502, "DELIVERY_UNCERTAIN", "The provider response has no body.");
     const reader = response.body.getReader(), buffers = [];
@@ -38,7 +39,7 @@ async function boundedJson(response: Response) : Promise<ChannelProviderResponse
 }
 function localLink(value: unknown) { const path = String(value || "/"); (assert)(/^\/(?!\/)/.test(path) && !/[\\\x00-\x20\x7f]/.test(path) && !/%(?:0[0-9a-f]|1[0-9a-f]|5c|7f)/i.test(path), 422, "NOTIFICATION_LINK", "Use a safe local message link."); return (config)().siteUrl + path; }
 async function preferenceLink(id: string, payload: NotificationPayload) { const ref = payload.channelBinding as BindingReference | undefined; (assert)(ref?.bindingId, 409, "RECIPIENT_UNVERIFIED", "Marketing requires a verified channel."); return (transaction)(async (client) => { const context = await (bindingContext)(client, ref.bindingId); (assert)(context?.available && context.row.verified_at && context.row.endpoint_version === ref.endpointVersion && context.row.endpoint_hash === ref.valueHash && context.to === payload.to, 409, "RECIPIENT_MISMATCH", "The channel changed before sending."); const raw = await (bindingPreferenceToken)(client, context, "preferences", id); return `${(config)().siteUrl}/${context.recipient.locale}/communication-preferences/${raw}/`; }); }
-async function sendChannelNotification(id: string, channel: string, payload: NotificationPayload, marketing: boolean, network = fetch) : Promise<ProviderAcceptance> {
+async function sendChannelNotification(id: string, channel: string, payload: NotificationPayload, marketing: boolean, network = filteredFetch) : Promise<ProviderAcceptance> {
     (assert)(process.env.NOTIFICATIONS_MODE === "live", 503, "NOTIFICATIONS_DISABLED", "External notification delivery is disabled.");
     const preferenceUrl = marketing ? await preferenceLink(id, payload) : null;
     const title = String(payload.title || "Ideal Makoo"), body = String(payload.body || ""), href = payload.href ? payload.purpose === "channel-verification" ? String(payload.href) : localLink(payload.href) : "";

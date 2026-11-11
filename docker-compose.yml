@@ -83,6 +83,7 @@ x-runtime-environment: &runtime-environment
   GOOGLE_AI_API_KEY: ${GOOGLE_AI_API_KEY:-}
   GOOGLE_AI_TEXT_MODEL: ${GOOGLE_AI_TEXT_MODEL:-}
   GOOGLE_AI_IMAGE_MODEL: ${GOOGLE_AI_IMAGE_MODEL:-}
+  SELECTIVE_UPSTREAM_PROXY_URL: ${SELECTIVE_UPSTREAM_PROXY_URL:-}
   AI_DAILY_BUDGET_USD: ${AI_DAILY_BUDGET_USD:-5}
   AI_MONTHLY_BUDGET_USD: ${AI_MONTHLY_BUDGET_USD:-100}
   AI_REQUEST_RESERVE_USD: ${AI_REQUEST_RESERVE_USD:-1}
@@ -262,6 +263,25 @@ services:
     logging: *logging
     networks: [egress]
 
+  xray:
+    image: ${XRAY_IMAGE:-ghcr.io/xtls/xray-core@sha256:ceabeac03a89d991d2a247361825c1d1d2e9c91cd5dc010f298c7dc0c2f325c9}
+    profiles: [selective-proxy]
+    command: [run, -c, /etc/xray/config.json]
+    volumes:
+      - type: bind
+        source: ${SELECTIVE_PROXY_CONFIG_FILE:-./deploy/xray/disabled.json}
+        target: /etc/xray/config.json
+        read_only: true
+        bind: {create_host_path: false}
+    read_only: true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=16m,mode=1777
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    restart: unless-stopped
+    logging: *logging
+    networks: [egress]
+
   clamav:
     image: ${CLAMAV_RUNTIME_IMAGE:-idealmakoo-clamav:local}
     build:
@@ -365,7 +385,9 @@ services:
     cap_drop: [NET_RAW]
     security_opt: [no-new-privileges:true]
     healthcheck:
-      test: [CMD-SHELL, 'supervisorctl status postfix dovecot rspamd | awk ''BEGIN{ok=1} $$2 != "RUNNING" {ok=0} END{exit !(ok && NR == 3)}'' && bash -c ''</dev/tcp/127.0.0.1/465''']
+      # A bare TCP connect to SMTPS aborts the TLS handshake and pollutes the
+      # mail logs. Perform a bounded real handshake instead.
+      test: [CMD-SHELL, 'supervisorctl status postfix dovecot rspamd | awk ''BEGIN{ok=1} $$2 != "RUNNING" {ok=0} END{exit !(ok && NR == 3)}'' && timeout 8 openssl s_client -connect 127.0.0.1:465 -servername $${MAIL_HOSTNAME:-mail.invalid} -brief </dev/null >/dev/null 2>&1']
       interval: 30s
       timeout: 10s
       retries: 6
@@ -417,4 +439,3 @@ networks:
   backend:
     internal: true
   egress:
-

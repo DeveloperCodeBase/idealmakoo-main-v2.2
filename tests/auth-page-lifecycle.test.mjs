@@ -171,7 +171,7 @@ test('current registration, customer return paths and staff enrollment flows ret
   h.fill('name','Test customer');h.fill('email','TEST-AUTH@example.test');h.fill('password','test_auth_password_2026!');h.fill('confirmPassword','test_auth_password_2026!');h.check();
   const pending=h.submit();await h.flush();const registration=h.next('/auth/register');
   assert.equal(JSON.stringify(registration.body),JSON.stringify({name:'Test customer',email:'test-auth@example.test',password:'test_auth_password_2026!'}));
-  registration.finish({user:user(),csrfToken:'test_auth_registered_csrf'});await pending;await h.flush();assert.deepEqual(h.navigations,[returnTo]);h.unmount();
+  registration.finish({user:user(),csrfToken:'test_auth_registered_csrf'});await pending;await h.flush();assert.deepEqual(h.navigations,[`/${locale}/account/security/?returnTo=${encodeURIComponent(returnTo)}`]);h.unmount();
   const staff=host(t,{locale,search:'?returnTo='+encodeURIComponent(returnTo)}),signedIn=signIn(staff);await staff.flush();
   staff.next('/auth/login').finish({user:{...user('admin'),mfaEnrollmentRequired:true},mfaEnrollmentRequired:true,csrfToken:'test_auth_enrollment_csrf'});await signedIn;await staff.flush();
   assert.deepEqual(staff.navigations,[`/${locale}/account/security/?returnTo=${encodeURIComponent(returnTo)}`]);assert.equal(staff.accepted[0].user.mfaEnrollmentRequired,true);staff.unmount();

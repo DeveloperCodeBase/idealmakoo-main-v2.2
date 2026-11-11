@@ -21,7 +21,7 @@ import { openrouterWebhook, aiStatus, generateAi, getAiJobs, createAiJob, cancel
 import { receiveCrmConnectorEvent, listCrmConnectors, createCrmConnector, updateCrmConnector, rotateCrmConnectorSecret, listCrmInbox, getCrmInboxItem, archiveCrmInboxItem, associateCrmInboxItem } from "./crm-inbox";
 import { unsubscribeResponse, getNotificationPreferences, patchNotificationPreferences } from "./notification-policy";
 import { communicationVerificationResponse, telegramVerificationWebhook, communicationPreferenceChannelsResponse, updateCommunicationChannel, revokeCommunicationChannel, getCommunicationChannels, connectCommunicationChannel, getContactChannels, requestContactChannel } from "./communication-channels";
-import { sessionFor, sessionResponse, login, register, verifyMfa, logout, forgotPassword, resetPassword, requireActor, enrollMfa, confirmMfa, disableMfa, regenerateRecoveryCodes, changePassword, requestEmailVerification, confirmEmailVerification, revokeSession, security } from "./auth";
+import { sessionFor, sessionResponse, login, register, verifyMfa, logout, forgotPassword, resetPassword, requireActor, enrollMfa, confirmMfa, disableMfa, regenerateRecoveryCodes, changePassword, requestEmailVerification, confirmEmailVerification, requestPhoneVerification, confirmPhoneVerification, revokeSession, security } from "./auth";
 import { browserMeasurementConfig, recordBrowserMeasurement, recordOperationalRequest } from "./operations-telemetry";
 import { confirmCrmContactEndpoint, requestCrmEndpointVerification } from "./workspace-domain-endpoints";
 import { getPublicSite, getWorkspace, saveWorkspace, publishWorkspace, assignWorkspaceRecord, unpublishWorkspace, getWorkspaceRevisions, restoreWorkspaceRevision, reviewWorkspaceContent, scheduleWorkspaceContent, cancelWorkspaceSchedule, listWorkspaceSchedules, getSitePreferences, saveSitePreferences } from "./workspace";
@@ -274,6 +274,10 @@ async function handleRequest(request:Request,parts:string[]):Promise<Response>{
                 return json(await requestEmailVerification(session!,await body()),202);
             if (path === "auth/email/confirm" && method === "POST")
                 return json(await confirmEmailVerification(session!,await body()));
+            if (path === "auth/phone/request" && method === "POST")
+                return json(await requestPhoneVerification(session!,await body()),202);
+            if (path === "auth/phone/confirm" && method === "POST")
+                return json(await confirmPhoneVerification(session!,await body()));
             if (parts[0] === "auth" && parts[1] === "sessions" && parts.length === 3 && method === "DELETE")
                 return json(await revokeSession(session!,parts[2]));
             if (path === "me/security" && method === "GET")
@@ -607,7 +611,10 @@ async function handleRequest(request:Request,parts:string[]):Promise<Response>{
                 if (method === "PATCH")
                     return json(await updateUser(actor,parts[1],await body(),session!));
                 if (method === "DELETE")
-                    return json(await updateUser(actor,parts[1],{active:false},session!));
+                    // Accounts with historical records are retired rather than
+                    // physically erased. Preserve the optimistic version so a
+                    // stale administrator cannot deactivate a changed account.
+                    {const deletion=await body();return json(await updateUser(actor,parts[1],{...(deletion&&typeof deletion==='object'?deletion:{}),active:false},session!));}
             }
             if (path === "crm/scopes" && method === "GET")
                 return (json)(await (getCrmScopeDirectory)(actor));

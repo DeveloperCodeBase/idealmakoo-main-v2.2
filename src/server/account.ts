@@ -86,7 +86,13 @@ async function patchPortal(actor:Actor,body:unknown){const patch=parse(portalSch
 }
 const roleSchema=z.enum(['customer','superAdmin','admin','contentEditor','productManager','scientificReviewer','translator','publisher','hr','business','analyst','support']);
 const userFields = { name: z.string().trim().min(2).max(100), role: roleSchema, active: z.boolean(), allowedLocales: z.array(z.enum(['fa','en','tr','ar','ru'])).min(1).max(5), qualityScope: z.boolean(), crmScope: z.enum(["assigned", "team", "all"]), crmPermissions: crmPermissionSchema };
-function assertUserAdmin(actor:Actor){ (assert)(actor.mfaVerified && ['superAdmin','admin'].includes(actor.role), 403, "FORBIDDEN", "Staff management is restricted to administrators."); }
+function assertUserAdmin(actor:Actor){
+  assert(['superAdmin','admin'].includes(actor.role),403,'FORBIDDEN','Staff management is restricted to administrators.');
+  // Creating or changing another identity is a high-impact action. Keep the
+  // role check separate so an eligible administrator gets an actionable
+  // response when their existing session has not completed its second factor.
+  assert(actor.mfaVerified,403,'MFA_REQUIRED','Complete two-factor verification before managing user accounts.');
+}
 const staffDto = (user: UserRow) => ({ ...(userDto)(user), active: user.active, crmScope: user.crm_scope, crmPermissions: { ...(noCrmPermissions)(), ...user.crm_permissions } });
 type ManagedUserRow = UserRow & {updated_at:Date};
 const profileKeys = ['phone','contactEmail','organization','profession','bio','website','country','city','address'] as const;

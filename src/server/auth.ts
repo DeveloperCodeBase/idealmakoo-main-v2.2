@@ -1,5 +1,6 @@
 import {bindNotificationTemplate} from './notification-templates';
-import { randomUUID } from 'node:crypto';
+import { consumeMfaChannel, issueMfaChannel, type MfaChannelMethod } from './mfa-channel';
+import { randomInt, randomUUID } from 'node:crypto';
 import QRCode from 'qrcode';
 import { z } from 'zod';
 import type { PoolClient } from 'pg';
@@ -7,7 +8,7 @@ import type { RoleKey } from '../types/domain';
 import type { FrontSession } from '../lib/auth';
 import { config } from './config';
 import { audit, query, transaction } from './db';
-import { decrypt, encrypt, hash, newTotpSecret, passwordHash, passwordMatches, passwordNeedsUpgrade, signGuest, token, validTotpCounter, validatePassword, verifyGuest } from './crypto';
+import { decrypt, encrypt, equal, hash, newTotpSecret, passwordHash, passwordMatches, passwordNeedsUpgrade, signGuest, token, validTotpCounter, validatePassword, verifyGuest } from './crypto';
 import { cookie, cookies, json, parse, rateLimit, visitorKey } from './http';
 import { assert, HttpError, actorSession, type Actor } from './types';
 import { loadCrmAccess, effectiveCrmAccess } from './workspace-scopes';
@@ -18,6 +19,7 @@ export interface UserRow {
   active: boolean; email_verified: boolean; quality_scope: boolean; allowed_locales: string[];
   mfa_enabled: boolean; mfa_secret: string | null; mfa_pending_secret: string | null;
   mfa_pending_expires_at: Date | null; mfa_last_counter: string; recovery_hashes: string[];
+  mfa_method: 'totp' | 'email' | 'sms'; mfa_pending_method: 'totp' | 'email' | 'sms' | null;
   locked_until: Date | null; created_at: Date;
   crm_scope: CrmScope; crm_permissions: Partial<CrmPermissions>;
   phone_number?: string | null; phone_verified_at?: Date | null; email_placeholder?: boolean;
@@ -55,6 +57,7 @@ function actorDto(user: UserRow, mfaVerified: boolean): Actor {
   return { id: user.id, name: user.name, email: user.email, role: user.role,
     qualityScope: user.quality_scope, allowedLocales: user.allowed_locales, mfaVerified };
 }
+export function mfaDeliveryHint(user:UserRow,method:'totp'|'email'|'sms'){if(method==='sms')return user.phone_number?`***${user.phone_number.slice(-4)}`:'';if(method==='email'){const [local,domain='']=user.email.split('@');return local?`${local.slice(0,1)}***@${domain}`:'';}return '';}
 export async function sessionFor(request: Request): Promise<SessionContext | null> {
   const raw = cookies(request).im_session; if (!raw || raw.length > 100) return null;
   const result = await query<UserRow & {session_id:string;csrf_token:string;mfa_verified:boolean}>(`SELECT u.*,s.id AS session_id,s.csrf_token,s.mfa_verified
@@ -125,13 +128,14 @@ export async function login(request: Request, body: unknown) {
     if (user.mfa_enabled) {
       const challengeToken = token();
       await client.query("INSERT INTO auth_challenges(token_hash,user_id,purpose,expires_at) VALUES($1,$2,'mfa',now()+interval '5 minutes')", [hash(challengeToken), user.id]);
-      return { kind: 'mfa' as const, challengeToken };
+      if (user.mfa_method === 'email' || user.mfa_method === 'sms') await issueMfaChannel(client, user, user.mfa_method, 'login', challengeToken);
+      const method=user.mfa_method || 'totp'; return { kind: 'mfa' as const, challengeToken, method, destination:mfaDeliveryHint(user,method) };
     }
     await audit(user.id, 'auth.login', 'user', user.id, {}, client);
     return { kind: 'session' as const, session: await newSession(user, request, false, client) };
   });
   assert(result.kind !== 'denied', 401, 'INVALID_CREDENTIALS', 'The email, password, or account status is invalid.');
-  return result.kind === 'mfa' ? json({ mfaRequired: true, challengeToken: result.challengeToken }) : signedInResponse(result.session);
+  return result.kind === 'mfa' ? json({ mfaRequired: true, challengeToken: result.challengeToken, mfaMethod: result.method, mfaDestination: result.destination }) : signedInResponse(result.session);
 }
 export async function verifyMfa(request: Request, body: unknown) {
   const input = parse(z.object({ challengeToken: z.string().min(20).max(100), code: z.string().min(6).max(40) }).strict(), body);
@@ -143,13 +147,18 @@ export async function verifyMfa(request: Request, body: unknown) {
     const challenge = await client.query(`SELECT * FROM auth_challenges WHERE token_hash=$1 AND user_id=$2 AND purpose='mfa' AND consumed_at IS NULL AND expires_at>clock_timestamp() FOR UPDATE`, [hash(input.challengeToken), candidate.user_id]);
     const entry = challenge.rows[0]; if (!entry || entry.attempts >= 5) return null;
     await client.query('UPDATE auth_challenges SET attempts=attempts+1 WHERE token_hash=$1', [hash(input.challengeToken)]);
-    if (!user?.active || !user.mfa_enabled || !user.mfa_secret) return null;
-    const code = input.code.trim(); const counter = validTotpCounter(decrypt(user.mfa_secret), code, Number(user.mfa_last_counter));
-    const recoveryHash = hash(code.toLowerCase().replace(/\s/g, '')); const recovery = user.recovery_hashes.includes(recoveryHash);
-    if (counter === null && !recovery) return null;
-    await client.query('UPDATE users SET mfa_last_counter=$2,recovery_hashes=$3::jsonb WHERE id=$1', [user.id, counter ?? Number(user.mfa_last_counter), JSON.stringify(recovery ? user.recovery_hashes.filter(item => item !== recoveryHash) : user.recovery_hashes)]);
+    if (!user?.active || !user.mfa_enabled) return null;
+    const code = input.code.trim(); const method = user.mfa_method || 'totp';
+    let recovery = false;
+    if (method === 'totp') {
+      if (!user.mfa_secret) return null;
+      const counter = validTotpCounter(decrypt(user.mfa_secret), code, Number(user.mfa_last_counter));
+      const recoveryHash = hash(code.toLowerCase().replace(/\s/g, '')); recovery = user.recovery_hashes.includes(recoveryHash);
+      if (counter === null && !recovery) return null;
+      await client.query('UPDATE users SET mfa_last_counter=$2,recovery_hashes=$3::jsonb WHERE id=$1', [user.id, counter ?? Number(user.mfa_last_counter), JSON.stringify(recovery ? user.recovery_hashes.filter(item => item !== recoveryHash) : user.recovery_hashes)]);
+    } else if (!/^\d{6}$/.test(code) || !await consumeMfaChannel(client, user.id, method, 'login', input.challengeToken, code)) return null;
     await client.query('UPDATE auth_challenges SET consumed_at=now() WHERE token_hash=$1', [hash(input.challengeToken)]);
-    await audit(user.id, 'auth.mfa.login', 'user', user.id, { recovery }, client);
+    await audit(user.id, 'auth.mfa.login', 'user', user.id, { recovery, method }, client);
     return newSession(user, request, true, client);
   });
   assert(result, 401, 'MFA_INVALID', 'The verification code or challenge is invalid or expired.'); return signedInResponse(result);
@@ -173,38 +182,42 @@ export async function logout(session: SessionContext | null) {
   return json({ ok: true }, 200, { 'Set-Cookie': cookie('im_session', '', 0) });
 }
 export async function enrollMfa(session: SessionContext, body: unknown) {
-  const input = parse(z.object({ password: z.string().min(1).max(128) }).strict(), body);
+  const input = parse(z.object({ password: z.string().min(1).max(128), method: z.enum(['totp','email','sms']).default('totp') }).strict(), body);
   await rateLimit('enroll:' + session.actor.id, 10, 900);
   const observed = await currentSessionUser(session);
   assert(await passwordMatches(input.password, observed.password_hash), 401, 'INVALID_CREDENTIALS', 'The current password is incorrect.');
-  const secret = newTotpSecret();
-  const encrypted = encrypt(secret);
+  const secret = input.method === 'totp' ? newTotpSecret() : token();
   const user = await transaction(async client => {
     const current = await currentSessionUser(session, client);
     samePasswordProof(current, observed);
-    assert(!current.mfa_enabled, 409, 'MFA_ALREADY_ENABLED', 'Two-factor authentication is already enabled.');
-    await client.query("UPDATE users SET mfa_pending_secret=$2,mfa_pending_expires_at=now()+interval '15 minutes' WHERE id=$1", [current.id, encrypted]);
-    await audit(current.id, 'auth.mfa.enrollment_started', 'user', current.id, {}, client);
+    assert(!current.mfa_enabled || session.actor.mfaVerified, 403, 'MFA_REQUIRED', 'Complete the current two-factor check before changing its method.');
+    await client.query("UPDATE users SET mfa_pending_secret=$2,mfa_pending_method=$3,mfa_pending_expires_at=now()+interval '5 minutes' WHERE id=$1", [current.id, encrypt(secret), input.method]);
+    if (input.method === 'email' || input.method === 'sms') await issueMfaChannel(client, current, input.method, 'enroll', secret);
+    await audit(current.id, 'auth.mfa.enrollment_started', 'user', current.id, { method: input.method }, client);
     return current;
   });
+  if (input.method !== 'totp') return { method: input.method, expiresIn: 300, delivery: 'queued' as const };
   const otpauthUrl = `otpauth://totp/${encodeURIComponent('Ideal Makoo:' + user.email)}?secret=${secret}&issuer=Ideal%20Makoo&algorithm=SHA1&digits=6&period=30`;
-  return { secret, otpauthUrl, qrCodeDataUrl: await QRCode.toDataURL(otpauthUrl, { errorCorrectionLevel: 'M', width: 260 }) };
+  return { method: 'totp' as const, secret, otpauthUrl, qrCodeDataUrl: await QRCode.toDataURL(otpauthUrl, { errorCorrectionLevel: 'M', width: 260 }) };
 }
 export async function confirmMfa(session: SessionContext, body: unknown) {
   const input = parse(z.object({ code: z.string().regex(/^\d{6}$/) }).strict(), body);
   await rateLimit('enroll-confirm:' + session.actor.id, 10, 900);
-  const recoveryCodes = Array.from({length:10}, () => token(12).toLowerCase());
   return transaction(async client => {
     const row = await currentSessionUser(session, client);
-    assert(!row.mfa_enabled && row.mfa_pending_secret && row.mfa_pending_expires_at && row.mfa_pending_expires_at.getTime() > Date.now(), 409, 'ENROLLMENT_EXPIRED', 'Begin two-factor setup again.');
-    const counter = validTotpCounter(decrypt(row.mfa_pending_secret), input.code);
-    assert(counter !== null, 422, 'MFA_INVALID', 'The verification code is invalid.');
-    await client.query('UPDATE users SET mfa_enabled=true,mfa_secret=mfa_pending_secret,mfa_pending_secret=NULL,mfa_pending_expires_at=NULL,mfa_last_counter=$2,recovery_hashes=$3::jsonb WHERE id=$1', [row.id,counter,JSON.stringify(recoveryCodes.map(code=>hash(code)))]);
+    assert(row.mfa_pending_secret && row.mfa_pending_expires_at && row.mfa_pending_expires_at.getTime() > Date.now(), 409, 'ENROLLMENT_EXPIRED', 'Begin two-factor setup again.');
+    const method = row.mfa_pending_method || 'totp';
+    const pending = decrypt(row.mfa_pending_secret);
+    const counter = method === 'totp' ? validTotpCounter(pending, input.code) : null;
+    const valid = method === 'totp' ? counter !== null : await consumeMfaChannel(client, row.id, method as MfaChannelMethod, 'enroll', pending, input.code);
+    assert(valid, 422, 'MFA_INVALID', 'The verification code is invalid.');
+    const recoveryCodes = method === 'totp' ? Array.from({length:10}, () => token(12).toLowerCase()) : [];
+    await client.query("UPDATE users SET mfa_enabled=true,mfa_method=$2,mfa_secret=CASE WHEN $2='totp' THEN mfa_pending_secret ELSE NULL END,mfa_pending_secret=NULL,mfa_pending_method=NULL,mfa_pending_expires_at=NULL,mfa_last_counter=$3,recovery_hashes=$4::jsonb WHERE id=$1", [row.id,method,counter ?? -1,JSON.stringify(recoveryCodes.map(code=>hash(code)))]);
     await client.query('UPDATE sessions SET mfa_verified=true WHERE id=$1', [session.sessionId]);
     await client.query('UPDATE sessions SET revoked_at=now() WHERE user_id=$1 AND id<>$2 AND revoked_at IS NULL', [row.id,session.sessionId]);
     await client.query("UPDATE auth_challenges SET consumed_at=now() WHERE user_id=$1 AND purpose='mfa' AND consumed_at IS NULL", [row.id]);
-    await audit(row.id, 'auth.mfa.enrolled', 'user', row.id, {}, client);
-    return { recoveryCodes, mfaEnabled: true };
+    await audit(row.id, 'auth.mfa.enrolled', 'user', row.id, { method }, client);
+    return { recoveryCodes, mfaEnabled: true, mfaMethod: method };
   });
 }
 export async function disableMfa(session: SessionContext, body: unknown) {
@@ -217,8 +230,9 @@ export async function disableMfa(session: SessionContext, body: unknown) {
     const user = await currentSessionUser(session, client);
     samePasswordProof(user, observed);
     assert(user.role === 'customer', 403, 'STAFF_MFA_REQUIRED', 'Staff accounts must keep two-factor authentication enabled.');
+    assert(user.mfa_method === 'totp', 409, 'MFA_METHOD_CHANGE', 'Switch this MFA method to an authenticator before disabling it.');
     assert(user.mfa_enabled && user.mfa_secret && validTotpCounter(decrypt(user.mfa_secret), input.code, Number(user.mfa_last_counter)) !== null, 422, 'MFA_INVALID', 'The verification code is invalid.');
-    await client.query("UPDATE users SET mfa_enabled=false,mfa_secret=NULL,mfa_pending_secret=NULL,mfa_pending_expires_at=NULL,mfa_last_counter=-1,recovery_hashes='[]' WHERE id=$1", [user.id]);
+    await client.query("UPDATE users SET mfa_enabled=false,mfa_method='totp',mfa_secret=NULL,mfa_pending_secret=NULL,mfa_pending_method=NULL,mfa_pending_expires_at=NULL,mfa_last_counter=-1,recovery_hashes='[]' WHERE id=$1", [user.id]);
     await client.query('UPDATE sessions SET mfa_verified=false WHERE id=$1', [session.sessionId]);
     await client.query('UPDATE sessions SET revoked_at=now() WHERE user_id=$1 AND id<>$2', [user.id,session.sessionId]);
     await client.query("UPDATE auth_challenges SET consumed_at=now() WHERE user_id=$1 AND purpose='mfa' AND consumed_at IS NULL", [user.id]);
@@ -234,7 +248,7 @@ export async function regenerateRecoveryCodes(session: SessionContext, body: unk
   return transaction(async client=>{
     await client.query('SELECT singleton FROM workspace_meta WHERE singleton=true FOR UPDATE');
     const user=await currentSessionUser(session,client,true);
-    assert(user?.mfa_secret,403,'MFA_REQUIRED','A current two-factor authenticated session is required.');
+    assert(user.mfa_method === 'totp' && user.mfa_secret,403,'MFA_REQUIRED','Recovery codes are available only for authenticator-app MFA.');
     samePasswordProof(user,observed);
     const counter=validTotpCounter(decrypt(user.mfa_secret),input.code,Number(user.mfa_last_counter));
     assert(counter!==null,422,'MFA_INVALID','Use a fresh authenticator code that has not already been used.');
@@ -247,9 +261,20 @@ export async function regenerateRecoveryCodes(session: SessionContext, body: unk
   });
 }
 export async function security(session: SessionContext) {
+  const user = await currentSessionUser(session);
   const sessions = (await query('SELECT id,user_agent,created_at,last_seen_at,expires_at FROM sessions WHERE user_id=$1 AND revoked_at IS NULL AND expires_at>now() ORDER BY created_at DESC', [session.actor.id])).rows;
-  return { mfaEnabled: session.user.mfaEnabled, emailVerified: session.user.emailVerified===true, sessions: sessions.map(row=>({id:row.id,userAgent:row.user_agent,createdAt:row.created_at,lastSeenAt:row.last_seen_at,expiresAt:row.expires_at,current:row.id===session.sessionId})) };
+  return { mfaEnabled: user.mfa_enabled, mfaMethod: user.mfa_method, emailVerified: user.email_verified===true, methods:{totp:{available:true},email:{available:!user.email_placeholder&&user.email_verified},sms:{available:!!user.phone_number&&!!user.phone_verified_at}}, sessions: sessions.map(row=>({id:row.id,userAgent:row.user_agent,createdAt:row.created_at,lastSeenAt:row.last_seen_at,expiresAt:row.expires_at,current:row.id===session.sessionId})) };
 }
+function normalizePhone(value:string){const phone=value.trim().replace(/[۰-۹]/g,c=>String(c.charCodeAt(0)-1776)).replace(/[٠-٩]/g,c=>String(c.charCodeAt(0)-1632)).replace(/[\s().-]/g,'');const normalized=/^09\d{9}$/.test(phone)?'+98'+phone.slice(1):/^989\d{9}$/.test(phone)?'+'+phone:phone.startsWith('00')?'+'+phone.slice(2):phone;assert(/^\+[1-9]\d{9,14}$/.test(normalized),422,'PHONE_INVALID','Enter a valid mobile number.');return normalized;}
+const phoneVerificationDigest=(challenge:string,code:string)=>hash('phone-verification-v1:'+challenge+':'+code);
+export async function requestPhoneVerification(session:SessionContext,body:unknown){
+  const input=parse(z.object({phone:z.string().min(6).max(40),locale:z.enum(['fa','en','tr','ar','ru']).default('fa')}).strict(),body);const phone=normalizePhone(input.phone);
+  await rateLimit('phone-verify-user:'+session.actor.id,5,900);
+  const raw=token(),challengeHash=hash(raw),code=String(randomInt(0,1_000_000)).padStart(6,'0');
+  return transaction(async client=>{const user=await currentSessionUser(session,client);const existing=(await client.query('SELECT id FROM users WHERE phone_number=$1 AND id<>$2',[phone,user.id])).rows[0];assert(!existing,409,'PHONE_IN_USE','This mobile number is already associated with another account.');await client.query('UPDATE phone_verification_challenges SET consumed_at=clock_timestamp() WHERE user_id=$1 AND consumed_at IS NULL',[user.id]);await client.query("INSERT INTO phone_verification_challenges(challenge_hash,user_id,phone_encrypted,code_hash,expires_at) VALUES($1,$2,$3,$4,clock_timestamp()+interval '5 minutes')",[challengeHash,user.id,encrypt(phone),phoneVerificationDigest(challengeHash,code)]);const payload={to:phone,locale:input.locale,title:'Ideal Makoo',body:code,purpose:'phone-verification',phoneVerification:challengeHash,otp:true,code};await client.query("INSERT INTO outbox(id,kind,payload,dedupe_key,account_id) VALUES($1,'sms',$2::jsonb,$3,$4)",[randomUUID(),JSON.stringify({encrypted:encrypt(JSON.stringify(payload))}),'phone-verification:'+challengeHash,user.id]);await audit(user.id,'auth.phone.verification_requested','user',user.id,{},client);return{challengeToken:raw,expiresIn:300,delivery:'queued'};});
+}
+export async function confirmPhoneVerification(session:SessionContext,body:unknown){const input=parse(z.object({challengeToken:z.string().min(20).max(100),code:z.string().regex(/^\d{6}$/)}).strict(),body);await rateLimit('phone-verify-confirm:'+session.actor.id,10,900);return transaction(async client=>{const user=await currentSessionUser(session,client);const challengeHash=hash(input.challengeToken);const row=(await client.query('SELECT * FROM phone_verification_challenges WHERE challenge_hash=$1 AND user_id=$2 AND consumed_at IS NULL AND expires_at>clock_timestamp() FOR UPDATE',[challengeHash,user.id])).rows[0];assert(row&&row.attempts<5,422,'PHONE_CODE_INVALID','The verification code is invalid or expired.');await client.query('UPDATE phone_verification_challenges SET attempts=attempts+1 WHERE challenge_hash=$1',[challengeHash]);assert(equal(row.code_hash,phoneVerificationDigest(challengeHash,input.code)),422,'PHONE_CODE_INVALID','The verification code is invalid or expired.');const phone=decrypt(row.phone_encrypted);const existing=(await client.query('SELECT id FROM users WHERE phone_number=$1 AND id<>$2',[phone,user.id])).rows[0];assert(!existing,409,'PHONE_IN_USE','This mobile number is already associated with another account.');await client.query('UPDATE phone_verification_challenges SET consumed_at=clock_timestamp() WHERE challenge_hash=$1',[challengeHash]);await client.query('UPDATE users SET phone_number=$2,phone_verified_at=clock_timestamp(),updated_at=clock_timestamp() WHERE id=$1',[user.id,phone]);await audit(user.id,'auth.phone.verified','user',user.id,{},client);return{ok:true,phone};});}
+export async function canDeliverPhoneVerification(client:PoolClient,payload:Record<string,unknown>,channel:string){if(channel!=='sms'||typeof payload.phoneVerification!=='string'||typeof payload.code!=='string')return false;const row=(await client.query('SELECT phone_encrypted,code_hash FROM phone_verification_challenges WHERE challenge_hash=$1 AND consumed_at IS NULL AND attempts<5 AND expires_at>clock_timestamp()',[payload.phoneVerification])).rows[0];return!!row&&decrypt(row.phone_encrypted)===payload.to&&equal(row.code_hash,phoneVerificationDigest(String(payload.phoneVerification),String(payload.code)));}
 export async function revokeSession(session: SessionContext, id: string) {
   const result = await query('UPDATE sessions SET revoked_at=now() WHERE id=$1 AND user_id=$2 RETURNING id', [id,session.actor.id]);
   assert(result.rowCount, 404, 'NOT_FOUND', 'Session not found.'); await audit(session.actor.id,'auth.session.revoked','session',id); return {ok:true};
@@ -263,7 +288,7 @@ export async function changePassword(session: SessionContext, body: unknown) {
   await transaction(async client=>{
     const user=await currentSessionUser(session,client);
     samePasswordProof(user,observed);
-    await client.query('UPDATE users SET password_hash=$2,mfa_pending_secret=NULL,mfa_pending_expires_at=NULL,updated_at=now() WHERE id=$1',[user.id,encoded]);
+    await client.query('UPDATE users SET password_hash=$2,mfa_pending_secret=NULL,mfa_pending_method=NULL,mfa_pending_expires_at=NULL,updated_at=now() WHERE id=$1',[user.id,encoded]);
     await consumePasswordProofs(client,user.id);
     await client.query('UPDATE sessions SET revoked_at=now() WHERE user_id=$1 AND id<>$2',[user.id,session.sessionId]);
     await audit(user.id,'auth.password.changed','user',user.id,{},client);
@@ -298,7 +323,7 @@ export async function resetPassword(body: unknown) {
     const user=(await client.query('SELECT id FROM users WHERE id=$1 AND active FOR UPDATE',[candidate.user_id])).rows[0];assert(user,422,'RESET_EXPIRED','The recovery link is invalid or expired.');
     const challenge=(await client.query("SELECT * FROM auth_challenges WHERE token_hash=$1 AND user_id=$2 AND purpose='password_reset' AND consumed_at IS NULL AND expires_at>clock_timestamp() FOR UPDATE",[hash(input.token),candidate.user_id])).rows[0];
     assert(challenge,422,'RESET_EXPIRED','The recovery link is invalid or expired.');
-    await client.query('UPDATE users SET password_hash=$2,failed_logins=0,locked_until=NULL,mfa_pending_secret=NULL,mfa_pending_expires_at=NULL,updated_at=now() WHERE id=$1',[challenge.user_id,encoded]);
+    await client.query('UPDATE users SET password_hash=$2,failed_logins=0,locked_until=NULL,mfa_pending_secret=NULL,mfa_pending_method=NULL,mfa_pending_expires_at=NULL,updated_at=now() WHERE id=$1',[challenge.user_id,encoded]);
     await consumePasswordProofs(client,challenge.user_id);
     await client.query('UPDATE sessions SET revoked_at=now() WHERE user_id=$1',[challenge.user_id]);
     await audit(challenge.user_id,'auth.password.reset','user',challenge.user_id,{},client);return {ok:true};

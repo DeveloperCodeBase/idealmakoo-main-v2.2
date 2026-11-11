@@ -169,7 +169,11 @@ async function ensureRevision(client:PoolClient,bucket:'records'|'pages',source:
 async function approvedRevision(client:PoolClient,bucket:'records'|'pages',source:WorkspaceRecord|PageDraft,lang:string) {
   const result=await client.query<Revision&{approved_by:string;approved_role:string}>(`SELECT r.*,a.approved_by,a.approved_role FROM content_revisions r JOIN content_approvals a ON a.revision_id=r.id WHERE r.document_bucket=$1 AND r.document_id=$2 AND r.locale=$3 AND r.checksum=$4 AND r.created_by=$5 ORDER BY r.revision_number DESC LIMIT 1`,[bucket,source.id,lang,sourceChecksum(bucket,source),source.authorId||seedActor.id]);
   const revision=result.rows[0];
-  if(!revision||revision.created_by===revision.approved_by)throw new HttpError(409,'approval_required','This exact content revision needs independent approval');
+  if(!revision)throw new HttpError(409,'approval_required','This exact content revision needs approval');
+  // Elevated site operators may approve and publish their own editorial work.
+  // Quotes and pricebooks retain their stricter financial separation policy.
+  const elevatedSelfApproval=revision.created_by===revision.approved_by&&source.authorId===revision.approved_by&&['admin','superAdmin'].includes(revision.approved_role)&&!('collection' in source&&['quotes','pricebooks'].includes(source.collection));
+  if(revision.created_by===revision.approved_by&&!elevatedSelfApproval)throw new HttpError(409,'approval_required','This exact content revision needs independent approval');
   return revision;
 }
 async function assertWorkspaceRecordApproved(client:PoolClient,record:WorkspaceRecord,lang:string='fa') {return approvedRevision(client,'records',record,lang);}

@@ -64,7 +64,7 @@ test('analyst monitoring restrictions survive slash and admin aliases',()=>{
 });
 
 test('review separation uses account identity, including a switched role, and legacy role fallback',()=>{
- assert.equal(auth.canWorkspace('admin','review','pages',{authorId:'same',actorId:'same',authorRole:'contentEditor'}),false);
+ assert.equal(auth.canWorkspace('admin','review','pages',{authorId:'same',actorId:'same',authorRole:'contentEditor'}),true,'administrators may review their own editorial content');
  assert.equal(auth.canWorkspace('admin','review','pages',{authorId:'author-1',actorId:'author-2',authorRole:'admin'}),true);
  assert.equal(auth.canWorkspace('admin','review','pages',{authorRole:'admin'}),false);
  const before=record('research',{status:'review',author:'productManager',authorId:'demo-productManager'});

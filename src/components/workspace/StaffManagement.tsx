@@ -1,6 +1,6 @@
 'use client';
 import {useCallback,useEffect,useId,useRef,useState,type FormEvent} from 'react';
-import {Plus,Save,ShieldCheck,UserRound,LockKeyhole,RefreshCw} from 'lucide-react';
+import {Plus,Save,ShieldCheck,UserRound,LockKeyhole,RefreshCw,Trash2} from 'lucide-react';
 import {apiClient,networkError} from '@/lib/api';
 import {roles,type FrontSession} from '@/lib/auth';
 import {localeNames,type Locale} from '@/lib/i18n';
@@ -38,6 +38,10 @@ const directoryCopy={
  passwordLength:L('رمز عبور باید بین ۱۲ تا ۱۲۸ نویسه باشد.','Use a password between 12 and 128 characters.','12 ile 128 karakter arasında bir parola kullanın.','استخدم كلمة مرور بين ١٢ و١٢٨ حرفًا.','Используйте пароль длиной от 12 до 128 символов.'),
  passwordHint:L('رمز قبلی نمایش داده نمی‌شود. تعیین رمز جدید، نشست‌های فعال این کاربر را پایان می‌دهد. احراز هویت دومرحله‌ای حفظ می‌شود.','The existing password cannot be displayed. Setting a new password ends this user’s active sessions. Two-factor authentication stays enabled.','Mevcut parola gösterilemez. Yeni parola bu kullanıcının etkin oturumlarını sonlandırır. İki faktörlü doğrulama korunur.','لا يمكن عرض كلمة المرور الحالية. يؤدي تعيين كلمة مرور جديدة إلى إنهاء جلسات هذا المستخدم النشطة مع إبقاء المصادقة الثنائية.','Текущий пароль не отображается. Новый пароль завершает активные сеансы пользователя. Двухфакторная аутентификация сохраняется.'),
  passwordSaved:L('رمز عبور تغییر کرد و نشست‌های فعال کاربر پایان یافت.','Password changed and the user’s active sessions ended.','Parola değiştirildi ve kullanıcının etkin oturumları sonlandırıldı.','تم تغيير كلمة المرور وإنهاء جلسات المستخدم النشطة.','Пароль изменён, активные сеансы пользователя завершены.'),
+ userCreated:L('کاربر جدید با موفقیت ساخته شد.','The new user was created successfully.','Yeni kullanıcı başarıyla oluşturuldu.','تم إنشاء المستخدم الجديد بنجاح.','Новый пользователь успешно создан.'),
+ retire:L('حذف و غیرفعال‌سازی حساب','Remove and deactivate account','Hesabı kaldır ve devre dışı bırak','إزالة الحساب وتعطيله','Удалить и деактивировать аккаунт'),
+ retireConfirm:L('این حساب غیرفعال می‌شود، همهٔ نشست‌ها پایان می‌یابد و امکان ورود نخواهد داشت. داده‌های کاری برای حفظ سوابق حذف فیزیکی نمی‌شوند. ادامه می‌دهید؟','This account will be deactivated, all sessions will end, and it will no longer be able to sign in. Work records are retained and are not physically deleted. Continue?','Bu hesap devre dışı bırakılır, tüm oturumlar sonlandırılır ve artık giriş yapamaz. İş kayıtları korunur ve fiziksel olarak silinmez. Devam edilsin mi?','سيُعطّل هذا الحساب وتُنهي جميع جلساته ولن يتمكن من تسجيل الدخول. تُحتفظ بسجلات العمل ولا تُحذف مادياً. هل تريد المتابعة؟','Учётная запись будет деактивирована, все сеансы завершатся, и вход станет невозможен. Рабочие записи сохраняются и физически не удаляются. Продолжить?'),
+ retired:L('حساب غیرفعال شد و همهٔ نشست‌های آن پایان یافت.','The account was deactivated and its sessions were ended.','Hesap devre dışı bırakıldı ve oturumları sonlandırıldı.','عُطّل الحساب وأنهيت جلساته.','Учётная запись деактивирована, её сеансы завершены.'),
  ownPassword:L('برای تغییر رمز عبور خود، بخش امنیت حساب را باز کنید.','To change your own password, open account security.','Kendi parolanızı değiştirmek için hesap güvenliğini açın.','لتغيير كلمة مرورك افتح أمان الحساب.','Для изменения своего пароля откройте настройки безопасности аккаунта.'),
  emailHint:L('تغییر ایمیل، نشست‌های قبلی کاربر را پایان می‌دهد.','Changing the email address ends the user’s previous sessions.','E-posta adresini değiştirmek kullanıcının önceki oturumlarını sonlandırır.','يؤدي تغيير البريد الإلكتروني إلى إنهاء جلسات المستخدم السابقة.','Изменение email завершает предыдущие сеансы пользователя.'),
  scope:L('محدوده دسترسی CRM','CRM access scope','CRM erişim kapsamı','نطاق الوصول إلى CRM','Область доступа CRM'),
@@ -137,7 +141,12 @@ function StaffManagementBody({store}:{store:WorkspaceStore}){
   const result=await apiClient.request<ManagedUserMutation>(selected?`/users/${encodeURIComponent(selected.id)}`:'/users',{method:selected?'PATCH':'POST',body:JSON.stringify(payload),signal:controller.signal});
   if(!current())return;
   if(result.requiresReauthentication){setDraft(fresh());setOpen(false);window.location.assign(app.href('auth/login'));return;}
-  await reload.current(false,true);if(!current())return;setDraft(fresh());setOpen(false);store.notify(wt('saved',locale));
+  // Commit the confirmed API response to the table before any background
+  // refresh. A slow directory request must never leave a successful create
+  // dialog open or make an administrator wonder whether the user exists.
+  const currentPage=pageRef.current,items=selected?currentPage.items.map(user=>user.id===result.id?result:user):[result,...currentPage.items.filter(user=>user.id!==result.id)];
+  remember({...currentPage,items});setDraft(fresh());setOpen(false);store.notify(selected?wt('saved',locale):localized(directoryCopy.userCreated,locale));
+  void reload.current(false,true);
  }catch(reason){if(current())setError(networkError(reason,locale));}finally{if(mutationRef.current===controller){mutationRef.current=null;if(mounted.current&&identityRef.current===identity)setBusy(false);}}};
  const savePassword=async(event:FormEvent)=>{
   event.preventDefault();if(!selected||!canResetPassword||mutationRef.current||!mounted.current)return;
@@ -148,6 +157,20 @@ function StaffManagementBody({store}:{store:WorkspaceStore}){
   setBusy(true);setError('');
   try{const result=await apiClient.request<ManagedUserPasswordResetResult>(`/users/${encodeURIComponent(selected.id)}/password`,{method:'POST',body:JSON.stringify({password:draft.password,expectedUpdatedAt:selected.updatedAt} satisfies ManagedUserPasswordResetInput),signal:controller.signal});if(!current())return;setDraft(value=>({...value,password:'',confirmPassword:''}));if(result.updatedAt)setSelected(value=>value?.id===selected.id?{...value,updatedAt:result.updatedAt!}:value);store.notify(localized(directoryCopy.passwordSaved,locale));}
   catch(reason){if(current())setError(networkError(reason,locale));}
+  finally{if(mutationRef.current===controller){mutationRef.current=null;if(mounted.current&&identityRef.current===identity)setBusy(false);}}
+ };
+ const retire=async()=>{
+  if(!selected||!canChangeActive||mutationRef.current||!mounted.current)return;
+  if(!window.confirm(localized(directoryCopy.retireConfirm,locale)))return;
+  const target=selected,controller=new AbortController();mutationRef.current=controller;
+  const current=()=>mounted.current&&identityRef.current===identity&&mutationRef.current===controller&&!controller.signal.aborted;
+  setBusy(true);setError('');
+  try{
+   await apiClient.request<ManagedUserMutation>(`/users/${encodeURIComponent(target.id)}`,{method:'DELETE',body:JSON.stringify({expectedUpdatedAt:target.updatedAt}),signal:controller.signal});
+   if(!current())return;
+   await reload.current(false,true);if(!current())return;
+   setDraft(fresh());setOpen(false);store.notify(localized(directoryCopy.retired,locale));
+  }catch(reason){if(current())setError(networkError(reason,locale));}
   finally{if(mutationRef.current===controller){mutationRef.current=null;if(mounted.current&&identityRef.current===identity)setBusy(false);}}
  };
  const recoverMfa=async(event:FormEvent)=>{
@@ -196,6 +219,7 @@ function StaffManagementBody({store}:{store:WorkspaceStore}){
     <p className="ws-muted"><LockKeyhole size={16}/>{localized(L('کارکنان در اولین ورود احراز هویت دومرحله‌ای را فعال می‌کنند.','Staff enable two-factor authentication on their first sign-in.','Personel ilk girişte iki faktörlü doğrulamayı etkinleştirir.','يفعّل الموظفون المصادقة الثنائية عند أول دخول.','При первом входе сотрудники включают двухфакторную аутентификацию.'),locale)}</p>
     <button className="btn btn-primary" disabled={busy||!canEdit||!draft.allowedLocales.length}><Save size={16}/>{busy?'…':wt('save',locale)}</button>
    </form>
+   {selected&&selected.active&&canChangeActive&&<div className="ws-edit-form"><hr/><button type="button" className="btn" disabled={busy} onClick={()=>void retire()}><Trash2 size={16}/>{localized(directoryCopy.retire,locale)}</button></div>}
    {selected&&canResetPassword&&<form className="ws-edit-form" onSubmit={savePassword} data-user-password-form><hr/><h3>{localized(directoryCopy.resetPassword,locale)}</h3><p className="ws-muted">{localized(directoryCopy.passwordHint,locale)}</p><Field label={localized(directoryCopy.newPassword,locale)}><input className="input" dir="ltr" type="password" autoComplete="new-password" value={draft.password} minLength={12} maxLength={128} disabled={busy} required onChange={event=>setDraft(value=>({...value,password:event.target.value}))}/></Field><Field label={localized(directoryCopy.confirmPassword,locale)}><input className="input" dir="ltr" type="password" autoComplete="new-password" value={draft.confirmPassword} minLength={12} maxLength={128} disabled={busy} required onChange={event=>setDraft(value=>({...value,confirmPassword:event.target.value}))}/></Field><button className="btn" disabled={busy}><LockKeyhole size={16}/>{localized(directoryCopy.resetPassword,locale)}</button></form>}
    {canResetMfa&&<div><hr/><button ref={mfaTrigger} type="button" className="btn" disabled={busy} aria-expanded={mfaRecoveryOpen} aria-controls={mfaRecoveryOpen?mfaFormId:undefined} onClick={()=>{setError('');setMfaRecovery(freshMfaRecovery());setMfaRecoveryOpen(value=>!value);}}><ShieldCheck size={16}/>{localized(mfaRecoveryCopy.title,locale)}</button>
     {mfaRecoveryOpen&&<form id={mfaFormId} className="ws-edit-form" onSubmit={recoverMfa} aria-labelledby={`${mfaFormId}-title`} aria-describedby={`${mfaFormId}-consequences`} data-user-mfa-recovery-form>

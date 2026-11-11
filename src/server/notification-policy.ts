@@ -290,6 +290,22 @@ async function prepareNotificationDelivery(row:PolicyOutboxRow,at=new Date(),con
             }
             return {action:'send',payload,marketing:false};
         }
+        if (payload.mfaOtp) {
+            const {canDeliverMfaOtp}=await import('./mfa-channel');
+            if(!await canDeliverMfaOtp(client,payload,row.kind)){
+                await handled(client,row,{action:'cancel',code:'OTP_EXPIRED'},payload);
+                return {action:'handled'};
+            }
+            return {action:'send',payload,marketing:false};
+        }
+        if (payload.phoneVerification) {
+            const {canDeliverPhoneVerification}=await import('./auth');
+            if(!await canDeliverPhoneVerification(client,payload,row.kind)){
+                await handled(client,row,{action:'cancel',code:'OTP_EXPIRED'},payload);
+                return {action:'handled'};
+            }
+            return {action:'send',payload,marketing:false};
+        }
         if (payload.communicationProof || payload.communicationConfirmed) {
             const proof = await import("./communication-channels");
             const allowed = payload.communicationProof ? await proof.canDeliverCommunicationProof(client, payload, row.kind) : await proof.canDeliverCommunicationConfirmation(client, payload, row.kind);

@@ -44,7 +44,8 @@ function canReviewSource(actor:Actor,source:WorkspaceRecord|PageDraft,lang?:stri
     if(!('collection'in source)&&!canManageSitePage(actor.role,source.slug))return false;
     if ("collection" in source && (isScopedCrmRecord)(source) && ["quotes", "pricebooks"].includes(source.collection) && actor.crmAccess?.permissions.financial !== true)
         return false;
-    if (!hasWorkspacePermission(actor,'review',section,lang) || !source.authorId || source.authorId === actor.id)
+    const selfReview=source.authorId===actor.id&&['admin','superAdmin'].includes(actor.role);
+    if (!hasWorkspacePermission(actor,'review',section,lang) || !source.authorId || source.authorId === actor.id&&!selfReview)
         return false;
     if (['products','research','resources'].includes(section) && !(actor.role === "scientificReviewer" || ['admin','superAdmin'].includes(actor.role) && actor.qualityScope))
         return false;

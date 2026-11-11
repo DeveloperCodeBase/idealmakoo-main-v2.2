@@ -6,7 +6,8 @@ import {audit,query,transaction} from './db';
 import {decrypt,encrypt,equal,hash,passwordHash,token} from './crypto';
 import {json,parse,rateLimit,visitorKey} from './http';
 import {assert,locales} from './types';
-import {newSession,signedInResponse,type UserRow} from './auth';
+import {mfaDeliveryHint,newSession,signedInResponse,type UserRow} from './auth';
+import {issueMfaChannel} from './mfa-channel';
 import type {NotificationPayload} from './notification-policy';
 
 const ttl=300, resend=60;
@@ -81,12 +82,13 @@ export async function verifyCustomerOtp(request:Request,body:unknown){
     if(user.mfa_enabled){
       const challengeToken=token();
       await client.query("INSERT INTO auth_challenges(token_hash,user_id,purpose,expires_at) VALUES($1,$2,'mfa',clock_timestamp()+interval '5 minutes')",[hash(challengeToken),user.id]);
-      return {mfa:true as const,challengeToken};
+      if(user.mfa_method==='email'||user.mfa_method==='sms')await issueMfaChannel(client,user,user.mfa_method,'login',challengeToken);
+      const method=user.mfa_method||'totp';return {mfa:true as const,challengeToken,method,destination:mfaDeliveryHint(user,method)};
     }
     return {mfa:false as const,created,session:await newSession(user,request,false,client)};
   });
   assert(result,401,'OTP_INVALID','The code is invalid, expired, already used, or the account cannot sign in.');
-  return result.mfa?json({mfaRequired:true,challengeToken:result.challengeToken}):signedInResponse(result.session,result.created?201:200);
+  return result.mfa?json({mfaRequired:true,challengeToken:result.challengeToken,mfaMethod:result.method,mfaDestination:result.destination}):signedInResponse(result.session,result.created?201:200);
 }
 export async function canDeliverCustomerOtp(client:PoolClient,payload:NotificationPayload,channel:string){
   if(channel!=='sms'||payload.purpose!=='customer-otp'||typeof payload.customerOtp!=='string'||typeof payload.code!=='string')return false;

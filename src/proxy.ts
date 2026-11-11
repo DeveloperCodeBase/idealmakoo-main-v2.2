@@ -16,7 +16,10 @@ export async function proxy(request:NextRequest) {
   const najvaWorker=path==='/najva-messaging-sw.js';
   const staticWorker=['/service-worker.js','/service-worker-classic.js','/sw-policy.js'].includes(path);
   const documentPolicy=!apiPath&&!najvaWorker&&!staticWorker;
-  const pushDocument=/^\/(?:fa|en|tr|ar|ru)\/communication-verification\/device\/$/.test(policyPath);
+  // The public Najva bootstrap is present on regular documents.  Its network
+  // access therefore needs the same allow-listed CSP origins as the device
+  // enrolment page; `contentSecurityPolicy` validates those origins first.
+  const pushDocument=documentPolicy;
   const nonce=documentPolicy?randomBytes(24).toString('base64'):undefined;
   const policy=documentPolicy?contentSecurityPolicy(process.env,pushDocument,nonce):staticWorker?workerContentSecurityPolicy():undefined;
   const security=(response:NextResponse)=>{

@@ -80,7 +80,14 @@ export function canWorkspace(role:string,action:WorkspaceAction,section:string,c
  if(editorialModules.includes(module)&&context.locale&&context.allowedLocales&&['create','edit','archive','submit','review','publish','translate'].includes(action)&&!context.allowedLocales.includes(context.locale))return false;
  if(action==='translate'&&context.locale&&!(context.allowedLocales??allowedTranslationLocales(role)).includes(context.locale))return false;
  if(path==='quality'&&context.qualityScope===false)return false;
- if(action==='review'&&((context.authorId&&context.actorId&&context.authorId===context.actorId)||(!context.authorId&&context.authorRole===role)))return false;
+ // Owners and administrators are accountable for the final site state and may
+ // approve their own editorial work. Other roles still require a different
+ // reviewer, preventing ordinary maker/checker bypasses.
+ // Review is identity-sensitive.  Legacy rows without an immutable author ID
+ // must fail closed rather than allowing a privileged reviewer to infer that
+ // they are reviewing somebody else's work.
+ if(action==='review'&&context.authorRole&&!context.authorId)return false;
+ if(action==='review'&&context.actorId&&context.authorId===context.actorId&&!['superAdmin','admin'].includes(role))return false;
  return permitted;
 }
 export function authorize(role:string,section:string):boolean {

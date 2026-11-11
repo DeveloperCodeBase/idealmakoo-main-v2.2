@@ -11,7 +11,7 @@ import styles from './account.module.css';
 
 import {otpCopy} from './otp-copy';
 export {otpCopy} from './otp-copy';
-export interface OtpSignInResult {user?:FrontSession;csrfToken?:string;mfaRequired?:boolean;challengeToken?:string;mfaEnrollmentRequired?:boolean}
+export interface OtpSignInResult {user?:FrontSession;csrfToken?:string;mfaRequired?:boolean;challengeToken?:string;mfaMethod?:'totp'|'email'|'sms';mfaDestination?:string;mfaEnrollmentRequired?:boolean}
 interface OtpStatus {enabled:boolean;configured:boolean;expiresIn:number;retryAfter:number}
 interface Challenge {challengeToken:string;expiresIn:number;retryAfter:number}
 const digits=(value:string)=>value.replace(/[۰-۹٠-٩]/g,char=>String('۰۱۲۳۴۵۶۷۸۹'.includes(char)?'۰۱۲۳۴۵۶۷۸۹'.indexOf(char):'٠١٢٣٤٥٦٧٨٩'.indexOf(char)));
